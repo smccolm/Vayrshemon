@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M0 Windows setup — 2026-10-22
+
+- Add `setup.bat` to create or reuse an isolated Python 3.12 environment, install pinned dependencies, and run dependency, contract, and test checks.
+- Keep setup output visible, save per-run console and structured check logs, and return a failure exit code for automation.
+- Exercise the setup entry point in Windows CI; retain the direct Python checks on Linux.
+
 ## Specification 0.2.0 / M0 tools and data 0.1.0 — 2026-10-22
 
 - Complete the M0 evidence-and-contracts milestone: hash all 1,506 assets and register all 103 TTFs.

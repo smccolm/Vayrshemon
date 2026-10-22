@@ -18,19 +18,21 @@ The repository is [smccolm/Vayrshemon](https://github.com/smccolm/Vayrshemon). T
 
 ## Repeatable research
 
-With Python 3.12.7 and the dependencies in `requirements-m0.txt`, the public checks run without Inputs:
+On Windows, double-click [`setup.bat`](setup.bat). With Python 3.12 (64-bit) installed, it creates or reuses `.venv`, installs the pinned M0 dependencies, and runs all public checks. Python 3.12.7 is the tested version. Setup keeps output visible and saves a separate log for each run in `.local/logs/`. It pauses before closing; use `setup.bat --no-pause` for automation.
+
+After setup, run tools directly through the project environment. The public checks work without Inputs:
 
 ```powershell
-python -m tools.m0 check
-python -m unittest discover -s tests -v
+.venv\Scripts\python -m tools.m0 check
+.venv\Scripts\python -m unittest discover -s tests -v
 ```
 
 See the [M0 guide](docs/M0.md) for installation, catalog regeneration, source verification, and legacy decoding.
 
-With Python 3 installed, run this read-only comparison from the repository root:
+Run this read-only comparison from the repository root:
 
 ```powershell
-python tools/inspect_font_layers.py --root .
+.venv\Scripts\python tools/inspect_font_layers.py --root .
 ```
 
 It compares the three source TTFs used by the archived color-lettering instructions. The checked-in [audit](docs/research/font-layer-audit.json) records their hashes and metrics; it does not contain the fonts themselves.
