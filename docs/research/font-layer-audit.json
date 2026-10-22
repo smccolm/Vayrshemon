@@ -1,0 +1,109 @@
+{
+  "auditSchemaVersion": 1,
+  "tool": "tools/inspect_font_layers.py",
+  "master": "Inputs/font files/Thimfora_79.ttf",
+  "fonts": [
+    {
+      "role": "outline-master",
+      "path": "Inputs/font files/Thimfora_79.ttf",
+      "bytes": 172144,
+      "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc",
+      "glyphCount": 123,
+      "unitsPerEm": 1000,
+      "verticalMetrics": {
+        "ascender": 750,
+        "descender": -250,
+        "lineGap": 0
+      },
+      "selectedTableHashes": {
+        "cmap": "ea624712f74e2fcf3bb6fb9548412eaeecf8b3d737079c2863c251216a0d8cf0",
+        "GDEF": "2c1c24873880d08197884234dc9414188bf820362a33674686424e10d277d14a",
+        "GPOS": "ad92b316a795702b62d1de26c4a310c8f98116425c536e24346e69dfcb4899fb",
+        "kern": "e726d560a8bebfc601ffdc3d7f36bbd3c429e7bc1eb48376e296a1494487f679",
+        "hhea": "7785329f7f41a4f3cf14a43f79840e48cdab3e7cfd877177ca8794d089abfcd4",
+        "hmtx": "dee4209188370987986933feb872a2335df2aa546a35db421cf588eec70d6de3"
+      }
+    },
+    {
+      "role": "outer-glow",
+      "path": "Inputs/font files/Thimfora_80_Infill.ttf",
+      "bytes": 141016,
+      "sha256": "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd",
+      "glyphCount": 123,
+      "unitsPerEm": 1000,
+      "verticalMetrics": {
+        "ascender": 750,
+        "descender": -250,
+        "lineGap": 0
+      },
+      "selectedTableHashes": {
+        "cmap": "ea624712f74e2fcf3bb6fb9548412eaeecf8b3d737079c2863c251216a0d8cf0",
+        "GDEF": "2c1c24873880d08197884234dc9414188bf820362a33674686424e10d277d14a",
+        "GPOS": "ad92b316a795702b62d1de26c4a310c8f98116425c536e24346e69dfcb4899fb",
+        "kern": "e726d560a8bebfc601ffdc3d7f36bbd3c429e7bc1eb48376e296a1494487f679",
+        "hhea": "7785329f7f41a4f3cf14a43f79840e48cdab3e7cfd877177ca8794d089abfcd4",
+        "hmtx": "dee4209188370987986933feb872a2335df2aa546a35db421cf588eec70d6de3"
+      }
+    },
+    {
+      "role": "interior",
+      "path": "Inputs/font files/Thimfora_81_Fragments.ttf",
+      "bytes": 132716,
+      "sha256": "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325",
+      "glyphCount": 123,
+      "unitsPerEm": 1000,
+      "verticalMetrics": {
+        "ascender": 750,
+        "descender": -250,
+        "lineGap": 0
+      },
+      "selectedTableHashes": {
+        "cmap": "ea624712f74e2fcf3bb6fb9548412eaeecf8b3d737079c2863c251216a0d8cf0",
+        "GDEF": "2c1c24873880d08197884234dc9414188bf820362a33674686424e10d277d14a",
+        "GPOS": "ad92b316a795702b62d1de26c4a310c8f98116425c536e24346e69dfcb4899fb",
+        "kern": "e726d560a8bebfc601ffdc3d7f36bbd3c429e7bc1eb48376e296a1494487f679",
+        "hhea": "3dad96e72397a96b3927e30e01589bd2d32d16c5a6837afc8e761d0bb6c7c453",
+        "hmtx": "b8fb0b059cdcfd75c25300fa0b8a88b36171b25091c943f2a1fe401ebca942ba"
+      }
+    }
+  ],
+  "comparisonsToMaster": [
+    {
+      "path": "Inputs/font files/Thimfora_80_Infill.ttf",
+      "sameGlyphCount": true,
+      "sameUnitsPerEm": true,
+      "sameVerticalMetrics": true,
+      "advanceDifferences": [],
+      "sideBearingDifferenceCount": 0,
+      "identicalSelectedTables": {
+        "cmap": true,
+        "GDEF": true,
+        "GPOS": true,
+        "kern": true,
+        "hhea": true,
+        "hmtx": true
+      }
+    },
+    {
+      "path": "Inputs/font files/Thimfora_81_Fragments.ttf",
+      "sameGlyphCount": true,
+      "sameUnitsPerEm": true,
+      "sameVerticalMetrics": true,
+      "advanceDifferences": [],
+      "sideBearingDifferenceCount": 119,
+      "identicalSelectedTables": {
+        "cmap": true,
+        "GDEF": true,
+        "GPOS": true,
+        "kern": true,
+        "hhea": false,
+        "hmtx": false
+      }
+    }
+  ],
+  "limitations": [
+    "Does not execute shaping or validate outlines, hinting, or checksums.",
+    "Matching tables and advances do not prove visual layer registration.",
+    "Side-bearing differences can reflect intentional layer geometry."
+  ]
+}

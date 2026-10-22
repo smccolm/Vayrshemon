@@ -1,0 +1,182 @@
+# Vayrshemon editor: delivery plan
+
+Revision **0.1.0**, 2026-10-22. Status: initial plan; implementation has not started.
+
+## 1. Product commitment
+
+Build a Windows desktop editor that can become the authoring environment for an entire constructed language. The first useful release must let us write, revise, inspect, save, and export real documents using the existing script. Subsequent releases will add the structured lexicon, grammar, corpus, and publishing capabilities needed to develop the language over years.
+
+Confirmed requirements: local files; custom page widths and heights; monochrome TTFs and color fonts derived from them; English-only, Vayrshemon-only, and mixed-language pages; extensive control over spacing and collisions; versioning; programmatic control through APIs and MCP; accessible troubleshooting output.
+
+Working spelling is **Vayrshemon**, matching the repository and archive. Language, script, and font names will be separate metadata, so display names can change without changing persistent IDs.
+
+Architecture proposals below are engineering choices to validate, not additional user decisions required before work can proceed. Technical details and source references are in [ARCHITECTURE.md](ARCHITECTURE.md); archive evidence is in [INPUTS.md](INPUTS.md).
+
+## 2. Requirements and proof of completion
+
+| ID | Requirement | Acceptance evidence |
+| --- | --- | --- |
+| PAGE-01 | Independently configurable width and height, including mixed sizes within one document; mm, inches, and points | Enter fractional dimensions, save/reopen, and verify physical export size independently of zoom and display scaling |
+| PAGE-02 | Page margins, bleed, guides, backgrounds, text frames, and overflow behavior | Overlong text flows, overflows, or clips according to an explicit policy; no silent loss |
+| TEXT-01 | English, Vayrshemon, and mixed-language text at span level | One paragraph contains both; selection, search, clipboard, and undo preserve language and orthography metadata |
+| TEXT-02 | Reliable editing | Keyboard, pointer selection, navigation, IME composition, dead keys, paste, deletion, undo/redo, and accessibility operate on meaningful text boundaries |
+| FONT-01 | Load local monochrome TTFs without installing them globally | Two files with the same internal family name remain distinguishable; missing or changed files produce an explicit diagnostic |
+| FONT-02 | Editable color treatments from the original TTF layers | Edit one logical text run; every color layer stays registered and follows the same layout |
+| FONT-03 | Build portable color fonts | A reproducible build produces a validated COLR/CPAL font and a compatibility report; unsupported effects are identified |
+| LAYOUT-01 | Detailed paragraph and line controls | Explicit font size, tracking, word spacing, kerning, baseline shift, line-height modes, paragraph spacing, alignment, and break policies |
+| LAYOUT-02 | Explainable collision handling | Inspect offending geometry; choose warn, allow, or constrained repair; intentional overlaps remain possible |
+| DATA-01 | Durable, portable documents | Save/reopen semantic equality; recovery after interrupted writes; migrations preserve a prior readable copy |
+| VERSION-01 | Reconstruct a historical result | Resolve document revision, exact font hashes, mapping and recipe revisions, and engine versions; replay the same fixture |
+| AUTO-01 | APIs and MCP for meaningful operations | Create, edit, inspect, render, diagnose, save, and export through the same command contracts used by the UI |
+| DEBUG-01 | Troubleshooting visibility | Correlated UI, core, renderer, importer, build, and MCP logs plus a reproducible problem bundle |
+| EXPORT-01 | Useful publishing outputs | PNG, SVG, and PDF have checked dimensions and visual comparisons; text extraction and effect limitations are reported |
+| LANG-01 | Grow into a language workbench | Stable links from document spans to orthography, lexemes, senses, analyses, examples, and source evidence |
+
+“Arbitrary page dimensions” means free numeric dimensions rather than a preset list. Storage precision, rendering memory, export formats, and printers have finite limits. The engine must validate dimensions, tile large surfaces, and explain format-specific limits; it must never silently resize or crop a page. An unbounded scrolling draft surface can be a later view of the same content.
+
+## 3. Decisions that protect future revisions
+
+1. **Meaning survives appearance changes.** Preserve original legacy codes and their exact mapping profile during import. Introduce stable script-symbol identities and a versioned orthography model before interpreting those codes as language data.
+2. **One layout authority.** UI, print/export, CLI, and MCP consume the same shaped runs and layout results. Browser CSS text measurement will not decide pagination.
+3. **Editable text survives visual effects.** Color recipes reference the same logical text and positioned glyphs. The editor retains source text when an export must flatten an effect.
+4. **Every user action has an inspectable command.** Commands have revision checks, undo semantics, structured results, and trace IDs. Agent tools use these contracts.
+5. **Old work remains recoverable.** Changing a font, recipe, schema, or engine creates an explicit new revision and a comparison, rather than invisibly rewriting history.
+6. **Language rules remain revisable.** Attested, proposed, deprecated, disputed, and unknown data are distinct. Blanks in the archive do not become invented vocabulary or grammar.
+
+## 4. Delivery sequence
+
+Milestones are gated by working evidence, not calendar guesses. Each ends in a runnable checkpoint, recorded limitations, a regression set, and a versioned change log. Revisit scope after the font/input spike gives us actual performance and compatibility data.
+
+### M0 — Evidence and contracts
+
+**Current state:** archive reviewed; Git remote configured; Inputs ignored; first plan and source-font audit recorded. Full machine-readable mappings and automated import fixtures remain open.
+
+Deliver:
+
+- Asset catalog with relative paths, hashes, source relationships, and review status; keep original assets in ignored `Inputs/`.
+- Font registry starting with Thimfora 79, 80, 81, transliteration 7, and the older naming-collision examples.
+- Character mapping workbook/data for the 47-letter maxima/minima inventory, 12 Unta digits, and punctuation. Each entry has source evidence and confidence.
+- Requirements IDs, initial document/command schemas, capability matrix, and architecture decision log.
+- A small fixture selection: alphabet and digits, mixed-language examples, kerning sequences, line-spacing stress cases, and color references.
+
+**Exit gate:** every initial symbol is either mapped with evidence or explicitly unresolved; all selected assets are identified by hash; legacy import never guesses away an unmapped character. Public CI has synthetic or redistributable fixtures; local tests resolve the ignored archive by hash.
+
+### M1 — Font, rendering, and input laboratory
+
+This is the first implementation priority. Establish the hardest dependencies before building the full editor UI.
+
+Deliver:
+
+- A minimal Windows window plus headless runner that loads the actual TTFs, shapes text, and displays arbitrary-size page surfaces.
+- Side-by-side monochrome, registered three-layer color, and reference-image views. Layer toggles, origin markers, baseline and ink-bound overlays.
+- Editable text with caret hit-testing, selection, horizontal/vertical navigation, clipboard, undo, IME composition, and accessibility inspection.
+- Shape inspector: source units, clusters, glyph IDs, advances, offsets, selected font, active features, and fallback reason.
+- Structured logs from all running components and an initial MCP inspect/render/edit route.
+- Measurements for rendering transport, redraw latency, memory, DPI changes, and save/reopen of a minimal document.
+
+**Exit gate:** actual source fonts render and remain aligned; mixed English/script typing and IME work; UI and headless geometry agree; selection follows visible glyph clusters; the accessibility tree exposes meaningful text. If the proposed shell/input bridge fails this gate, change the adapter before committing to the UI framework. Record screenshots and metrics from the successful route.
+
+### M2 — First usable editor, target application v0.1
+
+Deliver:
+
+- New/open/save/save-as, recent files, recovery, undo/redo, find/replace, and basic styles.
+- Custom page sizes, per-page overrides, margins, text frames, zoom, pan, rulers, and explicit overflow indicators.
+- English-only, script-only, and mixed-language documents with correct clipboard representations.
+- Local font loading, monochrome text, registered flat-color layers, and editable palette/recipe selection.
+- Line and paragraph spacing, alignment, tabs, tracking, kerning controls, and baseline adjustment.
+- Native document format with schema validation, history, atomic save, migration hooks, and missing-asset handling.
+- CLI/MCP parity for all these operations; PNG export and initial vector export proof.
+
+**Exit gate:** compose a real mixed-language page, change its dimensions, edit both languages, switch monochrome/color, close/reopen, recover an interrupted session, and reproduce the page through MCP. Geometry and text must round-trip. This milestone is a usable editing tool even while richer visual effects remain in development.
+
+### M3 — Typesetting and collision workbench, target v0.2
+
+Deliver:
+
+- Exact, minimum, and proportional line-height modes; leading distribution; baseline grids; paragraph before/after spacing; keep-with-next and widow/orphan control.
+- Unicode-aware line breaking with versioned language tailoring; explicit discretionary breaks and a future hyphenation interface.
+- Separate advance, ink, stroke, and effect bounds; horizontal and vertical collision reports.
+- Warn/allow/repair policies with minimum clearance, maximum expansion, fixed-page constraints, and visible explanations.
+- Controlled optical adjustments stored separately from font kerning. Bounded solver iterations, deterministic tie-breaking, and unresolved-constraint output.
+- Kerning/pair explorer, dense alphabet specimens, baseline comparisons, and before/after layout differences.
+
+**Exit gate:** no automatic change to text or font size; no separation of intentional connected glyphs or marks; constrained repairs either meet their documented clearance or return a stable explanation. Reflow terminates and remains reproducible.
+
+### M4 — Color-font studio and publishing, target v0.3
+
+Deliver:
+
+- Versioned paint recipes for fills, gradients, strokes, shadows, glow, and bevel-style treatments, with accurate effect extents.
+- Rebuildable color font pipeline: source TTF hashes, glyph mapping, palettes, recipes, compiler versions, output hashes, and validation reports.
+- COLR/CPAL output for supported treatments; explicit alternatives for effects outside that format. Preserve a monochrome fallback.
+- Page PNG, SVG, and PDF export; deliberate raster fallback at specified resolution; multi-page print proof and color/background checks.
+- Export preflight for page dimensions, missing fonts, overset text, unsupported effects, font embedding, and text-extraction behavior.
+
+**Exit gate:** compare exported pages against the editor, check physical size, validate the generated font in an independent renderer, and test copying/searching exported text. Decorative output must never be presented as semantically faithful searchable text when it is only an image or outline.
+
+### M5 — Language workbench, target v0.4 and onward
+
+Deliver in small vertical increments:
+
+1. Orthography registry, symbol inventory, input layouts, transliteration profiles, and reversible mappings where possible.
+2. Lexicon with stable entry and sense IDs, pronunciations/IPA, parts of speech, definitions, examples, variants, etymologies, status, and citations.
+3. Morphology and grammar data: roots, affixes/clitics, paradigms, inflection, derivation, tense/aspect, pronouns, and construction examples.
+4. Interlinear glossing, aligned translations, corpus search, concordances, frequency analysis, and links between dictionary entries and document occurrences.
+5. Exact base-12 number representation and Unta formatting, including rational values and versioned reading conventions.
+6. Grammar-book and dictionary publishing from the same structured data, plus portable data export and later audio links.
+
+**Exit gate for each increment:** real examples from the archive can be represented without erasing uncertainty or competing revisions. A language revision identifies the rules and lexicon used by a document; adopting a new revision is inspectable and reversible. Changes to language data do not silently rewrite quotations or historical documents.
+
+### M6 — Long-term reliability and release discipline
+
+Harden throughout development; complete before relying on the app as the only authoring tool:
+
+- Large-document editing, paginated and unusually large-page performance, incremental reflow, bounded caches, and cancellable background jobs.
+- Windows installer/update/rollback path; independent document backups and a recovery exercise on a clean installation.
+- Accessibility, keyboard-only workflows, migration compatibility, and an audited dependency/license inventory.
+- Exported interchange documentation and an offline command-line recovery/inspection utility.
+
+Browser support, real-time collaboration, plugins, advanced vertical typography, and GPU-specific optimizations are later decisions. Their extension points should remain possible without delaying the first reliable Windows editor.
+
+## 5. Validation strategy
+
+| Suite | Examples | Required observation |
+| --- | --- | --- |
+| Source fonts | All selected glyphs, missing glyph, duplicated family names, GPOS/kern interaction | Font hash, mapping, glyph IDs, positions, and explicit substitution policy |
+| Editing | Combining marks, ligatures, surrogate pairs, mixed direction, IME, undo grouping | Correct semantic ranges, caret affinity, retained composition and metadata |
+| Layout | Tall/wide/tiny pages, dense lines, overhangs, negative spacing, long unbreakable content | Stable overflow and collision diagnostics; bounded memory and solver work |
+| Color | Three-layer text, gradients, alpha, glow, DPI and zoom changes | Same origins and advances; no clipped effects or raster seams |
+| Persistence | Crash during write, truncated journal, missing font, external edit, old schema | Recoverable last durable revision and a clear conflict/migration report |
+| Automation | Stale revision, retried mutation, cancellation, concurrent manual edit | No double-application or lost edits; structured errors and trace IDs |
+| Publishing | Physical units, backgrounds, raster effects, copy/search, large dimensions | Visual proof plus semantic and format-limit reports |
+| Language | Ambiguous transliteration, conflicting grammar sources, renamed symbols | Preserved provenance and stable links; unresolved meaning remains visible |
+
+Use Unicode conformance data for the pinned segmentation/bidi versions; shaping fixtures for glyph positions; property/fuzz tests for parsers, history, transforms, and bounded layout; image comparisons for visual changes. A changed golden image requires an explanation, not automatic acceptance. Compare geometry separately from raster pixels so antialiasing differences do not conceal layout regressions.
+
+Provisional performance budgets, to measure and ratify in M1 on a recorded reference machine: p95 key-to-visible feedback below 50 ms for the active page; a 16.7 ms interactive frame budget for ordinary pan/selection; no whole-document reflow for a local edit unless pagination dependencies require it. Benchmark a 100,000-character, 100-page synthetic document and a large decorative page. Record hardware, cold/warm state, font and effect complexity; publish memory and large-page limits after measurement rather than promising unlimited capacity.
+
+## 6. Versioning and the revision loop
+
+| Item | Versioning policy |
+| --- | --- |
+| Code, plans, schemas, migration scripts, test definitions | Git commits with focused changes; milestone tags and release notes; dependency/toolchain locks |
+| Original Inputs | Keep untouched and ignored; maintain relative-path/hash manifests and a separately configured backup |
+| Derived fonts and recipes | New artifact revision, source hashes, tool versions, generation recipe, comparison report; retain earlier artifacts |
+| Documents | Stable IDs, monotonic revisions, durable journal, checkpoints, named revisions, semantic diffs, and recovery |
+| Language data | Stable entity IDs and explicit revisions; provenance and migration records; historic documents pin their language revision |
+| Debug sessions | Correlated logs and replay bundle outside source control by default; intentional, minimized regression cases go into Git |
+
+Git is source history; it is not the sole backup of the language archive or live documents. M0/M2 will define the backup location and retention with the user before enabling storage outside the project. Do not automatically upload the ignored archive or debug bundles.
+
+For each requested revision: capture a reproducing document or operation sequence; identify affected requirements; implement the smallest coherent change; run relevant checks; inspect visual/semantic differences; record compatibility effects; commit a named checkpoint. Update this plan when the direction changes. Keep incomplete investigations and unresolved decisions visible.
+
+## 7. Immediate implementation queue
+
+1. Turn the source-font audit into the fixture manifest and draft mapping schema; choose the first verified alphabet subset.
+2. Scaffold the core command/document types and the minimal Windows font laboratory with structured diagnostics from its first run.
+3. Validate source glyphs, master-driven color layers, and input/selection/IME/accessibility on that laboratory.
+4. Add headless replay and the first MCP commands against the same live session; demonstrate that a scripted edit appears in the UI.
+5. Record measurements and settle the shell/render adapter decision; then build M2 against the proven contracts.
+
+The first demo should answer a concrete question: **can we type and revise real English and Vayrshemon on a custom-sized page, with editable color lettering, and inspect exactly why every glyph and line is where it is?**
