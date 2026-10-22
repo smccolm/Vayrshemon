@@ -1,0 +1,23 @@
+{
+  "apiVersion": "0.1.0",
+  "requestId": "request.demo",
+  "sessionId": "session.demo",
+  "command": "document.apply",
+  "documentId": "document.unicode",
+  "expectedRevision": 0,
+  "idempotencyKey": "demo-edit-1",
+  "dryRun": false,
+  "operations": [
+    {
+      "type": "insert-text",
+      "position": {
+        "blockId": "block.1",
+        "runId": "run.english",
+        "offset": 2,
+        "offsetUnit": "unicode-scalar",
+        "affinity": "after"
+      },
+      "text": " revised"
+    }
+  ]
+}

@@ -1,0 +1,123 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:fixtures:0.1.0",
+  "title": "Vayrshemon fixtures 0.1.0",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.1.0"
+    },
+    "fixtures": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fixtureId": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+          },
+          "kind": {
+            "enum": [
+              "alphabet",
+              "digits",
+              "mixed-language",
+              "kerning",
+              "line-spacing",
+              "color",
+              "font-identity"
+            ]
+          },
+          "availability": {
+            "enum": [
+              "public-synthetic",
+              "local-archive"
+            ]
+          },
+          "assets": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "assetId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "path": {
+                  "type": "string",
+                  "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(/|$))(?!.*[\\\\:])[^\\r\\n]+$"
+                },
+                "sha256": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                }
+              },
+              "required": [
+                "assetId",
+                "path",
+                "sha256"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0
+          },
+          "fontIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+            },
+            "minItems": 0
+          },
+          "requirements": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "assertions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 1
+          },
+          "documentPath": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(/|$))(?!.*[\\\\:])[^\\r\\n]+$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "fixtureId",
+          "kind",
+          "availability",
+          "assets",
+          "fontIds",
+          "requirements",
+          "assertions",
+          "documentPath",
+          "notes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "fixtures"
+  ],
+  "additionalProperties": false
+}

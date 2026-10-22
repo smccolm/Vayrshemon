@@ -1,0 +1,15 @@
+{
+  "apiVersion": "0.1.0",
+  "requestId": "request.demo",
+  "traceId": "trace.demo",
+  "status": "rejected",
+  "code": "STALE_REVISION",
+  "currentRevision": 2,
+  "diagnostics": [
+    {
+      "code": "STALE_REVISION",
+      "message": "Expected revision 0; current revision is 2.",
+      "severity": "error"
+    }
+  ]
+}

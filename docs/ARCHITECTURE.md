@@ -1,6 +1,6 @@
 # Architecture and engineering decisions
 
-Specification revision 0.1.0, 2026-10-22. This document describes the proposed implementation, not existing application capabilities. See [PLAN.md](PLAN.md) for milestones and acceptance criteria.
+Specification revision 0.2.0, 2026-10-22. This document describes the proposed application. M0 evidence tooling and initial contracts are implemented; see [M0](M0.md) for their exact capabilities and [PLAN.md](PLAN.md) for later milestones. The machine-readable [decision register](../data/decisions.json) also records the decisions made during M0.
 
 ## 1. System boundary
 

@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.1.0**, 2026-10-22. Status: initial plan; implementation has not started.
+Revision **0.2.0**, 2026-10-22. Status: M0 evidence and contracts complete; M1 desktop/font laboratory is next.
 
 ## 1. Product commitment
 
@@ -49,7 +49,7 @@ Milestones are gated by working evidence, not calendar guesses. Each ends in a r
 
 ### M0 — Evidence and contracts
 
-**Current state:** archive reviewed; Git remote configured; Inputs ignored; first plan and source-font audit recorded. Full machine-readable mappings and automated import fixtures remain open.
+**Complete:** 1,506 assets hashed; 103 fonts registered; the 47 letter pairs, 12 digits and remaining cmap slots are mapped or explicitly unresolved; schemas, capability/requirement/decision records, fixtures and public validation tests are implemented. See [M0 results and commands](M0.md). Complete Word import, historical mappings, rendering and the live MCP bridge remain later work.
 
 Deliver:
 
@@ -173,10 +173,9 @@ For each requested revision: capture a reproducing document or operation sequenc
 
 ## 7. Immediate implementation queue
 
-1. Turn the source-font audit into the fixture manifest and draft mapping schema; choose the first verified alphabet subset.
-2. Scaffold the core command/document types and the minimal Windows font laboratory with structured diagnostics from its first run.
-3. Validate source glyphs, master-driven color layers, and input/selection/IME/accessibility on that laboratory.
-4. Add headless replay and the first MCP commands against the same live session; demonstrate that a scripted edit appears in the UI.
-5. Record measurements and settle the shell/render adapter decision; then build M2 against the proven contracts.
+1. Consume the M0 font registry, mapping, fixtures and schemas in the minimal Windows font laboratory, with structured diagnostics from its first run.
+2. Implement the command/document runtime and validate source glyphs, master-driven color layers, and input/selection/IME/accessibility.
+3. Add headless replay and the first MCP commands against the same live session; demonstrate that a scripted edit appears in the UI.
+4. Record measurements and settle the shell/render adapter decision; then build M2 against the proven contracts.
 
 The first demo should answer a concrete question: **can we type and revise real English and Vayrshemon on a custom-sized page, with editable color lettering, and inspect exactly why every glyph and line is where it is?**

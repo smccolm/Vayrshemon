@@ -1,6 +1,15 @@
 # Planning revision history
 
-These versions describe the specification. Application releases will have their own release versions once implementation starts.
+These entries distinguish specification revisions from evidence-tool and future application releases.
+
+## Specification 0.2.0 / M0 tools and data 0.1.0 — 2026-10-22
+
+- Complete the M0 evidence-and-contracts milestone: hash all 1,506 assets and register all 103 TTFs.
+- Transcribe the 47-letter maxima/minima pairs and 12 Unta digits, bind them to exact font hashes, and explicitly preserve unresolved slots and transliterations.
+- Add strict legacy byte/scalar preservation and DOCX evidence extraction with retained font/run information.
+- Add initial JSON Schemas, capability matrix, requirements traceability, decision records, and public/local fixture definitions.
+- Add structured CLI logs, source-write protection, public synthetic tests, and Windows/Linux CI.
+- Keep original Inputs and local logs/extracts out of Git.
 
 ## 0.1.0 — 2026-10-22
 

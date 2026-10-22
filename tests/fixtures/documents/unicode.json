@@ -1,0 +1,75 @@
+{
+  "schemaVersion": "0.1.0",
+  "documentId": "document.unicode",
+  "revision": 0,
+  "title": "Synthetic M0 specimen",
+  "layoutProfile": "layout.provisional-m0",
+  "languageRevision": null,
+  "fonts": [],
+  "styles": [
+    {
+      "styleId": "style.body",
+      "fontId": null,
+      "fontSizeMicroPoints": "12000000",
+      "lineHeight": {
+        "mode": "at-least",
+        "microPoints": "14000000"
+      },
+      "color": "#000000FF"
+    }
+  ],
+  "pages": [
+    {
+      "pageId": "page.1",
+      "widthMicroPoints": "612000000",
+      "heightMicroPoints": "792000000",
+      "marginsMicroPoints": {
+        "top": "18000000",
+        "right": "18000000",
+        "bottom": "18000000",
+        "left": "18000000"
+      },
+      "frames": [
+        {
+          "frameId": "frame.1",
+          "storyId": "story.1",
+          "xMicroPoints": "18000000",
+          "yMicroPoints": "18000000",
+          "widthMicroPoints": "576000000",
+          "heightMicroPoints": "756000000",
+          "overflow": "show"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "storyId": "story.1",
+      "blocks": [
+        {
+          "blockId": "block.1",
+          "type": "paragraph",
+          "direction": "auto",
+          "runs": [
+            {
+              "runId": "run.english",
+              "languageId": "language.en",
+              "styleId": "style.body",
+              "type": "unicode",
+              "text": "A\u0301 and \u00c1 stay distinct. Emoji: \ud83d\ude00.\tSpace\u00a0kept.\n",
+              "normalization": "none"
+            },
+            {
+              "runId": "run.arabic",
+              "languageId": "language.ar",
+              "styleId": "style.body",
+              "type": "unicode",
+              "text": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+              "normalization": "none"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

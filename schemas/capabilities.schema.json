@@ -1,0 +1,89 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:capabilities:0.1.0",
+  "title": "Vayrshemon capabilities 0.1.0",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.1.0"
+    },
+    "apiVersion": {
+      "const": "0.1.0"
+    },
+    "milestone": {
+      "const": "M0"
+    },
+    "capabilities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "capabilityId": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+          },
+          "status": {
+            "enum": [
+              "implemented",
+              "contract-only",
+              "planned"
+            ]
+          },
+          "transports": {
+            "type": "array",
+            "items": {
+              "enum": [
+                "python",
+                "cli",
+                "desktop",
+                "mcp"
+              ]
+            },
+            "minItems": 0
+          },
+          "cliCommand": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "milestone": {
+            "enum": [
+              "M0",
+              "M1",
+              "M2",
+              "M3",
+              "M4",
+              "M5"
+            ]
+          },
+          "notes": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "capabilityId",
+          "status",
+          "transports",
+          "cliCommand",
+          "milestone",
+          "notes"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "apiVersion",
+    "milestone",
+    "capabilities"
+  ],
+  "additionalProperties": false
+}

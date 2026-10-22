@@ -1,0 +1,18 @@
+{
+  "schemaVersion": "0.1.0",
+  "decisions": [
+    {"id":"ADR-001","status":"accepted","decision":"Windows desktop, local files and offline core.","basis":"User confirmation on 2026-10-22."},
+    {"id":"ADR-002","status":"proposed","decision":"Rust core with Tauri 2 and TypeScript controls.","basis":"M1 must prove input, accessibility and render transport before adoption."},
+    {"id":"ADR-003","status":"proposed","decision":"HarfBuzz shaping with FreeType/Skia integration.","basis":"M1 must prove actual source font behavior and UI/headless parity."},
+    {"id":"ADR-004","status":"accepted","decision":"Core-owned geometry shared by UI and export.","basis":"Prevent differences in layout between editing, automation and publishing."},
+    {"id":"ADR-005","status":"accepted","decision":"Semantic symbol IDs, explicit legacy mappings and hash-based font identity.","basis":"Current fonts reuse Latin slots; two historical files share an internal family name."},
+    {"id":"ADR-006","status":"proposed","decision":"Native editable color recipes plus portable derived color fonts.","basis":"Photoshop effects need a separate compatibility investigation in M4."},
+    {"id":"ADR-007","status":"accepted","decision":"One local MCP adapter backed by shared APIs.","basis":"User requires API and MCP control; implementation begins in M1."},
+    {"id":"ADR-008","status":"proposed","decision":"Directory working format with journal/checkpoints and bundle export.","basis":"M2 must prove crash recovery, portability and external-edit handling."},
+    {"id":"ADR-009","status":"proposed","decision":"Single writer and revision-checked transactions per document.","basis":"Prevent automation and manual edits from silently overwriting one another."},
+    {"id":"ADR-010","status":"accepted","decision":"JSON Schema 2020-12 with offline schema lookup and additional semantic checks.","basis":"M0 validates portable contracts, reference integrity and integer dimension bounds without network or Inputs."},
+    {"id":"ADR-011","status":"accepted","decision":"Chart-specific symbol IDs stay stable when their names or transliterations change.","basis":"Source-chart assignments are evidenced; some Unicode spellings and historical profiles remain unresolved."},
+    {"id":"ADR-012","status":"accepted","decision":"Strict explicit source codecs; preserve bytes, scalars and unknown slots.","basis":"Legacy import cannot silently normalize, replace or guess characters."},
+    {"id":"ADR-013","status":"accepted","decision":"Python evidence tooling with pinned dependencies; no editor runtime is implied.","basis":"M0 can inspect and validate the archive now while the proposed desktop stack awaits M1."}
+  ]
+}

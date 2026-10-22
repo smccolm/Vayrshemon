@@ -1,0 +1,24 @@
+{
+  "schemaVersion": "0.1.0",
+  "apiVersion": "0.1.0",
+  "milestone": "M0",
+  "capabilities": [
+    {"capabilityId":"evidence.catalog","status":"implemented","transports":["python","cli"],"cliCommand":"catalog","milestone":"M0","notes":"Hash every local asset; distinguish exact duplicates from unverified same-stem relationships."},
+    {"capabilityId":"evidence.verify-assets","status":"implemented","transports":["python","cli"],"cliCommand":"verify-assets","milestone":"M0","notes":"Verify selected or all assets against the manifest."},
+    {"capabilityId":"fonts.inspect-registry","status":"implemented","transports":["python","cli"],"cliCommand":"fonts","milestone":"M0","notes":"Read TTF cmap, metrics, names, table hashes and family collisions; no shaping or font modification."},
+    {"capabilityId":"orthography.build-mapping","status":"implemented","transports":["python","cli"],"cliCommand":"mapping","milestone":"M0","notes":"Bind the reviewed chart to exact font hashes and verify glyph coverage."},
+    {"capabilityId":"legacy.decode-preserving","status":"implemented","transports":["python","cli"],"cliCommand":"decode-legacy","milestone":"M0","notes":"Strict explicit source codec; retain original bytes, scalars and unresolved positions."},
+    {"capabilityId":"docx.extract-evidence","status":"implemented","transports":["python","cli"],"cliCommand":"extract-docx","milestone":"M0","notes":"Preserve original relevant XML parts and run metadata; full Word import is not implemented."},
+    {"capabilityId":"fixtures.build-manifest","status":"implemented","transports":["python","cli"],"cliCommand":"fixtures","milestone":"M0","notes":"Selected local assets and public synthetic specimens."},
+    {"capabilityId":"contracts.validate","status":"implemented","transports":["python","cli"],"cliCommand":"check","milestone":"M0","notes":"Validate local schemas, data references, mapping coverage and public documents without Inputs."},
+    {"capabilityId":"session.capabilities","status":"implemented","transports":["python","cli"],"cliCommand":"capabilities","milestone":"M0","notes":"Lists implementation status; transport availability is explicit."},
+    {"capabilityId":"document.apply","status":"contract-only","transports":[],"cliCommand":null,"milestone":"M1","notes":"Revision-checked transaction request/result schemas exist; no command execution or document session yet."},
+    {"capabilityId":"layout.inspect","status":"contract-only","transports":[],"cliCommand":null,"milestone":"M1","notes":"Query envelope drafted; shaping and layout result models follow the laboratory."},
+    {"capabilityId":"desktop.edit","status":"planned","transports":[],"cliCommand":null,"milestone":"M1","notes":"Windows input, selection, IME, accessibility and render proof."},
+    {"capabilityId":"mcp.session-bridge","status":"planned","transports":[],"cliCommand":null,"milestone":"M1","notes":"No MCP server is installed or advertised as live by M0."},
+    {"capabilityId":"document.recovery","status":"planned","transports":[],"cliCommand":null,"milestone":"M2","notes":"Journal, checkpoints, atomic saves and recovery."},
+    {"capabilityId":"layout.collisions","status":"planned","transports":[],"cliCommand":null,"milestone":"M3","notes":"Geometry inspection and bounded repair policies."},
+    {"capabilityId":"fonts.build-color","status":"planned","transports":[],"cliCommand":null,"milestone":"M4","notes":"Versioned color recipes and portable font build outputs."},
+    {"capabilityId":"language.workbench","status":"planned","transports":[],"cliCommand":null,"milestone":"M5","notes":"Structured lexicon, grammar and corpus tools."}
+  ]
+}

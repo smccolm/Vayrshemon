@@ -1,0 +1,247 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:asset-catalog:0.1.0",
+  "title": "Vayrshemon asset-catalog 0.1.0",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.1.0"
+    },
+    "archiveRoot": {
+      "const": "Inputs"
+    },
+    "summary": {
+      "type": "object",
+      "properties": {
+        "fileCount": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "totalBytes": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "extensions": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        }
+      },
+      "required": [
+        "fileCount",
+        "totalBytes",
+        "extensions"
+      ],
+      "additionalProperties": false
+    },
+    "assets": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "assetId": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+          },
+          "path": {
+            "type": "string",
+            "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(/|$))(?!.*[\\\\:])[^\\r\\n]+$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "bytes": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "extension": {
+            "type": "string"
+          },
+          "reviewStatus": {
+            "enum": [
+              "catalogued",
+              "metadata-reviewed",
+              "text-reviewed",
+              "reference-preview-reviewed",
+              "reviewed-for-m0"
+            ]
+          },
+          "roles": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "minLength": 1
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "assetId",
+          "path",
+          "sha256",
+          "bytes",
+          "extension",
+          "reviewStatus",
+          "roles"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "relationships": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "identical-content"
+              },
+              "status": {
+                "const": "verified"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "assetIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "minItems": 2
+              }
+            },
+            "required": [
+              "type",
+              "status",
+              "sha256",
+              "assetIds"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "same-stem-candidate"
+              },
+              "status": {
+                "const": "unverified"
+              },
+              "stem": {
+                "type": "string",
+                "minLength": 1
+              },
+              "assetIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "minItems": 2
+              }
+            },
+            "required": [
+              "type",
+              "status",
+              "stem",
+              "assetIds"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "color-layer-of"
+              },
+              "status": {
+                "const": "source-attested"
+              },
+              "assetIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "evidenceAssetId": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "type",
+              "status",
+              "assetIds",
+              "evidenceAssetId",
+              "locator"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "type": {
+                "const": "font-name-candidate"
+              },
+              "status": {
+                "const": "unverified"
+              },
+              "assetIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "minItems": 2,
+                "maxItems": 2
+              },
+              "evidenceAssetId": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+              },
+              "locator": {
+                "type": "string",
+                "minLength": 1
+              }
+            },
+            "required": [
+              "type",
+              "status",
+              "assetIds",
+              "evidenceAssetId",
+              "locator"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "archiveRoot",
+    "summary",
+    "assets",
+    "relationships"
+  ],
+  "additionalProperties": false
+}

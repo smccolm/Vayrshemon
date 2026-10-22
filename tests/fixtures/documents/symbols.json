@@ -1,0 +1,513 @@
+{
+  "schemaVersion": "0.1.0",
+  "documentId": "document.symbols",
+  "revision": 0,
+  "title": "Synthetic M0 specimen",
+  "layoutProfile": "layout.provisional-m0",
+  "languageRevision": null,
+  "fonts": [],
+  "styles": [
+    {
+      "styleId": "style.body",
+      "fontId": null,
+      "fontSizeMicroPoints": "12000000",
+      "lineHeight": {
+        "mode": "at-least",
+        "microPoints": "14000000"
+      },
+      "color": "#000000FF"
+    }
+  ],
+  "pages": [
+    {
+      "pageId": "page.1",
+      "widthMicroPoints": "612000000",
+      "heightMicroPoints": "792000000",
+      "marginsMicroPoints": {
+        "top": "18000000",
+        "right": "18000000",
+        "bottom": "18000000",
+        "left": "18000000"
+      },
+      "frames": [
+        {
+          "frameId": "frame.1",
+          "storyId": "story.1",
+          "xMicroPoints": "18000000",
+          "yMicroPoints": "18000000",
+          "widthMicroPoints": "576000000",
+          "heightMicroPoints": "756000000",
+          "overflow": "show"
+        }
+      ]
+    }
+  ],
+  "stories": [
+    {
+      "storyId": "story.1",
+      "blocks": [
+        {
+          "blockId": "block.1",
+          "type": "paragraph",
+          "direction": "auto",
+          "runs": [
+            {
+              "runId": "run.heading",
+              "languageId": "language.en",
+              "styleId": "style.body",
+              "type": "unicode",
+              "text": "Alphabet and numerals: ",
+              "normalization": "none"
+            },
+            {
+              "runId": "run.symbols",
+              "languageId": "language.vayrshemon",
+              "styleId": "style.body",
+              "type": "symbols",
+              "orthographyRef": {
+                "profileId": "thimfora-79.chart-2",
+                "revision": "0.1.0"
+              },
+              "symbols": [
+                {
+                  "symbolId": "unta.digit.00",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.01",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.02",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.03",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.04",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.05",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.06",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.07",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.08",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.09",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "thimfora.letter.004",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.013",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.014",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.016",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.024",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.026",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.017",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.008",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.034",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.001",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.003",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.027",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.028",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.029",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.036",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.018",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.041",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.010",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.031",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.019",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.043",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.022",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.042",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.033",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.047",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.023",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.004",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.013",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.014",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.016",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.024",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.026",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.017",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.008",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.034",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.001",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.003",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.027",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.028",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.029",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.036",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.018",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.041",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.010",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.031",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.019",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.043",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.022",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.042",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.033",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.047",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.023",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "unta.digit.10",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "unta.digit.11",
+                  "form": "default"
+                },
+                {
+                  "symbolId": "thimfora.letter.002",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.002",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.005",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.005",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.006",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.006",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.007",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.007",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.009",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.009",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.011",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.011",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.012",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.012",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.015",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.015",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.020",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.020",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.021",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.021",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.025",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.025",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.030",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.030",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.032",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.032",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.035",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.035",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.037",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.037",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.038",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.038",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.039",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.039",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.040",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.040",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.044",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.044",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.045",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.045",
+                  "form": "minima"
+                },
+                {
+                  "symbolId": "thimfora.letter.046",
+                  "form": "maxima"
+                },
+                {
+                  "symbolId": "thimfora.letter.046",
+                  "form": "minima"
+                }
+              ]
+            },
+            {
+              "runId": "run.unresolved",
+              "languageId": "language.undetermined",
+              "styleId": "style.body",
+              "type": "legacy",
+              "sourceText": "Jj\u00be\u0301\ud83d\ude00",
+              "sourceFontSha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc",
+              "mappingProfileRef": null,
+              "normalization": "none"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

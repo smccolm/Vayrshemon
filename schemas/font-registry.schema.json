@@ -1,0 +1,310 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:font-registry:0.1.0",
+  "title": "Vayrshemon font-registry 0.1.0",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.1.0"
+    },
+    "fonts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fontId": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+          },
+          "faceIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "asset": {
+            "type": "object",
+            "properties": {
+              "assetId": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+              },
+              "path": {
+                "type": "string",
+                "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(/|$))(?!.*[\\\\:])[^\\r\\n]+$"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              }
+            },
+            "required": [
+              "assetId",
+              "path",
+              "sha256"
+            ],
+            "additionalProperties": false
+          },
+          "names": {
+            "type": "object",
+            "properties": {
+              "family": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "subfamily": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "fullName": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "version": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "postscriptName": {
+                "anyOf": [
+                  {
+                    "type": "string"
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              }
+            },
+            "required": [
+              "family",
+              "subfamily",
+              "fullName",
+              "version",
+              "postscriptName"
+            ],
+            "additionalProperties": false
+          },
+          "glyphCount": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "unitsPerEm": {
+            "type": "integer",
+            "minimum": 16,
+            "maximum": 16384
+          },
+          "verticalMetrics": {
+            "type": "object",
+            "properties": {
+              "ascender": {
+                "type": "integer"
+              },
+              "descender": {
+                "type": "integer"
+              },
+              "lineGap": {
+                "type": "integer"
+              }
+            },
+            "required": [
+              "ascender",
+              "descender",
+              "lineGap"
+            ],
+            "additionalProperties": false
+          },
+          "embeddingFlags": {
+            "anyOf": [
+              {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 9007199254740991
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "tableTags": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 0
+          },
+          "tableHashes": {
+            "type": "object",
+            "additionalProperties": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "cmapSelection": {
+            "const": "fontTools.getBestCmap"
+          },
+          "coverage": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "scalar": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 1114111,
+                  "not": {
+                    "minimum": 55296,
+                    "maximum": 57343
+                  }
+                },
+                "glyphId": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                "glyphName": {
+                  "type": "string"
+                },
+                "advance": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                "leftSideBearing": {
+                  "type": "integer"
+                }
+              },
+              "required": [
+                "scalar",
+                "glyphId",
+                "glyphName",
+                "advance",
+                "leftSideBearing"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0
+          },
+          "unencodedGlyphs": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "glyphId": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 9007199254740991
+                },
+                "glyphName": {
+                  "type": "string"
+                }
+              },
+              "required": [
+                "glyphId",
+                "glyphName"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0
+          },
+          "mappingStatus": {
+            "enum": [
+              "unreviewed",
+              "chart-mapped"
+            ]
+          },
+          "mappingProfileIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "fontId",
+          "faceIndex",
+          "asset",
+          "names",
+          "glyphCount",
+          "unitsPerEm",
+          "verticalMetrics",
+          "embeddingFlags",
+          "tableTags",
+          "tableHashes",
+          "cmapSelection",
+          "coverage",
+          "unencodedGlyphs",
+          "mappingStatus",
+          "mappingProfileIds"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "familyCollisions": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "familyKey": {
+            "type": "string"
+          },
+          "fontIds": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+            },
+            "minItems": 2
+          },
+          "paths": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(/|$))(?!.*[\\\\:])[^\\r\\n]+$"
+            },
+            "minItems": 2
+          }
+        },
+        "required": [
+          "familyKey",
+          "fontIds",
+          "paths"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "fonts",
+    "familyCollisions"
+  ],
+  "additionalProperties": false
+}

@@ -1,0 +1,222 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:command:0.1.0",
+  "title": "Vayrshemon command 0.1.0",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.1.0"
+        },
+        "requestId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "sessionId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "command": {
+          "const": "document.apply"
+        },
+        "documentId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1
+        },
+        "dryRun": {
+          "type": "boolean"
+        },
+        "operations": {
+          "type": "array",
+          "items": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "const": "insert-text"
+                  },
+                  "position": {
+                    "type": "object",
+                    "properties": {
+                      "blockId": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                      },
+                      "runId": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                      },
+                      "offset": {
+                        "type": "integer",
+                        "minimum": 0,
+                        "maximum": 9007199254740991
+                      },
+                      "offsetUnit": {
+                        "const": "unicode-scalar"
+                      },
+                      "affinity": {
+                        "enum": [
+                          "before",
+                          "after"
+                        ]
+                      }
+                    },
+                    "required": [
+                      "blockId",
+                      "runId",
+                      "offset",
+                      "offsetUnit",
+                      "affinity"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "text": {
+                    "type": "string"
+                  }
+                },
+                "required": [
+                  "type",
+                  "position",
+                  "text"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "const": "delete-text"
+                  },
+                  "blockId": {
+                    "type": "string",
+                    "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                  },
+                  "runId": {
+                    "type": "string",
+                    "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                  },
+                  "start": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "end": {
+                    "type": "integer",
+                    "minimum": 0,
+                    "maximum": 9007199254740991
+                  },
+                  "offsetUnit": {
+                    "const": "unicode-scalar"
+                  }
+                },
+                "required": [
+                  "type",
+                  "blockId",
+                  "runId",
+                  "start",
+                  "end",
+                  "offsetUnit"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "type": {
+                    "const": "set-page-dimensions"
+                  },
+                  "pageId": {
+                    "type": "string",
+                    "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                  },
+                  "widthMicroPoints": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$",
+                    "maxLength": 19
+                  },
+                  "heightMicroPoints": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$",
+                    "maxLength": 19
+                  }
+                },
+                "required": [
+                  "type",
+                  "pageId",
+                  "widthMicroPoints",
+                  "heightMicroPoints"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "minItems": 1
+        }
+      },
+      "required": [
+        "apiVersion",
+        "requestId",
+        "sessionId",
+        "command",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey",
+        "dryRun",
+        "operations"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.1.0"
+        },
+        "requestId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "sessionId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "command": {
+          "enum": [
+            "document.read",
+            "layout.inspect",
+            "diagnostics.query"
+          ]
+        },
+        "documentId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        }
+      },
+      "required": [
+        "apiVersion",
+        "requestId",
+        "sessionId",
+        "command",
+        "documentId",
+        "revision"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

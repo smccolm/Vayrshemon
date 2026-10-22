@@ -1,0 +1,430 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:mapping:0.1.0",
+  "title": "Vayrshemon mapping 0.1.0",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.1.0"
+    },
+    "profileId": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+    },
+    "revision": {
+      "const": "0.1.0"
+    },
+    "normalization": {
+      "const": "none"
+    },
+    "offsetUnit": {
+      "const": "unicode-scalar"
+    },
+    "unknownPolicy": {
+      "const": "preserve"
+    },
+    "fontSha256s": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[0-9a-f]{64}$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "inventory": {
+      "type": "array",
+      "items": {
+        "oneOf": [
+          {
+            "type": "object",
+            "properties": {
+              "symbolId": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+              },
+              "kind": {
+                "const": "letter"
+              },
+              "ordinal": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 47
+              },
+              "nameTranscription": {
+                "type": "string",
+                "minLength": 1
+              },
+              "nameConfidence": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high"
+                ]
+              },
+              "transliterationStatus": {
+                "enum": [
+                  "transcribed",
+                  "unresolved"
+                ]
+              },
+              "transliterationNote": {
+                "anyOf": [
+                  {
+                    "type": "string",
+                    "minLength": 1
+                  },
+                  {
+                    "type": "null"
+                  }
+                ]
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "asset": {
+                      "type": "object",
+                      "properties": {
+                        "assetId": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                        },
+                        "path": {
+                          "type": "string",
+                          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(/|$))(?!.*[\\\\:])[^\\r\\n]+$"
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[0-9a-f]{64}$"
+                        }
+                      },
+                      "required": [
+                        "assetId",
+                        "path",
+                        "sha256"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "locator": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "method": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "asset",
+                    "locator",
+                    "method"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "symbolId",
+              "kind",
+              "ordinal",
+              "nameTranscription",
+              "nameConfidence",
+              "transliterationStatus",
+              "transliterationNote",
+              "evidence"
+            ],
+            "additionalProperties": false
+          },
+          {
+            "type": "object",
+            "properties": {
+              "symbolId": {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+              },
+              "kind": {
+                "const": "digit"
+              },
+              "value": {
+                "type": "integer",
+                "minimum": 0,
+                "maximum": 11
+              },
+              "nameTranscription": {
+                "type": "string",
+                "minLength": 1
+              },
+              "nameConfidence": {
+                "enum": [
+                  "low",
+                  "medium",
+                  "high"
+                ]
+              },
+              "evidence": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "asset": {
+                      "type": "object",
+                      "properties": {
+                        "assetId": {
+                          "type": "string",
+                          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                        },
+                        "path": {
+                          "type": "string",
+                          "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(/|$))(?!.*[\\\\:])[^\\r\\n]+$"
+                        },
+                        "sha256": {
+                          "type": "string",
+                          "pattern": "^[0-9a-f]{64}$"
+                        }
+                      },
+                      "required": [
+                        "assetId",
+                        "path",
+                        "sha256"
+                      ],
+                      "additionalProperties": false
+                    },
+                    "locator": {
+                      "type": "string",
+                      "minLength": 1
+                    },
+                    "method": {
+                      "type": "string",
+                      "minLength": 1
+                    }
+                  },
+                  "required": [
+                    "asset",
+                    "locator",
+                    "method"
+                  ],
+                  "additionalProperties": false
+                },
+                "minItems": 1
+              }
+            },
+            "required": [
+              "symbolId",
+              "kind",
+              "value",
+              "nameTranscription",
+              "nameConfidence",
+              "evidence"
+            ],
+            "additionalProperties": false
+          }
+        ]
+      },
+      "minItems": 0
+    },
+    "entries": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "scalar": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 1114111,
+            "not": {
+              "minimum": 55296,
+              "maximum": 57343
+            }
+          },
+          "symbolId": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "form": {
+            "enum": [
+              "maxima",
+              "minima",
+              "default"
+            ]
+          },
+          "kind": {
+            "enum": [
+              "letter",
+              "digit",
+              "separator",
+              "punctuation"
+            ]
+          },
+          "status": {
+            "enum": [
+              "mapped",
+              "unresolved"
+            ]
+          },
+          "confidence": {
+            "enum": [
+              "low",
+              "medium",
+              "high"
+            ]
+          },
+          "transliteration": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "evidence": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "asset": {
+                  "type": "object",
+                  "properties": {
+                    "assetId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                    },
+                    "path": {
+                      "type": "string",
+                      "pattern": "^(?!/)(?!.*(?:^|/)\\.\\.?(/|$))(?!.*[\\\\:])[^\\r\\n]+$"
+                    },
+                    "sha256": {
+                      "type": "string",
+                      "pattern": "^[0-9a-f]{64}$"
+                    }
+                  },
+                  "required": [
+                    "assetId",
+                    "path",
+                    "sha256"
+                  ],
+                  "additionalProperties": false
+                },
+                "locator": {
+                  "type": "string",
+                  "minLength": 1
+                },
+                "method": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              },
+              "required": [
+                "asset",
+                "locator",
+                "method"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 1
+          },
+          "unresolvedReason": {
+            "anyOf": [
+              {
+                "type": "string",
+                "minLength": 1
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "glyphId": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          },
+          "glyphNameHint": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "scalar",
+          "symbolId",
+          "form",
+          "kind",
+          "status",
+          "confidence",
+          "transliteration",
+          "evidence",
+          "unresolvedReason",
+          "glyphId",
+          "glyphNameHint"
+        ],
+        "additionalProperties": false,
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "mapped"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "symbolId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "unresolvedReason": {
+                  "type": "null"
+                }
+              }
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "status": {
+                  "const": "unresolved"
+                }
+              }
+            },
+            "then": {
+              "properties": {
+                "symbolId": {
+                  "type": "null"
+                },
+                "unresolvedReason": {
+                  "type": "string",
+                  "minLength": 1
+                }
+              }
+            }
+          }
+        ]
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "profileId",
+    "revision",
+    "normalization",
+    "offsetUnit",
+    "unknownPolicy",
+    "fontSha256s",
+    "inventory",
+    "entries"
+  ],
+  "additionalProperties": false
+}

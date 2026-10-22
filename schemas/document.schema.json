@@ -1,0 +1,509 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:document:0.1.0",
+  "title": "Vayrshemon document 0.1.0",
+  "type": "object",
+  "properties": {
+    "schemaVersion": {
+      "const": "0.1.0"
+    },
+    "documentId": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+    },
+    "revision": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 9007199254740991
+    },
+    "title": {
+      "type": "string"
+    },
+    "layoutProfile": {
+      "type": "string",
+      "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+    },
+    "languageRevision": {
+      "anyOf": [
+        {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        {
+          "type": "null"
+        }
+      ]
+    },
+    "fonts": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "fontId": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "faceIndex": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 9007199254740991
+          }
+        },
+        "required": [
+          "fontId",
+          "sha256",
+          "faceIndex"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    },
+    "styles": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "styleId": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+          },
+          "fontId": {
+            "anyOf": [
+              {
+                "type": "string",
+                "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+              },
+              {
+                "type": "null"
+              }
+            ]
+          },
+          "fontSizeMicroPoints": {
+            "type": "string",
+            "pattern": "^[1-9][0-9]*$",
+            "maxLength": 19
+          },
+          "lineHeight": {
+            "oneOf": [
+              {
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "enum": [
+                      "exact",
+                      "at-least"
+                    ]
+                  },
+                  "microPoints": {
+                    "type": "string",
+                    "pattern": "^[1-9][0-9]*$",
+                    "maxLength": 19
+                  }
+                },
+                "required": [
+                  "mode",
+                  "microPoints"
+                ],
+                "additionalProperties": false
+              },
+              {
+                "type": "object",
+                "properties": {
+                  "mode": {
+                    "const": "multiple"
+                  },
+                  "factor": {
+                    "type": "number",
+                    "exclusiveMinimum": 0,
+                    "maximum": 100
+                  }
+                },
+                "required": [
+                  "mode",
+                  "factor"
+                ],
+                "additionalProperties": false
+              }
+            ]
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9A-Fa-f]{8}$"
+          }
+        },
+        "required": [
+          "styleId",
+          "fontId",
+          "fontSizeMicroPoints",
+          "lineHeight",
+          "color"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "pages": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "pageId": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+          },
+          "widthMicroPoints": {
+            "type": "string",
+            "pattern": "^[1-9][0-9]*$",
+            "maxLength": 19
+          },
+          "heightMicroPoints": {
+            "type": "string",
+            "pattern": "^[1-9][0-9]*$",
+            "maxLength": 19
+          },
+          "marginsMicroPoints": {
+            "type": "object",
+            "properties": {
+              "top": {
+                "type": "string",
+                "pattern": "^(0|[1-9][0-9]*)$",
+                "maxLength": 19
+              },
+              "right": {
+                "type": "string",
+                "pattern": "^(0|[1-9][0-9]*)$",
+                "maxLength": 19
+              },
+              "bottom": {
+                "type": "string",
+                "pattern": "^(0|[1-9][0-9]*)$",
+                "maxLength": 19
+              },
+              "left": {
+                "type": "string",
+                "pattern": "^(0|[1-9][0-9]*)$",
+                "maxLength": 19
+              }
+            },
+            "required": [
+              "top",
+              "right",
+              "bottom",
+              "left"
+            ],
+            "additionalProperties": false
+          },
+          "frames": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "frameId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "storyId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "xMicroPoints": {
+                  "type": "string",
+                  "pattern": "^(0|-?[1-9][0-9]*)$",
+                  "maxLength": 20
+                },
+                "yMicroPoints": {
+                  "type": "string",
+                  "pattern": "^(0|-?[1-9][0-9]*)$",
+                  "maxLength": 20
+                },
+                "widthMicroPoints": {
+                  "type": "string",
+                  "pattern": "^[1-9][0-9]*$",
+                  "maxLength": 19
+                },
+                "heightMicroPoints": {
+                  "type": "string",
+                  "pattern": "^[1-9][0-9]*$",
+                  "maxLength": 19
+                },
+                "overflow": {
+                  "enum": [
+                    "flow",
+                    "show",
+                    "clip"
+                  ]
+                }
+              },
+              "required": [
+                "frameId",
+                "storyId",
+                "xMicroPoints",
+                "yMicroPoints",
+                "widthMicroPoints",
+                "heightMicroPoints",
+                "overflow"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "pageId",
+          "widthMicroPoints",
+          "heightMicroPoints",
+          "marginsMicroPoints",
+          "frames"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 1
+    },
+    "stories": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "storyId": {
+            "type": "string",
+            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+          },
+          "blocks": {
+            "type": "array",
+            "items": {
+              "type": "object",
+              "properties": {
+                "blockId": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                },
+                "type": {
+                  "const": "paragraph"
+                },
+                "direction": {
+                  "enum": [
+                    "ltr",
+                    "rtl",
+                    "auto"
+                  ]
+                },
+                "runs": {
+                  "type": "array",
+                  "items": {
+                    "oneOf": [
+                      {
+                        "type": "object",
+                        "properties": {
+                          "runId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "languageId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "styleId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "type": {
+                            "const": "unicode"
+                          },
+                          "text": {
+                            "type": "string"
+                          },
+                          "normalization": {
+                            "const": "none"
+                          }
+                        },
+                        "required": [
+                          "runId",
+                          "languageId",
+                          "styleId",
+                          "type",
+                          "text",
+                          "normalization"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "runId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "languageId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "styleId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "type": {
+                            "const": "symbols"
+                          },
+                          "orthographyRef": {
+                            "type": "object",
+                            "properties": {
+                              "profileId": {
+                                "type": "string",
+                                "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                              },
+                              "revision": {
+                                "type": "string",
+                                "minLength": 1
+                              }
+                            },
+                            "required": [
+                              "profileId",
+                              "revision"
+                            ],
+                            "additionalProperties": false
+                          },
+                          "symbols": {
+                            "type": "array",
+                            "items": {
+                              "type": "object",
+                              "properties": {
+                                "symbolId": {
+                                  "type": "string",
+                                  "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                                },
+                                "form": {
+                                  "enum": [
+                                    "maxima",
+                                    "minima",
+                                    "default"
+                                  ]
+                                }
+                              },
+                              "required": [
+                                "symbolId",
+                                "form"
+                              ],
+                              "additionalProperties": false
+                            },
+                            "minItems": 0
+                          }
+                        },
+                        "required": [
+                          "runId",
+                          "languageId",
+                          "styleId",
+                          "type",
+                          "orthographyRef",
+                          "symbols"
+                        ],
+                        "additionalProperties": false
+                      },
+                      {
+                        "type": "object",
+                        "properties": {
+                          "runId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "languageId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "styleId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                          },
+                          "type": {
+                            "const": "legacy"
+                          },
+                          "sourceText": {
+                            "type": "string"
+                          },
+                          "sourceFontSha256": {
+                            "type": "string",
+                            "pattern": "^[0-9a-f]{64}$"
+                          },
+                          "mappingProfileRef": {
+                            "anyOf": [
+                              {
+                                "type": "object",
+                                "properties": {
+                                  "profileId": {
+                                    "type": "string",
+                                    "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+                                  },
+                                  "revision": {
+                                    "type": "string",
+                                    "minLength": 1
+                                  }
+                                },
+                                "required": [
+                                  "profileId",
+                                  "revision"
+                                ],
+                                "additionalProperties": false
+                              },
+                              {
+                                "type": "null"
+                              }
+                            ]
+                          },
+                          "normalization": {
+                            "const": "none"
+                          }
+                        },
+                        "required": [
+                          "runId",
+                          "languageId",
+                          "styleId",
+                          "type",
+                          "sourceText",
+                          "sourceFontSha256",
+                          "mappingProfileRef",
+                          "normalization"
+                        ],
+                        "additionalProperties": false
+                      }
+                    ]
+                  },
+                  "minItems": 0
+                }
+              },
+              "required": [
+                "blockId",
+                "type",
+                "direction",
+                "runs"
+              ],
+              "additionalProperties": false
+            },
+            "minItems": 0
+          }
+        },
+        "required": [
+          "storyId",
+          "blocks"
+        ],
+        "additionalProperties": false
+      },
+      "minItems": 0
+    }
+  },
+  "required": [
+    "schemaVersion",
+    "documentId",
+    "revision",
+    "title",
+    "layoutProfile",
+    "languageRevision",
+    "fonts",
+    "styles",
+    "pages",
+    "stories"
+  ],
+  "additionalProperties": false
+}

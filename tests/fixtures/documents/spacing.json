@@ -1,0 +1,79 @@
+{
+  "schemaVersion": "0.1.0",
+  "documentId": "document.spacing",
+  "revision": 0,
+  "title": "Synthetic M0 specimen",
+  "layoutProfile": "layout.provisional-m0",
+  "languageRevision": null,
+  "fonts": [],
+  "styles": [
+    {
+      "styleId": "style.body",
+      "fontId": null,
+      "fontSizeMicroPoints": "12000000",
+      "lineHeight": {
+        "mode": "exact",
+        "microPoints": "6000000"
+      },
+      "color": "#000000FF"
+    }
+  ],
+  "pages": [
+    {
+      "pageId": "page.1",
+      "widthMicroPoints": "327375000",
+      "heightMicroPoints": "123456789",
+      "marginsMicroPoints": {
+        "top": "18000000",
+        "right": "18000000",
+        "bottom": "18000000",
+        "left": "18000000"
+      },
+      "frames": [
+        {
+          "frameId": "frame.1",
+          "storyId": "story.1",
+          "xMicroPoints": "18000000",
+          "yMicroPoints": "18000000",
+          "widthMicroPoints": "291375000",
+          "heightMicroPoints": "87456789",
+          "overflow": "show"
+        }
+      ]
+    },
+    {
+      "pageId": "page.2",
+      "widthMicroPoints": "1000000000000",
+      "heightMicroPoints": "72000000",
+      "marginsMicroPoints": {
+        "top": "0",
+        "right": "0",
+        "bottom": "0",
+        "left": "0"
+      },
+      "frames": []
+    }
+  ],
+  "stories": [
+    {
+      "storyId": "story.1",
+      "blocks": [
+        {
+          "blockId": "block.1",
+          "type": "paragraph",
+          "direction": "auto",
+          "runs": [
+            {
+              "runId": "run.spacing",
+              "languageId": "language.en",
+              "styleId": "style.body",
+              "type": "unicode",
+              "text": "\u00c1gjy \u00c1gjy\nA\u0301A\u0301\nWide line: WWWWWWWWWWWW\n",
+              "normalization": "none"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

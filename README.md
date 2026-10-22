@@ -2,20 +2,30 @@
 
 A Windows desktop editor for custom typography and the long-term development of the Vayrshemon language.
 
-**Status: planning, revision 0.1.0.** No editor application has been implemented yet.
+**Status: M0 complete — evidence and contracts.** The desktop editor and live MCP bridge are the next milestone. Evidence tooling and schemas are version 0.1.0; the specification is revision 0.2.0.
 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 
 - [Delivery plan and acceptance criteria](docs/PLAN.md)
+- [M0 results, commands, and remaining uncertainties](docs/M0.md)
 - [Architecture and technical decisions](docs/ARCHITECTURE.md)
 - [Findings from the existing Inputs archive](docs/INPUTS.md)
 - [Planning revision history](CHANGELOG.md)
 
-`Inputs/` contains the original local reference archive and is excluded from Git. Source code, specifications, schemas, font recipes, migration tools, and selected reproducible test definitions will be versioned. Original assets remain intact; the plan describes how their hashes and derived versions will be tracked.
+`Inputs/` contains the original local reference archive and is excluded from Git. M0 catalogs all 1,506 files by hash, registers all 103 TTFs, and records the current alphabet/numeral mapping. Source code, specifications, schemas, and reproducible test definitions are versioned. Original assets remain intact; runtime logs and extracts live in ignored `.local/`.
 
 The repository is [smccolm/Vayrshemon](https://github.com/smccolm/Vayrshemon). The existing `push_to_github.bat` stages all non-ignored changes, commits, rebases from `origin/main`, and pushes to `main`. Review the staged contents before using it; use explicit Git commands for future feature branches.
 
 ## Repeatable research
+
+With Python 3.12.7 and the dependencies in `requirements-m0.txt`, the public checks run without Inputs:
+
+```powershell
+python -m tools.m0 check
+python -m unittest discover -s tests -v
+```
+
+See the [M0 guide](docs/M0.md) for installation, catalog regeneration, source verification, and legacy decoding.
 
 With Python 3 installed, run this read-only comparison from the repository root:
 

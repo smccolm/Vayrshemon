@@ -1,0 +1,273 @@
+{
+  "schemaVersion": "0.1.0",
+  "fixtures": [
+    {
+      "fixtureId": "fixture.alphabet",
+      "kind": "alphabet",
+      "availability": "local-archive",
+      "assets": [
+        {
+          "assetId": "asset:98b78f2586b894c648f580baa6d9ebd95646e28b6c166e9394dee1db9b554922",
+          "path": "Origins_2_Thimfora_2.jpg",
+          "sha256": "fabc2608b23926a51b833756f015fa430993de63ee4c4d0773ecaf5e405748c7"
+        },
+        {
+          "assetId": "asset:b2fafe96ae197cd71f593444473e5ef3fa28a27ec610346862e789001e10c763",
+          "path": "Thimfora 79 - Full Set - 2.docx",
+          "sha256": "5e6469d1dc4cf4a7c40a7d91b70ffad28ed18d8a152e38020f379ea5c5d3c506"
+        },
+        {
+          "assetId": "asset:2bd9f81f5603bc435b2e5dbdf416c6775355fb6a85c400ed7a2a8ac8a6c5e5d0",
+          "path": "font files/Thimfora_79.ttf",
+          "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+        }
+      ],
+      "fontIds": [
+        "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0"
+      ],
+      "requirements": [
+        "TEXT-01",
+        "FONT-01"
+      ],
+      "assertions": [
+        "47 distinct letters, each with maxima and minima",
+        "Exact source-scalar round trip"
+      ],
+      "documentPath": null,
+      "notes": "Chart is the code assignment authority for this profile; older revisions require their own mapping."
+    },
+    {
+      "fixtureId": "fixture.digits",
+      "kind": "digits",
+      "availability": "local-archive",
+      "assets": [
+        {
+          "assetId": "asset:7e6813ab6508f2788f8ddc9c07b6d8fd1d316d42fa42be430fdf5b7586d689c3",
+          "path": "Unta - Base 12.jpg",
+          "sha256": "74e0d436e78f3e9b9097d61667be53605a23e1f1fa37a985861f1525fd7980b1"
+        },
+        {
+          "assetId": "asset:2bd9f81f5603bc435b2e5dbdf416c6775355fb6a85c400ed7a2a8ac8a6c5e5d0",
+          "path": "font files/Thimfora_79.ttf",
+          "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+        }
+      ],
+      "fontIds": [
+        "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0"
+      ],
+      "requirements": [
+        "TEXT-01",
+        "LANG-01"
+      ],
+      "assertions": [
+        "Exactly 12 digits with values 0 through 11",
+        "Values 10 and 11 use legacy slots 192 and 193"
+      ],
+      "documentPath": null,
+      "notes": "Numeric interpretation follows the selected chart; historic name variants remain independent."
+    },
+    {
+      "fixtureId": "fixture.mixed-legacy",
+      "kind": "mixed-language",
+      "availability": "local-archive",
+      "assets": [
+        {
+          "assetId": "asset:38541f4f3093b50148def31d95021940108cc692460fdfbaae305a1ef45895ae",
+          "path": "Versions Best/Polished Examples.docx",
+          "sha256": "74cb6248e3edbdc0be1af412d5f1840ac1de1fc54451c9187c18ef4be60fefb5"
+        },
+        {
+          "assetId": "asset:e5d45448bca9bf9fd0c67cf1bab2accee16b167a7e507e731a0b7c0ad47f9d2a",
+          "path": "font files/Test/test seven.ttf",
+          "sha256": "1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad"
+        },
+        {
+          "assetId": "asset:da30608ce71961ba51bcd02dab4f0935576ecfb8990709c710867152c40d7d19",
+          "path": "font files/Transliteration/transliteration 5.ttf",
+          "sha256": "e873883787e06ad11021eaa3a814dddc1ae3bcc3dafd34ee0ab61c04cdbab02d"
+        }
+      ],
+      "fontIds": [
+        "font:1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad:0",
+        "font:e873883787e06ad11021eaa3a814dddc1ae3bcc3dafd34ee0ab61c04cdbab02d:0"
+      ],
+      "requirements": [
+        "TEXT-01",
+        "DATA-01"
+      ],
+      "assertions": [
+        "Preserve run boundaries, direct font references, original XML and code points",
+        "Do not apply the Thimfora 79 profile to these fonts"
+      ],
+      "documentPath": null,
+      "notes": "M0 evidence extraction only. Full style/theme resolution and semantic conversion are deferred."
+    },
+    {
+      "fixtureId": "fixture.kerning",
+      "kind": "kerning",
+      "availability": "local-archive",
+      "assets": [
+        {
+          "assetId": "asset:9c160325e97559b971433253d40f63dbe8db134295ffed4163f2566e7ece874d",
+          "path": "Versions Rough/Kerning Pairs.txt",
+          "sha256": "100bf6b18d388008e50d1b0802bf45d3088b1435f287cdcdb7de7a148f5fab57"
+        },
+        {
+          "assetId": "asset:2d5aac950a97c84c6023d69dd2db457853b3dcafe1be8cad7e2132c2aefceaf1",
+          "path": "Versions Rough/Kerning List.txt",
+          "sha256": "4534ce9a5790b07ac787ab485523d1af63cd47d66cab3fd9627573c1c7d13529"
+        },
+        {
+          "assetId": "asset:2bd9f81f5603bc435b2e5dbdf416c6775355fb6a85c400ed7a2a8ac8a6c5e5d0",
+          "path": "font files/Thimfora_79.ttf",
+          "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+        }
+      ],
+      "fontIds": [
+        "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0"
+      ],
+      "requirements": [
+        "LAYOUT-01",
+        "FONT-01"
+      ],
+      "assertions": [
+        "Decode as explicit Windows-1252 with strict errors",
+        "M1: measure shaped positions without adding a second kerning pass"
+      ],
+      "documentPath": null,
+      "notes": "M0 verifies source bytes/mapping preservation; it does not establish shaping-position goldens."
+    },
+    {
+      "fixtureId": "fixture.color",
+      "kind": "color",
+      "availability": "local-archive",
+      "assets": [
+        {
+          "assetId": "asset:2bd9f81f5603bc435b2e5dbdf416c6775355fb6a85c400ed7a2a8ac8a6c5e5d0",
+          "path": "font files/Thimfora_79.ttf",
+          "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+        },
+        {
+          "assetId": "asset:9f6dd490af282e092e443223d20e25ca02b08c3fa3a506559c4a208e5f796062",
+          "path": "font files/Thimfora_80_Infill.ttf",
+          "sha256": "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd"
+        },
+        {
+          "assetId": "asset:151eca6daee7446e3c1055d4faa5aac49f87599ee299c2a6a803ddd0104a5623",
+          "path": "font files/Thimfora_81_Fragments.ttf",
+          "sha256": "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325"
+        },
+        {
+          "assetId": "asset:5004e5ac802383e44936a0d3506c8d2ae61a10353ca72be3c5ddf0c0267147c7",
+          "path": "font files/How to Make High Quality Color Text with Photoshop.txt",
+          "sha256": "2be1db35605cb5df80be2debae78bbb6e3edd04964c4dae6a343976de07a7fff"
+        },
+        {
+          "assetId": "asset:c060ebf36ed7615604c32871e34e0dc474af799734f70c7980443d7ce4c12865",
+          "path": "Origins_A Blue Jewel.jpg",
+          "sha256": "20372fd26b8ffdb7724c3521be65ea41fad860cdecf6573fbc9cbd19de8c39c8"
+        }
+      ],
+      "fontIds": [
+        "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0",
+        "font:2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd:0",
+        "font:182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325:0"
+      ],
+      "requirements": [
+        "FONT-02",
+        "LAYOUT-02",
+        "EXPORT-01"
+      ],
+      "assertions": [
+        "Source positioning tables and advances agree",
+        "M1: verify shared glyph origins visually",
+        "M4: check effect and export fidelity"
+      ],
+      "documentPath": null,
+      "notes": "Interior side bearings intentionally differ. The reference is not yet a pixel golden for an implemented renderer."
+    },
+    {
+      "fixtureId": "fixture.family-collision",
+      "kind": "font-identity",
+      "availability": "local-archive",
+      "assets": [
+        {
+          "assetId": "asset:dcd70e18b37dd62a71b55f040cba9f095606a64d9c13022af00909cc91953d07",
+          "path": "Versions Rough/Thimfora Barim Aug 10 2011.ttf",
+          "sha256": "b2cb556fc94354855557c2b6b6bbad99101e20a160341d438fcd54989c589351"
+        },
+        {
+          "assetId": "asset:a880a5c2622ebeb89225e91ba387599d14314abbd8204f9943f1dbcc5e5ba766",
+          "path": "Versions Rough/Thimfora Venik July 16 2011.ttf",
+          "sha256": "89064b247dd048efc616b498ce5caad74487beb6113df2229ce287a571acbe02"
+        }
+      ],
+      "fontIds": [
+        "font:b2cb556fc94354855557c2b6b6bbad99101e20a160341d438fcd54989c589351:0",
+        "font:89064b247dd048efc616b498ce5caad74487beb6113df2229ce287a571acbe02:0"
+      ],
+      "requirements": [
+        "FONT-01",
+        "VERSION-01"
+      ],
+      "assertions": [
+        "Same internal family remains two distinct file identities"
+      ],
+      "documentPath": null,
+      "notes": "Never resolve these files by family name alone."
+    },
+    {
+      "fixtureId": "fixture.unicode-public",
+      "kind": "mixed-language",
+      "availability": "public-synthetic",
+      "assets": [],
+      "fontIds": [],
+      "requirements": [
+        "TEXT-01",
+        "TEXT-02",
+        "DATA-01"
+      ],
+      "assertions": [
+        "Preserve combining marks, supplementary scalars, RTL text, and whitespace",
+        "No implicit normalization"
+      ],
+      "documentPath": "tests/fixtures/documents/unicode.json",
+      "notes": "Project-authored structural fixture; no rendering baseline has been established."
+    },
+    {
+      "fixtureId": "fixture.symbols-public",
+      "kind": "alphabet",
+      "availability": "public-synthetic",
+      "assets": [],
+      "fontIds": [],
+      "requirements": [
+        "TEXT-01",
+        "VERSION-01"
+      ],
+      "assertions": [
+        "All chart letter forms and digits have stable IDs",
+        "Unknown legacy text remains intact"
+      ],
+      "documentPath": "tests/fixtures/documents/symbols.json",
+      "notes": "Project-authored structural fixture; no rendering baseline has been established."
+    },
+    {
+      "fixtureId": "fixture.spacing-public",
+      "kind": "line-spacing",
+      "availability": "public-synthetic",
+      "assets": [],
+      "fontIds": [],
+      "requirements": [
+        "PAGE-01",
+        "LAYOUT-01",
+        "LAYOUT-02"
+      ],
+      "assertions": [
+        "Fractional custom dimensions remain exact",
+        "M1/M3: inspect dense lines, overhangs, and effect clearance"
+      ],
+      "documentPath": "tests/fixtures/documents/spacing.json",
+      "notes": "Project-authored structural fixture; no rendering baseline has been established."
+    }
+  ]
+}

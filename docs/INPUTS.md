@@ -8,7 +8,7 @@ The archive contains **1,506 files, 9,498,822,127 bytes** (approximately 9.5 GB)
 
 Review covered the file inventory, font table/name metadata and specimens, readable document contents, raster images, Illustrator PDF previews, and embedded Photoshop previews. There are 31 substantive DOCX documents plus three Word lock files, three legacy DOC files, six plain-text files, and one XPS document. Native FontLab and InDesign project internals were not fully decoded; a preview is not a complete inspection of every editable design layer. Exact duplicates were grouped rather than treated as independent revisions.
 
-The previous review's full inventory, extracted documents, and contact sheets are local research artifacts outside the repository. The durable findings needed for implementation are recorded here. M0 will add a reproducible asset catalog and source-to-derived relationships; this plan does not claim the entire archive has already been hashed or backed up.
+The previous review's extracted documents and contact sheets are local research artifacts outside the repository. M0 now includes a reproducible [catalog](../data/assets.json) with hashes for all 1,506 files and explicit relationship certainty. Same-stem relationships are candidates, not proof of derivation. A separate archive backup has not been configured.
 
 ## 2. Legacy text is font-dependent
 

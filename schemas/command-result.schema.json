@@ -1,0 +1,163 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:command-result:0.1.0",
+  "title": "Vayrshemon command-result 0.1.0",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.1.0"
+        },
+        "requestId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "traceId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "status": {
+          "const": "applied"
+        },
+        "documentId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "previousRevision": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "revision": {
+          "type": "integer",
+          "minimum": 0,
+          "maximum": 9007199254740991
+        },
+        "undoGroupId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string",
+                "minLength": 1
+              },
+              "message": {
+                "type": "string"
+              },
+              "severity": {
+                "enum": [
+                  "info",
+                  "warning",
+                  "error"
+                ]
+              }
+            },
+            "required": [
+              "code",
+              "message",
+              "severity"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "apiVersion",
+        "requestId",
+        "traceId",
+        "status",
+        "documentId",
+        "previousRevision",
+        "revision",
+        "undoGroupId",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.1.0"
+        },
+        "requestId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "traceId": {
+          "type": "string",
+          "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
+        },
+        "status": {
+          "const": "rejected"
+        },
+        "code": {
+          "enum": [
+            "STALE_REVISION",
+            "INVALID_COMMAND",
+            "UNSUPPORTED_CAPABILITY",
+            "ASSET_MISSING"
+          ]
+        },
+        "currentRevision": {
+          "anyOf": [
+            {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 9007199254740991
+            },
+            {
+              "type": "null"
+            }
+          ]
+        },
+        "diagnostics": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "code": {
+                "type": "string",
+                "minLength": 1
+              },
+              "message": {
+                "type": "string"
+              },
+              "severity": {
+                "enum": [
+                  "info",
+                  "warning",
+                  "error"
+                ]
+              }
+            },
+            "required": [
+              "code",
+              "message",
+              "severity"
+            ],
+            "additionalProperties": false
+          },
+          "minItems": 0
+        }
+      },
+      "required": [
+        "apiVersion",
+        "requestId",
+        "traceId",
+        "status",
+        "code",
+        "currentRevision",
+        "diagnostics"
+      ],
+      "additionalProperties": false
+    }
+  ]
+}

@@ -1,0 +1,33 @@
+{
+  "schemaVersion": "0.1.0",
+  "assets": [
+    {"path":"Origins_2_Thimfora_2.jpg","roles":["alphabet-evidence"],"reviewStatus":"reviewed-for-m0"},
+    {"path":"Unta - Base 12.jpg","roles":["numeral-evidence"],"reviewStatus":"reviewed-for-m0"},
+    {"path":"Origins_3_Unta_2.jpg","roles":["number-system-reference"],"reviewStatus":"reference-preview-reviewed"},
+    {"path":"Transliteration 7 - Decimal.jpg","roles":["transliteration-reference"],"reviewStatus":"reference-preview-reviewed"},
+    {"path":"Thimfora 79 - Full Set - 1.docx","roles":["alphabet-fixture"],"reviewStatus":"text-reviewed"},
+    {"path":"Thimfora 79 - Full Set - 2.docx","roles":["alphabet-fixture","punctuation-evidence"],"reviewStatus":"text-reviewed"},
+    {"path":"font files/Thimfora_79.ttf","roles":["master-font"],"reviewStatus":"metadata-reviewed"},
+    {"path":"font files/Thimfora_80_Infill.ttf","roles":["color-layer-font"],"reviewStatus":"metadata-reviewed"},
+    {"path":"font files/Thimfora_81_Fragments.ttf","roles":["color-layer-font"],"reviewStatus":"metadata-reviewed"},
+    {"path":"font files/Transliteration/transliteration 7.ttf","roles":["transliteration-font"],"reviewStatus":"metadata-reviewed"},
+    {"path":"font files/Transliteration/transliteration 5.ttf","roles":["legacy-example-font"],"reviewStatus":"metadata-reviewed"},
+    {"path":"font files/Test/test seven.ttf","roles":["legacy-example-font"],"reviewStatus":"metadata-reviewed"},
+    {"path":"Versions Rough/Thimfora Barim Aug 10 2011.ttf","roles":["family-collision-fixture"],"reviewStatus":"metadata-reviewed"},
+    {"path":"Versions Rough/Thimfora Venik July 16 2011.ttf","roles":["family-collision-fixture"],"reviewStatus":"metadata-reviewed"},
+    {"path":"font files/How to Make High Quality Color Text with Photoshop.txt","roles":["color-recipe-evidence"],"reviewStatus":"text-reviewed"},
+    {"path":"Versions Best/Polished Examples.docx","roles":["mixed-language-fixture"],"reviewStatus":"text-reviewed"},
+    {"path":"Versions Rough/Kerning List.txt","roles":["kerning-fixture"],"reviewStatus":"text-reviewed"},
+    {"path":"Versions Rough/Kerning Pairs.txt","roles":["kerning-fixture"],"reviewStatus":"text-reviewed"},
+    {"path":"Versions Rough/Test Sequence - Times New Roman.txt","roles":["alphabet-fixture","encoding-fixture"],"reviewStatus":"text-reviewed"},
+    {"path":"Origins_A Blue Jewel.jpg","roles":["color-reference"],"reviewStatus":"reference-preview-reviewed"},
+    {"path":"Inventory of Clitics.jpg","roles":["grammar-reference","spacing-reference"],"reviewStatus":"reference-preview-reviewed"},
+    {"path":"New_Keyboard_5.png","roles":["input-layout-reference"],"reviewStatus":"reference-preview-reviewed"}
+  ],
+  "relationships": [
+    {"type":"color-layer-of","from":"font files/Thimfora_80_Infill.ttf","to":"font files/Thimfora_79.ttf","evidencePath":"font files/How to Make High Quality Color Text with Photoshop.txt","locator":"steps 3-8; bottom outer-glow layer"},
+    {"type":"color-layer-of","from":"font files/Thimfora_81_Fragments.ttf","to":"font files/Thimfora_79.ttf","evidencePath":"font files/How to Make High Quality Color Text with Photoshop.txt","locator":"steps 3-8; middle interior layer"},
+    {"type":"font-name-candidate","status":"unverified","from":"font files/Test/test seven.ttf","to":"Versions Best/Polished Examples.docx","evidencePath":"Versions Best/Polished Examples.docx","locator":"word/document.xml run rFonts: test seven; file identity remains a candidate until the historical source is confirmed"},
+    {"type":"font-name-candidate","status":"unverified","from":"font files/Transliteration/transliteration 5.ttf","to":"Versions Best/Polished Examples.docx","evidencePath":"Versions Best/Polished Examples.docx","locator":"word/document.xml run rFonts: transliteration 5; name match is evidence, not proof of original file identity"}
+  ]
+}
