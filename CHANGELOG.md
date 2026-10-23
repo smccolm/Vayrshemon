@@ -2,6 +2,16 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M4 studio 0.5.0 / native format 0.4.0 / specification 0.6.0 — 2026-10-22
+
+- Add versioned, editable outline-derived blue bevels, violet interior shading, dark edges, shadow and glow, informed by the original artwork and archived Photoshop settings.
+- Bind verified 79/80/81 layers or explicitly derived historical outlines without changing source text/font identities; integrate actual finite paint extents before collision solving.
+- Add atomic PNG/SVG/PDF publication, multipage physical sizes, explicit raster fallback/DPI and preflight that accurately declares non-searchable proofs.
+- Build reproducible COLR v0/CPAL flat-color fallback fonts with original mono outlines, mappings, palettes, compiler/source/output hashes and independent FreeType validation.
+- Add nine API/MCP controls, Paint/Publish desktop tabs and page-focus mode, M1–M3 migration, private reference coverage/proof tooling and M4 regression tests.
+- Update setup.bat, pinned requirements and CI. Preserve the standard two-column page, its original fonts and its known overhang diagnostic.
+- Keep VISUAL-01 pending user review: shader differences, historical contours and unresolved punctuation mappings remain explicit. No visual baseline is silently approved.
+
 ## M4 visual-quality target clarified — 2026-10-22
 
 - Adopt `Inputs/Versions Best/Individual Glyphs` as the user's finished-glyph visual target; explicitly record that M3 rendering is below expectations.

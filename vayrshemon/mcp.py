@@ -1,6 +1,7 @@
 """MCP 2024-11-05 stdio adapter; one shared API, no second editor model."""
 import json
 import sys
+from copy import deepcopy
 
 from . import __version__
 from .api import METHODS, remote_call
@@ -15,8 +16,8 @@ def tools(methods=None):
         if mutation:
             properties.update(expectedRevision={'type':'integer','minimum':0}, idempotencyKey={'type':'string','minLength':1,'maxLength':128}, documentId={'type':'string'})
             required += ['expectedRevision', 'idempotencyKey', 'documentId']
-        result.append(dict(name=method.replace('.', '_').replace('-', '_'), description=description,
-                           inputSchema=dict(type='object', properties=properties, required=required, additionalProperties=False)))
+        input_schema=deepcopy(schema);input_schema.update(properties=properties,required=required)
+        result.append(dict(name=method.replace('.', '_').replace('-', '_'), description=description,inputSchema=input_schema))
     return result
 
 

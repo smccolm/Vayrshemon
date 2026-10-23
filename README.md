@@ -2,7 +2,7 @@
 
 A Windows desktop editor for custom typography and the long-term development of the Vayrshemon language.
 
-**Status: M3 implemented — Windows typesetting workbench, version 0.4.0.** The editor adds baseline grids, paragraph keep/widow/orphan rules, equal-width frame flow, versioned Unicode break tailoring, bounded collision repair and optical pair/specimen tools. All 57 operations share desktop, CLI and MCP controls. Native format is 0.3.0; specification revision is 0.5.0. Color-font compilation and the language workbench remain M4/M5.
+**Status: M4 implemented for visual review — Windows glyph studio, version 0.5.0.** Editable outline-derived bevel, shading, edge, shadow and glow treatments target the Individual Glyphs artwork. M4 adds reproducible flat COLR/CPAL font builds, explicit raster proof export to PNG/SVG/PDF, effect bounds and publication preflight. All 66 operations share desktop, CLI and MCP controls. Native format is 0.4.0. **Final visual acceptance remains open**; the language workbench is M5.
 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 
@@ -12,6 +12,7 @@ The editor will support custom page dimensions, English and multilingual documen
 - [M1 launch, API/MCP, measurements, and limitations](docs/M1.md)
 - [M2 authoring, recovery, API/MCP and validation](docs/M2.md)
 - [M3 typesetting, collision policies, API/MCP and validation](docs/M3.md)
+- [M4 paint, color-font builds, publishing and visual review](docs/M4.md)
 - [Architecture and technical decisions](docs/ARCHITECTURE.md)
 - [Findings from the existing Inputs archive](docs/INPUTS.md)
 - [Planning revision history](CHANGELOG.md)
@@ -22,11 +23,11 @@ The repository is [smccolm/Vayrshemon](https://github.com/smccolm/Vayrshemon). T
 
 ## Repeatable research
 
-On Windows, double-click [`setup.bat`](setup.bat), then [`launch.bat`](launch.bat). With Python 3.12 (64-bit) installed, setup creates or reuses `.venv`, installs the pinned M0/M1/M2/M3 dependencies including Qt 6.8.3, and runs all public checks. Python 3.12.7 is the tested version. Setup keeps output visible and saves a separate log for each run in `.local/logs/`. It pauses before closing; use `setup.bat --no-pause` for automation. No Rust, Node, or compiler install is needed for this milestone.
+On Windows, double-click [`setup.bat`](setup.bat), then [`launch.bat`](launch.bat). With Python 3.12 (64-bit) installed, setup creates or reuses `.venv`, installs the pinned M0–M4 dependencies including Qt 6.8.3, NumPy/SciPy and independent proof validation libraries, and runs all public checks. Python 3.12.7 is the tested version. Setup keeps output visible and saves a separate log for each run in `.local/logs/`. It pauses before closing; use `setup.bat --no-pause` for automation. No Rust, Node, or compiler install is needed for this milestone.
 
-M3 opens a blank document and loads the actual 79/80/81 recipe when the local Inputs archive is available. Without Inputs, it uses the system English font and can load local TTFs. Save documents as `*.vay.json`; recovery and previous-save history live in `.local/`. Existing M1 and M2 files migrate on open and save to a new M3 path. Original fonts are referenced by hash and local path, never embedded or uploaded automatically. The M1 laboratory remains available through `python -m vayrshemon lab`.
+M4 opens a blank document and loads the actual 79/80/81 fonts when the local Inputs archive is available. Apply relief to the selected font in the Paint tab. Without Inputs, it uses the system English font and can load local TTFs. Save documents as `*.vay.json`; recovery and previous-save history live in `.local/`. Existing M1–M3 files migrate on open and save to a new M4 path. Original fonts are referenced by hash and local path, never uploaded automatically. `launch.bat --m3`, `launch.bat --m2` and `python -m vayrshemon lab` retain earlier interfaces.
 
-Setup also writes `.local/mcp-config.json` for an MCP client. It discovers the active editor/lab and connects through a current-user-only local socket; mutations require the document ID, current revision, and an idempotency key. The same interface is available as `.venv\Scripts\python -m vayrshemon call session.status`. See the [M3 guide](docs/M3.md) for headless operation and the [published typesetting tool schemas](data/typesetting-mcp-tools.json).
+Setup also writes `.local/mcp-config.json` for an MCP client. It discovers the active editor/lab and connects through a current-user-only local socket; mutations require the document ID, current revision, and an idempotency key. The same interface is available as `.venv\Scripts\python -m vayrshemon call session.status`. See the [M4 guide](docs/M4.md) for headless operation and the [published studio tool schemas](data/studio-mcp-tools.json).
 
 After setup, run tools directly through the project environment. The public checks work without Inputs:
 

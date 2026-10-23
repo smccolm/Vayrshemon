@@ -11,9 +11,11 @@
         "vayrshemon/session.py",
         "tests/test_m1.py",
         "vayrshemon/pages.py",
-        "tests/test_m2.py"
+        "tests/test_m2.py",
+        "vayrshemon/publication.py",
+        "tests/test_m4.py"
       ],
-      "remaining": "Custom per-page sizes and PNG physical dimensions implemented; full publishing remains M4."
+      "remaining": "Independent physical dimensions verified in PNG/SVG/multipage PDF; raster memory limits are explicit."
     },
     {
       "id": "PAGE-02",
@@ -78,30 +80,39 @@
         "vayrshemon/layout.py",
         "docs/research/m1-validation.json",
         "vayrshemon/editor_api.py",
-        "docs/research/m2-validation.json"
+        "docs/research/m2-validation.json",
+        "vayrshemon/paint.py",
+        "vayrshemon/studio_session.py",
+        "tests/test_m4.py"
       ],
-      "remaining": "M2 compatible recipe and palette selection implemented; effects, gradients and color-font compiler remain M4."
+      "remaining": "Editable outline-derived relief, shading, edge, shadow and glow implemented; VISUAL-01 remains pending user review."
     },
     {
       "id": "FONT-03",
       "milestone": "M4",
-      "status": "planned",
+      "status": "foundation",
       "evidence": [
-        "docs/ARCHITECTURE.md"
+        "docs/ARCHITECTURE.md",
+        "vayrshemon/colorfont.py",
+        "tests/test_m4.py"
       ],
-      "remaining": "Color-font compiler and independent rendering proof."
+      "remaining": "Reproducible flat COLR v0/CPAL builds and independent FreeType rendering implemented. Full bevel/glow treatment uses the explicit raster publication path; COLR v1 and other font representations remain future work."
     },
     {
       "id": "VISUAL-01",
       "milestone": "M4",
-      "status": "planned",
+      "status": "foundation",
       "evidence": [
         "docs/PLAN.md",
         "docs/INPUTS.md",
         "docs/FORMATTING.md",
-        "data/assets.json"
+        "data/assets.json",
+        "vayrshemon/paint.py",
+        "tools/verify_m4.py",
+        "docs/M4.md",
+        "docs/research/m4-validation.json"
       ],
-      "remaining": "Current M3 rendering is below the user's expected quality. Match Inputs/Versions Best/Individual Glyphs: verified contours/proportions, blue bevels/highlights, recessed shading, fine edges and soft glow. Establish matched-scale reference comparisons and reviewed baselines, then prove readability, effect clearance and export fidelity on the standard two-column portrait translation page. User visual acceptance is required; geometry passes and successful font compilation alone do not close this requirement."
+      "remaining": "M4 reference/overlay gallery covers all 128 assets: 106 mapped forms, one period candidate, 21 unresolved punctuation references. Shader and historical contour differences remain explicit. User visual acceptance and reviewed baseline/tolerances are still required; no visual sign-off is claimed."
     },
     {
       "id": "LAYOUT-01",
@@ -163,9 +174,12 @@
         "requirements-m2.txt",
         "docs/research/m2-validation.json",
         "tests/test_m3.py",
-        "docs/M3.md"
+        "docs/M3.md",
+        "schemas/studio-document.schema.json",
+        "schemas/studio-command.schema.json",
+        "docs/M4.md"
       ],
-      "remaining": "M3 API/native/policy/profile versions and reproducible proofs are recorded. Independent backups and installer rollback remain M6."
+      "remaining": "M4 API 0.5.0, native 0.4.0 and paint 1.0.0 provenance are recorded with tested migration/undo/recovery. Independent backups and installer rollback remain M6."
     },
     {
       "id": "AUTO-01",
@@ -212,9 +226,12 @@
         "vayrshemon/layout.py",
         "tests/test_m1.py",
         "vayrshemon/pages.py",
-        "tests/test_m2.py"
+        "tests/test_m2.py",
+        "vayrshemon/publication.py",
+        "vayrshemon/colorfont.py",
+        "tests/test_m4.py"
       ],
-      "remaining": "M2 current-page PNG and physically sized clipped outline SVG proof implemented. PDF, searchable publishing and color-font preflight remain M4."
+      "remaining": "PNG/SVG/multipage PDF proofs, effect preflight and independent physical/pixel/extraction checks implemented. Decorative raster and outline proofs are explicitly non-searchable. Semantic searchable interchange, CMYK/ICC, PDF/A and bleed remain future work."
     },
     {
       "id": "LANG-01",
@@ -309,6 +326,32 @@
     {
       "id": "M3-AUTOMATION",
       "check": "All 57 tools are discoverable through live MCP; setup and public regressions remain current."
+    }
+  ],
+  "m4Gates": [
+    {
+      "id": "M4-SOURCE",
+      "check": "Decorative paint retains exact source text, font IDs, cmap/advances and native edit/copy/search semantics."
+    },
+    {
+      "id": "M4-PAINT",
+      "check": "Versioned recipe, binding, finite effect bounds, scale/alpha checks and real standard-page proof."
+    },
+    {
+      "id": "M4-FONT",
+      "check": "Identical builds from identical inputs; independent FreeType rendering; explicit unsupported effects."
+    },
+    {
+      "id": "M4-EXPORT",
+      "check": "Physical PNG/SVG/PDF sizes, multi-page dimensions, independent PDF rendering and honest text extraction."
+    },
+    {
+      "id": "M4-VISUAL",
+      "check": "Pending: user acceptance of reference comparisons and standard page; unresolved punctuation and baseline tolerances remain open."
+    },
+    {
+      "id": "M4-AUTOMATION",
+      "check": "66 shared API/MCP operations, live M4 transport and current setup.bat."
     }
   ]
 }

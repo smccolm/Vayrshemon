@@ -1,5 +1,5 @@
 @echo off
-rem M3 dependencies, contracts and regression checks are maintained in tools\setup.ps1.
+rem M4 dependencies, contracts and regression checks are maintained in tools\setup.ps1.
 setlocal
 set "SETUP_NO_PAUSE="
 if "%~1"=="" goto run

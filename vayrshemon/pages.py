@@ -24,7 +24,7 @@ def page_rect(page): return QRectF(0,0,int(page['width'])/1_000_000*SCALE,int(pa
 
 def inspect(book,*,page_id=None,max_glyphs=5000):
     page=selected_page(book,page_id)
-    if hasattr(book,'composition') and any(c['enabled'] for c in book.state['typesetting']['frames'].values()):
+    if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
         return book.composition().report(page['pageId'],max_glyphs)
     records=[]; diagnostics=[]; remaining=max_glyphs
     for frame in page['frames']:
@@ -75,7 +75,7 @@ def outline_paint(native,painter,mode,clip):
 
 def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=False,outlines=False):
     page=selected_page(book,page_id); boundary=page_rect(page)
-    if hasattr(book,'composition') and any(c['enabled'] for c in book.state['typesetting']['frames'].values()):
+    if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
         return book.composition(mode).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
     mode=mode or book.view['mode']; overlays=overlays or {}
     painter.save()
@@ -123,7 +123,7 @@ def render(book,path=None,*,page_id=None,mode='color',dpi=96,region=None,overlay
     started=time.perf_counter()
     image=QImage(width,height,QImage.Format.Format_ARGB32_Premultiplied)
     if image.isNull(): raise MemoryError('RASTER_ALLOCATION_FAILED')
-    image.setDotsPerMeterX(round(dpi/.0254)); image.setDotsPerMeterY(round(dpi/.0254)); image.fill(QColor('white'))
+    image.setDotsPerMeterX(round(dpi/.0254)); image.setDotsPerMeterY(round(dpi/.0254)); image.fill(Qt.GlobalColor.transparent if 'paint' in book.state else QColor('white'))
     painter=QPainter(image)
     try:
         painter.scale(scale,scale); painter.translate(-area.topLeft())
@@ -160,7 +160,7 @@ def export_svg(book,path,*,page_id=None,mode='color'):
 def hit_test(book,x,y,page_id=None):
     page=selected_page(book,page_id)
     if not all(math.isfinite(v) for v in (x,y)): raise ValueError('INVALID_POINT')
-    if hasattr(book,'composition') and any(c['enabled'] for c in book.state['typesetting']['frames'].values()):
+    if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
         return book.composition().hit_test(page['pageId'],x,y)
     for frame in reversed(page['frames']):
         area=rect(frame)

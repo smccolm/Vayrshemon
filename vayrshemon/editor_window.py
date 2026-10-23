@@ -115,7 +115,7 @@ class PageCanvas(QAbstractScrollArea):
         p.save(); p.translate(dx,dy); p.scale(zoom,zoom)
         clip=QRectF(-dx/zoom,-dy/zoom,self.viewport().width()/zoom,self.viewport().height()/zoom)
         try:
-            pages.paint(self.book,p,clip=clip,overlays=self.book.view,guides=True)
+            pages.paint(self.book,p,clip=clip,overlays=self.book.view,guides=getattr(self,'guides',True))
         except Exception as error:
             self.book.log.exception('preview',error)
             p.restore(); p.setPen(QColor('#aa263a'))

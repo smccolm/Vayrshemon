@@ -416,7 +416,8 @@ class Composition:
         page=next(p for p in self.book.state['pages'] if p['pageId']==page_id)
         boundary=QRectF(0,0,int(page['width'])/1e6*SCALE,int(page['height'])/1e6*SCALE)
         visible=boundary if clip is None else boundary.intersected(clip)
-        painter.save(); painter.setClipRect(visible); painter.fillRect(boundary,QColor('white')); painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+        background=self.book.state.get('paint',{}).get('background','#FFFFFFFF')
+        painter.save(); painter.setClipRect(visible); painter.fillRect(boundary,QColor(background)); painter.setRenderHint(QPainter.RenderHint.Antialiasing)
         for glyph in self.final:
             if glyph['pageId']!=page_id: continue
             frame=self.frames[glyph['frameId']][1]; area=frame_rect(frame)
@@ -424,7 +425,12 @@ class Composition:
             if glyph['_clip'] is not None: glyph_clip=glyph_clip.intersected(glyph['_clip'])
             painter.save(); painter.setClipRect(glyph_clip)
             try:
-                for raw,gid,color in glyph['_paints']:
+                painted=False
+                if self.mode=='color' and 'paint' in self.book.state:
+                    if outlines and self.book.paint_renderer.binding(glyph['fontId']):
+                        raise ValueError('PAINT_REQUIRES_RASTER_FALLBACK: use publication.svg with explicit raster policy and DPI')
+                    painted=self.book.paint_renderer.paint(painter,glyph)
+                for raw,gid,color in ([] if painted else glyph['_paints']):
                     origin=QPointF(*glyph['origin'])
                     if outlines:
                         path=raw.pathForGlyph(gid)

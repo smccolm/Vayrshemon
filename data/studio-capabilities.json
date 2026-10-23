@@ -1,0 +1,799 @@
+{
+  "schemaVersion": "0.1.0",
+  "apiVersion": "0.5.0",
+  "milestone": "M4",
+  "capabilities": [
+    {
+      "method": "session.status",
+      "description": "Inspect the current document, revision, capabilities and engine.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.read",
+      "description": "Read every page/frame and the selected frame text; offsets belong to the selected frame.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.edit",
+      "description": "Replace a UTF-16 range on grapheme boundaries. Revision and idempotency key are required.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.format",
+      "description": "Format a UTF-16 range, retaining explicit font/language and custom spacing.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.save",
+      "description": "Atomically save a lab document; detects external changes and protects source files.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.open",
+      "description": "Open or migrate a document; fontPaths resolves exact hashes at new paths.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "page.configure",
+      "description": "Set dimensions and margins for one page. Full content frames follow its content area.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "history.undo",
+      "description": "Undo a document, page, frame, text or formatting transaction.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "history.redo",
+      "description": "Redo an undone document transaction.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "fonts.list",
+      "description": "Inspect loaded font identities and the registered layer recipe.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "fonts.load",
+      "description": "Privately load a local static TTF without a system font install.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "layout.inspect",
+      "description": "Inspect the page and all its frame glyphs, including overflow.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "layout.hit-test",
+      "description": "Map page coordinates to frame identity and native UTF-16 caret.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "render.png",
+      "description": "Render the shared glyph layout to PNG, optionally a bounded tile for a huge page.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "view.configure",
+      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "features.configure",
+      "description": "Toggle kerning and standard ligatures; reuses the same text source.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "selection.set",
+      "description": "Select a grapheme-aligned UTF-16 range, optionally in another frame.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": true
+    },
+    {
+      "method": "ui.inspect",
+      "description": "Read native accessibility, selection and UI state.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "ui.capture",
+      "description": "Save a PNG of the lab widget for local troubleshooting.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": true
+    },
+    {
+      "method": "diagnostics.tail",
+      "description": "Read recent correlated diagnostics.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.new",
+      "description": "Create a new document; explicit discard is required for unsaved text.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.title",
+      "description": "Rename the document.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.preflight",
+      "description": "Validate a file and list exact missing font identities without changing the document.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.save-as",
+      "description": "Save at a new path, retaining the previous document and its recovery history.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.recent",
+      "description": "List recent local document paths.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.find",
+      "description": "Find literal text on grapheme boundaries across all frames.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.replace",
+      "description": "Replace all literal matches as one undoable transaction.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "paragraph.format",
+      "description": "Set line height, paragraph spacing, alignment and left tab stops.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "page.add",
+      "description": "Add an independent page with a full content frame.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "page.delete",
+      "description": "Remove a page and its frames; undo restores all content.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "frame.add",
+      "description": "Add an independent text frame to the selected page; coordinates use points.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "frame.select",
+      "description": "Select the editing frame and invalidate commands prepared for a previous frame.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "frame.configure",
+      "description": "Set frame position, dimensions, label and visible/clipped overflow.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "frame.delete",
+      "description": "Remove a text frame; undo restores its full semantic text.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "styles.list",
+      "description": "List named character styles.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "styles.define",
+      "description": "Create or replace a named character style.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "styles.apply",
+      "description": "Apply a named character style to the selected frame range.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "recipe.configure",
+      "description": "Validate and select three compatible fonts for registered flat color.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "palette.apply",
+      "description": "Apply an explicit three-color palette to the current recipe.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "clipboard.read",
+      "description": "Return plain source text and semantic clipboard data for a selection.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "clipboard.paste",
+      "description": "Paste validated semantic clipboard data without discarding run metadata.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "recovery.list",
+      "description": "List recoverable checkpoints from sessions that are no longer running.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "recovery.restore",
+      "description": "Recover an interrupted session without overwriting its source document.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "history.list",
+      "description": "List revision summaries, undo capacity and the last durable revision.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "render.svg",
+      "description": "Export a portable outline SVG proof; bitmap-only glyphs fail explicitly.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "typesetting.read",
+      "description": "Read persisted frame policy, flow chains and versioned line-break profiles.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "typesetting.configure",
+      "description": "Enable derived layout, leading distribution and baseline grid for the source frame.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "paragraph.rules",
+      "description": "Apply keep-with-next, keep-together and widow/orphan minima to selected paragraphs.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "flow.set",
+      "description": "Flow one source story through empty equal-width frames; never duplicate or delete source text.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "breaks.profile",
+      "description": "Create a new revision of explicit language line-break tailoring; no automatic hyphenation dictionary.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "breaks.inspect",
+      "description": "Inspect native and tailored Unicode break opportunities with source offsets.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "breaks.insert",
+      "description": "Explicitly insert a soft hyphen or line separator at a grapheme boundary.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "collision.configure",
+      "description": "Set allow/warn/repair, minimum clearance, expansion/iteration budget and reserved bounds.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "collision.inspect",
+      "description": "Report before/after collisions, protected joins, solver decisions and unresolved constraints.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "optical.set",
+      "description": "Replace explicit pair spacing rules, stored separately from font kerning. Legacy independence must be declared.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "pairs.inspect",
+      "description": "Measure an isolated pair with/without font kerning and explicit optical spacing; live source is unchanged.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "specimen.create",
+      "description": "Create an editable dense specimen on a new page from explicit source symbols.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "ui.workspace",
+      "description": "Show or hide source/diagnostics, select a control panel, toggle guides and fit the page for visual review.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "paint.read",
+      "description": "Read versioned lighting, source bindings, page background and raster settings.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "paint.configure",
+      "description": "Change the outline-derived paint recipe and advance its revision; source text is unchanged.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "paint.bind",
+      "description": "Bind an exact font identity to verified layer fonts or explicit derived historical treatment.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "publication.configure",
+      "description": "Configure page background (#AARRGGBB) and default raster DPI.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "publication.preflight",
+      "description": "Inspect all pages, font identities, overset, effect clipping and extraction limitations.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "publication.export",
+      "description": "Export PNG, SVG or multipage PDF; decorative SVG/PDF requires explicit raster policy and DPI.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "font.build",
+      "description": "Build the explicitly reduced flat COLR v0/CPAL font plus reproducible provenance manifest; retain mono outlines.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "glyph.proof",
+      "description": "Render an isolated painted glyph from its exact font/glyph identity on a chosen background.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    }
+  ]
+}

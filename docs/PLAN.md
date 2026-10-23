@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.5.0**, 2026-10-22. Status: M0 through M3 implemented with automated acceptance evidence. M4 color-font studio and publishing is next. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
+Revision **0.6.0**, 2026-10-22. Status: M0 through M3 implemented with automated acceptance evidence; [M4 glyph studio and publishing](M4.md) is implemented for visual review. VISUAL-01 remains open until the user accepts representative glyphs and the standard page. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -111,6 +111,8 @@ Deliver:
 **Exit gate:** no automatic change to text or font size; no separation of intentional connected glyphs or marks; constrained repairs either meet their documented clearance or return a stable explanation. Reflow terminates and remains reproducible.
 
 ### M4 — Color-font studio and publishing
+
+Implementation: application/API 0.5.0, native format 0.4.0. See [M4](M4.md) for paint controls, explicit COLR v0 fallback, PDF/SVG/PNG proof exports, independent validation and remaining review. The visual gate below is still active; implementation and passing tests do not imply approval.
 
 **Visual quality is an outstanding requirement.** The user identified `Inputs/Versions Best/Individual Glyphs` as the quality reference on 2026-10-22. Its 128 JPEG references cover maxima, minima, Unta and punctuation. The current M3 monochrome outlines and registered flat colors do **not** satisfy this target. Approval of the portrait translation layout establishes page structure, not approval of the current glyph appearance.
 

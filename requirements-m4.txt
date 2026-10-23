@@ -1,0 +1,7 @@
+# M4 outline lighting; pinned native wheels, no build toolchain required.
+-r requirements-m3.txt
+numpy==2.2.6
+scipy==1.15.3
+Pillow==11.2.1
+# Independent PDF renderer for export regression checks.
+pypdfium2==4.30.1

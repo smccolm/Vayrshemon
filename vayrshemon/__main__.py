@@ -18,6 +18,8 @@ def main():
     editor.add_argument('--document',type=Path)
     editor.add_argument('--no-source-fonts',action='store_true')
     editor.add_argument('--m2',action='store_true',help='Open the frozen M2 authoring interface.')
+    editor.add_argument('--m3',action='store_true',help='Open the frozen M3 typesetting interface.')
+    editor.add_argument('--page-focus',action='store_true',help='Open M4 with a larger clean page preview; View restores editing and diagnostics.')
     for name in ('inspect', 'render', 'benchmark'):
         p = sub.add_parser(name)
         p.add_argument('--document', type=Path)
@@ -34,6 +36,7 @@ def main():
     mcp.add_argument('--document', type=Path)
     mcp.add_argument('--editor',action='store_true',help='Use the M2 editor in headless mode; live MCP discovers the active API.')
     mcp.add_argument('--typesetter',action='store_true',help='Use M3 typesetting in headless mode.')
+    mcp.add_argument('--studio',action='store_true',help='Use M4 paint/publication in headless mode.')
     call = sub.add_parser('call')
     call.add_argument('method')
     arguments = call.add_mutually_exclusive_group()
@@ -58,7 +61,8 @@ def main():
         info=load_json(args.descriptor or args.root/'.local/run/active.json')
         from .editor_api import METHODS as EDITOR_METHODS
         from .typesetting_api import METHODS as TYPESETTING_METHODS
-        serve(args.root, descriptor=args.descriptor,methods=TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
+        from .studio_api import METHODS as STUDIO_METHODS
+        serve(args.root, descriptor=args.descriptor,methods=STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
         return 0
     # Windows' offscreen plugin uses a dummy font backend. Hidden native Qt
     # supplies the same fonts and geometry as the window; Linux uses offscreen.
@@ -72,20 +76,25 @@ def main():
     from tools.m0.common import write_json
     app = QApplication.instance() or QApplication([])
     app.setApplicationName('Vayrshemon')
-    use_typesetter=(args.command=='editor' and not args.m2) or (args.command=='mcp' and args.typesetter)
+    use_studio=(args.command=='editor' and not args.m2 and not args.m3) or (args.command=='mcp' and args.studio)
+    use_typesetter=use_studio or (args.command=='editor' and not args.m2) or (args.command=='mcp' and args.typesetter)
     use_editor=use_typesetter or args.command=='editor' or (args.command=='mcp' and args.editor)
     if getattr(args,'document',None) and args.command in ('inspect','render','mcp'):
         from tools.m0.common import load_json
         payload=load_json(args.document)
         use_editor=use_editor or payload.get('format')=='vayrshemon.document'
         use_typesetter=use_typesetter or (payload.get('format')=='vayrshemon.document' and payload.get('formatVersion')=='0.3.0')
+        use_studio=use_studio or (payload.get('format')=='vayrshemon.document' and payload.get('formatVersion')=='0.4.0')
+        use_typesetter=use_typesetter or use_studio
     if use_editor:
         from .authoring import AuthoringSession
         from .editor_api import EditorAPI
         from .typesetting_session import TypesettingSession
         from .typesetting_api import TypesettingAPI
-        session=(TypesettingSession if use_typesetter else AuthoringSession)(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
-        api=(TypesettingAPI if use_typesetter else EditorAPI)(session)
+        from .studio_session import StudioSession
+        from .studio_api import StudioAPI
+        session=(StudioSession if use_studio else TypesettingSession if use_typesetter else AuthoringSession)(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
+        api=(StudioAPI if use_studio else TypesettingAPI if use_typesetter else EditorAPI)(session)
     else:
         session = Session(args.root, source_fonts=not args.no_source_fonts)
         api = API(session)
@@ -97,10 +106,13 @@ def main():
     if args.command=='editor':
         from .editor_window import EditorWindow
         from .workbench_window import WorkbenchWindow
-        window=(WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
+        from .studio_window import StudioWindow
+        window=(StudioWindow if use_studio else WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
         server=LocalServer(api)
         app.aboutToQuit.connect(server.close)
         window.show()
+        if use_studio and args.page_focus:
+            api.call('ui.workspace',dict(source=False,diagnostics=False,guides=False,fit_page=True,panel='Paint'),expected_revision=session.revision,origin='desktop')
         return app.exec()
     if args.command == 'lab':
         from .desktop import LabWindow

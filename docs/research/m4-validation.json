@@ -1,0 +1,60 @@
+{
+  "application": "0.5.0",
+  "apiVersion": "0.5.0",
+  "nativeFormat": "0.4.0",
+  "paintVersion": "1.0.0",
+  "recipeHash": "e4bcf0da3cb369419891d3a2614e3fc7c55e136af3fd9fdd377fed9a7e1d0cec",
+  "sourceHashes": {
+    "Inputs/font files/Thimfora_79.ttf": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc",
+    "Inputs/font files/Thimfora_80_Infill.ttf": "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd",
+    "Inputs/font files/Thimfora_81_Fragments.ttf": "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325",
+    "Inputs/Glyphs - Paths - Raster/Maxima_Raster_1_Jiam.psd": "209deb950f95aea5dfcb02d9c644aa0e57f7b40002a7c2c1a5ec8528594058ca"
+  },
+  "referenceCounts": {
+    "referenceCount": 128,
+    "mapped": 106,
+    "candidates": 1,
+    "unresolved": 21
+  },
+  "sourceTextUnchanged": true,
+  "standardPagePoints": [
+    612.0,
+    792.0
+  ],
+  "pdfExtractedCharacters": 0,
+  "independentPdfVsPng": {
+    "dpi": 144,
+    "pdfSourceDpi": 300,
+    "rgbMeanAbsoluteError": 1.024959219097291,
+    "scale": "0..255",
+    "note": "Different raster resolutions; diagnostic, not visual approval."
+  },
+  "visualAcceptance": "pending-user-review",
+  "localArtifacts": ".local/demos/m4-review-3",
+  "checks": {
+    "referenceHashes": true,
+    "allContactSheetsInspected": true,
+    "independentPdf": true,
+    "independentFreeType": true,
+    "deterministicColr": true,
+    "nativeSourcePreserved": true,
+    "standardTwoColumns": true,
+    "liveMcpTools": 66,
+    "uiHeadlessGeometry": true,
+    "pageFocus": true
+  },
+  "remaining": [
+    "User visual acceptance and chosen baselines/tolerances",
+    "21 reference punctuation assets lack verified font-slot mappings; period remains candidate",
+    "Shader profile differs from archived Photoshop; older source contours retained",
+    "Decorative PDF/SVG are raster proofs, not searchable text",
+    "No claim of zero collisions; conservative effect contacts and original ink overhang are retained"
+  ],
+  "referenceManifestSha256": "2b1b744033e9b3a8f2117cb0c71af2296863082e115c91de5fedeb94737012ef",
+  "tests": {
+    "command": "setup.bat --no-pause",
+    "passed": 102,
+    "failed": 0,
+    "setupLog": ".local/logs/setup-20261022-235359-079-50524.log"
+  }
+}
