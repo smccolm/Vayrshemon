@@ -17,7 +17,7 @@ from .language import empty_data, validate_data
 
 FORMAT = 'vayrshemon.forge'
 VERSION = '1.0.0'
-SUPPORTED_VERSIONS = ('1.0.0','1.1.0')
+SUPPORTED_VERSIONS = ('1.0.0','1.1.0','1.2.0')
 NAME = re.compile(r'^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$')
 
 
@@ -32,8 +32,13 @@ def empty_snapshot():
     return dict(language=empty_data(), wiki=[], tests=[], decisions=[], research={})
 
 
+def promote(meta,version):
+    if tuple(map(int,version.split('.')))>tuple(map(int,meta['version'].split('.'))):meta['version']=version
+
+
 def validate(snapshot):
-    if set(snapshot) not in ({'language', 'wiki', 'tests', 'decisions', 'research'}, {'language', 'wiki', 'tests', 'decisions', 'research', 'laboratory'}):
+    required={'language','wiki','tests','decisions','research'}
+    if not required<=set(snapshot)<=required|{'laboratory','variation'}:
         raise ValueError('FORGE_SNAPSHOT_FIELDS')
     if len(encoded(snapshot)) > 32*1024*1024: raise ValueError('FORGE_SNAPSHOT_LIMIT')
     validate_data(snapshot['language'])
@@ -60,6 +65,9 @@ def validate(snapshot):
                         raise ValueError('FORGE_TEST_PAIR')
     if not isinstance(snapshot['decisions'],list) or not isinstance(snapshot['research'],dict):
         raise ValueError('FORGE_EDITORIAL_FIELDS')
+    if 'variation' in snapshot:
+        from .variation import validate as validate_variation
+        validate_variation(snapshot)
     if 'laboratory' in snapshot:
         from .forge_lab import validate_lab
         validate_lab(snapshot)
@@ -105,7 +113,7 @@ class ForgeProject:
             with db:
                 db.execute('INSERT INTO commits VALUES (?,?)',(head,encoded(revision)))
                 db.execute('INSERT INTO branches VALUES (?,?,?)',('main',head,encoded(snapshot)))
-                db.execute('INSERT INTO meta VALUES (1,?)',(encoded(dict(format=FORMAT,version=VERSION,projectId=uuid.uuid4().hex,title=title,generation=0,branch='main')),))
+                db.execute('INSERT INTO meta VALUES (1,?)',(encoded(dict(format=FORMAT,version='1.2.0' if 'variation' in snapshot else VERSION,projectId=uuid.uuid4().hex,title=title,generation=0,branch='main')),))
         finally: db.close()
         return cls(path)
 
@@ -167,6 +175,7 @@ class ForgeProject:
     def replace_draft(self,snapshot,expected_generation):
         validate(snapshot)
         with self.writer(expected_generation) as (db,meta):
+            if 'variation' in snapshot:promote(meta,'1.2.0')
             db.execute('UPDATE branches SET draft=? WHERE name=?',(encoded(snapshot),meta['branch']))
         return self.status()
 
@@ -215,7 +224,7 @@ class ForgeProject:
             aa={r['id']:r for r in a.get('laboratory',{}).get(kind,[])}
             bb={r['id']:r for r in b.get('laboratory',{}).get(kind,[])}
             result['laboratory.'+kind]=dict(added=sorted(bb.keys()-aa.keys()),removed=sorted(aa.keys()-bb.keys()),changed=sorted(k for k in aa.keys()&bb.keys() if aa[k]!=bb[k]))
-        return dict(collections=result,decisionsChanged=a['decisions']!=b['decisions'],researchChanged=a['research']!=b['research'])
+        return dict(collections=result,decisionsChanged=a['decisions']!=b['decisions'],researchChanged=a['research']!=b['research'],variationChanged=a.get('variation')!=b.get('variation'))
 
     def lab_edit(self,collection,expected_generation,record=None,record_id=None):
         from .forge_lab import empty_lab

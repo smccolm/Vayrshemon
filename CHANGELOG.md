@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M10 variation in context 0.11.0 — 2026-10-23
+
+- Add optional, context-conditioned surface alternatives while preserving all complete forms, roots, case and event nominalizers. Explicit context gates apply to word and annotated clause tests.
+- Add the Variation workspace: guarded definitions, forms inspector, repetition audits, frozen evidence and before/after comparisons using identical watch definitions. Counts are advisory, not naturalness scores.
+- Retain old language suites; demonstrate experimental language 0.4.0 with coherent Shakespeare text and a versioned discourse wiki. Preserve the approved two-column presentation and three-font paint.
+- Publish six API/MCP operations (133 total), Forge envelope 1.2.0 with monotonic upgrades, and context-aware lab engine 1.1.0. Native books remain 0.5.0.
+- Pin variation evidence in page tests and verify it for named releases. Keep setup.bat, requirement chain, CI and bounded validation tests current without new dependencies.
+
 ## M9 language integration and releases 0.10.0 — 2026-10-23
 
 - Replace Fit Page with Fit Height and Fit Width. Center single-page views after open, resize, zoom and panel changes, keeping ordinary Hand panning and document geometry independent.

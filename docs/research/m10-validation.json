@@ -1,0 +1,95 @@
+{
+  "milestone": "M10",
+  "application": "0.11.0",
+  "api": "0.11.0",
+  "apiMethods": 133,
+  "nativeFormat": "0.5.0",
+  "forgeFormat": "1.2.0",
+  "paintEngine": "1.1.0",
+  "contextLabEngine": "1.1.0",
+  "auditEngine": "1.0.0",
+  "setup": {
+    "tests": 184,
+    "seconds": 436.029,
+    "passed": true,
+    "log": ".local/logs/m10-setup.log",
+    "transcript": ".local/logs/setup-20261023-161252-861-33548.log"
+  },
+  "finalFocused": {
+    "tests": 11,
+    "seconds": 11.416,
+    "passed": true,
+    "log": ".local/logs/m10-final-focused.log",
+    "scope": "Final readable variation UI and tampered-release evidence gate; includes all M10 regressions."
+  },
+  "demo": {
+    "project": ".local\\demos\\m10-variation-v0.11.0\\Vayrshemon.vayforge",
+    "beforeVersion": "4325a2f3ba7491bb20a3a6441f2bfdb32047beca7cba5c6b38b8318b7e736f7b",
+    "finalVersion": "967bf4ae22f4d863583bd9ee4ce10d0351c6d5a4c6550819aea278d412d13d4a",
+    "release": "0.4.0-experimental.1",
+    "releaseId": "2b2c2be51356b426aa2b5f540e2c69c92aa3708208057cb5fa3fdb2876cf6154",
+    "languageSuite": {
+      "Pass": 126,
+      "Needs review": 1,
+      "Unsupported": 1
+    },
+    "cases": 128,
+    "oldSuiteCases": 59,
+    "previousCaseRegressions": 0,
+    "originalWorkbenchUnchanged": true,
+    "oldProjectUnchanged": true,
+    "dictionaryUnchanged": true,
+    "dictionarySha256": "f1aec46bd386df50bee639745502eff07e0fcc179f7e7c84a22b8c32d8e449f5",
+    "englishUnchanged": true,
+    "presentationSha256": "f90a4271bd3a55660b05e410c5031f18087332de36a5d477152dd54cf5db03f6",
+    "overflow": 0,
+    "missingGlyphs": 0,
+    "conservativeCollisionWarnings": 20
+  },
+  "repetition": {
+    "tokens": 29,
+    "beforePrefixCount": 15,
+    "afterPrefixCount": 5,
+    "beforeClauseOpenings": 7,
+    "afterClauseOpenings": 3,
+    "clauses": 8,
+    "sameWatchDefinitions": true,
+    "advisoryOnly": true,
+    "scope": "One proposed literary reading; no population frequency or naturalness claim."
+  },
+  "png": {
+    "path": ".local\\demos\\m10-variation-v0.11.0\\The Tempest \u00b7 We are such stuff as dreams are made on \u00b7 967bf4ae22_2026-10-23_16-11-55_381.png",
+    "sha256": "6857fe03394ff2166299221b4a345f4186fe0478dc9b60832777fc13c70ce792",
+    "rgbaSha256": "f22d2d486cc244b638ffaf7edae1a563aa9763cb127d4b6aa79a1bc6fda3c30a",
+    "dpi": 292,
+    "pixels": [
+      3511,
+      4543
+    ],
+    "buttonTested": true,
+    "timestampSuggested": true,
+    "decoded": true
+  },
+  "approvedBaseline": {
+    "referenceId": "visual.workbench.2026-10-23",
+    "geometryIdentical": true,
+    "rgbaIdentical": true,
+    "protectedStateVerified": true,
+    "evidencePath": ".local\\test-m61\\47233eefd7f34179bcdb91a6c9b2162e\\approved-baseline\\verification.json"
+  },
+  "live": {
+    "sessionId": "editor.23c2665c930d4f1db76db0f1f63accb0",
+    "apiTested": true,
+    "mcpTested": true,
+    "log": ".local/demos/m10-variation-v0.11.0/final-live-transcript.json",
+    "mcpLog": ".local/demos/m10-variation-v0.11.0/live-mcp.jsonl",
+    "forgeCapture": ".local/demos/m10-variation-v0.11.0/05-final-variation-forge.png",
+    "workbenchCapture": ".local/demos/m10-variation-v0.11.0/06-final-workbench.png"
+  },
+  "limits": [
+    "Experimental language proposals require human interpretation and acceptance.",
+    "Context labels are supplied, not inferred; general prose parsing and semantic equivalence remain unsupported.",
+    "Conservative glyph-bound collision warnings remain visible.",
+    "Initial combined regression run hit the sandbox IPC access restriction; the normal-permission full setup run passed."
+  ]
+}

@@ -6,7 +6,7 @@ parents are part of the immutable commit, not transient editor preferences.
 """
 from copy import deepcopy
 import json
-from .forge import digest, encoded, validate
+from .forge import digest, encoded, validate, promote
 from .authoring import stamp
 
 MISSING = object()
@@ -109,7 +109,7 @@ def apply(project, source, plan_id, label, resolutions, expected_generation):
         validate(snapshot)
         # Older executables must reject this graph rather than export only its
         # first-parent history or silently drop release records.
-        meta['version']='1.1.0'
+        promote(meta,'1.2.0' if 'variation' in snapshot else '1.1.0')
         commit = dict(parent=plan['ours'], parents=[plan['ours'], plan['theirs']], label=label, createdAt=stamp(), snapshot=snapshot,
                       merge=dict(base=plan['base'], sourceBranch=source, targetBranch=meta['branch'], planId=plan_id, resolutions=deepcopy(resolutions)))
         key = digest(commit)

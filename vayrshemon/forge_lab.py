@@ -70,14 +70,23 @@ def validate_lab(snapshot):
         else: raise ValueError('LAB_UNSUPPORTED_RULE_KIND')
     rules={r['id'] for r in lab['rules']}
     for case in lab['cases']:
-        require(set(case)=={'id','title','kind','text','ruleIds','expected','tokens','note'},'CASE_FIELDS')
+        require(set(case)-{'context'}=={'id','title','kind','text','ruleIds','expected','tokens','note'},'CASE_FIELDS')
+        if 'context' in case:
+            require('variation' in snapshot,'CONTEXT_REQUIRES_VARIATION')
+            from .variation import valid_context
+            valid_context(case['context'])
         require(case['kind'] in ('word','clause','review') and string(case['text']) and string(case['note'],10000,True),'CASE_CONTENT')
         require(case['expected'] in ('accept','reject','review','unsupported'),'EXPECTATION')
         require(isinstance(case['ruleIds'],list) and 0<len(case['ruleIds'])<=32 and len(set(case['ruleIds']))==len(case['ruleIds']) and set(case['ruleIds'])<=rules,'RULE_REFERENCE')
         require(isinstance(case['tokens'],list) and len(case['tokens'])<=256,'TOKENS')
         previous=0
         for t in case['tokens']:
-            require(isinstance(t,dict) and set(t)=={'start','end','role','entryId','features'},'TOKEN_FIELDS')
+            require(isinstance(t,dict) and set(t)-{'context'}=={'start','end','role','entryId','features'},'TOKEN_FIELDS')
+            if 'context' in t:
+                require('variation' in snapshot,'CONTEXT_REQUIRES_VARIATION')
+                from .variation import valid_context
+                valid_context(t['context'])
+                require(t['context'].get('role',t['role'])==t['role'],'CONTEXT_ROLE_MISMATCH')
             require(type(t['start']) is int and type(t['end']) is int and previous<=t['start']<t['end']<=len(case['text']),'TOKEN_SPAN')
             require(string(t['role'],40) and t['entryId'] in lexicon and isinstance(t['features'],dict) and len(t['features'])<=6 and all(string(k,80) and string(v,80) for k,v in t['features'].items()),'TOKEN_ANALYSIS')
             previous=t['end']
@@ -105,6 +114,8 @@ def compile_rules(snapshot):
                 require(len(surfaces[surface])<=128,'AMBIGUITY_LIMIT')
             item['surfaces']=surfaces
         compiled[r['id']]=item
+    from .variation import expand
+    total=expand(snapshot,compiled,total)
     for item in compiled.values():
         if item['kind']=='analysis':
             surfaces={}
@@ -117,6 +128,7 @@ def compile_rules(snapshot):
 
 
 def check_case(case,compiled):
+    from .variation import allowed
     checks=[];text=case['text'];tokens=case['tokens']
     for rid in case['ruleIds']:
         rule=compiled.get(rid);detail={};outcome='accept'
@@ -127,7 +139,7 @@ def check_case(case,compiled):
             detail.update(unknownScalars=unknown[:256],unknownCount=len(unknown),truncated=len(unknown)>256)
         elif rule['kind'] in ('forms','analysis'):
             if case['kind']=='word':
-                detail['analyses']=rule['surfaces'].get(text,[])
+                detail['analyses']=[a for a in rule['surfaces'].get(text,[]) if allowed(a,case.get('context',{}))]
                 if not detail['analyses']: outcome='reject'
             elif case['kind']=='clause':
                 # Every non-separator scalar must be consumed, not just convenient
@@ -137,7 +149,8 @@ def check_case(case,compiled):
                 invalid=[];analyses=[]
                 for t in tokens:
                     surface=text[t['start']:t['end']];options=rule['surfaces'].get(surface,[])
-                    matches=[a for a in options if a['entryId']==t['entryId'] and a['features']==t['features']]
+                    context={**case.get('context',{}),**t.get('context',{}),'role':t['role']}
+                    matches=[a for a in options if a['entryId']==t['entryId'] and a['features']==t['features'] and allowed(a,context)]
                     analyses.append(dict(surface=surface,start=t['start'],end=t['end'],matches=matches))
                     if not matches: invalid.append(t['start'])
                 if not tokens or uncovered or invalid: outcome='reject'
@@ -177,7 +190,7 @@ def evaluate(snapshot,cases=None):
         coverage.append(dict(ruleId=rid,grammarId=rule['grammarId'],kind=rule['kind'],cases=len(matching),passed=len(passing),positive=sum(r['expected']=='accept' for r in passing),negative=sum(r['expected']=='reject' for r in passing),covered=bool(passing),bidirectional=all(any(r['expected']==o for r in passing) for o in ('accept','reject'))))
     counts=dict(Counter(r['status'] for r in results));status='Fail' if counts.get('Fail') else 'Needs review' if counts.get('Needs review') else 'Unsupported' if counts.get('Unsupported') or not results else 'Pass'
     grammar={r['id'] for r in snapshot['language']['grammar']};implemented={r['grammarId'] for r in lab['rules'] if r['kind']!='review'}
-    return dict(engineVersion=ENGINE,status=status,snapshotSha256=digest(snapshot),suiteSha256=digest(selected),caseCount=len(results),counts=counts,results=results,coverage=coverage,
+    return dict(engineVersion='1.1.0' if 'variation' in snapshot else ENGINE,status=status,snapshotSha256=digest(snapshot),suiteSha256=digest(selected),caseCount=len(results),counts=counts,results=results,coverage=coverage,
                 unimplementedGrammar=sorted(grammar-implemented),scope='Finite forms and annotated clause constraints. No free-prose parser, semantic equivalence, phonology inference or automatic English translation.')
 
 

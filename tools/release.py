@@ -69,6 +69,8 @@ def verify(bundle):
             required.add('requirements-m8.txt')
         if tuple(int(v) for v in manifest['application'].split('.')[:2]) >= (0,10):
             required.add('requirements-m9.txt')
+        if tuple(int(v) for v in manifest['application'].split('.')[:2]) >= (0,11):
+            required.add('requirements-m10.txt')
         if not required<=files.keys(): raise ValueError('INCOMPLETE_RELEASE')
         return manifest,files
 
