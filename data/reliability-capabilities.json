@@ -1,7 +1,7 @@
 {
   "schemaVersion": "0.1.0",
-  "apiVersion": "0.7.0",
-  "milestone": "M6",
+  "apiVersion": "0.7.1",
+  "milestone": "M6.1",
   "capabilities": [
     {
       "method": "session.status",
@@ -1022,6 +1022,30 @@
         "mcp"
       ],
       "requiresDesktop": false
+    },
+    {
+      "method": "ui.sidebar",
+      "description": "Expand, collapse, pin or resize the left controls. Saved workspace preferences; no document, zoom or undo change. Collapsing unpins; pinning expands.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": true
+    },
+    {
+      "method": "ui.sidebar.inspect",
+      "description": "Read left-panel visibility, pin, remembered width, selected tab and preference errors.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": true
     },
     {
       "method": "view.tool",

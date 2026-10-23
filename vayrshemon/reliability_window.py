@@ -11,7 +11,7 @@ class ReliabilityWindow(LanguageWindow):
     def __init__(self,book,api):
         super().__init__(book,api)
         for label in self.findChildren(QLabel):
-            if label.text()=='LANGUAGE WORKBENCH  /  M5': label.setText('LANGUAGE WORKBENCH  /  M6')
+            if label.text()=='LANGUAGE WORKBENCH  /  M5': label.setText('LANGUAGE WORKBENCH  /  M6.1')
         row=QHBoxLayout();group=QButtonGroup(self);group.setExclusive(True);self.tool_buttons={}
         for tool,label,shortcut in [('select','Select','Ctrl+Alt+V'),('hand','Hand','Ctrl+Alt+H')]:
             button=self.button(label,lambda t=tool:self.invoke('view.tool',tool=t));button.setCheckable(True)
@@ -32,6 +32,8 @@ class ReliabilityWindow(LanguageWindow):
         self.note(form,'Select: click a frame to edit. Hand: drag the page. Ctrl+Alt+H / Ctrl+Alt+V work anywhere. With preview focus: H / V, hold Space to pan, arrows to move, Home to center. Typing in text fields keeps these characters.')
         self.job_timer=QTimer(self);self.job_timer.setInterval(500);self.job_timer.timeout.connect(self.poll_jobs);self.job_timer.start()
         self._job_signature=None;self.refresh()
+        from .sidebar import SidebarDock
+        self.sidebar_dock=SidebarDock(self)
 
     def sync_navigation(self):
         if not hasattr(self,'tool_buttons'): return
@@ -39,12 +41,27 @@ class ReliabilityWindow(LanguageWindow):
         self.preview_hint.setText('PAGE PREVIEW · Drag to move the view' if self.preview.tool=='hand' else 'PAGE PREVIEW · Click a frame to edit')
 
     def configure_workspace(self,**params):
+        if params.get('panel') is not None and hasattr(self,'sidebar_dock'):
+            # Menu/API panel selection must also reveal a previously hidden tab.
+            if params['panel'] not in [self.sidebar.tabText(i) for i in range(self.sidebar.count())]:
+                raise ValueError('UNKNOWN_SIDEBAR_PANEL')
+            self.sidebar_dock.configure(expanded=True)
         result=super().configure_workspace(**params)
         if params.get('fit_page'): self.preview.center_page()
         return result
 
+    def workspace_state(self):
+        value=super().workspace_state()
+        if hasattr(self,'sidebar_dock'): value['sidebar']=self.sidebar_dock.inspect()
+        return value
+
+    def closeEvent(self,event):
+        super().closeEvent(event)
+        if event.isAccepted() and hasattr(self,'sidebar_dock') and self.sidebar_dock.save_timer.isActive():
+            self.sidebar_dock.persist()
+
     def refresh(self):
-        super().refresh();self.setWindowTitle(self.windowTitle().replace('M5','M6'))
+        super().refresh();self.setWindowTitle(self.windowTitle().replace('M5','M6.1'))
         if self.book.backup_error: self.statusBar().showMessage('Saved, but BACKUP FAILED: '+self.book.backup_error)
 
     def export_png(self): self.export_proof('png')

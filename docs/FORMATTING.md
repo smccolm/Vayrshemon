@@ -1,5 +1,7 @@
 # Standard parallel translation page
 
+**Current approved demo, 2026-10-23:** the user explicitly approved the enlarged page's font size, dimensions, margins and font quality. Use the [M6.1 visual baseline](M6.1.md#approved-reference) for new workbench demonstrations and appearance-preservation checks. Its page is 865.498700 × 1120.057141 pt, with proportionally enlarged frames/margins and preserved 50 pt script / 18 pt English. The original standard below remains an additional regression fixture. Historical notes about pending page approval below describe the earlier milestones; they do not revoke this later acceptance.
+
 Approved by the user on 2026-10-22. Standard `format.parallel-translation`, revision **1.0.0**, is the default bilingual formatting and a required regression scenario for future editor milestones. Its machine-readable definition is [parallel-translation.json](../data/formatting/parallel-translation.json).
 
 The page contains **exactly two independent, editable text columns**: Vayrshemon on the left and the corresponding English translation on the right. Use the page height for those columns. There is no title frame, column-heading frame, or footer. Do not link the Vayrshemon story into the English column as a continuation.

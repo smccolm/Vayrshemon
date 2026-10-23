@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.8.0**, 2026-10-23. Status: M0 through M3 implemented with automated acceptance evidence; [M4 glyph studio and publishing](M4.md) remains in visual review; [M5 language workbench](M5.md) and [M6 reliability/navigation](M6.md) are implemented. M6 records a remaining large-document edit-latency gap against the provisional 50 ms target. VISUAL-01 remains open until the user accepts representative glyphs and the standard page. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
+Revision **0.9.0**, 2026-10-23. Status: M0–M6 implemented, followed by [M6.1 panel controls and approved visual baseline](M6.1.md). The user explicitly accepted the enlarged two-column page's size, margins, typography and font quality. Its approved reference is now protected separately from broader M4 glyph-inventory coverage. M6 records a remaining large-document edit-latency gap against the provisional 50 ms target. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -198,9 +198,10 @@ For each requested revision: capture a reproducing document or operation sequenc
 ## 7. Immediate implementation queue
 
 1. Complete the remaining physical OS/IME/accessibility checks listed in M1 on the user's chosen input setup; retain the passing native event and provider regressions.
-2. Continue M4 VISUAL-01 review against Individual Glyphs; M5 preserves its current renderer and the standard black portrait page. User visual acceptance and unresolved punctuation remain open.
+2. Preserve the approved enlarged-page baseline introduced by M6.1. Continue broader Individual Glyphs inventory checks separately; no automatic replacement of approved state, geometry or pixels.
 3. Reduce full-state snapshot/validation/undo cost and long-paragraph shaping. M6's 100-page/100,000-scalar case limits reshaping to the changed story and meets the measured pan budget, but p95 edit-through-page-paint is 247 ms, above the provisional 50 ms target.
 4. Keep setup.bat, published API/MCP schemas, regression tests, and milestone evidence updated with every dependency or behavior change.
 5. Expand the M5 language data through cited revisions: verify historical font mappings and IPA, adjudicate competing tense readings, and develop real paradigms and corpus segmentation. Do not infer these from glyph appearance.
+6. Proposed Language Forge sequence: M7 top-level workspace/project history/version-bound wiki and Run in Workbench; M8 executable language tests, coverage and comparisons; M9 explicit merges and language releases. Keep software, language, presentation, document and test-run identities separate. M6.1 implements only panel controls and the protected visual baseline; Forge work remains a later milestone.
 
 The first demo should answer a concrete question: **can we type and revise real English and Vayrshemon on a custom-sized page, with editable color lettering, and inspect exactly why every glyph and line is where it is?**

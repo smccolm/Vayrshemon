@@ -68,7 +68,10 @@ def main():
         from .studio_api import METHODS as STUDIO_METHODS
         from .language_api import METHODS as LANGUAGE_METHODS
         from .reliability_api import METHODS as RELIABILITY_METHODS
-        serve(args.root, descriptor=args.descriptor,methods=RELIABILITY_METHODS if info['apiVersion']=='0.7.0' else LANGUAGE_METHODS if info['apiVersion']=='0.6.0' else STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
+        reliability_methods=RELIABILITY_METHODS
+        if info['apiVersion']=='0.7.0':
+            reliability_methods={k:v for k,v in RELIABILITY_METHODS.items() if not k.startswith('ui.sidebar')}
+        serve(args.root, descriptor=args.descriptor,methods=reliability_methods if info['apiVersion'] in ('0.7.0','0.7.1') else LANGUAGE_METHODS if info['apiVersion']=='0.6.0' else STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
         return 0
     # Windows' offscreen plugin uses a dummy font backend. Hidden native Qt
     # supplies the same fonts and geometry as the window; Linux uses offscreen.

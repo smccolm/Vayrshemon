@@ -1,7 +1,7 @@
 """M6 API/MCP additions, retaining the same revision and idempotency guards."""
 from copy import deepcopy
 from pathlib import Path
-from .api import obj,STRING,NUMBER
+from .api import obj,STRING,NUMBER,BOOL
 from .language_api import LanguageAPI,METHODS as M5_METHODS
 from .studio_api import EXPORT_FIELDS
 from tools.recovery import create_backup,verify_backup,restore_backup
@@ -9,6 +9,8 @@ from tools.recovery import create_backup,verify_backup,restore_backup
 METHODS=deepcopy(M5_METHODS)
 METHODS['ui.workspace'][2]['properties']['panel']['enum']+=['Reliability']
 METHODS.update({
+ 'ui.sidebar':('Expand, collapse, pin or resize the left controls. Saved workspace preferences; no document, zoom or undo change. Collapsing unpins; pinning expands.',True,obj(dict(expanded=BOOL,pinned=BOOL,width={'type':'integer','minimum':320,'maximum':560}))),
+ 'ui.sidebar.inspect':('Read left-panel visibility, pin, remembered width, selected tab and preference errors.',False,obj()),
  'view.tool':('Choose Select to click a frame to edit, or Hand to drag the view. No document revision or undo entry.',True,obj(dict(tool={'enum':['select','hand']}),('tool',))),
  'view.pan':('Move the page by viewport logical pixels, without changing text, selection or document history.',True,obj(dict(dx={'type':'number','minimum':-100000,'maximum':100000},dy={'type':'number','minimum':-100000,'maximum':100000}),('dx','dy'))),
  'view.center':('Bring the current page back to the center of the viewport.',True,obj()),
@@ -24,11 +26,14 @@ METHODS.update({
 
 
 class ReliabilityAPI(LanguageAPI):
-    version='0.7.0'
+    version='0.7.1'
     methods=METHODS
 
     def dispatch(self,method,params):
         s=self.session
+        if method in ('ui.sidebar','ui.sidebar.inspect'):
+            if not s.window: raise ValueError('DESKTOP_REQUIRED')
+            return s.window.sidebar_dock.configure(**params) if method=='ui.sidebar' else s.window.sidebar_dock.inspect()
         if method in ('view.tool','view.pan','view.center','view.inspect'):
             if not s.window: raise ValueError('DESKTOP_REQUIRED')
             canvas=s.window.preview

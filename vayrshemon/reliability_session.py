@@ -5,7 +5,7 @@ from .incremental import StoryCache
 
 
 class ReliabilitySession(LanguageSession):
-    application_version='0.7.0'
+    application_version='0.7.1'
 
     def __init__(self,*args,**kwargs):
         self.story_cache=StoryCache();self.backup_error=None;self.last_backup=None;self.jobs=None

@@ -15,10 +15,10 @@ def generate(root):
             fields.update(documentId={'type':'string'},expectedRevision={'type':'integer','minimum':0},idempotencyKey={'type':'string','minLength':1,'maxLength':128})
             required+=['documentId','expectedRevision','idempotencyKey']
         variants.append(dict(obj(fields,required),description=description))
-    write_json(root/'schemas/reliability-command.schema.json',{'$schema':'https://json-schema.org/draft/2020-12/schema','$id':'urn:vayrshemon:schema:reliability-command:0.7.0','oneOf':variants})
+    write_json(root/'schemas/reliability-command.schema.json',{'$schema':'https://json-schema.org/draft/2020-12/schema','$id':'urn:vayrshemon:schema:reliability-command:'+ReliabilityAPI.version,'oneOf':variants})
     write_json(root/'data/reliability-mcp-tools.json',dict(apiVersion=ReliabilityAPI.version,protocolVersion='2024-11-05',tools=tools(METHODS)))
-    write_json(root/'data/reliability-capabilities.json',dict(schemaVersion='0.1.0',apiVersion=ReliabilityAPI.version,milestone='M6',
-        capabilities=[dict(method=m,description=d,mutation=mutation,transports=['python','cli','desktop','mcp'],requiresDesktop=m in ('ui.capture','selection.set','ui.workspace','view.tool','view.pan','view.center','view.inspect')) for m,(d,mutation,_) in METHODS.items()]))
+    write_json(root/'data/reliability-capabilities.json',dict(schemaVersion='0.1.0',apiVersion=ReliabilityAPI.version,milestone='M6.1',
+        capabilities=[dict(method=m,description=d,mutation=mutation,transports=['python','cli','desktop','mcp'],requiresDesktop=m in ('ui.capture','selection.set','ui.workspace','ui.sidebar','ui.sidebar.inspect','view.tool','view.pan','view.center','view.inspect')) for m,(d,mutation,_) in METHODS.items()]))
 
 
 if __name__=='__main__': generate(Path(__file__).resolve().parents[1])

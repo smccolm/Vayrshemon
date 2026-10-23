@@ -1,0 +1,139 @@
+{
+  "id": "visual.workbench.2026-10-23",
+  "version": "1.0.0",
+  "approvedOn": "2026-10-23",
+  "approval": "User explicitly approved font size, page size, margins and font quality on the larger two-column page.",
+  "scope": "This page, its typography and three-font paint treatment. Archive-wide glyph inventory review remains separately tracked.",
+  "policy": "Immutable reference. Changes require an explained comparison and explicit user acceptance; never auto-update expected hashes.",
+  "source": {
+    "path": ".local/baselines/visual.workbench.2026-10-23/approved.vay.json",
+    "sha256": "ce020579f9c3792bb7639788a830e23d4d22b98cd63b153a3bbb2a96d1f4bc52",
+    "backupPath": ".local/baselines/visual.workbench.2026-10-23/backups/ce020579f9c3792bb7639788a830e23d4d22b98cd63b153a3bbb2a96d1f4bc52.vaybackup"
+  },
+  "proof": {
+    "path": ".local/baselines/visual.workbench.2026-10-23/approved.png",
+    "sha256": "a931b14efc448cbbd079f929108bdece95749cfc5f5cd39a70f972dd7ba7c993",
+    "rgbaSha256": "e62e8d7c44cb2798a19da804ae0d7abf91c795ba5694566144599acd2ed209e9",
+    "dpi": 144,
+    "pixels": [
+      1731,
+      2241
+    ]
+  },
+  "protectedStateSha256": "79c8462984bda839327b270cd3c069191bdb1664a335d57d48194cb9410d3b42",
+  "geometryHash": "c02583087d1d4c7646a2b7d6cf10de8245676ce29504c33ace7b4f13a5f1500c",
+  "page": {
+    "width": "865498700",
+    "height": "1120057141",
+    "margins": {
+      "top": "59396970",
+      "right": "67882251",
+      "bottom": "67882251",
+      "left": "67882251"
+    }
+  },
+  "units": "integer micropoints",
+  "columns": [
+    {
+      "role": "Vayrshemon",
+      "x": "67882251",
+      "y": "59396970",
+      "width": "339411255",
+      "height": "992777921"
+    },
+    {
+      "role": "English",
+      "x": "458205194",
+      "y": "59396970",
+      "width": "339411255",
+      "height": "992777921"
+    }
+  ],
+  "typography": {
+    "vayrshemonSizePt": 50,
+    "englishSizePt": 18,
+    "vayrshemonLeadingPt": 38,
+    "englishLeadingPt": 30,
+    "paragraphAfterPt": 24,
+    "pairedBaselines": true
+  },
+  "paint": {
+    "version": "1.0.0",
+    "recipe": {
+      "recipeId": "paint.individual-glyphs",
+      "version": "1.0.0",
+      "revision": 2,
+      "rim": "#0674da",
+      "highlight": "#ffffff",
+      "recess": "#080fa2",
+      "edge": "#000000",
+      "glow": "#beffff",
+      "bevel": 0.03,
+      "depth": 1.64,
+      "edgeWidth": 0.001,
+      "glowRadius": 0.02,
+      "glowOpacity": 0.56,
+      "shadowRadius": 0.001667,
+      "shadowX": 0.0025,
+      "shadowY": 0.00433,
+      "shadowOpacity": 0.75,
+      "lightAzimuth": 120,
+      "lightElevation": 30,
+      "gradient": 0.0,
+      "lightingModel": "individual-glyphs-1",
+      "referenceGradients": true,
+      "recessTop": "#0e1153",
+      "recessBottom": "#0d1167",
+      "interiorBevel": 0.065,
+      "highlightOpacity": 0.66,
+      "bevelShadowOpacity": 0.75,
+      "normalSmoothing": 0.001,
+      "glowRange": 0.49,
+      "glowSpread": 0.00051
+    },
+    "bindings": [
+      {
+        "fontId": "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0",
+        "glowFontId": "font:2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd:0",
+        "interiorFontId": "font:182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325:0",
+        "kind": "layered",
+        "enabled": true
+      }
+    ],
+    "background": "#FF000000",
+    "rasterDpi": 300
+  },
+  "fonts": [
+    {
+      "fontId": "font:182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325:0",
+      "sha256": "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325"
+    },
+    {
+      "fontId": "font:1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad:0",
+      "sha256": "1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad"
+    },
+    {
+      "fontId": "font:2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd:0",
+      "sha256": "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd"
+    },
+    {
+      "fontId": "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0",
+      "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+    },
+    {
+      "fontId": "font:e873883787e06ad11021eaa3a814dddc1ae3bcc3dafd34ee0ab61c04cdbab02d:0",
+      "sha256": "e873883787e06ad11021eaa3a814dddc1ae3bcc3dafd34ee0ab61c04cdbab02d"
+    }
+  ],
+  "renderer": {
+    "qt": "6.8.3",
+    "paintEngine": "1.1.0",
+    "platform": "Windows",
+    "comparison": "Exact RGBA on the recorded runtime; geometry and document equality checked separately."
+  },
+  "knownDiagnostics": {
+    "collisions": 12,
+    "overflow": 0
+  },
+  "privateAssetsTracked": false
+}

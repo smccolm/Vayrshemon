@@ -71,7 +71,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M6 0.7.0 setup - $projectRoot"
+    Write-Host "Vayrshemon M6.1 0.7.1 setup - $projectRoot"
     Write-Host "Console log: $logPath"
 
     if (Test-Path -LiteralPath $environmentPath) {
@@ -118,7 +118,8 @@ try {
 
     Write-Host ''
     Write-Host 'Setup complete. Dependencies, evidence checks, and tests passed.'
-    Write-Host 'Double-click launch.bat to open the M6 language workbench (Select and Hand tools).'
+    Write-Host 'Double-click launch.bat to open M6.1 (collapsible, pinnable controls; Select and Hand).'
+    Write-Host 'Panel shortcuts: Ctrl+Alt+B expands/collapses; Ctrl+Alt+P pins/unpins. See docs\M6.1.md.'
     Write-Host 'Offline recovery: python -S tools\recovery.py --help'
     Write-Host 'Versioned installation and rollback: installed.bat --help (see docs\M6.md).'
     Write-Host 'CLI: .venv\Scripts\python.exe -m vayrshemon --help'

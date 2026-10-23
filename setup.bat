@@ -1,5 +1,5 @@
 @echo off
-rem M6 0.7.0 dependencies, reliability/navigation/recovery/proof/translation checks live in tools\setup.ps1.
+rem M6.1 0.7.1 dependencies, collapsible/pinned panel, visual-baseline and regression checks live in tools\setup.ps1.
 setlocal
 set "SETUP_NO_PAUSE="
 if "%~1"=="" goto run

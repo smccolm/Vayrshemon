@@ -2,6 +2,13 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M6.1 controls and approved baseline 0.7.1 — 2026-10-23
+
+- Add a permanently reachable collapse/expand rail, pin control, temporary opening and scoped keyboard shortcuts. Persist visibility, pin, width and selected tab outside documents; retain zoom, text, geometry, rendering and undo state.
+- Add `ui.sidebar` / `ui.sidebar.inspect` through desktop, CLI and MCP (98 operations), with guarded mutations, retry safety and visible preference failures. Keep discovery compatible with running M6 0.7.0 sessions.
+- Record the user's explicit approval of the larger two-column page as a hash-pinned visual baseline with private source, PNG and font-complete backup. Verify exact protected state, geometry and RGBA pixels; retain the original translation fixture too.
+- Update setup.bat, setup messages, contracts, tests and documentation. No new dependency, native format, language-data or paint-engine change.
+
 ## M6 reliability and navigation 0.7.0 / native format 0.5.0 unchanged — 2026-10-23
 
 - Add explicit Select/Hand tools, fitted-page panning, center/fit controls, scoped keyboard navigation and API/MCP inspection. Panning and tool switches preserve selection, revision, dirty state and undo.

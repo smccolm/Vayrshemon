@@ -1,12 +1,12 @@
 {
   "$schema": "https://json-schema.org/draft/2020-12/schema",
-  "$id": "urn:vayrshemon:schema:reliability-command:0.7.0",
+  "$id": "urn:vayrshemon:schema:reliability-command:0.7.1",
   "oneOf": [
     {
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "session.status"
@@ -30,7 +30,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.read"
@@ -54,7 +54,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.edit"
@@ -112,7 +112,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.format"
@@ -199,7 +199,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.save"
@@ -244,7 +244,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.open"
@@ -298,7 +298,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "page.configure"
@@ -383,7 +383,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "history.undo"
@@ -422,7 +422,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "history.redo"
@@ -461,7 +461,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "fonts.list"
@@ -485,7 +485,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "fonts.load"
@@ -534,7 +534,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "layout.inspect"
@@ -568,7 +568,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "layout.hit-test"
@@ -606,7 +606,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "render.png"
@@ -690,7 +690,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "view.configure"
@@ -762,7 +762,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "features.configure"
@@ -808,7 +808,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "selection.set"
@@ -865,7 +865,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "ui.inspect"
@@ -889,7 +889,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "ui.capture"
@@ -934,7 +934,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "diagnostics.tail"
@@ -964,7 +964,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.new"
@@ -1017,7 +1017,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.title"
@@ -1063,7 +1063,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.preflight"
@@ -1093,7 +1093,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.save-as"
@@ -1138,7 +1138,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.recent"
@@ -1162,7 +1162,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.find"
@@ -1202,7 +1202,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "document.replace"
@@ -1261,7 +1261,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "paragraph.format"
@@ -1363,7 +1363,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "page.add"
@@ -1409,7 +1409,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "page.delete"
@@ -1455,7 +1455,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "frame.add"
@@ -1511,7 +1511,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "frame.select"
@@ -1557,7 +1557,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "frame.configure"
@@ -1623,7 +1623,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "frame.delete"
@@ -1669,7 +1669,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "styles.list"
@@ -1693,7 +1693,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "styles.define"
@@ -1782,7 +1782,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "styles.apply"
@@ -1839,7 +1839,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "recipe.configure"
@@ -1895,7 +1895,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "palette.apply"
@@ -1946,7 +1946,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "clipboard.read"
@@ -1984,7 +1984,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "clipboard.paste"
@@ -2041,7 +2041,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "recovery.list"
@@ -2065,7 +2065,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "recovery.restore"
@@ -2119,7 +2119,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "history.list"
@@ -2143,7 +2143,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "render.svg"
@@ -2198,7 +2198,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "typesetting.read"
@@ -2222,7 +2222,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "typesetting.configure"
@@ -2296,7 +2296,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "paragraph.rules"
@@ -2365,7 +2365,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "flow.set"
@@ -2421,7 +2421,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "breaks.profile"
@@ -2503,7 +2503,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "breaks.inspect"
@@ -2527,7 +2527,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "breaks.insert"
@@ -2581,7 +2581,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "collision.configure"
@@ -2667,7 +2667,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "collision.inspect"
@@ -2696,7 +2696,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "optical.set"
@@ -2783,7 +2783,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "pairs.inspect"
@@ -2834,7 +2834,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "specimen.create"
@@ -2895,7 +2895,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "ui.workspace"
@@ -2968,7 +2968,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "paint.read"
@@ -2992,7 +2992,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "paint.configure"
@@ -3159,7 +3159,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "paint.bind"
@@ -3257,7 +3257,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "publication.configure"
@@ -3306,7 +3306,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "publication.preflight"
@@ -3358,7 +3358,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "publication.export"
@@ -3434,7 +3434,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "font.build"
@@ -3488,7 +3488,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "glyph.proof"
@@ -3568,7 +3568,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.read"
@@ -3614,7 +3614,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.revisions"
@@ -3638,7 +3638,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.diff"
@@ -3674,7 +3674,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.adopt"
@@ -3720,7 +3720,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.record.put"
@@ -5081,7 +5081,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.record.delete"
@@ -5141,7 +5141,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.archive.import"
@@ -5180,7 +5180,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.import"
@@ -5225,7 +5225,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.export"
@@ -5270,7 +5270,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "language.publish"
@@ -5323,7 +5323,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "lexicon.search"
@@ -5357,7 +5357,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "orthography.transliterate"
@@ -5399,7 +5399,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "orthography.input"
@@ -5464,7 +5464,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "corpus.search"
@@ -5502,7 +5502,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "corpus.links"
@@ -5526,7 +5526,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "corpus.link"
@@ -5624,7 +5624,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "corpus.unlink"
@@ -5670,7 +5670,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "numbers.format"
@@ -5715,7 +5715,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "numbers.parse"
@@ -5751,7 +5751,82 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
+        },
+        "method": {
+          "const": "ui.sidebar"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "expanded": {
+              "type": "boolean"
+            },
+            "pinned": {
+              "type": "boolean"
+            },
+            "width": {
+              "type": "integer",
+              "minimum": 320,
+              "maximum": 560
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Expand, collapse, pin or resize the left controls. Saved workspace preferences; no document, zoom or undo change. Collapsing unpins; pinning expands."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.7.1"
+        },
+        "method": {
+          "const": "ui.sidebar.inspect"
+        },
+        "params": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Read left-panel visibility, pin, remembered width, selected tab and preference errors."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.7.1"
         },
         "method": {
           "const": "view.tool"
@@ -5799,7 +5874,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "view.pan"
@@ -5852,7 +5927,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "view.center"
@@ -5891,7 +5966,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "view.inspect"
@@ -5915,7 +5990,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "performance.inspect"
@@ -5939,7 +6014,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "backup.create"
@@ -5982,7 +6057,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "backup.verify"
@@ -6012,7 +6087,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "backup.restore"
@@ -6061,7 +6136,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "jobs.export"
@@ -6137,7 +6212,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "jobs.status"
@@ -6165,7 +6240,7 @@
       "type": "object",
       "properties": {
         "apiVersion": {
-          "const": "0.7.0"
+          "const": "0.7.1"
         },
         "method": {
           "const": "jobs.cancel"

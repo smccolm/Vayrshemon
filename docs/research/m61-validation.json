@@ -1,0 +1,90 @@
+{
+  "milestone": "M6.1",
+  "application": "0.7.1",
+  "api": "0.7.1",
+  "nativeFormat": "0.5.0",
+  "date": "2026-10-23",
+  "setup": {
+    "command": "setup.bat --no-pause",
+    "passed": true,
+    "tests": 141,
+    "skipped": 0,
+    "elapsedTestSeconds": 201.454,
+    "dependencyCheckPassed": true,
+    "evidenceCheckPassed": true,
+    "offlineWheelhouse": true,
+    "newDependencies": false,
+    "log": ".local/logs/setup-20261023-132002-740-43880.log",
+    "scope": "Full setup run before the final remote-client API-version allowlist correction; final targeted and live checks below cover that correction."
+  },
+  "finalTargeted": {
+    "command": "python -m unittest discover -s tests -p test_m61.py -v",
+    "passed": true,
+    "tests": 7,
+    "skipped": 0,
+    "elapsedSeconds": 17.108,
+    "log": ".local/m61-final-panel-tests.log",
+    "includes": [
+      "actual Qt collapse/expand/pin clicks and keyboard shortcuts",
+      "temporary dismissal and popup/text-field scope",
+      "visibility, pin, width and selected tab across window restart",
+      "revision, dirty state, zoom, content, geometry and undo preservation",
+      "guarded requests, conflicting states and idempotent retry",
+      "corrupt preferences and visible persistence errors",
+      "real subprocess remote client through current-user local socket",
+      "private approved-page geometry and exact RGBA regression"
+    ]
+  },
+  "parallelTranslation": {
+    "includedInFullSetup": true,
+    "tests": 2,
+    "passed": true,
+    "includesActualArchive": true
+  },
+  "approvedVisualBaseline": {
+    "id": "visual.workbench.2026-10-23",
+    "manifest": "data/formatting/approved-workbench-20261023.json",
+    "protectedStateVerified": true,
+    "geometryIdentical": true,
+    "rgbaIdentical": true,
+    "proofPixels": [1731, 2241],
+    "dpi": 144,
+    "fontCompleteBackupVerified": true,
+    "knownCollisionWarnings": 12,
+    "frameOverflow": 0,
+    "privateReferenceTracked": false
+  },
+  "demo": {
+    "folder": ".local/demos/m61-panel-v0.7.1/demo",
+    "nativeFile": "Vayrshemon-English-M6.1.vay.json",
+    "exports": ["approved-page.png", "approved-page.svg", "approved-page.pdf"],
+    "sourceCopiedWithoutMutation": true,
+    "languagePreserved": true,
+    "backupVerified": true
+  },
+  "live": {
+    "sessionId": "editor.00b05800b14a43e89dbd17fed4ed952f",
+    "revision": 126,
+    "panelStates": ["pinned", "collapsed", "temporary", "pinned", "collapsed"],
+    "documentUnchangedDuringDemo": true,
+    "undoUnchanged": true,
+    "zoomUnchanged": true,
+    "savedClean": true,
+    "mcpTools": 98,
+    "mcpMutationAndInspectionPassed": true,
+    "mcpIdempotentRetryPassed": true,
+    "preferenceError": null,
+    "finalScreenshot": "live-final-collapsed.png"
+  },
+  "legacyMcpDiscovery": {
+    "api": "0.7.0",
+    "tools": 96,
+    "newMethodsNotAdvertised": true,
+    "passed": true
+  },
+  "retainedLimits": [
+    "Exact raster comparison is against the recorded Windows/Qt rendering environment.",
+    "User acceptance applies to the demonstrated page and treatment; broader Individual Glyphs inventory coverage remains separately tracked.",
+    "M6 large-document latency and physical accessibility/IME checks retain their previous limits."
+  ]
+}

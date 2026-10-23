@@ -1,5 +1,5 @@
 {
-  "apiVersion": "0.7.0",
+  "apiVersion": "0.7.1",
   "protocolVersion": "2024-11-05",
   "tools": [
     {
@@ -4572,6 +4572,54 @@
           "convention_id",
           "text"
         ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ui_sidebar",
+      "description": "Expand, collapse, pin or resize the left controls. Saved workspace preferences; no document, zoom or undo change. Collapsing unpins; pinning expands.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expanded": {
+            "type": "boolean"
+          },
+          "pinned": {
+            "type": "boolean"
+          },
+          "width": {
+            "type": "integer",
+            "minimum": 320,
+            "maximum": 560
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ui_sidebar_inspect",
+      "description": "Read left-panel visibility, pin, remembered width, selected tab and preference errors.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
         "additionalProperties": false
       }
     },
