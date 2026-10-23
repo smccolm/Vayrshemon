@@ -28,6 +28,8 @@ The approved editable document remains local at `.local/demos/portrait-translati
 
 For Individual Glyphs color review, the user's 2026-10-23 correction requires the actual Thimfora 79/81/80 family. Use the separate [layered review definition](../data/formatting/parallel-translation-layered.json), built by `tools.layered_translation_fixture`. It retains these page/frame dimensions and paired passages, explicitly adapts the old clitic slot using the archived layered example, and records conversion provenance. Its 50 pt master font has different outlines and metrics, so line wrapping and paired spacing are measured anew. This color copy does not replace the unchanged archival fixture or imply visual approval.
 
+For the requested bevel/glow review, use black paper (`#FF000000`, ARGB) and pale English (`#E4E9F0FF`, RGBA). The current reference recipe is `individual-glyphs-1`. This presentation makes the translucent glow visible while retaining the same two editable columns and attested passages. `python -m tools.verify_m4 --black` creates this saved native demo and black PNG/SVG/PDF proofs, with a separate white-paper comparison.
+
 ## Repeatable acceptance test
 
 Run `.venv\Scripts\python -m unittest discover -s tests -p test_parallel_translation.py -v`. Normal full-suite discovery, including setup.bat, also runs this test; there are no new dependencies.

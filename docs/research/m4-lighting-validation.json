@@ -1,0 +1,122 @@
+{
+  "date": "2026-10-23",
+  "application": "0.5.3",
+  "apiVersion": "0.5.0",
+  "nativeFormat": "0.4.0",
+  "paintEngineVersion": "1.1.0",
+  "recipeFormat": "1.0.0",
+  "tests": {
+    "command": "setup.bat --no-pause",
+    "passed": 112,
+    "failed": 0,
+    "log": ".local/logs/setup-20261023-101619-256-49580.log",
+    "coverage": [
+      "Legacy recipe stays legacy; new fields persist and undo",
+      "Subpixel rotated-vector bevel distances",
+      "ADD union has no bevel at buried overlap boundaries",
+      "Screen glow on white/black/transparent backgrounds",
+      "Verified per-glyph reference gradient choice, opt-out and undo",
+      "Existing three-font registration, actual/historical standard pages, PDF, color fonts and IPC"
+    ]
+  },
+  "profile": "docs/research/m4-lighting-profile.json",
+  "perGlyphGradientData": "data/individual-glyphs-lighting.json",
+  "referenceCoverage": {
+    "referenceCount": 128,
+    "mapped": 106,
+    "candidates": 1,
+    "unresolved": 21
+  },
+  "referenceComparison": {
+    "mappedGlyphs": 106,
+    "alignment": "Same uniform whole-glyph fit, no separate layer positioning",
+    "priorMeanGlyphBoxRgbMae": 23.626974126004914,
+    "currentMeanGlyphBoxRgbMae": 12.891851380566356,
+    "currentMeanOpaqueInkRgbMae": 21.661033056477294,
+    "currentMeanVisibleHaloRgbMae": 6.960829056126453,
+    "note": "Diagnostic RGB errors; not a pass threshold. Glyph-box scores include counters; separate opaque-ink/visible-halo scores exclude blank canvas. Shapes reconstructed in Photoshop can differ from current font curves."
+  },
+  "representativeComparison": [
+    {
+      "name": "Maxima_1_Jiam",
+      "inkMaeOld": 34.829904285123156,
+      "inkMaeNew": 35.73463033435764,
+      "haloMaeOld": 29.003571967126593,
+      "haloMaeNew": 10.98613624368544
+    },
+    {
+      "name": "Minima_10_Ra",
+      "inkMaeOld": 19.648317337270825,
+      "inkMaeNew": 19.37353882121324,
+      "haloMaeOld": 28.297892958306416,
+      "haloMaeNew": 5.854735046132949
+    },
+    {
+      "name": "Minima_38_Ojium",
+      "inkMaeOld": 29.293049850116574,
+      "inkMaeNew": 28.308149217275453,
+      "haloMaeOld": 30.43895460934682,
+      "haloMaeNew": 8.743503626027788
+    },
+    {
+      "name": "Unta_0_Pholim",
+      "inkMaeOld": 14.610775586198871,
+      "inkMaeNew": 11.11964857159481,
+      "haloMaeOld": 28.26102274600297,
+      "haloMaeNew": 4.954212680621944
+    }
+  ],
+  "reviewCopy": {
+    "localArtifacts": ".local/demos/m4-reference-lighting-v0.5.3",
+    "pagePoints": [
+      612,
+      792
+    ],
+    "background": "#FF000000",
+    "englishColor": "#E4E9F0FF",
+    "independentColumns": 2,
+    "scriptGlyphRecords": 180,
+    "sourceTextUnchanged": true,
+    "allMasterGlyphOriginsAndInkBoundsUnchangedFrom052": true,
+    "inheritedSourceAdaptation": "The existing explicitly adapted 79/81/80 specimen is copied. No further encoding or text changes. Its 10 original clitic conversions remain recorded in inherited-source-adaptation.json.",
+    "sourceFilesModified": false,
+    "priorOpenDocumentPreserved": true,
+    "preliminaryPreviewZoomPreserved": ".local/demos/m4-lighting-v0.5.3/with-user-zoom.vay.json",
+    "collisionWarnings": 12,
+    "protectedContacts": 143,
+    "independentPdfRenderVsPngRgbMae": 1.0031374818445897,
+    "referenceGalleryAndBlackLivePageVisuallyInspected": true
+  },
+  "live": {
+    "application": "0.5.3",
+    "paintEngineVersion": "1.1.0",
+    "sessionId": "editor.7150a9e2029f4479a60b905325e7edfb",
+    "scriptGlyphRecords": 180,
+    "everyScriptGlyphHasThreeRegisteredLayers": true,
+    "mcpTools": 66,
+    "liveMcpLightingEditAndUndo": true,
+    "uiHeadlessGeometry": true,
+    "background": "#FF000000",
+    "workspace": {
+      "source": false,
+      "diagnostics": false,
+      "guides": false,
+      "panel": "Paint"
+    },
+    "savedPath": "E:\\Vayrshemon\\.local\\demos\\m4-reference-lighting-v0.5.3\\Vayrshemon-English-M4.vay.json",
+    "dirty": false
+  },
+  "preflightIssues": [
+    {
+      "code": "DECORATIVE_RASTER",
+      "severity": "info",
+      "message": "Color effects are rasterized at export DPI; native document retains editable source text."
+    }
+  ],
+  "visualAcceptance": "User approved the three-font construction; this bevel/shading/glow revision is ready for review. No pixel-identical Photoshop claim or automatic VISUAL-01 closure.",
+  "knownLimits": [
+    "21 historical punctuation references lack a verified current slot; one period candidate remains provisional.",
+    "Conservative effect bounds report 12 contacts; they do not imply text overlap.",
+    "Transparent PNG cannot preserve editable Screen blending; final proofs should target their intended background."
+  ]
+}

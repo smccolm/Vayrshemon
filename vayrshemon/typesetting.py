@@ -418,6 +418,8 @@ class Composition:
         visible=boundary if clip is None else boundary.intersected(clip)
         background=self.book.state.get('paint',{}).get('background','#FFFFFFFF')
         painter.save(); painter.setClipRect(visible); painter.fillRect(boundary,QColor(background)); painter.setRenderHint(QPainter.RenderHint.Antialiasing)
+        underlay=getattr(self,'paint_underlay',None)
+        separated=underlay(painter,page_id,visible,outlines) if underlay else False
         for glyph in self.final:
             if glyph['pageId']!=page_id: continue
             frame=self.frames[glyph['frameId']][1]; area=frame_rect(frame)
@@ -429,7 +431,7 @@ class Composition:
                 if self.mode=='color' and 'paint' in self.book.state:
                     if outlines and self.book.paint_renderer.binding(glyph['fontId']):
                         raise ValueError('PAINT_REQUIRES_RASTER_FALLBACK: use publication.svg with explicit raster policy and DPI')
-                    painted=self.book.paint_renderer.paint(painter,glyph)
+                    painted=self.book.paint_renderer.paint(painter,glyph,component='surface' if separated else 'composite')
                 for raw,gid,color in ([] if painted else glyph['_paints']):
                     origin=QPointF(*glyph['origin'])
                     if outlines:

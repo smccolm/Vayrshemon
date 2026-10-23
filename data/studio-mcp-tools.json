@@ -2255,6 +2255,53 @@
             "minimum": 0,
             "maximum": 1
           },
+          "lightingModel": {
+            "enum": [
+              "legacy-1",
+              "individual-glyphs-1"
+            ]
+          },
+          "referenceGradients": {
+            "type": "boolean"
+          },
+          "recessTop": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "recessBottom": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "interiorBevel": {
+            "type": "number",
+            "minimum": 0.001,
+            "maximum": 0.15
+          },
+          "highlightOpacity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "bevelShadowOpacity": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 1
+          },
+          "normalSmoothing": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 0.01
+          },
+          "glowRange": {
+            "type": "number",
+            "minimum": 0.01,
+            "maximum": 1
+          },
+          "glowSpread": {
+            "type": "number",
+            "minimum": 0,
+            "maximum": 0.02
+          },
           "expectedRevision": {
             "type": "integer",
             "minimum": 0

@@ -7,7 +7,7 @@ from .editor_contracts import EDITOR_DOCUMENT as M2_DOCUMENT
 from .authoring import AuthoringSession
 from .typesetting_contracts import initial as typesetting_initial
 from .studio_contracts import STATE,DOCUMENT
-from .paint import initial,Renderer,VERSION,ENGINE_VERSION
+from .paint import initial,Renderer,VERSION,ENGINE_VERSION,PROFILE_HASH
 from . import __version__
 
 
@@ -25,7 +25,7 @@ class StudioSession(TypesettingSession):
         state=super().new_state(*args,**kwargs);state['paint']=initial();return state
 
     def fingerprint(self):
-        value=super().fingerprint();value.update(paintVersion=VERSION,paintEngineVersion=ENGINE_VERSION,paintEngine='outline distance fields / NumPy 2.2.6 / SciPy 1.15.3',colorSpace='sRGB display proof; no CMYK/ICC conversion')
+        value=super().fingerprint();value.update(paintVersion=VERSION,paintEngineVersion=ENGINE_VERSION,lightingProfileHash=PROFILE_HASH,paintEngine='vector distance bevels / NumPy 2.2.6 / SciPy 1.15.3',colorSpace='sRGB display proof; no CMYK/ICC conversion')
         return value
 
     def migrate(self,payload,path):

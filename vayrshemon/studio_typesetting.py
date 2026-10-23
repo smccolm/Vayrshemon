@@ -1,8 +1,24 @@
 """M4 derives painted extents before collision solving and shares M3 placement."""
-from .typesetting import Composition,box,numbers
+from .typesetting import Composition,box,numbers,frame_rect
 
 
 class StudioComposition(Composition):
+    def paint_underlay(self,painter,page_id,visible,outlines):
+        if self.mode!='color' or self.book.state['paint']['recipe'].get('lightingModel')!='individual-glyphs-1': return False
+        # All glow precedes all ink, including adjacent glyphs and English.
+        # Screen blending must see the page, not an opaque black tile.
+        renderer=self.book.paint_renderer
+        for glyph in self.final:
+            if glyph['pageId']!=page_id or not renderer.binding(glyph['fontId']): continue
+            if outlines: raise ValueError('PAINT_REQUIRES_RASTER_FALLBACK: use explicit raster policy and DPI')
+            frame=self.frames[glyph['frameId']][1]
+            clip=visible.intersected(frame_rect(frame)) if frame['overflow']=='clip' else visible
+            if glyph['_clip'] is not None: clip=clip.intersected(glyph['_clip'])
+            painter.save();painter.setClipRect(clip)
+            try: renderer.paint(painter,glyph,component='glow')
+            finally: painter.restore()
+        return True
+
     def shape(self,story,enabled):
         super().shape(story,enabled)
         if self.mode!='color': return

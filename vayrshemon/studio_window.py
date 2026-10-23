@@ -1,5 +1,5 @@
 """Native M4 controls. Every action uses the same guarded API as MCP clients."""
-from PySide6.QtWidgets import QLabel,QLineEdit,QFileDialog,QApplication
+from PySide6.QtWidgets import QLabel,QLineEdit,QFileDialog,QApplication,QComboBox,QCheckBox
 from .workbench_window import WorkbenchWindow
 from .paint import DEFAULT
 
@@ -15,13 +15,19 @@ class StudioWindow(WorkbenchWindow):
         self.note(form,'Individual Glyphs uses Thimfora 79 (outline), 81 (interior) and 80 (glow) at one shared origin. Choose Thimfora 79 in Text to apply this treatment.')
         form.addRow(self.button('Apply three-font treatment',self.bind_selected))
         form.addRow(self.button('Disable relief on selected font',lambda:self.bind_selected(False)))
-        for key in ('rim','highlight','recess','edge','glow'):
+        control=self.combo(['individual-glyphs-1','legacy-1']);form.addRow('Lighting profile',control);self.paint_controls['lightingModel']=control
+        control=QCheckBox('Use each glyph’s reference gradient');control.setChecked(True);form.addRow(control);self.paint_controls['referenceGradients']=control
+        self.note(form,'Uncheck reference gradients to use custom interior colors below. Reference choices are recorded in glyph and layout diagnostics.')
+        for key in ('rim','highlight','recess','recessTop','recessBottom','edge','glow'):
             control=QLineEdit(DEFAULT[key]);form.addRow(key.capitalize(),control);self.paint_controls[key]=control
         for key,label,low,high in [('bevel','Bevel · em',.001,.1),('depth','Relief depth',.1,8),('edgeWidth','Edge · em',0,.02),
+                                  ('interiorBevel','Interior bevel · em',.001,.15),('normalSmoothing','Normal smoothing · em',0,.01),
+                                  ('highlightOpacity','Bevel highlight opacity',0,1),('bevelShadowOpacity','Bevel shadow opacity',0,1),
                                   ('glowRadius','Glow sigma · em',0,.08),('glowOpacity','Glow opacity',0,1),
+                                  ('glowRange','Glow range',.01,1),('glowSpread','Glow spread · em',0,.02),
                                   ('shadowRadius','Shadow sigma · em',0,.08),('shadowX','Shadow X · em',-.1,.1),('shadowY','Shadow Y · em',-.1,.1),
                                   ('shadowOpacity','Shadow opacity',0,1),('lightAzimuth','Light angle',0,360),('lightElevation','Light elevation',5,85),('gradient','Vertical gradient',0,1)]:
-            control=self.spin(label,DEFAULT[key],low,high,3);form.addRow(label,control);self.paint_controls[key]=control
+            control=self.spin(label,DEFAULT[key],low,high,6);form.addRow(label,control);self.paint_controls[key]=control
         form.addRow(self.button('Apply lighting and palette',self.apply_paint))
         form.addRow(self.button('Restore Individual Glyphs recipe',lambda:self.invoke('paint.configure',**{k:v for k,v in DEFAULT.items() if k not in ('recipeId','revision','version')})))
         form.addRow(self.button('Inspect recipe and bindings',lambda:self.show_result('paint.read')))
@@ -66,8 +72,11 @@ class StudioWindow(WorkbenchWindow):
         if not self.paint_controls: return
         for key,control in self.paint_controls.items():
             if control.hasFocus(): continue
-            value=self.book.state['paint']['recipe'][key]
-            control.setText(value) if isinstance(control,QLineEdit) else control.setValue(value)
+            value=self.book.state['paint']['recipe'].get(key,'legacy-1' if key=='lightingModel' else DEFAULT[key])
+            if isinstance(control,QComboBox): control.setCurrentText(value)
+            elif isinstance(control,QCheckBox): control.setChecked(value)
+            elif isinstance(control,QLineEdit): control.setText(value)
+            else: control.setValue(value)
 
     def bind_selected(self,enabled=True):
         fid=self.font_choice.currentData()
@@ -83,7 +92,7 @@ class StudioWindow(WorkbenchWindow):
         self.invoke('paint.bind',**binding)
 
     def apply_paint(self):
-        self.invoke('paint.configure',**{k:c.text() if isinstance(c,QLineEdit) else c.value() for k,c in self.paint_controls.items()})
+        self.invoke('paint.configure',**{k:c.currentText() if isinstance(c,QComboBox) else c.isChecked() if isinstance(c,QCheckBox) else c.text() if isinstance(c,QLineEdit) else c.value() for k,c in self.paint_controls.items()})
 
     def export_proof(self,kind):
         path,_=QFileDialog.getSaveFileName(self,'Export '+kind.upper()+' proof',str(self.book.root/'.local'/('proof.'+kind)),kind.upper()+' (*.'+kind+')')

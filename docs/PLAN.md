@@ -112,7 +112,7 @@ Deliver:
 
 ### M4 — Color-font studio and publishing
 
-Implementation: application 0.5.2, API 0.5.0, native format 0.4.0. The 2026-10-23 correction requires the actual registered 79/81/80 fonts; single-font approximations do not satisfy the visual target. See [M4](M4.md) for paint controls, explicit COLR v0 fallback, PDF/SVG/PNG proof exports, independent validation and remaining review. The visual gate below is still active; implementation and passing tests do not imply approval.
+Implementation: application 0.5.3, API 0.5.0, native format 0.4.0. The 2026-10-23 correction requires the actual registered 79/81/80 fonts; single-font approximations do not satisfy the visual target. See [M4](M4.md) for paint controls, explicit COLR v0 fallback, PDF/SVG/PNG proof exports, independent validation and remaining review. The visual gate below is still active; implementation and passing tests do not imply approval.
 
 **Visual quality is an outstanding requirement.** The user identified `Inputs/Versions Best/Individual Glyphs` as the quality reference on 2026-10-22. Its 128 JPEG references cover maxima, minima, Unta and punctuation. The current M3 monochrome outlines and registered flat colors do **not** satisfy this target. Approval of the portrait translation layout establishes page structure, not approval of the current glyph appearance.
 

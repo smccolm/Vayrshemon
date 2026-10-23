@@ -1,0 +1,323 @@
+{
+  "profileId": "individual-glyphs-1",
+  "revision": "1.0.0",
+  "paintEngineVersion": "1.1.0",
+  "sources": [
+    {
+      "path": "Inputs/Glyphs - Paths - Raster/Maxima_Raster_1_Jiam.psd",
+      "sha256": "209deb950f95aea5dfcb02d9c644aa0e57f7b40002a7c2c1a5ec8528594058ca",
+      "styleSha256": "daa30a009d2b3d1085c490bfe6c11e6149a04602d8107c0d5b4690a8358f7b87",
+      "matchesRecordedStyles": true
+    },
+    {
+      "path": "Inputs/Glyphs - Paths - Raster/Minima_Raster_10_Ra.psd",
+      "sha256": "045f8bbd711d074947c7a45cbb92f3ca0ca03ad71d1249f3d04249f861a33ec9",
+      "styleSha256": "fa529f30f443a90a2bbefe0cef2c8b7f90fca5fa475d16056bc53f636f14739b",
+      "matchesRecordedStyles": false
+    },
+    {
+      "path": "Inputs/Glyphs - Paths - Raster/Minima_Raster_38_Ojium.psd",
+      "sha256": "c89c251dd9d8ae898fa1638573379db76ee1693af87f8780c96784ff9720b432",
+      "styleSha256": "daa30a009d2b3d1085c490bfe6c11e6149a04602d8107c0d5b4690a8358f7b87",
+      "matchesRecordedStyles": true
+    },
+    {
+      "path": "Inputs/Glyphs - Paths - Raster/Unta_Raster_0_Pholim.psd",
+      "sha256": "53b8e1ccb006674d740533a950c2763332c74f4905600c4925150bb422aeb08e",
+      "styleSha256": "fa529f30f443a90a2bbefe0cef2c8b7f90fca5fa475d16056bc53f636f14739b",
+      "matchesRecordedStyles": false
+    }
+  ],
+  "recipe": {
+    "recipeId": "paint.individual-glyphs",
+    "version": "1.0.0",
+    "revision": 1,
+    "rim": "#0674da",
+    "highlight": "#ffffff",
+    "recess": "#080fa2",
+    "edge": "#000000",
+    "glow": "#beffff",
+    "bevel": 0.03,
+    "depth": 1.64,
+    "edgeWidth": 0.001,
+    "glowRadius": 0.02,
+    "glowOpacity": 0.56,
+    "shadowRadius": 0.001667,
+    "shadowX": 0.0025,
+    "shadowY": 0.00433,
+    "shadowOpacity": 0.75,
+    "lightAzimuth": 120,
+    "lightElevation": 30,
+    "gradient": 0.0,
+    "lightingModel": "individual-glyphs-1",
+    "referenceGradients": true,
+    "recessTop": "#0e1153",
+    "recessBottom": "#0d1167",
+    "interiorBevel": 0.065,
+    "highlightOpacity": 0.66,
+    "bevelShadowOpacity": 0.75,
+    "normalSmoothing": 0.001,
+    "glowRange": 0.49,
+    "glowSpread": 0.00051
+  },
+  "interpretation": {
+    "referenceMasterEm": 1000,
+    "glow": "Screen; 51 px soft size approximated with Gaussian sigma 0.020 em, original 49% range and custom contour.",
+    "bevel": "Inner chisel relief, original 30/65 px outline/interior sizes and 164% depth. Renderer highlight calibrated to 66% versus PSD 75%.",
+    "gradient": "106 original PSDs resolve to two variants: 83 navy-bottom with 53% upper midpoint; 23 black-bottom with 27% upper midpoint. Exact glyph/font identities select the variant. Disable referenceGradients for custom interior colors.",
+    "geometry": "Common master origin, scale and baseline; no per-layer fit or warp. Vector flattening for normals only.",
+    "compositing": "All screen glows first, then per-glyph interior/outline shadow/edge/outline. White stays white outside ink/shadow.",
+    "compatibility": "Missing lightingModel uses legacy algorithm; new fields optional in native 0.4.0 / recipe 1.0.0. Explicit restore opts in."
+  },
+  "dependencies": "Existing pinned NumPy/SciPy/Qt; psd_tools used only for offline source inspection, not runtime or setup.",
+  "acceptance": "Candidate matched to reference style; final visual acceptance and punctuation mapping remain open.",
+  "originalLayerStyles": {
+    "Outer Glow": {
+      "OuterGlow": {
+        "enab": true,
+        "Md  ": "Scrn",
+        "Clr ": {
+          "Rd  ": 189.99611288309097,
+          "Grn ": 254.24124151468277,
+          "Bl  ": 255.0
+        },
+        "Opct": 56.0,
+        "GlwT": "SfBL",
+        "Ckmt": 1.0,
+        "blur": 51.0,
+        "Nose": 0.0,
+        "ShdN": 0.0,
+        "AntA": false,
+        "TrnS": {
+          "Nm  ": "Custom\u0000",
+          "Crv ": [
+            {
+              "Hrzn": 0.0,
+              "Vrtc": 0.0
+            },
+            {
+              "Hrzn": 53.0,
+              "Vrtc": 38.0
+            },
+            {
+              "Hrzn": 255.0,
+              "Vrtc": 255.0
+            }
+          ]
+        },
+        "Inpr": 49.0
+      }
+    },
+    "Interior": {
+      "GradientOverlay": {
+        "enab": true,
+        "Md  ": "Nrml",
+        "Opct": 100.0,
+        "Grad": {
+          "Nm  ": "Custom\u0000",
+          "GrdF": "CstS",
+          "Intr": 4096.0,
+          "Clrs": [
+            {
+              "Clr ": {
+                "Rd  ": 13.003692626953125,
+                "Grn ": 17.003631591796875,
+                "Bl  ": 103.0023193359375
+              },
+              "Type": "UsrS",
+              "Lctn": 0,
+              "Mdpn": 50
+            },
+            {
+              "Clr ": {
+                "Rd  ": 7.9998779296875,
+                "Grn ": 15.003662109375,
+                "Bl  ": 161.99752807617188
+              },
+              "Type": "UsrS",
+              "Lctn": 1981,
+              "Mdpn": 53
+            },
+            {
+              "Clr ": {
+                "Rd  ": 13.669261112809181,
+                "Grn ": 16.828793473541737,
+                "Bl  ": 83.00000265240669
+              },
+              "Type": "UsrS",
+              "Lctn": 4096,
+              "Mdpn": 50
+            }
+          ],
+          "Trns": [
+            {
+              "Opct": 100.0,
+              "Lctn": 0,
+              "Mdpn": 50
+            },
+            {
+              "Opct": 100.0,
+              "Lctn": 4096,
+              "Mdpn": 50
+            }
+          ]
+        },
+        "Angl": 90.0,
+        "Type": "Lnr ",
+        "Rvrs": false,
+        "Algn": true,
+        "Scl ": 100.0,
+        "Ofst": {
+          "Hrzn": 0.0,
+          "Vrtc": 0.0
+        }
+      },
+      "BevelEmboss": {
+        "enab": true,
+        "hglM": "Scrn",
+        "hglC": {
+          "Rd  ": 255.0,
+          "Grn ": 255.0,
+          "Bl  ": 255.0
+        },
+        "hglO": 75.0,
+        "sdwM": "Mltp",
+        "sdwC": {
+          "Rd  ": 0.0,
+          "Grn ": 0.0,
+          "Bl  ": 0.0
+        },
+        "sdwO": 75.0,
+        "bvlT": "PrBL",
+        "bvlS": "InrB",
+        "uglg": true,
+        "lagl": 120.0,
+        "Lald": 30.0,
+        "srgR": 164.0,
+        "blur": 65.0,
+        "bvlD": "In  ",
+        "TrnS": {
+          "Nm  ": "Linear\u0000",
+          "Crv ": [
+            {
+              "Hrzn": 0.0,
+              "Vrtc": 0.0
+            },
+            {
+              "Hrzn": 255.0,
+              "Vrtc": 255.0
+            }
+          ]
+        },
+        "antialiasGloss": false,
+        "Sftn": 0.0,
+        "useShape": false,
+        "useTexture": false
+      }
+    },
+    "Outline": {
+      "DropShadow": {
+        "enab": true,
+        "Md  ": "Mltp",
+        "Clr ": {
+          "Rd  ": 0.0,
+          "Grn ": 0.0,
+          "Bl  ": 0.0
+        },
+        "Opct": 75.0,
+        "uglg": true,
+        "lagl": 120.0,
+        "Dstn": 5.0,
+        "Ckmt": 0.0,
+        "blur": 5.0,
+        "Nose": 0.0,
+        "AntA": false,
+        "TrnS": {
+          "Nm  ": "Linear\u0000",
+          "Crv ": [
+            {
+              "Hrzn": 0.0,
+              "Vrtc": 0.0
+            },
+            {
+              "Hrzn": 255.0,
+              "Vrtc": 255.0
+            }
+          ]
+        },
+        "layerConceals": true
+      },
+      "ColorOverlay": {
+        "enab": true,
+        "Md  ": "Nrml",
+        "Opct": 100.0,
+        "Clr ": {
+          "Rd  ": 5.984435677528381,
+          "Grn ": 115.74707865715027,
+          "Bl  ": 218.00000220537186
+        }
+      },
+      "Stroke": {
+        "enab": true,
+        "Styl": "OutF",
+        "PntT": "SClr",
+        "Md  ": "Nrml",
+        "Opct": 100.0,
+        "Sz  ": 1.0,
+        "Clr ": {
+          "Rd  ": 0.0,
+          "Grn ": 0.0,
+          "Bl  ": 0.0
+        }
+      },
+      "BevelEmboss": {
+        "enab": true,
+        "hglM": "Scrn",
+        "hglC": {
+          "Rd  ": 255.0,
+          "Grn ": 255.0,
+          "Bl  ": 255.0
+        },
+        "hglO": 75.0,
+        "sdwM": "Mltp",
+        "sdwC": {
+          "Rd  ": 0.0,
+          "Grn ": 0.0,
+          "Bl  ": 0.0
+        },
+        "sdwO": 75.0,
+        "bvlT": "PrBL",
+        "bvlS": "InrB",
+        "uglg": true,
+        "lagl": 120.0,
+        "Lald": 30.0,
+        "srgR": 164.0,
+        "blur": 30.0,
+        "bvlD": "In  ",
+        "TrnS": {
+          "Nm  ": "Linear\u0000",
+          "Crv ": [
+            {
+              "Hrzn": 0.0,
+              "Vrtc": 0.0
+            },
+            {
+              "Hrzn": 255.0,
+              "Vrtc": 255.0
+            }
+          ]
+        },
+        "antialiasGloss": false,
+        "Sftn": 0.0,
+        "useShape": false,
+        "useTexture": false
+      }
+    }
+  },
+  "referenceGradientData": "data/individual-glyphs-lighting.json",
+  "referenceGradientProfileHash": "098c86382a03c420bfc8bf31685f5efab28d5c27423cc30cf44a1a06b26c4ae7",
+  "referenceGradientCounts": {
+    "navy-bottom-midpoint-53": 83,
+    "black-bottom-midpoint-27": 23
+  }
+}

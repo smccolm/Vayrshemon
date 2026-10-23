@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M4 reference lighting 0.5.3 / paint engine 1.1.0 — 2026-10-23
+
+- Calibrate separate bevels, three-stop interior shading, fine black edge and cyan glow against Individual Glyphs. Record four complete PSD layer styles and the two gradient variants across all 106 mapped PSDs. Preserve the actual 79/81/80 fonts and shared origins.
+- Compute bevel distance from the combined fill boundary (no internal overlap seams), retain crisp relief, and expose interior bevel, highlight/shadow strength, normal smoothing, gradient colors, glow range and spread through desktop/API/MCP.
+- Screen-blend all page glows before text ink, so neighboring glyphs and English are not washed out and white paper is not darkened by cyan halos.
+- Add an opt-in lighting profile. Older recipes keep their previous rendering; new documents and Restore use the new profile. Existing API/native/recipe format versions stay compatible.
+- Save the standard two-column demo on black with pale contrasting English; add `verify_m4 --black` and separate ink/halo reference diagnostics. Update setup.bat; no new runtime dependency.
+
 ## M4 three-font correction 0.5.2 / paint engine 1.0.2 — 2026-10-23
 
 - Correct the color demo to use the actual 79 outline, 81 interior and 80 glow fonts. The user rejected the previous single-font rendering and counter-only patch as the requested construction.

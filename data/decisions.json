@@ -162,6 +162,12 @@
       "status": "accepted",
       "decision": "The three-font treatment reuses the shaped 79 master's origins, baseline and scale for every layer, preserving the original layer bearings and additive 81 subpaths.",
       "basis": "The Photoshop protocol specifies outline 79 above interior 81 above glow 80. Glow geometry only supplies translucent outer glow; 79 supplies its own edge and shadow above the interior. Common-canvas proofs and per-glyph registration diagnostics expose alignment through API/MCP. Single-font derived bindings are not substituted by the review generator or three-font UI action."
+    },
+    {
+      "id": "ADR-028",
+      "status": "accepted",
+      "decision": "Version the reference lighting separately, preserving old recipes and drawing all Screen glows beneath page ink.",
+      "basis": "The user approved the three-font construction and requested bevel/shading/glow matching on black paper with contrasting English. New optional controls select individual-glyphs-1 explicitly; absent lightingModel retains legacy behavior. Store source PSD settings and calibration separately. API, native format and source/master geometry remain compatible."
     }
   ]
 }

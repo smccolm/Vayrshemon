@@ -56,16 +56,17 @@ class StudioAPI(TypesettingAPI):
         from . import pages
         s=self.session;r=s.paint_renderer;binding=r.binding(font_id)
         if not binding: raise ValueError('PAINT_BINDING_REQUIRED')
-        tile,area=r.tile(binding,glyph_id,em,dpi/96*2)
+        component='surface' if s.state['paint']['recipe'].get('lightingModel')=='individual-glyphs-1' else 'composite'
+        tile,area=r.tile(binding,glyph_id,em,dpi/96*2,component)
         if tile is None: raise ValueError('EMPTY_GLYPH')
         scale=dpi/96;image=QImage(math.ceil(area.width()*scale),math.ceil(area.height()*scale),QImage.Format.Format_ARGB32_Premultiplied)
         if image.isNull(): raise ValueError('PROOF_ALLOCATION_FAILED')
         image.fill(QColor(background));p=QPainter(image);p.setRenderHint(QPainter.RenderHint.SmoothPixmapTransform)
-        if layer=='composite': p.drawImage(QRectF(0,0,image.width(),image.height()),tile)
+        p.scale(image.width()/area.width(),image.height()/area.height());p.translate(-area.x(),-area.y())
+        if layer=='composite': r.draw(p,binding,glyph_id,em,dpi/96*2)
         else:
             index,color={'outline':(0,'rim'),'interior':(2,'recess'),'glow-mask':(1,'glow')}[layer]
             p.setRenderHint(QPainter.RenderHint.Antialiasing)
-            p.scale(image.width()/area.width(),image.height()/area.height());p.translate(-area.x(),-area.y())
             p.fillPath(r.paths(binding,glyph_id,em)[index],QColor(s.state['paint']['recipe'][color]))
         p.end()
         target=pages.target(s,path);publication.atomic(target,publication.png_bytes(image))

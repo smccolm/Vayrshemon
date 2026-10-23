@@ -17,8 +17,8 @@ from fontTools.ttLib import TTFont
 from fontTools.pens.ttGlyphPen import TTGlyphPen
 import pypdfium2 as pdfium
 if os.name!='nt': os.environ.setdefault('QT_QPA_PLATFORM','offscreen')
-from PySide6.QtCore import QCoreApplication,QEvent
-from PySide6.QtGui import QImage
+from PySide6.QtCore import QCoreApplication,QEvent,QRectF,QPointF,Qt
+from PySide6.QtGui import QImage,QPainterPath,QTransform
 from PySide6.QtWidgets import QApplication
 from tools.m0.synthetic import make_font
 from tools.parallel_translation_fixture import compose,local_material
@@ -27,7 +27,7 @@ from vayrshemon.studio_session import StudioSession
 from vayrshemon.studio_api import StudioAPI
 from vayrshemon.typesetting_session import TypesettingSession
 from vayrshemon import pages
-from vayrshemon.paint import mask,DEFAULT,ENGINE_VERSION
+from vayrshemon.paint import mask,DEFAULT,LEGACY_DEFAULT,ENGINE_VERSION,vector_distance,REFERENCE_PROFILE,PROFILE_HASH
 
 ROOT=Path(__file__).resolve().parents[1]
 APP=QApplication.instance() or QApplication([])
@@ -76,6 +76,82 @@ class StudioTests(unittest.TestCase):
         self.call('document.open',path=str(old),discardUnsaved=True)
         self.assertEqual(self.book.state['paint']['bindings'],[]);self.assertIsNone(self.book.saved_path)
         self.assertEqual(self.book.capture()['pages'][0]['frames'][0]['content'],source)
+
+    def test_old_recipe_stays_legacy_and_new_lighting_roundtrips(self):
+        self.bind();self.book.state['paint']['recipe']=deepcopy(LEGACY_DEFAULT)
+        path=self.path('old-m4.vay.json');self.call('document.save',path=path)
+        self.call('document.open',path=path,discardUnsaved=True)
+        self.assertEqual(self.book.state['paint']['recipe'],LEGACY_DEFAULT)
+        before=self.book.capture()['pages']
+        self.call('paint.configure',lightingModel='individual-glyphs-1',interiorBevel=.061,
+                  recessTop='#14185a',glowRange=.49,glowSpread=.00051,highlightOpacity=.66)
+        recipe=deepcopy(self.book.state['paint']['recipe'])
+        self.call('history.undo');self.assertEqual(self.book.state['paint']['recipe'],LEGACY_DEFAULT)
+        self.call('history.redo');self.assertEqual(self.book.state['paint']['recipe'],recipe)
+        new=self.path('new-m4.vay.json');self.call('document.save',path=new)
+        self.call('document.open',path=new,discardUnsaved=True)
+        self.assertEqual(self.book.state['paint']['recipe'],recipe)
+        self.assertEqual(self.book.capture()['pages'],before)
+        self.reject('paint.configure',glowRange=0)
+        self.reject('paint.configure',lightingModel='unknown')
+
+    def test_bevel_distance_tracks_subpixel_rotated_vector_edges(self):
+        path=QPainterPath();path.addRect(QRectF(-9,-40,18,80))
+        transform=QTransform().rotate(23).translate(.137,.291)
+        path=transform.map(path);inverse,_=transform.inverted()
+        for scale in (2.,4.):
+            area=path.boundingRect().adjusted(-3,-3,3,3)
+            alpha=mask(path,area,scale);actual=vector_distance(path,alpha,area,scale)
+            y,x=np.nonzero(alpha>.99)
+            expected=[]
+            for px,py in zip(x,y):
+                local=inverse.map(QPointF(area.x()+(px+.5)/scale,area.y()+(py+.5)/scale))
+                expected.append(min(9-abs(local.x()),40-abs(local.y()))*scale)
+            self.assertLess(np.max(abs(actual[y,x]-expected)),.02)
+
+    def test_screen_glow_works_on_white_black_and_transparent_paper(self):
+        self.bind();self.call('paint.configure',shadowOpacity=0,edgeWidth=0)
+        em=100;path=self.book.fonts.raw(self.fid,em).pathForGlyph(2)
+        samples=[]
+        for name,bg in [('white','#FFFFFFFF'),('black','#FF000000'),('transparent','#00000000')]:
+            result=self.call('glyph.proof',font_id=self.fid,glyph_id=2,em=em,dpi=192,background=bg,path=self.path('screen-'+name+'.png'))
+            im=Image.open(result['path']).convert('RGBA');x,y,w,h=result['bounds']
+            samples.append(np.asarray(im))
+        from scipy.ndimage import distance_transform_edt
+        coverage=mask(path,QRectF(x,y,w,h),im.width/w)[:im.height,:im.width]
+        halo=(distance_transform_edt(coverage==0)>3)&(samples[1][:,:,1]>10)
+        self.assertGreater(halo.sum(),20)
+        self.assertTrue((samples[0][halo]==255).all())
+        self.assertGreater(samples[2][halo,3].max(),10);self.assertLess(samples[2][halo,3].max(),200)
+
+    def test_additive_interior_has_no_bevel_on_buried_overlap_edges(self):
+        path=QPainterPath();path.setFillRule(Qt.FillRule.WindingFill)
+        path.addRect(QRectF(0,0,40,80));path.addRect(QRectF(20,0,40,80))
+        area=QRectF(-2,-2,64,84);scale=2.
+        alpha=mask(path,area,scale);actual=vector_distance(path,alpha,area,scale)
+        y,x=np.nonzero(alpha>.99)
+        px=area.x()+(x+.5)/scale;py=area.y()+(y+.5)/scale
+        expected=np.minimum.reduce([px,60-px,py,80-py])*scale
+        self.assertLess(np.max(abs(actual[y,x]-expected)),.02)
+
+    def test_reference_gradient_variants_require_the_verified_master(self):
+        path=ROOT/'Inputs/font files/Thimfora_79.ttf'
+        if not path.exists(): self.skipTest('Private reference font unavailable')
+        fid=self.call('fonts.load',path=str(path))['fontId'];renderer=self.book.paint_renderer
+        order=self.book.fonts.resolve(fid).glyph_order
+        j=renderer.reference_gradient(dict(fontId=fid),order.index('J'))
+        r=renderer.reference_gradient(dict(fontId=fid),order.index('r'))
+        self.assertEqual(j['stops'][0]['color'],'#0d1167')
+        self.assertEqual(r['stops'][0]['color'],'#000000')
+        self.assertEqual(r['stops'][1]['midpoint'],.27)
+        self.assertEqual(j['profileHash'],PROFILE_HASH)
+        self.assertEqual(len(REFERENCE_PROFILE['glyphs']),106)
+        self.assertIsNone(renderer.reference_gradient(dict(fontId=self.fid),2))
+        self.call('paint.configure',referenceGradients=False)
+        self.assertIsNone(renderer.reference_gradient(dict(fontId=fid),order.index('r')))
+        self.call('history.undo')
+        self.assertEqual(renderer.reference_gradient(dict(fontId=fid),order.index('r')),r)
+
 
     def test_effect_bounds_background_dpi_and_limits(self):
         self.bind();report=self.call('layout.inspect');glyph=report['glyphs'][0]

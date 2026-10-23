@@ -110,7 +110,9 @@
         "vayrshemon/paint.py",
         "tools/verify_m4.py",
         "docs/M4.md",
-        "docs/research/m4-validation.json"
+        "docs/research/m4-validation.json",
+        "docs/research/m4-lighting-profile.json",
+        "docs/research/m4-lighting-validation.json"
       ],
       "remaining": "M4 reference/overlay gallery covers all 128 assets: 106 mapped forms, one period candidate, 21 unresolved punctuation references. Shader and historical contour differences remain explicit. User visual acceptance and reviewed baseline/tolerances are still required; no visual sign-off is claimed."
     },
@@ -335,7 +337,7 @@
     },
     {
       "id": "M4-PAINT",
-      "check": "Actual 79/81/80 layers share master origins/baselines/scale. ADD interior subpaths, isolate glow from solid ink, expose registered layer proofs and verify finite effect bounds on the separate two-column color review."
+      "check": "Actual 79/81/80 layers share master origins/baselines/scale. ADD interior subpaths, isolate glow from solid ink, expose registered layer proofs and verify finite effect bounds on the separate two-column color review. Calibrated separate bevels/gradient, screen glow beneath all text, black-paper standard with contrasting English, and backward-compatible old recipes."
     },
     {
       "id": "M4-FONT",
