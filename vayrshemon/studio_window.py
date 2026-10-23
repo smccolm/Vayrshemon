@@ -95,7 +95,8 @@ class StudioWindow(WorkbenchWindow):
         self.invoke('paint.configure',**{k:c.currentText() if isinstance(c,QComboBox) else c.isChecked() if isinstance(c,QCheckBox) else c.text() if isinstance(c,QLineEdit) else c.value() for k,c in self.paint_controls.items()})
 
     def export_proof(self,kind):
-        path,_=QFileDialog.getSaveFileName(self,'Export '+kind.upper()+' proof',str(self.book.root/'.local'/('proof.'+kind)),kind.upper()+' (*.'+kind+')')
+        from .proof_names import suggested_proof_path
+        path,_=QFileDialog.getSaveFileName(self,'Export '+kind.upper()+' proof',suggested_proof_path(self.book,kind),kind.upper()+' (*.'+kind+')')
         if path:
             args=dict(path=path,format=kind,mode=self.book.view['mode'],dpi=int(self.proof_dpi.value()),raster_policy='raster')
             if kind!='pdf': args['page_id']=self.book.current_page()['pageId']

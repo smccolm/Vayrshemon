@@ -168,6 +168,18 @@
       "status": "accepted",
       "decision": "Version the reference lighting separately, preserving old recipes and drawing all Screen glows beneath page ink.",
       "basis": "The user approved the three-font construction and requested bevel/shading/glow matching on black paper with contrasting English. New optional controls select individual-glyphs-1 explicitly; absent lightingModel retains legacy behavior. Store source PSD settings and calibration separately. API, native format and source/master geometry remain compatible."
+    },
+    {
+      "id": "ADR-029",
+      "status": "accepted",
+      "decision": "M5 embeds immutable content-addressed language records and a reversible revision pin in each document.",
+      "basis": "Stable entry/sense IDs, retained source revisions and explicit adoption prevent dictionary or grammar edits from silently rewriting historical page text. Portable packages export the selected dataset; native documents retain the revision graph."
+    },
+    {
+      "id": "ADR-030",
+      "status": "accepted",
+      "decision": "Corpus analysis and number readings retain uncertainty and exact representations.",
+      "basis": "Token offsets are Unicode scalars; native range links are UTF-16 with text hashes and explicit adaptations. Stale anchors are reported, not guessed. Base-12 values use exact rationals and versioned conventions; Unta positional speech remains unverified."
     }
   ]
 }

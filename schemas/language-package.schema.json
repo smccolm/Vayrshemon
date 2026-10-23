@@ -1,0 +1,1261 @@
+{
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "vayrshemon.language"
+    },
+    "formatVersion": {
+      "const": "1.0.0"
+    },
+    "label": {
+      "type": "string",
+      "maxLength": 20000
+    },
+    "sha256": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$"
+    },
+    "data": {
+      "type": "object",
+      "properties": {
+        "sources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "path": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "kind": {
+                "enum": [
+                  "docx",
+                  "image",
+                  "mapping",
+                  "other"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "path",
+              "sha256",
+              "kind"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "orthographies": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "version": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "normalization": {
+                "const": "none"
+              },
+              "fontSha256s": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[0-9a-f]{64}$"
+                },
+                "maxItems": 128
+              },
+              "symbols": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "name": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "kind": {
+                      "enum": [
+                        "letter",
+                        "digit",
+                        "separator",
+                        "punctuation"
+                      ]
+                    },
+                    "status": {
+                      "enum": [
+                        "draft",
+                        "attested",
+                        "uncertain",
+                        "disputed",
+                        "retired"
+                      ]
+                    },
+                    "forms": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "form": {
+                            "type": "string",
+                            "maxLength": 20000
+                          },
+                          "scalar": {
+                            "type": "integer",
+                            "minimum": 0,
+                            "maximum": 1114111,
+                            "not": {
+                              "minimum": 55296,
+                              "maximum": 57343
+                            }
+                          },
+                          "transliteration": {
+                            "type": [
+                              "string",
+                              "null"
+                            ],
+                            "maxLength": 100
+                          }
+                        },
+                        "required": [
+                          "form",
+                          "scalar",
+                          "transliteration"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 20
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "name",
+                    "kind",
+                    "status",
+                    "forms"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "unresolvedScalars": {
+                "type": "array",
+                "items": {
+                  "type": "integer",
+                  "minimum": 0,
+                  "maximum": 1114111,
+                  "not": {
+                    "minimum": 55296,
+                    "maximum": 57343
+                  }
+                },
+                "maxItems": 2000
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "version",
+              "normalization",
+              "fontSha256s",
+              "symbols",
+              "unresolvedScalars"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "inputLayouts": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "orthographyId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "keys": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "key": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "text": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "key",
+                    "text"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "orthographyId",
+              "keys"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "transliterations": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "orthographyId": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "mappings": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "source": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "target": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "source",
+                    "target"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "unknownPolicy": {
+                "const": "preserve"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "orthographyId",
+              "mappings",
+              "unknownPolicy"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "lexicon": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "headword": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "orthographyId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "pronunciation": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "ipa": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "partOfSpeech": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "senses": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "id": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "definition": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "status": {
+                      "enum": [
+                        "draft",
+                        "attested",
+                        "uncertain",
+                        "disputed",
+                        "retired"
+                      ]
+                    },
+                    "citations": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "sourceId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                          },
+                          "locator": {
+                            "type": "string",
+                            "maxLength": 20000
+                          }
+                        },
+                        "required": [
+                          "sourceId",
+                          "locator"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 2000
+                    }
+                  },
+                  "required": [
+                    "id",
+                    "definition",
+                    "status",
+                    "citations"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 100
+              },
+              "variants": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "text": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "script": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "sourceFonts": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 20000
+                      },
+                      "maxItems": 20
+                    },
+                    "note": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "text",
+                    "script",
+                    "sourceFonts",
+                    "note"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 100
+              },
+              "etymology": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "exampleIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                },
+                "maxItems": 100
+              },
+              "audioLinks": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 20000
+                },
+                "maxItems": 100
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "headword",
+              "orthographyId",
+              "pronunciation",
+              "ipa",
+              "partOfSpeech",
+              "senses",
+              "variants",
+              "etymology",
+              "exampleIds",
+              "audioLinks"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "morphology": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "kind": {
+                "enum": [
+                  "root",
+                  "affix",
+                  "clitic",
+                  "paradigm",
+                  "inflection",
+                  "derivation"
+                ]
+              },
+              "form": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "features": {
+                "type": "object",
+                "maxProperties": 50,
+                "additionalProperties": {
+                  "type": "string",
+                  "maxLength": 20000
+                }
+              },
+              "entryIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                },
+                "maxItems": 2000
+              },
+              "cells": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "label": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "form": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "features": {
+                      "type": "object",
+                      "maxProperties": 50,
+                      "additionalProperties": {
+                        "type": "string",
+                        "maxLength": 20000
+                      }
+                    },
+                    "status": {
+                      "enum": [
+                        "draft",
+                        "attested",
+                        "uncertain",
+                        "disputed",
+                        "retired"
+                      ]
+                    },
+                    "citations": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "sourceId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                          },
+                          "locator": {
+                            "type": "string",
+                            "maxLength": 20000
+                          }
+                        },
+                        "required": [
+                          "sourceId",
+                          "locator"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 2000
+                    }
+                  },
+                  "required": [
+                    "label",
+                    "form",
+                    "features",
+                    "status",
+                    "citations"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "kind",
+              "form",
+              "features",
+              "entryIds",
+              "cells"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "grammar": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "topic": {
+                "enum": [
+                  "tense",
+                  "aspect",
+                  "pronouns",
+                  "construction",
+                  "phonology",
+                  "other"
+                ]
+              },
+              "statement": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "morphologyIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                },
+                "maxItems": 2000
+              },
+              "exampleIds": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                },
+                "maxItems": 2000
+              },
+              "alternatives": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "statement": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "status": {
+                      "enum": [
+                        "draft",
+                        "attested",
+                        "uncertain",
+                        "disputed",
+                        "retired"
+                      ]
+                    },
+                    "citations": {
+                      "type": "array",
+                      "items": {
+                        "type": "object",
+                        "properties": {
+                          "sourceId": {
+                            "type": "string",
+                            "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                          },
+                          "locator": {
+                            "type": "string",
+                            "maxLength": 20000
+                          }
+                        },
+                        "required": [
+                          "sourceId",
+                          "locator"
+                        ],
+                        "additionalProperties": false
+                      },
+                      "maxItems": 2000
+                    }
+                  },
+                  "required": [
+                    "statement",
+                    "status",
+                    "citations"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "topic",
+              "statement",
+              "morphologyIds",
+              "exampleIds",
+              "alternatives"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "corpus": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "text": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "translation": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "transliteration": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "rawGloss": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "orthographyId": {
+                "type": [
+                  "string",
+                  "null"
+                ]
+              },
+              "sourceFonts": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 20000
+                },
+                "maxItems": 100
+              },
+              "tokens": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "start": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "end": {
+                      "type": "integer",
+                      "minimum": 0
+                    },
+                    "surface": {
+                      "type": "string",
+                      "maxLength": 20000
+                    },
+                    "morphemes": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 20000
+                      },
+                      "maxItems": 100
+                    },
+                    "glosses": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "maxLength": 20000
+                      },
+                      "maxItems": 100
+                    },
+                    "entryIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                      },
+                      "maxItems": 100
+                    },
+                    "senseIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                      },
+                      "maxItems": 100
+                    },
+                    "morphologyIds": {
+                      "type": "array",
+                      "items": {
+                        "type": "string",
+                        "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                      },
+                      "maxItems": 100
+                    },
+                    "status": {
+                      "enum": [
+                        "draft",
+                        "attested",
+                        "uncertain",
+                        "disputed",
+                        "retired"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "start",
+                    "end",
+                    "surface",
+                    "morphemes",
+                    "glosses",
+                    "entryIds",
+                    "senseIds",
+                    "morphologyIds",
+                    "status"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "offsetUnit": {
+                "const": "unicode-scalar"
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "text",
+              "translation",
+              "transliteration",
+              "rawGloss",
+              "orthographyId",
+              "sourceFonts",
+              "tokens",
+              "offsetUnit"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        },
+        "numberConventions": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+              },
+              "label": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "status": {
+                "enum": [
+                  "draft",
+                  "attested",
+                  "uncertain",
+                  "disputed",
+                  "retired"
+                ]
+              },
+              "citations": {
+                "type": "array",
+                "items": {
+                  "type": "object",
+                  "properties": {
+                    "sourceId": {
+                      "type": "string",
+                      "pattern": "^[A-Za-z0-9][A-Za-z0-9._:-]{0,159}$"
+                    },
+                    "locator": {
+                      "type": "string",
+                      "maxLength": 20000
+                    }
+                  },
+                  "required": [
+                    "sourceId",
+                    "locator"
+                  ],
+                  "additionalProperties": false
+                },
+                "maxItems": 2000
+              },
+              "notes": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "digits": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 20000
+                },
+                "maxItems": 12
+              },
+              "digitNames": {
+                "type": "array",
+                "items": {
+                  "type": "string",
+                  "maxLength": 20000
+                },
+                "maxItems": 12
+              },
+              "radixPoint": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "minus": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "repeatOpen": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "repeatClose": {
+                "type": "string",
+                "maxLength": 20000
+              },
+              "readingPolicy": {
+                "enum": [
+                  "digits-only",
+                  "positional-unverified"
+                ]
+              }
+            },
+            "required": [
+              "id",
+              "label",
+              "status",
+              "citations",
+              "digits",
+              "digitNames",
+              "radixPoint",
+              "minus",
+              "repeatOpen",
+              "repeatClose",
+              "readingPolicy"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 2000
+        }
+      },
+      "required": [
+        "sources",
+        "orthographies",
+        "inputLayouts",
+        "transliterations",
+        "lexicon",
+        "morphology",
+        "grammar",
+        "corpus",
+        "numberConventions"
+      ],
+      "additionalProperties": false
+    }
+  },
+  "required": [
+    "format",
+    "formatVersion",
+    "label",
+    "sha256",
+    "data"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:language-package:1.0.0"
+}

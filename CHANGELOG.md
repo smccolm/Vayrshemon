@@ -2,6 +2,15 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M5 language workbench 0.6.0 / native format 0.5.0 — 2026-10-23
+
+- Add content-addressed language revisions, stable lexical/sense IDs, branching/adoption/diffs and portable hash-checked packages; retain old documents and spellings during migration.
+- Import 733 records from both historical translation charts and the language-terms document, with exact source hashes, unresolved rows and competing tense readings. Add orthography/input/transliteration, grammar/morphology and interlinear data contracts.
+- Link corpus analyses and dictionary entries to explicit bilingual page ranges; report stale text and older revision pins. Add literal concordances, surface frequencies and exact rational base-12/Unta formatting/parsing.
+- Add six desktop panels, typed record editing, searchable printable dictionary/grammar/corpus publishing, and 19 shared API/MCP operations (85 total).
+- Suggest local date/time filenames for PNG, SVG proof and Publish exports. Keep the standard black two-column page and its three-font rendering unchanged.
+- Update setup.bat, CI, requirements chain, published contracts and tests; no new runtime dependency.
+
 ## M4 reference lighting 0.5.3 / paint engine 1.1.0 — 2026-10-23
 
 - Calibrate separate bevels, three-stop interior shading, fine black edge and cyan glow against Individual Glyphs. Record four complete PSD layer styles and the two gradient variants across all 106 mapped PSDs. Preserve the actual 79/81/80 fonts and shared origins.

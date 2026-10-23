@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.6.0**, 2026-10-22. Status: M0 through M3 implemented with automated acceptance evidence; [M4 glyph studio and publishing](M4.md) is implemented for visual review. VISUAL-01 remains open until the user accepts representative glyphs and the standard page. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
+Revision **0.7.0**, 2026-10-23. Status: M0 through M3 implemented with automated acceptance evidence; [M4 glyph studio and publishing](M4.md) remains in visual review; [M5 language workbench](M5.md) is implemented with immutable language revisions, cited archive records, corpus links and exact base-12 data. VISUAL-01 remains open until the user accepts representative glyphs and the standard page. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -136,7 +136,9 @@ Deliver:
 
 ### M5 — Language workbench
 
-Deliver in small vertical increments:
+Implemented in application 0.6.0 / API 0.6.0 / native format 0.5.0. See [M5](M5.md) for workflows, evidence and limits. The local seed retains 733 lexical records from competing sources, two corpus pairs, seven tense forms and explicit uncertainty. This is structured language authoring, not approval of historical readings as canonical rules.
+
+Delivered vertical increments:
 
 1. Orthography registry, symbol inventory, input layouts, transliteration profiles, and reversible mappings where possible.
 2. Lexicon with stable entry and sense IDs, pronunciations/IPA, parts of speech, definitions, examples, variants, etymologies, status, and citations.
@@ -194,8 +196,9 @@ For each requested revision: capture a reproducing document or operation sequenc
 ## 7. Immediate implementation queue
 
 1. Complete the remaining physical OS/IME/accessibility checks listed in M1 on the user's chosen input setup; retain the passing native event and provider regressions.
-2. Start M4 with VISUAL-01: match the Individual Glyphs artwork and prove it on the standard portrait translation page, then validate color-font compilation and publishing against that accepted appearance.
+2. Continue M4 VISUAL-01 review against Individual Glyphs; M5 preserves its current renderer and the standard black portrait page. User visual acceptance and unresolved punctuation remain open.
 3. Improve long-paragraph rendering and inspector scheduling using M1's measured 100,000-character case.
 4. Keep setup.bat, published API/MCP schemas, regression tests, and milestone evidence updated with every dependency or behavior change.
+5. Expand the M5 language data through cited revisions: verify historical font mappings and IPA, adjudicate competing tense readings, and develop real paradigms and corpus segmentation. Do not infer these from glyph appearance.
 
 The first demo should answer a concrete question: **can we type and revise real English and Vayrshemon on a custom-sized page, with editable color lettering, and inspect exactly why every glyph and line is where it is?**

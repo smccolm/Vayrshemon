@@ -479,10 +479,12 @@ class EditorWindow(QMainWindow):
         path,_=QFileDialog.getOpenFileName(self,'Load font',str(self.book.root/'Inputs'),'TrueType (*.ttf)')
         if path: self.invoke('fonts.load',path=path)
     def export_png(self):
-        path,_=QFileDialog.getSaveFileName(self,'Export current page',str(self.book.root/'.local/page.png'),'PNG (*.png)')
+        from .proof_names import suggested_proof_path
+        path,_=QFileDialog.getSaveFileName(self,'Export current page',suggested_proof_path(self.book,'png'),'PNG (*.png)')
         if path: self.invoke('render.png',path=path,dpi=144,mode=self.book.view['mode'])
     def export_svg(self):
-        path,_=QFileDialog.getSaveFileName(self,'Export outline SVG proof',str(self.book.root/'.local/page.svg'),'SVG (*.svg)')
+        from .proof_names import suggested_proof_path
+        path,_=QFileDialog.getSaveFileName(self,'Export outline SVG proof',suggested_proof_path(self.book,'svg'),'SVG (*.svg)')
         if path: self.invoke('render.svg',path=path,mode=self.book.view['mode'])
     def recover_dialog(self):
         candidates=self.book.recovery_list()

@@ -241,9 +241,18 @@
       "status": "foundation",
       "evidence": [
         "data/orthography/chart-transcription.json",
-        "data/orthography/thimfora-79.json"
+        "data/orthography/thimfora-79.json",
+        "vayrshemon/language.py",
+        "vayrshemon/language_session.py",
+        "vayrshemon/language_api.py",
+        "vayrshemon/language_window.py",
+        "vayrshemon/archive_language.py",
+        "schemas/language-document.schema.json",
+        "schemas/language-package.schema.json",
+        "tests/test_m5.py",
+        "docs/M5.md"
       ],
-      "remaining": "Structured lexicon, grammar, corpus and publishing."
+      "remaining": "M5 structured orthography, lexicon, grammar/morphology, interlinear corpus links, exact base-12/Unta and publishing are implemented. Historical mapping verification, IPA, complete paradigms, automatic morphology, workspace-wide indexing and spoken positional number conventions remain future work."
     }
   ],
   "m0Gates": [
@@ -354,6 +363,32 @@
     {
       "id": "M4-AUTOMATION",
       "check": "66 shared API/MCP operations, live M4 transport and current setup.bat."
+    }
+  ],
+  "m5Gates": [
+    {
+      "id": "M5-REVISIONS",
+      "check": "Immutable records, branching, diff/adoption, undo and forced-exit recovery retain source text and prior language revisions."
+    },
+    {
+      "id": "M5-ARCHIVE",
+      "check": "Both charts and unfilled forms retain source hashes; future tense conflict and unresolved readings remain explicit."
+    },
+    {
+      "id": "M5-CORPUS",
+      "check": "Scalar token offsets, UTF-16 document ranges, explicit lexical links and stale/missing-frame diagnostics."
+    },
+    {
+      "id": "M5-NUMBERS",
+      "check": "Exact reduced rational and base-12 finite/repeating roundtrip; Unta digit mapping and editorial notation are explicit."
+    },
+    {
+      "id": "M5-PUBLISH",
+      "check": "Hash-checked portable dataset, escaped printable books and date/time suggestions in actual PNG/SVG/PDF dialogs."
+    },
+    {
+      "id": "M5-AUTOMATION",
+      "check": "85 shared API/MCP controls, current setup.bat, standard two-column demo and preserved three-font paint."
     }
   ]
 }

@@ -211,3 +211,5 @@ Inputs/                  Ignored original archive
 ```
 
 Keep the first workspace small: document/typography core, a lab window, a CLI, and the control adapter. Split modules only when their contracts are clear. Every added subsystem must expose both operations and failure evidence before it becomes a dependency of normal authoring.
+
+M5 is implemented in `language_session.py`, `language.py`, `language_contracts.py`, `language_api.py` and `language_window.py`. It extends M4 without changing composition. Native state embeds immutable content-addressed records, a revision graph and explicit corpus/document anchors. Language exports contain one selected portable dataset; native files retain revision history. `archive_language.py` is an opt-in, hash-checked local importer. `language_publication.py` publishes the same selected data as escaped printable HTML. The existing command boundary supplies undo, revision guards, recovery and trace logs. Exact numeric computation uses Python `Fraction`; no floating-point conversion is involved. Source text and typography are never rewritten by language adoption.

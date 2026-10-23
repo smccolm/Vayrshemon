@@ -1,5 +1,5 @@
 @echo off
-rem M4 0.5.3 dependencies, lighting/alpha/three-font/translation regressions are maintained in tools\setup.ps1.
+rem M5 0.6.0 dependencies, language/number/revision/proof/translation checks live in tools\setup.ps1.
 setlocal
 set "SETUP_NO_PAUSE="
 if "%~1"=="" goto run

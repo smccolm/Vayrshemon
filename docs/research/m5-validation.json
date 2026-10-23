@@ -1,0 +1,87 @@
+{
+  "schemaVersion": "1.0.0",
+  "milestone": "M5",
+  "applicationVersion": "0.6.0",
+  "apiVersion": "0.6.0",
+  "nativeVersion": "0.5.0",
+  "date": "2026-10-23",
+  "setup": {
+    "command": "setup.bat --no-pause",
+    "passed": true,
+    "tests": 125,
+    "seconds": 164.956,
+    "log": ".local/logs/setup-20261023-104812-579-6668.log",
+    "dependencyChange": "requirements-m5.txt includes the pinned M4 runtime; no new external dependency"
+  },
+  "finalTargetedCheck": {
+    "command": "python -m unittest tests.test_m5 -v",
+    "passed": true,
+    "tests": 13,
+    "seconds": 22.91,
+    "log": ".local/m5-tests-final2.log",
+    "reason": "Final native Unta font-preview and panel-size checks after the full setup run"
+  },
+  "archiveCounts": {
+    "sources": 6,
+    "orthographies": 1,
+    "inputLayouts": 1,
+    "transliterations": 1,
+    "lexicon": 733,
+    "morphology": 7,
+    "grammar": 3,
+    "corpus": 2,
+    "numberConventions": 2
+  },
+  "automation": {
+    "tools": 85,
+    "liveMcpDiscovered": true,
+    "headlessMcpVerified": true,
+    "typedSchemas": true,
+    "idempotentRetry": true,
+    "staleRevisionRejected": true,
+    "undoRestoredPagesPaintAndLanguage": true
+  },
+  "standardPage": {
+    "directory": ".local/demos/m5-workbench-v0.6.0",
+    "native": "Vayrshemon-English-M5.vay.json",
+    "sourceDocument": ".local/demos/m4-reference-lighting-v0.5.3/Vayrshemon-English-M4.vay.json",
+    "portrait": true,
+    "independentColumns": 2,
+    "headings": 0,
+    "footers": 0,
+    "background": "#FF000000",
+    "pageContentAndPaintUnchanged": true,
+    "png": {
+      "width": 1224,
+      "height": 1584,
+      "dpi": 144,
+      "rgbaIdenticalToM4": true,
+      "maximumChannelDifference": 0
+    },
+    "validTranslationLinks": 2,
+    "linkedLexicalOccurrences": 1,
+    "conservativeCollisions": 12,
+    "protectedContacts": 143,
+    "overflowingFrames": 0
+  },
+  "filenameDialogs": {
+    "actualBottomPngAndSvgButtonsTested": true,
+    "publishPdfTested": true,
+    "format": "title_YYYY-MM-DD_HH-MM-SS_mmm.ext",
+    "timezone": "system local time"
+  },
+  "limits": [
+    "733 records include two separate chart revisions and unfilled forms; they are not a canonical merged dictionary.",
+    "Morphology is structured authoring, not an automatic parser. Historical face mappings, IPA and full paradigms remain review work.",
+    "Unta digit names are attested; positional speech and numeric punctuation remain explicitly unverified/editorial.",
+    "Printable HTML preserves raw source slots and does not embed historical fonts.",
+    "M4 final visual acceptance and conservative collision limitations remain open."
+  ],
+  "finalDialogCheck": {
+    "passed": true,
+    "tests": 2,
+    "seconds": 4.412,
+    "log": ".local/m5-final-dialog-checks.log",
+    "coverage": "Actual font-family resolution and glyph-field height; bottom PNG/SVG and Publish timestamp dialogs"
+  }
+}
