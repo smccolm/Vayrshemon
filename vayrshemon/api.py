@@ -68,6 +68,8 @@ METHODS = {
 
 
 class API:
+    version = API_VERSION
+    methods = METHODS
     def __init__(self, session):
         self.session = session
         self.requests = OrderedDict()
@@ -78,9 +80,9 @@ class API:
         trace_token = CURRENT_TRACE.set(trace_id)
         params = params or {}
         try:
-            if method not in METHODS:
+            if method not in self.methods:
                 raise ValueError('UNKNOWN_METHOD: ' + method)
-            _, mutation, schema = METHODS[method]
+            _, mutation, schema = self.methods[method]
             Draft202012Validator(schema).validate(params)
             digest = hashlib.sha256(json.dumps([method, params, expected_revision, document_id], sort_keys=True, allow_nan=False).encode()).hexdigest()
             if mutation:
@@ -104,7 +106,7 @@ class API:
             session.log.emit('api', 'COMMAND_STARTED', trace_id=trace_id, method=method, origin=origin, revision=session.revision)
             started = time.perf_counter()
             value = self.dispatch(method, params)
-            result = dict(ok=True, apiVersion=API_VERSION, traceId=trace_id, sessionId=session.session_id,
+            result = dict(ok=True, apiVersion=self.version, traceId=trace_id, sessionId=session.session_id,
                           revision=session.revision, result=value)
             if mutation:
                 self.requests[idempotency_key] = digest, deepcopy(result)
@@ -113,7 +115,7 @@ class API:
             return result
         except Exception as error:
             session.log.exception('api', error, trace_id)
-            return dict(ok=False, apiVersion=API_VERSION, traceId=trace_id, sessionId=session.session_id,
+            return dict(ok=False, apiVersion=self.version, traceId=trace_id, sessionId=session.session_id,
                         revision=session.revision, error=dict(code=str(error).split(':')[0][:80], message=str(error)))
         finally:
             CURRENT_TRACE.reset(trace_token)
@@ -240,7 +242,7 @@ class LocalServer(QObject):
         folder = api.session.root / '.local/run'
         self.descriptor = folder / (api.session.session_id + '.json')
         self.active = folder / 'active.json'
-        payload = dict(apiVersion=API_VERSION, sessionId=api.session.session_id, serverName=self.name, token=self.token, pid=os.getpid())
+        payload = dict(apiVersion=api.version, sessionId=api.session.session_id, serverName=self.name, token=self.token, pid=os.getpid())
         self.previous_active = load_json(self.active) if self.active.exists() else None
         write_json(self.descriptor, payload)
         if publish:
@@ -288,7 +290,7 @@ class LocalServer(QObject):
             request = json.loads(bytes(buffer).decode('utf-8'), parse_constant=lambda value: (_ for _ in ()).throw(ValueError('NONFINITE_JSON')))
             if not isinstance(request, dict) or not secrets.compare_digest(str(request.get('token', '')), self.token):
                 raise ValueError('UNAUTHORIZED')
-            if request.get('apiVersion') != API_VERSION or request.get('sessionId') != self.api.session.session_id:
+            if request.get('apiVersion') != self.api.version or request.get('sessionId') != self.api.session.session_id:
                 raise ValueError('SESSION_OR_API_VERSION_MISMATCH')
             result = self.api.call(request['method'], request.get('params'), expected_revision=request.get('expectedRevision'),
                                    idempotency_key=request.get('idempotencyKey'), origin='local-api', trace_id=request.get('traceId'),
@@ -317,13 +319,13 @@ def remote_call(root, method, params=None, *, expected_revision=None, idempotenc
     from PySide6.QtCore import QCoreApplication
     app = QCoreApplication.instance() or QCoreApplication([])
     info = load_json(Path(descriptor) if descriptor else Path(root)/'.local/run/active.json')
-    if info.get('apiVersion') != API_VERSION:
+    if info.get('apiVersion') not in ('0.2.0','0.3.0'):
         raise ValueError('API_VERSION_MISMATCH')
     socket = QLocalSocket()
     socket.connectToServer(info['serverName'])
     if not socket.waitForConnected(5000):
         raise ConnectionError('No live lab session: ' + socket.errorString())
-    request = dict(apiVersion=API_VERSION, sessionId=info['sessionId'], token=info['token'], method=method,
+    request = dict(apiVersion=info['apiVersion'], sessionId=info['sessionId'], token=info['token'], method=method,
                    params=params or {}, expectedRevision=expected_revision, idempotencyKey=idempotency_key,
                    traceId=str(uuid.uuid4()), documentId=document_id)
     socket.write(json.dumps(request, ensure_ascii=True, allow_nan=False).encode()+b'\n')

@@ -53,6 +53,9 @@ class FontRegistry:
             raise ValueError('FONT_HASH_MISMATCH: ' + str(path))
         identity = f'font:{sha}:0'
         if identity in self.faces:
+            # The exact same bytes may have moved. Resolution must follow the
+            # newly verified locator rather than a missing previous path.
+            self.faces[identity].path = path
             return self.faces[identity]
         if len(self.faces) >= 128 or sum(len(face.data) for face in self.faces.values()) + len(data) > 256*1024*1024:
             raise ValueError('FONT_SESSION_LIMIT: 128 files / 256 MiB; save and start a new session')

@@ -6,9 +6,10 @@ from . import __version__
 from .api import METHODS, remote_call
 
 
-def tools():
+def tools(methods=None):
+    methods = methods or METHODS
     result = []
-    for method, (description, mutation, schema) in METHODS.items():
+    for method, (description, mutation, schema) in methods.items():
         properties = dict(schema['properties'])
         required = list(schema['required'])
         if mutation:
@@ -19,10 +20,11 @@ def tools():
     return result
 
 
-def serve(root, api=None, descriptor=None):
+def serve(root, api=None, descriptor=None, methods=None):
     initialized = False
     negotiated = False
-    names = {method.replace('.', '_').replace('-', '_'): method for method in METHODS}
+    methods = methods or (api.methods if api else METHODS)
+    names = {method.replace('.', '_').replace('-', '_'): method for method in methods}
     while True:
         raw = sys.stdin.buffer.readline(1_048_578)
         if not raw:
@@ -44,14 +46,14 @@ def serve(root, api=None, descriptor=None):
             if method == 'initialize':
                 negotiated = True
                 result = dict(protocolVersion='2024-11-05', capabilities={'tools':{'listChanged':False}},
-                              serverInfo={'name':'vayrshemon-lab','version':__version__},
+                              serverInfo={'name':'vayrshemon','version':__version__},
                               instructions='Read session_status before mutation. UTF-16 ranges follow grapheme boundaries. Use fresh idempotency keys and the current revision.')
             elif method == 'ping':
                 result = {}
             elif not initialized:
                 raise ValueError('Client must initialize and send notifications/initialized first')
             elif method == 'tools/list':
-                result = {'tools':tools()}
+                result = {'tools':tools(methods)}
             elif method == 'tools/call':
                 name = params.get('name')
                 if name not in names:

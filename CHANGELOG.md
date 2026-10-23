@@ -2,6 +2,16 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M2 editor 0.3.0 / native format 0.2.0 / specification 0.4.0 — 2026-10-22
+
+- Add multi-page Windows authoring with independent frames, asymmetric margins, rulers, pan/zoom and explicit overflow.
+- Add complete transaction undo/redo, find/replace, semantic clipboard, named styles, paragraph alignment/spacing/tabs, tracking, word spacing and baseline controls.
+- Add validated atomic native files, previous-save history, interruption recovery with locks/checksums/durability reporting, M1 migration and exact font relocation.
+- Expose 45 shared operations through desktop, CLI and MCP; publish separate versioned contracts and preserve the M0/M1 interfaces.
+- Add registered recipe/palette selection, physical PNG export and portable outline SVG proof with baked clipping.
+- Keep setup.bat current, make launch.bat open M2, and retain the M1 laboratory command.
+- Add regression and real source-font MCP/UI/headless/recovery evidence. Keep automatic frame flow/collision repair, color-font compilation and language-workbench features in later milestones.
+
 ## M1 laboratory 0.2.0 / specification 0.3.0 — 2026-10-22
 
 - Implement the native Windows font/input lab, headless renderer, and current-user local API/MCP bridge.

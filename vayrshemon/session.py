@@ -67,12 +67,12 @@ def micro_points(value, unit='pt'):
 class Session(QObject):
     changed = Signal()
 
-    def __init__(self, root, *, source_fonts=True):
+    def __init__(self, root, *, source_fonts=True, fonts=None, diagnostics=None, checks=None):
         super().__init__()
         self.root = Path(root).resolve()
         self.session_id = 'session.' + uuid.uuid4().hex
-        self.log = Diagnostics(self.root, self.session_id)
-        self.fonts = FontRegistry(self.root, self.log)
+        self.log = diagnostics or Diagnostics(self.root, self.session_id)
+        self.fonts = fonts or FontRegistry(self.root, self.log)
         self.doc = QTextDocument(self)
         self.metrics_device = QImage(1, 1, QImage.Format.Format_ARGB32_Premultiplied)
         self.metrics_device.setDotsPerMeterX(3780)
@@ -102,7 +102,7 @@ class Session(QObject):
         self.model['layoutProfile'] = 'layout.qt-6.8.3-m1'
         self.model['styles'][0]['fontSizeMicroPoints'] = '18000000'
         self.model['styles'][0]['lineHeight'] = {'mode': 'multiple', 'factor': 1.3}
-        self.checks = validators(self.root)
+        self.checks = checks if checks is not None else validators(self.root)
         self.doc.contentsChanged.connect(self._contents_changed)
         self.make_demo(source_fonts)
         self.log.emit('core', 'SESSION_STARTED', version=__version__, engine=self.fingerprint())
@@ -266,6 +266,10 @@ class Session(QObject):
                     fmt = self.format_for(run)
                     cursor.setCharFormat(fmt)
                     cursor.insertText(run.get('text', run.get('sourceText', '')), fmt)
+                if not cursor.block().text() and block['runs']:
+                    # Empty paragraphs need a persistent insertion format. A
+                    # temporary cursor format alone is lost by the next cursor.
+                    cursor.setBlockCharFormat(fmt)
             self.revision = model['revision']
             self.configure_layout()
             self.doc.clearUndoRedoStacks()
@@ -325,6 +329,10 @@ class Session(QObject):
                 fmt = block.charFormat()
                 runs = [dict(runId=f'run.empty.{block.position()}', languageId=fmt.property(LANGUAGE) or 'language.en',
                              styleId=fmt.property(STYLE) or result['styles'][0]['styleId'], type='unicode', text='', normalization='none')]
+                if fmt.property(KIND)=='legacy':
+                    runs[0].pop('text')
+                    runs[0].update(type='legacy',sourceText='',sourceFontSha256=fmt.property(SOURCE),
+                                   mappingProfileRef=json.loads(fmt.property(MAPPING) or 'null'))
             direction = {Qt.LayoutDirection.LeftToRight: 'ltr', Qt.LayoutDirection.RightToLeft: 'rtl'}.get(block.blockFormat().layoutDirection(), 'auto')
             # Qt owns paragraph leading; M0 encodes it on the first run style.
             # Preserve it when a character-format selection spans paragraphs
@@ -360,7 +368,7 @@ class Session(QObject):
         scalar_offset(text, end)
         if end < start:
             raise ValueError('REVERSED_RANGE')
-        if grapheme:
+        if grapheme and text:
             from PySide6.QtCore import QTextBoundaryFinder
             finder = QTextBoundaryFinder(QTextBoundaryFinder.BoundaryType.Grapheme, text)
             for offset in (start, end):
@@ -412,6 +420,7 @@ class Session(QObject):
         previous = self.revision
         with self.transaction():
             fmt = self.format_for(run)
+            self._last_format = fmt
             cursor.setCharFormat(fmt)
             if self.editor:
                 self.editor.setTextCursor(cursor)

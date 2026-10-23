@@ -14,6 +14,9 @@ def main():
     lab = sub.add_parser('lab')
     lab.add_argument('--document', type=Path)
     lab.add_argument('--no-source-fonts', action='store_true')
+    editor = sub.add_parser('editor')
+    editor.add_argument('--document',type=Path)
+    editor.add_argument('--no-source-fonts',action='store_true')
     for name in ('inspect', 'render', 'benchmark'):
         p = sub.add_parser(name)
         p.add_argument('--document', type=Path)
@@ -28,6 +31,7 @@ def main():
     mcp.add_argument('--no-source-fonts', action='store_true')
     mcp.add_argument('--descriptor', type=Path)
     mcp.add_argument('--document', type=Path)
+    mcp.add_argument('--editor',action='store_true',help='Use the M2 editor in headless mode; live MCP discovers the active API.')
     call = sub.add_parser('call')
     call.add_argument('method')
     arguments = call.add_mutually_exclusive_group()
@@ -48,11 +52,14 @@ def main():
         return 0 if result['ok'] else 1
     if args.command == 'mcp' and not args.headless:
         from .mcp import serve
-        serve(args.root, descriptor=args.descriptor)
+        from tools.m0.common import load_json
+        info=load_json(args.descriptor or args.root/'.local/run/active.json')
+        from .editor_api import METHODS as EDITOR_METHODS
+        serve(args.root, descriptor=args.descriptor,methods=EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
         return 0
     # Windows' offscreen plugin uses a dummy font backend. Hidden native Qt
     # supplies the same fonts and geometry as the window; Linux uses offscreen.
-    if os.name != 'nt' and args.command != 'lab':
+    if os.name != 'nt' and args.command not in ('lab','editor'):
         os.environ.setdefault('QT_QPA_PLATFORM', 'offscreen')
     from PySide6.QtWidgets import QApplication
     from PySide6.QtCore import qInstallMessageHandler
@@ -62,13 +69,30 @@ def main():
     from tools.m0.common import write_json
     app = QApplication.instance() or QApplication([])
     app.setApplicationName('Vayrshemon')
-    session = Session(args.root, source_fonts=not args.no_source_fonts)
-    api = API(session)
+    use_editor=args.command=='editor' or (args.command=='mcp' and args.editor)
+    if getattr(args,'document',None) and args.command in ('inspect','render','mcp'):
+        from tools.m0.common import load_json
+        use_editor=use_editor or load_json(args.document).get('format')=='vayrshemon.document'
+    if use_editor:
+        from .authoring import AuthoringSession
+        from .editor_api import EditorAPI
+        session=AuthoringSession(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
+        api=EditorAPI(session)
+    else:
+        session = Session(args.root, source_fonts=not args.no_source_fonts)
+        api = API(session)
     qInstallMessageHandler(lambda kind, context, message: session.log.emit('qt', str(kind), message=message))
     sys.excepthook = lambda kind, error, tb: session.log.emit('runtime', 'UNCAUGHT_EXCEPTION', level='error',
                                                              message=str(error), traceback=''.join(traceback.format_exception(kind,error,tb)))
     if getattr(args, 'document', None):
-        session.open(args.document)
+        session.open(args.document,advance_revision=False) if use_editor else session.open(args.document)
+    if args.command=='editor':
+        from .editor_window import EditorWindow
+        window=EditorWindow(session,api)
+        server=LocalServer(api)
+        app.aboutToQuit.connect(server.close)
+        window.show()
+        return app.exec()
     if args.command == 'lab':
         from .desktop import LabWindow
         window = LabWindow(session, api)
@@ -83,12 +107,18 @@ def main():
     if args.command == 'render':
         if not args.out:
             parser.error('render requires --out')
-        result = layout.render(session, args.out, mode=args.mode, dpi=args.dpi, region=args.region)[1]
+        if use_editor:
+            from . import pages
+            result=pages.render(session,args.out,mode=args.mode,dpi=args.dpi,region=args.region)[1]
+        else: result = layout.render(session, args.out, mode=args.mode, dpi=args.dpi, region=args.region)[1]
     elif args.command == 'benchmark':
         from .benchmark import benchmark
         result = benchmark(session)
     else:
-        result = layout.inspect(session)
+        if use_editor:
+            from . import pages
+            result=pages.inspect(session)
+        else: result = layout.inspect(session)
     if args.out and args.command != 'render':
         path = session.output_path(args.out)
         if path.exists():

@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.3.0**, 2026-10-22. Status: M0 complete; M1 native desktop/font laboratory implemented and automated acceptance evidence recorded. M2 is next. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
+Revision **0.4.0**, 2026-10-22. Status: M0, M1 and M2 implemented with automated acceptance evidence. M3 typesetting/collision workbench is next. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -77,6 +77,8 @@ Deliver:
 **Exit gate:** actual source fonts render and remain aligned; mixed English/script typing and IME work; UI and headless geometry agree; selection follows visible glyph clusters; the accessibility tree exposes meaningful text. If the proposed shell/input bridge fails this gate, change the adapter before committing to the UI framework. Record screenshots and metrics from the successful route.
 
 ### M2 — First usable editor
+
+**Implemented:** native multi-page authoring with independent frames, complete transaction undo, semantic clipboard, styles and paragraph controls, atomic saves/history, forced-exit recovery, M1 migration, missing-font resolution, 45 API/MCP operations, PNG and outline SVG proof. The real source-font acceptance runner composes through live MCP and verifies text/geometry across UI, save/reopen, headless rendering and recovery. See [M2 usage, evidence and limits](M2.md). Automatic text flow between frames is deferred to the later layout work; M2 retains overflow explicitly.
 
 Deliver:
 

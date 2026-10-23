@@ -102,6 +102,24 @@
       "status": "accepted",
       "decision": "Recover inspector source coverage using native grapheme-range glyph queries, including split ligatures.",
       "basis": "A reproduced Qt 6.8.3 emoji fallback defect returns incorrect stringIndexes; tests require accurate mixed-font source ranges."
+    },
+    {
+      "id": "ADR-018",
+      "status": "accepted",
+      "decision": "M2 composes independent native text frames on per-page physical geometry.",
+      "basis": "Preserves M1 shaping/input while adding usable authoring. Automatic frame flow and pagination remain later layout work."
+    },
+    {
+      "id": "ADR-019",
+      "status": "accepted",
+      "decision": "M2 uses complete transaction snapshots, atomic native saves, and lock/checksum protected recovery checkpoints.",
+      "basis": "Text, pages, frames and formatting undo together. Forced process-exit tests preserve unsaved state; durability failures remain visible."
+    },
+    {
+      "id": "ADR-020",
+      "status": "accepted",
+      "decision": "M2 vector proof exports clipped glyph outlines with physical page dimensions.",
+      "basis": "Same positioned native glyph geometry as preview. Portable proof is deliberately non-searchable; PDF and portable color-font production remain M4."
     }
   ]
 }

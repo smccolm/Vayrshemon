@@ -9,18 +9,23 @@
         "schemas/document.schema.json",
         "tests/fixtures/documents/spacing.json",
         "vayrshemon/session.py",
-        "tests/test_m1.py"
+        "tests/test_m1.py",
+        "vayrshemon/pages.py",
+        "tests/test_m2.py"
       ],
-      "remaining": "M1 custom dimensions and physical PNG sizing verified; multi-page overrides and publishing remain M2/M4."
+      "remaining": "Custom per-page sizes and PNG physical dimensions implemented; full publishing remains M4."
     },
     {
       "id": "PAGE-02",
       "milestone": "M2",
-      "status": "contract-only",
+      "status": "foundation",
       "evidence": [
-        "schemas/document.schema.json"
+        "schemas/document.schema.json",
+        "vayrshemon/authoring.py",
+        "vayrshemon/editor_window.py",
+        "tests/test_m2.py"
       ],
-      "remaining": "Frame flow, overset indicators, clipping and bleed UI."
+      "remaining": "Independent frames, margins, overflow and clipping implemented. Automatic frame flow, pagination and bleed controls remain later layout/publishing work."
     },
     {
       "id": "TEXT-01",
@@ -31,9 +36,11 @@
         "tests/fixtures/documents/symbols.json",
         "tools/m0/mapping.py",
         "vayrshemon/session.py",
-        "vayrshemon/desktop.py"
+        "vayrshemon/desktop.py",
+        "vayrshemon/authoring.py",
+        "tests/test_m2.py"
       ],
-      "remaining": "M1 editable Unicode/legacy spans and plain-text clipboard; rich semantic clipboard, symbols editing and language-aware search remain M2."
+      "remaining": "M2 semantic clipboard and grapheme-aligned literal find/replace implemented; symbol-native editing and language-specific search remain future work."
     },
     {
       "id": "TEXT-02",
@@ -67,9 +74,11 @@
         "docs/research/font-layer-audit.json",
         "data/fixtures.json",
         "vayrshemon/layout.py",
-        "docs/research/m1-validation.json"
+        "docs/research/m1-validation.json",
+        "vayrshemon/editor_api.py",
+        "docs/research/m2-validation.json"
       ],
-      "remaining": "Flat registered source layers implemented; detailed effects and recipe studio remain M4."
+      "remaining": "M2 compatible recipe and palette selection implemented; effects, gradients and color-font compiler remain M4."
     },
     {
       "id": "FONT-03",
@@ -83,12 +92,14 @@
     {
       "id": "LAYOUT-01",
       "milestone": "M2/M3",
-      "status": "contract-only",
+      "status": "foundation",
       "evidence": [
         "schemas/document.schema.json",
-        "data/fixtures.json"
+        "data/fixtures.json",
+        "vayrshemon/frame.py",
+        "tests/test_m2.py"
       ],
-      "remaining": "Shaping, line breaking, spacing and pagination."
+      "remaining": "Native shaping, wrapping, leading, paragraph spacing, alignment, left tabs, tracking and baseline controls implemented. Automatic pagination/collision policies remain M3."
     },
     {
       "id": "LAYOUT-02",
@@ -108,9 +119,12 @@
         "tools/m0/docx.py",
         "schemas/document.schema.json",
         "vayrshemon/session.py",
-        "tests/test_m1.py"
+        "tests/test_m1.py",
+        "vayrshemon/authoring.py",
+        "schemas/editor-document.schema.json",
+        "tests/test_m2.py"
       ],
-      "remaining": "M1 atomic lab saves and semantic/geometry reopen verified. Crash recovery journal, migrations and portable bundle remain M2."
+      "remaining": "M2 atomic files/history, forced-exit recovery, M1 migration and exact missing-font resolution implemented. Portable font bundles and full interchange remain later work."
     },
     {
       "id": "VERSION-01",
@@ -121,9 +135,11 @@
         "data/fonts.json",
         "requirements-m0.txt",
         "requirements-m1.txt",
-        "docs/research/m1-validation.json"
+        "docs/research/m1-validation.json",
+        "requirements-m2.txt",
+        "docs/research/m2-validation.json"
       ],
-      "remaining": "M1 pins runtime, fonts, features and lab wrapper. Durable history, migrations and independent backups remain M2/M6."
+      "remaining": "M2 native/API versions, history and recovery implemented. Independent backups/installer rollback remain M6."
     },
     {
       "id": "AUTO-01",
@@ -136,9 +152,12 @@
         "data/lab-capabilities.json",
         "data/mcp-tools.json",
         "vayrshemon/api.py",
-        "vayrshemon/mcp.py"
+        "vayrshemon/mcp.py",
+        "data/editor-capabilities.json",
+        "data/editor-mcp-tools.json",
+        "tools/verify_m2.py"
       ],
-      "remaining": "M1 live/headless API and MCP implemented; extend alongside later editing/language features."
+      "remaining": "45 M2 operations share desktop, CLI and MCP implementations. Extend alongside later layout/language features."
     },
     {
       "id": "DEBUG-01",
@@ -148,9 +167,11 @@
         "tools/m0/__main__.py",
         "tests/test_m0.py",
         "vayrshemon/diagnostics.py",
-        "vayrshemon/benchmark.py"
+        "vayrshemon/benchmark.py",
+        "tools/verify_m2.py",
+        "docs/M2.md"
       ],
-      "remaining": "M1 correlated component logs, glyph/layout inspector, local widget captures and reproducible proof runner implemented; full replay bundles remain later work."
+      "remaining": "M2 page/frame diagnostics, durable-revision reporting and local source-font MCP transcripts implemented. Long-document performance work remains M6."
     },
     {
       "id": "EXPORT-01",
@@ -159,9 +180,11 @@
       "evidence": [
         "docs/ARCHITECTURE.md",
         "vayrshemon/layout.py",
-        "tests/test_m1.py"
+        "tests/test_m1.py",
+        "vayrshemon/pages.py",
+        "tests/test_m2.py"
       ],
-      "remaining": "Bounded PNG page/tile output and physical metadata implemented; SVG/PDF/color-font preflight remain M2/M4."
+      "remaining": "M2 current-page PNG and physically sized clipped outline SVG proof implemented. PDF, searchable publishing and color-font preflight remain M4."
     },
     {
       "id": "LANG-01",
@@ -216,6 +239,24 @@
     {
       "id": "M1-MEASUREMENTS",
       "check": "Record native paint latency, raster transport, memory, huge-page and 100,000-character measurements with limitations."
+    }
+  ],
+  "m2Gates": [
+    {
+      "id": "M2-AUTHORING",
+      "check": "Compose mixed English/source-font pages through the shared live MCP writer and native UI."
+    },
+    {
+      "id": "M2-PRESERVATION",
+      "check": "Text, formatting, page geometry and fonts round-trip through native files and M1 migration."
+    },
+    {
+      "id": "M2-RECOVERY",
+      "check": "Force process exit and recover unsaved mixed text and geometry without changing the source file."
+    },
+    {
+      "id": "M2-EXPORT",
+      "check": "PNG physical size and clipped pure-outline SVG render independently; diagnostics expose overflow."
     }
   ]
 }

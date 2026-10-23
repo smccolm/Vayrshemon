@@ -7,11 +7,11 @@ if not exist ".venv\Scripts\python.exe" (
     popd
     exit /b 1
 )
-".venv\Scripts\python.exe" -u -m vayrshemon lab %*
+".venv\Scripts\python.exe" -u -m vayrshemon editor %*
 set "LAB_EXIT_CODE=%ERRORLEVEL%"
 if not "%LAB_EXIT_CODE%"=="0" (
     echo.
-    echo The lab stopped with an error. Diagnostics are in .local\logs.
+    echo The editor stopped with an error. Diagnostics are in .local\logs.
     pause
 )
 popd

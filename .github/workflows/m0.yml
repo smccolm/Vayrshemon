@@ -1,4 +1,4 @@
-name: M0 evidence and M1 native laboratory
+name: Evidence, native laboratory, and M2 authoring
 
 on:
   push:
@@ -24,6 +24,7 @@ jobs:
           cache-dependency-path: |
             requirements-m0.txt
             requirements-m1.txt
+            requirements-m2.txt
       - name: Windows setup and public checks
         if: runner.os == 'Windows'
         shell: cmd
@@ -33,7 +34,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libegl1 libopengl0 fonts-dejavu-core
-          python -m pip install -r requirements-m1.txt
+          python -m pip install -r requirements-m2.txt
       - name: Validate schemas and evidence references without Inputs
         if: runner.os != 'Windows'
         run: python -m tools.m0 check

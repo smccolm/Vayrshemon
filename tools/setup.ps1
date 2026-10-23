@@ -59,7 +59,7 @@ function Find-Python312 {
             Write-Host $_.Exception.Message
         }
     }
-    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0/M1 are tested with Python 3.12.7.'
+    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0/M1/M2 are tested with Python 3.12.7.'
 }
 
 try {
@@ -71,7 +71,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M1 setup - $projectRoot"
+    Write-Host "Vayrshemon M2 setup - $projectRoot"
     Write-Host "Console log: $logPath"
 
     if (Test-Path -LiteralPath $environmentPath) {
@@ -93,7 +93,7 @@ try {
         $environmentPath)
     Invoke-Python $environmentPython @('-m', 'ensurepip', '--upgrade', '--default-pip')
     Invoke-Python $environmentPython @('-m', 'pip', '--require-virtualenv', 'install',
-        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m1.txt')
+        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m2.txt')
     Invoke-Python $environmentPython @('-m', 'pip', '--disable-pip-version-check', 'check')
     Invoke-Python $environmentPython @('-m', 'tools.m0', '--log', ".local/logs/setup-check-$runId.jsonl", 'check')
     Invoke-Python $environmentPython @('-m', 'unittest', 'discover', '-s', 'tests', '-v')
@@ -111,9 +111,9 @@ try {
 
     Write-Host ''
     Write-Host 'Setup complete. Dependencies, evidence checks, and tests passed.'
-    Write-Host 'Double-click launch.bat to open the M1 font and input laboratory.'
+    Write-Host 'Double-click launch.bat to open the M2 authoring editor.'
     Write-Host 'CLI: .venv\Scripts\python.exe -m vayrshemon --help'
-    Write-Host 'MCP client configuration: .local\mcp-config.json (connects to the running lab).'
+    Write-Host 'MCP client configuration: .local\mcp-config.json (connects to the active editor or lab).'
     $setupExitCode = 0
 }
 catch {

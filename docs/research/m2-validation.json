@@ -1,0 +1,179 @@
+{
+  "application": "0.3.0",
+  "engine": {
+    "application": "0.3.0",
+    "qt": "6.8.3",
+    "pyside": "6.8.3",
+    "python": "3.12.7",
+    "os": "Windows-11-10.0.26200-SP0",
+    "platformPlugin": "windows",
+    "layout": "one QTextDocument/QTextLayout per independent frame",
+    "logicalDpi": 96,
+    "units": "logical-pixels-at-96-dpi",
+    "designMetrics": true,
+    "defaultFont": "Segoe UI",
+    "features": {
+      "kern": true,
+      "liga": true
+    },
+    "fonts": [
+      {
+        "fontId": "font:2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd:0",
+        "sha256": "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd"
+      },
+      {
+        "fontId": "font:182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325:0",
+        "sha256": "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325"
+      },
+      {
+        "fontId": "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0",
+        "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+      }
+    ],
+    "formatVersion": "0.2.0"
+  },
+  "sourceFontHashes": [
+    "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd",
+    "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325",
+    "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+  ],
+  "checks": {
+    "liveMcpAuthoring": true,
+    "semanticRoundtrip": true,
+    "geometryRoundtrip": true,
+    "uiHeadlessGeometry": true,
+    "monoColorDiffer": true,
+    "outlineSvg": true,
+    "forcedExitMixedRecovery": true
+  },
+  "pages": 2,
+  "toolCount": 45,
+  "glyphCount": 127,
+  "geometryHash": "7ff0980abd4b9c2015829cac0df277829355405eb2ed8a5b268eb5b68b495ae7",
+  "recoveredGeometryHash": "2522f373d3e565bbd500fd54dc9a6e4cb2caf4b601ec55d9977037eee3b6292f",
+  "pngDimensions": [
+    641,
+    481
+  ],
+  "timings": [
+    {
+      "method": "fonts.load",
+      "elapsedMs": 65.03
+    },
+    {
+      "method": "fonts.load",
+      "elapsedMs": 17.529
+    },
+    {
+      "method": "fonts.load",
+      "elapsedMs": 18.627
+    },
+    {
+      "method": "recipe.configure",
+      "elapsedMs": 15.495
+    },
+    {
+      "method": "document.title",
+      "elapsedMs": 14.525
+    },
+    {
+      "method": "page.configure",
+      "elapsedMs": 20.641
+    },
+    {
+      "method": "document.edit",
+      "elapsedMs": 16.932
+    },
+    {
+      "method": "document.format",
+      "elapsedMs": 19.405
+    },
+    {
+      "method": "document.format",
+      "elapsedMs": 18.132
+    },
+    {
+      "method": "document.format",
+      "elapsedMs": 27.096
+    },
+    {
+      "method": "paragraph.format",
+      "elapsedMs": 18.037
+    },
+    {
+      "method": "palette.apply",
+      "elapsedMs": 14.621
+    },
+    {
+      "method": "page.add",
+      "elapsedMs": 30.982
+    },
+    {
+      "method": "document.edit",
+      "elapsedMs": 19.724
+    },
+    {
+      "method": "document.format",
+      "elapsedMs": 30.467
+    },
+    {
+      "method": "frame.select",
+      "elapsedMs": 12.475
+    },
+    {
+      "method": "view.configure",
+      "elapsedMs": 20.516
+    },
+    {
+      "method": "render.png",
+      "elapsedMs": 27.046
+    },
+    {
+      "method": "view.configure",
+      "elapsedMs": 20.939
+    },
+    {
+      "method": "render.png",
+      "elapsedMs": 20.853
+    },
+    {
+      "method": "render.svg",
+      "elapsedMs": 19.502
+    },
+    {
+      "method": "document.save",
+      "elapsedMs": 39.145
+    },
+    {
+      "method": "layout.inspect",
+      "elapsedMs": 16.95
+    },
+    {
+      "method": "document.edit",
+      "elapsedMs": 24.77
+    },
+    {
+      "method": "document.open",
+      "elapsedMs": 53.614
+    },
+    {
+      "method": "layout.inspect",
+      "elapsedMs": 16.782
+    },
+    {
+      "method": "recovery.restore",
+      "elapsedMs": 91.2
+    }
+  ],
+  "recordedDate": "2026-10-22",
+  "scope": "Local source-font proof; timing samples, not performance guarantees. Original screenshots and transcripts remain ignored.",
+  "publicSuite": {
+    "tests": 69,
+    "passed": true,
+    "command": "python -m unittest discover -s tests -v"
+  },
+  "sourceVerification": {
+    "checked": 22,
+    "issues": []
+  }
+}

@@ -1,8 +1,10 @@
 # Architecture and engineering decisions
 
-Specification revision 0.3.0, 2026-10-22. M0 evidence tooling and the M1 native laboratory are implemented. See [M0](M0.md) and [M1](M1.md) for the exact supported scope; later sections describe the broader target architecture. The machine-readable [decision register](../data/decisions.json) records the current adapter choice and its evidence.
+Specification revision 0.4.0, 2026-10-22. M0 evidence tooling, M1 native laboratory and M2 authoring are implemented. See [M0](M0.md), [M1](M1.md) and [M2](M2.md) for the supported scope; later sections describe the broader target architecture. The machine-readable [decision register](../data/decisions.json) records the adapter and persistence choices.
 
 The working M1 core is Python plus pinned Qt 6.8.3. QTextDocument/QTextLayout own layout, native QTextEdit owns input and accessibility, and QGlyphRun/QRawFont share positioned glyphs between the color preview and headless PNG renderer. Process-private renamed font copies solve family-name collisions without modifying original bytes. The local API uses QLocalServer with current-user OS access, and the stdio MCP adapter forwards to that same session. This is an explicit replacement for the earlier provisional Rust/Tauri/Skia route, not evidence that route failed. M2 can continue this adapter; any later replacement must pass the same geometry, input, preservation, and accessibility gates.
+
+M2's `AuthoringSession` is the single document writer above one `FrameSession`/QTextDocument per independent frame. Page placement composes existing native glyph geometry. UI/API edits share validation, revision checks, complete-state undo and durable recovery checkpoints. Native files embed M0 semantic runs plus versioned M2 frame/paragraph/character settings. Requested character spacing is stored separately from Qt's internal rounding. The M1 wrapper migrates into a frame without overwriting its source. Outline SVG uses the same positioned glyph paths with clipping baked into the geometry. Cross-frame text flow and large-document incremental persistence remain future work.
 
 ## 1. System boundary
 
