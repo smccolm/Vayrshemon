@@ -56,6 +56,7 @@ class ForgePanel(QWidget):
 
     def refresh(self):
         if self.pending: return  # Never overwrite unflushed editor contents.
+        if hasattr(self,'laboratory') and self.laboratory.dirty: return
         self.loading=True
         try:
             if not self.book.forge: return
@@ -78,15 +79,21 @@ class ForgePanel(QWidget):
             self.research.setPlainText(json.dumps(dict(decisions=v['snapshot']['decisions'],research=v['snapshot']['research']),ensure_ascii=False,indent=2))
             for edit in [self.wiki_title,self.wiki_editor,*self.fields.values()]: edit.setReadOnly(bool(self.version))
             self.selection=None;self.wiki_editor.clear();self.wiki_title.clear();self.wiki_preview.clear()
-        finally: self.loading=False
+        finally:
+            self.loading=False
+            if hasattr(self,'laboratory'): self.laboratory.refresh()
 
     def flush(self):
         self.timer.stop()
-        return self.save_pending() if self.pending else True
+        if self.pending and not self.save_pending(): return False
+        return self.laboratory.save() if hasattr(self,'laboratory') else True
 
     def reload(self):
-        if self.pending and QMessageBox.question(self,'Reload saved draft','Discard this editor\'s unsaved text and reload the project? Copy your text first if you want to keep it.')!=QMessageBox.StandardButton.Yes: return
-        self.timer.stop();self.pending=None;self.refresh();self.message.setText('Reloaded the durable project draft.')
+        lab=getattr(self,'laboratory',None)
+        if (self.pending or (lab and lab.dirty)) and QMessageBox.question(self,'Reload saved draft','Discard this editor\'s unsaved text and reload the project? Copy your text first if you want to keep it.')!=QMessageBox.StandardButton.Yes: return
+        self.timer.stop();self.pending=None
+        if lab: lab.dirty=False
+        self.refresh();self.message.setText('Reloaded the durable project draft.')
 
     def queue(self,kind):
         if self.loading or self.version or not self.selection or self.selection[0]!=kind: return

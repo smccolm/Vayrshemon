@@ -2,6 +2,15 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M8 executable Language Forge tests 0.9.0 — 2026-10-23
+
+- Add bounded, declarative inventory, inflection, token-analysis and clause rules with independent positive/negative expectations, explicit review/unsupported results and grammar coverage.
+- Author rules, cases and bilingual pages in the Forge; preserve historical read-only views and retain invalid or stale edits for recovery.
+- Compare one pinned suite against two language versions; persist hashed results through six new API/MCP operations (121 total).
+- Demonstrate a proposed literary adaptation of Shakespeare's Tempest with cited roots, back-translations, versioned wiki notes and unchanged approved two-column typography, paint and margins. Preserve soft verse breaks and timestamped proof filenames.
+- Bind printed script to exact frozen clause inputs; reject mismatches. Restore history in immutable timestamp order rather than SQLite insertion order.
+- Keep setup.bat, pinned requirement chain, CI, contracts and regressions current; no new dependency or native document format.
+
 ## M7 Language Forge 0.8.0 — 2026-10-23
 
 - Add a full Forge tab with independent transactional projects, branches, hashed versions, autosaved dictionary/wiki drafts, historical views, typed diffs and verified portable history bundles.

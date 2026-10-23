@@ -32,7 +32,7 @@ def empty_snapshot():
 
 
 def validate(snapshot):
-    if set(snapshot) != {'language', 'wiki', 'tests', 'decisions', 'research'}:
+    if set(snapshot) not in ({'language', 'wiki', 'tests', 'decisions', 'research'}, {'language', 'wiki', 'tests', 'decisions', 'research', 'laboratory'}):
         raise ValueError('FORGE_SNAPSHOT_FIELDS')
     if len(encoded(snapshot)) > 32*1024*1024: raise ValueError('FORGE_SNAPSHOT_LIMIT')
     validate_data(snapshot['language'])
@@ -45,7 +45,7 @@ def validate(snapshot):
                 raise ValueError('FORGE_RECORD_ID')
             seen.add(row['id'])
             fields={'id','title','body','ruleIds'} if kind=='wiki' else {'id','title','paragraphs','ruleIds'}
-            if set(row)!=fields or not isinstance(row['title'],str) or len(row['title'])>200:
+            if set(row) not in (fields, fields|{'caseIds'} if kind=='tests' else fields) or not isinstance(row['title'],str) or len(row['title'])>200:
                 raise ValueError('FORGE_RECORD_FIELDS')
             rules={r['id'] for r in snapshot['language']['grammar']}
             if not isinstance(row['ruleIds'],list) or not set(row['ruleIds'])<=rules:
@@ -59,6 +59,17 @@ def validate(snapshot):
                         raise ValueError('FORGE_TEST_PAIR')
     if not isinstance(snapshot['decisions'],list) or not isinstance(snapshot['research'],dict):
         raise ValueError('FORGE_EDITORIAL_FIELDS')
+    if 'laboratory' in snapshot:
+        from .forge_lab import validate_lab
+        validate_lab(snapshot)
+    cases={c['id']:c for c in snapshot.get('laboratory',{}).get('cases',[])}
+    for test in snapshot['tests']:
+        if 'caseIds' not in test: continue
+        bindings=test['caseIds']
+        if not isinstance(bindings,list) or len(bindings)!=len(test['paragraphs']): raise ValueError('LAB_PAGE_BINDINGS')
+        for ids,pair in zip(bindings,test['paragraphs']):
+            if not isinstance(ids,list) or not 1<=len(ids)<=256 or any(i not in cases or cases[i]['kind']!='clause' or cases[i]['expected']!='accept' for i in ids): raise ValueError('LAB_PAGE_CASE_REFERENCE')
+            if ' '.join(cases[i]['text'] for i in ids)!=pair['text']: raise ValueError('LAB_PAGE_CASE_TEXT_MISMATCH: edit the bound cases and page together, or explicitly remove the bindings')
 
 
 class ForgeProject:
@@ -186,7 +197,10 @@ class ForgeProject:
 
     def history(self):
         with self.connect() as db:
-            return [dict(id=key,**{k:v for k,v in self._commit(db,key).items() if k!='snapshot'}) for key, in db.execute('SELECT id FROM commits ORDER BY rowid DESC')]
+            rows=[dict(id=key,**{k:v for k,v in self._commit(db,key).items() if k!='snapshot'}) for key, in db.execute('SELECT id FROM commits')]
+            # Bundle JSON canonicalizes hash keys, so restore insertion order is
+            # not history. Sort immutable timestamps with a deterministic tie.
+            return sorted(rows,key=lambda r:(r['createdAt'],r['id']),reverse=True)
 
     def status(self): return {k:v for k,v in self.read().items() if k!='snapshot'}
 
@@ -196,7 +210,28 @@ class ForgeProject:
             aa={r['id']:r for r in (a[key] if key in a else a['language'][key])}
             bb={r['id']:r for r in (b[key] if key in b else b['language'][key])}
             result[key]=dict(added=sorted(bb.keys()-aa.keys()),removed=sorted(aa.keys()-bb.keys()),changed=sorted(k for k in aa.keys()&bb.keys() if aa[k]!=bb[k]))
+        for kind in ('rules','cases'):
+            aa={r['id']:r for r in a.get('laboratory',{}).get(kind,[])}
+            bb={r['id']:r for r in b.get('laboratory',{}).get(kind,[])}
+            result['laboratory.'+kind]=dict(added=sorted(bb.keys()-aa.keys()),removed=sorted(aa.keys()-bb.keys()),changed=sorted(k for k in aa.keys()&bb.keys() if aa[k]!=bb[k]))
         return dict(collections=result,decisionsChanged=a['decisions']!=b['decisions'],researchChanged=a['research']!=b['research'])
+
+    def lab_edit(self,collection,expected_generation,record=None,record_id=None):
+        from .forge_lab import empty_lab
+        if collection not in ('rules','cases'): raise ValueError('LAB_COLLECTION')
+        with self.writer(expected_generation) as (db,meta):
+            draft=json.loads(db.execute('SELECT draft FROM branches WHERE name=?',(meta['branch'],)).fetchone()[0])
+            rows=draft.setdefault('laboratory',empty_lab())[collection]
+            key=record['id'] if record is not None else record_id
+            index=next((i for i,r in enumerate(rows) if r['id']==key),None)
+            if record is None:
+                if index is None: raise ValueError('LAB_RECORD_NOT_FOUND')
+                rows.pop(index)
+            elif index is None: rows.append(deepcopy(record))
+            else: rows[index]=deepcopy(record)
+            validate(draft)
+            db.execute('UPDATE branches SET draft=? WHERE name=?',(encoded(draft),meta['branch']))
+        return self.status()
 
     def record_run(self,value):
         with self.connect() as db,db:

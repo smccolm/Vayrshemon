@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.10.0**, 2026-10-23. Status: M0–M7 implemented, including [M6.1 panel controls and approved visual baseline](M6.1.md) and [M7 Language Forge](M7.md). The user explicitly accepted the enlarged two-column page's size, margins, typography and font quality. Its approved reference is now protected separately from broader M4 glyph-inventory coverage. M6 records a remaining large-document edit-latency gap against the provisional 50 ms target. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
+Revision **0.11.0**, 2026-10-23. Status: M0–M8 implemented, including [M6.1 panel controls and approved visual baseline](M6.1.md) [M7 Language Forge](M7.md), and [M8 executable tests](M8.md). The user explicitly accepted the enlarged two-column page's size, margins, typography and font quality. Its approved reference is now protected separately from broader M4 glyph-inventory coverage. M6 records a remaining large-document edit-latency gap against the provisional 50 ms target. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -202,6 +202,6 @@ For each requested revision: capture a reproducing document or operation sequenc
 3. Reduce full-state snapshot/validation/undo cost and long-paragraph shaping. M6's 100-page/100,000-scalar case limits reshaping to the changed story and meets the measured pan budget, but p95 edit-through-page-paint is 247 ms, above the provisional 50 ms target.
 4. Keep setup.bat, published API/MCP schemas, regression tests, and milestone evidence updated with every dependency or behavior change.
 5. Expand the M5 language data through cited revisions: verify historical font mappings and IPA, adjudicate competing tense readings, and develop real paradigms and corpus segmentation. Do not infer these from glyph appearance.
-6. M7 is implemented: top-level Forge workspace, independent project history and branches, version-bound dictionary/wiki, source-derived proposal and Run in Workbench. M8 remains the executable language-test laboratory (rule compiler, coverage, test-authoring UI, comparisons); M9 covers explicit merges and language releases. Keep software, language, presentation, document and test-run identities separate. M7 rendering and reference checks do not certify prose grammar.
+6. M7 is implemented: top-level Forge workspace, independent project history and branches, version-bound dictionary/wiki, source-derived proposal and Run in Workbench. M8 is implemented with a bounded finite compiler, test authoring, positive/negative coverage and frozen-case comparisons; M9 covers explicit merges and language releases. Keep software, language, presentation, document and test-run identities separate. Mechanical rule assertions do not certify literary meaning or general prose grammar.
 
 The first demo should answer a concrete question: **can we type and revise real English and Vayrshemon on a custom-sized page, with editable color lettering, and inspect exactly why every glyph and line is where it is?**

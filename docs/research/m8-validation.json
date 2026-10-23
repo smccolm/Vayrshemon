@@ -1,0 +1,147 @@
+{
+  "milestone": "M8",
+  "applicationVersion": "0.9.0",
+  "apiVersion": "0.9.0",
+  "apiOperations": 121,
+  "nativeFormat": "0.5.0",
+  "paintEngine": "1.1.0",
+  "laboratoryEngine": "1.0.0",
+  "verification": {
+    "setup": {
+      "result": "Pass",
+      "tests": 162,
+      "seconds": 324.069,
+      "log": ".local/logs/m8-setup-final.log"
+    },
+    "finalFocused": {
+      "result": "Pass",
+      "tests": 22,
+      "seconds": 42.413,
+      "log": ".local/logs/m8-final-regressions.log"
+    },
+    "approvedBaseline": {
+      "log": ".local\\test-m61\\855145b4538d4457b130fa06f2392b02\\approved-baseline\\verification.json",
+      "verification": {
+        "baselineId": "visual.workbench.2026-10-23",
+        "application": "0.7.1",
+        "sourceVerified": true,
+        "protectedStateVerified": true,
+        "rgbaIdentical": true,
+        "geometryIdentical": true,
+        "render": {
+          "path": "E:\\Vayrshemon\\.local\\test-m61\\855145b4538d4457b130fa06f2392b02\\approved-baseline\\approved-page.png",
+          "pageId": "page.fa5f9c24cbe640c08ca3c8bd027b2ec1",
+          "width": 1731,
+          "height": 2241,
+          "dpi": 144,
+          "bufferBytes": 15516684,
+          "elapsedMs": 3664.31730001932
+        },
+        "geometryHash": "c02583087d1d4c7646a2b7d6cf10de8245676ce29504c33ace7b4f13a5f1500c",
+        "collisions": 12,
+        "overflow": 0
+      }
+    }
+  },
+  "demo": {
+    "languageVersion": "0.2.3",
+    "commit": "7191fc9f079635074cc691c18e2819921adf1e7c6893576790a1e46d3af5969e",
+    "earlierVersions": {
+      "firstVersion": "74a82272656460466967c70d386c36af1ae26d4adbf0180efa7e6e9e26d7d20d",
+      "enumerationVersion": "623d5011d62a40e4839aca451f7f7063e6c251b7d6e8504b3ba5ad858fb0ad3c",
+      "nominalizationVersion": "25897aa12dc58c59f6ebfc8f8d50cd7f832da770d2ae11f079a3081f4711d81b"
+    },
+    "dictionaryEntries": 782,
+    "wikiPages": 15,
+    "rules": 9,
+    "caseCounts": {
+      "Pass": 55,
+      "Needs review": 1,
+      "Unsupported": 1
+    },
+    "checks": [
+      {
+        "name": "Approved page geometry, fonts, type sizes, leading and paint",
+        "status": "Pass",
+        "sha256": "f90a4271bd3a55660b05e410c5031f18087332de36a5d477152dd54cf5db03f6"
+      },
+      {
+        "name": "Typed language references and immutable version hash",
+        "status": "Pass"
+      },
+      {
+        "name": "Frame overflow",
+        "status": "Pass",
+        "count": 0
+      },
+      {
+        "name": "Missing glyphs or script font fallback",
+        "status": "Pass",
+        "count": 0
+      },
+      {
+        "name": "Conservative glyph collision bounds",
+        "status": "Needs review",
+        "count": 27
+      },
+      {
+        "name": "Novel translation and proposed grammar",
+        "status": "Needs review",
+        "details": "Author-composed from versioned rules; no claim of automatic linguistic validation."
+      },
+      {
+        "name": "General prose grammar parser",
+        "status": "Unsupported",
+        "details": "M8 checks finite forms and author-annotated clauses; free prose and semantic equivalence remain unsupported."
+      },
+      {
+        "name": "Pinned executable language suite",
+        "status": "Needs review",
+        "counts": {
+          "Pass": 55,
+          "Needs review": 1,
+          "Unsupported": 1
+        },
+        "suiteSha256": "5e3882d525c5df64a003a65a10e6012b16e6382f8c357b77429045398f946f67"
+      },
+      {
+        "name": "Displayed script bound to exact assertion inputs",
+        "status": "Pass",
+        "caseIds": [
+          [
+            "tempest.revels",
+            "tempest.actors",
+            "tempest.foretold",
+            "tempest.air"
+          ],
+          [
+            "tempest.world",
+            "tempest.trace"
+          ],
+          [
+            "tempest.dream",
+            "tempest.sleep"
+          ]
+        ],
+        "details": "Snapshot validation requires exact paragraph text from the ordered bound cases."
+      }
+    ],
+    "runManifest": ".local\\demos\\m8-forge-v0.9.0-final\\tempest-bound\\run.json",
+    "project": ".local\\demos\\m8-forge-v0.9.0-final\\Vayrshemon.vayforge",
+    "suiteSha256": "5e3882d525c5df64a003a65a10e6012b16e6382f8c357b77429045398f946f67",
+    "proofSha256": "aea8e6c19bf0bf58d9a474696183b315df7c5230e8f7d8c00c755ccb6a76039a",
+    "workbenchDocument": ".local/demos/m8-forge-v0.9.0-final/Working-Tempest-0.2.3.vay.json"
+  },
+  "share": {
+    "path": ".local\\demos\\m8-forge-v0.9.0-final\\Vayrshemon-Tempest-20261023-150548.png",
+    "sha256": "8d6915d3a283ef8605b061f385d0de8777e0fc0ae08f00d7bae763a8a64a08d6",
+    "dpi": 288,
+    "pixels": [
+      3462,
+      4481
+    ],
+    "bytes": 3027802,
+    "status": "completed"
+  },
+  "scope": "Proposed literary adaptation of Shakespeare; finite constraints on explicit analyses do not establish semantic equivalence or parse free prose. Approved hashes unchanged; private artifacts remain ignored."
+}
