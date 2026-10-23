@@ -1,0 +1,70 @@
+{
+  "date": "2026-10-23",
+  "application": "0.5.2",
+  "apiVersion": "0.5.0",
+  "nativeFormat": "0.4.0",
+  "paintEngineVersion": "1.0.2",
+  "recipeFormat": "1.0.0",
+  "instructionSource": {
+    "path": "Inputs/font files/How to Make High Quality Color Text with Photoshop.txt",
+    "sha256": "2be1db35605cb5df80be2debae78bbb6e3edd04964c4dae6a343976de07a7fff"
+  },
+  "construction": {
+    "outline": "Thimfora_79.ttf",
+    "interior": "Thimfora_81_Fragments.ttf",
+    "glow": "Thimfora_80_Infill.ttf",
+    "placement": "Shape master once; reuse its exact origins, baselines, em sizes and transforms for all three fonts.",
+    "interiorFill": "ADD all subpaths before filling",
+    "glowEffect": "Thimfora_80_Infill.ttf supplies only translucent outer glow, never solid ink or outline shadow.",
+    "outlineEffects": "79 shadow and edge above the 81 interior"
+  },
+  "tests": {
+    "command": "setup.bat --no-pause",
+    "passed": 107,
+    "failed": 0,
+    "setupLog": ".local/logs/setup-20261023-084008-455-46896.log",
+    "coverage": [
+      "Synthetic layer registration with unequal side bearings and extents",
+      "Overlapping interior subpaths add rather than cancel",
+      "Glow mask cannot become an opaque fill/stroke",
+      "Character-map mismatches are rejected",
+      "Actual three-font two-column review and unchanged archival standard",
+      "Existing native persistence, DPI, PDF, color-font and live transport regressions"
+    ]
+  },
+  "reviewCopy": {
+    "definition": "data/formatting/parallel-translation-layered.json",
+    "archivalSourcePreserved": true,
+    "explicitScalarAdaptations": 10,
+    "mapping": "U+00BE to U+2019, evidenced by the archived Translation 1.psd layers",
+    "pagePoints": [612, 792],
+    "independentColumns": 2,
+    "scriptGlyphRecords": 180,
+    "allScriptGlyphRecordsHaveThreeRegisteredLayers": true,
+    "localArtifacts": ".local/demos/m4-three-font-v0.5.2",
+    "referenceGallery": ".local/demos/m4-three-font-review",
+    "referenceAssetsHashed": 128,
+    "mappedReferences": 106,
+    "candidateReferences": 1,
+    "unresolvedReferences": 21,
+    "representativeLayerAndReferenceProofsVisuallyInspected": true,
+    "whiteAndBlackPagesVisuallyInspected": true,
+    "independentPdfRenderVsPngRgbMae": 1.0507180671089984,
+    "pixelComparisonNote": "144 DPI page PNG versus independent 144 DPI rendering of 300 DPI PDF. Diagnostic, not visual approval."
+  },
+  "live": {
+    "apiMcpTools": 66,
+    "mcpInteriorLayerProof": true,
+    "uiGeometryMatchesHeadless": true,
+    "pageFocus": true,
+    "captureVisuallyInspected": true
+  },
+  "dependencyChanges": false,
+  "visualAcceptance": "pending-user-review",
+  "remaining": [
+    "Final bevel, gradient, glow and reading-size appearance acceptance",
+    "Reference punctuation mapping and approved comparison tolerances",
+    "The review page has 12 conservative collision contacts plus 143 protected contacts; no zero-collision claim",
+    "Decorative PDF/SVG remain explicit raster proofs without searchable text"
+  ]
+}

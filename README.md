@@ -2,7 +2,7 @@
 
 A Windows desktop editor for custom typography and the long-term development of the Vayrshemon language.
 
-**Status: M4 implemented for visual review — Windows glyph studio, version 0.5.1.** Editable outline-derived bevel, shading, edge, shadow and glow treatments target the Individual Glyphs artwork. Historical fonts now preserve their open counters; interior fills require explicit layer fonts. M4 adds reproducible flat COLR/CPAL font builds, explicit raster proof export to PNG/SVG/PDF, effect bounds and publication preflight. All 66 operations share desktop, CLI and MCP controls. Native format is 0.4.0. **Final visual acceptance remains open**; the language workbench is M5.
+**Status: M4 implemented for visual review — Windows glyph studio, version 0.5.2.** The Individual Glyphs treatment uses the actual Thimfora 79 outline, 81 interior and 80 glow fonts at shared master origins. Layer proofs and layout diagnostics expose their registration. The two-column color review is an explicit adaptation of the historical specimen, which remains preserved separately. M4 adds reproducible flat COLR/CPAL font builds, explicit raster proof export to PNG/SVG/PDF, effect bounds and publication preflight. All 66 operations share desktop, CLI and MCP controls. Native format is 0.4.0. **Final visual acceptance remains open**; the language workbench is M5.
 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 

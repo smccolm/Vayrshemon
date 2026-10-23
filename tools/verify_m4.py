@@ -19,7 +19,7 @@ from PySide6.QtCore import QRectF
 from PySide6.QtGui import QImage,QPainter,QColor
 from PySide6.QtWidgets import QApplication
 from tools.m0.common import write_json
-from tools.parallel_translation_fixture import local_material,compose
+from tools.layered_translation_fixture import compose_layered
 from vayrshemon.studio_session import StudioSession
 from vayrshemon.studio_api import StudioAPI
 from vayrshemon.publication import png_bytes
@@ -117,17 +117,25 @@ def main():
         call('font.build',font_id=recipe['master'],path=str(out/'Thimfora-M4-flat-color.ttf'),treatment='flat-colr-v0')
         font=ImageFont.truetype(str(out/'Thimfora-M4-flat-color.ttf'),500)
         independent=Image.new('RGB',(1000,500),'white');ImageDraw.Draw(independent).text((30,30),'Jj0.',font=font,embedded_color=True);independent.save(out/'colr-freetype.png')
+        conversion=None
         if args.document:
             call('document.open',path=str(args.document),discardUnsaved=True)
             ids=dict(original=book.current_page()['frames'][0]['frameId'],translation=book.current_page()['frames'][1]['frameId'])
         else:
-            call('document.new',discardUnsaved=True);pairs,fonts=local_material(ROOT,call);ids,_=compose(ROOT,call,pairs,fonts)
+            call('document.new',discardUnsaved=True);ids,_,conversion=compose_layered(ROOT,call)
+            write_json(out/'source-adaptation.json',conversion)
         source_before={fid:n.text() for fid,n in book.frames.items()}
-        original=book.frames[ids['original']]
-        source_fonts={s['fontId'] for s in original.model['styles'] if s['fontId']}
-        for fid in source_fonts: call('paint.bind',fontId=fid,kind='derived',enabled=True)
+        # Never silently simulate three-font artwork with a one-font binding.
+        used={g['fontId'] for g in call('layout.inspect')['glyphs'] if g['frameId']==ids['original']}
+        if used!={recipe['master']}: raise ValueError('THREE_FONT_MASTER_REQUIRED: use a separate explicitly adapted Thimfora 79 review copy')
+        call('paint.bind',fontId=recipe['master'],glowFontId=recipe['layers'][0]['fontId'],interiorFontId=recipe['layers'][1]['fontId'],kind='layered',enabled=True)
+        for char in 'r\u00e1.ly':
+            gid=book.fonts.raw(recipe['master'],200).glyphIndexesForString(char)[0]
+            for layer in ('outline','interior','glow-mask','composite'):
+                proof=call('glyph.proof',font_id=recipe['master'],glyph_id=gid,em=600,dpi=144,background='#FF000000',path=str(out/f'layer-{ord(char)}-{layer}.png'),layer=layer)
+                write_json(out/f'layer-{ord(char)}-{layer}.json',proof)
         call('collision.configure',frame_id=ids['original'],bounds='effect',mode='warn')
-        call('document.title',title='Vayrshemon / English — M4 relief proof')
+        call('document.title',title='Vayrshemon / English — three-font color review')
         call('view.configure',mode='color',zoom=.57,baselines=False,origins=False,bounds=False)
         call('frame.select',frame_id=ids['original'])
         call('document.save',path=str(out/'Vayrshemon-English-M4.vay.json'))
@@ -148,7 +156,7 @@ def main():
         call('publication.export',path=str(out/'standard-black.png'),format='png',mode='color',dpi=144,raster_policy='raster')
         call('history.undo');call('history.undo');call('frame.select',frame_id=ids['original'])
         summary=dict(output=str(out),nativeDocument=str(out/'Vayrshemon-English-M4.vay.json'),apiVersion=api.version,referenceCounts={k:review[k] for k in ('referenceCount','mapped','candidates','unresolved')} if review else None,
-                     sourceTextUnchanged=True,pdfPoints=dimensions,pdfExtractedCharacters=len(extracted),visualAcceptance='pending-user-review',preflightIssues=check['issues'])
+                     sourceTextUnchangedAfterAdaptation=True,sourceAdaptation=conversion,paintBinding='layered',engine=book.fingerprint(),pdfPoints=dimensions,pdfExtractedCharacters=len(extracted),visualAcceptance='pending-user-review',preflightIssues=check['issues'])
         write_json(out/'verification.json',summary);print(json.dumps(summary,indent=2))
     finally:
         write_json(out/'api-transcript.json',transcript);book.finish()

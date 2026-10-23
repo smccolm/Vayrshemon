@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M4 three-font correction 0.5.2 / paint engine 1.0.2 — 2026-10-23
+
+- Correct the color demo to use the actual 79 outline, 81 interior and 80 glow fonts. The user rejected the previous single-font rendering and counter-only patch as the requested construction.
+- Reuse master positions, baselines and scale across layers; preserve additive interior subpaths. Use 80 only for translucent outer glow and 79 for the edge/shadow, with the shadow above the interior.
+- Add registered source-layer glyph proofs and per-glyph alignment diagnostics through the existing API/MCP. Validate layer character mappings and test unequal side bearings, overlapping interior paths, and glow-only geometry.
+- Preserve the archival fixture; make a separately documented two-column color copy with the evidenced clitic encoding adaptation and current three-font typeface. The proof generator no longer silently substitutes single-font relief.
+- Update setup.bat and project standards. No additional runtime dependency; final visual acceptance remains open.
+
 ## M4 counter correction 0.5.1 / paint engine 1.0.1 — 2026-10-23
 
 - Correct the solid blue centers in the user's circled glyphs: derived paint follows original ink and preserves every counter instead of filling all closed contours. Explicit three-layer shading remains available.

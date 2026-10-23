@@ -22,6 +22,7 @@ from PySide6.QtGui import QImage
 from PySide6.QtWidgets import QApplication
 from tools.m0.synthetic import make_font
 from tools.parallel_translation_fixture import compose,local_material
+from tools.layered_translation_fixture import compose_layered
 from vayrshemon.studio_session import StudioSession
 from vayrshemon.studio_api import StudioAPI
 from vayrshemon.typesetting_session import TypesettingSession
@@ -128,7 +129,7 @@ class StudioTests(unittest.TestCase):
                 self.assertEqual(result['paintEngineVersion'],ENGINE_VERSION)
         self.assertEqual(self.book.state['paint']['recipe'],DEFAULT)
 
-    def test_archived_circled_glyphs_preserve_all_source_counters(self):
+    def test_single_font_mode_preserves_historical_ink_without_claiming_layers(self):
         path=ROOT/'Inputs/font files/Test/test seven.ttf'
         if not path.exists(): self.skipTest('Private historical font unavailable')
         self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),'1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad')
@@ -150,6 +151,54 @@ class StudioTests(unittest.TestCase):
                 # counters, without hardcoding guessed language mappings.
                 self.assertLessEqual(np.max(actual[expected==0]),1)
                 self.assertLessEqual(np.abs(actual.astype(float)-expected*255).max(),1)
+
+    def test_three_layers_share_master_origin_and_glow_is_not_solid_ink(self):
+        ids=[]
+        # Deliberately unequal side bearings and extents. Independent centering
+        # would move the interior to the wrong side of the glyph.
+        shapes=[[(40,0,160,700),(400,0,560,700)],[(0,-40,600,740)],[(200,200,300,500),(250,250,320,550)]]
+        for index,rects in enumerate(shapes):
+            path=self.work/f'layer-{index}.ttf';make_font(path)
+            with TTFont(path) as font:
+                pen=TTGlyphPen(None)
+                for left,bottom,right,top in rects:
+                    pen.moveTo((left,bottom));pen.lineTo((right,bottom));pen.lineTo((right,top));pen.lineTo((left,top));pen.closePath()
+                font['glyf']['A']=pen.glyph();font['hmtx'].metrics['A']=(600,min(r[0] for r in rects));font.save(path)
+            ids.append(self.call('fonts.load',path=str(path))['fontId'])
+        self.call('paint.bind',fontId=ids[0],glowFontId=ids[1],interiorFontId=ids[2],kind='layered',enabled=True)
+        self.call('document.format',start=0,end=5,font_id=ids[0])
+        self.call('paint.configure',glowOpacity=0,shadowOpacity=0,edgeWidth=.001)
+        report=self.call('layout.inspect')
+        for glyph in report['glyphs']:
+            registration=glyph['paintRegistration']
+            self.assertEqual(registration['placement'],'master-origin')
+            self.assertEqual([l['fontId'] for l in registration['layers']],[ids[0],ids[2],ids[1]])
+            self.assertEqual([l['sideBearing'] for l in registration['layers']],[40,200,0])
+            self.assertTrue(all(l['origin']==glyph['origin'] for l in registration['layers']))
+        boxes=[]
+        for layer in ('composite','outline','interior','glow-mask'):
+            result=self.call('glyph.proof',font_id=ids[0],glyph_id=2,em=100,dpi=192,background='#00000000',path=self.path(layer+'.png'),layer=layer)
+            boxes.append(result['bounds']);im=Image.open(result['path']).convert('RGBA')
+            x,y,w,h=result['bounds']
+            def alpha(fx,fy): return im.getpixel((int((fx/10-x)*im.width/w),int((-fy/10-y)*im.height/h)))[3]
+            if layer=='composite':
+                self.assertEqual(alpha(350,350),0)  # 80 cannot become a solid matte.
+                self.assertEqual(alpha(100,350),255)
+                self.assertEqual(alpha(270,350),255)
+            if layer=='interior':
+                self.assertEqual(alpha(270,350),255)  # overlapping subpaths ADD.
+                self.assertEqual(alpha(100,350),0)
+        self.assertTrue(all(box==boxes[0] for box in boxes))
+
+    def test_layer_binding_rejects_different_character_mapping(self):
+        path=self.work/'wrong-cmap.ttf';make_font(path)
+        with TTFont(path) as font:
+            for table in font['cmap'].tables:
+                if table.isUnicode(): table.cmap[65]='space'
+            font.save(path)
+        other=self.call('fonts.load',path=str(path))['fontId']
+        result=self.reject('paint.bind',fontId=self.fid,glowFontId=other,interiorFontId=self.fid,kind='layered',enabled=True)
+        self.assertIn('PAINT_LAYER_CMAP_MISMATCH',str(result))
 
     def test_preflight_reports_changed_font_without_rendering_it(self):
         self.bind();path=self.work/'synthetic.ttf';path.write_bytes(path.read_bytes()+b'changed')
@@ -221,6 +270,26 @@ class StudioTests(unittest.TestCase):
         self.call('publication.export',path=self.path('standard.png'),format='png',mode='color',dpi=144,raster_policy='raster')
         self.call('document.save',path=self.path('standard.vay.json'))
         self.assertEqual(before[ids['original']][186],'\u00be')
+
+    def test_color_review_uses_three_real_fonts_on_standard_page(self):
+        if not (ROOT/'Inputs/Versions Best/Translation 1.psd').exists(): self.skipTest('Private corpus unavailable')
+        self.call('document.new',discardUnsaved=True)
+        pairs,_=local_material(ROOT,self.call)
+        historical='\n'.join(''.join(r['text'] for r in p['original']) for p in pairs)
+        ids,text,provenance=compose_layered(ROOT,self.call)
+        self.assertEqual(text['original'],historical.replace('\u00be','\u2019'))
+        self.assertEqual(len(provenance['changes']),historical.count('\u00be'))
+        self.assertEqual(text['translation'],'\n'.join(p['translation'] for p in pairs))
+        self.assertEqual(len(self.book.current_page()['frames']),2)
+        self.assertEqual(self.book.state['paint']['bindings'][0]['kind'],'layered')
+        report=self.call('layout.inspect')
+        for glyph in report['glyphs']:
+            self.assertFalse(glyph['missingGlyph'])
+            if glyph['frameId']==ids['original']:
+                self.assertEqual(glyph['paintBinding'],'layered')
+                self.assertEqual(len(glyph['paintRegistration']['layers']),3)
+                self.assertTrue(all(l['origin']==glyph['origin'] for l in glyph['paintRegistration']['layers']))
+        self.call('publication.export',path=self.path('layered-standard.png'),format='png',mode='color',dpi=144,raster_policy='raster')
 
     def test_studio_window_constructs_and_uses_api(self):
         from vayrshemon.studio_window import StudioWindow

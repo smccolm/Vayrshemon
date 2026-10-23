@@ -112,7 +112,7 @@ Deliver:
 
 ### M4 — Color-font studio and publishing
 
-Implementation: application/API 0.5.0, native format 0.4.0. See [M4](M4.md) for paint controls, explicit COLR v0 fallback, PDF/SVG/PNG proof exports, independent validation and remaining review. The visual gate below is still active; implementation and passing tests do not imply approval.
+Implementation: application 0.5.2, API 0.5.0, native format 0.4.0. The 2026-10-23 correction requires the actual registered 79/81/80 fonts; single-font approximations do not satisfy the visual target. See [M4](M4.md) for paint controls, explicit COLR v0 fallback, PDF/SVG/PNG proof exports, independent validation and remaining review. The visual gate below is still active; implementation and passing tests do not imply approval.
 
 **Visual quality is an outstanding requirement.** The user identified `Inputs/Versions Best/Individual Glyphs` as the quality reference on 2026-10-22. Its 128 JPEG references cover maxima, minima, Unta and punctuation. The current M3 monochrome outlines and registered flat colors do **not** satisfy this target. Approval of the portrait translation layout establishes page structure, not approval of the current glyph appearance.
 
@@ -121,7 +121,7 @@ Start M4 with **reference-quality glyph rendering (VISUAL-01)**, before treating
 1. Bind the reference images to the existing asset hashes and verified glyph identities. Record unresolved or historical font correspondences rather than guessing a mapping. Inspect the full set; the initial visual review sampled `Maxima_1_Jiam.jpg`, `Minima_1_Jiam.jpg`, `Unta_0_Pholim.jpg` and `Punctuation_3_Period.jpg`.
 2. Build a reproducible, editable treatment that reproduces the reference contours and proportions, luminous blue bevels and highlights, dark blue/violet recessed channels, fine dark edges, and controlled soft outer glow. Record any shape mismatch in the underlying TTF separately from a paint/effect mismatch.
 3. Compare reference and rendered glyphs side by side and with aligned overlays at matched scale on the reference black background. Check reading size, enlarged detail, zoom/DPI changes, and light/transparent output separately. Preserve negative spaces, narrow joins and punctuation detail; avoid clipped glow, jagged contours and halos between registered layers.
-4. Apply the treatment to the [standard portrait translation page](FORMATTING.md), preserving its two independent columns, real source text, fonts and paragraph alignment. Use this full-page proof to check readability, effect clearance, line collisions and export fidelity; isolated attractive glyphs alone do not pass.
+4. Apply the actual three-font treatment to the [standard portrait translation page](FORMATTING.md), preserving its two independent columns and attested paired passages. Keep archival imports intact; use an explicitly documented review copy when adopting the 79/81/80 typeface and its encoding, then measure paragraph alignment again. Use this full-page proof to check readability, effect clearance, line collisions and export fidelity; isolated attractive glyphs alone do not pass.
 5. Establish reviewed visual baselines and comparison tolerances, with an explicit record of remaining differences. Completion requires the user's visual acceptance of representative glyphs and the standard page, plus coverage checks across the reference set. Passing geometry tests or successfully building a color font does not establish visual acceptance.
 
 Deliver:

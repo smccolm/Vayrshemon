@@ -26,6 +26,8 @@ The accepted specimen uses 31 pt script with exact 38 pt leading and 18 pt Engli
 
 The approved editable document remains local at `.local/demos/portrait-translation-20261022/Vayrshemon-English-portrait.vay.json`. Originals and generated documents/proofs remain ignored. The public definition contains provenance and layout, not the source passages or fonts.
 
+For Individual Glyphs color review, the user's 2026-10-23 correction requires the actual Thimfora 79/81/80 family. Use the separate [layered review definition](../data/formatting/parallel-translation-layered.json), built by `tools.layered_translation_fixture`. It retains these page/frame dimensions and paired passages, explicitly adapts the old clitic slot using the archived layered example, and records conversion provenance. Its 50 pt master font has different outlines and metrics, so line wrapping and paired spacing are measured anew. This color copy does not replace the unchanged archival fixture or imply visual approval.
+
 ## Repeatable acceptance test
 
 Run `.venv\Scripts\python -m unittest discover -s tests -p test_parallel_translation.py -v`. Normal full-suite discovery, including setup.bat, also runs this test; there are no new dependencies.

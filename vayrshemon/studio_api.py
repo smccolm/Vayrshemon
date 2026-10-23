@@ -16,7 +16,7 @@ METHODS.update({
  'publication.preflight':('Inspect all pages, font identities, overset, effect clipping and extraction limitations.',False,obj(EXPORT_FIELDS)),
  'publication.export':('Export PNG, SVG or multipage PDF; decorative SVG/PDF requires explicit raster policy and DPI.',True,obj(dict(path=STRING,**EXPORT_FIELDS),('path','format','mode','dpi','raster_policy'))),
  'font.build':('Build the explicitly reduced flat COLR v0/CPAL font plus reproducible provenance manifest; retain mono outlines.',True,obj(dict(font_id=FONT,path=STRING,treatment={'const':'flat-colr-v0'}),('font_id','path','treatment'))),
- 'glyph.proof':('Render an isolated painted glyph from its exact font/glyph identity on a chosen background.',True,obj(dict(font_id=FONT,glyph_id={'type':'integer','minimum':0},em={'type':'number','minimum':8,'maximum':1000},dpi={'type':'integer','minimum':72,'maximum':600},background=PAINT['properties']['background'],path=STRING),('font_id','glyph_id','em','dpi','background','path'))),
+ 'glyph.proof':('Render a glyph composite or an individual source layer on a shared canvas; report exact layer registration.',True,obj(dict(font_id=FONT,glyph_id={'type':'integer','minimum':0},em={'type':'number','minimum':8,'maximum':1000},dpi={'type':'integer','minimum':72,'maximum':600},background=PAINT['properties']['background'],path=STRING,layer={'enum':['composite','outline','interior','glow-mask']}),('font_id','glyph_id','em','dpi','background','path'))),
 })
 
 
@@ -49,7 +49,7 @@ class StudioAPI(TypesettingAPI):
             self.session.state['paint'].update(params);self.session.invalidate_composition();return deepcopy(self.session.state['paint'])
         return super().mutate(method,params)
 
-    def proof(self,font_id,glyph_id,em,dpi,background,path):
+    def proof(self,font_id,glyph_id,em,dpi,background,path,layer='composite'):
         import math
         from PySide6.QtCore import QRectF
         from PySide6.QtGui import QImage,QPainter,QColor
@@ -61,6 +61,12 @@ class StudioAPI(TypesettingAPI):
         scale=dpi/96;image=QImage(math.ceil(area.width()*scale),math.ceil(area.height()*scale),QImage.Format.Format_ARGB32_Premultiplied)
         if image.isNull(): raise ValueError('PROOF_ALLOCATION_FAILED')
         image.fill(QColor(background));p=QPainter(image);p.setRenderHint(QPainter.RenderHint.SmoothPixmapTransform)
-        p.drawImage(QRectF(0,0,image.width(),image.height()),tile);p.end()
+        if layer=='composite': p.drawImage(QRectF(0,0,image.width(),image.height()),tile)
+        else:
+            index,color={'outline':(0,'rim'),'interior':(2,'recess'),'glow-mask':(1,'glow')}[layer]
+            p.setRenderHint(QPainter.RenderHint.Antialiasing)
+            p.scale(image.width()/area.width(),image.height()/area.height());p.translate(-area.x(),-area.y())
+            p.fillPath(r.paths(binding,glyph_id,em)[index],QColor(s.state['paint']['recipe'][color]))
+        p.end()
         target=pages.target(s,path);publication.atomic(target,publication.png_bytes(image))
-        return dict(path=str(target),fontId=font_id,glyphId=glyph_id,em=em,dpi=dpi,background=background,bounds=[area.x(),area.y(),area.width(),area.height()],binding=deepcopy(binding),recipeHash=publication.signature(s.state['paint']['recipe']),paintEngineVersion=publication.ENGINE_VERSION)
+        return dict(path=str(target),fontId=font_id,glyphId=glyph_id,em=em,dpi=dpi,background=background,bounds=[area.x(),area.y(),area.width(),area.height()],binding=deepcopy(binding),recipeHash=publication.signature(s.state['paint']['recipe']),paintEngineVersion=publication.ENGINE_VERSION,layer=layer,registration=r.registration(binding,glyph_id,em))

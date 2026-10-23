@@ -3466,6 +3466,14 @@
             },
             "path": {
               "type": "string"
+            },
+            "layer": {
+              "enum": [
+                "composite",
+                "outline",
+                "interior",
+                "glow-mask"
+              ]
             }
           },
           "required": [
@@ -3500,7 +3508,7 @@
         "idempotencyKey"
       ],
       "additionalProperties": false,
-      "description": "Render an isolated painted glyph from its exact font/glyph identity on a chosen background."
+      "description": "Render a glyph composite or an individual source layer on a shared canvas; report exact layer registration."
     }
   ]
 }

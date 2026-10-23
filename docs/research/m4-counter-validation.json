@@ -32,7 +32,8 @@
     "liveCorrectedCountersVisuallyInspected": true,
     "dependencyChanges": false
   },
-  "visualAcceptance": "pending-user-review",
+  "visualAcceptance": "rejected-as-solution-to-three-font-effect",
+  "userCorrection": "2026-10-23: the requested effect requires the perfectly aligned 79/81/80 fonts. The single-font counter patch did not implement that construction.",
   "remaining": [
     "Full Individual Glyphs appearance acceptance remains open.",
     "Historical fonts have no verified interior layer mapping; their negative spaces remain empty.",

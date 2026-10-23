@@ -149,13 +149,19 @@
       "id": "ADR-025",
       "status": "accepted",
       "decision": "M4 separates verified source-layer bindings from derived historical relief and never substitutes a newer font mapping for attested text.",
-      "basis": "The approved translation source uses test seven and transliteration 5. Thimfora 79/80/81 supplies newer artwork geometry. Both remain exact hash-identified fonts with explicit paint bindings. After annotated counter defects, engine 1.0.1 restricts derived shading to attested ink: enclosed whitespace cannot safely identify a decorative channel. Interior fills require explicit layer fonts."
+      "basis": "The archival translation fixture uses test seven and transliteration 5. Preserve it separately. The user's 2026-10-23 correction requires actual 79/81/80 source geometry for color review; neither single-font approximation satisfies that construction. An explicit review copy adopts the current typeface and records the evidenced clitic encoding adaptation. Derived ink-only relief remains a generic API option, not an Individual Glyphs proof."
     },
     {
       "id": "ADR-026",
       "status": "accepted",
       "decision": "Decorative publication requires explicit raster DPI/fallback; COLR v0 compilation is an explicitly reduced flat-color treatment with mono fallback.",
       "basis": "COLR v0 cannot carry the full reference bevel/glow. Export preflight and font manifests state unsupported effects and non-searchable raster/outline proof semantics; native source remains editable."
+    },
+    {
+      "id": "ADR-027",
+      "status": "accepted",
+      "decision": "The three-font treatment reuses the shaped 79 master's origins, baseline and scale for every layer, preserving the original layer bearings and additive 81 subpaths.",
+      "basis": "The Photoshop protocol specifies outline 79 above interior 81 above glow 80. Glow geometry only supplies translucent outer glow; 79 supplies its own edge and shadow above the interior. Common-canvas proofs and per-glyph registration diagnostics expose alignment through API/MCP. Single-font derived bindings are not substituted by the review generator or three-font UI action."
     }
   ]
 }

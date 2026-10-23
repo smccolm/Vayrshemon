@@ -55,6 +55,7 @@ class StudioSession(TypesettingSession):
             for key in ('glowFontId','interiorFontId'):
                 layer=self.fonts.resolve(binding[key])
                 if master.units_per_em!=layer.units_per_em or set(master.glyph_order)!=set(layer.glyph_order): raise ValueError('PAINT_LAYER_GLYPH_MISMATCH')
+                if master.cmap!=layer.cmap: raise ValueError('PAINT_LAYER_CMAP_MISMATCH')
                 if any(master.metrics[name][0]!=layer.metrics[name][0] for name in master.glyph_order): raise ValueError('PAINT_LAYER_ADVANCE_MISMATCH')
 
     def resolve_fonts(self,state,font_paths=None):

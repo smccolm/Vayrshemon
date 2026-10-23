@@ -1,0 +1,20 @@
+{
+  "profileId": "format.parallel-translation.layered-review",
+  "revision": "1.0.0",
+  "status": "review-candidate-not-visually-approved",
+  "baseFormat": "format.parallel-translation",
+  "fonts": {
+    "outline": {"path": "font files/Thimfora_79.ttf", "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"},
+    "interior": {"path": "font files/Thimfora_81_Fragments.ttf", "sha256": "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325"},
+    "glow": {"path": "font files/Thimfora_80_Infill.ttf", "sha256": "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd"}
+  },
+  "scalarMap": {"190": 8217},
+  "mappingScope": "Explicit review copy only; no automatic import conversion or language normalization.",
+  "mappingEvidence": {
+    "path": "Versions Best/Translation 1.psd",
+    "sha256": "3154d32e8d8360c297546e8c30a6d081461a536893a7f1222a9f07b9355be44e",
+    "locator": "Outline text layer uses U+2019 in Thimfora_79; the Translation layer uses U+00BE in transliteration5 for the same clitic in the first word.",
+    "otherSlots": "Retain source scalar and matching glyph name in the new typeface. Historical contours and metrics may differ."
+  },
+  "alignment": "Shape the 79 master once. All three layers reuse its glyph positions, em scale, baseline and page transform; do not center or normalize layer bounds independently."
+}

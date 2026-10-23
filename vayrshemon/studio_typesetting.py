@@ -1,6 +1,5 @@
 """M4 derives painted extents before collision solving and shares M3 placement."""
 from .typesetting import Composition,box,numbers
-from .paint import padding
 
 
 class StudioComposition(Composition):
@@ -13,16 +12,19 @@ class StudioComposition(Composition):
             if not binding: continue
             paths=renderer.paths(binding,glyph['glyphId'],glyph['pixelSize'])
             area=paths[0].boundingRect().united(paths[2].boundingRect())
-            if area.isEmpty(): continue
-            glyph['inkBounds']=numbers(area.translated(*glyph['origin']))
+            if not area.isEmpty(): glyph['inkBounds']=numbers(area.translated(*glyph['origin']))
             glyph['paintBinding']=binding['kind']
-            glyph['_paintPadding']=padding(self.book.state['paint']['recipe'],glyph['pixelSize'])
+            glyph['_paintRegistration']=renderer.registration(binding,glyph['glyphId'],glyph['pixelSize'])
+            support=renderer.bounds(binding,glyph['glyphId'],glyph['pixelSize'])
+            if not support.isEmpty(): glyph['_paintSupport']=numbers(support)
 
     def place(self,gaps):
         glyphs,lines,warnings=super().place(gaps)
         for glyph in glyphs:
-            if '_paintPadding' not in glyph: continue
-            pad=glyph['_paintPadding']; area=box(glyph['inkBounds']).adjusted(-pad,-pad,pad,pad)
+            if '_paintRegistration' in glyph:
+                glyph['paintRegistration']=dict(glyph['_paintRegistration'],layers=[dict(layer,origin=list(glyph['origin']),transform=[1,0,0,1,*glyph['origin']]) for layer in glyph['_paintRegistration']['layers']])
+            if '_paintSupport' not in glyph: continue
+            area=box(glyph['_paintSupport']).translated(*glyph['origin'])
             glyph['effectBounds']=numbers(area.united(box(glyph['effectBounds'])))
         return glyphs,lines,warnings
 

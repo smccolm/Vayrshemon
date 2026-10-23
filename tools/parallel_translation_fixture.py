@@ -53,8 +53,8 @@ def paragraph_starts(report, frame_id):
     return result
 
 
-def compose(root, call, pairs, fonts):
-    spec=definition(root); style=spec['referenceTypography']
+def compose(root, call, pairs, fonts, typography=None):
+    spec=definition(root); style=typography or spec['referenceTypography']
     call('page.configure',**spec['page'])
     text={
         'original':'\n'.join(''.join(r['text'] for r in p['original']) for p in pairs),

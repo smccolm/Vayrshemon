@@ -785,7 +785,7 @@
     },
     {
       "method": "glyph.proof",
-      "description": "Render an isolated painted glyph from its exact font/glyph identity on a chosen background.",
+      "description": "Render a glyph composite or an individual source layer on a shared canvas; report exact layer registration.",
       "mutation": true,
       "transports": [
         "python",

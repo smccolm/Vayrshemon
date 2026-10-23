@@ -12,8 +12,8 @@ class StudioWindow(WorkbenchWindow):
             if label.text()=='TYPESETTING  /  M3': label.setText('GLYPH STUDIO  /  M4')
             if 'M3 does not paint' in label.text(): label.setText('M4 includes actual decorative extents in effect bounds. Extra manual reserves still describe unpainted space. Use effect bounds to check glow clearance.')
         form=self.add_scroll_tab('Paint')
-        self.note(form,'The Individual Glyphs treatment preserves source text and font identity. Changes apply to all bound fonts in this document.')
-        form.addRow(self.button('Apply relief to selected font',self.bind_selected))
+        self.note(form,'Individual Glyphs uses Thimfora 79 (outline), 81 (interior) and 80 (glow) at one shared origin. Choose Thimfora 79 in Text to apply this treatment.')
+        form.addRow(self.button('Apply three-font treatment',self.bind_selected))
         form.addRow(self.button('Disable relief on selected font',lambda:self.bind_selected(False)))
         for key in ('rim','highlight','recess','edge','glow'):
             control=QLineEdit(DEFAULT[key]);form.addRow(key.capitalize(),control);self.paint_controls[key]=control
@@ -74,11 +74,12 @@ class StudioWindow(WorkbenchWindow):
         if not fid:
             self.statusBar().showMessage('Select a loaded TTF in the Text tab first.',10000);return
         old=next((b for b in self.book.state['paint']['bindings'] if b['fontId']==fid),None)
-        if old: return self.invoke('paint.bind',**dict(old,enabled=enabled))
+        if old and (old['kind']=='layered' or not enabled): return self.invoke('paint.bind',**dict(old,enabled=enabled))
         recipe=self.book.fonts.recipe
         if recipe and fid==recipe['master']:
             binding=dict(fontId=fid,kind='layered',glowFontId=recipe['layers'][0]['fontId'],interiorFontId=recipe['layers'][1]['fontId'],enabled=enabled)
-        else: binding=dict(fontId=fid,kind='derived',enabled=enabled)
+        else:
+            self.statusBar().showMessage('Select Thimfora 79 in Text. Single-font relief cannot recreate the three-font artwork.',15000);return
         self.invoke('paint.bind',**binding)
 
     def apply_paint(self):

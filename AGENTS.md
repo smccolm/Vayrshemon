@@ -4,6 +4,8 @@ Use [the approved parallel translation standard](docs/FORMATTING.md) for bilingu
 
 Use attested source/translation pairs and the original hash-identified script fonts. Synthetic test strings are structural test data, never invented Vayrshemon. Keep original Inputs, extracted text, proofs, and local documents ignored.
 
+For Individual Glyphs color proofs, use the actual Thimfora 79 outline, 81 interior and 80 glow fonts per `Inputs/font files/How to Make High Quality Color Text with Photoshop.txt`. Shape the 79 master once and paint all three at its exact origins, baseline and em scale; never center layers independently. ADD the 81 subpaths before filling. A derived single-font treatment does not satisfy this requirement. Preserve archival imports; an explicitly documented review copy may adopt the three-font family and its recorded encoding adaptation. The user's 2026-10-23 correction rejects the single-font M4 demo and counter-only patch as the requested effect.
+
 Visual-quality target: `Inputs/Versions Best/Individual Glyphs`. The user has explicitly said M3's current rendering is below expectations. The two-column layout approval does not approve glyph appearance. Follow M4's VISUAL-01 roadmap criteria for reference-matched contours, bevels, shading, fine edges and glow, and demonstrate the result on the standard translation page.
 
 For changes affecting authoring, layout, fonts, persistence, or export, include `test_parallel_translation.py` in validation. It is included in the normal unittest discovery run used by setup.bat. Read the standard's limitations before claiming automatic translation alignment or a clean collision report.

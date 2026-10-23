@@ -16,7 +16,7 @@ from PySide6.QtGui import QImage, QPainter, QColor, QPainterPath
 
 VERSION='1.0.0'
 # Implementation changes are distinct from the persisted recipe/state format.
-ENGINE_VERSION='1.0.1'
+ENGINE_VERSION='1.0.2'
 DEFAULT=dict(recipeId='paint.individual-glyphs',version=VERSION,revision=1,
     rim='#0674da',highlight='#ffffff',recess='#0d11a2',edge='#020918',glow='#beffff',
     bevel=.030,depth=1.64,edgeWidth=.001,glowRadius=.017,glowOpacity=.56,
@@ -102,6 +102,22 @@ class Renderer:
         pad=padding(self.book.state['paint']['recipe'],em)
         return area.adjusted(-pad,-pad,pad,pad)
 
+    def registration(self,binding,gid,em,origin=(0.,0.)):
+        """Inspect layer coordinates without independently centering any layer."""
+        master=self.book.fonts.resolve(binding['fontId']);name=master.glyph_order[gid]
+        paths=self.paths(binding,gid,em)
+        fields=(('outline','fontId',0),('interior','interiorFontId',2),('glow','glowFontId',1))
+        layers=[]
+        for role,key,index in fields:
+            if key not in binding: continue
+            face=self.book.fonts.resolve(binding[key]);bounds=paths[index].boundingRect()
+            layers.append(dict(role=role,fontId=face.font_id,glyphId=face.glyph_order.index(name),glyphName=name,
+                em=em,unitsPerEm=face.units_per_em,advance=face.metrics[name][0],sideBearing=face.metrics[name][1],
+                origin=list(origin),transform=[1,0,0,1,*origin],
+                localBounds=[bounds.x(),bounds.y(),bounds.width(),bounds.height()],
+                fillRule='add-subpaths' if role=='interior' else 'source-font'))
+        return dict(placement='master-origin',paintOrder=['glow','interior','outline-shadow','outline-edge','outline'],layers=layers)
+
     def tile(self,binding,gid,em,scale):
         recipe=self.book.state['paint']['recipe']
         # At least 4 samples per logical pixel at reading size. Export uses its
@@ -127,15 +143,8 @@ class Renderer:
             result[:,:,3]*=(1-alpha); result[:,:,3]+=alpha
 
         def blur(alpha,radius): return gaussian_filter(alpha,max(.01,radius*empx),truncate=3,mode='constant')
-        glow=blur(silhouette,recipe['glowRadius'])*recipe['glowOpacity']
+        glow=blur(silhouette,recipe['glowRadius'])*(1-silhouette)*recipe['glowOpacity']
         over(rgb(recipe['glow']),glow)
-        shadow=shift(blur(silhouette,recipe['shadowRadius']),
-                     (recipe['shadowY']*empx,recipe['shadowX']*empx),order=1,mode='constant',prefilter=False)
-        over(np.zeros(3),shadow*recipe['shadowOpacity'])
-        edge=recipe['edgeWidth']*empx
-        if edge:
-            distance=distance_transform_edt(silhouette<.5)
-            over(rgb(recipe['edge']),np.maximum(silhouette,np.clip(edge+.5-distance,0,1)))
 
         def shade(alpha,base,recess=False):
             if not alpha.any(): return
@@ -162,7 +171,18 @@ class Renderer:
             if recess: lit*=.78
             gradient=np.linspace(1+recipe['gradient'],1-recipe['gradient'],shape[0])[:,None,None]
             over(np.clip(lit*gradient,0,1),alpha)
-        shade(interior,recipe['recess'],True);shade(rim,recipe['rim'])
+        # Photoshop's three geometrically distinct layers share one origin.
+        # The 80 font supplies glow only, never an opaque fill/stroke. The 79
+        # outline casts its shadow onto the 81 interior beneath it.
+        shade(interior,recipe['recess'],True)
+        shadow=shift(blur(rim,recipe['shadowRadius']),
+                     (recipe['shadowY']*empx,recipe['shadowX']*empx),order=1,mode='constant',prefilter=False)
+        over(np.zeros(3),shadow*recipe['shadowOpacity'])
+        edge=recipe['edgeWidth']*empx
+        if edge:
+            distance=distance_transform_edt(rim<.5)
+            over(rgb(recipe['edge']),np.maximum(rim,np.clip(edge+.5-distance,0,1)))
+        shade(rim,recipe['rim'])
         # Store straight RGBA; Qt handles premultiplication during composition.
         alpha=result[:,:,3:4]; color=np.divide(result[:,:,:3],alpha,out=np.zeros_like(result[:,:,:3]),where=alpha>0)
         rgba=np.clip(np.concatenate([color,alpha],axis=2)*255+.5,0,255).astype(np.uint8)
