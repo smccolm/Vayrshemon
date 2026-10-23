@@ -12,7 +12,7 @@ import uuid
 if os.name != 'nt':
     os.environ.setdefault('QT_QPA_PLATFORM', 'offscreen')
 
-from PySide6.QtCore import Qt, QPoint, QCoreApplication, QMimeData
+from PySide6.QtCore import Qt, QPoint, QCoreApplication, QMimeData, QEvent
 from PySide6.QtGui import QInputMethodEvent, QTextCursor, QFont
 from PySide6.QtTest import QTest
 from PySide6.QtWidgets import QApplication
@@ -36,10 +36,17 @@ class LabTests(unittest.TestCase):
         self.work.mkdir(parents=True)
 
     def tearDown(self):
-        if self.session.editor:
+        if self.session.window:
+            self.session.window.timer.stop()
+            self.session.window.hide()
+            self.session.window.deleteLater()
+        elif self.session.editor:
             self.session.editor.hide()
             self.session.editor.deleteLater()
         self.session.deleteLater()
+        # These tests do not run app.exec(); processEvents alone does not
+        # dispatch deferred deletes. Release widgets before QApplication exits.
+        QCoreApplication.sendPostedEvents(None,QEvent.Type.DeferredDelete)
         APP.processEvents()
 
     def simple(self, text):
@@ -194,7 +201,15 @@ class LabTests(unittest.TestCase):
         if original:
             for format_name in original.formats():
                 clipboard_copy.setData(format_name, original.data(format_name))
-        self.addCleanup(lambda: QApplication.clipboard().setMimeData(clipboard_copy))
+        def restore_clipboard():
+            if APP.platformName() == 'offscreen' and not clipboard_copy.formats():
+                # Restoring an empty Python QMimeData to the offscreen backend
+                # reproduces an exit-time access violation in Qt 6.8.3. Clear
+                # the test-owned clipboard while the application is alive.
+                QApplication.clipboard().clear()
+            else:
+                QApplication.clipboard().setMimeData(clipboard_copy)
+        self.addCleanup(restore_clipboard)
         self.simple('')
         editor=Editor(self.session)
         editor.show()
@@ -361,7 +376,6 @@ class LabTests(unittest.TestCase):
     def test_controls_reflect_api_changes_without_extra_mutations(self):
         from vayrshemon.desktop import LabWindow
         window=LabWindow(self.session,self.api)
-        self.addCleanup(window.deleteLater)
         self.mutate('page.configure',width=400.125,height=500.25)
         self.mutate('view.configure',zoom=1.25,baselines=True)
         self.mutate('features.configure',kern=False)
