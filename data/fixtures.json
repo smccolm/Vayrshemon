@@ -138,6 +138,46 @@
       "notes": "M0 verifies source bytes/mapping preservation; it does not establish shaping-position goldens."
     },
     {
+      "fixtureId": "fixture.parallel-translation",
+      "kind": "mixed-language",
+      "availability": "local-archive",
+      "assets": [
+        {
+          "assetId": "asset:38541f4f3093b50148def31d95021940108cc692460fdfbaae305a1ef45895ae",
+          "path": "Versions Best/Polished Examples.docx",
+          "sha256": "74cb6248e3edbdc0be1af412d5f1840ac1de1fc54451c9187c18ef4be60fefb5"
+        },
+        {
+          "assetId": "asset:e5d45448bca9bf9fd0c67cf1bab2accee16b167a7e507e731a0b7c0ad47f9d2a",
+          "path": "font files/Test/test seven.ttf",
+          "sha256": "1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad"
+        },
+        {
+          "assetId": "asset:da30608ce71961ba51bcd02dab4f0935576ecfb8990709c710867152c40d7d19",
+          "path": "font files/Transliteration/transliteration 5.ttf",
+          "sha256": "e873883787e06ad11021eaa3a814dddc1ae3bcc3dafd34ee0ab61c04cdbab02d"
+        }
+      ],
+      "fontIds": [
+        "font:1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad:0",
+        "font:e873883787e06ad11021eaa3a814dddc1ae3bcc3dafd34ee0ab61c04cdbab02d:0"
+      ],
+      "requirements": [
+        "PAGE-01",
+        "TEXT-01",
+        "LAYOUT-01",
+        "DATA-01",
+        "AUTO-01"
+      ],
+      "assertions": [
+        "Portrait 612 x 792 pt; exactly two independent 240 x 702 pt columns, Vayrshemon left and English right",
+        "No title, column headings or footer; paired paragraph starts align without flowing one language into the other",
+        "Preserve attested pairs and exact font runs through independent edits, undo, save/reopen and export"
+      ],
+      "documentPath": null,
+      "notes": "Approved standard format.parallel-translation 1.0.0: data/formatting/parallel-translation.json and docs/FORMATTING.md. Run tests/test_parallel_translation.py; Inputs and generated proofs remain local. Known ink overhang is retained in diagnostics."
+    },
+    {
       "fixtureId": "fixture.color",
       "kind": "color",
       "availability": "local-archive",

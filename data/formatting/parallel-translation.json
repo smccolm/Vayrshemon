@@ -1,0 +1,41 @@
+{
+  "standardId": "format.parallel-translation",
+  "revision": "1.0.0",
+  "approvedOn": "2026-10-22",
+  "units": "pt",
+  "page": {
+    "width": 612,
+    "height": 792,
+    "margins": {"top": 42, "right": 48, "bottom": 48, "left": 48}
+  },
+  "columns": [
+    {"role": "original", "name": "Vayrshemon — original text", "language": "language.vayrshemon", "x": 48, "y": 42, "width": 240, "height": 702},
+    {"role": "translation", "name": "English — translation", "language": "language.en", "x": 324, "y": 42, "width": 240, "height": 702}
+  ],
+  "gutter": 36,
+  "titleFrame": false,
+  "columnHeadings": false,
+  "footerFrame": false,
+  "linkedFlowBetweenLanguages": false,
+  "paragraphAlignment": "paired-start-baselines",
+  "referenceTypography": {
+    "original": {"size": 31, "lineHeight": 38, "color": "#164E78FF"},
+    "translation": {"size": 18, "lineHeight": 30, "color": "#172A38FF"},
+    "before": 1,
+    "after": 24,
+    "baselineGrid": false,
+    "collisionMode": "warn",
+    "previewMode": "mono"
+  },
+  "localFixture": {
+    "fixtureId": "fixture.parallel-translation",
+    "source": {"path": "Versions Best/Polished Examples.docx", "sha256": "74cb6248e3edbdc0be1af412d5f1840ac1de1fc54451c9187c18ef4be60fefb5"},
+    "fonts": [
+      {"name": "test seven", "path": "font files/Test/test seven.ttf", "sha256": "1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad"},
+      {"name": "transliteration 5", "path": "font files/Transliteration/transliteration 5.ttf", "sha256": "e873883787e06ad11021eaa3a814dddc1ae3bcc3dafd34ee0ab61c04cdbab02d"}
+    ],
+    "paragraphPairs": [{"original": 0, "translation": 4}, {"original": 17, "translation": 21}],
+    "paragraphIndexBase": 0,
+    "preserveOriginalRunFonts": true
+  }
+}

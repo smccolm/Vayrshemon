@@ -2,6 +2,13 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## Parallel translation standard 1.0.0 — 2026-10-22
+
+- Record the approved portrait page with two full-height independent columns, Vayrshemon left and English translation right, without title, column headings, or footer.
+- Add a versioned formatting definition, persistent project guidance, and a hash-bound local fixture using the actual paired passages and original font runs.
+- Add public and local acceptance tests for independent editing, undo, paragraph alignment, save/reopen and PNG export through the existing API. Standard unittest discovery and setup.bat include them without new dependencies.
+- Retain the known natural script ink overhang in diagnostics; paragraph alignment is explicit spacing, not automatic semantic linking.
+
 ## M3 workbench 0.4.0 / native format 0.3.0 / specification 0.5.0 — 2026-10-22
 
 - Add derived typesetting, baseline grids, leading distribution and Unicode break tailoring with versioned language profiles.

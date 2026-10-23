@@ -7,6 +7,7 @@ A Windows desktop editor for custom typography and the long-term development of 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 
 - [Delivery plan and acceptance criteria](docs/PLAN.md)
+- [Standard portrait translation layout and regression test](docs/FORMATTING.md)
 - [M0 results, commands, and remaining uncertainties](docs/M0.md)
 - [M1 launch, API/MCP, measurements, and limitations](docs/M1.md)
 - [M2 authoring, recovery, API/MCP and validation](docs/M2.md)

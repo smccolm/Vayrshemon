@@ -8,6 +8,8 @@ Build a Windows desktop editor that can become the authoring environment for an 
 
 Confirmed requirements: local files; custom page widths and heights; monochrome TTFs and color fonts derived from them; English-only, Vayrshemon-only, and mixed-language pages; extensive control over spacing and collisions; versioning; programmatic control through APIs and MCP; accessible troubleshooting output.
 
+The approved default bilingual format and recurring acceptance case is [the portrait parallel translation page](FORMATTING.md): exactly two full-height independent columns, Vayrshemon left and English translation right, without title, column headings, or footer. Use it for future bilingual demos and milestone regression testing alongside the existing stress cases.
+
 Working spelling is **Vayrshemon**, matching the repository and archive. Language, script, and font names will be separate metadata, so display names can change without changing persistent IDs.
 
 Architecture proposals below are engineering choices to validate, not additional user decisions required before work can proceed. Technical details and source references are in [ARCHITECTURE.md](ARCHITECTURE.md); archive evidence is in [INPUTS.md](INPUTS.md).
