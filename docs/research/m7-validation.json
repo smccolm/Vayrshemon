@@ -1,0 +1,118 @@
+{
+  "milestone": "M7",
+  "application": "0.8.0",
+  "api": "0.8.0",
+  "nativeFormat": "0.5.0",
+  "forgeFormat": "1.0.0",
+  "operations": 115,
+  "date": "2026-10-23",
+  "setup": {
+    "exitCode": 0,
+    "tests": 150,
+    "seconds": 285.472,
+    "log": ".local/logs/setup-20261023-141131-493-21308.log",
+    "sha256": "9fc7c8c96df801f93d960a91dcb3b8cb4a40fa5b43ebe02962097f5bf0b1cce5",
+    "offlineWheelhouse": true,
+    "newExternalDependencies": 0
+  },
+  "finalForgeValidation": {
+    "tests": 9,
+    "seconds": 21.459,
+    "passed": true,
+    "log": ".local/m7-research/final-forge-suite.log",
+    "sha256": "ff7e46a30aea01edcac97c8abeb9e0cc94cce03fa5a7a22d83705d7a0b24e9c0",
+    "covers": [
+      "transaction rollback",
+      "stale generation and project identity",
+      "immutable versions and branches",
+      "bundle restore and corruption",
+      "symbol identity frequencies",
+      "document independence",
+      "Qt wiki autosave and historical read-only view",
+      "dictionary autosave/reselection",
+      "real local API and initialized MCP discovery",
+      "novel approved-format run"
+    ]
+  },
+  "approvedBaseline": {
+    "baselineId": "visual.workbench.2026-10-23",
+    "rgbaIdentical": true,
+    "geometryIdentical": true,
+    "protectedStateVerified": true,
+    "collisions": 12,
+    "overflow": 0
+  },
+  "demo": {
+    "project": ".local/demos/m7-forge-v0.8.0/Vayrshemon.vayforge",
+    "dictionaryEntries": 751,
+    "wikiPages": 12,
+    "archiveVersion": "320a4be22875f582df11d47a8a6cac28e70feb12933358d9da52b585cf05a11e",
+    "firstProposal": "3bfbd48decb7fefe5f9da80e699378b578110ddc5723eea1dab5fc4bcc64d071",
+    "editedVersion": "518c4849844879e659a2f25829a839c2407d6ddee6de3607ef7af39fda829fc4",
+    "openDocumentUnchanged": true,
+    "runId": "72c080aeb40744bc8a0673b04b884c3d",
+    "status": "Needs review",
+    "checks": [
+      {
+        "name": "Approved page geometry, fonts, type sizes, leading and paint",
+        "status": "Pass",
+        "sha256": "f90a4271bd3a55660b05e410c5031f18087332de36a5d477152dd54cf5db03f6"
+      },
+      {
+        "name": "Typed language references and immutable version hash",
+        "status": "Pass"
+      },
+      {
+        "name": "Frame overflow",
+        "status": "Pass",
+        "count": 0
+      },
+      {
+        "name": "Missing glyphs or script font fallback",
+        "status": "Pass",
+        "count": 0
+      },
+      {
+        "name": "Conservative glyph collision bounds",
+        "status": "Needs review",
+        "count": 16
+      },
+      {
+        "name": "Novel translation and proposed grammar",
+        "status": "Needs review",
+        "details": "Author-composed from versioned rules; no claim of automatic linguistic validation."
+      },
+      {
+        "name": "General prose grammar parser",
+        "status": "Unsupported",
+        "details": "M7 stores rules and derivations. A general parser is future work."
+      }
+    ],
+    "templateSha256": "ce020579f9c3792bb7639788a830e23d4d22b98cd63b153a3bbb2a96d1f4bc52",
+    "proofSha256": "feb9ee983e49dae15710e0a0ca0263b8bcd47fed5d6dd90cb4a5c21a6259f9e5",
+    "documentSha256": "f9588c45c50b3ae5a449b7f59e2712905dbf99de0cba4e62daa89b711b2dd5db",
+    "linguisticStatus": "Proposed, awaiting author review; no general grammar parser",
+    "liveScreens": [
+      "forge-versions.png",
+      "final-dictionary.png",
+      "final-wiki.png",
+      "forge-tests.png",
+      "final-workbench.png"
+    ]
+  },
+  "coverage": {
+    "substantiveDOCX": 31,
+    "legacyDOC": 3,
+    "technicalTXT": 6,
+    "XPS": 1,
+    "dictionaryPDF": 10,
+    "canonicalRunningTextLetters": 152,
+    "visualGrammarCharts": 4,
+    "limitations": "Legacy native/raster material not fully decoded; dictionary front matter and sampled pages reviewed, not exhaustive entries."
+  },
+  "privacy": {
+    "inputsTracked": false,
+    "sourceTextFontsAndLanguageProjectIgnored": true
+  },
+  "priorReleaseVerification": "M6.1 0.7.1 bundle still passes current verifier"
+}

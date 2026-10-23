@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M7 Language Forge 0.8.0 — 2026-10-23
+
+- Add a full Forge tab with independent transactional projects, branches, hashed versions, autosaved dictionary/wiki drafts, historical views, typed diffs and verified portable history bundles.
+- Expose 115 API/MCP operations with project identity/generation guards and document-independent language mutations; retain all earlier interface modes.
+- Create a private source-derived proposal with 751 dictionary records, 12 wiki pages, a subsequent wiki/dictionary revision, separate letter-frequency profiles and a novel bilingual test.
+- Generate separate test books from the approved presentation; record language/test/template/render identities, overflow, missing glyphs, collisions and explicit linguistic review limits. Preserve original pixel/geometry regression and timestamped proof dialogs.
+- Update setup.bat, dependency chain, CI, contracts and tests; no new external package or native document format.
+
 ## M6.1 controls and approved baseline 0.7.1 — 2026-10-23
 
 - Add a permanently reachable collapse/expand rail, pin control, temporary opening and scoped keyboard shortcuts. Persist visibility, pin, width and selected tab outside documents; retain zoom, text, geometry, rendering and undo state.

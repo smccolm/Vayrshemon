@@ -1,5 +1,5 @@
 @echo off
-rem M6.1 0.7.1 dependencies, collapsible/pinned panel, visual-baseline and regression checks live in tools\setup.ps1.
+rem M7 0.8.0 dependencies, Language Forge, approved visual baseline and regression checks live in tools\setup.ps1.
 setlocal
 set "SETUP_NO_PAUSE="
 if "%~1"=="" goto run

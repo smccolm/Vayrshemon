@@ -61,6 +61,10 @@ def verify(bundle):
         for name,data in files.items():
             if manifest['files'][name]!=dict(sha256=digest(data),bytes=len(data)): raise ValueError('RELEASE_HASH_MISMATCH: '+name)
         required={'setup.bat','tools/setup.ps1','requirements-m6.txt','vayrshemon/__main__.py'}
+        # Retain installation of prior M6 bundles for rollback. M7 adds an
+        # explicit requirement chain rather than replacing historical files.
+        if tuple(int(v) for v in manifest['application'].split('.')[:2]) >= (0,8):
+            required.add('requirements-m7.txt')
         if not required<=files.keys(): raise ValueError('INCOMPLETE_RELEASE')
         return manifest,files
 

@@ -1,4 +1,4 @@
-name: Evidence, typography, and M6.1 workspace
+name: Evidence, typography, and M7 Language Forge
 
 on:
   push:
@@ -29,6 +29,7 @@ jobs:
             requirements-m4.txt
             requirements-m5.txt
             requirements-m6.txt
+            requirements-m7.txt
       - name: Windows setup and public checks
         if: runner.os == 'Windows'
         shell: cmd
@@ -38,7 +39,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libegl1 libopengl0 fonts-dejavu-core
-          python -m pip install -r requirements-m6.txt
+          python -m pip install -r requirements-m7.txt
       - name: Validate schemas and evidence references without Inputs
         if: runner.os != 'Windows'
         run: python -m tools.m0 check

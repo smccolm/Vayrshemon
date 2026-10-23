@@ -21,6 +21,8 @@ def main():
     editor.add_argument('--m3',action='store_true',help='Open the frozen M3 typesetting interface.')
     editor.add_argument('--m4',action='store_true',help='Open the M4 glyph studio without language data.')
     editor.add_argument('--m5',action='store_true',help='Open the frozen M5 language workbench.')
+    editor.add_argument('--m6',action='store_true',help='Open the frozen M6.1 workbench.')
+    editor.add_argument('--forge-project',type=Path,help='Open an independent M7 Forge project beside the document.')
     editor.add_argument('--page-focus',action='store_true',help='Open with a larger clean page preview; View restores editing and diagnostics.')
     for name in ('inspect', 'render', 'benchmark'):
         p = sub.add_parser(name)
@@ -41,6 +43,7 @@ def main():
     mcp.add_argument('--studio',action='store_true',help='Use M4 paint/publication in headless mode.')
     mcp.add_argument('--language',action='store_true',help='Use the M5 language workbench in headless mode.')
     mcp.add_argument('--reliability',action='store_true',help='Use M6 reliability and background proofs in headless mode.')
+    mcp.add_argument('--forge',action='store_true',help='Use M7 Language Forge in headless mode.')
     call = sub.add_parser('call')
     call.add_argument('method')
     arguments = call.add_mutually_exclusive_group()
@@ -68,10 +71,11 @@ def main():
         from .studio_api import METHODS as STUDIO_METHODS
         from .language_api import METHODS as LANGUAGE_METHODS
         from .reliability_api import METHODS as RELIABILITY_METHODS
+        from .forge_api import METHODS as FORGE_METHODS
         reliability_methods=RELIABILITY_METHODS
         if info['apiVersion']=='0.7.0':
             reliability_methods={k:v for k,v in RELIABILITY_METHODS.items() if not k.startswith('ui.sidebar')}
-        serve(args.root, descriptor=args.descriptor,methods=reliability_methods if info['apiVersion'] in ('0.7.0','0.7.1') else LANGUAGE_METHODS if info['apiVersion']=='0.6.0' else STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
+        serve(args.root, descriptor=args.descriptor,methods=FORGE_METHODS if info['apiVersion']=='0.8.0' else reliability_methods if info['apiVersion'] in ('0.7.0','0.7.1') else LANGUAGE_METHODS if info['apiVersion']=='0.6.0' else STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
         return 0
     # Windows' offscreen plugin uses a dummy font backend. Hidden native Qt
     # supplies the same fonts and geometry as the window; Linux uses offscreen.
@@ -85,7 +89,8 @@ def main():
     from tools.m0.common import write_json
     app = QApplication.instance() or QApplication([])
     app.setApplicationName('Vayrshemon')
-    use_reliability=(args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5))) or (args.command=='mcp' and args.reliability)
+    use_forge=(args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6))) or (args.command=='mcp' and args.forge)
+    use_reliability=use_forge or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5))) or (args.command=='mcp' and args.reliability)
     use_language=use_reliability or (args.command=='editor' and not args.m2 and not args.m3 and not args.m4) or (args.command=='mcp' and args.language)
     use_studio=use_language or (args.command=='editor' and not args.m2 and not args.m3) or (args.command=='mcp' and args.studio)
     use_typesetter=use_studio or (args.command=='editor' and not args.m2) or (args.command=='mcp' and args.typesetter)
@@ -111,8 +116,9 @@ def main():
         from .language_api import LanguageAPI
         from .reliability_session import ReliabilitySession
         from .reliability_api import ReliabilityAPI
-        session=(ReliabilitySession if use_reliability else LanguageSession if use_language else StudioSession if use_studio else TypesettingSession if use_typesetter else AuthoringSession)(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
-        api=(ReliabilityAPI if use_reliability else LanguageAPI if use_language else StudioAPI if use_studio else TypesettingAPI if use_typesetter else EditorAPI)(session)
+        from .forge_api import ForgeSession,ForgeAPI
+        session=(ForgeSession if use_forge else ReliabilitySession if use_reliability else LanguageSession if use_language else StudioSession if use_studio else TypesettingSession if use_typesetter else AuthoringSession)(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
+        api=(ForgeAPI if use_forge else ReliabilityAPI if use_reliability else LanguageAPI if use_language else StudioAPI if use_studio else TypesettingAPI if use_typesetter else EditorAPI)(session)
     else:
         session = Session(args.root, source_fonts=not args.no_source_fonts)
         api = API(session)
@@ -127,7 +133,12 @@ def main():
         from .studio_window import StudioWindow
         from .language_window import LanguageWindow
         from .reliability_window import ReliabilityWindow
-        window=(ReliabilityWindow if use_reliability else LanguageWindow if use_language else StudioWindow if use_studio else WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
+        from .forge_window import ForgeWindow
+        if args.forge_project:
+            if not use_forge: parser.error('--forge-project requires the M7 editor')
+            from .forge import ForgeProject
+            session.forge=ForgeProject(args.forge_project)
+        window=(ForgeWindow if use_forge else ReliabilityWindow if use_reliability else LanguageWindow if use_language else StudioWindow if use_studio else WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
         server=LocalServer(api)
         app.aboutToQuit.connect(server.close)
         window.show()
