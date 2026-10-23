@@ -4,6 +4,8 @@ Approved by the user on 2026-10-22. Standard `format.parallel-translation`, revi
 
 The page contains **exactly two independent, editable text columns**: Vayrshemon on the left and the corresponding English translation on the right. Use the page height for those columns. There is no title frame, column-heading frame, or footer. Do not link the Vayrshemon story into the English column as a continuation.
 
+**This approval covers layout, not final rendering quality.** The user explicitly identified the current glyph appearance as below expectations. `Inputs/Versions Best/Individual Glyphs` is the visual target for the [M4 VISUAL-01 requirement](PLAN.md#m4--color-font-studio-and-publishing). Future color/effect work must meet that reference quality on this same two-column page; the present monochrome specimen is a structural regression baseline only.
+
 | Measurement | Points |
 | --- | ---: |
 | Portrait page width × height | 612 × 792 |

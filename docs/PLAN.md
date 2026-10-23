@@ -25,6 +25,7 @@ Architecture proposals below are engineering choices to validate, not additional
 | FONT-01 | Load local monochrome TTFs without installing them globally | Two files with the same internal family name remain distinguishable; missing or changed files produce an explicit diagnostic |
 | FONT-02 | Editable color treatments from the original TTF layers | Edit one logical text run; every color layer stays registered and follows the same layout |
 | FONT-03 | Build portable color fonts | A reproducible build produces a validated COLR/CPAL font and a compatibility report; unsupported effects are identified |
+| VISUAL-01 | Meet the user's finished-glyph visual standard | Compare against `Inputs/Versions Best/Individual Glyphs`; verify contours, blue bevel/highlight detail, recessed shading, fine edges and glow at reading and detail sizes, in the editor and exports |
 | LAYOUT-01 | Detailed paragraph and line controls | Explicit font size, tracking, word spacing, kerning, baseline shift, line-height modes, paragraph spacing, alignment, and break policies |
 | LAYOUT-02 | Explainable collision handling | Inspect offending geometry; choose warn, allow, or constrained repair; intentional overlaps remain possible |
 | DATA-01 | Durable, portable documents | Save/reopen semantic equality; recovery after interrupted writes; migrations preserve a prior readable copy |
@@ -111,6 +112,16 @@ Deliver:
 
 ### M4 — Color-font studio and publishing
 
+**Visual quality is an outstanding requirement.** The user identified `Inputs/Versions Best/Individual Glyphs` as the quality reference on 2026-10-22. Its 128 JPEG references cover maxima, minima, Unta and punctuation. The current M3 monochrome outlines and registered flat colors do **not** satisfy this target. Approval of the portrait translation layout establishes page structure, not approval of the current glyph appearance.
+
+Start M4 with **reference-quality glyph rendering (VISUAL-01)**, before treating color-font compilation as complete:
+
+1. Bind the reference images to the existing asset hashes and verified glyph identities. Record unresolved or historical font correspondences rather than guessing a mapping. Inspect the full set; the initial visual review sampled `Maxima_1_Jiam.jpg`, `Minima_1_Jiam.jpg`, `Unta_0_Pholim.jpg` and `Punctuation_3_Period.jpg`.
+2. Build a reproducible, editable treatment that reproduces the reference contours and proportions, luminous blue bevels and highlights, dark blue/violet recessed channels, fine dark edges, and controlled soft outer glow. Record any shape mismatch in the underlying TTF separately from a paint/effect mismatch.
+3. Compare reference and rendered glyphs side by side and with aligned overlays at matched scale on the reference black background. Check reading size, enlarged detail, zoom/DPI changes, and light/transparent output separately. Preserve negative spaces, narrow joins and punctuation detail; avoid clipped glow, jagged contours and halos between registered layers.
+4. Apply the treatment to the [standard portrait translation page](FORMATTING.md), preserving its two independent columns, real source text, fonts and paragraph alignment. Use this full-page proof to check readability, effect clearance, line collisions and export fidelity; isolated attractive glyphs alone do not pass.
+5. Establish reviewed visual baselines and comparison tolerances, with an explicit record of remaining differences. Completion requires the user's visual acceptance of representative glyphs and the standard page, plus coverage checks across the reference set. Passing geometry tests or successfully building a color font does not establish visual acceptance.
+
 Deliver:
 
 - Versioned paint recipes for fills, gradients, strokes, shadows, glow, and bevel-style treatments, with accurate effect extents.
@@ -119,7 +130,7 @@ Deliver:
 - Page PNG, SVG, and PDF export; deliberate raster fallback at specified resolution; multi-page print proof and color/background checks.
 - Export preflight for page dimensions, missing fonts, overset text, unsupported effects, font embedding, and text-extraction behavior.
 
-**Exit gate:** compare exported pages against the editor, check physical size, validate the generated font in an independent renderer, and test copying/searching exported text. Decorative output must never be presented as semantically faithful searchable text when it is only an image or outline.
+**Exit gate:** satisfy VISUAL-01 against the Individual Glyphs references, compare exported pages against the editor, check physical size, validate the generated font in an independent renderer, and test copying/searching exported text. If a target font format cannot reproduce a treatment, report that limitation and provide an explicit supported export path; do not silently reduce the visual target to flat fills. Decorative output must never be presented as semantically faithful searchable text when it is only an image or outline.
 
 ### M5 — Language workbench
 
@@ -153,6 +164,7 @@ Browser support, real-time collaboration, plugins, advanced vertical typography,
 | Editing | Combining marks, ligatures, surrogate pairs, mixed direction, IME, undo grouping | Correct semantic ranges, caret affinity, retained composition and metadata |
 | Layout | Tall/wide/tiny pages, dense lines, overhangs, negative spacing, long unbreakable content | Stable overflow and collision diagnostics; bounded memory and solver work |
 | Color | Three-layer text, gradients, alpha, glow, DPI and zoom changes | Same origins and advances; no clipped effects or raster seams |
+| Visual fidelity | Individual Glyphs reference set and the standard portrait translation page | Matched-scale reference comparisons, reviewed bevel/shading/glow detail, readable page text, and explicit user visual acceptance; current M3 rendering remains below target |
 | Persistence | Crash during write, truncated journal, missing font, external edit, old schema | Recoverable last durable revision and a clear conflict/migration report |
 | Automation | Stale revision, retried mutation, cancellation, concurrent manual edit | No double-application or lost edits; structured errors and trace IDs |
 | Publishing | Physical units, backgrounds, raster effects, copy/search, large dimensions | Visual proof plus semantic and format-limit reports |
@@ -180,7 +192,7 @@ For each requested revision: capture a reproducing document or operation sequenc
 ## 7. Immediate implementation queue
 
 1. Complete the remaining physical OS/IME/accessibility checks listed in M1 on the user's chosen input setup; retain the passing native event and provider regressions.
-2. Build M4 color-font compilation and publishing on the M3 positioned glyph and reserved-effect bounds contracts.
+2. Start M4 with VISUAL-01: match the Individual Glyphs artwork and prove it on the standard portrait translation page, then validate color-font compilation and publishing against that accepted appearance.
 3. Improve long-paragraph rendering and inspector scheduling using M1's measured 100,000-character case.
 4. Keep setup.bat, published API/MCP schemas, regression tests, and milestone evidence updated with every dependency or behavior change.
 

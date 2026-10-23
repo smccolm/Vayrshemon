@@ -92,6 +92,18 @@
       "remaining": "Color-font compiler and independent rendering proof."
     },
     {
+      "id": "VISUAL-01",
+      "milestone": "M4",
+      "status": "planned",
+      "evidence": [
+        "docs/PLAN.md",
+        "docs/INPUTS.md",
+        "docs/FORMATTING.md",
+        "data/assets.json"
+      ],
+      "remaining": "Current M3 rendering is below the user's expected quality. Match Inputs/Versions Best/Individual Glyphs: verified contours/proportions, blue bevels/highlights, recessed shading, fine edges and soft glow. Establish matched-scale reference comparisons and reviewed baselines, then prove readability, effect clearance and export fidelity on the standard two-column portrait translation page. User visual acceptance is required; geometry passes and successful font compilation alone do not close this requirement."
+    },
+    {
       "id": "LAYOUT-01",
       "milestone": "M2/M3",
       "status": "foundation",

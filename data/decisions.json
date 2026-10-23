@@ -138,6 +138,12 @@
       "status": "accepted",
       "decision": "M3 uses pinned Qt Unicode boundaries with versioned language tailoring and manual discretionary breaks.",
       "basis": "No invented hyphenation dictionary or source normalization. Native shaping joins, grapheme columns and fallback ordering have dedicated regressions."
+    },
+    {
+      "id": "ADR-024",
+      "status": "accepted",
+      "decision": "Use Inputs/Versions Best/Individual Glyphs as the visual-quality reference and an explicit M4 acceptance gate; retain the approved portrait translation layout for page-level proof.",
+      "basis": "User direction on 2026-10-22: current rendering is below expectations. Layout approval does not approve glyph appearance. VISUAL-01 tracks the unfinished rendering work and requires reference comparisons and visual acceptance."
     }
   ]
 }

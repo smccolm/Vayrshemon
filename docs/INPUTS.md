@@ -48,6 +48,8 @@ This supports a master-shaped, shared-origin composition. It does **not** prove 
 
 The ordinary TTF outlines are the source material. A portable color font and an editable editor paint recipe are new derived artifacts that still need to be built and verified.
 
+The user explicitly selected `Versions Best/Individual Glyphs/` as the visual-quality reference on 2026-10-22. The folder contains 128 JPEG images covering maxima, minima, Unta and punctuation. The initial focused review of Jiam maxima/minima, Pholim and the period shows bright blue bevels/highlights, recessed blue/violet shading, fine dark edges and a soft outer glow on black. This is the target for [M4 VISUAL-01](PLAN.md), not an appearance already achieved by M3's outlines or flat-color layers. The full reference set still needs per-glyph visual comparison and verified mapping to the font revision used for each specimen.
+
 ## 4. Font identity and history
 
 Font generations include named early revisions, numbered Thimfora revisions through 79, then the 80/81 layers, and multiple transliteration versions. Sources include `.vfb` and `.bak` as well as exported `.ttf` files.

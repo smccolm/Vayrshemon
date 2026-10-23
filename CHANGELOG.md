@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M4 visual-quality target clarified — 2026-10-22
+
+- Adopt `Inputs/Versions Best/Individual Glyphs` as the user's finished-glyph visual target; explicitly record that M3 rendering is below expectations.
+- Add VISUAL-01 as required M4 work: reference-matched contours, blue bevels/highlights, recessed shading, fine edges and glow, with matched-scale comparisons and full-page proof on the standard portrait translation layout.
+- Distinguish layout approval from visual acceptance; require reviewed glyph/page appearance and report export-format limitations without silently lowering the target.
+
 ## Parallel translation standard 1.0.0 — 2026-10-22
 
 - Record the approved portrait page with two full-height independent columns, Vayrshemon left and English translation right, without title, column headings, or footer.
