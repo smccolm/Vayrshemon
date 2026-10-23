@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.4.0**, 2026-10-22. Status: M0, M1 and M2 implemented with automated acceptance evidence. M3 typesetting/collision workbench is next. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
+Revision **0.5.0**, 2026-10-22. Status: M0 through M3 implemented with automated acceptance evidence. M4 color-font studio and publishing is next. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -94,6 +94,8 @@ Deliver:
 
 ### M3 — Typesetting and collision workbench
 
+**Implemented:** derived native shaping, explicit language break profiles, baseline grids, equal-width finite frame flow, paragraph keeps and widow/orphan minima, conservative bounds with protected joins, bounded vertical repair, explicit optical pairs, dense specimens and 57 shared operations. Save/reopen, subprocess recovery and UI/headless proof retain source and geometry. See [M3 scope, evidence and limits](M3.md); automatic page creation, variable-width flow, exact contour collision and dictionary hyphenation remain future extensions.
+
 Deliver:
 
 - Exact, minimum, and proportional line-height modes; leading distribution; baseline grids; paragraph before/after spacing; keep-with-next and widow/orphan control.
@@ -176,7 +178,7 @@ For each requested revision: capture a reproducing document or operation sequenc
 ## 7. Immediate implementation queue
 
 1. Complete the remaining physical OS/IME/accessibility checks listed in M1 on the user's chosen input setup; retain the passing native event and provider regressions.
-2. Build M2's full document workflow, multi-page frames, recovery/history, and richer clipboard metadata on the shared session contracts.
+2. Build M4 color-font compilation and publishing on the M3 positioned glyph and reserved-effect bounds contracts.
 3. Improve long-paragraph rendering and inspector scheduling using M1's measured 100,000-character case.
 4. Keep setup.bat, published API/MCP schemas, regression tests, and milestone evidence updated with every dependency or behavior change.
 

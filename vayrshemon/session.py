@@ -301,9 +301,10 @@ class Session(QObject):
         blocks, seen = [], set()
         block = self.doc.begin()
         while block.isValid():
-            identity = block.blockFormat().property(BLOCK) or f'block.qt.{block.position()}'
+            identity = getattr(block.userData(),'identity',None) or block.blockFormat().property(BLOCK) or f'block.qt.{block.position()}'
             if identity in seen:
                 identity = f'block.qt.{block.position()}'
+                while identity in seen: identity += '.copy'
             seen.add(identity)
             runs = []
             iterator = block.begin()
@@ -314,6 +315,7 @@ class Session(QObject):
                     run_id = fmt.property(RUN) or f'run.qt.{f.position()}'
                     if run_id in seen:
                         run_id = f'run.qt.{f.position()}'
+                        while run_id in seen: run_id += '.copy'
                     seen.add(run_id)
                     run = dict(runId=run_id, languageId=fmt.property(LANGUAGE) or 'language.en',
                                styleId=fmt.property(STYLE) or result['styles'][0]['styleId'],
@@ -327,7 +329,10 @@ class Session(QObject):
                 iterator += 1
             if not runs:
                 fmt = block.charFormat()
-                runs = [dict(runId=f'run.empty.{block.position()}', languageId=fmt.property(LANGUAGE) or 'language.en',
+                run_id=f'run.empty.{block.position()}'
+                while run_id in seen: run_id += '.copy'
+                seen.add(run_id)
+                runs = [dict(runId=run_id, languageId=fmt.property(LANGUAGE) or 'language.en',
                              styleId=fmt.property(STYLE) or result['styles'][0]['styleId'], type='unicode', text='', normalization='none')]
                 if fmt.property(KIND)=='legacy':
                     runs[0].pop('text')

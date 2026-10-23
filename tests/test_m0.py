@@ -176,7 +176,7 @@ class ContractTests(unittest.TestCase):
             root = Path(folder)
             for relative in ("data", "schemas", "tests", "docs", "tools", "vayrshemon"):
                 shutil.copytree(ROOT / relative, root / relative, ignore=shutil.ignore_patterns('__pycache__'))
-            for relative in ("requirements-m0.txt", "requirements-m1.txt", "requirements-m2.txt"):
+            for relative in ("requirements-m0.txt", "requirements-m1.txt", "requirements-m2.txt", "requirements-m3.txt"):
                 shutil.copy2(ROOT / relative, root / relative)
             self.assertFalse((root / "Inputs").exists())
             result = check_repository(root)

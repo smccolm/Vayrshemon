@@ -2,6 +2,17 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M3 workbench 0.4.0 / native format 0.3.0 / specification 0.5.0 — 2026-10-22
+
+- Add derived typesetting, baseline grids, leading distribution and Unicode break tailoring with versioned language profiles.
+- Add equal-width finite frame flow, keep rules and widow/orphan minima without moving or duplicating source text.
+- Inspect advance/ink/reserved-effect bounds and protected joins; repair vertical clearance within explicit frame, expansion and iteration constraints.
+- Add isolated kerning comparisons, explicit optical pair rules, dense specimens and before/after baseline diagnostics.
+- Preserve Arabic joins across equal-format ranges, use grapheme counts for line columns, canonicalize fallback run order, and prevent duplicate run IDs after replacement.
+- Add twelve controls to the shared API/MCP interface (57 total), desktop workbench tabs, M3 schemas, M1/M2 migration and recovery/geometry regressions.
+- Update setup.bat and CI for M3; keep the same pinned runtime and preserve the older editor/lab entry points.
+- Record real source-font MCP, UI/headless, collision, export and forced-exit recovery evidence. Effects, color-font compilation and searchable publishing remain M4.
+
 ## M2 editor 0.3.0 / native format 0.2.0 / specification 0.4.0 — 2026-10-22
 
 - Add multi-page Windows authoring with independent frames, asymmetric margins, rulers, pan/zoom and explicit overflow.

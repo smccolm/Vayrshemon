@@ -120,6 +120,24 @@
       "status": "accepted",
       "decision": "M2 vector proof exports clipped glyph outlines with physical page dimensions.",
       "basis": "Same positioned native glyph geometry as preview. Portable proof is deliberately non-searchable; PDF and portable color-font production remain M4."
+    },
+    {
+      "id": "ADR-021",
+      "status": "accepted",
+      "decision": "M3 derives page layout from native source stories without rewriting text or character formatting.",
+      "basis": "Equal-width finite frame chains, stable paragraph identities and cached QTextLayout composition preserve M2 input, undo and persistence. Native format 0.3.0 migrates earlier files to a new path."
+    },
+    {
+      "id": "ADR-022",
+      "status": "accepted",
+      "decision": "M3 automatic repair adds vertical leading under explicit bounds and leaves joins, marks and font sizes intact.",
+      "basis": "Conservative layer-union bounds, deterministic budgets and unresolved reasons are inspectable. Optical pair adjustments are explicit; legacy independence is declared. Reserved stroke/effect geometry is not a painted effect."
+    },
+    {
+      "id": "ADR-023",
+      "status": "accepted",
+      "decision": "M3 uses pinned Qt Unicode boundaries with versioned language tailoring and manual discretionary breaks.",
+      "basis": "No invented hyphenation dictionary or source normalization. Native shaping joins, grapheme columns and fallback ordering have dedicated regressions."
     }
   ]
 }

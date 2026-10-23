@@ -1,0 +1,233 @@
+{
+  "application": "0.4.0",
+  "engine": {
+    "application": "0.4.0",
+    "qt": "6.8.3",
+    "pyside": "6.8.3",
+    "python": "3.12.7",
+    "os": "Windows-11-10.0.26200-SP0",
+    "platformPlugin": "windows",
+    "layout": "native source documents + derived QTextLayout stories / M3",
+    "logicalDpi": 96,
+    "units": "logical-pixels-at-96-dpi",
+    "designMetrics": true,
+    "defaultFont": "Segoe UI",
+    "features": {
+      "kern": true,
+      "liga": true
+    },
+    "fonts": [
+      {
+        "fontId": "font:2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd:0",
+        "sha256": "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd"
+      },
+      {
+        "fontId": "font:182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325:0",
+        "sha256": "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325"
+      },
+      {
+        "fontId": "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0",
+        "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+      }
+    ],
+    "formatVersion": "0.3.0",
+    "typesettingVersion": "0.1.0",
+    "collisionGeometry": "conservative layer-union bounds"
+  },
+  "sourceFontHashes": [
+    "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd",
+    "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325",
+    "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+  ],
+  "checks": {
+    "verticalClearance": true,
+    "sourceUnchangedByRepair": true,
+    "explicitOpticalProbe": true,
+    "baselineGrid": true,
+    "liveMcpAuthoring": true,
+    "semanticRoundtrip": true,
+    "geometryRoundtrip": true,
+    "uiHeadlessGeometry": true,
+    "monoColorDiffer": true,
+    "outlineSvg": true,
+    "forcedExitMixedRecovery": true
+  },
+  "collisionBefore": 13,
+  "collisionAfter": 0,
+  "solver": [
+    {
+      "code": "LEADING_ADDED",
+      "sourceFrameId": "frame.2df25f913528445c938a1b0fa9c928e6",
+      "lineIndex": 1,
+      "points": 7.275390750000007,
+      "iteration": 1
+    }
+  ],
+  "pages": 2,
+  "toolCount": 57,
+  "glyphCount": 127,
+  "geometryHash": "38ca2847c5b8f9908e64db51a980706a9fe66cecde7bd503590ce0fb898515e4",
+  "recoveredGeometryHash": "23a540ea2d1b4af7d37bb4a105a121bf2657657ef5f38b9f71729772b00cdbd2",
+  "pngDimensions": [
+    641,
+    481
+  ],
+  "timings": [
+    {
+      "method": "fonts.load",
+      "elapsedMs": 61.344
+    },
+    {
+      "method": "fonts.load",
+      "elapsedMs": 17.47
+    },
+    {
+      "method": "fonts.load",
+      "elapsedMs": 18.025
+    },
+    {
+      "method": "recipe.configure",
+      "elapsedMs": 15.009
+    },
+    {
+      "method": "document.title",
+      "elapsedMs": 14.327
+    },
+    {
+      "method": "page.configure",
+      "elapsedMs": 22.162
+    },
+    {
+      "method": "document.edit",
+      "elapsedMs": 24.208
+    },
+    {
+      "method": "document.format",
+      "elapsedMs": 19.092
+    },
+    {
+      "method": "document.format",
+      "elapsedMs": 18.483
+    },
+    {
+      "method": "document.format",
+      "elapsedMs": 26.059
+    },
+    {
+      "method": "paragraph.format",
+      "elapsedMs": 17.438
+    },
+    {
+      "method": "palette.apply",
+      "elapsedMs": 14.015
+    },
+    {
+      "method": "page.add",
+      "elapsedMs": 30.039
+    },
+    {
+      "method": "document.edit",
+      "elapsedMs": 19.802
+    },
+    {
+      "method": "document.format",
+      "elapsedMs": 23.515
+    },
+    {
+      "method": "frame.select",
+      "elapsedMs": 11.432
+    },
+    {
+      "method": "paragraph.format",
+      "elapsedMs": 23.046
+    },
+    {
+      "method": "typesetting.configure",
+      "elapsedMs": 20.813
+    },
+    {
+      "method": "render.png",
+      "elapsedMs": 67.261
+    },
+    {
+      "method": "collision.inspect",
+      "elapsedMs": 7.951
+    },
+    {
+      "method": "collision.configure",
+      "elapsedMs": 21.143
+    },
+    {
+      "method": "collision.inspect",
+      "elapsedMs": 53.117
+    },
+    {
+      "method": "optical.set",
+      "elapsedMs": 21.639
+    },
+    {
+      "method": "collision.inspect",
+      "elapsedMs": 53.001
+    },
+    {
+      "method": "pairs.inspect",
+      "elapsedMs": 13.847
+    },
+    {
+      "method": "breaks.inspect",
+      "elapsedMs": 9.421
+    },
+    {
+      "method": "typesetting.configure",
+      "elapsedMs": 22.02
+    },
+    {
+      "method": "collision.inspect",
+      "elapsedMs": 53.072
+    },
+    {
+      "method": "view.configure",
+      "elapsedMs": 22.393
+    },
+    {
+      "method": "render.png",
+      "elapsedMs": 64.641
+    },
+    {
+      "method": "view.configure",
+      "elapsedMs": 21.994
+    },
+    {
+      "method": "render.png",
+      "elapsedMs": 63.939
+    },
+    {
+      "method": "render.svg",
+      "elapsedMs": 28.871
+    },
+    {
+      "method": "document.save",
+      "elapsedMs": 42.068
+    },
+    {
+      "method": "layout.inspect",
+      "elapsedMs": 61.38
+    },
+    {
+      "method": "document.edit",
+      "elapsedMs": 82.373
+    },
+    {
+      "method": "document.open",
+      "elapsedMs": 101.461
+    },
+    {
+      "method": "layout.inspect",
+      "elapsedMs": 15.467
+    },
+    {
+      "method": "recovery.restore",
+      "elapsedMs": 176.517
+    }
+  ]
+}

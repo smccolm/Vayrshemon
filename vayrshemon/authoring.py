@@ -46,6 +46,10 @@ def blank_content(document_id,width,height,text=''):
 
 class AuthoringSession(QObject):
     changed = Signal()
+    state_schema=STATE
+    document_schema=EDITOR_DOCUMENT
+    file_version='0.2.0'
+    application_version='0.3.0'
 
     def __init__(self,root,*,source_fonts=True,recovery=True):
         super().__init__()
@@ -113,7 +117,7 @@ class AuthoringSession(QObject):
 
     def fingerprint(self):
         result=self.active.fingerprint()
-        result.update(application='0.3.0',formatVersion='0.2.0',layout='one QTextDocument/QTextLayout per independent frame')
+        result.update(application=self.application_version,formatVersion=self.file_version,layout='one QTextDocument/QTextLayout per independent frame')
         return result
 
     def new_state(self,title='Untitled',width=612,height=792):
@@ -172,7 +176,7 @@ class AuthoringSession(QObject):
 
     def validate(self,state):
         if len(json_text(state).encode('utf-8'))>8*1024*1024: raise ValueError('DOCUMENT_STATE_LIMIT: 8 MiB')
-        Draft202012Validator(STATE).validate(state)
+        Draft202012Validator(self.state_schema).validate(state)
         ids=set(); frame_ids=set()
         total=0
         count=0
@@ -390,14 +394,14 @@ class AuthoringSession(QObject):
 
     def save(self,path):
         path=self.output_path(path)
-        if self.migrated_from and path==Path(self.migrated_from): raise ValueError('MIGRATION_REQUIRES_NEW_PATH: retain the original M1 file')
+        if self.migrated_from and path==Path(self.migrated_from): raise ValueError('MIGRATION_REQUIRES_NEW_PATH: retain the original file')
         if path.exists():
             if path!=self.saved_path: raise ValueError('SAVE_AS_TARGET_EXISTS')
             if hashlib.sha256(path.read_bytes()).hexdigest()!=self.saved_hash: raise ValueError('DOCUMENT_CHANGED_ON_DISK')
         state=self.capture(); self.validate(state)
         self.resolve_fonts(state)
-        payload=dict(format='vayrshemon.document',formatVersion='0.2.0',state=state,history=self.history[-256:],engine=self.fingerprint())
-        Draft202012Validator(EDITOR_DOCUMENT).validate(payload)
+        payload=dict(format='vayrshemon.document',formatVersion=self.file_version,state=state,history=self.history[-256:],engine=self.fingerprint())
+        Draft202012Validator(self.document_schema).validate(payload)
         if len(json_text(payload).encode('utf-8'))>16*1024*1024: raise ValueError('DOCUMENT_TOO_LARGE')
         if path.exists():
             prior=load_json(path)

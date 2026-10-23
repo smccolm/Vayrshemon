@@ -23,9 +23,11 @@
         "schemas/document.schema.json",
         "vayrshemon/authoring.py",
         "vayrshemon/editor_window.py",
-        "tests/test_m2.py"
+        "tests/test_m2.py",
+        "tests/test_m3.py",
+        "docs/M3.md"
       ],
-      "remaining": "Independent frames, margins, overflow and clipping implemented. Automatic frame flow, pagination and bleed controls remain later layout/publishing work."
+      "remaining": "Equal-width finite frame flow, paragraph keeps and explicit overset are implemented in M3. Variable-width chains, automatic page creation and bleed remain future work."
     },
     {
       "id": "TEXT-01",
@@ -97,18 +99,26 @@
         "schemas/document.schema.json",
         "data/fixtures.json",
         "vayrshemon/frame.py",
-        "tests/test_m2.py"
+        "tests/test_m2.py",
+        "tests/test_m3.py",
+        "docs/M3.md",
+        "vayrshemon/typesetting.py",
+        "docs/research/m3-validation.json"
       ],
-      "remaining": "Native shaping, wrapping, leading, paragraph spacing, alignment, left tabs, tracking and baseline controls implemented. Automatic pagination/collision policies remain M3."
+      "remaining": "M3 grids, leading distribution, paragraph rules and versioned Unicode tailoring are implemented. Dictionary hyphenation and incremental large-document reflow remain future work."
     },
     {
       "id": "LAYOUT-02",
       "milestone": "M3",
-      "status": "planned",
+      "status": "foundation",
       "evidence": [
-        "tests/fixtures/documents/spacing.json"
+        "tests/fixtures/documents/spacing.json",
+        "tests/test_m3.py",
+        "docs/M3.md",
+        "vayrshemon/typesetting.py",
+        "docs/research/m3-validation.json"
       ],
-      "remaining": "Collision geometry and bounded repairs."
+      "remaining": "M3 conservative ink/reserved-effect bounds, protected joins, bounded vertical repair and optical pairs are implemented. Exact contours, automatic horizontal repair and painted effects remain future work."
     },
     {
       "id": "DATA-01",
@@ -122,9 +132,11 @@
         "tests/test_m1.py",
         "vayrshemon/authoring.py",
         "schemas/editor-document.schema.json",
-        "tests/test_m2.py"
+        "tests/test_m2.py",
+        "tests/test_m3.py",
+        "docs/M3.md"
       ],
-      "remaining": "M2 atomic files/history, forced-exit recovery, M1 migration and exact missing-font resolution implemented. Portable font bundles and full interchange remain later work."
+      "remaining": "M3 settings participate in atomic saves, undo and forced-exit recovery. M1/M2 files migrate to a new path; portable bundles and interchange remain later work."
     },
     {
       "id": "VERSION-01",
@@ -137,9 +149,11 @@
         "requirements-m1.txt",
         "docs/research/m1-validation.json",
         "requirements-m2.txt",
-        "docs/research/m2-validation.json"
+        "docs/research/m2-validation.json",
+        "tests/test_m3.py",
+        "docs/M3.md"
       ],
-      "remaining": "M2 native/API versions, history and recovery implemented. Independent backups/installer rollback remain M6."
+      "remaining": "M3 API/native/policy/profile versions and reproducible proofs are recorded. Independent backups and installer rollback remain M6."
     },
     {
       "id": "AUTO-01",
@@ -155,9 +169,11 @@
         "vayrshemon/mcp.py",
         "data/editor-capabilities.json",
         "data/editor-mcp-tools.json",
-        "tools/verify_m2.py"
+        "tools/verify_m2.py",
+        "tests/test_m3.py",
+        "docs/M3.md"
       ],
-      "remaining": "45 M2 operations share desktop, CLI and MCP implementations. Extend alongside later layout/language features."
+      "remaining": "57 M3 operations share desktop, CLI and MCP implementations. Extend alongside later publishing/language features."
     },
     {
       "id": "DEBUG-01",
@@ -169,9 +185,11 @@
         "vayrshemon/diagnostics.py",
         "vayrshemon/benchmark.py",
         "tools/verify_m2.py",
-        "docs/M2.md"
+        "docs/M2.md",
+        "tests/test_m3.py",
+        "docs/M3.md"
       ],
-      "remaining": "M2 page/frame diagnostics, durable-revision reporting and local source-font MCP transcripts implemented. Long-document performance work remains M6."
+      "remaining": "M3 before/after geometry, source-mapped collisions, solver decisions, limits and preview errors are exposed with correlated logs. Long-document optimization remains M6."
     },
     {
       "id": "EXPORT-01",
@@ -257,6 +275,28 @@
     {
       "id": "M2-EXPORT",
       "check": "PNG physical size and clipped pure-outline SVG render independently; diagnostics expose overflow."
+    }
+  ],
+  "m3Gates": [
+    {
+      "id": "M3-PRESERVATION",
+      "check": "Repair changes derived leading only; source and font sizes remain unchanged, including marks, joins and legacy identities."
+    },
+    {
+      "id": "M3-CONSTRAINTS",
+      "check": "Repair meets conservative clearance or returns stable limits/constraints; finite reflow and source-mapped diagnostics."
+    },
+    {
+      "id": "M3-FLOW",
+      "check": "Equal-width frame chains preserve a single source and expose overflow, keeps and widow/orphan decisions."
+    },
+    {
+      "id": "M3-ROUNDTRIP",
+      "check": "Native settings and geometry survive save/reopen, headless replay and forced-exit recovery."
+    },
+    {
+      "id": "M3-AUTOMATION",
+      "check": "All 57 tools are discoverable through live MCP; setup and public regressions remain current."
     }
   ]
 }

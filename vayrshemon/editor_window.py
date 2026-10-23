@@ -114,7 +114,13 @@ class PageCanvas(QAbstractScrollArea):
         zoom=self.book.view['zoom']; dx=self.RULER-self.horizontalScrollBar().value(); dy=self.RULER-self.verticalScrollBar().value()
         p.save(); p.translate(dx,dy); p.scale(zoom,zoom)
         clip=QRectF(-dx/zoom,-dy/zoom,self.viewport().width()/zoom,self.viewport().height()/zoom)
-        pages.paint(self.book,p,clip=clip,overlays=self.book.view,guides=True)
+        try:
+            pages.paint(self.book,p,clip=clip,overlays=self.book.view,guides=True)
+        except Exception as error:
+            self.book.log.exception('preview',error)
+            p.restore(); p.setPen(QColor('#aa263a'))
+            p.drawText(self.viewport().rect().adjusted(30,40,-30,-20),Qt.TextFlag.TextWordWrap,'Preview unavailable: '+str(error)+'\nSource text remains editable. Adjust or disable typesetting to continue.')
+            p.end(); return
         p.restore()
         p.fillRect(0,0,self.viewport().width(),self.RULER,QColor('#eef2f5'))
         p.fillRect(0,0,self.RULER,self.viewport().height(),QColor('#eef2f5'))

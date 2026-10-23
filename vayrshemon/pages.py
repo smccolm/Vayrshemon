@@ -24,6 +24,8 @@ def page_rect(page): return QRectF(0,0,int(page['width'])/1_000_000*SCALE,int(pa
 
 def inspect(book,*,page_id=None,max_glyphs=5000):
     page=selected_page(book,page_id)
+    if hasattr(book,'composition') and any(c['enabled'] for c in book.state['typesetting']['frames'].values()):
+        return book.composition().report(page['pageId'],max_glyphs)
     records=[]; diagnostics=[]; remaining=max_glyphs
     for frame in page['frames']:
         native=book.frames[frame['frameId']]
@@ -73,6 +75,8 @@ def outline_paint(native,painter,mode,clip):
 
 def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=False,outlines=False):
     page=selected_page(book,page_id); boundary=page_rect(page)
+    if hasattr(book,'composition') and any(c['enabled'] for c in book.state['typesetting']['frames'].values()):
+        return book.composition(mode).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
     mode=mode or book.view['mode']; overlays=overlays or {}
     painter.save()
     painter.setClipRect(boundary if clip is None else boundary.intersected(clip))
@@ -138,7 +142,7 @@ def export_svg(book,path,*,page_id=None,mode='color'):
     data=QByteArray(); buffer=QBuffer(data); buffer.open(QIODevice.OpenModeFlag.WriteOnly)
     generator=QSvgGenerator(); generator.setOutputDevice(buffer); generator.setResolution(96)
     generator.setSize(QSize(math.ceil(boundary.width()),math.ceil(boundary.height()))); generator.setViewBox(boundary)
-    generator.setTitle(book.state['title']); generator.setDescription('Vayrshemon M2 outline proof. Text semantics remain in the source document.')
+    generator.setTitle(book.state['title']); generator.setDescription('Vayrshemon outline proof. Text semantics remain in the source document.')
     painter=QPainter(generator)
     try: paint(book,painter,page_id=page['pageId'],mode=mode,outlines=True)
     finally: painter.end(); buffer.close()
@@ -156,6 +160,8 @@ def export_svg(book,path,*,page_id=None,mode='color'):
 def hit_test(book,x,y,page_id=None):
     page=selected_page(book,page_id)
     if not all(math.isfinite(v) for v in (x,y)): raise ValueError('INVALID_POINT')
+    if hasattr(book,'composition') and any(c['enabled'] for c in book.state['typesetting']['frames'].values()):
+        return book.composition().hit_test(page['pageId'],x,y)
     for frame in reversed(page['frames']):
         area=rect(frame)
         if area.contains(QPointF(x,y)):
