@@ -180,6 +180,24 @@
       "status": "accepted",
       "decision": "Corpus analysis and number readings retain uncertainty and exact representations.",
       "basis": "Token offsets are Unicode scalars; native range links are UTF-16 with text hashes and explicit adaptations. Stale anchors are reported, not guessed. Base-12 values use exact rationals and versioned conventions; Unta positional speech remains unverified."
+    },
+    {
+      "id": "ADR-031",
+      "status": "accepted",
+      "decision": "M6 keeps native 0.5.0; navigation tools and pan offsets are ephemeral desktop state.",
+      "basis": "Tool switching must not dirty language documents or consume undo. Zoom retains existing persisted behavior. Shape caches remain owner-thread Qt objects, bounded and invalidated by native/content/settings identity."
+    },
+    {
+      "id": "ADR-032",
+      "status": "accepted",
+      "decision": "Proof workers use immutable snapshots in isolated processes; publish only completed output to an unused destination.",
+      "basis": "Qt text objects never cross threads. One cancellable worker per editor reports phase, revision, staleness and full logs. Cancellation never overwrites or publishes a partial proof."
+    },
+    {
+      "id": "ADR-033",
+      "status": "accepted",
+      "decision": "Saved-document backups include exact declared fonts and restore to a new directory; application updates use verified versioned source installations.",
+      "basis": "Git alone cannot restore private language files and source fonts. Default backup storage stays in the project; external destinations require an explicit choice. All revisions are retained. Release activation follows setup checks, with rollback and no document conversion."
     }
   ]
 }

@@ -1,5 +1,5 @@
 @echo off
-rem M5 0.6.0 dependencies, language/number/revision/proof/translation checks live in tools\setup.ps1.
+rem M6 0.7.0 dependencies, reliability/navigation/recovery/proof/translation checks live in tools\setup.ps1.
 setlocal
 set "SETUP_NO_PAUSE="
 if "%~1"=="" goto run

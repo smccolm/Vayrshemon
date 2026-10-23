@@ -68,9 +68,21 @@ def independent(text,fmt,rule=None):
 
 
 class Composition:
-    def __init__(self,book,mode=None):
+    def __init__(self,book,mode=None,page_id=None):
         self.book=book; self.mode=mode or book.view['mode']; self.spec=book.state['typesetting']
         self.frames={f['frameId']:(p,f) for p in book.state['pages'] for f in p['frames']}
+        if page_id is not None:
+            # Include full linked stories and their neighbouring frames: page
+            # collisions may affect pagination, which may reach another page.
+            included={page_id}
+            while True:
+                before=set(included)
+                for flow in self.spec['flows']:
+                    chain=[flow['source'],*flow['targets']]
+                    touched={self.frames[fid][0]['pageId'] for fid in chain}
+                    if included & touched: included.update(touched)
+                if included==before: break
+            self.frames={fid:pair for fid,pair in self.frames.items() if pair[0]['pageId'] in included}
         self.profiles={p['languageId']:p for p in self.spec['profiles']}
         self.stories={}; self.layouts=[]; self.warnings=[]; self.optical=[]; self.glyph_count=0
         self.base=[]; self.final=[]; self.lines=[]; self.base_lines=[]; self.solver=[]
@@ -84,7 +96,9 @@ class Composition:
             if enabled and len(native.text())>MAX_SCALARS: raise ValueError('TYPESETTING_SOURCE_LIMIT: 30,000 scalars per story; disable typesetting for native editing')
             story=dict(source=fid,native=native,config=config if enabled else None,chain=chain,paragraphs=[],glyphs=[],lines=[])
             self.stories[fid]=story
-            self.shape(story,enabled)
+            cache=getattr(book,'story_cache',None)
+            if cache is None: self.shape(story,enabled)
+            else: cache.shape(self,story,enabled)
         self.base,self.base_lines,self.base_warnings=self.place({})
         self.base_collisions,self.base_complete=self.collisions(self.base)
         self.final,self.lines=[dict(g) for g in self.base],deepcopy(self.base_lines)
@@ -306,6 +320,7 @@ class Composition:
         return list(groups.values())
 
     def collisions(self,glyphs):
+        if not any(story['config'] for story in self.stories.values()): return [],True
         found=[]; comparisons=0; clusters=self.clusters(glyphs)
         for page_id in dict.fromkeys(c['pageId'] for c in clusters):
             active=[]
@@ -425,6 +440,8 @@ class Composition:
             frame=self.frames[glyph['frameId']][1]; area=frame_rect(frame)
             glyph_clip=visible.intersected(area) if frame['overflow']=='clip' else visible
             if glyph['_clip'] is not None: glyph_clip=glyph_clip.intersected(glyph['_clip'])
+            visible_origin=bool(overlays and overlays.get('origins') and glyph_clip.contains(QPointF(*glyph['origin'])))
+            if not box(glyph['effectBounds']).intersects(glyph_clip) and not visible_origin: continue
             painter.save(); painter.setClipRect(glyph_clip)
             try:
                 painted=False

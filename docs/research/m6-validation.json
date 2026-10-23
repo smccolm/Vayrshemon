@@ -1,0 +1,111 @@
+{
+  "milestone": "M6",
+  "applicationVersion": "0.7.0",
+  "apiVersion": "0.7.0",
+  "nativeVersion": "0.5.0",
+  "date": "2026-10-23",
+  "setup": {
+    "tests": 134,
+    "elapsedSeconds": 166.578,
+    "passed": true,
+    "log": ".local/logs/setup-20261023-113842-139-19012.log"
+  },
+  "targeted": {
+    "tests": 10,
+    "elapsedSeconds": 25.033,
+    "passed": true,
+    "includesConnectedFlowParity": true,
+    "log": ".local/m6-flow-and-release-final.log"
+  },
+  "demo": {
+    "format": "format.parallel-translation",
+    "sourceLiveRevision": 84,
+    "sourceSessionUntouched": true,
+    "pagesPreserved": true,
+    "paintPreserved": true,
+    "languagePreserved": true,
+    "background": "black",
+    "glyphs": 319,
+    "geometryHash": "3f2090a2380dd14c059f43040279b828caed1eea81030606721b3ee7acad6691",
+    "collisionWarnings": 12,
+    "overflow": 0,
+    "exports": [
+      "png",
+      "svg",
+      "pdf"
+    ],
+    "directory": ".local/demos/m6-workbench-v0.7.0",
+    "rgbaIdenticalToCopiedM5Page": true
+  },
+  "live": {
+    "apiTools": 96,
+    "handPanPixels": [
+      120,
+      75
+    ],
+    "navigationPreservesContentAndHistory": true,
+    "idempotentToolRetry": true,
+    "finalTool": "select",
+    "saved": true,
+    "releaseSessionId": "editor.6bc0a75590c347a1a0dc454ed99e5dd8",
+    "releaseRevision": 87,
+    "backupVerified": true
+  },
+  "performance": "docs/research/m6-performance.json",
+  "dependencyInventory": "docs/research/m6-dependencies.json",
+  "cleanInstallation": {
+    "status": "passed",
+    "offlineWheelhouse": true,
+    "inputsAbsent": true,
+    "newEnvironment": true,
+    "initial": {
+      "tests": 134,
+      "skippedArchiveTests": 7,
+      "elapsedSeconds": 213.876,
+      "release": "0.7.0-debc91ecab3c"
+    },
+    "update": {
+      "tests": 135,
+      "skippedArchiveTests": 7,
+      "elapsedSeconds": 210.96,
+      "release": "0.7.0-c95d35ea8a8a"
+    },
+    "atomicActivation": true,
+    "rollbackVerified": true,
+    "forwardSwitchVerified": true,
+    "documentsMoved": false,
+    "recovery": {
+      "size": [
+        1224,
+        1584
+      ],
+      "m5CurrentSourceToM6RGBAIdentical": true,
+      "cleanInstalledRecoveryRGBAIdentical": true,
+      "relocatedFontCount": 5,
+      "originalFontPathsUsed": false,
+      "languageUnchanged": true
+    },
+    "logs": [
+      ".local/m6-clean-install.log",
+      ".local/m6-update-install.log"
+    ]
+  },
+  "remaining": [
+    "50 ms large-document edit target; measured p95 247 ms without recovery",
+    "Physical OS IME, screen-reader and multi-monitor checks",
+    "M4 VISUAL-01 user acceptance",
+    "External disk backup destination and whole Inputs archive backup not configured"
+  ],
+  "finalTypesetting": {
+    "tests": 21,
+    "elapsedSeconds": 44.65,
+    "passed": true,
+    "log": ".local/m6-final-typesetting-check.log"
+  },
+  "standardTranslation": {
+    "tests": 2,
+    "passed": true,
+    "includesActualArchive": true,
+    "log": ".local/m6-final-standard-check.log"
+  }
+}

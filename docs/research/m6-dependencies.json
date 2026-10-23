@@ -1,0 +1,476 @@
+{
+  "version": "1.0.0",
+  "scope": "Pinned M0\u2013M6 runtime and regression dependencies; excludes unrelated analysis packages and pip bootstrap",
+  "python": "CPython 3.12 (PSF license; installed separately)",
+  "dependencies": [
+    {
+      "name": "attrs",
+      "version": "23.1.0",
+      "license": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "Documentation, https://www.attrs.org/",
+        "Changelog, https://www.attrs.org/en/stable/changelog.html",
+        "Bug Tracker, https://github.com/python-attrs/attrs/issues",
+        "Source Code, https://github.com/python-attrs/attrs",
+        "Funding, https://github.com/sponsors/hynek",
+        "Tidelift, https://tidelift.com/subscription/pkg/pypi-attrs?utm_source=pypi-attrs&utm_medium=pypi"
+      ],
+      "notices": [
+        {
+          "path": "attrs-23.1.0.dist-info/licenses/LICENSE",
+          "sha256": "882115c95dfc2af1eeb6714f8ec6d5cbcabf667caff8729f42420da63f714e9f",
+          "bytes": 1109
+        }
+      ],
+      "requires": [
+        "importlib-metadata; python_version < '3.8'",
+        "attrs[tests]; extra == 'cov'",
+        "coverage[toml]>=5.3; extra == 'cov'",
+        "attrs[docs,tests]; extra == 'dev'",
+        "pre-commit; extra == 'dev'",
+        "furo; extra == 'docs'",
+        "myst-parser; extra == 'docs'",
+        "sphinx; extra == 'docs'",
+        "sphinx-notfound-page; extra == 'docs'",
+        "sphinxcontrib-towncrier; extra == 'docs'",
+        "towncrier; extra == 'docs'",
+        "zope-interface; extra == 'docs'",
+        "attrs[tests-no-zope]; extra == 'tests'",
+        "zope-interface; extra == 'tests'",
+        "cloudpickle; platform_python_implementation == 'CPython' and extra == 'tests-no-zope'",
+        "hypothesis; extra == 'tests-no-zope'",
+        "mypy>=1.1.1; platform_python_implementation == 'CPython' and extra == 'tests-no-zope'",
+        "pympler; extra == 'tests-no-zope'",
+        "pytest-mypy-plugins; platform_python_implementation == 'CPython' and python_version < '3.11' and extra == 'tests-no-zope'",
+        "pytest-xdist[psutil]; extra == 'tests-no-zope'",
+        "pytest>=4.3.0; extra == 'tests-no-zope'"
+      ]
+    },
+    {
+      "name": "fonttools",
+      "version": "4.51.0",
+      "license": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "home": "http://github.com/fonttools/fonttools",
+      "projectUrls": [],
+      "notices": [
+        {
+          "path": "fonttools-4.51.0.dist-info/LICENSE",
+          "sha256": "22bef80697ecfaa17f97e62b9a26dfa12820be05583e8dd12ad169b241274c99",
+          "bytes": 1093
+        }
+      ],
+      "requires": [
+        "fs <3,>=2.2.0 ; extra == 'all'",
+        "lxml >=4.0 ; extra == 'all'",
+        "zopfli >=0.1.4 ; extra == 'all'",
+        "lz4 >=1.7.4.2 ; extra == 'all'",
+        "pycairo ; extra == 'all'",
+        "matplotlib ; extra == 'all'",
+        "sympy ; extra == 'all'",
+        "skia-pathops >=0.5.0 ; extra == 'all'",
+        "uharfbuzz >=0.23.0 ; extra == 'all'",
+        "brotlicffi >=0.8.0 ; (platform_python_implementation != \"CPython\") and extra == 'all'",
+        "scipy ; (platform_python_implementation != \"PyPy\") and extra == 'all'",
+        "brotli >=1.0.1 ; (platform_python_implementation == \"CPython\") and extra == 'all'",
+        "munkres ; (platform_python_implementation == \"PyPy\") and extra == 'all'",
+        "unicodedata2 >=15.1.0 ; (python_version <= \"3.12\") and extra == 'all'",
+        "xattr ; (sys_platform == \"darwin\") and extra == 'all'",
+        "lz4 >=1.7.4.2 ; extra == 'graphite'",
+        "pycairo ; extra == 'interpolatable'",
+        "scipy ; (platform_python_implementation != \"PyPy\") and extra == 'interpolatable'",
+        "munkres ; (platform_python_implementation == \"PyPy\") and extra == 'interpolatable'",
+        "lxml >=4.0 ; extra == 'lxml'",
+        "skia-pathops >=0.5.0 ; extra == 'pathops'",
+        "matplotlib ; extra == 'plot'",
+        "uharfbuzz >=0.23.0 ; extra == 'repacker'",
+        "sympy ; extra == 'symfont'",
+        "xattr ; (sys_platform == \"darwin\") and extra == 'type1'",
+        "fs <3,>=2.2.0 ; extra == 'ufo'",
+        "unicodedata2 >=15.1.0 ; (python_version <= \"3.12\") and extra == 'unicode'",
+        "zopfli >=0.1.4 ; extra == 'woff'",
+        "brotlicffi >=0.8.0 ; (platform_python_implementation != \"CPython\") and extra == 'woff'",
+        "brotli >=1.0.1 ; (platform_python_implementation == \"CPython\") and extra == 'woff'"
+      ]
+    },
+    {
+      "name": "jsonschema",
+      "version": "4.23.0",
+      "license": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "Homepage, https://github.com/python-jsonschema/jsonschema",
+        "Documentation, https://python-jsonschema.readthedocs.io/",
+        "Issues, https://github.com/python-jsonschema/jsonschema/issues/",
+        "Funding, https://github.com/sponsors/Julian",
+        "Tidelift, https://tidelift.com/subscription/pkg/pypi-jsonschema?utm_source=pypi-jsonschema&utm_medium=referral&utm_campaign=pypi-link",
+        "Changelog, https://github.com/python-jsonschema/jsonschema/blob/main/CHANGELOG.rst",
+        "Source, https://github.com/python-jsonschema/jsonschema"
+      ],
+      "notices": [
+        {
+          "path": "jsonschema-4.23.0.dist-info/licenses/COPYING",
+          "sha256": "4f92a015a13c4d1a040bef018aa13430b4f1bc73b41b16bb846c346766de7439",
+          "bytes": 1057
+        }
+      ],
+      "requires": [
+        "attrs>=22.2.0",
+        "importlib-resources>=1.4.0; python_version < '3.9'",
+        "jsonschema-specifications>=2023.03.6",
+        "pkgutil-resolve-name>=1.3.10; python_version < '3.9'",
+        "referencing>=0.28.4",
+        "rpds-py>=0.7.1",
+        "fqdn; extra == 'format'",
+        "idna; extra == 'format'",
+        "isoduration; extra == 'format'",
+        "jsonpointer>1.13; extra == 'format'",
+        "rfc3339-validator; extra == 'format'",
+        "rfc3987; extra == 'format'",
+        "uri-template; extra == 'format'",
+        "webcolors>=1.11; extra == 'format'",
+        "fqdn; extra == 'format-nongpl'",
+        "idna; extra == 'format-nongpl'",
+        "isoduration; extra == 'format-nongpl'",
+        "jsonpointer>1.13; extra == 'format-nongpl'",
+        "rfc3339-validator; extra == 'format-nongpl'",
+        "rfc3986-validator>0.1.0; extra == 'format-nongpl'",
+        "uri-template; extra == 'format-nongpl'",
+        "webcolors>=24.6.0; extra == 'format-nongpl'"
+      ]
+    },
+    {
+      "name": "jsonschema-specifications",
+      "version": "2023.7.1",
+      "license": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "Documentation, https://jsonschema-specifications.readthedocs.io/",
+        "Homepage, https://github.com/python-jsonschema/jsonschema-specifications",
+        "Issues, https://github.com/python-jsonschema/jsonschema-specifications/issues/",
+        "Funding, https://github.com/sponsors/Julian",
+        "Source, https://github.com/python-jsonschema/jsonschema-specifications"
+      ],
+      "notices": [
+        {
+          "path": "jsonschema_specifications-2023.7.1.dist-info/licenses/COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+          "bytes": 1057
+        }
+      ],
+      "requires": [
+        "importlib-resources>=1.4.0; python_version < '3.9'",
+        "referencing>=0.28.0"
+      ]
+    },
+    {
+      "name": "numpy",
+      "version": "2.2.6",
+      "license": "Copyright (c) 2005-2024, NumPy Developers.",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "homepage, https://numpy.org",
+        "documentation, https://numpy.org/doc/",
+        "source, https://github.com/numpy/numpy",
+        "download, https://pypi.org/project/numpy/#files",
+        "tracker, https://github.com/numpy/numpy/issues",
+        "release notes, https://numpy.org/doc/stable/release"
+      ],
+      "notices": [
+        {
+          "path": "numpy-2.2.6.dist-info/LICENSE.txt",
+          "sha256": "14256cc3a2c9d32ac284da96b937feb44f72dd90bee2317ac3020166846ad99d",
+          "bytes": 47709
+        },
+        {
+          "path": "numpy/_core/include/numpy/random/LICENSE.txt",
+          "sha256": "d544761558b510866c21f7e8a2d5716fca76e0b98117e3b6b86314db7244d150",
+          "bytes": 1039
+        },
+        {
+          "path": "numpy/ma/LICENSE",
+          "sha256": "d78dbb208b80d92b4d333e41a4baae50d12444f46e53199fa7726a91de6e2da7",
+          "bytes": 1616
+        },
+        {
+          "path": "numpy/random/LICENSE.md",
+          "sha256": "b4bc2f4fa1c95778f1ed3dd8f14706bece399475b978f9f34b5d3cd72521b48a",
+          "bytes": 3582
+        }
+      ],
+      "requires": []
+    },
+    {
+      "name": "pillow",
+      "version": "11.2.1",
+      "license": "MIT-CMU",
+      "licenseClassifiers": [],
+      "home": null,
+      "projectUrls": [
+        "Changelog, https://github.com/python-pillow/Pillow/releases",
+        "Documentation, https://pillow.readthedocs.io",
+        "Funding, https://tidelift.com/subscription/pkg/pypi-pillow?utm_source=pypi-pillow&utm_medium=pypi",
+        "Homepage, https://python-pillow.github.io",
+        "Mastodon, https://fosstodon.org/@pillow",
+        "Release notes, https://pillow.readthedocs.io/en/stable/releasenotes/index.html",
+        "Source, https://github.com/python-pillow/Pillow"
+      ],
+      "notices": [
+        {
+          "path": "pillow-11.2.1.dist-info/licenses/LICENSE",
+          "sha256": "fd31630d7502b4964511c5508dd20ef044ef40935e7b511384f0b400ff7d42d0",
+          "bytes": 55888
+        }
+      ],
+      "requires": [
+        "furo; extra == \"docs\"",
+        "olefile; extra == \"docs\"",
+        "sphinx>=8.2; extra == \"docs\"",
+        "sphinx-copybutton; extra == \"docs\"",
+        "sphinx-inline-tabs; extra == \"docs\"",
+        "sphinxext-opengraph; extra == \"docs\"",
+        "olefile; extra == \"fpx\"",
+        "olefile; extra == \"mic\"",
+        "pyarrow; extra == \"test-arrow\"",
+        "check-manifest; extra == \"tests\"",
+        "coverage>=7.4.2; extra == \"tests\"",
+        "defusedxml; extra == \"tests\"",
+        "markdown2; extra == \"tests\"",
+        "olefile; extra == \"tests\"",
+        "packaging; extra == \"tests\"",
+        "pyroma; extra == \"tests\"",
+        "pytest; extra == \"tests\"",
+        "pytest-cov; extra == \"tests\"",
+        "pytest-timeout; extra == \"tests\"",
+        "trove-classifiers>=2024.10.12; extra == \"tests\"",
+        "typing-extensions; python_version < \"3.10\" and extra == \"typing\"",
+        "defusedxml; extra == \"xmp\""
+      ]
+    },
+    {
+      "name": "pypdfium2",
+      "version": "4.30.1",
+      "license": "BSD-3-Clause, Apache-2.0, PdfiumThirdParty",
+      "licenseClassifiers": [],
+      "home": "https://github.com/pypdfium2-team/pypdfium2",
+      "projectUrls": [
+        "Source, https://github.com/pypdfium2-team/pypdfium2",
+        "Tracker, https://github.com/pypdfium2-team/pypdfium2/issues",
+        "Documentation, https://pypdfium2.readthedocs.io",
+        "Changelog, https://pypdfium2.readthedocs.io/en/stable/changelog.html"
+      ],
+      "notices": [
+        {
+          "path": "pypdfium2-4.30.1.dist-info/LicenseRef-PdfiumThirdParty.txt",
+          "sha256": "c2fdbc1aeb250d596d1ef3d9817c9bf31df712b197583c0811677ee5d9206eeb",
+          "bytes": 43950
+        }
+      ],
+      "requires": []
+    },
+    {
+      "name": "pyside6-essentials",
+      "version": "6.8.3",
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+        "License :: Other/Proprietary License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "Homepage, https://pyside.org",
+        "Documentation, https://doc.qt.io/qtforpython",
+        "Repository, https://code.qt.io/cgit/pyside/pyside-setup.git/",
+        "Changelog, https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+        "Tracker, https://bugreports.qt.io/projects/PYSIDE"
+      ],
+      "notices": [
+        {
+          "path": "PySide6_Essentials-6.8.3.dist-info/LicenseRef-Qt-Commercial.txt",
+          "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3",
+          "bytes": 470
+        }
+      ],
+      "requires": [
+        "shiboken6 ==6.8.3"
+      ]
+    },
+    {
+      "name": "referencing",
+      "version": "0.30.2",
+      "license": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "Documentation, https://referencing.readthedocs.io/",
+        "Homepage, https://github.com/python-jsonschema/referencing",
+        "Issues, https://github.com/python-jsonschema/referencing/issues/",
+        "Funding, https://github.com/sponsors/Julian",
+        "Source, https://github.com/python-jsonschema/referencing"
+      ],
+      "notices": [
+        {
+          "path": "referencing-0.30.2.dist-info/licenses/COPYING",
+          "sha256": "42dcd63495f87b4eb7c7757afa379bb55a53f94afd7a5f657d9adf57236e515c",
+          "bytes": 1057
+        }
+      ],
+      "requires": [
+        "attrs>=22.2.0",
+        "rpds-py>=0.7.0"
+      ]
+    },
+    {
+      "name": "rpds-py",
+      "version": "0.10.6",
+      "license": "MIT",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: MIT License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "Homepage, https://github.com/crate-py/rpds",
+        "Issues, https://github.com/crate-py/rpds/issues/",
+        "Funding, https://github.com/sponsors/Julian",
+        "Source, https://github.com/crate-py/rpds"
+      ],
+      "notices": [
+        {
+          "path": "rpds_py-0.10.6.dist-info/license_files/LICENSE",
+          "sha256": "8bcb72c82ea8ae74802293c41d93ad7d51434001b0ae45a603a5af0f507aee0a",
+          "bytes": 1076
+        }
+      ],
+      "requires": []
+    },
+    {
+      "name": "scipy",
+      "version": "1.15.3",
+      "license": "Copyright (c) 2001-2002 Enthought, Inc. 2003-2024, SciPy Developers.",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: BSD License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "homepage, https://scipy.org/",
+        "documentation, https://docs.scipy.org/doc/scipy/",
+        "source, https://github.com/scipy/scipy",
+        "download, https://github.com/scipy/scipy/releases",
+        "tracker, https://github.com/scipy/scipy/issues"
+      ],
+      "notices": [
+        {
+          "path": "scipy-1.15.3.dist-info/LICENSE.txt",
+          "sha256": "f250e7cef15fbd99e8680093d112d7aa7579535b99995268df6c89ac926eb607",
+          "bytes": 46763
+        },
+        {
+          "path": "scipy/_lib/_uarray/LICENSE",
+          "sha256": "e4c4acc31e8287066d7c995d26e3ef902ca1977ee187b260b11c278366503811",
+          "bytes": 1543
+        },
+        {
+          "path": "scipy/fft/_pocketfft/LICENSE.md",
+          "sha256": "c04661685cff9d8035fe1c4c3ab357e7f7633cafc06a73e9d90c3c5fede8a86a",
+          "bytes": 1523
+        },
+        {
+          "path": "scipy/sparse/linalg/_eigen/arpack/COPYING",
+          "sha256": "fcb3c6c7de1460cf7d0863c3c5996e518eb8015a2eced36911f3da178440b3df",
+          "bytes": 1937
+        },
+        {
+          "path": "scipy/spatial/qhull_src/COPYING.txt",
+          "sha256": "962452e737df7c743a3dc2744232071028b8c0450e7674a55057c330ea1977eb",
+          "bytes": 1673
+        }
+      ],
+      "requires": [
+        "numpy<2.5,>=1.23.5",
+        "pytest; extra == \"test\"",
+        "pytest-cov; extra == \"test\"",
+        "pytest-timeout; extra == \"test\"",
+        "pytest-xdist; extra == \"test\"",
+        "asv; extra == \"test\"",
+        "mpmath; extra == \"test\"",
+        "gmpy2; extra == \"test\"",
+        "threadpoolctl; extra == \"test\"",
+        "scikit-umfpack; extra == \"test\"",
+        "pooch; extra == \"test\"",
+        "hypothesis>=6.30; extra == \"test\"",
+        "array-api-strict<2.1.1,>=2.0; extra == \"test\"",
+        "Cython; extra == \"test\"",
+        "meson; extra == \"test\"",
+        "ninja; sys_platform != \"emscripten\" and extra == \"test\"",
+        "sphinx<8.0.0,>=5.0.0; extra == \"doc\"",
+        "intersphinx_registry; extra == \"doc\"",
+        "pydata-sphinx-theme>=0.15.2; extra == \"doc\"",
+        "sphinx-copybutton; extra == \"doc\"",
+        "sphinx-design>=0.4.0; extra == \"doc\"",
+        "matplotlib>=3.5; extra == \"doc\"",
+        "numpydoc; extra == \"doc\"",
+        "jupytext; extra == \"doc\"",
+        "myst-nb; extra == \"doc\"",
+        "pooch; extra == \"doc\"",
+        "jupyterlite-sphinx>=0.19.1; extra == \"doc\"",
+        "jupyterlite-pyodide-kernel; extra == \"doc\"",
+        "mypy==1.10.0; extra == \"dev\"",
+        "typing_extensions; extra == \"dev\"",
+        "types-psutil; extra == \"dev\"",
+        "pycodestyle; extra == \"dev\"",
+        "ruff>=0.0.292; extra == \"dev\"",
+        "cython-lint>=0.12.2; extra == \"dev\"",
+        "rich-click; extra == \"dev\"",
+        "doit>=0.36.0; extra == \"dev\"",
+        "pydevtool; extra == \"dev\""
+      ]
+    },
+    {
+      "name": "shiboken6",
+      "version": "6.8.3",
+      "license": "LGPL-3.0-only OR GPL-2.0-only OR GPL-3.0-only",
+      "licenseClassifiers": [
+        "License :: OSI Approved :: GNU Lesser General Public License v3 (LGPLv3)",
+        "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+        "License :: OSI Approved :: GNU General Public License v2 (GPLv2)",
+        "License :: Other/Proprietary License"
+      ],
+      "home": null,
+      "projectUrls": [
+        "Homepage, https://pyside.org",
+        "Documentation, https://doc.qt.io/qtforpython",
+        "Repository, https://code.qt.io/cgit/pyside/pyside-setup.git/",
+        "Changelog, https://code.qt.io/cgit/pyside/pyside-setup.git/tree/doc/changelogs",
+        "Tracker, https://bugreports.qt.io/projects/PYSIDE"
+      ],
+      "notices": [
+        {
+          "path": "shiboken6-6.8.3.dist-info/LicenseRef-Qt-Commercial.txt",
+          "sha256": "4f54763ac0fe2abd8f7f8d8fe370a94a08ebf84786aa0b91045bd6628deb08a3",
+          "bytes": 470
+        }
+      ],
+      "requires": []
+    }
+  ],
+  "packaging": "Source release bundle does not redistribute Python or dependency wheels; setup installs the pinned upstream distributions with their notices intact."
+}

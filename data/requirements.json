@@ -128,7 +128,9 @@
         "tests/test_m3.py",
         "docs/M3.md",
         "vayrshemon/typesetting.py",
-        "docs/research/m3-validation.json"
+        "docs/research/m3-validation.json",
+        "docs/M6.md",
+        "tests/test_m6.py"
       ],
       "remaining": "M3 grids, leading distribution, paragraph rules and versioned Unicode tailoring are implemented. Dictionary hyphenation and incremental large-document reflow remain future work."
     },
@@ -159,7 +161,9 @@
         "schemas/editor-document.schema.json",
         "tests/test_m2.py",
         "tests/test_m3.py",
-        "docs/M3.md"
+        "docs/M3.md",
+        "docs/M6.md",
+        "tests/test_m6.py"
       ],
       "remaining": "M3 settings participate in atomic saves, undo and forced-exit recovery. M1/M2 files migrate to a new path; portable bundles and interchange remain later work."
     },
@@ -179,13 +183,15 @@
         "docs/M3.md",
         "schemas/studio-document.schema.json",
         "schemas/studio-command.schema.json",
-        "docs/M4.md"
+        "docs/M4.md",
+        "docs/M6.md",
+        "tests/test_m6.py"
       ],
       "remaining": "M4 API 0.5.0, native 0.4.0 and paint 1.0.0 provenance are recorded with tested migration/undo/recovery. Independent backups and installer rollback remain M6."
     },
     {
       "id": "AUTO-01",
-      "milestone": "M1-M5",
+      "milestone": "M1-M6",
       "status": "foundation",
       "evidence": [
         "data/capabilities.json",
@@ -199,7 +205,11 @@
         "data/editor-mcp-tools.json",
         "tools/verify_m2.py",
         "tests/test_m3.py",
-        "docs/M3.md"
+        "docs/M3.md",
+        "docs/M6.md",
+        "tests/test_m6.py",
+        "data/reliability-mcp-tools.json",
+        "schemas/reliability-command.schema.json"
       ],
       "remaining": "57 M3 operations share desktop, CLI and MCP implementations. Extend alongside later publishing/language features."
     },
@@ -215,7 +225,9 @@
         "tools/verify_m2.py",
         "docs/M2.md",
         "tests/test_m3.py",
-        "docs/M3.md"
+        "docs/M3.md",
+        "docs/M6.md",
+        "tests/test_m6.py"
       ],
       "remaining": "M3 before/after geometry, source-mapped collisions, solver decisions, limits and preview errors are exposed with correlated logs. Long-document optimization remains M6."
     },
@@ -231,7 +243,9 @@
         "tests/test_m2.py",
         "vayrshemon/publication.py",
         "vayrshemon/colorfont.py",
-        "tests/test_m4.py"
+        "tests/test_m4.py",
+        "docs/M6.md",
+        "tests/test_m6.py"
       ],
       "remaining": "PNG/SVG/multipage PDF proofs, effect preflight and independent physical/pixel/extraction checks implemented. Decorative raster and outline proofs are explicitly non-searchable. Semantic searchable interchange, CMYK/ICC, PDF/A and bleed remain future work."
     },
@@ -389,6 +403,32 @@
     {
       "id": "M5-AUTOMATION",
       "check": "85 shared API/MCP controls, current setup.bat, standard two-column demo and preserved three-font paint."
+    }
+  ],
+  "m6Gates": [
+    {
+      "id": "M6-NAVIGATION",
+      "check": "Select/Hand tools, fitted-page drag, keyboard scope and API/MCP preserve content/history/dirty state."
+    },
+    {
+      "id": "M6-INCREMENTAL",
+      "check": "100-page/100k-scalar benchmark rebuilds one story per local edit; bounded caches and pan target pass. 50 ms edit target remains open."
+    },
+    {
+      "id": "M6-JOBS",
+      "check": "Isolated snapshot exports, cancellation, stale revision reporting, traceback logs and exclusive destination publication."
+    },
+    {
+      "id": "M6-RECOVERY",
+      "check": "Hash-verified font-complete bundles; offline standard-library restore; damaged bundles rejected before destination creation."
+    },
+    {
+      "id": "M6-RELEASE",
+      "check": "Fresh offline Windows source install, public tests, activation/update/rollback, unchanged native 0.5.0 and license inventory."
+    },
+    {
+      "id": "M6-ACCESSIBILITY",
+      "check": "Qt navigation/key/provider tests pass; physical OS IME/screen-reader/multi-monitor assessment remains open."
     }
   ]
 }

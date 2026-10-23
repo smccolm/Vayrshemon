@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M6 reliability and navigation 0.7.0 / native format 0.5.0 unchanged — 2026-10-23
+
+- Add explicit Select/Hand tools, fitted-page panning, center/fit controls, scoped keyboard navigation and API/MCP inspection. Panning and tool switches preserve selection, revision, dirty state and undo.
+- Reuse unchanged story shaping, scope composition to the current page/connected flows, bound caches, cull offscreen paint and stop hidden-inspector refresh work. Record 100-page/100k-scalar and large decorative-page performance; the 50 ms edit target remains open.
+- Export proofs in isolated cancellable workers with immutable snapshots, stale-revision reporting, full logs and exclusive destination publication. Preserve timestamped save suggestions.
+- Add verified saved-document/font bundles, visible backup failures, standard-library recovery/inspection and documented interchange.
+- Add versioned Windows source installation, atomic activation/rollback, offline wheelhouse setup and dependency/license inventory. Keep setup.bat and CI current; no new dependency or native migration.
+
 ## M5 language workbench 0.6.0 / native format 0.5.0 — 2026-10-23
 
 - Add content-addressed language revisions, stable lexical/sense IDs, branching/adoption/diffs and portable hash-checked packages; retain old documents and spellings during migration.

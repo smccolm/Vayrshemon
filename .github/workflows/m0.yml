@@ -1,4 +1,4 @@
-name: Evidence, typography, and M5 language workbench
+name: Evidence, typography, and M6 reliability
 
 on:
   push:
@@ -28,6 +28,7 @@ jobs:
             requirements-m3.txt
             requirements-m4.txt
             requirements-m5.txt
+            requirements-m6.txt
       - name: Windows setup and public checks
         if: runner.os == 'Windows'
         shell: cmd
@@ -37,7 +38,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libegl1 libopengl0 fonts-dejavu-core
-          python -m pip install -r requirements-m5.txt
+          python -m pip install -r requirements-m6.txt
       - name: Validate schemas and evidence references without Inputs
         if: runner.os != 'Windows'
         run: python -m tools.m0 check

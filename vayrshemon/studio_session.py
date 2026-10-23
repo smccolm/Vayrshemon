@@ -72,7 +72,7 @@ class StudioSession(TypesettingSession):
         self.state['paint']['bindings']=[b for b in self.state['paint']['bindings'] if b['fontId']!=binding['fontId']]+[deepcopy(binding)]
         self.invalidate_composition();return deepcopy(binding)
 
-    def composition(self,mode=None):
+    def composition(self,mode=None,page_id=None):
         from .studio_typesetting import StudioComposition
         mode=mode or self.view['mode']
         if mode not in self._composition_cache: self._composition_cache[mode]=StudioComposition(self,mode)

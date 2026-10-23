@@ -132,7 +132,7 @@ class TypesettingSession(AuthoringSession):
         self.invalidate_composition()
         return dict(sourceFrameId=source_frame_id,targets=targets)
 
-    def composition(self,mode=None):
+    def composition(self,mode=None,page_id=None):
         from .typesetting import Composition
         mode=mode or self.view['mode']
         if mode not in self._composition_cache: self._composition_cache[mode]=Composition(self,mode)

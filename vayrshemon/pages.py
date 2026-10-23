@@ -25,7 +25,7 @@ def page_rect(page): return QRectF(0,0,int(page['width'])/1_000_000*SCALE,int(pa
 def inspect(book,*,page_id=None,max_glyphs=5000):
     page=selected_page(book,page_id)
     if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
-        return book.composition().report(page['pageId'],max_glyphs)
+        return book.composition(page_id=page['pageId']).report(page['pageId'],max_glyphs)
     records=[]; diagnostics=[]; remaining=max_glyphs
     for frame in page['frames']:
         native=book.frames[frame['frameId']]
@@ -76,7 +76,7 @@ def outline_paint(native,painter,mode,clip):
 def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=False,outlines=False):
     page=selected_page(book,page_id); boundary=page_rect(page)
     if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
-        return book.composition(mode).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
+        return book.composition(mode,page_id=page['pageId']).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
     mode=mode or book.view['mode']; overlays=overlays or {}
     painter.save()
     painter.setClipRect(boundary if clip is None else boundary.intersected(clip))
@@ -161,7 +161,7 @@ def hit_test(book,x,y,page_id=None):
     page=selected_page(book,page_id)
     if not all(math.isfinite(v) for v in (x,y)): raise ValueError('INVALID_POINT')
     if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
-        return book.composition().hit_test(page['pageId'],x,y)
+        return book.composition(page_id=page['pageId']).hit_test(page['pageId'],x,y)
     for frame in reversed(page['frames']):
         area=rect(frame)
         if area.contains(QPointF(x,y)):

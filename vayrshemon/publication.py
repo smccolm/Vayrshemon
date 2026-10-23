@@ -28,12 +28,13 @@ def preflight(book,format='pdf',mode='color',dpi=300,raster_policy='reject',page
             with TTFont(path) as f: flags=f['OS/2'].fsType if 'OS/2' in f else None
         fonts.append(dict(fontId=source['fontId'],available=valid,fsType=flags,embedded=False))
         if not valid: issues.append(dict(code='MISSING_OR_CHANGED_FONT',severity='error',fontId=source['fontId']))
-    comp=None;painted=0
-    if not any(i['severity']=='error' for i in issues):
-        try: comp=book.composition(mode)
-        except (ValueError,OSError) as error: issues.append(dict(code='LAYOUT_UNAVAILABLE',severity='error',message=str(error)))
+    painted=0;fonts_valid=not any(i['severity']=='error' for i in issues)
     for page in chosen:
         pid=page['pageId']; area=pages.page_rect(page)
+        comp=None
+        if fonts_valid:
+            try: comp=book.composition(mode,page_id=pid)
+            except (ValueError,OSError) as error: issues.append(dict(code='LAYOUT_UNAVAILABLE',severity='error',pageId=pid,message=str(error)))
         w,h=math.ceil(area.width()*dpi/96),math.ceil(area.height()*dpi/96)
         if comp is None:
             result.append(dict(pageId=pid,points=[int(page[k])/1e6 for k in ('width','height')],pixels=[w,h],geometryHash=None,collisionCount=None));continue

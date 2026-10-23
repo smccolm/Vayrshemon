@@ -14,6 +14,7 @@ class StudioComposition(Composition):
             frame=self.frames[glyph['frameId']][1]
             clip=visible.intersected(frame_rect(frame)) if frame['overflow']=='clip' else visible
             if glyph['_clip'] is not None: clip=clip.intersected(glyph['_clip'])
+            if not box(glyph['effectBounds']).intersects(clip): continue
             painter.save();painter.setClipRect(clip)
             try: renderer.paint(painter,glyph,component='glow')
             finally: painter.restore()

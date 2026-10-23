@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.7.0**, 2026-10-23. Status: M0 through M3 implemented with automated acceptance evidence; [M4 glyph studio and publishing](M4.md) remains in visual review; [M5 language workbench](M5.md) is implemented with immutable language revisions, cited archive records, corpus links and exact base-12 data. VISUAL-01 remains open until the user accepts representative glyphs and the standard page. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
+Revision **0.8.0**, 2026-10-23. Status: M0 through M3 implemented with automated acceptance evidence; [M4 glyph studio and publishing](M4.md) remains in visual review; [M5 language workbench](M5.md) and [M6 reliability/navigation](M6.md) are implemented. M6 records a remaining large-document edit-latency gap against the provisional 50 ms target. VISUAL-01 remains open until the user accepts representative glyphs and the standard page. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -151,6 +151,8 @@ Delivered vertical increments:
 
 ### M6 — Long-term reliability and release discipline
 
+Implemented in 0.7.0: Select/Hand navigation, page/flow-component layout, bounded shaping reuse, cancellable isolated proof workers, verified font-complete backups, standard-library recovery, versioned source installs/rollback, dependency inventory and 96 API/MCP operations. [M6 evidence and limits](M6.md) distinguish automated verification from remaining physical accessibility checks and performance targets. No new native format or dependency is introduced.
+
 Harden throughout development; complete before relying on the app as the only authoring tool:
 
 - Large-document editing, paginated and unusually large-page performance, incremental reflow, bounded caches, and cancellable background jobs.
@@ -197,7 +199,7 @@ For each requested revision: capture a reproducing document or operation sequenc
 
 1. Complete the remaining physical OS/IME/accessibility checks listed in M1 on the user's chosen input setup; retain the passing native event and provider regressions.
 2. Continue M4 VISUAL-01 review against Individual Glyphs; M5 preserves its current renderer and the standard black portrait page. User visual acceptance and unresolved punctuation remain open.
-3. Improve long-paragraph rendering and inspector scheduling using M1's measured 100,000-character case.
+3. Reduce full-state snapshot/validation/undo cost and long-paragraph shaping. M6's 100-page/100,000-scalar case limits reshaping to the changed story and meets the measured pan budget, but p95 edit-through-page-paint is 247 ms, above the provisional 50 ms target.
 4. Keep setup.bat, published API/MCP schemas, regression tests, and milestone evidence updated with every dependency or behavior change.
 5. Expand the M5 language data through cited revisions: verify historical font mappings and IPA, adjudicate competing tense readings, and develop real paradigms and corpus segmentation. Do not infer these from glyph appearance.
 

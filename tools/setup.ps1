@@ -59,7 +59,7 @@ function Find-Python312 {
             Write-Host $_.Exception.Message
         }
     }
-    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0 through M5 are tested with Python 3.12.7.'
+    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0 through M6 are tested with Python 3.12.7.'
 }
 
 try {
@@ -71,7 +71,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M5 0.6.0 setup - $projectRoot"
+    Write-Host "Vayrshemon M6 0.7.0 setup - $projectRoot"
     Write-Host "Console log: $logPath"
 
     if (Test-Path -LiteralPath $environmentPath) {
@@ -92,9 +92,16 @@ try {
         "import pathlib, struct, sys; print(sys.version); assert sys.version_info[:2] == (3, 12) and struct.calcsize('P') == 8, 'Expected Python 3.12, 64-bit; rename .venv and rerun setup'; assert sys.prefix != sys.base_prefix and pathlib.Path(sys.prefix).resolve() == pathlib.Path(sys.argv[1]).resolve(), 'Interpreter does not belong to this project environment'",
         $environmentPath)
     Invoke-Python $environmentPython @('-m', 'ensurepip', '--upgrade', '--default-pip')
-    Invoke-Python $environmentPython @('-m', 'pip', '--require-virtualenv', 'install',
-        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m5.txt')
+    $wheelArguments = @()
+    if ($env:VAYRSHEMON_WHEELHOUSE) {
+        $wheelDirectory = (Resolve-Path -LiteralPath $env:VAYRSHEMON_WHEELHOUSE).Path
+        $wheelArguments = @('--no-index', '--find-links', $wheelDirectory)
+        Write-Host "Offline wheelhouse: $wheelDirectory"
+    }
+    Invoke-Python $environmentPython (@('-m', 'pip', '--require-virtualenv', 'install',
+        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m6.txt') + $wheelArguments)
     Invoke-Python $environmentPython @('-m', 'pip', '--disable-pip-version-check', 'check')
+    Invoke-Python $environmentPython @('-m', 'tools.dependency_audit', '--out', ".local/logs/dependencies-$runId.json")
     Invoke-Python $environmentPython @('-m', 'tools.m0', '--log', ".local/logs/setup-check-$runId.jsonl", 'check')
     Invoke-Python $environmentPython @('-m', 'unittest', 'discover', '-s', 'tests', '-v')
 
@@ -111,7 +118,9 @@ try {
 
     Write-Host ''
     Write-Host 'Setup complete. Dependencies, evidence checks, and tests passed.'
-    Write-Host 'Double-click launch.bat to open the M5 language workbench.'
+    Write-Host 'Double-click launch.bat to open the M6 language workbench (Select and Hand tools).'
+    Write-Host 'Offline recovery: python -S tools\recovery.py --help'
+    Write-Host 'Versioned installation and rollback: installed.bat --help (see docs\M6.md).'
     Write-Host 'CLI: .venv\Scripts\python.exe -m vayrshemon --help'
     Write-Host 'MCP client configuration: .local\mcp-config.json (connects to the active editor or lab).'
     $setupExitCode = 0

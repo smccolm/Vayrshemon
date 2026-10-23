@@ -1,0 +1,117 @@
+{
+  "version": "1.0.0",
+  "machine": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "processor": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "cpuCount": 32,
+    "python": "3.12.7"
+  },
+  "scenario": {
+    "pages": 100,
+    "scalars": 100000,
+    "frames": 100,
+    "font": "system Segoe UI on Windows; platform default elsewhere",
+    "effects": "none",
+    "recovery": "disabled for timing; full snapshot/validation/undo enabled"
+  },
+  "loadMs": 409.64930001064204,
+  "coldPageInspectMs": 67.97720000031404,
+  "warmPageInspectMs": 22.678599983919412,
+  "editToPagePaintMs": {
+    "samples": [
+      203.5312999796588,
+      203.6904999986291,
+      203.89900001464412,
+      232.01520001748577,
+      201.17949999985285,
+      201.96209999267012,
+      247.37350002396852,
+      205.5318999919109,
+      208.7203999981284,
+      243.01209999248385
+    ],
+    "p95": 247.37350002396852,
+    "definition": "API edit plus synchronous page paint and event pump, not physical input latency; 10-sample nearest rank"
+  },
+  "panPaintMs": {
+    "samples": [
+      10.865899996133521,
+      11.458199995104223,
+      10.616099985782057,
+      45.6183000060264,
+      11.545000015757978,
+      11.917099996935576,
+      11.127699981443584,
+      11.37279998511076,
+      11.28980002249591,
+      11.178500019013882,
+      11.782399989897385,
+      10.567599994828925,
+      11.642800003755838,
+      11.256099998718128,
+      10.456200019689277,
+      10.871800011955202,
+      10.638400010066107,
+      9.812100004637614,
+      10.914199985563755,
+      10.83939999807626,
+      10.354699974413961,
+      10.19479997921735,
+      11.651600012555718,
+      11.35489999433048,
+      10.244400007650256,
+      10.395199991762638,
+      10.554099979344755,
+      10.919300024397671,
+      10.716199991293252,
+      11.084199999459088
+    ],
+    "p95": 11.917099996935576
+  },
+  "memory": {
+    "workingSetBytes": 226484224,
+    "peakWorkingSetBytes": 226484224,
+    "privateCommitBytes": 1726033920
+  },
+  "cache": {
+    "entries": 1,
+    "glyphs": 990,
+    "lines": 11,
+    "hits": 1,
+    "misses": 11,
+    "evictions": 0,
+    "limits": {
+      "entries": 64,
+      "glyphs": 20000,
+      "lines": 10000
+    },
+    "scope": "shaping; placement and collisions recompute for affected page/flow component"
+  },
+  "incremental": {
+    "rebuiltStories": 10,
+    "expectedLocalEdits": 10,
+    "wholeDocumentShaping": false
+  },
+  "budgets": {
+    "edit50msMet": false,
+    "pan16_7msMet": true
+  },
+  "largePage": {
+    "points": [
+      10000,
+      12000
+    ],
+    "regionPixels": [
+      1200,
+      1200
+    ],
+    "renderMs": 3964.5846000057645,
+    "actualLayeredFonts": true,
+    "memory": {
+      "workingSetBytes": 257396736,
+      "peakWorkingSetBytes": 258437120,
+      "privateCommitBytes": 1755197440
+    },
+    "fullRaster": "Rejected above 32,767 pixels per axis or 16 million pixels; use bounded regions"
+  }
+}

@@ -98,12 +98,18 @@ class PageCanvas(QAbstractScrollArea):
         self.setMinimumWidth(330)
         self.setMouseTracking(True)
         self.pan=None
+        self.tool='select'
+        self.space_pan=False
+        self.pan_button=None
+        self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
+        self.setAccessibleDescription('Select: click a frame to edit. Hand: drag to move the view. With preview focus use V, H, Space, arrow keys or Home.')
         for bar in (self.horizontalScrollBar(),self.verticalScrollBar()): bar.valueChanged.connect(self.viewport().update)
 
     def update_page(self):
         area=pages.page_rect(self.book.current_page()); zoom=self.book.view['zoom']
-        self.horizontalScrollBar().setRange(0,max(0,math.ceil(area.width()*zoom)+2*self.RULER-self.viewport().width()))
-        self.verticalScrollBar().setRange(0,max(0,math.ceil(area.height()*zoom)+2*self.RULER-self.viewport().height()))
+        # A viewport of pasteboard on every side permits dragging a fitted page.
+        self.horizontalScrollBar().setRange(-self.viewport().width(),math.ceil(area.width()*zoom))
+        self.verticalScrollBar().setRange(-self.viewport().height(),math.ceil(area.height()*zoom))
         self.horizontalScrollBar().setPageStep(self.viewport().width()); self.verticalScrollBar().setPageStep(self.viewport().height())
         self.viewport().update()
 
@@ -145,13 +151,17 @@ class PageCanvas(QAbstractScrollArea):
         else: super().wheelEvent(event)
 
     def mousePressEvent(self,event):
-        if event.button()==Qt.MouseButton.MiddleButton: self.pan=event.position(); self.setCursor(Qt.CursorShape.ClosedHandCursor); return
+        self.setFocus(Qt.FocusReason.MouseFocusReason)
+        if event.button()==Qt.MouseButton.MiddleButton or (event.button()==Qt.MouseButton.LeftButton and (self.tool=='hand' or self.space_pan)):
+            self.pan=event.position();self.pan_button=event.button();self.update_cursor();event.accept();return
         if event.button()==Qt.MouseButton.LeftButton:
             zoom=self.book.view['zoom']
             x=(event.position().x()-self.RULER+self.horizontalScrollBar().value())/zoom
             y=(event.position().y()-self.RULER+self.verticalScrollBar().value())/zoom
             hit=pages.hit_test(self.book,x,y)
             if hit['frameId']:
+                if self.book.window and hasattr(self.book.window,'configure_workspace'):
+                    self.book.window.configure_workspace(source=True)
                 self.invoke('selection.set',frame_id=hit['frameId'],start=hit['offset'],end=hit['offset'])
         super().mousePressEvent(event)
 
@@ -162,7 +172,53 @@ class PageCanvas(QAbstractScrollArea):
             self.verticalScrollBar().setValue(self.verticalScrollBar().value()-round(delta.y()))
         else: super().mouseMoveEvent(event)
 
-    def mouseReleaseEvent(self,event): self.pan=None; self.unsetCursor(); super().mouseReleaseEvent(event)
+    def mouseReleaseEvent(self,event):
+        if event.button()==self.pan_button: self.pan=None;self.pan_button=None;self.update_cursor()
+        super().mouseReleaseEvent(event)
+
+    def update_cursor(self):
+        self.viewport().setCursor(Qt.CursorShape.ClosedHandCursor if self.pan is not None else Qt.CursorShape.OpenHandCursor if self.tool=='hand' or self.space_pan else Qt.CursorShape.ArrowCursor)
+
+    def set_tool(self,tool):
+        if tool not in ('select','hand'): raise ValueError('UNKNOWN_VIEW_TOOL')
+        self.tool=tool;self.pan=None;self.pan_button=None;self.space_pan=False;self.update_cursor()
+        if hasattr(self.book.window,'sync_navigation'): self.book.window.sync_navigation()
+        return self.navigation_state()
+
+    def pan_by(self,dx=0,dy=0):
+        self.horizontalScrollBar().setValue(self.horizontalScrollBar().value()-round(dx))
+        self.verticalScrollBar().setValue(self.verticalScrollBar().value()-round(dy))
+        return self.navigation_state()
+
+    def center_page(self):
+        self.update_page();area=pages.page_rect(self.book.current_page());z=self.book.view['zoom']
+        self.horizontalScrollBar().setValue(round((area.width()*z-self.viewport().width()+self.RULER)/2))
+        self.verticalScrollBar().setValue(round((area.height()*z-self.viewport().height()+self.RULER)/2))
+        return self.navigation_state()
+
+    def navigation_state(self):
+        return dict(tool=self.tool,dragging=self.pan is not None,temporaryHand=self.space_pan,
+            pageOrigin=[self.RULER-self.horizontalScrollBar().value(),self.RULER-self.verticalScrollBar().value()],
+            viewport=[self.viewport().width(),self.viewport().height()],zoom=self.book.view['zoom'],units='viewport-logical-pixels')
+
+    def keyPressEvent(self,event):
+        if event.modifiers()==Qt.KeyboardModifier.NoModifier:
+            key=event.key()
+            if key==Qt.Key.Key_H: self.set_tool('hand');event.accept();return
+            if key==Qt.Key.Key_V: self.set_tool('select');event.accept();return
+            if key==Qt.Key.Key_Space: self.space_pan=True;self.update_cursor();event.accept();return
+            if key==Qt.Key.Key_Home: self.center_page();event.accept();return
+            if key in (Qt.Key.Key_Left,Qt.Key.Key_Right,Qt.Key.Key_Up,Qt.Key.Key_Down):
+                self.pan_by(*{Qt.Key.Key_Left:(40,0),Qt.Key.Key_Right:(-40,0),Qt.Key.Key_Up:(0,40),Qt.Key.Key_Down:(0,-40)}[key]);event.accept();return
+        super().keyPressEvent(event)
+
+    def keyReleaseEvent(self,event):
+        if event.key()==Qt.Key.Key_Space and not event.isAutoRepeat():
+            self.space_pan=False;self.pan=None;self.pan_button=None;self.update_cursor();event.accept();return
+        super().keyReleaseEvent(event)
+
+    def focusOutEvent(self,event):
+        self.space_pan=False;self.pan=None;self.pan_button=None;self.update_cursor();super().focusOutEvent(event)
 
 
 class EditorWindow(QMainWindow):
@@ -197,7 +253,7 @@ class EditorWindow(QMainWindow):
         self.editor.cursorPositionChanged.connect(self.sync_text_controls)
         split.addWidget(edit_box)
         preview_box=QWidget(); preview_column=QVBoxLayout(preview_box); preview_column.setContentsMargins(2,0,0,0)
-        preview_row=QHBoxLayout(); preview_row.addWidget(QLabel('PAGE PREVIEW · click a frame to edit'))
+        preview_row=QHBoxLayout(); self.preview_hint=QLabel('PAGE PREVIEW · Click a frame to edit');preview_row.addWidget(self.preview_hint)
         self.mode=QComboBox(); self.mode.addItem('Color layers','color'); self.mode.addItem('Monochrome','mono')
         self.mode.currentIndexChanged.connect(lambda:self.invoke('view.configure',mode=self.mode.currentData()))
         preview_row.addWidget(self.mode); preview_column.addLayout(preview_row)
@@ -335,14 +391,16 @@ class EditorWindow(QMainWindow):
     def refresh(self):
         try:
             self.sync_structure()
-            report=pages.inspect(self.book,max_glyphs=1200)
-            self.details.setPlainText(json.dumps(report,ensure_ascii=False,indent=2))
-            self.logs.setPlainText('\n'.join(json.dumps(e,ensure_ascii=False) for e in self.book.log.tail(50)))
-            self.access.setPlainText(json.dumps(accessibility(self.editor),ensure_ascii=False,indent=2))
-            overflow=sum(1 for f in report['frames'] if f['overflow'])
+            report=None
+            if not self.inspection.isHidden():
+                report=pages.inspect(self.book,max_glyphs=1200)
+                self.details.setPlainText(json.dumps(report,ensure_ascii=False,indent=2))
+                self.logs.setPlainText('\n'.join(json.dumps(e,ensure_ascii=False) for e in self.book.log.tail(50)))
+                self.access.setPlainText(json.dumps(accessibility(self.editor),ensure_ascii=False,indent=2))
+            overflow=str(sum(1 for f in report['frames'] if f['overflow']))+' overflowing frame(s)' if report else 'inspector hidden'
             title=self.book.state['title']; self.setWindowTitle(title+(' *' if self.book.dirty else '')+' — Vayrshemon M2 / 0.3.0')
             recovery=('RECOVERY ERROR: '+self.book.recovery_error) if self.book.recovery_error else 'Recovery durable through revision '+str(self.book.durable_revision)
-            self.statusBar().showMessage(self.last_error or f"Revision {self.book.revision} · {'unsaved' if self.book.dirty else 'saved'} · {overflow} overflowing frame(s) · {recovery}")
+            self.statusBar().showMessage(self.last_error or f"Revision {self.book.revision} · {'unsaved' if self.book.dirty else 'saved'} · {overflow} · {recovery}")
         except Exception as error: self.book.log.exception('desktop',error); self.statusBar().showMessage(str(error),20000)
 
     def sync_structure(self):
