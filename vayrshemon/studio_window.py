@@ -62,7 +62,7 @@ class StudioWindow(WorkbenchWindow):
 
     def refresh(self):
         super().refresh()
-        self.setWindowTitle(self.windowTitle().replace('M3','M4').replace('0.4.0','0.5.0'))
+        self.setWindowTitle(self.windowTitle().replace('M3','M4').replace('0.4.0',self.book.application_version))
         if not self.paint_controls: return
         for key,control in self.paint_controls.items():
             if control.hasFocus(): continue

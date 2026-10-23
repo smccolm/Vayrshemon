@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-23",
+  "application": "0.5.1",
+  "apiVersion": "0.5.0",
+  "nativeFormat": "0.4.0",
+  "recipeFormat": "1.0.0",
+  "paintEngineVersion": "1.0.1",
+  "issue": "Annotated enclosed glyph counters were filled by the derived renderer's union of all contours.",
+  "correction": "Shade original ink and preserve its fill rule and exact curves. Interior fills require explicit layer fonts.",
+  "historicalFontSha256": "1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad",
+  "regressionSourceScalars": [114, 225, 46, 108, 121],
+  "tests": {
+    "command": "setup.bat --no-pause",
+    "passed": 104,
+    "failed": 0,
+    "setupLog": ".local/logs/setup-20261023-081319-587-41520.log",
+    "counterTestsFailAgainstOriginalRenderer": 2,
+    "syntheticProofDpi": [96, 192],
+    "syntheticProofBackgrounds": ["transparent", "white", "black"],
+    "historicalGlyphEmSizes": [41, 200],
+    "standardParallelTranslationIncluded": true
+  },
+  "proof": {
+    "localArtifacts": ".local/demos/m4-counter-fix",
+    "sourceStateUnchanged": true,
+    "sourceFontIdentitiesUnchanged": true,
+    "glyphPositionsInkAndEffectBoundsUnchanged": true,
+    "standardTwoColumns": true,
+    "beforeAfterAndFullPageVisuallyInspected": true,
+    "liveApplicationVersionVerified": true,
+    "liveGeometryMatchesOffline": true,
+    "liveCorrectedCountersVisuallyInspected": true,
+    "dependencyChanges": false
+  },
+  "visualAcceptance": "pending-user-review",
+  "remaining": [
+    "Full Individual Glyphs appearance acceptance remains open.",
+    "Historical fonts have no verified interior layer mapping; their negative spaces remain empty.",
+    "The standard page retains its existing natural ink overhang and conservative effect-contact reports."
+  ]
+}

@@ -15,6 +15,8 @@ from PySide6.QtCore import Qt, QRectF, QPointF
 from PySide6.QtGui import QImage, QPainter, QColor, QPainterPath
 
 VERSION='1.0.0'
+# Implementation changes are distinct from the persisted recipe/state format.
+ENGINE_VERSION='1.0.1'
 DEFAULT=dict(recipeId='paint.individual-glyphs',version=VERSION,revision=1,
     rim='#0674da',highlight='#ffffff',recess='#0d11a2',edge='#020918',glow='#beffff',
     bevel=.030,depth=1.64,edgeWidth=.001,glowRadius=.017,glowOpacity=.56,
@@ -66,16 +68,14 @@ def union_subpaths(path):
 
 
 def derived_paths(raw,gid):
-    """Preserve arbitrary historical outlines; only bounded enclosed holes recess.
+    """Shade attested ink only, preserving curves, fill rule and every counter.
 
-    This fallback is deliberately recorded as derived, never as an attested
-    79/80/81 mapping. Exterior counters remain open, source glyphs unchanged.
+    A single font cannot distinguish a recessed channel from intentional empty
+    space. Interior fills require an explicit layered binding; closing contours
+    or unioning their polygons would silently paint over genuine counters.
     """
-    rim=raw.pathForGlyph(gid); silhouette=QPainterPath()
-    # Union closed contours fills enclosed channels but not exterior open bays.
-    for polygon in rim.toSubpathPolygons():
-        path=QPainterPath();path.addPolygon(polygon);path.closeSubpath();silhouette=silhouette.united(path)
-    return rim,silhouette,silhouette.subtracted(rim)
+    rim=raw.pathForGlyph(gid)
+    return rim,QPainterPath(rim),QPainterPath()
 
 
 class Renderer:
@@ -107,7 +107,7 @@ class Renderer:
         # At least 4 samples per logical pixel at reading size. Export uses its
         # requested DPI, with 2x AA, never a magnified preview bitmap.
         scale=max(4. if em<128 else 2.,math.ceil(scale*2)/2)
-        key=(signature(recipe),signature(binding),gid,round(em,6),scale)
+        key=(ENGINE_VERSION,signature(recipe),signature(binding),gid,round(em,6),scale)
         if key in self.cache:
             value=self.cache.pop(key);self.cache[key]=value;return value
         paths=self.paths(binding,gid,em); area=self.bounds(binding,gid,em)

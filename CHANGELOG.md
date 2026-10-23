@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M4 counter correction 0.5.1 / paint engine 1.0.1 — 2026-10-23
+
+- Correct the solid blue centers in the user's circled glyphs: derived paint follows original ink and preserves every counter instead of filling all closed contours. Explicit three-layer shading remains available.
+- Preserve source text, original font identities and page geometry. Existing API 0.5.0, native 0.4.0 and recipe 1.0.0 contracts remain compatible; record the renderer implementation version separately in provenance and proof diagnostics.
+- Add synthetic TTF counter checks at two DPIs on white, black and transparent backgrounds, plus regressions for the actual circled historical glyphs. Update setup.bat to run these with the standard parallel-translation suite; no dependency changes.
+
 ## M4 studio 0.5.0 / native format 0.4.0 / specification 0.6.0 — 2026-10-22
 
 - Add versioned, editable outline-derived blue bevels, violet interior shading, dark edges, shadow and glow, informed by the original artwork and archived Photoshop settings.

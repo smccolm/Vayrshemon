@@ -13,6 +13,8 @@ import uuid
 import xml.etree.ElementTree as ET
 import numpy as np
 from PIL import Image,ImageFont,ImageDraw
+from fontTools.ttLib import TTFont
+from fontTools.pens.ttGlyphPen import TTGlyphPen
 import pypdfium2 as pdfium
 if os.name!='nt': os.environ.setdefault('QT_QPA_PLATFORM','offscreen')
 from PySide6.QtCore import QCoreApplication,QEvent
@@ -24,6 +26,7 @@ from vayrshemon.studio_session import StudioSession
 from vayrshemon.studio_api import StudioAPI
 from vayrshemon.typesetting_session import TypesettingSession
 from vayrshemon import pages
+from vayrshemon.paint import mask,DEFAULT,ENGINE_VERSION
 
 ROOT=Path(__file__).resolve().parents[1]
 APP=QApplication.instance() or QApplication([])
@@ -99,6 +102,54 @@ class StudioTests(unittest.TestCase):
         self.call('collision.configure',mode='repair',maximumExpansion=100,fixedFrame=False)
         fixed=self.call('collision.inspect');self.assertTrue(fixed['solver'])
         self.assertEqual(self.book.text(),'AAA\nA')
+
+    def test_derived_counter_stays_open_in_proofs_and_on_paper(self):
+        # A real TTF with an outer stroke, enclosed counter and detached accent.
+        path=self.work/'counter.ttf';make_font(path)
+        with TTFont(path) as font:
+            pen=TTGlyphPen(None)
+            for points in (((40,0),(560,0),(560,700),(40,700)),
+                           ((180,150),(180,550),(420,550),(420,150)),
+                           ((240,750),(360,750),(360,800),(240,800))):
+                pen.moveTo(points[0])
+                for point in points[1:]: pen.lineTo(point)
+                pen.closePath()
+            font['glyf']['A']=pen.glyph();font.save(path)
+        fid=self.call('fonts.load',path=str(path))['fontId']
+        self.call('paint.bind',fontId=fid,kind='derived',enabled=True)
+        for dpi in (96,192):
+            for name,color in (('transparent','#00000000'),('white','#FFFFFFFF'),('black','#FF000000')):
+                result=self.call('glyph.proof',font_id=fid,glyph_id=2,em=80,dpi=dpi,background=color,path=self.path(f'counter-{dpi}-{name}.png'))
+                image=Image.open(result['path']).convert('RGBA');x,y,w,h=result['bounds']
+                # The counter center is (300,350) font units; Qt flips font Y.
+                pixel=image.getpixel((int((24-x)*image.width/w),int((-28-y)*image.height/h)))
+                self.assertEqual(pixel[3],0 if name=='transparent' else 255)
+                if name!='transparent': self.assertEqual(pixel[:3],(255,255,255) if name=='white' else (0,0,0))
+                self.assertEqual(result['paintEngineVersion'],ENGINE_VERSION)
+        self.assertEqual(self.book.state['paint']['recipe'],DEFAULT)
+
+    def test_archived_circled_glyphs_preserve_all_source_counters(self):
+        path=ROOT/'Inputs/font files/Test/test seven.ttf'
+        if not path.exists(): self.skipTest('Private historical font unavailable')
+        self.assertEqual(hashlib.sha256(path.read_bytes()).hexdigest(),'1b4ca056b0b1c80575db27185ca5fe6a952dfa50bf7da925dea513d1053218ad')
+        fid=self.call('fonts.load',path=str(path))['fontId']
+        self.call('paint.bind',fontId=fid,kind='derived',enabled=True)
+        # Isolate solid paint from the deliberately translucent surrounding glow.
+        self.call('paint.configure',edgeWidth=0,glowOpacity=0,shadowOpacity=0)
+        renderer=self.book.paint_renderer;binding=renderer.binding(fid)
+        for char in 'r\u00e1.ly':
+            for em in (41,200):
+                raw=self.book.fonts.raw(fid,em);gid=raw.glyphIndexesForString(char)[0]
+                original=raw.pathForGlyph(gid);rim,silhouette,interior=renderer.paths(binding,gid,em)
+                self.assertEqual(rim,original);self.assertEqual(silhouette,original);self.assertTrue(interior.isEmpty())
+                tile,area=renderer.tile(binding,gid,em,4)
+                expected=mask(original,area,4)
+                actual=np.frombuffer(tile.constBits(),np.uint8).reshape(tile.height(),tile.bytesPerLine())[:,:tile.width()*4].reshape(tile.height(),tile.width(),4)[:,:,3]
+                self.assertGreater(np.count_nonzero(expected>.99),10)
+                # This catches every sealed loop, including small punctuation
+                # counters, without hardcoding guessed language mappings.
+                self.assertLessEqual(np.max(actual[expected==0]),1)
+                self.assertLessEqual(np.abs(actual.astype(float)-expected*255).max(),1)
 
     def test_preflight_reports_changed_font_without_rendering_it(self):
         self.bind();path=self.work/'synthetic.ttf';path.write_bytes(path.read_bytes()+b'changed')

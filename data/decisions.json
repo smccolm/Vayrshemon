@@ -149,7 +149,7 @@
       "id": "ADR-025",
       "status": "accepted",
       "decision": "M4 separates verified source-layer bindings from derived historical relief and never substitutes a newer font mapping for attested text.",
-      "basis": "The approved translation source uses test seven and transliteration 5. Thimfora 79/80/81 supplies newer artwork geometry. Both remain exact hash-identified fonts with explicit paint bindings."
+      "basis": "The approved translation source uses test seven and transliteration 5. Thimfora 79/80/81 supplies newer artwork geometry. Both remain exact hash-identified fonts with explicit paint bindings. After annotated counter defects, engine 1.0.1 restricts derived shading to attested ink: enclosed whitespace cannot safely identify a decorative channel. Interior fills require explicit layer fonts."
     },
     {
       "id": "ADR-026",

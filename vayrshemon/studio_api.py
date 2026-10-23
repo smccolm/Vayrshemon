@@ -63,4 +63,4 @@ class StudioAPI(TypesettingAPI):
         image.fill(QColor(background));p=QPainter(image);p.setRenderHint(QPainter.RenderHint.SmoothPixmapTransform)
         p.drawImage(QRectF(0,0,image.width(),image.height()),tile);p.end()
         target=pages.target(s,path);publication.atomic(target,publication.png_bytes(image))
-        return dict(path=str(target),fontId=font_id,glyphId=glyph_id,em=em,dpi=dpi,background=background,bounds=[area.x(),area.y(),area.width(),area.height()],binding=deepcopy(binding),recipeHash=publication.signature(s.state['paint']['recipe']))
+        return dict(path=str(target),fontId=font_id,glyphId=glyph_id,em=em,dpi=dpi,background=background,bounds=[area.x(),area.y(),area.width(),area.height()],binding=deepcopy(binding),recipeHash=publication.signature(s.state['paint']['recipe']),paintEngineVersion=publication.ENGINE_VERSION)
