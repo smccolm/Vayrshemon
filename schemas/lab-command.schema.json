@@ -1,0 +1,943 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:lab-command:0.2.0",
+  "oneOf": [
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "session.status"
+        },
+        "params": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Inspect the current document, revision, capabilities and engine."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "document.read"
+        },
+        "params": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Read the complete semantic document and source text."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "document.edit"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 200000
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 200000
+            },
+            "text": {
+              "type": "string",
+              "maxLength": 100000
+            }
+          },
+          "required": [
+            "start",
+            "end",
+            "text"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Replace a UTF-16 range on grapheme boundaries. Revision and idempotency key are required."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "document.format"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 200000
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 200000
+            },
+            "font_id": {
+              "type": [
+                "string",
+                "null"
+              ]
+            },
+            "language": {
+              "type": "string",
+              "pattern": "^language\\.[A-Za-z0-9._-]+$"
+            },
+            "size": {
+              "type": "number",
+              "minimum": 1,
+              "maximum": 1000
+            },
+            "color": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{8}$"
+            }
+          },
+          "required": [
+            "start",
+            "end"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Set font, language and size for a range or the next typed text."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "document.save"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Atomically save a lab document; detects external changes and protects source files."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "document.open"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "discardUnsaved": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Open a validated lab document. Explicit discard is required for unsaved edits."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "page.configure"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "width": {
+              "type": "number"
+            },
+            "height": {
+              "type": "number"
+            },
+            "unit": {
+              "enum": [
+                "pt",
+                "mm",
+                "in"
+              ]
+            }
+          },
+          "required": [
+            "width",
+            "height"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Set independent physical page width and height."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "history.undo"
+        },
+        "params": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Undo the last text/format edit; page and lab settings are outside M1 text undo."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "history.redo"
+        },
+        "params": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Redo a text/format edit."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "fonts.list"
+        },
+        "params": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Inspect loaded font identities and the registered layer recipe."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "fonts.load"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "sha256": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Privately load a local static TTF without a system font install."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "layout.inspect"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "max_glyphs": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 100000
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Inspect glyph IDs, source clusters, positions, bounds, features and fallback."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "layout.hit-test"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "x": {
+              "type": "number"
+            },
+            "y": {
+              "type": "number"
+            }
+          },
+          "required": [
+            "x",
+            "y"
+          ],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Map a point in 96-DPI document coordinates to a UTF-16 caret."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "render.png"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            },
+            "mode": {
+              "enum": [
+                "mono",
+                "color"
+              ]
+            },
+            "dpi": {
+              "type": "number",
+              "minimum": 24,
+              "maximum": 1200
+            },
+            "region": {
+              "type": "array",
+              "items": {
+                "type": "number"
+              },
+              "minItems": 4,
+              "maxItems": 4
+            },
+            "overlays": {
+              "type": "object",
+              "properties": {
+                "baselines": {
+                  "type": "boolean"
+                },
+                "origins": {
+                  "type": "boolean"
+                },
+                "bounds": {
+                  "type": "boolean"
+                }
+              },
+              "required": [],
+              "additionalProperties": false
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Render the shared glyph layout to PNG, optionally a bounded tile for a huge page."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "view.configure"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "enum": [
+                "mono",
+                "color"
+              ]
+            },
+            "baselines": {
+              "type": "boolean"
+            },
+            "origins": {
+              "type": "boolean"
+            },
+            "bounds": {
+              "type": "boolean"
+            },
+            "zoom": {
+              "type": "number",
+              "minimum": 0.1,
+              "maximum": 3
+            },
+            "layer": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 2
+            },
+            "enabled": {
+              "type": "boolean"
+            },
+            "color": {
+              "type": "string",
+              "pattern": "^#[0-9a-fA-F]{6}$"
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "features.configure"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "kern": {
+              "type": "boolean"
+            },
+            "liga": {
+              "type": "boolean"
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Toggle kerning and standard ligatures; reuses the same text source."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "selection.set"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "start": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 200000
+            },
+            "end": {
+              "type": "integer",
+              "minimum": 0,
+              "maximum": 200000
+            }
+          },
+          "required": [
+            "start",
+            "end"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Select a grapheme-aligned UTF-16 range in the live editor."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "ui.inspect"
+        },
+        "params": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Read native accessibility, selection and UI state."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "ui.capture"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Save a PNG of the lab widget for local troubleshooting."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "reference.load"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "path": {
+              "type": "string"
+            }
+          },
+          "required": [
+            "path"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Display an image as a read-only visual reference."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.2.0"
+        },
+        "method": {
+          "const": "diagnostics.tail"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "limit": {
+              "type": "integer",
+              "minimum": 1,
+              "maximum": 500
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Read recent correlated diagnostics."
+    }
+  ]
+}

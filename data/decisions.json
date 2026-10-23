@@ -1,18 +1,107 @@
 {
   "schemaVersion": "0.1.0",
   "decisions": [
-    {"id":"ADR-001","status":"accepted","decision":"Windows desktop, local files and offline core.","basis":"User confirmation on 2026-10-22."},
-    {"id":"ADR-002","status":"proposed","decision":"Rust core with Tauri 2 and TypeScript controls.","basis":"M1 must prove input, accessibility and render transport before adoption."},
-    {"id":"ADR-003","status":"proposed","decision":"HarfBuzz shaping with FreeType/Skia integration.","basis":"M1 must prove actual source font behavior and UI/headless parity."},
-    {"id":"ADR-004","status":"accepted","decision":"Core-owned geometry shared by UI and export.","basis":"Prevent differences in layout between editing, automation and publishing."},
-    {"id":"ADR-005","status":"accepted","decision":"Semantic symbol IDs, explicit legacy mappings and hash-based font identity.","basis":"Current fonts reuse Latin slots; two historical files share an internal family name."},
-    {"id":"ADR-006","status":"proposed","decision":"Native editable color recipes plus portable derived color fonts.","basis":"Photoshop effects need a separate compatibility investigation in M4."},
-    {"id":"ADR-007","status":"accepted","decision":"One local MCP adapter backed by shared APIs.","basis":"User requires API and MCP control; implementation begins in M1."},
-    {"id":"ADR-008","status":"proposed","decision":"Directory working format with journal/checkpoints and bundle export.","basis":"M2 must prove crash recovery, portability and external-edit handling."},
-    {"id":"ADR-009","status":"proposed","decision":"Single writer and revision-checked transactions per document.","basis":"Prevent automation and manual edits from silently overwriting one another."},
-    {"id":"ADR-010","status":"accepted","decision":"JSON Schema 2020-12 with offline schema lookup and additional semantic checks.","basis":"M0 validates portable contracts, reference integrity and integer dimension bounds without network or Inputs."},
-    {"id":"ADR-011","status":"accepted","decision":"Chart-specific symbol IDs stay stable when their names or transliterations change.","basis":"Source-chart assignments are evidenced; some Unicode spellings and historical profiles remain unresolved."},
-    {"id":"ADR-012","status":"accepted","decision":"Strict explicit source codecs; preserve bytes, scalars and unknown slots.","basis":"Legacy import cannot silently normalize, replace or guess characters."},
-    {"id":"ADR-013","status":"accepted","decision":"Python evidence tooling with pinned dependencies; no editor runtime is implied.","basis":"M0 can inspect and validate the archive now while the proposed desktop stack awaits M1."}
+    {
+      "id": "ADR-001",
+      "status": "accepted",
+      "decision": "Windows desktop, local files and offline core.",
+      "basis": "User confirmation on 2026-10-22."
+    },
+    {
+      "id": "ADR-002",
+      "status": "accepted",
+      "decision": "Python/Qt 6.8.3 native laboratory and shared session; supersedes the unimplemented Rust/Tauri proposal.",
+      "basis": "M1 native input/accessibility, headless parity, actual font, and latency evidence in docs/M1.md; Tauri was not tested or declared to have failed."
+    },
+    {
+      "id": "ADR-003",
+      "status": "accepted",
+      "decision": "Qt text layout plus positioned QGlyphRun/QRawFont rendering for M1.",
+      "basis": "One authority for native editing and headless/color geometry; record Qt/platform/fonts and preserve master origins."
+    },
+    {
+      "id": "ADR-004",
+      "status": "accepted",
+      "decision": "Core-owned geometry shared by UI and export.",
+      "basis": "Prevent differences in layout between editing, automation and publishing."
+    },
+    {
+      "id": "ADR-005",
+      "status": "accepted",
+      "decision": "Semantic symbol IDs, explicit legacy mappings and hash-based font identity.",
+      "basis": "Current fonts reuse Latin slots; two historical files share an internal family name."
+    },
+    {
+      "id": "ADR-006",
+      "status": "proposed",
+      "decision": "Native editable color recipes plus portable derived color fonts.",
+      "basis": "Photoshop effects need a separate compatibility investigation in M4."
+    },
+    {
+      "id": "ADR-007",
+      "status": "accepted",
+      "decision": "One local MCP adapter backed by shared APIs.",
+      "basis": "User requires API and MCP control; implementation begins in M1."
+    },
+    {
+      "id": "ADR-008",
+      "status": "proposed",
+      "decision": "Directory working format with journal/checkpoints and bundle export.",
+      "basis": "M2 must prove crash recovery, portability and external-edit handling."
+    },
+    {
+      "id": "ADR-009",
+      "status": "accepted",
+      "decision": "Single Qt-thread writer with document IDs, revision checks and bounded idempotency history.",
+      "basis": "M1 live API/MCP tests reject stale revisions, wrong document targets and reused keys with different payloads."
+    },
+    {
+      "id": "ADR-010",
+      "status": "accepted",
+      "decision": "JSON Schema 2020-12 with offline schema lookup and additional semantic checks.",
+      "basis": "M0 validates portable contracts, reference integrity and integer dimension bounds without network or Inputs."
+    },
+    {
+      "id": "ADR-011",
+      "status": "accepted",
+      "decision": "Chart-specific symbol IDs stay stable when their names or transliterations change.",
+      "basis": "Source-chart assignments are evidenced; some Unicode spellings and historical profiles remain unresolved."
+    },
+    {
+      "id": "ADR-012",
+      "status": "accepted",
+      "decision": "Strict explicit source codecs; preserve bytes, scalars and unknown slots.",
+      "basis": "Legacy import cannot silently normalize, replace or guess characters."
+    },
+    {
+      "id": "ADR-013",
+      "status": "accepted",
+      "decision": "Python evidence tooling with pinned dependencies; no editor runtime is implied.",
+      "basis": "M0 can inspect and validate the archive now while the proposed desktop stack awaits M1."
+    },
+    {
+      "id": "ADR-014",
+      "status": "accepted",
+      "decision": "Private family aliases derived from full file hashes; original font bytes remain untouched.",
+      "basis": "Qt family-name selection otherwise cannot distinguish the two historical same-family fonts. Relevant outline/positioning table hashes are checked after private renaming."
+    },
+    {
+      "id": "ADR-015",
+      "status": "accepted",
+      "decision": "M1 lab wrapper embeds the M0 document contract, plus versioned render settings and local font locators.",
+      "basis": "One-page evidence checkpoint before M2 recovery and portable document packaging; references never silently embed/upload fonts."
+    },
+    {
+      "id": "ADR-016",
+      "status": "accepted",
+      "decision": "MCP 2024-11-05 stdio forwards to a current-user QLocalServer with an additional ephemeral token.",
+      "basis": "No network listener or web surface; UI and automation execute the same session methods on the Qt thread."
+    },
+    {
+      "id": "ADR-017",
+      "status": "accepted",
+      "decision": "Recover inspector source coverage using native grapheme-range glyph queries, including split ligatures.",
+      "basis": "A reproduced Qt 6.8.3 emoji fallback defect returns incorrect stringIndexes; tests require accurate mixed-font source ranges."
+    }
   ]
 }

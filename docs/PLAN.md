@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.2.0**, 2026-10-22. Status: M0 evidence and contracts complete; M1 desktop/font laboratory is next.
+Revision **0.3.0**, 2026-10-22. Status: M0 complete; M1 native desktop/font laboratory implemented and automated acceptance evidence recorded. M2 is next. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -63,7 +63,7 @@ Deliver:
 
 ### M1 — Font, rendering, and input laboratory
 
-This is the first implementation priority. Establish the hardest dependencies before building the full editor UI.
+**Implemented:** Qt 6.8.3 native text/input adapter, one-page lab window, shared headless geometry and rendering, private hash-bound fonts, registered three-layer colors, editable multilingual text, accessibility inspection, revision-checked API/MCP, atomic lab saves, and measurements. See [M1 results and limitations](M1.md). This replaces the provisional Tauri/Skia laboratory route; that route was not tested or declared to have failed. M1 remains a laboratory, not the full M2 authoring release.
 
 Deliver:
 
@@ -76,7 +76,7 @@ Deliver:
 
 **Exit gate:** actual source fonts render and remain aligned; mixed English/script typing and IME work; UI and headless geometry agree; selection follows visible glyph clusters; the accessibility tree exposes meaningful text. If the proposed shell/input bridge fails this gate, change the adapter before committing to the UI framework. Record screenshots and metrics from the successful route.
 
-### M2 — First usable editor, target application v0.1
+### M2 — First usable editor
 
 Deliver:
 
@@ -90,7 +90,7 @@ Deliver:
 
 **Exit gate:** compose a real mixed-language page, change its dimensions, edit both languages, switch monochrome/color, close/reopen, recover an interrupted session, and reproduce the page through MCP. Geometry and text must round-trip. This milestone is a usable editing tool even while richer visual effects remain in development.
 
-### M3 — Typesetting and collision workbench, target v0.2
+### M3 — Typesetting and collision workbench
 
 Deliver:
 
@@ -103,7 +103,7 @@ Deliver:
 
 **Exit gate:** no automatic change to text or font size; no separation of intentional connected glyphs or marks; constrained repairs either meet their documented clearance or return a stable explanation. Reflow terminates and remains reproducible.
 
-### M4 — Color-font studio and publishing, target v0.3
+### M4 — Color-font studio and publishing
 
 Deliver:
 
@@ -115,7 +115,7 @@ Deliver:
 
 **Exit gate:** compare exported pages against the editor, check physical size, validate the generated font in an independent renderer, and test copying/searching exported text. Decorative output must never be presented as semantically faithful searchable text when it is only an image or outline.
 
-### M5 — Language workbench, target v0.4 and onward
+### M5 — Language workbench
 
 Deliver in small vertical increments:
 
@@ -173,9 +173,9 @@ For each requested revision: capture a reproducing document or operation sequenc
 
 ## 7. Immediate implementation queue
 
-1. Consume the M0 font registry, mapping, fixtures and schemas in the minimal Windows font laboratory, with structured diagnostics from its first run.
-2. Implement the command/document runtime and validate source glyphs, master-driven color layers, and input/selection/IME/accessibility.
-3. Add headless replay and the first MCP commands against the same live session; demonstrate that a scripted edit appears in the UI.
-4. Record measurements and settle the shell/render adapter decision; then build M2 against the proven contracts.
+1. Complete the remaining physical OS/IME/accessibility checks listed in M1 on the user's chosen input setup; retain the passing native event and provider regressions.
+2. Build M2's full document workflow, multi-page frames, recovery/history, and richer clipboard metadata on the shared session contracts.
+3. Improve long-paragraph rendering and inspector scheduling using M1's measured 100,000-character case.
+4. Keep setup.bat, published API/MCP schemas, regression tests, and milestone evidence updated with every dependency or behavior change.
 
 The first demo should answer a concrete question: **can we type and revise real English and Vayrshemon on a custom-sized page, with editable color lettering, and inspect exactly why every glyph and line is where it is?**

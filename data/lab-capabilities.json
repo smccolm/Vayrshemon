@@ -1,0 +1,259 @@
+{
+  "schemaVersion": "0.1.0",
+  "apiVersion": "0.2.0",
+  "milestone": "M1",
+  "capabilities": [
+    {
+      "method": "session.status",
+      "description": "Inspect the current document, revision, capabilities and engine.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.read",
+      "description": "Read the complete semantic document and source text.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.edit",
+      "description": "Replace a UTF-16 range on grapheme boundaries. Revision and idempotency key are required.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.format",
+      "description": "Set font, language and size for a range or the next typed text.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.save",
+      "description": "Atomically save a lab document; detects external changes and protects source files.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "document.open",
+      "description": "Open a validated lab document. Explicit discard is required for unsaved edits.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "page.configure",
+      "description": "Set independent physical page width and height.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "history.undo",
+      "description": "Undo the last text/format edit; page and lab settings are outside M1 text undo.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "history.redo",
+      "description": "Redo a text/format edit.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "fonts.list",
+      "description": "Inspect loaded font identities and the registered layer recipe.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "fonts.load",
+      "description": "Privately load a local static TTF without a system font install.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "layout.inspect",
+      "description": "Inspect glyph IDs, source clusters, positions, bounds, features and fallback.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "layout.hit-test",
+      "description": "Map a point in 96-DPI document coordinates to a UTF-16 caret.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "render.png",
+      "description": "Render the shared glyph layout to PNG, optionally a bounded tile for a huge page.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "view.configure",
+      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "features.configure",
+      "description": "Toggle kerning and standard ligatures; reuses the same text source.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "selection.set",
+      "description": "Select a grapheme-aligned UTF-16 range in the live editor.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": true
+    },
+    {
+      "method": "ui.inspect",
+      "description": "Read native accessibility, selection and UI state.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "ui.capture",
+      "description": "Save a PNG of the lab widget for local troubleshooting.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": true
+    },
+    {
+      "method": "reference.load",
+      "description": "Display an image as a read-only visual reference.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": true
+    },
+    {
+      "method": "diagnostics.tail",
+      "description": "Read recent correlated diagnostics.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    }
+  ]
+}

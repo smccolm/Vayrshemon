@@ -1,0 +1,108 @@
+"""Desktop, headless rendering, diagnostics, live API and stdio MCP entry point."""
+import argparse
+import json
+import os
+from pathlib import Path
+import sys
+import traceback
+
+
+def main():
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--root', type=Path, default=Path(__file__).resolve().parents[1])
+    sub = parser.add_subparsers(dest='command', required=True)
+    lab = sub.add_parser('lab')
+    lab.add_argument('--document', type=Path)
+    lab.add_argument('--no-source-fonts', action='store_true')
+    for name in ('inspect', 'render', 'benchmark'):
+        p = sub.add_parser(name)
+        p.add_argument('--document', type=Path)
+        p.add_argument('--no-source-fonts', action='store_true')
+        p.add_argument('--out', type=Path)
+        if name == 'render':
+            p.add_argument('--mode', choices=['mono','color'], default='color')
+            p.add_argument('--dpi', type=float, default=96)
+            p.add_argument('--region', type=float, nargs=4)
+    mcp = sub.add_parser('mcp')
+    mcp.add_argument('--headless', action='store_true')
+    mcp.add_argument('--no-source-fonts', action='store_true')
+    mcp.add_argument('--descriptor', type=Path)
+    mcp.add_argument('--document', type=Path)
+    call = sub.add_parser('call')
+    call.add_argument('method')
+    arguments = call.add_mutually_exclusive_group()
+    arguments.add_argument('--params', default='{}')
+    arguments.add_argument('--params-file', type=Path)
+    call.add_argument('--expected-revision', type=int)
+    call.add_argument('--idempotency-key')
+    call.add_argument('--document-id')
+    call.add_argument('--descriptor', type=Path)
+    args = parser.parse_args()
+    if args.command == 'call':
+        from .api import remote_call
+        from tools.m0.common import load_json
+        params = load_json(args.params_file) if args.params_file else json.loads(args.params)
+        result = remote_call(args.root, args.method, params, expected_revision=args.expected_revision,
+                             idempotency_key=args.idempotency_key, descriptor=args.descriptor, document_id=args.document_id)
+        print(json.dumps(result, ensure_ascii=True, indent=2))
+        return 0 if result['ok'] else 1
+    if args.command == 'mcp' and not args.headless:
+        from .mcp import serve
+        serve(args.root, descriptor=args.descriptor)
+        return 0
+    # Windows' offscreen plugin uses a dummy font backend. Hidden native Qt
+    # supplies the same fonts and geometry as the window; Linux uses offscreen.
+    if os.name != 'nt' and args.command != 'lab':
+        os.environ.setdefault('QT_QPA_PLATFORM', 'offscreen')
+    from PySide6.QtWidgets import QApplication
+    from PySide6.QtCore import qInstallMessageHandler
+    from .session import Session
+    from .api import API, LocalServer
+    from . import layout
+    from tools.m0.common import write_json
+    app = QApplication.instance() or QApplication([])
+    app.setApplicationName('Vayrshemon')
+    session = Session(args.root, source_fonts=not args.no_source_fonts)
+    api = API(session)
+    qInstallMessageHandler(lambda kind, context, message: session.log.emit('qt', str(kind), message=message))
+    sys.excepthook = lambda kind, error, tb: session.log.emit('runtime', 'UNCAUGHT_EXCEPTION', level='error',
+                                                             message=str(error), traceback=''.join(traceback.format_exception(kind,error,tb)))
+    if getattr(args, 'document', None):
+        session.open(args.document)
+    if args.command == 'lab':
+        from .desktop import LabWindow
+        window = LabWindow(session, api)
+        server = LocalServer(api)
+        app.aboutToQuit.connect(server.close)
+        window.show()
+        return app.exec()
+    if args.command == 'mcp':
+        from .mcp import serve
+        serve(args.root, api)
+        return 0
+    if args.command == 'render':
+        if not args.out:
+            parser.error('render requires --out')
+        result = layout.render(session, args.out, mode=args.mode, dpi=args.dpi, region=args.region)[1]
+    elif args.command == 'benchmark':
+        from .benchmark import benchmark
+        result = benchmark(session)
+    else:
+        result = layout.inspect(session)
+    if args.out and args.command != 'render':
+        path = session.output_path(args.out)
+        if path.exists():
+            raise ValueError('OUTPUT_EXISTS')
+        write_json(path, result)
+        print(json.dumps(dict(ok=True, path=str(path)), ensure_ascii=True))
+        return 0
+    print(json.dumps(result, ensure_ascii=True, indent=2))
+    return 0
+
+
+if __name__ == '__main__':
+    try:
+        raise SystemExit(main())
+    except Exception:
+        traceback.print_exc(file=sys.stderr)
+        raise SystemExit(1)

@@ -1,0 +1,198 @@
+{
+  "type": "object",
+  "properties": {
+    "format": {
+      "const": "vayrshemon.lab"
+    },
+    "formatVersion": {
+      "const": "0.1.0"
+    },
+    "document": {
+      "type": "object"
+    },
+    "lab": {
+      "type": "object",
+      "properties": {
+        "features": {
+          "type": "object",
+          "properties": {
+            "kern": {
+              "type": "boolean"
+            },
+            "liga": {
+              "type": "boolean"
+            }
+          },
+          "required": [
+            "kern",
+            "liga"
+          ],
+          "additionalProperties": false
+        },
+        "styleFeatures": {
+          "type": "object",
+          "additionalProperties": {
+            "type": "object",
+            "properties": {
+              "kern": {
+                "type": "boolean"
+              },
+              "liga": {
+                "type": "boolean"
+              }
+            },
+            "required": [
+              "kern",
+              "liga"
+            ],
+            "additionalProperties": false
+          },
+          "maxProperties": 2000
+        },
+        "view": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "enum": [
+                "mono",
+                "color"
+              ]
+            },
+            "baselines": {
+              "type": "boolean"
+            },
+            "origins": {
+              "type": "boolean"
+            },
+            "bounds": {
+              "type": "boolean"
+            },
+            "zoom": {
+              "type": "number",
+              "minimum": 0.1,
+              "maximum": 3
+            }
+          },
+          "required": [
+            "mode",
+            "baselines",
+            "origins",
+            "bounds",
+            "zoom"
+          ],
+          "additionalProperties": false
+        },
+        "recipe": {
+          "anyOf": [
+            {
+              "type": "null"
+            },
+            {
+              "type": "object",
+              "properties": {
+                "recipeId": {
+                  "const": "recipe.thimfora.flat-lab"
+                },
+                "revision": {
+                  "const": "0.1.0"
+                },
+                "master": {
+                  "type": "string"
+                },
+                "layers": {
+                  "type": "array",
+                  "items": {
+                    "type": "object",
+                    "properties": {
+                      "fontId": {
+                        "type": "string"
+                      },
+                      "color": {
+                        "type": "string",
+                        "pattern": "^#[0-9a-fA-F]{6}$"
+                      },
+                      "enabled": {
+                        "type": "boolean"
+                      },
+                      "glyphMap": {
+                        "type": "array",
+                        "items": {
+                          "type": "integer",
+                          "minimum": 0
+                        },
+                        "maxItems": 65536
+                      }
+                    },
+                    "required": [
+                      "fontId",
+                      "color",
+                      "enabled",
+                      "glyphMap"
+                    ],
+                    "additionalProperties": false
+                  },
+                  "minItems": 3,
+                  "maxItems": 3
+                }
+              },
+              "required": [
+                "recipeId",
+                "revision",
+                "master",
+                "layers"
+              ],
+              "additionalProperties": false
+            }
+          ]
+        },
+        "fontSources": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "properties": {
+              "fontId": {
+                "type": "string"
+              },
+              "sha256": {
+                "type": "string",
+                "pattern": "^[0-9a-f]{64}$"
+              },
+              "path": {
+                "type": "string"
+              }
+            },
+            "required": [
+              "fontId",
+              "sha256",
+              "path"
+            ],
+            "additionalProperties": false
+          },
+          "maxItems": 128
+        }
+      },
+      "required": [
+        "features",
+        "styleFeatures",
+        "view",
+        "recipe",
+        "fontSources"
+      ],
+      "additionalProperties": false
+    },
+    "engine": {
+      "type": "object"
+    }
+  },
+  "required": [
+    "format",
+    "formatVersion",
+    "document",
+    "lab",
+    "engine"
+  ],
+  "additionalProperties": false,
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:vayrshemon:schema:lab-document:0.1.0",
+  "description": "The document property is additionally validated against document.schema.json and M1 semantic constraints."
+}

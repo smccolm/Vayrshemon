@@ -1,6 +1,8 @@
 # Architecture and engineering decisions
 
-Specification revision 0.2.0, 2026-10-22. This document describes the proposed application. M0 evidence tooling and initial contracts are implemented; see [M0](M0.md) for their exact capabilities and [PLAN.md](PLAN.md) for later milestones. The machine-readable [decision register](../data/decisions.json) also records the decisions made during M0.
+Specification revision 0.3.0, 2026-10-22. M0 evidence tooling and the M1 native laboratory are implemented. See [M0](M0.md) and [M1](M1.md) for the exact supported scope; later sections describe the broader target architecture. The machine-readable [decision register](../data/decisions.json) records the current adapter choice and its evidence.
+
+The working M1 core is Python plus pinned Qt 6.8.3. QTextDocument/QTextLayout own layout, native QTextEdit owns input and accessibility, and QGlyphRun/QRawFont share positioned glyphs between the color preview and headless PNG renderer. Process-private renamed font copies solve family-name collisions without modifying original bytes. The local API uses QLocalServer with current-user OS access, and the stdio MCP adapter forwards to that same session. This is an explicit replacement for the earlier provisional Rust/Tauri/Skia route, not evidence that route failed. M2 can continue this adapter; any later replacement must pass the same geometry, input, preservation, and accessibility gates.
 
 ## 1. System boundary
 
@@ -31,13 +33,13 @@ A layout result carries a document revision, layout generation, engine fingerpri
 
 ## 2. Decision register
 
-“Accepted” records direction established by the user or a necessary data invariant. “Proposed” requires implementation evidence. No dependency versions or renderer performance have been validated yet.
+“Accepted” records direction established by the user or implementation evidence. “Proposed” remains future work. M1 pins and measures the native Qt adapter; its exact dependency versions and measurements are linked in the M1 guide.
 
 | ID | Decision | Status and validation |
 | --- | --- | --- |
 | ADR-001 | Windows desktop, local files, offline core | Accepted by user |
-| ADR-002 | Rust core; Tauri 2 desktop shell with TypeScript controls | Proposed; M1 must prove input, accessibility, deployment, renderer transport, and latency |
-| ADR-003 | HarfBuzz for shaping; FreeType/Skia integration for font outlines and rendering | Proposed; pin exact builds and verify metrics, hinting, glyph origins, color behavior, and headless parity |
+| ADR-002 | Python/Qt native laboratory and shared session | Accepted for M1; replaces the unimplemented Rust/Tauri proposal |
+| ADR-003 | Qt text engine and positioned QGlyphRun rendering | Accepted for M1; actual font and UI/headless parity evidence, with explicit engine/platform fingerprints |
 | ADR-004 | Core-owned geometry and a shared display list | Accepted design constraint; adapters may differ, layout authority may not |
 | ADR-005 | Versioned semantic text, explicit legacy mapping, file-hash font identity | Accepted data-preservation constraint |
 | ADR-006 | Editable native color recipe plus portable color-font build output | Proposed delivery design; M4 proves supported formats/effects |
@@ -186,7 +188,7 @@ Migrations are explicit, versioned, and tested against fixtures. Preserve a pre-
 
 ## 11. First implementation layout
 
-This is a proposed repository structure; these application modules do not exist yet.
+M1 implementation lives in `vayrshemon/`: session, fonts, layout, desktop, API, MCP, diagnostics, and benchmark modules. `tools/run_lab.py` is the absolute-path MCP entry point. The following earlier Rust workspace layout remains a historical proposal, not the implemented tree:
 
 ```text
 apps/desktop/             Windows shell, controls, input and accessibility adapters

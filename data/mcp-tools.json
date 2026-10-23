@@ -1,0 +1,655 @@
+{
+  "apiVersion": "0.2.0",
+  "protocolVersion": "2024-11-05",
+  "tools": [
+    {
+      "name": "session_status",
+      "description": "Inspect the current document, revision, capabilities and engine.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "document_read",
+      "description": "Read the complete semantic document and source text.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "document_edit",
+      "description": "Replace a UTF-16 range on grapheme boundaries. Revision and idempotency key are required.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200000
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200000
+          },
+          "text": {
+            "type": "string",
+            "maxLength": 100000
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end",
+          "text",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "document_format",
+      "description": "Set font, language and size for a range or the next typed text.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200000
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200000
+          },
+          "font_id": {
+            "type": [
+              "string",
+              "null"
+            ]
+          },
+          "language": {
+            "type": "string",
+            "pattern": "^language\\.[A-Za-z0-9._-]+$"
+          },
+          "size": {
+            "type": "number",
+            "minimum": 1,
+            "maximum": 1000
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{8}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "document_save",
+      "description": "Atomically save a lab document; detects external changes and protects source files.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "document_open",
+      "description": "Open a validated lab document. Explicit discard is required for unsaved edits.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "discardUnsaved": {
+            "type": "boolean"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "page_configure",
+      "description": "Set independent physical page width and height.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "width": {
+            "type": "number"
+          },
+          "height": {
+            "type": "number"
+          },
+          "unit": {
+            "enum": [
+              "pt",
+              "mm",
+              "in"
+            ]
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "width",
+          "height",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "history_undo",
+      "description": "Undo the last text/format edit; page and lab settings are outside M1 text undo.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "history_redo",
+      "description": "Redo a text/format edit.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "fonts_list",
+      "description": "Inspect loaded font identities and the registered layer recipe.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "fonts_load",
+      "description": "Privately load a local static TTF without a system font install.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "sha256": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "layout_inspect",
+      "description": "Inspect glyph IDs, source clusters, positions, bounds, features and fallback.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "max_glyphs": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 100000
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "layout_hit_test",
+      "description": "Map a point in 96-DPI document coordinates to a UTF-16 caret.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "x": {
+            "type": "number"
+          },
+          "y": {
+            "type": "number"
+          }
+        },
+        "required": [
+          "x",
+          "y"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "render_png",
+      "description": "Render the shared glyph layout to PNG, optionally a bounded tile for a huge page.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "mode": {
+            "enum": [
+              "mono",
+              "color"
+            ]
+          },
+          "dpi": {
+            "type": "number",
+            "minimum": 24,
+            "maximum": 1200
+          },
+          "region": {
+            "type": "array",
+            "items": {
+              "type": "number"
+            },
+            "minItems": 4,
+            "maxItems": 4
+          },
+          "overlays": {
+            "type": "object",
+            "properties": {
+              "baselines": {
+                "type": "boolean"
+              },
+              "origins": {
+                "type": "boolean"
+              },
+              "bounds": {
+                "type": "boolean"
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "view_configure",
+      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "enum": [
+              "mono",
+              "color"
+            ]
+          },
+          "baselines": {
+            "type": "boolean"
+          },
+          "origins": {
+            "type": "boolean"
+          },
+          "bounds": {
+            "type": "boolean"
+          },
+          "zoom": {
+            "type": "number",
+            "minimum": 0.1,
+            "maximum": 3
+          },
+          "layer": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 2
+          },
+          "enabled": {
+            "type": "boolean"
+          },
+          "color": {
+            "type": "string",
+            "pattern": "^#[0-9a-fA-F]{6}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "features_configure",
+      "description": "Toggle kerning and standard ligatures; reuses the same text source.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "kern": {
+            "type": "boolean"
+          },
+          "liga": {
+            "type": "boolean"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "selection_set",
+      "description": "Select a grapheme-aligned UTF-16 range in the live editor.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "start": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200000
+          },
+          "end": {
+            "type": "integer",
+            "minimum": 0,
+            "maximum": 200000
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "start",
+          "end",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ui_inspect",
+      "description": "Read native accessibility, selection and UI state.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "ui_capture",
+      "description": "Save a PNG of the lab widget for local troubleshooting.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "reference_load",
+      "description": "Display an image as a read-only visual reference.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "path": {
+            "type": "string"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "path",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "diagnostics_tail",
+      "description": "Read recent correlated diagnostics.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "limit": {
+            "type": "integer",
+            "minimum": 1,
+            "maximum": 500
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    }
+  ]
+}

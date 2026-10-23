@@ -1,0 +1,178 @@
+{
+  "schemaVersion": "0.1.0",
+  "milestone": "M1",
+  "timestampUtc": "2026-10-23T01:18:33.005097+00:00",
+  "machine": {
+    "os": "Windows-11-10.0.26200-SP0",
+    "cpu": "AMD64 Family 25 Model 97 Stepping 2, AuthenticAMD",
+    "logicalProcessors": 32
+  },
+  "engine": {
+    "application": "0.2.0",
+    "qt": "6.8.3",
+    "pyside": "6.8.3",
+    "python": "3.12.7",
+    "os": "Windows-11-10.0.26200-SP0",
+    "platformPlugin": "windows",
+    "layout": "QTextDocument/QTextLayout",
+    "logicalDpi": 96,
+    "units": "logical-pixels-at-96-dpi",
+    "designMetrics": true,
+    "defaultFont": "Segoe UI",
+    "features": {
+      "kern": true,
+      "liga": true
+    },
+    "fonts": [
+      {
+        "fontId": "font:2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd:0",
+        "sha256": "2e195f255b0f53042a0a05b693f94bafa41505dbaab475d7379549ccdaff59dd"
+      },
+      {
+        "fontId": "font:182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325:0",
+        "sha256": "182d49f4e1677afd607696ad9506fbdb377e6d1d77fd5e53974ca74a0d378325"
+      },
+      {
+        "fontId": "font:a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc:0",
+        "sha256": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc"
+      }
+    ]
+  },
+  "proofDirectory": ".local/m1-proof/e2b7cb849fae48fc888db7c5192c5aaf",
+  "gates": {
+    "uiHeadlessGeometryEqual": true,
+    "geometryHash": "c8042cdeb09dfe84019cd7d72f2621007f8883b6500cd66bf4d31daf7e2159bd",
+    "actualSourceFonts": true,
+    "nativeAccessibleText": true,
+    "accessibilityRole": "Role.EditableText",
+    "nativeTextInterface": true,
+    "imePreeditNotCommitted": true,
+    "imeCommitPassed": true,
+    "saveReopenSemanticEquality": true,
+    "dpiChangeDoesNotReflow": true
+  },
+  "latency": {
+    "keyToNativePaint": {
+      "samples": 40,
+      "medianMs": 2.0001999946543947,
+      "p95Ms": 2.7611000114120543,
+      "maxMs": 4.453400004422292
+    },
+    "tileRender": {
+      "samples": 30,
+      "medianMs": 0.3512499970383942,
+      "p95Ms": 0.4031999851576984,
+      "maxMs": 0.5786999827250838
+    },
+    "fullInspectorRefreshMs": 25.082500011194497,
+    "transport": "shared in-process glyphs; no per-frame IPC copies"
+  },
+  "raster": {
+    "mono": {
+      "path": ".local/m1-proof/e2b7cb849fae48fc888db7c5192c5aaf/mono.png",
+      "width": 816,
+      "height": 1056,
+      "dpi": 96,
+      "region": [
+        0.0,
+        0.0,
+        816.0,
+        1056.0
+      ],
+      "bufferBytes": 3446784,
+      "elapsedMs": 22.804100008215755
+    },
+    "color": {
+      "path": ".local/m1-proof/e2b7cb849fae48fc888db7c5192c5aaf/color.png",
+      "width": 816,
+      "height": 1056,
+      "dpi": 96,
+      "region": [
+        0.0,
+        0.0,
+        816.0,
+        1056.0
+      ],
+      "bufferBytes": 3446784,
+      "elapsedMs": 25.438399985432625
+    },
+    "dpi96": {
+      "path": null,
+      "width": 256,
+      "height": 256,
+      "dpi": 96,
+      "region": [
+        0.0,
+        0.0,
+        256.0,
+        256.0
+      ],
+      "bufferBytes": 262144,
+      "elapsedMs": 0.4143000114709139
+    },
+    "dpi192": {
+      "path": null,
+      "width": 512,
+      "height": 512,
+      "dpi": 192,
+      "region": [
+        0.0,
+        0.0,
+        256.0,
+        256.0
+      ],
+      "bufferBytes": 1048576,
+      "elapsedMs": 3.9254000002983958
+    },
+    "hugePageTile": {
+      "path": null,
+      "width": 512,
+      "height": 256,
+      "dpi": 96,
+      "region": [
+        0.0,
+        0.0,
+        512.0,
+        256.0
+      ],
+      "bufferBytes": 524288,
+      "elapsedMs": 0.5684999923687428
+    },
+    "maxPixels": 16000000
+  },
+  "scale": {
+    "textScalars": 100000,
+    "largeLayoutMs": 127.72640000912361,
+    "largeTextTile": {
+      "path": null,
+      "width": 512,
+      "height": 256,
+      "dpi": 96,
+      "region": [
+        0.0,
+        0.0,
+        512.0,
+        256.0
+      ],
+      "bufferBytes": 524288,
+      "elapsedMs": 166.05040000285953
+    },
+    "independentPages": 100,
+    "independentPageLayoutTotalMs": 201.39040000503883,
+    "caveat": "100 separate 1000-scalar page layouts, not a paginated multi-page editor"
+  },
+  "memory": {
+    "initialWorkingSetBytes": 126091264,
+    "largeTextWorkingSetBytes": 168161280,
+    "measurement": "Windows working set; Linux/macOS peak RSS"
+  },
+  "limitations": [
+    "Native IME preedit/commit events tested; OS candidate-window interaction requires an installed IME/manual pass.",
+    "Qt accessibility provider inspected; external Windows UIA computer-use approval timed out in this run.",
+    "DPI tested through raster scale and shared geometry; moving between physical monitors is a separate manual pass.",
+    "Flat color layers only; source Photoshop bevel/glow is M4."
+  ],
+  "notes": [
+    "Local source artwork, screenshots and saved specimen stay ignored. This file contains metadata and measurements only."
+  ]
+}

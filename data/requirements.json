@@ -1,27 +1,221 @@
 {
   "schemaVersion": "0.1.0",
   "requirements": [
-    {"id":"PAGE-01","milestone":"M1/M2","status":"contract-only","evidence":["schemas/document.schema.json","tests/fixtures/documents/spacing.json"],"remaining":"Interactive geometry and physical export measurement."},
-    {"id":"PAGE-02","milestone":"M2","status":"contract-only","evidence":["schemas/document.schema.json"],"remaining":"Frame flow, overset indicators, clipping and bleed UI."},
-    {"id":"TEXT-01","milestone":"M1/M2","status":"foundation","evidence":["data/orthography/thimfora-79.json","tests/fixtures/documents/symbols.json","tools/m0/mapping.py"],"remaining":"Live editing, clipboard and language-aware search."},
-    {"id":"TEXT-02","milestone":"M1/M2","status":"planned","evidence":["tests/fixtures/documents/unicode.json"],"remaining":"Caret, IME, selection, undo and accessibility."},
-    {"id":"FONT-01","milestone":"M1","status":"foundation","evidence":["data/fonts.json","tools/m0/fonts.py","tests/test_m0.py"],"remaining":"Runtime font loading, shaping and missing-font presentation."},
-    {"id":"FONT-02","milestone":"M1/M2","status":"foundation","evidence":["docs/research/font-layer-audit.json","data/fixtures.json"],"remaining":"Rendered master-driven layer registration."},
-    {"id":"FONT-03","milestone":"M4","status":"planned","evidence":["docs/ARCHITECTURE.md"],"remaining":"Color-font compiler and independent rendering proof."},
-    {"id":"LAYOUT-01","milestone":"M2/M3","status":"contract-only","evidence":["schemas/document.schema.json","data/fixtures.json"],"remaining":"Shaping, line breaking, spacing and pagination."},
-    {"id":"LAYOUT-02","milestone":"M3","status":"planned","evidence":["tests/fixtures/documents/spacing.json"],"remaining":"Collision geometry and bounded repairs."},
-    {"id":"DATA-01","milestone":"M2","status":"foundation","evidence":["tools/m0/mapping.py","tools/m0/docx.py","schemas/document.schema.json"],"remaining":"Native document persistence, recovery and migration runtime."},
-    {"id":"VERSION-01","milestone":"M0-M6","status":"foundation","evidence":["data/assets.json","data/fonts.json","requirements-m0.txt"],"remaining":"Document journals, engine fingerprints, artifact builds and backups."},
-    {"id":"AUTO-01","milestone":"M1-M5","status":"foundation","evidence":["data/capabilities.json","schemas/command.schema.json","tools/m0/__main__.py"],"remaining":"Live document API execution and MCP session bridge."},
-    {"id":"DEBUG-01","milestone":"M0-M6","status":"foundation","evidence":["tools/m0/__main__.py","tests/test_m0.py"],"remaining":"Desktop/core/renderer traces and visual replay bundles."},
-    {"id":"EXPORT-01","milestone":"M2/M4","status":"planned","evidence":["docs/ARCHITECTURE.md"],"remaining":"Page rendering, export and independent reader verification."},
-    {"id":"LANG-01","milestone":"M5","status":"foundation","evidence":["data/orthography/chart-transcription.json","data/orthography/thimfora-79.json"],"remaining":"Structured lexicon, grammar, corpus and publishing."}
+    {
+      "id": "PAGE-01",
+      "milestone": "M1/M2",
+      "status": "foundation",
+      "evidence": [
+        "schemas/document.schema.json",
+        "tests/fixtures/documents/spacing.json",
+        "vayrshemon/session.py",
+        "tests/test_m1.py"
+      ],
+      "remaining": "M1 custom dimensions and physical PNG sizing verified; multi-page overrides and publishing remain M2/M4."
+    },
+    {
+      "id": "PAGE-02",
+      "milestone": "M2",
+      "status": "contract-only",
+      "evidence": [
+        "schemas/document.schema.json"
+      ],
+      "remaining": "Frame flow, overset indicators, clipping and bleed UI."
+    },
+    {
+      "id": "TEXT-01",
+      "milestone": "M1/M2",
+      "status": "foundation",
+      "evidence": [
+        "data/orthography/thimfora-79.json",
+        "tests/fixtures/documents/symbols.json",
+        "tools/m0/mapping.py",
+        "vayrshemon/session.py",
+        "vayrshemon/desktop.py"
+      ],
+      "remaining": "M1 editable Unicode/legacy spans and plain-text clipboard; rich semantic clipboard, symbols editing and language-aware search remain M2."
+    },
+    {
+      "id": "TEXT-02",
+      "milestone": "M1/M2",
+      "status": "foundation",
+      "evidence": [
+        "tests/fixtures/documents/unicode.json",
+        "tests/test_m1.py",
+        "docs/M1.md"
+      ],
+      "remaining": "Native input, navigation, selection, clipboard, undo, IME event path and accessibility provider pass. OS candidate-window, external UIA client and physical monitor checks remain manual."
+    },
+    {
+      "id": "FONT-01",
+      "milestone": "M1",
+      "status": "foundation",
+      "evidence": [
+        "data/fonts.json",
+        "tools/m0/fonts.py",
+        "tests/test_m0.py",
+        "vayrshemon/fonts.py",
+        "tests/test_m1.py"
+      ],
+      "remaining": "M1 private file-hash font loading implemented; broader font formats/variation support remain future work."
+    },
+    {
+      "id": "FONT-02",
+      "milestone": "M1/M2",
+      "status": "foundation",
+      "evidence": [
+        "docs/research/font-layer-audit.json",
+        "data/fixtures.json",
+        "vayrshemon/layout.py",
+        "docs/research/m1-validation.json"
+      ],
+      "remaining": "Flat registered source layers implemented; detailed effects and recipe studio remain M4."
+    },
+    {
+      "id": "FONT-03",
+      "milestone": "M4",
+      "status": "planned",
+      "evidence": [
+        "docs/ARCHITECTURE.md"
+      ],
+      "remaining": "Color-font compiler and independent rendering proof."
+    },
+    {
+      "id": "LAYOUT-01",
+      "milestone": "M2/M3",
+      "status": "contract-only",
+      "evidence": [
+        "schemas/document.schema.json",
+        "data/fixtures.json"
+      ],
+      "remaining": "Shaping, line breaking, spacing and pagination."
+    },
+    {
+      "id": "LAYOUT-02",
+      "milestone": "M3",
+      "status": "planned",
+      "evidence": [
+        "tests/fixtures/documents/spacing.json"
+      ],
+      "remaining": "Collision geometry and bounded repairs."
+    },
+    {
+      "id": "DATA-01",
+      "milestone": "M2",
+      "status": "foundation",
+      "evidence": [
+        "tools/m0/mapping.py",
+        "tools/m0/docx.py",
+        "schemas/document.schema.json",
+        "vayrshemon/session.py",
+        "tests/test_m1.py"
+      ],
+      "remaining": "M1 atomic lab saves and semantic/geometry reopen verified. Crash recovery journal, migrations and portable bundle remain M2."
+    },
+    {
+      "id": "VERSION-01",
+      "milestone": "M0-M6",
+      "status": "foundation",
+      "evidence": [
+        "data/assets.json",
+        "data/fonts.json",
+        "requirements-m0.txt",
+        "requirements-m1.txt",
+        "docs/research/m1-validation.json"
+      ],
+      "remaining": "M1 pins runtime, fonts, features and lab wrapper. Durable history, migrations and independent backups remain M2/M6."
+    },
+    {
+      "id": "AUTO-01",
+      "milestone": "M1-M5",
+      "status": "foundation",
+      "evidence": [
+        "data/capabilities.json",
+        "schemas/command.schema.json",
+        "tools/m0/__main__.py",
+        "data/lab-capabilities.json",
+        "data/mcp-tools.json",
+        "vayrshemon/api.py",
+        "vayrshemon/mcp.py"
+      ],
+      "remaining": "M1 live/headless API and MCP implemented; extend alongside later editing/language features."
+    },
+    {
+      "id": "DEBUG-01",
+      "milestone": "M0-M6",
+      "status": "foundation",
+      "evidence": [
+        "tools/m0/__main__.py",
+        "tests/test_m0.py",
+        "vayrshemon/diagnostics.py",
+        "vayrshemon/benchmark.py"
+      ],
+      "remaining": "M1 correlated component logs, glyph/layout inspector, local widget captures and reproducible proof runner implemented; full replay bundles remain later work."
+    },
+    {
+      "id": "EXPORT-01",
+      "milestone": "M2/M4",
+      "status": "foundation",
+      "evidence": [
+        "docs/ARCHITECTURE.md",
+        "vayrshemon/layout.py",
+        "tests/test_m1.py"
+      ],
+      "remaining": "Bounded PNG page/tile output and physical metadata implemented; SVG/PDF/color-font preflight remain M2/M4."
+    },
+    {
+      "id": "LANG-01",
+      "milestone": "M5",
+      "status": "foundation",
+      "evidence": [
+        "data/orthography/chart-transcription.json",
+        "data/orthography/thimfora-79.json"
+      ],
+      "remaining": "Structured lexicon, grammar, corpus and publishing."
+    }
   ],
   "m0Gates": [
-    {"id":"M0-ASSETS","check":"Every original asset has a relative path, SHA-256, size, review state and explicit relationship certainty."},
-    {"id":"M0-FONTS","check":"All TTFs have file-scoped identities, coverage, metrics, and naming-collision reports."},
-    {"id":"M0-MAPPING","check":"All 47 letter pairs, 12 digits and remaining cmap slots are mapped or explicitly unresolved; unknown text round-trips."},
-    {"id":"M0-CONTRACTS","check":"Document/command schemas, capability status, requirement traceability and decisions are versioned."},
-    {"id":"M0-FIXTURES","check":"Hash-bound local specimens and public synthetic tests run without Inputs."}
+    {
+      "id": "M0-ASSETS",
+      "check": "Every original asset has a relative path, SHA-256, size, review state and explicit relationship certainty."
+    },
+    {
+      "id": "M0-FONTS",
+      "check": "All TTFs have file-scoped identities, coverage, metrics, and naming-collision reports."
+    },
+    {
+      "id": "M0-MAPPING",
+      "check": "All 47 letter pairs, 12 digits and remaining cmap slots are mapped or explicitly unresolved; unknown text round-trips."
+    },
+    {
+      "id": "M0-CONTRACTS",
+      "check": "Document/command schemas, capability status, requirement traceability and decisions are versioned."
+    },
+    {
+      "id": "M0-FIXTURES",
+      "check": "Hash-bound local specimens and public synthetic tests run without Inputs."
+    }
+  ],
+  "m1Gates": [
+    {
+      "id": "M1-FONTS",
+      "check": "Actual source fonts and distinct same-family files load privately; three color layers reuse master glyph origins."
+    },
+    {
+      "id": "M1-INPUT",
+      "check": "Native keyboard, pointer, selection, clipboard, undo and preedit/commit path preserve text and metadata within the documented lab scope."
+    },
+    {
+      "id": "M1-PARITY",
+      "check": "UI and headless geometry agree; DPI changes do not reflow; save/reopen retains semantic and layout equality."
+    },
+    {
+      "id": "M1-AUTOMATION",
+      "check": "MCP/CLI use the live revision-checked session; native accessibility text is inspectable."
+    },
+    {
+      "id": "M1-MEASUREMENTS",
+      "check": "Record native paint latency, raster transport, memory, huge-page and 100,000-character measurements with limitations."
+    }
   ]
 }
