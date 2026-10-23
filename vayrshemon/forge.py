@@ -17,6 +17,7 @@ from .language import empty_data, validate_data
 
 FORMAT = 'vayrshemon.forge'
 VERSION = '1.0.0'
+SUPPORTED_VERSIONS = ('1.0.0','1.1.0')
 NAME = re.compile(r'^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$')
 
 
@@ -79,7 +80,7 @@ class ForgeProject:
         if not self.path.is_file(): raise ValueError('FORGE_PROJECT_NOT_FOUND')
         with self.connect() as db:
             meta=self._meta(db)
-            if meta.get('format')!=FORMAT or meta.get('version')!=VERSION: raise ValueError('FORGE_FORMAT_UNSUPPORTED')
+            if meta.get('format')!=FORMAT or meta.get('version') not in SUPPORTED_VERSIONS: raise ValueError('FORGE_FORMAT_UNSUPPORTED')
             if db.execute('PRAGMA quick_check').fetchone()[0]!='ok': raise ValueError('FORGE_DATABASE_CORRUPT')
         self.read()
 
@@ -248,18 +249,26 @@ class ForgeProject:
             data=dict(meta=self._meta(db),commits={k:self._commit(db,k) for k, in db.execute('SELECT id FROM commits')},
                       branches=[dict(name=n,head=h,draft=json.loads(d)) for n,h,d in db.execute('SELECT name,head,draft FROM branches')],
                       runs=[json.loads(b) for b, in db.execute('SELECT body FROM runs')])
-        envelope=dict(format=FORMAT+'.bundle',formatVersion=VERSION,sha256=digest(data),data=data)
+            from .forge_release import read_all
+            releases=read_all(db)
+            if releases: data['releases']=releases
+        envelope=dict(format=FORMAT+'.bundle',formatVersion=data['meta']['version'],sha256=digest(data),data=data)
         exclusive_write(Path(path),encoded(envelope).encode());return dict(path=str(path),sha256=envelope['sha256'])
 
     @classmethod
     def restore(cls,path,destination):
         from tools.m0.common import load_json
         value=load_json(path);data=value['data']
-        if value['format']!=FORMAT+'.bundle' or value['formatVersion']!=VERSION or value['sha256']!=digest(data): raise ValueError('FORGE_BUNDLE_INVALID')
+        if value['format']!=FORMAT+'.bundle' or value['formatVersion'] not in SUPPORTED_VERSIONS or value['formatVersion']!=data['meta']['version'] or value['sha256']!=digest(data): raise ValueError('FORGE_BUNDLE_INVALID')
         for key,commit in data['commits'].items():
             if digest(commit)!=key: raise ValueError('FORGE_BUNDLE_HASH_MISMATCH')
             validate(commit['snapshot'])
-            if commit['parent'] is not None and commit['parent'] not in data['commits']: raise ValueError('FORGE_PARENT_MISSING')
+            from .forge_merge import parents
+            if any(p not in data['commits'] for p in parents(commit)): raise ValueError('FORGE_PARENT_MISSING')
+        from .forge_release import validate_release,ensure_table
+        for release in data.get('releases',[]):
+            validate_release(release['releaseId'],{k:v for k,v in release.items() if k!='releaseId'},data['commits'])
+            if release['projectId']!=data['meta']['projectId']: raise ValueError('RELEASE_PROJECT_MISMATCH')
         for b in data['branches']:
             validate(b['draft'])
             if not NAME.fullmatch(b['name']) or b['head'] not in data['commits']: raise ValueError('FORGE_BRANCH_INVALID')
@@ -278,4 +287,8 @@ class ForgeProject:
             for run in data['runs']:
                 if run['version'] not in data['commits']: raise ValueError('FORGE_RUN_VERSION_MISSING')
                 db.execute('INSERT INTO runs VALUES (?,?)',(run['runId'],encoded(run)))
+            if data.get('releases'):
+                ensure_table(db)
+                for release in data['releases']:
+                    db.execute('INSERT INTO releases VALUES (?,?,?)',(release['name'],release['releaseId'],encoded({k:v for k,v in release.items() if k!='releaseId'})))
         return project

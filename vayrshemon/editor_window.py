@@ -101,6 +101,8 @@ class PageCanvas(QAbstractScrollArea):
         self.tool='select'
         self.space_pan=False
         self.pan_button=None
+        self.auto_center_single=False
+        self._center_signature=None
         self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
         self.setAccessibleDescription('Select: click a frame to edit. Hand: drag to move the view. With preview focus use V, H, Space, arrow keys or Home.')
         for bar in (self.horizontalScrollBar(),self.verticalScrollBar()): bar.valueChanged.connect(self.viewport().update)
@@ -111,6 +113,11 @@ class PageCanvas(QAbstractScrollArea):
         self.horizontalScrollBar().setRange(-self.viewport().width(),math.ceil(area.width()*zoom))
         self.verticalScrollBar().setRange(-self.viewport().height(),math.ceil(area.height()*zoom))
         self.horizontalScrollBar().setPageStep(self.viewport().width()); self.verticalScrollBar().setPageStep(self.viewport().height())
+        signature=(self.book.state['documentId'],self.book.current_page()['pageId'],len(self.book.state['pages']),
+                   area.width(),area.height(),zoom,self.viewport().width(),self.viewport().height())
+        if self.auto_center_single and len(self.book.state['pages'])==1 and signature!=self._center_signature:
+            self._position_center(area,zoom)
+        self._center_signature=signature
         self.viewport().update()
 
     def resizeEvent(self,event): super().resizeEvent(event); self.update_page()
@@ -192,9 +199,12 @@ class PageCanvas(QAbstractScrollArea):
 
     def center_page(self):
         self.update_page();area=pages.page_rect(self.book.current_page());z=self.book.view['zoom']
+        self._position_center(area,z)
+        return self.navigation_state()
+
+    def _position_center(self,area,z):
         self.horizontalScrollBar().setValue(round((area.width()*z-self.viewport().width()+self.RULER)/2))
         self.verticalScrollBar().setValue(round((area.height()*z-self.viewport().height()+self.RULER)/2))
-        return self.navigation_state()
 
     def navigation_state(self):
         return dict(tool=self.tool,dragging=self.pan is not None,temporaryHand=self.space_pan,

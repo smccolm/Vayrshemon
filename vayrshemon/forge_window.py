@@ -67,7 +67,7 @@ class ForgePanel(QWidget):
             self.branches.setCurrentText(v['branch']);self.versions.clear();self.versions.addItem('Working draft (autosaved)',None)
             for c in hist: self.versions.addItem(c['label']+' · '+c['id'][:10],c['id'])
             self.versions.setCurrentIndex(max(0,self.versions.findData(self.version)))
-            self.history.setPlainText('\n\n'.join(c['label']+'\n'+c['id']+'\nParent: '+str(c['parent'])+'\n'+c['createdAt'] for c in hist))
+            self.history.setPlainText('\n\n'.join(c['label']+'\n'+c['id']+'\nParents: '+', '.join(c.get('parents',[c['parent']] if c['parent'] else []))+'\n'+c['createdAt'] for c in hist))
             self.fill_dictionary();self.wiki_list.clear()
             for row in v['snapshot']['wiki']: self.wiki_list.addItem(row['title'])
             self.test_list.clear()
@@ -82,6 +82,7 @@ class ForgePanel(QWidget):
         finally:
             self.loading=False
             if hasattr(self,'laboratory'): self.laboratory.refresh()
+            if hasattr(self,'integration'): self.integration.refresh()
 
     def flush(self):
         self.timer.stop()

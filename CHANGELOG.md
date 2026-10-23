@@ -2,6 +2,15 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M9 language integration and releases 0.10.0 — 2026-10-23
+
+- Replace Fit Page with Fit Height and Fit Width. Center single-page views after open, resize, zoom and panel changes, keeping ordinary Hand panning and document geometry independent.
+- Merge frozen branch heads through a common ancestor, stable record IDs and field-level conflicts. Record both parents and explicit resolutions; preserve drafts and reject stale plans.
+- Pin immutable named language releases to dictionary/wiki snapshots and verified suite/Workbench evidence. Retain unresolved meaning and parsing gaps on experimental releases.
+- Add Merges and Releases tabs and six API/MCP operations (127 total). Upgrade Forge projects to 1.1.0 only when merges/releases are used; retain 1.0.0 reads and native document 0.5.0.
+- Fix the enlarged-page PNG button: choose supported DPI, retain timestamp names, add missing suffixes, confirm replacement, and refuse to overwrite a destination changed during rendering.
+- Update setup.bat, requirement chain, CI, contracts and regressions without new dependencies. Demonstrate a merged Shakespeare release on the unchanged approved presentation.
+
 ## M8 executable Language Forge tests 0.9.0 — 2026-10-23
 
 - Add bounded, declarative inventory, inflection, token-analysis and clause rules with independent positive/negative expectations, explicit review/unsupported results and grammar coverage.

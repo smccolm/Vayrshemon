@@ -1,0 +1,69 @@
+{
+  "milestone": "M9",
+  "application": "0.10.0",
+  "api": "0.10.0",
+  "apiMethods": 127,
+  "nativeFormat": "0.5.0",
+  "forgeFormat": "1.1.0",
+  "paintEngine": "1.1.0",
+  "setup": {
+    "tests": 173,
+    "seconds": 387.703,
+    "passed": true,
+    "log": ".local/logs/m9-setup.log"
+  },
+  "finalFocused": {
+    "tests": 34,
+    "seconds": 94.387,
+    "passed": true,
+    "log": ".local/logs/m9-final-regressions.log",
+    "scope": "Final fit controls and Forge 1.1.0 compatibility, M7/M8 and parallel-translation regressions"
+  },
+  "demo": {
+    "project": ".local/demos/m9-release-v0.10.0/Vayrshemon.vayforge",
+    "mergedVersion": "4325a2f3ba7491bb20a3a6441f2bfdb32047beca7cba5c6b38b8318b7e736f7b",
+    "parents": [
+      "6d1d654aaba3d1f1d85186815bf72a08eb16dad0001d2f5e2ec3dd4b367b226f",
+      "6b2d0eca8f6298658a7e7fbe50f0b3d3a22dc6fb516fbf8847ba9ed1b8c5dff6"
+    ],
+    "release": "0.3.0-experimental.1",
+    "releaseId": "b65c474f56e51e9cc005187f4a82a9ce66137ad5bc79805582c09e8264e5c5e8",
+    "languageSuite": {
+      "Pass": 57,
+      "Needs review": 1,
+      "Unsupported": 1
+    },
+    "cases": 59,
+    "pixelIdenticalToM8": true,
+    "overflow": 0,
+    "missingGlyphs": 0,
+    "conservativeCollisionWarnings": 27,
+    "originalWorkbenchUnchanged": true,
+    "oldProjectUnchanged": true
+  },
+  "png": {
+    "path": ".local\\demos\\m9-release-v0.10.0\\The Tempest \u00b7 We are such stuff as dreams are made on \u00b7 4325a2f3ba_2026-10-23_15-46-42_922.png",
+    "sha256": "70e01bd412d10e3da6d02c73bf4f1c5f3359be9039b974348b031239c242a800",
+    "dpi": 292,
+    "pixels": [
+      3511,
+      4543
+    ],
+    "buttonTested": true,
+    "timestampSuggested": true,
+    "decoded": true
+  },
+  "approvedBaseline": {
+    "referenceId": "visual.workbench.2026-10-23",
+    "geometryIdentical": true,
+    "rgbaIdentical": true,
+    "protectedStateVerified": true,
+    "evidencePath": ".local\\test-m61\\ded6c7e1da614d74864ac2e4b2d89cee\\approved-baseline\\verification.json"
+  },
+  "limits": [
+    "Experimental language release; meaning remains unaccepted.",
+    "General prose parsing remains unsupported.",
+    "Criss-cross merge bases require an explicit intermediate merge.",
+    "PNG save chooser path supplied at Qt test boundary; encoding and real worker/file output were exercised."
+  ]
+}

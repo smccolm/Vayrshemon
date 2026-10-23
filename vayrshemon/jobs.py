@@ -20,7 +20,11 @@ class JobManager:
         self.poll()
         if any(j['status']=='running' for j in self.jobs.values()): raise ValueError('JOB_BUSY: cancel or finish the current proof')
         if len(self.jobs)>=64: raise ValueError('JOB_HISTORY_LIMIT: save and reopen after 64 jobs')
-        destination=target(self.book,params.pop('path'))
+        path=params.pop('path');replace_sha256=params.pop('replace_sha256',None)
+        if replace_sha256 is None: destination=target(self.book,path)
+        else:
+            destination=self.book.output_path(path)
+            if not destination.is_file() or sha(destination.read_bytes())!=replace_sha256: raise ValueError('EXPORT_TARGET_CHANGED')
         state=self.book.capture();self.book.validate(state)
         jid='job.'+uuid.uuid4().hex;folder=self.book.root/'.local/jobs'/jid;folder.mkdir(parents=True)
         snapshot=dict(format='vayrshemon.document',formatVersion=self.book.file_version,state=state,history=[],engine=self.book.fingerprint())
@@ -34,7 +38,7 @@ class JobManager:
             process=subprocess.Popen([sys.executable,'-u','-m','vayrshemon.jobs',str(folder)],cwd=Path(__file__).resolve().parents[1],
                 stdout=log,stderr=subprocess.STDOUT,env=env,creationflags=subprocess.CREATE_NO_WINDOW if os.name=='nt' else 0)
         self.jobs[jid]=dict(jobId=jid,status='running',revision=state['revision'],documentId=state['documentId'],
-            path=str(destination),folder=str(folder),logPath=str(log_path),started=time.time(),_process=process)
+            path=str(destination),replaceSha256=replace_sha256,folder=str(folder),logPath=str(log_path),started=time.time(),_process=process)
         self.book.log.emit('jobs','JOB_STARTED',jobId=jid,revision=state['revision'],logPath=str(log_path))
         return self.status(jid)
 
@@ -50,7 +54,12 @@ class JobManager:
                 if proof.parent!=folder: raise ValueError('WORKER_OUTPUT_PATH_MISMATCH')
                 payload=proof.read_bytes()
                 if sha(payload)!=result['sha256']: raise ValueError('WORKER_OUTPUT_HASH_MISMATCH')
-                exclusive_write(job['path'],payload)
+                if job.get('replaceSha256') is None: exclusive_write(job['path'],payload)
+                else:
+                    destination=Path(job['path'])
+                    if not destination.is_file() or sha(destination.read_bytes())!=job['replaceSha256']: raise ValueError('EXPORT_TARGET_CHANGED: existing image was preserved')
+                    from .publication import atomic
+                    atomic(destination,payload)
                 job.update(status='completed',result=dict(result,path=job['path']))
             except Exception as error:
                 job.update(status='failed',error=str(error));self.book.log.exception('jobs',error)
