@@ -30,7 +30,10 @@ jobs:
         run: setup.bat --no-pause
       - name: Install Linux laboratory dependencies
         if: runner.os != 'Windows'
-        run: python -m pip install -r requirements-m1.txt
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libegl1 libopengl0 fonts-dejavu-core
+          python -m pip install -r requirements-m1.txt
       - name: Validate schemas and evidence references without Inputs
         if: runner.os != 'Windows'
         run: python -m tools.m0 check
