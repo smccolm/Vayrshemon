@@ -1,18 +1,14 @@
 @echo off
 setlocal
 pushd "%~dp0"
-if not exist ".venv\Scripts\python.exe" (
+if not exist ".venv\Scripts\pythonw.exe" (
     echo Run setup.bat first to install the Vayrshemon environment.
     pause
     popd
     exit /b 1
 )
-".venv\Scripts\python.exe" -u -m vayrshemon editor %*
-set "LAB_EXIT_CODE=%ERRORLEVEL%"
-if not "%LAB_EXIT_CODE%"=="0" (
-    echo.
-    echo The editor stopped with an error. Diagnostics are in .local\logs.
-    pause
-)
+rem The windowless launcher records output and reports errors without a console.
+start "" ".venv\Scripts\pythonw.exe" "%~dp0tools\launch_editor.py" %*
+set "LAUNCH_EXIT_CODE=%ERRORLEVEL%"
 popd
-exit /b %LAB_EXIT_CODE%
+exit /b %LAUNCH_EXIT_CODE%

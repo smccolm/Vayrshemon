@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 quiet desktop launch 0.15.9 — 2026-10-24
+
+- Start the editor without a persistent command window. `launch.bat` hands off to a windowless launcher and returns immediately; all editor arguments remain supported.
+- Capture Python output, native output and early startup tracebacks in a separate timestamped `.local/logs/launch-*.log` for each launch. Show an error dialog with the log location on failure; retain structured session diagnostics and the explicit console CLI.
+- Update setup.bat to verify the windowless interpreter and exercise the actual batch launch, argument forwarding, output capture and failure reporting. Preserve the approved first-run view and document rendering.
+
 ## M14 approved first-run workspace 0.15.8 — 2026-10-24
 
 - Match the approved clean startup view on a fresh installation: maximized Language Workbench, blank Untitled page fitted to height, Select tool, Color / relief, transliteration reading mode and single-page view.

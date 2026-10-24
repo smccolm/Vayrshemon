@@ -86,7 +86,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.8 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.9 setup - $projectRoot"
     Write-Host "Console log: $logPath"
     $savesDirectory = Join-Path $projectRoot 'Saves'
     New-Item -ItemType Directory -Path $savesDirectory -Force | Out-Null
@@ -119,6 +119,9 @@ try {
     Invoke-Python $environmentPython (@('-m', 'pip', '--require-virtualenv', 'install',
         '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements/requirements-m14.txt') + $wheelArguments)
     Invoke-Python $environmentPython @('-m', 'pip', '--disable-pip-version-check', 'check')
+    if (!(Test-Path -LiteralPath (Join-Path $environmentPath 'Scripts\pythonw.exe') -PathType Leaf)) {
+        throw 'The windowless Python launcher is missing from .venv. Repair the Python 3.12 installation, then rerun setup.bat.'
+    }
     Invoke-Python $environmentPython @('-m', 'tools.dependency_audit', '--out', ".local/logs/dependencies-$runId.json")
     Invoke-Python $environmentPython @('-m', 'tools.m0', '--log', ".local/logs/setup-check-$runId.jsonl", 'check')
     Ensure-ShellBuildTools
@@ -140,6 +143,7 @@ try {
     Write-Host ''
     Write-Host 'Setup complete. Dependencies, evidence checks, and tests passed.'
     Write-Host 'Double-click launch.bat or a .vay file to open M14 (Language Workbench + Language Forge).'
+    Write-Host 'Normal launches close the command window. Full launch output is recorded in .local\logs\launch-*.log; an error dialog points to the log if the editor fails.'
     Write-Host 'Save for new documents, Save As and Open start in Saves. Save updates an existing file in place. Saves is excluded from Git.'
     Write-Host '.vay files include centered Memon mode icons and saved page/spread thumbnails. Legacy .vay.json and .vaylab.json files remain readable.'
     Write-Host 'Explorer integration: per-user file associations + isolated system thumbnail component. See docs\M14.md.'
