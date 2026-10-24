@@ -56,9 +56,11 @@ class ReadingPanel(QWidget):
 class ReadingWindow(SpellingWindow):
     def __init__(self,book,api):
         super().__init__(book,api);self.forge_panel.reading=ReadingPanel(self.forge_panel);self.forge_panel.tabs.insertTab(5,self.forge_panel.reading,'Reading')
-        row=QHBoxLayout();row.addWidget(QLabel('Reading copy'));self.reading_mode=QComboBox()
+        row=self.preview.parentWidget().layout().itemAt(1).layout();self.reading_mode=QComboBox()
         for mode in ('transliteration','literal'):self.reading_mode.addItem(reading.MODES[mode],mode)
-        row.addWidget(self.reading_mode);button=QPushButton('Create reading copy');button.clicked.connect(self.reading_copy);row.addWidget(button);row.addStretch();self.preview.parentWidget().layout().insertLayout(2,row)
+        button=QPushButton('Create reading copy');button.clicked.connect(self.reading_copy)
+        width=next(b for b in self.findChildren(QPushButton) if b.text()=='Fit Width');index=row.indexOf(width)+1;row.insertSpacing(index,12)
+        for offset,widget in enumerate((QLabel('Reading copy'),self.reading_mode,button),index+1):row.insertWidget(offset,widget)
         for label in self.findChildren(QLabel):
             if '/  M11' in label.text():label.setText(label.text().replace('/  M11','/  M12'))
         self.setWindowTitle(self.windowTitle().replace('M11','M12'))

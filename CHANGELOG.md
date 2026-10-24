@@ -2,6 +2,10 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M12 toolbar refinement — 2026-10-23
+
+- Place Reading copy controls immediately after Fit Width in the navigation row, removing the extra row above the page. Document formatting and rendering are unchanged.
+
 ## M12 parallel reading and continuity 0.13.0 — 2026-10-23
 
 - Add the Reading workspace with the user-selected original transliteration 7 Roman forms, literal Times New Roman slots and retained English. Copy exact source characters and Maxima/Minima; do not normalize or guess Unicode respellings.
