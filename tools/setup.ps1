@@ -86,7 +86,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.5 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.6 setup - $projectRoot"
     Write-Host "Console log: $logPath"
     $savesDirectory = Join-Path $projectRoot 'Saves'
     New-Item -ItemType Directory -Path $savesDirectory -Force | Out-Null

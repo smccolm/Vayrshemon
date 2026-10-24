@@ -191,7 +191,7 @@ def main():
         window=(FileWindow if use_files else GlossWindow if use_gloss else ReadingWindow if use_reading else SpellingWindow if use_spelling else VariationWindow if use_variation else IntegrationWindow if use_integration else LaboratoryWindow if use_laboratory else ForgeWindow if use_forge else ReliabilityWindow if use_reliability else LanguageWindow if use_language else StudioWindow if use_studio else WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
         server=LocalServer(api)
         app.aboutToQuit.connect(server.close)
-        window.show()
+        window.showMaximized()
         if use_studio and args.page_focus:
             api.call('ui.workspace',dict(source=False,diagnostics=False,guides=False,fit_page=True,panel='Paint'),expected_revision=session.revision,origin='desktop')
         return app.exec()

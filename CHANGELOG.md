@@ -2,6 +2,10 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 maximized startup 0.15.6 — 2026-10-24
+
+- Open the editor maximized from launch.bat and when opening a document from Explorer. Keep the title bar, menus and normal window controls available. Update setup.bat.
+
 ## M14 minimal filename title 0.15.5 — 2026-10-24
 
 - Show only the filename without the native or legacy extension in the title bar, or Untitled before the first save. Remove the app name and title decorations; unsaved state remains in the status bar and close prompt. Keep setup.bat current.
