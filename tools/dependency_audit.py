@@ -18,7 +18,7 @@ def pins(path):
 
 
 def audit(root):
-    required=pins(Path(root)/'requirements-m13.txt');items=[]
+    required=pins(Path(root)/'requirements-m14.txt');items=[]
     for name,version in sorted(required.items()):
         dist=metadata.distribution(name)
         if dist.version!=version: raise ValueError('DEPENDENCY_VERSION_MISMATCH: '+name)
@@ -32,7 +32,7 @@ def audit(root):
         items.append(dict(name=name,version=version,license=license_value.splitlines()[0],licenseClassifiers=classifiers,
             home=dist.metadata.get('Home-page'),projectUrls=dist.metadata.get_all('Project-URL',[]),notices=notices,
             requires=dist.requires or []))
-    return dict(version='1.0.0',scope='Pinned M0 through M13 runtime and regression dependencies; excludes unrelated analysis packages and pip bootstrap',
+    return dict(version='1.0.0',scope='Pinned M0 through M14 Python runtime and regression dependencies; native MSVC/Windows SDK build tooling recorded by setup',
         python='CPython 3.12 (PSF license; installed separately)',dependencies=items,
         packaging='Source release bundle does not redistribute Python or dependency wheels; setup installs the pinned upstream distributions with their notices intact.')
 

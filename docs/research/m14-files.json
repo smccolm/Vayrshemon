@@ -1,0 +1,154 @@
+{
+  "milestone": "M14",
+  "application": "0.15.0",
+  "nativeFormat": "0.6.0",
+  "api": "0.15.0",
+  "apiControls": 153,
+  "paintEngine": "1.2.0",
+  "approvedBaselineFilesUnchanged": true,
+  "demo": [
+    {
+      "savedMode": "color",
+      "pageMode": "two",
+      "previewSize": [
+        1024,
+        654
+      ],
+      "stateSha256": "ec9af65c41c4ba3d1b736800081ae6fe426364b1f0d2fd96aab731d3e030614f",
+      "pngSha256": "42f0b395723697df998b9aa6b6a2599c9a5a19862a347fb3e82b25ce77d36f87",
+      "pageProofRgbaSha256": [
+        "af6e706beaaecc40b9bf4c7284ae57c61f9cefcea5647a0af915d96429291f9c",
+        "57d452c9b203ade29df9ccbe0e977febb05ef51935e6aec0f48e724138cb3ee6"
+      ],
+      "matchesM13Pixels": true,
+      "backupVerified": true
+    },
+    {
+      "savedMode": "mono-black",
+      "pageMode": "two",
+      "previewSize": [
+        1024,
+        654
+      ],
+      "stateSha256": "65dce533ceb7f662d3a5f38017c1df7d231e7776244f44d34c647cbc1ea417a0",
+      "pngSha256": "5d1adaa4c66a12e657611bc0a0d67dc44d8277023762058879bbc6d9cdd46e10",
+      "pageProofRgbaSha256": [
+        "df61378c53faab20cd873deb69ac4b494c8f678bc8b9eb28b0caa97619409398",
+        "de68899019a7e4761858610f8c044f1ea85acdfdcceef7817e1cb36b81d81624"
+      ],
+      "matchesM13Pixels": true,
+      "backupVerified": true
+    },
+    {
+      "savedMode": "mono-white",
+      "pageMode": "two",
+      "previewSize": [
+        1024,
+        654
+      ],
+      "stateSha256": "ef49f15e56c44894918bc173ccc0d831dc8b837ca35bf5d42ad5dab7db2c8b33",
+      "pngSha256": "482f373549c918b2903497a08d295bbd488db45edc006da152d4307302bbfa99",
+      "pageProofRgbaSha256": [
+        "64e824a1a6369429403ed3c1a67e0e66e2e64e7ed8c0a6609fffbf9d645b0475",
+        "c25c8f00022d43cd96a0d756ce514083e89ce3df376fd8e31fd28972df91903f"
+      ],
+      "matchesM13Pixels": true,
+      "backupVerified": true
+    }
+  ],
+  "windowsShell": {
+    "implementation": "IShellItemImageFactory, isolated thumbnail host",
+    "results": [
+      {
+        "mode": "White on black",
+        "iconHash": "1dc66403426cec3c64b947513e6ddea9a151532a78353581269b78bfef015af0",
+        "thumbnailHash": "51189ef8f07a838ec00ef9d87c5aa81846bc00be2b882e4b0c1162a7d814da07",
+        "size": [
+          256,
+          164
+        ]
+      },
+      {
+        "mode": "Black on white",
+        "iconHash": "93f931a27cd5094c2f6e8c52a4b19426e9cc619a2f1b83ee3c835e4776fbfdd8",
+        "thumbnailHash": "f14425f96b585de549980dabc8fe187f1a39d8609ba1baefc01d91dd052c00d6",
+        "size": [
+          256,
+          164
+        ]
+      },
+      {
+        "mode": "Color spread",
+        "iconHash": "eceb1a8cca0840e422cce1f39e86130f30df77b7ece0a2f9d44ba49aeb4ebb08",
+        "thumbnailHash": "c09f397642a7cef18cd7838811a123a1383ce3da039e4617ab89a10e61f0683a",
+        "size": [
+          256,
+          164
+        ]
+      }
+    ],
+    "resaveRefresh": true,
+    "renamePreserved": true
+  },
+  "pngButton": {
+    "status": "completed",
+    "dpi": 292,
+    "files": [
+      {
+        "filename": "2026-10-24_11-47-30_712_Left.png",
+        "sha256": "fca71dae4a09121cfdf4757b7247ed643d5d5df1a4cf3c97dc07122de88f4554",
+        "size": [
+          3511,
+          4543
+        ]
+      },
+      {
+        "filename": "2026-10-24_11-47-30_712_Right.png",
+        "sha256": "30d28a15e4b787baa061de6239985f540c5d2d6f9e532a9f6d6347da5df190d3",
+        "size": [
+          3511,
+          4543
+        ]
+      }
+    ]
+  },
+  "privateInputsExcluded": true,
+  "mcp": {
+    "version": "0.15.0",
+    "controls": 153,
+    "readOnlyCallsPassed": true,
+    "savedRevision": 42,
+    "savedPageMode": "two",
+    "savedColorMode": "color",
+    "shellInstalled": true,
+    "thumbnailIsolation": true
+  },
+  "iconAssets": [
+    {
+      "name": "memon-color.ico",
+      "sha256": "5cac70b6edb66fbf227f23c26752dc2009661e89a42bcbfcc1277e2eb471dd9f"
+    },
+    {
+      "name": "memon-mono-black.ico",
+      "sha256": "5ea61217d15e4d98b790b77795de73e5c0675a55ff6954d8904ba59adbb66dc5"
+    },
+    {
+      "name": "memon-mono-white.ico",
+      "sha256": "60eb6a88fb2273db6a1d7fc812f953789c14f0a2d885fa79120cab7dfce7f21b"
+    }
+  ],
+  "iconReferenceSha256": "273bd10c075956645973e3f59e7914454bb6354639ec95747d0ff91023c420b7",
+  "setup": {
+    "command": "setup.bat --no-pause",
+    "exitCode": 0,
+    "tests": 249,
+    "seconds": 915.239,
+    "result": "passed",
+    "sourceTranscriptSha256": "3d19beafd36ebb8ea245183c558099db54187bff81291e9349e98682b00ac701"
+  },
+  "regressions": {
+    "attestedParallelTranslation": "passed",
+    "approvedEnlargedGeometryAndPixels": "passed",
+    "legacyColorAndSidebar": "passed"
+  }
+}

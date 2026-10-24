@@ -142,9 +142,10 @@ def worker(folder):
     from PySide6.QtWidgets import QApplication
     from PySide6.QtCore import qInstallMessageHandler
     from .reliability_session import ReliabilitySession
+    from .file_api import FileSession
     from . import publication
     app=QApplication.instance() or QApplication([])
-    session=ReliabilitySession(request['root'],source_fonts=False,recovery=False)
+    session=(FileSession if load_json(folder/'snapshot.vay.json')['formatVersion']=='0.6.0' else ReliabilitySession)(request['root'],source_fonts=False,recovery=False)
     qInstallMessageHandler(lambda kind,context,message:print(str(kind)+': '+message,file=sys.stderr,flush=True))
     try:
         session.open(folder/'snapshot.vay.json')

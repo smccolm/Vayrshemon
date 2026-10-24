@@ -1,0 +1,1690 @@
+{
+  "schemaVersion": "0.1.0",
+  "apiVersion": "0.15.0",
+  "milestone": "M14",
+  "capabilities": [
+    {
+      "method": "session.status",
+      "description": "Inspect the current document, revision, capabilities and engine.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.read",
+      "description": "Read every page/frame and the selected frame text; offsets belong to the selected frame.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.edit",
+      "description": "Replace a UTF-16 range on grapheme boundaries. Revision and idempotency key are required. Complete four-column spreads automatically align corresponding paragraph starts in the same undo step; inspect automaticParagraphAlignment in session.status for paused counts or overset.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.format",
+      "description": "Format a UTF-16 range, retaining explicit font/language and custom spacing.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.save",
+      "description": "Atomically save a lab document; detects external changes and protects source files. Embed the visible page/spread and saved color mode atomically. Headless saves reuse the saved page mode, or one page; preview_mode overrides it.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.open",
+      "description": "Open or migrate a document; fontPaths resolves exact hashes at new paths.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.configure",
+      "description": "Set dimensions and margins for one page. Full content frames follow its content area.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "history.undo",
+      "description": "Undo a document, page, frame, text or formatting transaction.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "history.redo",
+      "description": "Redo an undone document transaction.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "fonts.list",
+      "description": "Inspect loaded font identities and the registered layer recipe.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "fonts.load",
+      "description": "Privately load a local static TTF without a system font install.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "layout.inspect",
+      "description": "Inspect the page and all its frame glyphs, including overflow.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "layout.hit-test",
+      "description": "Map page coordinates to frame identity and native UTF-16 caret.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "render.png",
+      "description": "Render the shared glyph layout to PNG, optionally a bounded tile for a huge page.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "view.configure",
+      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays. monochromePaper selects black or white paper for monochrome preview and proofs; auto follows the document background.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "features.configure",
+      "description": "Toggle kerning and standard ligatures; reuses the same text source.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "selection.set",
+      "description": "Select a grapheme-aligned UTF-16 range, optionally in another frame.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "ui.inspect",
+      "description": "Read native accessibility, selection and UI state.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "ui.capture",
+      "description": "Save a PNG of the lab widget for local troubleshooting.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "diagnostics.tail",
+      "description": "Read recent correlated diagnostics.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.new",
+      "description": "Create a new document; explicit discard is required for unsaved text.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.title",
+      "description": "Rename the document.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.preflight",
+      "description": "Validate a file and list exact missing font identities without changing the document.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.save-as",
+      "description": "Save at a new path, retaining the previous document and its recovery history. Embed the visible page/spread and saved color mode atomically. Headless saves reuse the saved page mode, or one page; preview_mode overrides it.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.recent",
+      "description": "List recent local document paths.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.find",
+      "description": "Find literal text on grapheme boundaries across all frames.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.replace",
+      "description": "Replace all literal matches as one undoable transaction.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "paragraph.format",
+      "description": "Set line height, paragraph spacing, alignment and left tab stops.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.add",
+      "description": "Add an independent page with a full content frame.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.delete",
+      "description": "Remove a page and its frames; undo restores all content.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "frame.add",
+      "description": "Add an independent text frame to the selected page; coordinates use points.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "frame.select",
+      "description": "Select the editing frame and invalidate commands prepared for a previous frame.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "frame.configure",
+      "description": "Set frame position, dimensions, label and visible/clipped overflow.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "frame.delete",
+      "description": "Remove a text frame; undo restores its full semantic text.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "styles.list",
+      "description": "List named character styles.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "styles.define",
+      "description": "Create or replace a named character style.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "styles.apply",
+      "description": "Apply a named character style to the selected frame range.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "recipe.configure",
+      "description": "Validate and select three compatible fonts for registered flat color.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "palette.apply",
+      "description": "Apply an explicit three-color palette to the current recipe.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "clipboard.read",
+      "description": "Return plain source text and semantic clipboard data for a selection.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "clipboard.paste",
+      "description": "Paste validated semantic clipboard data without discarding run metadata.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "recovery.list",
+      "description": "List recoverable checkpoints from sessions that are no longer running.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "recovery.restore",
+      "description": "Recover an interrupted session without overwriting its source document.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "history.list",
+      "description": "List revision summaries, undo capacity and the last durable revision.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "render.svg",
+      "description": "Export a portable outline SVG proof; bitmap-only glyphs fail explicitly.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "typesetting.read",
+      "description": "Read persisted frame policy, flow chains and versioned line-break profiles.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "typesetting.configure",
+      "description": "Enable derived layout, leading distribution and baseline grid for the source frame.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "paragraph.rules",
+      "description": "Apply keep-with-next, keep-together and widow/orphan minima to selected paragraphs.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "flow.set",
+      "description": "Flow one source story through empty equal-width frames; never duplicate or delete source text.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "breaks.profile",
+      "description": "Create a new revision of explicit language line-break tailoring; no automatic hyphenation dictionary.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "breaks.inspect",
+      "description": "Inspect native and tailored Unicode break opportunities with source offsets.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "breaks.insert",
+      "description": "Explicitly insert a soft hyphen or line separator at a grapheme boundary.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "collision.configure",
+      "description": "Set allow/warn/repair, minimum clearance, expansion/iteration budget and reserved bounds.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "collision.inspect",
+      "description": "Report before/after collisions, protected joins, solver decisions and unresolved constraints.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "optical.set",
+      "description": "Replace explicit pair spacing rules, stored separately from font kerning. Legacy independence must be declared.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "pairs.inspect",
+      "description": "Measure an isolated pair with/without font kerning and explicit optical spacing; live source is unchanged.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "specimen.create",
+      "description": "Create an editable dense specimen on a new page from explicit source symbols.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "ui.workspace",
+      "description": "Show or hide source/diagnostics, select a control panel, toggle guides and fit the page for visual review.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "paint.read",
+      "description": "Read versioned lighting, source bindings, page background and raster settings.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "paint.configure",
+      "description": "Change the outline-derived paint recipe and advance its revision; source text is unchanged.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "paint.bind",
+      "description": "Bind an exact font identity to verified layer fonts or derived treatment; roman-translation-1 selects the independent archived Roman bevel/glow profile.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "publication.configure",
+      "description": "Configure page background (#AARRGGBB) and default raster DPI.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "publication.preflight",
+      "description": "Inspect all pages, font identities, overset, effect clipping and extraction limitations.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "publication.export",
+      "description": "Export PNG, SVG or multipage PDF; decorative SVG/PDF requires explicit raster policy and DPI.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "font.build",
+      "description": "Build the explicitly reduced flat COLR v0/CPAL font plus reproducible provenance manifest; retain mono outlines.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "glyph.proof",
+      "description": "Render a glyph composite or an individual source layer on a shared canvas; report exact layer registration.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.read",
+      "description": "Read a language revision, collection or record with immutable identities and provenance.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.revisions",
+      "description": "List language revisions pinned in this document, including hashes and collection counts.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.diff",
+      "description": "Inspect added, removed and changed records before adopting another revision. Page text never changes.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.adopt",
+      "description": "Pin a previously retained language revision; existing corpus links retain their original revision.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.record.put",
+      "description": "Create or replace one typed record as a new immutable language revision. Stable IDs survive edits.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.record.delete",
+      "description": "Remove a record in a new revision; referenced records cannot be removed. Undo restores the prior pin.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.archive.import",
+      "description": "Verify and import both local translation charts, language terms, glosses, tense conflict, orthography and Unta data into a new revision.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.import",
+      "description": "Import a hash-checked portable language package as a new revision; retain the previous revision.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.export",
+      "description": "Export the selected revision as portable, hash-checked JSON with original citations. Does not include document text or fonts.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "language.publish",
+      "description": "Publish a searchable, printable dictionary, grammar book or interlinear corpus from the pinned data.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "lexicon.search",
+      "description": "Search headwords, senses, labels and variants literally; no normalization of historical spellings.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "orthography.transliterate",
+      "description": "Apply an explicit transliteration profile. Forward trace preserves unknown slots and ambiguous reverse readings.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "orthography.input",
+      "description": "Insert a registered symbol key through the guarded native text writer; requires an exact compatible selected font.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "corpus.search",
+      "description": "Literal concordances and surface frequencies in the pinned corpus. Entry search uses explicit token links.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "corpus.links",
+      "description": "Inspect bilingual document links, including stale text ranges and links pinned to older language revisions.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "corpus.link",
+      "description": "Link a cited corpus pair to explicit source/translation UTF-16 document ranges. Adaptations must be documented.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "corpus.unlink",
+      "description": "Remove a document corpus link; undo restores it.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "numbers.format",
+      "description": "Format exact integer-string numerator/denominator values in a versioned base-12 convention; report repeats or truncation.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "numbers.parse",
+      "description": "Parse finite or repeating base-12 notation to an exact reduced rational, without floating point.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "ui.sidebar",
+      "description": "Expand, collapse, pin or resize the left controls. Saved workspace preferences; no document, zoom or undo change. Collapsing unpins; pinning expands.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "ui.sidebar.inspect",
+      "description": "Read left-panel visibility, pin, remembered width, selected tab and preference errors.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "view.tool",
+      "description": "Choose Select to click a frame to edit, or Hand to drag the view. No document revision or undo entry.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "view.pan",
+      "description": "Move the page by viewport logical pixels, without changing text, selection or document history.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "view.center",
+      "description": "Bring the current page back to the center of the viewport.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "view.inspect",
+      "description": "Read the active navigation tool, page origin, viewport and zoom.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "performance.inspect",
+      "description": "Read bounded shaping/cache counters and reliability limits.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "backup.create",
+      "description": "Back up the last saved file and exact font bytes into a verified portable bundle. Does not save unsaved edits.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "backup.verify",
+      "description": "Verify every bundle member and all source font identities without opening the document.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "backup.restore",
+      "description": "Recover to a NEW directory, retaining the exact original and relocating verified font paths. Does not replace the open editor.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "jobs.export",
+      "description": "Export one proof, or PNG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "jobs.status",
+      "description": "Inspect proof job state, phase, revision, staleness, output and full worker log path.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "jobs.cancel",
+      "description": "Cancel this editor\u2019s proof worker before publication. Never writes a partial destination.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.create",
+      "description": "Create an independent local language project. Does not change the Workbench document.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.open",
+      "description": "Open a Forge SQLite project. Existing drafts are already durable.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.read",
+      "description": "Read an immutable version or the active autosaved draft, including dictionary, wiki and tests.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.status",
+      "description": "Read project identity, generation, active branch, head and draft status.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.history",
+      "description": "List immutable language versions with parent hashes.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.diff",
+      "description": "Compare stable records, wiki pages and tests between two versions.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.draft.replace",
+      "description": "Validate and atomically autosave an entire proposed snapshot. Commit separately to name its version.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.record.put",
+      "description": "Autosave a wiki page, test or typed language record with stable identity and a project generation guard.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.commit",
+      "description": "Atomically freeze the entire dictionary, wiki, grammar, decisions and test suite as a named version.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.branch",
+      "description": "Create and select a branch from an immutable version. Retains the old branch draft.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.checkout",
+      "description": "Select a branch without discarding either branch draft.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.export",
+      "description": "Export all committed versions, branch drafts and run records as a hashed portable bundle.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.restore",
+      "description": "Restore a verified Forge bundle to a NEW project path.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.test.run",
+      "description": "Run language assertions and render a frozen bilingual test with the approved presentation. Meaning still requires review.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.runs",
+      "description": "Inspect test outcomes, pinned versions, diagnostics and output paths.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.run.open",
+      "description": "Open a generated test in a separate Workbench process, preserving this document. Logs stdout/stderr.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "ui.forge",
+      "description": "Show Workbench or Forge and select its workspace section/version or stable wiki/entry/test ID without modifying the document.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.lab.read",
+      "description": "Read the versioned rule and test definitions; omit version for the durable draft.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.lab.put",
+      "description": "Validate and autosave a declarative rule or test case; commit separately to freeze it.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.lab.remove",
+      "description": "Remove a draft case or unreferenced rule. Frozen versions retain the original.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.lab.evaluate",
+      "description": "Evaluate finite forms, scalar inventory and explicitly annotated clauses. Draft previews are not frozen runs.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.lab.run",
+      "description": "Run the frozen language suite and retain coverage, expected/actual results and content hashes in a new directory.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.lab.compare",
+      "description": "Run exactly the same pinned cases against two frozen language versions. Defaults to the before version suite.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.merge.preview",
+      "description": "Plan a three-way merge from a branch frozen head into the active clean branch. Inspect base, parents and every conflict.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.merge.apply",
+      "description": "Atomically commit a reviewed merge with both parents. Require the exact preview, generation and every conflict resolution.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.releases",
+      "description": "List immutable named language releases and pinned versions; releases never follow a moving branch.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.release.read",
+      "description": "Read a named language release, embedded test evidence and outstanding review status.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.release.create",
+      "description": "Freeze a named release with matching suite and bound-page evidence. Experimental releases retain review gaps; stable gates require full passes and an accepting reviewer.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.release.export",
+      "description": "Export a language release with its dictionary, wiki, assertions and embedded reports. Proof/font binaries remain separately hash-referenced.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.variation.read",
+      "description": "Read versioned optional forms and repetition watch definitions.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.variation.replace",
+      "description": "Validate and save variation proposals in the guarded draft; commit separately to freeze them.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.variation.forms",
+      "description": "Inspect full and optional forms with explicit author-supplied context. No automatic rewriting.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.variation.audit",
+      "description": "Inspect repetition in a versioned page. Advisory counts cannot certify natural language.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.variation.run",
+      "description": "Save a frozen repetition audit with snapshot, page and watch hashes.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.variation.compare",
+      "description": "Compare page text in two versions with identical watch definitions from the after version.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.spelling.read",
+      "description": "Read versioned Maxima policy and paired letter identities.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.spelling.replace",
+      "description": "Validate and save the guarded draft spelling policy; does not rewrite text.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.spelling.preview",
+      "description": "Preview exact sentence-initial Maxima edits on a selected page. No Unicode uppercase or automatic typing.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.spelling.apply",
+      "description": "Apply the exact reviewed draft preview; clone source cases, preserve earlier cases and update bound page atomically.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.spelling.audit",
+      "description": "Inspect mapped sentence initials, missing Maxima and unresolved initial scalars.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.spelling.run",
+      "description": "Freeze a spelling audit and its exact input hashes.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.variation.orders",
+      "description": "Inspect retained and conditional clause orders for explicit discourse context; does not reorder text.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.reading.read",
+      "description": "Read the versioned parallel reading profile and modes.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.reading.enable",
+      "description": "Enable the verified Thimfora 79 / transliteration 7 reading profile in the guarded draft.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.reading.inspect",
+      "description": "Inspect exact parallel text, Maxima/Minima counts and font-reading evidence.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.reading.copy",
+      "description": "Create a separate editable transliteration or literal Roman copy of this two-column page. Source stays unchanged.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "view.pages",
+      "description": "Show one current page or a facing pair. Workspace preference only; preserves document content, page geometry, zoom and undo history. Inspect page offsets with view.inspect.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.gloss.read",
+      "description": "Read the versioned compact glossary and abbreviation legend.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.gloss.prepare",
+      "description": "Suggest editable dictionary labels for an annotated test; does not save or infer grammatical features.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.gloss.put",
+      "description": "Validate and save compact labels to the guarded Forge draft; commit separately to freeze the glossary.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "forge.gloss.inspect",
+      "description": "Explain every annotated token in exact source order, with senses, rules, spans, abbreviations and adaptation notes.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.gloss.copy",
+      "description": "Create a separate four-column copy from a frozen language version, with corresponding paragraph starts aligned across the spread.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.paragraphs.align",
+      "description": "Align corresponding paragraph first baselines across independent columns, changing only paragraph-before spacing in one undoable edit. Defaults to the current four-column spread.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.saved-preview",
+      "description": "Inspect embedded preview metadata from the saved file (never unsaved state). No rendering or external fonts required.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "shell.status",
+      "description": "Inspect Windows .vay association and installed icon/thumbnail component; no registry changes.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    }
+  ]
+}

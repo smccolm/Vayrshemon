@@ -1,0 +1,37 @@
+"""M14 native file dialogs; the reading layout and glyph renderer are unchanged."""
+from pathlib import Path
+from PySide6.QtGui import QIcon
+from PySide6.QtWidgets import QFileDialog,QMessageBox
+from .gloss_window import GlossWindow
+
+
+def suggested_path(book):
+    path=book.saved_path or book.root/'.local/Untitled.vay'
+    value=str(path)
+    for suffix in ('.vaylab.json','.vay.json'):
+        if value.lower().endswith(suffix):return value[:-len(suffix)]+'.vay'
+    return value
+
+
+class FileWindow(GlossWindow):
+    def __init__(self,book,api):
+        super().__init__(book,api)
+        self.setWindowIcon(QIcon(str(book.root/'data/icons/memon-color.ico')))
+        self.restore_saved_arrangement()
+
+    def restore_saved_arrangement(self):
+        if self.book.saved_preview:self.invoke('view.pages',mode=self.book.saved_page_mode)
+
+    def open_file(self):
+        path,_=QFileDialog.getOpenFileName(self,'Open document',str(self.book.root/'.local'),'Vayrshemon (*.vay *.vay.json *.vaylab.json)')
+        if path:self.open_path(path)
+
+    def save_as(self):
+        path,_=QFileDialog.getSaveFileName(self,'Save document as',suggested_path(self.book),'Vayrshemon document (*.vay)')
+        if path:
+            if not path.lower().endswith(('.vay','.vay.json')):path+='.vay'
+            self.invoke('document.save-as',path=path)
+
+    def about(self):
+        from .paint import ENGINE_VERSION
+        QMessageBox.about(self,'About Vayrshemon',f'Vayrshemon\nM14 · {self.book.application_version}\nPaint engine {ENGINE_VERSION}\n.vay documents · Memon icons · saved page thumbnails')

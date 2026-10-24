@@ -363,10 +363,13 @@ class LabTests(unittest.TestCase):
         cursor.setBlockFormat(bf)
         self.session.format_range(0,9,size=40,color='#FF0000FF')
         self.session.format_range(5,9,size=40,color='#0000FFFF')
-        image,_=layout.render(self.session,region=[0,0,300,250],mode='mono')
+        image,_=layout.render(self.session,region=[0,0,300,250],mode='color')
         colors={image.pixelColor(x,y).name() for x in range(image.width()) for y in range(image.height())}
         self.assertIn('#ff0000',colors)
         self.assertIn('#0000ff',colors)
+        monochrome,_=layout.render(self.session,region=[0,0,300,250],mode='mono')
+        self.assertTrue(all((c:=monochrome.pixelColor(x,y)).red()==c.green()==c.blue()
+                            for x in range(monochrome.width()) for y in range(monochrome.height())))
         before=layout.inspect(self.session)['geometryHash']
         path=self.work/'leading.vaylab.json'
         self.session.save(path)

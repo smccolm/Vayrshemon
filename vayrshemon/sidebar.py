@@ -141,8 +141,20 @@ class SidebarDock(QWidget):
         self.setMaximumWidth(self.MAX_WIDTH if self.expanded else self.RAIL)
         target = self.expanded_width if self.expanded else self.RAIL
         # Give released space to the preview; keep the source editor's width.
+        available = sum(sizes)
         sizes[0] = target
-        sizes[-1] = max(1, sizes[-1] + old_width - target)
+        preview = self.splitter.widget(self.splitter.count()-1)
+        preview_min = max(preview.minimumWidth(), preview.minimumSizeHint().width(), 1)
+        sizes[-1] = max(preview_min, sizes[-1] + old_width - target)
+        # When the preview reaches its minimum, borrow from the source pane
+        # before Qt proportionally shrinks the requested controls width.
+        deficit = max(0, sum(sizes)-available)
+        for index in range(1, len(sizes)-1):
+            widget = self.splitter.widget(index)
+            minimum = max(widget.minimumWidth(), widget.minimumSizeHint().width(), 1)
+            take = min(deficit, max(0, sizes[index]-minimum))
+            sizes[index] -= take
+            deficit -= take
         self.splitter.setSizes(sizes)
         self.toggle_button.setText('‹' if self.expanded else '›')
         label = 'Collapse controls' if self.expanded else 'Expand controls'

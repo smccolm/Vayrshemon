@@ -32,7 +32,7 @@ def build(root,out):
         if path.is_symlink() or not path.is_file(): continue
         files[name]=path.read_bytes()
     from vayrshemon import __version__
-    manifest=dict(format='vayrshemon.release',version='1.0.0',application=__version__,nativeFormat='0.5.0',
+    manifest=dict(format='vayrshemon.release',version='1.0.0',application=__version__,nativeFormat='0.6.0',
         files={name:dict(sha256=digest(data),bytes=len(data)) for name,data in files.items()})
     import io
     stream=io.BytesIO()
@@ -77,6 +77,8 @@ def verify(bundle):
             required.add('requirements-m12.txt')
         if tuple(int(v) for v in manifest['application'].split('.')[:2]) >= (0,14):
             required.add('requirements-m13.txt')
+        if tuple(int(v) for v in manifest['application'].split('.')[:2]) >= (0,15):
+            required.update({'requirements-m14.txt','tools/windows_shell.py','tools/install_shell_machine.py','tools/shell/vay_shell.cpp','data/icons/memon-color.ico'})
         if not required<=files.keys(): raise ValueError('INCOMPLETE_RELEASE')
         return manifest,files
 

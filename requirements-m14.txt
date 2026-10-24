@@ -1,0 +1,3 @@
+# M14 uses the pinned typography runtime and a native Windows shell DLL.
+# setup installs MSVC/Windows SDK if absent; the DLL statically links its CRT.
+-r requirements-m13.txt

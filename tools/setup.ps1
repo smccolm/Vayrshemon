@@ -59,7 +59,22 @@ function Find-Python312 {
             Write-Host $_.Exception.Message
         }
     }
-    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0 through M13 are tested with Python 3.12.7.'
+    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0 through M14 are tested with Python 3.12.7.'
+}
+
+function Ensure-ShellBuildTools {
+    $finder = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio\Installer\vswhere.exe'
+    $found = $null
+    if (Test-Path -LiteralPath $finder) {
+        $found = & $finder -latest -products '*' -requires Microsoft.VisualStudio.Component.VC.Tools.x86.x64 -property installationPath
+    }
+    if (!$found) {
+        $winget = Get-Command winget.exe -ErrorAction SilentlyContinue
+        if (!$winget) { throw 'Install Visual Studio 2022 Build Tools with Desktop development with C++, then rerun setup.bat (winget is unavailable).' }
+        Write-Host 'Installing Microsoft C++ build tools and Windows SDK for the native Explorer component.'
+        & $winget.Source install --id Microsoft.VisualStudio.2022.BuildTools --exact --source winget --silent --accept-package-agreements --accept-source-agreements --override '--wait --passive --norestart --add Microsoft.VisualStudio.Workload.VCTools --includeRecommended'
+        if ($LASTEXITCODE -notin @(0,3010)) { throw 'C++ tools installation failed. See this setup log; rerun after resolving the installer error.' }
+    }
 }
 
 try {
@@ -71,7 +86,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M13 0.14.5 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.0 setup - $projectRoot"
     Write-Host "Console log: $logPath"
 
     if (Test-Path -LiteralPath $environmentPath) {
@@ -99,11 +114,14 @@ try {
         Write-Host "Offline wheelhouse: $wheelDirectory"
     }
     Invoke-Python $environmentPython (@('-m', 'pip', '--require-virtualenv', 'install',
-        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m13.txt') + $wheelArguments)
+        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m14.txt') + $wheelArguments)
     Invoke-Python $environmentPython @('-m', 'pip', '--disable-pip-version-check', 'check')
     Invoke-Python $environmentPython @('-m', 'tools.dependency_audit', '--out', ".local/logs/dependencies-$runId.json")
     Invoke-Python $environmentPython @('-m', 'tools.m0', '--log', ".local/logs/setup-check-$runId.jsonl", 'check')
+    Ensure-ShellBuildTools
+    Invoke-Python $environmentPython @('-m', 'tools.windows_shell', '--build')
     Invoke-Python $environmentPython @('-m', 'unittest', 'discover', '-s', 'tests', '-v')
+    Invoke-Python $environmentPython @('-m', 'tools.windows_shell', '--install')
 
     $mcpConfiguration = @{
         mcpServers = @{
@@ -118,7 +136,10 @@ try {
 
     Write-Host ''
     Write-Host 'Setup complete. Dependencies, evidence checks, and tests passed.'
-    Write-Host 'Double-click launch.bat to open M13 (Language Workbench + Language Forge).'
+    Write-Host 'Double-click launch.bat or a .vay file to open M14 (Language Workbench + Language Forge).'
+    Write-Host '.vay files include centered Memon mode icons and saved page/spread thumbnails. Legacy .vay.json and .vaylab.json files remain readable.'
+    Write-Host 'Explorer integration: per-user file associations + isolated system thumbnail component. See docs\M14.md.'
+    Write-Host 'Remove integration: .venv\Scripts\python.exe -m tools.windows_shell --uninstall'
     Write-Host 'Forge projects: *.vayforge; versioned dictionaries, wiki, branches and tests. Construction glosses, four-column spreads, Maxima, tests and PNG export: docs\M13.md.'
     Write-Host 'Panel shortcuts: Ctrl+Alt+B expands/collapses; Ctrl+Alt+P pins/unpins. See docs\M6.1.md.'
     Write-Host 'Offline recovery: python -S tools\recovery.py --help'

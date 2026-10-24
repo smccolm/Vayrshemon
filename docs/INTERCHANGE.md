@@ -2,7 +2,7 @@
 
 | Artifact | Retains | Does not provide |
 | --- | --- | --- |
-| Native `*.vay.json`, format 0.5.0 | Stable page/frame/run IDs; exact Unicode/legacy source slots; UTF-16 ranges; style/font hashes; paint; typesetting; language revision graph; corpus links | Font bytes (ordinary native files use exact hash/path references) |
+| Native `*.vay`, format 0.6.0; older `*.vay.json` remains readable | Stable page/frame/run IDs; exact Unicode/legacy source slots; UTF-16 ranges; style/font hashes; paint; typesetting; language revision graph; corpus links; saved-mode/page/spread PNG preview | Font bytes (ordinary native files use exact hash/path references) |
 | `*.vaybackup`, format 1.0.0 | Exact native bytes, declared font bytes, sizes/hashes and provenance manifest | Whole Inputs archive, external audio files, installed system fonts or dependency runtime |
 | Language JSON package, format 1.0.0 | Selected language dataset, original citations/uncertainty, typed records and hash manifest | Full native page layout and old retained revision graph |
 | Offline `text --out` JSON | Exact blocks/runs and their legacy/Unicode metadata, separated by page/frame | Guessed decoding, normalization, reconstruction of decorative effects |
@@ -18,3 +18,5 @@ Native editing ranges use **UTF-16 code units** and reject surrogate/grapheme sp
 Use `tools/recovery.py` with `python -S` when the editor cannot start. `inspect` validates basic structure and reports versions, counts, font references and hash; it does not claim full semantic validity. `text` creates a new JSON file without rewriting its source. `verify` checks all backup members. `restore` requires a new directory, preserves the original exact file and only relocates font paths in a separate recovered copy. The editor then performs its full validation. Recovery never invents missing glyphs, normalizes spelling or silently substitutes source fonts.
 
 M1–M4 imports retain the existing migration policy: read originals and save a new format/path. M5 and M6 share native 0.5.0 and language package 1.0.0. Release rollback changes application selection, not documents. Keep native files and verified backups as authoritative sources; exported visual proofs are not document backups.
+
+M14 reads native 0.1–0.5 and the original lab format, then saves native 0.6.0. The `.vay` file is still UTF-8 JSON. Its `state` retains the preceding schema; `shellPreview` carries a bounded PNG plus saved revision, state/image hashes, color mode and visible page IDs. Save embeds the preview atomically with the state. Font-complete recovery relocates verified font paths in the recovered copy and recalculates the preview's state hash, retaining the exact preview pixels. Earlier app versions do not understand the new wrapper. See [M14](M14.md).

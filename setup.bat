@@ -1,6 +1,6 @@
 @echo off
-rem M13 0.14.5 dependencies, selectable monochrome paper and regressions live in tools\setup.ps1.
-rem The larger Roman reading specimen uses these same dependencies; no additional install is needed.
+rem M14 0.15.0 dependencies, .vay Explorer integration and regressions live in tools\setup.ps1.
+rem First shell install uses Windows administrator approval for the isolated native thumbnail component.
 setlocal
 set "SETUP_NO_PAUSE="
 if "%~1"=="" goto run

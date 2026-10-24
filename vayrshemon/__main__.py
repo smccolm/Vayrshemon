@@ -25,6 +25,7 @@ def main():
     editor.add_argument('--m7',action='store_true',help='Open the M7 Forge interface without the M8 laboratory.')
     editor.add_argument('--m11',action='store_true',help='Open the M11 Maxima interface.')
     editor.add_argument('--m12',action='store_true',help='Open the M12 reading interface.')
+    editor.add_argument('--m13',action='store_true',help='Open the frozen M13 construction interface.')
     editor.add_argument('--m10',action='store_true',help='Open the M10 variation interface.')
     editor.add_argument('--m9',action='store_true',help='Open the frozen M9 integration interface.')
     editor.add_argument('--m8',action='store_true',help='Open the frozen M8 laboratory interface.')
@@ -53,6 +54,7 @@ def main():
     mcp.add_argument('--laboratory',action='store_true',help='Use M8 executable language tests in headless mode.')
     mcp.add_argument('--reading',action='store_true',help='Use M12 parallel reading controls in headless mode.')
     mcp.add_argument('--gloss',action='store_true',help='Use M13 construction gloss controls in headless mode.')
+    mcp.add_argument('--files',action='store_true',help='Use M14 .vay, saved previews and shell inspection in headless mode.')
     mcp.add_argument('--spelling',action='store_true',help='Use M11 Maxima and topic variation in headless mode.')
     mcp.add_argument('--variation',action='store_true',help='Use M10 variation controls in headless mode.')
     mcp.add_argument('--integration',action='store_true',help='Use M9 merges and releases in headless mode.')
@@ -90,10 +92,11 @@ def main():
         from .spelling_api import METHODS as SPELLING_METHODS
         from .reading_api import METHODS as READING_METHODS
         from .gloss_api import METHODS as GLOSS_METHODS
+        from .file_api import METHODS as FILE_METHODS
         reliability_methods=RELIABILITY_METHODS
         if info['apiVersion']=='0.7.0':
             reliability_methods={k:v for k,v in RELIABILITY_METHODS.items() if not k.startswith('ui.sidebar')}
-        serve(args.root, descriptor=args.descriptor,methods=GLOSS_METHODS if info['apiVersion'] in ('0.14.0','0.14.1') else READING_METHODS if info['apiVersion']=='0.13.0' else SPELLING_METHODS if info['apiVersion']=='0.12.0' else VARIATION_METHODS if info['apiVersion']=='0.11.0' else INTEGRATION_METHODS if info['apiVersion']=='0.10.0' else LABORATORY_METHODS if info['apiVersion']=='0.9.0' else FORGE_METHODS if info['apiVersion']=='0.8.0' else reliability_methods if info['apiVersion'] in ('0.7.0','0.7.1') else LANGUAGE_METHODS if info['apiVersion']=='0.6.0' else STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
+        serve(args.root, descriptor=args.descriptor,methods=FILE_METHODS if info['apiVersion']=='0.15.0' else GLOSS_METHODS if info['apiVersion'] in ('0.14.0','0.14.1') else READING_METHODS if info['apiVersion']=='0.13.0' else SPELLING_METHODS if info['apiVersion']=='0.12.0' else VARIATION_METHODS if info['apiVersion']=='0.11.0' else INTEGRATION_METHODS if info['apiVersion']=='0.10.0' else LABORATORY_METHODS if info['apiVersion']=='0.9.0' else FORGE_METHODS if info['apiVersion']=='0.8.0' else reliability_methods if info['apiVersion'] in ('0.7.0','0.7.1') else LANGUAGE_METHODS if info['apiVersion']=='0.6.0' else STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
         return 0
     # Windows' offscreen plugin uses a dummy font backend. Hidden native Qt
     # supplies the same fonts and geometry as the window; Linux uses offscreen.
@@ -107,7 +110,8 @@ def main():
     from tools.m0.common import write_json
     app = QApplication.instance() or QApplication([])
     app.setApplicationName('Vayrshemon')
-    use_gloss=(args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10,args.m11,args.m12))) or (args.command=='mcp' and args.gloss)
+    use_files=(args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10,args.m11,args.m12,args.m13))) or (args.command=='mcp' and args.files)
+    use_gloss=use_files or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10,args.m11,args.m12))) or (args.command=='mcp' and args.gloss)
     use_reading=use_gloss or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10,args.m11))) or (args.command=='mcp' and args.reading)
     use_spelling=use_reading or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10))) or (args.command=='mcp' and args.spelling)
     use_variation=use_spelling or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9))) or (args.command=='mcp' and args.variation)
@@ -122,6 +126,7 @@ def main():
     if getattr(args,'document',None) and args.command in ('inspect','render','mcp'):
         from tools.m0.common import load_json
         payload=load_json(args.document)
+        use_files=use_files or (payload.get('format')=='vayrshemon.document' and payload.get('formatVersion')=='0.6.0')
         use_editor=use_editor or payload.get('format')=='vayrshemon.document'
         use_typesetter=use_typesetter or (payload.get('format')=='vayrshemon.document' and payload.get('formatVersion')=='0.3.0')
         use_studio=use_studio or (payload.get('format')=='vayrshemon.document' and payload.get('formatVersion')=='0.4.0')
@@ -147,8 +152,9 @@ def main():
         from .spelling_api import SpellingSession,SpellingAPI
         from .reading_api import ReadingSession,ReadingAPI
         from .gloss_api import GlossSession,GlossAPI
-        session=(GlossSession if use_gloss else ReadingSession if use_reading else SpellingSession if use_spelling else VariationSession if use_variation else IntegrationSession if use_integration else LaboratorySession if use_laboratory else ForgeSession if use_forge else ReliabilitySession if use_reliability else LanguageSession if use_language else StudioSession if use_studio else TypesettingSession if use_typesetter else AuthoringSession)(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
-        api=(GlossAPI if use_gloss else ReadingAPI if use_reading else SpellingAPI if use_spelling else VariationAPI if use_variation else IntegrationAPI if use_integration else LaboratoryAPI if use_laboratory else ForgeAPI if use_forge else ReliabilityAPI if use_reliability else LanguageAPI if use_language else StudioAPI if use_studio else TypesettingAPI if use_typesetter else EditorAPI)(session)
+        from .file_api import FileSession,FileAPI
+        session=(FileSession if use_files else GlossSession if use_gloss else ReadingSession if use_reading else SpellingSession if use_spelling else VariationSession if use_variation else IntegrationSession if use_integration else LaboratorySession if use_laboratory else ForgeSession if use_forge else ReliabilitySession if use_reliability else LanguageSession if use_language else StudioSession if use_studio else TypesettingSession if use_typesetter else AuthoringSession)(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
+        api=(FileAPI if use_files else GlossAPI if use_gloss else ReadingAPI if use_reading else SpellingAPI if use_spelling else VariationAPI if use_variation else IntegrationAPI if use_integration else LaboratoryAPI if use_laboratory else ForgeAPI if use_forge else ReliabilityAPI if use_reliability else LanguageAPI if use_language else StudioAPI if use_studio else TypesettingAPI if use_typesetter else EditorAPI)(session)
     else:
         session = Session(args.root, source_fonts=not args.no_source_fonts)
         api = API(session)
@@ -174,7 +180,8 @@ def main():
         from .spelling_window import SpellingWindow
         from .reading_window import ReadingWindow
         from .gloss_window import GlossWindow
-        window=(GlossWindow if use_gloss else ReadingWindow if use_reading else SpellingWindow if use_spelling else VariationWindow if use_variation else IntegrationWindow if use_integration else LaboratoryWindow if use_laboratory else ForgeWindow if use_forge else ReliabilityWindow if use_reliability else LanguageWindow if use_language else StudioWindow if use_studio else WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
+        from .file_window import FileWindow
+        window=(FileWindow if use_files else GlossWindow if use_gloss else ReadingWindow if use_reading else SpellingWindow if use_spelling else VariationWindow if use_variation else IntegrationWindow if use_integration else LaboratoryWindow if use_laboratory else ForgeWindow if use_forge else ReliabilityWindow if use_reliability else LanguageWindow if use_language else StudioWindow if use_studio else WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
         server=LocalServer(api)
         app.aboutToQuit.connect(server.close)
         window.show()

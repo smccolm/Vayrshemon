@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 native files and Explorer previews 0.15.0 — 2026-10-24
+
+- Default Save As to `.vay`, retaining legacy `.vay.json`/`.vaylab.json` imports. Native wrapper 0.6 preserves the editable state and embeds an atomic, validated preview of the saved page or spread.
+- Add centered Memon icons for Color / relief, white-on-black and black-on-white Monochrome, with saved-state thumbnails through an isolated native Windows provider. File associations stay per-user; the approved system COM component is installed in Program Files.
+- Preserve approved geometry, paragraph alignment, 50/22 pt sizes, 38 pt leading, Maxima and paint. Both pages in all three modes matched M13 proof pixels exactly.
+- Add saved-preview inspection and shell status; publish 153 API/CLI/MCP controls. Preserve recovery, verified font backups, export workers and timestamped paired PNG output.
+- Update setup.bat, C++/SDK bootstrap, reversible registration, logs, source releases and compatibility tests. Correct the legacy multicolor test to use Color mode, and preserve a reopened sidebar's requested width when its preview reaches minimum size.
+
 ## M13 selectable monochrome paper 0.14.5 — 2026-10-24
 
 - Add explicit “Monochrome: white on black” and “Monochrome: black on white” choices to the existing rendering dropdown. Keep the compact ribbon and Color / relief option.

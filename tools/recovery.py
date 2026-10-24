@@ -39,7 +39,7 @@ def read_document(path):
     path=Path(path)
     if path.stat().st_size>MAX_DOCUMENT: raise ValueError('DOCUMENT_TOO_LARGE')
     raw=path.read_bytes();value=decode(raw)
-    if value.get('format')!='vayrshemon.document' or value.get('formatVersion') not in ('0.2.0','0.3.0','0.4.0','0.5.0'):
+    if value.get('format')!='vayrshemon.document' or value.get('formatVersion') not in ('0.2.0','0.3.0','0.4.0','0.5.0','0.6.0'):
         raise ValueError('UNSUPPORTED_NATIVE_DOCUMENT')
     if not isinstance(value.get('state',{}).get('pages'),list): raise ValueError('INVALID_DOCUMENT_STRUCTURE')
     return value,raw
@@ -115,7 +115,7 @@ def verify_backup(path):
         raw=files['document.vay.json']
         if len(raw)>MAX_DOCUMENT: raise ValueError('DOCUMENT_TOO_LARGE')
         doc=decode(raw)
-        if doc.get('format')!='vayrshemon.document' or doc.get('formatVersion') not in ('0.2.0','0.3.0','0.4.0','0.5.0'): raise ValueError('UNSUPPORTED_NATIVE_DOCUMENT')
+        if doc.get('format')!='vayrshemon.document' or doc.get('formatVersion') not in ('0.2.0','0.3.0','0.4.0','0.5.0','0.6.0'): raise ValueError('UNSUPPORTED_NATIVE_DOCUMENT')
         sources=doc['state']['fontSources'];indexed={f['fontId']:f for f in manifest['fonts']}
         if len(indexed)!=len(manifest['fonts']) or set(indexed)!={s['fontId'] for s in sources}: raise ValueError('BACKUP_FONT_INDEX_MISMATCH')
         if len(sources)!=len(indexed): raise ValueError('BACKUP_DUPLICATE_FONT')
@@ -137,7 +137,10 @@ def restore_backup(path,destination):
         entry=indexed[source['fontId']];name=Path(entry['member']).name
         target=destination/'fonts'/name;target.parent.mkdir(exist_ok=True)
         target.write_bytes(files[entry['member']]);source['path']=str(target)
-    target=destination/'recovered.vay.json';target.write_bytes(encoded(value))
+    if value.get('shellPreview'):
+        # Only font paths changed; verified font bytes and page pixels are exact.
+        value['shellPreview']['stateSha256']=sha(json.dumps(value['state'],sort_keys=True,separators=(',',':'),ensure_ascii=True,allow_nan=False).encode())
+    target=destination/('recovered.vay' if value['formatVersion']=='0.6.0' else 'recovered.vay.json');target.write_bytes(encoded(value))
     report=dict(path=str(target),originalSha256=manifest['files']['document.vay.json']['sha256'],recoveredSha256=sha(target.read_bytes()),
         relocatedFonts=len(indexed),revision=manifest['revision'],sourceUnchanged=True)
     (destination/'recovery-report.json').write_bytes(encoded(report));return report

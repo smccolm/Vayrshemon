@@ -392,8 +392,13 @@ class AuthoringSession(QObject):
 
     def output_path(self,path): return self.active.output_path(path)
 
+    def prepare_save_payload(self,payload):
+        """Milestone-specific derived data, prepared before the atomic write."""
+        return payload
+
     def save(self,path):
         path=self.output_path(path)
+        replacing=path.exists()
         if self.migrated_from and path==Path(self.migrated_from): raise ValueError('MIGRATION_REQUIRES_NEW_PATH: retain the original file')
         if path.exists():
             if path!=self.saved_path: raise ValueError('SAVE_AS_TARGET_EXISTS')
@@ -401,13 +406,21 @@ class AuthoringSession(QObject):
         state=self.capture(); self.validate(state)
         self.resolve_fonts(state)
         payload=dict(format='vayrshemon.document',formatVersion=self.file_version,state=state,history=self.history[-256:],engine=self.fingerprint())
+        payload=self.prepare_save_payload(payload)
         Draft202012Validator(self.document_schema).validate(payload)
         if len(json_text(payload).encode('utf-8'))>16*1024*1024: raise ValueError('DOCUMENT_TOO_LARGE')
+        # Preview preparation may take time. Recheck the destination before
+        # publishing; a save failure must preserve externally edited files.
+        if replacing and (not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=self.saved_hash):raise ValueError('DOCUMENT_CHANGED_ON_DISK')
+        if not replacing and path.exists():raise ValueError('SAVE_AS_TARGET_EXISTS')
         if path.exists():
             prior=load_json(path)
             backup=self.root/'.local/history'/self.state['documentId']/(self.saved_hash+'.vay.json')
             if not backup.exists(): write_json(backup,prior)
-        write_json(path,payload)
+        if replacing:write_json(path,payload)
+        else:
+            from tools.recovery import exclusive_write
+            exclusive_write(path,json_text(payload).encode('utf-8'))
         self.saved_path=path; self.saved_hash=hashlib.sha256(path.read_bytes()).hexdigest()
         self.saved_revision=self.revision; self._saved_digest=self.content_digest(state)
         self.checkpoint(); self.remember(path); self.changed.emit()
