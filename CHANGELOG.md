@@ -2,6 +2,13 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M13 automatic paragraph alignment 0.14.3 — 2026-10-24
+
+- Reflow corresponding paragraph starts when text changes in a complete four-column spread. Typing, paste, IME and API edits include the spacing adjustment in the same Undo step. Saves and exports see the committed alignment immediately.
+- Preserve text and prior spacing when counts differ or the result would overset; show a nonmodal status and resume on a later fitting edit. Keep all approved fonts, leading, geometry and paint.
+- Reuse native shaping and placement for lightweight line measurements without touching painted glyphs or populating the paint cache. Most keystrokes retain their existing wrapping and spacing.
+- Add a small × to the source editor header. Closing and reopening the pane do not change the document. Update setup.bat; dependencies, native format, API version and 151-operation count remain unchanged.
+
 ## M13 paragraph alignment 0.14.2 — 2026-10-24
 
 - Align the first baseline of each corresponding paragraph across all four columns. Change only paragraph-before spacing; retain text, Maxima, font sizes, exact leading, page geometry and bevel/glow.

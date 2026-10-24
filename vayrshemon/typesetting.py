@@ -68,7 +68,8 @@ def independent(text,fmt,rule=None):
 
 
 class Composition:
-    def __init__(self,book,mode=None,page_id=None):
+    def __init__(self,book,mode=None,page_id=None,*,line_metrics=False):
+        self.line_metrics=line_metrics
         self.book=book; self.mode=mode or book.view['mode']; self.spec=book.state['typesetting']
         self.frames={f['frameId']:(p,f) for p in book.state['pages'] for f in p['frames']}
         if page_id is not None:
@@ -96,10 +97,16 @@ class Composition:
             if enabled and len(native.text())>MAX_SCALARS: raise ValueError('TYPESETTING_SOURCE_LIMIT: 30,000 scalars per story; disable typesetting for native editing')
             story=dict(source=fid,native=native,config=config if enabled else None,chain=chain,paragraphs=[],glyphs=[],lines=[])
             self.stories[fid]=story
-            cache=getattr(book,'story_cache',None)
+            # Alignment needs the same shaping/placement, without building
+            # decorative glyph paths or running diagnostic-only collisions.
+            # Never mix these lightweight stories into the paint cache.
+            cache=None if line_metrics else getattr(book,'story_cache',None)
             if cache is None: self.shape(story,enabled)
             else: cache.shape(self,story,enabled)
         self.base,self.base_lines,self.base_warnings=self.place({})
+        if line_metrics:
+            self.lines=self.base_lines
+            return
         self.base_collisions,self.base_complete=self.collisions(self.base)
         self.final,self.lines=[dict(g) for g in self.base],deepcopy(self.base_lines)
         self.solve()
@@ -184,8 +191,9 @@ class Composition:
                     line_count+=1
                     if len(story['lines'])+line_count>10000: raise ValueError('TYPESETTING_LINE_LIMIT')
                 shaped.endLayout(); self.layouts.append(shaped)
-                for start,length,fmt in fragments:
-                    for run in shaped.glyphRuns(start,length,QTextLayout.GlyphRunRetrievalFlag.RetrieveAll): groups.append((block,shaped,run,fmt))
+                if not self.line_metrics:
+                    for start,length,fmt in fragments:
+                        for run in shaped.glyphRuns(start,length,QTextLayout.GlyphRunRetrievalFlag.RetrieveAll): groups.append((block,shaped,run,fmt))
             else: shaped=block.layout(); reasons={}
             for index in range(shaped.lineCount()):
                 line=shaped.lineAt(index); source_start=block.position()+line.textStart()
@@ -198,6 +206,7 @@ class Composition:
                           nativeX=shaped.position().x()+line.x(),breakInfo=reasons.get(line.textStart()+line.textLength()),_line=line,_layout=shaped)
                 line_lookup[(block.position(),index)]=item; para['lines'].append(item); story['lines'].append(item)
             story['paragraphs'].append(para); block=block.next()
+        if self.line_metrics:return
         if not enabled: groups=list(layout.runs(native))
         source_map=layout.source_ranges(groups,MAX_GLYPHS+1)
         for block,shaped,run,fmt in groups:

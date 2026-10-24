@@ -4,6 +4,7 @@ from .api import obj,STRING
 from .forge_api import GUARD
 from .reading_api import ReadingSession,ReadingAPI,METHODS as BASE
 from . import gloss
+from .automatic_alignment import AutomaticAlignment
 
 METHODS=deepcopy(BASE)
 METHODS.update({
@@ -20,10 +21,11 @@ METHODS['jobs.export'][2]['properties'].update(
  page_ids={'type':'array','items':STRING,'minItems':1,'maxItems':2,'uniqueItems':True},
  replace_sha256s={'type':'array','items':{'type':['string','null'],'pattern':'^[0-9a-f]{64}$'},'minItems':1,'maxItems':2})
 METHODS['jobs.export']=('Export one proof, or PNG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right.',*METHODS['jobs.export'][1:])
+METHODS['document.edit']=(METHODS['document.edit'][0]+' Complete four-column spreads automatically align corresponding paragraph starts in the same undo step; inspect automaticParagraphAlignment in session.status for paused counts or overset.',*METHODS['document.edit'][1:])
 
 
-class GlossSession(ReadingSession):
-    application_version='0.14.2'
+class GlossSession(AutomaticAlignment,ReadingSession):
+    application_version='0.14.3'
 
 
 class GlossAPI(ReadingAPI):
@@ -31,9 +33,13 @@ class GlossAPI(ReadingAPI):
     methods=METHODS
 
     def dispatch(self,method,params):
+        if method=='session.status':return dict(super().dispatch(method,params),automaticParagraphAlignment=deepcopy(self.session.automatic_alignment))
         if method=='page.paragraphs.align':
             from .paragraph_alignment import align
-            return align(self.session,**params)
+            result=align(self.session,**params)
+            self.session.automatic_alignment=dict(enabled=True,status='aligned',message='Paragraph starts aligned; future text edits align automatically.',results=[result])
+            if self.session.window:self.session.window.refresh_alignment_notice()
+            return result
         if not method.startswith('forge.gloss.') and method!='page.gloss.copy':return super().dispatch(method,params)
         p=self.session.forge
         if not p:raise ValueError('FORGE_PROJECT_REQUIRED')

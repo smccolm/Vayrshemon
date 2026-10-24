@@ -29,7 +29,7 @@
     },
     {
       "method": "document.edit",
-      "description": "Replace a UTF-16 range on grapheme boundaries. Revision and idempotency key are required.",
+      "description": "Replace a UTF-16 range on grapheme boundaries. Revision and idempotency key are required. Complete four-column spreads automatically align corresponding paragraph starts in the same undo step; inspect automaticParagraphAlignment in session.status for paused counts or overset.",
       "mutation": true,
       "transports": [
         "python",

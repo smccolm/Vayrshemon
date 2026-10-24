@@ -4,19 +4,23 @@ from . import pages
 from .session import SCALE,utf16_length
 
 
+def spread_frames(book,page_id=None):
+    page_id=page_id or book.current_page()['pageId']
+    index=next(i for i,p in enumerate(book.state['pages']) if p['pageId']==page_id)
+    pair=book.state['pages'][index//2*2:index//2*2+2]
+    if len(pair)!=2 or any(len(p['frames'])!=2 for p in pair):
+        raise ValueError('PARAGRAPH_ALIGNMENT_REQUIRES_FOUR_COLUMN_SPREAD')
+    return [f['frameId'] for p in pair for f in sorted(p['frames'],key=lambda f:int(f['x']))]
+
+
 def without_before(frame):
     result=deepcopy(frame)
     for paragraph in result['content']['paragraphs']:paragraph.pop('before',None)
     return result
 
 
-def align(book,frame_ids=None):
-    if frame_ids is None:
-        index=next(i for i,p in enumerate(book.state['pages']) if p['pageId']==book.current_page()['pageId'])
-        pair=book.state['pages'][index//2*2:index//2*2+2]
-        if len(pair)!=2 or any(len(p['frames'])!=2 for p in pair):
-            raise ValueError('PARAGRAPH_ALIGNMENT_REQUIRES_FOUR_COLUMN_SPREAD')
-        frame_ids=[f['frameId'] for p in pair for f in sorted(p['frames'],key=lambda f:int(f['x']))]
+def align(book,frame_ids=None,*,automatic=False):
+    if frame_ids is None:frame_ids=spread_frames(book)
     if len(frame_ids)<2 or len(set(frame_ids))!=len(frame_ids):raise ValueError('PARAGRAPH_ALIGNMENT_FRAME_IDS')
     selected={f['frameId']:p['pageId'] for p in book.state['pages'] for f in p['frames'] if f['frameId'] in frame_ids}
     if len(selected)!=len(frame_ids):raise ValueError('FRAME_NOT_FOUND')
@@ -30,8 +34,18 @@ def align(book,frame_ids=None):
 
     def measure():
         book.invalidate_composition()
-        reports={pid:pages.inspect(book,page_id=pid,max_glyphs=100000) for pid in set(selected.values())}
-        frames={f['frameId']:f for r in reports.values() for f in r['frames'] if f['frameId'] in selected}
+        configs=book.state['typesetting']['frames']
+        repair=any(c.get('enabled') and c['collision']['mode']=='repair' for c in configs.values())
+        if repair:
+            reports={pid:pages.inspect(book,page_id=pid,max_glyphs=100000) for pid in set(selected.values())}
+            frames={f['frameId']:f for r in reports.values() for f in r['frames'] if f['frameId'] in selected}
+        else:
+            from .typesetting import Composition,frame_rect,numbers
+            frames={}
+            for pid in set(selected.values()):
+                comp=Composition(book,page_id=pid,line_metrics=True)
+                for fid,(_,frame) in comp.frames.items():
+                    if fid in selected:frames[fid]=dict(rect=numbers(frame_rect(frame)),layout=dict(lines=[l for l in comp.lines if l['frameId']==fid]))
         starts={}
         for fid in frame_ids:
             seen=set();starts[fid]=[]
@@ -41,6 +55,19 @@ def align(book,frame_ids=None):
             if len(starts[fid])!=count:raise ValueError('PARAGRAPH_ALIGNMENT_INCOMPLETE_LAYOUT')
         return frames,starts
 
+    def result(starts):
+        rows=[[starts[fid][i]['baseline']/SCALE for fid in frame_ids] for i in range(count)]
+        return dict(frameIds=frame_ids,paragraphs=count,baselinesPt=rows,maxErrorPt=max(max(row)-min(row) for row in rows),revision=book.revision)
+
+    def fits(frames):
+        return all(l['advanceBounds'][1]+l['advanceBounds'][3]<=frame['rect'][1]+frame['rect'][3]+.02
+                   for frame in frames.values() for l in frame['layout']['lines'])
+
+    if automatic:
+        frames,starts=measure();current=result(starts)
+        # Most keystrokes keep the same wrapping. Retain exact spacing and
+        # avoid resetting every QTextBlock or creating a second undo entry.
+        if current['maxErrorPt']<=.02 and fits(frames):return current
     before=book.capture()
     with book.command('Align paragraph starts'):
         # Replace previous pairwise spacing, so repeated alignment does not
@@ -58,14 +85,10 @@ def align(book,frame_ids=None):
                 if not explicit and block.previous().isValid():base=max(base,block.previous().blockFormat().bottomMargin()/SCALE)
                 n.paragraph_format(block.position(),block.position(),before=base+delta)
         frames,starts=measure()
-        rows=[[starts[fid][i]['baseline']/SCALE for fid in frame_ids] for i in range(count)]
-        if any(max(row)-min(row)>.02 for row in rows):raise ValueError('PARAGRAPH_ALIGNMENT_DID_NOT_CONVERGE')
-        for frame in frames.values():
-            x,y,w,h=frame['rect']
-            if any(l['advanceBounds'][1]+l['advanceBounds'][3]>y+h+.02 for l in frame['layout']['lines']):
-                raise ValueError('PARAGRAPH_ALIGNMENT_OVERSET: paragraph groups need more page height; font sizes were retained')
+        if result(starts)['maxErrorPt']>.02:raise ValueError('PARAGRAPH_ALIGNMENT_DID_NOT_CONVERGE')
+        if not fits(frames):raise ValueError('PARAGRAPH_ALIGNMENT_OVERSET: paragraph groups need more page height; font sizes were retained')
         final=book.capture()
         for old,new in zip(before['pages'],final['pages']):
             for a,b in zip(old['frames'],new['frames']):
                 if without_before(a)!=without_before(b):raise ValueError('PARAGRAPH_ALIGNMENT_CHANGED_TYPOGRAPHY')
-    return dict(frameIds=frame_ids,paragraphs=count,baselinesPt=rows,maxErrorPt=max(max(row)-min(row) for row in rows),revision=book.revision)
+    return result(starts)

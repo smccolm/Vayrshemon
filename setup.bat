@@ -1,5 +1,5 @@
 @echo off
-rem M13 0.14.2 dependencies, facing PNG exports, approved left-page baseline and regressions live in tools\setup.ps1.
+rem M13 0.14.3 dependencies, automatic paragraph alignment, source-pane close control and regressions live in tools\setup.ps1.
 rem The larger Roman reading specimen uses these same dependencies; no additional install is needed.
 setlocal
 set "SETUP_NO_PAUSE="

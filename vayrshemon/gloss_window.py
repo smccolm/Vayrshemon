@@ -111,6 +111,25 @@ class GlossWindow(ReadingWindow):
         super().__init__(book,api);self.forge_panel.gloss=GlossPanel(self.forge_panel);self.forge_panel.tabs.insertTab(6,self.forge_panel.gloss,'Gloss')
         edit=self.edit_menu
         edit.addSeparator();edit.addAction('Align paragraph starts across columns',lambda:self.invoke('page.paragraphs.align'))
+        from PySide6.QtWidgets import QToolButton
+        source=self.editor.parentWidget().layout();source.removeWidget(self.frame_heading)
+        header=QHBoxLayout();header.setContentsMargins(0,0,0,0);header.addWidget(self.frame_heading);header.addStretch()
+        self.close_source_button=QToolButton();self.close_source_button.setText('×');self.close_source_button.setFixedSize(24,24)
+        self.close_source_button.setAccessibleName('Close text editor');self.close_source_button.setToolTip('Close text editor · click a page frame in Select mode to edit again')
+        self.close_source_button.clicked.connect(self.close_source);header.addWidget(self.close_source_button);source.insertLayout(0,header)
+        self.alignment_notice=QLabel();self.statusBar().addPermanentWidget(self.alignment_notice);self.refresh_alignment_notice()
+
+    def close_source(self):
+        if self.invoke('ui.workspace',source=False) is not None:self.preview.setFocus()
+
+    def refresh_alignment_notice(self):
+        if not hasattr(self,'alignment_notice'):return
+        status=self.book.automatic_alignment;paused=status['status']=='paused'
+        self.alignment_notice.setText(status['message'].partition('. ')[0] if paused else '')
+        self.alignment_notice.setToolTip(status['message']);self.alignment_notice.setVisible(paused)
+
+    def refresh(self):
+        super().refresh();self.refresh_alignment_notice()
 
     def about(self):
         from .paint import ENGINE_VERSION
