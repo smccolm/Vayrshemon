@@ -125,7 +125,7 @@ def run(root,project,version,test_id,directory,language_report=None,variation_re
             if reading_mode!='translation':
                 left,right=reading.pairs(session.capture())
                 if reading.text_blocks(left)!=reading.text_blocks(right):raise ValueError('READING_OUTPUT_TEXT_MISMATCH')
-                checks[0]['name']='Approved presentation with requested right-column font'
+                checks[0]['name']='Approved presentation with requested right-column font and Roman treatment'
             checks.append(dict(name='Parallel reading and exact symbol/case slots',status='Pass',mode=reading_mode,exactSlotsPreserved=reading_report['exactSlotsPreserved']))
         report.update(status='Fail' if (overflow and not overhang) or missing or (language_report is not None and language_report['status']=='Fail') or (spelling_report is not None and spelling_report['status']=='Fail') else 'Needs review',checks=checks,document=saved['path'],documentSha256=saved['sha256'],proof=str(out/'proof.png'),proofSha256=file_hash(out/'proof.png'),render=render,
                       engine=session.fingerprint(),templateSha256=manifest['source']['sha256'],languageRevision=session.state['language']['activeRevisionId'],test=deepcopy(test),wikiSha256=content_hash(snapshot['wiki']))

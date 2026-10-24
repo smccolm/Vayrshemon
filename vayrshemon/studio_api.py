@@ -11,7 +11,7 @@ METHODS.update({
  'ui.workspace':('Show or hide source/diagnostics, select a control panel, toggle guides and fit the page for visual review.',True,obj(dict(source=BOOL,diagnostics=BOOL,guides=BOOL,fit_page=BOOL,panel={'enum':['Document','Layout','Text','Color','Typeset','Flow','Breaks','Pairs','Paint','Publish']}))),
  'paint.read':('Read versioned lighting, source bindings, page background and raster settings.',False,obj()),
  'paint.configure':('Change the outline-derived paint recipe and advance its revision; source text is unchanged.',True,obj(RECIPE_FIELDS)),
- 'paint.bind':('Bind an exact font identity to verified layer fonts or explicit derived historical treatment.',True,BINDING),
+ 'paint.bind':('Bind an exact font identity to verified layer fonts or derived treatment; roman-translation-1 selects the independent archived Roman bevel/glow profile.',True,BINDING),
  'publication.configure':('Configure page background (#AARRGGBB) and default raster DPI.',True,obj({k:PAINT['properties'][k] for k in ('background','rasterDpi')})),
  'publication.preflight':('Inspect all pages, font identities, overset, effect clipping and extraction limitations.',False,obj(EXPORT_FIELDS)),
  'publication.export':('Export PNG, SVG or multipage PDF; decorative SVG/PDF requires explicit raster policy and DPI.',True,obj(dict(path=STRING,**EXPORT_FIELDS),('path','format','mode','dpi','raster_policy'))),
@@ -56,7 +56,7 @@ class StudioAPI(TypesettingAPI):
         from . import pages
         s=self.session;r=s.paint_renderer;binding=r.binding(font_id)
         if not binding: raise ValueError('PAINT_BINDING_REQUIRED')
-        component='surface' if s.state['paint']['recipe'].get('lightingModel')=='individual-glyphs-1' else 'composite'
+        component='surface' if binding.get('profile') or s.state['paint']['recipe'].get('lightingModel')=='individual-glyphs-1' else 'composite'
         tile,area=r.tile(binding,glyph_id,em,dpi/96*2,component)
         if tile is None: raise ValueError('EMPTY_GLYPH')
         scale=dpi/96;image=QImage(math.ceil(area.width()*scale),math.ceil(area.height()*scale),QImage.Format.Format_ARGB32_Premultiplied)
@@ -67,7 +67,10 @@ class StudioAPI(TypesettingAPI):
         else:
             index,color={'outline':(0,'rim'),'interior':(2,'recess'),'glow-mask':(1,'glow')}[layer]
             p.setRenderHint(QPainter.RenderHint.Antialiasing)
-            p.fillPath(r.paths(binding,glyph_id,em)[index],QColor(s.state['paint']['recipe'][color]))
+            value=s.state['paint']['recipe'][color]
+            if binding.get('profile'):
+                profile=r.profile(binding);value=profile['outerGlow']['colors'][0] if color=='glow' else profile['fill']
+            p.fillPath(r.paths(binding,glyph_id,em)[index],QColor(value))
         p.end()
         target=pages.target(s,path);publication.atomic(target,publication.png_bytes(image))
-        return dict(path=str(target),fontId=font_id,glyphId=glyph_id,em=em,dpi=dpi,background=background,bounds=[area.x(),area.y(),area.width(),area.height()],binding=deepcopy(binding),recipeHash=publication.signature(s.state['paint']['recipe']),paintEngineVersion=publication.ENGINE_VERSION,layer=layer,registration=r.registration(binding,glyph_id,em))
+        return dict(path=str(target),fontId=font_id,glyphId=glyph_id,em=em,dpi=dpi,background=background,bounds=[area.x(),area.y(),area.width(),area.height()],binding=deepcopy(binding),recipeHash=publication.signature(r.profile(binding)),paintEngineVersion=publication.ENGINE_VERSION,layer=layer,registration=r.registration(binding,glyph_id,em))

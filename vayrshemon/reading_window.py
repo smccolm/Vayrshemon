@@ -1,7 +1,7 @@
 """Explicit English, transliteration-font and literal Roman reading copies."""
 import uuid
 from PySide6.QtGui import QFont
-from PySide6.QtWidgets import QWidget,QVBoxLayout,QHBoxLayout,QLabel,QComboBox,QPushButton,QPlainTextEdit,QSplitter
+from PySide6.QtWidgets import QWidget,QVBoxLayout,QHBoxLayout,QBoxLayout,QLabel,QComboBox,QPushButton,QPlainTextEdit,QSplitter,QMessageBox
 from .spelling_window import SpellingWindow
 from . import reading
 
@@ -61,16 +61,48 @@ class ReadingWindow(SpellingWindow):
         button=QPushButton('Create reading copy');button.clicked.connect(self.reading_copy)
         width=next(b for b in self.findChildren(QPushButton) if b.text()=='Fit Width');index=row.indexOf(width)+1;row.insertSpacing(index,12)
         for offset,widget in enumerate((QLabel('Reading copy'),self.reading_mode,button),index+1):row.insertWidget(offset,widget)
-        for label in self.findChildren(QLabel):
-            if '/  M11' in label.text():label.setText(label.text().replace('/  M11','/  M12'))
-        self.setWindowTitle(self.windowTitle().replace('M11','M12'))
+        for label in self.forge_panel.findChildren(QLabel):
+            if label.text().startswith('LANGUAGE FORGE  /'):label.setText('LANGUAGE FORGE')
+        self.compact_actions(row)
+        self.menuBar().addMenu('Help').addAction('About Vayrshemon',self.about)
+        self.refresh()
+
+    def compact_actions(self,row):
+        workbench=self.workspace_tabs.widget(0);top=workbench.layout().itemAt(0).layout()
+        files=QWidget();file_row=QHBoxLayout(files);file_row.setContentsMargins(0,0,0,0);file_row.addStretch()
+        while top.count():
+            item=top.takeAt(0);widget=item.widget()
+            if isinstance(widget,QPushButton):file_row.addWidget(widget)
+            elif widget:widget.hide()
+        preview=self.preview.parentWidget().layout();preview.removeItem(row)
+        header=preview.takeAt(0).layout();header.removeWidget(self.mode);self.preview_hint.hide()
+        self.mode.setFixedWidth(140);self.mode.setToolTip('Page rendering mode')
+        row.insertWidget(row.count()-1,self.mode)
+        navigation=QWidget();navigation.setLayout(row);row.setContentsMargins(0,0,0,0)
+        top.addWidget(navigation,1);top.addWidget(files)
+        self.action_bar=top;self.action_groups=(navigation,files)
+        for tool,button in self.tool_buttons.items():
+            button.setToolTip('Click a frame to edit · Ctrl+Alt+V' if tool=='select' else 'Drag to move the view · Ctrl+Alt+H')
+        self.resize_actions()
+
+    def resize_actions(self):
+        if not hasattr(self,'action_bar'):return
+        needed=sum(w.minimumSizeHint().width() for w in self.action_groups)+40
+        self.action_bar.setDirection(QBoxLayout.Direction.LeftToRight if self.workspace_tabs.width()>=needed else QBoxLayout.Direction.TopToBottom)
+
+    def resizeEvent(self,event):
+        super().resizeEvent(event);self.resize_actions()
+
+    def about(self):
+        from .paint import ENGINE_VERSION
+        QMessageBox.about(self,'About Vayrshemon',f'Vayrshemon\nM12 · {self.book.application_version}\nPaint engine {ENGINE_VERSION}\nLanguage Workbench and Language Forge')
 
     def reading_copy(self):
         r=self.invoke('page.reading.copy',mode=self.reading_mode.currentData(),directory=str(self.book.root/'.local/reading-copies'/uuid.uuid4().hex))
         if r and r.get('document'):self.open_path(r['document'])
 
     def refresh(self):
-        super().refresh();self.setWindowTitle(self.windowTitle().replace('M11','M12'))
+        super().refresh();self.setWindowTitle(self.book.state['title']+(' *' if self.book.dirty else '')+' — Vayrshemon')
 
     def show_forge(self,reading_test=None,reading_mode=None,reading_preview=False,**params):
         result=super().show_forge(**params);p=self.forge_panel.reading

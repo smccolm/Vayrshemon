@@ -4,10 +4,14 @@ from tools.m0.common import write_json
 from vayrshemon.api import obj
 from vayrshemon.reading_api import METHODS,ReadingAPI
 from vayrshemon.mcp import tools
+from vayrshemon.language_contracts import DOCUMENT
+from vayrshemon.studio_contracts import DOCUMENT as STUDIO_DOCUMENT
 
 
 def generate(root):
     root=Path(root);variants=[]
+    write_json(root/'schemas/language-document.schema.json',DOCUMENT)
+    write_json(root/'schemas/studio-document.schema.json',STUDIO_DOCUMENT)
     for method,(description,mutation,params) in METHODS.items():
         fields=dict(apiVersion={'const':ReadingAPI.version},method={'const':method},params=params)
         required=['apiVersion','method','params']

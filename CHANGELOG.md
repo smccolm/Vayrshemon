@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M12 Roman relief and compact controls 0.13.1 — 2026-10-23
+
+- Reconstruct the Roman style from the matching Translation 1/2 PSD layers: blue overlay, gradient inner/outer glows, smooth inner bevel and satin shading. New Transliteration 7 readings use this separately versioned binding; existing books adopt it explicitly in Paint. Keep the approved three-font treatment and source glyphs intact.
+- Consolidate navigation, reading and file actions into one row on wide windows; wrap file actions on smaller windows. Remove the repeated Workbench/preview headings and move application/version information to Help → About.
+- Advance the paint engine to 1.2.0, with profile hashes in inspection/export evidence and additive native/API binding contracts. Retain API 0.13.0 and native document 0.5.0; styled documents require this reader. Update setup.bat without new runtime dependencies.
+
 ## M12 toolbar refinement — 2026-10-23
 
 - Place Reading copy controls immediately after Fit Width in the navigation row, removing the extra row above the page. Document formatting and rendering are unchanged.

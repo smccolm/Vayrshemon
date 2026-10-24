@@ -59,7 +59,7 @@ def preflight(book,format='pdf',mode='color',dpi=300,raster_policy='reject',page
     if format=='pdf' and QColor(book.state['paint']['background']).alpha()<255: issues.append(dict(code='PDF_TRANSPARENCY_ON_WHITE',severity='warning',message='PDF proof uses white paper behind transparent page pixels.'))
     return dict(ok=not any(i['severity']=='error' for i in issues),format=format,mode=mode,dpi=dpi,pages=result,issues=issues,fonts=fonts,
         rasterFallback=fallback,rasterPolicy=raster_policy,searchable=False,textExtraction='No semantic text is embedded: raster or outline proof. Use native document for copy/search.',
-        colorSpace='sRGB proof; no CMYK or ICC conversion',recipeHash=signature(book.state['paint']['recipe']),paintEngineVersion=ENGINE_VERSION,revision=book.revision)
+        colorSpace='sRGB proof; no CMYK or ICC conversion',recipeHash=signature(book.state['paint']['recipe']),bindingProfiles=[dict(fontId=b['fontId'],profileId=b['profile'],profileHash=signature(book.paint_renderer.profile(b))) for b in book.state['paint']['bindings'] if b.get('profile') and b['enabled']],paintEngineVersion=ENGINE_VERSION,revision=book.revision)
 
 
 def raster(book,page,mode,dpi):

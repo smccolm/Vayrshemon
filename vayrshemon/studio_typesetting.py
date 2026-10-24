@@ -4,7 +4,8 @@ from .typesetting import Composition,box,numbers,frame_rect
 
 class StudioComposition(Composition):
     def paint_underlay(self,painter,page_id,visible,outlines):
-        if self.mode!='color' or self.book.state['paint']['recipe'].get('lightingModel')!='individual-glyphs-1': return False
+        if self.mode!='color': return False
+        if self.book.state['paint']['recipe'].get('lightingModel')!='individual-glyphs-1' and not any(b.get('profile') and b['enabled'] for b in self.book.state['paint']['bindings']): return False
         # All glow precedes all ink, including adjacent glyphs and English.
         # Screen blending must see the page, not an opaque black tile.
         renderer=self.book.paint_renderer

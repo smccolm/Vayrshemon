@@ -26,6 +26,9 @@ class StudioSession(TypesettingSession):
 
     def fingerprint(self):
         value=super().fingerprint();value.update(paintVersion=VERSION,paintEngineVersion=ENGINE_VERSION,lightingProfileHash=PROFILE_HASH,paintEngine='vector distance bevels / NumPy 2.2.6 / SciPy 1.15.3',colorSpace='sRGB display proof; no CMYK/ICC conversion')
+        from .roman_paint import PROFILE
+        from .paint import signature
+        value['romanLightingProfileHash']=signature(PROFILE)
         return value
 
     def migrate(self,payload,path):

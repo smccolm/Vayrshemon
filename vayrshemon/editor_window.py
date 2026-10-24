@@ -138,7 +138,8 @@ class PageCanvas(QAbstractScrollArea):
         p.fillRect(0,0,self.viewport().width(),self.RULER,QColor('#eef2f5'))
         p.fillRect(0,0,self.RULER,self.viewport().height(),QColor('#eef2f5'))
         p.setPen(QColor('#566b7b'))
-        spacing=36 if zoom>=.5 else 144
+        label_width=self.fontMetrics().horizontalAdvance(str(math.ceil(max(pages.page_rect(self.book.current_page()).width(),pages.page_rect(self.book.current_page()).height())/SCALE)))+12
+        spacing=next((step for step in (36,72,144,288,576,1152) if step*SCALE*zoom>=label_width),1152)
         for horizontal in (True,False):
             maximum=self.viewport().width() if horizontal else self.viewport().height()
             origin=dx if horizontal else dy

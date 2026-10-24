@@ -14,6 +14,8 @@ class StudioWindow(WorkbenchWindow):
         form=self.add_scroll_tab('Paint')
         self.note(form,'Individual Glyphs uses Thimfora 79 (outline), 81 (interior) and 80 (glow) at one shared origin. Choose Thimfora 79 in Text to apply this treatment.')
         form.addRow(self.button('Apply three-font treatment',self.bind_selected))
+        form.addRow(self.button('Apply Roman bevel and glow',self.bind_roman))
+        self.note(form,'Roman readings use their own archived blue bevel and glow. The palette and lighting controls below adjust the script treatment.')
         form.addRow(self.button('Disable relief on selected font',lambda:self.bind_selected(False)))
         control=self.combo(['individual-glyphs-1','legacy-1']);form.addRow('Lighting profile',control);self.paint_controls['lightingModel']=control
         control=QCheckBox('Use each glyph’s reference gradient');control.setChecked(True);form.addRow(control);self.paint_controls['referenceGradients']=control
@@ -83,13 +85,20 @@ class StudioWindow(WorkbenchWindow):
         if not fid:
             self.statusBar().showMessage('Select a loaded TTF in the Text tab first.',10000);return
         old=next((b for b in self.book.state['paint']['bindings'] if b['fontId']==fid),None)
-        if old and (old['kind']=='layered' or not enabled): return self.invoke('paint.bind',**dict(old,enabled=enabled))
+        if old and (old['kind']=='layered' or old.get('profile') or not enabled): return self.invoke('paint.bind',**dict(old,enabled=enabled))
         recipe=self.book.fonts.recipe
         if recipe and fid==recipe['master']:
             binding=dict(fontId=fid,kind='layered',glowFontId=recipe['layers'][0]['fontId'],interiorFontId=recipe['layers'][1]['fontId'],enabled=enabled)
         else:
             self.statusBar().showMessage('Select Thimfora 79 in Text. Single-font relief cannot recreate the three-font artwork.',15000);return
         self.invoke('paint.bind',**binding)
+
+    def bind_roman(self):
+        from .reading import ROMAN_SHA,roman_binding
+        fid='font:'+ROMAN_SHA+':0'
+        if fid not in {f['fontId'] for f in self.book.state['fontSources']}:
+            self.statusBar().showMessage('Create a Transliteration 7 reading copy first.',10000);return
+        self.invoke('paint.bind',**roman_binding(fid))
 
     def apply_paint(self):
         self.invoke('paint.configure',**{k:c.currentText() if isinstance(c,QComboBox) else c.isChecked() if isinstance(c,QCheckBox) else c.text() if isinstance(c,QLineEdit) else c.value() for k,c in self.paint_controls.items()})

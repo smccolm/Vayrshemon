@@ -63,7 +63,7 @@ def text_blocks(frame):
 
 
 def apply_font(state,face):
-    """Only the right column font changes. Preserve sizes, leading and paint."""
+    """Change the reading font and its own Roman style; keep script paint intact."""
     right=pairs(state)[1];doc=right['content']['document']
     for s in doc['styles']:s['fontId']=face.font_id
     if face.font_id not in {s['fontId'] for s in state['fontSources']}:state['fontSources'].append(dict(fontId=face.font_id,sha256=face.sha256,path=str(face.path)))
@@ -72,14 +72,26 @@ def apply_font(state,face):
     for block in doc['stories'][0]['blocks']:
         for run in block['runs']:
             text=run.pop('text',run.get('sourceText',''));run.update(type='legacy',sourceText=text,sourceFontSha256=face.sha256,mappingProfileRef=None,normalization='none',languageId='language.vayrshemon')
+    if face.sha256==ROMAN_SHA:
+        state['paint']['bindings']=[b for b in state['paint']['bindings'] if b['fontId']!=face.font_id]+[roman_binding(face.font_id)]
+
+
+def roman_binding(font_id):
+    return dict(fontId=font_id,enabled=True,kind='derived',profile='roman-translation-1')
 
 
 def presentation_matches(state,baseline,mode):
     from .forge_runner import presentation
-    actual=presentation(state);expected=presentation(baseline)
+    actual=deepcopy(presentation(state));expected=deepcopy(presentation(baseline))
     if mode!='translation':
         right_index=next(i for i,f in enumerate(state['pages'][0]['frames']) if f['frameId']==pairs(state)[1]['frameId'])
         for a,b in zip(actual['frameStyles'][right_index],expected['frameStyles'][right_index]):a['fontId']=b['fontId']
+        # Only the exact requested Roman binding may differ. All script bindings
+        # and the global recipe remain protected, including on reading copies.
+        fid='font:'+ROMAN_SHA+':0';binding=roman_binding(fid)
+        if binding in actual['paint']['bindings']:
+            actual['paint']['bindings']=[b for b in actual['paint']['bindings'] if b['fontId']!=fid]
+            expected['paint']['bindings']=[b for b in expected['paint']['bindings'] if b['fontId']!=fid]
     return actual==expected
 
 

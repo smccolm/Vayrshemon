@@ -18,7 +18,7 @@ from PySide6.QtGui import QImage, QPainter, QColor, QPainterPath, QTransform
 
 VERSION='1.0.0'
 # Implementation changes are distinct from the persisted recipe/state format.
-ENGINE_VERSION='1.1.0'
+ENGINE_VERSION='1.2.0'
 LEGACY_DEFAULT=dict(recipeId='paint.individual-glyphs',version=VERSION,revision=1,
     rim='#0674da',highlight='#ffffff',recess='#0d11a2',edge='#020918',glow='#beffff',
     bevel=.030,depth=1.64,edgeWidth=.001,glowRadius=.017,glowOpacity=.56,
@@ -138,6 +138,12 @@ class Renderer:
     def binding(self,font_id):
         return next((b for b in self.book.state['paint']['bindings'] if b['fontId']==font_id and b['enabled']),None)
 
+    def profile(self,binding):
+        if binding.get('profile'):
+            from .roman_paint import PROFILE
+            return PROFILE
+        return self.book.state['paint']['recipe']
+
     def reference_gradient(self,binding,gid):
         recipe=self.book.state['paint']['recipe']
         if recipe.get('lightingModel')!='individual-glyphs-1' or not recipe.get('referenceGradients',True) or binding['fontId']!=REFERENCE_PROFILE['fontId']: return None
@@ -163,7 +169,10 @@ class Renderer:
         for path in paths:
             if not path.isEmpty(): area=area.united(path.boundingRect())
         if area.isEmpty(): return area
-        pad=padding(self.book.state['paint']['recipe'],em)
+        if binding.get('profile'):
+            from .roman_paint import padding as roman_padding
+            pad=roman_padding(em)
+        else: pad=padding(self.book.state['paint']['recipe'],em)
         return area.adjusted(-pad,-pad,pad,pad)
 
     def registration(self,binding,gid,em,origin=(0.,0.)):
@@ -180,8 +189,11 @@ class Renderer:
                 origin=list(origin),transform=[1,0,0,1,*origin],
                 localBounds=[bounds.x(),bounds.y(),bounds.width(),bounds.height()],
                 fillRule='add-subpaths' if role=='interior' else 'source-font'))
-        return dict(placement='master-origin',paintOrder=['glow','interior','outline-shadow','outline-edge','outline'],layers=layers,
+        result=dict(placement='master-origin',paintOrder=['glow','interior','outline-shadow','outline-edge','outline'],layers=layers,
                     referenceGradient=self.reference_gradient(binding,gid))
+        if binding.get('profile'):
+            result.update(paintOrder=['outer-glow','blue-face','satin','inner-glow','smooth-bevel'],profileId=binding['profile'],profileHash=signature(self.profile(binding)))
+        return result
 
     def tile(self,binding,gid,em,scale,component='composite'):
         recipe=self.book.state['paint']['recipe']
@@ -190,7 +202,7 @@ class Renderer:
         # At least 4 samples per logical pixel at reading size. Export uses its
         # requested DPI, with 2x AA, never a magnified preview bitmap.
         scale=max(4. if em<128 else 2.,math.ceil(scale*2)/2)
-        key=(ENGINE_VERSION,PROFILE_HASH,signature(recipe),signature(binding),gid,round(em,6),scale,component)
+        key=(ENGINE_VERSION,PROFILE_HASH,signature(self.profile(binding)),signature(binding),gid,round(em,6),scale,component)
         if key in self.cache:
             value=self.cache.pop(key);self.cache[key]=value;return value
         paths=self.paths(binding,gid,em); area=self.bounds(binding,gid,em)
@@ -201,6 +213,9 @@ class Renderer:
                     (math.ceil(area.bottom()*scale)-math.floor(area.top()*scale))/scale)
         if math.ceil(area.width()*scale)*math.ceil(area.height()*scale)>MAX_TILE_PIXELS:
             raise ValueError('PAINT_TILE_LIMIT: reduce glyph size or raster DPI')
+        if binding.get('profile'):
+            from .roman_paint import tile
+            return self.remember(key,tile(paths[0],area,em,scale,component),area)
         rim,silhouette,interior=[mask(path,area,scale) for path in paths]
         shape=rim.shape; result=np.zeros((*shape,4),dtype=np.float32); empx=em*scale
 
@@ -278,6 +293,9 @@ class Renderer:
         alpha=result[:,:,3:4]; color=np.divide(result[:,:,:3],alpha,out=np.zeros_like(result[:,:,:3]),where=alpha>0)
         rgba=np.clip(np.concatenate([color,alpha],axis=2)*255+.5,0,255).astype(np.uint8)
         image=QImage(rgba.data,shape[1],shape[0],shape[1]*4,QImage.Format.Format_RGBA8888).copy()
+        return self.remember(key,image,area)
+
+    def remember(self,key,image,area):
         cost=image.sizeInBytes()
         while self.cache and self.bytes+cost>CACHE_BYTES:
             _,(old,_) = self.cache.popitem(last=False); self.bytes-=old.sizeInBytes()
@@ -285,7 +303,7 @@ class Renderer:
         return image,area
 
     def draw(self,painter,binding,gid,em,scale,origin=(0.,0.),component='composite'):
-        calibrated=self.book.state['paint']['recipe'].get('lightingModel')=='individual-glyphs-1'
+        calibrated=bool(binding.get('profile')) or self.book.state['paint']['recipe'].get('lightingModel')=='individual-glyphs-1'
         components=('glow','surface') if calibrated and component=='composite' else (component,)
         painter.save()
         try:

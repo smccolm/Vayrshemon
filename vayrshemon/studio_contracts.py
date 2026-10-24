@@ -18,9 +18,10 @@ RECIPE_FIELDS.update(lightingModel={'enum':['legacy-1','individual-glyphs-1']},
     highlightOpacity=number(0,1),bevelShadowOpacity=number(0,1),normalSmoothing=number(0,.01),
     glowRange=number(.01,1),glowSpread=number(0,.02))
 RECIPE=obj(dict(recipeId={'type':'string','minLength':1,'maxLength':100},version={'const':VERSION},revision={'type':'integer','minimum':1},**RECIPE_FIELDS),tuple(LEGACY_DEFAULT))
-BINDING_FIELDS=dict(fontId=FONT,enabled=BOOL,kind={'enum':['layered','derived']},glowFontId=FONT,interiorFontId=FONT)
+BINDING_FIELDS=dict(fontId=FONT,enabled=BOOL,kind={'enum':['layered','derived']},glowFontId=FONT,interiorFontId=FONT,profile={'const':'roman-translation-1'})
 BINDING=obj(BINDING_FIELDS,('fontId','enabled','kind'))
 BINDING['allOf']=[{'if':{'properties':{'kind':{'const':'layered'}}},'then':{'required':['glowFontId','interiorFontId']},'else':{'not':{'anyOf':[{'required':['glowFontId']},{'required':['interiorFontId']}]}}}]
+BINDING['allOf'].append({'if':{'required':['profile']},'then':{'properties':{'kind':{'const':'derived'}}}})
 PAINT=obj(dict(version={'const':VERSION},recipe=RECIPE,bindings={'type':'array','items':BINDING,'maxItems':128},
     background={'type':'string','pattern':'^#[0-9a-fA-F]{8}$'},rasterDpi={'type':'integer','minimum':72,'maximum':600}),('version','recipe','bindings','background','rasterDpi'))
 STATE=deepcopy(M3_STATE);STATE['properties']['paint']=PAINT;STATE['required'].append('paint')

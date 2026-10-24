@@ -1,0 +1,203 @@
+{
+  "application": "0.13.1",
+  "api": "0.13.0",
+  "paintEngine": "1.2.0",
+  "profileId": "roman-translation-1",
+  "profileSha256": "88ff212ba60202bad5b273b0629cf4abc97383c0f879a9910a99049c9cf4a1c1",
+  "references": [
+    {
+      "path": "Inputs/Versions Best/Translation 1.psd",
+      "sha256": "3154d32e8d8360c297546e8c30a6d081461a536893a7f1222a9f07b9355be44e",
+      "layer": "Translation",
+      "fontEmPixels": 500,
+      "effectScalePercent": 100
+    },
+    {
+      "path": "Inputs/Versions Best/Translation 2.psd",
+      "sha256": "07b1a316b34c27221f07eb0c724462528f1986d725191feffd3366d128b23ee8",
+      "layer": "Translation",
+      "fontEmPixels": 500,
+      "effectScalePercent": 100
+    }
+  ],
+  "globalLightVerified": {
+    "azimuth": 120,
+    "elevation": 30
+  },
+  "sourceDocumentSha256": "8c69fb57d2ba1580c1e9540ed554c06ca93c131246c92c33eb60fdb8c6c514f9",
+  "nativeDocumentSha256": "1838b37da8e107ac6cef68aa29ecc49eb3a3a2addab24cdf7cf3cef5e4648843",
+  "leftPixelsIdentical": true,
+  "leftRgbaSha256": "fbce8e889eb5c489789dcc3ba31a61158f1035580ec5ac69d02384af1a1e6f81",
+  "approvedDimensionsPoints": [
+    865.4987,
+    1120.057141
+  ],
+  "unchangedSizesPoints": {
+    "script": 50,
+    "roman": 18
+  },
+  "unchangedTextAndMaxima": true,
+  "proof": {
+    "path": "E:\\Vayrshemon\\.local\\demos\\m12-roman-relief-final\\proof.png",
+    "sha256": "89d737c8351b7e36e24a1cb8a53ad9751f4098a84e854c08f3a50660ac42d268",
+    "rgbaSha256": "2df12620abc859db1c2d9ca5f80467144df0091e8d464c4e8ec9680026d1dc00"
+  },
+  "pngButton": {
+    "path": "E:\\Vayrshemon\\.local\\demos\\m12-roman-relief-final\\The Tempest \u00b7 We are such stuff as dreams are made on \u00b7 8218d317e0 \u00b7 Translitera_2026-10-23_21-48-20_507.png",
+    "sha256": "5352d4835a52c8971cebd47c2fad5aaafb98793109454b922b3737f0fcfaa9e1",
+    "dimensions": [
+      3511,
+      4543
+    ],
+    "timestamped": true,
+    "requestedDpi": 300,
+    "effectiveDpi": 292
+  },
+  "svg": {
+    "path": "E:\\Vayrshemon\\.local\\demos\\m12-roman-relief-final\\Roman-relief.svg",
+    "sha256": "0152619e7a70724d5d6e85a39952360988752c8324ed764f42fb6e9ac460c203",
+    "dpi": 144,
+    "rasterFallback": true,
+    "profile": [
+      {
+        "fontId": "font:9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52:0",
+        "profileId": "roman-translation-1",
+        "profileHash": "88ff212ba60202bad5b273b0629cf4abc97383c0f879a9910a99049c9cf4a1c1"
+      }
+    ]
+  },
+  "gui": {
+    "wideScreenshot": "E:\\Vayrshemon\\.local\\demos\\m12-roman-relief-final\\workbench-final-version.png",
+    "narrowScreenshot": "E:\\Vayrshemon\\.local\\demos\\m12-roman-relief-final\\workbench-1280-polished.png",
+    "aboutScreenshot": "E:\\Vayrshemon\\.local\\demos\\m12-roman-relief-final\\about.png",
+    "wideWidth": 1920,
+    "narrowWidth": 1280,
+    "previewTop": 105,
+    "previousPreviewTop": 179,
+    "fitHeightZoom": 0.54,
+    "previousFitHeightZoom": 0.49
+  },
+  "mcp": {
+    "toolCount": 144,
+    "profileAdvertised": true,
+    "liveRead": true,
+    "server": {
+      "name": "vayrshemon",
+      "version": "0.13.1"
+    }
+  },
+  "forge": {
+    "status": "Needs review",
+    "suite": {
+      "Pass": 269,
+      "NeedsReview": 1,
+      "Unsupported": 1
+    },
+    "missingGlyphs": 0,
+    "collisions": 20,
+    "retainedNegativeSidebearingPoints": 0.054
+  },
+  "limitations": [
+    "Vector reconstruction of the archived Roman effects; not Photoshop pixel identity.",
+    "Per-glyph effect masks and explicit Gaussian support approximate the Photoshop layer engine.",
+    "The frozen original releases and visual baseline are unchanged."
+  ],
+  "baselineVerification": {
+    "baselineId": "visual.workbench.2026-10-23",
+    "application": "0.7.1",
+    "sourceVerified": true,
+    "protectedStateVerified": true,
+    "rgbaIdentical": true,
+    "geometryIdentical": true,
+    "render": {
+      "path": "E:\\Vayrshemon\\.local\\test-m61\\13cde914d02a4b06aea89e0dd756bab8\\approved-baseline\\approved-page.png",
+      "pageId": "page.fa5f9c24cbe640c08ca3c8bd027b2ec1",
+      "width": 1731,
+      "height": 2241,
+      "dpi": 144,
+      "bufferBytes": 15516684,
+      "elapsedMs": 4613.297300005797
+    },
+    "geometryHash": "c02583087d1d4c7646a2b7d6cf10de8245676ce29504c33ace7b4f13a5f1500c",
+    "collisions": 12,
+    "overflow": 0
+  },
+  "validation": {
+    "fullSetup": {
+      "command": "setup.bat --no-pause",
+      "log": ".local/logs/m12-roman-setup.log",
+      "tests": 211,
+      "seconds": 617.854,
+      "passedInitially": 210,
+      "initialFailure": "M5 published MCP snapshot lacked the new shared optional Roman binding field."
+    },
+    "correction": {
+      "action": "Regenerated all nine M4-M12 published command/MCP surfaces from their runtimes.",
+      "runtimeContracts": [
+        {
+          "milestone": 4,
+          "tools": 66,
+          "exactRuntimeMatch": true
+        },
+        {
+          "milestone": 5,
+          "tools": 85,
+          "exactRuntimeMatch": true
+        },
+        {
+          "milestone": 6,
+          "tools": 98,
+          "exactRuntimeMatch": true
+        },
+        {
+          "milestone": 7,
+          "tools": 115,
+          "exactRuntimeMatch": true
+        },
+        {
+          "milestone": 8,
+          "tools": 121,
+          "exactRuntimeMatch": true
+        },
+        {
+          "milestone": 9,
+          "tools": 127,
+          "exactRuntimeMatch": true
+        },
+        {
+          "milestone": 10,
+          "tools": 133,
+          "exactRuntimeMatch": true
+        },
+        {
+          "milestone": 11,
+          "tools": 140,
+          "exactRuntimeMatch": true
+        },
+        {
+          "milestone": 12,
+          "tools": 144,
+          "exactRuntimeMatch": true
+        }
+      ],
+      "failedTestRerun": {
+        "log": ".local/logs/roman-contract-fixed.log",
+        "tests": 1,
+        "status": "Pass"
+      }
+    },
+    "finalTargetedChecks": [
+      {
+        "log": ".local/logs/roman-guard-final.log",
+        "tests": 2,
+        "status": "Pass"
+      },
+      {
+        "log": ".local/logs/roman-ui-final.log",
+        "tests": 1,
+        "status": "Pass"
+      }
+    ],
+    "remainingKnownTestFailures": 0
+  }
+}

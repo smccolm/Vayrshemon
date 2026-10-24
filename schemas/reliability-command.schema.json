@@ -3187,6 +3187,9 @@
             "interiorFontId": {
               "type": "string",
               "pattern": "^font:[0-9a-f]{64}:0$"
+            },
+            "profile": {
+              "const": "roman-translation-1"
             }
           },
           "required": [
@@ -3226,6 +3229,20 @@
                   ]
                 }
               }
+            },
+            {
+              "if": {
+                "required": [
+                  "profile"
+                ]
+              },
+              "then": {
+                "properties": {
+                  "kind": {
+                    "const": "derived"
+                  }
+                }
+              }
             }
           ]
         },
@@ -3251,7 +3268,7 @@
         "idempotencyKey"
       ],
       "additionalProperties": false,
-      "description": "Bind an exact font identity to verified layer fonts or explicit derived historical treatment."
+      "description": "Bind an exact font identity to verified layer fonts or derived treatment; roman-translation-1 selects the independent archived Roman bevel/glow profile."
     },
     {
       "type": "object",

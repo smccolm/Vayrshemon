@@ -1,0 +1,132 @@
+{
+  "profileId": "roman-translation-1",
+  "version": "1.0.0",
+  "references": [
+    {
+      "path": "Inputs/Versions Best/Translation 1.psd",
+      "sha256": "3154d32e8d8360c297546e8c30a6d081461a536893a7f1222a9f07b9355be44e",
+      "layer": "Translation",
+      "fontEmPixels": 500,
+      "effectScalePercent": 100
+    },
+    {
+      "path": "Inputs/Versions Best/Translation 2.psd",
+      "sha256": "07b1a316b34c27221f07eb0c724462528f1986d725191feffd3366d128b23ee8",
+      "layer": "Translation",
+      "fontEmPixels": 500,
+      "effectScalePercent": 100
+    }
+  ],
+  "sourceFonts": [
+    "transliteration5",
+    "transliteration6"
+  ],
+  "targetFont": "transliteration7",
+  "fill": "#0c339d",
+  "outerGlow": {
+    "colors": [
+      "#7bd1fe",
+      "#befeFF"
+    ],
+    "opacity": 0.43,
+    "size": 57,
+    "spread": 0.1,
+    "range": 0.49,
+    "contour": [
+      [
+        0,
+        0
+      ],
+      [
+        0.20784313725490197,
+        0.14901960784313725
+      ],
+      [
+        1,
+        1
+      ]
+    ],
+    "blend": "screen",
+    "technique": "soft",
+    "fade": true
+  },
+  "innerGlow": {
+    "colors": [
+      "#0ba6ff",
+      "#0bd4ff"
+    ],
+    "opacity": 1,
+    "size": 21,
+    "range": 0.5,
+    "blend": "screen",
+    "source": "edge",
+    "technique": "soft",
+    "fade": true
+  },
+  "bevel": {
+    "size": 5,
+    "depth": 3.33,
+    "azimuth": 120,
+    "elevation": 30,
+    "highlight": "#ffffff",
+    "highlightOpacity": 0.75,
+    "shadow": "#000000",
+    "shadowOpacity": 0.75,
+    "style": "inner",
+    "technique": "smooth",
+    "direction": "up",
+    "soften": 0
+  },
+  "satin": {
+    "color": "#000000",
+    "opacity": 0.35,
+    "angle": 19,
+    "distance": 11,
+    "size": 14,
+    "invert": true,
+    "blend": "multiply",
+    "contour": [
+      [
+        0,
+        0
+      ],
+      [
+        0.12549019607843137,
+        0.027450980392156862
+      ],
+      [
+        0.25098039215686274,
+        0.14901960784313725
+      ],
+      [
+        0.3764705882352941,
+        0.396078431372549
+      ],
+      [
+        0.5019607843137255,
+        0.6509803921568628
+      ],
+      [
+        0.6235294117647059,
+        0.8196078431372549
+      ],
+      [
+        0.7490196078431373,
+        0.9215686274509803
+      ],
+      [
+        0.8745098039215686,
+        0.9725490196078431
+      ],
+      [
+        1,
+        1
+      ]
+    ]
+  },
+  "rendering": {
+    "sizeToGaussianSigma": 0.3921568627450981,
+    "blurTruncate": 3,
+    "scope": "Independent vector-outline reconstruction; Photoshop proprietary blending is not claimed pixel-identical. Font sizes and glyph geometry stay unchanged."
+  }
+}

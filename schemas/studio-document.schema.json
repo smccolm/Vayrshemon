@@ -961,6 +961,9 @@
                   "interiorFontId": {
                     "type": "string",
                     "pattern": "^font:[0-9a-f]{64}:0$"
+                  },
+                  "profile": {
+                    "const": "roman-translation-1"
                   }
                 },
                 "required": [
@@ -998,6 +1001,20 @@
                             ]
                           }
                         ]
+                      }
+                    }
+                  },
+                  {
+                    "if": {
+                      "required": [
+                        "profile"
+                      ]
+                    },
+                    "then": {
+                      "properties": {
+                        "kind": {
+                          "const": "derived"
+                        }
                       }
                     }
                   }
