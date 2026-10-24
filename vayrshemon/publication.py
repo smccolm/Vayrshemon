@@ -80,7 +80,8 @@ def png_bytes(image):
     return bytes(data)
 
 
-def export(book,path,format='pdf',mode='color',dpi=300,raster_policy='reject',page_id=None):
+def export(book,path,format='pdf',mode='color',dpi=300,raster_policy='reject',page_id=None,pdf_view=None):
+    if pdf_view is not None and (format!='pdf' or pdf_view not in ('one','two')):raise ValueError('INVALID_PDF_VIEW_PARAMS')
     check=preflight(book,format,mode,dpi,raster_policy,page_id)
     if not check['ok']: raise ValueError('PUBLICATION_PREFLIGHT_FAILED: '+str([i['code'] for i in check['issues'] if i['severity']=='error']))
     chosen=[pages.selected_page(book,page_id)] if page_id else book.state['pages']
@@ -93,28 +94,45 @@ def export(book,path,format='pdf',mode='color',dpi=300,raster_policy='reject',pa
         encoded=base64.b64encode(png_bytes(raster(book,page,mode,dpi))).decode()
         atomic(target,(f'<svg xmlns="http://www.w3.org/2000/svg" width="{w}pt" height="{h}pt" viewBox="0 0 {w} {h}"><title>Vayrshemon raster proof at {dpi} DPI; no searchable text</title><image width="{w}" height="{h}" href="data:image/png;base64,{encoded}"/></svg>').encode())
     else:
-        # QSaveFile gives all-or-nothing multi-page output, including on a later
-        # page render failure. No native source-font subset is embedded.
-        file=QSaveFile(str(target))
-        if not file.open(QIODevice.OpenModeFlag.WriteOnly): raise OSError(file.errorString())
-        writer=QPdfWriter(file);writer.setResolution(dpi);writer.setTitle(book.state['title']);writer.setCreator('Vayrshemon M4 / raster or outline proof')
-        def size(page):
-            writer.setPageSize(QPageSize(QSizeF(int(page['width'])/1e6,int(page['height'])/1e6),QPageSize.Unit.Point,'Custom',QPageSize.SizeMatchPolicy.ExactMatch))
-            layout_=writer.pageLayout();layout_.setMode(QPageLayout.Mode.FullPageMode);writer.setPageLayout(layout_)
-        size(chosen[0]);painter=QPainter(writer)
-        try:
-            for index,page in enumerate(chosen):
-                if index: size(page);assert writer.newPage(),'PDF_NEW_PAGE_FAILED'
-                if check['rasterFallback']:
-                    image=raster(book,page,mode,dpi);area=pages.page_rect(page)
-                    painter.drawImage(QRectF(0,0,area.width()*dpi/96,area.height()*dpi/96),image)
-                else:
-                    painter.save();painter.scale(dpi/96,dpi/96)
-                    pages.paint(book,painter,page_id=page['pageId'],mode=mode,outlines=True);painter.restore()
-            painter.end();del writer
-            if not file.commit(): raise OSError(file.errorString())
-        except Exception:
-            if painter.isActive(): painter.end()
-            file.cancelWriting();raise
+        if pdf_view is None:
+            write_pdf_pages(book,target,chosen,mode,dpi,check['rasterFallback'])
+        else:
+            from tempfile import TemporaryDirectory
+            from .pdf_view import with_view
+            # Publish only after both page rendering and viewing metadata succeed.
+            with TemporaryDirectory(prefix='.vayrshemon-pdf-',dir=target.parent) as folder:
+                raw=Path(folder)/'pages.pdf'
+                write_pdf_pages(book,raw,chosen,mode,dpi,check['rasterFallback'],expand_bounds=True)
+                atomic(target,with_view(raw,pdf_view,[[int(p[k])/1e6 for k in ('width','height')] for p in chosen]))
+            check.update(pdfView=pdf_view,pageLabels=[str(i+1) for i in range(len(chosen))])
     data=target.read_bytes();result=dict(path=str(target),bytes=len(data),sha256=hashlib.sha256(data).hexdigest(),preflight=check)
     book.log.emit('publication','EXPORTED',**result);return result
+
+
+def write_pdf_pages(book,target,chosen,mode,dpi,raster_fallback,expand_bounds=False):
+    # QSaveFile gives all-or-nothing multi-page output, including on a later
+    # page render failure. No native source-font subset is embedded.
+    file=QSaveFile(str(target))
+    if not file.open(QIODevice.OpenModeFlag.WriteOnly): raise OSError(file.errorString())
+    writer=QPdfWriter(file);writer.setResolution(dpi);writer.setTitle(book.state['title']);writer.setCreator('Vayrshemon M4 / raster or outline proof')
+    def size(page):
+        width,height=(int(page[k])/1e6 for k in ('width','height'))
+        if expand_bounds:width,height=math.ceil(width),math.ceil(height)
+        writer.setPageSize(QPageSize(QSizeF(width,height),QPageSize.Unit.Point,'Custom',QPageSize.SizeMatchPolicy.ExactMatch))
+        layout_=writer.pageLayout();layout_.setMode(QPageLayout.Mode.FullPageMode);writer.setPageLayout(layout_)
+    size(chosen[0]);painter=QPainter(writer)
+    painter.setRenderHint(QPainter.RenderHint.LosslessImageRendering,True)
+    try:
+        for index,page in enumerate(chosen):
+            if index: size(page);assert writer.newPage(),'PDF_NEW_PAGE_FAILED'
+            if raster_fallback:
+                image=raster(book,page,mode,dpi);area=pages.page_rect(page)
+                painter.drawImage(QRectF(0,0,area.width()*dpi/96,area.height()*dpi/96),image)
+            else:
+                painter.save();painter.scale(dpi/96,dpi/96)
+                pages.paint(book,painter,page_id=page['pageId'],mode=mode,outlines=True);painter.restore()
+        painter.end();del writer
+        if not file.commit(): raise OSError(file.errorString())
+    except Exception:
+        if painter.isActive(): painter.end()
+        file.cancelWriting();raise

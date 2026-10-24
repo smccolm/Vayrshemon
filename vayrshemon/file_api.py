@@ -10,6 +10,9 @@ from . import saved_preview
 
 METHODS=deepcopy(BASE)
 METHODS['jobs.export']=('Export one proof, or PNG/SVG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right. Both destinations are checked before publishing.',*METHODS['jobs.export'][1:])
+for name in ('jobs.export','publication.export'):
+    METHODS[name][2]['properties']['pdf_view']={'enum':['one','two']}
+    METHODS[name]=(METHODS[name][0]+' PDF without page_id includes all separate numbered pages; pdf_view sets single or facing-page opening layout, defaulting to the desktop view or saved page mode.',*METHODS[name][1:])
 for name in ('document.save','document.save-as'):
     METHODS[name][2]['properties']['preview_mode']={'enum':['one','two']}
     METHODS[name]=(METHODS[name][0]+' Embed the visible page/spread and saved color mode atomically. Headless saves reuse the saved page mode, or one page; preview_mode overrides it.',*METHODS[name][1:])
@@ -20,7 +23,7 @@ METHODS['page.transliteration.update']=('Update the existing Transliteration 7 c
 
 
 class FileSession(GlossSession):
-    application_version='0.15.15'
+    application_version='0.15.16'
     file_version='0.6.0'
     document_schema=DOCUMENT
 
@@ -86,6 +89,9 @@ class FileAPI(GlossAPI):
     methods=METHODS
 
     def dispatch(self,method,params):
+        if method in ('jobs.export','publication.export') and params['format']=='pdf':
+            params=dict(params)
+            params.setdefault('pdf_view',self.session.window.preview.page_mode if self.session.window else self.session.saved_page_mode)
         if method.startswith('page.transliteration.'):
             from . import transliteration_update
             return transliteration_update.inspect(self.session) if method.endswith('.inspect') else transliteration_update.update(self.session,**params)

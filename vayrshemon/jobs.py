@@ -17,6 +17,8 @@ class JobManager:
 
     def start(self,**params):
         from .pages import target
+        if params.get('pdf_view') is not None and (params['format']!='pdf' or params['pdf_view'] not in ('one','two')):
+            raise ValueError('INVALID_PDF_VIEW_PARAMS')
         self.poll()
         if any(j['status']=='running' for j in self.jobs.values()): raise ValueError('JOB_BUSY: cancel or finish the current proof')
         if len(self.jobs)>=64: raise ValueError('JOB_HISTORY_LIMIT: save and reopen after 64 jobs')

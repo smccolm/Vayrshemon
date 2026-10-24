@@ -86,14 +86,14 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.15 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.16 setup - $projectRoot"
     Write-Host "Console log: $logPath"
     $savesDirectory = Join-Path $projectRoot 'Saves'
     New-Item -ItemType Directory -Path $savesDirectory -Force | Out-Null
     Write-Host "Default document folder: $savesDirectory"
     $exportsDirectory = Join-Path $projectRoot 'Exports'
     New-Item -ItemType Directory -Path $exportsDirectory -Force | Out-Null
-    Write-Host "Default PNG/SVG export folder: $exportsDirectory"
+    Write-Host "Default PNG/SVG/PDF export folder: $exportsDirectory"
 
     if (Test-Path -LiteralPath $environmentPath) {
         if (!(Test-Path -LiteralPath $environmentPython -PathType Leaf) -or
@@ -148,7 +148,7 @@ try {
     Write-Host 'Double-click launch.bat or a .vay file to open M14 (Language Workbench + Language Forge).'
     Write-Host 'Normal launches close the command window. Full launch output is recorded in .local\logs\launch-*.log; an error dialog points to the log if the editor fails.'
     Write-Host 'Language > Update transliteration refreshes the Roman column in one undo step in either page view. Reading-copy controls are removed from the main ribbon.'
-    Write-Host 'The PNG button and File > Export > PNG/SVG start in Exports: one timestamped file or a matching _Left / _Right pair. Exports is excluded from Git.'
+    Write-Host 'All exports start in Exports with timestamp names. PNG/SVG export the visible page or _Left / _Right pair; PDF exports every page in one file and opens in the current single/facing view. Exports is excluded from Git.'
     Write-Host 'Save for new documents, Save As and Open start in Saves. Save updates an existing file in place. Saves is excluded from Git.'
     Write-Host '.vay files include centered Memon mode icons and saved page/spread thumbnails. Legacy .vay.json and .vaylab.json files remain readable.'
     Write-Host 'Explorer integration: per-user file associations + isolated system thumbnail component. See docs\M14.md.'

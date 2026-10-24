@@ -2532,7 +2532,7 @@
     },
     {
       "name": "publication_export",
-      "description": "Export PNG, SVG or multipage PDF; decorative SVG/PDF requires explicit raster policy and DPI.",
+      "description": "Export PNG, SVG or multipage PDF; decorative SVG/PDF requires explicit raster policy and DPI. PDF without page_id includes all separate numbered pages; pdf_view sets single or facing-page opening layout, defaulting to the desktop view or saved page mode.",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -2565,6 +2565,12 @@
           },
           "page_id": {
             "type": "string"
+          },
+          "pdf_view": {
+            "enum": [
+              "one",
+              "two"
+            ]
           },
           "expectedRevision": {
             "type": "integer",
@@ -4868,7 +4874,7 @@
     },
     {
       "name": "jobs_export",
-      "description": "Export one proof, or PNG/SVG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right. Both destinations are checked before publishing.",
+      "description": "Export one proof, or PNG/SVG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right. Both destinations are checked before publishing. PDF without page_id includes all separate numbered pages; pdf_view sets single or facing-page opening layout, defaulting to the desktop view or saved page mode.",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -4926,6 +4932,12 @@
             },
             "minItems": 1,
             "maxItems": 2
+          },
+          "pdf_view": {
+            "enum": [
+              "one",
+              "two"
+            ]
           },
           "expectedRevision": {
             "type": "integer",

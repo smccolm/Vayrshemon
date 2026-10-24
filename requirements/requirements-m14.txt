@@ -1,3 +1,5 @@
 # M14 uses the pinned typography runtime and a native Windows shell DLL.
 # setup installs MSVC/Windows SDK if absent; the DLL statically links its CRT.
 -r requirements-m13.txt
+# PDF initial single/facing view and page labels, preserving Qt page content.
+pypdf==6.21.2

@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 PDF reading export 0.15.16 — 2026-10-24
+
+- Add File → Export → PDF with timestamp names in Exports. Export all physical pages in one background snapshot, numbered separately from 1 and opening in single-page or facing-page view to match the Workbench. Paired view starts with pages 1–2; no cover page or visible footer is added.
+- Preserve fractional page dimensions and top-left content origins despite Qt's integer PDF page boxes. Keep monochrome outlines, use lossless color images for bevel/glow, and retain approved formatting and Maxima.
+- Add `pdf_view` to the existing PDF API/MCP controls; retain cancellation and changed-target overwrite guards and publish only after metadata succeeds. Pin pypdf in setup requirements and add six-mode export/visual checks.
+
 ## M14 default export folder 0.15.15 — 2026-10-24
 
 - The PNG button and File → Export → PNG / SVG default to the project's `Exports` folder (`E:\Vayrshemon\Exports` here). Preserve timestamp-only single-page names and matching `_Left` / `_Right` spread names; another destination can still be chosen.

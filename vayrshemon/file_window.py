@@ -31,8 +31,13 @@ class FileWindow(GlossWindow):
         self.png_export_action=self.export_menu.addAction('PNG…',lambda:self.guard(self.export_png))
         self.svg_export_action=self.export_menu.addAction('SVG…',lambda:self.guard(self.export_svg))
         self.svg_export_action.setToolTip('Export the visible page or both facing pages as SVG proofs. Color relief uses embedded images.')
+        self.pdf_export_action=self.export_menu.addAction('PDF…',lambda:self.guard(lambda:self.export_proof('pdf')))
+        self.pdf_export_action.setToolTip('Export all pages in one PDF, opening in single-page or facing-page view to match the Workbench.')
 
     def export_proof(self,kind):
+        if kind=='pdf':
+            from .pdf_export import export_document
+            return export_document(self)
         if kind!='svg':return super().export_proof(kind)
         from .page_proof_export import export_pages
         return export_pages(self,kind)
