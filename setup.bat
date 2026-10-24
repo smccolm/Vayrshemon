@@ -1,5 +1,5 @@
 @echo off
-rem M14 0.15.16 dependencies, PDF reading views and regressions live in tools\setup.ps1.
+rem M14 0.15.17 bundled fonts, dependencies and regressions live in tools\setup.ps1.
 rem First shell install uses Windows administrator approval for the isolated native thumbnail component.
 setlocal
 set "SETUP_NO_PAUSE="

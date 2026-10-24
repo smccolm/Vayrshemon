@@ -82,6 +82,9 @@ def verify(bundle):
         # 0.15.7 groups dependency files; older bundles keep their original paths.
         if tuple(int(v) for v in manifest['application'].split('.')) >= (0,15,7):
             required={'requirements/'+name if name.startswith('requirements-') else name for name in required}
+        if tuple(int(v) for v in manifest['application'].split('.')) >= (0,15,17):
+            required.update('data/runtime-fonts/'+name for name in ('manifest.json','Thimfora_79.ttf',
+                'Thimfora_80_Infill.ttf','Thimfora_81_Fragments.ttf','transliteration 7.ttf'))
         if not required<=files.keys(): raise ValueError('INCOMPLETE_RELEASE')
         return manifest,files
 

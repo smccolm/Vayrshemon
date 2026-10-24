@@ -121,8 +121,8 @@ class Session(QObject):
         model['stories'][0]['blocks'][0]['runs'] = [unicode_run('Vayrshemon / font and input laboratory', 'run.heading')]
         model['stories'][0]['blocks'].append(dict(blockId='block.2', type='paragraph', direction='auto',
                                                 runs=[unicode_run('Type, select, compose, and inspect. A\u0301 / Á / 😀', 'run.instructions')]))
-        if source_fonts and (self.root / 'Inputs/font files/Thimfora_79.ttf').is_file():
-            master = self.fonts.load_source_recipe()
+        if source_fonts and self.fonts.source_recipe_available():
+            master = self.fonts.load_default_fonts()
             model['fonts'] = [dict(fontId=master.font_id, sha256=master.sha256, faceIndex=0)]
             model['styles'].append(dict(styleId='style.script', fontId=master.font_id, fontSizeMicroPoints='42000000',
                                         lineHeight={'mode': 'multiple', 'factor': 1.25}, color='#111827FF'))
@@ -492,7 +492,7 @@ class Session(QObject):
         for source in lab['fontSources']:
             if source['fontId'] != f"font:{source['sha256']}:0":
                 raise ValueError('FONT_ID_HASH_MISMATCH')
-            self.fonts.register(source['path'], source['sha256'])
+            self.fonts.register(self.fonts.document_path(source['path'],source['sha256']), source['sha256'])
         for font in payload['document']['fonts']:
             self.fonts.resolve(font['fontId'])
         recipe = lab.get('recipe')

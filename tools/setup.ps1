@@ -86,7 +86,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.16 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.17 setup - $projectRoot"
     Write-Host "Console log: $logPath"
     $savesDirectory = Join-Path $projectRoot 'Saves'
     New-Item -ItemType Directory -Path $savesDirectory -Force | Out-Null
@@ -112,6 +112,7 @@ try {
     Invoke-Python $environmentPython @('-c',
         "import pathlib, struct, sys; print(sys.version); assert sys.version_info[:2] == (3, 12) and struct.calcsize('P') == 8, 'Expected Python 3.12, 64-bit; rename .venv and rerun setup'; assert sys.prefix != sys.base_prefix and pathlib.Path(sys.prefix).resolve() == pathlib.Path(sys.argv[1]).resolve(), 'Interpreter does not belong to this project environment'",
         $environmentPath)
+    Invoke-Python $environmentPython @('-m', 'tools.verify_runtime_fonts')
     Invoke-Python $environmentPython @('-m', 'ensurepip', '--upgrade', '--default-pip')
     $wheelArguments = @()
     if ($env:VAYRSHEMON_WHEELHOUSE) {
@@ -144,7 +145,8 @@ try {
     $mcpConfiguration | ConvertTo-Json -Depth 6 | Set-Content -LiteralPath (Join-Path $projectRoot '.local\mcp-config.json') -Encoding UTF8
 
     Write-Host ''
-    Write-Host 'Setup complete. Dependencies, evidence checks, and tests passed.'
+    Write-Host 'Setup complete. Bundled fonts, dependencies, evidence checks, and tests passed.'
+    Write-Host 'Thimfora 79/80/81 and Transliteration 7 are included in data\runtime-fonts, verified by hash, and loaded privately by the app. Inputs is optional; no Windows font installation is needed.'
     Write-Host 'Double-click launch.bat or a .vay file to open M14 (Language Workbench + Language Forge).'
     Write-Host 'Normal launches close the command window. Full launch output is recorded in .local\logs\launch-*.log; an error dialog points to the log if the editor fails.'
     Write-Host 'Language > Update transliteration refreshes the Roman column in one undo step in either page view. Reading-copy controls are removed from the main ribbon.'

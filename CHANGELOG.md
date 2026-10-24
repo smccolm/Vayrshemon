@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 bundled application fonts 0.15.17 — 2026-10-24
+
+- Bundle byte-identical Thimfora 79/80/81 and Transliteration 7 fonts, with hashes, sizes and provenance, as tracked application assets. Inputs, Saves and Exports remain ignored.
+- Load the bundled family at startup and resolve missing document paths only to the same font identity. Preserve Maxima, metrics, three-layer alignment and approved rendering; valid existing paths remain in use.
+- Setup verifies the fonts without installing them into Windows. Source releases include and require all four files. Validation uses the existing environment; no reinstall or environment replacement is performed.
+
 ## M14 PDF reading export 0.15.16 — 2026-10-24
 
 - Add File → Export → PDF with timestamp names in Exports. Export all physical pages in one background snapshot, numbered separately from 1 and opening in single-page or facing-page view to match the Workbench. Paired view starts with pages 1–2; no cover page or visible footer is added.

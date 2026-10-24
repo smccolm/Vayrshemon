@@ -81,7 +81,7 @@ class AuthoringSession(QObject):
         self.lock=QLockFile(str(self.recovery_path.with_suffix('.lock')))
         self.lock.setStaleLockTime(0)
         if recovery and not self.lock.tryLock(0): raise OSError('RECOVERY_LOCK_FAILED')
-        if source_fonts and (self.root/'Inputs/font files/Thimfora_79.ttf').exists(): self.fonts.load_source_recipe()
+        if source_fonts and self.fonts.source_recipe_available(): self.fonts.load_default_fonts()
         self.state=self.new_state()
         self._restore(self.state)
         self._state=self.capture()
@@ -469,7 +469,7 @@ class AuthoringSession(QObject):
         path,payload,state,migrated=self.read_file(path)
         missing=[]
         for source in state['fontSources']:
-            candidate=Path(source['path'])
+            candidate=self.fonts.document_path(source['path'],source['sha256'])
             try: found=candidate.is_file() and candidate.stat().st_size<=64*1024*1024 and hashlib.sha256(candidate.read_bytes()).hexdigest()==source['sha256']
             except OSError: found=False
             if not found: missing.append(source)
@@ -480,7 +480,8 @@ class AuthoringSession(QObject):
         self.validate(state)
         missing=[]
         for source in state['fontSources']:
-            source['path']=(font_paths or {}).get(source['fontId'],source['path'])
+            explicit=source['fontId'] in (font_paths or {})
+            source['path']=str(font_paths[source['fontId']] if explicit else self.fonts.document_path(source['path'],source['sha256']))
             if source['fontId']!='font:'+source['sha256']+':0': raise ValueError('FONT_ID_HASH_MISMATCH')
             try: self.fonts.register(source['path'],source['sha256'])
             except (OSError,ValueError) as error: missing.append(dict(**source,reason=str(error)))

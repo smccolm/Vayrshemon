@@ -9,6 +9,7 @@ from PySide6.QtCore import QByteArray
 from PySide6.QtGui import QFont, QFontDatabase, QRawFont
 
 from tools.m0.common import load_json
+from . import bundled_fonts
 
 
 @dataclass
@@ -40,6 +41,7 @@ class FontRegistry:
         self.faces = {}
         self.by_family = {}
         self.records = {entry['fontId']: entry for entry in load_json(self.root / 'data/fonts.json')['fonts']}
+        self.bundled = bundled_fonts.records(self.root)
         self.recipe = None
         self._raw_cache = {}
 
@@ -103,7 +105,25 @@ class FontRegistry:
         record = self.records.get(identity)
         if not record:
             raise ValueError('FONT_UNRESOLVED: register the exact file first: ' + identity)
-        return self.register(self.root / 'Inputs' / record['asset']['path'], record['asset']['sha256'])
+        path=bundled_fonts.path(self.root,self.bundled[identity]) if identity in self.bundled else self.root/'Inputs'/record['asset']['path']
+        return self.register(path, record['asset']['sha256'])
+
+    def document_path(self,path,sha256):
+        """Relocate only absent paths to the identical shipped font."""
+        candidate=Path(path)
+        record=self.bundled.get('font:'+sha256+':0')
+        return bundled_fonts.path(self.root,record) if record and not candidate.exists() else candidate
+
+    def source_recipe_available(self):
+        master=next((f for f in self.bundled.values() if f['role']=='script-master'),None)
+        path=bundled_fonts.path(self.root,master) if master else self.root/'Inputs/font files/Thimfora_79.ttf'
+        return path.is_file()
+
+    def load_default_fonts(self):
+        master=self.load_source_recipe()
+        for fid,record in self.bundled.items():
+            if record['role']=='transliteration':self.resolve(fid)
+        return master
 
     def load_source_recipe(self):
         paths = ('font files/Thimfora_80_Infill.ttf', 'font files/Thimfora_81_Fragments.ttf',

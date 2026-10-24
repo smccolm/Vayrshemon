@@ -23,7 +23,7 @@ METHODS['page.transliteration.update']=('Update the existing Transliteration 7 c
 
 
 class FileSession(GlossSession):
-    application_version='0.15.16'
+    application_version='0.15.17'
     file_version='0.6.0'
     document_schema=DOCUMENT
 
