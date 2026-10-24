@@ -1,5 +1,5 @@
 {
-  "apiVersion": "0.14.0",
+  "apiVersion": "0.14.1",
   "protocolVersion": "2024-11-05",
   "tools": [
     {
@@ -6576,7 +6576,7 @@
     },
     {
       "name": "page_gloss_copy",
-      "description": "Create a separate four-column copy of the open facing spread, filling only its empty reserved column from a frozen language version.",
+      "description": "Create a separate four-column copy from a frozen language version, with corresponding paragraph starts aligned across the spread.",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -6606,6 +6606,42 @@
           "version",
           "test_id",
           "directory",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "page_paragraphs_align",
+      "description": "Align corresponding paragraph first baselines across independent columns, changing only paragraph-before spacing in one undoable edit. Defaults to the current four-column spread.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "frame_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 2,
+            "maxItems": 4,
+            "uniqueItems": true
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
           "expectedRevision",
           "idempotencyKey",
           "documentId"

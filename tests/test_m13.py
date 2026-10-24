@@ -111,12 +111,19 @@ class GlossTests(unittest.TestCase):
         self.assertNotIn('simp.',gloss.inspect(s,'page')['paragraphs'][0]['text'])
 
     def test_published_contracts_and_headless_mcp(self):
-        self.assertEqual(len(METHODS),150)
-        self.assertEqual(len(load_json(ROOT/'data/gloss-capabilities.json')['capabilities']),150)
+        self.assertEqual(len(METHODS),151)
+        self.assertEqual(len(load_json(ROOT/'data/gloss-capabilities.json')['capabilities']),151)
         messages=[dict(jsonrpc='2.0',id=1,method='initialize',params={}),dict(jsonrpc='2.0',method='notifications/initialized'),dict(jsonrpc='2.0',id=2,method='tools/list')]
         p=subprocess.run([sys.executable,'-m','vayrshemon','mcp','--headless','--gloss','--no-source-fonts'],input='\n'.join(json.dumps(m) for m in messages)+'\n',text=True,capture_output=True,cwd=ROOT,timeout=40)
         self.assertEqual(p.returncode,0,p.stderr);responses=[json.loads(line) for line in p.stdout.splitlines()];tools=next(r['result']['tools'] for r in responses if r.get('id')==2)
-        self.assertEqual(len(tools),150);self.assertTrue(any(t['name']=='page_gloss_copy' for t in tools))
+        self.assertEqual(len(tools),151);self.assertTrue(any(t['name']=='page_gloss_copy' for t in tools))
+        # The live adapter selects contracts from the descriptor's API version;
+        # tools/list needs no connection and must expose the same new command.
+        descriptor=self.work/'transport-version.json';descriptor.write_text(json.dumps(dict(apiVersion=GlossAPI.version)),encoding='utf-8')
+        live=subprocess.run([sys.executable,'-m','vayrshemon','mcp','--descriptor',str(descriptor)],input='\n'.join(json.dumps(m) for m in messages)+'\n',text=True,capture_output=True,cwd=ROOT,timeout=40)
+        self.assertEqual(live.returncode,0,live.stderr)
+        advertised=next(json.loads(line)['result']['tools'] for line in live.stdout.splitlines() if json.loads(line).get('id')==2)
+        self.assertEqual(len(advertised),151);self.assertTrue(any(t['name']=='page_paragraphs_align' for t in advertised))
 
 
 if __name__=='__main__':unittest.main()

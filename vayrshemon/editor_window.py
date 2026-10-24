@@ -329,7 +329,7 @@ class EditorWindow(QMainWindow):
         self.recents=menu.addMenu('Recent documents'); self.recents.aboutToShow.connect(self.populate_recents)
         menu.addAction('Recover interrupted session…',lambda:self.guard(self.recover_dialog))
         menu.addSeparator(); menu.addAction('Export PNG…',lambda:self.guard(self.export_png)); menu.addAction('Export outline SVG…',lambda:self.guard(self.export_svg))
-        edit=self.menuBar().addMenu('Edit')
+        edit=self.menuBar().addMenu('Edit');self.edit_menu=edit
         for name,key,method in [('Undo','Ctrl+Z','history.undo'),('Redo','Ctrl+Y','history.redo')]:
             action=edit.addAction(name); action.setShortcut(key); action.triggered.connect(lambda checked=False,m=method:self.invoke(m))
         action=edit.addAction('Find / replace…'); action.setShortcut(QKeySequence.StandardKey.Find); action.triggered.connect(lambda:self.guard(self.find_dialog))

@@ -1,12 +1,12 @@
-"""Add a gloss to a separate facing book; protect the other three columns."""
+"""Add a gloss to a separate facing book and align its four paragraph columns."""
 from copy import deepcopy
 from pathlib import Path
 import uuid
 from tools.m0.common import write_json,file_hash
-from tools.parallel_translation_fixture import paragraph_starts
+from .paragraph_alignment import without_before
 from tools.approved_baseline import rgba_hash
 from .authoring import identity,stamp
-from .session import utf16_length,SCALE
+from .session import utf16_length
 from . import gloss,reading,pages,language
 from .forge import digest
 
@@ -25,7 +25,6 @@ def create(book,project,version,test_id,directory):
     gloss.require(not text(blank).strip(),'RESERVED_COLUMN_NOT_EMPTY')
     gloss.require(text(english)=='\n'.join(' '.join(p['english'].split()) for p in report['paragraphs']),'ENGLISH_TEXT_MISMATCH')
     gloss.require(not report['issues'],'IMPLICIT_SUBJECT_REQUIRES_EXPLICIT_REVIEW')
-    before_images=[pages.render(book,page_id=p['pageId'],mode='color',dpi=144)[0] for p in source['pages']]
     out.mkdir(parents=True)
     title=next(t['title'] for t in snapshot['tests'] if t['id']==test_id)
     payload=deepcopy(source);payload['documentId']=identity('document');payload['revision']=0;payload['title']=title+' · construction gloss · '+version[:10]
@@ -64,17 +63,8 @@ def create(book,project,version,test_id,directory):
             with s.command('gloss.punctuation'):
                 for run in fallback:s.active.format_range(*run['sourceUtf16'],font_id=times.font_id)
             transcript.append(dict(method='gloss.punctuation',ranges=fallback,revision=s.revision));write_json(out/'api-transcript.json',transcript)
-        targets=paragraph_starts(pages.inspect(s,page_id=page_id,max_glyphs=20000),english['frameId']);delays=[]
-        for i,target in enumerate(targets):
-            line=paragraph_starts(pages.inspect(s,page_id=page_id,max_glyphs=20000),fid)[i]
-            delta=(target['baseline']-line['baseline'])/SCALE
-            if delta>0.00001:
-                block=s.active.doc.findBlock(line['sourceUtf16'][0]);base=block.blockFormat().topMargin()/SCALE
-                if block.previous().isValid():base=max(base,block.previous().blockFormat().bottomMargin()/SCALE)
-                call('paragraph.format',start=line['sourceUtf16'][0],end=line['sourceUtf16'][0],before=base+delta)
-            delays.append(max(0,-delta))
+        alignment=call('page.paragraphs.align')
         layout=pages.inspect(s,page_id=page_id,max_glyphs=20000);write_json(out/'layout.json',layout)
-        delays=[max(0,(a['baseline']-b['baseline'])/SCALE) for a,b in zip(paragraph_starts(layout,fid),targets)]
         frame=next(f for f in layout['frames'] if f['frameId']==fid);x,y,w,h=frame['rect']
         gloss.require(all(l['advanceBounds'][1]+l['advanceBounds'][3]<=y+h+.01 and l['advanceBounds'][0]+l['advanceBounds'][2]<=x+w+.01 for l in frame['layout']['lines']),'FRAME_OVERSET: shorten labels in the Forge glossary; the approved type size is retained')
         missing=[g for g in layout['glyphs'] if g['missingGlyph'] or g.get('fallbackReason')];gloss.require(not missing,'MISSING_GLYPHS')
@@ -93,19 +83,16 @@ def create(book,project,version,test_id,directory):
         for old,new in zip(before['pages'],final['pages']):
             gloss.require({k:v for k,v in old.items() if k!='frames'}=={k:v for k,v in new.items() if k!='frames'},'PAGE_GEOMETRY_CHANGED')
             for a,b in zip(old['frames'],new['frames']):
-                if a['frameId']!=fid:gloss.require(a==b,'PROTECTED_COLUMN_CHANGED')
+                if a['frameId']!=fid:gloss.require(without_before(a)==without_before(b),'PROTECTED_COLUMN_CHANGED')
         call('frame.select',frame_id=left[0]['frameId']);saved=call('document.save-as',path=str(out/'Construction-spread.vay.json'))
         proofs=[]
         for i,p in enumerate(final['pages']):
             image,render=pages.render(s,page_id=p['pageId'],path=out/f'page-{i+1}.png',mode='color',dpi=144)
-            protected=image if i==0 else image.copy(image.width()//2,0,image.width()-image.width()//2,image.height())
-            old=before_images[i] if i==0 else before_images[i].copy(image.width()//2,0,image.width()-image.width()//2,image.height())
-            gloss.require(rgba_hash(protected)==rgba_hash(old),'PROTECTED_PIXELS_CHANGED')
-            proofs.append(dict(**render,rgbaSha256=rgba_hash(image),protectedPixelsIdentical=True))
+            proofs.append(dict(**render,rgbaSha256=rgba_hash(image),typographyPreserved=True))
         write_json(out/'gloss.json',report)
         result=dict(runId=uuid.uuid4().hex,kind='construction-gloss',createdAt=stamp(),version=version,projectId=project.status()['projectId'],testId=test_id,status='Needs review',
             document=saved['path'],documentSha256=saved['sha256'],manifestPath=str(out/'run.json'),sourceDocumentId=source['documentId'],sourceRevision=source['revision'],sourceUnchanged=book.capture()==source,
-            sourceSha256=digest(source),glossResults=dict(path=str(out/'gloss.json'),sha256=file_hash(out/'gloss.json')),proofs=proofs,paragraphDelaysPt=delays,
-            missingGlyphs=0,glossFrame=fid,punctuationOverrides=fallback,tokenCount=report['tokenCount'],checks=[dict(name='Other three columns and approved font treatment',status='Pass'),dict(name='Word-order and dictionary links',status='Pass'),dict(name='Gloss line advances fit',status='Pass')])
+            sourceSha256=digest(source),glossResults=dict(path=str(out/'gloss.json'),sha256=file_hash(out/'gloss.json')),proofs=proofs,paragraphAlignment=alignment,
+            missingGlyphs=0,glossFrame=fid,punctuationOverrides=fallback,tokenCount=report['tokenCount'],checks=[dict(name='Text, geometry and approved font treatment',status='Pass'),dict(name='Four-column paragraph starts',status='Pass'),dict(name='Word-order and dictionary links',status='Pass'),dict(name='Gloss line advances fit',status='Pass')])
         write_json(out/'run.json',result);project.record_run(result);return result
     finally:s.finish()

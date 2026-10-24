@@ -11,7 +11,8 @@ METHODS.update({
  'forge.gloss.prepare':('Suggest editable dictionary labels for an annotated test; does not save or infer grammatical features.',False,obj(dict(version=STRING,test_id=STRING),('test_id',))),
  'forge.gloss.put':('Validate and save compact labels to the guarded Forge draft; commit separately to freeze the glossary.',True,obj(dict(**GUARD,profile={'type':'object'}),('project_id','expected_generation','profile'))),
  'forge.gloss.inspect':('Explain every annotated token in exact source order, with senses, rules, spans, abbreviations and adaptation notes.',False,obj(dict(version=STRING,test_id=STRING),('test_id',))),
- 'page.gloss.copy':('Create a separate four-column copy of the open facing spread, filling only its empty reserved column from a frozen language version.',True,obj(dict(version=STRING,test_id=STRING,directory=STRING),('version','test_id','directory'))),
+ 'page.gloss.copy':('Create a separate four-column copy from a frozen language version, with corresponding paragraph starts aligned across the spread.',True,obj(dict(version=STRING,test_id=STRING,directory=STRING),('version','test_id','directory'))),
+ 'page.paragraphs.align':('Align corresponding paragraph first baselines across independent columns, changing only paragraph-before spacing in one undoable edit. Defaults to the current four-column spread.',True,obj(dict(frame_ids={'type':'array','items':STRING,'minItems':2,'maxItems':4,'uniqueItems':True}))),
 })
 METHODS['ui.forge'][2]['properties']['section']['enum'].append('Gloss')
 METHODS['ui.forge'][2]['properties'].update(gloss_test=STRING,gloss_preview={'type':'boolean'})
@@ -22,14 +23,17 @@ METHODS['jobs.export']=('Export one proof, or PNG pages from one immutable snaps
 
 
 class GlossSession(ReadingSession):
-    application_version='0.14.1'
+    application_version='0.14.2'
 
 
 class GlossAPI(ReadingAPI):
-    version='0.14.0'
+    version='0.14.1'
     methods=METHODS
 
     def dispatch(self,method,params):
+        if method=='page.paragraphs.align':
+            from .paragraph_alignment import align
+            return align(self.session,**params)
         if not method.startswith('forge.gloss.') and method!='page.gloss.copy':return super().dispatch(method,params)
         p=self.session.forge
         if not p:raise ValueError('FORGE_PROJECT_REQUIRED')

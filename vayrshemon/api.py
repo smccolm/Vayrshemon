@@ -319,7 +319,7 @@ def remote_call(root, method, params=None, *, expected_revision=None, idempotenc
     from PySide6.QtCore import QCoreApplication
     app = QCoreApplication.instance() or QCoreApplication([])
     info = load_json(Path(descriptor) if descriptor else Path(root)/'.local/run/active.json')
-    if info.get('apiVersion') not in ('0.2.0','0.3.0','0.4.0','0.5.0','0.6.0','0.7.0','0.7.1','0.8.0','0.9.0','0.10.0','0.11.0','0.12.0','0.13.0','0.14.0'):
+    if info.get('apiVersion') not in ('0.2.0','0.3.0','0.4.0','0.5.0','0.6.0','0.7.0','0.7.1','0.8.0','0.9.0','0.10.0','0.11.0','0.12.0','0.13.0','0.14.0','0.14.1'):
         raise ValueError('API_VERSION_MISMATCH')
     socket = QLocalSocket()
     socket.connectToServer(info['serverName'])
@@ -332,9 +332,9 @@ def remote_call(root, method, params=None, *, expected_revision=None, idempotenc
     if not socket.waitForBytesWritten(5000):
         raise ConnectionError('LOCAL_API_WRITE_FAILED')
     data = bytearray()
-    # A construction copy includes two protected-pixel proofs and a verified
-    # font-complete save. Give that bounded operation time to return its result.
-    deadline = time.monotonic() + (180 if method == 'page.gloss.copy' else 30)
+    # Construction and alignment measure multiple columns with exact fonts.
+    # Give these bounded operations time to return their results.
+    deadline = time.monotonic() + (180 if method in ('page.gloss.copy','page.paragraphs.align') else 30)
     while b'\n' not in data:
         if socket.bytesAvailable() or socket.waitForReadyRead(max(1, int((deadline-time.monotonic())*1000))):
             data.extend(bytes(socket.readAll()))

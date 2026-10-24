@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M13 paragraph alignment 0.14.2 — 2026-10-24
+
+- Align the first baseline of each corresponding paragraph across all four columns. Change only paragraph-before spacing; retain text, Maxima, font sizes, exact leading, page geometry and bevel/glow.
+- Add Edit → Align paragraph starts across columns and `page.paragraphs.align` through API/CLI/MCP. The operation is undoable, repeatable and rolls back on overset or mismatched paragraph counts. New Forge gloss copies align automatically.
+- Update setup.bat; no new dependency. API 0.14.1 exposes 151 operations; native documents and paint engine are unchanged.
+
 ## M13 facing PNG export 0.14.1 — 2026-10-24
 
 - Make the PNG button follow the visible one/two-page arrangement. Two-page mode exports `DateTimestamp_Left.png` and `DateTimestamp_Right.png` from one immutable snapshot; single-page mode suggests `DateTimestamp.png` with no document-title prefix.

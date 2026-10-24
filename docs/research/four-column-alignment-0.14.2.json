@@ -1,0 +1,132 @@
+{
+  "application": "0.14.2",
+  "api": "0.14.1",
+  "date": "2026-10-24",
+  "paragraphCount": 4,
+  "baselinesPt": [
+    [
+      89.78368875000001,
+      89.78368875000001,
+      89.78368875000001,
+      89.78368875000001
+    ],
+    [
+      342.78368875,
+      342.78368875,
+      342.7797825,
+      342.7797825
+    ],
+    [
+      632.725095,
+      632.725095,
+      632.725095,
+      632.725095
+    ],
+    [
+      808.693845,
+      808.693845,
+      808.693845,
+      808.693845
+    ]
+  ],
+  "maxErrorPt": 0.00390625,
+  "frameBottomClearancePt": [
+    116.61385875000008,
+    124.7349524999999,
+    86.76620250000008,
+    162.75057750000008
+  ],
+  "glyphsAndRelativeParagraphGeometryPreserved": true,
+  "generation": {
+    "sourceUnchanged": true,
+    "paragraphSpacingMatchesLiveCopy": true,
+    "alignment": {
+      "frameIds": [
+        "frame.df783499ad2142c0af01bbb73c220c09",
+        "frame.0e337608781740669e4e4e322098e716",
+        "frame.c0180cd5889a49c2a380193a91925174",
+        "frame.9bc22ff773f24970888c5f4643b35c69"
+      ],
+      "paragraphs": 4,
+      "baselinesPt": [
+        [
+          89.78368875000001,
+          89.78368875000001,
+          89.78368875000001,
+          89.78368875000001
+        ],
+        [
+          342.78368875,
+          342.78368875,
+          342.7797825,
+          342.7797825
+        ],
+        [
+          632.725095,
+          632.725095,
+          632.725095,
+          632.725095
+        ],
+        [
+          808.693845,
+          808.693845,
+          808.693845,
+          808.693845
+        ]
+      ],
+      "maxErrorPt": 0.00390625,
+      "revision": 10
+    },
+    "checks": [
+      {
+        "name": "Text, geometry and approved font treatment",
+        "status": "Pass"
+      },
+      {
+        "name": "Four-column paragraph starts",
+        "status": "Pass"
+      },
+      {
+        "name": "Word-order and dictionary links",
+        "status": "Pass"
+      },
+      {
+        "name": "Gloss line advances fit",
+        "status": "Pass"
+      }
+    ]
+  },
+  "liveMenuVerified": true,
+  "liveMcpVerified": true,
+  "toolCount": 151,
+  "undoAvailable": true,
+  "documentSha256": "c28c988e0417ef6b62d8801b5c46a50e7caee9a0425a3fbb2de0f410d0adb2b7",
+  "proofs": [
+    {
+      "sha256": "c3657957e6447651f83cdbb05fd63707730180107ec43717472430431e2281ed",
+      "rgbaSha256": "af6e706beaaecc40b9bf4c7284ae57c61f9cefcea5647a0af915d96429291f9c",
+      "width": 1731,
+      "height": 2241,
+      "dpi": 144
+    },
+    {
+      "sha256": "1dba96c3d54db6b577cb109eee2ed4e23bd174aefb0bd13f318c328063533500",
+      "rgbaSha256": "57d452c9b203ade29df9ccbe0e977febb05ef51935e6aec0f48e724138cb3ee6",
+      "width": 1731,
+      "height": 2241,
+      "dpi": 144
+    }
+  ],
+  "tests": {
+    "targeted": 16,
+    "status": "Pass",
+    "transportContractRecheck": "Pass",
+    "includes": [
+      "paragraph alignment",
+      "M13 Forge",
+      "parallel translation",
+      "PNG exports"
+    ]
+  },
+  "originalDocumentSha256": "339aa546e041c6212720317f5af70ca103c02d358c3027da14aabab930a8fb01"
+}

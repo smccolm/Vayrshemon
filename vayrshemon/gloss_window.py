@@ -109,6 +109,8 @@ class GlossPanel(QWidget):
 class GlossWindow(ReadingWindow):
     def __init__(self,book,api):
         super().__init__(book,api);self.forge_panel.gloss=GlossPanel(self.forge_panel);self.forge_panel.tabs.insertTab(6,self.forge_panel.gloss,'Gloss')
+        edit=self.edit_menu
+        edit.addSeparator();edit.addAction('Align paragraph starts across columns',lambda:self.invoke('page.paragraphs.align'))
 
     def about(self):
         from .paint import ENGINE_VERSION

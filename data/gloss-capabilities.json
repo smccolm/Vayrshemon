@@ -1,6 +1,6 @@
 {
   "schemaVersion": "0.1.0",
-  "apiVersion": "0.14.0",
+  "apiVersion": "0.14.1",
   "milestone": "M13",
   "capabilities": [
     {
@@ -1793,7 +1793,19 @@
     },
     {
       "method": "page.gloss.copy",
-      "description": "Create a separate four-column copy of the open facing spread, filling only its empty reserved column from a frozen language version.",
+      "description": "Create a separate four-column copy from a frozen language version, with corresponding paragraph starts aligned across the spread.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": false
+    },
+    {
+      "method": "page.paragraphs.align",
+      "description": "Align corresponding paragraph first baselines across independent columns, changing only paragraph-before spacing in one undoable edit. Defaults to the current four-column spread.",
       "mutation": true,
       "transports": [
         "python",
