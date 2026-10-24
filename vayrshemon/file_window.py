@@ -28,6 +28,10 @@ class FileWindow(GlossWindow):
     def __init__(self,book,api):
         self.workspace_layout=None
         super().__init__(book,api)
+        language=self.language_menu
+        language.addSeparator()
+        self.update_transliteration_action=language.addAction('Update transliteration',self.update_transliteration)
+        self.update_transliteration_action.setToolTip('Update the Roman column from Vayrshemon in this page or spread. Undo restores the previous text.')
         self.setWindowIcon(QIcon(str(book.root/'data/icons/memon-color.ico')))
         self.restore_saved_arrangement()
         from .workspace_layout import WorkspaceLayout
@@ -43,6 +47,23 @@ class FileWindow(GlossWindow):
         super().showEvent(event)
         if self._startup_fit_pending:
             self._startup_fit.start()
+
+    def update_transliteration(self):
+        plan=self.invoke('page.transliteration.inspect')
+        if not plan:return
+        if not plan['changed']:
+            self.statusBar().showMessage('Transliteration is already up to date.',8000)
+            return
+        choice=QMessageBox.question(self,'Update transliteration',
+            'Replace the transliteration column with the current Vayrshemon text in Transliteration 7?\n\n'
+            'This replaces any edits made directly in that column. Its formatting and Maxima are preserved; '
+            'the gloss and English text stay unchanged.\n\nYou can undo the update in one step.',
+            QMessageBox.StandardButton.Yes|QMessageBox.StandardButton.Cancel,QMessageBox.StandardButton.Cancel)
+        if choice!=QMessageBox.StandardButton.Yes:return
+        result=self.invoke('page.transliteration.update',expected_plan=plan['planId'])
+        if result:
+            status=result.get('alignment',{})
+            self.statusBar().showMessage('Transliteration updated. '+(status.get('message','') if status.get('status')=='paused' else 'Undo restores the previous text.'),12000)
 
     def eventFilter(self,target,event):
         if target is self.preview.viewport() and event.type()==QEvent.Type.Resize and self._startup_fit_pending:

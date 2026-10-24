@@ -85,7 +85,7 @@ class LanguageWindow(StudioWindow):
         form.addRow(self.button('Parse to an exact fraction',self.parse_number))
         self.number_result=QPlainTextEdit();self.number_result.setReadOnly(True);self.number_result.setMinimumHeight(220);form.addRow(self.number_result)
         self.note(form,'Parentheses mark an exact repetend. An ellipsis means the display was shortened; the rational value stays exact. Unta positional spoken readings remain unverified.')
-        menu=self.menuBar().addMenu('Language')
+        menu=self.menuBar().addMenu('Language');self.language_menu=menu
         for name in ('Language','Lexicon','Grammar','Corpus','Symbols','Numbers'):
             menu.addAction(name).triggered.connect(lambda checked=False,n=name:self.invoke('ui.workspace',panel=n))
             panel=next(self.sidebar.widget(i) for i in range(self.sidebar.count()) if self.sidebar.tabText(i)==name)

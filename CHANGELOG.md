@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 in-place transliteration 0.15.10 — 2026-10-24
+
+- Remove the Reading copy label, mode dropdown and creation button from the current Workbench ribbon. Add Language → Update transliteration for the existing Thimfora/Transliteration 7 pair, including when the facing gloss/English page is selected in either view mode.
+- Refresh exact source slots, paragraph breaks and Maxima without recasing or translating. Retain Roman formatting and existing automatic paragraph alignment; text and spacing undo together. English/gloss text, page geometry and paint stay intact. An already matching column is a no-op.
+- Explain replacement of direct Roman edits before applying it; a review guard rejects intervening source/target changes. Publish inspection/update through API/CLI/MCP and keep the frozen M12/M13 conversion interfaces available. Update setup.bat; no new dependency or file-format change.
+
 ## M14 quiet desktop launch 0.15.9 — 2026-10-24
 
 - Start the editor without a persistent command window. `launch.bat` hands off to a windowless launcher and returns immediately; all editor arguments remain supported.

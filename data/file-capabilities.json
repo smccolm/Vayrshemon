@@ -1685,6 +1685,28 @@
         "desktop",
         "mcp"
       ]
+    },
+    {
+      "method": "page.transliteration.inspect",
+      "description": "Preview which existing script/Roman pair an update will use, whether its text differs and a review guard. Works independently of one/two-page view.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.transliteration.update",
+      "description": "Update the existing Transliteration 7 column from exact Thimfora slots and Maxima in one undo step; preserve destination styling and English/gloss text. Optional expected_plan rejects changes since inspection.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
     }
   ]
 }

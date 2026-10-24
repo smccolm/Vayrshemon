@@ -56,11 +56,14 @@ class ReadingPanel(QWidget):
 class ReadingWindow(SpellingWindow):
     def __init__(self,book,api):
         super().__init__(book,api);self.forge_panel.reading=ReadingPanel(self.forge_panel);self.forge_panel.tabs.insertTab(5,self.forge_panel.reading,'Reading')
-        row=self.preview.parentWidget().layout().itemAt(1).layout();self.reading_mode=QComboBox()
-        for mode in ('transliteration','literal'):self.reading_mode.addItem(reading.MODES[mode],mode)
-        button=QPushButton('Create reading copy');button.clicked.connect(self.reading_copy)
-        width=next(b for b in self.findChildren(QPushButton) if b.text()=='Fit Width');index=row.indexOf(width)+1;row.insertSpacing(index,12)
-        for offset,widget in enumerate((QLabel('Reading copy'),self.reading_mode,button),index+1):row.insertWidget(offset,widget)
+        row=self.preview.parentWidget().layout().itemAt(1).layout()
+        # Frozen M12/M13 windows retain their original conversion controls.
+        if 'page.transliteration.update' not in api.methods:
+            self.reading_mode=QComboBox()
+            for mode in ('transliteration','literal'):self.reading_mode.addItem(reading.MODES[mode],mode)
+            button=QPushButton('Create reading copy');button.clicked.connect(self.reading_copy)
+            width=next(b for b in self.findChildren(QPushButton) if b.text()=='Fit Width');index=row.indexOf(width)+1;row.insertSpacing(index,12)
+            for offset,widget in enumerate((QLabel('Reading copy'),self.reading_mode,button),index+1):row.insertWidget(offset,widget)
         for label in self.forge_panel.findChildren(QLabel):
             if label.text().startswith('LANGUAGE FORGE  /'):label.setText('LANGUAGE FORGE')
         self.compact_actions(row)

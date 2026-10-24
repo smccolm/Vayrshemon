@@ -6691,6 +6691,47 @@
         "required": [],
         "additionalProperties": false
       }
+    },
+    {
+      "name": "page_transliteration_inspect",
+      "description": "Preview which existing script/Roman pair an update will use, whether its text differs and a review guard. Works independently of one/two-page view.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "page_transliteration_update",
+      "description": "Update the existing Transliteration 7 column from exact Thimfora slots and Maxima in one undo step; preserve destination styling and English/gloss text. Optional expected_plan rejects changes since inspection.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "expected_plan": {
+            "type": "string",
+            "pattern": "^[0-9a-f]{64}$"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
     }
   ]
 }

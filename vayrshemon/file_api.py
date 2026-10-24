@@ -14,10 +14,12 @@ for name in ('document.save','document.save-as'):
     METHODS[name]=(METHODS[name][0]+' Embed the visible page/spread and saved color mode atomically. Headless saves reuse the saved page mode, or one page; preview_mode overrides it.',*METHODS[name][1:])
 METHODS['document.saved-preview']=('Inspect embedded preview metadata from the saved file (never unsaved state). No rendering or external fonts required.',False,obj(dict(path=STRING)))
 METHODS['shell.status']=('Inspect Windows .vay association and installed icon/thumbnail component; no registry changes.',False,obj({}))
+METHODS['page.transliteration.inspect']=('Preview which existing script/Roman pair an update will use, whether its text differs and a review guard. Works independently of one/two-page view.',False,obj({}))
+METHODS['page.transliteration.update']=('Update the existing Transliteration 7 column from exact Thimfora slots and Maxima in one undo step; preserve destination styling and English/gloss text. Optional expected_plan rejects changes since inspection.',True,obj(dict(expected_plan={'type':'string','pattern':'^[0-9a-f]{64}$'})))
 
 
 class FileSession(GlossSession):
-    application_version='0.15.9'
+    application_version='0.15.10'
     file_version='0.6.0'
     document_schema=DOCUMENT
 
@@ -81,6 +83,9 @@ class FileAPI(GlossAPI):
     methods=METHODS
 
     def dispatch(self,method,params):
+        if method.startswith('page.transliteration.'):
+            from . import transliteration_update
+            return transliteration_update.inspect(self.session) if method.endswith('.inspect') else transliteration_update.update(self.session,**params)
         if method in ('document.save','document.save-as'):return self.session.save(**params)
         if method=='document.saved-preview':
             path=params.get('path') or self.session.saved_path

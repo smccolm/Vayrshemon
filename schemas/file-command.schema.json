@@ -8809,6 +8809,74 @@
       ],
       "additionalProperties": false,
       "description": "Inspect Windows .vay association and installed icon/thumbnail component; no registry changes."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.15.0"
+        },
+        "method": {
+          "const": "page.transliteration.inspect"
+        },
+        "params": {
+          "type": "object",
+          "properties": {},
+          "required": [],
+          "additionalProperties": false
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params"
+      ],
+      "additionalProperties": false,
+      "description": "Preview which existing script/Roman pair an update will use, whether its text differs and a review guard. Works independently of one/two-page view."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.15.0"
+        },
+        "method": {
+          "const": "page.transliteration.update"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "expected_plan": {
+              "type": "string",
+              "pattern": "^[0-9a-f]{64}$"
+            }
+          },
+          "required": [],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Update the existing Transliteration 7 column from exact Thimfora slots and Maxima in one undo step; preserve destination styling and English/gloss text. Optional expected_plan rejects changes since inspection."
     }
   ]
 }

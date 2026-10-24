@@ -162,7 +162,7 @@ class FileTests(unittest.TestCase):
         self.book.open(path,advance_revision=False);self.assertTrue(self.book.migrated_from)
 
     def test_new_file_api_contracts_and_cli_detection(self):
-        self.assertEqual(len(METHODS),153)
+        self.assertEqual(len(METHODS),155)
         published=load_json(ROOT/'data/file-mcp-tools.json');self.assertEqual(len(published['tools']),len(METHODS))
         schema=load_json(ROOT/'schemas/file-command.schema.json')
         Draft202012Validator(schema).validate(dict(apiVersion='0.15.0',method='document.save',params=dict(path='x.vay',preview_mode='two'),documentId=self.book.state['documentId'],expectedRevision=self.book.revision,idempotencyKey='test'))
