@@ -2,6 +2,11 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 default export folder 0.15.15 — 2026-10-24
+
+- The PNG button and File → Export → PNG / SVG default to the project's `Exports` folder (`E:\Vayrshemon\Exports` here). Preserve timestamp-only single-page names and matching `_Left` / `_Right` spread names; another destination can still be chosen.
+- Create the folder during setup and when opening an export dialog. Ignore generated exports in Git, retain the approved formatting and Maxima, and verify PNG/SVG workers and parallel-translation regressions.
+
 ## M14 single-page blank startup 0.15.14 — 2026-10-24
 
 - Blank startup and File → New select one-page mode even when the previous session remembered two-page mode. The selected icon now agrees with the blank page; startup still uses Fit Height.

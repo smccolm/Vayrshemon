@@ -49,9 +49,11 @@ class SpreadSVGTests(unittest.TestCase):
 
     def export(self,path=None,side='_Left'):
         def choose(*args,**kwargs):
-            name=Path(args[2]).name
+            suggestion=Path(args[2]);name=suggestion.name
+            self.assertEqual(suggestion.parent,self.root/'Exports')
+            self.assertTrue(suggestion.parent.is_dir())
             self.assertRegex(name,'^'+STAMP+side+r'\.svg$')
-            self.chosen=path or self.root/name
+            self.chosen=path or suggestion
             return str(self.chosen),'SVG (*.svg)'
         with patch('PySide6.QtWidgets.QFileDialog.getSaveFileName',side_effect=choose):
             self.w.svg_export_action.trigger()

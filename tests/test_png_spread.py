@@ -35,7 +35,9 @@ class SpreadPNGTests(unittest.TestCase):
     def click(self,pattern):
         choices=[]
         def choose(*args,**kwargs):
-            name=Path(args[2]).name;self.assertRegex(name,'^'+pattern+'$');choices.append(self.work/name);return str(choices[-1]),'PNG (*.png)'
+            suggestion=Path(args[2]);self.assertRegex(suggestion.name,'^'+pattern+'$')
+            self.assertEqual(suggestion.parent,self.work/'Exports');self.assertTrue(suggestion.parent.is_dir())
+            choices.append(suggestion);return str(choices[-1]),'PNG (*.png)'
         with patch('vayrshemon.png_export.QFileDialog.getSaveFileName',side_effect=choose):
             QTest.mouseClick(next(b for b in self.w.findChildren(QPushButton) if b.text()=='PNG'),Qt.MouseButton.LeftButton)
         self.assertEqual(len(choices),1);return choices[0]
@@ -64,7 +66,7 @@ class SpreadPNGTests(unittest.TestCase):
         self.w.page_controls.set_mode('one');before=self.s.capture();path=self.click(STAMP+'.png');job=self.wait()
         self.assertEqual(job['status'],'completed',job);self.assertNotIn('outputs',job)
         self.assertEqual((QImage(str(path)).width(),QImage(str(path)).height()),(480,900));self.assertEqual(self.s.capture(),before)
-        self.assertEqual(len(list(self.work.glob('*.png'))),1)
+        self.assertEqual(len(list((self.work/'Exports').glob('*.png'))),1)
 
     def test_monochrome_pair_worker_uses_contrasting_neutral_ink(self):
         self.call('document.format',start=0,end=5,color='#0000FFFF')

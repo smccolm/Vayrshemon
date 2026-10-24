@@ -10,7 +10,9 @@ def suggested_proof_path(session, extension, *, page_side=None):
     when=datetime.now().strftime('%Y-%m-%d_%H-%M-%S_%f')[:-3]
     name=when if extension.lower() in ('png','svg') else title+'_'+when
     if page_side:name+='_'+page_side
-    return str(session.root/'.local'/f'{name}.{extension}')
+    folder=session.root/('Exports' if extension.lower() in ('png','svg') else '.local')
+    if folder.name=='Exports':folder.mkdir(parents=True,exist_ok=True)
+    return str(folder/f'{name}.{extension}')
 
 
 def spread_proof_paths(path, count=2, extension='png'):
