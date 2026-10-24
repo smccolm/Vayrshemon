@@ -17,13 +17,26 @@ METHODS['shell.status']=('Inspect Windows .vay association and installed icon/th
 
 
 class FileSession(GlossSession):
-    application_version='0.15.7'
+    application_version='0.15.8'
     file_version='0.6.0'
     document_schema=DOCUMENT
 
     def __init__(self,*args,**kwargs):
         self.saved_preview=None;self.preview_mode_override=None;self.saved_page_mode='one'
         super().__init__(*args,**kwargs)
+
+    def initialize_startup_zoom(self,zoom):
+        # Fit only an untouched new session, without creating an edit or a
+        # save-on-close prompt. Opened files retain their saved view exactly.
+        if self.saved_path or self.revision or self.dirty or self._undo or self._redo:
+            return False
+        if not .1<=zoom<=3:raise ValueError('STARTUP_ZOOM_RANGE')
+        self.view['zoom']=zoom
+        self._state=self.capture()
+        self._saved_digest=self.content_digest(self._state)
+        self.checkpoint();self.changed.emit()
+        self.log.emit('workspace','INITIAL_PAGE_FIT',zoom=zoom,revision=self.revision)
+        return True
 
     def migrate(self,payload,path):
         version=payload.get('formatVersion')

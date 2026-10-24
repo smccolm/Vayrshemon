@@ -1,5 +1,6 @@
 """M14 native file dialogs; the reading layout and glyph renderer are unchanged."""
 from pathlib import Path
+from PySide6.QtCore import QEvent,QTimer
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QFileDialog,QMessageBox
 from .gloss_window import GlossWindow
@@ -21,6 +22,9 @@ def suggested_path(book):
 
 
 class FileWindow(GlossWindow):
+    # Approved first-run view; saved workspace preferences take precedence.
+    DEFAULT_SIDEBAR=dict(expanded=False,pinned=False,width=390,panel='Paint')
+
     def __init__(self,book,api):
         self.workspace_layout=None
         super().__init__(book,api)
@@ -28,6 +32,30 @@ class FileWindow(GlossWindow):
         self.restore_saved_arrangement()
         from .workspace_layout import WorkspaceLayout
         self.workspace_layout=WorkspaceLayout(self)
+        self._startup_fit=QTimer(self)
+        self._startup_fit.setSingleShot(True)
+        self._startup_fit.setInterval(100)
+        self._startup_fit.timeout.connect(self.fit_initial_page)
+        self._startup_fit_pending=not book.saved_path and book.revision==0 and not book.dirty
+        self.preview.viewport().installEventFilter(self)
+
+    def showEvent(self,event):
+        super().showEvent(event)
+        if self._startup_fit_pending:
+            self._startup_fit.start()
+
+    def eventFilter(self,target,event):
+        if target is self.preview.viewport() and event.type()==QEvent.Type.Resize and self._startup_fit_pending:
+            # Maximizing and the compact action bar can resize the viewport in
+            # separate events. Fit once after that initial resize burst settles.
+            self._startup_fit.start()
+        return super().eventFilter(target,event)
+
+    def fit_initial_page(self):
+        self._startup_fit_pending=False
+        self.centralWidget().layout().activate()
+        if self.book.initialize_startup_zoom(self.fitted_zoom(fit_height=True)):
+            self.preview.center_page()
 
     def configure_workspace(self,**params):
         result=super().configure_workspace(**params)

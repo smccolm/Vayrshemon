@@ -1,11 +1,13 @@
 """Real window restart and menu/API coverage for reading layout preferences."""
 import json
+from copy import deepcopy
 import shutil
 import unittest
 import uuid
 from pathlib import Path
 from unittest.mock import patch
 from PySide6.QtCore import QCoreApplication, QEvent
+from PySide6.QtTest import QTest
 from PySide6.QtWidgets import QApplication
 from tools.m0.common import write_json
 from vayrshemon.file_api import FileAPI, FileSession
@@ -29,8 +31,17 @@ class WorkspaceLayoutTests(unittest.TestCase):
         self.api = FileAPI(self.book)
         self.before = self.book.capture()
         self.window = FileWindow(self.book, self.api)
-        self.window.show()
+        self.window.showMaximized()
         APP.processEvents()
+        for _ in range(20):
+            if not self.window._startup_fit_pending:break
+            QTest.qWait(25)
+        self.assertFalse(self.window._startup_fit_pending)
+        # Initial fitting changes only the new document's starting view.
+        expected=deepcopy(self.before)
+        expected['view']['zoom']=self.book.view['zoom']
+        self.assertEqual(self.book.capture(),expected)
+        self.before=expected
         return self.window
 
     def close_window(self):
@@ -68,8 +79,27 @@ class WorkspaceLayoutTests(unittest.TestCase):
         self.assertTrue(window.inspection.isHidden())
         self.assertTrue(window.editor.parentWidget().isHidden())
         self.assertFalse(window.preview.guides)
+        self.assertTrue(window.isMaximized())
+        self.assertEqual(window.windowTitle(), 'Untitled')
+        self.assertEqual(window.workspace_tabs.currentIndex(), 0)
+        self.assertFalse(window.sidebar_dock.expanded)
+        self.assertFalse(window.sidebar_dock.pinned)
+        self.assertTrue(window.sidebar_dock.body.isHidden())
+        self.assertTrue(window.sidebar_dock.toggle_button.isVisible())
+        self.assertEqual(window.sidebar_dock.width(), window.sidebar_dock.RAIL)
+        self.assertEqual(window.preview.page_mode, 'one')
+        self.assertTrue(window.page_controls.buttons['one'].isChecked())
+        self.assertEqual(len(window.preview.display_pages()), 1)
+        self.assertEqual(window.preview.tool, 'select')
+        self.assertEqual(self.book.view['zoom'], window.fitted_zoom(fit_height=True))
+        area=window.preview.display_rect()
+        self.assertLessEqual(area.height()*self.book.view['zoom'],window.preview.viewport().height()-55)
+        self.assertEqual(self.book.view['mode'], 'color')
+        self.assertEqual(window.reading_mode.currentData(), 'transliteration')
         self.assert_unmodified()
         self.assertFalse(self.path.exists())
+        self.assertFalse(window.sidebar_dock.path.exists())
+        self.assertFalse(window.page_controls.path.exists())
         window.workspace_layout.actions['diagnostics'].trigger()
         self.assertFalse(window.inspection.isHidden())
         self.assertTrue(json.loads(self.path.read_text())['diagnostics'])
@@ -79,6 +109,20 @@ class WorkspaceLayoutTests(unittest.TestCase):
         self.assertFalse(window.inspection.isHidden())
         self.assertTrue(window.workspace_layout.actions['diagnostics'].isChecked())
         self.assertTrue(window.editor.parentWidget().isHidden())
+        self.assert_unmodified()
+
+    def test_user_sidebar_and_page_choices_override_first_run_defaults(self):
+        window = self.open_window()
+        window.sidebar_dock.configure(pinned=True, width=475)
+        window.page_controls.set_mode('two')
+        self.assert_unmodified()
+        self.close_window()
+        window = self.open_window()
+        self.assertTrue(window.sidebar_dock.expanded)
+        self.assertTrue(window.sidebar_dock.pinned)
+        self.assertEqual(window.sidebar_dock.expanded_width, 475)
+        self.assertEqual(window.preview.page_mode, 'two')
+        self.assertTrue(window.page_controls.buttons['two'].isChecked())
         self.assert_unmodified()
 
     def test_api_and_editor_close_remember_clean_layout(self):

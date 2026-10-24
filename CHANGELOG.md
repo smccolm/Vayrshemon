@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 approved first-run workspace 0.15.8 — 2026-10-24
+
+- Match the approved clean startup view on a fresh installation: maximized Language Workbench, blank Untitled page fitted to height, Select tool, Color / relief, transliteration reading mode and single-page view.
+- Fit after the window lays out, using the same calculation as Fit Height. Initialize the new page without an undo step or unsaved-change prompt; opening an existing file retains its saved zoom.
+- Default the controls panel to collapsed and unpinned; keep source, diagnostics and guides hidden. Existing workspace preferences and saved document appearances take precedence. Update setup.bat and verify a fresh workspace without local preferences.
+
 ## M14 requirements folder 0.15.7 — 2026-10-24
 
 - Group all 15 milestone dependency files under `requirements/`. Update setup.bat, CI, dependency auditing, evidence references and installation instructions; package versions are unchanged.

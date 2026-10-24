@@ -123,16 +123,18 @@ class IntegrationWindow(LaboratoryWindow):
     def refresh(self):
         super().refresh(); self.setWindowTitle(self.windowTitle().replace('M8','M9'))
 
+    def fitted_zoom(self,*,fit_height):
+        area=self.preview.display_rect();viewport=self.preview.viewport()
+        ratio=(viewport.height()-56)/area.height() if fit_height else (viewport.width()-56)/area.width()
+        return int(max(.1,min(3,ratio))*100)/100
+
     def configure_workspace(self,fit_height=False,fit_width=False,**params):
         if sum(bool(v) for v in (fit_height,fit_width,params.get('fit_page',False)))>1:
             raise ValueError('CHOOSE_ONE_FIT_MODE')
         result=super().configure_workspace(**params)
         if fit_height or fit_width:
             self.centralWidget().layout().activate();QApplication.processEvents()
-            area=self.preview.display_rect();viewport=self.preview.viewport()
-            ratio=(viewport.height()-56)/area.height() if fit_height else (viewport.width()-56)/area.width()
-            zoom=int(max(.1,min(3,ratio))*100)/100
-            self.invoke('view.configure',zoom=zoom);self.preview.center_page()
+            self.invoke('view.configure',zoom=self.fitted_zoom(fit_height=fit_height));self.preview.center_page()
             if fit_width:self.preview.verticalScrollBar().setValue(0)
         return result
 

@@ -81,8 +81,10 @@ class FileTests(unittest.TestCase):
     def test_ui_extension_defaults_and_saved_spread_reopen(self):
         from vayrshemon.file_window import FileWindow
         from PySide6.QtCore import QCoreApplication,QEvent
+        preferences=patch('vayrshemon.page_controls.write_json')
+        preferences.start();self.addCleanup(preferences.stop)
         path=self.work/'visible.v2.vay';self.book.save(path,preview_mode='two');self.book.open(path,advance_revision=False);state=self.book.capture()
-        window=FileWindow(self.book,self.api)
+        window=FileWindow(self.book,self.api);window.showMaximized();APP.processEvents()
         try:
             self.assertEqual(window.preview.page_mode,'two');self.assertEqual(self.book.capture(),state)
             self.assertEqual(window.windowTitle(),'visible.v2')

@@ -17,9 +17,10 @@ class SidebarDock(QWidget):
         self.splitter = self.tabs.parentWidget()
         self.path = window.book.root / '.local/workspace/sidebar.json'
         self.preference_error = None
-        self.expanded = True
-        self.pinned = True
-        self.expanded_width = 390
+        defaults = getattr(window, 'DEFAULT_SIDEBAR', {})
+        self.expanded = defaults.get('expanded', True)
+        self.pinned = defaults.get('pinned', True)
+        self.expanded_width = defaults.get('width', 390)
         self._placing = True
         self._ready = False
         self.setObjectName('workspaceSidebar')
@@ -68,6 +69,9 @@ class SidebarDock(QWidget):
         self.tabs.setMaximumWidth(self.MAX_WIDTH - self.RAIL)
         body_layout.addWidget(self.tabs)
 
+        if defaults.get('panel'):
+            names = [self.tabs.tabText(i) for i in range(self.tabs.count())]
+            self.tabs.setCurrentIndex(names.index(defaults['panel']))
         self.load_preferences()
         self.apply_geometry()
         self._ready = True
