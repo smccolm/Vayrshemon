@@ -1,0 +1,75 @@
+{
+  "scope": "User-requested larger Roman text and longer literary example; separate editable reading specimen",
+  "languageVersion": "0.6.1",
+  "forgeCommit": "7b81756670af7a4cf62b2f13373c7b5d86a1061ed9f29b1e6859e79c7e926731",
+  "branch": "reading-legibility-0.6",
+  "testId": "tempest-reading-coda",
+  "testSha256": "db275b51b3cf1d5411f8b15857d7fc6d328ef4bb10024bc3d73b469c785e9e8a",
+  "snapshotSha256": "634b797e18aaccb43a9c64ad7320a3bce49710ad14cf66f1c53cb57aaa96db4b",
+  "romanSizePt": 28,
+  "previousRomanSizePt": 18,
+  "romanLeadingPt": 36,
+  "scriptSizePt": 50,
+  "scriptLeadingPt": 38,
+  "paragraphs": 4,
+  "exactSlotsPreserved": true,
+  "paintPreserved": true,
+  "pageAndFramesPreserved": true,
+  "previousTempestTestUnchanged": true,
+  "dictionaryAndGrammarUnchanged": true,
+  "approvedBaselineSha256": "ce020579f9c3792bb7639788a830e23d4d22b98cd63b153a3bbb2a96d1f4bc52",
+  "frames": [
+    {
+      "frameId": "frame.df783499ad2142c0af01bbb73c220c09",
+      "lines": 19,
+      "filledPercent": 85.73638240547243,
+      "verticalFits": true,
+      "overflow": false
+    },
+    {
+      "frameId": "frame.0e337608781740669e4e4e322098e716",
+      "lines": 23,
+      "filledPercent": 91.69740210920308,
+      "verticalFits": true,
+      "overflow": true
+    }
+  ],
+  "missingGlyphs": 0,
+  "collisionWarnings": 25,
+  "inkOverhangs": [
+    {
+      "frameId": "frame.0e337608781740669e4e4e322098e716",
+      "glyphId": 112,
+      "leftPoints": 0.0832499999999925,
+      "rightPoints": 0,
+      "topPoints": 0,
+      "bottomPoints": 0
+    },
+    {
+      "frameId": "frame.0e337608781740669e4e4e322098e716",
+      "glyphId": 106,
+      "leftPoints": 2.1367499999999495,
+      "rightPoints": 0,
+      "topPoints": 0,
+      "bottomPoints": 0
+    }
+  ],
+  "saveReopenGeometryHash": "de609e0460af8a6da79781fae6706faf35c2080a5bea587b8f4a1fc0551a9385",
+  "suite": {
+    "Pass": 272,
+    "Needs review": 1,
+    "Unsupported": 1
+  },
+  "parallelTranslationTests": {
+    "run": 2,
+    "passed": 2
+  },
+  "png": {
+    "width": 3511,
+    "height": 4543,
+    "dpi": 292,
+    "sha256": "ffe039e8ba2198a0d82fab20ef1b68e70bf0279187e86c7c7a2bf9d9a0b24002"
+  },
+  "exportNote": "Direct 300 DPI request exceeded the 16 million pixel guard; retry at the desktop supported 292 DPI completed and decoded successfully. PNG button already chooses this supported resolution.",
+  "dependencies": "Unchanged M12 0.13.1 requirements"
+}
