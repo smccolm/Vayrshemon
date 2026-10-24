@@ -86,8 +86,11 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.3 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.4 setup - $projectRoot"
     Write-Host "Console log: $logPath"
+    $savesDirectory = Join-Path $projectRoot 'Saves'
+    New-Item -ItemType Directory -Path $savesDirectory -Force | Out-Null
+    Write-Host "Default document folder: $savesDirectory"
 
     if (Test-Path -LiteralPath $environmentPath) {
         if (!(Test-Path -LiteralPath $environmentPython -PathType Leaf) -or
@@ -137,6 +140,7 @@ try {
     Write-Host ''
     Write-Host 'Setup complete. Dependencies, evidence checks, and tests passed.'
     Write-Host 'Double-click launch.bat or a .vay file to open M14 (Language Workbench + Language Forge).'
+    Write-Host 'Save for new documents, Save As and Open start in Saves. Save updates an existing file in place. Saves is excluded from Git.'
     Write-Host '.vay files include centered Memon mode icons and saved page/spread thumbnails. Legacy .vay.json and .vaylab.json files remain readable.'
     Write-Host 'Explorer integration: per-user file associations + isolated system thumbnail component. See docs\M14.md.'
     Write-Host 'Remove integration: .venv\Scripts\python.exe -m tools.windows_shell --uninstall'

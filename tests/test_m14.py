@@ -93,8 +93,13 @@ class FileTests(unittest.TestCase):
             self.assertEqual(self.book.state['title'],internal_title)
             self.call('history.undo');window.refresh()
             self.assertEqual(window.windowTitle(),'visible.vay — Vayrshemon')
+            with patch('vayrshemon.file_window.QFileDialog.getSaveFileName') as dialog:
+                window.save_file();dialog.assert_not_called()
+            self.assertEqual(self.book.saved_path,path)
+            self.assertFalse(self.book.dirty)
             with patch('vayrshemon.file_window.QFileDialog.getSaveFileName',return_value=(str(self.work/'Native document'),'')) as dialog:
                 window.save_as();self.assertTrue(str(self.book.saved_path).endswith('Native document.vay'));self.assertIn('*.vay',dialog.call_args.args[3])
+                self.assertEqual(Path(dialog.call_args.args[2]),ROOT/'Saves/visible.vay')
             self.assertEqual(self.book.saved_preview['pageMode'],'two')
             window.refresh();self.assertEqual(window.windowTitle(),'Native document.vay — Vayrshemon')
             self.book.open(path,advance_revision=False);window.refresh()
@@ -104,8 +109,29 @@ class FileTests(unittest.TestCase):
             self.call('document.title',title=internal_title);window.refresh()
             self.assertEqual(window.windowTitle(),'Untitled * — Vayrshemon')
             self.assertEqual(self.book.state['title'],internal_title)
+            before=self.book.capture()
+            with patch('vayrshemon.file_window.QFileDialog.getSaveFileName',return_value=('','')) as dialog:
+                window.save_file()
+                self.assertEqual(Path(dialog.call_args.args[2]),ROOT/'Saves/Untitled.vay')
+            self.assertEqual(self.book.capture(),before);self.assertTrue(self.book.dirty)
+            self.assertIsNone(self.book.saved_path)
+            with patch('vayrshemon.file_window.QFileDialog.getOpenFileName',return_value=('','')) as dialog:
+                window.open_file()
+                self.assertEqual(Path(dialog.call_args.args[2]),ROOT/'Saves')
         finally:
             window.job_timer.stop();window.forge_panel.timer.stop();window.hide();self.book.window=None;window.deleteLater();QCoreApplication.sendPostedEvents(None,QEvent.Type.DeferredDelete)
+
+    def test_saves_folder_created_and_legacy_names_preserved(self):
+        from types import SimpleNamespace
+        from vayrshemon.file_window import suggested_path
+        book=SimpleNamespace(root=self.work,saved_path=None)
+        self.assertFalse((self.work/'Saves').exists())
+        self.assertEqual(Path(suggested_path(book)),self.work/'Saves/Untitled.vay')
+        self.assertTrue((self.work/'Saves').is_dir())
+        for name in ('My Maxima Ω.vay','My Maxima Ω.vay.json','My Maxima Ω.vaylab.json','My Maxima Ω.VAY.JSON'):
+            book.saved_path=self.work/'elsewhere'/name
+            self.assertEqual(Path(suggested_path(book)),self.work/'Saves/My Maxima Ω.vay')
+            self.assertEqual(book.saved_path,self.work/'elsewhere'/name)
 
     def test_corrupt_or_stale_preview_does_not_replace_open_document(self):
         path=self.work/'good.vay';self.book.save(path);value=load_json(path);before=self.book.capture()

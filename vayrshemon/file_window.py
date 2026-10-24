@@ -5,12 +5,19 @@ from PySide6.QtWidgets import QFileDialog,QMessageBox
 from .gloss_window import GlossWindow
 
 
+def saves_directory(book):
+    path=book.root/'Saves'
+    path.mkdir(parents=True,exist_ok=True)
+    return path
+
+
 def suggested_path(book):
-    path=book.saved_path or book.root/'.local/Untitled.vay'
-    value=str(path)
+    value=Path(book.saved_path).name if book.saved_path else 'Untitled.vay'
     for suffix in ('.vaylab.json','.vay.json'):
-        if value.lower().endswith(suffix):return value[:-len(suffix)]+'.vay'
-    return value
+        if value.lower().endswith(suffix):
+            value=value[:-len(suffix)]+'.vay'
+            break
+    return str(saves_directory(book)/value)
 
 
 class FileWindow(GlossWindow):
@@ -39,7 +46,7 @@ class FileWindow(GlossWindow):
         self.setWindowTitle((Path(path).name if path else 'Untitled')+(' *' if self.book.dirty else '')+' — Vayrshemon')
 
     def open_file(self):
-        path,_=QFileDialog.getOpenFileName(self,'Open document',str(self.book.root/'.local'),'Vayrshemon (*.vay *.vay.json *.vaylab.json)')
+        path,_=QFileDialog.getOpenFileName(self,'Open document',str(saves_directory(self.book)),'Vayrshemon (*.vay *.vay.json *.vaylab.json)')
         if path:self.open_path(path)
 
     def save_as(self):

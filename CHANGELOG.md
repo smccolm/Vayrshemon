@@ -2,6 +2,11 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 default Saves folder 0.15.4 — 2026-10-24
+
+- Start Save for new documents, Save As and Open in the project's `Saves` folder (`E:\Vayrshemon\Saves` in this installation). Save As preserves the current filename and converts legacy suffixes to `.vay`; ordinary Save updates an existing file in place.
+- Create the folder during setup and when a file dialog needs it. Exclude saved documents from Git; keep existing documents in their current locations. No formatting or rendering changes.
+
 ## M14 filename title bar 0.15.3 — 2026-10-24
 
 - Show the actual filename, including its extension, in the title bar. New documents display Untitled; unsaved changes retain the asterisk. Opening another file and Save As update the displayed name.
