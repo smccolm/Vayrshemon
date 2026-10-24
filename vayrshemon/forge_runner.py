@@ -19,7 +19,7 @@ def presentation(state):
                 frameStyles=[f['content']['document']['styles'] for p in state['pages'] for f in p['frames']])
 
 
-def run(root,project,version,test_id,directory,language_report=None,variation_report=None):
+def run(root,project,version,test_id,directory,language_report=None,variation_report=None,spelling_report=None):
     root=Path(root);out=Path(directory)
     if out.exists(): raise ValueError('FORGE_RUN_DIRECTORY_EXISTS')
     snapshot=project.read(version)['snapshot']
@@ -39,6 +39,9 @@ def run(root,project,version,test_id,directory,language_report=None,variation_re
     if variation_report is not None:
         write_json(out/'variation-results.json',variation_report)
         report['variationResults']=dict(path=str(out/'variation-results.json'),sha256=file_hash(out/'variation-results.json'),status=variation_report['status'],watchSha256=variation_report['watchSha256'],engineVersion=variation_report['engineVersion'])
+    if spelling_report is not None:
+        write_json(out/'spelling-results.json',spelling_report)
+        report['spellingResults']=dict(path=str(out/'spelling-results.json'),sha256=file_hash(out/'spelling-results.json'),status=spelling_report['status'],policySha256=spelling_report['policySha256'],engineVersion=spelling_report['engineVersion'])
     try:
         payload=deepcopy(baseline);state=payload['state'];state['documentId']=identity('document');state['title']=test['title']+' · '+version[:10];state['revision']=0;payload['history']=[]
         state['language']=language.initial();language.append_revision(state['language'],snapshot['language'],'Forge '+version)
@@ -93,7 +96,9 @@ def run(root,project,version,test_id,directory,language_report=None,variation_re
             checks.append(dict(name='Displayed script bound to exact assertion inputs',status='Pass' if test.get('caseIds') else 'Unsupported',caseIds=test.get('caseIds',[]),details='Snapshot validation requires exact paragraph text from the ordered bound cases.' if test.get('caseIds') else 'No explicit clause bindings; suite coverage does not imply this prose was parsed.'))
         if variation_report is not None:
             checks.append(dict(name='Pinned advisory repetition inspection',status=variation_report['status'],warnings=variation_report['warnings'],details=variation_report['scope']))
-        report.update(status='Fail' if overflow or missing or (language_report is not None and language_report['status']=='Fail') else 'Needs review',checks=checks,document=saved['path'],documentSha256=saved['sha256'],proof=str(out/'proof.png'),proofSha256=file_hash(out/'proof.png'),render=render,
+        if spelling_report is not None:
+            checks.append(dict(name='Sentence-initial Maxima',status=spelling_report['status'],initials=spelling_report['initialCount'],maxima=spelling_report['maximaInitialCount'],missing=spelling_report['missingCount'],unmapped=spelling_report['unmappedCount']))
+        report.update(status='Fail' if overflow or missing or (language_report is not None and language_report['status']=='Fail') or (spelling_report is not None and spelling_report['status']=='Fail') else 'Needs review',checks=checks,document=saved['path'],documentSha256=saved['sha256'],proof=str(out/'proof.png'),proofSha256=file_hash(out/'proof.png'),render=render,
                       engine=session.fingerprint(),templateSha256=manifest['source']['sha256'],languageRevision=session.state['language']['activeRevisionId'],test=deepcopy(test),wikiSha256=content_hash(snapshot['wiki']))
     except Exception as error:
         report['error']=str(error)

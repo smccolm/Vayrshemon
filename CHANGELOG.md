@@ -2,6 +2,15 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M11 Maxima and topic variation 0.12.0 — 2026-10-23
+
+- Restore sentence-initial Maxima through explicit orthographic letter pairs, including pairs that do not follow Unicode casing. Add an Orthography workspace with a glyph preview, exact guarded apply, pair inventory, policy editor and frozen audits.
+- Preserve earlier cases and text; create reviewed bound cases with unchanged scalar offsets. Test all 47 pairs and prevent a wrapped line from creating a new capital.
+- Add optional subject-first orders for an established, noncontrast literary topic. Retain prior orders and case constraints; expose available and blocked alternatives. Count watched prefixes by mapped letter identity so capitals cannot conceal repetition.
+- Demonstrate experimental language 0.5.0 with eight sentence-initial Maxima, an edited versioned wiki, 256 language cases and the approved two-column Shakespeare page. Preserve dictionary records, English, typography and the actual three-font paint.
+- Add seven API/MCP controls (140 total), Forge envelope 1.3.0, variation definition 1.1.0 and lab engine 1.2.0. Pin and verify spelling evidence in page runs and named releases. Correct the new revision's inherited attested label on M10's explicitly proposed discourse rule; preserve historical records.
+- Update setup.bat, the pinned requirement chain, CI and contracts without adding dependencies. Native books and the paint engine are unchanged.
+
 ## M10 variation in context 0.11.0 — 2026-10-23
 
 - Add optional, context-conditioned surface alternatives while preserving all complete forms, roots, case and event nominalizers. Explicit context gates apply to word and annotated clause tests.

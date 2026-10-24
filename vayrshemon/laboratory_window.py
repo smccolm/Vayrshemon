@@ -64,7 +64,7 @@ class LaboratoryPanel(QWidget):
             for key,e in self.fields.items():
                 visible=key in ({'id','title','text','note','ruleIds','tokens','context'} if i==0 else {'id','title','grammarId','config'} if i==1 else {'id','title','text','translation','note','ruleIds','caseIds'})
                 e.setVisible(visible);self.form.labelForField(e).setVisible(visible);e.setReadOnly(bool(self.forge.version))
-            self.kind.blockSignals(True);self.kind.clear();self.kind.addItems(['word','clause','review'] if i==0 else ['inventory','forms','analysis','order','review']);self.kind.blockSignals(False)
+            self.kind.blockSignals(True);self.kind.clear();self.kind.addItems(['word','clause','review'] if i==0 else ['inventory','forms','analysis','order','letterforms','review']);self.kind.blockSignals(False)
             self.kind.setVisible(i<2);self.form.labelForField(self.kind).setVisible(i<2);self.kind.setEnabled(not self.forge.version)
             self.expected.setVisible(i==0);self.form.labelForField(self.expected).setVisible(i==0);self.expected.setEnabled(not self.forge.version)
             history=self.forge.book.forge.history()

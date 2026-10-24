@@ -56,25 +56,34 @@ def validate_lab(snapshot):
                 features.append(slot['feature']);size*=len(values)
             require(len(features)==len(set(features)) and size<=50000,'COMPILE_LIMIT')
         elif r['kind']=='order':
-            require({'patterns'}<=set(c)<={'patterns','roleFeatures','roleEntries'} and isinstance(c['patterns'],list) and 0<len(c['patterns'])<=32,'ORDER')
+            require({'patterns'}<=set(c)<={'patterns','roleFeatures','roleEntries','alternatives'} and isinstance(c['patterns'],list) and 0<len(c['patterns'])<=32,'ORDER')
             require(all(isinstance(p,list) and 0<len(p)<=32 and all(string(role,40) for role in p) for p in c['patterns']),'PATTERNS')
             require(isinstance(c.get('roleEntries',{}),dict) and isinstance(c.get('roleFeatures',{}),dict),'ROLE_CONSTRAINTS')
             for role,entries in c.get('roleEntries',{}).items():
                 require(string(role,40) and isinstance(entries,list) and 0<len(entries)<=2000 and set(entries)<=lexicon,'ROLE_ENTRIES')
             for role,options in c.get('roleFeatures',{}).items():
                 require(string(role,40) and isinstance(options,list) and 0<len(options)<=32 and all(isinstance(f,dict) and len(f)<=6 and all(string(k,80) and string(v,80) for k,v in f.items()) for f in options),'ROLE_FEATURES')
+            if 'alternatives' in c:
+                from .variation import validate_when
+                require(snapshot.get('variation',{}).get('formatVersion')=='1.1.0','ORDER_VARIATION_VERSION')
+                require(isinstance(c['alternatives'],list) and len(c['alternatives'])<=32,'ORDER_ALTERNATIVES')
+                ids=set()
+                for a in c['alternatives']:
+                    require(isinstance(a,dict) and set(a)=={'id','pattern','when','note'} and string(a['id'],80) and a['id'] not in ids and string(a['note']),'ORDER_ALTERNATIVE_FIELDS');ids.add(a['id'])
+                    require(isinstance(a['pattern'],list) and 0<len(a['pattern'])<=32 and all(string(role,40) for role in a['pattern']),'ORDER_PATTERN');validate_when(snapshot,a['when'])
         elif r['kind']=='analysis':
             form_ids={f['id'] for f in lab['rules'] if f['kind']=='forms'}
             require(set(c)=={'formRuleIds'} and isinstance(c['formRuleIds'],list) and 0<len(c['formRuleIds'])<=32 and set(c['formRuleIds'])<=form_ids,'FORM_REFERENCE')
+        elif r['kind']=='letterforms':require('spelling' in snapshot and c=={} and r['grammarId']==snapshot['spelling']['grammarId'],'LETTERFORM_POLICY')
         elif r['kind']=='review': require(set(c)=={'reason'} and string(c['reason']),'REVIEW_REASON')
         else: raise ValueError('LAB_UNSUPPORTED_RULE_KIND')
     rules={r['id'] for r in lab['rules']}
     for case in lab['cases']:
         require(set(case)-{'context'}=={'id','title','kind','text','ruleIds','expected','tokens','note'},'CASE_FIELDS')
         if 'context' in case:
-            require('variation' in snapshot,'CONTEXT_REQUIRES_VARIATION')
-            from .variation import valid_context
-            valid_context(case['context'])
+            require('variation' in snapshot or 'spelling' in snapshot,'CONTEXT_REQUIRES_VARIATION')
+            from .variation import valid_context,modern
+            valid_context(case['context'],modern(snapshot))
         require(case['kind'] in ('word','clause','review') and string(case['text']) and string(case['note'],10000,True),'CASE_CONTENT')
         require(case['expected'] in ('accept','reject','review','unsupported'),'EXPECTATION')
         require(isinstance(case['ruleIds'],list) and 0<len(case['ruleIds'])<=32 and len(set(case['ruleIds']))==len(case['ruleIds']) and set(case['ruleIds'])<=rules,'RULE_REFERENCE')
@@ -83,9 +92,9 @@ def validate_lab(snapshot):
         for t in case['tokens']:
             require(isinstance(t,dict) and set(t)-{'context'}=={'start','end','role','entryId','features'},'TOKEN_FIELDS')
             if 'context' in t:
-                require('variation' in snapshot,'CONTEXT_REQUIRES_VARIATION')
-                from .variation import valid_context
-                valid_context(t['context'])
+                require('variation' in snapshot or 'spelling' in snapshot,'CONTEXT_REQUIRES_VARIATION')
+                from .variation import valid_context,modern
+                valid_context(t['context'],modern(snapshot))
                 require(t['context'].get('role',t['role'])==t['role'],'CONTEXT_ROLE_MISMATCH')
             require(type(t['start']) is int and type(t['end']) is int and previous<=t['start']<t['end']<=len(case['text']),'TOKEN_SPAN')
             require(string(t['role'],40) and t['entryId'] in lexicon and isinstance(t['features'],dict) and len(t['features'])<=6 and all(string(k,80) and string(v,80) for k,v in t['features'].items()),'TOKEN_ANALYSIS')
@@ -116,6 +125,8 @@ def compile_rules(snapshot):
         compiled[r['id']]=item
     from .variation import expand
     total=expand(snapshot,compiled,total)
+    from .spelling import expand as expand_spelling
+    total=expand_spelling(snapshot,compiled,total)
     for item in compiled.values():
         if item['kind']=='analysis':
             surfaces={}
@@ -150,6 +161,9 @@ def check_case(case,compiled):
                 for t in tokens:
                     surface=text[t['start']:t['end']];options=rule['surfaces'].get(surface,[])
                     context={**case.get('context',{}),**t.get('context',{}),'role':t['role']}
+                    if 'spellingPolicy' in rule:
+                        from .spelling import initial_positions
+                        context['position']='sentence-initial' if t['start'] in initial_positions(text,rule['spellingPolicy']) else 'internal'
                     matches=[a for a in options if a['entryId']==t['entryId'] and a['features']==t['features'] and allowed(a,context)]
                     analyses.append(dict(surface=surface,start=t['start'],end=t['end'],matches=matches))
                     if not matches: invalid.append(t['start'])
@@ -160,7 +174,9 @@ def check_case(case,compiled):
             if case['kind']!='clause' or not tokens: outcome='unsupported';detail['reason']='Clause role annotations required.'
             else:
                 roles=[t['role'] for t in tokens];detail['roles']=roles;detail['allowed']=rule['config']['patterns']
-                if roles not in detail['allowed']: outcome='reject'
+                alternatives=[a for a in rule['config'].get('alternatives',[]) if a['pattern']==roles and allowed(a,case.get('context',{}))]
+                if roles not in detail['allowed'] and not alternatives: outcome='reject'
+                if rule['config'].get('alternatives'):detail['matchedAlternatives']=[a['id'] for a in alternatives]
                 violations=[]
                 for t in tokens:
                     entries=rule['config'].get('roleEntries',{}).get(t['role'])
@@ -168,6 +184,9 @@ def check_case(case,compiled):
                     if (entries is not None and t['entryId'] not in entries) or (features is not None and t['features'] not in features): violations.append(t['start'])
                 detail['roleConstraintViolations']=violations
                 if violations: outcome='reject'
+        elif rule['kind']=='letterforms':
+            from .spelling import inspect_text
+            detail=inspect_text(text,rule['spellingPolicy'],rule['letterPairs']);detail.pop('text');outcome='reject' if detail['changes'] else 'review' if detail['unmappedInitials'] else 'accept'
         else: outcome='review';detail['reason']=rule['config']['reason']
         checks.append(dict(ruleId=rid,outcome=outcome,detail=detail))
     outcomes={c['outcome'] for c in checks}
@@ -190,7 +209,7 @@ def evaluate(snapshot,cases=None):
         coverage.append(dict(ruleId=rid,grammarId=rule['grammarId'],kind=rule['kind'],cases=len(matching),passed=len(passing),positive=sum(r['expected']=='accept' for r in passing),negative=sum(r['expected']=='reject' for r in passing),covered=bool(passing),bidirectional=all(any(r['expected']==o for r in passing) for o in ('accept','reject'))))
     counts=dict(Counter(r['status'] for r in results));status='Fail' if counts.get('Fail') else 'Needs review' if counts.get('Needs review') else 'Unsupported' if counts.get('Unsupported') or not results else 'Pass'
     grammar={r['id'] for r in snapshot['language']['grammar']};implemented={r['grammarId'] for r in lab['rules'] if r['kind']!='review'}
-    return dict(engineVersion='1.1.0' if 'variation' in snapshot else ENGINE,status=status,snapshotSha256=digest(snapshot),suiteSha256=digest(selected),caseCount=len(results),counts=counts,results=results,coverage=coverage,
+    return dict(engineVersion='1.2.0' if 'spelling' in snapshot or snapshot.get('variation',{}).get('formatVersion')=='1.1.0' else '1.1.0' if 'variation' in snapshot else ENGINE,status=status,snapshotSha256=digest(snapshot),suiteSha256=digest(selected),caseCount=len(results),counts=counts,results=results,coverage=coverage,
                 unimplementedGrammar=sorted(grammar-implemented),scope='Finite forms and annotated clause constraints. No free-prose parser, semantic equivalence, phonology inference or automatic English translation.')
 
 

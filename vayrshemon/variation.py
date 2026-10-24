@@ -18,6 +18,10 @@ CONTEXT={
  'coordination':('independent','first','continuation'),
  'role':('subject','predicate','object','modifier','verb','adverb','adjunct'),
 }
+EXTENDED_CONTEXT={'topic':('none','subject'),'position':('sentence-initial','internal')}
+
+
+def modern(snapshot):return snapshot.get('variation',{}).get('formatVersion')=='1.1.0' or 'spelling' in snapshot
 
 
 def empty(): return dict(formatVersion='1.0.0',alternations=[],watch=[])
@@ -27,14 +31,21 @@ def require(condition,code):
     if not condition: raise ValueError('VARIATION_'+code)
 
 
-def valid_context(context):
-    require(isinstance(context,dict) and set(context)<=CONTEXT.keys(),'CONTEXT_FIELDS')
-    require(all(v in CONTEXT[k] for k,v in context.items()),'CONTEXT_VALUE')
+def valid_context(context,extended=False):
+    fields={**CONTEXT,**EXTENDED_CONTEXT} if extended else CONTEXT
+    require(isinstance(context,dict) and set(context)<=fields.keys(),'CONTEXT_FIELDS')
+    require(all(v in fields[k] for k,v in context.items()),'CONTEXT_VALUE')
+
+
+def validate_when(snapshot,when):
+    fields={**CONTEXT,**EXTENDED_CONTEXT} if modern(snapshot) else CONTEXT
+    require(isinstance(when,dict) and when and set(when)<=fields.keys() and 'register' in when,'CONDITIONS')
+    for k,values in when.items():require(isinstance(values,list) and 0<len(values)<=len(fields[k]) and all(isinstance(v,str) for v in values) and len(values)==len(set(values)) and all(v in fields[k] for v in values),'CONDITION_VALUES')
 
 
 def validate(snapshot):
     value=snapshot['variation']
-    require(isinstance(value,dict) and set(value)=={'formatVersion','alternations','watch'} and value['formatVersion']=='1.0.0','FORMAT')
+    require(isinstance(value,dict) and set(value)=={'formatVersion','alternations','watch'} and value['formatVersion'] in ('1.0.0','1.1.0'),'FORMAT')
     require('laboratory' in snapshot,'LAB_REQUIRED')
     grammar={g['id'] for g in snapshot['language']['grammar']}
     forms={r['id']:r for r in snapshot['laboratory']['rules'] if r['kind']=='forms'}
@@ -54,14 +65,12 @@ def validate(snapshot):
             require(all(isinstance(r[k],str) and len(r[k])<=100 for k in ('fromPrefix','toPrefix')) and r['fromPrefix']!=r['toPrefix'],'PREFIX')
             # Replace the exact paradigm prefix only; never a root substring.
             require(r['fromPrefix'] in forms[r['formRuleId']]['config']['prefixes'],'PREFIX_REFERENCE')
-            when=r['when'];require(isinstance(when,dict) and when and set(when)<=CONTEXT.keys() and 'register' in when,'CONDITIONS')
-            for k,values in when.items():
-                require(isinstance(values,list) and 0<len(values)<=len(CONTEXT[k]) and len(values)==len(set(values)) and all(v in CONTEXT[k] for v in values),'CONDITION_VALUES')
+            validate_when(snapshot,r['when'])
     require(len(encoded(value))<=1024*1024,'SIZE_LIMIT')
 
 
 def allowed(analysis,context):
-    return all(context.get(k) in values for k,values in analysis.get('when',{}).items())
+    return (not analysis.get('requiredPosition') or context.get('position')==analysis['requiredPosition']) and all(context.get(k) in values for k,values in analysis.get('when',{}).items())
 
 
 def expand(snapshot,compiled,total):
@@ -83,7 +92,7 @@ def expand(snapshot,compiled,total):
 
 def forms(snapshot,entry_id,features,context):
     from .forge_lab import compile_rules
-    valid_context(context)
+    valid_context(context,modern(snapshot))
     require(entry_id in {r['id'] for r in snapshot['language']['lexicon']},'ENTRY_MISSING')
     require(isinstance(features,dict) and len(features)<=6 and all(isinstance(k,str) and isinstance(v,str) for k,v in features.items()),'FEATURES')
     rows=[]
@@ -98,7 +107,11 @@ def forms(snapshot,entry_id,features,context):
     return dict(entryId=entry_id,features=features,context=context,forms=rows,policy='Alternatives are available choices, never automatic substitutions. Context labels are supplied by the author.')
 
 
-def audit(snapshot,test_id,watch=None):
+def audit(snapshot,test_id,watch=None,identity_snapshot=None):
+    from .spelling import pairs
+    identity_source=identity_snapshot or snapshot
+    reverse={r['maxima']:lo for lo,r in pairs(identity_source).items()} if 'spelling' in identity_source else {}
+    identity=lambda text:''.join(reverse.get(c,c) for c in text) if reverse else text
     test=next((t for t in snapshot['tests'] if t['id']==test_id),None)
     require(test is not None,'PAGE_MISSING')
     cases={c['id']:c for c in snapshot.get('laboratory',{}).get('cases',[])}
@@ -119,11 +132,11 @@ def audit(snapshot,test_id,watch=None):
     counts=Counter(t['surface'] for t in tokens);lexemes=Counter(t['entryId'] for t in tokens if t['entryId'])
     watches=deepcopy(watch if watch is not None else snapshot.get('variation',empty())['watch']);metrics=[];warnings=[]
     for item in watches:
-        matches=[t for t in tokens if t['surface'].startswith(item['text'])];share=len(matches)/len(tokens) if tokens else 0
-        openings=sum(c[0]['surface'].startswith(item['text']) for c in clauses)
+        matches=[t for t in tokens if identity(t['surface']).startswith(identity(item['text']))];share=len(matches)/len(tokens) if tokens else 0
+        openings=sum(identity(c[0]['surface']).startswith(identity(item['text'])) for c in clauses)
         chain=longest=0
         for t in tokens:
-            chain=chain+1 if t['surface'].startswith(item['text']) else 0;longest=max(longest,chain)
+            chain=chain+1 if identity(t['surface']).startswith(identity(item['text'])) else 0;longest=max(longest,chain)
         metric=dict(**item,count=len(matches),tokenShare=share,clauseOpenings=openings,clauseCount=len(clauses),longestConsecutiveTokens=longest,locations=matches[:256],locationsTruncated=len(matches)>256)
         metrics.append(metric)
         if len(matches)>=item['minCount'] and share>=item['minShare']:
@@ -136,15 +149,23 @@ def audit(snapshot,test_id,watch=None):
                 contextCounts={k:dict(Counter(t['context'].get(k,'unspecified') for t in tokens)) for k in CONTEXT},
                 status='Needs review' if warnings or not bound else 'Pass',scope='Advisory repetition inspection of this sample only. A low count does not certify naturalness; deliberate repetition, parallelism and morphology may be appropriate. No population frequency estimate or automatic rewriting.')
     require(len(encoded(report))<=8*1024*1024,'AUDIT_RESULT_LIMIT')
+    if 'spelling' in (identity_snapshot or snapshot):
+        from .spelling import pairs
+        report.update(engineVersion='1.1.0',letterIdentitySha256=digest(pairs(identity_snapshot or snapshot)),countingPolicy='Watched prefixes fold only explicit Maxima/Minima pairs. Stored text and exact-word counts are unchanged.')
     return report
 
 
 def compare(project,before,after,test_id):
     a=project.read(before)['snapshot'];b=project.read(after)['snapshot'];watch=b.get('variation',empty())['watch']
-    aa=audit(a,test_id,watch);bb=audit(b,test_id,watch)
+    aa=audit(a,test_id,watch,identity_snapshot=b);bb=audit(b,test_id,watch,identity_snapshot=b)
     return dict(beforeVersion=before,afterVersion=after,watchSha256=digest(watch),before=aa,after=bb,
                 changes=[dict(id=x['id'],before=x['count'],after=y['count'],delta=y['count']-x['count']) for x,y in zip(aa['watched'],bb['watched'])],
                 scope='Same watched prefixes and thresholds; each version supplies its own page text. This is a descriptive comparison, not a test regression or a naturalness score.')
+
+
+def orders(snapshot,rule_id,context):
+    valid_context(context,modern(snapshot));rule=next((r for r in snapshot.get('laboratory',{}).get('rules',[]) if r['id']==rule_id and r['kind']=='order'),None);require(rule is not None,'ORDER_RULE_MISSING')
+    return dict(ruleId=rule_id,context=context,patterns=[dict(pattern=p,allowed=True,source='retained construction') for p in rule['config']['patterns']]+[dict(a,allowed=allowed(a,context)) for a in rule['config'].get('alternatives',[])],scope='Optional constructions with author-supplied discourse context. Role/case checks still apply; no automatic word reordering.')
 
 
 def run(project,version,test_id,directory):

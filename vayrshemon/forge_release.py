@@ -1,7 +1,7 @@
 """Immutable named language releases with pinned, independently checked evidence."""
 from pathlib import Path
 import json
-from .forge import NAME, digest, encoded, promote
+from .forge import NAME, digest, encoded, promote, snapshot_version
 from .authoring import stamp
 from . import forge_lab
 
@@ -66,6 +66,10 @@ def create(project, name, version, channel, notes, suite_run_id, workbench_run_i
             evidence=page.get('variationResults')
             if not evidence or file_hash(Path(evidence['path']))!=evidence['sha256'] or load_json(evidence['path'])!=audit(snapshot,page['testId']):
                 raise ValueError('RELEASE_VARIATION_EVIDENCE_MISMATCH')
+        if 'spelling' in snapshot:
+            from .spelling import audit as spelling_audit
+            evidence=page.get('spellingResults')
+            if not evidence or file_hash(Path(evidence['path']))!=evidence['sha256'] or load_json(evidence['path'])!=spelling_audit(snapshot,page['testId']):raise ValueError('RELEASE_SPELLING_EVIDENCE_MISMATCH')
         if any(c['status'] in ('Fail', 'Error') for c in page['checks']): raise ValueError('RELEASE_TEST_FAILURE')
         if channel == 'stable' and (fresh['status'] != 'Pass' or fresh['unimplementedGrammar']
                 or any(c['status'] != 'Pass' for c in page['checks']) or not reviewer.strip()):
@@ -73,7 +77,7 @@ def create(project, name, version, channel, notes, suite_run_id, workbench_run_i
         value = dict(format='vayrshemon.language-release', formatVersion='1.0.0', projectId=meta['projectId'], name=name,
                      version=version, snapshotSha256=digest(snapshot), channel=channel, notes=notes, createdAt=stamp(),
                      acceptance=dict(status='accepted' if channel == 'stable' else 'proposed', reviewer=reviewer), suite=suite, workbench=page)
-        key = digest(value); ensure_table(db); promote(meta,'1.2.0' if 'variation' in snapshot else '1.1.0')
+        key = digest(value); ensure_table(db); promote(meta,'1.1.0'); promote(meta,snapshot_version(snapshot))
         if db.execute('SELECT 1 FROM releases WHERE name=?', (name,)).fetchone(): raise ValueError('RELEASE_NAME_EXISTS')
         db.execute('INSERT INTO releases VALUES (?,?,?)', (name, key, encoded(value)))
     return dict(releaseId=key, **value)

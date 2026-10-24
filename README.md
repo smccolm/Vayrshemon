@@ -2,7 +2,7 @@
 
 A Windows desktop editor for custom typography and the long-term development of the Vayrshemon language.
 
-**Status: M10 implemented — variation in context, version 0.11.0.** The Forge now supports optional context-conditioned forms, repetition inspection and version comparisons. Complete forms and earlier language versions remain available. The approved page, three-font treatment, Fit Height/Width and timestamped PNG export are preserved. All 133 operations share CLI/API/MCP controls; native documents remain 0.5.0.
+**Status: M11 implemented — Maxima and topic variation, version 0.12.0.** The Forge previews and applies sentence-initial Maxima through the actual 47 letter pairs, and supports optional clause orders for established topics. Repetition inspection counts Maxima and Minima as the same letter identity. Earlier spellings, forms and versions remain available. The approved page, three-font treatment, Fit Height/Width and timestamped PNG export are preserved. All 140 operations share CLI/API/MCP controls; native documents remain 0.5.0.
 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 
@@ -18,6 +18,7 @@ The current reference treatment includes separate bevels, per-glyph interior gra
 - [M5 language revisions, lexicon, corpus, exact numbers and publishing](docs/M5.md)
 - [M6 navigation, reliability, installation and recovery](docs/M6.md)
 - [M6.1 collapsible controls and approved visual baseline](docs/M6.1.md)
+- [M11 Maxima spelling and optional topic orders](docs/M11.md)
 - [M10 contextual variation and repetition review](docs/M10.md)
 - [M9 merges, releases, centered pages and PNG export](docs/M9.md)
 - [M8 language tests, coverage and Shakespeare demonstration](docs/M8.md)
@@ -33,11 +34,11 @@ The repository is [smccolm/Vayrshemon](https://github.com/smccolm/Vayrshemon). T
 
 ## Repeatable research
 
-On Windows, double-click [`setup.bat`](setup.bat), then [`launch.bat`](launch.bat). With Python 3.12 (64-bit) installed, setup creates or reuses `.venv`, installs the pinned M0–M10 dependencies including Qt 6.8.3, NumPy/SciPy and independent proof validation libraries, audits dependency notices, and runs all public checks. M10 adds no new external dependency. Python 3.12.7 is the tested version. Setup keeps output visible and saves a separate log for each run in `.local/logs/`. It pauses before closing; use `setup.bat --no-pause` for automation. No Rust, Node, or compiler install is needed for this milestone.
+On Windows, double-click [`setup.bat`](setup.bat), then [`launch.bat`](launch.bat). With Python 3.12 (64-bit) installed, setup creates or reuses `.venv`, installs the pinned M0–M11 dependencies including Qt 6.8.3, NumPy/SciPy and independent proof validation libraries, audits dependency notices, and runs all public checks. M11 adds no new external dependency. Python 3.12.7 is the tested version. Setup keeps output visible and saves a separate log for each run in `.local/logs/`. It pauses before closing; use `setup.bat --no-pause` for automation. No Rust, Node, or compiler install is needed for this milestone.
 
-M10 opens a blank document and loads the actual 79/80/81 fonts when Inputs is available. Apply relief in Paint; import the verified language archive in Language. Select clicks a frame to edit; Hand drags the page. The left edge arrow expands/collapses controls; Pin keeps them open. Ctrl+Alt+B toggles the panel and Ctrl+Alt+P toggles pinning. Without Inputs, use system/local fonts and create or import language records. Save documents as `*.vay.json`; recovery, history and verified font-complete backups live in `.local/`. M1–M4 files migrate to a new path; M5 files open without a format change. `launch.bat --m9`, `--m8`, `--m7`, `--m6`, `--m5`, `--m4`, `--m3`, `--m2` and `python -m vayrshemon lab` retain earlier interfaces. PNG and SVG proof dialogs suggest date/time filenames and export in cancellable background jobs.
+M11 opens a blank document and loads the actual 79/80/81 fonts when Inputs is available. Apply relief in Paint; import the verified language archive in Language. Select clicks a frame to edit; Hand drags the page. The left edge arrow expands/collapses controls; Pin keeps them open. Ctrl+Alt+B toggles the panel and Ctrl+Alt+P toggles pinning. Without Inputs, use system/local fonts and create or import language records. Save documents as `*.vay.json`; recovery, history and verified font-complete backups live in `.local/`. M1–M4 files migrate to a new path; M5 files open without a format change. `launch.bat --m10`, `--m9`, `--m8`, `--m7`, `--m6`, `--m5`, `--m4`, `--m3`, `--m2` and `python -m vayrshemon lab` retain earlier interfaces. PNG and SVG proof dialogs suggest date/time filenames and export in cancellable background jobs.
 
-Setup also writes `.local/mcp-config.json` for an MCP client. It discovers the active editor/lab and connects through a current-user-only local socket; mutations require the document ID, current revision, and an idempotency key. The same interface is available as `.venv\Scripts\python -m vayrshemon call session.status`. See the [M6 guide](docs/M6.md) for headless operation and the [published tool schemas](data/forge-mcp-tools.json).
+Setup also writes `.local/mcp-config.json` for an MCP client. It discovers the active editor/lab and connects through a current-user-only local socket; mutations require the document ID, current revision, and an idempotency key. The same interface is available as `.venv\Scripts\python -m vayrshemon call session.status`. See the [M6 guide](docs/M6.md) for headless operation and the [published tool schemas](data/spelling-mcp-tools.json).
 
 After setup, run tools directly through the project environment. The public checks work without Inputs:
 

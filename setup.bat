@@ -1,5 +1,5 @@
 @echo off
-rem M10 0.11.0 dependencies, executable Forge tests, approved visual baseline and regressions live in tools\setup.ps1.
+rem M11 0.12.0 dependencies, executable Forge tests, approved visual baseline and regressions live in tools\setup.ps1.
 setlocal
 set "SETUP_NO_PAUSE="
 if "%~1"=="" goto run

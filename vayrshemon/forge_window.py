@@ -56,7 +56,7 @@ class ForgePanel(QWidget):
 
     def refresh(self):
         if self.pending: return  # Never overwrite unflushed editor contents.
-        if any(getattr(self,k,None) and getattr(self,k).dirty for k in ('laboratory','variation')): return
+        if any(getattr(self,k,None) and getattr(self,k).dirty for k in ('laboratory','variation','spelling')): return
         self.loading=True
         try:
             if not self.book.forge: return
@@ -84,18 +84,20 @@ class ForgePanel(QWidget):
             if hasattr(self,'laboratory'): self.laboratory.refresh()
             if hasattr(self,'integration'): self.integration.refresh()
             if hasattr(self,'variation'): self.variation.refresh()
+            if hasattr(self,'spelling'): self.spelling.refresh()
 
     def flush(self):
         self.timer.stop()
         if self.pending and not self.save_pending(): return False
-        return all(getattr(self,k).save() for k in ('laboratory','variation') if hasattr(self,k))
+        return all(getattr(self,k).save() for k in ('laboratory','variation','spelling') if hasattr(self,k))
 
     def reload(self):
-        lab=getattr(self,'laboratory',None);variation=getattr(self,'variation',None)
-        if (self.pending or (lab and lab.dirty) or (variation and variation.dirty)) and QMessageBox.question(self,'Reload saved draft','Discard this editor\'s unsaved text and reload the project? Copy your text first if you want to keep it.')!=QMessageBox.StandardButton.Yes: return
+        lab=getattr(self,'laboratory',None);variation=getattr(self,'variation',None);spelling=getattr(self,'spelling',None)
+        if (self.pending or (lab and lab.dirty) or (variation and variation.dirty) or (spelling and spelling.dirty)) and QMessageBox.question(self,'Reload saved draft','Discard this editor\'s unsaved text and reload the project? Copy your text first if you want to keep it.')!=QMessageBox.StandardButton.Yes: return
         self.timer.stop();self.pending=None
         if lab: lab.dirty=False
         if variation: variation.dirty=False
+        if spelling: spelling.dirty=False
         self.refresh();self.message.setText('Reloaded the durable project draft.')
 
     def queue(self,kind):

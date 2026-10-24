@@ -319,7 +319,7 @@ def remote_call(root, method, params=None, *, expected_revision=None, idempotenc
     from PySide6.QtCore import QCoreApplication
     app = QCoreApplication.instance() or QCoreApplication([])
     info = load_json(Path(descriptor) if descriptor else Path(root)/'.local/run/active.json')
-    if info.get('apiVersion') not in ('0.2.0','0.3.0','0.4.0','0.5.0','0.6.0','0.7.0','0.7.1','0.8.0','0.9.0','0.10.0','0.11.0'):
+    if info.get('apiVersion') not in ('0.2.0','0.3.0','0.4.0','0.5.0','0.6.0','0.7.0','0.7.1','0.8.0','0.9.0','0.10.0','0.11.0','0.12.0'):
         raise ValueError('API_VERSION_MISMATCH')
     socket = QLocalSocket()
     socket.connectToServer(info['serverName'])
