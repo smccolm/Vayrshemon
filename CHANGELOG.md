@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 taskbar identity 0.15.2 — 2026-10-24
+
+- Set a stable Windows AppUserModelID before Qt creates its application/windows, so the taskbar identifies Vayrshemon independently of its Python launcher.
+- Use the existing centered color Memon icon as the application-wide icon, retaining the title-bar icon and saved-mode document icons. Both launch.bat and Explorer document opening use this startup path.
+- Record startup identity in diagnostics and update setup.bat; no new dependencies or document/rendering changes.
+
 ## M14 workspace visibility 0.15.1 — 2026-10-24
 
 - Remember source editor, diagnostics panels and page guides across launches, independently of documents. Fresh workspaces start with these hidden; existing sidebar preferences remain in force.

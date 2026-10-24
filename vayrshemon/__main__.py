@@ -108,7 +108,11 @@ def main():
     from .api import API, LocalServer
     from . import layout
     from tools.m0.common import write_json
-    app = QApplication.instance() or QApplication([])
+    if args.command in ('editor','lab'):
+        from .desktop_identity import create_application
+        app = create_application(args.root)
+    else:
+        app = QApplication.instance() or QApplication([])
     app.setApplicationName('Vayrshemon')
     use_files=(args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10,args.m11,args.m12,args.m13))) or (args.command=='mcp' and args.files)
     use_gloss=use_files or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10,args.m11,args.m12))) or (args.command=='mcp' and args.gloss)
@@ -159,6 +163,9 @@ def main():
         session = Session(args.root, source_fonts=not args.no_source_fonts)
         api = API(session)
     qInstallMessageHandler(lambda kind, context, message: session.log.emit('qt', str(kind), message=message))
+    if args.command in ('editor','lab'):
+        from .desktop_identity import APP_ID
+        session.log.emit('desktop','APPLICATION_IDENTITY_READY',appUserModelId=APP_ID if sys.platform=='win32' else None,icon=str(args.root/'data/icons/memon-color.ico'))
     sys.excepthook = lambda kind, error, tb: session.log.emit('runtime', 'UNCAUGHT_EXCEPTION', level='error',
                                                              message=str(error), traceback=''.join(traceback.format_exception(kind,error,tb)))
     if getattr(args, 'document', None):
