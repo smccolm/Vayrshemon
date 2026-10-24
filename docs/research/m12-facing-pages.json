@@ -1,0 +1,204 @@
+{
+  "application": "0.13.2",
+  "date": "2026-10-24",
+  "scope": "Approved left page and facing-page workspace controls",
+  "api": "0.13.0",
+  "apiOperations": 145,
+  "nativeFormat": "0.5.0",
+  "paintEngine": "1.2.0",
+  "baselineId": "visual.left-page.2026-10-24",
+  "sourceSha256": "22f3a150f731d9f06209ae608613ee1d5e6be9b91b29963a848d73d94c0e47a8",
+  "savedDemoSha256": "3adb3de77dea27cb761d36cf807fd2f9ed30c3976c42c22e817b31ca5c117b3f",
+  "leftPageUnchanged": true,
+  "leftRgbaSha256": "899443c57e4dc2d3e636621f4393d0182d8bf9026e3f6d79c46333fc095d3683",
+  "olderEnglishBaseline": {
+    "rgbaIdentical": true,
+    "geometryIdentical": true
+  },
+  "typography": {
+    "scriptSizePt": 50,
+    "romanSizePt": 22,
+    "leadingPt": 38
+  },
+  "view": {
+    "zoomSliderWidth": 190,
+    "iconOnly": true,
+    "accessibleNames": [
+      "One page",
+      "Two pages"
+    ],
+    "pageMode": "two",
+    "modeChangePreservesRevision": true,
+    "blankInnerRightFrame": true,
+    "englishFarRightFontSha256": "9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52",
+    "explicitPunctuationFallback": [
+      {
+        "scalar": 45,
+        "sourceUtf16": [
+          174,
+          175
+        ],
+        "fontSha256": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5"
+      }
+    ]
+  },
+  "missingGlyphs": 0,
+  "pngProofs": [
+    {
+      "page": 1,
+      "dpi": 292,
+      "width": 3511,
+      "height": 4543,
+      "sha256": "6b271ddb88ae4908b6cc47e24b2e41f82a0fcbc279a0e8304c3de129ed42db87",
+      "status": "completed"
+    },
+    {
+      "page": 2,
+      "dpi": 292,
+      "width": 3511,
+      "height": 4543,
+      "sha256": "215d4c8643e8ed3bea941fca19e556cec520700c5f79bc8446b8e335f0d64ec5",
+      "status": "completed"
+    }
+  ],
+  "tests": {
+    "focusedPassed": 23,
+    "failed": 0,
+    "groups": [
+      "tests.test_m12",
+      "tests.test_roman_paint",
+      "tests.test_page_view",
+      "tests.test_parallel_translation",
+      "tests.test_m9 single-page centering and fit buttons"
+    ],
+    "fullSetupRerun": false,
+    "newDependencies": false
+  },
+  "forge": {
+    "version": "7b81756670af7a4cf62b2f13373c7b5d86a1061ed9f29b1e6859e79c7e926731",
+    "status": "Needs review",
+    "checks": [
+      {
+        "name": "Approved presentation with requested right-column font and Roman treatment",
+        "status": "Pass",
+        "sha256": "ab575fb83eed9d81414e138b4976a5d34f91ed8f08060e4cdb875c839bc28a6a"
+      },
+      {
+        "name": "Typed language references and immutable version hash",
+        "status": "Pass"
+      },
+      {
+        "name": "Frame overflow",
+        "status": "Needs review",
+        "count": 1,
+        "sidebearing": {
+          "status": "Needs review",
+          "glyphs": [
+            {
+              "sourceUtf16": [
+                64,
+                65
+              ],
+              "leftOverhangPoints": 0.06524999999999181,
+              "glyphId": 112,
+              "fontSha256": "9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52"
+            },
+            {
+              "sourceUtf16": [
+                201,
+                202
+              ],
+              "leftOverhangPoints": 1.6747499999999604,
+              "glyphId": 106,
+              "fontSha256": "9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52"
+            }
+          ],
+          "details": "Original transliteration 7 p/j have negative sidebearings. All advances and vertical text fit; ink is retained without clipping, frame movement or font-size changes."
+        }
+      },
+      {
+        "name": "Missing glyphs or script font fallback",
+        "status": "Pass",
+        "count": 0
+      },
+      {
+        "name": "Conservative glyph collision bounds",
+        "status": "Needs review",
+        "count": 25
+      },
+      {
+        "name": "Novel translation and proposed grammar",
+        "status": "Needs review",
+        "details": "Author-composed from versioned rules; no claim of automatic linguistic validation."
+      },
+      {
+        "name": "General prose grammar parser",
+        "status": "Unsupported",
+        "details": "M8 checks finite forms and author-annotated clauses; free prose and semantic equivalence remain unsupported."
+      },
+      {
+        "name": "Pinned executable language suite",
+        "status": "Needs review",
+        "counts": {
+          "Pass": 272,
+          "Needs review": 1,
+          "Unsupported": 1
+        },
+        "suiteSha256": "b75a22189679b8ed79c93d605df0257497984bf073d4a8479de369db04bc6ff3"
+      },
+      {
+        "name": "Displayed script bound to exact assertion inputs",
+        "status": "Pass",
+        "caseIds": [
+          [
+            "spelling.a42c5f1264b8a3497dd1da7e",
+            "spelling.de2ea7d24cd3f57c195bbd18",
+            "spelling.5642db1bc93193fecccefe6f",
+            "spelling.96a7de88fe2b1ad36638325a"
+          ],
+          [
+            "spelling.71fe845bd103fbb1d2b93663",
+            "spelling.6095bac918aabc9afee74e55"
+          ],
+          [
+            "spelling.20b70acc13a3b3cd1e13bfb7",
+            "spelling.46315a0021c3895091027ee9"
+          ],
+          [
+            "reading.coda.celebration",
+            "reading.coda.vision",
+            "reading.coda.shadows"
+          ]
+        ],
+        "details": "Snapshot validation requires exact paragraph text from the ordered bound cases."
+      },
+      {
+        "name": "Pinned advisory repetition inspection",
+        "status": "Needs review",
+        "warnings": [
+          {
+            "code": "PREFIX_CONCENTRATION",
+            "watchId": "thing",
+            "message": "Outer thing-class prefix: 7/39 tokens; 3/11 annotated clause openings. Review context and rhetorical intent, not just the count."
+          }
+        ],
+        "details": "Advisory repetition inspection of this sample only. A low count does not certify naturalness; deliberate repetition, parallelism and morphology may be appropriate. No population frequency estimate or automatic rewriting."
+      },
+      {
+        "name": "Sentence-initial Maxima",
+        "status": "Pass",
+        "initials": 11,
+        "maxima": 11,
+        "missing": 0,
+        "unmapped": 0
+      },
+      {
+        "name": "Parallel reading and exact symbol/case slots",
+        "status": "Pass",
+        "mode": "transliteration",
+        "exactSlotsPreserved": true
+      }
+    ]
+  },
+  "privateEvidence": ".local/demos/facing-reading-0.13.2-final"
+}

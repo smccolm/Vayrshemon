@@ -59,6 +59,10 @@ class RomanPaintTests(unittest.TestCase):
             reading.apply_font(state,self.face)
             self.assertIn(reading.roman_binding(self.face.font_id),state['paint']['bindings'])
             self.assertTrue(reading.presentation_matches(state,baseline,'transliteration'))
+            changed=deepcopy(state);reading.pairs(changed)[1]['content']['document']['styles'][0]['fontSizeMicroPoints']='23000000'
+            self.assertFalse(reading.presentation_matches(changed,baseline,'transliteration'))
+            changed=deepcopy(state);reading.pairs(changed)[1]['content']['document']['styles'][0]['lineHeight']['microPoints']='36000000'
+            self.assertFalse(reading.presentation_matches(changed,baseline,'transliteration'))
             changed=deepcopy(state);changed['paint']['recipe']['bevel']*=2
             self.assertFalse(reading.presentation_matches(changed,baseline,'transliteration'))
             changed=deepcopy(state);changed['paint']['bindings'][-1]['profile']='wrong'

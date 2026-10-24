@@ -6419,6 +6419,40 @@
         ],
         "additionalProperties": false
       }
+    },
+    {
+      "name": "view_pages",
+      "description": "Show one current page or a facing pair. Workspace preference only; preserves document content, page geometry, zoom and undo history. Inspect page offsets with view.inspect.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "mode": {
+            "enum": [
+              "one",
+              "two"
+            ]
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "mode",
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
     }
   ]
 }

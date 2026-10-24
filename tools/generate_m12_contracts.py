@@ -22,7 +22,7 @@ def generate(root):
     write_json(root/'schemas/reading-command.schema.json',{'$schema':'https://json-schema.org/draft/2020-12/schema','$id':'urn:vayrshemon:schema:reading-command:'+ReadingAPI.version,'oneOf':variants})
     write_json(root/'data/reading-mcp-tools.json',dict(apiVersion=ReadingAPI.version,protocolVersion='2024-11-05',tools=tools(METHODS)))
     write_json(root/'data/reading-capabilities.json',dict(schemaVersion='0.1.0',apiVersion=ReadingAPI.version,milestone='M12',
-        capabilities=[dict(method=m,description=d,mutation=mutation,transports=['python','cli','desktop','mcp'],requiresDesktop=m in ('ui.forge','ui.capture','selection.set','ui.workspace','ui.sidebar','ui.sidebar.inspect','view.tool','view.pan','view.center','view.inspect')) for m,(d,mutation,_) in METHODS.items()]))
+        capabilities=[dict(method=m,description=d,mutation=mutation,transports=['python','cli','desktop','mcp'],requiresDesktop=m in ('ui.forge','ui.capture','selection.set','ui.workspace','ui.sidebar','ui.sidebar.inspect','view.tool','view.pan','view.center','view.inspect','view.pages')) for m,(d,mutation,_) in METHODS.items()]))
 
 
 if __name__=='__main__': generate(Path(__file__).resolve().parents[1])

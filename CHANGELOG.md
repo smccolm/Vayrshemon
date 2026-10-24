@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M12 facing pages and approved reading standard 0.13.2 — 2026-10-24
+
+- Freeze the user-approved left-page reference: 50 pt Thimfora, 22 pt transliteration 7, matching 38 pt baselines, enlarged page and retained paint. New Roman copies/Forge runs use the approved size and leading; the older English baseline remains independently protected.
+- Add icon-only one/two-page controls beside a 190 px zoom slider. Persist view mode outside document state. Paint, hit-test, center, pan and fit the selected physical page or facing pair; handle arbitrary page sizes and an unpaired final page.
+- Add a saved facing-page demo with a blank left frame and English in transliteration 7 on the far right. Preserve the approved left page pixel for pixel. Cover the custom font's missing hyphen with an explicit, identically styled Times New Roman punctuation run.
+- Add `view.pages` to API/MCP (145 operations), retaining API 0.13.0 and native 0.5.0 compatibility. Update setup.bat; no new dependencies.
+- Recognize the original Roman p/j sidebearings at the approved size as reviewable ink overhangs using exact font/glyph metrics; retain strict rejection of actual overset and the raw layout diagnostics.
+
 ## M12 Roman relief and compact controls 0.13.1 — 2026-10-23
 
 - Reconstruct the Roman style from the matching Translation 1/2 PSD layers: blue overlay, gradient inner/outer glows, smooth inner bevel and satin shading. New Transliteration 7 readings use this separately versioned binding; existing books adopt it explicitly in Paint. Keep the approved three-font treatment and source glyphs intact.

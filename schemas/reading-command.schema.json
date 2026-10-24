@@ -8412,6 +8412,54 @@
       ],
       "additionalProperties": false,
       "description": "Create a separate editable transliteration or literal Roman copy of this two-column page. Source stays unchanged."
+    },
+    {
+      "type": "object",
+      "properties": {
+        "apiVersion": {
+          "const": "0.13.0"
+        },
+        "method": {
+          "const": "view.pages"
+        },
+        "params": {
+          "type": "object",
+          "properties": {
+            "mode": {
+              "enum": [
+                "one",
+                "two"
+              ]
+            }
+          },
+          "required": [
+            "mode"
+          ],
+          "additionalProperties": false
+        },
+        "documentId": {
+          "type": "string"
+        },
+        "expectedRevision": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "idempotencyKey": {
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 128
+        }
+      },
+      "required": [
+        "apiVersion",
+        "method",
+        "params",
+        "documentId",
+        "expectedRevision",
+        "idempotencyKey"
+      ],
+      "additionalProperties": false,
+      "description": "Show one current page or a facing pair. Workspace preference only; preserves document content, page geometry, zoom and undo history. Inspect page offsets with view.inspect."
     }
   ]
 }

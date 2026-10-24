@@ -1,0 +1,58 @@
+{
+  "id": "visual.left-page.2026-10-24",
+  "version": "1.0.0",
+  "approvedOn": "2026-10-24",
+  "approval": "User: that formatting will be standard for the left page from now on.",
+  "source": {
+    "path": ".local/baselines/visual.left-page.2026-10-24/approved.vay.json",
+    "sha256": "22f3a150f731d9f06209ae608613ee1d5e6be9b91b29963a848d73d94c0e47a8"
+  },
+  "proof": {
+    "path": ".local/baselines/visual.left-page.2026-10-24/approved.png",
+    "sha256": "add5f23c847ab65b5ca7be81582418ff594f6f885a82ca6b62f9e50b7501ab38",
+    "rgbaSha256": "899443c57e4dc2d3e636621f4393d0182d8bf9026e3f6d79c46333fc095d3683",
+    "dpi": 144
+  },
+  "protectedStateSha256": "2e79dfeb32f2af42fa742d727b3d7079cb0fb0b5afd0990074200d700b03222d",
+  "geometryHash": "5513809e3122687a934a340d73dfced9a21de019c74f5626a0582eabac94938c",
+  "page": {
+    "width": "865498700",
+    "height": "1120057141",
+    "margins": {
+      "top": "59396970",
+      "right": "67882251",
+      "bottom": "67882251",
+      "left": "67882251"
+    }
+  },
+  "typography": {
+    "scriptSizePt": 50,
+    "romanSizePt": 22,
+    "scriptLeadingPt": 38,
+    "romanLeadingPt": 38,
+    "paragraphAfterPt": 24,
+    "pairedParagraphBaselines": true
+  },
+  "columns": [
+    {
+      "role": "Vayrshemon",
+      "x": "67882251",
+      "y": "59396970",
+      "width": "339411255",
+      "height": "992777921"
+    },
+    {
+      "role": "Roman transliteration",
+      "x": "458205194",
+      "y": "59396970",
+      "width": "339411255",
+      "height": "992777921"
+    }
+  ],
+  "fontSha256s": {
+    "script": "a9bb4075285df9acf2bf75c08446d44cfd83b29f6940937671cc07bd68f9f6cc",
+    "roman": "9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52"
+  },
+  "paintSha256": "8f0deca283a6a494ee4a396df69c816be32166f40b3197a279f52d7c08bc6531",
+  "policy": "Immutable approved left-page reference; older English baseline retained separately. New content must retain typography and measured paragraph alignment; never replace expected hashes automatically."
+}

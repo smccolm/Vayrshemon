@@ -62,8 +62,7 @@ class StudioWindow(WorkbenchWindow):
             self.sidebar.setCurrentIndex(index)
         if fit_page:
             self.centralWidget().layout().activate();QApplication.processEvents()
-            from .pages import page_rect
-            area=page_rect(self.book.current_page());viewport=self.preview.viewport()
+            area=self.preview.display_rect();viewport=self.preview.viewport()
             zoom=max(.1,min(3,(viewport.width()-56)/area.width(),(viewport.height()-56)/area.height()))
             self.invoke('view.configure',zoom=int(zoom*100)/100)
         return self.workspace_state()

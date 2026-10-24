@@ -64,6 +64,8 @@ class ReadingWindow(SpellingWindow):
         for label in self.forge_panel.findChildren(QLabel):
             if label.text().startswith('LANGUAGE FORGE  /'):label.setText('LANGUAGE FORGE')
         self.compact_actions(row)
+        from .page_controls import PageControls
+        self.page_controls=PageControls(self)
         self.menuBar().addMenu('Help').addAction('About Vayrshemon',self.about)
         self.refresh()
 

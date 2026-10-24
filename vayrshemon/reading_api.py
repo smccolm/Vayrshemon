@@ -12,6 +12,7 @@ METHODS.update({
  'forge.reading.enable':('Enable the verified Thimfora 79 / transliteration 7 reading profile in the guarded draft.',True,obj(dict(**GUARD),('project_id','expected_generation'))),
  'forge.reading.inspect':('Inspect exact parallel text, Maxima/Minima counts and font-reading evidence.',False,obj(dict(test_id=STRING,version=STRING,mode=MODE),('test_id',))),
  'page.reading.copy':('Create a separate editable transliteration or literal Roman copy of this two-column page. Source stays unchanged.',True,obj(dict(mode={'enum':['transliteration','literal']},directory=STRING),('mode','directory'))),
+ 'view.pages':('Show one current page or a facing pair. Workspace preference only; preserves document content, page geometry, zoom and undo history. Inspect page offsets with view.inspect.',True,obj(dict(mode={'enum':['one','two']}),('mode',))),
 })
 METHODS['forge.test.run'][2]['properties']['reading_mode']=MODE
 METHODS['ui.forge'][2]['properties']['section']['enum'].append('Reading')
@@ -19,7 +20,7 @@ METHODS['ui.forge'][2]['properties'].update(reading_test=STRING,reading_mode=MOD
 
 
 class ReadingSession(SpellingSession):
-    application_version='0.13.1'
+    application_version='0.13.2'
 
 
 class ReadingAPI(SpellingAPI):
@@ -27,6 +28,9 @@ class ReadingAPI(SpellingAPI):
     methods=METHODS
 
     def dispatch(self,method,params):
+        if method=='view.pages':
+            if not self.session.window:raise ValueError('DESKTOP_REQUIRED')
+            return self.session.window.page_controls.set_mode(params['mode'])
         if method=='page.reading.copy':return reading.copy(self.session,params['mode'],self.session.output_path(params['directory']))
         if not method.startswith('forge.reading.') and method!='forge.test.run':return super().dispatch(method,params)
         p=self.session.forge

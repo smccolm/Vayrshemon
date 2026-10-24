@@ -128,9 +128,8 @@ class IntegrationWindow(LaboratoryWindow):
             raise ValueError('CHOOSE_ONE_FIT_MODE')
         result=super().configure_workspace(**params)
         if fit_height or fit_width:
-            from .pages import page_rect
             self.centralWidget().layout().activate();QApplication.processEvents()
-            area=page_rect(self.book.current_page());viewport=self.preview.viewport()
+            area=self.preview.display_rect();viewport=self.preview.viewport()
             ratio=(viewport.height()-56)/area.height() if fit_height else (viewport.width()-56)/area.width()
             zoom=int(max(.1,min(3,ratio))*100)/100
             self.invoke('view.configure',zoom=zoom);self.preview.center_page()

@@ -30,13 +30,13 @@ def check_state(state, manifest):
         raise ValueError('APPROVED_PAGE_CHANGED: compare and review; never automatically replace the baseline')
 
 
-def verify(root, out):
+def verify(root, out, manifest_path=MANIFEST):
     from PySide6.QtWidgets import QApplication
     from PySide6.QtGui import QImage
     from vayrshemon.reliability_session import ReliabilitySession
     from vayrshemon import pages
     root, out = Path(root), Path(out)
-    manifest = load_json(root/MANIFEST)
+    manifest = load_json(root/manifest_path)
     source, proof = root/manifest['source']['path'], root/manifest['proof']['path']
     if file_hash(source) != manifest['source']['sha256'] or file_hash(proof) != manifest['proof']['sha256']:
         raise ValueError('APPROVED_REFERENCE_CHANGED: retain and restore the approved source/proof')

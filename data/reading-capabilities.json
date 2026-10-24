@@ -1730,6 +1730,18 @@
         "mcp"
       ],
       "requiresDesktop": false
+    },
+    {
+      "method": "view.pages",
+      "description": "Show one current page or a facing pair. Workspace preference only; preserves document content, page geometry, zoom and undo history. Inspect page offsets with view.inspect.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ],
+      "requiresDesktop": true
     }
   ]
 }

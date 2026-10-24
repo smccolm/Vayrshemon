@@ -84,15 +84,23 @@ class ReadingTests(unittest.TestCase):
             f=call('fonts.load',path=str(self.work/'script.ttf'))['fontId'];roman=s.fonts.register(self.work/'roman.ttf')
             compose(ROOT,call,[dict(original=[dict(text='AA AA AA',font='synthetic')],translation='A source translation.'),dict(original=[dict(text='AA AA',font='synthetic')],translation='A retained second paragraph.')],{'synthetic':f})
             original=s.capture()
-            with patch.object(reading,'SCRIPT_SHA',s.fonts.faces[f].sha256),patch.object(reading,'font',return_value=roman):r=reading.copy(s,'transliteration',self.work/'copy')
+            with patch.object(reading,'SCRIPT_SHA',s.fonts.faces[f].sha256),patch.object(reading,'ROMAN_SHA',roman.sha256),patch.object(reading,'font',return_value=roman):r=reading.copy(s,'transliteration',self.work/'copy')
             self.assertEqual(s.capture(),original);self.assertTrue(r['sourceUnchanged']);self.assertFalse(QImage(r['proof']).isNull());self.assertEqual(r['missingGlyphs'],0)
-            s.open(r['document']);state=s.capture();left,right=reading.pairs(state);self.assertEqual(reading.text_blocks(left),reading.text_blocks(right));self.assertTrue(reading.presentation_matches(state,original,'transliteration'));self.assertEqual(state['recipe'],original['recipe'])
+            s.open(r['document']);state=s.capture();left,right=reading.pairs(state);self.assertEqual(reading.text_blocks(left),reading.text_blocks(right));self.assertEqual(state['recipe'],original['recipe'])
+            with patch.object(reading,'ROMAN_SHA',roman.sha256):self.assertTrue(reading.presentation_matches(state,original,'transliteration'))
         finally:s.finish()
 
     def test_sidebearing_exception_does_not_hide_real_overflow(self):
-        g=dict(sourceFrameId='right',fontId='font:'+reading.ROMAN_SHA+':0',glyphId=112,sourceUtf16=[0,1],inkBounds=[9.9375,15,6,8]);layout=dict(frames=[dict(frameId='left',rect=[0,10,8,100],overflow=False,layout=dict(lines=[])),dict(frameId='right',rect=[10,10,20,100],overflow=True,layout=dict(lines=[dict(advanceBounds=[10,15,10,12])]))],glyphs=[g],truncated=False)
+        g=dict(sourceFrameId='right',fontId='font:'+reading.ROMAN_SHA+':0',glyphId=112,sourceUtf16=[0,1],inkBounds=[9.9375,15,6,8],pixelSize=125/6,origin=[10,20]);layout=dict(frames=[dict(frameId='left',rect=[0,10,8,100],overflow=False,layout=dict(lines=[])),dict(frameId='right',rect=[10,10,20,100],overflow=True,layout=dict(lines=[dict(advanceBounds=[10,15,10,12])]))],glyphs=[g],truncated=False)
         self.assertAlmostEqual(reading.sidebearing_review(layout,'transliteration')['glyphs'][0]['leftOverhangPoints'],.046875)
         g['inkBounds'][0]=9.5;self.assertIsNone(reading.sidebearing_review(layout,'transliteration'));g['inkBounds']=[9.9375,15,30,8];self.assertIsNone(reading.sidebearing_review(layout,'transliteration'));self.assertIsNone(reading.sidebearing_review(layout,'translation'))
+        g.update(glyphId=106,pixelSize=29,inkBounds=[7.767,15,7.888,8])
+        self.assertAlmostEqual(reading.sidebearing_review(layout,'transliteration')['glyphs'][0]['leftOverhangPoints'],1.67475)
+        for change in (dict(origin=[9,20]),dict(fontId='other'),dict(inkBounds=[7.7,15,7.888,8]),dict(inkBounds=[7.767,9,7.888,8]),dict(inkBounds=[7.767,15,30,8]),dict(fallbackReason='missing')):
+            wrong=deepcopy(layout);wrong['glyphs'][0].update(change)
+            self.assertIsNone(reading.sidebearing_review(wrong,'transliteration'),change)
+        layout['frames'][1]['layout']['lines'][0]['advanceBounds'][2]=21
+        self.assertIsNone(reading.sidebearing_review(layout,'transliteration'))
 
     def test_ui_modes_and_guarded_profile_enable(self):
         s=ReadingSession(ROOT,source_fonts=False,recovery=False);s.forge=self.p;api=ReadingAPI(s);w=ReadingWindow(s,api)
@@ -118,9 +126,9 @@ class ReadingTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError,'READING_EVIDENCE_MISMATCH'):forge_release.create(self.p,**args)
 
     def test_headless_mcp_and_published_contracts(self):
-        self.assertEqual(len(METHODS),144);self.assertEqual(json.loads((ROOT/'data/reading-capabilities.json').read_text(encoding='utf-8'))['apiVersion'],'0.13.0')
+        self.assertEqual(len(METHODS),145);self.assertEqual(json.loads((ROOT/'data/reading-capabilities.json').read_text(encoding='utf-8'))['apiVersion'],'0.13.0')
         msgs=[dict(jsonrpc='2.0',id=1,method='initialize',params={}),dict(jsonrpc='2.0',method='notifications/initialized'),dict(jsonrpc='2.0',id=2,method='tools/list')]
-        p=subprocess.run([sys.executable,'-m','vayrshemon','mcp','--headless','--reading','--no-source-fonts'],input=''.join(json.dumps(m)+'\n' for m in msgs),capture_output=True,text=True,cwd=ROOT,timeout=40);self.assertEqual(p.returncode,0,p.stderr);r=json.loads(p.stdout.splitlines()[-1]);self.assertEqual(len(r['result']['tools']),144)
+        p=subprocess.run([sys.executable,'-m','vayrshemon','mcp','--headless','--reading','--no-source-fonts'],input=''.join(json.dumps(m)+'\n' for m in msgs),capture_output=True,text=True,cwd=ROOT,timeout=40);self.assertEqual(p.returncode,0,p.stderr);r=json.loads(p.stdout.splitlines()[-1]);self.assertEqual(len(r['result']['tools']),145)
 
 
 if __name__=='__main__':unittest.main()
