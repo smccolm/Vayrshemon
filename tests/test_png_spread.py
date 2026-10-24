@@ -3,6 +3,7 @@ from copy import deepcopy
 from pathlib import Path
 from unittest.mock import patch
 import time,unittest,uuid
+import numpy as np
 from PySide6.QtWidgets import QApplication,QPushButton,QMessageBox
 from PySide6.QtCore import Qt,QCoreApplication,QEvent
 from PySide6.QtGui import QImage
@@ -63,6 +64,18 @@ class SpreadPNGTests(unittest.TestCase):
         self.assertEqual(job['status'],'completed',job);self.assertNotIn('outputs',job)
         self.assertEqual((QImage(str(path)).width(),QImage(str(path)).height()),(480,900));self.assertEqual(self.s.capture(),before)
         self.assertEqual(len(list(self.work.glob('*.png'))),1)
+
+    def test_monochrome_pair_worker_uses_contrasting_neutral_ink(self):
+        self.call('document.format',start=0,end=5,color='#0000FFFF')
+        self.call('publication.configure',background='#FF123456')
+        self.call('view.configure',mode='mono');before=self.s.capture()
+        self.click(STAMP+'_Left.png');job=self.wait();self.assertEqual(job['status'],'completed',job)
+        for output in job['result']['outputs']:
+            image=QImage(output['path']).convertToFormat(QImage.Format.Format_RGBA8888)
+            data=np.frombuffer(image.constBits(),np.uint8).reshape(image.height(),image.width(),4)
+            self.assertTrue((data[:,:,0]==data[:,:,1]).all());self.assertTrue((data[:,:,1]==data[:,:,2]).all())
+            self.assertEqual(tuple(data[2,2]),(0,0,0,255));self.assertGreater(data[:,:,0].max(),200)
+        self.assertEqual(self.s.capture(),before)
 
     def test_pair_overwrite_decline_or_changed_right_preserves_both_destinations(self):
         base=self.work/'pair.png';left,right=map(Path,spread_png_paths(base));left.write_bytes(b'old left');right.write_bytes(b'old right')

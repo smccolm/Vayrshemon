@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M13 true monochrome 0.14.4 — 2026-10-24
+
+- Render every column with white ink on dark paper or black ink on light paper in Monochrome, including colored source text and colored backgrounds. Transparent backgrounds resolve against white paper in this mode. Use neutral antialiasing without colored ClearType fringes.
+- Share this presentation across the preview and PNG, outline SVG and PDF proofs, including legacy native-layout documents. Preserve saved colors, font identities, Maxima, glyph positions and the Color / relief treatment.
+- Update setup.bat; no new dependencies, API controls or native-format changes.
+
 ## M13 automatic paragraph alignment 0.14.3 — 2026-10-24
 
 - Reflow corresponding paragraph starts when text changes in a complete four-column spread. Typing, paste, IME and API edits include the spacing adjustment in the same Undo step. Saves and exports see the committed alignment immediately.

@@ -8,6 +8,7 @@ from PySide6.QtCore import QRectF,QPointF,QSize,QByteArray,QBuffer,QIODevice,QSa
 from PySide6.QtGui import QPainter,QColor,QImage,QPen,QGlyphRun,QPainterPath
 from PySide6.QtSvg import QSvgGenerator
 from . import layout
+from .monochrome import palette
 from .session import SCALE
 
 
@@ -50,7 +51,7 @@ def inspect(book,*,page_id=None,max_glyphs=5000):
                 units='logical-pixels-at-96-dpi',engine=book.fingerprint())
 
 
-def outline_paint(native,painter,mode,clip):
+def outline_paint(native,painter,mode,clip,monochrome_ink=None):
     recipe=native.fonts.recipe
     for block,text_layout,run,fmt in layout.runs(native):
         face=native.fonts.by_family.get(run.rawFont().familyName())
@@ -62,6 +63,7 @@ def outline_paint(native,painter,mode,clip):
         paints=[(native.fonts.raw(layer['fontId'],run.rawFont().pixelSize()),[layer['glyphMap'][g] for g in run.glyphIndexes()],QColor(layer['color'])) for layer in layers if layer['enabled']] if layers else [(run.rawFont(),run.glyphIndexes(),fmt.foreground().color())]
         painter.setPen(Qt.PenStyle.NoPen)
         for raw,indexes,color in paints:
+            if mode=='mono': color=monochrome_ink if monochrome_ink is not None else QColor('black')
             painter.setBrush(color)
             for gid,position in zip(indexes,run.positions()):
                 path=raw.pathForGlyph(gid)
@@ -78,9 +80,10 @@ def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=F
     if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
         return book.composition(mode,page_id=page['pageId']).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
     mode=mode or book.view['mode']; overlays=overlays or {}
+    paper,mono_ink=palette() if mode=='mono' else (QColor('white'),None)
     painter.save()
     painter.setClipRect(boundary if clip is None else boundary.intersected(clip))
-    painter.fillRect(boundary,QColor('white'))
+    painter.fillRect(boundary,paper)
     for frame in page['frames']:
         area=rect(frame); native=book.frames[frame['frameId']]
         painter.save()
@@ -88,8 +91,8 @@ def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=F
         painter.translate(area.topLeft())
         local_clip=(boundary if clip is None else boundary.intersected(clip)).translated(-area.topLeft())
         if frame['overflow']=='clip': local_clip=local_clip.intersected(QRectF(0,0,area.width(),area.height()))
-        if outlines: outline_paint(native,painter,mode,local_clip)
-        else: layout.paint(native,painter,mode=mode,clip=local_clip,overlays=overlays)
+        if outlines: outline_paint(native,painter,mode,local_clip,mono_ink)
+        else: layout.paint(native,painter,mode=mode,clip=local_clip,overlays=overlays,monochrome_ink=mono_ink)
         painter.restore()
         if guides:
             painter.setBrush(Qt.BrushStyle.NoBrush)

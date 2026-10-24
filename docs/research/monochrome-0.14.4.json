@@ -1,0 +1,46 @@
+{
+  "application": "0.14.4",
+  "api": "0.14.1",
+  "date": "2026-10-24",
+  "tests": {
+    "targeted": 18,
+    "status": "Pass",
+    "suites": [
+      "monochrome preview, legacy layout and PNG/SVG/PDF",
+      "parallel translation (public and attested)",
+      "PNG button and background workers",
+      "automatic paragraph alignment"
+    ]
+  },
+  "sourceStateUnchanged": true,
+  "colorProofPixelsIdentical": true,
+  "neutralAntialiasing": true,
+  "pngButtonPairMatchesDirectProofs": true,
+  "proofs": [
+    {
+      "side": "Left",
+      "dpi": 144,
+      "pixels": [
+        1731,
+        2241
+      ],
+      "rgbaSha256": "df61378c53faab20cd873deb69ac4b494c8f678bc8b9eb28b0caa97619409398",
+      "colorPixelsIdentical": true
+    },
+    {
+      "side": "Right",
+      "dpi": 144,
+      "pixels": [
+        1731,
+        2241
+      ],
+      "rgbaSha256": "de68899019a7e4761858610f8c044f1ea85acdfdcceef7817e1cb36b81d81624",
+      "colorPixelsIdentical": true
+    }
+  ],
+  "limitations": [
+    "Diagnostic guides retain their independent colors when enabled.",
+    "Transparent source backgrounds resolve against white paper in monochrome.",
+    "Full setup suite was not repeated; dependencies are unchanged."
+  ]
+}

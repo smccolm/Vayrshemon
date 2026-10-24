@@ -157,7 +157,7 @@ def inspect(session, *, max_glyphs=5000):
                 engine=session.fingerprint())
 
 
-def paint(session, painter, *, mode='color', clip=None, overlays=None):
+def paint(session, painter, *, mode='color', clip=None, overlays=None, monochrome_ink=None):
     overlays = overlays or {}
     painter.setRenderHint(QPainter.RenderHint.Antialiasing)
     painter.setRenderHint(QPainter.RenderHint.TextAntialiasing)
@@ -181,6 +181,16 @@ def paint(session, painter, *, mode='color', clip=None, overlays=None):
                 colored.setGlyphIndexes([layer['glyphMap'][gid] for gid in run.glyphIndexes()])
                 painter.setPen(QColor(layer['color']))
                 painter.drawGlyphRun(origin, colored)
+        elif mode=='mono':
+            # Fill the same positioned outlines with grayscale antialiasing;
+            # native ClearType glyph runs can add colored edge pixels.
+            painter.setPen(Qt.PenStyle.NoPen)
+            painter.setBrush(monochrome_ink if monochrome_ink is not None else QColor('black'))
+            raw=run.rawFont()
+            for gid,position in zip(run.glyphIndexes(),run.positions()):
+                path=raw.pathForGlyph(gid)
+                if path.isEmpty() and not raw.boundingRect(gid).isEmpty():raise ValueError('VECTOR_GLYPH_HAS_NO_OUTLINE')
+                painter.drawPath(path.translated(origin+position))
         else:
             painter.setPen(fmt.foreground().color())
             painter.drawGlyphRun(origin, run)

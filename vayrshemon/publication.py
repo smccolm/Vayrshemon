@@ -56,7 +56,7 @@ def preflight(book,format='pdf',mode='color',dpi=300,raster_policy='reject',page
             if w>32767 or h>32767 or w*h>layout.MAX_PIXELS: issues.append(dict(code='RASTER_SIZE_LIMIT',severity='error',pageId=page['pageId']))
     if fallback and raster_policy!='raster': issues.append(dict(code='RASTER_APPROVAL_REQUIRED',severity='error',message='Bevel, shadow and glow require raster_policy=raster and explicit DPI.'))
     if painted and mode=='color': issues.append(dict(code='DECORATIVE_RASTER',severity='info',message='Color effects are rasterized at export DPI; native document retains editable source text.'))
-    if format=='pdf' and QColor(book.state['paint']['background']).alpha()<255: issues.append(dict(code='PDF_TRANSPARENCY_ON_WHITE',severity='warning',message='PDF proof uses white paper behind transparent page pixels.'))
+    if format=='pdf' and mode=='color' and QColor(book.state['paint']['background']).alpha()<255: issues.append(dict(code='PDF_TRANSPARENCY_ON_WHITE',severity='warning',message='PDF proof uses white paper behind transparent page pixels.'))
     return dict(ok=not any(i['severity']=='error' for i in issues),format=format,mode=mode,dpi=dpi,pages=result,issues=issues,fonts=fonts,
         rasterFallback=fallback,rasterPolicy=raster_policy,searchable=False,textExtraction='No semantic text is embedded: raster or outline proof. Use native document for copy/search.',
         colorSpace='sRGB proof; no CMYK or ICC conversion',recipeHash=signature(book.state['paint']['recipe']),bindingProfiles=[dict(fontId=b['fontId'],profileId=b['profile'],profileHash=signature(book.paint_renderer.profile(b))) for b in book.state['paint']['bindings'] if b.get('profile') and b['enabled']],paintEngineVersion=ENGINE_VERSION,revision=book.revision)
