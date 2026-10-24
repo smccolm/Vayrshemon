@@ -21,21 +21,7 @@ jobs:
         with:
           python-version: '3.12.7'
           cache: pip
-          cache-dependency-path: |
-            requirements-m0.txt
-            requirements-m1.txt
-            requirements-m2.txt
-            requirements-m3.txt
-            requirements-m4.txt
-            requirements-m5.txt
-            requirements-m6.txt
-            requirements-m7.txt
-            requirements-m8.txt
-            requirements-m9.txt
-            requirements-m10.txt
-            requirements-m11.txt
-            requirements-m12.txt
-            requirements-m13.txt
+          cache-dependency-path: requirements/*.txt
       - name: Windows setup and public checks
         if: runner.os == 'Windows'
         shell: cmd
@@ -45,7 +31,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libegl1 libopengl0 fonts-dejavu-core
-          python -m pip install -r requirements-m13.txt
+          python -m pip install -r requirements/requirements-m14.txt
       - name: Validate schemas and evidence references without Inputs
         if: runner.os != 'Windows'
         run: python -m tools.m0 check

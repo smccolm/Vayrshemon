@@ -174,10 +174,8 @@ class ContractTests(unittest.TestCase):
     def test_full_check_runs_in_copy_without_inputs(self):
         with workspace_temporary_directory() as folder:
             root = Path(folder)
-            for relative in ("data", "schemas", "tests", "docs", "tools", "vayrshemon"):
+            for relative in ("data", "schemas", "tests", "docs", "tools", "vayrshemon", "requirements"):
                 shutil.copytree(ROOT / relative, root / relative, ignore=shutil.ignore_patterns('__pycache__'))
-            for relative in ("requirements-m0.txt", "requirements-m1.txt", "requirements-m2.txt", "requirements-m3.txt"):
-                shutil.copy2(ROOT / relative, root / relative)
             self.assertFalse((root / "Inputs").exists())
             result = check_repository(root)
             self.assertTrue(result["ok"], result["issues"])

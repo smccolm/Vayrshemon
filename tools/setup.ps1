@@ -86,7 +86,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.6 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.7 setup - $projectRoot"
     Write-Host "Console log: $logPath"
     $savesDirectory = Join-Path $projectRoot 'Saves'
     New-Item -ItemType Directory -Path $savesDirectory -Force | Out-Null
@@ -117,7 +117,7 @@ try {
         Write-Host "Offline wheelhouse: $wheelDirectory"
     }
     Invoke-Python $environmentPython (@('-m', 'pip', '--require-virtualenv', 'install',
-        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m14.txt') + $wheelArguments)
+        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements/requirements-m14.txt') + $wheelArguments)
     Invoke-Python $environmentPython @('-m', 'pip', '--disable-pip-version-check', 'check')
     Invoke-Python $environmentPython @('-m', 'tools.dependency_audit', '--out', ".local/logs/dependencies-$runId.json")
     Invoke-Python $environmentPython @('-m', 'tools.m0', '--log', ".local/logs/setup-check-$runId.jsonl", 'check')

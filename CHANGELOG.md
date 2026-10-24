@@ -2,6 +2,11 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 requirements folder 0.15.7 — 2026-10-24
+
+- Group all 15 milestone dependency files under `requirements/`. Update setup.bat, CI, dependency auditing, evidence references and installation instructions; package versions are unchanged.
+- Include the folder in release bundles while retaining verification and installation of older bundles with requirements at the root.
+
 ## M14 maximized startup 0.15.6 — 2026-10-24
 
 - Open the editor maximized from launch.bat and when opening a document from Explorer. Keep the title bar, menus and normal window controls available. Update setup.bat.

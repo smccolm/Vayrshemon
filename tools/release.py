@@ -22,12 +22,12 @@ def digest(data): return hashlib.sha256(data).hexdigest()
 def build(root,out):
     root=Path(root).resolve()
     names=subprocess.check_output(['git','ls-files','-z','--cached','--others','--exclude-standard'],cwd=root).decode().split('\0')
-    folders={'vayrshemon','tools','data','schemas','tests','docs'}
+    folders={'vayrshemon','tools','data','schemas','tests','docs','requirements'}
     top={'setup.bat','launch.bat','installed.bat','README.md','AGENTS.md','CHANGELOG.md'}
     files={}
     for name in sorted(set(filter(None,names))):
         p=PurePosixPath(name)
-        if not (p.parts[0] in folders or name in top or (len(p.parts)==1 and name.startswith('requirements-') and name.endswith('.txt'))): continue
+        if not (p.parts[0] in folders or name in top): continue
         path=root/name
         if path.is_symlink() or not path.is_file(): continue
         files[name]=path.read_bytes()
@@ -79,6 +79,9 @@ def verify(bundle):
             required.add('requirements-m13.txt')
         if tuple(int(v) for v in manifest['application'].split('.')[:2]) >= (0,15):
             required.update({'requirements-m14.txt','tools/windows_shell.py','tools/install_shell_machine.py','tools/shell/vay_shell.cpp','data/icons/memon-color.ico'})
+        # 0.15.7 groups dependency files; older bundles keep their original paths.
+        if tuple(int(v) for v in manifest['application'].split('.')) >= (0,15,7):
+            required={'requirements/'+name if name.startswith('requirements-') else name for name in required}
         if not required<=files.keys(): raise ValueError('INCOMPLETE_RELEASE')
         return manifest,files
 
