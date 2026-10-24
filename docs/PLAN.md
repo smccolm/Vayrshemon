@@ -1,6 +1,6 @@
 # Vayrshemon editor: delivery plan
 
-Revision **0.15.0**, 2026-10-23. Status: M0–M12 implemented, including [M6.1 panel controls and approved visual baseline](M6.1.md), [M7 Language Forge](M7.md), [M8 executable tests](M8.md), [M9 merges and releases](M9.md), [M10 contextual variation](M10.md), [M11 Maxima and topic orders](M11.md), and [M12 parallel reading and continuity](M12.md). The user explicitly accepted the enlarged two-column page's size, margins, typography and font quality. Its approved reference is now protected separately from broader M4 glyph-inventory coverage. M6 records a remaining large-document edit-latency gap against the provisional 50 ms target. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
+Revision **0.16.0**, 2026-10-24. Status: M0–M13 implemented, including [M6.1 panel controls and approved visual baseline](M6.1.md), [M7 Language Forge](M7.md), [M8 executable tests](M8.md), [M9 merges and releases](M9.md), [M10 contextual variation](M10.md), [M11 Maxima and topic orders](M11.md), [M12 parallel reading and continuity](M12.md), and [M13 abbreviated construction gloss](M13.md). The approved facing spread has script, Roman reading, construction gloss and English, with the accepted page geometry, Maxima and font treatments preserved. Its approved reference is protected separately from broader M4 glyph-inventory coverage. M6 records a remaining large-document edit-latency gap against the provisional 50 ms target. External OS IME, Windows UIA client, and physical multi-monitor checks remain explicitly listed in [M1](M1.md).
 
 ## 1. Product commitment
 
@@ -196,6 +196,8 @@ Git is source history; it is not the sole backup of the language archive or live
 For each requested revision: capture a reproducing document or operation sequence; identify affected requirements; implement the smallest coherent change; run relevant checks; inspect visual/semantic differences; record compatibility effects; commit a named checkpoint. Update this plan when the direction changes. Keep incomplete investigations and unresolved decisions visible.
 
 ## 7. Immediate implementation queue
+
+M13 now supplies version-pinned, abbreviated word glosses for exhaustively annotated test pages and keeps all three existing columns unchanged. Next gloss work: author-reviewed internal morpheme segmentation, ambiguity displays, implicit-participant notation, and integration of gloss proof manifests into named-release evidence. Keep full explanations in Forge while preserving the compact four-column reading surface. Do not guess analyses for unannotated prose or turn the source's singular `we` into an accepted collective rule without language-author review.
 
 1. Complete the remaining physical OS/IME/accessibility checks listed in M1 on the user's chosen input setup; retain the passing native event and provider regressions.
 2. Preserve the approved enlarged-page baseline introduced by M6.1. Continue broader Individual Glyphs inventory checks separately; no automatic replacement of approved state, geometry or pixels.

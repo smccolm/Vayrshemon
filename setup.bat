@@ -1,5 +1,5 @@
 @echo off
-rem M12 0.13.3 dependencies, facing views, approved left-page baseline and regressions live in tools\setup.ps1.
+rem M13 0.14.0 dependencies, construction glosses, approved left-page baseline and regressions live in tools\setup.ps1.
 rem The larger Roman reading specimen uses these same dependencies; no additional install is needed.
 setlocal
 set "SETUP_NO_PAUSE="

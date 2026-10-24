@@ -1,0 +1,78 @@
+{
+  "application": "0.14.0",
+  "milestone": "M13",
+  "date": "2026-10-24",
+  "setupValidation": {
+    "command": "setup.bat --no-pause",
+    "status": "Pass",
+    "tests": 222,
+    "seconds": 712.485,
+    "additionalStrengthenedGuardTests": 2,
+    "log": ".local/logs/setup-20261024-012929-394-40460.log"
+  },
+  "apiOperations": 150,
+  "languageVersion": "0.7.0",
+  "languageCommit": "b71232c558b011aac3160f24ea8cc31b445b1f9d68826182469c453a77e12035",
+  "parentLanguageCommit": "7b81756670af7a4cf62b2f13373c7b5d86a1061ed9f29b1e6859e79c7e926731",
+  "originalHistoryRetained": true,
+  "sourceLanguageAndVariationUnchanged": true,
+  "validation": {
+    "tokenCount": 39,
+    "counts": {
+      "Pass": 272,
+      "Needs review": 1,
+      "Unsupported": 1
+    },
+    "sourceRulesUnchanged": true,
+    "allLinksFreshOnReopen": true,
+    "editDetectedAndUndoRestoresLinks": true,
+    "maxima": 11,
+    "leftRgbaSha256": "899443c57e4dc2d3e636621f4393d0182d8bf9026e3f6d79c46333fc095d3683",
+    "nativeSha256": "339aa546e041c6212720317f5af70ca103c02d358c3027da14aabab930a8fb01",
+    "sourceUnchanged": true,
+    "allProtectedPixelsIdentical": true
+  },
+  "nativeDocument": ".local/demos/m13-gloss/final-spread/Construction-spread.vay.json",
+  "nativeSha256": "339aa546e041c6212720317f5af70ca103c02d358c3027da14aabab930a8fb01",
+  "glossProfileSha256": "1f9b4cb217bb500a7e05d960bd5714309d2d773bee802a5ab38303de3c4c6c96",
+  "glossFontSizePt": 22,
+  "glossLeadingPt": 38,
+  "paragraphDelaysAgainstProtectedEnglishPt": [
+    0,
+    27.046875,
+    27.046875,
+    46.95703125
+  ],
+  "missingGlyphs": 0,
+  "protectedColumnsPixelIdentical": true,
+  "leftBaselineRgbaSha256": "899443c57e4dc2d3e636621f4393d0182d8bf9026e3f6d79c46333fc095d3683",
+  "proofs": [
+    {
+      "path": ".local/demos/m13-gloss/PNG-button-left.png",
+      "sha256": "6b271ddb88ae4908b6cc47e24b2e41f82a0fcbc279a0e8304c3de129ed42db87",
+      "width": 3511,
+      "height": 4543,
+      "dpi": 292,
+      "button": true
+    },
+    {
+      "path": ".local/demos/m13-gloss/PNG-right.png",
+      "sha256": "a21b21800308b1c9f602c541471c1db3e54056334e29db8def07bc28a60ddf6c",
+      "width": 3511,
+      "height": 4543,
+      "dpi": 292,
+      "button": false
+    }
+  ],
+  "copyAPI": {
+    "status": "Pass",
+    "elapsedMs": 47613.4151
+  },
+  "limitations": [
+    "Editorial compact senses and proposed language grammar need author review.",
+    "No invented internal morpheme boundaries or general prose parser.",
+    "Existing conservative script collision review remains.",
+    "Longer gloss paragraphs may start later than protected English.",
+    "Construction manifests do not yet qualify as named-release proof evidence."
+  ]
+}

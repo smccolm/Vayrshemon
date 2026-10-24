@@ -1,4 +1,4 @@
-name: Evidence, typography, and M12 Parallel Reading
+name: Evidence, typography, and M13 Construction Glosses
 
 on:
   push:
@@ -35,6 +35,7 @@ jobs:
             requirements-m10.txt
             requirements-m11.txt
             requirements-m12.txt
+            requirements-m13.txt
       - name: Windows setup and public checks
         if: runner.os == 'Windows'
         shell: cmd
@@ -44,7 +45,7 @@ jobs:
         run: |
           sudo apt-get update
           sudo apt-get install -y libegl1 libopengl0 fonts-dejavu-core
-          python -m pip install -r requirements-m12.txt
+          python -m pip install -r requirements-m13.txt
       - name: Validate schemas and evidence references without Inputs
         if: runner.os != 'Windows'
         run: python -m tools.m0 check

@@ -2,7 +2,7 @@
 
 A Windows desktop editor for custom typography and the long-term development of the Vayrshemon language.
 
-**Status: M12 implemented — parallel reading and facing pages, version 0.13.3.** The approved left page pairs 50 pt Thimfora with 22 pt transliteration 7, both on 38 pt baselines with matching paragraph starts and their preserved bevel/glow treatments. A compact bottom zoom slider and one/two-page icons switch between the selected page and facing pairs. The right-page demo reserves its left column and puts English in the far-right column. Fit Height/Width, Maxima and timestamped PNG export remain. All 145 operations share CLI/API/MCP controls; native documents remain 0.5.0.
+**Status: M13 implemented — four-column construction reading, version 0.14.0.** The facing spread now reads: Thimfora, exact Roman reading, abbreviated construction gloss, natural English. Forge provides versioned compact labels and word-by-word dictionary/grammar details. The approved 50 pt script, 22 pt Roman, 38 pt leading, Maxima, page geometry and bevel/glow remain; generated copies verify that the other three columns retain their exact pixels. Fit Height/Width, one/two-page icons and timestamped PNG export remain. All 150 operations share CLI/API/MCP controls; native documents remain 0.5.0.
 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 
@@ -18,6 +18,7 @@ The current reference treatment includes separate bevels, per-glyph interior gra
 - [M5 language revisions, lexicon, corpus, exact numbers and publishing](docs/M5.md)
 - [M6 navigation, reliability, installation and recovery](docs/M6.md)
 - [M6.1 collapsible controls and approved visual baseline](docs/M6.1.md)
+- [M13 construction gloss and four-column reading](docs/M13.md)
 - [M12 parallel Roman reading and discourse continuity](docs/M12.md)
 - [M11 Maxima spelling and optional topic orders](docs/M11.md)
 - [M10 contextual variation and repetition review](docs/M10.md)

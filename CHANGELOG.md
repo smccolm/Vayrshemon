@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M13 construction gloss 0.14.0 — 2026-10-24
+
+- Fill the reserved third column in a separate facing-page copy with a source-order construction gloss, using compact grammatical labels and the approved 22 pt / 38 pt Roman treatment.
+- Add a Forge Gloss workspace with editable, versioned dictionary labels and word-level sense, grammar, context and adaptation details. Retain invalid/stale edits, reject unbound analyses and protect historical versions.
+- Preserve the other three columns pixel for pixel, including all Maxima. Store linked source/gloss paragraphs, detect stale text after edits and retain complete diagnostics. Stop on overset instead of reducing approved type sizes.
+- Demonstrate experimental language 0.7.0 on the unchanged four-paragraph Tempest example and editorial coda. Preserve all prior history, dictionaries, grammar and variation rules.
+- Publish 150 CLI/API/MCP operations and update setup, requirement chain, CI and release validation. Native documents, Forge envelope and paint engine retain their existing versions; no new dependency is required.
+
 ## M12 Fit Width alignment 0.13.3 — 2026-10-24
 
 - Fit Width centers the visible page or pair horizontally and aligns its top immediately below the ruler. Repeated clicks return to the top after panning; Fit Height and Center page retain their existing behavior.
