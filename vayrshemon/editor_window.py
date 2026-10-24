@@ -161,7 +161,7 @@ class PageCanvas(QAbstractScrollArea):
         label_width=self.fontMetrics().horizontalAdvance(str(math.ceil(max(pages.page_rect(self.book.current_page()).width(),pages.page_rect(self.book.current_page()).height())/SCALE)))+12
         spacing=next((step for step in (36,72,144,288,576,1152) if step*SCALE*zoom>=label_width),1152)
         tracks=[(True,area.x(),area.width()) for _,area in self.display_pages()]+[(False,0,self.display_rect().height())]
-        for horizontal,offset,extent in tracks:
+        for track_index,(horizontal,offset,extent) in enumerate(tracks):
             maximum=self.viewport().width() if horizontal else self.viewport().height()
             origin=(dx if horizontal else dy)+offset*zoom
             start=max(0,math.floor(-origin/(SCALE*zoom*spacing)))
@@ -170,7 +170,13 @@ class PageCanvas(QAbstractScrollArea):
                 if len(self.display_pages())>1 and tick*spacing*SCALE>extent:break
                 if position<self.RULER:continue
                 if horizontal:
-                    p.drawLine(QPointF(position,18),QPointF(position,24)); p.drawText(QPointF(position+2,13),str(tick*spacing))
+                    p.drawLine(QPointF(position,18),QPointF(position,24))
+                    label=str(tick*spacing); width=p.fontMetrics().horizontalAdvance(label)
+                    if track_index+1<len(tracks) and tracks[track_index+1][0]:
+                        # Keep the next page's zero readable even at very small zooms.
+                        next_zero=dx+tracks[track_index+1][1]*zoom
+                        if position+width/2+4>next_zero-p.fontMetrics().horizontalAdvance('0')/2:continue
+                    p.drawText(QPointF(position-width/2,13),label)
                 else:
                     p.drawLine(QPointF(18,position),QPointF(24,position)); p.save(); p.translate(12,position+2); p.rotate(-90); p.drawText(QPointF(0,0),str(tick*spacing)); p.restore()
         p.fillRect(0,0,24,24,QColor('#eef2f5')); p.drawText(QPointF(3,16),'pt'); p.end()

@@ -2,6 +2,11 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 centered ruler labels 0.15.11 — 2026-10-24
+
+- Center horizontal ruler numbers over their tick marks so facing-page labels no longer run together at the gutter. At very small zooms, omit a crowded end label while retaining its tick and the next page's zero.
+- Preserve document geometry, typography, Maxima and paint. Update setup.bat; no new dependencies or file-format changes.
+
 ## M14 in-place transliteration 0.15.10 — 2026-10-24
 
 - Remove the Reading copy label, mode dropdown and creation button from the current Workbench ribbon. Add Language → Update transliteration for the existing Thimfora/Transliteration 7 pair, including when the facing gloss/English page is selected in either view mode.
