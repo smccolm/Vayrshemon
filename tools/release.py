@@ -1,7 +1,7 @@
 """Versioned local Windows source installs with atomic activation and rollback.
 
 Bundles contain application sources, public fixtures and pinned requirements.
-Python 3.12 x64 is the bootstrap prerequisite; setup downloads binary wheels.
+Setup bootstraps Python 3.12 x64 when absent, then downloads binary wheels.
 Only install bundles from a trusted source: integrity hashes are not signatures.
 """
 import argparse
@@ -85,6 +85,8 @@ def verify(bundle):
         if tuple(int(v) for v in manifest['application'].split('.')) >= (0,15,17):
             required.update('data/runtime-fonts/'+name for name in ('manifest.json','Thimfora_79.ttf',
                 'Thimfora_80_Infill.ttf','Thimfora_81_Fragments.ttf','transliteration 7.ttf'))
+        if tuple(int(v) for v in manifest['application'].split('.')) >= (0,15,18):
+            required.update({'tools/setup_python.ps1','tools/create_shortcut.ps1'})
         if not required<=files.keys(): raise ValueError('INCOMPLETE_RELEASE')
         return manifest,files
 

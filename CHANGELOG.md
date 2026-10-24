@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 Python bootstrap and desktop shortcut 0.15.18 — 2026-10-24
+
+- Setup locates usable Python 3.12 x64 and installs the official per-user runtime only when absent. Verify a pinned SHA-256 and publisher signature before execution; preserve existing environments, PATH, associations and Python installations.
+- Create a Vayrshemon desktop shortcut to launch.bat with the centered Memon icon, and provide a standalone shortcut script. Preserve unrelated shortcuts.
+- Check bootstrap branches with mocked downloads/installers and inspect the actual shortcut; do not run a reinstall on this installation.
+
 ## M14 bundled application fonts 0.15.17 — 2026-10-24
 
 - Bundle byte-identical Thimfora 79/80/81 and Transliteration 7 fonts, with hashes, sizes and provenance, as tracked application assets. Inputs, Saves and Exports remain ignored.

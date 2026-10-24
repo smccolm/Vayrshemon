@@ -37,30 +37,7 @@ function Invoke-Python {
     }
 }
 
-function Find-Python312 {
-    $candidates = @()
-    # Do not launch the Microsoft Store's uninstalled-Python alias.
-    foreach ($python in (Get-Command python.exe -CommandType Application -All -ErrorAction SilentlyContinue)) {
-        if ($python.Source -notlike '*\Microsoft\WindowsApps\*') {
-            $candidates += @{ Executable = $python.Source; Prefix = @() }
-        }
-    }
-    foreach ($launcher in (Get-Command py.exe -CommandType Application -All -ErrorAction SilentlyContinue)) {
-        $candidates += @{ Executable = $launcher.Source; Prefix = @('-3.12') }
-    }
-    foreach ($candidate in $candidates) {
-        try {
-            Invoke-Python $candidate.Executable ($candidate.Prefix + @('-c',
-                "import struct, sys; print(sys.version); sys.exit(0 if sys.version_info[:2] == (3, 12) and struct.calcsize('P') == 8 else 1)"))
-            return $candidate
-        }
-        catch {
-            Write-Host ('Candidate unavailable or not Python 3.12, 64-bit: {0}' -f $candidate.Executable)
-            Write-Host $_.Exception.Message
-        }
-    }
-    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0 through M14 are tested with Python 3.12.7.'
-}
+. (Join-Path $PSScriptRoot 'setup_python.ps1')
 
 function Ensure-ShellBuildTools {
     $finder = Join-Path ${env:ProgramFiles(x86)} 'Microsoft Visual Studio\Installer\vswhere.exe'
@@ -86,7 +63,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.17 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.18 setup - $projectRoot"
     Write-Host "Console log: $logPath"
     $savesDirectory = Join-Path $projectRoot 'Saves'
     New-Item -ItemType Directory -Path $savesDirectory -Force | Out-Null
@@ -103,7 +80,7 @@ try {
         Write-Host 'Reusing the existing .venv.'
     }
     else {
-        $basePython = Find-Python312
+        $basePython = Ensure-Python312 -ProjectRoot $projectRoot
         # Run ensurepip separately so its full failure output reaches the log.
         Invoke-Python $basePython.Executable ($basePython.Prefix + @('-m', 'venv', '--without-pip', $environmentPath))
     }
@@ -132,6 +109,7 @@ try {
     Invoke-Python $environmentPython @('-m', 'tools.windows_shell', '--build')
     Invoke-Python $environmentPython @('-m', 'unittest', 'discover', '-s', 'tests', '-v')
     Invoke-Python $environmentPython @('-m', 'tools.windows_shell', '--install')
+    & (Join-Path $PSScriptRoot 'create_shortcut.ps1') -ProjectRoot $projectRoot
 
     $mcpConfiguration = @{
         mcpServers = @{
@@ -147,7 +125,7 @@ try {
     Write-Host ''
     Write-Host 'Setup complete. Bundled fonts, dependencies, evidence checks, and tests passed.'
     Write-Host 'Thimfora 79/80/81 and Transliteration 7 are included in data\runtime-fonts, verified by hash, and loaded privately by the app. Inputs is optional; no Windows font installation is needed.'
-    Write-Host 'Double-click launch.bat or a .vay file to open M14 (Language Workbench + Language Forge).'
+    Write-Host 'Double-click the Vayrshemon desktop shortcut, launch.bat or a .vay file to open M14 (Language Workbench + Language Forge).'
     Write-Host 'Normal launches close the command window. Full launch output is recorded in .local\logs\launch-*.log; an error dialog points to the log if the editor fails.'
     Write-Host 'Language > Update transliteration refreshes the Roman column in one undo step in either page view. Reading-copy controls are removed from the main ribbon.'
     Write-Host 'All exports start in Exports with timestamp names. PNG/SVG export the visible page or _Left / _Right pair; PDF exports every page in one file and opens in the current single/facing view. Exports is excluded from Git.'
