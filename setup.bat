@@ -1,5 +1,5 @@
 @echo off
-rem M14 0.15.13 dependencies, paired PNG/SVG exports and regressions live in tools\setup.ps1.
+rem M14 0.15.14 dependencies, single-page startup and regressions live in tools\setup.ps1.
 rem First shell install uses Windows administrator approval for the isolated native thumbnail component.
 setlocal
 set "SETUP_NO_PAUSE="

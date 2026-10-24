@@ -20,7 +20,7 @@ METHODS['page.transliteration.update']=('Update the existing Transliteration 7 c
 
 
 class FileSession(GlossSession):
-    application_version='0.15.13'
+    application_version='0.15.14'
     file_version='0.6.0'
     document_schema=DOCUMENT
 
@@ -73,7 +73,9 @@ class FileSession(GlossSession):
         return result
 
     def new(self,*args,**kwargs):
-        result=super().new(*args,**kwargs);self.saved_preview=None;self.saved_page_mode='one';return result
+        result=super().new(*args,**kwargs);self.saved_preview=None;self.saved_page_mode='one'
+        if self.window:self.window.restore_saved_arrangement()
+        return result
 
     def fingerprint(self):
         return dict(super().fingerprint(),nativeCompatibility='0.6.0; reads 0.1–0.5',savedPreviewVersion=1)

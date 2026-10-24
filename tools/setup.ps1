@@ -86,7 +86,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.13 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.14 setup - $projectRoot"
     Write-Host "Console log: $logPath"
     $savesDirectory = Join-Path $projectRoot 'Saves'
     New-Item -ItemType Directory -Path $savesDirectory -Force | Out-Null
@@ -152,7 +152,7 @@ try {
     Write-Host 'Remove integration: .venv\Scripts\python.exe -m tools.windows_shell --uninstall'
     Write-Host 'Forge projects: *.vayforge; versioned dictionaries, wiki, branches and tests. Construction glosses, four-column spreads, Maxima, tests and PNG export: docs\M13.md.'
     Write-Host 'Panel shortcuts: Ctrl+Alt+B expands/collapses; Ctrl+Alt+P pins/unpins. See docs\M6.1.md.'
-    Write-Host 'Fresh installs open the approved clean view: maximized, controls collapsed/unpinned, source/diagnostics/guides hidden, Fit Height and single-page mode. Existing workspace choices are retained.'
+    Write-Host 'Blank startup always uses Fit Height and single-page mode; saved documents restore their saved page view. Fresh installs open maximized with controls collapsed/unpinned and source/diagnostics/guides hidden. Existing panel choices are retained.'
     Write-Host 'The app uses its own Windows taskbar identity and centered Memon icon. Restart existing windows to apply this update.'
     Write-Host 'Offline recovery: python -S tools\recovery.py --help'
     Write-Host 'Versioned installation and rollback: installed.bat --help (see docs\M6.md).'

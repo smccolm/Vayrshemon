@@ -26,8 +26,9 @@ class WorkspaceLayoutTests(unittest.TestCase):
         self.path = self.root / '.local/workspace/layout.json'
         self.window = self.book = None
 
-    def open_window(self):
+    def open_window(self, path=None):
         self.book = FileSession(self.root, source_fonts=False, recovery=False)
+        if path:self.book.open(path,advance_revision=False)
         self.api = FileAPI(self.book)
         self.before = self.book.capture()
         self.window = FileWindow(self.book, self.api)
@@ -112,7 +113,7 @@ class WorkspaceLayoutTests(unittest.TestCase):
         self.assertTrue(window.editor.parentWidget().isHidden())
         self.assert_unmodified()
 
-    def test_user_sidebar_and_page_choices_override_first_run_defaults(self):
+    def test_restart_keeps_sidebar_preferences_but_blank_page_overrides_two_page_mode(self):
         window = self.open_window()
         window.sidebar_dock.configure(pinned=True, width=475)
         window.page_controls.set_mode('two')
@@ -122,9 +123,50 @@ class WorkspaceLayoutTests(unittest.TestCase):
         self.assertTrue(window.sidebar_dock.expanded)
         self.assertTrue(window.sidebar_dock.pinned)
         self.assertEqual(window.sidebar_dock.expanded_width, 475)
-        self.assertEqual(window.preview.page_mode, 'two')
-        self.assertTrue(window.page_controls.buttons['two'].isChecked())
+        self.assertEqual(window.preview.page_mode, 'one')
+        self.assertTrue(window.page_controls.buttons['one'].isChecked())
+        self.assertFalse(window.page_controls.buttons['two'].isChecked())
+        self.assertEqual(self.book.view['zoom'], window.fitted_zoom(fit_height=True))
+        self.assertEqual(json.loads(window.page_controls.path.read_text())['mode'], 'two')
         self.assert_unmodified()
+
+    def test_saved_spread_reopens_as_two_pages_and_new_resets_to_one(self):
+        window = self.open_window()
+        result=self.api.call('page.add',dict(width=612,height=792),expected_revision=self.book.revision,idempotency_key=uuid.uuid4().hex)
+        self.assertTrue(result['ok'],result)
+        window.page_controls.set_mode('two')
+        path=self.root/'saved-spread.vay'
+        self.book.save(path)
+        original=self.book.capture()
+        self.close_window()
+        window=self.open_window()
+        self.assertEqual(window.preview.page_mode,'one')
+        self.book.open(path,advance_revision=False)
+        APP.processEvents()
+        self.assertEqual(window.preview.page_mode,'two')
+        self.assertTrue(window.page_controls.buttons['two'].isChecked())
+        self.assertEqual(len(window.preview.display_pages()),2)
+        self.assertEqual(self.book.capture(),original)
+        self.close_window()
+        window=self.open_window(path)
+        self.assertEqual(window.preview.page_mode,'two')
+        self.assertTrue(window.page_controls.buttons['two'].isChecked())
+        self.assertEqual(len(window.preview.display_pages()),2)
+        self.assertEqual(self.book.capture(),original)
+        revision=self.book.revision
+        window.new_file()
+        APP.processEvents()
+        self.assertIsNone(self.book.saved_path)
+        self.assertEqual(window.preview.page_mode,'one')
+        self.assertTrue(window.page_controls.buttons['one'].isChecked())
+        self.assertFalse(window.page_controls.buttons['two'].isChecked())
+        self.assertEqual(len(window.preview.display_pages()),1)
+        self.assertFalse(self.book.dirty)
+        self.assertEqual(self.book.revision,revision+1)
+        self.assertFalse(self.book._undo)
+        window.page_controls.set_mode('two')
+        self.assertTrue(window.page_controls.buttons['two'].isChecked())
+        self.assertFalse(self.book.dirty)
 
     def test_api_and_editor_close_remember_clean_layout(self):
         window = self.open_window()

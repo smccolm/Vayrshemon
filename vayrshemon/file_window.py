@@ -22,7 +22,7 @@ def suggested_path(book):
 
 
 class FileWindow(GlossWindow):
-    # Approved first-run view; saved workspace preferences take precedence.
+    # Approved sidebar defaults; saved sidebar preferences take precedence.
     DEFAULT_SIDEBAR=dict(expanded=False,pinned=False,width=390,panel='Paint')
     SHOW_SVG_PROOF_BUTTON=False
 
@@ -101,7 +101,12 @@ class FileWindow(GlossWindow):
         return result
 
     def restore_saved_arrangement(self):
-        if self.book.saved_preview:self.invoke('view.pages',mode=self.book.saved_page_mode)
+        if self.book.saved_preview:
+            self.page_controls.set_mode(self.book.saved_page_mode,persist=False)
+        elif not self.book.saved_path:
+            # A new blank document always starts with its one-page control
+            # selected, regardless of the previous document's workspace mode.
+            self.page_controls.set_mode('one',persist=False)
 
     def refresh(self):
         super().refresh()

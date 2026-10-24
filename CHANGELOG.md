@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 single-page blank startup 0.15.14 — 2026-10-24
+
+- Blank startup and File → New select one-page mode even when the previous session remembered two-page mode. The selected icon now agrees with the blank page; startup still uses Fit Height.
+- Saved `.vay` documents restore their own saved one/two-page view, including when launched directly. Restoring a view does not rewrite workspace preferences or document state. Sidebar and panel preferences remain intact.
+- Update setup.bat and verify remembered two-page restart, saved spread opening, File → New, clean document history and approved formatting regressions.
+
 ## M14 paired SVG export 0.15.13 — 2026-10-24
 
 - File → Export → SVG now exports both visible pages in two-page mode as `DateTimestamp_Left.svg` and `DateTimestamp_Right.svg`, using one timestamp and document snapshot. Single-page mode exports one `DateTimestamp.svg`; an unpaired final page produces only `_Left`.
