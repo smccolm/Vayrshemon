@@ -8,6 +8,7 @@ from PySide6.QtCore import QPointF, QRectF, QSize, Qt, QTextBoundaryFinder
 from PySide6.QtGui import QColor, QGlyphRun, QImage, QPainter, QPen, QTextLayout
 
 from .session import SCALE, STYLE, scalar_offset
+from .monochrome import palette
 
 MAX_PIXELS = 16_000_000
 
@@ -185,7 +186,7 @@ def paint(session, painter, *, mode='color', clip=None, overlays=None, monochrom
             # Fill the same positioned outlines with grayscale antialiasing;
             # native ClearType glyph runs can add colored edge pixels.
             painter.setPen(Qt.PenStyle.NoPen)
-            painter.setBrush(monochrome_ink if monochrome_ink is not None else QColor('black'))
+            painter.setBrush(monochrome_ink if monochrome_ink is not None else palette(paper=getattr(session,'owner',session).view.get('monochromePaper','auto'))[1])
             raw=run.rawFont()
             for gid,position in zip(run.glyphIndexes(),run.positions()):
                 path=raw.pathForGlyph(gid)
@@ -238,7 +239,7 @@ def render(session, path=None, *, mode='color', dpi=96, region=None, overlays=No
         raise MemoryError('RASTER_ALLOCATION_FAILED')
     image.setDotsPerMeterX(round(dpi/0.0254))
     image.setDotsPerMeterY(round(dpi/0.0254))
-    image.fill(QColor('#ffffff'))
+    image.fill(palette(paper=getattr(session,'owner',session).view.get('monochromePaper','auto'))[0] if mode=='mono' else QColor('#ffffff'))
     painter = QPainter(image)
     try:
         painter.scale(scale, scale)

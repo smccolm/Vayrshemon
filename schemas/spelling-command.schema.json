@@ -713,6 +713,13 @@
             "bounds": {
               "type": "boolean"
             },
+            "monochromePaper": {
+              "enum": [
+                "auto",
+                "black",
+                "white"
+              ]
+            },
             "zoom": {
               "type": "number",
               "minimum": 0.1,
@@ -756,7 +763,7 @@
         "idempotencyKey"
       ],
       "additionalProperties": false,
-      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays."
+      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays. monochromePaper selects black or white paper for monochrome preview and proofs; auto follows the document background."
     },
     {
       "type": "object",

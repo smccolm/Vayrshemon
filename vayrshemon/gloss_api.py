@@ -25,7 +25,7 @@ METHODS['document.edit']=(METHODS['document.edit'][0]+' Complete four-column spr
 
 
 class GlossSession(AutomaticAlignment,ReadingSession):
-    application_version='0.14.4'
+    application_version='0.14.5'
 
 
 class GlossAPI(ReadingAPI):

@@ -442,7 +442,7 @@ class Composition:
         boundary=QRectF(0,0,int(page['width'])/1e6*SCALE,int(page['height'])/1e6*SCALE)
         visible=boundary if clip is None else boundary.intersected(clip)
         background=self.book.state.get('paint',{}).get('background','#FFFFFFFF')
-        background,mono_ink=palette(background) if self.mode=='mono' else (QColor(background),None)
+        background,mono_ink=palette(background,self.book.view.get('monochromePaper','auto')) if self.mode=='mono' else (QColor(background),None)
         painter.save(); painter.setClipRect(visible); painter.fillRect(boundary,QColor(background)); painter.setRenderHint(QPainter.RenderHint.Antialiasing)
         underlay=getattr(self,'paint_underlay',None)
         separated=underlay(painter,page_id,visible,outlines) if underlay else False

@@ -434,7 +434,7 @@
     },
     {
       "name": "view_configure",
-      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays.",
+      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays. monochromePaper selects black or white paper for monochrome preview and proofs; auto follows the document background.",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -452,6 +452,13 @@
           },
           "bounds": {
             "type": "boolean"
+          },
+          "monochromePaper": {
+            "enum": [
+              "auto",
+              "black",
+              "white"
+            ]
           },
           "zoom": {
             "type": "number",

@@ -3,6 +3,7 @@ from .api import obj, BOOL
 
 FEATURES = obj(dict(kern=BOOL, liga=BOOL), ('kern','liga'))
 VIEW = obj(dict(mode={'enum':['mono','color']}, baselines=BOOL, origins=BOOL, bounds=BOOL,
+                monochromePaper={'enum':['auto','black','white']},
                 zoom={'type':'number','minimum':.1,'maximum':3}), ('mode','baselines','origins','bounds','zoom'))
 LAYER = obj(dict(fontId={'type':'string'}, color={'type':'string','pattern':'^#[0-9a-fA-F]{6}$'},
                  enabled=BOOL, glyphMap={'type':'array','items':{'type':'integer','minimum':0},'maxItems':65536}),

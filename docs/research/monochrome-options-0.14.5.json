@@ -1,0 +1,43 @@
+{
+  "application": "0.14.5",
+  "api": "0.14.1",
+  "date": "2026-10-24",
+  "tests": {
+    "targeted": 15,
+    "status": "Pass",
+    "suites": [
+      "monochrome palette, persistence, Undo/Redo, PNG/SVG/PDF",
+      "single and paired PNG button/background workers",
+      "parallel translation (public and attested)",
+      "headless and live MCP discovery"
+    ]
+  },
+  "sourceFormattingAndMaximaPreserved": true,
+  "blackAndColorProofPixelsIdentical": true,
+  "whitePaperPNGPairMatchesDirectProofs": true,
+  "preference": "white",
+  "whiteProofs": [
+    {
+      "side": "Left",
+      "dpi": 144,
+      "pixels": [
+        1731,
+        2241
+      ],
+      "rgbaSha256": "64e824a1a6369429403ed3c1a67e0e66e2e64e7ed8c0a6609fffbf9d645b0475"
+    },
+    {
+      "side": "Right",
+      "dpi": 144,
+      "pixels": [
+        1731,
+        2241
+      ],
+      "rgbaSha256": "c25c8f00022d43cd96a0d756ce514083e89ce3df376fd8e31fd28972df91903f"
+    }
+  ],
+  "limitations": [
+    "Full setup suite was not repeated; dependencies are unchanged.",
+    "Older documents without monochromePaper retain automatic contrast."
+  ]
+}

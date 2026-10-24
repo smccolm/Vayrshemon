@@ -78,7 +78,7 @@ class ReadingWindow(SpellingWindow):
             elif widget:widget.hide()
         preview=self.preview.parentWidget().layout();preview.removeItem(row)
         header=preview.takeAt(0).layout();header.removeWidget(self.mode);self.preview_hint.hide()
-        self.mode.setFixedWidth(140);self.mode.setToolTip('Page rendering mode')
+        self.mode.setFixedWidth(210);self.mode.setToolTip('Color / relief, white on black, or black on white. Proofs use this choice.')
         row.insertWidget(row.count()-1,self.mode)
         navigation=QWidget();navigation.setLayout(row);row.setContentsMargins(0,0,0,0)
         top.addWidget(navigation,1);top.addWidget(files)

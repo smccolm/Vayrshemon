@@ -80,7 +80,7 @@ def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=F
     if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
         return book.composition(mode,page_id=page['pageId']).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
     mode=mode or book.view['mode']; overlays=overlays or {}
-    paper,mono_ink=palette() if mode=='mono' else (QColor('white'),None)
+    paper,mono_ink=palette(paper=book.view.get('monochromePaper','auto')) if mode=='mono' else (QColor('white'),None)
     painter.save()
     painter.setClipRect(boundary if clip is None else boundary.intersected(clip))
     painter.fillRect(boundary,paper)

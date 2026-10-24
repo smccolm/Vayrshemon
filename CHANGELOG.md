@@ -2,6 +2,13 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M13 selectable monochrome paper 0.14.5 — 2026-10-24
+
+- Add explicit “Monochrome: white on black” and “Monochrome: black on white” choices to the existing rendering dropdown. Keep the compact ribbon and Color / relief option.
+- Persist the paper preference with the document, support Undo/Redo and use the captured choice in PNG/SVG/PDF proofs. Changing it leaves source colors, text, Maxima, fonts, paragraph alignment and geometry untouched.
+- Expose optional `view.configure.monochromePaper` (`black`, `white`, or legacy `auto`) through API/CLI/MCP, with synchronized discovery and file contracts. Existing documents retain their appearance until an explicit choice; native format 0.5.0 and 151 controls remain.
+- Update setup.bat and regression coverage; no new dependencies.
+
 ## M13 true monochrome 0.14.4 — 2026-10-24
 
 - Render every column with white ink on dark paper or black ink on light paper in Monochrome, including colored source text and colored backgrounds. Transparent backgrounds resolve against white paper in this mode. Use neutral antialiasing without colored ClearType fringes.

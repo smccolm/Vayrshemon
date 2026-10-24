@@ -290,8 +290,9 @@ class EditorWindow(QMainWindow):
         split.addWidget(edit_box)
         preview_box=QWidget(); preview_column=QVBoxLayout(preview_box); preview_column.setContentsMargins(2,0,0,0)
         preview_row=QHBoxLayout(); self.preview_hint=QLabel('PAGE PREVIEW · Click a frame to edit');preview_row.addWidget(self.preview_hint)
-        self.mode=QComboBox(); self.mode.addItem('Color layers','color'); self.mode.addItem('Monochrome','mono')
-        self.mode.currentIndexChanged.connect(lambda:self.invoke('view.configure',mode=self.mode.currentData()))
+        self.mode=QComboBox(); self.mode.addItem('Color layers','color'); self.mode.addItem('Monochrome: white on black','mono'); self.mode.addItem('Monochrome: black on white','mono-white')
+        self.mode.setAccessibleName('Page rendering mode')
+        self.mode.currentIndexChanged.connect(self.choose_render_mode)
         preview_row.addWidget(self.mode); preview_column.addLayout(preview_row)
         self.preview=PageCanvas(book,self.invoke); preview_column.addWidget(self.preview)
         zoom_row=QHBoxLayout(); self.zoom_label=QLabel('80%'); self.zoom=QSlider(Qt.Orientation.Horizontal)
@@ -476,7 +477,10 @@ class EditorWindow(QMainWindow):
                 for face in book.fonts.faces.values(): combo.addItem(face.path.stem+' · '+face.sha256[:6],face.font_id)
                 combo.setCurrentIndex(max(0,combo.findData(selected))); combo.blockSignals(False)
             self._font_signature=fonts
-        self.mode.blockSignals(True); self.mode.setCurrentIndex(self.mode.findData(book.view['mode'])); self.mode.blockSignals(False)
+        from .monochrome import palette
+        mode=book.view['mode']
+        if mode=='mono' and palette(book.state.get('paint',{}).get('background','#FFFFFFFF'),book.view.get('monochromePaper','auto'))[0].name()=='#ffffff':mode='mono-white'
+        self.mode.blockSignals(True); self.mode.setCurrentIndex(self.mode.findData(mode)); self.mode.blockSignals(False)
         self.zoom.blockSignals(True); self.zoom.setValue(round(book.view['zoom']*100)); self.zoom.blockSignals(False); self.zoom_label.setText(str(round(book.view['zoom']*100))+'%')
         for key,check in [*self.overlay_checks.items(),('kern',self.kern),('liga',self.liga)]:
             check.blockSignals(True); check.setChecked(book.features[key] if key in ('kern','liga') else book.view[key]); check.blockSignals(False)
@@ -538,6 +542,11 @@ class EditorWindow(QMainWindow):
         if answer==QMessageBox.StandardButton.Cancel: return False
         if answer==QMessageBox.StandardButton.Save: self.save_file(); return not self.book.dirty
         return True
+
+    def choose_render_mode(self):
+        choice=self.mode.currentData()
+        if choice=='color':self.invoke('view.configure',mode='color')
+        elif choice in ('mono','mono-white'):self.invoke('view.configure',mode='mono',monochromePaper='black' if choice=='mono' else 'white')
 
     def new_file(self):
         if self.confirm_discard(): self.invoke('document.new',discardUnsaved=True)

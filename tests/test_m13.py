@@ -117,6 +117,7 @@ class GlossTests(unittest.TestCase):
         p=subprocess.run([sys.executable,'-m','vayrshemon','mcp','--headless','--gloss','--no-source-fonts'],input='\n'.join(json.dumps(m) for m in messages)+'\n',text=True,capture_output=True,cwd=ROOT,timeout=40)
         self.assertEqual(p.returncode,0,p.stderr);responses=[json.loads(line) for line in p.stdout.splitlines()];tools=next(r['result']['tools'] for r in responses if r.get('id')==2)
         self.assertEqual(len(tools),151);self.assertTrue(any(t['name']=='page_gloss_copy' for t in tools))
+        self.assertEqual(next(t for t in tools if t['name']=='view_configure')['inputSchema']['properties']['monochromePaper']['enum'],['auto','black','white'])
         # The live adapter selects contracts from the descriptor's API version;
         # tools/list needs no connection and must expose the same new command.
         descriptor=self.work/'transport-version.json';descriptor.write_text(json.dumps(dict(apiVersion=GlossAPI.version)),encoding='utf-8')
@@ -124,6 +125,7 @@ class GlossTests(unittest.TestCase):
         self.assertEqual(live.returncode,0,live.stderr)
         advertised=next(json.loads(line)['result']['tools'] for line in live.stdout.splitlines() if json.loads(line).get('id')==2)
         self.assertEqual(len(advertised),151);self.assertTrue(any(t['name']=='page_paragraphs_align' for t in advertised))
+        self.assertEqual(next(t for t in advertised if t['name']=='view_configure')['inputSchema']['properties']['monochromePaper']['enum'],['auto','black','white'])
 
 
 if __name__=='__main__':unittest.main()

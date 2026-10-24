@@ -77,6 +77,22 @@ class SpreadPNGTests(unittest.TestCase):
             self.assertEqual(tuple(data[2,2]),(0,0,0,255));self.assertGreater(data[:,:,0].max(),200)
         self.assertEqual(self.s.capture(),before)
 
+    def test_paper_dropdown_and_single_png_use_saved_white_preference(self):
+        self.call('publication.configure',background='#FF000000');before=self.s.capture()
+        self.w.mode.setCurrentIndex(self.w.mode.findData('mono-white'))
+        self.assertEqual(self.s.view['mode'],'mono');self.assertEqual(self.s.view['monochromePaper'],'white')
+        self.assertEqual(self.s.capture()['pages'],before['pages']);self.assertEqual(self.s.state['paint'],before['paint'])
+        self.w.page_controls.set_mode('one');path=self.click(STAMP+'.png')
+        # Switching the live view must not change the worker's captured choice.
+        self.w.mode.setCurrentIndex(self.w.mode.findData('mono'));self.assertEqual(self.s.view['monochromePaper'],'black')
+        job=self.wait();self.assertEqual(job['status'],'completed',job)
+        image=QImage(str(path)).convertToFormat(QImage.Format.Format_RGBA8888)
+        data=np.frombuffer(image.constBits(),np.uint8).reshape(image.height(),image.width(),4)
+        self.assertEqual(tuple(data[2,2]),(255,255,255,255));self.assertLess(data[:,:,0].min(),20)
+        self.assertTrue((data[:,:,0]==data[:,:,1]).all());self.assertTrue((data[:,:,1]==data[:,:,2]).all())
+        self.w.mode.setCurrentIndex(self.w.mode.findData('color'));self.assertEqual(self.s.view['mode'],'color')
+        self.assertEqual(self.s.capture()['pages'],before['pages']);self.assertEqual(self.s.state['paint'],before['paint'])
+
     def test_pair_overwrite_decline_or_changed_right_preserves_both_destinations(self):
         base=self.work/'pair.png';left,right=map(Path,spread_png_paths(base));left.write_bytes(b'old left');right.write_bytes(b'old right')
         with patch('vayrshemon.png_export.QFileDialog.getSaveFileName',return_value=(str(base),'PNG')),patch('vayrshemon.png_export.QMessageBox.question',return_value=QMessageBox.StandardButton.No):self.w.export_png()

@@ -401,6 +401,13 @@
             "bounds": {
               "type": "boolean"
             },
+            "monochromePaper": {
+              "enum": [
+                "auto",
+                "black",
+                "white"
+              ]
+            },
             "zoom": {
               "type": "number",
               "minimum": 0.1,

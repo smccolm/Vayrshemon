@@ -173,7 +173,7 @@
     },
     {
       "method": "view.configure",
-      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays.",
+      "description": "Control layer visibility, flat layer colors, preview mode, zoom and overlays. monochromePaper selects black or white paper for monochrome preview and proofs; auto follows the document background.",
       "mutation": true,
       "transports": [
         "python",

@@ -69,8 +69,10 @@ class MonochromeTests(unittest.TestCase):
                 self.assertEqual(self.book.capture(),before)
 
     def test_png_svg_pdf_share_monochrome_across_both_pages(self):
-        for background,paper in (('#FF123456',0),('#FFFFFFAA',255)):
+        # Explicit paper overrides the opposite source background in every format.
+        for background,paper in (('#FFFFFFAA',0),('#FF123456',255)):
             self.call('publication.configure',background=background)
+            self.call('view.configure',mode='mono',monochromePaper='black' if paper==0 else 'white')
             for index,page in enumerate(self.book.state['pages']):
                 preview,_=pages.render(self.book,page_id=page['pageId'],mode='mono',dpi=96)
                 for kind in ('png','svg'):
@@ -108,6 +110,20 @@ class MonochromeTests(unittest.TestCase):
             self.assertTrue(np.array_equal(expected,pixels(pages.render(self.book,page_id=page['pageId'],mode='color')[0])))
         self.assertEqual(self.book.capture(),before)
 
+    def test_paper_choice_roundtrips_with_undo_without_changing_formatting(self):
+        self.call('publication.configure',background='#FF000000');before=self.book.capture()
+        self.call('view.configure',mode='mono',monochromePaper='white')
+        white=self.book.capture();self.assertEqual(white['pages'],before['pages']);self.assertEqual(white['paint'],before['paint'])
+        self.call('view.configure',monochromePaper='black');self.call('history.undo')
+        self.assertEqual(self.book.view['monochromePaper'],'white')
+        self.call('history.redo');self.assertEqual(self.book.view['monochromePaper'],'black')
+        self.call('view.configure',monochromePaper='white')
+        path=self.work/'white-paper.vay.json';self.call('document.save',path=str(path));self.call('document.open',path=str(path))
+        self.assertEqual(self.book.view['monochromePaper'],'white');self.assertEqual(self.book.capture()['pages'],before['pages'])
+        for page in self.book.state['pages']:self.assert_neutral(pages.render(self.book,page_id=page['pageId'],mode='mono')[0],255)
+        state=self.book.capture();result=self.api.call('view.configure',dict(monochromePaper='pink'),expected_revision=self.book.revision,idempotency_key=uuid.uuid4().hex)
+        self.assertFalse(result['ok']);self.assertEqual(self.book.capture(),state)
+
     def test_legacy_native_and_outline_paths_also_use_black_ink(self):
         book=TypesettingSession(self.work,source_fonts=False,recovery=False);api=TypesettingAPI(book)
         try:
@@ -120,6 +136,9 @@ class MonochromeTests(unittest.TestCase):
             try:QSvgRenderer(str(path)).render(painter)
             finally:painter.end()
             data=pixels(image);self.assertTrue((data[:,:,0]==data[:,:,2]).all());self.assertLess(data[:,:,:3].min(),20)
+            result=api.call('view.configure',dict(monochromePaper='black'),expected_revision=book.revision,idempotency_key=uuid.uuid4().hex);self.assertTrue(result['ok'],result)
+            for image in (layout.render(book.active,mode='mono')[0],pages.render(book,mode='mono')[0]):
+                data=pixels(image);self.assertEqual(tuple(data[2,2]),(0,0,0,255));self.assertGreater(data[:,:,0].max(),200)
         finally:book.finish()
 
 
