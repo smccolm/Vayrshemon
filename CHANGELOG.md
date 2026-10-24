@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M13 facing PNG export 0.14.1 — 2026-10-24
+
+- Make the PNG button follow the visible one/two-page arrangement. Two-page mode exports `DateTimestamp_Left.png` and `DateTimestamp_Right.png` from one immutable snapshot; single-page mode suggests `DateTimestamp.png` with no document-title prefix.
+- Use one chooser and shared timestamp for the pair. Render both pages in one cancellable background job, show both destinations and check both replacement hashes before publishing. An unpaired final page produces only `_Left`; it does not invent a blank right page.
+- Extend the existing `jobs.export` API/MCP operation with `page_ids` and matching optional replacement hashes. Keep the 150-operation surface, font treatment, native format and API version unchanged. Update setup and add real button/worker regressions.
+
 ## M13 construction gloss 0.14.0 — 2026-10-24
 
 - Fill the reserved third column in a separate facing-page copy with a source-order construction gloss, using compact grammatical labels and the approved 22 pt / 38 pt Roman treatment.

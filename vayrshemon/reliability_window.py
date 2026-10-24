@@ -84,13 +84,14 @@ class ReliabilityWindow(LanguageWindow):
             lines=['Backup failed: '+self.book.backup_error if self.book.backup_error else
                 'Backup verified · revision '+str(backup['revision'])+'\n'+backup['path'] if backup else 'Save this document to create its local backup.']
             for job in value['jobs']:
+                destinations='\n'.join(o['path'] for o in job.get('outputs',[])) or job['path']
                 lines.append('Proof '+job['status']+' · revision '+str(job['revision'])+(' (earlier revision)' if job['stale'] else '')+
-                    '\n'+job['progress']['phase']+'\n'+job.get('error',job['path'])+'\nLog: '+job['logPath'])
+                    '\n'+job['progress']['phase']+'\n'+job.get('error',destinations)+'\nLog: '+job['logPath']+('\nPublished: '+', '.join(job['publishedPaths']) if job.get('publishedPaths') else ''))
             if not value['jobs']: lines.append('No background proofs in this session.')
             self.job_output.setPlainText('\n\n'.join(lines))
             if old and value['jobs']:
                 job=value['jobs'][-1]
-                if job['status']!='running': self.statusBar().showMessage('Proof '+job['status']+': '+job.get('error',job['path'])+(' · from an earlier revision' if job['stale'] else ''),20000)
+                if job['status']!='running': self.statusBar().showMessage('Proof '+job['status']+': '+job.get('error',' · '.join(o['path'] for o in job.get('outputs',[])) or job['path'])+(' · from an earlier revision' if job['stale'] else ''),20000)
 
     def cancel_job(self):
         for job in self.book.jobs.status()['jobs']:

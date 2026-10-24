@@ -2,7 +2,7 @@
 
 A Windows desktop editor for custom typography and the long-term development of the Vayrshemon language.
 
-**Status: M13 implemented — four-column construction reading, version 0.14.0.** The facing spread now reads: Thimfora, exact Roman reading, abbreviated construction gloss, natural English. Forge provides versioned compact labels and word-by-word dictionary/grammar details. The approved 50 pt script, 22 pt Roman, 38 pt leading, Maxima, page geometry and bevel/glow remain; generated copies verify that the other three columns retain their exact pixels. Fit Height/Width, one/two-page icons and timestamped PNG export remain. All 150 operations share CLI/API/MCP controls; native documents remain 0.5.0.
+**Status: M13 implemented — four-column construction reading, version 0.14.1.** The facing spread reads: Thimfora, exact Roman reading, abbreviated construction gloss, natural English. Forge provides versioned compact labels and word-by-word dictionary/grammar details. The approved 50 pt script, 22 pt Roman, 38 pt leading, Maxima, page geometry and bevel/glow remain; generated copies verify that the other three columns retain their exact pixels. PNG exports the visible pair as `DateTimestamp_Left.png` and `DateTimestamp_Right.png`, or the selected single page as `DateTimestamp.png`. All 150 operations share CLI/API/MCP controls; native documents remain 0.5.0.
 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 

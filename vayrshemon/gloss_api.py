@@ -15,10 +15,14 @@ METHODS.update({
 })
 METHODS['ui.forge'][2]['properties']['section']['enum'].append('Gloss')
 METHODS['ui.forge'][2]['properties'].update(gloss_test=STRING,gloss_preview={'type':'boolean'})
+METHODS['jobs.export'][2]['properties'].update(
+ page_ids={'type':'array','items':STRING,'minItems':1,'maxItems':2,'uniqueItems':True},
+ replace_sha256s={'type':'array','items':{'type':['string','null'],'pattern':'^[0-9a-f]{64}$'},'minItems':1,'maxItems':2})
+METHODS['jobs.export']=('Export one proof, or PNG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right.',*METHODS['jobs.export'][1:])
 
 
 class GlossSession(ReadingSession):
-    application_version='0.14.0'
+    application_version='0.14.1'
 
 
 class GlossAPI(ReadingAPI):

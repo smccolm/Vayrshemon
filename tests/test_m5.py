@@ -210,7 +210,9 @@ class LanguageTests(unittest.TestCase):
                 button=next(b for b in self.window.findChildren(QPushButton) if b.text()==label);button.click()
             self.window.export_proof('pdf')
         self.assertEqual([Path(p).suffix for p in defaults],['.png','.svg','.pdf'])
-        for name in defaults: self.assertRegex(Path(name).name,r'_\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}_\d{3}\.(png|svg|pdf)$')
+        for name in defaults:
+            prefix='^' if Path(name).suffix=='.png' else '_'
+            self.assertRegex(Path(name).name,prefix+r'\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}_\d{3}\.(png|svg|pdf)$')
         self.assertEqual(self.s.revision,0)
         self.put('lexicon',entry())
         self.call('ui.workspace',panel='Language')

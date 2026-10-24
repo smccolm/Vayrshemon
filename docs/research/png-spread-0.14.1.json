@@ -1,0 +1,40 @@
+{
+  "application": "0.14.1",
+  "date": "2026-10-24",
+  "tests": 18,
+  "testsStatus": "Pass",
+  "documentUnchanged": true,
+  "originalProofPixelsIdentical": true,
+  "proofs": [
+    {
+      "name": "2026-10-24_09-16-00_257_Left.png",
+      "sha256": "6b271ddb88ae4908b6cc47e24b2e41f82a0fcbc279a0e8304c3de129ed42db87",
+      "dpi": 292
+    },
+    {
+      "name": "2026-10-24_09-16-00_257_Right.png",
+      "sha256": "a21b21800308b1c9f602c541471c1db3e54056334e29db8def07bc28a60ddf6c",
+      "dpi": 292
+    },
+    {
+      "name": "2026-10-24_09-16-18_036.png",
+      "sha256": "6b271ddb88ae4908b6cc47e24b2e41f82a0fcbc279a0e8304c3de129ed42db87",
+      "dpi": 292
+    }
+  ],
+  "conventions": {
+    "single": "DateTimestamp.png",
+    "two": [
+      "DateTimestamp_Left.png",
+      "DateTimestamp_Right.png"
+    ]
+  },
+  "checks": [
+    "One chooser, shared timestamp and immutable snapshot",
+    "Correct left/right order with the right page selected",
+    "One-page selection and unpaired last page",
+    "Cancel and overwrite protections",
+    "Concurrent right-destination edit preserves both previous files",
+    "Required parallel translation regressions"
+  ]
+}

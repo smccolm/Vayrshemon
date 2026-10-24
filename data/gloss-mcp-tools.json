@@ -4849,7 +4849,7 @@
     },
     {
       "name": "jobs_export",
-      "description": "Start an isolated cancellable PNG/SVG/PDF proof from the current immutable revision; inspect jobs.status for completion or errors.",
+      "description": "Export one proof, or PNG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right.",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -4886,6 +4886,27 @@
           "replace_sha256": {
             "type": "string",
             "pattern": "^[0-9a-f]{64}$"
+          },
+          "page_ids": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            },
+            "minItems": 1,
+            "maxItems": 2,
+            "uniqueItems": true
+          },
+          "replace_sha256s": {
+            "type": "array",
+            "items": {
+              "type": [
+                "string",
+                "null"
+              ],
+              "pattern": "^[0-9a-f]{64}$"
+            },
+            "minItems": 1,
+            "maxItems": 2
           },
           "expectedRevision": {
             "type": "integer",

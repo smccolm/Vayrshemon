@@ -114,6 +114,11 @@ class GlossWindow(ReadingWindow):
         from .paint import ENGINE_VERSION
         QMessageBox.about(self,'About Vayrshemon',f'Vayrshemon\nM13 · {self.book.application_version}\nPaint engine {ENGINE_VERSION}\nVersioned construction glosses')
 
+    def export_proof(self,kind):
+        if kind!='png':return super().export_proof(kind)
+        from .png_export import export_png
+        return export_png(self)
+
     def show_forge(self,gloss_test=None,gloss_preview=False,**params):
         result=super().show_forge(**params);panel=self.forge_panel.gloss
         if gloss_test:
