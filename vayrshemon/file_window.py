@@ -15,9 +15,19 @@ def suggested_path(book):
 
 class FileWindow(GlossWindow):
     def __init__(self,book,api):
+        self.workspace_layout=None
         super().__init__(book,api)
         self.setWindowIcon(QIcon(str(book.root/'data/icons/memon-color.ico')))
         self.restore_saved_arrangement()
+        from .workspace_layout import WorkspaceLayout
+        self.workspace_layout=WorkspaceLayout(self)
+
+    def configure_workspace(self,**params):
+        result=super().configure_workspace(**params)
+        if self.workspace_layout is not None:
+            if params.get('diagnostics'):self.refresh()
+            self.workspace_layout.sync(persist=any(params.get(k) is not None for k in self.workspace_layout.FIELDS))
+        return result
 
     def restore_saved_arrangement(self):
         if self.book.saved_preview:self.invoke('view.pages',mode=self.book.saved_page_mode)

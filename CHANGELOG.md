@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 workspace visibility 0.15.1 — 2026-10-24
+
+- Remember source editor, diagnostics panels and page guides across launches, independently of documents. Fresh workspaces start with these hidden; existing sidebar preferences remain in force.
+- Add individual checkable View menu controls. Closing the source editor, Page focus, Edit with diagnostics and API/MCP workspace changes all update the same preferences without changing document formatting or zoom during restoration.
+- Update setup.bat; no new dependencies, native-format or API-version changes.
+
 ## M14 native files and Explorer previews 0.15.0 — 2026-10-24
 
 - Default Save As to `.vay`, retaining legacy `.vay.json`/`.vaylab.json` imports. Native wrapper 0.6 preserves the editable state and embeds an atomic, validated preview of the saved page or spread.

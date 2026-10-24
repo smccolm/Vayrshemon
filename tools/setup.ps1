@@ -86,7 +86,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.0 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.1 setup - $projectRoot"
     Write-Host "Console log: $logPath"
 
     if (Test-Path -LiteralPath $environmentPath) {
@@ -142,6 +142,7 @@ try {
     Write-Host 'Remove integration: .venv\Scripts\python.exe -m tools.windows_shell --uninstall'
     Write-Host 'Forge projects: *.vayforge; versioned dictionaries, wiki, branches and tests. Construction glosses, four-column spreads, Maxima, tests and PNG export: docs\M13.md.'
     Write-Host 'Panel shortcuts: Ctrl+Alt+B expands/collapses; Ctrl+Alt+P pins/unpins. See docs\M6.1.md.'
+    Write-Host 'Reading layout is remembered between launches. View toggles Source editor, Diagnostics panels and Page guides; fresh workspaces hide these.'
     Write-Host 'Offline recovery: python -S tools\recovery.py --help'
     Write-Host 'Versioned installation and rollback: installed.bat --help (see docs\M6.md).'
     Write-Host 'CLI: .venv\Scripts\python.exe -m vayrshemon --help'
