@@ -2,6 +2,11 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M12 Fit Width alignment 0.13.3 — 2026-10-24
+
+- Fit Width centers the visible page or pair horizontally and aligns its top immediately below the ruler. Repeated clicks return to the top after panning; Fit Height and Center page retain their existing behavior.
+- Preserve document formatting and update setup.bat; no dependency changes.
+
 ## M12 facing pages and approved reading standard 0.13.2 — 2026-10-24
 
 - Freeze the user-approved left-page reference: 50 pt Thimfora, 22 pt transliteration 7, matching 38 pt baselines, enlarged page and retained paint. New Roman copies/Forge runs use the approved size and leading; the older English baseline remains independently protected.

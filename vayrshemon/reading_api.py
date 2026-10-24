@@ -20,7 +20,7 @@ METHODS['ui.forge'][2]['properties'].update(reading_test=STRING,reading_mode=MOD
 
 
 class ReadingSession(SpellingSession):
-    application_version='0.13.2'
+    application_version='0.13.3'
 
 
 class ReadingAPI(SpellingAPI):

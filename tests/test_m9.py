@@ -162,6 +162,10 @@ class IntegrationTests(unittest.TestCase):
                 available=getattr(v,axis)()-56
                 self.assertLessEqual(actual,available+1);self.assertLess(available-actual,getattr(area,axis)()*.011+1)
                 self.assertEqual(s.state['pages'],original)
+                if name=='Fit Width':
+                    w.preview.update_page();nav=w.preview.navigation_state()
+                    self.assertEqual(nav['pageOrigin'][1],w.preview.RULER)
+                    self.assertAlmostEqual(nav['pageOrigin'][0]+area.width()*nav['zoom']/2,(v.width()+w.preview.RULER)/2,delta=1)
             with self.assertRaisesRegex(ValueError,'CHOOSE_ONE'):w.configure_workspace(fit_height=True,fit_width=True)
         finally:self.close(s,w)
 

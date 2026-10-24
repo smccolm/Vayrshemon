@@ -113,7 +113,7 @@ class IntegrationWindow(LaboratoryWindow):
         fit.setToolTip('Fit the page height to the preview. Document size and type stay unchanged.')
         row=self.preview.parentWidget().layout().itemAt(1).layout()
         width=self.button('Fit Width',lambda:self.invoke('ui.workspace',fit_width=True));width.setAccessibleName('Fit Width')
-        width.setToolTip('Fit the page width to the preview; scroll or use Hand to move vertically.')
+        width.setToolTip('Fit the visible page width and align its top below the ruler; scroll or use Hand to move vertically.')
         row.insertWidget(row.indexOf(fit)+1,width)
         self.preview.auto_center_single = True; self.preview._center_signature = None; self.preview.update_page()
         for label in self.findChildren(QLabel):
@@ -133,6 +133,7 @@ class IntegrationWindow(LaboratoryWindow):
             ratio=(viewport.height()-56)/area.height() if fit_height else (viewport.width()-56)/area.width()
             zoom=int(max(.1,min(3,ratio))*100)/100
             self.invoke('view.configure',zoom=zoom);self.preview.center_page()
+            if fit_width:self.preview.verticalScrollBar().setValue(0)
         return result
 
     def show_forge(self,merge_source=None,release_name=None,**params):

@@ -2,7 +2,7 @@
 
 A Windows desktop editor for custom typography and the long-term development of the Vayrshemon language.
 
-**Status: M12 implemented — parallel reading and facing pages, version 0.13.2.** The approved left page pairs 50 pt Thimfora with 22 pt transliteration 7, both on 38 pt baselines with matching paragraph starts and their preserved bevel/glow treatments. A compact bottom zoom slider and one/two-page icons switch between the selected page and facing pairs. The right-page demo reserves its left column and puts English in the far-right column. Fit Height/Width, Maxima and timestamped PNG export remain. All 145 operations share CLI/API/MCP controls; native documents remain 0.5.0.
+**Status: M12 implemented — parallel reading and facing pages, version 0.13.3.** The approved left page pairs 50 pt Thimfora with 22 pt transliteration 7, both on 38 pt baselines with matching paragraph starts and their preserved bevel/glow treatments. A compact bottom zoom slider and one/two-page icons switch between the selected page and facing pairs. The right-page demo reserves its left column and puts English in the far-right column. Fit Height/Width, Maxima and timestamped PNG export remain. All 145 operations share CLI/API/MCP controls; native documents remain 0.5.0.
 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 
