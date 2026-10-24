@@ -4,10 +4,12 @@ from pathlib import Path
 import re
 
 
-def suggested_proof_path(session, extension):
+def suggested_proof_path(session, extension, *, page_side=None):
+    if page_side not in (None,'Left','Right'):raise ValueError('INVALID_PROOF_PAGE_SIDE')
     title=re.sub(r'[<>:"/\\|?*\x00-\x1f]', '_', session.state['title']).strip(' .')[:80] or 'page'
     when=datetime.now().strftime('%Y-%m-%d_%H-%M-%S_%f')[:-3]
-    name=when if extension.lower()=='png' else title+'_'+when
+    name=when if extension.lower() in ('png','svg') else title+'_'+when
+    if page_side:name+='_'+page_side
     return str(session.root/'.local'/f'{name}.{extension}')
 
 

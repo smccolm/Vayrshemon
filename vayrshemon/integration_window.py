@@ -156,7 +156,11 @@ class IntegrationWindow(LaboratoryWindow):
         try: dpi=supported_dpi(page_rect(page),requested)
         except ValueError as error:
             self.statusBar().showMessage(str(error),30000);return
-        path,_=QFileDialog.getSaveFileName(self,'Export '+kind.upper()+' proof · '+str(dpi)+' DPI',suggested_proof_path(self.book,kind),kind.upper()+' (*.'+kind+')',options=QFileDialog.Option.DontConfirmOverwrite)
+        side=None
+        if kind=='svg' and self.preview.page_mode=='two':
+            side=next(('Left','Right')[i] for i,(shown,_) in enumerate(self.preview.display_pages()) if shown['pageId']==page['pageId'])
+        suggestion=suggested_proof_path(self.book,kind,page_side=side)
+        path,_=QFileDialog.getSaveFileName(self,'Export '+kind.upper()+' proof · '+str(dpi)+' DPI',suggestion,kind.upper()+' (*.'+kind+')',options=QFileDialog.Option.DontConfirmOverwrite)
         if not path: return
         # QFileDialog's typed filename may omit the suffix.
         if not path.lower().endswith('.'+kind): path+='.'+kind

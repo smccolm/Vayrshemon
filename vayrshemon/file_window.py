@@ -24,6 +24,13 @@ def suggested_path(book):
 class FileWindow(GlossWindow):
     # Approved first-run view; saved workspace preferences take precedence.
     DEFAULT_SIDEBAR=dict(expanded=False,pinned=False,width=390,panel='Paint')
+    SHOW_SVG_PROOF_BUTTON=False
+
+    def build_export_menu(self,menu):
+        self.export_menu=menu.addMenu('Export')
+        self.png_export_action=self.export_menu.addAction('PNG…',lambda:self.guard(self.export_png))
+        self.svg_export_action=self.export_menu.addAction('SVG…',lambda:self.guard(self.export_svg))
+        self.svg_export_action.setToolTip('Export the selected page as an SVG proof. Color relief uses an embedded image.')
 
     def __init__(self,book,api):
         self.workspace_layout=None

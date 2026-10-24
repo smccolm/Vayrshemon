@@ -211,7 +211,7 @@ class LanguageTests(unittest.TestCase):
             self.window.export_proof('pdf')
         self.assertEqual([Path(p).suffix for p in defaults],['.png','.svg','.pdf'])
         for name in defaults:
-            prefix='^' if Path(name).suffix=='.png' else '_'
+            prefix='^' if Path(name).suffix in ('.png','.svg') else '_'
             self.assertRegex(Path(name).name,prefix+r'\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}_\d{3}\.(png|svg|pdf)$')
         self.assertEqual(self.s.revision,0)
         self.put('lexicon',entry())

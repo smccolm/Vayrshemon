@@ -2,6 +2,12 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 compact proof exports 0.15.12 — 2026-10-24
+
+- Remove SVG proof from the current Workbench bottom bar; keep PNG in the bottom bar and both formats under File → Export. Earlier milestone windows retain their export buttons.
+- Suggest timestamp-only SVG filenames matching PNG: `DateTimestamp.svg` in one-page view and `DateTimestamp_Left.svg` or `DateTimestamp_Right.svg` for the selected page in two-page view. SVG still exports one physical page; PNG's paired export is unchanged.
+- Preserve approved typography, Maxima, page geometry and paint. Update setup.bat; no new dependencies or file-format changes.
+
 ## M14 centered ruler labels 0.15.11 — 2026-10-24
 
 - Center horizontal ruler numbers over their tick marks so facing-page labels no longer run together at the gutter. At very small zooms, omit a crowded end label while retaining its tick and the next page's zero.

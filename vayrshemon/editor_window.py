@@ -264,6 +264,8 @@ class PageCanvas(QAbstractScrollArea):
 
 
 class EditorWindow(QMainWindow):
+    SHOW_SVG_PROOF_BUTTON=True
+
     def __init__(self,book,api):
         super().__init__()
         self.book,self.api=book,api; book.window=self
@@ -305,7 +307,8 @@ class EditorWindow(QMainWindow):
         self.zoom.setRange(10,300); self.zoom.setValue(80); self.zoom.setTracking(False); self.zoom.setAccessibleName('Page preview zoom percent')
         self.zoom.valueChanged.connect(lambda value:self.invoke('view.configure',zoom=value/100))
         self.zoom_row=zoom_row
-        zoom_row.addWidget(self.zoom_label); zoom_row.addWidget(self.zoom); zoom_row.addWidget(self.button('PNG',self.export_png)); zoom_row.addWidget(self.button('SVG proof',self.export_svg))
+        zoom_row.addWidget(self.zoom_label); zoom_row.addWidget(self.zoom); zoom_row.addWidget(self.button('PNG',self.export_png))
+        if self.SHOW_SVG_PROOF_BUTTON:zoom_row.addWidget(self.button('SVG proof',self.export_svg))
         preview_column.addLayout(zoom_row); split.addWidget(preview_box); split.setSizes([300,510,700]); column.addWidget(split,1)
         self.inspection=QTabWidget(); self.inspection.setMaximumHeight(220); self.inspection.setMinimumHeight(130)
         self.details=QPlainTextEdit(); self.logs=QPlainTextEdit(); self.access=QPlainTextEdit()
@@ -329,17 +332,21 @@ class EditorWindow(QMainWindow):
         form.setContentsMargins(10,10,10,10); outer.setWidget(container); self.sidebar.addTab(outer,title); return form
 
     def build_menu(self):
-        menu=self.menuBar().addMenu('File')
+        menu=self.file_menu=self.menuBar().addMenu('File')
         for text,shortcut,callback in [('New',QKeySequence.StandardKey.New,self.new_file),('Open…',QKeySequence.StandardKey.Open,self.open_file),
                                       ('Save',QKeySequence.StandardKey.Save,self.save_file),('Save as…',QKeySequence.StandardKey.SaveAs,self.save_as)]:
             action=menu.addAction(text); action.setShortcut(shortcut); action.triggered.connect(lambda checked=False,fn=callback:self.guard(fn))
         self.recents=menu.addMenu('Recent documents'); self.recents.aboutToShow.connect(self.populate_recents)
         menu.addAction('Recover interrupted session…',lambda:self.guard(self.recover_dialog))
-        menu.addSeparator(); menu.addAction('Export PNG…',lambda:self.guard(self.export_png)); menu.addAction('Export outline SVG…',lambda:self.guard(self.export_svg))
+        menu.addSeparator(); self.build_export_menu(menu)
         edit=self.menuBar().addMenu('Edit');self.edit_menu=edit
         for name,key,method in [('Undo','Ctrl+Z','history.undo'),('Redo','Ctrl+Y','history.redo')]:
             action=edit.addAction(name); action.setShortcut(key); action.triggered.connect(lambda checked=False,m=method:self.invoke(m))
         action=edit.addAction('Find / replace…'); action.setShortcut(QKeySequence.StandardKey.Find); action.triggered.connect(lambda:self.guard(self.find_dialog))
+
+    def build_export_menu(self,menu):
+        menu.addAction('Export PNG…',lambda:self.guard(self.export_png))
+        menu.addAction('Export outline SVG…',lambda:self.guard(self.export_svg))
 
     def build_document_tab(self):
         form=self.add_scroll_tab('Document')
