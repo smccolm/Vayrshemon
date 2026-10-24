@@ -32,6 +32,12 @@ class FileWindow(GlossWindow):
     def restore_saved_arrangement(self):
         if self.book.saved_preview:self.invoke('view.pages',mode=self.book.saved_page_mode)
 
+    def refresh(self):
+        super().refresh()
+        path=self.book.saved_path
+        self.setWindowFilePath(str(path) if path else '')
+        self.setWindowTitle((Path(path).name if path else 'Untitled')+(' *' if self.book.dirty else '')+' — Vayrshemon')
+
     def open_file(self):
         path,_=QFileDialog.getOpenFileName(self,'Open document',str(self.book.root/'.local'),'Vayrshemon (*.vay *.vay.json *.vaylab.json)')
         if path:self.open_path(path)

@@ -85,9 +85,25 @@ class FileTests(unittest.TestCase):
         window=FileWindow(self.book,self.api)
         try:
             self.assertEqual(window.preview.page_mode,'two');self.assertEqual(self.book.capture(),state)
+            self.assertEqual(window.windowTitle(),'visible.vay — Vayrshemon')
+            self.assertEqual(window.windowFilePath(),str(path))
+            internal_title='The Tempest · construction gloss · b71232c558'
+            self.call('document.title',title=internal_title);window.refresh()
+            self.assertEqual(window.windowTitle(),'visible.vay * — Vayrshemon')
+            self.assertEqual(self.book.state['title'],internal_title)
+            self.call('history.undo');window.refresh()
+            self.assertEqual(window.windowTitle(),'visible.vay — Vayrshemon')
             with patch('vayrshemon.file_window.QFileDialog.getSaveFileName',return_value=(str(self.work/'Native document'),'')) as dialog:
                 window.save_as();self.assertTrue(str(self.book.saved_path).endswith('Native document.vay'));self.assertIn('*.vay',dialog.call_args.args[3])
             self.assertEqual(self.book.saved_preview['pageMode'],'two')
+            window.refresh();self.assertEqual(window.windowTitle(),'Native document.vay — Vayrshemon')
+            self.book.open(path,advance_revision=False);window.refresh()
+            self.assertEqual(window.windowTitle(),'visible.vay — Vayrshemon')
+            self.call('document.new');window.refresh()
+            self.assertEqual(window.windowTitle(),'Untitled — Vayrshemon');self.assertEqual(window.windowFilePath(),'')
+            self.call('document.title',title=internal_title);window.refresh()
+            self.assertEqual(window.windowTitle(),'Untitled * — Vayrshemon')
+            self.assertEqual(self.book.state['title'],internal_title)
         finally:
             window.job_timer.stop();window.forge_panel.timer.stop();window.hide();self.book.window=None;window.deleteLater();QCoreApplication.sendPostedEvents(None,QEvent.Type.DeferredDelete)
 

@@ -2,6 +2,11 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 filename title bar 0.15.3 — 2026-10-24
+
+- Show the actual filename, including its extension, in the title bar. New documents display Untitled; unsaved changes retain the asterisk. Opening another file and Save As update the displayed name.
+- Keep internal document titles and Forge identifiers in document metadata, without displaying them as filenames. Update setup.bat; document contents, formatting and rendering are unchanged.
+
 ## M14 taskbar identity 0.15.2 — 2026-10-24
 
 - Set a stable Windows AppUserModelID before Qt creates its application/windows, so the taskbar identifies Vayrshemon independently of its Python launcher.

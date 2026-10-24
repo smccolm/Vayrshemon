@@ -86,7 +86,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M14 0.15.2 setup - $projectRoot"
+    Write-Host "Vayrshemon M14 0.15.3 setup - $projectRoot"
     Write-Host "Console log: $logPath"
 
     if (Test-Path -LiteralPath $environmentPath) {
