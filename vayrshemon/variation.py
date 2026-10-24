@@ -21,7 +21,7 @@ CONTEXT={
 EXTENDED_CONTEXT={'topic':('none','subject'),'position':('sentence-initial','internal')}
 
 
-def modern(snapshot):return snapshot.get('variation',{}).get('formatVersion')=='1.1.0' or 'spelling' in snapshot
+def modern(snapshot):return snapshot.get('variation',{}).get('formatVersion') in ('1.1.0','1.2.0') or 'spelling' in snapshot
 
 
 def empty(): return dict(formatVersion='1.0.0',alternations=[],watch=[])
@@ -45,7 +45,7 @@ def validate_when(snapshot,when):
 
 def validate(snapshot):
     value=snapshot['variation']
-    require(isinstance(value,dict) and set(value)=={'formatVersion','alternations','watch'} and value['formatVersion'] in ('1.0.0','1.1.0'),'FORMAT')
+    require(isinstance(value,dict) and set(value)=={'formatVersion','alternations','watch'} and value['formatVersion'] in ('1.0.0','1.1.0','1.2.0'),'FORMAT')
     require('laboratory' in snapshot,'LAB_REQUIRED')
     grammar={g['id'] for g in snapshot['language']['grammar']}
     forms={r['id']:r for r in snapshot['laboratory']['rules'] if r['kind']=='forms'}

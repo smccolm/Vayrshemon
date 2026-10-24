@@ -2,6 +2,14 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M12 parallel reading and continuity 0.13.0 — 2026-10-23
+
+- Add the Reading workspace with the user-selected original transliteration 7 Roman forms, literal Times New Roman slots and retained English. Copy exact source characters and Maxima/Minima; do not normalize or guess Unicode respellings.
+- Create separate editable reading copies and version-pinned test pages. Preserve approved geometry, sizes, leading and Thimfora 79/81/80 paint; change only the requested right-column font. Retain the original Roman p sidebearing diagnostic for review.
+- Propose optional literary subject continuity in separate coherent tests, requiring an explicit adjacent antecedent, matching participant identity and contextual conditions. Retain the fuller reading, exact M11 Tempest text, dictionary and prior cases.
+- Demonstrate experimental language 0.6.0, edited versioned wiki, parallel readings, continuity comparisons and the actual timestamped PNG export. Add four API/MCP controls (144 total), Forge envelope 1.4.0, variation definitions 1.2.0, lab engine 1.3.0 and hashed reading evidence verified at release.
+- Update setup.bat, pinned requirements, dependency auditing, CI and release checks. No new dependencies; native documents and the paint engine remain unchanged.
+
 ## M11 Maxima and topic variation 0.12.0 — 2026-10-23
 
 - Restore sentence-initial Maxima through explicit orthographic letter pairs, including pairs that do not follow Unicode casing. Add an Orthography workspace with a glyph preview, exact guarded apply, pair inventory, policy editor and frozen audits.

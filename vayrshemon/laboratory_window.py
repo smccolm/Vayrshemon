@@ -18,7 +18,7 @@ class LaboratoryPanel(QWidget):
         self.notice=QLabel('Tests assert spelling, inflection and annotated clause structure. Meaning and literary interpretation remain editorial.');self.notice.setWordWrap(True);outer.addWidget(self.notice)
         split=QSplitter();outer.addWidget(split,1);self.records=QListWidget();split.addWidget(self.records)
         pane=QWidget();form=QFormLayout(pane);self.fields={}
-        for key,label,multiline in [('id','Stable ID',False),('title','Title',False),('text','Input text / Vayrshemon paragraphs',True),('translation','English paragraphs',True),('note','Analysis / editorial note',True),('ruleIds','Rule IDs (comma separated)',False),('grammarId','Grammar record ID',False),('tokens','Token annotations (JSON; scalar offsets)',True),('context','Author-supplied context (JSON)',True),('config','Rule configuration (JSON)',True),('caseIds','Bound clause IDs per paragraph (JSON)',True)]:
+        for key,label,multiline in [('id','Stable ID',False),('title','Title',False),('text','Input text / Vayrshemon paragraphs',True),('translation','English paragraphs',True),('note','Analysis / editorial note',True),('ruleIds','Rule IDs (comma separated)',False),('grammarId','Grammar record ID',False),('tokens','Token annotations (JSON; scalar offsets)',True),('context','Author-supplied context (JSON)',True),('antecedent','Explicit antecedent (JSON)',True),('config','Rule configuration (JSON)',True),('caseIds','Bound clause IDs per paragraph (JSON)',True)]:
             edit=QPlainTextEdit() if multiline else QLineEdit();self.fields[key]=edit;form.addRow(label,edit)
             if multiline: edit.setMaximumHeight(100);edit.textChanged.connect(self.changed)
             else: edit.textEdited.connect(self.changed)
@@ -62,9 +62,9 @@ class LaboratoryPanel(QWidget):
             old=self.text('id');self.records.clear()
             for r in self.rows: self.records.addItem(r['title'])
             for key,e in self.fields.items():
-                visible=key in ({'id','title','text','note','ruleIds','tokens','context'} if i==0 else {'id','title','grammarId','config'} if i==1 else {'id','title','text','translation','note','ruleIds','caseIds'})
+                visible=key in ({'id','title','text','note','ruleIds','tokens','context','antecedent'} if i==0 else {'id','title','grammarId','config'} if i==1 else {'id','title','text','translation','note','ruleIds','caseIds'})
                 e.setVisible(visible);self.form.labelForField(e).setVisible(visible);e.setReadOnly(bool(self.forge.version))
-            self.kind.blockSignals(True);self.kind.clear();self.kind.addItems(['word','clause','review'] if i==0 else ['inventory','forms','analysis','order','letterforms','review']);self.kind.blockSignals(False)
+            self.kind.blockSignals(True);self.kind.clear();self.kind.addItems(['word','clause','review'] if i==0 else ['inventory','forms','analysis','order','letterforms','continuity','review']);self.kind.blockSignals(False)
             self.kind.setVisible(i<2);self.form.labelForField(self.kind).setVisible(i<2);self.kind.setEnabled(not self.forge.version)
             self.expected.setVisible(i==0);self.form.labelForField(self.expected).setVisible(i==0);self.expected.setEnabled(not self.forge.version)
             history=self.forge.book.forge.history()
@@ -97,6 +97,7 @@ class LaboratoryPanel(QWidget):
             self.set_text('tokens',json.dumps(r.get('tokens',[]),ensure_ascii=False,indent=2));self.set_text('config',json.dumps(r.get('config',{}),ensure_ascii=False,indent=2))
             self.set_text('caseIds',json.dumps(r['caseIds'],indent=2) if 'caseIds' in r else '')
             self.set_text('context',json.dumps(r['context'],indent=2) if 'context' in r else '')
+            self.set_text('antecedent',json.dumps(r['antecedent'],indent=2) if 'antecedent' in r else '')
             if 'kind' in r: self.kind.setCurrentText(r['kind'])
             if 'expected' in r: self.expected.setCurrentText(r['expected'])
             if 'paragraphs' in r:
@@ -124,6 +125,7 @@ class LaboratoryPanel(QWidget):
                 record.update(ruleIds=rules,paragraphs=[dict(text=x,translation=y,analysis=notes[0] if len(notes)==1 else notes[n]) for n,(x,y) in enumerate(zip(a,b))])
                 if self.text('caseIds').strip(): record['caseIds']=json.loads(self.text('caseIds'))
             if self.edit_collection==0 and self.text('context').strip(): record['context']=json.loads(self.text('context'))
+            if self.edit_collection==0 and self.text('antecedent').strip(): record['antecedent']=json.loads(self.text('antecedent'))
             # Use the generation captured when editing started, not a fresh read.
             params=dict(collection=['cases','rules','tests'][self.edit_collection],record=record,expected_generation=self.value['generation'],project_id=self.value['projectId'])
             method='forge.record.put' if self.edit_collection==2 else 'forge.lab.put'

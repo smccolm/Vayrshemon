@@ -1,0 +1,94 @@
+{
+  "milestone": "M12",
+  "selectedFont": "transliteration 7.ttf",
+  "selection": "User selected the intended Roman forms from the original custom font, with matching Maxima/Minima.",
+  "method": "Identical legacy scalar sequence; no Unicode normalization, case conversion or inferred phonemic mapping.",
+  "maximaMinimaPairs": 47,
+  "fonts": [
+    {
+      "path": "Inputs/font files/Transliteration/transliteration 5.ttf",
+      "sha256": "e873883787e06ad11021eaa3a814dddc1ae3bcc3dafd34ee0ab61c04cdbab02d",
+      "family": "transliteration 5",
+      "unitsPerEm": 1000,
+      "cmapCount": 189,
+      "fsType": 4,
+      "pairForms": 94,
+      "punctuation": {
+        "U+002E": "period",
+        "U+002C": "comma",
+        "U+003F": "question",
+        "U+0021": "exclam",
+        "U+2019": "emdash",
+        "U+2018": "endash",
+        "U+201C": "tilde",
+        "U+201D": "trademark"
+      },
+      "pMetrics": [
+        500,
+        -3
+      ]
+    },
+    {
+      "path": "Inputs/font files/Transliteration/transliteration 6.ttf",
+      "sha256": "4f6debe044127d69e3ca22174bbbc4c09cae7c6e03124999dd789c597cc064a3",
+      "family": "transliteration 6",
+      "unitsPerEm": 1000,
+      "cmapCount": 131,
+      "fsType": 4,
+      "pairForms": 94,
+      "punctuation": {
+        "U+002E": "period",
+        "U+002C": "comma",
+        "U+003F": "question",
+        "U+0021": null,
+        "U+2019": null,
+        "U+2018": null,
+        "U+201C": null,
+        "U+201D": null
+      },
+      "pMetrics": [
+        500,
+        -3
+      ]
+    },
+    {
+      "path": "Inputs/font files/Transliteration/transliteration 7.ttf",
+      "sha256": "9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52",
+      "family": "transliteration 7",
+      "unitsPerEm": 1000,
+      "cmapCount": 134,
+      "fsType": 4,
+      "pairForms": 94,
+      "punctuation": {
+        "U+002E": "period",
+        "U+002C": "comma",
+        "U+003F": "question",
+        "U+0021": null,
+        "U+2019": ".notdef#3",
+        "U+2018": ".notdef#4",
+        "U+201C": ".notdef#2",
+        "U+201D": ".notdef#1"
+      },
+      "pMetrics": [
+        500,
+        -3
+      ]
+    }
+  ],
+  "visualAudit": {
+    "path": ".local/m12-research/47-pairs.png",
+    "sha256": "a7fdb7ff5a7005458d55ad1dec16ba63346bdbdf064d2b71afc4d7453e97ce3a",
+    "reviewed": true,
+    "scope": "All 47 mapped script/Roman capital pairs inspected. Separate monochrome inventory, not a paint baseline."
+  },
+  "punctuationNote": "The .notdef#3/.notdef#4 glyph names at curly single quote positions in font 7 refer to actual quote outlines with nonzero glyph IDs. Exclamation is absent and must remain a missing/fallback diagnostic. Do not infer glyph appearance from glyph names.",
+  "sidebearing": {
+    "fontSha256": "9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52",
+    "glyphId": 112,
+    "character": "p",
+    "designUnits": -3,
+    "measuredLeftOverhangPoints": 0.046875,
+    "diagnosticRetained": true
+  },
+  "privateFontBinariesVersioned": false
+}

@@ -17,7 +17,7 @@ from .language import empty_data, validate_data
 
 FORMAT = 'vayrshemon.forge'
 VERSION = '1.0.0'
-SUPPORTED_VERSIONS = ('1.0.0','1.1.0','1.2.0','1.3.0')
+SUPPORTED_VERSIONS = ('1.0.0','1.1.0','1.2.0','1.3.0','1.4.0')
 NAME = re.compile(r'^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$')
 
 
@@ -37,12 +37,12 @@ def promote(meta,version):
 
 
 def snapshot_version(snapshot):
-    return '1.3.0' if 'spelling' in snapshot or snapshot.get('variation',{}).get('formatVersion')=='1.1.0' else '1.2.0' if 'variation' in snapshot else '1.0.0'
+    return '1.4.0' if 'reading' in snapshot or snapshot.get('variation',{}).get('formatVersion')=='1.2.0' else '1.3.0' if 'spelling' in snapshot or snapshot.get('variation',{}).get('formatVersion')=='1.1.0' else '1.2.0' if 'variation' in snapshot else '1.0.0'
 
 
 def validate(snapshot):
     required={'language','wiki','tests','decisions','research'}
-    if not required<=set(snapshot)<=required|{'laboratory','variation','spelling'}:
+    if not required<=set(snapshot)<=required|{'laboratory','variation','spelling','reading'}:
         raise ValueError('FORGE_SNAPSHOT_FIELDS')
     if len(encoded(snapshot)) > 32*1024*1024: raise ValueError('FORGE_SNAPSHOT_LIMIT')
     validate_data(snapshot['language'])
@@ -75,6 +75,9 @@ def validate(snapshot):
     if 'spelling' in snapshot:
         from .spelling import validate as validate_spelling
         validate_spelling(snapshot)
+    if 'reading' in snapshot:
+        from .reading import validate as validate_reading
+        validate_reading(snapshot)
     if 'laboratory' in snapshot:
         from .forge_lab import validate_lab
         validate_lab(snapshot)
@@ -86,6 +89,8 @@ def validate(snapshot):
         for ids,pair in zip(bindings,test['paragraphs']):
             if not isinstance(ids,list) or not 1<=len(ids)<=256 or any(i not in cases or cases[i]['kind']!='clause' or cases[i]['expected']!='accept' for i in ids): raise ValueError('LAB_PAGE_CASE_REFERENCE')
             if ' '.join(cases[i]['text'] for i in ids)!=pair['text']: raise ValueError('LAB_PAGE_CASE_TEXT_MISMATCH: edit the bound cases and page together, or explicitly remove the bindings')
+            for index,cid in enumerate(ids):
+                if cases[cid].get('antecedent') and (index==0 or cases[cid]['antecedent']['caseId']!=ids[index-1]):raise ValueError('LAB_PAGE_ANTECEDENT_NOT_ADJACENT')
 
 
 class ForgeProject:
@@ -231,7 +236,7 @@ class ForgeProject:
             aa={r['id']:r for r in a.get('laboratory',{}).get(kind,[])}
             bb={r['id']:r for r in b.get('laboratory',{}).get(kind,[])}
             result['laboratory.'+kind]=dict(added=sorted(bb.keys()-aa.keys()),removed=sorted(aa.keys()-bb.keys()),changed=sorted(k for k in aa.keys()&bb.keys() if aa[k]!=bb[k]))
-        return dict(collections=result,decisionsChanged=a['decisions']!=b['decisions'],researchChanged=a['research']!=b['research'],variationChanged=a.get('variation')!=b.get('variation'),spellingChanged=a.get('spelling')!=b.get('spelling'))
+        return dict(collections=result,decisionsChanged=a['decisions']!=b['decisions'],researchChanged=a['research']!=b['research'],variationChanged=a.get('variation')!=b.get('variation'),spellingChanged=a.get('spelling')!=b.get('spelling'),readingChanged=a.get('reading')!=b.get('reading'))
 
     def lab_edit(self,collection,expected_generation,record=None,record_id=None):
         from .forge_lab import empty_lab

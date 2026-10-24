@@ -70,6 +70,10 @@ def create(project, name, version, channel, notes, suite_run_id, workbench_run_i
             from .spelling import audit as spelling_audit
             evidence=page.get('spellingResults')
             if not evidence or file_hash(Path(evidence['path']))!=evidence['sha256'] or load_json(evidence['path'])!=spelling_audit(snapshot,page['testId']):raise ValueError('RELEASE_SPELLING_EVIDENCE_MISMATCH')
+        if 'reading' in snapshot:
+            from .reading import inspect as inspect_reading
+            evidence=page.get('readingResults')
+            if not evidence or file_hash(Path(evidence['path']))!=evidence['sha256'] or load_json(evidence['path'])!=inspect_reading(snapshot,page['testId'],evidence['mode']):raise ValueError('RELEASE_READING_EVIDENCE_MISMATCH')
         if any(c['status'] in ('Fail', 'Error') for c in page['checks']): raise ValueError('RELEASE_TEST_FAILURE')
         if channel == 'stable' and (fresh['status'] != 'Pass' or fresh['unimplementedGrammar']
                 or any(c['status'] != 'Pass' for c in page['checks']) or not reviewer.strip()):

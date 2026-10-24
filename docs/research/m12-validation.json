@@ -1,0 +1,263 @@
+{
+  "milestone": "M12",
+  "application": "0.13.0",
+  "api": "0.13.0",
+  "apiMethods": 144,
+  "nativeFormat": "0.5.0",
+  "forgeFormat": "1.4.0",
+  "paintEngine": "1.1.0",
+  "contextLabEngine": "1.3.0",
+  "variationDefinition": "1.2.0",
+  "readingPolicy": "1.0.0",
+  "setup": {
+    "tests": 208,
+    "seconds": 592.14,
+    "passed": true,
+    "log": ".local/logs/m12-setup.log",
+    "transcript": ".local/logs/setup-20261023-174310-213-26888.log"
+  },
+  "focused": {
+    "tests": 23,
+    "seconds": 23.249,
+    "passed": true,
+    "log": ".local/logs/m12-focused.log"
+  },
+  "previewRegression": {
+    "tests": 1,
+    "seconds": 3.796,
+    "passed": true,
+    "log": ".local/logs/m12-preview-regression.log",
+    "scope": "Actual preview font selection after correcting inherited widget stylesheet."
+  },
+  "demo": {
+    "project": ".local/demos/m12-reading-v0.13.0-final/Vayrshemon.vayforge",
+    "beforeVersion": "53cdceb9d09f20ceefcdb7069c861719a11bfda31c6be6abb9ccfedb43d363ec",
+    "finalVersion": "8218d317e03e7b9638ffd00b79bcb8641b82e51dcf703d93e526be106c46fb10",
+    "release": "0.6.0-experimental.1",
+    "releaseId": "d92632e0323c82e963c34ea4b5fb49ffe52d687c477bbd209383e9f6bb0b8cde",
+    "languageSuite": {
+      "Pass": 269,
+      "Needs review": 1,
+      "Unsupported": 1
+    },
+    "cases": 271,
+    "oldSuiteCases": 256,
+    "previousCaseRegressions": 0,
+    "originalWorkbenchUnchanged": true,
+    "oldProjectUnchanged": true,
+    "dictionaryUnchanged": true,
+    "dictionaryEntries": 782,
+    "dictionarySha256": "fab68bfd6c327ee7709dc40f5d9e59ee1ca0eabeb25b5956976748e4a51c04be",
+    "tempestAndEnglishUnchanged": true,
+    "presentationSha256": "f90a4271bd3a55660b05e410c5031f18087332de36a5d477152dd54cf5db03f6",
+    "requestedPresentationChange": "Right-column font only; paragraph alignment is measured anew.",
+    "pages": {
+      "english": {
+        "status": "Needs review",
+        "document": ".local/demos/m12-reading-v0.13.0-final/english/test.vay.json",
+        "documentSha256": "3780900946385daaa84afba498f66c1f9048135c544a55973c6f1dbd14c041d5",
+        "proof": ".local/demos/m12-reading-v0.13.0-final/english/proof.png",
+        "proofSha256": "b910979ff645f33be1fcd5b201f9e8cd9d1148b21bd8e4c0b63ce69e63ada486",
+        "checks": [
+          {
+            "name": "Frame overflow",
+            "status": "Pass",
+            "count": 0
+          },
+          {
+            "name": "Missing glyphs or script font fallback",
+            "status": "Pass",
+            "count": 0
+          },
+          {
+            "name": "Conservative glyph collision bounds",
+            "status": "Needs review",
+            "count": 21
+          },
+          {
+            "name": "Sentence-initial Maxima",
+            "status": "Pass",
+            "initials": 8,
+            "maxima": 8,
+            "missing": 0,
+            "unmapped": 0
+          }
+        ]
+      },
+      "full": {
+        "status": "Needs review",
+        "document": ".local/demos/m12-reading-v0.13.0-final/full/test.vay.json",
+        "documentSha256": "d9c50b7562b56d8695d0b6c9a766164ef7a3a225dc3063f525bccfbddac7490d",
+        "proof": ".local/demos/m12-reading-v0.13.0-final/full/proof.png",
+        "proofSha256": "e13d5442718a94a2dcaecd1ba3c91c7cc37aeaad0e469bb9ebaf743c4be279da",
+        "checks": [
+          {
+            "name": "Frame overflow",
+            "status": "Pass",
+            "count": 0
+          },
+          {
+            "name": "Missing glyphs or script font fallback",
+            "status": "Pass",
+            "count": 0
+          },
+          {
+            "name": "Conservative glyph collision bounds",
+            "status": "Needs review",
+            "count": 5
+          },
+          {
+            "name": "Sentence-initial Maxima",
+            "status": "Pass",
+            "initials": 2,
+            "maxima": 2,
+            "missing": 0,
+            "unmapped": 0
+          }
+        ]
+      },
+      "implicit": {
+        "status": "Needs review",
+        "document": ".local/demos/m12-reading-v0.13.0-final/implicit/test.vay.json",
+        "documentSha256": "07b2efa083123b3d467597366f150943e928273bd5b6f48785619a89f28c60cd",
+        "proof": ".local/demos/m12-reading-v0.13.0-final/implicit/proof.png",
+        "proofSha256": "dc6542f2128e7bc193ac73ccdbb7e33db809915a76f6789f3313b2146b25a982",
+        "checks": [
+          {
+            "name": "Frame overflow",
+            "status": "Pass",
+            "count": 0
+          },
+          {
+            "name": "Missing glyphs or script font fallback",
+            "status": "Pass",
+            "count": 0
+          },
+          {
+            "name": "Conservative glyph collision bounds",
+            "status": "Needs review",
+            "count": 5
+          },
+          {
+            "name": "Sentence-initial Maxima",
+            "status": "Pass",
+            "initials": 2,
+            "maxima": 2,
+            "missing": 0,
+            "unmapped": 0
+          }
+        ]
+      },
+      "transliteration": {
+        "status": "Needs review",
+        "document": ".local/demos/m12-reading-v0.13.0-final/transliteration/test.vay.json",
+        "documentSha256": "4ed778e3ed345baa2fe6faf6574d4e1db080fea11cf4c5be2347ab91f16becd9",
+        "proof": ".local/demos/m12-reading-v0.13.0-final/transliteration/proof.png",
+        "proofSha256": "34639331a916059207e4c91e58243faf8c63febc45dddfd4b38fbfd51c9aa386",
+        "checks": [
+          {
+            "name": "Frame overflow",
+            "status": "Needs review",
+            "count": 1,
+            "sidebearing": {
+              "status": "Needs review",
+              "glyphs": [
+                {
+                  "sourceUtf16": [
+                    182,
+                    183
+                  ],
+                  "leftOverhangPoints": 0.046875,
+                  "glyphId": 112,
+                  "fontSha256": "9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52"
+                }
+              ],
+              "details": "Original transliteration 7 p has a negative sidebearing. All advances and vertical text fit; ink is retained without clipping, frame movement or font-size changes."
+            }
+          },
+          {
+            "name": "Missing glyphs or script font fallback",
+            "status": "Pass",
+            "count": 0
+          },
+          {
+            "name": "Conservative glyph collision bounds",
+            "status": "Needs review",
+            "count": 20
+          },
+          {
+            "name": "Sentence-initial Maxima",
+            "status": "Pass",
+            "initials": 8,
+            "maxima": 8,
+            "missing": 0,
+            "unmapped": 0
+          }
+        ]
+      }
+    }
+  },
+  "maxima": {
+    "letterPairs": 47,
+    "initials": 8,
+    "maximaInitials": 8,
+    "missing": 0,
+    "unmapped": 0,
+    "unicodeCaseConversion": false
+  },
+  "preservation": {
+    "englishPixels": {
+      "m11": "7c713b57434a6fb62980fab0bf5b73ff9a7be952314bd47e9e2acd323bdb3b8e",
+      "m12": "7c713b57434a6fb62980fab0bf5b73ff9a7be952314bd47e9e2acd323bdb3b8e",
+      "identical": true
+    },
+    "romanPageLeftPixelsIdentical": true,
+    "romanPageLeftPixelsSha256": "fbce8e889eb5c489789dcc3ba31a61158f1035580ec5ac69d02384af1a1e6f81",
+    "baseline": ".local/test-m61/c02a7cadb76d4b06b5d3898f08933066/approved-baseline/verification.json",
+    "baselineResults": {
+      "sourceVerified": true,
+      "protectedStateVerified": true,
+      "rgbaIdentical": true,
+      "geometryIdentical": true,
+      "geometryHash": "c02583087d1d4c7646a2b7d6cf10de8245676ce29504c33ace7b4f13a5f1500c"
+    }
+  },
+  "literalCopy": {
+    "sourceUnchanged": true,
+    "fontSha256": "931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5",
+    "exactSlotsPreserved": true,
+    "presentationPreserved": true,
+    "overflow": 1,
+    "missingGlyphs": 0
+  },
+  "png": {
+    "path": ".local/demos/m12-reading-v0.13.0-final/The Tempest \u00b7 We are such stuff as dreams are made on \u00b7 8218d317e0 \u00b7 Translitera_2026-10-23_17-49-58_377.png",
+    "sha256": "efd19bfcd364d758a6c3869cc51aea40ec384c18557800676d3fa62beeb89990",
+    "rgbaSha256": "9524187497c70ea539a4d5d89338a3d9f01c13af15d3ab1f730c539f2203c814",
+    "pixels": [
+      3511,
+      4543
+    ],
+    "dpi": 292,
+    "buttonTested": true,
+    "timestampSuggested": true,
+    "decoded": true,
+    "visuallyInspected": true
+  },
+  "live": {
+    "sessionId": "editor.33f70864631c470cb83f2f4373028976",
+    "apiTested": true,
+    "mcpTested": true,
+    "durableRevision": 22,
+    "saved": true,
+    "log": ".local/demos/m12-reading-v0.13.0-final/final-live-transcript.json",
+    "mcpLog": ".local/demos/m12-reading-v0.13.0-final/live-mcp.jsonl",
+    "forgeCapture": ".local/demos/m12-reading-v0.13.0-final/06-final-reading-forge.png",
+    "workbenchCapture": ".local/demos/m12-reading-v0.13.0-final/07-final-workbench.png"
+  },
+  "limits": [
+    "Custom-font reading preserves legacy slots; copied plain text is not a normalized Unicode transliteration or IPA.",
+    "Continuity is an optional draft proposal with author-supplied identity and context; semantic equivalence and free-prose parsing remain editorial or unsupported.",
+    "Roman p negative sidebearing is preserved and reviewed at 0.046875 pt; other overflow and conservative collision diagnostics remain visible. Literal Times New Roman also retains one overflow diagnostic."
+  ]
+}

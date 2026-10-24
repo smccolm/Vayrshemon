@@ -65,7 +65,7 @@ def validate_lab(snapshot):
                 require(string(role,40) and isinstance(options,list) and 0<len(options)<=32 and all(isinstance(f,dict) and len(f)<=6 and all(string(k,80) and string(v,80) for k,v in f.items()) for f in options),'ROLE_FEATURES')
             if 'alternatives' in c:
                 from .variation import validate_when
-                require(snapshot.get('variation',{}).get('formatVersion')=='1.1.0','ORDER_VARIATION_VERSION')
+                require(snapshot.get('variation',{}).get('formatVersion') in ('1.1.0','1.2.0'),'ORDER_VARIATION_VERSION')
                 require(isinstance(c['alternatives'],list) and len(c['alternatives'])<=32,'ORDER_ALTERNATIVES')
                 ids=set()
                 for a in c['alternatives']:
@@ -75,11 +75,17 @@ def validate_lab(snapshot):
             form_ids={f['id'] for f in lab['rules'] if f['kind']=='forms'}
             require(set(c)=={'formRuleIds'} and isinstance(c['formRuleIds'],list) and 0<len(c['formRuleIds'])<=32 and set(c['formRuleIds'])<=form_ids,'FORM_REFERENCE')
         elif r['kind']=='letterforms':require('spelling' in snapshot and c=={} and r['grammarId']==snapshot['spelling']['grammarId'],'LETTERFORM_POLICY')
+        elif r['kind']=='continuity':
+            from .continuity import validate_rule
+            validate_rule(snapshot,r)
         elif r['kind']=='review': require(set(c)=={'reason'} and string(c['reason']),'REVIEW_REASON')
         else: raise ValueError('LAB_UNSUPPORTED_RULE_KIND')
     rules={r['id'] for r in lab['rules']}
     for case in lab['cases']:
-        require(set(case)-{'context'}=={'id','title','kind','text','ruleIds','expected','tokens','note'},'CASE_FIELDS')
+        require(set(case)-{'context','antecedent'}=={'id','title','kind','text','ruleIds','expected','tokens','note'},'CASE_FIELDS')
+        if 'antecedent' in case:
+            a=case['antecedent'];require(snapshot.get('variation',{}).get('formatVersion')=='1.2.0' and isinstance(a,dict) and set(a)=={'caseId','entryId'} and a['caseId'] in {c['id'] for c in lab['cases']} and a['entryId'] in lexicon,'ANTECEDENT_REFERENCE')
+            require(any(r['id'] in case['ruleIds'] and r['kind']=='continuity' for r in lab['rules']),'ANTECEDENT_RULE_REQUIRED')
         if 'context' in case:
             require('variation' in snapshot or 'spelling' in snapshot,'CONTEXT_REQUIRES_VARIATION')
             from .variation import valid_context,modern
@@ -122,6 +128,7 @@ def compile_rules(snapshot):
                 surfaces.setdefault(surface,[]).append(analysis)
                 require(len(surfaces[surface])<=128,'AMBIGUITY_LIMIT')
             item['surfaces']=surfaces
+        elif r['kind']=='continuity':item['antecedents']={c['id']:deepcopy(c) for c in snapshot['laboratory']['cases']}
         compiled[r['id']]=item
     from .variation import expand
     total=expand(snapshot,compiled,total)
@@ -184,6 +191,13 @@ def check_case(case,compiled):
                     if (entries is not None and t['entryId'] not in entries) or (features is not None and t['features'] not in features): violations.append(t['start'])
                 detail['roleConstraintViolations']=violations
                 if violations: outcome='reject'
+        elif rule['kind']=='continuity':
+            from .continuity import check
+            outcome,detail=check(case,rule)
+            if outcome=='accept':
+                prior=rule['antecedents'][case['antecedent']['caseId']]
+                safe=all(compiled.get(r,{}).get('kind')!='continuity' for r in prior['ruleIds'])
+                if not safe or check_case(prior,compiled)['actual']!='accept':outcome='reject';detail['reason']='Antecedent clause does not independently pass.'
         elif rule['kind']=='letterforms':
             from .spelling import inspect_text
             detail=inspect_text(text,rule['spellingPolicy'],rule['letterPairs']);detail.pop('text');outcome='reject' if detail['changes'] else 'review' if detail['unmappedInitials'] else 'accept'
@@ -209,7 +223,7 @@ def evaluate(snapshot,cases=None):
         coverage.append(dict(ruleId=rid,grammarId=rule['grammarId'],kind=rule['kind'],cases=len(matching),passed=len(passing),positive=sum(r['expected']=='accept' for r in passing),negative=sum(r['expected']=='reject' for r in passing),covered=bool(passing),bidirectional=all(any(r['expected']==o for r in passing) for o in ('accept','reject'))))
     counts=dict(Counter(r['status'] for r in results));status='Fail' if counts.get('Fail') else 'Needs review' if counts.get('Needs review') else 'Unsupported' if counts.get('Unsupported') or not results else 'Pass'
     grammar={r['id'] for r in snapshot['language']['grammar']};implemented={r['grammarId'] for r in lab['rules'] if r['kind']!='review'}
-    return dict(engineVersion='1.2.0' if 'spelling' in snapshot or snapshot.get('variation',{}).get('formatVersion')=='1.1.0' else '1.1.0' if 'variation' in snapshot else ENGINE,status=status,snapshotSha256=digest(snapshot),suiteSha256=digest(selected),caseCount=len(results),counts=counts,results=results,coverage=coverage,
+    return dict(engineVersion='1.3.0' if snapshot.get('variation',{}).get('formatVersion')=='1.2.0' else '1.2.0' if 'spelling' in snapshot or snapshot.get('variation',{}).get('formatVersion')=='1.1.0' else '1.1.0' if 'variation' in snapshot else ENGINE,status=status,snapshotSha256=digest(snapshot),suiteSha256=digest(selected),caseCount=len(results),counts=counts,results=results,coverage=coverage,
                 unimplementedGrammar=sorted(grammar-implemented),scope='Finite forms and annotated clause constraints. No free-prose parser, semantic equivalence, phonology inference or automatic English translation.')
 
 

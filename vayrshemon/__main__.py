@@ -23,6 +23,7 @@ def main():
     editor.add_argument('--m5',action='store_true',help='Open the frozen M5 language workbench.')
     editor.add_argument('--m6',action='store_true',help='Open the frozen M6.1 workbench.')
     editor.add_argument('--m7',action='store_true',help='Open the M7 Forge interface without the M8 laboratory.')
+    editor.add_argument('--m11',action='store_true',help='Open the M11 Maxima interface.')
     editor.add_argument('--m10',action='store_true',help='Open the M10 variation interface.')
     editor.add_argument('--m9',action='store_true',help='Open the frozen M9 integration interface.')
     editor.add_argument('--m8',action='store_true',help='Open the frozen M8 laboratory interface.')
@@ -49,6 +50,7 @@ def main():
     mcp.add_argument('--reliability',action='store_true',help='Use M6 reliability and background proofs in headless mode.')
     mcp.add_argument('--forge',action='store_true',help='Use M7 Language Forge in headless mode.')
     mcp.add_argument('--laboratory',action='store_true',help='Use M8 executable language tests in headless mode.')
+    mcp.add_argument('--reading',action='store_true',help='Use M12 parallel reading controls in headless mode.')
     mcp.add_argument('--spelling',action='store_true',help='Use M11 Maxima and topic variation in headless mode.')
     mcp.add_argument('--variation',action='store_true',help='Use M10 variation controls in headless mode.')
     mcp.add_argument('--integration',action='store_true',help='Use M9 merges and releases in headless mode.')
@@ -84,10 +86,11 @@ def main():
         from .integration_api import METHODS as INTEGRATION_METHODS
         from .variation_api import METHODS as VARIATION_METHODS
         from .spelling_api import METHODS as SPELLING_METHODS
+        from .reading_api import METHODS as READING_METHODS
         reliability_methods=RELIABILITY_METHODS
         if info['apiVersion']=='0.7.0':
             reliability_methods={k:v for k,v in RELIABILITY_METHODS.items() if not k.startswith('ui.sidebar')}
-        serve(args.root, descriptor=args.descriptor,methods=SPELLING_METHODS if info['apiVersion']=='0.12.0' else VARIATION_METHODS if info['apiVersion']=='0.11.0' else INTEGRATION_METHODS if info['apiVersion']=='0.10.0' else LABORATORY_METHODS if info['apiVersion']=='0.9.0' else FORGE_METHODS if info['apiVersion']=='0.8.0' else reliability_methods if info['apiVersion'] in ('0.7.0','0.7.1') else LANGUAGE_METHODS if info['apiVersion']=='0.6.0' else STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
+        serve(args.root, descriptor=args.descriptor,methods=READING_METHODS if info['apiVersion']=='0.13.0' else SPELLING_METHODS if info['apiVersion']=='0.12.0' else VARIATION_METHODS if info['apiVersion']=='0.11.0' else INTEGRATION_METHODS if info['apiVersion']=='0.10.0' else LABORATORY_METHODS if info['apiVersion']=='0.9.0' else FORGE_METHODS if info['apiVersion']=='0.8.0' else reliability_methods if info['apiVersion'] in ('0.7.0','0.7.1') else LANGUAGE_METHODS if info['apiVersion']=='0.6.0' else STUDIO_METHODS if info['apiVersion']=='0.5.0' else TYPESETTING_METHODS if info['apiVersion']=='0.4.0' else EDITOR_METHODS if info['apiVersion']=='0.3.0' else None)
         return 0
     # Windows' offscreen plugin uses a dummy font backend. Hidden native Qt
     # supplies the same fonts and geometry as the window; Linux uses offscreen.
@@ -101,7 +104,8 @@ def main():
     from tools.m0.common import write_json
     app = QApplication.instance() or QApplication([])
     app.setApplicationName('Vayrshemon')
-    use_spelling=(args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10))) or (args.command=='mcp' and args.spelling)
+    use_reading=(args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10,args.m11))) or (args.command=='mcp' and args.reading)
+    use_spelling=use_reading or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9,args.m10))) or (args.command=='mcp' and args.spelling)
     use_variation=use_spelling or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8,args.m9))) or (args.command=='mcp' and args.variation)
     use_integration=use_variation or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7,args.m8))) or (args.command=='mcp' and args.integration)
     use_laboratory=use_integration or (args.command=='editor' and not any((args.m2,args.m3,args.m4,args.m5,args.m6,args.m7))) or (args.command=='mcp' and args.laboratory)
@@ -137,8 +141,9 @@ def main():
         from .integration_api import IntegrationSession,IntegrationAPI
         from .variation_api import VariationSession,VariationAPI
         from .spelling_api import SpellingSession,SpellingAPI
-        session=(SpellingSession if use_spelling else VariationSession if use_variation else IntegrationSession if use_integration else LaboratorySession if use_laboratory else ForgeSession if use_forge else ReliabilitySession if use_reliability else LanguageSession if use_language else StudioSession if use_studio else TypesettingSession if use_typesetter else AuthoringSession)(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
-        api=(SpellingAPI if use_spelling else VariationAPI if use_variation else IntegrationAPI if use_integration else LaboratoryAPI if use_laboratory else ForgeAPI if use_forge else ReliabilityAPI if use_reliability else LanguageAPI if use_language else StudioAPI if use_studio else TypesettingAPI if use_typesetter else EditorAPI)(session)
+        from .reading_api import ReadingSession,ReadingAPI
+        session=(ReadingSession if use_reading else SpellingSession if use_spelling else VariationSession if use_variation else IntegrationSession if use_integration else LaboratorySession if use_laboratory else ForgeSession if use_forge else ReliabilitySession if use_reliability else LanguageSession if use_language else StudioSession if use_studio else TypesettingSession if use_typesetter else AuthoringSession)(args.root,source_fonts=not args.no_source_fonts,recovery=args.command in ('editor','mcp'))
+        api=(ReadingAPI if use_reading else SpellingAPI if use_spelling else VariationAPI if use_variation else IntegrationAPI if use_integration else LaboratoryAPI if use_laboratory else ForgeAPI if use_forge else ReliabilityAPI if use_reliability else LanguageAPI if use_language else StudioAPI if use_studio else TypesettingAPI if use_typesetter else EditorAPI)(session)
     else:
         session = Session(args.root, source_fonts=not args.no_source_fonts)
         api = API(session)
@@ -162,7 +167,8 @@ def main():
         from .integration_window import IntegrationWindow
         from .variation_window import VariationWindow
         from .spelling_window import SpellingWindow
-        window=(SpellingWindow if use_spelling else VariationWindow if use_variation else IntegrationWindow if use_integration else LaboratoryWindow if use_laboratory else ForgeWindow if use_forge else ReliabilityWindow if use_reliability else LanguageWindow if use_language else StudioWindow if use_studio else WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
+        from .reading_window import ReadingWindow
+        window=(ReadingWindow if use_reading else SpellingWindow if use_spelling else VariationWindow if use_variation else IntegrationWindow if use_integration else LaboratoryWindow if use_laboratory else ForgeWindow if use_forge else ReliabilityWindow if use_reliability else LanguageWindow if use_language else StudioWindow if use_studio else WorkbenchWindow if use_typesetter else EditorWindow)(session,api)
         server=LocalServer(api)
         app.aboutToQuit.connect(server.close)
         window.show()

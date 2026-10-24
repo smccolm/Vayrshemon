@@ -99,16 +99,17 @@ def apply(project,test_id,plan_id,expected_generation):
     rule_id='spelling.initial-maxima';rule=dict(id=rule_id,title='Sentence-initial Maxima',kind='letterforms',grammarId=policy['grammarId'],config={})
     existing=next((r for r in s['laboratory']['rules'] if r['id']==rule_id),None);require(existing is None or existing==rule,'RULE_ID_CONFLICT')
     if existing is None:s['laboratory']['rules'].append(rule)
-    added=[]
+    added=[];renamed={}
     for group,paragraph in zip(test['caseIds'],test['paragraphs']):
         for i,cid in enumerate(group):
             c=deepcopy(cases[cid]);proof=inspect_text(c['text'],policy,mapping);require(not proof['unmappedInitials'],'UNMAPPED_INITIAL')
+            if c.get('antecedent') and c['antecedent']['caseId'] in renamed:c['antecedent']['caseId']=renamed[c['antecedent']['caseId']]
             if i and cases[group[i-1]]['text'].rstrip(' '+policy['openingCharacters'])[-1:] not in policy['terminalCharacters']:raise ValueError('SPELLING_SENTENCE_BOUNDARY_REQUIRED')
             key='spelling.'+digest(dict(case=c,policy=policy))[:24];c.update(id=key,title='Maxima · '+c['title'][:190],text=proof['text']);c['ruleIds']=list(dict.fromkeys(c['ruleIds']+[rule_id]));c['note']+=' Explicit Maxima review; prior source case retained.'
             # One mapped scalar replaces one scalar; annotation offsets are exact.
             if key not in cases:cases[key]=c;s['laboratory']['cases'].append(c);added.append(key)
             else:require(cases[key]==c,'CASE_ID_CONFLICT')
-            group[i]=key
+            renamed[cid]=key;group[i]=key
         paragraph['text']=' '.join(cases[cid]['text'] for cid in group)
     validate_snapshot(s);result=project.replace_draft(s,expected_generation)
     return dict(**result,addedCaseIds=added,audit=audit(s,test_id))

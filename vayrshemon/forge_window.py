@@ -85,6 +85,7 @@ class ForgePanel(QWidget):
             if hasattr(self,'integration'): self.integration.refresh()
             if hasattr(self,'variation'): self.variation.refresh()
             if hasattr(self,'spelling'): self.spelling.refresh()
+            if hasattr(self,'reading'): self.reading.refresh()
 
     def flush(self):
         self.timer.stop()

@@ -59,7 +59,7 @@ function Find-Python312 {
             Write-Host $_.Exception.Message
         }
     }
-    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0 through M11 are tested with Python 3.12.7.'
+    throw 'Python 3.12 (64-bit) is required. Install it and make it available as python or through the py launcher, then rerun setup.bat. M0 through M12 are tested with Python 3.12.7.'
 }
 
 try {
@@ -71,7 +71,7 @@ try {
     $logPath = Join-Path $logDirectory "setup-$runId.log"
     Start-Transcript -LiteralPath $logPath | Out-Null
     $transcribing = $true
-    Write-Host "Vayrshemon M11 0.12.0 setup - $projectRoot"
+    Write-Host "Vayrshemon M12 0.13.0 setup - $projectRoot"
     Write-Host "Console log: $logPath"
 
     if (Test-Path -LiteralPath $environmentPath) {
@@ -99,7 +99,7 @@ try {
         Write-Host "Offline wheelhouse: $wheelDirectory"
     }
     Invoke-Python $environmentPython (@('-m', 'pip', '--require-virtualenv', 'install',
-        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m11.txt') + $wheelArguments)
+        '--disable-pip-version-check', '--no-input', '--only-binary=:all:', '-r', 'requirements-m12.txt') + $wheelArguments)
     Invoke-Python $environmentPython @('-m', 'pip', '--disable-pip-version-check', 'check')
     Invoke-Python $environmentPython @('-m', 'tools.dependency_audit', '--out', ".local/logs/dependencies-$runId.json")
     Invoke-Python $environmentPython @('-m', 'tools.m0', '--log', ".local/logs/setup-check-$runId.jsonl", 'check')
@@ -118,8 +118,8 @@ try {
 
     Write-Host ''
     Write-Host 'Setup complete. Dependencies, evidence checks, and tests passed.'
-    Write-Host 'Double-click launch.bat to open M11 (Language Workbench + Language Forge).'
-    Write-Host 'Forge projects: *.vayforge; versioned dictionaries, wiki, branches and tests. Maxima spelling, topic variation, tests and PNG export: docs\M11.md.'
+    Write-Host 'Double-click launch.bat to open M12 (Language Workbench + Language Forge).'
+    Write-Host 'Forge projects: *.vayforge; versioned dictionaries, wiki, branches and tests. Transliteration, Maxima and discourse continuity, tests and PNG export: docs\M12.md.'
     Write-Host 'Panel shortcuts: Ctrl+Alt+B expands/collapses; Ctrl+Alt+P pins/unpins. See docs\M6.1.md.'
     Write-Host 'Offline recovery: python -S tools\recovery.py --help'
     Write-Host 'Versioned installation and rollback: installed.bat --help (see docs\M6.md).'
