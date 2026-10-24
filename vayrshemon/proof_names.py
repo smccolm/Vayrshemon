@@ -13,10 +13,16 @@ def suggested_proof_path(session, extension, *, page_side=None):
     return str(session.root/'.local'/f'{name}.{extension}')
 
 
-def spread_png_paths(path, count=2):
+def spread_proof_paths(path, count=2, extension='png'):
     """Accept either the common stem or one suggested side; use one timestamp."""
-    if count not in (1,2):raise ValueError('PNG_SPREAD_PAGE_COUNT')
-    p=Path(path);stem=p.name[:-4] if p.name.lower().endswith('.png') else p.name
+    if extension not in ('png','svg'):raise ValueError('SPREAD_PROOF_FORMAT')
+    if count not in (1,2):raise ValueError(extension.upper()+'_SPREAD_PAGE_COUNT')
+    suffix='.'+extension
+    p=Path(path);stem=p.name[:-len(suffix)] if p.name.lower().endswith(suffix) else p.name
     stem=re.sub(r'_(left|right)$','',stem,flags=re.IGNORECASE)
-    if not stem:raise ValueError('PNG_FILENAME_REQUIRED')
-    return [str(p.with_name(stem+'_'+side+'.png')) for side in ('Left','Right')[:count]]
+    if not stem:raise ValueError(extension.upper()+'_FILENAME_REQUIRED')
+    return [str(p.with_name(stem+'_'+side+suffix)) for side in ('Left','Right')[:count]]
+
+
+def spread_png_paths(path, count=2):
+    return spread_proof_paths(path,count,'png')

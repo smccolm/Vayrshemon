@@ -24,14 +24,15 @@ class JobManager:
         page_ids=params.pop('page_ids',None);hashes=params.pop('replace_sha256s',None)
         outputs=None
         if page_ids is not None:
-            from .proof_names import spread_png_paths
-            if params['format']!='png' or 'page_id' in params or replace_sha256 is not None:raise ValueError('PNG_SPREAD_PARAMS')
-            if not isinstance(page_ids,list) or not 1<=len(page_ids)<=2 or len(set(page_ids))!=len(page_ids):raise ValueError('PNG_SPREAD_PAGE_COUNT')
+            from .proof_names import spread_proof_paths
+            prefix=params['format'].upper()+'_SPREAD_'
+            if params['format'] not in ('png','svg') or 'page_id' in params or replace_sha256 is not None:raise ValueError(prefix+'PARAMS')
+            if not isinstance(page_ids,list) or not 1<=len(page_ids)<=2 or len(set(page_ids))!=len(page_ids):raise ValueError(prefix+'PAGE_COUNT')
             if not set(page_ids)<={p['pageId'] for p in self.book.state['pages']}:raise ValueError('PAGE_NOT_FOUND')
             if hashes is None:hashes=[None]*len(page_ids)
-            if len(hashes)!=len(page_ids):raise ValueError('PNG_SPREAD_REPLACEMENT_COUNT')
-            outputs=[dict(path=p,pageId=pid,replaceSha256=h) for p,pid,h in zip(spread_png_paths(path,len(page_ids)),page_ids,hashes)]
-        elif hashes is not None:raise ValueError('PNG_SPREAD_PARAMS')
+            if len(hashes)!=len(page_ids):raise ValueError(prefix+'REPLACEMENT_COUNT')
+            outputs=[dict(path=p,pageId=pid,replaceSha256=h) for p,pid,h in zip(spread_proof_paths(path,len(page_ids),params['format']),page_ids,hashes)]
+        elif hashes is not None:raise ValueError(params['format'].upper()+'_SPREAD_PARAMS')
         destinations=outputs or [dict(path=path,replaceSha256=replace_sha256)]
         for item in destinations:
             if item['replaceSha256'] is None:destination=target(self.book,item['path'])
@@ -45,7 +46,7 @@ class JobManager:
         snapshot=dict(format='vayrshemon.document',formatVersion=self.book.file_version,state=state,history=[],engine=self.book.fingerprint())
         write_json(folder/'snapshot.vay.json',snapshot)
         request=dict(root=str(self.book.root),params=dict(params,path=str(folder/('proof.'+params['format']))))
-        if outputs:request=dict(root=str(self.book.root),outputs=[dict(params,page_id=o['pageId'],path=str(folder/f'proof-{i}.png')) for i,o in enumerate(outputs)])
+        if outputs:request=dict(root=str(self.book.root),outputs=[dict(params,page_id=o['pageId'],path=str(folder/f"proof-{i}.{params['format']}")) for i,o in enumerate(outputs)])
         write_json(folder/'request.json',request)
         log_path=folder/'worker.log'
         env=dict(os.environ,PYTHONUTF8='1',PYTHONUNBUFFERED='1')
@@ -80,7 +81,7 @@ class JobManager:
                     if sha(payload)!=render['sha256']:raise ValueError('WORKER_OUTPUT_HASH_MISMATCH')
                     destination=Path(item['path']);previous=item.get('replaceSha256')
                     if (previous is None and destination.exists()) or (previous is not None and (not destination.is_file() or sha(destination.read_bytes())!=previous)):
-                        raise ValueError('EXPORT_TARGET_CHANGED: existing images were preserved')
+                        raise ValueError('EXPORT_TARGET_CHANGED: existing proofs were preserved')
                     prepared.append((item,render,payload))
                 published=[]
                 for item,render,payload in prepared:
@@ -102,7 +103,17 @@ class JobManager:
             result={k:deepcopy(v) for k,v in job.items() if not k.startswith('_')}
             result['stale']=job['documentId']!=self.book.state['documentId'] or job['revision']!=self.book.revision
             progress=Path(job['folder'])/'progress.json'
-            result['progress']=load_json(progress) if progress.exists() else dict(phase='starting')
+            try:
+                job['_progress']=load_json(progress)
+                job['_progressBusy']=False
+            except FileNotFoundError:pass
+            except PermissionError:
+                # Windows can briefly lock this replaceable progress label.
+                # Keep polling; result/hash/destination validation stays strict.
+                if not job.get('_progressBusy'):
+                    self.book.log.emit('jobs','PROGRESS_READ_BUSY',level='debug',jobId=job['jobId'],path=str(progress))
+                job['_progressBusy']=True
+            result['progress']=deepcopy(job.get('_progress',dict(phase='starting')))
             return result
         if job_id:
             if job_id not in self.jobs: raise ValueError('JOB_NOT_FOUND')

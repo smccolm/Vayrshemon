@@ -2,7 +2,7 @@
 from copy import deepcopy
 from pathlib import Path
 from unittest.mock import patch
-import time,unittest,uuid
+import shutil,time,unittest,uuid
 import numpy as np
 from PySide6.QtWidgets import QApplication,QPushButton,QMessageBox
 from PySide6.QtCore import Qt,QCoreApplication,QEvent
@@ -20,7 +20,8 @@ STAMP=r'\d{4}-\d{2}-\d{2}_\d{2}-\d{2}-\d{2}_\d{3}'
 class SpreadPNGTests(unittest.TestCase):
     def setUp(self):
         self.work=ROOT/'.local/test-png-spread'/uuid.uuid4().hex;self.work.mkdir(parents=True)
-        self.s=GlossSession(ROOT,source_fonts=False,recovery=False);self.api=GlossAPI(self.s)
+        shutil.copytree(ROOT/'schemas',self.work/'schemas');shutil.copytree(ROOT/'data',self.work/'data')
+        self.s=GlossSession(self.work,source_fonts=False,recovery=False);self.api=GlossAPI(self.s)
         self.left=self.s.current_page()['pageId'];self.call('document.edit',start=0,end=0,text='LEFT')
         self.call('page.add',width=480,height=900);self.right=self.s.current_page()['pageId'];self.call('document.edit',start=0,end=0,text='RIGHT')
         self.w=GlossWindow(self.s,self.api);self.w.proof_dpi.setValue(72);self.w.page_controls.set_mode('two')

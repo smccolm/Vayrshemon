@@ -2,7 +2,7 @@
 from pathlib import Path
 from PySide6.QtCore import QEvent,QTimer
 from PySide6.QtGui import QIcon
-from PySide6.QtWidgets import QFileDialog,QMessageBox
+from PySide6.QtWidgets import QFileDialog,QMessageBox,QPushButton
 from .gloss_window import GlossWindow
 
 
@@ -30,11 +30,19 @@ class FileWindow(GlossWindow):
         self.export_menu=menu.addMenu('Export')
         self.png_export_action=self.export_menu.addAction('PNG…',lambda:self.guard(self.export_png))
         self.svg_export_action=self.export_menu.addAction('SVG…',lambda:self.guard(self.export_svg))
-        self.svg_export_action.setToolTip('Export the selected page as an SVG proof. Color relief uses an embedded image.')
+        self.svg_export_action.setToolTip('Export the visible page or both facing pages as SVG proofs. Color relief uses embedded images.')
+
+    def export_proof(self,kind):
+        if kind!='svg':return super().export_proof(kind)
+        from .page_proof_export import export_pages
+        return export_pages(self,kind)
 
     def __init__(self,book,api):
         self.workspace_layout=None
         super().__init__(book,api)
+        for button in self.findChildren(QPushButton):
+            if button.text() in ('Export PNG · current page','Export SVG · current page'):
+                button.setText(button.text().replace('current page','current view'))
         language=self.language_menu
         language.addSeparator()
         self.update_transliteration_action=language.addAction('Update transliteration',self.update_transliteration)

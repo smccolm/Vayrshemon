@@ -6273,7 +6273,7 @@
         "idempotencyKey"
       ],
       "additionalProperties": false,
-      "description": "Export one proof, or PNG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right."
+      "description": "Export one proof, or PNG/SVG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right. Both destinations are checked before publishing."
     },
     {
       "type": "object",

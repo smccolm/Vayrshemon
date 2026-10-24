@@ -9,6 +9,7 @@ from .file_contracts import DOCUMENT
 from . import saved_preview
 
 METHODS=deepcopy(BASE)
+METHODS['jobs.export']=('Export one proof, or PNG/SVG pages from one immutable snapshot using page_ids and a common path stem; spread filenames end _Left and _Right. Both destinations are checked before publishing.',*METHODS['jobs.export'][1:])
 for name in ('document.save','document.save-as'):
     METHODS[name][2]['properties']['preview_mode']={'enum':['one','two']}
     METHODS[name]=(METHODS[name][0]+' Embed the visible page/spread and saved color mode atomically. Headless saves reuse the saved page mode, or one page; preview_mode overrides it.',*METHODS[name][1:])
@@ -19,7 +20,7 @@ METHODS['page.transliteration.update']=('Update the existing Transliteration 7 c
 
 
 class FileSession(GlossSession):
-    application_version='0.15.12'
+    application_version='0.15.13'
     file_version='0.6.0'
     document_schema=DOCUMENT
 

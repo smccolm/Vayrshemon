@@ -2,6 +2,13 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 paired SVG export 0.15.13 — 2026-10-24
+
+- File → Export → SVG now exports both visible pages in two-page mode as `DateTimestamp_Left.svg` and `DateTimestamp_Right.svg`, using one timestamp and document snapshot. Single-page mode exports one `DateTimestamp.svg`; an unpaired final page produces only `_Left`.
+- Share PNG's filename, overwrite and background-job handling with SVG. Check both destinations before publishing, preserve files changed during rendering, and cancel both outputs together. Keep PNG in the bottom bar and SVG in the File menu; the Publish panel uses the same visible-page behavior.
+- Retain the last progress message during a transient Windows progress-file lock; log the retry condition without failing status polling or weakening output validation.
+- Preserve monochrome vector outlines, color bevel/glow at the selected DPI, exact glyphs/Maxima, formatting and page dimensions. Publish paired SVG through the existing `jobs.export` API/MCP controls and update setup.bat without new dependencies.
+
 ## M14 compact proof exports 0.15.12 — 2026-10-24
 
 - Remove SVG proof from the current Workbench bottom bar; keep PNG in the bottom bar and both formats under File → Export. Earlier milestone windows retain their export buttons.
