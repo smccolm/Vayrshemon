@@ -1,5 +1,5 @@
 @echo off
-rem M14 0.15.4 dependencies, default Saves folder and regressions live in tools\setup.ps1.
+rem M14 0.15.5 dependencies, minimal filename title and regressions live in tools\setup.ps1.
 rem First shell install uses Windows administrator approval for the isolated native thumbnail component.
 setlocal
 set "SETUP_NO_PAUSE="

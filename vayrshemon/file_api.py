@@ -17,7 +17,7 @@ METHODS['shell.status']=('Inspect Windows .vay association and installed icon/th
 
 
 class FileSession(GlossSession):
-    application_version='0.15.4'
+    application_version='0.15.5'
     file_version='0.6.0'
     document_schema=DOCUMENT
 

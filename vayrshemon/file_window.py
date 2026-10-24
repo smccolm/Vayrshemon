@@ -43,7 +43,12 @@ class FileWindow(GlossWindow):
         super().refresh()
         path=self.book.saved_path
         self.setWindowFilePath(str(path) if path else '')
-        self.setWindowTitle((Path(path).name if path else 'Untitled')+(' *' if self.book.dirty else '')+' — Vayrshemon')
+        title=Path(path).name if path else 'Untitled'
+        for suffix in ('.vaylab.json','.vay.json','.vay'):
+            if path and title.lower().endswith(suffix):
+                title=title[:-len(suffix)]
+                break
+        self.setWindowTitle(title)
 
     def open_file(self):
         path,_=QFileDialog.getOpenFileName(self,'Open document',str(saves_directory(self.book)),'Vayrshemon (*.vay *.vay.json *.vaylab.json)')

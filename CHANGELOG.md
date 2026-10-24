@@ -2,6 +2,10 @@
 
 These entries distinguish specification revisions from evidence-tool and future application releases.
 
+## M14 minimal filename title 0.15.5 — 2026-10-24
+
+- Show only the filename without the native or legacy extension in the title bar, or Untitled before the first save. Remove the app name and title decorations; unsaved state remains in the status bar and close prompt. Keep setup.bat current.
+
 ## M14 default Saves folder 0.15.4 — 2026-10-24
 
 - Start Save for new documents, Save As and Open in the project's `Saves` folder (`E:\Vayrshemon\Saves` in this installation). Save As preserves the current filename and converts legacy suffixes to `.vay`; ordinary Save updates an existing file in place.

@@ -2,7 +2,7 @@
 
 A Windows desktop editor for custom typography and the long-term development of the Vayrshemon language.
 
-**Status: M14 implemented — .vay documents, version 0.15.4.** Save a single `.vay` file with a centered Memon icon reflecting its saved color mode and an embedded thumbnail of its saved page or facing spread. Old `.vay.json` and `.vaylab.json` documents remain readable. The approved four-column reading, automatic paragraph alignment, 50 pt Thimfora, 22 pt Roman, 38 pt leading, Maxima and bevel/glow are preserved. PNG still exports the visible pair as `DateTimestamp_Left.png` and `DateTimestamp_Right.png`, or the selected single page as `DateTimestamp.png`. There are 153 API/CLI/MCP controls; the native wrapper is 0.6.0, with unchanged editable state.
+**Status: M14 implemented — .vay documents, version 0.15.5.** Save a single `.vay` file with a centered Memon icon reflecting its saved color mode and an embedded thumbnail of its saved page or facing spread. Old `.vay.json` and `.vaylab.json` documents remain readable. The approved four-column reading, automatic paragraph alignment, 50 pt Thimfora, 22 pt Roman, 38 pt leading, Maxima and bevel/glow are preserved. PNG still exports the visible pair as `DateTimestamp_Left.png` and `DateTimestamp_Right.png`, or the selected single page as `DateTimestamp.png`. There are 153 API/CLI/MCP controls; the native wrapper is 0.6.0, with unchanged editable state.
 
 The editor will support custom page dimensions, English and multilingual documents, Thimfora lettering, monochrome TTFs, and editable color treatments built from those fonts. APIs, MCP automation, layout inspection, and recoverable document history are part of the foundation.
 
