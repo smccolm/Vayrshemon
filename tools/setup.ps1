@@ -384,6 +384,7 @@ try {
     Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.279')
     Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.280')
     Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.281')
+    Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.282')
     Ensure-ShellBuildTools
     Invoke-Python $environmentPython @('-m', 'tools.windows_shell', '--build')
     Invoke-Python $environmentPython @('-m', 'unittest', 'discover', '-s', 'tests', '-v')
@@ -424,8 +425,9 @@ try {
     Write-Host 'Explorer integration: per-user file associations + isolated system thumbnail component. See docs\M14.md.'
     Write-Host 'Remove integration: .venv\Scripts\python.exe -m tools.windows_shell --uninstall'
     Write-Host 'Forge projects: *.vayforge; versioned dictionaries, wiki, branches and tests. Construction glosses, four-column spreads, Maxima, tests and PNG export: docs\M13.md.'
-    Write-Host 'New translations start from the hash-verified later dramatic 0.12 language in data\language\current.json. Dictionary, historical-reference scopes, grammar, inherited clause-flow tests and prior compiler bytes are bundled; see docs\CURRENT_LANGUAGE.md. Definitive historical 281 stays frozen. Private books and archived Forge history remain in Saves.'
+    Write-Host 'New translations start from the hash-verified later dramatic 0.12 language in data\language\current.json. Dictionary, historical-reference scopes, grammar, inherited clause-flow tests and prior compiler bytes are bundled; see docs\CURRENT_LANGUAGE.md. Current historical 282 stays frozen; 281 remains archived. Private books and archived Forge history remain in Saves.'
     Write-Host 'Historical correction 281 adds construct phrases, dependent pronouns and varied clause continuation. Its compact edition opens each book on the next available page, left or right. Setup verifies the bundled grammar and tests; it never regenerates private Bible editions or changes older saves.'
+    Write-Host 'Historical correction 282 applies the author-selected Yeshua form and removes internal context labels from proper-name glosses. Distinct people, places, source text and historical grammar are preserved. Both complete editions are private Saves; earlier editions use verified compressed archives.'
     Write-Host 'Panel shortcuts: Ctrl+Alt+B expands/collapses; Ctrl+Alt+P pins/unpins. See docs\M6.1.md.'
     Write-Host 'Blank startup uses Monochrome: black on white, Fit Height and single-page mode. File > New also starts black on white. Saved documents restore their saved color mode and page view. Fresh installs open maximized with controls collapsed/unpinned and source/diagnostics/guides hidden. Existing panel choices are retained.'
     Write-Host 'File > Close (Ctrl+W) closes the document without quitting. Close and New return to a centered, single blank page in Fit Height without marking it edited. Unsaved changes offer Save, Discard or Cancel; cancelling or failing a save keeps the document open.'

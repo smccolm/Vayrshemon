@@ -6,7 +6,7 @@ from .control import call
 from .benchmark import memory
 
 def main():
-    source=ROOT/'Saves/KJV Bible v0.10-kjv.281/KJV Bible.vay';sha=file_hash(source)
+    source=ROOT/'Saves/KJV Bible v0.10-kjv.282/KJV Bible.vay';sha=file_hash(source)
     profile=LOCAL/'benchmarks'/('cold-'+time.strftime('%Y%m%d-%H%M%S'));profile.mkdir(parents=True)
     descriptor=profile/'run/active.json';env=dict(os.environ,VAY_READER_CACHE=str(profile),PYTHONUTF8='1')
     results=[]

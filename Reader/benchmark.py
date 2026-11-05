@@ -29,7 +29,7 @@ def memory(pid):
         kernel.CloseHandle.argtypes=[wintypes.HANDLE];kernel.CloseHandle(handle)
 
 def main():
-    p=argparse.ArgumentParser();p.add_argument('--source',default=str(ROOT/'Saves/KJV Bible v0.10-kjv.281/KJV Bible.vay'));p.add_argument('--output',default=str(LOCAL/'benchmarks/live.json'));args=p.parse_args()
+    p=argparse.ArgumentParser();p.add_argument('--source',default=str(ROOT/'Saves/KJV Bible v0.10-kjv.282/KJV Bible.vay'));p.add_argument('--output',default=str(LOCAL/'benchmarks/live.json'));args=p.parse_args()
     output=Path(args.output);output.parent.mkdir(parents=True,exist_ok=True);results=[];started=time.perf_counter()
     def action(label,method,params,timeout=60):
         t=time.perf_counter();r=call(method,params);aid=r['result'].get('actionId')

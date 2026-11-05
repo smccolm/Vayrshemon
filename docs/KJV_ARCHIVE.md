@@ -1,3 +1,16 @@
+# Current historical Bible · 0.10-kjv.282
+
+**Current historical Bible: 0.10-kjv.282.** The author explicitly selected **Yeshūa** and requested correction of both complete editions plus similar leaked name labels. Native minima `yeÛça`, proper Maxima `YeÛça`; Roman **Yeshūa**. Five distinct name entries (including Baryeshūa) retain separate semantic identities. 942 verse texts and 3,990 verse glosses corrected; 2,154 proper-name display labels repaired. All 31,102 verses, all 66 books, exact KJV English and authored analyses remain. No ordinary roots or grammar changed; this is an authorized correction, not modernization.
+
+- Compact: `Saves/KJV Bible - Compact Letter Edition v0.10-kjv.282/KJV Bible - Vayrshemon Compact Letter Edition.vay`, 1,912 pages / 956 sheets, SHA256 `42aca1b6dbb594b2b8f49817e793278186e3f9fe06de7f601fd3649ee649c6a2`. Original 26/18 pt print treatment, Maxima, supplied artwork, mirrored binding offsets and protected folios. Blank document pages [2, 1912]; no inter-book blanks. Book openings use either side.
+- Progressive/four-column: `Saves/KJV Bible v0.10-kjv.282/KJV Bible.vay`, 22,060 pages, SHA256 `9f37f4432a90065996380110a62e736e4dc7e554de275eb664d903d3f1b2e2a3`. 2,507 spreads remeasured; 8,523 exact unchanged spreads retain sealed measurements under the same engine. All 44,120 single/paired folio placements checked, all four columns exact, save/reopen identical. Approved 50/22 pt, 38 pt leading, Maxima and paint preserved.
+- Versioned package: `data/language/archaic-kjv-282/`; head `d52385bc1c1fced214fa5cb1b1b14484f6e100eded01ef767d34b6a637dc1a80`. The small `Saves/KJV Bible v0.10-kjv.282/KJV 282.vayforge` imports the exact 281 snapshot as a clearly identified local root and commits 282. Full older ancestry remains in the previous archive; `forge-import.json` records the distinction.
+- Exact 281 editions: `Saves/Archive/Previous editions/KJV before 282.7z`; extracted SHA256 checks and removal records in `Saves/Maintenance/2026-11-05-name-correction-282/`. Do not recreate redundant unpacked editions in setup. The 281 package and historical seals are unchanged inside the archive.
+
+Both current editions are sealed and permanently excluded from automatic consolidation. Later dramatic 0.12 and both plays remain unchanged. The name selection is an author preference for future uses, not a fictional sound-change claim. Structural validation and translator review are not independent literary certification.
+
+# Archived 281 record
+
 # Definitive historical Bible · 0.10-kjv.281
 
 The author declared the **compact 281 complete, sealed and definitive** on 2026-11-05. It contains all 31,102 verses and 66 major sections, 1,912 pages / 956 duplex sheets. Its native SHA256 is `4b28e48afa0d22deb8797eea073e96820e994904e84596fd3fdfb69d7c710d1e`. Do not modernize, rebuild or silently revise it.

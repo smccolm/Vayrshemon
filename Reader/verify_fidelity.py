@@ -8,7 +8,7 @@ from .render import Engine,read_image
 def main():
     from vayrshemon.file_api import FileSession
     from vayrshemon import pages,page_numbering
-    source=ROOT/'Saves/KJV Bible v0.10-kjv.281/KJV Bible.vay'
+    source=ROOT/'Saves/KJV Bible v0.10-kjv.282/KJV Bible.vay'
     before=file_hash(source);app=QApplication([]);started=time.perf_counter()
     reference=FileSession(ROOT,recovery=False);reference.log.emit=lambda *a,**k:None
     reference.open(source,advance_revision=False)
