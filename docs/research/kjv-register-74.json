@@ -1,0 +1,429 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.74",
+    "parentVersion": "0.10-kjv.73",
+    "parentHead": "178c5f284b0607c1e68c92740d67607cc46aff06ed5edb7f55e7aedad5fd6934",
+    "head": "a800801da075d1c8e3403e2ef68220175ee2941c0f7b7d4f54f20342b0fb4807",
+    "newLexicalEntries": 34,
+    "newProperEntries": 28,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 28,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 57,
+    "exactCompilerCases": 57,
+    "newAuthoredVerses": 57,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 669,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20851,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 57,
+    "kings2Verses": 669,
+    "authoredVerses": 10251,
+    "remainingVerses": 20851,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 8,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 22:1",
+        "source": "Josiah was eight years old when he began to reign, and he reigned thirty and one years in Jerusalem. And his mother’s name was Jedidah, the daughter of Adaiah of Boscath.",
+        "expectedDecimalQuantities": [
+          8,
+          31
+        ],
+        "targetQuantities": [
+          8,
+          31
+        ]
+      },
+      {
+        "reference": "2 Kings 22:3",
+        "source": "And it came to pass in the eighteenth year of king Josiah, that the king sent Shaphan the son of Azaliah, the son of Meshullam, the scribe, to the house of the LORD, saying,",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "2 Kings 23:4",
+        "source": "And the king commanded Hilkiah the high priest, and the priests of the second order, and the keepers of the door, to bring forth out of the temple of the LORD all the vessels that were made for Baal, and for the grove, and for all the host of heaven: and he burned them without Jerusalem in the fields of Kidron, and carried the ashes of them unto Bethel.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 23:12",
+        "source": "And the altars that were on the top of the upper chamber of Ahaz, which the kings of Judah had made, and the altars which Manasseh had made in the two courts of the house of the LORD, did the king beat down, and brake them down from thence, and cast the dust of them into the brook Kidron.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 23:23",
+        "source": "But in the eighteenth year of king Josiah, wherein this passover was holden to the LORD in Jerusalem.",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "2 Kings 23:31",
+        "source": "Jehoahaz was twenty and three years old when he began to reign; and he reigned three months in Jerusalem. And his mother’s name was Hamutal, the daughter of Jeremiah of Libnah.",
+        "expectedDecimalQuantities": [
+          23,
+          3
+        ],
+        "targetQuantities": [
+          23,
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 23:33",
+        "source": "And Pharaohnechoh put him in bands at Riblah in the land of Hamath, that he might not reign in Jerusalem; and put the land to a tribute of an hundred talents of silver, and a talent of gold.",
+        "expectedDecimalQuantities": [
+          100,
+          1
+        ],
+        "targetQuantities": [
+          100,
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 23:36",
+        "source": "Jehoiakim was twenty and five years old when he began to reign; and he reigned eleven years in Jerusalem. And his mother’s name was Zebudah, the daughter of Pedaiah of Rumah.",
+        "expectedDecimalQuantities": [
+          25,
+          11
+        ],
+        "targetQuantities": [
+          25,
+          11
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "22:1": [
+        "eight year:pl",
+        "kjv_three+ten and one_num year:pl",
+        "kjv_jedidah daughter of kjv_adaiah_jedidah of kjv_boscath"
+      ],
+      "22:2": [
+        "kjv_right_conduct be:pa",
+        "kjv_right_side hand or to left"
+      ],
+      "22:3": [
+        "ten and eight:ord year",
+        "kjv_shaphan son of kjv_azaliah son of kjv_meshullam_shaphan"
+      ],
+      "22:4": [
+        "silver:a he reckon:pr:may",
+        "door keep:ag:pl"
+      ],
+      "22:5": [
+        "do:ag:pl of work",
+        "kjv_oversight",
+        "breach:pl of house:a repair:inf"
+      ],
+      "22:6": [
+        "carpenter:pl",
+        "kjv_mason:pl",
+        "wood and kjv_hew:psv stone"
+      ],
+      "22:7": [
+        "no reckon:ev make:psv:pa",
+        "faithfully they deal:pa"
+      ],
+      "22:8": [
+        "book of law:a i find:perf",
+        "he it:a read:pa"
+      ],
+      "22:9": [
+        "thy/servant:pl money:a gather:perf",
+        "kjv_oversight"
+      ],
+      "22:10": [
+        "book:a to i deliver:perf",
+        "before king read:pa"
+      ],
+      "22:11": [
+        "his/clothing:a he kjv_rend:pa"
+      ],
+      "22:12": [
+        "kjv_ahikam son of kjv_shaphan",
+        "kjv_achbor_michaiah son of kjv_michaiah_achbor",
+        "kjv_asahiah"
+      ],
+      "22:13": [
+        "for i and for people and for all kjv_judah",
+        "against wesg",
+        "ourone/father:pl",
+        "about wesg"
+      ],
+      "22:14": [
+        "kjv_huldah woman prophet",
+        "kjv_shallum_huldah son of kjv_tikvah son of kjv_harhas",
+        "kjv_wardrobe_store",
+        "kjv_college_locality"
+      ],
+      "22:15": [
+        "who you:a to i send:pa"
+      ],
+      "22:16": [
+        "its/inhabitant:pl ipl bring:fu",
+        "all word:pl of book"
+      ],
+      "22:17": [
+        "ipl:a they forsake:perf",
+        "mypl/wrath",
+        "extinguish:psv:fu not"
+      ],
+      "22:18": [
+        "about word:pl which thou hear:perf"
+      ],
+      "22:19": [
+        "thy/heart tender",
+        "ipl speak:pa",
+        "ipl hear:perf"
+      ],
+      "22:20": [
+        "into thy/tomb in peace",
+        "eye:pl all evil:a see:fu not",
+        "ipl bring:fu"
+      ],
+      "23:1": [
+        "all kjv_elder:pl of kjv_judah and of kjv_jerusalem"
+      ],
+      "23:2": [
+        "both small and great",
+        "all word:pl of book of kjv_covenant"
+      ],
+      "23:3": [
+        "by kjv_pillar",
+        "all their/heart and all their/soul",
+        "all people to kjv_covenant stand:pa"
+      ],
+      "23:4": [
+        "two:ord order",
+        "outside kjv_jerusalem",
+        "their/kjv_ashes:a to kjv_bethel"
+      ],
+      "23:5": [
+        "kjv_ordain:pp",
+        "kjv_planet:pl",
+        "all army of heaven"
+      ],
+      "23:6": [
+        "its/kjv_powder:a",
+        "tomb:pl of child:pl of people"
+      ],
+      "23:7": [
+        "kjv_sodomite_source_label:pl",
+        "women hang:psv cloth:pl:a",
+        "weave:pa"
+      ],
+      "23:8": [
+        "from kjv_geba to kjv_beersheba",
+        "kjv_joshua_governor",
+        "man left hand"
+      ],
+      "23:9": [
+        "come:pa up not",
+        "bread without kjv_leaven",
+        "among their/brother:pl"
+      ],
+      "23:10": [
+        "kjv_topheth",
+        "his/son or his/daughter:a",
+        "kjv_molech"
+      ],
+      "23:11": [
+        "horse:pl:a he take:pa away",
+        "kjv_nathanmelech kjv_chamberlain",
+        "chariot:pl of sun:a with fire burn:caus:pa"
+      ],
+      "23:12": [
+        "kjv_ahaz_jotham",
+        "two kjv_court_enclosure:pl",
+        "dust:a into brook kjv_kidron"
+      ],
+      "23:13": [
+        "kjv_right_side hand",
+        "kjv_ashtoreth",
+        "kjv_chemosh",
+        "kjv_milcom"
+      ],
+      "23:14": [
+        "with bone:pl of men fill:pa"
+      ],
+      "23:15": [
+        "kjv_jeroboam son of kjv_nebat",
+        "kjv_israel:a sin:caus:pa",
+        "both that altar and high place"
+      ],
+      "23:16": [
+        "bone:pl:a out of tomb:pl",
+        "it:a defile:pa",
+        "who these word:pl:a proclaim:pa"
+      ],
+      "23:17": [
+        "kjv_inscription_mark",
+        "that i see:pr",
+        "man of god"
+      ],
+      "23:18": [
+        "no man his/bone:pl:a move:opt",
+        "prophet who out of kjv_samaria"
+      ],
+      "23:19": [
+        "city:pl of kjv_samaria",
+        "kjv_according to all act:pl"
+      ],
+      "23:20": [
+        "priest:pl of high place:pl:a",
+        "upon altar:pl he slay:pa"
+      ],
+      "23:21": [
+        "kjv_passover:a",
+        "book of this kjv_covenant"
+      ],
+      "23:22": [
+        "from day:pl of judge:pl",
+        "nor of king:pl of kjv_judah"
+      ],
+      "23:23": [
+        "ten and eight:ord year",
+        "kjv_passover"
+      ],
+      "23:24": [
+        "kjv_familiar_spirit:pl",
+        "kjv_wizard:pl",
+        "kjv_hilkiah_priest priest find:pa"
+      ],
+      "23:25": [
+        "no king before he",
+        "neither after he any like he"
+      ],
+      "23:26": [
+        "kjv_lord turn:pa not",
+        "kjv_manasseh_hezekiah kjv_provoke:pp"
+      ],
+      "23:27": [
+        "mypl/sight ipl remove:fu",
+        "ipl choose:perf",
+        "mypl/name there be:fu"
+      ],
+      "23:28": [
+        "act:pl of kjv_josiah_amon",
+        "chronicle:pl"
+      ],
+      "23:29": [
+        "against king of kjv_assyria",
+        "kjv_euphrates",
+        "kjv_megiddo"
+      ],
+      "23:30": [
+        "he:a dead in chariot",
+        "kjv_jehoahaz_josiah son of kjv_josiah_amon"
+      ],
+      "23:31": [
+        "twenty and kjv_three year:pl",
+        "kjv_three month:pl",
+        "kjv_hamutal daughter of kjv_jeremiah_hamutal of kjv_libnah"
+      ],
+      "23:32": [
+        "his/father:pl do:pp"
+      ],
+      "23:33": [
+        "kjv_riblah_hamath",
+        "hundred kjv_talent_weight:pl of silver",
+        "one_num kjv_talent_weight of gold"
+      ],
+      "23:34": [
+        "kjv_eliakim_josiah son of kjv_josiah_amon",
+        "his/name:a to kjv_jehoiakim",
+        "kjv_jehoahaz_josiah:a take:pa away"
+      ],
+      "23:35": [
+        "of each kjv_according to his/kjv_tax_assessment",
+        "demand:pa"
+      ],
+      "23:36": [
+        "twenty and five year:pl",
+        "eleven year:pl",
+        "kjv_zebudah daughter of kjv_pedaiah_zebudah of kjv_rumah"
+      ],
+      "23:37": [
+        "his/father:pl do:pp"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Age8/reign31 and eighteenth-year events remain separate.",
+      "Second-order priesthood is ordinal rank,not a count of two people; two courts is a physical count.",
+      "Age23/reign3months and age25/reign11years remain distinct;100silver talents and1gold talent are separate assessments."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Personal priest,scribe,intermediary and perceiving king remain distinct from divine plural-I and singular-we community; the praised reform,violent acts,unaverted judgment and peaceful-grave promise remain unharmonized.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 550,
+    "spreads": 275,
+    "units": 669,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "140ba2227d3469bd67da8adbb820e555100d56518ff4e0cb66b1c9e96091eabb",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 275,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": "Four tests passed in10.378s: found-book, illness-inheritance, approved parallel translation.",
+  "proofsViewed": [
+    549,
+    550
+  ],
+  "status": "incomplete Bible; entire Bible remains active; next50verses authored in75 pending native verification."
+}

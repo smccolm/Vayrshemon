@@ -1,0 +1,666 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.274",
+    "parentVersion": "0.10-kjv.273",
+    "parentHead": "908bc2524a9539cea211cdf5946d222b05e10103b125459f57c455acb6db9e12",
+    "head": "8c86340dde0ebd46c920df6816c3731897e79ce81d7af108f1c0cec60c5bade5",
+    "newLexicalEntries": 3,
+    "newProperEntries": 1,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 47,
+    "exactCompilerCases": 47,
+    "newAuthoredVerses": 47,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 303,
+    "jamesVerses": 108,
+    "peter1Verses": 105,
+    "peter2Verses": 61,
+    "john1Verses": 105,
+    "john2Verses": 13,
+    "john3Verses": 14,
+    "judeVerses": 25,
+    "revelationVerses": 211,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 193,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newRevelationVerses": 47,
+    "revelationVerses": 211,
+    "authoredVerses": 30909,
+    "remainingVerses": 193,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 18,
+    "quantityChecks": [
+      {
+        "reference": "Revelation 10:3",
+        "source": "And cried with a loud voice, as when a lion roareth: and when he had cried, seven thunders uttered their voices.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 10:4",
+        "source": "And when the seven thunders had uttered their voices, I was about to write: and I heard a voice from heaven saying unto me, Seal up those things which the seven thunders uttered, and write them not.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 10:7",
+        "source": "But in the days of the voice of the seventh angel, when he shall begin to sound, the mystery of God should be finished, as he hath declared to his servants the prophets.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 11:2",
+        "source": "But the court which is without the temple leave out, and measure it not; for it is given unto the Gentiles: and the holy city shall they tread under foot forty and two months.",
+        "expectedDecimalQuantities": [
+          42
+        ],
+        "targetQuantities": [
+          42
+        ]
+      },
+      {
+        "reference": "Revelation 11:3",
+        "source": "And I will give power unto my two witnesses, and they shall prophesy a thousand two hundred and threescore days, clothed in sackcloth.",
+        "expectedDecimalQuantities": [
+          2,
+          1260
+        ],
+        "targetQuantities": [
+          2,
+          1260
+        ]
+      },
+      {
+        "reference": "Revelation 11:4",
+        "source": "These are the two olive trees, and the two candlesticks standing before the God of the earth.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Revelation 11:9",
+        "source": "And they of the people and kindreds and tongues and nations shall see their dead bodies three days and an half, and shall not suffer their dead bodies to be put in graves.",
+        "expectedDecimalQuantities": [
+          3.5
+        ],
+        "targetQuantities": [
+          3.5
+        ]
+      },
+      {
+        "reference": "Revelation 11:10",
+        "source": "And they that dwell upon the earth shall rejoice over them, and make merry, and shall send gifts one to another; because these two prophets tormented them that dwelt on the earth.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Revelation 11:11",
+        "source": "And after three days and an half the spirit of life from God entered into them, and they stood upon their feet; and great fear fell upon them which saw them.",
+        "expectedDecimalQuantities": [
+          3.5
+        ],
+        "targetQuantities": [
+          3.5
+        ]
+      },
+      {
+        "reference": "Revelation 11:13",
+        "source": "And the same hour was there a great earthquake, and the tenth part of the city fell, and in the earthquake were slain of men seven thousand: and the remnant were affrighted, and gave glory to the God of heaven.",
+        "expectedDecimalQuantities": [
+          0.1,
+          7000
+        ],
+        "targetQuantities": [
+          0.1,
+          7000
+        ]
+      },
+      {
+        "reference": "Revelation 11:14",
+        "source": "The second woe is past; and, behold, the third woe cometh quickly.",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "Revelation 11:15",
+        "source": "And the seventh angel sounded; and there were great voices in heaven, saying, The kingdoms of this world are become the kingdoms of our Lord, and of his Christ; and he shall reign for ever and ever.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 11:16",
+        "source": "And the four and twenty elders, which sat before God on their seats, fell upon their faces, and worshipped God,",
+        "expectedDecimalQuantities": [
+          24
+        ],
+        "targetQuantities": [
+          24
+        ]
+      },
+      {
+        "reference": "Revelation 12:1",
+        "source": "And there appeared a great wonder in heaven; a woman clothed with the sun, and the moon under her feet, and upon her head a crown of twelve stars:",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Revelation 12:3",
+        "source": "And there appeared another wonder in heaven; and behold a great red dragon, having seven heads and ten horns, and seven crowns upon his heads.",
+        "expectedDecimalQuantities": [
+          7,
+          10,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          10,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 12:4",
+        "source": "And his tail drew the third part of the stars of heaven, and did cast them to the earth: and the dragon stood before the woman which was ready to be delivered, for to devour her child as soon as it was born.",
+        "expectedDecimalQuantities": [
+          0.3333333333333333
+        ],
+        "targetQuantities": [
+          0.3333333333333333
+        ]
+      },
+      {
+        "reference": "Revelation 12:6",
+        "source": "And the woman fled into the wilderness, where she hath a place prepared of God, that they should feed her there a thousand two hundred and threescore days.",
+        "expectedDecimalQuantities": [
+          1260
+        ],
+        "targetQuantities": [
+          1260
+        ]
+      },
+      {
+        "reference": "Revelation 12:14",
+        "source": "And to the woman were given two wings of a great eagle, that she might fly into the wilderness, into her place, where she is nourished for a time, and times, and half a time, from the face of the serpent.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          0.5
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          0.5
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "10:1": [
+        "other mighty angel",
+        "cloud clothe:psv:pp",
+        "kjv_rainbow_revelation",
+        "face as sun",
+        "foot:pl as fire kjv_pillar:pl"
+      ],
+      "10:2": [
+        "little book open:psv:pp",
+        "kjv_right_side foot upon sea",
+        "left foot on earth"
+      ],
+      "10:3": [
+        "as when lion roar:pr",
+        "seven thunder:ev:pl"
+      ],
+      "10:4": [
+        "i write:inf about be:pa",
+        "seven thunder:ev:pl utter:pa seal:imp",
+        "write:neg:imp"
+      ],
+      "10:5": [
+        "upon sea and upon earth",
+        "his/hand to heaven lift:pa"
+      ],
+      "10:6": [
+        "heaven and in it thing:pl",
+        "earth and in it thing:pl",
+        "sea and in it thing:pl",
+        "time no longer be:should"
+      ],
+      "10:7": [
+        "seven:ord angel",
+        "god mystery finish:psv:should",
+        "his/servant:pl prophet:pl"
+      ],
+      "10:8": [
+        "again speak:pa",
+        "little book",
+        "upon sea and upon earth"
+      ],
+      "10:9": [
+        "little book to i give:imp",
+        "thy/belly bitter",
+        "thy/mouth sweet as honey"
+      ],
+      "10:10": [
+        "my/mouth sweet as honey",
+        "as soon as i it eat:perf my/belly bitter"
+      ],
+      "10:11": [
+        "he to i",
+        "before many people:pl and nation:pl and tongue:pl and king:pl",
+        "kjv_prophesy:must"
+      ],
+      "11:1": [
+        "reed like rod",
+        "angel stand:pa",
+        "god kjv_temple and altar and they who in it kjv_worship:pr"
+      ],
+      "11:2": [
+        "kjv_court_enclosure",
+        "measure:neg:imp",
+        "kjv_gentile:pl",
+        "forty and two month:pl"
+      ],
+      "11:3": [
+        "ipl to two mypl/witness:du",
+        "they:du thousand and two+hundred and five+twelve day:pl",
+        "kjv_sackcloth"
+      ],
+      "11:4": [
+        "two kjv_olive kjv_tree:du and two kjv_candlestick:du",
+        "earth god"
+      ],
+      "11:5": [
+        "if any man they:du:a hurt:inf will:pr",
+        "fire out of their/mouth",
+        "in this manner kill:psv:must"
+      ],
+      "11:6": [
+        "these:du heaven shut:inf",
+        "their/kjv_prophesy:ev day:pl",
+        "to blood turn:inf",
+        "all plague:pl",
+        "as often as they:du will:pr"
+      ],
+      "11:7": [
+        "they:du their/testimony finish:perf",
+        "kjv_bottomless_pit_revelation",
+        "war make:fu",
+        "overcome:fu",
+        "kill:fu"
+      ],
+      "11:8": [
+        "their/dead body:du",
+        "spirit:adv kjv_sodom and egypt",
+        "ourone/lord kjv_crucify:psv:pa"
+      ],
+      "11:9": [
+        "people and kjv_family:pl and tongue:pl and nation:pl",
+        "three and half day:pl",
+        "in grave:pl put:psv:inf permit:neg:fu"
+      ],
+      "11:10": [
+        "gift:pl to each other",
+        "two prophet:du",
+        "torment:pa"
+      ],
+      "11:11": [
+        "three and half day:pl",
+        "life spirit from god",
+        "they:du upon their/foot:pl",
+        "great fear"
+      ],
+      "11:12": [
+        "they:du great voice",
+        "here up come:imp",
+        "to heaven in cloud",
+        "enemy:pl they:du:a behold:pa"
+      ],
+      "11:13": [
+        "same hour",
+        "city kjv_tenth_share",
+        "seven+thousand",
+        "remainder frighten:psv:pa"
+      ],
+      "11:14": [
+        "second woe",
+        "third woe quickly"
+      ],
+      "11:15": [
+        "seven:ord angel",
+        "world kingdom:pl ourone/lord and his/kjv_christ_title kingdom:pl",
+        "he forever and forever rule:fu"
+      ],
+      "11:16": [
+        "two+twelve kjv_elder:pl",
+        "their/seat:pl",
+        "their/face:pl"
+      ],
+      "11:17": [
+        "wesg to thee thanks",
+        "be:pr and be:pa and come:fu",
+        "thy/great power take:perf and rule:perf"
+      ],
+      "11:18": [
+        "nation:pl angry",
+        "dead:pl time",
+        "thy/servant:pl prophet:pl",
+        "small and great",
+        "they who earth destroy:pr destroy:should"
+      ],
+      "11:19": [
+        "god kjv_temple in heaven",
+        "his/kjv_testament_ark_revelation kjv_ark_chest",
+        "lightning:pl and voice:pl and thunder:ev:pl and earthquake and great hail"
+      ],
+      "12:1": [
+        "woman sun clothe:psv:pp",
+        "moon under her/foot:pl",
+        "twelve star:pl crown"
+      ],
+      "12:2": [
+        "she pregnant",
+        "in birth kjv_travail:cv",
+        "pain:psv:pp"
+      ],
+      "12:3": [
+        "great red kjv_dragon_revelation",
+        "seven head:pl and ten horn:pl",
+        "seven crown:pl"
+      ],
+      "12:4": [
+        "star:pl kjv_third_share",
+        "her/child as soon as born:psv:pa devour:inf"
+      ],
+      "12:5": [
+        "kjv_male child",
+        "iron rod all nation:pl",
+        "to god and to his/throne"
+      ],
+      "12:6": [
+        "by god prepare:psv:pp place",
+        "they there she:a thousand and two+hundred and five+twelve day:pl feed:should"
+      ],
+      "12:7": [
+        "kjv_michael_revelation and his/angel:pl",
+        "kjv_dragon_revelation and his/angel:pl"
+      ],
+      "12:8": [
+        "prevail:neg:pa",
+        "neither their/place any more in heaven"
+      ],
+      "12:9": [
+        "that old serpent devil and satan",
+        "whole world deceive:pr",
+        "his/angel:pl with he"
+      ],
+      "12:10": [
+        "ourone/god kingdom",
+        "his/kjv_christ_title power",
+        "ourone/brother:pl accuse:ag",
+        "before ourone/god day and night"
+      ],
+      "12:11": [
+        "by kjv_lamb blood and by their/testimony word",
+        "their/life:pl to death love:neg:pa"
+      ],
+      "12:12": [
+        "earth and sea dwell:ag:pl woe:excl",
+        "great wrath",
+        "only short time"
+      ],
+      "12:13": [
+        "woman who kjv_male child forth bear:pa",
+        "persecute:pa"
+      ],
+      "12:14": [
+        "two great kjv_eagle wing:du",
+        "one_num time and time:pl and half time",
+        "from serpent face"
+      ],
+      "12:15": [
+        "water as flood after woman",
+        "away carry:psv:inf cause:may"
+      ],
+      "12:16": [
+        "earth her/mouth open:pa",
+        "kjv_dragon_revelation out of his/mouth",
+        "kjv_swallow:pa"
+      ],
+      "12:17": [
+        "her/kjv_seedline remainder",
+        "god command:pl keep:pr",
+        "kjv_jesus_matthew kjv_christ_title testimony"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:1",
+        "10:10",
+        "10:11",
+        "10:4",
+        "10:5",
+        "10:8",
+        "10:9",
+        "11:1",
+        "12:10"
+      ],
+      "ipl": [
+        "11:3"
+      ],
+      "wesg": [
+        "11:17"
+      ],
+      "wepl": [],
+      "mypl": [
+        "11:3"
+      ],
+      "ourone": [
+        "11:15",
+        "11:8",
+        "12:10"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "11:10",
+        "11:11",
+        "11:12",
+        "11:3",
+        "11:5",
+        "11:6",
+        "11:7"
+      ],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [
+      "11:10",
+      "11:11",
+      "11:12",
+      "11:3",
+      "11:4",
+      "11:5",
+      "11:6",
+      "11:7",
+      "11:8",
+      "11:9",
+      "12:14"
+    ],
+    "divineQuotedSelfReferences": [
+      "11:3"
+    ],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Sevens,42months,two witnesses and paired images,1260days twice,3.5days twice,one-tenth,7000,woe ordinals,24,12stars,seven heads,ten horns,seven crowns retained.",
+      "Witness-pair and eagle-wing physical dual differ from plural-self possessive and communal singular-we.",
+      "Time,times,half-time retains plural middle term rather than an invented3.5years;time-no-longer left unresolved."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "47new;Revelation1–12cumulative211;whole Bible incomplete;193versesremain.",
+      "Keep forbidden unwritten utterance,angel-stood,God-of-earth,they-heard,plural kingdoms,art-to-come,full earth-and-sea inhabitants and full Jesus Christ.",
+      "Two common entries,one contextual name,no paradigms;earlier164Revelation targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Revelation — incomplete Bible working text",
+    "pages": 154,
+    "spreads": 77,
+    "units": 211,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "0876fce68b99cde51297c631c8d59b1c5fd6b84f54c1bc14fb5fd80a982d5537",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 77,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.805,
+    "modules": [
+      "tests.test_kjv_revelation_witness_pair",
+      "tests.test_kjv_revelation_sealed_tribes",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    153,
+    154
+  ],
+  "status": "incomplete Bible;Revelation1–12 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 153,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv274\\preflight-revelation\\Proofs\\page-153.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv274\\composed-revelation\\Proofs\\page-153.png",
+        "sha256": "fcbd445b24cbe188bcbd4cde1a211ed249672f70dd56a645989078149710dec0",
+        "bytesIdentical": true
+      },
+      {
+        "page": 154,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv274\\preflight-revelation\\Proofs\\page-154.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv274\\composed-revelation\\Proofs\\page-154.png",
+        "sha256": "9a8b6fba3cc73764581265d8c643b1bd2bca38c3882d67d94c9b98300d680e32",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,114 @@
+[
+  {
+    "key": "married",
+    "before": {
+      "form": "lamëw’hÅ",
+      "meaning": "married",
+      "origin": "0.8 semantic extension or zero conversion of marry",
+      "pos": "lexical",
+      "semanticId": "lex.married",
+      "status": "authored",
+      "derivationKeys": [
+        "marry"
+      ],
+      "roman": "lamüw’hā",
+      "historicalForms": [
+        {
+          "version": "0.10-kjv.278",
+          "form": "marai",
+          "roman": "marai",
+          "status": "superseded derived form"
+        }
+      ],
+      "evidence": "authored or inherited; provenance in origin",
+      "register": "0.10-kjv.279",
+      "note": "Native correction propagated through documented component(s): marry"
+    },
+    "after": {
+      "form": "zerilim’na",
+      "meaning": "married",
+      "origin": "Native matrimonial family, distinct from the Shakespearean oath",
+      "pos": "lexical",
+      "semanticId": "lex.married",
+      "status": "authored",
+      "derivationKeys": [
+        "wed"
+      ],
+      "roman": "zerilim’na",
+      "historicalForms": [
+        {
+          "version": "0.10-kjv.278",
+          "form": "marai",
+          "roman": "marai",
+          "status": "superseded derived form"
+        },
+        {
+          "version": "0.10-kjv.279",
+          "form": "lamëw’hÅ",
+          "roman": "lamüw’hā",
+          "status": "superseded mistaken oath-family derivation"
+        }
+      ],
+      "evidence": "authored or inherited; provenance in origin",
+      "register": "0.10-kjv.280",
+      "note": "Corrected the mistaken derivational link to marry (oath). Retains the literal matrimonial meaning."
+    },
+    "construction": "wed:psv:adj"
+  },
+  {
+    "key": "wedding",
+    "before": {
+      "form": "lamëw’hÅ",
+      "meaning": "wedding",
+      "origin": "0.8 semantic extension or zero conversion of marry; consult literary context",
+      "pos": "lexical",
+      "semanticId": "lex.wedding",
+      "status": "authored",
+      "derivationKeys": [
+        "marry"
+      ],
+      "roman": "lamüw’hā",
+      "historicalForms": [
+        {
+          "version": "0.10-kjv.278",
+          "form": "marai",
+          "roman": "marai",
+          "status": "superseded derived form"
+        }
+      ],
+      "evidence": "authored or inherited; provenance in origin",
+      "register": "0.10-kjv.279",
+      "note": "Native correction propagated through documented component(s): marry"
+    },
+    "after": {
+      "form": "ef’zeril",
+      "meaning": "wedding",
+      "origin": "Native matrimonial family, distinct from the Shakespearean oath",
+      "pos": "lexical",
+      "semanticId": "lex.wedding",
+      "status": "authored",
+      "derivationKeys": [
+        "wed"
+      ],
+      "roman": "ef’zeril",
+      "historicalForms": [
+        {
+          "version": "0.10-kjv.278",
+          "form": "marai",
+          "roman": "marai",
+          "status": "superseded derived form"
+        },
+        {
+          "version": "0.10-kjv.279",
+          "form": "lamëw’hÅ",
+          "roman": "lamüw’hā",
+          "status": "superseded mistaken oath-family derivation"
+        }
+      ],
+      "evidence": "authored or inherited; provenance in origin",
+      "register": "0.10-kjv.280",
+      "note": "Corrected the mistaken derivational link to marry (oath). Retains the literal matrimonial meaning."
+    },
+    "construction": "wed:ev"
+  }
+]

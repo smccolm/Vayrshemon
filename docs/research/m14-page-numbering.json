@@ -1,0 +1,33 @@
+{
+  "applicationVersion": "0.15.25",
+  "reviewedOn": "2026-10-25",
+  "reference": "Inputs/Origins_3_Unta_2.jpg",
+  "numeralSlots": [48,49,50,51,52,53,54,55,56,57,192,193],
+  "base": 12,
+  "testsPassed": 26,
+  "suites": ["test_page_numbering", "test_parallel_translation", "test_pdf_export", "test_page_navigator"],
+  "additionalTests": ["test_m14.FileTests.test_new_file_api_contracts_and_cli_detection", "test_m14.FileTests.test_font_complete_backup_restores_embedded_preview_offline"],
+  "fullPlay": {
+    "physicalPages": 674,
+    "placed": 674,
+    "blocked": 0,
+    "mode": "color",
+    "view": "two",
+    "positions": "default bottom outside",
+    "sizePt": 42,
+    "preferredEdgeInsetPt": 12,
+    "textClearancePt": 4,
+    "scope": "Number placement versus complete frame rectangles and visible glyph-effect bounds; no claim that existing body collisions are absent."
+  },
+  "approvedExample": {
+    "source": "Saves/Black on white.vay",
+    "sourceSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sourceFileUnchanged": true,
+    "bodyRecordsAndPaintUnchanged": true,
+    "reviewedModes": ["color", "mono-white", "mono-black"],
+    "pdfReviewedWith": "Poppler",
+    "dialogReviewedWith": "native Windows Qt rendering"
+  },
+  "evidence": ".local/numbering-review/",
+  "setup": "Updated and PowerShell syntax checked; no reinstall or dependency changes."
+}

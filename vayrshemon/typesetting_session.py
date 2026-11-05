@@ -5,6 +5,7 @@ from PySide6.QtGui import QTextBlockUserData
 from .session import BLOCK,checked_text
 from .authoring import identity
 from .authoring import AuthoringSession
+from .book_frames import loaded_values
 from .editor_contracts import EDITOR_DOCUMENT as M2_DOCUMENT
 from .typesetting_contracts import STATE,DOCUMENT,initial,settings
 
@@ -31,9 +32,9 @@ class TypesettingSession(AuthoringSession):
         super().bind_editor()
         if self._editor: self._editor.setReadOnly(self.source_for(self.state['activeFrameId'])!=self.state['activeFrameId'])
 
-    def _restore(self,state):
+    def _restore(self,state,**kwargs):
         self.invalidate_composition()
-        super()._restore(state)
+        super()._restore(state,**kwargs)
 
     def detach_deleted(self,ids):
         spec=self.state['typesetting']
@@ -52,7 +53,7 @@ class TypesettingSession(AuthoringSession):
     def capture(self):
         # QTextBlockUserData adds stable paragraph identities without modifying
         # text/format or emitting recursive contentsChanged signals.
-        for native in self.frames.values():
+        for native in loaded_values(self.frames):
             blocks=[]; block=native.doc.begin()
             while block.isValid(): blocks.append(block); block=block.next()
             reserved={b.userData().identity for b in blocks if b.userData() is not None and hasattr(b.userData(),'identity')}
@@ -138,7 +139,7 @@ class TypesettingSession(AuthoringSession):
         if mode not in self._composition_cache: self._composition_cache[mode]=Composition(self,mode)
         return self._composition_cache[mode]
 
-    def resolve_fonts(self,state,font_paths=None):
+    def resolve_fonts(self,state,font_paths=None,**kwargs):
         if 'typesetting' not in state:
             state=deepcopy(state); state['typesetting']=initial()
-        return super().resolve_fonts(state,font_paths)
+        return super().resolve_fonts(state,font_paths,**kwargs)

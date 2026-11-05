@@ -1,0 +1,1132 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.57",
+    "parentVersion": "0.10-kjv.56",
+    "parentHead": "f844c65c078d0714a175340bc9a362a585e17033c610a0ddcd936d69804f6c5e",
+    "head": "9f3f52360f9e392321f4dbe60b5f9cca6a294bf5895df89e4c1438faa2392d9f",
+    "newLexicalEntries": 25,
+    "newProperEntries": 5,
+    "newCommonEntries": 20,
+    "newSurfaceForms": 18,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 115,
+    "exactCompilerCases": 117,
+    "newAuthoredVerses": 117,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 334,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 22002,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 117,
+    "kings1Verses": 334,
+    "authoredVerses": 9100,
+    "remainingVerses": 22002,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 39,
+    "quantityChecks": [
+      {
+        "reference": "1 Kings 7:1",
+        "source": "But Solomon was building his own house thirteen years, and he finished all his house.",
+        "expectedDecimalQuantities": [
+          13
+        ],
+        "targetQuantities": [
+          13
+        ]
+      },
+      {
+        "reference": "1 Kings 7:2",
+        "source": "He built also the house of the forest of Lebanon; the length thereof was an hundred cubits, and the breadth thereof fifty cubits, and the height thereof thirty cubits, upon four rows of cedar pillars, with cedar beams upon the pillars.",
+        "expectedDecimalQuantities": [
+          100,
+          50,
+          30,
+          4
+        ],
+        "targetQuantities": [
+          100,
+          50,
+          30,
+          4
+        ]
+      },
+      {
+        "reference": "1 Kings 7:3",
+        "source": "And it was covered with cedar above upon the beams, that lay on forty five pillars, fifteen in a row.",
+        "expectedDecimalQuantities": [
+          45,
+          15
+        ],
+        "targetQuantities": [
+          45,
+          15
+        ]
+      },
+      {
+        "reference": "1 Kings 7:4",
+        "source": "And there were windows in three rows, and light was against light in three ranks.",
+        "expectedDecimalQuantities": [
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "1 Kings 7:5",
+        "source": "And all the doors and posts were square, with the windows: and light was against light in three ranks.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Kings 7:6",
+        "source": "And he made a porch of pillars; the length thereof was fifty cubits, and the breadth thereof thirty cubits: and the porch was before them: and the other pillars and the thick beam were before them.",
+        "expectedDecimalQuantities": [
+          50,
+          30
+        ],
+        "targetQuantities": [
+          50,
+          30
+        ]
+      },
+      {
+        "reference": "1 Kings 7:10",
+        "source": "And the foundation was of costly stones, even great stones, stones of ten cubits, and stones of eight cubits.",
+        "expectedDecimalQuantities": [
+          10,
+          8
+        ],
+        "targetQuantities": [
+          10,
+          8
+        ]
+      },
+      {
+        "reference": "1 Kings 7:12",
+        "source": "And the great court round about was with three rows of hewed stones, and a row of cedar beams, both for the inner court of the house of the LORD, and for the porch of the house.",
+        "expectedDecimalQuantities": [
+          3,
+          1
+        ],
+        "targetQuantities": [
+          3,
+          1
+        ]
+      },
+      {
+        "reference": "1 Kings 7:15",
+        "source": "For he cast two pillars of brass, of eighteen cubits high apiece: and a line of twelve cubits did compass either of them about.",
+        "expectedDecimalQuantities": [
+          2,
+          18,
+          12
+        ],
+        "targetQuantities": [
+          2,
+          18,
+          12
+        ]
+      },
+      {
+        "reference": "1 Kings 7:16",
+        "source": "And he made two chapiters of molten brass, to set upon the tops of the pillars: the height of the one chapiter was five cubits, and the height of the other chapiter was five cubits:",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          5,
+          5
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "1 Kings 7:17",
+        "source": "And nets of checker work, and wreaths of chain work, for the chapiters which were upon the top of the pillars; seven for the one chapiter, and seven for the other chapiter.",
+        "expectedDecimalQuantities": [
+          7,
+          1,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          1,
+          7
+        ]
+      },
+      {
+        "reference": "1 Kings 7:18",
+        "source": "And he made the pillars, and two rows round about upon the one network, to cover the chapiters that were upon the top, with pomegranates: and so did he for the other chapiter.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "1 Kings 7:19",
+        "source": "And the chapiters that were upon the top of the pillars were of lily work in the porch, four cubits.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Kings 7:20",
+        "source": "And the chapiters upon the two pillars had pomegranates also above, over against the belly which was by the network: and the pomegranates were two hundred in rows round about upon the other chapiter.",
+        "expectedDecimalQuantities": [
+          2,
+          200
+        ],
+        "targetQuantities": [
+          2,
+          200
+        ]
+      },
+      {
+        "reference": "1 Kings 7:23",
+        "source": "And he made a molten sea, ten cubits from the one brim to the other: it was round all about, and his height was five cubits: and a line of thirty cubits did compass it round about.",
+        "expectedDecimalQuantities": [
+          10,
+          5,
+          30
+        ],
+        "targetQuantities": [
+          10,
+          5,
+          30
+        ]
+      },
+      {
+        "reference": "1 Kings 7:24",
+        "source": "And under the brim of it round about there were knops compassing it, ten in a cubit, compassing the sea round about: the knops were cast in two rows, when it was cast.",
+        "expectedDecimalQuantities": [
+          10,
+          1,
+          2
+        ],
+        "targetQuantities": [
+          10,
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 7:25",
+        "source": "It stood upon twelve oxen, three looking toward the north, and three looking toward the west, and three looking toward the south, and three looking toward the east: and the sea was set above upon them, and all their hinder parts were inward.",
+        "expectedDecimalQuantities": [
+          12,
+          3,
+          3,
+          3,
+          3
+        ],
+        "targetQuantities": [
+          12,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "1 Kings 7:26",
+        "source": "And it was an hand breadth thick, and the brim thereof was wrought like the brim of a cup, with flowers of lilies: it contained two thousand baths.",
+        "expectedDecimalQuantities": [
+          1,
+          2000
+        ],
+        "targetQuantities": [
+          1,
+          2000
+        ]
+      },
+      {
+        "reference": "1 Kings 7:27",
+        "source": "And he made ten bases of brass; four cubits was the length of one base, and four cubits the breadth thereof, and three cubits the height of it.",
+        "expectedDecimalQuantities": [
+          10,
+          1,
+          4,
+          4,
+          3
+        ],
+        "targetQuantities": [
+          10,
+          1,
+          4,
+          4,
+          3
+        ]
+      },
+      {
+        "reference": "1 Kings 7:30",
+        "source": "And every base had four brasen wheels, and plates of brass: and the four corners thereof had undersetters: under the laver were undersetters molten, at the side of every addition.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "1 Kings 7:31",
+        "source": "And the mouth of it within the chapiter and above was a cubit: but the mouth thereof was round after the work of the base, a cubit and an half: and also upon the mouth of it were gravings with their borders, foursquare, not round.",
+        "expectedDecimalQuantities": [
+          1,
+          1.5
+        ],
+        "targetQuantities": [
+          1,
+          1.5
+        ]
+      },
+      {
+        "reference": "1 Kings 7:32",
+        "source": "And under the borders were four wheels; and the axletrees of the wheels were joined to the base: and the height of a wheel was a cubit and half a cubit.",
+        "expectedDecimalQuantities": [
+          4,
+          1,
+          0.5
+        ],
+        "targetQuantities": [
+          4,
+          1,
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Kings 7:34",
+        "source": "And there were four undersetters to the four corners of one base: and the undersetters were of the very base itself.",
+        "expectedDecimalQuantities": [
+          4,
+          1,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          1,
+          4
+        ]
+      },
+      {
+        "reference": "1 Kings 7:35",
+        "source": "And in the top of the base was there a round compass of half a cubit high: and on the top of the base the ledges thereof and the borders thereof were of the same.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Kings 7:37",
+        "source": "After this manner he made the ten bases: all of them had one casting, one measure, and one size.",
+        "expectedDecimalQuantities": [
+          10,
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "1 Kings 7:38",
+        "source": "Then made he ten lavers of brass: one laver contained forty baths: and every laver was four cubits: and upon every one of the ten bases one laver.",
+        "expectedDecimalQuantities": [
+          10,
+          1,
+          40,
+          4,
+          10,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1,
+          40,
+          4,
+          10,
+          1
+        ]
+      },
+      {
+        "reference": "1 Kings 7:39",
+        "source": "And he put five bases on the right side of the house, and five on the left side of the house: and he set the sea on the right side of the house eastward over against the south.",
+        "expectedDecimalQuantities": [
+          5,
+          5
+        ],
+        "targetQuantities": [
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "1 Kings 7:41",
+        "source": "The two pillars, and the two bowls of the chapiters that were on the top of the two pillars; and the two networks, to cover the two bowls of the chapiters which were upon the top of the pillars;",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 7:42",
+        "source": "And four hundred pomegranates for the two networks, even two rows of pomegranates for one network, to cover the two bowls of the chapiters that were upon the pillars;",
+        "expectedDecimalQuantities": [
+          400,
+          2,
+          2,
+          1,
+          2
+        ],
+        "targetQuantities": [
+          400,
+          2,
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 7:43",
+        "source": "And the ten bases, and ten lavers on the bases;",
+        "expectedDecimalQuantities": [
+          10,
+          10
+        ],
+        "targetQuantities": [
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "1 Kings 7:44",
+        "source": "And one sea, and twelve oxen under the sea;",
+        "expectedDecimalQuantities": [
+          1,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          12
+        ]
+      },
+      {
+        "reference": "1 Kings 7:49",
+        "source": "And the candlesticks of pure gold, five on the right side, and five on the left, before the oracle, with the flowers, and the lamps, and the tongs of gold,",
+        "expectedDecimalQuantities": [
+          5,
+          5
+        ],
+        "targetQuantities": [
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "1 Kings 8:2",
+        "source": "And all the men of Israel assembled themselves unto king Solomon at the feast in the month Ethanim, which is the seventh month.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "1 Kings 8:7",
+        "source": "For the cherubims spread forth their two wings over the place of the ark, and the cherubims covered the ark and the staves thereof above.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 8:9",
+        "source": "There was nothing in the ark save the two tables of stone, which Moses put there at Horeb, when the LORD made a covenant with the children of Israel, when they came out of the land of Egypt.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 8:56",
+        "source": "Blessed be the LORD, that hath given rest unto his people Israel, according to all that he promised: there hath not failed one word of all his good promise, which he promised by the hand of Moses his servant.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Kings 8:63",
+        "source": "And Solomon offered a sacrifice of peace offerings, which he offered unto the LORD, two and twenty thousand oxen, and an hundred and twenty thousand sheep. So the king and all the children of Israel dedicated the house of the LORD.",
+        "expectedDecimalQuantities": [
+          22000,
+          120000
+        ],
+        "targetQuantities": [
+          22000,
+          120000
+        ]
+      },
+      {
+        "reference": "1 Kings 8:65",
+        "source": "And at that time Solomon held a feast, and all Israel with him, a great congregation, from the entering in of Hamath unto the river of Egypt, before the LORD our God, seven days and seven days, even fourteen days.",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          14
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          14
+        ]
+      },
+      {
+        "reference": "1 Kings 8:66",
+        "source": "On the eighth day he sent the people away: and they blessed the king, and went unto their tents joyful and glad of heart for all the goodness that the LORD had done for David his servant, and for Israel his people.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "Four pillar rows remains beside45pillars/15per row; no inferred correction.",
+      "Thirteen-year own house;100x50x30forest house,50x30porch,10/8stone sizes keep categories and unspecified axes.",
+      "Two18-cubit pillars each with12-cubit circumference;5-cubit capitals and4-cubit lily work are separate statements.",
+      "200pomegranates on the other capital and400inventory total both remain.",
+      "The sea is10rim-to-rim,5high,30circumference,handbreadth thick,2000baths; no pi correction or parallel3000capacity.",
+      "Knops are10per cubit in2rows, not10total;12oxen in four directional groups of3.",
+      "Ten bases4x4x3,4wheels and4undersupports each; mouth1and1.5, wheel1plus.5, upper band.5.",
+      "Ten lavers40baths/4cubits,5bases per side,5lampstands per side; repeated inventory twos do not add into distinct extra objects.",
+      "Only2tablets in the ark; no imported rod or manna.",
+      "22000oxen and120000sheep;7+7=14festival days remain beside the subsequent eighth-day departure."
+    ],
+    "semanticChecks": {
+      "7:1": [
+        "ten and kjv_three year:pl",
+        "his/own house"
+      ],
+      "7:2": [
+        "hundred kjv_cubit:pl",
+        "five+ten kjv_cubit:pl",
+        "kjv_three+ten kjv_cubit:pl",
+        "four row:pl"
+      ],
+      "7:3": [
+        "four+ten and five kjv_pillar:pl",
+        "fifteen in row"
+      ],
+      "7:4": [
+        "kjv_windowlight against kjv_windowlight",
+        "kjv_structural_rank:pl"
+      ],
+      "7:5": [
+        "kjv_square",
+        "kjv_three kjv_structural_rank:pl"
+      ],
+      "7:6": [
+        "five+ten",
+        "kjv_three+ten",
+        "thick beam"
+      ],
+      "7:7": [
+        "of judgment kjv_porch",
+        "of floor side to other"
+      ],
+      "7:8": [
+        "another court",
+        "of kjv_pharaoh daughter",
+        "as wife"
+      ],
+      "7:9": [
+        "with kjv_saw:pl kjv_saw_cut:psv:pa",
+        "within and outside",
+        "kjv_foundation to kjv_coping"
+      ],
+      "7:10": [
+        "stone:pl of ten",
+        "stone:pl of eight"
+      ],
+      "7:12": [
+        "kjv_three row:pl",
+        "one_num row of kjv_cedar"
+      ],
+      "7:13": [
+        "kjv_hiram_craftsman"
+      ],
+      "7:14": [
+        "of kjv_naphtali kjv_tribe widow son",
+        "his/father of kjv_tyre man",
+        "wisdom and understanding and skill"
+      ],
+      "7:15": [
+        "two of kjv_brass kjv_pillar:pl",
+        "each ten and eight",
+        "twelve kjv_cubit:pl line"
+      ],
+      "7:16": [
+        "two of melt:psv kjv_brass kjv_chapiter:pl",
+        "height five",
+        "other kjv_chapiter height five"
+      ],
+      "7:17": [
+        "kjv_checkerwork",
+        "kjv_wreathe:psv chain work",
+        "seven for one_num",
+        "seven for other"
+      ],
+      "7:18": [
+        "two row:pl",
+        "with pomegranate:pl",
+        "for other kjv_chapiter"
+      ],
+      "7:19": [
+        "lily work",
+        "four kjv_cubit:pl"
+      ],
+      "7:20": [
+        "kjv_belly_bulge",
+        "two+hundred",
+        "other kjv_chapiter"
+      ],
+      "7:21": [
+        "kjv_right_side kjv_pillar",
+        "kjv_jachin_pillar",
+        "left kjv_pillar",
+        "kjv_boaz_pillar"
+      ],
+      "7:23": [
+        "melt:psv kjv_sea_basin",
+        "ten kjv_cubit:pl",
+        "height five",
+        "kjv_three+ten kjv_cubit:pl"
+      ],
+      "7:24": [
+        "ten in one_num kjv_cubit",
+        "two row:pl kjv_cast_metal:psv:pa when it kjv_cast_metal:psv:pa"
+      ],
+      "7:25": [
+        "twelve ox:pl",
+        "towards kjv_north",
+        "towards west",
+        "towards kjv_south",
+        "towards east",
+        "their/back part:pl inside"
+      ],
+      "7:26": [
+        "one_num kjv_handbreadth",
+        "two+thousand kjv_bath_measure:pl"
+      ],
+      "7:27": [
+        "ten of kjv_brass base:pl",
+        "length four",
+        "breadth four",
+        "height kjv_three"
+      ],
+      "7:28": [
+        "kjv_border:pl between kjv_ledge:pl"
+      ],
+      "7:29": [
+        "lion:pl ox:pl and kjv_cherub:pl",
+        "kjv_addedwork of thin work"
+      ],
+      "7:30": [
+        "four of kjv_brass wheel:pl",
+        "four corner:pl",
+        "melt:psv kjv_undersetter:pl"
+      ],
+      "7:31": [
+        "one_num kjv_cubit",
+        "one_num and half kjv_cubit",
+        "kjv_engrave:ev:pl",
+        "kjv_square not round"
+      ],
+      "7:32": [
+        "four wheel:pl",
+        "kjv_axletree:pl",
+        "one_num kjv_cubit and half kjv_cubit"
+      ],
+      "7:33": [
+        "of chariot wheel",
+        "kjv_axletree:pl",
+        "kjv_wheel_hub:pl",
+        "kjv_wheel_felly:pl",
+        "kjv_wheel_spoke:pl",
+        "all melt:psv"
+      ],
+      "7:34": [
+        "four kjv_undersetter:pl",
+        "four corner:pl",
+        "of very base itself"
+      ],
+      "7:35": [
+        "kjv_encircling_band of half kjv_cubit",
+        "of same"
+      ],
+      "7:36": [
+        "kjv_palm_tree kjv_tree:pl",
+        "kjv_according to of every one proportion"
+      ],
+      "7:37": [
+        "ten base:pl",
+        "one_num kjv_cast_metal:ev one_num measure and one_num size"
+      ],
+      "7:38": [
+        "ten of kjv_brass kjv_laver:pl",
+        "four+ten kjv_bath_measure:pl",
+        "four kjv_cubit:pl",
+        "every one of ten base:pl one_num kjv_laver"
+      ],
+      "7:39": [
+        "kjv_right_side five",
+        "left side five",
+        "towards east over against kjv_south"
+      ],
+      "7:40": [
+        "kjv_hiram_craftsman",
+        "kjv_shovel:pl and kjv_basin:pl"
+      ],
+      "7:41": [
+        "two kjv_pillar:pl and two bowl:pl",
+        "two kjv_net:pl two"
+      ],
+      "7:42": [
+        "four+hundred pomegranate:pl",
+        "two row:pl",
+        "one_num kjv_net"
+      ],
+      "7:43": [
+        "ten base:pl",
+        "ten kjv_laver:pl"
+      ],
+      "7:44": [
+        "one_num kjv_sea_basin",
+        "twelve ox:pl"
+      ],
+      "7:45": [
+        "kjv_pot:pl",
+        "bright kjv_brass"
+      ],
+      "7:46": [
+        "kjv_plain_land",
+        "kjv_clay_material",
+        "kjv_succoth and kjv_zarthan"
+      ],
+      "7:47": [
+        "without weigh:ev",
+        "neither of kjv_brass weight discover:psv:pa"
+      ],
+      "7:48": [
+        "of gold altar",
+        "of gold table",
+        "kjv_shewbread"
+      ],
+      "7:49": [
+        "kjv_lampstand:pl five on kjv_right_side and five on left",
+        "kjv_oracle_chamber",
+        "of gold tongs"
+      ],
+      "7:50": [
+        "kjv_hinge:pl",
+        "both for of kjv_inner house door:pl",
+        "most holy kjv_place_site",
+        "kjv_temple_sanctuary"
+      ],
+      "7:51": [
+        "kjv_david his/father kjv_dedicate:pp",
+        "silver and gold and vessel:pl"
+      ],
+      "8:1": [
+        "of kjv_tribe:pl head:pl",
+        "kjv_covenant kjv_ark_chest",
+        "which kjv_zion"
+      ],
+      "8:2": [
+        "kjv_ethanim",
+        "seven:ord month"
+      ],
+      "8:3": [
+        "priest:pl kjv_ark_chest:a take:pa up"
+      ],
+      "8:4": [
+        "kjv_tabernacle",
+        "all holy vessel:pl",
+        "priest:pl and kjv_levite:pl"
+      ],
+      "8:5": [
+        "sheep:pl and ox:pl",
+        "reckon:psv:pa:can not nor kjv_number:psv:pa:can"
+      ],
+      "8:6": [
+        "kjv_oracle_chamber",
+        "most holy kjv_place_site",
+        "under of kjv_cherub:pl wing:pl"
+      ],
+      "8:7": [
+        "their/two wing:pl",
+        "its/kjv_stave:pl:a above cover:pa"
+      ],
+      "8:8": [
+        "outside see:psv:pa not",
+        "until this day they be:pr"
+      ],
+      "8:9": [
+        "nothing be:pa except two of stone table:pl",
+        "kjv_horeb",
+        "of egypt land"
+      ],
+      "8:10": [
+        "cloud of kjv_lord house:a fill:pa"
+      ],
+      "8:11": [
+        "kjv_minister:inf stand:pa:can not",
+        "glory"
+      ],
+      "8:12": [
+        "in thick darkness he dwell:fu"
+      ],
+      "8:13": [
+        "ipl build:perf",
+        "settled kjv_place_site",
+        "forever dwell:inf"
+      ],
+      "8:14": [
+        "all of kjv_israel kjv_congregation stand:pa"
+      ],
+      "8:15": [
+        "his/mouth",
+        "my/father",
+        "his/hand"
+      ],
+      "8:16": [
+        "mypl/people",
+        "no city:a ipl choose:pa",
+        "mypl/name",
+        "kjv_david:a"
+      ],
+      "8:17": [
+        "my/father heart"
+      ],
+      "8:18": [
+        "my/father",
+        "to mypl/name",
+        "well thou do:pa"
+      ],
+      "8:19": [
+        "house:a thou build:fu not",
+        "thy/kjv_loins",
+        "mypl/name"
+      ],
+      "8:20": [
+        "kjv_place_site ipl rise:perf",
+        "throne sit:pr"
+      ],
+      "8:21": [
+        "ipl set:perf",
+        "ourone/father:pl"
+      ],
+      "8:22": [
+        "his/hand:pl:a towards heaven"
+      ],
+      "8:23": [
+        "no god like thou",
+        "kjv_covenant and mercy",
+        "all their/heart"
+      ],
+      "8:24": [
+        "thy/mouth",
+        "thy/hand"
+      ],
+      "8:25": [
+        "mypl/sight",
+        "if thy/child:pl",
+        "before ipl"
+      ],
+      "8:26": [
+        "verify:psv:opt i pray:pr"
+      ],
+      "8:27": [
+        "heaven and of heaven:pl heaven",
+        "contain:pr:can not",
+        "ipl build:perf ?"
+      ],
+      "8:28": [
+        "kjv_supplication",
+        "my/god",
+        "today pray:pr"
+      ],
+      "8:29": [
+        "night and day",
+        "mypl/name there be:fu"
+      ],
+      "8:30": [
+        "towards this kjv_place_site",
+        "in heaven thy/dwell:ev kjv_place_site",
+        "forgive:imp"
+      ],
+      "8:31": [
+        "if any man",
+        "kjv_trespass:pr",
+        "swear:caus:inf"
+      ],
+      "8:32": [
+        "wicked:a condemn:cv",
+        "kjv_righteous:a kjv_justify_judicial:cv",
+        "his/kjv_righteousness"
+      ],
+      "8:33": [
+        "because against thou they sin:perf",
+        "thy/name:a confess:fu"
+      ],
+      "8:34": [
+        "sin:a forgive:imp",
+        "to their/father:pl"
+      ],
+      "8:35": [
+        "heaven shut:psv:pr",
+        "rain be:pr not",
+        "if towards",
+        "kjv_afflict:pr"
+      ],
+      "8:36": [
+        "good way:a",
+        "rain:a upon thy/land",
+        "for inheritance"
+      ],
+      "8:37": [
+        "kjv_famine",
+        "kjv_pestilence kjv_blasting kjv_mildew kjv_locust or kjv_caterpiller",
+        "besiege:pr"
+      ],
+      "8:38": [
+        "any man or by all",
+        "each man of his/own heart plague"
+      ],
+      "8:39": [
+        "to every man",
+        "thou only",
+        "heart:pl:a know:pr"
+      ],
+      "8:40": [
+        "ourone/father:pl"
+      ],
+      "8:41": [
+        "of thy/people kjv_israel be:pr not",
+        "from far country"
+      ],
+      "8:42": [
+        "they hear:fu",
+        "he come:fu",
+        "thy/stretch:psv arm"
+      ],
+      "8:43": [
+        "all for which to thou stranger call:pr",
+        "all of earth people",
+        "ipl build:perf"
+      ],
+      "8:44": [
+        "wherever they:a thou send:fu",
+        "city which thou choose:perf",
+        "ipl build:perf"
+      ],
+      "8:45": [
+        "their/kjv_legal_case:a support:imp"
+      ],
+      "8:46": [
+        "no man who sin:pr not",
+        "of enemy land far or near"
+      ],
+      "8:47": [
+        "themselves:a they remember:fu",
+        "wesg sin:perf",
+        "wesg wickedness:a commit:perf"
+      ],
+      "8:48": [
+        "all their/heart and with all their/soul",
+        "ipl build:perf"
+      ],
+      "8:49": [
+        "in heaven thy/dwell:ev kjv_place_site",
+        "their/kjv_legal_case:a support:imp"
+      ],
+      "8:50": [
+        "all their/transgress:ev:pl",
+        "kjv_compassion",
+        "as captive:pl"
+      ],
+      "8:51": [
+        "thy/inheritance",
+        "of iron kjv_furnace middle"
+      ],
+      "8:52": [
+        "thy/eye:pl",
+        "to they hear:inf"
+      ],
+      "8:53": [
+        "all of earth people",
+        "ourone/father:pl"
+      ],
+      "8:54": [
+        "from on his/knee:pl kneel:ev",
+        "his/hand:pl to heaven"
+      ],
+      "8:55": [
+        "with loud voice"
+      ],
+      "8:56": [
+        "one_num word fail:perf not"
+      ],
+      "8:57": [
+        "ourone/god with wesg",
+        "ourone/father:pl",
+        "wesg:a he leave:opt not nor wesg:a forsake:opt"
+      ],
+      "8:58": [
+        "ourone/heart:pl",
+        "bend:pr:may",
+        "ourone/father:pl"
+      ],
+      "8:59": [
+        "my/word:pl",
+        "i kjv_supplication:a make:perf",
+        "ourone/god",
+        "as need require:fu"
+      ],
+      "8:60": [
+        "kjv_lord god be:pr and none other"
+      ],
+      "8:61": [
+        "your/heart",
+        "ourone/god",
+        "his/command:pl"
+      ],
+      "8:62": [
+        "king and all kjv_israel with he"
+      ],
+      "8:63": [
+        "two+ten+thousand and two+thousand ox:pl",
+        "hundred+thousand and two+ten+thousand sheep:pl"
+      ],
+      "8:64": [
+        "corn kjv_offering:pl",
+        "too little be:pa",
+        "kjv_hallow:pa"
+      ],
+      "8:65": [
+        "kjv_hamath",
+        "of egypt river",
+        "ourone/god seven day:pl and seven day:pl even fourteen"
+      ],
+      "8:66": [
+        "eight:ord day",
+        "to their/tent:pl",
+        "kjv_david his/servant",
+        "kjv_israel his/people"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Prayers preserve speaker claims, questions, conditional promises and petitions rather than converting them into narrator-certified events.",
+      "Architectural relations remain explicit where difficult; no definitive blueprint, species identification, modern unit conversion or cross-witness harmonization.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Kings â€” incomplete Bible working text",
+    "pages": 232,
+    "spreads": 116,
+    "units": 334,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "e98b5303237b73a79c4a6692eaf309afee09b3cdcae0ce4030ce2147a734ed1f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.514160000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 116,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "command": "python -m unittest tests.test_kjv_kings_dedication tests.test_kjv_kings_wisdom tests.test_parallel_translation",
+    "count": 4,
+    "seconds": 12.358,
+    "passed": true
+  },
+  "visualReview": {
+    "viewedPages": [
+      231,
+      232
+    ],
+    "finding": "Final dedication spread retains Maxima, clear margins, aligned paragraph starts across script, Roman, gloss and English, and outside Unta folios; no clipping observed. Full layout checks: zero missing glyphs/vertical overset.",
+    "scope": "Sample visual review and full structural checks; not independent literary certification."
+  }
+}

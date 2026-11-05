@@ -1,0 +1,731 @@
+[
+  {
+    "id": "1-chronicles-6-1",
+    "analysis": "son:pl of kjv_levi kjv_gershon kjv_kohath and kjv_merari.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Levi GerÛon KohaÓ ãÑ Merari.",
+    "expectedGloss": "son(pl.) · of · Levi · Gershon · Kohath · and · Merari.",
+    "interpretation": "Levi's sons Gershon, Kohath and Merari.",
+    "note": "Gershon is retained here; the later Gershom spelling will remain as printed rather than being silently unified."
+  },
+  {
+    "id": "1-chronicles-6-2",
+    "analysis": "and son:pl of kjv_kohath kjv_amram kjv_izhar and kjv_hebron_kohath and kjv_uzziel.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i KohaÓ Amram Izhar ãÑ Hebron ãÑ Uzziel.",
+    "expectedGloss": "and · son(pl.) · of · Kohath · Amram · Izhar · and · Hebron · and · Uzziel.",
+    "interpretation": "Kohath's sons Amram, Izhar, Hebron and Uzziel.",
+    "note": "Hebron is the already distinguished Kohath son, not the city or Caleb-line bearer."
+  },
+  {
+    "id": "1-chronicles-6-3",
+    "analysis": "and child:pl of kjv_amram kjv_aaron and kjv_moses and kjv_miriam son:pl also of kjv_aaron kjv_nadab and kjv_abihu kjv_eleazar and kjv_ithamar.",
+    "expected": "accept",
+    "expectedText": "âÑ pelun i Amram Aaron ãÑ Moses ãÑ Miriam pelenun al i Aaron Nadab ãÑ Abihu Eleazar ãÑ IÓamar.",
+    "expectedGloss": "and · child(pl.) · of · Amram · Aaron · and · Moses · and · Miriam · son(pl.) · also · of · Aaron · Nadab · and · Abihu · Eleazar · and · Ithamar.",
+    "interpretation": "Amram's children Aaron, Moses and Miriam; Aaron's sons Nadab, Abihu, Eleazar and Ithamar.",
+    "note": "Miriam remains under children rather than being recast as a male son; the two generation groups are distinct."
+  },
+  {
+    "id": "1-chronicles-6-4",
+    "analysis": "kjv_eleazar kjv_phinehas:a beget:pa kjv_phinehas kjv_abishua_priest:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "Eleazar Finehasget pelaÙizya Finehas AbiÛuaget pelaÙizya.",
+    "expectedGloss": "Eleazar · Phinehas(acc.) · beget(pst.) · Phinehas · abishua-priest(acc.) · beget(pst.).",
+    "interpretation": "Eleazar begets Phinehas, and Phinehas begets Abishua.",
+    "note": "This is Aaron's priestly line, not Eli's later son Phinehas."
+  },
+  {
+    "id": "1-chronicles-6-5",
+    "analysis": "and kjv_abishua_priest kjv_bukki_priest:a beget:pa and kjv_bukki_priest kjv_uzzi_priest:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ AbiÛua Bukkiget pelaÙizya ãÑ Bukki Uzziget pelaÙizya.",
+    "expectedGloss": "and · abishua-priest · bukki-priest(acc.) · beget(pst.) · and · bukki-priest · uzzi-priest(acc.) · beget(pst.).",
+    "interpretation": "Abishua begets Bukki; Bukki begets Uzzi.",
+    "note": "Bukki is the priestly ancestor, not the allocation leader of the same name."
+  },
+  {
+    "id": "1-chronicles-6-6",
+    "analysis": "and kjv_uzzi_priest kjv_zerahiah_priest:a beget:pa and kjv_zerahiah_priest kjv_meraioth_priest:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Uzzi Zerahiahget pelaÙizya ãÑ Zerahiah MeraioÕget pelaÙizya.",
+    "expectedGloss": "and · uzzi-priest · zerahiah-priest(acc.) · beget(pst.) · and · zerahiah-priest · meraioth-priest(acc.) · beget(pst.).",
+    "interpretation": "Uzzi begets Zerahiah; Zerahiah begets Meraioth.",
+    "note": "Both explicit father-child edges remain."
+  },
+  {
+    "id": "1-chronicles-6-7",
+    "analysis": "kjv_meraioth_priest kjv_amariah_meraioth:a beget:pa and kjv_amariah_meraioth kjv_ahitub_amariah:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "MeraioÕ Amariahget pelaÙizya ãÑ Amariah Ahitubget pelaÙizya.",
+    "expectedGloss": "meraioth-priest · amariah-meraioth(acc.) · beget(pst.) · and · amariah-meraioth · ahitub-amariah(acc.) · beget(pst.).",
+    "interpretation": "Meraioth begets Amariah; Amariah begets Ahitub.",
+    "note": "This Amariah and Ahitub pair is distinguished from the repeated names farther down the chain."
+  },
+  {
+    "id": "1-chronicles-6-8",
+    "analysis": "and kjv_ahitub_amariah kjv_zadok:a beget:pa and kjv_zadok kjv_ahimaaz_zadok:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Ahitub Zadokget pelaÙizya ãÑ Zadok Ahimaazget pelaÙizya.",
+    "expectedGloss": "and · ahitub-amariah · Zadok(acc.) · beget(pst.) · and · Zadok · ahimaaz-zadok(acc.) · beget(pst.).",
+    "interpretation": "Ahitub begets Zadok; Zadok begets Ahimaaz.",
+    "note": "Ahimaaz uses the already distinguished Zadok-son identity rather than Saul's wife's father or an unproved officer identity."
+  },
+  {
+    "id": "1-chronicles-6-9",
+    "analysis": "and kjv_ahimaaz_zadok kjv_azariah_ahimaaz:a beget:pa and kjv_azariah_ahimaaz kjv_johanan_azariah:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Ahimaaz Azariahget pelaÙizya ãÑ Azariah Johananget pelaÙizya.",
+    "expectedGloss": "and · ahimaaz-zadok · azariah-ahimaaz(acc.) · beget(pst.) · and · azariah-ahimaaz · johanan-azariah(acc.) · beget(pst.).",
+    "interpretation": "Ahimaaz begets Azariah; Azariah begets Johanan.",
+    "note": "Azariah is not automatically collapsed into an earlier officer called son of Zadok."
+  },
+  {
+    "id": "1-chronicles-6-10",
+    "analysis": "and kjv_johanan_azariah kjv_azariah_johanan:a beget:pa he be:pr who in temple which kjv_solomon in kjv_jerusalem build:pa office:a of priest perform:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Johanan Azariahget pelaÙizya zi r×owya falib ni prodzála Ñetib Solomon ni Jerusalem zálaizya norvenget i prodvardÇvensßlum f×izya.",
+    "expectedGloss": "and · johanan-azariah · azariah-johanan(acc.) · beget(pst.) · he(sg.) · be(prs.) · who · in · temple · which · Solomon · in · Jerusalem · build(pst.) · office(acc.) · of · priest · perform(pst.).",
+    "interpretation": "Johanan begets Azariah; he is the one who performs priestly office in the temple Solomon built in Jerusalem.",
+    "note": "The parenthetical temple-service attribution belongs to this Azariah; the two Azariah generations remain distinct."
+  },
+  {
+    "id": "1-chronicles-6-11",
+    "analysis": "and kjv_azariah_johanan kjv_amariah_azariah:a beget:pa and kjv_amariah_azariah kjv_ahitub_later:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Azariah Amariahget pelaÙizya ãÑ Amariah Ahitubget pelaÙizya.",
+    "expectedGloss": "and · azariah-johanan · amariah-azariah(acc.) · beget(pst.) · and · amariah-azariah · ahitub-later(acc.) · beget(pst.).",
+    "interpretation": "Azariah begets Amariah; Amariah begets Ahitub.",
+    "note": "Repeated names are not removed as duplicate records or merged with the earlier generations."
+  },
+  {
+    "id": "1-chronicles-6-12",
+    "analysis": "and kjv_ahitub_later kjv_zadok_later:a beget:pa and kjv_zadok_later kjv_shallum_priest:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Ahitub Zadokget pelaÙizya ãÑ Zadok Úallumget pelaÙizya.",
+    "expectedGloss": "and · ahitub-later · zadok-later(acc.) · beget(pst.) · and · zadok-later · shallum-priest(acc.) · beget(pst.).",
+    "interpretation": "Ahitub begets Zadok; Zadok begets Shallum.",
+    "note": "This later Zadok is represented by the stated local parentage, not silently equated with the earlier priest."
+  },
+  {
+    "id": "1-chronicles-6-13",
+    "analysis": "and kjv_shallum_priest kjv_hilkiah_priest:a beget:pa and kjv_hilkiah_priest kjv_azariah_hilkiah:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Úallum Hilkiahget pelaÙizya ãÑ Hilkiah Azariahget pelaÙizya.",
+    "expectedGloss": "and · shallum-priest · hilkiah-priest(acc.) · beget(pst.) · and · hilkiah-priest · azariah-hilkiah(acc.) · beget(pst.).",
+    "interpretation": "Shallum begets Hilkiah; Hilkiah begets Azariah.",
+    "note": "The priestly line is kept distinct from the Merarite Hilkiah in the later singer genealogy."
+  },
+  {
+    "id": "1-chronicles-6-14",
+    "analysis": "and kjv_azariah_hilkiah kjv_seraiah_priest:a beget:pa and kjv_seraiah_priest kjv_jehozadak:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Azariah Seraiahget pelaÙizya ãÑ Seraiah Jehozadakget pelaÙizya.",
+    "expectedGloss": "and · azariah-hilkiah · seraiah-priest(acc.) · beget(pst.) · and · seraiah-priest · jehozadak(acc.) · beget(pst.).",
+    "interpretation": "Azariah begets Seraiah; Seraiah begets Jehozadak.",
+    "note": "Seraiah remains the priestly bearer, not the earlier royal official."
+  },
+  {
+    "id": "1-chronicles-6-15",
+    "analysis": "and kjv_jehozadak into kjv_captivity go:pa when kjv_lord kjv_judah and kjv_jerusalem:a by hand of nebuchadnezzar carry:pa away.",
+    "expected": "accept",
+    "expectedText": "âÑ Jehozadak nira klárjemzállen ÃÍizya vin Denarvenek Judah ãÑ Jerusalemget Ëers trembÅr i Nebukadnezar ÛÇdizya thav.",
+    "expectedGloss": "and · jehozadak · into · captivity · go(pst.) · when · LORD{name-lord} · Judah · and · Jerusalem(acc.) · by · hand · of · nebuchadnezzar · carry(pst.) · away.",
+    "interpretation": "Jehozadak goes into captivity when the LORD carries Judah and Jerusalem away through Nebuchadnezzar.",
+    "note": "Divine agency and the named human instrument are both retained as source attribution; captivity is not softened into travel."
+  },
+  {
+    "id": "1-chronicles-6-16",
+    "analysis": "son:pl of kjv_levi kjv_gershom_levi kjv_kohath and kjv_merari.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Levi GerÛom KohaÓ ãÑ Merari.",
+    "expectedGloss": "son(pl.) · of · Levi · gershom-levi · Kohath · and · Merari.",
+    "interpretation": "Levi's sons Gershom, Kohath and Merari.",
+    "note": "The printed Gershom is not normalized to Gershon and is distinguished from Moses' son."
+  },
+  {
+    "id": "1-chronicles-6-17",
+    "analysis": "and these name:pl of son:pl of kjv_gershom_levi be:pr kjv_libni and kjv_shimei.",
+    "expected": "accept",
+    "expectedText": "âÑ Ñem denun i pelenun i GerÛom r×owya Libni ãÑ Úimei.",
+    "expectedGloss": "and · these · name(pl.) · of · son(pl.) · of · gershom-levi · be(prs.) · Libni · and · Shimei.",
+    "interpretation": "The names of Gershom's sons are Libni and Shimei.",
+    "note": "These retain the Levitical family context rather than the later Merarite or other household namesakes."
+  },
+  {
+    "id": "1-chronicles-6-18",
+    "analysis": "and son:pl of kjv_kohath kjv_amram and kjv_izhar and kjv_hebron_kohath and kjv_uzziel be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i KohaÓ Amram ãÑ Izhar ãÑ Hebron ãÑ Uzziel r×izya.",
+    "expectedGloss": "and · son(pl.) · of · Kohath · Amram · and · Izhar · and · Hebron · and · Uzziel · be(pst.).",
+    "interpretation": "Kohath's sons are Amram, Izhar, Hebron and Uzziel.",
+    "note": "The repeated list remains a repeated source statement; no content is dropped as redundant."
+  },
+  {
+    "id": "1-chronicles-6-19",
+    "analysis": "son:pl of kjv_merari kjv_mahli and kjv_mushi and these kjv_family:pl of kjv_levite:pl kjv_according their/father:pl be:pr.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Merari Mahli ãÑ MuÛi ãÑ Ñem v×dlehmgurun i levisßlumun kãm zem’palaun r×owya.",
+    "expectedGloss": "son(pl.) · of · Merari · Mahli · and · Mushi · and · these · family{kin-group}(pl.) · of · Levite(pl.) · according-to · their-father(pl.) · be(prs.).",
+    "interpretation": "Merari's sons Mahli and Mushi; these are Levite families according to their fathers.",
+    "note": "The family conclusion does not turn each named ancestor into an individual first-person speaker."
+  },
+  {
+    "id": "1-chronicles-6-20",
+    "analysis": "of kjv_gershom_levi kjv_libni his/son kjv_jahath_libni his/son kjv_zimmah his/son,",
+    "expected": "accept",
+    "expectedText": "I GerÛom Libni zi’pelen JahaÕ zi’pelen Zimmah zi’pelen,",
+    "expectedGloss": "of · gershom-levi · Libni · his-son · jahath-libni · his-son · zimmah · his-son,",
+    "interpretation": "Of Gershom: Libni his son, Jahath his son, Zimmah his son,",
+    "note": "The supplied ancestry order is retained; no missing generation is inferred from a later list."
+  },
+  {
+    "id": "1-chronicles-6-21",
+    "analysis": "kjv_joah_zimmah his/son kjv_iddo_joah his/son kjv_zerah_gershom his/son kjv_jeaterai his/son.",
+    "expected": "accept",
+    "expectedText": "Joah zi’pelen Iddo zi’pelen Zerah zi’pelen Jeaterai zi’pelen.",
+    "expectedGloss": "joah-zimmah · his-son · iddo-joah · his-son · zerah-gershom · his-son · jeaterai · his-son.",
+    "interpretation": "Joah his son, Iddo his son, Zerah his son, Jeaterai his son.",
+    "note": "Local ancestry distinguishes these names from royal officers and other tribal lines."
+  },
+  {
+    "id": "1-chronicles-6-22",
+    "analysis": "son:pl of kjv_kohath kjv_amminadab_kohath his/son kjv_korah_izhar his/son kjv_assir his/son,",
+    "expected": "accept",
+    "expectedText": "Pelenun i KohaÓ Amminadab zi’pelen Korah zi’pelen Assir zi’pelen,",
+    "expectedGloss": "son(pl.) · of · Kohath · amminadab-kohath · his-son · Korah · his-son · Assir · his-son,",
+    "interpretation": "Kohath's sons: Amminadab his son, Korah his son, Assir his son,",
+    "note": "Amminadab is retained as printed, not corrected to Izhar. The supplied relation remains even where another list gives different ancestry."
+  },
+  {
+    "id": "1-chronicles-6-23",
+    "analysis": "kjv_elkanah his/son and kjv_ebiasaph his/son and kjv_assir_later his/son,",
+    "expected": "accept",
+    "expectedText": "Elkanah zi’pelen ãÑ Ebiasaf zi’pelen ãÑ Assir zi’pelen,",
+    "expectedGloss": "Elkanah · his-son · and · ebiasaph · his-son · and · assir-later · his-son,",
+    "interpretation": "Elkanah his son, Ebiasaph his son, Assir his son,",
+    "note": "The second Assir position is retained in the compressed chain rather than collapsed into the preceding occurrence; Ebiasaph retains this spelling."
+  },
+  {
+    "id": "1-chronicles-6-24",
+    "analysis": "kjv_tahath_person his/son kjv_uriel_tahath his/son kjv_uzziah_uriel his/son and kjv_shaul_uzziah his/son.",
+    "expected": "accept",
+    "expectedText": "TahaÕ zi’pelen Uriel zi’pelen Uzziah zi’pelen ãÑ Úaul zi’pelen.",
+    "expectedGloss": "tahath-person · his-son · uriel-tahath · his-son · uzziah-uriel · his-son · and · shaul-uzziah · his-son.",
+    "interpretation": "Tahath his son, Uriel his son, Uzziah his son and Shaul his son.",
+    "note": "Tahath is a person rather than the wilderness station; Uzziah is not the Judahite king."
+  },
+  {
+    "id": "1-chronicles-6-25",
+    "analysis": "and son:pl of kjv_elkanah_amasai kjv_amasai_elkanah and kjv_ahimoth.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i Elkanah Amasai ãÑ AhimoÕ.",
+    "expectedGloss": "and · son(pl.) · of · elkanah-amasai · amasai-elkanah · and · ahimoth.",
+    "interpretation": "Elkanah's sons Amasai and Ahimoth.",
+    "note": "This Elkanah is identified by the local Amasai relation without collapsing every same-name ancestor."
+  },
+  {
+    "id": "1-chronicles-6-26",
+    "analysis": "as for kjv_elkanah_zophai son:pl of kjv_elkanah_zophai kjv_zophai his/son and kjv_nahath_zophai his/son,",
+    "expected": "accept",
+    "expectedText": "Kãm t× Elkanah pelenun i Elkanah Zofai zi’pelen ãÑ NahaÕ zi’pelen,",
+    "expectedGloss": "as · for · elkanah-zophai · son(pl.) · of · elkanah-zophai · zophai · his-son · and · nahath-zophai · his-son,",
+    "interpretation": "As for Elkanah: his sons, Zophai his son and Nahath his son,",
+    "note": "The repeated Elkanah heading and supplied Zophai form remain; Nahath is not the Edomite ancestor."
+  },
+  {
+    "id": "1-chronicles-6-27",
+    "analysis": "kjv_eliab_nahath his/son kjv_jeroham his/son kjv_elkanah_samuel his/son.",
+    "expected": "accept",
+    "expectedText": "Eliab zi’pelen Yeroham zi’pelen Elkanah zi’pelen.",
+    "expectedGloss": "eliab-nahath · his-son · Jeroham · his-son · elkanah-samuel · his-son.",
+    "interpretation": "Eliab his son, Jeroham his son, Elkanah his son.",
+    "note": "The stated Eliab form is retained rather than normalized from another Samuel-ancestry list."
+  },
+  {
+    "id": "1-chronicles-6-28",
+    "analysis": "and son:pl of kjv_samuel first+born kjv_vashni and kjv_abiah.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i Samuel neksaÙÕßr VaÛni ãÑ Abiah.",
+    "expectedGloss": "and · son(pl.) · of · Samuel · first-born · vashni · and · Abiah.",
+    "interpretation": "Samuel's sons: firstborn Vashni and Abiah.",
+    "note": "Vashni is the supplied firstborn name; Joel from another passage is not silently substituted."
+  },
+  {
+    "id": "1-chronicles-6-29",
+    "analysis": "son:pl of kjv_merari kjv_mahli kjv_libni_mahli his/son kjv_shimei_libni_mahli his/son kjv_uzza_merari his/son,",
+    "expected": "accept",
+    "expectedText": "Pelenun i Merari Mahli Libni zi’pelen Úimei zi’pelen Uzza zi’pelen,",
+    "expectedGloss": "son(pl.) · of · Merari · Mahli · libni-mahli · his-son · shimei-libni-mahli · his-son · uzza-merari · his-son,",
+    "interpretation": "Merari's sons: Mahli, Libni his son, Shimei his son, Uzza his son,",
+    "note": "Merarite Libni and Shimei are distinguished from the Gershom line, and Uzza from the ark bearer or garden name."
+  },
+  {
+    "id": "1-chronicles-6-30",
+    "analysis": "kjv_shimea_uzza his/son kjv_haggiah his/son kjv_asaiah_merari his/son.",
+    "expected": "accept",
+    "expectedText": "Úimea zi’pelen Haggiah zi’pelen Asaiah zi’pelen.",
+    "expectedGloss": "shimea-uzza · his-son · haggiah · his-son · asaiah-merari · his-son.",
+    "interpretation": "Shimea his son, Haggiah his son, Asaiah his son.",
+    "note": "These retain their Merarite context instead of importing David's son or a court servant."
+  },
+  {
+    "id": "1-chronicles-6-31",
+    "analysis": "and these they whom kjv_david over service of song in house of kjv_lord set:pa be:pr after kjv_ark_chest rest:pp.",
+    "expected": "accept",
+    "expectedText": "âÑ Ñem zem falib David na dÇven i lil ni zál i Denarvenek hyÅvÍizya r×owya hëth gorenborel dlenizfu.",
+    "expectedGloss": "and · these · they(pl.) · whom · David · over · service · of · song · in · house · of · LORD{name-lord} · set(pst.) · be(prs.) · after · ark{chest} · rest(pst.pf.).",
+    "interpretation": "These are those David sets over song-service in the LORD's house after the ark rests.",
+    "note": "Song-service is an assigned function, and the ark's rest is retained without adding an unprinted building date."
+  },
+  {
+    "id": "1-chronicles-6-32",
+    "analysis": "and they before dwelling place of kjv_tabernacle of kjv_congregation with song serve:pa until kjv_solomon house of kjv_lord in kjv_jerusalem build:pp and then they their/office:a attend:pa kjv_according their/kjv_service_order.",
+    "expected": "accept",
+    "expectedText": "âÑ zem pán zálinçl×on çl×on i prodnazálinçl×on i sßlumzßguÙ rÇnÓ lil dÇvenizya vinto Solomon zál i Denarvenek ni Jerusalem zálaizfu ãÑ rav zem zem’norvenget dÇvenizya kãm zem’dÇvennorÓa.",
+    "expectedGloss": "and · they(pl.) · before · dwelling · place · of · tabernacle · of · congregation · with · song · serve(pst.) · until · Solomon · house · of · LORD{name-lord} · in · Jerusalem · build(pst.pf.) · and · then · they(pl.) · their-office(acc.) · attend(pst.) · according-to · their-duty-order.",
+    "interpretation": "They serve with singing before the congregation-tabernacle dwelling until Solomon builds the LORD's house in Jerusalem; then attend their office by its assigned order.",
+    "note": "Waited means attended to duty, not idle delay. The order of service is an arrangement of duties, not a spoken command or an invented detailed rota."
+  },
+  {
+    "id": "1-chronicles-6-33",
+    "analysis": "and these they who with their/child:pl attend:pa be:pr of son:pl of kjv_kohathite:pl kjv_heman_singer sing:ag son of kjv_joel son of kjv_shemuel_singer_line,",
+    "expected": "accept",
+    "expectedText": "âÑ Ñem zem falib rÇnÓ zem’pelun dÇvenizya r×owya i pelenun i KohaÕitun Heman lilsßlum pelen i Yoel pelen i Úemuel,",
+    "expectedGloss": "and · these · they(pl.) · who · with · their-child(pl.) · attend(pst.) · be(prs.) · of · son(pl.) · of · Kohathite(pl.) · heman-singer · sing(agt.) · son · of · Joel · son · of · shemuel-singer-line,",
+    "interpretation": "These attend with their children: among Kohathites, Heman the singer, son of Joel, son of Shemuel,",
+    "note": "The supplied Shemuel spelling remains and Heman is identified by this singing lineage rather than equated with a wisdom-name bearer."
+  },
+  {
+    "id": "1-chronicles-6-34",
+    "analysis": "son of kjv_elkanah_samuel son of kjv_jeroham son of kjv_eliel_jeroham son of kjv_toah,",
+    "expected": "accept",
+    "expectedText": "Pelen i Elkanah pelen i Yeroham pelen i Eliel pelen i Toah,",
+    "expectedGloss": "son · of · elkanah-samuel · son · of · Jeroham · son · of · eliel-jeroham · son · of · toah,",
+    "interpretation": "Son of Elkanah, son of Jeroham, son of Eliel, son of Toah,",
+    "note": "Eliel and Toah are retained rather than substituted with Elihu and Tohu from another account."
+  },
+  {
+    "id": "1-chronicles-6-35",
+    "analysis": "son of kjv_zuph son of kjv_elkanah_zuph son of kjv_mahath son of kjv_amasai_elkanah,",
+    "expected": "accept",
+    "expectedText": "Pelen i Zuf pelen i Elkanah pelen i MahaÕ pelen i Amasai,",
+    "expectedGloss": "son · of · Zuph · son · of · elkanah-zuph · son · of · mahath · son · of · amasai-elkanah,",
+    "interpretation": "Son of Zuph, son of Elkanah, son of Mahath, son of Amasai,",
+    "note": "The successive ancestry edges are retained without collapsing the recurring Elkanah name."
+  },
+  {
+    "id": "1-chronicles-6-36",
+    "analysis": "son of kjv_elkanah_amasai son of kjv_joel_azariah son of kjv_azariah_zephaniah son of kjv_zephaniah_tahath,",
+    "expected": "accept",
+    "expectedText": "Pelen i Elkanah pelen i Joel pelen i Azariah pelen i Zefaniah,",
+    "expectedGloss": "son · of · elkanah-amasai · son · of · joel-azariah · son · of · azariah-zephaniah · son · of · zephaniah-tahath,",
+    "interpretation": "Son of Elkanah, son of Joel, son of Azariah, son of Zephaniah,",
+    "note": "This Joel is an earlier ancestor in the chain, not automatically Samuel's son at its other end."
+  },
+  {
+    "id": "1-chronicles-6-37",
+    "analysis": "son of kjv_tahath_person son of kjv_assir_later son of kjv_ebiasaph son of kjv_korah_izhar,",
+    "expected": "accept",
+    "expectedText": "Pelen i TahaÕ pelen i Assir pelen i Ebiasaf pelen i Korah,",
+    "expectedGloss": "son · of · tahath-person · son · of · assir-later · son · of · ebiasaph · son · of · Korah,",
+    "interpretation": "Son of Tahath, son of Assir, son of Ebiasaph, son of Korah,",
+    "note": "The supplied descent through Ebiasaph and Assir remains; names are not reordered to fit another list."
+  },
+  {
+    "id": "1-chronicles-6-38",
+    "analysis": "son of kjv_izhar son of kjv_kohath son of kjv_levi son of kjv_israel.",
+    "expected": "accept",
+    "expectedText": "Pelen i Izhar pelen i KohaÓ pelen i Levi pelen i Israel.",
+    "expectedGloss": "son · of · Izhar · son · of · Kohath · son · of · Levi · son · of · Israel.",
+    "interpretation": "Son of Izhar, son of Kohath, son of Levi, son of Israel.",
+    "note": "Izhar remains in this chain beside the earlier printed Amminadab sequence; neither is silently corrected."
+  },
+  {
+    "id": "1-chronicles-6-39",
+    "analysis": "and his/brother kjv_asaph_singer who at kjv_right_side of he stand:pa even kjv_asaph_singer son of kjv_berachiah_asaph son of kjv_shimea_asaph,",
+    "expected": "accept",
+    "expectedText": "âÑ zi’palil Asaf falib ni luren i zi kojizya aleth Asaf pelen i Berakiah pelen i Úimea,",
+    "expectedGloss": "and · his-brother · asaph-singer · who · at · right-side · of · he(sg.) · stand(pst.) · even · asaph-singer · son · of · berachiah-asaph · son · of · shimea-asaph,",
+    "interpretation": "His brother Asaph stands at his right side: Asaph son of Berachiah, son of Shimea,",
+    "note": "Right hand is spatial position, not moral correctness, entitlement or standing physically on a hand. Berachiah retains its supplied form."
+  },
+  {
+    "id": "1-chronicles-6-40",
+    "analysis": "son of kjv_michael_asaph son of kjv_baaseiah son of kjv_malchiah_asaph,",
+    "expected": "accept",
+    "expectedText": "Pelen i Mikael pelen i Baaseiah pelen i Malkiah,",
+    "expectedGloss": "son · of · michael-asaph · son · of · baaseiah · son · of · malchiah-asaph,",
+    "interpretation": "Son of Michael, son of Baaseiah, son of Malchiah,",
+    "note": "These names keep the Asaph ancestry, without importing earlier census or royal relationships."
+  },
+  {
+    "id": "1-chronicles-6-41",
+    "analysis": "son of kjv_ethni son of kjv_zerah_gershom son of kjv_adaiah_asaph,",
+    "expected": "accept",
+    "expectedText": "Pelen i EÕni pelen i Zerah pelen i Adaiah,",
+    "expectedGloss": "son · of · ethni · son · of · zerah-gershom · son · of · adaiah-asaph,",
+    "interpretation": "Son of Ethni, son of Zerah, son of Adaiah,",
+    "note": "Zerah remains the Gershom-line bearer and Adaiah is not the earlier queen mother's father."
+  },
+  {
+    "id": "1-chronicles-6-42",
+    "analysis": "son of kjv_ethan_asaph son of kjv_zimmah son of kjv_shimei,",
+    "expected": "accept",
+    "expectedText": "Pelen i EÕan pelen i Zimmah pelen i Úimei,",
+    "expectedGloss": "son · of · ethan-asaph · son · of · zimmah · son · of · Shimei,",
+    "interpretation": "Son of Ethan, son of Zimmah, son of Shimei,",
+    "note": "Ethan in Asaph's ancestry is distinguished from the Merarite singer introduced below."
+  },
+  {
+    "id": "1-chronicles-6-43",
+    "analysis": "son of kjv_jahath_gershom son of kjv_gershom_levi son of kjv_levi.",
+    "expected": "accept",
+    "expectedText": "Pelen i JahaÕ pelen i GerÛom pelen i Levi.",
+    "expectedGloss": "son · of · jahath-gershom · son · of · gershom-levi · son · of · Levi.",
+    "interpretation": "Son of Jahath, son of Gershom, son of Levi.",
+    "note": "The printed immediate Jahath/Gershom relation is retained without inserting Libni from the earlier chain."
+  },
+  {
+    "id": "1-chronicles-6-44",
+    "analysis": "and their/brother:pl son:pl of kjv_merari at left side stand:pa kjv_ethan_singer son of kjv_kishi son of kjv_abdi son of kjv_malluch,",
+    "expected": "accept",
+    "expectedText": "âÑ zem’palilun pelenun i Merari ni venith vorel kojizya EÕan pelen i KiÛi pelen i Abdi pelen i Malluk,",
+    "expectedGloss": "and · their-brother(pl.) · son(pl.) · of · Merari · at · left · side · stand(pst.) · ethan-singer · son · of · kishi · son · of · abdi · son · of · malluch,",
+    "interpretation": "Their Merarite brothers stand at the left side: Ethan son of Kishi, son of Abdi, son of Malluch,",
+    "note": "Left hand is a position in the singers' arrangement; this Ethan is not the earlier genealogical or wisdom figure."
+  },
+  {
+    "id": "1-chronicles-6-45",
+    "analysis": "son of kjv_hashabiah son of kjv_amaziah_ethan son of kjv_hilkiah_ethan,",
+    "expected": "accept",
+    "expectedText": "Pelen i HaÛabiah pelen i Amaziah pelen i Hilkiah,",
+    "expectedGloss": "son · of · hashabiah · son · of · amaziah-ethan · son · of · hilkiah-ethan,",
+    "interpretation": "Son of Hashabiah, son of Amaziah, son of Hilkiah,",
+    "note": "Amaziah is not the king and Hilkiah is not automatically the high priest or Eliakim's father."
+  },
+  {
+    "id": "1-chronicles-6-46",
+    "analysis": "son of kjv_amzi son of kjv_bani_ethan son of kjv_shamer,",
+    "expected": "accept",
+    "expectedText": "Pelen i Amzi pelen i Bani pelen i Úamer,",
+    "expectedGloss": "son · of · amzi · son · of · bani-ethan · son · of · shamer,",
+    "interpretation": "Son of Amzi, son of Bani, son of Shamer,",
+    "note": "Bani remains this Merarite ancestor rather than the earlier warrior."
+  },
+  {
+    "id": "1-chronicles-6-47",
+    "analysis": "son of kjv_mahli_mushi son of kjv_mushi son of kjv_merari son of kjv_levi.",
+    "expected": "accept",
+    "expectedText": "Pelen i Mahli pelen i MuÛi pelen i Merari pelen i Levi.",
+    "expectedGloss": "son · of · mahli-mushi · son · of · Mushi · son · of · Merari · son · of · Levi.",
+    "interpretation": "Son of Mahli, son of Mushi, son of Merari, son of Levi.",
+    "note": "Mahli is expressly Mushi's son here; the earlier Mahli son of Merari relation is not used to erase a generation."
+  },
+  {
+    "id": "1-chronicles-6-48",
+    "analysis": "their/brother:pl also kjv_levite:pl to all kind of service of kjv_tabernacle of house of god appoint:psv:pa.",
+    "expected": "accept",
+    "expectedText": "Zem’palilun al levisßlumun åÃ ol pálßn i dÇven i prodnazálinçl×on i zál i prodvar hyÅvÍvenorimizya.",
+    "expectedGloss": "their-brother(pl.) · also · Levite(pl.) · to · all · kind · of · service · of · tabernacle · of · house · of · god · appoint(pass.,pst.).",
+    "interpretation": "Their Levite brothers are appointed to every kind of service of the tabernacle of God's house.",
+    "note": "The service assignment remains broad; it is not restricted to singing merely because the preceding genealogy concerns singers."
+  },
+  {
+    "id": "1-chronicles-6-49",
+    "analysis": "but kjv_aaron and his/son:pl upon altar of burn:psv kjv_offering and on altar of kjv_incense offer:pa and for all work of most holy place and for kjv_atonement:a for kjv_israel make:inf appoint:psv:pa kjv_according all that kjv_moses servant of god command:pp.",
+    "expected": "accept",
+    "expectedText": "PÇnßë Aaron ãÑ zi’pelenun gren prodnaklojvor i zarunfalnthrenim fÅwglÉst ãÑ gren prodnaklojvor i spirilzarun fÅwglÉstizya ãÑ t× ol dÇÓ i gimol prodna çl×on ãÑ t× prodhanget t× Israel aÙ’en hyÅvÍvenorimizya kãm ol ka Moses dÇv i prodvar norÓaizfu.",
+    "expectedGloss": "but · Aaron · and · his-son(pl.) · upon · altar · of · burn(pass.) · offering · and · on · altar · of · incense · offer(pst.) · and · for · all · work · of · most · holy · place · and · for · atonement(acc.) · for · Israel · make(inf.) · appoint(pass.,pst.) · according-to · all · that · Moses · servant · of · god · command(pst.pf.).",
+    "interpretation": "Aaron and his sons offer on the burnt-offering and incense altars, serving the most holy place and making atonement for Israel according to Moses' command.",
+    "note": "The two altars, holy-place duties and inherited atonement category remain distinct; priestly work is not conflated with the singers' station."
+  },
+  {
+    "id": "1-chronicles-6-50",
+    "analysis": "and these son:pl of kjv_aaron be:pr kjv_eleazar his/son kjv_phinehas his/son kjv_abishua_priest his/son,",
+    "expected": "accept",
+    "expectedText": "âÑ Ñem pelenun i Aaron r×owya Eleazar zi’pelen Finehas zi’pelen AbiÛua zi’pelen,",
+    "expectedGloss": "and · these · son(pl.) · of · Aaron · be(prs.) · Eleazar · his-son · Phinehas · his-son · abishua-priest · his-son,",
+    "interpretation": "Aaron's sons: Eleazar his son, Phinehas his son, Abishua his son,",
+    "note": "The resumed priestly genealogy is retained even where it repeats the chapter's opening chain."
+  },
+  {
+    "id": "1-chronicles-6-51",
+    "analysis": "kjv_bukki_priest his/son kjv_uzzi_priest his/son kjv_zerahiah_priest his/son,",
+    "expected": "accept",
+    "expectedText": "Bukki zi’pelen Uzzi zi’pelen Zerahiah zi’pelen,",
+    "expectedGloss": "bukki-priest · his-son · uzzi-priest · his-son · zerahiah-priest · his-son,",
+    "interpretation": "Bukki his son, Uzzi his son, Zerahiah his son,",
+    "note": "The local priestly entries are reused rather than creating fresh people solely because the source repeats the list."
+  },
+  {
+    "id": "1-chronicles-6-52",
+    "analysis": "kjv_meraioth_priest his/son kjv_amariah_meraioth his/son kjv_ahitub_amariah his/son,",
+    "expected": "accept",
+    "expectedText": "MeraioÕ zi’pelen Amariah zi’pelen Ahitub zi’pelen,",
+    "expectedGloss": "meraioth-priest · his-son · amariah-meraioth · his-son · ahitub-amariah · his-son,",
+    "interpretation": "Meraioth his son, Amariah his son, Ahitub his son,",
+    "note": "This repetition returns to the first Amariah/Ahitub pair in the priestly chain."
+  },
+  {
+    "id": "1-chronicles-6-53",
+    "analysis": "kjv_zadok his/son kjv_ahimaaz_zadok his/son.",
+    "expected": "accept",
+    "expectedText": "Zadok zi’pelen Ahimaaz zi’pelen.",
+    "expectedGloss": "Zadok · his-son · ahimaaz-zadok · his-son.",
+    "interpretation": "Zadok his son, Ahimaaz his son.",
+    "note": "The resumed list stops where the source stops; later generations are not appended here."
+  },
+  {
+    "id": "1-chronicles-6-54",
+    "analysis": "now these their/dwelling place:pl throughout their/fortress:pl in their/kjv_coast_region:pl of son:pl of kjv_aaron of kjv_family:pl of kjv_kohathite:pl be:pr for kjv_lot of they be:pa.",
+    "expected": "accept",
+    "expectedText": "Ven Ñem zem’zálinçl×on çl×onun olthrin zem’darvarun ni zem’threnjoÙun i pelenun i Aaron i v×dlehmgurun i KohaÕitun r×owya t× vengrafden i zem r×izya.",
+    "expectedGloss": "now · these · their-dwelling · place(pl.) · throughout · their-fortress(pl.) · in · their-coast{region}(pl.) · of · son(pl.) · of · Aaron · of · family{kin-group}(pl.) · of · Kohathite(pl.) · be(prs.) · for · lot{chance-token} · of · they(pl.) · be(pst.).",
+    "interpretation": "These are their dwelling places through their fortified enclosures in their territories, of Aaron's sons among Kohathite families, for theirs is the lot.",
+    "note": "Castles uses the inherited fortified-enclosure term without importing medieval architecture; coasts are territories and lot is allocation, not a length of land."
+  },
+  {
+    "id": "1-chronicles-6-55",
+    "analysis": "and they to they kjv_hebron in land of kjv_judah and kjv_suburbs_field of it round about it:a give:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ zem åÃ zem Hebron ni joÙ i Judah ãÑ zálagurthani i po olen grem poget fÅwizya.",
+    "expectedGloss": "and · they(pl.) · to · they(pl.) · Hebron · in · land · of · Judah · and · suburbs{field} · of · it · round · about · it(acc.) · give(pst.).",
+    "interpretation": "They give them Hebron in Judah and its surrounding outlying fields.",
+    "note": "Hebron here is the locality, not a genealogical person, and suburbs retain the open-land sense."
+  },
+  {
+    "id": "1-chronicles-6-56",
+    "analysis": "but field:pl of city and village:pl of it:a they to kjv_caleb son of kjv_jephunneh give:pa.",
+    "expected": "accept",
+    "expectedText": "PÇnßë wÏnÇun i zálagur ãÑ selinun i poget zem åÃ Kaleb pelen i Jefunneh fÅwizya.",
+    "expectedGloss": "but · field(pl.) · of · city · and · village(pl.) · of · it(acc.) · they(pl.) · to · Caleb · son · of · Jephunneh · give(pst.).",
+    "interpretation": "But the city's fields and villages are given to Caleb son of Jephunneh.",
+    "note": "The contrasted allocation of city-related lands to Caleb remains; it is not collapsed into the preceding priestly grant."
+  },
+  {
+    "id": "1-chronicles-6-57",
+    "analysis": "and to son:pl of kjv_aaron they city:pl of kjv_judah namely kjv_hebron city of kjv_refuge and kjv_libnah with her/kjv_suburbs_field and kjv_jattir and kjv_eshtemoa with their/kjv_suburbs_field:a give:pa,",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ pelenun i Aaron zem zálagurun i Judah denëw Hebron zálagur i maserÃÍlãtÕjemekçl×on ãÑ Libnah rÇnÓ za’zálagurthani ãÑ Jattir ãÑ EÛtemoa rÇnÓ zem’zálagurthaniget fÅwizya,",
+    "expectedGloss": "and · to · son(pl.) · of · Aaron · they(pl.) · city(pl.) · of · Judah · namely · Hebron · city · of · refuge · and · Libnah · with · her-suburbs{field} · and · Jattir · and · Eshtemoa · with · their-suburbs{field}(acc.) · give(pst.),",
+    "interpretation": "Aaron's sons receive Judah's cities: Hebron the refuge city, Libnah with its outlying fields, Jattir and Eshtemoa with theirs,",
+    "note": "The supplied list remains unexpanded even if another allocation list includes additional names."
+  },
+  {
+    "id": "1-chronicles-6-58",
+    "analysis": "and kjv_hilen with her/kjv_suburbs_field kjv_debir_city with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ Hilen rÇnÓ za’zálagurthani Debir rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · hilen · with · her-suburbs{field} · Debir · with · her-suburbs{field},",
+    "interpretation": "Hilen with its outlying fields, Debir with its outlying fields,",
+    "note": "Hilen is retained as printed; Debir is the city, not a king of Eglon or an inner shrine."
+  },
+  {
+    "id": "1-chronicles-6-59",
+    "analysis": "and kjv_ashan with her/kjv_suburbs_field and kjv_bethshemesh with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ AÛan rÇnÓ za’zálagurthani ãÑ BeÕÛemeÛ rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · Ashan · with · her-suburbs{field} · and · Bethshemesh · with · her-suburbs{field},",
+    "interpretation": "Ashan with its outlying fields, Bethshemesh with its outlying fields,",
+    "note": "The repeated land accompaniment is retained rather than omitted as stylistic repetition."
+  },
+  {
+    "id": "1-chronicles-6-60",
+    "analysis": "and out of kjv_tribe of kjv_benjamin kjv_geba with her/kjv_suburbs_field and kjv_alemeth with her/kjv_suburbs_field and kjv_anathoth with her/kjv_suburbs_field all their/city:pl throughout their/kjv_family:pl ten and kjv_three city:pl be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ thar i v×dlehmsßlum i Benjamin Geba rÇnÓ za’zálagurthani ãÑ AlemeÕ rÇnÓ za’zálagurthani ãÑ AnaÕoÕ rÇnÓ za’zálagurthani ol zem’zálagurun olthrin zem’v×dlehmgurun eÛnÉ ãÑ tren zálagurun r×izya.",
+    "expectedGloss": "and · out · of · tribe · of · Benjamin · Geba · with · her-suburbs{field} · and · alemeth · with · her-suburbs{field} · and · Anathoth · with · her-suburbs{field} · all · their-city(pl.) · throughout · their-family{kin-group}(pl.) · ten · and · three · city(pl.) · be(pst.).",
+    "interpretation": "From Benjamin: Geba, Alemeth and Anathoth with their outlying fields; all their family cities total thirteen.",
+    "note": "The printed total thirteen is preserved without adding unprinted city names to reconcile the enumeration."
+  },
+  {
+    "id": "1-chronicles-6-61",
+    "analysis": "and to son:pl of kjv_kohath which remainder of kjv_family of thatone kjv_tribe be:pa city:pl out of half kjv_tribe namely out of half kjv_tribe of kjv_manasseh by kjv_lot give:psv:pa ten city:pl.",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ pelenun i KohaÓ Ñetib dlenÛemin i v×dlehmgur i Ñes v×dlehmsßlum r×izya zálagurun thar i ÓÅtusthrenin v×dlehmsßlum denëw thar i ÓÅtusthrenin v×dlehmsßlum i Manasseh Ëers vengrafden fÅwimizya eÛnÉ zálagurun.",
+    "expectedGloss": "and · to · son(pl.) · of · Kohath · which · remainder · of · family{kin-group} · of · thatone · tribe · be(pst.) · city(pl.) · out · of · half · tribe · namely · out · of · half · tribe · of · Manasseh · by · lot{chance-token} · give(pass.,pst.) · ten · city(pl.).",
+    "interpretation": "The remaining Kohath sons receive cities from the half-tribe, namely half-Manasseh, by lot: ten cities.",
+    "note": "Both half-tribe phrases remain as a source restatement, not two independent half-tribe grants; ten is the city total."
+  },
+  {
+    "id": "1-chronicles-6-62",
+    "analysis": "and to son:pl of kjv_gershom_levi throughout their/kjv_family:pl out of kjv_tribe of kjv_issachar and out of kjv_tribe of kjv_asher and out of kjv_tribe of kjv_naphtali and out of kjv_tribe of kjv_manasseh in kjv_bashan ten and kjv_three city:pl.",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ pelenun i GerÛom olthrin zem’v×dlehmgurun thar i v×dlehmsßlum i Issakar ãÑ thar i v×dlehmsßlum i AÛer ãÑ thar i v×dlehmsßlum i Naftali ãÑ thar i v×dlehmsßlum i Manasseh ni BaÛan eÛnÉ ãÑ tren zálagurun.",
+    "expectedGloss": "and · to · son(pl.) · of · gershom-levi · throughout · their-family{kin-group}(pl.) · out · of · tribe · of · Issachar · and · out · of · tribe · of · Asher · and · out · of · tribe · of · Naphtali · and · out · of · tribe · of · Manasseh · in · Bashan · ten · and · three · city(pl.).",
+    "interpretation": "Gershom's families receive thirteen cities from Issachar, Asher, Naphtali and Manasseh in Bashan.",
+    "note": "The four source tribal allocations and total remain, without silently substituting the later half-tribe wording into this verse."
+  },
+  {
+    "id": "1-chronicles-6-63",
+    "analysis": "to son:pl of kjv_merari by kjv_lot throughout their/kjv_family:pl out of kjv_tribe of kjv_reuben and out of kjv_tribe of kjv_gad and out of kjv_tribe of kjv_zebulun twelve city:pl give:psv:pa.",
+    "expected": "accept",
+    "expectedText": "äÃ pelenun i Merari Ëers vengrafden olthrin zem’v×dlehmgurun thar i v×dlehmsßlum i Reuben ãÑ thar i v×dlehmsßlum i Gad ãÑ thar i v×dlehmsßlum i Zebulun Ém×nß zálagurun fÅwimizya.",
+    "expectedGloss": "to · son(pl.) · of · Merari · by · lot{chance-token} · throughout · their-family{kin-group}(pl.) · out · of · tribe · of · Reuben · and · out · of · tribe · of · Gad · and · out · of · tribe · of · Zebulun · twelve · city(pl.) · give(pass.,pst.).",
+    "interpretation": "Merari's families receive twelve cities by lot from Reuben, Gad and Zebulun.",
+    "note": "Twelve applies to the combined allocation rather than twelve from each named tribe."
+  },
+  {
+    "id": "1-chronicles-6-64",
+    "analysis": "and child:pl of kjv_israel to kjv_levite:pl these city:pl with their/kjv_suburbs_field:a give:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ pelun i Israel åÃ levisßlumun Ñem zálagurun rÇnÓ zem’zálagurthaniget fÅwizya.",
+    "expectedGloss": "and · child(pl.) · of · Israel · to · Levite(pl.) · these · city(pl.) · with · their-suburbs{field}(acc.) · give(pst.).",
+    "interpretation": "Israel's children give these cities and their outlying fields to the Levites.",
+    "note": "The summary retains both settlements and accompanying lands."
+  },
+  {
+    "id": "1-chronicles-6-65",
+    "analysis": "and they by kjv_lot out of kjv_tribe of child:pl of kjv_judah and out of kjv_tribe of child:pl of kjv_simeon and out of kjv_tribe of child:pl of kjv_benjamin these city:pl:a give:pa which by their/name:pl call:psv:pr.",
+    "expected": "accept",
+    "expectedText": "âÑ zem Ëers vengrafden thar i v×dlehmsßlum i pelun i Judah ãÑ thar i v×dlehmsßlum i pelun i Simeon ãÑ thar i v×dlehmsßlum i pelun i Benjamin Ñem zálagurunget fÅwizya Ñetib Ëers zem’denun ÓÅçimowya.",
+    "expectedGloss": "and · they(pl.) · by · lot{chance-token} · out · of · tribe · of · child(pl.) · of · Judah · and · out · of · tribe · of · child(pl.) · of · Simeon · and · out · of · tribe · of · child(pl.) · of · Benjamin · these · city(pl.,acc.) · give(pst.) · which · by · their-name(pl.) · call(pass.,prs.).",
+    "interpretation": "By lot they give these named cities from Judah, Simeon and Benjamin.",
+    "note": "The repeated tribe-of-children construction is preserved; names refer to the specified cities rather than a newly imposed tribal renaming."
+  },
+  {
+    "id": "1-chronicles-6-66",
+    "analysis": "and remainder of kjv_family:pl of son:pl of kjv_kohath city:pl of their/kjv_coast_region:pl out of kjv_tribe of kjv_ephraim:a have:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ dlenÛemin i v×dlehmgurun i pelenun i KohaÓ zálagurun i zem’threnjoÙun thar i v×dlehmsßlum i Efraimget sÇfizya.",
+    "expectedGloss": "and · remainder · of · family{kin-group}(pl.) · of · son(pl.) · of · Kohath · city(pl.) · of · their-coast{region}(pl.) · out · of · tribe · of · Ephraim(acc.) · have(pst.).",
+    "interpretation": "The remaining Kohath families have cities in their territories from Ephraim.",
+    "note": "Residue is the remainder of families, not bodily residue or all Kohathites newly receiving the same grant."
+  },
+  {
+    "id": "1-chronicles-6-67",
+    "analysis": "and they to they of city:pl of kjv_refuge kjv_shechem in mountain of kjv_ephraim with her/kjv_suburbs_field:a give:pa they also kjv_gezer with her/kjv_suburbs_field:a give:pa,",
+    "expected": "accept",
+    "expectedText": "âÑ zem åÃ zem i zálagurun i maserÃÍlãtÕjemekçl×on Úekem ni montër i Efraim rÇnÓ za’zálagurthaniget fÅwizya zem al Gezer rÇnÓ za’zálagurthaniget fÅwizya,",
+    "expectedGloss": "and · they(pl.) · to · they(pl.) · of · city(pl.) · of · refuge · Shechem · in · mountain · of · Ephraim · with · her-suburbs{field}(acc.) · give(pst.) · they(pl.) · also · Gezer · with · her-suburbs{field}(acc.) · give(pst.),",
+    "interpretation": "Among refuge cities they give Shechem in Ephraim's mountain with its outlying fields, and also Gezer with its fields,",
+    "note": "Shechem is the city in the specified mountain region; the refuge category and separate Gezer grant remain."
+  },
+  {
+    "id": "1-chronicles-6-68",
+    "analysis": "and kjv_jokmeam with her/kjv_suburbs_field and kjv_bethhoron with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ Jokmeam rÇnÓ za’zálagurthani ãÑ BeÕhoron rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · jokmeam · with · her-suburbs{field} · and · Bethhoron · with · her-suburbs{field},",
+    "interpretation": "Jokmeam and Bethhoron with their outlying fields,",
+    "note": "Jokmeam retains its supplied spelling rather than being replaced by another allocation-list name."
+  },
+  {
+    "id": "1-chronicles-6-69",
+    "analysis": "and kjv_aijalon with her/kjv_suburbs_field and kjv_gathrimmon with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ Aijalon rÇnÓ za’zálagurthani ãÑ GaÕrimmon rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · Aijalon · with · her-suburbs{field} · and · Gathrimmon · with · her-suburbs{field},",
+    "interpretation": "Aijalon and Gathrimmon with their outlying fields,",
+    "note": "Both cities and the repeated accompanying land relation remain."
+  },
+  {
+    "id": "1-chronicles-6-70",
+    "analysis": "and out of half kjv_tribe of kjv_manasseh kjv_aner_city with her/kjv_suburbs_field and kjv_bileam with her/kjv_suburbs_field for kjv_family of remainder of son:pl of kjv_kohath.",
+    "expected": "accept",
+    "expectedText": "âÑ thar i ÓÅtusthrenin v×dlehmsßlum i Manasseh Aner rÇnÓ za’zálagurthani ãÑ Bileam rÇnÓ za’zálagurthani t× v×dlehmgur i dlenÛemin i pelenun i KohaÓ.",
+    "expectedGloss": "and · out · of · half · tribe · of · Manasseh · aner-city · with · her-suburbs{field} · and · bileam · with · her-suburbs{field} · for · family{kin-group} · of · remainder · of · son(pl.) · of · Kohath.",
+    "interpretation": "From half-Manasseh, Aner and Bileam with outlying fields for the remaining Kohath sons' family.",
+    "note": "Aner is the city, not Abraham's ally. Bileam is retained, not silently changed to Balaam or Ibleam."
+  },
+  {
+    "id": "1-chronicles-6-71",
+    "analysis": "to son:pl of kjv_gershom_levi out of kjv_family of half kjv_tribe of kjv_manasseh kjv_golan in kjv_bashan with her/kjv_suburbs_field and kjv_ashtaroth with her/kjv_suburbs_field give:psv:pa,",
+    "expected": "accept",
+    "expectedText": "äÃ pelenun i GerÛom thar i v×dlehmgur i ÓÅtusthrenin v×dlehmsßlum i Manasseh Golan ni BaÛan rÇnÓ za’zálagurthani ãÑ AÛtaroÕ rÇnÓ za’zálagurthani fÅwimizya,",
+    "expectedGloss": "to · son(pl.) · of · gershom-levi · out · of · family{kin-group} · of · half · tribe · of · Manasseh · Golan · in · Bashan · with · her-suburbs{field} · and · Ashtaroth · with · her-suburbs{field} · give(pass.,pst.),",
+    "interpretation": "Gershom's sons receive Golan in Bashan and Ashtaroth with outlying fields from half-Manasseh's family,",
+    "note": "The Ashtaroth place sense is retained, not a substitution of the goddess name."
+  },
+  {
+    "id": "1-chronicles-6-72",
+    "analysis": "and out of kjv_tribe of kjv_issachar kjv_kedesh with her/kjv_suburbs_field kjv_daberath with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ thar i v×dlehmsßlum i Issakar KedeÛ rÇnÓ za’zálagurthani DaberaÕ rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · out · of · tribe · of · Issachar · Kedesh · with · her-suburbs{field} · Daberath · with · her-suburbs{field},",
+    "interpretation": "From Issachar, Kedesh and Daberath with their outlying fields,",
+    "note": "This Kedesh follows the stated Issachar allocation; the later Galilee qualifier is not imported here."
+  },
+  {
+    "id": "1-chronicles-6-73",
+    "analysis": "and kjv_ramoth_issachar with her/kjv_suburbs_field and kjv_anem with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ RamoÕ rÇnÓ za’zálagurthani ãÑ Anem rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · ramoth-issachar · with · her-suburbs{field} · and · anem · with · her-suburbs{field},",
+    "interpretation": "Ramoth and Anem with their outlying fields,",
+    "note": "Ramoth in the Issachar list is distinguished from Gilead's refuge city; Anem retains its source form."
+  },
+  {
+    "id": "1-chronicles-6-74",
+    "analysis": "and out of kjv_tribe of kjv_asher kjv_mashal with her/kjv_suburbs_field and kjv_abdon with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ thar i v×dlehmsßlum i AÛer MaÛal rÇnÓ za’zálagurthani ãÑ Abdon rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · out · of · tribe · of · Asher · mashal · with · her-suburbs{field} · and · Abdon · with · her-suburbs{field},",
+    "interpretation": "From Asher, Mashal and Abdon with their outlying fields,",
+    "note": "Abdon is the allocation city rather than a judge; Mashal retains its supplied form."
+  },
+  {
+    "id": "1-chronicles-6-75",
+    "analysis": "and kjv_hukok with her/kjv_suburbs_field and kjv_rehob with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ Hukok rÇnÓ za’zálagurthani ãÑ Rehob rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · hukok · with · her-suburbs{field} · and · Rehob · with · her-suburbs{field},",
+    "interpretation": "Hukok and Rehob with their outlying fields,",
+    "note": "The source's Asher allocation is not moved to another tribe to harmonize a similar place name."
+  },
+  {
+    "id": "1-chronicles-6-76",
+    "analysis": "and out of kjv_tribe of kjv_naphtali kjv_kedesh in kjv_galilee with her/kjv_suburbs_field and kjv_hammon with her/kjv_suburbs_field and kjv_kirjathaim with her/kjv_suburbs_field.",
+    "expected": "accept",
+    "expectedText": "âÑ thar i v×dlehmsßlum i Naftali KedeÛ ni Galile rÇnÓ za’zálagurthani ãÑ Hammon rÇnÓ za’zálagurthani ãÑ KirjaÕaim rÇnÓ za’zálagurthani.",
+    "expectedGloss": "and · out · of · tribe · of · Naphtali · Kedesh · in · Galilee · with · her-suburbs{field} · and · Hammon · with · her-suburbs{field} · and · Kirjathaim · with · her-suburbs{field}.",
+    "interpretation": "From Naphtali, Kedesh in Galilee, Hammon and Kirjathaim with their outlying fields.",
+    "note": "Galilee is explicit for this Kedesh. Similar forms elsewhere do not override the printed Naphtali grouping."
+  },
+  {
+    "id": "1-chronicles-6-77",
+    "analysis": "to remainder of child:pl of kjv_merari out of kjv_tribe of kjv_zebulun kjv_rimmon with her/kjv_suburbs_field kjv_tabor with her/kjv_suburbs_field give:psv:pa,",
+    "expected": "accept",
+    "expectedText": "äÃ dlenÛemin i pelun i Merari thar i v×dlehmsßlum i Zebulun Rimmon rÇnÓ za’zálagurthani Tabor rÇnÓ za’zálagurthani fÅwimizya,",
+    "expectedGloss": "to · remainder · of · child(pl.) · of · Merari · out · of · tribe · of · Zebulun · Rimmon · with · her-suburbs{field} · Tabor · with · her-suburbs{field} · give(pass.,pst.),",
+    "interpretation": "The remaining Merari children receive Rimmon and Tabor with outlying fields from Zebulun,",
+    "note": "Remainder is the family group still being allotted cities, not a new personal name."
+  },
+  {
+    "id": "1-chronicles-6-78",
+    "analysis": "and on other side kjv_jordan by kjv_jericho on east side of kjv_jordan to they out of kjv_tribe of kjv_reuben kjv_bezer in kjv_wilderness with her/kjv_suburbs_field and kjv_jahzah with her/kjv_suburbs_field give:psv:pa,",
+    "expected": "accept",
+    "expectedText": "âÑ gren vesna vorel Jordan Ëers Jeriko gren eshën vorel i Jordan åÃ zem thar i v×dlehmsßlum i Reuben Bezer ni varëljoÙ rÇnÓ za’zálagurthani ãÑ Jahzah rÇnÓ za’zálagurthani fÅwimizya,",
+    "expectedGloss": "and · on · other · side · Jordan · by · Jericho · on · east · side · of · Jordan · to · they(pl.) · out · of · tribe · of · Reuben · Bezer · in · wilderness · with · her-suburbs{field} · and · jahzah · with · her-suburbs{field} · give(pass.,pst.),",
+    "interpretation": "Across Jordan by Jericho, on Jordan's east side, they receive Bezer in the wilderness and Jahzah with fields from Reuben,",
+    "note": "Both the relative other-side and explicit east-side descriptions remain, with no modern border imposed."
+  },
+  {
+    "id": "1-chronicles-6-79",
+    "analysis": "kjv_kedemoth also with her/kjv_suburbs_field and kjv_mephaath with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "KedemoÕ al rÇnÓ za’zálagurthani ãÑ MefaaÕ rÇnÓ za’zálagurthani,",
+    "expectedGloss": "Kedemoth · also · with · her-suburbs{field} · and · Mephaath · with · her-suburbs{field},",
+    "interpretation": "Also Kedemoth and Mephaath with their outlying fields,",
+    "note": "The continuing Reuben list retains both settlements."
+  },
+  {
+    "id": "1-chronicles-6-80",
+    "analysis": "and out of kjv_tribe of kjv_gad kjv_ramoth_refuge in kjv_gilead with her/kjv_suburbs_field and kjv_mahanaim with her/kjv_suburbs_field,",
+    "expected": "accept",
+    "expectedText": "âÑ thar i v×dlehmsßlum i Gad RamoÕ ni Gilead rÇnÓ za’zálagurthani ãÑ Mahanaim rÇnÓ za’zálagurthani,",
+    "expectedGloss": "and · out · of · tribe · of · Gad · Ramoth · in · Gilead · with · her-suburbs{field} · and · Mahanaim · with · her-suburbs{field},",
+    "interpretation": "From Gad, Ramoth in Gilead and Mahanaim with their outlying fields,",
+    "note": "This expressly Gilead-qualified Ramoth is distinct from the earlier Issachar occurrence."
+  },
+  {
+    "id": "1-chronicles-6-81",
+    "analysis": "and kjv_heshbon with her/kjv_suburbs_field and kjv_jazer with her/kjv_suburbs_field.",
+    "expected": "accept",
+    "expectedText": "âÑ HeÛbon rÇnÓ za’zálagurthani ãÑ Jazer rÇnÓ za’zálagurthani.",
+    "expectedGloss": "and · Heshbon · with · her-suburbs{field} · and · Jazer · with · her-suburbs{field}.",
+    "interpretation": "Heshbon and Jazer with their outlying fields.",
+    "note": "The closing allocation is retained in full, ending exactly at the supplied chapter boundary."
+  }
+]

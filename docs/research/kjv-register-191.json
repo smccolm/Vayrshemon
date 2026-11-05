@@ -1,0 +1,829 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.191",
+    "parentVersion": "0.10-kjv.190",
+    "parentHead": "9030d5a877b5734d697a83426bf6ef1e06202c1f687d05e0722bbb68bb31a6ae",
+    "head": "b4e63f6f18dfddcafa7efce1842406757a0ac75fc6539d346b03829eca15a96f",
+    "newLexicalEntries": 12,
+    "newProperEntries": 8,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 8,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 103,
+    "exactCompilerCases": 103,
+    "newAuthoredVerses": 103,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 556,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 7401,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newMatthewVerses": 103,
+    "matthewVerses": 556,
+    "authoredVerses": 23701,
+    "remainingVerses": 7401,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 14,
+    "quantityChecks": [
+      {
+        "reference": "Matthew 14:17",
+        "source": "And they say unto him, We have here but five loaves, and two fishes.",
+        "expectedDecimalQuantities": [
+          5,
+          2
+        ],
+        "targetQuantities": [
+          5,
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 14:19",
+        "source": "And he commanded the multitude to sit down on the grass, and took the five loaves, and the two fishes, and looking up to heaven, he blessed, and brake, and gave the loaves to his disciples, and the disciples to the multitude.",
+        "expectedDecimalQuantities": [
+          5,
+          2
+        ],
+        "targetQuantities": [
+          5,
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 14:20",
+        "source": "And they did all eat, and were filled: and they took up of the fragments that remained twelve baskets full.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Matthew 14:21",
+        "source": "And they that had eaten were about five thousand men, beside women and children.",
+        "expectedDecimalQuantities": [
+          5000
+        ],
+        "targetQuantities": [
+          5000
+        ]
+      },
+      {
+        "reference": "Matthew 14:25",
+        "source": "And in the fourth watch of the night Jesus went unto them, walking on the sea.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Matthew 15:32",
+        "source": "Then Jesus called his disciples unto him, and said, I have compassion on the multitude, because they continue with me now three days, and have nothing to eat: and I will not send them away fasting, lest they faint in the way.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Matthew 15:34",
+        "source": "And Jesus saith unto them, How many loaves have ye? And they said, Seven, and a few little fishes.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Matthew 15:36",
+        "source": "And he took the seven loaves and the fishes, and gave thanks, and brake them, and gave to his disciples, and the disciples to the multitude.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Matthew 15:37",
+        "source": "And they did all eat, and were filled: and they took up of the broken meat that was left seven baskets full.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Matthew 15:38",
+        "source": "And they that did eat were four thousand men, beside women and children.",
+        "expectedDecimalQuantities": [
+          4000
+        ],
+        "targetQuantities": [
+          4000
+        ]
+      },
+      {
+        "reference": "Matthew 16:9",
+        "source": "Do ye not yet understand, neither remember the five loaves of the five thousand, and how many baskets ye took up?",
+        "expectedDecimalQuantities": [
+          5,
+          5000
+        ],
+        "targetQuantities": [
+          5,
+          5000
+        ]
+      },
+      {
+        "reference": "Matthew 16:10",
+        "source": "Neither the seven loaves of the four thousand, and how many baskets ye took up?",
+        "expectedDecimalQuantities": [
+          7,
+          4000
+        ],
+        "targetQuantities": [
+          7,
+          4000
+        ]
+      },
+      {
+        "reference": "Matthew 16:14",
+        "source": "And they said, Some say that thou art John the Baptist: some, Elias; and others, Jeremias, or one of the prophets.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 16:21",
+        "source": "From that time forth began Jesus to shew unto his disciples, how that he must go unto Jerusalem, and suffer many things of the elders and chief priests and scribes, and be killed, and be raised again the third day.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "14:1": [
+        "kjv_herod_tetrarch kjv_tetrarch",
+        "fame of kjv_jesus_matthew"
+      ],
+      "14:2": [
+        "kjv_john_baptist",
+        "from dead person:pl rise:perf",
+        "mighty work:pl in he themselves"
+      ],
+      "14:3": [
+        "seize:pp",
+        "bind:pp",
+        "prison",
+        "kjv_herodias wife of his/brother kjv_philip_herod_brother"
+      ],
+      "14:4": [
+        "she:a have:inf lawful:neg"
+      ],
+      "14:5": [
+        "to death put:inf willing",
+        "kjv_multitude:a fear",
+        "as prophet consider"
+      ],
+      "14:6": [
+        "day of birth",
+        "daughter of kjv_herodias",
+        "dance:pa",
+        "kjv_please_satisfy"
+      ],
+      "14:7": [
+        "with oath whatever she ask:fu",
+        "to she give:inf promise"
+      ],
+      "14:8": [
+        "of her/mother instruct:psv:pp",
+        "head of kjv_john_baptist in kjv_charger_dish",
+        "to i give"
+      ],
+      "14:9": [
+        "king sorry",
+        "oath",
+        "at meal sit",
+        "give:psv:inf command"
+      ],
+      "14:10": [
+        "in prison head of kjv_john_baptist off cut:pa"
+      ],
+      "14:11": [
+        "head in kjv_charger_dish",
+        "to girl give:psv",
+        "to her/mother bring"
+      ],
+      "14:12": [
+        "his/disciple:pl",
+        "body:a up take",
+        "bury",
+        "kjv_jesus_matthew:a tell"
+      ],
+      "14:13": [
+        "by ship into kjv_wilderness place apart",
+        "on foot",
+        "out of city"
+      ],
+      "14:14": [
+        "great kjv_multitude",
+        "kjv_compassion",
+        "their/sick person:pl heal"
+      ],
+      "14:15": [
+        "time now past",
+        "village:pl go:may",
+        "food buy:may"
+      ],
+      "14:16": [
+        "depart:inf need:neg",
+        "you to they eat:inf give"
+      ],
+      "14:17": [
+        "wesg here only five kjv_loaf:pl and two kjv_fish:pl"
+      ],
+      "14:18": [
+        "here to ipl bring"
+      ],
+      "14:19": [
+        "on grass",
+        "five kjv_loaf:pl and two kjv_fish:pl",
+        "heaven up look",
+        "bless:pa and break",
+        "disciple:pl to kjv_multitude"
+      ],
+      "14:20": [
+        "all eat",
+        "fill:psv",
+        "broken part:pl",
+        "twelve kjv_basket:pl full"
+      ],
+      "14:21": [
+        "about five+thousand man:pl",
+        "besides woman:pl and child:pl"
+      ],
+      "14:22": [
+        "immediately",
+        "enter:inf compel",
+        "before he",
+        "while he"
+      ],
+      "14:23": [
+        "apart into mountain",
+        "pray:inf",
+        "there alone"
+      ],
+      "14:24": [
+        "middle of sea",
+        "kjv_wave:pl throw:psv",
+        "wind contrary"
+      ],
+      "14:25": [
+        "four:ord kjv_watch_period of night",
+        "on sea walk"
+      ],
+      "14:26": [
+        "it spirit be",
+        "for fear cry"
+      ],
+      "14:27": [
+        "good cheer",
+        "it ipl be:pr",
+        "afraid be:neg"
+      ],
+      "14:28": [
+        "if it thou be",
+        "i to thou on water come:inf"
+      ],
+      "14:29": [
+        "come:imp",
+        "out of ship down",
+        "on water walk"
+      ],
+      "14:30": [
+        "wind violent",
+        "sink:inf begin",
+        "lord i:a save"
+      ],
+      "14:31": [
+        "his/hand",
+        "catch:pa",
+        "little faith",
+        "why thou doubt"
+      ],
+      "14:32": [
+        "they:du into ship",
+        "wind cease"
+      ],
+      "14:33": [
+        "in ship",
+        "kjv_worship",
+        "son of god"
+      ],
+      "14:34": [
+        "across go",
+        "land of kjv_gennesaret"
+      ],
+      "14:35": [
+        "recognize",
+        "all that country",
+        "all sick person:pl"
+      ],
+      "14:36": [
+        "only kjv_hem",
+        "as many as touch",
+        "perfect:adv whole"
+      ],
+      "15:1": [
+        "kjv_scribe:pl and kjv_pharisee:pl",
+        "of kjv_jerusalem"
+      ],
+      "15:2": [
+        "kjv_tradition of kjv_elder:pl",
+        "bread eat",
+        "hand:pl wash:neg"
+      ],
+      "15:3": [
+        "command of god",
+        "by your/kjv_tradition transgress"
+      ],
+      "15:4": [
+        "father and mother honour",
+        "father or mother curse",
+        "death die:opt"
+      ],
+      "15:5": [
+        "it gift",
+        "from i gain receive:should"
+      ],
+      "15:6": [
+        "honour:neg",
+        "he free be:fu",
+        "command of god",
+        "without effect"
+      ],
+      "15:7": [
+        "kjv_hypocrite:pl",
+        "kjv_esaias",
+        "kjv_prophesy"
+      ],
+      "15:8": [
+        "to ipl with their/mouth",
+        "lip:pl ipl:a honour",
+        "heart from ipl far"
+      ],
+      "15:9": [
+        "vain:adv ipl:a kjv_worship",
+        "command:pl of man:pl as doctrine:pl"
+      ],
+      "15:10": [
+        "kjv_multitude:a call",
+        "hear:imp and understand:imp"
+      ],
+      "15:11": [
+        "into mouth go:pr man:a defile:neg",
+        "from mouth out come:pr this man:a defile"
+      ],
+      "15:12": [
+        "kjv_pharisee:pl",
+        "after this say:ev hear",
+        "kjv_stumble:caus:psv"
+      ],
+      "15:13": [
+        "every kjv_plant_growth",
+        "mypl/heavenly father plant:neg:perf",
+        "kjv_uproot:psv:fu"
+      ],
+      "15:14": [
+        "blind lead:ag:pl",
+        "blind person blind person:a lead",
+        "they:du both into kjv_ditch"
+      ],
+      "15:15": [
+        "kjv_peter_disciple",
+        "kjv_parable_teaching to wesg"
+      ],
+      "15:16": [
+        "also still without understand:ev"
+      ],
+      "15:17": [
+        "at mouth enter",
+        "into belly",
+        "into kjv_latrine_house"
+      ],
+      "15:18": [
+        "from mouth",
+        "from heart",
+        "man:a defile"
+      ],
+      "15:19": [
+        "evil thought:pl",
+        "murder:ev:pl",
+        "kjv_adultery:pl",
+        "kjv_fornication:pl",
+        "theft:pl",
+        "false witness",
+        "kjv_blaspheme:ev:pl"
+      ],
+      "15:20": [
+        "hand:pl wash:psv:neg:adj",
+        "man:a defile:neg"
+      ],
+      "15:21": [
+        "kjv_coast_region:pl of kjv_tyre and kjv_sidon"
+      ],
+      "15:22": [
+        "woman of kjv_canaan_land",
+        "on i mercy",
+        "son of kjv_david",
+        "my/daughter",
+        "by devil"
+      ],
+      "15:23": [
+        "word answer:neg",
+        "she:a away send",
+        "after wesg cry"
+      ],
+      "15:24": [
+        "ipl except to sheep:pl lose:psv:adj",
+        "house of kjv_israel send:psv:neg"
+      ],
+      "15:25": [
+        "kjv_worship",
+        "lord i:a help"
+      ],
+      "15:26": [
+        "bread of child:pl",
+        "to dog:pl cast",
+        "fitting:neg:adj"
+      ],
+      "15:27": [
+        "truth lord yet dog:pl",
+        "kjv_crumb:pl",
+        "kjv_meal_table of their/master:pl"
+      ],
+      "15:28": [
+        "thy/faith great",
+        "as thou willing",
+        "daughter from that very hour"
+      ],
+      "15:29": [
+        "sea of kjv_galilee",
+        "mountain up",
+        "sit down"
+      ],
+      "15:30": [
+        "kjv_lame blind dumb kjv_maimed",
+        "many other",
+        "foot:pl of kjv_jesus_matthew",
+        "heal"
+      ],
+      "15:31": [
+        "dumb person:pl speak",
+        "kjv_maimed person:pl whole",
+        "kjv_lame person:pl walk",
+        "blind person:pl see",
+        "god of kjv_israel:a glorify"
+      ],
+      "15:32": [
+        "ipl on kjv_multitude kjv_compassion",
+        "with ipl now three day:pl",
+        "nothing eat:inf",
+        "kjv_fast do:cv willing:neg",
+        "lest they in way faint"
+      ],
+      "15:33": [
+        "wesg in kjv_wilderness",
+        "so much bread",
+        "so great kjv_multitude"
+      ],
+      "15:34": [
+        "seven and few little kjv_fish:pl"
+      ],
+      "15:35": [
+        "on ground sit down"
+      ],
+      "15:36": [
+        "seven kjv_loaf:pl",
+        "thanks give",
+        "disciple:pl to kjv_multitude"
+      ],
+      "15:37": [
+        "all eat",
+        "broken food",
+        "seven kjv_basket:pl full"
+      ],
+      "15:38": [
+        "four+thousand man:pl",
+        "besides woman:pl and child:pl"
+      ],
+      "15:39": [
+        "ship take",
+        "kjv_coast_region:pl of kjv_magdala"
+      ],
+      "16:1": [
+        "kjv_pharisee:pl",
+        "with kjv_sadducee:pl",
+        "tempt:cv",
+        "sign from heaven"
+      ],
+      "16:2": [
+        "evening",
+        "good weather",
+        "sky red"
+      ],
+      "16:3": [
+        "morning bad weather today",
+        "sky red and dark",
+        "face of sky distinguish",
+        "sign:pl of time:pl distinguish:neg"
+      ],
+      "16:4": [
+        "wicked and kjv_adultery:adj",
+        "sign give:psv:neg:fu except sign",
+        "kjv_jonas_matthew",
+        "leave:pa and depart"
+      ],
+      "16:5": [
+        "other side",
+        "bread take:inf forget:pp"
+      ],
+      "16:6": [
+        "heed:imp",
+        "kjv_leaven of kjv_pharisee:pl and of kjv_sadducee:pl"
+      ],
+      "16:7": [
+        "among themselves reason",
+        "wesg no bread take:perf"
+      ],
+      "16:8": [
+        "little faith",
+        "among yourselves",
+        "no bread bring"
+      ],
+      "16:9": [
+        "five kjv_loaf:pl of five+thousand",
+        "how many kjv_basket:pl"
+      ],
+      "16:10": [
+        "seven kjv_loaf:pl of four+thousand",
+        "how many kjv_basket:pl"
+      ],
+      "16:11": [
+        "ipl it:a to you about bread speak:neg",
+        "kjv_leaven of kjv_pharisee:pl and kjv_sadducee:pl"
+      ],
+      "16:12": [
+        "kjv_leaven of bread",
+        "command:neg",
+        "but of doctrine"
+      ],
+      "16:13": [
+        "kjv_caesarea_philippi",
+        "ipl son of man"
+      ],
+      "16:14": [
+        "kjv_john_baptist",
+        "kjv_elias_matthew",
+        "kjv_jeremias_matthew or one_num of prophet:pl"
+      ],
+      "16:15": [
+        "but who you ipl be:pr say"
+      ],
+      "16:16": [
+        "kjv_simon_peter kjv_peter_disciple",
+        "kjv_christ_title son of god that live:pr"
+      ],
+      "16:17": [
+        "kjv_simon_peter kjv_barjona",
+        "flesh and blood",
+        "reveal:neg:perf",
+        "mypl/father"
+      ],
+      "16:18": [
+        "thou kjv_peter_disciple",
+        "upon this rock",
+        "ipl mypl/kjv_church_assembly build:fu",
+        "gate:pl of kjv_hell_depth",
+        "prevail:neg:fu"
+      ],
+      "16:19": [
+        "ipl to thou key:pl",
+        "on earth bind:fu in heaven bind:psv:fu",
+        "on earth loose:fu in heaven loose:psv:fu"
+      ],
+      "16:20": [
+        "to no person",
+        "kjv_jesus_matthew kjv_christ_title",
+        "tell:should"
+      ],
+      "16:21": [
+        "kjv_jerusalem go:must",
+        "kjv_elder:pl and chief priest:pl and kjv_scribe:pl",
+        "kill:psv:must",
+        "three:ord day again raise:psv:must"
+      ],
+      "16:22": [
+        "rebuke:inf begin",
+        "far be:opt",
+        "this to thou be:neg:fu"
+      ],
+      "16:23": [
+        "to kjv_peter_disciple",
+        "behind ipl",
+        "kjv_satan_temptation",
+        "kjv_stumble:caus:ev",
+        "heed:neg:pr"
+      ],
+      "16:24": [
+        "after ipl come:inf willing",
+        "himself deny:opt",
+        "kjv_cross_instrument",
+        "ipl:a follow"
+      ],
+      "16:25": [
+        "life save:inf willing",
+        "lose:fu",
+        "for mypl/sake",
+        "find:fu"
+      ],
+      "16:26": [
+        "whole world gain",
+        "his/own soul lose",
+        "in exchange"
+      ],
+      "16:27": [
+        "glory of his/father with his/angel:pl",
+        "every man kjv_according to his/work:pl"
+      ],
+      "16:28": [
+        "truly ipl",
+        "some here stand",
+        "death taste:neg:fu until",
+        "his/kingdom come"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "14:28",
+        "14:30",
+        "14:8",
+        "15:22",
+        "15:25",
+        "15:5"
+      ],
+      "ipl": [
+        "14:18",
+        "14:27",
+        "15:24",
+        "15:32",
+        "15:8",
+        "15:9",
+        "16:11",
+        "16:13",
+        "16:15",
+        "16:18",
+        "16:19",
+        "16:23",
+        "16:24",
+        "16:28"
+      ],
+      "wesg": [
+        "14:17",
+        "15:15",
+        "15:23",
+        "15:33",
+        "16:7"
+      ],
+      "wepl": [],
+      "mypl": [
+        "15:13",
+        "16:17",
+        "16:18",
+        "16:25"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "14:32",
+        "15:14"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Matthew14:32",
+      "Matthew15:14"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Five loaves,two fish,twelve baskets and about five thousand men remain distinct from seven loaves,few fish,seven baskets and four thousand.",
+      "Both accounts exclude women and children from the stated male count;no total is invented.",
+      "Fourth night watch,three days,third-day raising and one of the prophets retain their source functions."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "103new verses continue Matthew to556;whole Bible remains incomplete.",
+      "Plural-I does not collapse the Father,Jesus,Peter or the quoted personal and communal voices.",
+      "The Canaanite exchange,church-community,underworld gates,future binding/loosing,and unresolved kingdom timing remain.",
+      "Four common senses and eight contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Matthew — incomplete Bible working text",
+    "pages": 324,
+    "spreads": 162,
+    "units": 556,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "1892fde74dcbbe440aef615ae90ecc65f6a35a1e8cbe5b6233b56ee980d12e26",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 162,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 15.031,
+    "modules": [
+      "tests.test_kjv_matthew_feeding_community",
+      "tests.test_kjv_matthew_parable_voices",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    323,
+    324
+  ],
+  "status": "incomplete Bible;Matthew1–16 section checkpoint verified"
+}

@@ -1,0 +1,1202 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.43",
+    "parentVersion": "0.10-kjv.42",
+    "parentHead": "55893e8e9c4ea5aa1ab91bcc37b4594a8bdb4f8c46ea2954f023b332cdf50f39",
+    "head": "f414a6c8dfe77870d01af6a7fb73e986ed412aa19b379112a0783d55a9915813",
+    "newLexicalEntries": 25,
+    "newProperEntries": 17,
+    "newCommonEntries": 8,
+    "newSurfaceForms": 23,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 96,
+    "exactCompilerCases": 114,
+    "newAuthoredVerses": 114,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 233,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 23608,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newSamuelVerses": 114,
+    "samuelVerses": 233,
+    "authoredVerses": 7494,
+    "remainingVerses": 23608,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 21,
+    "quantityChecks": [
+      {
+        "reference": "1 Samuel 6:1",
+        "source": "And the ark of the LORD was in the country of the Philistines seven months.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "1 Samuel 6:4",
+        "source": "Then said they, What shall be the trespass offering which we shall return to him? They answered, Five golden emerods, and five golden mice, according to the number of the lords of the Philistines: for one plague was on you all, and on your lords.",
+        "expectedDecimalQuantities": [
+          5,
+          5,
+          1
+        ],
+        "targetQuantities": [
+          5,
+          5,
+          1
+        ]
+      },
+      {
+        "reference": "1 Samuel 6:7",
+        "source": "Now therefore make a new cart, and take two milch kine, on which there hath come no yoke, and tie the kine to the cart, and bring their calves home from them:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Samuel 6:10",
+        "source": "And the men did so; and took two milch kine, and tied them to the cart, and shut up their calves at home:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Samuel 6:16",
+        "source": "And when the five lords of the Philistines had seen it, they returned to Ekron the same day.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Samuel 6:17",
+        "source": "And these are the golden emerods which the Philistines returned for a trespass offering unto the LORD; for Ashdod one, for Gaza one, for Askelon one, for Gath one, for Ekron one;",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "1 Samuel 6:18",
+        "source": "And the golden mice, according to the number of all the cities of the Philistines belonging to the five lords, both of fenced cities, and of country villages, even unto the great stone of Abel, whereon they set down the ark of the LORD: which stone remaineth unto this day in the field of Joshua, the Bethshemite.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Samuel 6:19",
+        "source": "And he smote the men of Bethshemesh, because they had looked into the ark of the LORD, even he smote of the people fifty thousand and threescore and ten men: and the people lamented, because the LORD had smitten many of the people with a great slaughter.",
+        "expectedDecimalQuantities": [
+          50070
+        ],
+        "targetQuantities": [
+          50070
+        ]
+      },
+      {
+        "reference": "1 Samuel 7:2",
+        "source": "And it came to pass, while the ark abode in Kirjathjearim, that the time was long; for it was twenty years: and all the house of Israel lamented after the LORD.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "1 Samuel 8:2",
+        "source": "Now the name of his firstborn was Joel; and the name of his second, Abiah: they were judges in Beersheba.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Samuel 8:12",
+        "source": "And he will appoint him captains over thousands, and captains over fifties; and will set them to ear his ground, and to reap his harvest, and to make his instruments of war, and instruments of his chariots.",
+        "expectedDecimalQuantities": [
+          1000,
+          50
+        ],
+        "targetQuantities": [
+          1000,
+          50
+        ]
+      },
+      {
+        "reference": "1 Samuel 9:3",
+        "source": "And the asses of Kish Saul’s father were lost. And Kish said to Saul his son, Take now one of the servants with thee, and arise, go seek the asses.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Samuel 9:15",
+        "source": "Now the LORD had told Samuel in his ear a day before Saul came, saying,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Samuel 9:20",
+        "source": "And as for thine asses that were lost three days ago, set not thy mind on them; for they are found. And on whom is all the desire of Israel? Is it not on thee, and on all thy father’s house?",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Samuel 9:22",
+        "source": "And Samuel took Saul and his servant, and brought them into the parlour, and made them sit in the chiefest place among them that were bidden, which were about thirty persons.",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      },
+      {
+        "reference": "1 Samuel 10:2",
+        "source": "When thou art departed from me to day, then thou shalt find two men by Rachel’s sepulchre in the border of Benjamin at Zelzah; and they will say unto thee, The asses which thou wentest to seek are found: and, lo, thy father hath left the care of the asses, and sorroweth for you, saying, What shall I do for my son?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Samuel 10:3",
+        "source": "Then shalt thou go on forward from thence, and thou shalt come to the plain of Tabor, and there shall meet thee three men going up to God to Bethel, one carrying three kids, and another carrying three loaves of bread, and another carrying a bottle of wine:",
+        "expectedDecimalQuantities": [
+          3,
+          1,
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          1,
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "1 Samuel 10:4",
+        "source": "And they will salute thee, and give thee two loaves of bread; which thou shalt receive of their hands.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Samuel 10:8",
+        "source": "And thou shalt go down before me to Gilgal; and, behold, I will come down unto thee, to offer burnt offerings, and to sacrifice sacrifices of peace offerings: seven days shalt thou tarry, till I come to thee, and shew thee what thou shalt do.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "1 Samuel 10:12",
+        "source": "And one of the same place answered and said, But who is their father? Therefore it became a proverb, Is Saul also among the prophets?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Samuel 10:19",
+        "source": "And ye have this day rejected your God, who himself saved you out of all your adversities and your tribulations; and ye have said unto him, Nay, but set a king over us. Now therefore present yourselves before the LORD by your tribes, and by your thousands.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "50070 is the supplied KJV count, without alternate-reading substitution.",
+      "Five mice prescription and city/village correspondence remain distinct clauses.",
+      "Fourth part of a shekel is one quarter; tithe is one tenth.",
+      "Thousands/fifties are groups; first/second are birth order.",
+      "Three loaves carried and two given retained; about30 guests remains approximate."
+    ],
+    "semanticChecks": {
+      "6:1": [
+        "seven month:pl"
+      ],
+      "6:2": [
+        "kjv_divine:ag:pl",
+        "what wesg do:fu"
+      ],
+      "6:3": [
+        "empty it:a send:imp not",
+        "why from you:pl his/hand remove:psv:perf not"
+      ],
+      "6:4": [
+        "five gold kjv_emerods:pl and five gold mouse:pl",
+        "one_num plague"
+      ],
+      "6:5": [
+        "who land:a mar:pr",
+        "perhaps",
+        "your/god:pl",
+        "kjv_lighten:fu"
+      ],
+      "6:6": [
+        "their/heart:pl:a hard:caus:pa",
+        "people:a go:inf"
+      ],
+      "6:7": [
+        "new wagon",
+        "two milk give:cv kjv_cow:pl:a",
+        "no yoke come:perf",
+        "their/kjv_calf:pl:a from they home"
+      ],
+      "6:8": [
+        "in kjv_coffer by of it side"
+      ],
+      "6:9": [
+        "if by of his/own boundary",
+        "but if not",
+        "chance which to wesg happen:pa"
+      ],
+      "6:10": [
+        "at home their/kjv_calf:pl:a shut:pa"
+      ],
+      "6:12": [
+        "kjv_low_cattle:cv",
+        "neither to kjv_right_side nor to left"
+      ],
+      "6:13": [
+        "their/wheat harvest"
+      ],
+      "6:14": [
+        "kjv_joshua kjv_bethshemite",
+        "of wagon wood:a they split:pa",
+        "kjv_cow:pl:a as burn:psv"
+      ],
+      "6:15": [
+        "kjv_levite:pl",
+        "on same day"
+      ],
+      "6:16": [
+        "five of kjv_philistine:pl lord:pl",
+        "same day to kjv_ekron"
+      ],
+      "6:17": [
+        "kjv_ashdod one_num",
+        "kjv_gaza one_num",
+        "kjv_askelon one_num",
+        "kjv_gath one_num",
+        "kjv_ekron one_num"
+      ],
+      "6:18": [
+        "fence:psv city:pl and of country village:pl",
+        "kjv_abel_stone",
+        "to this day"
+      ],
+      "6:19": [
+        "five+ten+thousand and seven+ten",
+        "because into of kjv_lord kjv_ark_chest they look:pp"
+      ],
+      "6:20": [
+        "this holy kjv_lord god",
+        "from wesg to whom"
+      ],
+      "7:1": [
+        "kjv_abinadab",
+        "kjv_eleazar his/son"
+      ],
+      "7:2": [
+        "twenty year:pl",
+        "all of kjv_israel house"
+      ],
+      "7:3": [
+        "if with all your/heart:pl",
+        "kjv_ashtaroth_divine",
+        "only he:a serve:imp"
+      ],
+      "7:4": [
+        "kjv_baalim and kjv_ashtaroth_divine"
+      ],
+      "7:5": [
+        "i pray:fu"
+      ],
+      "7:6": [
+        "water:a draw:pa",
+        "before kjv_lord it:a pour:pa",
+        "wesg sin:perf"
+      ],
+      "7:8": [
+        "kjv_lord ourone/god",
+        "cease:imp not"
+      ],
+      "7:9": [
+        "suck:cv kjv_lamb",
+        "completely",
+        "kjv_lord he:a hear:pa"
+      ],
+      "7:10": [
+        "with great thunder kjv_lord thunder:pa"
+      ],
+      "7:11": [
+        "under kjv_bethcar"
+      ],
+      "7:12": [
+        "between kjv_mizpeh and kjv_shen",
+        "kjv_ebenezer",
+        "until here wesg:a"
+      ],
+      "7:13": [
+        "no more into of kjv_israel boundary",
+        "all of kjv_samuel day:pl"
+      ],
+      "7:14": [
+        "from kjv_ekron even to kjv_gath",
+        "between kjv_israel and kjv_amorite:pl peace"
+      ],
+      "7:15": [
+        "all of his/life day:pl"
+      ],
+      "7:16": [
+        "in kjv_circuit",
+        "kjv_bethel and kjv_gilgal and kjv_mizpeh"
+      ],
+      "8:2": [
+        "kjv_joel",
+        "his/second name kjv_abiah"
+      ],
+      "8:3": [
+        "after gain:ev",
+        "kjv_bribe:pl",
+        "judgment:a corrupt:pa"
+      ],
+      "8:5": [
+        "for wesg king:a",
+        "like all nation:pl"
+      ],
+      "8:7": [
+        "thou:a they reject:perf not but ipl:a",
+        "over they ipl rule:pr:should not"
+      ],
+      "8:8": [
+        "out of egypt they:a ipl bring:pa",
+        "ipl:a they forsake:perf"
+      ],
+      "8:9": [
+        "solemn:adv to they testify:imp"
+      ],
+      "8:11": [
+        "your/son:pl:a he take:fu",
+        "before his/chariot:pl run:fu"
+      ],
+      "8:12": [
+        "thousand:pl",
+        "five+ten:pl",
+        "his/ground:a plough:inf"
+      ],
+      "8:13": [
+        "kjv_perfumer:pl",
+        "cook:ag:pl",
+        "bake:ag:pl"
+      ],
+      "8:14": [
+        "best of they:a he take:fu"
+      ],
+      "8:15": [
+        "of your/seed and of your/kjv_vineyard:pl tithe:a"
+      ],
+      "8:16": [
+        "your/best young man:pl and your/ass:pl"
+      ],
+      "8:17": [
+        "of your/sheep tithe:a",
+        "his/servant:pl you:pl be:fu"
+      ],
+      "8:18": [
+        "you:pl choose:fp",
+        "kjv_lord hear:fu not"
+      ],
+      "8:19": [
+        "over wesg king:a wesg have:fu"
+      ],
+      "8:20": [
+        "ourone/king",
+        "ourone/battle:pl"
+      ],
+      "8:21": [
+        "in of kjv_lord ear:pl they:a recount:pa"
+      ],
+      "9:1": [
+        "kjv_kish",
+        "kjv_abiel",
+        "kjv_zeror",
+        "kjv_bechorath",
+        "kjv_aphiah"
+      ],
+      "9:2": [
+        "from his/kjv_shoulder:pl and up",
+        "higher he be:pa"
+      ],
+      "9:3": [
+        "one_num of servant:pl"
+      ],
+      "9:4": [
+        "kjv_shalisha",
+        "kjv_shalim",
+        "they find:pa not"
+      ],
+      "9:5": [
+        "we:du return:inf",
+        "my/father",
+        "for we:du worry:pr"
+      ],
+      "9:6": [
+        "perhaps of we:du way",
+        "to we:du show:inf"
+      ],
+      "9:7": [
+        "of we:du vessel:pl",
+        "what:a we:du have:pr"
+      ],
+      "9:8": [
+        "kjv_shekel fourth part:a i have:pr",
+        "i give:fu",
+        "of we:du way"
+      ],
+      "9:9": [
+        "to kjv_seer wepl go:inf",
+        "now prophet call:psv:pr before kjv_seer"
+      ],
+      "9:10": [
+        "we:du go:inf"
+      ],
+      "9:12": [
+        "before you:du",
+        "today in high kjv_place_site"
+      ],
+      "9:13": [
+        "people eat:fu not",
+        "kjv_sacrifice:a he bless:pr"
+      ],
+      "9:15": [
+        "one_num day before kjv_saul",
+        "in his/ear"
+      ],
+      "9:16": [
+        "to thou ipl send:fu",
+        "mypl/people",
+        "to ipl their/cry:ev come:perf"
+      ],
+      "9:17": [
+        "ipl speak:pa",
+        "behold:imp:excl",
+        "mypl/people rule:fu"
+      ],
+      "9:18": [
+        "i thou:a pray:pr"
+      ],
+      "9:19": [
+        "kjv_seer i be:pr",
+        "with i you:du eat:fu",
+        "in thy/heart"
+      ],
+      "9:20": [
+        "kjv_three day:pl before",
+        "all of thy/father house"
+      ],
+      "9:21": [
+        "kjv_benjamite i be:pr",
+        "my/kjv_family least"
+      ],
+      "9:22": [
+        "his/servant",
+        "about thirty person:pl"
+      ],
+      "9:23": [
+        "part:a which to thou i give:pa"
+      ],
+      "9:24": [
+        "that:a which upon it be:pa",
+        "people:a i bid:perf"
+      ],
+      "9:26": [
+        "of day kjv_dawn",
+        "both of they he and kjv_samuel"
+      ],
+      "9:27": [
+        "before we:du pass:inf servant:a",
+        "of god word:a to thou i show:pr:may"
+      ],
+      "10:1": [
+        "of oil kjv_vial",
+        "he:a kiss:pa",
+        "over his/inheritance captain"
+      ],
+      "10:2": [
+        "two man:pl",
+        "kjv_rachel grave",
+        "kjv_zelzah",
+        "for you:du sorrow:pr",
+        "for my/son what i do:fu"
+      ],
+      "10:3": [
+        "of kjv_tabor kjv_plain_land",
+        "kjv_three man:pl",
+        "kjv_three kjv_kid:pl",
+        "kjv_three of bread kjv_loaf:pl"
+      ],
+      "10:4": [
+        "two of bread kjv_loaf:pl"
+      ],
+      "10:5": [
+        "kjv_garrison",
+        "kjv_psaltery and kjv_tabret and pipe and harp"
+      ],
+      "10:6": [
+        "of kjv_lord spirit",
+        "into another man thou turn:psv:fu"
+      ],
+      "10:8": [
+        "i come:fu",
+        "seven day:pl thou wait:fu"
+      ],
+      "10:9": [
+        "another heart:a god give:pa",
+        "all those sign:pl"
+      ],
+      "10:11": [
+        "among prophet:pl kjv_saul also be:pr"
+      ],
+      "10:12": [
+        "who their/father be:pr",
+        "proverb it become:pa"
+      ],
+      "10:13": [
+        "to high kjv_place_site"
+      ],
+      "10:14": [
+        "where you:du go:pa",
+        "we:du see:pa",
+        "we:du come:pa"
+      ],
+      "10:16": [
+        "to we:du plainly",
+        "to he he tell:pa not"
+      ],
+      "10:18": [
+        "kjv_israel:a out of egypt ipl bring:pa",
+        "you:pl:a ipl deliver:pa"
+      ],
+      "10:19": [
+        "over wesg king:a",
+        "by your/kjv_tribe:pl and by your/thousand:pl"
+      ],
+      "10:21": [
+        "kjv_matri",
+        "he find:psv:pa not"
+      ],
+      "10:22": [
+        "among kjv_baggage himself:a he hide:perf"
+      ],
+      "10:24": [
+        "king:a god save:opt:excl"
+      ],
+      "10:25": [
+        "in book it:a write:pa",
+        "before kjv_lord it:a lay:pa"
+      ],
+      "10:26": [
+        "whose heart:pl:a god touch:pp"
+      ],
+      "10:27": [
+        "how this man wesg:a save:fu",
+        "no gift:pl",
+        "his/peace:a he hold:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Collective/dual choices interpret discourse roles, not source-language pronoun morphology.",
+      "Compilation/layout do not prove semantic equivalence.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeSection": {
+    "book": "1 Samuel — incomplete Bible working text",
+    "pages": 194,
+    "spreads": 97,
+    "units": 233,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "880482088f8a8fceff38f3e4bd8b07f6ba69a02e41861294cd59c1e3531edd40",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "checks": [
+      {
+        "leftPage": 1,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 3,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 5,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 7,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 9,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 11,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 13,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 15,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 17,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 19,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 21,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 23,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 25,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 27,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 29,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 31,
+        "maxBaselineErrorPt": 1.7053025658242404e-13,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 33,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 35,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 37,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 39,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 41,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 43,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 45,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 47,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 49,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 51,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 53,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 55,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 57,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 59,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 61,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 63,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 65,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 67,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 69,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 71,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 73,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 75,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 77,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 79,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 81,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 83,
+        "maxBaselineErrorPt": 0.007812500000227374,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 85,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 87,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 89,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 91,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 93,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 95,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 97,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 99,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 101,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 103,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 105,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 107,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 109,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 111,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 113,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 115,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 117,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 119,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 121,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 123,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 125,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 127,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 129,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 131,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 133,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 135,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 137,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 139,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 141,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 143,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 145,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 147,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 149,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 151,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 153,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 155,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 157,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 159,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 161,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 163,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 165,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 167,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 169,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 171,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 173,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 175,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 177,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 179,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 181,
+        "maxBaselineErrorPt": 0.0039062499997726263,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 183,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 185,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 187,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 189,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 191,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 193,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      }
+    ],
+    "reusedMeasuredSpreads": 97,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "command": "python -m unittest tests.test_kjv_samuel_kingship tests.test_kjv_samuel_opening tests.test_parallel_translation",
+    "passed": 4,
+    "seconds": 11.046
+  },
+  "visualProofsViewed": [
+    ".local/kjv43/composed-samuel/Proofs/page-193.png",
+    ".local/kjv43/composed-samuel/Proofs/page-194.png"
+  ],
+  "combinedBible": "Most recent combined v40 has7176 verses through Judges plus frozen Jonah. Ruth41 and1Samuel43 are separately validated pending next whole combined checkpoint. Whole Bible incomplete."
+}

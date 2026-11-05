@@ -61,8 +61,8 @@ class StudioSession(TypesettingSession):
                 if master.cmap!=layer.cmap: raise ValueError('PAINT_LAYER_CMAP_MISMATCH')
                 if any(master.metrics[name][0]!=layer.metrics[name][0] for name in master.glyph_order): raise ValueError('PAINT_LAYER_ADVANCE_MISMATCH')
 
-    def resolve_fonts(self,state,font_paths=None):
-        state=super().resolve_fonts(state,font_paths)
+    def resolve_fonts(self,state,font_paths=None,**kwargs):
+        state=super().resolve_fonts(state,font_paths,**kwargs)
         for binding in state['paint']['bindings']: self.validate_binding(binding)
         return state
 

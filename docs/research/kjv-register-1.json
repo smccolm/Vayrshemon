@@ -1,0 +1,77 @@
+{
+  "milestone": "Historical KJV register 0.10-kjv.1",
+  "date": "2026-10-25",
+  "scope": "Entire supplied KJV, book by book",
+  "status": "First completed book: Jonah. Whole Bible incomplete; 65 books and 31054 verses remain.",
+  "delta": {
+    "version": "0.10-kjv.1",
+    "parentVersion": "0.10",
+    "parentHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+    "forgeHead": "72b5746f19b9c753c51f1aed35cfe943fbe4790de8406c36414ac3301e1d985c",
+    "semanticKeysBefore": 3809,
+    "semanticKeysAfter": 3854,
+    "addedSemanticKeys": 45,
+    "newSurfaceForms": 42,
+    "whollyNewCommonRoots": [
+      "kjv_right_side"
+    ],
+    "adaptedNames": [
+      "kjv_jonah",
+      "kjv_amittai",
+      "kjv_nineveh",
+      "kjv_tarshish",
+      "kjv_joppa",
+      "kjv_hebrew"
+    ],
+    "newInflectionalEndings": 0,
+    "historicalGrammarSections": 8,
+    "newWikiArticles": 3,
+    "newForgeFixtures": 48,
+    "inheritedCompilerCases": 64,
+    "historicalCompilerCases": 33,
+    "translatedBooks": 1,
+    "translatedVerses": 48,
+    "remainingBooks": 65,
+    "remainingVerses": 31054,
+    "modernPointerUnchanged": true
+  },
+  "layout": {
+    "book": "Jonah",
+    "pages": 42,
+    "spreads": 21,
+    "units": 48,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+    "maxBaselineErrorPt": 0.003906250000028422,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "registerManifestSha256": "0944ab07a11c8eb01845823aecaf9deca9ea1e3aabe0d5bacdc2de0cd2f22a37",
+  "editionReceiptSha256": "2bb834276b100d0d29ca8204a12a2e06f9a5879d18eeda04157ed257f01bd452",
+  "checks": {
+    "regressionTestsPassed": 17,
+    "postSealGuardTestsPassed": 8,
+    "compilerContrastsPassed": 97,
+    "sourceVersesIndexed": 31102,
+    "booksIndexed": 66,
+    "monochromeProofsVisuallyInspected": true,
+    "colorProofVisuallyInspected": true,
+    "setupSyntaxChecked": true,
+    "setupExecuted": false
+  },
+  "limits": [
+    "Authorial self-review; not independent literary certification.",
+    "Historical register age is fictional/authored, not ancient attestation.",
+    "Source Jonah 1:15 look up is retained in English; target lift/take up is documented.",
+    "Poetic/theological ambiguities remain explicitly noted.",
+    "Hash seals detect changes and guard consolidation; owner can intentionally edit files."
+  ]
+}

@@ -1,0 +1,713 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.172",
+    "parentVersion": "0.10-kjv.171",
+    "parentHead": "cb4ac216eda5e5fb2eaa441837ee9322966409eac84f4123665e09998f832021",
+    "head": "64b77e56ce9e7762ed1f48f12b13ea3a07d2219b2ab81cce3a2d40570b63fe25",
+    "newLexicalEntries": 1,
+    "newProperEntries": 1,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 79,
+    "exactCompilerCases": 79,
+    "newAuthoredVerses": 79,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 8959,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newDanielVerses": 79,
+    "danielVerses": 357,
+    "authoredVerses": 22143,
+    "remainingVerses": 8959,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 17,
+    "quantityChecks": [
+      {
+        "reference": "Daniel 10:1",
+        "source": "In the third year of Cyrus king of Persia a thing was revealed unto Daniel, whose name was called Belteshazzar; and the thing was true, but the time appointed was long: and he understood the thing, and had understanding of the vision.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 10:2",
+        "source": "In those days I Daniel was mourning three full weeks.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 10:3",
+        "source": "I ate no pleasant bread, neither came flesh nor wine in my mouth, neither did I anoint myself at all, till three whole weeks were fulfilled.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 10:4",
+        "source": "And in the four and twentieth day of the first month, as I was by the side of the great river, which is Hiddekel;",
+        "expectedDecimalQuantities": [
+          24,
+          1
+        ],
+        "targetQuantities": [
+          24,
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 10:12",
+        "source": "Then said he unto me, Fear not, Daniel: for from the first day that thou didst set thine heart to understand, and to chasten thyself before thy God, thy words were heard, and I am come for thy words.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 10:13",
+        "source": "But the prince of the kingdom of Persia withstood me one and twenty days: but, lo, Michael, one of the chief princes, came to help me; and I remained there with the kings of Persia.",
+        "expectedDecimalQuantities": [
+          21,
+          1
+        ],
+        "targetQuantities": [
+          21,
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 11:1",
+        "source": "Also I in the first year of Darius the Mede, even I, stood to confirm and to strengthen him.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 11:2",
+        "source": "And now will I shew thee the truth. Behold, there shall stand up yet three kings in Persia; and the fourth shall be far richer than they all: and by his strength through his riches he shall stir up all against the realm of Grecia.",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 11:4",
+        "source": "And when he shall stand up, his kingdom shall be broken, and shall be divided toward the four winds of heaven; and not to his posterity, nor according to his dominion which he ruled: for his kingdom shall be plucked up, even for others beside those.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 11:5",
+        "source": "And the king of the south shall be strong, and one of his princes; and he shall be strong above him, and have dominion; his dominion shall be a great dominion.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 11:12",
+        "source": "And when he hath taken away the multitude, his heart shall be lifted up; and he shall cast down many ten thousands: but he shall not be strengthened by it.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Daniel 11:27",
+        "source": "And both of these kings’ hearts shall be to do mischief, and they shall speak lies at one table; but it shall not prosper: for yet the end shall be at the time appointed.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 12:5",
+        "source": "Then I Daniel looked, and, behold, there stood other two, the one on this side of the bank of the river, and the other on that side of the bank of the river.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 12:6",
+        "source": "And one said to the man clothed in linen, which was upon the waters of the river, How long shall it be to the end of these wonders?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 12:7",
+        "source": "And I heard the man clothed in linen, which was upon the waters of the river, when he held up his right hand and his left hand unto heaven, and sware by him that liveth for ever that it shall be for a time, times, and an half; and when he shall have accomplished to scatter the power of the holy people, all these things shall be finished.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Daniel 12:11",
+        "source": "And from the time that the daily sacrifice shall be taken away, and the abomination that maketh desolate set up, there shall be a thousand two hundred and ninety days.",
+        "expectedDecimalQuantities": [
+          1290
+        ],
+        "targetQuantities": [
+          1290
+        ]
+      },
+      {
+        "reference": "Daniel 12:12",
+        "source": "Blessed is he that waiteth, and cometh to the thousand three hundred and five and thirty days.",
+        "expectedDecimalQuantities": [
+          1335
+        ],
+        "targetQuantities": [
+          1335
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "10:1": [
+        "three:ord year",
+        "kjv_belteshazzar",
+        "appoint:psv:adj time long",
+        "understand:pa"
+      ],
+      "10:2": [
+        "i kjv_daniel_captive",
+        "three full week:pl"
+      ],
+      "10:3": [
+        "pleasing bread",
+        "neither flesh nor wine",
+        "myself:a",
+        "three whole week:pl"
+      ],
+      "10:4": [
+        "two+twelve:ord day",
+        "one_num:ord month",
+        "kjv_hiddekel"
+      ],
+      "10:5": [
+        "certain man in linen",
+        "kjv_loins",
+        "kjv_uphaz"
+      ],
+      "10:6": [
+        "kjv_beryl",
+        "lamp:pl of fire",
+        "his/arm:pl and his/foot:pl",
+        "kjv_polish_surface"
+      ],
+      "10:7": [
+        "alone vision:a see:pa",
+        "vision:a see:neg:pa",
+        "themselves:a hide"
+      ],
+      "10:8": [
+        "my/beauty",
+        "kjv_corruption_body",
+        "strength:a keep:neg:pa"
+      ],
+      "10:9": [
+        "voice of his/word:pl hear:pa",
+        "deep sleep on my/face"
+      ],
+      "10:10": [
+        "my/knee:pl",
+        "kjv_palm_hand:pl of my/hand:pl"
+      ],
+      "10:11": [
+        "greatly love:psv:adj man",
+        "i now send:psv:pr",
+        "tremble:cv stand:pa"
+      ],
+      "10:12": [
+        "one_num:ord day",
+        "thyself:a before thy/god kjv_chastise",
+        "i for thy/word:pl"
+      ],
+      "10:13": [
+        "twelve and nine day:pl",
+        "one_num of chief prince:pl",
+        "with king:pl of kjv_persia remain:pa"
+      ],
+      "10:14": [
+        "i to thou:a",
+        "later day:pl",
+        "many day:pl"
+      ],
+      "10:15": [
+        "my/face towards ground",
+        "dumb become:pa"
+      ],
+      "10:16": [
+        "person like likeness of son:pl of man:pl",
+        "my/lord",
+        "my/sorrow:pl"
+      ],
+      "10:17": [
+        "this my/lord talk:can",
+        "neither in i:a breath"
+      ],
+      "10:18": [
+        "person like appear:ev of man",
+        "i:a strength:caus:pa"
+      ],
+      "10:19": [
+        "strong be:imp yes strong be:imp",
+        "my/lord speak:opt"
+      ],
+      "10:20": [
+        "i to thou:a come:pr",
+        "prince of kjv_persia",
+        "prince of kjv_grecia"
+      ],
+      "10:21": [
+        "writing of truth",
+        "none with i:a",
+        "kjv_michael_prince your/prince"
+      ],
+      "11:1": [
+        "i in one_num:ord year",
+        "kjv_darius_median kjv_mede even i"
+      ],
+      "11:2": [
+        "three king:pl",
+        "four:ord far more rich",
+        "against kingdom of kjv_grecia"
+      ],
+      "11:3": [
+        "mighty king up stand:fu",
+        "his/will"
+      ],
+      "11:4": [
+        "four wind:pl",
+        "not to his/kjv_posterity",
+        "for other:pl besides those"
+      ],
+      "11:5": [
+        "one_num of his/prince:pl",
+        "he above he strong"
+      ],
+      "11:6": [
+        "they:du themselves:du",
+        "daughter of king of kjv_south",
+        "she up give:psv:fu",
+        "he that she:a beget:pa"
+      ],
+      "11:7": [
+        "branch of her/root:pl",
+        "his/estate",
+        "fortress of king of kjv_north"
+      ],
+      "11:8": [
+        "as captive:pl their/god:pl with their/prince:pl",
+        "more year:pl"
+      ],
+      "11:9": [
+        "king of kjv_south into his/kingdom",
+        "his/own land"
+      ],
+      "11:10": [
+        "his/son:pl",
+        "person certainly come:fu",
+        "his/fortress"
+      ],
+      "11:11": [
+        "with anger",
+        "with king of kjv_north",
+        "into his/hand give:psv:fu"
+      ],
+      "11:12": [
+        "many ten+thousand",
+        "strength:caus:psv:neg:fu"
+      ],
+      "11:13": [
+        "more great than former",
+        "after certain year:pl"
+      ],
+      "11:14": [
+        "rob:ag:pl of thy/people",
+        "kjv_exalt:fu but they fall:fu"
+      ],
+      "11:15": [
+        "kjv_siege_mound",
+        "most fortify:psv:adj city:pl",
+        "neither his/choose:psv:adj people"
+      ],
+      "11:16": [
+        "glorious land",
+        "by his/hand consume:psv:fu"
+      ],
+      "11:17": [
+        "kjv_upright person:pl",
+        "daughter of woman:pl",
+        "she:a corrupt:cv",
+        "stand:neg:fu"
+      ],
+      "11:18": [
+        "kjv_isle:pl",
+        "without his/own kjv_reproach"
+      ],
+      "11:19": [
+        "kjv_stronghold of his/own land",
+        "kjv_stumble:fu",
+        "find:psv:neg:fu"
+      ],
+      "11:20": [
+        "tax:pl up raise:ag",
+        "within few day:pl",
+        "neither in anger nor in battle"
+      ],
+      "11:21": [
+        "vile person",
+        "honour of kingdom give:neg:fu",
+        "kjv_flatter:ev:pl"
+      ],
+      "11:22": [
+        "arm:pl of flood",
+        "break:psv:fu",
+        "prince of kjv_covenant"
+      ],
+      "11:23": [
+        "kjv_league",
+        "deceit:adv work:fu",
+        "with small people"
+      ],
+      "11:24": [
+        "most fat place:pl",
+        "father:pl of his/father:pl",
+        "beforehand plan:fu"
+      ],
+      "11:25": [
+        "his/power and his/courage",
+        "stand:neg:fu",
+        "they device:pl"
+      ],
+      "11:26": [
+        "kjv_portion_share of his/food",
+        "his/army overflow:fu",
+        "slay:psv:adj"
+      ],
+      "11:27": [
+        "both these king:du",
+        "they:du false word:pl",
+        "one_num kjv_meal_table",
+        "prosper:neg:fu"
+      ],
+      "11:28": [
+        "against holy kjv_covenant",
+        "deed:pl do:fu",
+        "his/own land"
+      ],
+      "11:29": [
+        "as former or as later",
+        "be:neg:fu"
+      ],
+      "11:30": [
+        "ship:pl of kjv_chittim",
+        "grief:caus:psv:fu",
+        "kjv_commune:fu"
+      ],
+      "11:31": [
+        "kjv_sanctuary of strength",
+        "daily kjv_sacrifice away take:fu",
+        "kjv_abomination"
+      ],
+      "11:32": [
+        "by kjv_flatter:ev:pl corrupt:fu",
+        "their/god know:pr",
+        "deed:pl do:fu"
+      ],
+      "11:33": [
+        "instruct:fu",
+        "sword and by flame and by kjv_captivity and by spoil"
+      ],
+      "11:34": [
+        "with little help help:psv:fu",
+        "kjv_cleave_adhere:fu"
+      ],
+      "11:35": [
+        "some of they",
+        "to purge",
+        "white make",
+        "appoint:psv:adj time"
+      ],
+      "11:36": [
+        "himself:a above every god great:caus:fu",
+        "god of god:pl",
+        "decree:psv:pr"
+      ],
+      "11:37": [
+        "god of his/father:pl",
+        "desire of woman:pl",
+        "nor any god"
+      ],
+      "11:38": [
+        "god of force:pl",
+        "his/father:pl know:neg:pa",
+        "pleasing thing:pl"
+      ],
+      "11:39": [
+        "strange god",
+        "with glory increase:fu",
+        "they:a over many rule:caus:fu"
+      ],
+      "11:40": [
+        "king of kjv_south",
+        "king of kjv_north",
+        "kjv_whirlwind",
+        "kjv_horseman:pl"
+      ],
+      "11:41": [
+        "kjv_edom and kjv_moab",
+        "chief of child:pl of kjv_ammon"
+      ],
+      "11:42": [
+        "egypt escape:neg:fu"
+      ],
+      "11:43": [
+        "kjv_libyan:pl and kjv_ethiopian:pl",
+        "at his/step:pl"
+      ],
+      "11:44": [
+        "out of east and out of kjv_north",
+        "great fury",
+        "entirely many away make"
+      ],
+      "11:45": [
+        "kjv_tabernacle:pl of his/palace between sea:pl",
+        "none he:a help:fu"
+      ],
+      "12:1": [
+        "kjv_michael_prince great prince",
+        "never be:pp",
+        "in book write:psv:adj"
+      ],
+      "12:2": [
+        "many of they",
+        "some to eternal life",
+        "eternal contempt"
+      ],
+      "12:3": [
+        "kjv_firmament",
+        "to kjv_righteousness turn:pr",
+        "for ever and ever"
+      ],
+      "12:4": [
+        "word:pl up shut:imp",
+        "book:a seal:imp",
+        "forth and back run:fu"
+      ],
+      "12:5": [
+        "other two",
+        "one_num on this side",
+        "other on that side"
+      ],
+      "12:6": [
+        "one_num to man in linen",
+        "upon water:pl of river"
+      ],
+      "12:7": [
+        "his/kjv_right_side hand and his/left hand",
+        "by he that for ever live:pr",
+        "time time:pl and half",
+        "power of holy people scatter"
+      ],
+      "12:8": [
+        "i understand:neg:pa",
+        "my/lord"
+      ],
+      "12:9": [
+        "word:pl up close:psv:pr",
+        "seal:psv:pr"
+      ],
+      "12:10": [
+        "purify:psv:fu and white make:psv:fu and try:psv:fu",
+        "none of wicked understand:fu"
+      ],
+      "12:11": [
+        "daily kjv_sacrifice away take:psv:fu",
+        "thousand and two+hundred and seven+twelve and six day:pl"
+      ],
+      "12:12": [
+        "thousand and three+hundred and two+twelve and eleven day:pl"
+      ],
+      "12:13": [
+        "thou rest:fu",
+        "thy/kjv_lot_portion",
+        "end of day:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:10",
+        "10:11",
+        "10:12",
+        "10:13",
+        "10:14",
+        "10:15",
+        "10:16",
+        "10:17",
+        "10:18",
+        "10:19",
+        "10:2",
+        "10:20",
+        "10:21",
+        "10:3",
+        "10:4",
+        "10:5",
+        "10:7",
+        "10:8",
+        "10:9",
+        "11:1",
+        "11:2",
+        "12:5",
+        "12:7",
+        "12:8"
+      ],
+      "ipl": [],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "11:27",
+        "11:6"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Daniel 11:6",
+      "Daniel 11:27"
+    ],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Three whole weeks,24thday/firstmonth,21days and selected chief prince retain source units.",
+      "Three kings/fourth,one prince,four winds,many ten-thousands,one table and two riverbank figures preserved.",
+      "Time,times,half stays uncomputed and is not converted to years.",
+      "1290and1335days remain separately named;no substituted45day difference."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Daniel10–12 adds79verses;all357Danielverses;whole Bible incomplete.",
+      "Personal visionary/interpreter and actual paired kings distinguished;no first-person divine or communal speech inserted.",
+      "Source ambiguity,failed understanding,sealed words and differing outcomes retained without doctrinal harmonization.",
+      "One contextual proper name;no common additions,paradigm or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Daniel — incomplete Bible working text",
+    "pages": 272,
+    "spreads": 136,
+    "units": 357,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "009a5102d66a43fe1403e2893680bd9145f606b0f79f6b8ff813587675288fd7",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 136,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.553,
+    "modules": [
+      "tests.test_kjv_daniel_closed_book",
+      "tests.test_kjv_daniel_confessing_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    271,
+    272
+  ],
+  "status": "incomplete Bible;Daniel1–12 section checkpoint verified"
+}

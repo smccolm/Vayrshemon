@@ -1,0 +1,881 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.212",
+    "parentVersion": "0.10-kjv.211",
+    "parentHead": "1f1d053f1720143e0a70e838680fe8a2b7086901cf92fd984ccf4a8e1c8c0b4b",
+    "head": "e45e0e14ed2f7457d2f6b30186f0d89bd24610873940af1f4597fa45d456b5f1",
+    "newLexicalEntries": 7,
+    "newProperEntries": 6,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 109,
+    "exactCompilerCases": 109,
+    "newAuthoredVerses": 109,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 5057,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newLukeVerses": 109,
+    "lukeVerses": 1151,
+    "authoredVerses": 26045,
+    "remainingVerses": 5057,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 15,
+    "quantityChecks": [
+      {
+        "reference": "Luke 23:17",
+        "source": "(For of necessity he must release one unto them at the feast.)",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 23:22",
+        "source": "And he said unto them the third time, Why, what evil hath he done? I have found no cause of death in him: I will therefore chastise him, and let him go.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Luke 23:32",
+        "source": "And there were also two other, malefactors, led with him to be put to death.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 23:33",
+        "source": "And when they were come to the place, which is called Calvary, there they crucified him, and the malefactors, one on the right hand, and the other on the left.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 23:39",
+        "source": "And one of the malefactors which were hanged railed on him, saying, If thou be Christ, save thyself and us.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 23:44",
+        "source": "And it was about the sixth hour, and there was a darkness over all the earth until the ninth hour.",
+        "expectedDecimalQuantities": [
+          6,
+          9
+        ],
+        "targetQuantities": [
+          6,
+          9
+        ]
+      },
+      {
+        "reference": "Luke 24:1",
+        "source": "Now upon the first day of the week, very early in the morning, they came unto the sepulchre, bringing the spices which they had prepared, and certain others with them.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 24:4",
+        "source": "And it came to pass, as they were much perplexed thereabout, behold, two men stood by them in shining garments:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 24:7",
+        "source": "Saying, The Son of man must be delivered into the hands of sinful men, and be crucified, and the third day rise again.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Luke 24:9",
+        "source": "And returned from the sepulchre, and told all these things unto the eleven, and to all the rest.",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "Luke 24:13",
+        "source": "And, behold, two of them went that same day to a village called Emmaus, which was from Jerusalem about threescore furlongs.",
+        "expectedDecimalQuantities": [
+          2,
+          60
+        ],
+        "targetQuantities": [
+          2,
+          60
+        ]
+      },
+      {
+        "reference": "Luke 24:18",
+        "source": "And the one of them, whose name was Cleopas, answering said unto him, Art thou only a stranger in Jerusalem, and hast not known the things which are come to pass there in these days?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 24:21",
+        "source": "But we trusted that it had been he which should have redeemed Israel: and beside all this, to day is the third day since these things were done.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Luke 24:33",
+        "source": "And they rose up the same hour, and returned to Jerusalem, and found the eleven gathered together, and them that were with them,",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "Luke 24:46",
+        "source": "And said unto them, Thus it is written, and thus it behoved Christ to suffer, and to rise from the dead the third day:",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "23:1": [
+        "whole kjv_multitude",
+        "to kjv_pilate"
+      ],
+      "23:2": [
+        "wesg",
+        "nation mislead:cv",
+        "kjv_tribute give:inf forbid:cv",
+        "kjv_christ_title king"
+      ],
+      "23:3": [
+        "king of kjv_jew:pl",
+        "thou it:a say:pr"
+      ],
+      "23:4": [
+        "i in this man no fault find:pr"
+      ],
+      "23:5": [
+        "more fierce",
+        "all kjv_judaea",
+        "from kjv_galilee"
+      ],
+      "23:6": [
+        "kjv_galilaean_mark",
+        "ask:pa"
+      ],
+      "23:7": [
+        "authority of kjv_herod_tetrarch",
+        "at that time in kjv_jerusalem"
+      ],
+      "23:8": [
+        "very glad",
+        "long time",
+        "some miracle",
+        "hope:pa"
+      ],
+      "23:9": [
+        "many word:pl",
+        "nothing answer:pa"
+      ],
+      "23:10": [
+        "chief priest:pl and kjv_scribe:pl",
+        "strong:adv he:a accuse:pa"
+      ],
+      "23:11": [
+        "war man:pl",
+        "splendid kjv_robe",
+        "again to kjv_pilate"
+      ],
+      "23:12": [
+        "same day",
+        "they:du together friend:pl",
+        "before between they:du enmity"
+      ],
+      "23:13": [
+        "chief priest:pl and ruler:pl and people"
+      ],
+      "23:14": [
+        "to i",
+        "i before you he:a examine:perf",
+        "no fault find:perf"
+      ],
+      "23:15": [
+        "i you:a to he send:pa",
+        "nothing worthy of death to he do:psv:perf"
+      ],
+      "23:16": [
+        "i therefore he:a kjv_chastise:fu and he:a release:fu"
+      ],
+      "23:17": [
+        "necessity",
+        "at feast",
+        "one_num release:must"
+      ],
+      "23:18": [
+        "all together out cry:pa",
+        "to wesg kjv_barabbas"
+      ],
+      "23:19": [
+        "kjv_sedition in city",
+        "for murder",
+        "prison"
+      ],
+      "23:20": [
+        "release:inf will:cv",
+        "again"
+      ],
+      "23:21": [
+        "he:a kjv_crucify:imp he:a kjv_crucify:imp"
+      ],
+      "23:22": [
+        "third time",
+        "i in he no cause of death",
+        "kjv_chastise:fu"
+      ],
+      "23:23": [
+        "loud voice:pl",
+        "kjv_crucify:psv:may",
+        "chief priest:pl prevail:pa"
+      ],
+      "23:24": [
+        "sentence give:pa",
+        "as require:pa"
+      ],
+      "23:25": [
+        "kjv_sedition and murder",
+        "release:pa",
+        "kjv_jesus_matthew to their/will"
+      ],
+      "23:26": [
+        "kjv_simon_cyrene from kjv_cyrene",
+        "from country",
+        "kjv_cross_instrument",
+        "after kjv_jesus_matthew"
+      ],
+      "23:27": [
+        "great company",
+        "woman:pl",
+        "weep:pa and lament:pa"
+      ],
+      "23:28": [
+        "daughter:pl of kjv_jerusalem",
+        "for ipl weep:neg:imp",
+        "yourselves and for your/child:pl"
+      ],
+      "23:29": [
+        "barren person:pl",
+        "womb:pl which never bear:pa",
+        "breast:pl which never milk give:pa"
+      ],
+      "23:30": [
+        "mountain:pl upon wesg fall:imp",
+        "hill:pl wesg:a cover:imp"
+      ],
+      "23:31": [
+        "green kjv_tree",
+        "in dry what do:psv:fu:q"
+      ],
+      "23:32": [
+        "two other evil do:ag:pl",
+        "to death put:psv:inf"
+      ],
+      "23:33": [
+        "kjv_calvary_luke",
+        "one_num on kjv_right_side hand",
+        "other on left"
+      ],
+      "23:34": [
+        "father they:a forgive:imp",
+        "what do:pr know:neg:pr",
+        "clothes kjv_divide:pa",
+        "kjv_lot:pl cast:pa"
+      ],
+      "23:35": [
+        "people behold:cv",
+        "ruler:pl",
+        "himself save:opt",
+        "choose:psv:adj of god"
+      ],
+      "23:36": [
+        "soldier:pl",
+        "vinegar offer:cv"
+      ],
+      "23:37": [
+        "if thou king",
+        "thyself save:imp"
+      ],
+      "23:38": [
+        "greek and kjv_latin_language and kjv_hebrew",
+        "this king of kjv_jew:pl"
+      ],
+      "23:39": [
+        "one_num",
+        "rail:pa",
+        "thyself and we:du:a save:imp"
+      ],
+      "23:40": [
+        "other",
+        "god fear:neg:pr:q",
+        "same condemn:ev"
+      ],
+      "23:41": [
+        "we:du indeed justly",
+        "deed:pl of we:du",
+        "this man nothing wrong"
+      ],
+      "23:42": [
+        "i:a remember:imp",
+        "thy/kingdom"
+      ],
+      "23:43": [
+        "truly ipl to thee",
+        "today with ipl in paradise"
+      ],
+      "23:44": [
+        "about six:ord hour",
+        "all earth darkness until nine:ord hour"
+      ],
+      "23:45": [
+        "sun dark:caus:psv:pa",
+        "kjv_vail_partition",
+        "in middle kjv_rend:psv:pa"
+      ],
+      "23:46": [
+        "father into thy/hand:pl ipl mypl/spirit entrust:pr",
+        "spirit yield:pa"
+      ],
+      "23:47": [
+        "kjv_centurion",
+        "god glorify:pa",
+        "kjv_righteous man"
+      ],
+      "23:48": [
+        "their/breast:pl strike:pa",
+        "return:pa"
+      ],
+      "23:49": [
+        "his/acquaintance",
+        "woman:pl",
+        "from kjv_galilee",
+        "far off"
+      ],
+      "23:50": [
+        "kjv_joseph_arimathaea counsellor",
+        "good man and kjv_righteous"
+      ],
+      "23:51": [
+        "counsel and deed consent:neg:pp",
+        "kjv_arimathaea",
+        "kingdom of god wait:pa"
+      ],
+      "23:52": [
+        "kjv_pilate",
+        "body of kjv_jesus_matthew beg:pa"
+      ],
+      "23:53": [
+        "linen wrap:pa",
+        "in stone kjv_hew:psv:pp",
+        "never before man lay:psv:pp"
+      ],
+      "23:54": [
+        "preparation",
+        "kjv_sabbath near draw:pa"
+      ],
+      "23:55": [
+        "woman:pl",
+        "from kjv_galilee",
+        "how his/body lay:psv:pa"
+      ],
+      "23:56": [
+        "spice:pl and kjv_ointment:pl",
+        "as command",
+        "kjv_sabbath day rest:pa"
+      ],
+      "24:1": [
+        "first day of week",
+        "very early",
+        "spice:pl which prepare:pp",
+        "other person:pl with they"
+      ],
+      "24:2": [
+        "stone from tomb away roll:psv:perf"
+      ],
+      "24:3": [
+        "body of kjv_lord kjv_jesus_matthew find:neg:pa"
+      ],
+      "24:4": [
+        "two man:pl",
+        "shine:adj garment:pl"
+      ],
+      "24:5": [
+        "face:pl to earth down bow:pa",
+        "they:du to they",
+        "among dead person:pl he who live:pr"
+      ],
+      "24:6": [
+        "here be:neg:pr but rise:perf",
+        "yet in kjv_galilee"
+      ],
+      "24:7": [
+        "son of man",
+        "sinful man:pl",
+        "kjv_crucify:psv:must",
+        "third day"
+      ],
+      "24:8": [
+        "his/word:pl remember:pa"
+      ],
+      "24:9": [
+        "to eleven",
+        "all other person:pl"
+      ],
+      "24:10": [
+        "kjv_mary_magdalene",
+        "kjv_joanna_chuza",
+        "kjv_mary_james_luke mother of kjv_james_mary_luke",
+        "other woman:pl"
+      ],
+      "24:11": [
+        "idle tale:pl",
+        "believe:neg:pa"
+      ],
+      "24:12": [
+        "kjv_peter_disciple",
+        "to tomb run:pa",
+        "linen cloth:pl by themselves",
+        "wonder:cv"
+      ],
+      "24:13": [
+        "two of they",
+        "kjv_emmaus_luke",
+        "about five+twelve kjv_furlong_source"
+      ],
+      "24:14": [
+        "they:du together",
+        "happen:pp"
+      ],
+      "24:15": [
+        "they:du",
+        "speak:pa and think:pa",
+        "kjv_jesus_matthew himself",
+        "with they:du go:pa"
+      ],
+      "24:16": [
+        "eye:pl of they:du hold:psv:pa",
+        "recognize:neg:should"
+      ],
+      "24:17": [
+        "to they:du",
+        "you:du to each other",
+        "sad"
+      ],
+      "24:18": [
+        "one_num of they:du",
+        "kjv_cleopas_luke",
+        "only stranger",
+        "know:neg:perf:q"
+      ],
+      "24:19": [
+        "they:du to he",
+        "kjv_nazareth",
+        "in deed and word mighty prophet"
+      ],
+      "24:20": [
+        "ourone/ruler:pl",
+        "death condemn:psv:inf",
+        "kjv_crucify:perf"
+      ],
+      "24:21": [
+        "we:du",
+        "kjv_israel redeem:should",
+        "today third day"
+      ],
+      "24:22": [
+        "woman:pl also of ourone/company",
+        "early at tomb",
+        "we:du:a astonish:caus:pa"
+      ],
+      "24:23": [
+        "his/body find:neg:pa",
+        "vision of angel:pl",
+        "alive"
+      ],
+      "24:24": [
+        "with wesg",
+        "as woman:pl say:pp",
+        "he:a see:neg:pa"
+      ],
+      "24:25": [
+        "they:du",
+        "slow",
+        "all which prophet:pl",
+        "believe:inf:excl"
+      ],
+      "24:26": [
+        "suffer:inf",
+        "into his/glory enter:inf",
+        "necessary be:neg:pa:q"
+      ],
+      "24:27": [
+        "kjv_moses and all prophet:pl",
+        "all writing:pl",
+        "about himself to they:du"
+      ],
+      "24:28": [
+        "village",
+        "they:du",
+        "as though further go:should act:pa"
+      ],
+      "24:29": [
+        "they:du he:a urge:pa",
+        "with we:du stay:imp",
+        "evening",
+        "day far spend:psv:perf"
+      ],
+      "24:30": [
+        "with they:du at meal",
+        "bread take:pa",
+        "bless:pa and break:pa",
+        "to they:du give:pa"
+      ],
+      "24:31": [
+        "eye:pl of they:du open:psv:pa",
+        "recognize:pa",
+        "vanish:pa"
+      ],
+      "24:32": [
+        "heart of we:du within we:du burn:neg:pa:q",
+        "with we:du in way",
+        "to we:du writing:pl open:pa"
+      ],
+      "24:33": [
+        "they:du same hour",
+        "kjv_jerusalem return:pa",
+        "eleven together"
+      ],
+      "24:34": [
+        "kjv_lord indeed rise:perf",
+        "kjv_simon_peter appear:perf"
+      ],
+      "24:35": [
+        "they:du",
+        "in way",
+        "bread break:ev by they:du"
+      ],
+      "24:36": [
+        "kjv_jesus_matthew himself",
+        "middle of they",
+        "peace to you be:opt"
+      ],
+      "24:37": [
+        "greatly afraid",
+        "with fear fill:psv:adj",
+        "spirit see:pp suppose:pa"
+      ],
+      "24:38": [
+        "why in kjv_trouble",
+        "thought:pl in your/heart:pl"
+      ],
+      "24:39": [
+        "mypl/hand:pl and mypl/foot:pl",
+        "ipl iplself",
+        "ipl:a touch:imp",
+        "flesh and bone:pl have:neg:pr"
+      ],
+      "24:40": [
+        "his/hand:pl and his/foot:pl"
+      ],
+      "24:41": [
+        "for joy believe:neg:pa",
+        "wonder:pa",
+        "any food"
+      ],
+      "24:42": [
+        "roast:psv:adj kjv_fish",
+        "kjv_honeycomb"
+      ],
+      "24:43": [
+        "before they eat:pa"
+      ],
+      "24:44": [
+        "ipl to you",
+        "law of kjv_moses",
+        "prophet:pl",
+        "kjv_psalm:pl",
+        "about ipl"
+      ],
+      "24:45": [
+        "their/understand:ev open:pa",
+        "writing:pl understand:may"
+      ],
+      "24:46": [
+        "kjv_christ_title suffer:inf",
+        "dead person:pl third day rise:inf"
+      ],
+      "24:47": [
+        "repent:ev and forgive:ev of sin:pl",
+        "all nation:pl",
+        "kjv_jerusalem begin:cv"
+      ],
+      "24:48": [
+        "you witness:pl"
+      ],
+      "24:49": [
+        "ipl promise of mypl/father",
+        "city of kjv_jerusalem stay:imp",
+        "power from high clothe:psv:pr"
+      ],
+      "24:50": [
+        "as far as kjv_bethany",
+        "hand:pl up lift:pa",
+        "bless:pa"
+      ],
+      "24:51": [
+        "while they:a bless:pa",
+        "from they part:psv:pa",
+        "into heaven up carry:psv:pa"
+      ],
+      "24:52": [
+        "he:a kjv_worship:pa",
+        "great joy",
+        "kjv_jerusalem"
+      ],
+      "24:53": [
+        "always in kjv_temple",
+        "god praise:cv and bless:cv",
+        "amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "23:14",
+        "23:15",
+        "23:16",
+        "23:22",
+        "23:4",
+        "23:42"
+      ],
+      "ipl": [
+        "23:28",
+        "23:43",
+        "23:46",
+        "24:39",
+        "24:44",
+        "24:49"
+      ],
+      "wesg": [
+        "23:18",
+        "23:2",
+        "23:30",
+        "24:24"
+      ],
+      "wepl": [],
+      "mypl": [
+        "23:46",
+        "24:39",
+        "24:49"
+      ],
+      "ourone": [
+        "24:20",
+        "24:22"
+      ],
+      "iplself": [
+        "24:39"
+      ],
+      "we:du": [
+        "23:39",
+        "23:41",
+        "24:21",
+        "24:22",
+        "24:29",
+        "24:32"
+      ],
+      "they:du": [
+        "23:12",
+        "24:14",
+        "24:15",
+        "24:16",
+        "24:17",
+        "24:18",
+        "24:19",
+        "24:25",
+        "24:27",
+        "24:28",
+        "24:29",
+        "24:30",
+        "24:31",
+        "24:32",
+        "24:33",
+        "24:35",
+        "24:5"
+      ],
+      "you:du": [
+        "24:17"
+      ]
+    },
+    "physicalDualReferences": [
+      "23:12",
+      "23:39",
+      "23:41",
+      "24:14",
+      "24:15",
+      "24:16",
+      "24:17",
+      "24:18",
+      "24:19",
+      "24:21",
+      "24:22",
+      "24:25",
+      "24:27",
+      "24:28",
+      "24:29",
+      "24:30",
+      "24:31",
+      "24:32",
+      "24:33",
+      "24:35",
+      "24:5"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Two condemned men and Emmaus travellers remain dual.",
+      "Sixth/ninth hours,third-day counts,eleven gathering and approximate sixty furlongs retained."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "109new verses;1151Luke complete;whole Bible incomplete.",
+      "Plural-self reflexive identifies same embodied speaker without adding persons or bodies.",
+      "One common and six contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Luke — incomplete Bible working text",
+    "pages": 640,
+    "spreads": 320,
+    "units": 1151,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "b9e2730efe5f75a26a0c2141a6fb77bf4fd989e4d63791cd8bae22b681f24dee",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.529785000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 320,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.667,
+    "modules": [
+      "tests.test_kjv_luke_embodied_self",
+      "tests.test_kjv_luke_distinct_wills",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    639,
+    640
+  ],
+  "status": "incomplete Bible;Luke1–24 section checkpoint verified"
+}

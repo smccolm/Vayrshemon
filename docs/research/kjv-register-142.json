@@ -1,0 +1,764 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.142",
+    "parentVersion": "0.10-kjv.141",
+    "parentHead": "85a67a7cd43754558f29dd0c692ed96151ca4fe1a043803c356d8b78ad792a58",
+    "head": "5e9f7125908bc8fe13deeff7f3bfc4593adad4bcf9007b77d88f989d0884cc46",
+    "newLexicalEntries": 6,
+    "newProperEntries": 2,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 112,
+    "exactCompilerCases": 112,
+    "newAuthoredVerses": 112,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 112,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 11995,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 112,
+    "jeremiahVerses": 112,
+    "authoredVerses": 19107,
+    "remainingVerses": 11995,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 1:2",
+        "source": "To whom the word of the LORD came in the days of Josiah the son of Amon king of Judah, in the thirteenth year of his reign.",
+        "expectedDecimalQuantities": [
+          13
+        ],
+        "targetQuantities": [
+          13
+        ]
+      },
+      {
+        "reference": "Jeremiah 1:3",
+        "source": "It came also in the days of Jehoiakim the son of Josiah king of Judah, unto the end of the eleventh year of Zedekiah the son of Josiah king of Judah, unto the carrying away of Jerusalem captive in the fifth month.",
+        "expectedDecimalQuantities": [
+          11,
+          5
+        ],
+        "targetQuantities": [
+          11,
+          5
+        ]
+      },
+      {
+        "reference": "Jeremiah 1:13",
+        "source": "And the word of the LORD came unto me the second time, saying, What seest thou? And I said, I see a seething pot; and the face thereof is toward the north.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 2:13",
+        "source": "For my people have committed two evils; they have forsaken me the fountain of living waters, and hewed them out cisterns, broken cisterns, that can hold no water.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 3:14",
+        "source": "Turn, O backsliding children, saith the LORD; for I am married unto you: and I will take you one of a city, and two of a family, and I will bring you to Zion:",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 4:31",
+        "source": "For I have heard a voice as of a woman in travail, and the anguish as of her that bringeth forth her first child, the voice of the daughter of Zion, that bewaileth herself, that spreadeth her hands, saying, Woe is me now! for my soul is wearied because of murderers.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_jeremiah_prophet son of kjv_hilkiah_jeremiah",
+        "kjv_anathoth"
+      ],
+      "1:2": [
+        "twelve and one_num:ord year",
+        "kjv_amon_manasseh"
+      ],
+      "1:3": [
+        "eleven:ord year",
+        "five:ord month",
+        "kjv_zedekiah_king son of kjv_josiah_amon"
+      ],
+      "1:4": [
+        "word of kjv_lord to i"
+      ],
+      "1:5": [
+        "before ipl thee:a in belly form:pa",
+        "before thou out of womb",
+        "kjv_ordain:pa"
+      ],
+      "1:6": [
+        "i speak:neg:can",
+        "i child be:pr",
+        "god:excl"
+      ],
+      "1:7": [
+        "i child be:pr say:neg:imp",
+        "ipl thee:a send:fu"
+      ],
+      "1:8": [
+        "their/face:pl:a fear:neg:imp",
+        "ipl with thee"
+      ],
+      "1:9": [
+        "my/mouth:a touch:pa",
+        "mypl/word:pl:a in thy/mouth"
+      ],
+      "1:10": [
+        "out root:inf",
+        "down pull:inf",
+        "destroy:inf",
+        "down throw:inf",
+        "build:inf and plant:inf"
+      ],
+      "1:11": [
+        "i rod:a of kjv_almond kjv_tree see:pr"
+      ],
+      "1:12": [
+        "ipl mypl/word:a hasten:fu"
+      ],
+      "1:13": [
+        "second time",
+        "boil:adj kjv_pot",
+        "its/face towards kjv_north"
+      ],
+      "1:14": [
+        "out of kjv_north evil"
+      ],
+      "1:15": [
+        "each his/throne",
+        "gate:pl of kjv_jerusalem",
+        "all city:pl of kjv_judah"
+      ],
+      "1:16": [
+        "mypl/judgment:pl",
+        "other god:pl",
+        "their/own hand:pl"
+      ],
+      "1:17": [
+        "lest ipl thee:a before they confound:pr"
+      ],
+      "1:18": [
+        "fortify:psv:adj city",
+        "iron kjv_pillar",
+        "kjv_brass wall:pl"
+      ],
+      "1:19": [
+        "prevail:neg:fu",
+        "ipl with thee"
+      ],
+      "2:1": [
+        "word of kjv_lord to i"
+      ],
+      "2:2": [
+        "thy/betroth:ev",
+        "land which kjv_sow:psv:neg:pa"
+      ],
+      "2:3": [
+        "kjv_firstfruits",
+        "all who he:a devour:pr offend:fu"
+      ],
+      "2:4": [
+        "all kjv_family:pl of house of kjv_israel"
+      ],
+      "2:5": [
+        "after vanity walk:perf",
+        "vain become:perf"
+      ],
+      "2:6": [
+        "wesg:a up out of land of egypt",
+        "no human through pass:pa",
+        "no human dwell:pa"
+      ],
+      "2:7": [
+        "mypl/land:a defile:pa",
+        "mypl/heritage:a kjv_abomination"
+      ],
+      "2:8": [
+        "shepherd:pl",
+        "by kjv_baal kjv_prophesy:pa",
+        "benefit:neg:pr"
+      ],
+      "2:9": [
+        "your/child:pl/child:pl"
+      ],
+      "2:10": [
+        "kjv_chittim",
+        "kjv_kedar"
+      ],
+      "2:11": [
+        "which yet god:pl be:neg:pr",
+        "mypl/people their/glory"
+      ],
+      "2:12": [
+        "heaven:pl",
+        "with terror fear:imp"
+      ],
+      "2:13": [
+        "two evil:pl",
+        "fountain of live:adj water:pl",
+        "break:psv:adj kjv_cistern:pl",
+        "no water:a hold:can"
+      ],
+      "2:14": [
+        "at home bear:psv:adj slave"
+      ],
+      "2:15": [
+        "young lion:pl",
+        "without inhabit:ag"
+      ],
+      "2:16": [
+        "kjv_noph and kjv_tahapanes",
+        "top:a of thy/head"
+      ],
+      "2:17": [
+        "bring:neg:perf",
+        "when he thee:a by way lead:pa"
+      ],
+      "2:18": [
+        "water:pl:a of kjv_sihor",
+        "water:pl:a of river"
+      ],
+      "2:19": [
+        "thy/kjv_backslide:ev:pl",
+        "mypl/fear in thee be:neg:pr"
+      ],
+      "2:20": [
+        "ipl thy/yoke:a break:perf",
+        "ipl transgress:neg:fu",
+        "every green kjv_tree"
+      ],
+      "2:21": [
+        "noble kjv_vine",
+        "true seed",
+        "corrupt:psv:adj plant"
+      ],
+      "2:22": [
+        "kjv_nitre",
+        "kjv_soap",
+        "thy/kjv_iniquity before ipl mark:psv:pr"
+      ],
+      "2:23": [
+        "ipl defile:psv:neg:pr",
+        "ipl after kjv_baalim go:neg:perf",
+        "kjv_dromedary"
+      ],
+      "2:24": [
+        "wind:a at her/pleasure up smell:pr",
+        "in her/month"
+      ],
+      "2:25": [
+        "without shoe",
+        "no hope",
+        "ipl stranger:pl:a love:perf"
+      ],
+      "2:26": [
+        "their/king:pl their/prince:pl",
+        "their/priest:pl",
+        "their/prophet:pl"
+      ],
+      "2:27": [
+        "kjv_tree_stock",
+        "mypl/father",
+        "thou ipl:a forth bring:perf",
+        "wesg:a save:imp"
+      ],
+      "2:28": [
+        "if they thee:a",
+        "kjv_number of thy/city:pl"
+      ],
+      "2:29": [
+        "you all against ipl transgress:perf"
+      ],
+      "2:30": [
+        "ipl your/child:pl:a strike:perf",
+        "your/own sword"
+      ],
+      "2:31": [
+        "wesg lord:pl be:pr",
+        "wesg no more to thee come:fu"
+      ],
+      "2:32": [
+        "day:pl without kjv_number"
+      ],
+      "2:33": [
+        "wicked human:pl:a thy/way:pl:a teach:perf"
+      ],
+      "2:34": [
+        "blood of soul:pl of poor innocent human:pl",
+        "by secret search find:neg:perf",
+        "upon all these"
+      ],
+      "2:35": [
+        "because ipl innocent be:pr",
+        "ipl with thee plead:fu",
+        "ipl sin:neg:perf"
+      ],
+      "2:36": [
+        "egypt ashamed be:fu",
+        "kjv_assyria ashamed be:pa"
+      ],
+      "2:37": [
+        "thy/hand:pl upon thy/head",
+        "prosper:neg:fu"
+      ],
+      "3:1": [
+        "his/wife:a away put:pr",
+        "other human",
+        "greatly defile:psv:neg:fu",
+        "yet again to ipl return:imp"
+      ],
+      "3:2": [
+        "with lie:psv:neg:perf",
+        "kjv_arabian",
+        "thy/whore:ev:pl"
+      ],
+      "3:3": [
+        "shower:pl withhold:psv:perf",
+        "late rain be:neg:perf",
+        "whore/forehead"
+      ],
+      "3:4": [
+        "mypl/father",
+        "mypl/youth"
+      ],
+      "3:5": [
+        "his/anger:a for ever",
+        "evil thing:pl:a speak:perf"
+      ],
+      "3:6": [
+        "to i in day:pl of kjv_josiah_amon",
+        "kjv_backslide:adj kjv_israel"
+      ],
+      "3:7": [
+        "she return:neg:pa",
+        "sister kjv_judah"
+      ],
+      "3:8": [
+        "kjv_divorce_document:a",
+        "kjv_judah fear:neg:pa"
+      ],
+      "3:9": [
+        "lightweight:ev of her/whore:ev",
+        "stone:pl and with kjv_tree_stock:pl"
+      ],
+      "3:10": [
+        "whole heart turn:neg:perf",
+        "in false:ev"
+      ],
+      "3:11": [
+        "herself:a more than",
+        "kjv_justify_judicial:perf"
+      ],
+      "3:12": [
+        "mypl/anger:a upon you fall:caus:neg:fu",
+        "anger:a for ever keep:neg:fu"
+      ],
+      "3:13": [
+        "thou against kjv_lord",
+        "you mypl/voice:a obey:neg:perf"
+      ],
+      "3:14": [
+        "ipl to you marry:psv:pr",
+        "one_num of city and two of kjv_family"
+      ],
+      "3:15": [
+        "shepherd:pl:a according_to mypl/heart",
+        "knowledge and understanding"
+      ],
+      "3:16": [
+        "kjv_ark_chest of kjv_covenant",
+        "neither it to mind come:fu",
+        "neither they it:a remember:fu",
+        "neither they it:a visit:fu",
+        "neither that any more do:psv:fu"
+      ],
+      "3:17": [
+        "throne of kjv_lord",
+        "all nation:pl",
+        "neither they any more"
+      ],
+      "3:18": [
+        "house of kjv_judah with house of kjv_israel",
+        "together out of land of kjv_north"
+      ],
+      "3:19": [
+        "army:pl of nation:pl",
+        "thou ipl:a mypl/father call:fu"
+      ],
+      "3:20": [
+        "wife from her/husband",
+        "you with ipl"
+      ],
+      "3:21": [
+        "weep:ev and kjv_supplication:pl",
+        "their/way:a twist:perf"
+      ],
+      "3:22": [
+        "ipl your/kjv_backslide:ev:pl:a heal:fu",
+        "wesg to thee come:pr",
+        "ourone/god"
+      ],
+      "3:23": [
+        "in vain salvation",
+        "ourone/god salvation of kjv_israel"
+      ],
+      "3:24": [
+        "shame labour:a of ourone/father:pl",
+        "their/son:pl and their/daughter:pl"
+      ],
+      "3:25": [
+        "wesg in ourone/shame",
+        "wesg and ourone/father:pl",
+        "obey:neg:perf"
+      ],
+      "4:1": [
+        "then thou move:neg:fu"
+      ],
+      "4:2": [
+        "kjv_lord live:pr swear:fu",
+        "nation:pl themselves:a"
+      ],
+      "4:3": [
+        "kjv_fallow_ground",
+        "among thorn:pl kjv_sow:neg:imp"
+      ],
+      "4:4": [
+        "kjv_foreskin:pl:a of your/heart",
+        "none it:a extinguish:can"
+      ],
+      "4:5": [
+        "wesg into fortify:psv:adj city:pl go:imp"
+      ],
+      "4:6": [
+        "withdraw:imp stay:neg:imp",
+        "ipl evil:a from kjv_north bring:fu"
+      ],
+      "4:7": [
+        "destroy:ag of kjv_gentile:pl",
+        "without inhabit:ag"
+      ],
+      "4:8": [
+        "from wesg back turn:psv:neg:pr"
+      ],
+      "4:9": [
+        "heart of king perish:fu",
+        "heart of prince:pl"
+      ],
+      "4:10": [
+        "i say:pa",
+        "thou this people:a and kjv_jerusalem:a greatly deceive:perf",
+        "sword to soul"
+      ],
+      "4:11": [
+        "daughter of mypl/people",
+        "not to kjv_winnow:inf nor to clean:caus:inf"
+      ],
+      "4:12": [
+        "ipl judgment:a against they"
+      ],
+      "4:13": [
+        "more swift than kjv_eagle:pl",
+        "woe to wesg:excl"
+      ],
+      "4:14": [
+        "thy/heart:a from wickedness wash:imp",
+        "vain thought:pl"
+      ],
+      "4:15": [
+        "kjv_dan",
+        "kjv_ephraim"
+      ],
+      "4:16": [
+        "watch:ag:pl from far country"
+      ],
+      "4:17": [
+        "keep:ag:pl of field",
+        "she against ipl rebel:perf"
+      ],
+      "4:18": [
+        "bitter be:pr",
+        "to thy/heart reach:pr"
+      ],
+      "4:19": [
+        "my/kjv_bowels:pl my/kjv_bowels:pl:excl",
+        "i my/peace:a hold:neg:can",
+        "thou ah my/soul"
+      ],
+      "4:20": [
+        "destroy:ev upon destroy:ev",
+        "my/tent:pl",
+        "my/kjv_curtain:pl"
+      ],
+      "4:21": [
+        "i kjv_standard_banner:a see:fu"
+      ],
+      "4:22": [
+        "mypl/people",
+        "they ipl:a know:neg:perf",
+        "wise to evil:a do:inf"
+      ],
+      "4:23": [
+        "without form and void",
+        "no light:a"
+      ],
+      "4:24": [
+        "all hill:pl lightly move:pa"
+      ],
+      "4:25": [
+        "no human",
+        "all bird:pl of heaven:pl flee:pp"
+      ],
+      "4:26": [
+        "fruitful place kjv_wilderness",
+        "by his/fierce anger"
+      ],
+      "4:27": [
+        "yet ipl full end:a make:neg:fu"
+      ],
+      "4:28": [
+        "ipl it:a purpose:perf",
+        "repent:neg:fu",
+        "neither ipl from it back turn:fu"
+      ],
+      "4:29": [
+        "kjv_horseman:pl and kjv_bow+shoot:ag:pl",
+        "no human in it"
+      ],
+      "4:30": [
+        "thy/face:a with paint:ev rend:pr",
+        "thy/life:a seek:fu"
+      ],
+      "4:31": [
+        "i voice:a",
+        "her/first child",
+        "woe to ipl now:excl",
+        "mypl/soul"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:11",
+        "1:12",
+        "1:13",
+        "1:14",
+        "1:4",
+        "1:6",
+        "1:7",
+        "1:9",
+        "2:1",
+        "3:11",
+        "3:6",
+        "4:10",
+        "4:19",
+        "4:21",
+        "4:23",
+        "4:24",
+        "4:25",
+        "4:26",
+        "4:31"
+      ],
+      "ipl": [
+        "1:10",
+        "1:12",
+        "1:15",
+        "1:16",
+        "1:17",
+        "1:18",
+        "1:19",
+        "1:5",
+        "1:7",
+        "1:8",
+        "1:9",
+        "2:13",
+        "2:2",
+        "2:20",
+        "2:21",
+        "2:22",
+        "2:23",
+        "2:25",
+        "2:27",
+        "2:29",
+        "2:30",
+        "2:31",
+        "2:32",
+        "2:34",
+        "2:35",
+        "2:5",
+        "2:7",
+        "2:8",
+        "2:9",
+        "3:1",
+        "3:10",
+        "3:12",
+        "3:14",
+        "3:15",
+        "3:18",
+        "3:19",
+        "3:20",
+        "3:22",
+        "3:4",
+        "3:7",
+        "3:8",
+        "4:1",
+        "4:12",
+        "4:17",
+        "4:22",
+        "4:27",
+        "4:28",
+        "4:31",
+        "4:6"
+      ],
+      "wesg": [
+        "2:27",
+        "2:31",
+        "2:6",
+        "3:22",
+        "3:25",
+        "4:13",
+        "4:5",
+        "4:8"
+      ],
+      "wepl": [],
+      "mypl": [
+        "1:12",
+        "1:16",
+        "1:9",
+        "2:11",
+        "2:13",
+        "2:19",
+        "2:27",
+        "2:31",
+        "2:32",
+        "2:7",
+        "3:12",
+        "3:13",
+        "3:15",
+        "3:19",
+        "3:4",
+        "4:1",
+        "4:11",
+        "4:22",
+        "4:31",
+        "4:4"
+      ],
+      "ourone": [
+        "3:22",
+        "3:23",
+        "3:24",
+        "3:25"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Regnal13,11;month5;second visit;two evils;one city/two family;first-child priority.",
+      "Firstfruits category,each and indefinite humans are not added cardinal counts."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah1–4 adds112 verses;whole Bible incomplete.",
+      "Personal prophet,divine plural-I and civic quoted plural-I distinguished by context.",
+      "Singular-we may predicate plural lords and include plural fathers.",
+      "Four common senses,two contextual names;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 86,
+    "spreads": 43,
+    "units": 112,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "f7703fecdce7685278ed1fd077c24d48651719092c14576e6374b60db0c75898",
+    "maxBaselineErrorPt": 0.007812500000056843,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 43,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.952,
+    "modules": [
+      "tests.test_kjv_jeremiah_civic_self",
+      "tests.test_kjv_isaiah_communal_clay",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    85,
+    86
+  ],
+  "status": "incomplete Bible;Jeremiah1–4 section checkpoint verified"
+}

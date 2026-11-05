@@ -1,0 +1,896 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.129",
+    "parentVersion": "0.10-kjv.128",
+    "parentHead": "c6ece27bf4a093f96029eb0882f0c9d98c550e382c206125e4554341d6a849d1",
+    "head": "9e0d529ccae1828536d85dba5d1761ca5f4cc2401ea69d41c7b61c9a974e9a09",
+    "newLexicalEntries": 18,
+    "newProperEntries": 6,
+    "newCommonEntries": 12,
+    "newSurfaceForms": 18,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 117,
+    "exactCompilerCases": 117,
+    "newAuthoredVerses": 117,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 13399,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newSongVerses": 117,
+    "songVerses": 117,
+    "authoredVerses": 17703,
+    "remainingVerses": 13399,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 12,
+    "quantityChecks": [
+      {
+        "reference": "Song of Solomon 3:7",
+        "source": "Behold his bed, which is Solomon’s; threescore valiant men are about it, of the valiant of Israel.",
+        "expectedDecimalQuantities": [
+          60
+        ],
+        "targetQuantities": [
+          60
+        ]
+      },
+      {
+        "reference": "Song of Solomon 4:4",
+        "source": "Thy neck is like the tower of David builded for an armoury, whereon there hang a thousand bucklers, all shields of mighty men.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Song of Solomon 4:5",
+        "source": "Thy two breasts are like two young roes that are twins, which feed among the lilies.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Song of Solomon 4:9",
+        "source": "Thou hast ravished my heart, my sister, my spouse; thou hast ravished my heart with one of thine eyes, with one chain of thy neck.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Song of Solomon 5:10",
+        "source": "My beloved is white and ruddy, the chiefest among ten thousand.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Song of Solomon 6:6",
+        "source": "Thy teeth are as a flock of sheep which go up from the washing, whereof every one beareth twins, and there is not one barren among them.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Song of Solomon 6:8",
+        "source": "There are threescore queens, and fourscore concubines, and virgins without number.",
+        "expectedDecimalQuantities": [
+          60,
+          80
+        ],
+        "targetQuantities": [
+          60,
+          80
+        ]
+      },
+      {
+        "reference": "Song of Solomon 6:9",
+        "source": "My dove, my undefiled is but one; she is the only one of her mother, she is the choice one of her that bare her. The daughters saw her, and blessed her; yea, the queens and the concubines, and they praised her.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Song of Solomon 6:13",
+        "source": "Return, return, O Shulamite; return, return, that we may look upon thee. What will ye see in the Shulamite? As it were the company of two armies.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Song of Solomon 7:3",
+        "source": "Thy two breasts are like two young roes that are twins.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Song of Solomon 8:11",
+        "source": "Solomon had a vineyard at Baalhamon; he let out the vineyard unto keepers; every one for the fruit thereof was to bring a thousand pieces of silver.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Song of Solomon 8:12",
+        "source": "My vineyard, which is mine, is before me: thou, O Solomon, must have a thousand, and those that keep the fruit thereof two hundred.",
+        "expectedDecimalQuantities": [
+          1000,
+          200
+        ],
+        "targetQuantities": [
+          1000,
+          200
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "song of song:pl",
+        "kjv_solomon"
+      ],
+      "1:2": [
+        "he i:a with kiss:ev:pl of his/mouth kiss:imp",
+        "thy/love:ev better than wine"
+      ],
+      "1:3": [
+        "thy/name as kjv_ointment out pour:psv:adj",
+        "virgin:pl thee:a love:pr"
+      ],
+      "1:4": [
+        "i:a draw:imp wesg after thee run:fu",
+        "king i:a into his/chamber:pl",
+        "wesg thy/love:ev:a more than wine remember:fu"
+      ],
+      "1:5": [
+        "i black but beautiful",
+        "kjv_kedar",
+        "kjv_curtain:pl of kjv_solomon"
+      ],
+      "1:6": [
+        "sun upon i look:perf",
+        "my/mother child:pl",
+        "mine/own kjv_vineyard:a i keep:neg:perf"
+      ],
+      "1:7": [
+        "at noon rest:caus:pr",
+        "human who aside turn:pr",
+        "thy/companion:pl"
+      ],
+      "1:8": [
+        "most beautiful among woman:pl:excl",
+        "kjv_footstep:pl",
+        "thy/kjv_kid:pl:a"
+      ],
+      "1:9": [
+        "company of horse:pl",
+        "kjv_pharaoh chariot:pl"
+      ],
+      "1:10": [
+        "thy/cheek:pl",
+        "row:pl of jewel:pl",
+        "chain:pl of gold"
+      ],
+      "1:11": [
+        "wesg for thee",
+        "kjv_border:pl:a of gold",
+        "kjv_stud:pl of silver"
+      ],
+      "1:12": [
+        "king at his/table sit:pr",
+        "my/kjv_spikenard"
+      ],
+      "1:13": [
+        "bundle of kjv_myrrh",
+        "all night between my/breast:pl lie:fu"
+      ],
+      "1:14": [
+        "bunch of kjv_camphire",
+        "kjv_vineyard:pl of kjv_engedi"
+      ],
+      "1:15": [
+        "dove:pl eye:pl:a have:pr"
+      ],
+      "1:16": [
+        "my/beloved:excl",
+        "ourone/bed green"
+      ],
+      "1:17": [
+        "beam:pl of ourone/house",
+        "ourone/kjv_rafter:pl of kjv_fir"
+      ],
+      "2:1": [
+        "i kjv_rose_flower of kjv_sharon",
+        "lily of valley:pl"
+      ],
+      "2:2": [
+        "lily among thorn:pl",
+        "my/love:ev among daughter:pl"
+      ],
+      "2:3": [
+        "apple kjv_tree",
+        "woodland",
+        "i under his/shadow",
+        "his/fruit to my/taste sweet"
+      ],
+      "2:4": [
+        "feast:ev house",
+        "his/banner over i love:ev"
+      ],
+      "2:5": [
+        "kjv_flagon:pl",
+        "apple:pl comfort:imp",
+        "i sick of love:ev"
+      ],
+      "2:6": [
+        "his/left hand",
+        "his/kjv_right_side hand i:a embrace:pr"
+      ],
+      "2:7": [
+        "by kjv_roe:pl and by hind:pl of field",
+        "until he desire:pr"
+      ],
+      "2:8": [
+        "voice of my/beloved:excl",
+        "mountain:pl leap:cv",
+        "hill:pl skip:cv"
+      ],
+      "2:9": [
+        "kjv_roe or young kjv_hart",
+        "ourone/wall",
+        "through lattice"
+      ],
+      "2:10": [
+        "my/beloved speak:pa",
+        "my/beautiful human:excl",
+        "away come:imp"
+      ],
+      "2:11": [
+        "winter past",
+        "rain over",
+        "go:perf"
+      ],
+      "2:12": [
+        "bird:pl sing:ev",
+        "kjv_turtledove",
+        "ourone/land"
+      ],
+      "2:13": [
+        "her/green fig:pl:a",
+        "tender grape",
+        "my/beautiful human:excl"
+      ],
+      "2:14": [
+        "split:ev:pl of rock",
+        "kjv_stair:pl",
+        "i thy/face:a see:opt",
+        "i thy/voice:a hear:opt"
+      ],
+      "2:15": [
+        "for wesg fox:pl:a",
+        "little fox:pl:a",
+        "ourone/kjv_vine:pl tender grape:pl:a"
+      ],
+      "2:16": [
+        "my/beloved of i be:pr and i of he be:pr",
+        "among lily:pl feed:pr"
+      ],
+      "2:17": [
+        "until day break:pr",
+        "shadow:pl away flee:pr",
+        "kjv_bether"
+      ],
+      "3:1": [
+        "by night on my/bed",
+        "i he:a seek:pa but i he:a find:neg:pa"
+      ],
+      "3:2": [
+        "around city in street:pl",
+        "broad way:pl",
+        "seek:fu",
+        "seek:pa but i he:a find:neg:pa"
+      ],
+      "3:3": [
+        "watch:ag:pl who around city",
+        "you he:a whom my/soul love:pr see:pa?"
+      ],
+      "3:4": [
+        "i he:a hold:pa",
+        "go:inf allow:neg:pa",
+        "my/mother house",
+        "chamber of she who i:a conceive:pa"
+      ],
+      "3:5": [
+        "by kjv_roe:pl and by hind:pl of field",
+        "until he desire:pr"
+      ],
+      "3:6": [
+        "kjv_wilderness",
+        "kjv_pillar:pl of smoke",
+        "kjv_myrrh and kjv_frankincense",
+        "kjv_powder:pl of kjv_merchant"
+      ],
+      "3:7": [
+        "his/bed which of kjv_solomon",
+        "three+twenty",
+        "around it",
+        "kjv_israel"
+      ],
+      "3:8": [
+        "sword:pl:a hold:pr",
+        "in war skilled",
+        "sword:a upon his/thigh",
+        "fear in night"
+      ],
+      "3:9": [
+        "chariot:a of wood of kjv_lebanon"
+      ],
+      "3:10": [
+        "its/kjv_pillar:pl:a of silver",
+        "its/bottom:a of gold",
+        "purple",
+        "love:ev pave:psv:adj"
+      ],
+      "3:11": [
+        "his/mother he:a crown:pa",
+        "day of his/marriage",
+        "glad:ev of his/heart"
+      ],
+      "4:1": [
+        "dove:pl eye:pl:a within thy/kjv_hair_lock:pl",
+        "mountain kjv_gilead"
+      ],
+      "4:2": [
+        "equal:adv shear:psv:pr",
+        "each kjv_twin:pl:a bear:pr",
+        "none among they barren"
+      ],
+      "4:3": [
+        "thread of kjv_scarlet",
+        "kjv_temple_head:pl",
+        "pomegranate",
+        "kjv_hair_lock:pl"
+      ],
+      "4:4": [
+        "kjv_tower of kjv_david for kjv_armoury",
+        "thousand kjv_buckler:pl"
+      ],
+      "4:5": [
+        "two thy/breast:pl like two young kjv_roe:pl",
+        "kjv_twin:pl",
+        "among lily:pl feed:pr"
+      ],
+      "4:6": [
+        "i to mountain of kjv_myrrh",
+        "hill of kjv_frankincense"
+      ],
+      "4:7": [
+        "thou all beautiful",
+        "no spot in thee"
+      ],
+      "4:8": [
+        "my/kjv_spouse:excl",
+        "kjv_amana",
+        "kjv_shenir and kjv_hermon",
+        "lion:pl kjv_den:pl",
+        "leopard:pl"
+      ],
+      "4:9": [
+        "my/heart:a capture:perf",
+        "my/sister:excl my/kjv_spouse:excl",
+        "one_num of thine eye:pl",
+        "one_num chain"
+      ],
+      "4:10": [
+        "thy/love:ev than wine",
+        "smell:ev of thine kjv_ointment:pl than all spice:pl"
+      ],
+      "4:11": [
+        "as kjv_honeycomb drop:pr",
+        "honey and milk",
+        "smell:ev of kjv_lebanon"
+      ],
+      "4:12": [
+        "kjv_garden kjv_enclose:psv:adj",
+        "spring shut:psv:adj fountain seal:psv:adj"
+      ],
+      "4:13": [
+        "thy/kjv_plant_growth:pl kjv_orchard",
+        "kjv_camphire with kjv_spikenard"
+      ],
+      "4:14": [
+        "kjv_spikenard and saffron",
+        "kjv_calamus and kjv_cinnamon",
+        "kjv_frankincense",
+        "kjv_myrrh and kjv_aloes_aromatic"
+      ],
+      "4:15": [
+        "fountain of kjv_garden:pl",
+        "well of living water:pl",
+        "stream:pl from kjv_lebanon"
+      ],
+      "4:16": [
+        "kjv_north wind:excl",
+        "kjv_south:excl",
+        "my/kjv_garden",
+        "his/kjv_garden come:imp"
+      ],
+      "5:1": [
+        "my/kjv_myrrh:a with my/spice",
+        "my/kjv_honeycomb:a with my/honey",
+        "my/wine:a with my/milk",
+        "friend:pl:excl"
+      ],
+      "5:2": [
+        "i sleep:pr but my/heart awake:pr",
+        "my/dove:excl",
+        "my/head with dew",
+        "drop:ev:pl of night"
+      ],
+      "5:3": [
+        "my/coat:a off put:perf",
+        "my/foot:pl:a wash:perf",
+        "they:a defile:fu?"
+      ],
+      "5:4": [
+        "his/hand:a by hole of door",
+        "my/kjv_bowels for he move:psv:pa"
+      ],
+      "5:5": [
+        "my/hand:pl with kjv_myrrh",
+        "my/finger:pl",
+        "kjv_handle:pl of kjv_lock_fastening"
+      ],
+      "5:6": [
+        "withdraw:pp and go:pp",
+        "my/soul when he speak:pa fail:pa",
+        "find:neg:can",
+        "no answer:a give:pa"
+      ],
+      "5:7": [
+        "they i:a strike:pa",
+        "they i:a wound:pa",
+        "my/kjv_veil:a from i away take:pa"
+      ],
+      "5:8": [
+        "if you my/beloved:a find:pr",
+        "i sick of love:ev"
+      ],
+      "5:9": [
+        "another beloved",
+        "wesg:a thus charge:pr?"
+      ],
+      "5:10": [
+        "white and kjv_ruddy",
+        "ten+thousand"
+      ],
+      "5:11": [
+        "most pure gold",
+        "kjv_hair_lock:pl bush:adj",
+        "black as raven"
+      ],
+      "5:12": [
+        "eye:pl of dove:pl",
+        "milk wash:psv:adj",
+        "fitting:adv set:psv:adj"
+      ],
+      "5:13": [
+        "kjv_garden_bed of spice:pl",
+        "sweet flower:pl",
+        "lip:pl like lily:pl"
+      ],
+      "5:14": [
+        "hand:pl as gold ring:pl",
+        "kjv_beryl",
+        "his/belly",
+        "kjv_ivory",
+        "kjv_sapphire:pl"
+      ],
+      "5:15": [
+        "kjv_pillar:pl of kjv_marble",
+        "kjv_socket:pl of pure gold",
+        "excellent as kjv_cedar:pl"
+      ],
+      "5:16": [
+        "most sweet",
+        "completely lovely",
+        "my/beloved and this my/friend"
+      ],
+      "6:1": [
+        "to where thy/beloved",
+        "wesg he:a with thee seek:may?"
+      ],
+      "6:2": [
+        "kjv_garden_bed:pl of spice:pl",
+        "lily:pl:a gather:inf"
+      ],
+      "6:3": [
+        "i of my/beloved be:pr and my/beloved of i be:pr"
+      ],
+      "6:4": [
+        "kjv_tirzah",
+        "kjv_jerusalem",
+        "terrible as army with banner:pl"
+      ],
+      "6:5": [
+        "thine eye:pl:a from i away turn:imp",
+        "overcome:perf",
+        "from kjv_gilead"
+      ],
+      "6:6": [
+        "from wash:ev up go:pr",
+        "each kjv_twin:pl:a bear:pr",
+        "no one_num among they barren"
+      ],
+      "6:7": [
+        "piece of pomegranate",
+        "kjv_temple_head:pl within thy/kjv_hair_lock:pl"
+      ],
+      "6:8": [
+        "three+twenty queen:pl",
+        "four+twenty kjv_concubine:pl",
+        "virgin:pl without kjv_number"
+      ],
+      "6:9": [
+        "but one_num",
+        "only human of her/mother",
+        "choose:psv:adj human",
+        "she:a bless:pa",
+        "she:a praise:pa"
+      ],
+      "6:10": [
+        "as morning",
+        "beautiful as moon",
+        "clear as sun",
+        "army with banner:pl"
+      ],
+      "6:11": [
+        "kjv_garden of nut:pl",
+        "fruit:pl:a of valley",
+        "pomegranate:pl bud:pa"
+      ],
+      "6:12": [
+        "before i know:pa",
+        "my/soul i:a",
+        "chariot:pl of kjv_amminadib"
+      ],
+      "6:13": [
+        "kjv_shulamite:excl",
+        "wesg upon thee look:may",
+        "company of two army:pl"
+      ],
+      "7:1": [
+        "foot:pl with shoe:pl",
+        "kjv_joint:pl of thy/thigh:pl",
+        "skilled work:ag"
+      ],
+      "7:2": [
+        "kjv_navel like round cup",
+        "drink:ev:a lack:neg:pr",
+        "kjv_heap of wheat",
+        "lily:pl around"
+      ],
+      "7:3": [
+        "two thy/breast:pl like two young kjv_roe:pl",
+        "kjv_twin:pl"
+      ],
+      "7:4": [
+        "kjv_ivory",
+        "fish kjv_pool:pl in kjv_heshbon",
+        "kjv_bathrabbim",
+        "thy/nose",
+        "kjv_damascus"
+      ],
+      "7:5": [
+        "kjv_carmel",
+        "purple",
+        "king in kjv_gallery:pl hold:psv:pr"
+      ],
+      "7:6": [
+        "how beautiful and how pleasing",
+        "love:ev:excl"
+      ],
+      "7:7": [
+        "thy/stature like kjv_palm_tree",
+        "thy/breast:pl to bunch:pl of grape:pl"
+      ],
+      "7:8": [
+        "i say:pa",
+        "kjv_palm_tree up go:fu",
+        "its/branch:pl:a hold:fu",
+        "thy/nose like apple:pl"
+      ],
+      "7:9": [
+        "roof of thy/mouth",
+        "my/beloved",
+        "they who asleep be:pr speak:caus:cv"
+      ],
+      "7:10": [
+        "i of my/beloved",
+        "his/desire towards i"
+      ],
+      "7:11": [
+        "we:du into field out go:opt",
+        "we:du in village:pl lodge:opt"
+      ],
+      "7:12": [
+        "we:du early to kjv_vineyard:pl",
+        "tender grape appear:pr",
+        "there i to thee my/love:ev:pl:a give:fu"
+      ],
+      "7:13": [
+        "kjv_mandrake:pl",
+        "gate:pl of we:du",
+        "new and old",
+        "i for thee up store:perf"
+      ],
+      "8:1": [
+        "as my/brother",
+        "my/mother suck:pa",
+        "i thee:a kiss:should",
+        "despise:psv:neg:should"
+      ],
+      "8:2": [
+        "my/mother house",
+        "who i:a instruct:should",
+        "juice of my/pomegranate"
+      ],
+      "8:3": [
+        "his/left hand",
+        "his/kjv_right_side hand i:a embrace:should"
+      ],
+      "8:4": [
+        "until he desire:pr"
+      ],
+      "8:5": [
+        "herself:a upon her/beloved support:cv",
+        "apple kjv_tree",
+        "thy/mother",
+        "she who thee:a bear:pa"
+      ],
+      "8:6": [
+        "seal upon thine heart",
+        "seal upon thine arm",
+        "love:ev strong as death",
+        "jealousy cruel as grave",
+        "most strong flame:a"
+      ],
+      "8:7": [
+        "love:ev:a extinguish:neg:can",
+        "flood:pl it:a drown:can",
+        "all wealth:a of his/house",
+        "completely despise:psv:should"
+      ],
+      "8:8": [
+        "wesg little sister:a",
+        "she no breast:pl:a have:pr",
+        "ourone/sister",
+        "for speak:psv:fu"
+      ],
+      "8:9": [
+        "if she wall",
+        "palace:a of silver",
+        "if she door",
+        "kjv_board:pl of kjv_cedar"
+      ],
+      "8:10": [
+        "i wall",
+        "my/breast:pl like kjv_tower:pl",
+        "human who favour:a find:pa"
+      ],
+      "8:11": [
+        "kjv_baalhamon",
+        "for pay:ev give:pa",
+        "each for its/fruit thousand piece:pl of silver"
+      ],
+      "8:12": [
+        "my/kjv_vineyard which of i",
+        "kjv_solomon:excl thousand:a",
+        "two+hundred:a"
+      ],
+      "8:13": [
+        "companion:pl to thy/voice listen:pr",
+        "i:a it:a hear:caus:imp"
+      ],
+      "8:14": [
+        "kjv_roe",
+        "young kjv_hart",
+        "mountain:pl of spice:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:13",
+        "1:14",
+        "1:2",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7",
+        "1:9",
+        "2:1",
+        "2:10",
+        "2:14",
+        "2:16",
+        "2:3",
+        "2:4",
+        "2:5",
+        "2:6",
+        "2:7",
+        "3:1",
+        "3:2",
+        "3:3",
+        "3:4",
+        "3:5",
+        "4:6",
+        "4:8",
+        "5:1",
+        "5:2",
+        "5:3",
+        "5:5",
+        "5:6",
+        "5:7",
+        "5:8",
+        "6:11",
+        "6:12",
+        "6:3",
+        "6:5",
+        "7:10",
+        "7:12",
+        "7:13",
+        "7:8",
+        "8:1",
+        "8:10",
+        "8:12",
+        "8:13",
+        "8:2",
+        "8:3",
+        "8:4",
+        "8:5",
+        "8:6"
+      ],
+      "ipl": [],
+      "wesg": [
+        "1:11",
+        "1:4",
+        "2:15",
+        "5:9",
+        "6:1",
+        "6:13",
+        "8:8",
+        "8:9"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "1:16",
+        "1:17",
+        "2:12",
+        "2:15",
+        "2:9",
+        "8:8"
+      ],
+      "iplself": [],
+      "we:du": [
+        "7:11",
+        "7:12",
+        "7:13"
+      ],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "60guards3:7,1000bucklers4:4,anatomical/animal twos4:5and7:3,one eye and chain4:9,and10000hyperbolic candidates5:10remain explicit.",
+      "60queens/80concubines6:8are separate;unnumbered virgins stay uncounted. One beloved6:9and no one barren6:6retain explicit one;two armies6:13is not a speaker count.",
+      "1000silver8:11and1000/200allocations8:12retain separate amounts;no invented sums or deity counts."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Song of Solomon adds all117verses as a major section inside the one Bible;wholeBibleincomplete.",
+      "Human lovers personal-I,communal chorus/family singular-we,and physical-dual pair7:11–13remain distinct;no divine plural-I or inserted allegorical speaker.",
+      "KJV-specific imagery retained:flagons,camphire,turtledove,stairs,chariot,galleries,Amminadib and sleepers lips. Body/garden imagery stays at source detail.",
+      "Twelve common entries and six proper labels distinguish aromatics,objects and places. Locks/temples/beds/rose have contextual senses.",
+      "Refrains retain exact repetitions and deliberate omissions;family little-sister speech8:8–9is distinct from mature lover reply8:10.",
+      "No compiler/paradigm changes or inherited target repairs;all previous targets and seals unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Song of Solomon — incomplete Bible working text",
+    "pages": 72,
+    "spreads": 36,
+    "units": 117,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "2a7ad490d41aed88ca6818783739b200cf6b35e3b8d75c8fe3f050cfd19581e4",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 36,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.608,
+    "modules": [
+      "tests.test_kjv_song_human_voices",
+      "tests.test_kjv_ecclesiastes_conclusion",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    71,
+    72
+  ],
+  "status": "incompleteBible;SongofSolomon1–8sectioncheckpointverified"
+}

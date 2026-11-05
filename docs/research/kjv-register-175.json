@@ -1,0 +1,509 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.175",
+    "parentVersion": "0.10-kjv.174",
+    "parentHead": "b40be06ae6014ac083df036d1c4892501439de0e9db4bcbe6b4daf760c65484a",
+    "head": "c90c2cc55d64f9830c23814483c4d280bded9e35ed9b37a3e9d0345c66540303",
+    "newLexicalEntries": 8,
+    "newProperEntries": 6,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 73,
+    "exactCompilerCases": 73,
+    "newAuthoredVerses": 73,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 8689,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJoelVerses": 73,
+    "joelVerses": 73,
+    "authoredVerses": 22413,
+    "remainingVerses": 8689,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 1,
+    "quantityChecks": [
+      {
+        "reference": "Joel 2:23",
+        "source": "Be glad then, ye children of Zion, and rejoice in the LORD your God: for he hath given you the former rain moderately, and he will cause to come down for you the rain, the former rain, and the latter rain in the first month.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_joel_prophet son of kjv_pethuel"
+      ],
+      "1:2": [
+        "your/day:pl be:perf?",
+        "your/father:pl?"
+      ],
+      "1:3": [
+        "your/child:pl to their/child:pl",
+        "their/child:pl to another generation"
+      ],
+      "1:4": [
+        "kjv_palmerworm leave:perf kjv_locust eat:perf",
+        "kjv_locust leave:perf kjv_cankerworm eat:perf",
+        "kjv_cankerworm leave:perf kjv_caterpiller eat:perf"
+      ],
+      "1:5": [
+        "kjv_drunkard:pl",
+        "new wine",
+        "your/mouth off cut:psv:pr"
+      ],
+      "1:6": [
+        "upon my/land",
+        "without kjv_number",
+        "cheek tooth:pl"
+      ],
+      "1:7": [
+        "tree_bark from my/fig",
+        "entirely bare",
+        "branch:pl white make:psv:pr"
+      ],
+      "1:8": [
+        "virgin",
+        "husband of her/youth"
+      ],
+      "1:9": [
+        "food kjv_offering and kjv_drinkoffer",
+        "kjv_minister:pl of kjv_lord mourn:pr"
+      ],
+      "1:10": [
+        "corn kjv_desolate",
+        "new wine dry:psv:pr",
+        "oil languish:pr"
+      ],
+      "1:11": [
+        "kjv_husbandman:pl",
+        "wheat and for kjv_barley"
+      ],
+      "1:12": [
+        "pomegranate",
+        "kjv_palm_tree",
+        "apple kjv_tree",
+        "joy from son:pl of man away wither:perf"
+      ],
+      "1:13": [
+        "all night in kjv_sackcloth lie:imp",
+        "my/god",
+        "your/god withhold:psv:pr"
+      ],
+      "1:14": [
+        "kjv_fast sanctify:imp",
+        "all inhabit:ag:pl"
+      ],
+      "1:15": [
+        "be:pr:excl",
+        "as destroy:ev from kjv_almighty"
+      ],
+      "1:16": [
+        "ourone/eye:pl",
+        "cut:psv:neg:pr?",
+        "ourone/god?"
+      ],
+      "1:17": [
+        "seed under their/kjv_clod:pl rotten",
+        "kjv_storehouse:pl",
+        "kjv_barn:pl"
+      ],
+      "1:18": [
+        "groan:pr:excl",
+        "confound:psv:pr",
+        "kjv_pasture have:neg:pr"
+      ],
+      "1:19": [
+        "to thou i cry:fu",
+        "fire kjv_pasture:pl",
+        "flame all kjv_tree:pl"
+      ],
+      "1:20": [
+        "beast:pl of field also to thou cry:pr",
+        "river:pl of water:pl"
+      ],
+      "2:1": [
+        "mypl/holy mountain",
+        "all inhabit:ag:pl",
+        "it near be:pr"
+      ],
+      "2:2": [
+        "heavy darkness",
+        "as morning upon mountain:pl",
+        "ever be:neg:perf",
+        "neither after it any more"
+      ],
+      "2:3": [
+        "kjv_garden of kjv_eden before they",
+        "behind they kjv_desolate",
+        "nothing they:a escape:fu"
+      ],
+      "2:4": [
+        "appearance of horse:pl",
+        "as kjv_horseman:pl"
+      ],
+      "2:5": [
+        "noise of chariot:pl",
+        "noise of flame",
+        "battle kjv_array_battle:psv:adj"
+      ],
+      "2:6": [
+        "their/face",
+        "all face:pl black:ev gather:fu"
+      ],
+      "2:7": [
+        "each upon his/way:pl",
+        "kjv_rank_march:pl break:neg:fu"
+      ],
+      "2:8": [
+        "neither person another thrust:fu",
+        "kjv_wound_inflict:psv:neg:fu"
+      ],
+      "2:9": [
+        "there and back",
+        "wall run:fu",
+        "window:pl in enter:fu like thief"
+      ],
+      "2:10": [
+        "earth before they quake:fu",
+        "star:pl their/shine:ev withdraw:fu"
+      ],
+      "2:11": [
+        "his/voice before his/army",
+        "who it endure:inf:can?"
+      ],
+      "2:12": [
+        "to ipl with all your/heart",
+        "kjv_fast",
+        "weep:ev",
+        "mourn:ev"
+      ],
+      "2:13": [
+        "your/heart rend:imp and not your/garment:pl",
+        "of evil kjv_relent:pr"
+      ],
+      "2:14": [
+        "who know:pr if",
+        "kjv_relent:fu",
+        "food kjv_offering and kjv_drinkoffer"
+      ],
+      "2:15": [
+        "trumpet blow:imp",
+        "kjv_fast sanctify:imp",
+        "solemn kjv_assembly"
+      ],
+      "2:16": [
+        "they that breast:pl suck:pr",
+        "kjv_bridegroom",
+        "her/private chamber"
+      ],
+      "2:17": [
+        "between kjv_porch and altar",
+        "kjv_heathen over they rule:inf:should",
+        "where their/god be:pr?"
+      ],
+      "2:18": [
+        "jealous be:fu",
+        "pity:fu"
+      ],
+      "2:19": [
+        "ipl to you corn and wine and oil send:fu",
+        "reproach any more make:neg:fu"
+      ],
+      "2:20": [
+        "army of kjv_north",
+        "east sea",
+        "utmost sea",
+        "his/evil smell",
+        "he great thing:pl do:perf"
+      ],
+      "2:21": [
+        "kjv_lord great thing:pl do:fu"
+      ],
+      "2:22": [
+        "kjv_pasture:pl of kjv_wilderness grow:pr",
+        "her/fruit give:pr",
+        "their/strength yield:pr"
+      ],
+      "2:23": [
+        "former rain moderate:adv",
+        "later rain in one_num:ord month"
+      ],
+      "2:24": [
+        "kjv_threshfloor:pl",
+        "kjv_wine_vat:pl with wine and oil"
+      ],
+      "2:25": [
+        "kjv_locust eat:perf kjv_cankerworm and kjv_caterpiller and kjv_palmerworm",
+        "mypl/great army which ipl among you send:pa"
+      ],
+      "2:26": [
+        "mypl/people never ashamed be:fu"
+      ],
+      "2:27": [
+        "ipl kjv_lord your/god",
+        "none else",
+        "mypl/people never ashamed be:fu"
+      ],
+      "2:28": [
+        "mypl/spirit upon all flesh",
+        "son:pl and your/daughter:pl",
+        "dream:pl dream:fu",
+        "vision:pl see:fu"
+      ],
+      "2:29": [
+        "servant:pl and kjv_handmaid:pl",
+        "mypl/spirit out pour:fu"
+      ],
+      "2:30": [
+        "blood and fire and kjv_pillar:pl of smoke"
+      ],
+      "2:31": [
+        "moon into blood",
+        "before great and terrible day"
+      ],
+      "2:32": [
+        "whoever upon name",
+        "remainder whom kjv_lord call:fu"
+      ],
+      "3:1": [
+        "ipl kjv_captivity of kjv_judah and kjv_jerusalem again bring:fu"
+      ],
+      "3:2": [
+        "kjv_jehoshaphat_valley",
+        "mypl/heritage kjv_israel kjv_litigate:fu",
+        "mypl/land kjv_divide:perf"
+      ],
+      "3:3": [
+        "boy for kjv_harlot",
+        "girl for wine sell:perf",
+        "drink:inf:may"
+      ],
+      "3:4": [
+        "kjv_palestine_joel?",
+        "if you ipl:a recompense:pr",
+        "swiftly and speedily",
+        "your/own head"
+      ],
+      "3:5": [
+        "mypl/silver and mypl/gold",
+        "your/temple:pl",
+        "mypl/kjv_goodly pleasing"
+      ],
+      "3:6": [
+        "to kjv_grecians_joel sell:perf",
+        "far from their/boundary"
+      ],
+      "3:7": [
+        "out of place where you they:a sell:perf",
+        "your/own head"
+      ],
+      "3:8": [
+        "ipl your/son:pl and your/daughter:pl",
+        "they they:a to kjv_sabeans_joel",
+        "kjv_lord it speak:perf"
+      ],
+      "3:9": [
+        "among kjv_gentile:pl",
+        "war prepare:imp",
+        "awake:caus:imp"
+      ],
+      "3:10": [
+        "kjv_ploughshare:pl into sword:pl",
+        "kjv_pruninghook:pl into kjv_spear:pl",
+        "i strong be:pr"
+      ],
+      "3:11": [
+        "you yourselves assemble:imp",
+        "thy/mighty person:pl down come:caus:imp"
+      ],
+      "3:12": [
+        "kjv_jehoshaphat_valley",
+        "ipl to all kjv_heathen round about judge:inf sit:fu"
+      ],
+      "3:13": [
+        "kjv_sickle",
+        "kjv_winepress full",
+        "kjv_wine_vat:pl overflow",
+        "their/wickedness great"
+      ],
+      "3:14": [
+        "kjv_multitude:pl kjv_multitude:pl",
+        "valley of decision"
+      ],
+      "3:15": [
+        "sun and moon dark make:psv:fu",
+        "their/shine:ev withdraw:fu"
+      ],
+      "3:16": [
+        "kjv_lord also out of kjv_zion roar:fu",
+        "hope of his/people",
+        "strength of child:pl"
+      ],
+      "3:17": [
+        "ipl kjv_lord your/god",
+        "mypl/holy mountain",
+        "stranger:pl through she any more pass:neg:fu"
+      ],
+      "3:18": [
+        "mountain:pl new wine down drop:fu",
+        "hill:pl with milk",
+        "fountain out of house",
+        "kjv_shittim_place kjv_water_irrigate:fu"
+      ],
+      "3:19": [
+        "egypt destroy:ev",
+        "kjv_edom kjv_desolate",
+        "kjv_violence",
+        "innocent blood"
+      ],
+      "3:20": [
+        "kjv_judah for ever",
+        "generation to generation"
+      ],
+      "3:21": [
+        "ipl their/blood that ipl clean:neg:perf clean:fu",
+        "kjv_lord in kjv_zion dwell:pr"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:19",
+        "3:10"
+      ],
+      "ipl": [
+        "2:12",
+        "2:19",
+        "2:20",
+        "2:25",
+        "2:27",
+        "2:28",
+        "2:29",
+        "2:30",
+        "3:1",
+        "3:12",
+        "3:17",
+        "3:2",
+        "3:21",
+        "3:4",
+        "3:7",
+        "3:8"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "2:1",
+        "2:25",
+        "2:26",
+        "2:27",
+        "2:28",
+        "2:29",
+        "3:17",
+        "3:2",
+        "3:3",
+        "3:5"
+      ],
+      "ourone": [
+        "1:16"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "First month retained;distributive each and indefinite person do not introduce cardinal counts.",
+      "Four insect labels remain an unnumbered list with different source orders,not an asserted life-cycle."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Joel1–3 adds73verses;whole Bible incomplete.",
+      "Divine plural-self,prophetic personal self and communal singular-we possessives distinguished.",
+      "Uncertain relenting,divine harm,retaliatory captivity,reversed weapons image and unresolved blood-cleansing retained.",
+      "Two common and six contextual proper entries;no paradigm or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Joel — incomplete Bible working text",
+    "pages": 48,
+    "spreads": 24,
+    "units": 73,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "e19f7d608f5b713bc0a06c8d61766160563536d8dde8a1a0f1a08dd214ac8b8a",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 24,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.072,
+    "modules": [
+      "tests.test_kjv_joel_poured_spirit",
+      "tests.test_kjv_hosea_relenting_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    47,
+    48
+  ],
+  "status": "incomplete Bible;Joel1–3 section checkpoint verified"
+}

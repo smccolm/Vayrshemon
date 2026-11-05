@@ -1,0 +1,861 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.204",
+    "parentVersion": "0.10-kjv.203",
+    "parentHead": "10c87fe8e0f0f001ccfae2d3d4409de02436f5842f3ec3830208d4709e802dda",
+    "head": "2dfbdd6031c413ea862a59a0e305aaef3c5f5e396d00c7cbdba6611cdf18039c",
+    "newLexicalEntries": 8,
+    "newProperEntries": 8,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 106,
+    "exactCompilerCases": 106,
+    "newAuthoredVerses": 106,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 408,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 5800,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newLukeVerses": 106,
+    "lukeVerses": 408,
+    "authoredVerses": 25302,
+    "remainingVerses": 5800,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "Luke 7:8",
+        "source": "For I also am a man set under authority, having under me soldiers, and I say unto one, Go, and he goeth; and to another, Come, and he cometh; and to my servant, Do this, and he doeth it.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 7:19",
+        "source": "And John calling unto him two of his disciples sent them to Jesus, saying, Art thou he that should come? or look we for another?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 7:36",
+        "source": "And one of the Pharisees desired him that he would eat with him. And he went into the Pharisee’s house, and sat down to meat.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 7:41",
+        "source": "There was a certain creditor which had two debtors: the one owed five hundred pence, and the other fifty.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          500,
+          50
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          500,
+          50
+        ]
+      },
+      {
+        "reference": "Luke 8:1",
+        "source": "And it came to pass afterward, that he went throughout every city and village, preaching and shewing the glad tidings of the kingdom of God: and the twelve were with him,",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 8:2",
+        "source": "And certain women, which had been healed of evil spirits and infirmities, Mary called Magdalene, out of whom went seven devils,",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Luke 8:8",
+        "source": "And other fell on good ground, and sprang up, and bare fruit an hundredfold. And when he had said these things, he cried, He that hath ears to hear, let him hear.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Luke 8:42",
+        "source": "For he had one only daughter, about twelve years of age, and she lay a dying. But as he went the people thronged him.",
+        "expectedDecimalQuantities": [
+          1,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          12
+        ]
+      },
+      {
+        "reference": "Luke 8:43",
+        "source": "And a woman having an issue of blood twelve years, which had spent all her living upon physicians, neither could be healed of any,",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "7:1": [
+        "all his/say:ev:pl",
+        "hearing of people",
+        "kjv_capernaum"
+      ],
+      "7:2": [
+        "servant of certain kjv_centurion",
+        "dear",
+        "ready to die"
+      ],
+      "7:3": [
+        "kjv_elder:pl of kjv_jew:pl",
+        "send",
+        "his/servant heal"
+      ],
+      "7:4": [
+        "urgent:adv",
+        "worthy"
+      ],
+      "7:5": [
+        "ourone/nation",
+        "for wesg kjv_synagogue build"
+      ],
+      "7:6": [
+        "not far from house",
+        "friend:pl to he send",
+        "i worthy be:neg",
+        "under my/roof"
+      ],
+      "7:7": [
+        "i myself",
+        "worthy think",
+        "in word say",
+        "my/servant heal:psv"
+      ],
+      "7:8": [
+        "under authority",
+        "under i soldier:pl",
+        "one_num",
+        "go:imp",
+        "come:imp",
+        "my/servant"
+      ],
+      "7:9": [
+        "marvel",
+        "himself turn",
+        "ipl to you",
+        "faith find:neg",
+        "not in kjv_israel"
+      ],
+      "7:10": [
+        "return:cv",
+        "sick be:pp healthy"
+      ],
+      "7:11": [
+        "day after",
+        "kjv_nain_luke",
+        "many of his/disciple:pl",
+        "much people"
+      ],
+      "7:12": [
+        "gate of city",
+        "dead man out carry",
+        "only son",
+        "widow"
+      ],
+      "7:13": [
+        "she:a see",
+        "on she kjv_compassion",
+        "weep:neg"
+      ],
+      "7:14": [
+        "kjv_bier touch",
+        "carry:pa still stand",
+        "young man ipl",
+        "rise:imp"
+      ],
+      "7:15": [
+        "up sit",
+        "speak:inf begin",
+        "to his/mother"
+      ],
+      "7:16": [
+        "fear on all",
+        "great prophet among wesg",
+        "god his/people visit"
+      ],
+      "7:17": [
+        "all kjv_judaea",
+        "all region around"
+      ],
+      "7:18": [
+        "disciple:pl of kjv_john_baptist",
+        "all these thing:pl"
+      ],
+      "7:19": [
+        "two of his/disciple:pl",
+        "they:du:a send",
+        "wesg for another"
+      ],
+      "7:20": [
+        "they:du say",
+        "we:du:a to thou send",
+        "wesg for another"
+      ],
+      "7:21": [
+        "same hour",
+        "infirmity:pl and plague:pl and evil spirit:pl",
+        "blind",
+        "sight give"
+      ],
+      "7:22": [
+        "to they:du",
+        "you:du see:perf and hear:perf",
+        "blind person:pl see",
+        "kjv_lame person:pl walk",
+        "kjv_leprous person:pl purify",
+        "kjv_deaf person:pl hear",
+        "dead person:pl raise",
+        "poor person:pl kjv_gospel"
+      ],
+      "7:23": [
+        "in ipl offend:psv:neg",
+        "bless:psv"
+      ],
+      "7:24": [
+        "messenger:pl",
+        "depart:pp",
+        "reed with wind"
+      ],
+      "7:25": [
+        "soft garment",
+        "splendid:adv",
+        "delicate:adv live",
+        "court:pl of king:pl"
+      ],
+      "7:26": [
+        "prophet:q",
+        "ipl to you",
+        "much more than prophet"
+      ],
+      "7:27": [
+        "write:psv:pr",
+        "ipl mypl/messenger",
+        "before thy/face",
+        "thy/way"
+      ],
+      "7:28": [
+        "of woman:pl bear:psv",
+        "no greater prophet",
+        "kjv_john_baptist",
+        "least in kingdom",
+        "greater than he"
+      ],
+      "7:29": [
+        "all people",
+        "kjv_publican:pl",
+        "god kjv_justify",
+        "kjv_baptize:ev of kjv_john_baptist"
+      ],
+      "7:30": [
+        "kjv_pharisee:pl and lawyer:pl",
+        "counsel of god against themselves reject",
+        "kjv_baptize:psv:neg"
+      ],
+      "7:31": [
+        "ipl man:pl of this generation compare",
+        "what they like"
+      ],
+      "7:32": [
+        "child:pl in market",
+        "wesg to you pipe",
+        "dance:neg",
+        "wesg to you mourn",
+        "weep:neg"
+      ],
+      "7:33": [
+        "neither bread eat",
+        "nor wine drink",
+        "he devil have"
+      ],
+      "7:34": [
+        "son of man eat:cv and drink",
+        "kjv_glutton and kjv_winebibber",
+        "sin:ag:pl:excl"
+      ],
+      "7:35": [
+        "wisdom",
+        "all her/child:pl kjv_justify"
+      ],
+      "7:36": [
+        "one_num of kjv_pharisee:pl",
+        "with he eat",
+        "house of kjv_pharisee",
+        "meal"
+      ],
+      "7:37": [
+        "woman in city who sin:ag",
+        "kjv_alabaster box of kjv_ointment"
+      ],
+      "7:38": [
+        "his/foot:pl behind he",
+        "tear:pl",
+        "hair:pl of her/head",
+        "kiss",
+        "kjv_ointment"
+      ],
+      "7:39": [
+        "within himself",
+        "if prophet",
+        "what kind of woman",
+        "know:pp:should",
+        "she sin:ag"
+      ],
+      "7:40": [
+        "kjv_simon_pharisee_luke",
+        "ipl something",
+        "master on speak"
+      ],
+      "7:41": [
+        "kjv_creditor",
+        "two debt:ag:pl",
+        "three+twelve+twelve and five+twelve and eight kjv_penny_source:pl",
+        "four+twelve and two"
+      ],
+      "7:42": [
+        "they:du nothing to pay",
+        "freely they:du:a forgive",
+        "to ipl tell",
+        "which of they:du"
+      ],
+      "7:43": [
+        "kjv_simon_pharisee_luke",
+        "i suppose",
+        "most forgive",
+        "rightly judge"
+      ],
+      "7:44": [
+        "to woman turn",
+        "ipl into thy/house",
+        "no water for mypl/foot:pl",
+        "tear:pl",
+        "hair:pl of her/head"
+      ],
+      "7:45": [
+        "to ipl no kiss",
+        "since time ipl in come",
+        "mypl/foot:pl kiss:inf cease:neg"
+      ],
+      "7:46": [
+        "mypl/head with oil",
+        "anoint:neg",
+        "mypl/foot:pl with kjv_ointment"
+      ],
+      "7:47": [
+        "her/sin:pl which many",
+        "for she much love",
+        "little forgive",
+        "little love"
+      ],
+      "7:48": [
+        "thy/sin:pl forgive:psv"
+      ],
+      "7:49": [
+        "within themselves",
+        "who this",
+        "also sin:pl forgive"
+      ],
+      "7:50": [
+        "thy/faith thou:a save",
+        "in peace go"
+      ],
+      "8:1": [
+        "every city and village",
+        "kjv_gospel of kingdom",
+        "twelve with he"
+      ],
+      "8:2": [
+        "evil spirit:pl and infirmity:pl",
+        "kjv_mary_magdalene_given call:psv:adj kjv_magdalene_name_luke",
+        "seven devil:pl"
+      ],
+      "8:3": [
+        "kjv_joanna_chuza wife of kjv_chuza_luke",
+        "steward of kjv_herod_tetrarch",
+        "kjv_susanna_luke",
+        "many other woman:pl",
+        "from their/kjv_goods"
+      ],
+      "8:4": [
+        "every city",
+        "kjv_parable_teaching"
+      ],
+      "8:5": [
+        "kjv_sow:ag",
+        "by way",
+        "down tread:psv",
+        "bird:pl of air"
+      ],
+      "8:6": [
+        "on rock",
+        "up grow",
+        "wither",
+        "moist:ev lack"
+      ],
+      "8:7": [
+        "among thorn:pl",
+        "with it up grow",
+        "choke"
+      ],
+      "8:8": [
+        "good ground",
+        "eight+twelve and four kjv_fold",
+        "out cry",
+        "ear:pl",
+        "hear:opt"
+      ],
+      "8:9": [
+        "his/disciple:pl",
+        "what this kjv_parable_teaching"
+      ],
+      "8:10": [
+        "mystery:pl of kingdom",
+        "other person:pl",
+        "see:cv see:neg",
+        "hear:cv understand:neg"
+      ],
+      "8:11": [
+        "seed word of god"
+      ],
+      "8:12": [
+        "by way",
+        "devil come",
+        "out of their/heart:pl",
+        "lest believe",
+        "save:psv"
+      ],
+      "8:13": [
+        "with joy",
+        "no root",
+        "for while believe",
+        "time of tempt:ev"
+      ],
+      "8:14": [
+        "worry:ev:pl and wealth and pleasure:pl",
+        "no fruit to perfect:ev"
+      ],
+      "8:15": [
+        "honest and good heart",
+        "it keep",
+        "with patience"
+      ],
+      "8:16": [
+        "lamp kjv_light_lamp",
+        "with vessel",
+        "under bed",
+        "on kjv_lampstand",
+        "in enter"
+      ],
+      "8:17": [
+        "nothing secret",
+        "reveal:psv:neg",
+        "know:psv:neg",
+        "out come:neg"
+      ],
+      "8:18": [
+        "how hear",
+        "whoever have:neg",
+        "even that which have:inf seem"
+      ],
+      "8:19": [
+        "his/mother and his/brother:pl",
+        "because of kjv_multitude",
+        "come:neg:can"
+      ],
+      "8:20": [
+        "outside stand",
+        "see:inf desire"
+      ],
+      "8:21": [
+        "mypl/mother and mypl/brother:pl",
+        "word of god hear",
+        "it do"
+      ],
+      "8:22": [
+        "with his/disciple:pl into ship",
+        "wesg over",
+        "other side of kjv_lake"
+      ],
+      "8:23": [
+        "asleep",
+        "storm of wind",
+        "water fill:psv",
+        "danger"
+      ],
+      "8:24": [
+        "master master wesg perish",
+        "wind and rage:ev of water rebuke",
+        "kjv_calm:ev"
+      ],
+      "8:25": [
+        "where your/faith",
+        "afraid",
+        "man this be:pr:excl",
+        "wind:pl and water",
+        "obey"
+      ],
+      "8:26": [
+        "kjv_gadarenes",
+        "opposite kjv_galilee"
+      ],
+      "8:27": [
+        "devil:pl long time",
+        "no clothing",
+        "neither in any house",
+        "tomb:pl"
+      ],
+      "8:28": [
+        "i with thou",
+        "son of most high god",
+        "i thou:a beseech",
+        "i:a torment:neg"
+      ],
+      "8:29": [
+        "unclean spirit",
+        "often",
+        "chain:pl",
+        "fetter:pl",
+        "kjv_binding_band:pl break",
+        "kjv_wilderness drive"
+      ],
+      "8:30": [
+        "what thy/name",
+        "kjv_legion_luke because many devil:pl"
+      ],
+      "8:31": [
+        "into deep",
+        "command:neg:should"
+      ],
+      "8:32": [
+        "many pig:pl on mountain",
+        "enter:inf allow",
+        "he they:a allow"
+      ],
+      "8:33": [
+        "into pig:pl",
+        "down kjv_steep_slope place",
+        "into kjv_lake",
+        "choke:psv"
+      ],
+      "8:34": [
+        "they who they:a feed",
+        "flee",
+        "city and country"
+      ],
+      "8:35": [
+        "at foot:pl of kjv_jesus_matthew",
+        "clothe:psv:adj",
+        "his/mind well",
+        "afraid"
+      ],
+      "8:36": [
+        "they who it see",
+        "by what means",
+        "heal:psv"
+      ],
+      "8:37": [
+        "whole kjv_multitude",
+        "great fear",
+        "into ship",
+        "back again return"
+      ],
+      "8:38": [
+        "with he be:may",
+        "away he:a send"
+      ],
+      "8:39": [
+        "god to thou do:perf",
+        "throughout whole city",
+        "kjv_jesus_matthew to he do:pp"
+      ],
+      "8:40": [
+        "gladly he:a receive",
+        "all for he wait"
+      ],
+      "8:41": [
+        "kjv_jairus",
+        "ruler of kjv_synagogue",
+        "foot:pl",
+        "his/house"
+      ],
+      "8:42": [
+        "one_num only daughter about twelve year:pl",
+        "die:cv lie",
+        "people he:a press"
+      ],
+      "8:43": [
+        "blood kjv_issue_bodily twelve year:pl",
+        "all her/means of life on physician:pl",
+        "neither by any heal:psv:can"
+      ],
+      "8:44": [
+        "kjv_border of his/garment",
+        "immediately",
+        "blood stop"
+      ],
+      "8:45": [
+        "who ipl:a touch:pa:q",
+        "all deny",
+        "kjv_peter_disciple and they",
+        "surround:pr and press:pr"
+      ],
+      "8:46": [
+        "person ipl:a touch",
+        "ipl that kjv_healing_virtue out of ipl",
+        "perceive"
+      ],
+      "8:47": [
+        "tremble",
+        "before all people",
+        "for what cause",
+        "how immediately heal"
+      ],
+      "8:48": [
+        "daughter of good comfort",
+        "thy/faith",
+        "healthy make",
+        "in peace"
+      ],
+      "8:49": [
+        "while yet speak",
+        "thy/daughter dead",
+        "distress:neg"
+      ],
+      "8:50": [
+        "fear:neg",
+        "only believe",
+        "healthy make:psv:fu"
+      ],
+      "8:51": [
+        "except kjv_peter_disciple and kjv_james_zebedee and kjv_john_zebedee",
+        "father and mother"
+      ],
+      "8:52": [
+        "all weep",
+        "dead be:neg:pr but sleep"
+      ],
+      "8:53": [
+        "to scorn laugh",
+        "dead be:pa know"
+      ],
+      "8:54": [
+        "all they:a out put",
+        "by hand take",
+        "maiden rise"
+      ],
+      "8:55": [
+        "her/spirit again come",
+        "immediately rise",
+        "food give"
+      ],
+      "8:56": [
+        "her/parent:pl",
+        "they:du:a",
+        "to no man",
+        "tell:should charge"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "7:43",
+        "7:6",
+        "7:7",
+        "7:8",
+        "8:28"
+      ],
+      "ipl": [
+        "7:14",
+        "7:23",
+        "7:26",
+        "7:27",
+        "7:28",
+        "7:31",
+        "7:40",
+        "7:42",
+        "7:44",
+        "7:45",
+        "7:47",
+        "7:9",
+        "8:45",
+        "8:46"
+      ],
+      "wesg": [
+        "7:16",
+        "7:19",
+        "7:20",
+        "7:32",
+        "7:5",
+        "8:22",
+        "8:24"
+      ],
+      "wepl": [],
+      "mypl": [
+        "7:27",
+        "7:44",
+        "7:45",
+        "7:46",
+        "8:21"
+      ],
+      "ourone": [
+        "7:5"
+      ],
+      "iplself": [],
+      "we:du": [
+        "7:20"
+      ],
+      "they:du": [
+        "7:19",
+        "7:20",
+        "7:22",
+        "7:42",
+        "8:56"
+      ],
+      "you:du": [
+        "7:22"
+      ]
+    },
+    "physicalDualReferences": [
+      "Luke7:19",
+      "Luke7:20",
+      "Luke7:22",
+      "Luke7:42",
+      "Luke8:56"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Two messengers and two debtors;five hundred and fifty source pence;twelve companions;seven spirits;hundredfold yield;only daughter about twelve;woman twelve years.",
+      "No invented swine count,spirit census,modern currency conversion or diagnosis."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "106new verses;408Luke total;whole Bible remains incomplete.",
+      "Quoted us-two and community we-one remain distinct;centurion and Simon personal-I contrast with plural-self teacher.",
+      "Unnamed woman is not conflated with Mary Magdalene;source bodily actions and causal wording remain.",
+      "Eight contextual proper entries;no common roots,paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Luke — incomplete Bible working text",
+    "pages": 236,
+    "spreads": 118,
+    "units": 408,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "50197f0b0581465942440ed0d70620e92e5510fcbfdcfca5ef6740ef41c18caf",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.529785000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 118,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.815,
+    "modules": [
+      "tests.test_kjv_luke_embodied_restoration",
+      "tests.test_kjv_luke_working_selves",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    235,
+    236
+  ],
+  "status": "incomplete Bible;Luke1–8 section checkpoint verified"
+}

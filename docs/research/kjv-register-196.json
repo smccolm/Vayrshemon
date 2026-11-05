@@ -1,0 +1,719 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.196",
+    "parentVersion": "0.10-kjv.195",
+    "parentHead": "7570f614f6b5016a54dce71b9619dc76ac552349f86c9470e749fdd194c6824b",
+    "head": "7d80cbd6dc0c224275b9a670121c1078f4b20d5c479027815d6d92e179f6d8d2",
+    "newLexicalEntries": 5,
+    "newProperEntries": 4,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 108,
+    "exactCompilerCases": 108,
+    "newAuthoredVerses": 108,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 108,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 6778,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newMarkVerses": 108,
+    "markVerses": 108,
+    "authoredVerses": 24324,
+    "remainingVerses": 6778,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 4,
+    "quantityChecks": [
+      {
+        "reference": "Mark 1:13",
+        "source": "And he was there in the wilderness forty days, tempted of Satan; and was with the wild beasts; and the angels ministered unto him.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Mark 2:3",
+        "source": "And they come unto him, bringing one sick of the palsy, which was borne of four.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Mark 3:14",
+        "source": "And he ordained twelve, that they should be with him, and that he might send them forth to preach,",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Mark 3:27",
+        "source": "No man can enter into a strong man’s house, and spoil his goods, except he will first bind the strong man; and then he will spoil his house.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_gospel of kjv_jesus_matthew",
+        "son of god"
+      ],
+      "1:2": [
+        "in prophet:pl",
+        "ipl mypl/messenger",
+        "before thy/face"
+      ],
+      "1:3": [
+        "in kjv_wilderness",
+        "his/path:pl straight"
+      ],
+      "1:4": [
+        "kjv_baptize:ev of repent:ev",
+        "sin:pl forgive:ev"
+      ],
+      "1:5": [
+        "all land of kjv_judaea",
+        "all by he",
+        "their/sin:pl confess"
+      ],
+      "1:6": [
+        "hair of kjv_camel",
+        "kjv_girdle of skin",
+        "kjv_locust:pl and wild honey"
+      ],
+      "1:7": [
+        "more mighty than i",
+        "kjv_shoelatchet",
+        "down bend:inf and loose"
+      ],
+      "1:8": [
+        "i indeed",
+        "with water",
+        "with kjv_holy_spirit_title"
+      ],
+      "1:9": [
+        "kjv_nazareth of kjv_galilee",
+        "by kjv_john_baptist in kjv_jordan"
+      ],
+      "1:10": [
+        "he heaven:pl open:psv:adj see",
+        "spirit like dove"
+      ],
+      "1:11": [
+        "thou mypl/beloved son",
+        "ipl well kjv_please_satisfy"
+      ],
+      "1:12": [
+        "immediately spirit",
+        "drive:pr"
+      ],
+      "1:13": [
+        "three+twelve and four day:pl",
+        "with wild beast:pl",
+        "angel:pl to he serve"
+      ],
+      "1:14": [
+        "after kjv_john_baptist in prison",
+        "kjv_gospel of kingdom of god"
+      ],
+      "1:15": [
+        "time fulfil",
+        "kingdom of god near",
+        "repent:imp",
+        "believe:imp"
+      ],
+      "1:16": [
+        "kjv_simon_peter and kjv_andrew_disciple",
+        "they:du fish:ag:pl"
+      ],
+      "1:17": [
+        "you:du after ipl",
+        "ipl you:du",
+        "fish:ag:pl of man:pl"
+      ],
+      "1:18": [
+        "immediately they:du",
+        "their/kjv_net:pl forsake"
+      ],
+      "1:19": [
+        "kjv_james_zebedee son of kjv_zebedee",
+        "kjv_john_zebedee",
+        "repair:cv"
+      ],
+      "1:20": [
+        "they:du their/father",
+        "kjv_hire:psv:adj servant:pl"
+      ],
+      "1:21": [
+        "kjv_capernaum",
+        "kjv_sabbath day",
+        "kjv_synagogue"
+      ],
+      "1:22": [
+        "authority have",
+        "not as kjv_scribe:pl"
+      ],
+      "1:23": [
+        "man with unclean spirit",
+        "out cry"
+      ],
+      "1:24": [
+        "wesg:a alone leave",
+        "wesg with thou",
+        "i thou who thou be:pr know",
+        "kjv_holy_one"
+      ],
+      "1:25": [
+        "silent be:imp",
+        "out of he come:imp"
+      ],
+      "1:26": [
+        "kjv_rend_convulsive",
+        "loud voice",
+        "out of he come"
+      ],
+      "1:27": [
+        "what thing this",
+        "what new doctrine",
+        "they he:a obey"
+      ],
+      "1:28": [
+        "immediately his/fame",
+        "all region round about kjv_galilee"
+      ],
+      "1:29": [
+        "house of kjv_simon_peter and kjv_andrew_disciple",
+        "with kjv_james_zebedee and kjv_john_zebedee"
+      ],
+      "1:30": [
+        "mother of wife of kjv_simon_peter",
+        "kjv_fever",
+        "immediately"
+      ],
+      "1:31": [
+        "she:a by hand take",
+        "she:a up lift",
+        "she to they serve"
+      ],
+      "1:32": [
+        "when sun down go",
+        "all sick person:pl",
+        "by devil:pl possess"
+      ],
+      "1:33": [
+        "all city at door"
+      ],
+      "1:34": [
+        "many that of different sickness:pl",
+        "many devil:pl",
+        "because they he:a know"
+      ],
+      "1:35": [
+        "long while before day",
+        "without other person:pl",
+        "there pray"
+      ],
+      "1:36": [
+        "kjv_simon_peter and they that with he"
+      ],
+      "1:37": [
+        "all man:pl for thou seek"
+      ],
+      "1:38": [
+        "wesg into next town:pl",
+        "ipl there also proclaim",
+        "ipl forth come"
+      ],
+      "1:39": [
+        "throughout all kjv_galilee",
+        "devil:pl out cast"
+      ],
+      "1:40": [
+        "knee down bow",
+        "if thou willing",
+        "i:a clean:inf able"
+      ],
+      "1:41": [
+        "kjv_compassion",
+        "he:a touch",
+        "ipl willing",
+        "clean:psv:imp"
+      ],
+      "1:42": [
+        "immediately kjv_leprosy",
+        "he clean:psv"
+      ],
+      "1:43": [
+        "kjv_strict:adv charge",
+        "immediately he:a away send"
+      ],
+      "1:44": [
+        "to any man nothing",
+        "thyself to priest",
+        "kjv_moses command",
+        "testimony"
+      ],
+      "1:45": [
+        "affair far proclaim",
+        "public:adv into city enter:can",
+        "from every quarter"
+      ],
+      "2:1": [
+        "after some day:pl",
+        "in house be:pa report"
+      ],
+      "2:2": [
+        "no not even about door",
+        "word to they proclaim"
+      ],
+      "2:3": [
+        "kjv_palsy",
+        "by four carry"
+      ],
+      "2:4": [
+        "roof where he",
+        "kjv_uncover",
+        "up break",
+        "bed wherein",
+        "down lower"
+      ],
+      "2:5": [
+        "their/faith",
+        "thy/sin:pl to thou forgive"
+      ],
+      "2:6": [
+        "kjv_scribe:pl",
+        "their/heart:pl think:cv"
+      ],
+      "2:7": [
+        "kjv_blaspheme:ev:pl",
+        "except god only"
+      ],
+      "2:8": [
+        "in his/spirit",
+        "within themselves think",
+        "your/heart:pl think"
+      ],
+      "2:9": [
+        "more easy",
+        "say:inf or",
+        "thy/bed up take",
+        "say:inf?"
+      ],
+      "2:10": [
+        "son of man on earth",
+        "he to person with kjv_palsy say"
+      ],
+      "2:11": [
+        "ipl to thou",
+        "rise:imp",
+        "thy/bed up take",
+        "thy/house go"
+      ],
+      "2:12": [
+        "before they all",
+        "god glorify",
+        "wesg it like this never"
+      ],
+      "2:13": [
+        "again by sea side",
+        "he they:a teach"
+      ],
+      "2:14": [
+        "kjv_levi_alphaeus son of kjv_alphaeus_levi",
+        "kjv_custom_duty",
+        "ipl:a follow"
+      ],
+      "2:15": [
+        "in his/house",
+        "many kjv_publican:pl and sin:ag:pl",
+        "with kjv_jesus_matthew and his/disciple:pl"
+      ],
+      "2:16": [
+        "kjv_scribe:pl and kjv_pharisee:pl",
+        "eat:pr and drink:pr"
+      ],
+      "2:17": [
+        "healthy",
+        "physician need have:neg",
+        "ipl",
+        "sin:ag:pl to repent:ev"
+      ],
+      "2:18": [
+        "disciple:pl of kjv_john_baptist and of kjv_pharisee:pl",
+        "customary:adv kjv_fast",
+        "thy/disciple:pl kjv_fast:neg"
+      ],
+      "2:19": [
+        "child:pl of marriage chamber",
+        "as long as",
+        "kjv_fast:neg:can"
+      ],
+      "2:20": [
+        "away take:psv:fu",
+        "then in those day:pl"
+      ],
+      "2:21": [
+        "new cloth on old garment",
+        "from old away take",
+        "rend:ev worse"
+      ],
+      "2:22": [
+        "kjv_bottle:pl burst",
+        "wine spill",
+        "kjv_bottle:pl mar",
+        "new kjv_bottle:pl"
+      ],
+      "2:23": [
+        "corn field:pl",
+        "kjv_grain_ear:pl pluck"
+      ],
+      "2:24": [
+        "on kjv_sabbath day",
+        "lawful be:neg"
+      ],
+      "2:25": [
+        "kjv_david",
+        "they with he",
+        "hungry"
+      ],
+      "2:26": [
+        "kjv_abiathar high priest",
+        "kjv_shewbread",
+        "except for priest:pl",
+        "also to they with he"
+      ],
+      "2:27": [
+        "kjv_sabbath for man",
+        "not man for kjv_sabbath"
+      ],
+      "2:28": [
+        "also lord of kjv_sabbath"
+      ],
+      "3:1": [
+        "kjv_synagogue",
+        "hand withered"
+      ],
+      "3:2": [
+        "watch",
+        "on kjv_sabbath day",
+        "accuse:may"
+      ],
+      "3:3": [
+        "forth stand:imp"
+      ],
+      "3:4": [
+        "good do:inf or evil do:inf",
+        "life save:inf or kill:inf",
+        "silent remain"
+      ],
+      "3:5": [
+        "with anger",
+        "their/heart:pl hard:ev with grief",
+        "as other whole restore"
+      ],
+      "3:6": [
+        "kjv_pharisee:pl",
+        "with kjv_herodians",
+        "destroy:may"
+      ],
+      "3:7": [
+        "with his/disciple:pl to sea withdraw",
+        "from kjv_galilee",
+        "from kjv_judaea"
+      ],
+      "3:8": [
+        "kjv_idumaea_mark",
+        "beyond kjv_jordan",
+        "kjv_tyre and kjv_sidon"
+      ],
+      "3:9": [
+        "small ship",
+        "wait:should",
+        "lest they he:a press"
+      ],
+      "3:10": [
+        "many heal",
+        "plague:pl",
+        "touch:may"
+      ],
+      "3:11": [
+        "unclean spirit:pl",
+        "thou son of god"
+      ],
+      "3:12": [
+        "kjv_strict:adv",
+        "know:caus:neg:should"
+      ],
+      "3:13": [
+        "whom he will:pa",
+        "they to he come"
+      ],
+      "3:14": [
+        "twelve kjv_ordain",
+        "with he",
+        "forth send",
+        "proclaim"
+      ],
+      "3:15": [
+        "sickness:pl heal",
+        "devil:pl out cast"
+      ],
+      "3:16": [
+        "kjv_simon_peter",
+        "kjv_peter_disciple kjv_surname"
+      ],
+      "3:17": [
+        "kjv_james_zebedee son of kjv_zebedee",
+        "kjv_john_zebedee brother",
+        "they:du:a kjv_boanerges",
+        "son:du of thunder"
+      ],
+      "3:18": [
+        "kjv_matthew_disciple",
+        "kjv_james_alphaeus son of kjv_alphaeus",
+        "kjv_thaddaeus",
+        "kjv_simon_canaanite"
+      ],
+      "3:19": [
+        "kjv_judas_iscariot",
+        "betray",
+        "into house"
+      ],
+      "3:20": [
+        "again together",
+        "not even bread eat"
+      ],
+      "3:21": [
+        "his/friend:pl",
+        "seize:inf",
+        "they say:pa he outside himself"
+      ],
+      "3:22": [
+        "kjv_scribe:pl",
+        "kjv_beelzebub",
+        "by prince of devil:pl"
+      ],
+      "3:23": [
+        "kjv_parable_teaching:pl",
+        "kjv_satan_temptation kjv_satan_temptation:a"
+      ],
+      "3:24": [
+        "kingdom against itself",
+        "stand:neg:can"
+      ],
+      "3:25": [
+        "house against itself",
+        "stand:neg:can"
+      ],
+      "3:26": [
+        "kjv_satan_temptation against himself",
+        "end have"
+      ],
+      "3:27": [
+        "his/kjv_goods spoil",
+        "first strong man:a bind",
+        "then his/house spoil"
+      ],
+      "3:28": [
+        "truly ipl",
+        "all sin:pl",
+        "son:pl of man:pl",
+        "kjv_blaspheme:ev:pl"
+      ],
+      "3:29": [
+        "against kjv_holy_spirit_title",
+        "never forgive:ev",
+        "danger of eternal damn:ev"
+      ],
+      "3:30": [
+        "because they say",
+        "unclean spirit"
+      ],
+      "3:31": [
+        "his/brother:pl and his/mother",
+        "outside stand",
+        "to he send"
+      ],
+      "3:32": [
+        "about he sit",
+        "thy/mother and thy/brother:pl outside"
+      ],
+      "3:33": [
+        "who mypl/mother or mypl/brother:pl"
+      ],
+      "3:34": [
+        "about he sit",
+        "mypl/mother and mypl/brother:pl",
+        "behold:imp:excl"
+      ],
+      "3:35": [
+        "will of god",
+        "mypl/brother and mypl/sister and mother"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:24",
+        "1:40",
+        "1:7",
+        "1:8"
+      ],
+      "ipl": [
+        "1:11",
+        "1:17",
+        "1:2",
+        "1:38",
+        "1:41",
+        "2:11",
+        "2:14",
+        "2:17",
+        "3:28"
+      ],
+      "wesg": [
+        "1:24",
+        "1:38",
+        "2:12"
+      ],
+      "wepl": [],
+      "mypl": [
+        "1:11",
+        "1:2",
+        "3:33",
+        "3:34",
+        "3:35"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "1:16",
+        "1:17",
+        "1:18",
+        "1:20",
+        "3:17"
+      ],
+      "you:du": [
+        "1:17"
+      ]
+    },
+    "physicalDualReferences": [
+      "Mark1:16",
+      "Mark1:17",
+      "Mark1:18",
+      "Mark1:20",
+      "Mark3:17"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Forty days without added nights;four carriers;the twelve;first binding before plunder.",
+      "Named brother-pairs use dual without invented cardinal totals.",
+      "No spirit count or numerical Trinity formula is supplied."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "108Mark verses added;whole Bible remains incomplete.",
+      "Heavenly and direct Jesus plural-self,John and petitioner personal-I,and shared singular-we remain contextual.",
+      "We-to-I cry,Levi identity,Abiathar,anger and grief,and attributed beside-self claim remain source-specific.",
+      "One common sense and four proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Mark — incomplete Bible working text",
+    "pages": 60,
+    "spreads": 30,
+    "units": 108,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "8661f5bba7faa8425b3cee40040a78e734302db1db9963eeede8633914f0f10e",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 30,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.869,
+    "modules": [
+      "tests.test_kjv_mark_called_selves",
+      "tests.test_kjv_matthew_passion_voices",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    59,
+    60
+  ],
+  "status": "incomplete Bible;Mark1–3 section checkpoint verified"
+}

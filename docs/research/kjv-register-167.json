@@ -1,0 +1,983 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.167",
+    "parentVersion": "0.10-kjv.166",
+    "parentHead": "77dca381e4eb9953865427d120ea01da5095f08456128c287ef5b82e941c4578",
+    "head": "3897872081588e92bebf5e3f722070d013a17c39743c22e9e7bfcf97bfcfae79",
+    "newLexicalEntries": 3,
+    "newProperEntries": 0,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 1,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 83,
+    "exactCompilerCases": 83,
+    "newAuthoredVerses": 83,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1191,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9398,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 83,
+    "ezekielVerses": 1191,
+    "authoredVerses": 21704,
+    "remainingVerses": 9398,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 30,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 43:13",
+        "source": "And these are the measures of the altar after the cubits: The cubit is a cubit and an hand breadth; even the bottom shall be a cubit, and the breadth a cubit, and the border thereof by the edge thereof round about shall be a span: and this shall be the higher place of the altar.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:14",
+        "source": "And from the bottom upon the ground even to the lower settle shall be two cubits, and the breadth one cubit; and from the lesser settle even to the greater settle shall be four cubits, and the breadth one cubit.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          4,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          4,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:15",
+        "source": "So the altar shall be four cubits; and from the altar and upward shall be four horns.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:16",
+        "source": "And the altar shall be twelve cubits long, twelve broad, square in the four squares thereof.",
+        "expectedDecimalQuantities": [
+          12,
+          12,
+          4
+        ],
+        "targetQuantities": [
+          12,
+          12,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:17",
+        "source": "And the settle shall be fourteen cubits long and fourteen broad in the four squares thereof; and the border about it shall be half a cubit; and the bottom thereof shall be a cubit about; and his stairs shall look toward the east.",
+        "expectedDecimalQuantities": [
+          14,
+          14,
+          4,
+          0.5,
+          1
+        ],
+        "targetQuantities": [
+          14,
+          14,
+          4,
+          0.5,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:20",
+        "source": "And thou shalt take of the blood thereof, and put it on the four horns of it, and on the four corners of the settle, and upon the border round about: thus shalt thou cleanse and purge it.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:22",
+        "source": "And on the second day thou shalt offer a kid of the goats without blemish for a sin offering; and they shall cleanse the altar, as they did cleanse it with the bullock.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:25",
+        "source": "Seven days shalt thou prepare every day a goat for a sin offering: they shall also prepare a young bullock, and a ram out of the flock, without blemish.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:26",
+        "source": "Seven days shall they purge the altar and purify it; and they shall consecrate themselves.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 43:27",
+        "source": "And when these days are expired, it shall be, that upon the eighth day, and so forward, the priests shall make your burnt offerings upon the altar, and your peace offerings; and I will accept you, saith the Lord GOD.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "Ezekiel 44:26",
+        "source": "And after he is cleansed, they shall reckon unto him seven days.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 44:30",
+        "source": "And the first of all the firstfruits of all things, and every oblation of all, of every sort of your oblations, shall be the priest’s: ye shall also give unto the priest the first of your dough, that he may cause the blessing to rest in thine house.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:1",
+        "source": "Moreover, when ye shall divide by lot the land for inheritance, ye shall offer an oblation unto the LORD, an holy portion of the land: the length shall be the length of five and twenty thousand reeds, and the breadth shall be ten thousand. This shall be holy in all the borders thereof round about.",
+        "expectedDecimalQuantities": [
+          25000,
+          10000
+        ],
+        "targetQuantities": [
+          25000,
+          10000
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:2",
+        "source": "Of this there shall be for the sanctuary five hundred in length, with five hundred in breadth, square round about; and fifty cubits round about for the suburbs thereof.",
+        "expectedDecimalQuantities": [
+          500,
+          500,
+          50
+        ],
+        "targetQuantities": [
+          500,
+          500,
+          50
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:3",
+        "source": "And of this measure shalt thou measure the length of five and twenty thousand, and the breadth of ten thousand: and in it shall be the sanctuary and the most holy place.",
+        "expectedDecimalQuantities": [
+          25000,
+          10000
+        ],
+        "targetQuantities": [
+          25000,
+          10000
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:5",
+        "source": "And the five and twenty thousand of length, and the ten thousand of breadth shall also the Levites, the ministers of the house, have for themselves, for a possession for twenty chambers.",
+        "expectedDecimalQuantities": [
+          25000,
+          10000,
+          20
+        ],
+        "targetQuantities": [
+          25000,
+          10000,
+          20
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:6",
+        "source": "And ye shall appoint the possession of the city five thousand broad, and five and twenty thousand long, over against the oblation of the holy portion: it shall be for the whole house of Israel.",
+        "expectedDecimalQuantities": [
+          5000,
+          25000
+        ],
+        "targetQuantities": [
+          5000,
+          25000
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:7",
+        "source": "And a portion shall be for the prince on the one side and on the other side of the oblation of the holy portion, and of the possession of the city, before the oblation of the holy portion, and before the possession of the city, from the west side westward, and from the east side eastward: and the length shall be over against one of the portions, from the west border unto the east border.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:11",
+        "source": "The ephah and the bath shall be of one measure, that the bath may contain the tenth part of an homer, and the ephah the tenth part of an homer: the measure thereof shall be after the homer.",
+        "expectedDecimalQuantities": [
+          1,
+          0.1,
+          0.1
+        ],
+        "targetQuantities": [
+          1,
+          0.1,
+          0.1
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:12",
+        "source": "And the shekel shall be twenty gerahs: twenty shekels, five and twenty shekels, fifteen shekels, shall be your maneh.",
+        "expectedDecimalQuantities": [
+          20,
+          20,
+          25,
+          15
+        ],
+        "targetQuantities": [
+          20,
+          20,
+          25,
+          15
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:13",
+        "source": "This is the oblation that ye shall offer; the sixth part of an ephah of an homer of wheat, and ye shall give the sixth part of an ephah of an homer of barley:",
+        "expectedDecimalQuantities": [
+          0.16666666666666666,
+          0.16666666666666666
+        ],
+        "targetQuantities": [
+          0.16666666666666666,
+          0.16666666666666666
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:14",
+        "source": "Concerning the ordinance of oil, the bath of oil, ye shall offer the tenth part of a bath out of the cor, which is an homer of ten baths; for ten baths are an homer:",
+        "expectedDecimalQuantities": [
+          0.1,
+          10,
+          10
+        ],
+        "targetQuantities": [
+          0.1,
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:15",
+        "source": "And one lamb out of the flock, out of two hundred, out of the fat pastures of Israel; for a meat offering, and for a burnt offering, and for peace offerings, to make reconciliation for them, saith the Lord GOD.",
+        "expectedDecimalQuantities": [
+          1,
+          200
+        ],
+        "targetQuantities": [
+          1,
+          200
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:18",
+        "source": "Thus saith the Lord GOD; In the first month, in the first day of the month, thou shalt take a young bullock without blemish, and cleanse the sanctuary:",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:19",
+        "source": "And the priest shall take of the blood of the sin offering, and put it upon the posts of the house, and upon the four corners of the settle of the altar, and upon the posts of the gate of the inner court.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:20",
+        "source": "And so thou shalt do the seventh day of the month for every one that erreth, and for him that is simple: so shall ye reconcile the house.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:21",
+        "source": "In the first month, in the fourteenth day of the month, ye shall have the passover, a feast of seven days; unleavened bread shall be eaten.",
+        "expectedDecimalQuantities": [
+          1,
+          14,
+          7
+        ],
+        "targetQuantities": [
+          1,
+          14,
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:23",
+        "source": "And seven days of the feast he shall prepare a burnt offering to the LORD, seven bullocks and seven rams without blemish daily the seven days; and a kid of the goats daily for a sin offering.",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:24",
+        "source": "And he shall prepare a meat offering of an ephah for a bullock, and an ephah for a ram, and an hin of oil for an ephah.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 45:25",
+        "source": "In the seventh month, in the fifteenth day of the month, shall he do the like in the feast of the seven days, according to the sin offering, according to the burnt offering, and according to the meat offering, and according to the oil.",
+        "expectedDecimalQuantities": [
+          7,
+          15,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          15,
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "43:1": [
+        "gate that towards east"
+      ],
+      "43:2": [
+        "many water:pl",
+        "his/glory shine:pa"
+      ],
+      "43:3": [
+        "when i to city:a destroy:inf come:pa",
+        "vision:pl like vision",
+        "kjv_chebar",
+        "my/face"
+      ],
+      "43:4": [
+        "glory of kjv_lord into house",
+        "towards east"
+      ],
+      "43:5": [
+        "spirit i:a up take:pa",
+        "kjv_inner kjv_court_enclosure",
+        "house:a fill:pa"
+      ],
+      "43:6": [
+        "out of house to i speak:cv",
+        "man by i stand:pa"
+      ],
+      "43:7": [
+        "mypl/throne",
+        "mypl/foot:pl",
+        "ipl in middle",
+        "their/king:pl",
+        "kjv_corpse:pl",
+        "their/high place:pl"
+      ],
+      "43:8": [
+        "their/kjv_threshold:a by mypl/kjv_threshold:pl",
+        "their/kjv_structural_post:a by mypl/kjv_structural_post:pl",
+        "wall between ipl and they",
+        "kjv_consume:perf"
+      ],
+      "43:9": [
+        "far from ipl",
+        "away put:opt",
+        "forever dwell:fu"
+      ],
+      "43:10": [
+        "house:a to house of kjv_israel",
+        "ashamed be:may",
+        "pattern:a measure:opt"
+      ],
+      "43:11": [
+        "if they",
+        "form:a of house and form:a of it",
+        "out go:ev:pl",
+        "in come:ev:pl",
+        "whole form:a",
+        "do:may"
+      ],
+      "43:12": [
+        "whole boundary",
+        "most holy be:fu",
+        "behold this law of house"
+      ],
+      "43:13": [
+        "kjv_cubit kjv_cubit and kjv_handbreadth",
+        "bottom one_num",
+        "breadth one_num",
+        "one_num kjv_span",
+        "higher place of altar"
+      ],
+      "43:14": [
+        "lower kjv_ledge two",
+        "breadth one_num",
+        "less great kjv_ledge",
+        "greater kjv_ledge four"
+      ],
+      "43:15": [
+        "altar four kjv_cubit:pl",
+        "four horn:pl"
+      ],
+      "43:16": [
+        "twelve kjv_cubit:pl long twelve broad",
+        "four kjv_square:pl"
+      ],
+      "43:17": [
+        "twelve and two kjv_cubit:pl long",
+        "twelve and two broad",
+        "half kjv_cubit",
+        "one_num kjv_cubit",
+        "his/kjv_stair:pl towards east"
+      ],
+      "43:18": [
+        "kjv_ordinance:pl of altar",
+        "blood:a kjv_sprinkle:inf"
+      ],
+      "43:19": [
+        "seed of kjv_zadok",
+        "which to ipl approach:pr",
+        "to ipl serve:ev",
+        "young kjv_bullock:a"
+      ],
+      "43:20": [
+        "four horn:pl",
+        "four corner:pl of kjv_ledge",
+        "clean:fu and purge:fu"
+      ],
+      "43:21": [
+        "thou also kjv_bullock:a",
+        "he it:a",
+        "outside kjv_sanctuary"
+      ],
+      "43:22": [
+        "two:ord day",
+        "kjv_kid of kjv_goat:pl without kjv_blemish",
+        "with kjv_bullock"
+      ],
+      "43:23": [
+        "young kjv_bullock without kjv_blemish",
+        "kjv_ram out of flock without kjv_blemish"
+      ],
+      "43:24": [
+        "priest:pl salt:a",
+        "they they:a up"
+      ],
+      "43:25": [
+        "seven day:pl",
+        "every day kjv_goat:a",
+        "they also"
+      ],
+      "43:26": [
+        "seven day:pl",
+        "they themselves:a consecrate:fu"
+      ],
+      "43:27": [
+        "eight:ord day",
+        "your/peace kjv_offering:pl:a",
+        "ipl you:a accept:fu"
+      ],
+      "44:1": [
+        "towards east",
+        "shut:psv:pa"
+      ],
+      "44:2": [
+        "shut:psv:fu",
+        "open:psv:neg:fu",
+        "no man",
+        "kjv_lord god of kjv_israel",
+        "enter:perf"
+      ],
+      "44:3": [
+        "prince he in it",
+        "bread:a eat:inf",
+        "kjv_porch",
+        "same out go:fu"
+      ],
+      "44:4": [
+        "kjv_north gate",
+        "i look:pa",
+        "my/face fall:pa"
+      ],
+      "44:5": [
+        "well heed:imp",
+        "ipl to thee",
+        "every forth go:ev"
+      ],
+      "44:6": [
+        "rebellion:adj",
+        "suffice:opt"
+      ],
+      "44:7": [
+        "in heart kjv_circumcise:psv:neg:adj",
+        "in flesh kjv_circumcise:psv:neg:adj",
+        "they mypl/kjv_covenant:a",
+        "your/kjv_abomination:pl"
+      ],
+      "44:8": [
+        "keep:neg:perf",
+        "mypl/kjv_charge_custody",
+        "for yourselves"
+      ],
+      "44:9": [
+        "no stranger",
+        "mypl/kjv_sanctuary",
+        "of any stranger"
+      ],
+      "44:10": [
+        "from ipl",
+        "their/idol:pl",
+        "their/kjv_iniquity:a endure:fu"
+      ],
+      "44:11": [
+        "yet they",
+        "mypl/kjv_sanctuary",
+        "slay:fu",
+        "to they serve:inf"
+      ],
+      "44:12": [
+        "fall:caus:pa",
+        "ipl mypl/hand:a",
+        "their/kjv_iniquity:a endure:fu"
+      ],
+      "44:13": [
+        "near come:neg:fu",
+        "mypl/holy thing:pl",
+        "their/shame:a",
+        "endure:fu"
+      ],
+      "44:14": [
+        "ipl they:a keep:ag:pl",
+        "all service",
+        "do:psv:fu"
+      ],
+      "44:15": [
+        "son:pl of kjv_zadok",
+        "mypl/kjv_sanctuary keep:pa",
+        "kjv_fat:a and blood:a"
+      ],
+      "44:16": [
+        "mypl/kjv_table_furniture",
+        "mypl/kjv_charge_custody:a"
+      ],
+      "44:17": [
+        "linen garment:pl",
+        "no kjv_wool",
+        "and within serve:pr"
+      ],
+      "44:18": [
+        "linen kjv_bonnet:pl",
+        "linen kjv_breeches:pl",
+        "sweat:a cause:pr",
+        "kjv_gird:neg:fu"
+      ],
+      "44:19": [
+        "off put:fu",
+        "holy chamber:pl",
+        "other garment:pl",
+        "people:a with their/garment:pl sanctify:neg:fu"
+      ],
+      "44:20": [
+        "neither",
+        "nor their/kjv_hair_lock:pl",
+        "allow:fu",
+        "only their/head:pl:a kjv_poll_hair:fu"
+      ],
+      "44:21": [
+        "neither any priest wine:a drink:fu"
+      ],
+      "44:22": [
+        "widow:a",
+        "she that away put:psv:pr",
+        "maiden:pl:a",
+        "or widow:a that priest before have:pa"
+      ],
+      "44:23": [
+        "holy and kjv_unholy_profane",
+        "kjv_unclean_ritual and clean",
+        "distinguish:caus:fu"
+      ],
+      "44:24": [
+        "kjv_litigate:ev",
+        "mypl/judgment:pl",
+        "mypl/kjv_assembly:pl",
+        "mypl/kjv_sabbath:pl:a kjv_hallow:fu"
+      ],
+      "44:25": [
+        "no dead person",
+        "father",
+        "mother",
+        "son",
+        "daughter",
+        "brother",
+        "sister that no husband",
+        "defile:may"
+      ],
+      "44:26": [
+        "after he clean:psv:pr",
+        "they to he seven day:pl:a"
+      ],
+      "44:27": [
+        "his/sin kjv_offering:a"
+      ],
+      "44:28": [
+        "ipl their/inheritance",
+        "no kjv_possession:a",
+        "ipl their/kjv_possession"
+      ],
+      "44:29": [
+        "kjv_meat_offering:a",
+        "sin kjv_offering:a",
+        "kjv_trespass kjv_offering:a",
+        "kjv_dedicate:psv:adj"
+      ],
+      "44:30": [
+        "first of all kjv_firstfruits",
+        "first:a of your/dough",
+        "in thine/house rest:caus:may"
+      ],
+      "44:31": [
+        "of itself dead",
+        "rend:psv:adj",
+        "eat:neg:fu",
+        "bird or beast"
+      ],
+      "45:1": [
+        "two+twelve+thousand and thousand kjv_measuring_reed:pl",
+        "ten+thousand",
+        "by kjv_lot"
+      ],
+      "45:2": [
+        "five+hundred in length",
+        "five+hundred in breadth",
+        "four+twelve and two kjv_cubit:pl"
+      ],
+      "45:3": [
+        "two+twelve+thousand and thousand",
+        "ten+thousand",
+        "most holy place"
+      ],
+      "45:4": [
+        "their/house:pl",
+        "holy place for kjv_sanctuary"
+      ],
+      "45:5": [
+        "two+twelve+thousand and thousand",
+        "ten+thousand",
+        "twelve and eight chamber:pl"
+      ],
+      "45:6": [
+        "five+thousand broad",
+        "two+twelve+thousand and thousand long",
+        "whole house of kjv_israel"
+      ],
+      "45:7": [
+        "from west side towards west",
+        "from east side towards east",
+        "one_num of kjv_portion_share:pl"
+      ],
+      "45:8": [
+        "mypl/prince:pl mypl/people:a no more oppress:fu",
+        "their/kjv_tribe:pl"
+      ],
+      "45:9": [
+        "kjv_violence:a and spoil:a",
+        "judgment:a and justice:a",
+        "your/extort:ev:pl:a"
+      ],
+      "45:10": [
+        "honest balance:pl",
+        "honest kjv_ephah_measure",
+        "honest kjv_bath_measure"
+      ],
+      "45:11": [
+        "one_num measure",
+        "kjv_tenth_share:a of kjv_homer",
+        "kjv_according to kjv_homer"
+      ],
+      "45:12": [
+        "twelve and eight kjv_gerah:pl",
+        "twelve and eight kjv_shekel:pl",
+        "two+twelve and one_num kjv_shekel:pl",
+        "twelve and three kjv_shekel:pl",
+        "your/kjv_maneh"
+      ],
+      "45:13": [
+        "kjv_sixth_share of kjv_ephah_measure of kjv_homer of wheat",
+        "kjv_sixth_share of kjv_ephah_measure of kjv_homer of kjv_barley"
+      ],
+      "45:14": [
+        "kjv_tenth_share:a of kjv_bath_measure",
+        "kjv_cor_measure",
+        "ten kjv_bath_measure:pl"
+      ],
+      "45:15": [
+        "one_num kjv_lamb",
+        "two+hundred",
+        "kjv_reconcile_ritual:inf"
+      ],
+      "45:16": [
+        "for prince in kjv_israel"
+      ],
+      "45:17": [
+        "kjv_drinkoffer:pl:a",
+        "new moon:pl",
+        "kjv_sabbath:pl",
+        "sin kjv_offering:a",
+        "house of kjv_israel:a kjv_reconcile_ritual:inf"
+      ],
+      "45:18": [
+        "one_num:ord month",
+        "one_num:ord day",
+        "kjv_sanctuary:a clean:fu"
+      ],
+      "45:19": [
+        "four corner:pl of kjv_ledge",
+        "kjv_structural_post:pl"
+      ],
+      "45:20": [
+        "seven:ord day",
+        "every person that err:pr",
+        "kjv_simple_unwitting",
+        "house:a kjv_reconcile_ritual:fu"
+      ],
+      "45:21": [
+        "one_num:ord month",
+        "twelve and two:ord day",
+        "seven day:pl",
+        "without kjv_leaven bread"
+      ],
+      "45:22": [
+        "prince for himself",
+        "for all people",
+        "sin kjv_offering"
+      ],
+      "45:23": [
+        "seven day:pl of feast",
+        "seven kjv_bullock:pl",
+        "seven kjv_ram:pl",
+        "daily seven day:pl",
+        "kjv_kid"
+      ],
+      "45:24": [
+        "one_num kjv_ephah_measure for kjv_bullock",
+        "one_num kjv_ephah_measure for kjv_ram",
+        "one_num kjv_hin of oil for one_num kjv_ephah_measure"
+      ],
+      "45:25": [
+        "seven:ord month",
+        "twelve and three:ord day",
+        "feast of seven day:pl",
+        "kjv_according to oil"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "43:1",
+        "43:18",
+        "43:3",
+        "43:5",
+        "43:6",
+        "43:7",
+        "44:1",
+        "44:2",
+        "44:4",
+        "44:5"
+      ],
+      "ipl": [
+        "43:19",
+        "43:27",
+        "43:7",
+        "43:8",
+        "43:9",
+        "44:10",
+        "44:12",
+        "44:13",
+        "44:14",
+        "44:15",
+        "44:16",
+        "44:28",
+        "44:5"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "43:7",
+        "43:8",
+        "44:11",
+        "44:12",
+        "44:13",
+        "44:15",
+        "44:16",
+        "44:23",
+        "44:24",
+        "44:7",
+        "44:8",
+        "44:9",
+        "45:8",
+        "45:9"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Long cubit,altar dimensions,dates and repeated quantities preserved.",
+      "Twenty-five thousand reeds retained;one-sixth EPHah levies not one-sixth homer.",
+      "Maneh twenty/twenty-five/fifteen components and cor/homer/ten-bath equivalence retained without metric normalization."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel43–45 adds83 verses,total1191;whole Bible incomplete.",
+      "Personal destroy-city narration kept distinct from returning divine plural-self.",
+      "Priestly restrictions,negative sanctifying,prince sin offering and source ritual tensions retained.",
+      "Two unit loans and one contextual common sense;no names,paradigms or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 934,
+    "spreads": 467,
+    "units": 1191,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "04220470ba10cd45897a75d98606d61dc88c6f445259d644a1600051034e3a9c",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 467,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.303,
+    "modules": [
+      "tests.test_kjv_ezekiel_graded_service",
+      "tests.test_kjv_ezekiel_measured_vision",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    933,
+    934
+  ],
+  "status": "incomplete Bible;Ezekiel1–45 section checkpoint verified"
+}

@@ -8,9 +8,16 @@ from pathlib import Path,PurePosixPath
 import tempfile
 import zipfile
 
+# Direct `python -S tools/recovery.py` remains available without site packages.
+# The codec and streaming helpers themselves use only the standard library.
+if __package__ in (None, ''):
+    import sys
+    sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+
 VERSION='1.0.0'
-MAX_DOCUMENT=16*1024*1024
-MAX_BUNDLE=512*1024*1024
+from vayrshemon.native_storage import MAX_FILE_BYTES, logical_payload, storage_payload
+MAX_DOCUMENT=MAX_FILE_BYTES
+MAX_BUNDLE=768*1024*1024
 
 
 def sha(data): return hashlib.sha256(data).hexdigest()
@@ -25,7 +32,7 @@ def decode(data):
             result[key]=value
         return result
     def reject(value): raise ValueError('NONFINITE_JSON_NUMBER: '+value)
-    return json.loads(data,object_pairs_hook=pairs,parse_constant=reject)
+    return logical_payload(json.loads(data,object_pairs_hook=pairs,parse_constant=reject))
 
 
 def publish_new(temp,path):
@@ -139,8 +146,11 @@ def restore_backup(path,destination):
         target.write_bytes(files[entry['member']]);source['path']=str(target)
     if value.get('shellPreview'):
         # Only font paths changed; verified font bytes and page pixels are exact.
-        value['shellPreview']['stateSha256']=sha(json.dumps(value['state'],sort_keys=True,separators=(',',':'),ensure_ascii=True,allow_nan=False).encode())
-    target=destination/('recovered.vay' if value['formatVersion']=='0.6.0' else 'recovered.vay.json');target.write_bytes(encoded(value))
+        from vayrshemon.json_stream import compact_digest
+        value['shellPreview']['stateSha256']=compact_digest(value['state'])
+    from vayrshemon.json_stream import write_atomic
+    target=destination/('recovered.vay' if value['formatVersion']=='0.6.0' else 'recovered.vay.json')
+    write_atomic(target,storage_payload(value),replace=False,limit=MAX_DOCUMENT)
     report=dict(path=str(target),originalSha256=manifest['files']['document.vay.json']['sha256'],recoveredSha256=sha(target.read_bytes()),
         relocatedFonts=len(indexed),revision=manifest['revision'],sourceUnchanged=True)
     (destination/'recovery-report.json').write_bytes(encoded(report));return report

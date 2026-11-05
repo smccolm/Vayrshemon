@@ -1,0 +1,753 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.221",
+    "parentVersion": "0.10-kjv.220",
+    "parentHead": "d5300ae1db1c0c76bbbb9d4c7334cc35b5d406a2985e9205c30feda85087ba65",
+    "head": "d6df274bd1239dcaf3bd8cf3af020b0f6cff056f1113553b8866207165b50f1e",
+    "newLexicalEntries": 7,
+    "newProperEntries": 6,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 82,
+    "exactCompilerCases": 82,
+    "newAuthoredVerses": 82,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 823,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4234,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJohnVerses": 82,
+    "johnVerses": 823,
+    "authoredVerses": 26868,
+    "remainingVerses": 4234,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "John 18:13",
+        "source": "And led him away to Annas first; for he was father in law to Caiaphas, which was the high priest that same year.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 18:14",
+        "source": "Now Caiaphas was he, which gave counsel to the Jews, that it was expedient that one man should die for the people.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 18:17",
+        "source": "Then saith the damsel that kept the door unto Peter, Art not thou also one of this man’s disciples? He saith, I am not.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 18:22",
+        "source": "And when he had thus spoken, one of the officers which stood by struck Jesus with the palm of his hand, saying, Answerest thou the high priest so?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 18:25",
+        "source": "And Simon Peter stood and warmed himself. They said therefore unto him, Art not thou also one of his disciples? He denied it, and said, I am not.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 18:26",
+        "source": "One of the servants of the high priest, being his kinsman whose ear Peter cut off, saith, Did not I see thee in the garden with him?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 18:39",
+        "source": "But ye have a custom, that I should release unto you one at the passover: will ye therefore that I release unto you the King of the Jews?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 19:14",
+        "source": "And it was the preparation of the passover, and about the sixth hour: and he saith unto the Jews, Behold your King!",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "John 19:18",
+        "source": "Where they crucified him, and two other with him, on either side one, and Jesus in the midst.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "John 19:23",
+        "source": "Then the soldiers, when they had crucified Jesus, took his garments, and made four parts, to every soldier a part; and also his coat: now the coat was without seam, woven from the top throughout.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "John 19:32",
+        "source": "Then came the soldiers, and brake the legs of the first, and of the other which was crucified with him.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 19:34",
+        "source": "But one of the soldiers with a spear pierced his side, and forthwith came there out blood and water.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 19:39",
+        "source": "And there came also Nicodemus, which at the first came to Jesus by night, and brought a mixture of myrrh and aloes, about an hundred pound weight.",
+        "expectedDecimalQuantities": [
+          1,
+          100
+        ],
+        "targetQuantities": [
+          1,
+          100
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "18:1": [
+        "brook kjv_cedron_john",
+        "kjv_garden",
+        "he and his/disciple:pl enter:pa"
+      ],
+      "18:2": [
+        "kjv_judas_iscariot",
+        "place know:pa",
+        "often there with his/disciple:pl"
+      ],
+      "18:3": [
+        "band of man:pl and officer:pl",
+        "chief priest:pl and kjv_pharisee:pl",
+        "lantern:pl and torch:pl and weapon:pl"
+      ],
+      "18:4": [
+        "all thing:pl which upon he come:should know:cv",
+        "forth go:pa",
+        "whom seek:pr:q"
+      ],
+      "18:5": [
+        "kjv_jesus_matthew of kjv_nazareth",
+        "ipl he be:pr",
+        "kjv_judas_iscariot",
+        "with they stand:pa"
+      ],
+      "18:6": [
+        "ipl he be:pr",
+        "backward go:pa",
+        "to ground fall:pa"
+      ],
+      "18:7": [
+        "again to they whom seek:pr:q",
+        "kjv_jesus_matthew of kjv_nazareth"
+      ],
+      "18:8": [
+        "ipl to you that ipl he be:pr tell:perf",
+        "if therefore ipl:a seek:pr",
+        "these their/way go:inf allow:imp"
+      ],
+      "18:9": [
+        "thou to ipl give:pa",
+        "ipl none lose:perf",
+        "fulfil:psv:may"
+      ],
+      "18:10": [
+        "kjv_simon_peter kjv_peter_disciple",
+        "sword",
+        "his/kjv_right_side ear off cut:pa",
+        "kjv_malchus_john"
+      ],
+      "18:11": [
+        "thy/sword into kjv_sheath",
+        "mypl/father to ipl give:perf",
+        "ipl it drink:neg:fu:q"
+      ],
+      "18:12": [
+        "band and captain and officer:pl",
+        "take:pa and he:a bind:pa"
+      ],
+      "18:13": [
+        "kjv_annas_luke first",
+        "to kjv_caiaphas father in law",
+        "high priest that same year"
+      ],
+      "18:14": [
+        "kjv_caiaphas",
+        "one_num man for people die:should",
+        "counsel give:pa"
+      ],
+      "18:15": [
+        "kjv_peter_disciple",
+        "another disciple",
+        "to high priest know:psv:pa",
+        "into palace of high priest"
+      ],
+      "18:16": [
+        "at door outside",
+        "that other disciple",
+        "to she who door keep:pa",
+        "kjv_peter_disciple in bring:pa"
+      ],
+      "18:17": [
+        "maiden who door keep:pa",
+        "one_num of this man/disciple:pl be:neg:pr:q",
+        "i be:neg:pr"
+      ],
+      "18:18": [
+        "fire of kjv_charcoal",
+        "cold be:pa",
+        "themselves warm:pa",
+        "himself warm:pa"
+      ],
+      "18:19": [
+        "his/disciple:pl and of his/doctrine"
+      ],
+      "18:20": [
+        "ipl in public to world speak:pa",
+        "kjv_synagogue and in kjv_temple",
+        "in secret ipl nothing say:perf"
+      ],
+      "18:21": [
+        "why thou ipl:a ask:pr:q",
+        "they who ipl:a hear:pa",
+        "they what ipl say:pa know:pr"
+      ],
+      "18:22": [
+        "one_num of officer:pl",
+        "kjv_palm_hand of his/hand",
+        "strike:pa",
+        "high priest so answer:pr:q"
+      ],
+      "18:23": [
+        "if ipl evil speak:perf",
+        "of evil testify:imp",
+        "if well",
+        "why thou ipl:a strike:pr:q"
+      ],
+      "18:24": [
+        "kjv_annas_luke",
+        "bind:psv:cv",
+        "kjv_caiaphas high priest send:pp"
+      ],
+      "18:25": [
+        "himself warm:pa",
+        "one_num of his/disciple:pl",
+        "deny:pa",
+        "i be:neg:pr"
+      ],
+      "18:26": [
+        "one_num of servant:pl",
+        "kinsman of he whose ear",
+        "i thee in kjv_garden with he see:neg:pa:q"
+      ],
+      "18:27": [
+        "again deny:pa",
+        "immediately cock kjv_cock_crow:pa"
+      ],
+      "18:28": [
+        "from kjv_caiaphas to kjv_governor_hall",
+        "early",
+        "go:neg:pa lest defile:psv:should",
+        "kjv_passover eat:may"
+      ],
+      "18:29": [
+        "kjv_pilate then out to they",
+        "what accusation against this man"
+      ],
+      "18:30": [
+        "if evil do:ag be:neg:pa",
+        "wesg he:a up to thee deliver:neg:pp"
+      ],
+      "18:31": [
+        "kjv_according your/law",
+        "for wesg any man to death put:inf lawful be:neg:pr"
+      ],
+      "18:32": [
+        "say:ev of kjv_jesus_matthew",
+        "what death die:should signify:cv",
+        "fulfil:psv:may"
+      ],
+      "18:33": [
+        "again into kjv_governor_hall",
+        "thou king of kjv_jew:pl be:pr:q"
+      ],
+      "18:34": [
+        "of thyself",
+        "or other:pl",
+        "of ipl tell:pa:q"
+      ],
+      "18:35": [
+        "i kjv_jew be:pr:q",
+        "thy/own nation and chief priest:pl",
+        "thee to i deliver:perf",
+        "what thou do:perf:q"
+      ],
+      "18:36": [
+        "mypl/kingdom of this world be:neg:pr",
+        "mypl/servant:pl fight:should",
+        "ipl to kjv_jew:pl deliver:psv:neg:should",
+        "mypl/kingdom from hence be:neg:pr"
+      ],
+      "18:37": [
+        "thou that ipl king be:pr say:pr",
+        "ipl bear:psv:pa",
+        "ipl into world come:pa",
+        "ipl to truth testify:should",
+        "mypl/voice hear:pr"
+      ],
+      "18:38": [
+        "what truth be:pr:q",
+        "again out",
+        "i in he no fault at all find:pr"
+      ],
+      "18:39": [
+        "custom",
+        "i to you one_num at kjv_passover release:should",
+        "king of kjv_jew:pl release:pr will:pr:q"
+      ],
+      "18:40": [
+        "all again cry:pa",
+        "not this man but kjv_barabbas",
+        "kjv_barabbas rob:ag"
+      ],
+      "19:1": [
+        "kjv_pilate",
+        "kjv_jesus_matthew take:pa and he:a whip:pa"
+      ],
+      "19:2": [
+        "crown of thorn:pl weave:pa",
+        "his/head",
+        "purple kjv_robe"
+      ],
+      "19:3": [
+        "greeting:excl king of kjv_jew:pl",
+        "their/hand:pl he:a strike:pa"
+      ],
+      "19:4": [
+        "i he:a forth to you bring:pr",
+        "i no fault in he find:pr"
+      ],
+      "19:5": [
+        "crown of thorn:pl and purple kjv_robe",
+        "behold man:excl"
+      ],
+      "19:6": [
+        "he:a kjv_crucify:imp he:a kjv_crucify:imp",
+        "he:a take:imp and he:a kjv_crucify:imp",
+        "i no fault"
+      ],
+      "19:7": [
+        "wesg law have:pr",
+        "ourone/law",
+        "himself son of god make:pa"
+      ],
+      "19:8": [
+        "that say:ev hear:pa",
+        "more afraid be:pa"
+      ],
+      "19:9": [
+        "kjv_governor_hall",
+        "from where thou be:pr:q",
+        "no answer give:pa"
+      ],
+      "19:10": [
+        "to i speak:neg:pr:q",
+        "i power thee kjv_crucify:inf",
+        "power thee release:inf",
+        "know:neg:pr:q"
+      ],
+      "19:11": [
+        "against ipl no power at all",
+        "except from above",
+        "ipl:a to thee deliver:pa greater sin"
+      ],
+      "19:12": [
+        "release:inf seek:pa",
+        "friend of kjv_caesar_ruler be:neg:pr",
+        "himself king make:pr against kjv_caesar_ruler"
+      ],
+      "19:13": [
+        "kjv_pavement_john",
+        "language of kjv_hebrew kjv_gabbatha_john",
+        "judgment seat down sit:pa"
+      ],
+      "19:14": [
+        "preparation of kjv_passover",
+        "about six:ord hour",
+        "behold your/king:excl"
+      ],
+      "19:15": [
+        "he:a away take:imp he:a away take:imp",
+        "i your/king kjv_crucify:fu:q",
+        "wesg no king but kjv_caesar_ruler"
+      ],
+      "19:16": [
+        "deliver:pa to kjv_crucify:psv:inf",
+        "take:pa and away lead:pa"
+      ],
+      "19:17": [
+        "his/kjv_cross_instrument carry:cv",
+        "place of kjv_skull",
+        "language of kjv_hebrew kjv_golgotha"
+      ],
+      "19:18": [
+        "two other:pl with he",
+        "on each side one_num",
+        "kjv_jesus_matthew in middle"
+      ],
+      "19:19": [
+        "kjv_pilate title write:pa",
+        "kjv_cross_instrument",
+        "kjv_jesus_matthew of kjv_nazareth king of kjv_jew:pl"
+      ],
+      "19:20": [
+        "many of kjv_jew:pl read:pa",
+        "near city",
+        "language of kjv_hebrew and of greek and kjv_latin_language"
+      ],
+      "19:21": [
+        "king of kjv_jew:pl write:neg:imp",
+        "he ipl king of kjv_jew:pl be:pr say:pa"
+      ],
+      "19:22": [
+        "what i write:perf i write:perf"
+      ],
+      "19:23": [
+        "four part:pl",
+        "to each soldier part",
+        "coat without kjv_seam_john",
+        "from top throughout weave:psv:cv"
+      ],
+      "19:24": [
+        "wesg it kjv_rend:neg:opt",
+        "kjv_lot:pl cast:opt",
+        "my/garment among they kjv_divide:pa",
+        "my/clothing kjv_lot:pl cast:pa"
+      ],
+      "19:25": [
+        "his/mother and his/mother/sister,",
+        "kjv_mary_cleophas_wife_john wife of kjv_cleophas_john,",
+        "kjv_mary_magdalene"
+      ],
+      "19:26": [
+        "disciple by stand:cv whom love:pa",
+        "woman behold thy/son:excl"
+      ],
+      "19:27": [
+        "behold thy/mother:excl",
+        "from that hour",
+        "she:a to his/own home"
+      ],
+      "19:28": [
+        "all thing:pl now accomplish:psv:perf",
+        "writing fulfil:psv:may",
+        "ipl thirst:pr"
+      ],
+      "19:29": [
+        "vessel full of vinegar",
+        "kjv_sponge with vinegar",
+        "on kjv_hyssop",
+        "his/mouth"
+      ],
+      "19:30": [
+        "vinegar receive:pp",
+        "finish:psv:perf",
+        "his/head bow:pa",
+        "spirit up give:pa"
+      ],
+      "19:31": [
+        "preparation",
+        "remain:neg:should",
+        "kjv_sabbath day high day",
+        "leg:pl break:psv:may",
+        "away take:psv:may"
+      ],
+      "19:32": [
+        "leg:pl of first and of other",
+        "kjv_crucify:psv:pa break:pa"
+      ],
+      "19:33": [
+        "already dead",
+        "his/leg:pl break:neg:pa"
+      ],
+      "19:34": [
+        "one_num of soldier:pl",
+        "kjv_spear his/side pierce:pa",
+        "immediately",
+        "blood and water"
+      ],
+      "19:35": [
+        "see:pa testify:pa",
+        "his/kjv_record_witness true",
+        "true say:pr know:pr",
+        "you believe:may"
+      ],
+      "19:36": [
+        "bone of he break:psv:neg:fu",
+        "fulfil:psv:should"
+      ],
+      "19:37": [
+        "another writing",
+        "they on he whom pierce:pa look:fu"
+      ],
+      "19:38": [
+        "kjv_joseph_arimathaea of kjv_arimathaea",
+        "secretly for fear of kjv_jew:pl",
+        "kjv_pilate to he permission give:pa",
+        "body of kjv_jesus_matthew take:pa"
+      ],
+      "19:39": [
+        "kjv_nicodemus_john",
+        "at first",
+        "by night",
+        "compound of kjv_myrrh and kjv_aloes_aromatic",
+        "about eight+twelve and four kjv_pound_weight"
+      ],
+      "19:40": [
+        "they:du",
+        "with spice:pl in linen cloth:pl it wrap:pa",
+        "manner of kjv_jew:pl bury:inf"
+      ],
+      "19:41": [
+        "kjv_garden",
+        "new grave",
+        "man never yet lay:psv:pp"
+      ],
+      "19:42": [
+        "they:du kjv_jesus_matthew lay:pa",
+        "preparation day of kjv_jew:pl",
+        "grave near at hand"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "18:17",
+        "18:25",
+        "18:26",
+        "18:35",
+        "18:38",
+        "18:39",
+        "19:10",
+        "19:15",
+        "19:22",
+        "19:4",
+        "19:6"
+      ],
+      "ipl": [
+        "18:11",
+        "18:20",
+        "18:21",
+        "18:23",
+        "18:34",
+        "18:36",
+        "18:37",
+        "18:5",
+        "18:6",
+        "18:8",
+        "18:9",
+        "19:11",
+        "19:21",
+        "19:28"
+      ],
+      "wesg": [
+        "18:30",
+        "18:31",
+        "19:15",
+        "19:24",
+        "19:7"
+      ],
+      "wepl": [],
+      "mypl": [
+        "18:11",
+        "18:36",
+        "18:37"
+      ],
+      "ourone": [
+        "19:7"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "19:40",
+        "19:42"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "19:40",
+      "19:42"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "First Annas,one-for-people,one disciple/officer/witness/release,about sixth hour,two companions one each side,four parts,first companion,one spearman,and approximately100weight-pounds retain source quantities.",
+      "Burial pair uses true dual;accusers and soldiers use communal singular-we;Pilate,Peter and unnamed witness personal-I;Jesus plural-I including quoted inscription."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "82new verses;823John;whole Bible incomplete.",
+      "Named right-ear victim,purple robe,sixth hour,own-cross,hyssop,and pierced-him retained without harmonization.",
+      "One common and six contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "John — incomplete Bible working text",
+    "pages": 446,
+    "spreads": 223,
+    "units": 823,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "b2423bbbe67a0d7f92cbf263753b66acf510a7ccec7ef78814afe88ef6f39b42",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 223,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.401,
+    "modules": [
+      "tests.test_kjv_john_burial_pair",
+      "tests.test_kjv_john_one_prayer",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    445,
+    446
+  ],
+  "status": "incomplete Bible;John1–19 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 445,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv221\\preflight-john\\Proofs\\page-445.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv221\\composed-john\\Proofs\\page-445.png",
+        "sha256": "33f385860d2ec0d7a66796e81ceb834769aa2a3e5d831dc58acf8c1277e04e5a",
+        "bytesIdentical": true
+      },
+      {
+        "page": 446,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv221\\preflight-john\\Proofs\\page-446.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv221\\composed-john\\Proofs\\page-446.png",
+        "sha256": "a8f5c451153fd97e687b7feefa2ade06639191dc122dc06e631a5cd2c2689ea0",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

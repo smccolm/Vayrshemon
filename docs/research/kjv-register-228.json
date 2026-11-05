@@ -1,0 +1,783 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.228",
+    "parentVersion": "0.10-kjv.227",
+    "parentHead": "cd9e6375beda990b618767b1f6c11b48925662190f36afb2b8509b623ff6c8d8",
+    "head": "1094e68ef55d5eeababdf22f41edac8fd24f4a2930b6481dd4d53a15caead4b6",
+    "newLexicalEntries": 24,
+    "newProperEntries": 21,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 20,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 109,
+    "exactCompilerCases": 109,
+    "newAuthoredVerses": 109,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 600,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 3578,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newActsVerses": 109,
+    "actsVerses": 600,
+    "authoredVerses": 27524,
+    "remainingVerses": 3578,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Acts 15:14",
+        "source": "Simeon hath declared how God at the first did visit the Gentiles, to take out of them a people for his name.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 15:25",
+        "source": "It seemed good unto us, being assembled with one accord, to send chosen men unto you with our beloved Barnabas and Paul,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "14:1": [
+        "they:du together",
+        "both of kjv_jew:pl and also of greek:pl"
+      ],
+      "14:2": [
+        "who believe:neg:pa",
+        "their/mind:pl against brother:pl"
+      ],
+      "14:3": [
+        "long time",
+        "bold:adv",
+        "sign:pl and wonder:pl"
+      ],
+      "14:4": [
+        "kjv_multitude of city kjv_divide:psv:pa",
+        "part with kjv_apostle:pl"
+      ],
+      "14:5": [
+        "both of kjv_gentile:pl",
+        "kjv_jew:pl with their/ruler:pl",
+        "stone:inf"
+      ],
+      "14:6": [
+        "kjv_lystra_acts and kjv_derbe_acts",
+        "kjv_lycaonia_acts",
+        "round about"
+      ],
+      "14:7": [
+        "there kjv_gospel proclaim:pa"
+      ],
+      "14:8": [
+        "without strength",
+        "from his/mother/womb kjv_lame",
+        "never walk:pp"
+      ],
+      "14:9": [
+        "kjv_paul_acts",
+        "faith to heal:psv:inf"
+      ],
+      "14:10": [
+        "on thy/foot:pl straight stand:imp",
+        "leap:pa and walk:pa"
+      ],
+      "14:11": [
+        "speech of kjv_lycaonia_acts",
+        "god:pl in likeness of man:pl",
+        "to wesg"
+      ],
+      "14:12": [
+        "kjv_barnabas_acts kjv_jupiter_acts",
+        "kjv_paul_acts kjv_mercurius_acts",
+        "chief speak:ag"
+      ],
+      "14:13": [
+        "priest of kjv_jupiter_acts",
+        "ox:pl and garland:pl",
+        "kjv_sacrifice:inf intend:pa"
+      ],
+      "14:14": [
+        "kjv_apostle:pl kjv_barnabas_acts and kjv_paul_acts",
+        "clothing kjv_rend:pa"
+      ],
+      "14:15": [
+        "we:du also man:pl of like passion:pl",
+        "god who live:pr",
+        "heaven and earth and sea"
+      ],
+      "14:16": [
+        "all nation:pl in their/own way:pl",
+        "allow:pa"
+      ],
+      "14:17": [
+        "without witness leave:neg:pa",
+        "to wesg rain",
+        "ourone/heart:pl with food and joy"
+      ],
+      "14:18": [
+        "scarcely people restrain:pa",
+        "kjv_sacrifice:neg:pp"
+      ],
+      "14:19": [
+        "kjv_antioch_pisidia_acts and kjv_iconium_acts",
+        "kjv_paul_acts stone:pp",
+        "dead be:pp suppose:cv"
+      ],
+      "14:20": [
+        "disciple:pl round about",
+        "into city come:pa",
+        "next day",
+        "kjv_derbe_acts"
+      ],
+      "14:21": [
+        "many teach:pp",
+        "kjv_lystra_acts",
+        "kjv_iconium_acts and kjv_antioch_pisidia_acts"
+      ],
+      "14:22": [
+        "soul:pl of disciple:pl confirm:cv",
+        "wesg through much kjv_tribulation"
+      ],
+      "14:23": [
+        "each kjv_church_assembly kjv_elder:pl",
+        "with kjv_fast:ev",
+        "entrust:pa"
+      ],
+      "14:24": [
+        "kjv_pisidia_acts",
+        "kjv_pamphylia_acts"
+      ],
+      "14:25": [
+        "kjv_perga_acts",
+        "kjv_attalia_acts"
+      ],
+      "14:26": [
+        "kjv_antioch_acts sail:pa",
+        "grace of god",
+        "work which fulfil:pa"
+      ],
+      "14:27": [
+        "all that god with they",
+        "door of faith to kjv_gentile:pl"
+      ],
+      "14:28": [
+        "long time with disciple:pl"
+      ],
+      "15:1": [
+        "unless",
+        "kjv_moses kjv_circumcise:psv:pr",
+        "save:psv:neg:can"
+      ],
+      "15:2": [
+        "no small disagree:ev and contend:ev",
+        "certain other:pl",
+        "kjv_jerusalem"
+      ],
+      "15:3": [
+        "kjv_phenice_acts and kjv_samaria",
+        "kjv_gentile:pl turn:ev",
+        "great joy"
+      ],
+      "15:4": [
+        "kjv_church_assembly and kjv_apostle:pl and kjv_elder:pl",
+        "all thing:pl"
+      ],
+      "15:5": [
+        "kjv_pharisee:pl who believe:pa",
+        "kjv_circumcise:inf",
+        "law of kjv_moses"
+      ],
+      "15:6": [
+        "kjv_apostle:pl and kjv_elder:pl",
+        "this thing consider:inf"
+      ],
+      "15:7": [
+        "god among wesg choose:pa",
+        "my/mouth",
+        "hear:should and believe:should"
+      ],
+      "15:8": [
+        "god who heart:pl know:pr",
+        "holy spirit to they",
+        "as to wesg"
+      ],
+      "15:9": [
+        "between wesg and they no difference",
+        "heart:pl by faith purify:cv"
+      ],
+      "15:10": [
+        "neither ourone/father:pl carry:inf able:neg:pa nor wesg carry:inf able:neg:pa"
+      ],
+      "15:11": [
+        "wesg",
+        "grace of kjv_lord kjv_jesus_matthew kjv_christ_title",
+        "even as they"
+      ],
+      "15:12": [
+        "silent remain:pa",
+        "kjv_barnabas_acts and kjv_paul_acts",
+        "by they:du"
+      ],
+      "15:13": [
+        "kjv_james_jerusalem_acts",
+        "to i listen:imp"
+      ],
+      "15:14": [
+        "kjv_simeon_peter_acts",
+        "at first",
+        "people for his/name"
+      ],
+      "15:15": [
+        "word:pl of prophet:pl agree:pr",
+        "write:psv:pr"
+      ],
+      "15:16": [
+        "ipl return:fu",
+        "kjv_tabernacle of kjv_david",
+        "ipl its/ruin:pl",
+        "ipl it:a up set:fu"
+      ],
+      "15:17": [
+        "they who remain:pr of man:pl",
+        "all kjv_gentile:pl",
+        "mypl/name"
+      ],
+      "15:18": [
+        "all his/work:pl from beginning of world"
+      ],
+      "15:19": [
+        "my/judgment",
+        "wesg",
+        "into kjv_trouble put:neg:pr"
+      ],
+      "15:20": [
+        "wesg to they write:pr",
+        "kjv_pollute_sacred:ev:pl of idol:pl",
+        "kjv_fornication",
+        "kjv_strangle_acts:psv:adj",
+        "blood away keep:pr"
+      ],
+      "15:21": [
+        "each city",
+        "each kjv_sabbath day read:psv:cv"
+      ],
+      "15:22": [
+        "whole kjv_church_assembly",
+        "kjv_judas_barsabas_acts kjv_barsabas_judas_acts",
+        "kjv_silas_acts"
+      ],
+      "15:23": [
+        "letter:pl",
+        "greeting",
+        "kjv_antioch_acts and kjv_syria and kjv_cilicia_acts"
+      ],
+      "15:24": [
+        "wesg hear:perf",
+        "your/soul:pl kjv_overthrow:cv",
+        "kjv_circumcise:psv:must and law keep:must",
+        "wesg no such command"
+      ],
+      "15:25": [
+        "to wesg good seem:pa",
+        "one_num agree:ev",
+        "ourone/beloved"
+      ],
+      "15:26": [
+        "life:pl",
+        "ourone/kjv_lord",
+        "risk:perf"
+      ],
+      "15:27": [
+        "wesg therefore kjv_judas_barsabas_acts and kjv_silas_acts",
+        "same thing:pl by mouth"
+      ],
+      "15:28": [
+        "to holy spirit and to wesg",
+        "no greater burden"
+      ],
+      "15:29": [
+        "food:pl to idol:pl offer:psv:adj",
+        "blood",
+        "kjv_strangle_acts:psv:adj",
+        "kjv_fornication away keep:pr",
+        "well fare:imp"
+      ],
+      "15:30": [
+        "kjv_antioch_acts",
+        "letter deliver:pa"
+      ],
+      "15:31": [
+        "read:pp",
+        "comfort:ev rejoice:pa"
+      ],
+      "15:32": [
+        "kjv_judas_barsabas_acts and kjv_silas_acts",
+        "prophet:pl",
+        "many word:pl",
+        "confirm:pa"
+      ],
+      "15:33": [
+        "in peace from brother:pl to kjv_apostle:pl"
+      ],
+      "15:34": [
+        "yet kjv_silas_acts there still remain:inf"
+      ],
+      "15:35": [
+        "many other:pl also"
+      ],
+      "15:36": [
+        "we:du again go:opt",
+        "ourone/brother:pl",
+        "where we:du",
+        "how they do:pr"
+      ],
+      "15:37": [
+        "with they:du kjv_john_mark_acts",
+        "kjv_mark_surname_acts"
+      ],
+      "15:38": [
+        "with they:du he:a take:inf good think:neg:pa",
+        "kjv_pamphylia_acts",
+        "go:neg:pa"
+      ],
+      "15:39": [
+        "between they:du contend:ev so sharp",
+        "from each other apart",
+        "kjv_barnabas_acts kjv_mark_surname_acts",
+        "kjv_cyprus_acts"
+      ],
+      "15:40": [
+        "kjv_paul_acts kjv_silas_acts choose:pa",
+        "grace of god"
+      ],
+      "15:41": [
+        "kjv_syria and kjv_cilicia_acts",
+        "kjv_church_assembly:pl"
+      ],
+      "16:1": [
+        "kjv_timotheus_acts",
+        "woman who kjv_jew be:pa and believe:pa",
+        "father greek"
+      ],
+      "16:2": [
+        "kjv_lystra_acts and kjv_iconium_acts",
+        "well report:psv:pa"
+      ],
+      "16:3": [
+        "kjv_circumcise:pa because of kjv_jew:pl",
+        "all that his/father greek"
+      ],
+      "16:4": [
+        "decree:pl",
+        "kjv_apostle:pl and kjv_elder:pl",
+        "keep:inf"
+      ],
+      "16:5": [
+        "kjv_establish:psv:pa",
+        "kjv_number:ev daily"
+      ],
+      "16:6": [
+        "kjv_phrygia_acts",
+        "kjv_galatia_acts",
+        "holy spirit",
+        "kjv_asia_acts proclaim:inf forbid:psv:pa"
+      ],
+      "16:7": [
+        "kjv_mysia_acts",
+        "kjv_bithynia_acts go:inf try:pa",
+        "spirit they:a allow:neg:pa"
+      ],
+      "16:8": [
+        "kjv_mysia_acts by pass:cv",
+        "kjv_troas_acts"
+      ],
+      "16:9": [
+        "vision",
+        "kjv_macedonia_acts",
+        "wesg:a help:imp"
+      ],
+      "16:10": [
+        "wesg",
+        "kjv_lord wesg:a",
+        "to they proclaim:inf"
+      ],
+      "16:11": [
+        "wesg with straight course",
+        "kjv_samothracia_acts",
+        "next day to kjv_neapolis_acts"
+      ],
+      "16:12": [
+        "chief city of that part",
+        "kjv_colony_acts",
+        "wesg",
+        "certain day:pl"
+      ],
+      "16:13": [
+        "wesg",
+        "river side",
+        "prayer by custom",
+        "woman:pl"
+      ],
+      "16:14": [
+        "kjv_lydia_woman_acts purple sell:ag",
+        "kjv_thyatira_acts",
+        "god kjv_worship:pa wesg:a hear:pa",
+        "heart kjv_lord open:pa"
+      ],
+      "16:15": [
+        "her/kjv_household",
+        "wesg:a",
+        "if i:a",
+        "my/house"
+      ],
+      "16:16": [
+        "wesg",
+        "spirit of kjv_divine:ev",
+        "her/master:pl",
+        "much gain"
+      ],
+      "16:17": [
+        "kjv_paul_acts and wesg:a",
+        "most high god",
+        "to wesg way of save:ev"
+      ],
+      "16:18": [
+        "many day:pl",
+        "i in name of kjv_jesus_matthew kjv_christ_title",
+        "same hour"
+      ],
+      "16:19": [
+        "hope of their/gain:pl gone",
+        "kjv_paul_acts and kjv_silas_acts",
+        "they:du:a draw:pa"
+      ],
+      "16:20": [
+        "they:du:a",
+        "ourone/city",
+        "into kjv_trouble put:pr"
+      ],
+      "16:21": [
+        "for wesg receive:inf lawful be:neg:pr nor keep:inf lawful be:neg:pr",
+        "kjv_roman_john:pl"
+      ],
+      "16:22": [
+        "against they:du",
+        "clothing off kjv_rend:pa",
+        "they:du:a beat:inf"
+      ],
+      "16:23": [
+        "many kjv_stripe_blow:pl",
+        "prison they:du:a",
+        "safely keep:inf"
+      ],
+      "16:24": [
+        "such command",
+        "inside prison",
+        "kjv_stocks_feet kjv_firmly bind:pa"
+      ],
+      "16:25": [
+        "midnight",
+        "kjv_paul_acts and kjv_silas_acts",
+        "kjv_prisoner:pl they:du:a hear:pa"
+      ],
+      "16:26": [
+        "great earthquake",
+        "kjv_foundation:pl",
+        "all door:pl",
+        "each/kjv_binding_band:pl"
+      ],
+      "16:27": [
+        "his/sword",
+        "himself kill:inf intend:pa",
+        "kjv_prisoner:pl flee:pp suppose:cv"
+      ],
+      "16:28": [
+        "thyself no harm do:imp",
+        "wesg all here"
+      ],
+      "16:29": [
+        "light",
+        "tremble:cv",
+        "kjv_paul_acts and kjv_silas_acts"
+      ],
+      "16:30": [
+        "they:du:a",
+        "what i to save:psv:inf do:must:q"
+      ],
+      "16:31": [
+        "they:du say:pa",
+        "believe:imp",
+        "thou save:psv:fu and thy/house"
+      ],
+      "16:32": [
+        "word of kjv_lord",
+        "all who in his/house"
+      ],
+      "16:33": [
+        "same hour of night",
+        "their/kjv_stripe_blow:pl wash:pa",
+        "all who to he belong:pr immediately"
+      ],
+      "16:34": [
+        "food before they:du",
+        "with all his/house believe:cv"
+      ],
+      "16:35": [
+        "kjv_magistrate:pl kjv_serjeant_acts:pl",
+        "go:inf let:imp"
+      ],
+      "16:36": [
+        "you:du go:inf",
+        "in peace go:imp"
+      ],
+      "16:37": [
+        "we:du:a manifest:adv condemn:neg:psv:adj",
+        "kjv_roman_john:pl",
+        "secretly",
+        "themselves come:opt"
+      ],
+      "16:38": [
+        "kjv_serjeant_acts:pl",
+        "they:du kjv_roman_john:pl",
+        "fear:pa"
+      ],
+      "16:39": [
+        "they:du:a beseech:pa",
+        "depart:inf they:du:a desire:pa"
+      ],
+      "16:40": [
+        "kjv_lydia_woman_acts",
+        "brother:pl",
+        "comfort:pa and depart:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "15:13",
+        "16:15",
+        "16:18",
+        "16:30"
+      ],
+      "ipl": [
+        "15:16"
+      ],
+      "wesg": [
+        "14:11",
+        "14:17",
+        "14:22",
+        "15:10",
+        "15:11",
+        "15:19",
+        "15:20",
+        "15:24",
+        "15:25",
+        "15:27",
+        "15:28",
+        "15:7",
+        "15:8",
+        "15:9",
+        "16:10",
+        "16:11",
+        "16:12",
+        "16:13",
+        "16:14",
+        "16:15",
+        "16:16",
+        "16:17",
+        "16:21",
+        "16:28",
+        "16:9"
+      ],
+      "wepl": [],
+      "mypl": [
+        "15:17"
+      ],
+      "ourone": [
+        "14:17",
+        "15:10",
+        "15:25",
+        "15:26",
+        "15:36",
+        "16:20"
+      ],
+      "iplself": [],
+      "we:du": [
+        "14:15",
+        "15:36",
+        "16:37"
+      ],
+      "they:du": [
+        "14:1",
+        "15:12",
+        "15:37",
+        "15:38",
+        "15:39",
+        "16:19",
+        "16:20",
+        "16:22",
+        "16:23",
+        "16:24",
+        "16:25",
+        "16:30",
+        "16:31",
+        "16:33",
+        "16:34",
+        "16:38",
+        "16:39"
+      ],
+      "you:du": [
+        "16:36"
+      ]
+    },
+    "physicalDualReferences": [
+      "14:1",
+      "14:15",
+      "15:12",
+      "15:36",
+      "15:37",
+      "15:38",
+      "15:39",
+      "16:19",
+      "16:20",
+      "16:22",
+      "16:23",
+      "16:24",
+      "16:25",
+      "16:30",
+      "16:31",
+      "16:33",
+      "16:34",
+      "16:36",
+      "16:37",
+      "16:38",
+      "16:39"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "First and one-accord retained;physical dual membership distinct from coordinated both groups.",
+      "Missionary dual,communal council and travelling singular-we differ from quoted divine plural-self and personal speakers."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "109new verses;600Acts;whole Bible incomplete.",
+      "Full council wording,Silas staying,circumcision action alongside decree,sharp missionary split and unnamed narrator retained.",
+      "Three common and twenty-one proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Acts — incomplete Bible working text",
+    "pages": 356,
+    "spreads": 178,
+    "units": 600,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "6c264adab740d712eb5a1f24930b6513142575bd86467c8abb5f4cbe33c66b98",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 178,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.27,
+    "modules": [
+      "tests.test_kjv_acts_disputed_unity",
+      "tests.test_kjv_acts_commissioned_selves",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    355,
+    356
+  ],
+  "status": "incomplete Bible;Acts1–16 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 355,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv228\\preflight-acts\\Proofs\\page-355.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv228\\composed-acts\\Proofs\\page-355.png",
+        "sha256": "c1e094486f8bb3dd5cf2f1909a6f8103d8ad8400968631b39cb119f5b6059f50",
+        "bytesIdentical": true
+      },
+      {
+        "page": 356,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv228\\preflight-acts\\Proofs\\page-356.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv228\\composed-acts\\Proofs\\page-356.png",
+        "sha256": "399573b7d1a0e451309710c69dcb3f85f02c418885272ae619d0c2d859b2fee2",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

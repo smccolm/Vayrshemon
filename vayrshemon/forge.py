@@ -19,6 +19,10 @@ FORMAT = 'vayrshemon.forge'
 VERSION = '1.0.0'
 SUPPORTED_VERSIONS = ('1.0.0','1.1.0','1.2.0','1.3.0','1.4.0')
 NAME = re.compile(r'^[A-Za-z0-9][A-Za-z0-9._-]{0,79}$')
+# A complete KJV has31,102 verses; keep its reviewed examples in one project.
+MAX_PAGE_TESTS = 40000
+MAX_WIKI_ARTICLES = 2000
+MAX_SNAPSHOT_BYTES = 256 * 1024 * 1024
 
 
 def encoded(value):
@@ -44,11 +48,13 @@ def validate(snapshot):
     required={'language','wiki','tests','decisions','research'}
     if not required<=set(snapshot)<=required|{'laboratory','variation','spelling','reading'}:
         raise ValueError('FORGE_SNAPSHOT_FIELDS')
-    if len(encoded(snapshot)) > 32*1024*1024: raise ValueError('FORGE_SNAPSHOT_LIMIT')
+    if len(encoded(snapshot)) > MAX_SNAPSHOT_BYTES: raise ValueError('FORGE_SNAPSHOT_LIMIT')
     validate_data(snapshot['language'])
+    rules={r['id'] for r in snapshot['language']['grammar']}
     for kind in ('wiki', 'tests'):
         values=snapshot[kind]
-        if not isinstance(values,list) or len(values)>2000: raise ValueError('FORGE_COLLECTION_LIMIT')
+        limit=MAX_WIKI_ARTICLES if kind=='wiki' else MAX_PAGE_TESTS
+        if not isinstance(values,list) or len(values)>limit: raise ValueError('FORGE_COLLECTION_LIMIT')
         seen=set()
         for row in values:
             if not isinstance(row,dict) or not NAME.fullmatch(row.get('id','')) or row['id'] in seen:
@@ -57,7 +63,6 @@ def validate(snapshot):
             fields={'id','title','body','ruleIds'} if kind=='wiki' else {'id','title','paragraphs','ruleIds'}
             if set(row) not in (fields, fields|{'caseIds'} if kind=='tests' else fields) or not isinstance(row['title'],str) or len(row['title'])>200:
                 raise ValueError('FORGE_RECORD_FIELDS')
-            rules={r['id'] for r in snapshot['language']['grammar']}
             if not isinstance(row['ruleIds'],list) or not set(row['ruleIds'])<=rules:
                 raise ValueError('FORGE_RULE_REFERENCE_MISSING')
             if kind=='wiki':

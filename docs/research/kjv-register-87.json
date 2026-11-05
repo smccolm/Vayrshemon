@@ -1,0 +1,761 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.87",
+    "parentVersion": "0.10-kjv.86",
+    "parentHead": "d518be57e047c170481bd1d702681c291864a3ee664fc102db3f04c3972328fb",
+    "head": "db3336815baf8608d38a31096e0a19e02c30d0eac87f14f11b70b9117019520f",
+    "newLexicalEntries": 2,
+    "newProperEntries": 1,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 98,
+    "exactCompilerCases": 98,
+    "newAuthoredVerses": 96,
+    "revisedPreviousTargetVerses": 2,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 170,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19689,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 96,
+    "chronicles2Verses": 170,
+    "authoredVerses": 11413,
+    "remainingVerses": 19689,
+    "originalSourceHashUnchanged": true,
+    "allUnrevisedPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetReferences": [
+      "4:8",
+      "4:19"
+    ],
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "2 Chronicles 5:3",
+        "source": "Wherefore all the men of Israel assembled themselves unto the king in the feast which was in the seventh month.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 5:10",
+        "source": "There was nothing in the ark save the two tables which Moses put therein at Horeb, when the LORD made a covenant with the children of Israel, when they came out of Egypt.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 5:12",
+        "source": "Also the Levites which were the singers, all of them of Asaph, of Heman, of Jeduthun, with their sons and their brethren, being arrayed in white linen, having cymbals and psalteries and harps, stood at the east end of the altar, and with them an hundred and twenty priests sounding with trumpets:)",
+        "expectedDecimalQuantities": [
+          120
+        ],
+        "targetQuantities": [
+          120
+        ]
+      },
+      {
+        "reference": "2 Chronicles 5:13",
+        "source": "It came even to pass, as the trumpeters and singers were as one, to make one sound to be heard in praising and thanking the LORD; and when they lifted up their voice with the trumpets and cymbals and instruments of musick, and praised the LORD, saying, For he is good; for his mercy endureth for ever: that then the house was filled with a cloud, even the house of the LORD;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 6:13",
+        "source": "For Solomon had made a brasen scaffold of five cubits long, and five cubits broad, and three cubits high, and had set it in the midst of the court: and upon it he stood, and kneeled down upon his knees before all the congregation of Israel, and spread forth his hands toward heaven.",
+        "expectedDecimalQuantities": [
+          5,
+          5,
+          3
+        ],
+        "targetQuantities": [
+          5,
+          5,
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 7:5",
+        "source": "And king Solomon offered a sacrifice of twenty and two thousand oxen, and an hundred and twenty thousand sheep: so the king and all the people dedicated the house of God.",
+        "expectedDecimalQuantities": [
+          22000,
+          120000
+        ],
+        "targetQuantities": [
+          22000,
+          120000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 7:8",
+        "source": "Also at the same time Solomon kept the feast seven days, and all Israel with him, a very great congregation, from the entering in of Hamath unto the river of Egypt.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 7:9",
+        "source": "And in the eighth day they made a solemn assembly: for they kept the dedication of the altar seven days, and the feast seven days.",
+        "expectedDecimalQuantities": [
+          8,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          8,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 7:10",
+        "source": "And on the three and twentieth day of the seventh month he sent the people away into their tents, glad and merry in heart for the goodness that the LORD had shewed unto David, and to Solomon, and to Israel his people.",
+        "expectedDecimalQuantities": [
+          23,
+          7
+        ],
+        "targetQuantities": [
+          23,
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 8:1",
+        "source": "And it came to pass at the end of twenty years, wherein Solomon had built the house of the LORD, and his own house,",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "2 Chronicles 8:10",
+        "source": "And these were the chief of king Solomon’s officers, even two hundred and fifty, that bare rule over the people.",
+        "expectedDecimalQuantities": [
+          250
+        ],
+        "targetQuantities": [
+          250
+        ]
+      },
+      {
+        "reference": "2 Chronicles 8:13",
+        "source": "Even after a certain rate every day, offering according to the commandment of Moses, on the sabbaths, and on the new moons, and on the solemn feasts, three times in the year, even in the feast of unleavened bread, and in the feast of weeks, and in the feast of tabernacles.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 8:18",
+        "source": "And Huram sent him by the hands of his servants ships, and servants that had knowledge of the sea; and they went with the servants of Solomon to Ophir, and took thence four hundred and fifty talents of gold, and brought them to king Solomon.",
+        "expectedDecimalQuantities": [
+          450
+        ],
+        "targetQuantities": [
+          450
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "5:1": [
+        "all work",
+        "kjv_david his/father kjv_dedicate:pp",
+        "silver and gold and all instrument:pl"
+      ],
+      "5:2": [
+        "kjv_elder:pl",
+        "head:pl of kjv_tribe:pl",
+        "city of kjv_david which kjv_zion"
+      ],
+      "5:3": [
+        "seven:ord month"
+      ],
+      "5:4": [
+        "kjv_levite:pl kjv_ark_chest:a up take:pa"
+      ],
+      "5:5": [
+        "kjv_tabernacle of kjv_congregation",
+        "priest:pl and kjv_levite:pl"
+      ],
+      "5:6": [
+        "sheep and ox:pl",
+        "count:psv:neg:pa:can",
+        "kjv_number:psv:neg:pa:can"
+      ],
+      "5:7": [
+        "kjv_oracle_chamber",
+        "most holy place",
+        "under wing:pl"
+      ],
+      "5:8": [
+        "their/wing:pl",
+        "its/kjv_stave:pl"
+      ],
+      "5:9": [
+        "from kjv_ark_chest before kjv_oracle_chamber",
+        "outside see:psv:neg:pa",
+        "this day"
+      ],
+      "5:10": [
+        "nothing except two table:pl",
+        "kjv_horeb",
+        "from egypt"
+      ],
+      "5:11": [
+        "all priest:pl",
+        "by kjv_service_order wait:neg:pa"
+      ],
+      "5:12": [
+        "kjv_asaph_singer",
+        "kjv_heman_singer",
+        "kjv_jeduthun",
+        "white linen",
+        "hundred and twenty priest:pl"
+      ],
+      "5:13": [
+        "as one_num",
+        "one_num sound:a",
+        "thank:ev",
+        "his/mercy forever",
+        "with cloud"
+      ],
+      "5:14": [
+        "stand:neg:pa:can",
+        "glory of kjv_lord"
+      ],
+      "6:1": [
+        "thick darkness"
+      ],
+      "6:2": [
+        "i house of dwell:ev",
+        "forever"
+      ],
+      "6:3": [
+        "his/face:a turn:pa",
+        "whole kjv_congregation",
+        "stand:pa"
+      ],
+      "6:4": [
+        "his/hand:pl",
+        "his/mouth to my/father"
+      ],
+      "6:5": [
+        "ipl mypl/people",
+        "no city",
+        "neither ipl any man"
+      ],
+      "6:6": [
+        "ipl kjv_jerusalem",
+        "mypl/name",
+        "kjv_david"
+      ],
+      "6:7": [
+        "heart of kjv_david my/father"
+      ],
+      "6:8": [
+        "kjv_david my/father",
+        "mypl/name",
+        "thou well do:pa"
+      ],
+      "6:9": [
+        "build:neg:fu",
+        "thy/son",
+        "thy/kjv_loins",
+        "mypl/name"
+      ],
+      "6:10": [
+        "i in place of kjv_david",
+        "throne of kjv_israel",
+        "build:perf"
+      ],
+      "6:11": [
+        "i kjv_ark_chest",
+        "kjv_covenant"
+      ],
+      "6:12": [
+        "before altar",
+        "his/hand:pl:a spread:pa"
+      ],
+      "6:13": [
+        "kjv_scaffold of kjv_brass",
+        "five kjv_cubit:pl long",
+        "five kjv_cubit:pl broad",
+        "kjv_three kjv_cubit:pl high",
+        "kneel:pa down"
+      ],
+      "6:14": [
+        "no god like thee",
+        "kjv_covenant:a keep:pr",
+        "all their/heart:pl"
+      ],
+      "6:15": [
+        "my/father",
+        "thy/mouth",
+        "thine hand"
+      ],
+      "6:16": [
+        "my/father",
+        "mypl/sight",
+        "yet if thy/child:pl",
+        "mypl/law",
+        "before ipl"
+      ],
+      "6:17": [
+        "thy/word",
+        "true declare:psv:imp"
+      ],
+      "6:18": [
+        "heaven of heaven:pl",
+        "contain:neg:pr:can",
+        "which i build:perf",
+        "can:excl"
+      ],
+      "6:19": [
+        "prayer of thy/servant",
+        "his/kjv_supplication",
+        "my/god"
+      ],
+      "6:20": [
+        "thine eye:pl",
+        "day and night",
+        "towards this place"
+      ],
+      "6:21": [
+        "towards this place",
+        "from heaven",
+        "forgive:imp"
+      ],
+      "6:22": [
+        "against his/neighbour",
+        "oath",
+        "swear:caus:inf"
+      ],
+      "6:23": [
+        "his/own head",
+        "kjv_righteous declare:cv",
+        "his/kjv_righteousness"
+      ],
+      "6:24": [
+        "defeat:psv:pr",
+        "thy/name:a confess:fu"
+      ],
+      "6:25": [
+        "heaven:pl",
+        "their/father:pl"
+      ],
+      "6:26": [
+        "no rain",
+        "from their/sin turn:pr",
+        "kjv_afflict:pr"
+      ],
+      "6:27": [
+        "good way:a teach:perf",
+        "rain:a",
+        "inheritance"
+      ],
+      "6:28": [
+        "kjv_famine",
+        "kjv_pestilence",
+        "kjv_blasting",
+        "kjv_mildew",
+        "kjv_locust:pl",
+        "kjv_caterpiller:pl",
+        "besiege:pr"
+      ],
+      "6:29": [
+        "any man",
+        "each man his/own plague and his/own grief"
+      ],
+      "6:30": [
+        "to each man",
+        "thou only heart:pl"
+      ],
+      "6:31": [
+        "ourone/father:pl"
+      ],
+      "6:32": [
+        "of thy/people kjv_israel be:neg:pr",
+        "far country",
+        "if they"
+      ],
+      "6:33": [
+        "stranger",
+        "all people of earth",
+        "which i build:perf"
+      ],
+      "6:34": [
+        "their/enemy:pl",
+        "city which thou choose:perf",
+        "which i for thy/name build:perf"
+      ],
+      "6:35": [
+        "their/kjv_legal_case:a support:imp"
+      ],
+      "6:36": [
+        "no man which sin:neg:pr",
+        "far or near"
+      ],
+      "6:37": [
+        "their/kjv_captivity",
+        "wesg sin:perf wesg wrong do:perf",
+        "wicked:adv act:perf"
+      ],
+      "6:38": [
+        "all their/heart and with all their/soul",
+        "their/kjv_captivity",
+        "towards their/land",
+        "which i"
+      ],
+      "6:39": [
+        "their/kjv_legal_case:a support:imp",
+        "thy/people:a forgive:imp"
+      ],
+      "6:40": [
+        "my/god i thee:a beseech:pr",
+        "thine eye:pl",
+        "thine ear:pl"
+      ],
+      "6:41": [
+        "thy/rest:ev place",
+        "thou and kjv_ark_chest",
+        "with salvation clothe:psv:imp"
+      ],
+      "6:42": [
+        "thy/anoint:psv:ag",
+        "mercy:pl of kjv_david"
+      ],
+      "7:1": [
+        "fire from heaven",
+        "consume:pa",
+        "glory"
+      ],
+      "7:2": [
+        "enter:neg:pa:can"
+      ],
+      "7:3": [
+        "their/face:pl to ground on kjv_pavement",
+        "his/mercy forever"
+      ],
+      "7:4": [
+        "king and all people"
+      ],
+      "7:5": [
+        "twenty+thousand and two+thousand ox:pl",
+        "hundred+thousand and twenty+thousand sheep"
+      ],
+      "7:6": [
+        "their/duty:pl",
+        "kjv_david make:pp",
+        "their/service",
+        "all kjv_israel stand:pa"
+      ],
+      "7:7": [
+        "middle of kjv_court_enclosure",
+        "fat of peace kjv_offering:pl",
+        "kjv_meat_offering:pl",
+        "receive:neg:pa:can"
+      ],
+      "7:8": [
+        "seven day:pl",
+        "kjv_hamath to river of egypt"
+      ],
+      "7:9": [
+        "eight:ord day",
+        "kjv_dedicate:ev of altar:a seven day:pl",
+        "feast:a seven day:pl"
+      ],
+      "7:10": [
+        "twenty and kjv_three:ord day of seven:ord month",
+        "their/tent:pl"
+      ],
+      "7:11": [
+        "house of kjv_lord and house of king",
+        "his/own house",
+        "with success"
+      ],
+      "7:12": [
+        "by night",
+        "ipl thy/prayer",
+        "to iplself"
+      ],
+      "7:13": [
+        "ipl heaven:a shut:pr",
+        "kjv_locust:pl",
+        "mypl/people"
+      ],
+      "7:14": [
+        "mypl/name",
+        "humble:caus:fu",
+        "mypl/face",
+        "turn:fu",
+        "hear:fu",
+        "forgive:fu",
+        "heal:fu"
+      ],
+      "7:15": [
+        "mypl/eye:pl",
+        "mypl/ear:pl"
+      ],
+      "7:16": [
+        "ipl this house:a choose:perf and sanctify:perf",
+        "mypl/name",
+        "mypl/heart",
+        "always"
+      ],
+      "7:17": [
+        "if thou before ipl",
+        "mypl/kjv_statute:pl"
+      ],
+      "7:18": [
+        "ipl throne",
+        "kjv_covenant",
+        "lack:neg:fu"
+      ],
+      "7:19": [
+        "if you:pl",
+        "mypl/command:pl",
+        "before you:pl",
+        "other god:pl"
+      ],
+      "7:20": [
+        "ipl they:a by root:pl",
+        "mypl/land",
+        "mypl/sight",
+        "proverb and kjv_byword"
+      ],
+      "7:21": [
+        "high be:pr",
+        "each man",
+        "why kjv_lord"
+      ],
+      "7:22": [
+        "god of their/father:pl",
+        "from land of egypt",
+        "other god:pl",
+        "all this evil"
+      ],
+      "8:1": [
+        "twenty year:pl",
+        "his/own house"
+      ],
+      "8:2": [
+        "kjv_huram_king to kjv_solomon restore:pp",
+        "dwell:caus:pa"
+      ],
+      "8:3": [
+        "kjv_hamathzobah",
+        "prevail:pa"
+      ],
+      "8:4": [
+        "kjv_tadmor",
+        "kjv_wilderness",
+        "store city:pl"
+      ],
+      "8:5": [
+        "kjv_upper",
+        "lower",
+        "fortify:psv",
+        "bar:pl"
+      ],
+      "8:6": [
+        "kjv_baalath",
+        "chariot city:pl",
+        "kjv_horseman:pl",
+        "kjv_lebanon"
+      ],
+      "8:7": [
+        "kjv_hittite:pl",
+        "kjv_amorite:pl",
+        "kjv_perizzite:pl",
+        "kjv_hivite:pl",
+        "kjv_jebusite:pl",
+        "kjv_israel be:neg:pa"
+      ],
+      "8:8": [
+        "consume:neg:pp",
+        "kjv_tribute:a pay:caus:pa"
+      ],
+      "8:9": [
+        "no servant:pl",
+        "man:pl of war"
+      ],
+      "8:10": [
+        "two+hundred and fifty"
+      ],
+      "8:11": [
+        "daughter of kjv_pharaoh",
+        "my/wife",
+        "holy be:pr"
+      ],
+      "8:12": [
+        "burn:psv kjv_offering:pl",
+        "before kjv_porch"
+      ],
+      "8:13": [
+        "each day",
+        "kjv_sabbath:pl",
+        "new moon:pl",
+        "kjv_three time:pl",
+        "bread without kjv_leaven",
+        "feast of week:pl",
+        "feast of kjv_tabernacle:pl"
+      ],
+      "8:14": [
+        "kjv_service_order:pl",
+        "kjv_gatekeeper:pl",
+        "each gate"
+      ],
+      "8:15": [
+        "treasure:pl depart:neg:pa"
+      ],
+      "8:16": [
+        "kjv_foundation",
+        "complete:psv:pa"
+      ],
+      "8:17": [
+        "kjv_eziongeber",
+        "kjv_eloth",
+        "kjv_edom"
+      ],
+      "8:18": [
+        "knowledge of sea",
+        "kjv_ophir",
+        "four+hundred and fifty kjv_talent_weight:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "6:10",
+        "6:11",
+        "6:18",
+        "6:2",
+        "6:33",
+        "6:34",
+        "6:38",
+        "6:40"
+      ],
+      "ipl": [
+        "6:16",
+        "6:5",
+        "6:6",
+        "7:12",
+        "7:13",
+        "7:14",
+        "7:16",
+        "7:17",
+        "7:18",
+        "7:19",
+        "7:20"
+      ],
+      "mypl": [
+        "6:16",
+        "6:5",
+        "6:6",
+        "6:8",
+        "6:9",
+        "7:13",
+        "7:14",
+        "7:15",
+        "7:16",
+        "7:17",
+        "7:19",
+        "7:20"
+      ],
+      "iplself": [
+        "7:12"
+      ],
+      "wesg": [
+        "6:37"
+      ],
+      "wepl": [],
+      "ourone": [
+        "6:31"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Seventh month,two tablets,120priests,two sound-unities,5/5/3platform,22000oxen/120000sheep,7+7days/eighthassembly,23/7departure,20years,250officers,3feasts,450talents; Chronicles is not harmonized to Kings."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Personal Solomon,embedded divine plural-self,collective-singular captive confession and plural ye remain distinct. No divine person-count supplied.",
+      "Two furniture-table corrections in a new87copy;86and all other seals unchanged. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Chronicles — incomplete Bible working text",
+    "pages": 140,
+    "spreads": 70,
+    "units": 170,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "e0355253aaef80e6cb0fae892422837516c7aab785a15bc4c6cd68a3523e2f84",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 70,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.359,
+    "modules": [
+      "tests.test_kjv_chronicles_dedication_confession",
+      "tests.test_kjv_chronicles_temple_inventory",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    139,
+    140
+  ],
+  "status": "incomplete Bible; section checkpoint verified"
+}

@@ -42,7 +42,8 @@ class ReliabilityAPI(LanguageAPI):
         if method=='ui.inspect': return dict(super().dispatch(method,params),navigation=s.window.preview.navigation_state() if s.window else None)
         if method=='session.status': return dict(super().dispatch(method,params),lastBackup=s.last_backup,backupError=s.backup_error)
         if method=='performance.inspect': return dict(shaping=s.story_cache.info(),pageCompositions=len(s._composition_cache),
-            maxPageCompositions=2,paintTileCacheBytes=96*1024*1024,maxDocumentScalars=200000,maxFrames=128,
+            paintGeometry=s.paint_renderer.geometry_info(),
+            maxPageCompositions=2,paintTileCacheBytes=96*1024*1024,maxDocumentScalars=s.max_document_scalars,maxFrames=s.max_frames,
             maxGlyphsPerConnectedPageComponent=20000,backgroundConcurrency=1)
         if method=='backup.create':
             if s.dirty or not s.saved_path: raise ValueError('SAVE_BEFORE_BACKUP: bundle only a known saved revision')

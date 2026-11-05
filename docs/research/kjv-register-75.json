@@ -1,0 +1,818 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.75",
+    "parentVersion": "0.10-kjv.74",
+    "parentHead": "a800801da075d1c8e3403e2ef68220175ee2941c0f7b7d4f54f20342b0fb4807",
+    "head": "a2370d5cdf4e0b1db4c15292110215fbf0a41aa86ef5f338ca4947d8f8b5e9fb",
+    "newLexicalEntries": 24,
+    "newProperEntries": 19,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 18,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 3,
+    "newForgeFixtures": 66,
+    "exactCompilerCases": 66,
+    "newAuthoredVerses": 50,
+    "revisedPreviousTargetVerses": 16,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20801,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 50,
+    "kings2Verses": 719,
+    "authoredVerses": 10301,
+    "remainingVerses": 20801,
+    "originalSourceHashUnchanged": true,
+    "revisedPreviousTargetVerses": 16,
+    "contextualRightUsesReviewed": 20,
+    "contextualRightUsesRetained": 4,
+    "allOtherPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 17,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 24:1",
+        "source": "In his days Nebuchadnezzar king of Babylon came up, and Jehoiakim became his servant three years: then he turned and rebelled against him.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 24:8",
+        "source": "Jehoiachin was eighteen years old when he began to reign, and he reigned in Jerusalem three months. And his mother’s name was Nehushta, the daughter of Elnathan of Jerusalem.",
+        "expectedDecimalQuantities": [
+          18,
+          3
+        ],
+        "targetQuantities": [
+          18,
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 24:12",
+        "source": "And Jehoiachin the king of Judah went out to the king of Babylon, he, and his mother, and his servants, and his princes, and his officers: and the king of Babylon took him in the eighth year of his reign.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "2 Kings 24:14",
+        "source": "And he carried away all Jerusalem, and all the princes, and all the mighty men of valour, even ten thousand captives, and all the craftsmen and smiths: none remained, save the poorest sort of the people of the land.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "2 Kings 24:16",
+        "source": "And all the men of might, even seven thousand, and craftsmen and smiths a thousand, all that were strong and apt for war, even them the king of Babylon brought captive to Babylon.",
+        "expectedDecimalQuantities": [
+          7000,
+          1000
+        ],
+        "targetQuantities": [
+          7000,
+          1000
+        ]
+      },
+      {
+        "reference": "2 Kings 24:18",
+        "source": "Zedekiah was twenty and one years old when he began to reign, and he reigned eleven years in Jerusalem. And his mother’s name was Hamutal, the daughter of Jeremiah of Libnah.",
+        "expectedDecimalQuantities": [
+          21,
+          11
+        ],
+        "targetQuantities": [
+          21,
+          11
+        ]
+      },
+      {
+        "reference": "2 Kings 25:1",
+        "source": "And it came to pass in the ninth year of his reign, in the tenth month, in the tenth day of the month, that Nebuchadnezzar king of Babylon came, he, and all his host, against Jerusalem, and pitched against it; and they built forts against it round about.",
+        "expectedDecimalQuantities": [
+          9,
+          10,
+          10
+        ],
+        "targetQuantities": [
+          9,
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "2 Kings 25:2",
+        "source": "And the city was besieged unto the eleventh year of king Zedekiah.",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "2 Kings 25:3",
+        "source": "And on the ninth day of the fourth month the famine prevailed in the city, and there was no bread for the people of the land.",
+        "expectedDecimalQuantities": [
+          9,
+          4
+        ],
+        "targetQuantities": [
+          9,
+          4
+        ]
+      },
+      {
+        "reference": "2 Kings 25:4",
+        "source": "And the city was broken up, and all the men of war fled by night by the way of the gate between two walls, which is by the king’s garden: (now the Chaldees were against the city round about:) and the king went the way toward the plain.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 25:8",
+        "source": "And in the fifth month, on the seventh day of the month, which is the nineteenth year of king Nebuchadnezzar king of Babylon, came Nebuzaradan, captain of the guard, a servant of the king of Babylon, unto Jerusalem:",
+        "expectedDecimalQuantities": [
+          5,
+          7,
+          19
+        ],
+        "targetQuantities": [
+          5,
+          7,
+          19
+        ]
+      },
+      {
+        "reference": "2 Kings 25:16",
+        "source": "The two pillars, one sea, and the bases which Solomon had made for the house of the LORD; the brass of all these vessels was without weight.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 25:17",
+        "source": "The height of the one pillar was eighteen cubits, and the chapiter upon it was brass: and the height of the chapiter three cubits; and the wreathen work, and pomegranates upon the chapiter round about, all of brass: and like unto these had the second pillar with wreathen work.",
+        "expectedDecimalQuantities": [
+          1,
+          18,
+          3,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          18,
+          3,
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 25:18",
+        "source": "And the captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the door:",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 25:19",
+        "source": "And out of the city he took an officer that was set over the men of war, and five men of them that were in the king’s presence, which were found in the city, and the principal scribe of the host, which mustered the people of the land, and threescore men of the people of the land that were found in the city:",
+        "expectedDecimalQuantities": [
+          5,
+          60
+        ],
+        "targetQuantities": [
+          5,
+          60
+        ]
+      },
+      {
+        "reference": "2 Kings 25:25",
+        "source": "But it came to pass in the seventh month, that Ishmael the son of Nethaniah, the son of Elishama, of the seed royal, came, and ten men with him, and smote Gedaliah, that he died, and the Jews and the Chaldees that were with him at Mizpah.",
+        "expectedDecimalQuantities": [
+          7,
+          10
+        ],
+        "targetQuantities": [
+          7,
+          10
+        ]
+      },
+      {
+        "reference": "2 Kings 25:27",
+        "source": "And it came to pass in the seven and thirtieth year of the captivity of Jehoiachin king of Judah, in the twelfth month, on the seven and twentieth day of the month, that Evilmerodach king of Babylon in the year that he began to reign did lift up the head of Jehoiachin king of Judah out of prison;",
+        "expectedDecimalQuantities": [
+          37,
+          12,
+          27
+        ],
+        "targetQuantities": [
+          37,
+          12,
+          27
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "24:1": [
+        "nebuchadnezzar king of kjv_babylon",
+        "kjv_three year:pl",
+        "rebel:pa"
+      ],
+      "24:2": [
+        "band:pl of kjv_chaldees",
+        "band:pl of kjv_syrian:pl",
+        "band:pl of kjv_moabites",
+        "child:pl of kjv_ammon",
+        "by his/servant:pl prophet:pl"
+      ],
+      "24:3": [
+        "command:ev of kjv_lord",
+        "kjv_manasseh_hezekiah"
+      ],
+      "24:4": [
+        "innocent blood",
+        "pardon:inf refuse:pa"
+      ],
+      "24:5": [
+        "chronicle:pl of king:pl of kjv_judah"
+      ],
+      "24:6": [
+        "with his/father:pl sleep:pa",
+        "kjv_jehoiachin his/son"
+      ],
+      "24:7": [
+        "from river of egypt to river kjv_euphrates",
+        "belong:pa take:pp"
+      ],
+      "24:8": [
+        "ten and eight year:pl",
+        "kjv_three month:pl",
+        "kjv_nehushta daughter of kjv_elnathan_nehushta"
+      ],
+      "24:9": [
+        "his/father do:pp"
+      ],
+      "24:10": [
+        "servant:pl of nebuchadnezzar",
+        "city besiege:psv:pa"
+      ],
+      "24:11": [
+        "his/servant:pl it:a besiege:pa"
+      ],
+      "24:12": [
+        "his/mother and his/servant:pl and his/prince:pl and his/officer:pl",
+        "eight:ord year"
+      ],
+      "24:13": [
+        "vessel:pl of gold",
+        "cut:pa into piece:pl"
+      ],
+      "24:14": [
+        "ten+thousand captive:pl",
+        "artisan:pl and kjv_smith:pl",
+        "most poor kind"
+      ],
+      "24:15": [
+        "wife:pl of king",
+        "from kjv_jerusalem to kjv_babylon into kjv_captivity"
+      ],
+      "24:16": [
+        "seven+thousand",
+        "kjv_smith:pl thousand",
+        "for war apt"
+      ],
+      "24:17": [
+        "kjv_mattaniah_josiah brother of his/father",
+        "his/name:a to kjv_zedekiah_king change:pa"
+      ],
+      "24:18": [
+        "twenty and one_num year:pl",
+        "eleven year:pl",
+        "kjv_hamutal daughter of kjv_jeremiah_hamutal"
+      ],
+      "24:19": [
+        "kjv_jehoiakim do:pp"
+      ],
+      "24:20": [
+        "through anger of kjv_lord",
+        "kjv_zedekiah_king against king of kjv_babylon rebel:pa"
+      ],
+      "25:1": [
+        "nine:ord year",
+        "ten:ord month",
+        "ten:ord day",
+        "kjv_siege_fort:pl"
+      ],
+      "25:2": [
+        "eleven:ord year of king kjv_zedekiah_king"
+      ],
+      "25:3": [
+        "nine:ord day of four:ord month",
+        "no bread"
+      ],
+      "25:4": [
+        "between two wall:pl",
+        "by kjv_garden of king",
+        "[now kjv_chaldees",
+        "to kjv_plain_land"
+      ],
+      "25:5": [
+        "kjv_plain_land:pl of kjv_jericho",
+        "his/army from he scatter:psv:pa"
+      ],
+      "25:6": [
+        "to kjv_riblah_hamath",
+        "judgment:a upon he"
+      ],
+      "25:7": [
+        "son:pl of kjv_zedekiah_king:a before his/eye:pl",
+        "eye:pl of kjv_zedekiah_king:a put:pa out",
+        "fetter:pl of kjv_brass"
+      ],
+      "25:8": [
+        "five:ord month",
+        "seven:ord day",
+        "ten and nine:ord year",
+        "kjv_nebuzaradan"
+      ],
+      "25:9": [
+        "house of every great man:a",
+        "burn:caus:pa"
+      ],
+      "25:10": [
+        "wall:pl of kjv_jerusalem:a round about break:pa down"
+      ],
+      "25:11": [
+        "flee:ag:pl",
+        "kjv_defect_allegiance:pa",
+        "remainder of kjv_multitude"
+      ],
+      "25:12": [
+        "of poor of land",
+        "kjv_vinedresser:pl and kjv_husbandman:pl"
+      ],
+      "25:13": [
+        "sea of kjv_brass",
+        "into piece:pl break:pa",
+        "their/kjv_brass:a"
+      ],
+      "25:14": [
+        "kjv_pot:pl",
+        "kjv_shovel:pl",
+        "kjv_snuffer:pl",
+        "kjv_spoon:pl",
+        "with which they serve:pa"
+      ],
+      "25:15": [
+        "kjv_firepan:pl and bowl:pl",
+        "of gold be:pa in gold and of silver in silver"
+      ],
+      "25:16": [
+        "two kjv_pillar:pl one_num sea",
+        "without weigh:ev"
+      ],
+      "25:17": [
+        "ten and eight kjv_cubit:pl",
+        "kjv_chapiter kjv_three kjv_cubit:pl",
+        "pomegranate:pl",
+        "two:ord kjv_pillar"
+      ],
+      "25:18": [
+        "kjv_seraiah_priest chief priest",
+        "kjv_zephaniah_priest two:ord priest",
+        "kjv_three keep:ag:pl"
+      ],
+      "25:19": [
+        "five men",
+        "principal kjv_scribe of army",
+        "muster:pa",
+        "kjv_three+twenty men"
+      ],
+      "25:20": [
+        "these:a take:pa",
+        "to kjv_riblah_hamath"
+      ],
+      "25:21": [
+        "they:a strike:pa",
+        "they:a slay:pa",
+        "kjv_judah out of their/land"
+      ],
+      "25:22": [
+        "kjv_gedaliah_ahikam son of kjv_ahikam son of kjv_shaphan"
+      ],
+      "25:23": [
+        "kjv_ishmael_nethaniah son of kjv_nethaniah_ishmael",
+        "kjv_johanan_careah son of kjv_careah",
+        "kjv_seraiah_tanhumeth son of kjv_tanhumeth kjv_netophathite",
+        "kjv_jaazaniah_maachathite son of kjv_maachathite"
+      ],
+      "25:24": [
+        "fear:imp not",
+        "king of kjv_babylon:a serve:imp",
+        "with you well be:fu"
+      ],
+      "25:25": [
+        "seven:ord month",
+        "son of kjv_elishama_nethaniah of royal seed",
+        "ten men with he",
+        "kjv_jew:pl and kjv_chaldees"
+      ],
+      "25:26": [
+        "both small and great",
+        "to egypt come:pa",
+        "afraid"
+      ],
+      "25:27": [
+        "kjv_three+ten and seven:ord year",
+        "twelve:ord month",
+        "twenty and seven:ord day",
+        "kjv_evilmerodach",
+        "out of prison lift:pa up"
+      ],
+      "25:28": [
+        "kindly",
+        "his/throne:a above throne of king:pl"
+      ],
+      "25:29": [
+        "prison clothing:a change:pa",
+        "all day:pl of his/life",
+        "without cease:cv"
+      ],
+      "25:30": [
+        "kjv_allowance",
+        "daily amount for every day",
+        "all day:pl of his/life"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Captivity totals10000/7000/1000 retained without invented reconciliation.",
+      "Year/month/day units and eighteenth/three-cubit pillar dimensions remain exactly as supplied.",
+      "Ordinal rank and counted groups are distinct; no modern calendar conversion."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "No first-person forms inserted into source narration; fifty new verses complete2Kings while the entire Bible remains incomplete.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "preflightLayouts": {
+    "kings2": {
+      "book": "2 Kings — incomplete Bible working text",
+      "pages": 586,
+      "spreads": 293,
+      "units": 719,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "1fa898832303097e76cf8d0aa6d93efcb35f42faabdfff17a7f8233957ff1be3",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 264,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "genesis": {
+      "book": "Genesis — incomplete Bible working text",
+      "pages": 1022,
+      "spreads": 511,
+      "units": 1533,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "80ab89968d37c836658b79ef7f4b4c8788121d496e92e0423dbe75f7bc568ab6",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 510,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "numbers": {
+      "book": "Numbers — incomplete Bible working text",
+      "pages": 830,
+      "spreads": 415,
+      "units": 1288,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "84bc4d6dc38860a9dece25a5a751308e451a53014816483cf58c2d9cb26a49d3",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 411,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    }
+  },
+  "status": "Combined save/reopen, four columns and all folios verified; guide/dictionary/wiki published; Bible incomplete",
+  "nativeLayouts": {
+    "kings2": {
+      "book": "2 Kings — incomplete Bible working text",
+      "pages": 586,
+      "spreads": 293,
+      "units": 719,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 293,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "genesis": {
+      "book": "Genesis — incomplete Bible working text",
+      "pages": 1022,
+      "spreads": 511,
+      "units": 1533,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "176c6ce22a02915258a01cabf94ff6688153e0a72f8bdb47c4bdc5c56bc5c2b8",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 511,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "numbers": {
+      "book": "Numbers — incomplete Bible working text",
+      "pages": 830,
+      "spreads": 415,
+      "units": 1288,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "cc1236e5d8a51c3992f07702750cf1f8a22af52a8e5c87ab142d7114faaf941c",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 415,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    }
+  },
+  "tests": "Four tests passed9.517s: Kings exile, found-book and approved parallel translation.",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "d5d61b239a6697a570185947470aa8d68c668f7117d433b17f5a8a99b258bce0",
+    "pages": 7524,
+    "spreads": 3762,
+    "authoredVerses": 10301,
+    "missingVerses": 20801,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 15048,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Genesis.vay",
+        "sha256": "176c6ce22a02915258a01cabf94ff6688153e0a72f8bdb47c4bdc5c56bc5c2b8",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Exodus.vay",
+        "sha256": "36e827d8ff72e89213baacb89ed73052ee85a6654c80e92fe0043744f0b38ae0",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Leviticus.vay",
+        "sha256": "198ef8a0fc381e208b99e9dd83e0fe76549d174630b386872d2bcf5f3e5d696c",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Numbers.vay",
+        "sha256": "cc1236e5d8a51c3992f07702750cf1f8a22af52a8e5c87ab142d7114faaf941c",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Deuteronomy.vay",
+        "sha256": "224062c8d24fed83fc8c60cf21550b0c369977ea7fba6317f56a15bdaf9d7785",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Joshua.vay",
+        "sha256": "fa516f69c091de5aa989df2afa75fbd5572f8551e11a594dbfc6f4900fffc02e",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Judges.vay",
+        "sha256": "cbc266175edd9d15970ccd139431b4dfbf1c560c1427afd8a104b70d56d06f3f",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Ruth.vay",
+        "sha256": "046b105cf141f3dc107655da136a60ff151c7c2ff9ec92e2ec70b16b38641688",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.75\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 7483,
+        "lastPage": 7524
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.75",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.26",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.19",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.75",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.31",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.35",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 7483,
+        "lastPage": 7524,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    288,
+    3148,
+    7128,
+    7466
+  ],
+  "referencePublished": true
+}

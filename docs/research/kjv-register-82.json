@@ -1,0 +1,967 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.82",
+    "parentVersion": "0.10-kjv.81",
+    "parentHead": "cf7d7fef065f1c9b0723c203cb974abf581623648efe9ac550cc8dd07afedabf",
+    "head": "7fe66225a4ed9259807117f886c842eb60c1f45c8567bf7683d5a2d108483cf7",
+    "newLexicalEntries": 96,
+    "newProperEntries": 94,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 44,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 100,
+    "exactCompilerCases": 100,
+    "newAuthoredVerses": 100,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 568,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20233,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 100,
+    "chronicles1Verses": 568,
+    "authoredVerses": 10869,
+    "remainingVerses": 20233,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 37,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 12:4",
+        "source": "And Ismaiah the Gibeonite, a mighty man among the thirty, and over the thirty; and Jeremiah, and Jahaziel, and Johanan, and Josabad the Gederathite,",
+        "expectedDecimalQuantities": [
+          30,
+          30
+        ],
+        "targetQuantities": [
+          30,
+          30
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:9",
+        "source": "Ezer the first, Obadiah the second, Eliab the third,",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          3
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:10",
+        "source": "Mishmannah the fourth, Jeremiah the fifth,",
+        "expectedDecimalQuantities": [
+          4,
+          5
+        ],
+        "targetQuantities": [
+          4,
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:11",
+        "source": "Attai the sixth, Eliel the seventh,",
+        "expectedDecimalQuantities": [
+          6,
+          7
+        ],
+        "targetQuantities": [
+          6,
+          7
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:12",
+        "source": "Johanan the eighth, Elzabad the ninth,",
+        "expectedDecimalQuantities": [
+          8,
+          9
+        ],
+        "targetQuantities": [
+          8,
+          9
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:13",
+        "source": "Jeremiah the tenth, Machbanai the eleventh.",
+        "expectedDecimalQuantities": [
+          10,
+          11
+        ],
+        "targetQuantities": [
+          10,
+          11
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:14",
+        "source": "These were of the sons of Gad, captains of the host: one of the least was over an hundred, and the greatest over a thousand.",
+        "expectedDecimalQuantities": [
+          1,
+          100,
+          1000
+        ],
+        "targetQuantities": [
+          1,
+          100,
+          1000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:15",
+        "source": "These are they that went over Jordan in the first month, when it had overflown all his banks; and they put to flight all them of the valleys, both toward the east, and toward the west.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:20",
+        "source": "As he went to Ziklag, there fell to him of Manasseh, Adnah, and Jozabad, and Jediael, and Michael, and Jozabad, and Elihu, and Zilthai, captains of the thousands that were of Manasseh.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:24",
+        "source": "The children of Judah that bare shield and spear were six thousand and eight hundred, ready armed to the war.",
+        "expectedDecimalQuantities": [
+          6800
+        ],
+        "targetQuantities": [
+          6800
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:25",
+        "source": "Of the children of Simeon, mighty men of valour for the war, seven thousand and one hundred.",
+        "expectedDecimalQuantities": [
+          7100
+        ],
+        "targetQuantities": [
+          7100
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:26",
+        "source": "Of the children of Levi four thousand and six hundred.",
+        "expectedDecimalQuantities": [
+          4600
+        ],
+        "targetQuantities": [
+          4600
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:27",
+        "source": "And Jehoiada was the leader of the Aaronites, and with him were three thousand and seven hundred;",
+        "expectedDecimalQuantities": [
+          3700
+        ],
+        "targetQuantities": [
+          3700
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:28",
+        "source": "And Zadok, a young man mighty of valour, and of his father’s house twenty and two captains.",
+        "expectedDecimalQuantities": [
+          22
+        ],
+        "targetQuantities": [
+          22
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:29",
+        "source": "And of the children of Benjamin, the kindred of Saul, three thousand: for hitherto the greatest part of them had kept the ward of the house of Saul.",
+        "expectedDecimalQuantities": [
+          3000
+        ],
+        "targetQuantities": [
+          3000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:30",
+        "source": "And of the children of Ephraim twenty thousand and eight hundred, mighty men of valour, famous throughout the house of their fathers.",
+        "expectedDecimalQuantities": [
+          20800
+        ],
+        "targetQuantities": [
+          20800
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:31",
+        "source": "And of the half tribe of Manasseh eighteen thousand, which were expressed by name, to come and make David king.",
+        "expectedDecimalQuantities": [
+          0.5,
+          18000
+        ],
+        "targetQuantities": [
+          0.5,
+          18000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:32",
+        "source": "And of the children of Issachar, which were men that had understanding of the times, to know what Israel ought to do; the heads of them were two hundred; and all their brethren were at their commandment.",
+        "expectedDecimalQuantities": [
+          200
+        ],
+        "targetQuantities": [
+          200
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:33",
+        "source": "Of Zebulun, such as went forth to battle, expert in war, with all instruments of war, fifty thousand, which could keep rank: they were not of double heart.",
+        "expectedDecimalQuantities": [
+          50000
+        ],
+        "targetQuantities": [
+          50000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:34",
+        "source": "And of Naphtali a thousand captains, and with them with shield and spear thirty and seven thousand.",
+        "expectedDecimalQuantities": [
+          1000,
+          37000
+        ],
+        "targetQuantities": [
+          1000,
+          37000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:35",
+        "source": "And of the Danites expert in war twenty and eight thousand and six hundred.",
+        "expectedDecimalQuantities": [
+          28600
+        ],
+        "targetQuantities": [
+          28600
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:36",
+        "source": "And of Asher, such as went forth to battle, expert in war, forty thousand.",
+        "expectedDecimalQuantities": [
+          40000
+        ],
+        "targetQuantities": [
+          40000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:37",
+        "source": "And on the other side of Jordan, of the Reubenites, and the Gadites, and of the half tribe of Manasseh, with all manner of instruments of war for the battle, an hundred and twenty thousand.",
+        "expectedDecimalQuantities": [
+          0.5,
+          120000
+        ],
+        "targetQuantities": [
+          0.5,
+          120000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:38",
+        "source": "All these men of war, that could keep rank, came with a perfect heart to Hebron, to make David king over all Israel: and all the rest also of Israel were of one heart to make David king.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 12:39",
+        "source": "And there they were with David three days, eating and drinking: for their brethren had prepared for them.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 13:1",
+        "source": "And David consulted with the captains of thousands and hundreds, and with every leader.",
+        "expectedDecimalQuantities": [
+          1000,
+          100
+        ],
+        "targetQuantities": [
+          1000,
+          100
+        ]
+      },
+      {
+        "reference": "1 Chronicles 13:14",
+        "source": "And the ark of God remained with the family of Obededom in his house three months. And the LORD blessed the house of Obededom, and all that he had.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:5",
+        "source": "Of the sons of Kohath; Uriel the chief, and his brethren an hundred and twenty:",
+        "expectedDecimalQuantities": [
+          120
+        ],
+        "targetQuantities": [
+          120
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:6",
+        "source": "Of the sons of Merari; Asaiah the chief, and his brethren two hundred and twenty:",
+        "expectedDecimalQuantities": [
+          220
+        ],
+        "targetQuantities": [
+          220
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:7",
+        "source": "Of the sons of Gershom; Joel the chief and his brethren an hundred and thirty:",
+        "expectedDecimalQuantities": [
+          130
+        ],
+        "targetQuantities": [
+          130
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:8",
+        "source": "Of the sons of Elizaphan; Shemaiah the chief, and his brethren two hundred:",
+        "expectedDecimalQuantities": [
+          200
+        ],
+        "targetQuantities": [
+          200
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:9",
+        "source": "Of the sons of Hebron; Eliel the chief, and his brethren fourscore:",
+        "expectedDecimalQuantities": [
+          80
+        ],
+        "targetQuantities": [
+          80
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:10",
+        "source": "Of the sons of Uzziel; Amminadab the chief, and his brethren an hundred and twelve.",
+        "expectedDecimalQuantities": [
+          112
+        ],
+        "targetQuantities": [
+          112
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:13",
+        "source": "For because ye did it not at the first, the LORD our God made a breach upon us, for that we sought him not after the due order.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:18",
+        "source": "And with them their brethren of the second degree, Zechariah, Ben, and Jaaziel, and Shemiramoth, and Jehiel, and Unni, Eliab, and Benaiah, and Maaseiah, and Mattithiah, and Elipheleh, and Mikneiah, and Obededom, and Jeiel, the porters.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:25",
+        "source": "So David, and the elders of Israel, and the captains over thousands, went to bring up the ark of the covenant of the LORD out of the house of Obededom with joy.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 15:26",
+        "source": "And it came to pass, when God helped the Levites that bare the ark of the covenant of the LORD, that they offered seven bullocks and seven rams.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "12:1": [
+        "because of kjv_saul_israel",
+        "hidden keep:refl:pa",
+        "help:ag:pl of war"
+      ],
+      "12:2": [
+        "both kjv_right_side hand and left:a",
+        "stone:pl throw:ev",
+        "arrow:pl"
+      ],
+      "12:3": [
+        "kjv_ahiezer_shemaah then kjv_joash_shemaah son:pl of kjv_shemaah",
+        "kjv_jeziel and kjv_pelet_azmaveth"
+      ],
+      "12:4": [
+        "among thirty and over thirty",
+        "kjv_josabad kjv_gederathite"
+      ],
+      "12:5": [
+        "kjv_eluzai and kjv_jerimoth_arrivals",
+        "kjv_bealiah and kjv_shemariah",
+        "kjv_shephatiah_haruphite"
+      ],
+      "12:6": [
+        "kjv_elkanah_korhite and kjv_jesiah and kjv_azareel and kjv_joezer",
+        "kjv_jashobeam_korhite kjv_korhite:pl"
+      ],
+      "12:7": [
+        "kjv_joelah and kjv_zebadiah_jeroham son:pl of kjv_jeroham_gedor"
+      ],
+      "12:8": [
+        "kjv_shield_armour and kjv_buckler:a",
+        "as face:pl of lion:pl",
+        "swift as kjv_roe:pl"
+      ],
+      "12:9": [
+        "kjv_ezer_gad_captain first",
+        "kjv_obadiah_gad_captain two:ord",
+        "kjv_eliab_gad_captain kjv_three:ord"
+      ],
+      "12:10": [
+        "kjv_mishmannah four:ord",
+        "kjv_jeremiah_gad_fifth five:ord"
+      ],
+      "12:11": [
+        "kjv_attai_gad six:ord",
+        "kjv_eliel_gad_captain seven:ord"
+      ],
+      "12:12": [
+        "kjv_johanan_gad_captain eight:ord",
+        "kjv_elzabad nine:ord"
+      ],
+      "12:13": [
+        "kjv_jeremiah_gad_tenth ten:ord",
+        "kjv_machbanai eleven:ord"
+      ],
+      "12:14": [
+        "one_num of least over hundred",
+        "greatest over thousand"
+      ],
+      "12:15": [
+        "in first month",
+        "all its/bank:pl:a overflow:pp",
+        "both to east and to west"
+      ],
+      "12:16": [
+        "kjv_benjamin and kjv_judah",
+        "kjv_stronghold"
+      ],
+      "12:17": [
+        "if you:pl to i with peace",
+        "my/heart to you:pl join:psv:fu",
+        "if you:pl to i:a to my/enemy:pl betray:inf",
+        "god of ourone/father:pl",
+        "rebuke:opt"
+      ],
+      "12:18": [
+        "spirit upon kjv_amasai_captain",
+        "of thou wesg be:pr",
+        "peace peace",
+        "captain:pl of band make:pa"
+      ],
+      "12:19": [
+        "kjv_defect_allegiance:pa",
+        "help:neg:pa",
+        "after counsel",
+        "head:pl of wepl"
+      ],
+      "12:20": [
+        "kjv_jozabad_first",
+        "kjv_jozabad_later",
+        "captain:pl of thousand:pl"
+      ],
+      "12:21": [
+        "band of kjv_raid:ag:pl",
+        "captain:pl in army"
+      ],
+      "12:22": [
+        "day by day",
+        "as army of god"
+      ],
+      "12:23": [
+        "kjv_number:ev:pl of band:pl",
+        "kingdom:a of kjv_saul_israel to he turn:inf",
+        "word of kjv_lord"
+      ],
+      "12:24": [
+        "six+thousand and eight+hundred",
+        "kjv_shield_armour and kjv_spear"
+      ],
+      "12:25": [
+        "seven+thousand and hundred"
+      ],
+      "12:26": [
+        "four+thousand and six+hundred"
+      ],
+      "12:27": [
+        "kjv_jehoiada_aaronite",
+        "kjv_three+thousand and seven+hundred"
+      ],
+      "12:28": [
+        "kjv_zadok young man",
+        "twenty and two captain:pl"
+      ],
+      "12:29": [
+        "kjv_three+thousand",
+        "duty:a of house of kjv_saul_israel keep:pp"
+      ],
+      "12:30": [
+        "twenty+thousand and eight+hundred",
+        "famous throughout house"
+      ],
+      "12:31": [
+        "half kjv_tribe",
+        "ten+thousand and eight+thousand",
+        "by name"
+      ],
+      "12:32": [
+        "understanding:a of time:pl",
+        "two+hundred",
+        "at their/command:ev"
+      ],
+      "12:33": [
+        "fifty+thousand",
+        "kjv_rank_march:a keep:pa:can",
+        "of double heart be:neg:pa"
+      ],
+      "12:34": [
+        "thousand captain:pl",
+        "thirty+thousand and seven+thousand"
+      ],
+      "12:35": [
+        "twenty+thousand and eight+thousand and six+hundred"
+      ],
+      "12:36": [
+        "forty+thousand"
+      ],
+      "12:37": [
+        "kjv_reubenite:pl and kjv_gadite:pl",
+        "half kjv_tribe",
+        "hundred+thousand and twenty+thousand"
+      ],
+      "12:38": [
+        "with whole heart",
+        "one_num heart",
+        "king over all kjv_israel"
+      ],
+      "12:39": [
+        "kjv_three day:pl",
+        "their/brother:pl for they prepare:pp"
+      ],
+      "12:40": [
+        "on ox:pl and food and kjv_flour",
+        "kjv_raisin:pl",
+        "oil and ox:pl and sheep"
+      ],
+      "13:1": [
+        "captain:pl of thousand:pl and captain:pl of hundred:pl",
+        "each lead:ag kjv_consult:pa"
+      ],
+      "13:2": [
+        "if it good to you:pl",
+        "if it of kjv_lord ourone/god",
+        "wesg to ourone/brother:pl",
+        "their/city:pl and kjv_suburbs_field",
+        "to wesg gather:refl:pr:may"
+      ],
+      "13:3": [
+        "wesg kjv_ark_chest of ourone/god:a",
+        "wesg at it in day:pl of kjv_saul_israel ask:neg:pa"
+      ],
+      "13:4": [
+        "all kjv_congregation",
+        "kjv_right_conduct"
+      ],
+      "13:5": [
+        "kjv_shihor of egypt",
+        "kjv_entryway of kjv_hemath_place",
+        "from kjv_kirjathjearim"
+      ],
+      "13:6": [
+        "kjv_baalah_place namely to kjv_kirjathjearim",
+        "between kjv_cherub:pl",
+        "whose name on it call:psv:pr"
+      ],
+      "13:7": [
+        "in new wagon",
+        "house of kjv_abinadab",
+        "kjv_uzza_ark and kjv_ahio"
+      ],
+      "13:8": [
+        "with all their/might",
+        "sing:ev",
+        "harp:pl",
+        "kjv_psaltery:pl",
+        "kjv_timbrel:pl",
+        "kjv_cymbal:pl",
+        "trumpet:pl"
+      ],
+      "13:9": [
+        "kjv_threshfloor of kjv_chidon",
+        "kjv_ark_chest:a hold:inf",
+        "ox:pl kjv_stumble:pa"
+      ],
+      "13:10": [
+        "anger of kjv_lord",
+        "he he:a strike:pa because",
+        "before god die:pa"
+      ],
+      "13:11": [
+        "kjv_david displease:psv:pa",
+        "breach:a upon kjv_uzza_ark",
+        "kjv_perezuzza"
+      ],
+      "13:12": [
+        "afraid",
+        "how i kjv_ark_chest of god:a home to i"
+      ],
+      "13:13": [
+        "home to himself",
+        "bring:neg:pa",
+        "aside into house of kjv_obededom"
+      ],
+      "13:14": [
+        "kjv_three month:pl",
+        "all:a that he have:pa bless:pa"
+      ],
+      "14:1": [
+        "kjv_hiram king of kjv_tyre",
+        "wood of kjv_cedar:pl",
+        "kjv_mason:pl and carpenter:pl"
+      ],
+      "14:2": [
+        "king over kjv_israel confirm:pp",
+        "because of his/people"
+      ],
+      "14:3": [
+        "more wife:pl",
+        "son:pl and daughter:pl:a beget:pa"
+      ],
+      "14:4": [
+        "kjv_shammua_david",
+        "kjv_nathan_david"
+      ],
+      "14:5": [
+        "kjv_ibhar and kjv_elishua and kjv_elpalet"
+      ],
+      "14:6": [
+        "kjv_nogah and kjv_nepheg_david and kjv_japhia_david"
+      ],
+      "14:7": [
+        "kjv_elishama_david and kjv_beeliada and kjv_eliphalet"
+      ],
+      "14:8": [
+        "king over all kjv_israel",
+        "out against they"
+      ],
+      "14:9": [
+        "valley of kjv_rephaim spread:refl:pa"
+      ],
+      "14:10": [
+        "i against kjv_philistine:pl go:fu",
+        "into my/hand",
+        "ipl they:a into thy/hand deliver:fu"
+      ],
+      "14:11": [
+        "my/enemy:pl by my/hand",
+        "as water:pl break:ev",
+        "kjv_baalperazim"
+      ],
+      "14:12": [
+        "their/god:pl:a",
+        "with fire burn:psv:pa"
+      ],
+      "14:13": [
+        "yet again",
+        "spread:refl:pa"
+      ],
+      "14:14": [
+        "again of god ask:pa",
+        "go:neg:imp",
+        "turn:imp away",
+        "mulberry kjv_tree:pl"
+      ],
+      "14:15": [
+        "sound:a of go:ev in top:pl",
+        "god before thou go:perf forth"
+      ],
+      "14:16": [
+        "from kjv_gibeon even to kjv_gazer"
+      ],
+      "14:17": [
+        "all land:pl",
+        "fear:a of he upon all nation:pl"
+      ],
+      "15:1": [
+        "house:pl:a",
+        "tent:a set:pa up"
+      ],
+      "15:2": [
+        "none",
+        "but kjv_levite:pl",
+        "forever serve:inf"
+      ],
+      "15:3": [
+        "all kjv_israel:a",
+        "to its/place which he for it prepare:pp"
+      ],
+      "15:4": [
+        "child:pl of kjv_aaron and kjv_levite:pl:a"
+      ],
+      "15:5": [
+        "kjv_uriel_chief",
+        "hundred and twenty"
+      ],
+      "15:6": [
+        "kjv_asaiah_chief",
+        "two+hundred and twenty"
+      ],
+      "15:7": [
+        "kjv_gershom_levi",
+        "kjv_joel_chief",
+        "hundred and thirty"
+      ],
+      "15:8": [
+        "kjv_elizaphan",
+        "kjv_shemaiah_chief",
+        "two+hundred"
+      ],
+      "15:9": [
+        "kjv_hebron_kohath",
+        "kjv_eliel_chief",
+        "four+twenty"
+      ],
+      "15:10": [
+        "kjv_uzziel",
+        "kjv_amminadab_chief",
+        "hundred and twelve"
+      ],
+      "15:11": [
+        "kjv_zadok and kjv_abiathar",
+        "kjv_uriel_chief kjv_asaiah_chief and kjv_joel_chief kjv_shemaiah_chief and kjv_eliel_chief and kjv_amminadab_chief"
+      ],
+      "15:12": [
+        "you:pl chief",
+        "sanctify:refl:imp",
+        "i for it prepare:perf"
+      ],
+      "15:13": [
+        "you:pl it:a at first do:neg:pa",
+        "ourone/god breach:a upon wesg",
+        "wesg he:a after kjv_due_order seek:neg:pa"
+      ],
+      "15:14": [
+        "priest:pl and kjv_levite:pl sanctify:refl:pa"
+      ],
+      "15:15": [
+        "upon their/kjv_shoulder:pl with staff:pl",
+        "kjv_moses",
+        "word of kjv_lord"
+      ],
+      "15:16": [
+        "sing:ag:pl with instrument:pl of music",
+        "voice:a with joy"
+      ],
+      "15:17": [
+        "kjv_heman_singer son of kjv_joel",
+        "kjv_berechiah_asaph_assembly",
+        "kjv_ethan_singer son of kjv_kushaiah"
+      ],
+      "15:18": [
+        "two:ord rank",
+        "kjv_ben_singer",
+        "kjv_jaaziel",
+        "kjv_obededom and kjv_jeiel_musician kjv_gatekeeper:pl"
+      ],
+      "15:19": [
+        "kjv_heman_singer kjv_asaph_singer and kjv_ethan_singer",
+        "kjv_cymbal:pl of kjv_brass"
+      ],
+      "15:20": [
+        "kjv_aziel",
+        "kjv_psaltery:pl on kjv_alamoth"
+      ],
+      "15:21": [
+        "kjv_azaziah",
+        "harp:pl on kjv_sheminith to kjv_excel:inf"
+      ],
+      "15:22": [
+        "kjv_chenaniah",
+        "about song instruct:pa because he skilled"
+      ],
+      "15:23": [
+        "kjv_berechiah_doorkeeper and kjv_elkanah_doorkeeper"
+      ],
+      "15:24": [
+        "kjv_shebaniah and kjv_jehoshaphat_trumpeter and kjv_nethaneel_trumpeter and kjv_amasai_trumpeter and kjv_zechariah_trumpeter and kjv_benaiah_trumpeter and kjv_eliezer_trumpeter",
+        "kjv_obededom and kjv_jehiah"
+      ],
+      "15:25": [
+        "captain:pl over thousand:pl",
+        "house of kjv_obededom with joy"
+      ],
+      "15:26": [
+        "seven kjv_bullock:pl and seven kjv_ram:pl"
+      ],
+      "15:27": [
+        "kjv_robe of fine linen",
+        "kjv_chenaniah master of song",
+        "kjv_ephod:a of linen"
+      ],
+      "15:28": [
+        "shout:ev",
+        "cornet",
+        "trumpet:pl",
+        "kjv_cymbal:pl",
+        "kjv_psaltery:pl and harp:pl"
+      ],
+      "15:29": [
+        "kjv_michal daughter of kjv_saul_israel",
+        "out at window",
+        "dance:cv and play:cv",
+        "in her/heart despise:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "12:17",
+        "13:12",
+        "14:10",
+        "15:12"
+      ],
+      "ipl": [
+        "14:10"
+      ],
+      "wesg": [
+        "12:18",
+        "13:2",
+        "13:3",
+        "15:13"
+      ],
+      "wepl": [
+        "12:19"
+      ],
+      "ourone": [
+        "12:17",
+        "13:2",
+        "13:3",
+        "15:13"
+      ],
+      "mypl": [],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Roster ranks, command units, tribal troop counts, half-tribes, hospitality days, ark months, Levite assembly counts and two separate seven-animal offerings independently checked. Command unit labels not treated as population totals."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Singular-we marks pledged and accountable community speech; endangered individual heads use plural-we. David personal-I and divine plural-I reset at the quotation boundary in14:10. No Trinity count inferred.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 276,
+    "spreads": 138,
+    "units": 568,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "81090007d4c817d9e571f8ab500a88427dd57eac5ef563a083a435c43abb08ec",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 138,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.482,
+    "modules": [
+      "tests.test_kjv_chronicles_ark_order",
+      "tests.test_kjv_chronicles_body_service",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    275,
+    276
+  ],
+  "status": "incomplete Bible; checkpoint verified"
+}

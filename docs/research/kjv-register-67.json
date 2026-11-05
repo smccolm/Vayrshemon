@@ -1,0 +1,524 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.67",
+    "parentVersion": "0.10-kjv.66",
+    "parentHead": "62300242169a2aa41df83980d1727a21df36730adeebdd1a9871ac6dae33bb29",
+    "head": "2f34496fa6373a3e121d4bae0c7900f992edfb945af30d6be112ff7dc88339b2",
+    "newLexicalEntries": 9,
+    "newProperEntries": 8,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 66,
+    "exactCompilerCases": 66,
+    "newAuthoredVerses": 66,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 260,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21260,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 66,
+    "kings2Verses": 260,
+    "authoredVerses": 9842,
+    "remainingVerses": 21260,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 11,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 8:1",
+        "source": "Then spake Elisha unto the woman, whose son he had restored to life, saying, Arise, and go thou and thine household, and sojourn wheresoever thou canst sojourn: for the LORD hath called for a famine; and it shall also come upon the land seven years.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 8:2",
+        "source": "And the woman arose, and did after the saying of the man of God: and she went with her household, and sojourned in the land of the Philistines seven years.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 8:3",
+        "source": "And it came to pass at the seven years’ end, that the woman returned out of the land of the Philistines: and she went forth to cry unto the king for her house and for her land.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 8:9",
+        "source": "So Hazael went to meet him, and took a present with him, even of every good thing of Damascus, forty camels’ burden, and came and stood before him, and said, Thy son Benhadad king of Syria hath sent me to thee, saying, Shall I recover of this disease?",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "2 Kings 8:16",
+        "source": "And in the fifth year of Joram the son of Ahab king of Israel, Jehoshaphat being then king of Judah, Jehoram the son of Jehoshaphat king of Judah began to reign.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "2 Kings 8:17",
+        "source": "Thirty and two years old was he when he began to reign; and he reigned eight years in Jerusalem.",
+        "expectedDecimalQuantities": [
+          32,
+          8
+        ],
+        "targetQuantities": [
+          32,
+          8
+        ]
+      },
+      {
+        "reference": "2 Kings 8:25",
+        "source": "In the twelfth year of Joram the son of Ahab king of Israel did Ahaziah the son of Jehoram king of Judah begin to reign.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "2 Kings 8:26",
+        "source": "Two and twenty years old was Ahaziah when he began to reign; and he reigned one year in Jerusalem. And his mother’s name was Athaliah, the daughter of Omri king of Israel.",
+        "expectedDecimalQuantities": [
+          22,
+          1
+        ],
+        "targetQuantities": [
+          22,
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 9:19",
+        "source": "Then he sent out a second on horseback, which came to them, and said, Thus saith the king, Is it peace? And Jehu answered, What hast thou to do with peace? turn thee behind me.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 9:29",
+        "source": "And in the eleventh year of Joram the son of Ahab began Ahaziah to reign over Judah.",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "2 Kings 9:32",
+        "source": "And he lifted up his face to the window, and said, Who is on my side? who? And there looked out to him two or three eunuchs.",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "8:1": [
+        "whose son:a he to life restore:pp",
+        "thy/kjv_household",
+        "seven year:pl"
+      ],
+      "8:2": [
+        "with her/kjv_household",
+        "kjv_philistine:pl seven year:pl kjv_sojourn:pa"
+      ],
+      "8:3": [
+        "of seven year:pl end",
+        "for her/house and for her/land"
+      ],
+      "8:4": [
+        "with kjv_gehazi",
+        "i pray:pr thou",
+        "which kjv_elisha do:perf"
+      ],
+      "8:5": [
+        "dead body:a to life",
+        "my/lord king:excl",
+        "this her/son"
+      ],
+      "8:6": [
+        "all:a that of she be:pa",
+        "all of field fruit:pl:a since day",
+        "even until now restore:imp"
+      ],
+      "8:7": [
+        "kjv_benhadad_siege",
+        "sick be:pa"
+      ],
+      "8:8": [
+        "to kjv_hazael",
+        "gift:a",
+        "of this sickness i recover:fu"
+      ],
+      "8:9": [
+        "forty kjv_camel:pl burden",
+        "i:a to thou send:perf say:cv",
+        "i recover:fu"
+      ],
+      "8:10": [
+        "certainly thou recover:pr:may",
+        "to i kjv_lord show:perf",
+        "surely he die:fu"
+      ],
+      "8:11": [
+        "his/face:a kjv_firmly he settle:pa",
+        "until ashamed he be:pa",
+        "of god man weep:pa"
+      ],
+      "8:12": [
+        "evil:a i know:pr",
+        "of they kjv_stronghold:pl:a",
+        "their/child:pl:a kjv_dash_impact:fu",
+        "who with child be:pr kjv_rend:fu up"
+      ],
+      "8:13": [
+        "thy/servant dog be:pr",
+        "king over kjv_syria"
+      ],
+      "8:14": [
+        "surely thou recover:pr:should"
+      ],
+      "8:15": [
+        "thick cloth:a kjv_hazael take:pa",
+        "on of king face",
+        "king die:pa",
+        "kjv_hazael in his/kjv_place_site rule:pa"
+      ],
+      "8:16": [
+        "five:ord year of kjv_joram_ahab",
+        "kjv_jehoshaphat_asa then king",
+        "kjv_jehoram_jehoshaphat"
+      ],
+      "8:17": [
+        "kjv_three+ten and two",
+        "eight year:pl"
+      ],
+      "8:18": [
+        "of kjv_ahab daughter his/wife",
+        "evil:a he do:pa"
+      ],
+      "8:19": [
+        "destroy:inf will:pa not",
+        "always light:a",
+        "his/child:pl"
+      ],
+      "8:20": [
+        "from under of kjv_judah hand",
+        "king:a over themselves appoint:pa"
+      ],
+      "8:21": [
+        "kjv_zair kjv_joram_judah",
+        "kjv_edomite:pl:a",
+        "people flee:pa"
+      ],
+      "8:22": [
+        "until this day",
+        "kjv_libnah revolt:pa"
+      ],
+      "8:23": [
+        "remainder of act:pl of kjv_joram_judah",
+        "king:pl of kjv_judah"
+      ],
+      "8:24": [
+        "kjv_joram_judah sleep:pa",
+        "his/son kjv_ahaziah_jehoram"
+      ],
+      "8:25": [
+        "twelve:ord year",
+        "kjv_joram_ahab",
+        "kjv_ahaziah_jehoram"
+      ],
+      "8:26": [
+        "two and twenty",
+        "one_num year",
+        "kjv_athaliah daughter of kjv_omri"
+      ],
+      "8:27": [
+        "son+in+law he be:pa"
+      ],
+      "8:28": [
+        "kjv_ramothgilead",
+        "kjv_joram_ahab:a kjv_syrian:pl kjv_wound_inflict:pa"
+      ],
+      "8:29": [
+        "kjv_jezreel",
+        "at kjv_ramah",
+        "kjv_ahaziah_jehoram",
+        "kjv_joram_ahab son of kjv_ahab:a see:inf"
+      ],
+      "9:1": [
+        "one of child:pl of prophet:pl:a",
+        "of oil box:a"
+      ],
+      "9:2": [
+        "kjv_jehoshaphat_nimshi son of kjv_nimshi",
+        "kjv_inner chamber"
+      ],
+      "9:3": [
+        "thus kjv_lord say:pr",
+        "ipl anoint:perf",
+        "flee:imp and tarry:imp not"
+      ],
+      "9:4": [
+        "young man even young man prophet"
+      ],
+      "9:5": [
+        "kjv_errand:a i have:pr",
+        "captain:excl",
+        "which of all wepl"
+      ],
+      "9:6": [
+        "oil:a on his/head messenger pour:pa",
+        "ipl anoint:perf"
+      ],
+      "9:7": [
+        "mypl/servant:pl prophet:pl blood",
+        "ipl kjv_avenge:pr:may"
+      ],
+      "9:8": [
+        "whole house of kjv_ahab perish:fu",
+        "against wall kjv_urinate:pr",
+        "shut:psv up and remain:cv"
+      ],
+      "9:9": [
+        "kjv_jeroboam son of kjv_nebat",
+        "kjv_baasha son of kjv_ahijah_baasha",
+        "ipl make:fu"
+      ],
+      "9:10": [
+        "kjv_jezebel:a",
+        "dog:pl eat:fu",
+        "door:a he open:pa and flee:pa"
+      ],
+      "9:11": [
+        "this mad fellow",
+        "his/kjv_message:a"
+      ],
+      "9:12": [
+        "now to wesg tell:imp",
+        "to i he speak:pa",
+        "thus kjv_lord say:pr",
+        "ipl anoint:perf"
+      ],
+      "9:13": [
+        "each man his/garment:a",
+        "of kjv_stair:pl top",
+        "kjv_jehu_nimshi king be:pr"
+      ],
+      "9:14": [
+        "kjv_jehoshaphat_nimshi son of kjv_nimshi",
+        "conspire:pa (now",
+        "kjv_ramothgilead:a keep:pp"
+      ],
+      "9:15": [
+        "with kjv_hazael king of kjv_syria he fight:pa)",
+        "if your/mind:pl",
+        "none out of city"
+      ],
+      "9:16": [
+        "there kjv_joram_ahab lie:pa",
+        "kjv_ahaziah_jehoram"
+      ],
+      "9:17": [
+        "watch:ag",
+        "company:a i see:pr",
+        "kjv_horseman:a",
+        "peace it be:pr"
+      ],
+      "9:18": [
+        "one on horse",
+        "behind i thyself:a turn:imp",
+        "again he come:pr not"
+      ],
+      "9:19": [
+        "two:ord messenger:a on horse",
+        "behind i"
+      ],
+      "9:20": [
+        "kjv_jehu_nimshi son of kjv_nimshi",
+        "fury:adv he drive:pr"
+      ],
+      "9:21": [
+        "each in his/chariot",
+        "they:du go:pa out",
+        "kjv_naboth kjv_jezreelite"
+      ],
+      "9:22": [
+        "what peace",
+        "of thy/mother kjv_jezebel kjv_whoredom:pl",
+        "her/kjv_witchcraft:pl"
+      ],
+      "9:23": [
+        "his/hand:pl:a",
+        "betray:ev be:pr",
+        "kjv_ahaziah_jehoram:excl"
+      ],
+      "9:24": [
+        "kjv_jehoram_ahab:a between his/arm:pl",
+        "arrow at his/heart",
+        "in his/chariot down sink:pa"
+      ],
+      "9:25": [
+        "kjv_bidkar",
+        "i and thou together",
+        "this burden:a upon he kjv_lord lay:pa"
+      ],
+      "9:26": [
+        "kjv_yesterday",
+        "of his/son:pl blood:a ipl see:perf",
+        "ipl repay:fu",
+        "into of ground part"
+      ],
+      "9:27": [
+        "kjv_gur",
+        "kjv_ibleam",
+        "to kjv_megiddo he flee:pa and there die:pa"
+      ],
+      "9:28": [
+        "his/servant:pl in chariot",
+        "his/tomb with his/father:pl"
+      ],
+      "9:29": [
+        "ten and one_num:ord year",
+        "kjv_ahaziah_jehoram"
+      ],
+      "9:30": [
+        "her/face:a paint:pa",
+        "her/head:a adorn:pa"
+      ],
+      "9:31": [
+        "kjv_zimri_king",
+        "his/master:a slay:pa"
+      ],
+      "9:32": [
+        "who on mypl/side",
+        "two or kjv_three eunuch:pl"
+      ],
+      "9:33": [
+        "she:a they throw:pa down",
+        "on wall and on horse:pl",
+        "under foot she:a he tread:pa"
+      ],
+      "9:34": [
+        "he eat:pa and drink:pa",
+        "this curse:psv woman:a",
+        "of king daughter"
+      ],
+      "9:35": [
+        "kjv_skull and foot:pl and kjv_palm_hand:pl"
+      ],
+      "9:36": [
+        "he say:pa",
+        "kjv_elijah kjv_tishbite",
+        "of kjv_jezebel flesh:a dog:pl eat:fu"
+      ],
+      "9:37": [
+        "kjv_corpse like kjv_dung",
+        "they say:fu not this kjv_jezebel"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Seven years is one repeated famine/residence interval, not21years.",
+      "Forty camel burdens; fifth-year accession; age32and eight-year reign; age22and one-year reign remain separate.",
+      "Twelfth-year and eleventh-year Ahaziah accession synchronisms are preserved without harmonization.",
+      "Second messenger is ordinal; two-or-three eunuchs is an uncertain alternative, not five."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Personal envoy/sick king/prophet voices, quoted divine plural-I, pressing singular-we audience, plural captains and actual paired kings remain distinct. Reign dates and ambiguous8:11experiencers are not harmonized.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 218,
+    "spreads": 109,
+    "units": 260,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d327d67310858973cda1497c243cf09e787f0c31d62bb48de0cdc30c559aa234",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 109,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 436,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 12.793,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_coup",
+      "tests.test_kjv_kings_siege",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "status": "incomplete whole Bible",
+  "visualReview": {
+    "pages": [
+      217,
+      218
+    ],
+    "observations": "Final coup spread viewed. Matching paragraph starts, approved Maxima and four column styles, margins and Unta retained."
+  }
+}

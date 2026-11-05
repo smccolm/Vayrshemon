@@ -1,0 +1,758 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.134",
+    "parentVersion": "0.10-kjv.133",
+    "parentHead": "f575971978299adff2c95340d53d0d2c120b3444eae8186c62ae96c6587e8c8a",
+    "head": "f4e34fdaa03688797c17c58238d13b228ab3da7b102823958b1ce4d76c19da36",
+    "newLexicalEntries": 12,
+    "newProperEntries": 4,
+    "newCommonEntries": 8,
+    "newSurfaceForms": 11,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 108,
+    "exactCompilerCases": 108,
+    "newAuthoredVerses": 108,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 605,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 12794,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 108,
+    "isaiahVerses": 605,
+    "authoredVerses": 18308,
+    "remainingVerses": 12794,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 30:17",
+        "source": "One thousand shall flee at the rebuke of one; at the rebuke of five shall ye flee: till ye be left as a beacon upon the top of a mountain, and as an ensign on an hill.",
+        "expectedDecimalQuantities": [
+          1000,
+          1,
+          5
+        ],
+        "targetQuantities": [
+          1000,
+          1,
+          5
+        ]
+      },
+      {
+        "reference": "Isaiah 30:26",
+        "source": "Moreover the light of the moon shall be as the light of the sun, and the light of the sun shall be sevenfold, as the light of seven days, in the day that the LORD bindeth up the breach of his people, and healeth the stroke of their wound.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "27:1": [
+        "leviathan pierce:adj",
+        "leviathan crooked",
+        "kjv_dragon_creature"
+      ],
+      "27:2": [
+        "to she sing:imp",
+        "red wine"
+      ],
+      "27:3": [
+        "ipl kjv_lord",
+        "every moment",
+        "night and day"
+      ],
+      "27:4": [
+        "fury in ipl be:neg:pr",
+        "together burn:pr would"
+      ],
+      "27:5": [
+        "mypl/strength",
+        "peace:a with ipl make:may",
+        "peace:a with ipl make:fu"
+      ],
+      "27:6": [
+        "root:a take:caus:fu",
+        "blossom:fu and bud:fu",
+        "world with fruit"
+      ],
+      "27:7": [
+        "strike:perf",
+        "kjv_according to kjv_slaughter",
+        "slay:psv:pr?"
+      ],
+      "27:8": [
+        "forth sprout:pr",
+        "rough wind",
+        "restrain:pr"
+      ],
+      "27:9": [
+        "kjv_chalkstone:pl",
+        "grove:pl and image:pl",
+        "up stand:neg:fu"
+      ],
+      "27:10": [
+        "kjv_calf feed:fu",
+        "down lie:fu",
+        "branch:pl:a consume:fu"
+      ],
+      "27:11": [
+        "woman:pl come:pr",
+        "mercy:a have:neg:fu",
+        "no favour"
+      ],
+      "27:12": [
+        "kjv_water_channel",
+        "each by each",
+        "child:pl of kjv_israel:excl"
+      ],
+      "27:13": [
+        "great trumpet",
+        "land of kjv_assyria",
+        "land of egypt",
+        "kjv_jerusalem"
+      ],
+      "28:1": [
+        "woe",
+        "crown of pride",
+        "drunk:ag:pl",
+        "kjv_ephraim"
+      ],
+      "28:2": [
+        "mighty and strong",
+        "hail",
+        "overflow"
+      ],
+      "28:3": [
+        "crown of pride",
+        "under foot"
+      ],
+      "28:4": [
+        "early fruit before summer",
+        "in his/hand",
+        "up eat:pr"
+      ],
+      "28:5": [
+        "crown of glory",
+        "beauty"
+      ],
+      "28:6": [
+        "judgment",
+        "gate"
+      ],
+      "28:7": [
+        "wine",
+        "kjv_swallow",
+        "strong drink"
+      ],
+      "28:8": [
+        "kjv_meal_table:pl",
+        "kjv_vomit:ev",
+        "no clean place"
+      ],
+      "28:9": [
+        "knowledge",
+        "milk",
+        "breast"
+      ],
+      "28:10": [
+        "kjv_precept upon kjv_precept",
+        "line upon line",
+        "here little",
+        "there little"
+      ],
+      "28:11": [
+        "kjv_stammer:adj lip:pl",
+        "another tongue"
+      ],
+      "28:12": [
+        "rest",
+        "hear:inf will:neg:pa"
+      ],
+      "28:13": [
+        "kjv_precept upon kjv_precept",
+        "line upon line",
+        "backward",
+        "snare"
+      ],
+      "28:14": [
+        "scorn",
+        "kjv_jerusalem"
+      ],
+      "28:15": [
+        "wesg",
+        "covenant",
+        "hell_depth",
+        "false",
+        "ourone"
+      ],
+      "28:16": [
+        "ipl",
+        "kjv_zion",
+        "stone",
+        "haste"
+      ],
+      "28:17": [
+        "ipl",
+        "line",
+        "hail",
+        "overflow"
+      ],
+      "28:18": [
+        "covenant",
+        "hell_depth",
+        "whip:ev",
+        "tread"
+      ],
+      "28:19": [
+        "morning by morning",
+        "by day and by night",
+        "report"
+      ],
+      "28:20": [
+        "bed",
+        "short",
+        "cover",
+        "narrow"
+      ],
+      "28:21": [
+        "kjv_perazim",
+        "kjv_gibeon",
+        "strange"
+      ],
+      "28:22": [
+        "mock",
+        "band",
+        "i",
+        "consume"
+      ],
+      "28:23": [
+        "ear",
+        "my/voice",
+        "my/speech"
+      ],
+      "28:24": [
+        "plough:ag",
+        "kjv_clod:pl",
+        "open:pr and break:pr"
+      ],
+      "28:25": [
+        "level",
+        "kjv_fitches",
+        "kjv_cummin",
+        "wheat",
+        "kjv_barley",
+        "kjv_rie"
+      ],
+      "28:26": [
+        "his/god",
+        "kjv_discretion",
+        "teach:pr"
+      ],
+      "28:27": [
+        "kjv_fitches",
+        "wagon wheel",
+        "kjv_cummin",
+        "staff",
+        "rod"
+      ],
+      "28:28": [
+        "forever kjv_thresh:neg:fu",
+        "his/kjv_horseman:pl"
+      ],
+      "28:29": [
+        "wonder:adj in counsel",
+        "excellent in work:ev"
+      ],
+      "29:1": [
+        "kjv_ariel_city to kjv_ariel_city",
+        "kjv_david",
+        "year to year"
+      ],
+      "29:2": [
+        "ipl kjv_ariel_city:a distress:fu",
+        "as kjv_ariel_city"
+      ],
+      "29:3": [
+        "ipl against thee around",
+        "kjv_siege_mound",
+        "kjv_siege_fort:pl"
+      ],
+      "29:4": [
+        "out of ground",
+        "out of dust",
+        "kjv_familiar_spirit",
+        "whisper:fu"
+      ],
+      "29:5": [
+        "small dust",
+        "kjv_chaff",
+        "suddenly"
+      ],
+      "29:6": [
+        "thunder",
+        "earthquake",
+        "great noise",
+        "storm",
+        "tempest",
+        "devour:adj fire"
+      ],
+      "29:7": [
+        "her/fortify:ev",
+        "dream of night vision"
+      ],
+      "29:8": [
+        "hunger:adj human dream:pr",
+        "thirst:adj human dream:pr",
+        "kjv_zion"
+      ],
+      "29:9": [
+        "cry:imp and cry:imp",
+        "not with wine",
+        "not with strong drink"
+      ],
+      "29:10": [
+        "deep sleep",
+        "eye:pl:a close:perf",
+        "see:ag:pl:a he cover:perf"
+      ],
+      "29:11": [
+        "seal:psv:adj book",
+        "learned",
+        "i read:neg:can",
+        "seal:psv:pr"
+      ],
+      "29:12": [
+        "learned be:neg:pr",
+        "i learned be:neg:pr"
+      ],
+      "29:13": [
+        "to ipl",
+        "their/heart:a far from ipl",
+        "kjv_precept of human:pl"
+      ],
+      "29:14": [
+        "ipl",
+        "wonder:adj work",
+        "wisdom",
+        "kjv_prudence:adj"
+      ],
+      "29:15": [
+        "who wesg:a see:pr?",
+        "who wesg:a know:pr?"
+      ],
+      "29:16": [
+        "top down",
+        "kjv_potter/kjv_clay_material",
+        "he i:a make:neg:pa",
+        "understand:ev"
+      ],
+      "29:17": [
+        "kjv_lebanon",
+        "fruit:adj field",
+        "forest"
+      ],
+      "29:18": [
+        "kjv_deaf",
+        "blind",
+        "out of conceal:ev",
+        "out of darkness"
+      ],
+      "29:19": [
+        "kjv_meek_disposition",
+        "poor",
+        "kjv_holy_one"
+      ],
+      "29:20": [
+        "terrible to nothing",
+        "scorn:ag",
+        "kjv_iniquity watch:pr"
+      ],
+      "29:21": [
+        "human:a for word offend:ag",
+        "in gate rebuke:pr",
+        "thing of nothing"
+      ],
+      "29:22": [
+        "kjv_abraham:a redeem:pa",
+        "kjv_jacob",
+        "ashamed be:neg:fu",
+        "pale"
+      ],
+      "29:23": [
+        "mypl/hand:pl",
+        "mypl/name",
+        "kjv_holy_one:a of kjv_jacob"
+      ],
+      "29:24": [
+        "in spirit err:pa",
+        "kjv_murmur:pa",
+        "doctrine:a learn:fu"
+      ],
+      "30:1": [
+        "not from ipl",
+        "not of mypl/spirit",
+        "sin to sin"
+      ],
+      "30:2": [
+        "mypl/mouth ask:neg:perf",
+        "strength of kjv_pharaoh",
+        "shadow of egypt"
+      ],
+      "30:3": [
+        "your/shame",
+        "your/confuse:ev"
+      ],
+      "30:4": [
+        "kjv_zoan",
+        "kjv_hanes"
+      ],
+      "30:5": [
+        "benefit:neg:can",
+        "shame",
+        "kjv_reproach"
+      ],
+      "30:6": [
+        "young and old lion",
+        "kjv_viper",
+        "fire:adj fly:adj serpent",
+        "kjv_shoulder:pl of young ass:pl",
+        "kjv_camel_hump:pl"
+      ],
+      "30:7": [
+        "in vain",
+        "no purpose",
+        "i about this cry:perf",
+        "still sit:inf"
+      ],
+      "30:8": [
+        "in table write:imp",
+        "in book record:imp",
+        "forever and forever"
+      ],
+      "30:9": [
+        "rebellion:adj people",
+        "false:adj child:pl",
+        "hear:neg:fu"
+      ],
+      "30:10": [
+        "see:neg:imp",
+        "to wesg",
+        "kjv_right_conduct:adj",
+        "smooth",
+        "deceit:pl"
+      ],
+      "30:11": [
+        "kjv_holy_one:a",
+        "from before wesg",
+        "cease:caus:imp"
+      ],
+      "30:12": [
+        "oppress:ev",
+        "kjv_perverse_way:ev",
+        "support:psv:pr"
+      ],
+      "30:13": [
+        "breach ready to fall:inf",
+        "high wall out swell:cv",
+        "suddenly"
+      ],
+      "30:14": [
+        "kjv_potter/vessel",
+        "spare:neg:fu",
+        "kjv_potsherd_scraper",
+        "kjv_hearth fire",
+        "kjv_pit water"
+      ],
+      "30:15": [
+        "return:ev and rest",
+        "quiet:ev and confidence",
+        "will:neg:pa"
+      ],
+      "30:16": [
+        "wesg upon horse:pl flee:fu",
+        "wesg upon swift ride:fu",
+        "pursue:pr swift"
+      ],
+      "30:17": [
+        "one_num+thousand",
+        "rebuke of one_num",
+        "rebuke of five",
+        "kjv_beacon",
+        "banner"
+      ],
+      "30:18": [
+        "kjv_lord wait:fu",
+        "mercy",
+        "god of judgment",
+        "wait:pr bless:psv"
+      ],
+      "30:19": [
+        "kjv_zion at kjv_jerusalem",
+        "no more weep:fu",
+        "hear:fu",
+        "answer:fu"
+      ],
+      "30:20": [
+        "bread:a of kjv_adversity",
+        "water:a of kjv_afflict:ev",
+        "corner",
+        "thy/teach:ag:pl"
+      ],
+      "30:21": [
+        "thy/ear:pl",
+        "behind thee",
+        "kjv_right_side",
+        "left"
+      ],
+      "30:22": [
+        "kjv_graven image:pl of silver",
+        "melt:psv:adj image:pl of gold",
+        "cloth of kjv_menstrual_flow",
+        "from here go:imp"
+      ],
+      "30:23": [
+        "rain:a of thy/seed",
+        "fat and abundance:adj",
+        "kjv_livestock",
+        "kjv_pasture:pl"
+      ],
+      "30:24": [
+        "ground:a plough:pr",
+        "clean fodder",
+        "kjv_shovel",
+        "kjv_winnowing_fan"
+      ],
+      "30:25": [
+        "every high mountain",
+        "every high hill",
+        "kjv_slaughter",
+        "kjv_tower:pl fall"
+      ],
+      "30:26": [
+        "seven kjv_fold",
+        "seven day:pl",
+        "breach:a of his/people",
+        "strike:ev:a of their/wound"
+      ],
+      "30:27": [
+        "name of kjv_lord",
+        "his/lip:pl",
+        "his/tongue",
+        "devour:adj fire"
+      ],
+      "30:28": [
+        "middle of neck",
+        "kjv_dry_sieve of vanity",
+        "bridle",
+        "err:caus:cv"
+      ],
+      "30:29": [
+        "holy solemnity",
+        "human with pipe",
+        "mighty of kjv_israel"
+      ],
+      "30:30": [
+        "voice:a hear:psv:caus:fu",
+        "descend:ev:a of his/arm",
+        "tempest and hail:pl"
+      ],
+      "30:31": [
+        "human of kjv_assyria",
+        "with rod strike:pa"
+      ],
+      "30:32": [
+        "ground:psv:adj staff",
+        "kjv_tabret:pl and harp:pl",
+        "battle:pl of shake:ev"
+      ],
+      "30:33": [
+        "kjv_tophet",
+        "for king",
+        "deep and large",
+        "stream of kjv_brimstone",
+        "on fire set:pr"
+      ],
+      "31:1": [
+        "egypt for help",
+        "horse:pl support:psv:pr",
+        "chariot:pl",
+        "kjv_horseman:pl",
+        "seek:pr:excl"
+      ],
+      "31:2": [
+        "evil:a bring:fu",
+        "back call:neg:fu",
+        "they who evil:a do:pr"
+      ],
+      "31:3": [
+        "human:pl be:pr and not god",
+        "flesh be:pr and not spirit",
+        "help:pr fall:fu",
+        "help:psv:pr down fall:fu"
+      ],
+      "31:4": [
+        "to i speak:perf",
+        "lion and young lion",
+        "shepherd:pl",
+        "afraid be:neg:fu",
+        "kjv_zion"
+      ],
+      "31:5": [
+        "bird:pl fly:cv",
+        "shield:fu",
+        "deliver:fu",
+        "over pass:cv",
+        "preserve:fu"
+      ],
+      "31:6": [
+        "child:pl of kjv_israel deeply revolt:perf"
+      ],
+      "31:7": [
+        "every human",
+        "silver",
+        "gold",
+        "your/own hand:pl"
+      ],
+      "31:8": [
+        "not of mighty human",
+        "not of low rank human",
+        "kjv_discomfit:psv:fu"
+      ],
+      "31:9": [
+        "his/kjv_stronghold for fear",
+        "banner",
+        "fire in kjv_zion",
+        "kjv_furnace in kjv_jerusalem"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "28:22",
+        "29:11",
+        "29:12",
+        "29:16",
+        "30:7",
+        "31:4"
+      ],
+      "ipl": [
+        "27:3",
+        "27:4",
+        "27:5",
+        "28:16",
+        "28:17",
+        "29:13",
+        "29:14",
+        "29:2",
+        "29:3",
+        "30:1"
+      ],
+      "wesg": [
+        "28:15",
+        "29:15",
+        "30:10",
+        "30:11",
+        "30:16"
+      ],
+      "wepl": [],
+      "mypl": [
+        "27:5",
+        "29:23",
+        "30:1",
+        "30:2"
+      ],
+      "ourone": [
+        "28:15"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "quantityInterpretation": [
+      "One thousand,one and five30:17;sevenfold and seven days30:26 remain separate quantities.",
+      "Each by each27:12 is distributive;substantivized mighty ones and generic human are not cardinal counts."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah27–31 adds108 verses,total605;whole Bible incomplete.",
+      "Divine plural-I,personal readers/prophet/object-personification and communal singular-we remain distinct.",
+      "Eight common senses,four proper labels;no inherited targets changed.",
+      "Unresolved source images and contradictions remain;no invented Trinity count."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 420,
+    "spreads": 210,
+    "units": 605,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c80f4977f6e734aea3ecbe8b9264fb6429158509106abf3e0250e5a3ba29b493",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 210,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.747,
+    "modules": [
+      "tests.test_kjv_isaiah_vineyards_and_sieges",
+      "tests.test_kjv_isaiah_civic_selves",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    419,
+    420
+  ],
+  "status": "incomplete Bible;Isaiah1–31 section checkpoint verified"
+}

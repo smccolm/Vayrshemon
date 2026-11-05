@@ -1,0 +1,763 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.160",
+    "parentVersion": "0.10-kjv.159",
+    "parentHead": "89ba10792b772d43ac3b179e9eb0c740b79a33d0691699cd039e8fa6c36122f7",
+    "head": "be40e3aa5cfefae785c0dcb629f7dca9d2681cfd85652fcdea2b4c0a22e3e175",
+    "newLexicalEntries": 2,
+    "newProperEntries": 1,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 119,
+    "exactCompilerCases": 119,
+    "newAuthoredVerses": 119,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 480,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 10109,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 119,
+    "ezekielVerses": 480,
+    "authoredVerses": 20993,
+    "remainingVerses": 10109,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 19:3",
+        "source": "And she brought up one of her whelps: it became a young lion, and it learned to catch the prey; it devoured men.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 20:1",
+        "source": "And it came to pass in the seventh year, in the fifth month, the tenth day of the month, that certain of the elders of Israel came to enquire of the LORD, and sat before me.",
+        "expectedDecimalQuantities": [
+          7,
+          5,
+          10
+        ],
+        "targetQuantities": [
+          7,
+          5,
+          10
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "17:1": [
+        "to i come:pa"
+      ],
+      "17:2": [
+        "riddle:a forth put:imp",
+        "kjv_parable_oracle:a"
+      ],
+      "17:3": [
+        "long wing:adj",
+        "different colour:pl",
+        "highest branch:a"
+      ],
+      "17:4": [
+        "his/young twig:pl",
+        "land of trade:ev",
+        "city of kjv_merchant:pl"
+      ],
+      "17:5": [
+        "seed of land",
+        "as kjv_willow kjv_tree"
+      ],
+      "17:6": [
+        "low stature",
+        "its/root:pl under he",
+        "young branch:pl:a forth grow:caus:pa"
+      ],
+      "17:7": [
+        "another great kjv_eagle",
+        "her/root:pl:a",
+        "kjv_water_irrigate:may"
+      ],
+      "17:8": [
+        "fruit:a give:may",
+        "beautiful kjv_vine"
+      ],
+      "17:9": [
+        "up pull:neg:fu",
+        "her/grow:ev",
+        "without great power"
+      ],
+      "17:10": [
+        "fully wither:neg:fu",
+        "east wind",
+        "where it grow:pa"
+      ],
+      "17:11": [
+        "to i come:pa"
+      ],
+      "17:12": [
+        "king of kjv_babylon",
+        "its/king:a and its/prince:pl:a"
+      ],
+      "17:13": [
+        "of king seed",
+        "oath:a of he",
+        "mighty:pl:a of land"
+      ],
+      "17:14": [
+        "kingdom low",
+        "it itself:a up lift:neg:may",
+        "his/kjv_covenant:a keep:cv"
+      ],
+      "17:15": [
+        "his/kjv_ambassador:pl:a into egypt",
+        "he prosper:fu?",
+        "deliver:psv:fu?"
+      ],
+      "17:16": [
+        "as ipl live:pr",
+        "king who he:a king make:pa",
+        "he die:fu"
+      ],
+      "17:17": [
+        "for he in war help:fu",
+        "kjv_siege_mound:pl:a",
+        "many person:pl:a"
+      ],
+      "17:18": [
+        "his/hand:a give:pp",
+        "he escape:neg:fu"
+      ],
+      "17:19": [
+        "mypl/oath:a",
+        "mypl/kjv_covenant:a",
+        "his/own head"
+      ],
+      "17:20": [
+        "mypl/snare",
+        "kjv_litigate:fu",
+        "against ipl"
+      ],
+      "17:21": [
+        "his/band:pl",
+        "all wind:pl",
+        "ipl kjv_lord"
+      ],
+      "17:22": [
+        "tender branch:a",
+        "high and lofty mountain"
+      ],
+      "17:23": [
+        "fruit:a give:fu",
+        "all bird:pl of every wing"
+      ],
+      "17:24": [
+        "high kjv_tree:a down bring:perf",
+        "low kjv_tree:a up lift:perf",
+        "dry kjv_tree:a kjv_flourish_plant:caus:perf"
+      ],
+      "18:1": [
+        "to i again come:pa"
+      ],
+      "18:2": [
+        "sour grape:pl:a",
+        "child:pl tooth:pl kjv_teeth_on_edge:pr?"
+      ],
+      "18:3": [
+        "as ipl live:pr",
+        "occasion:a",
+        "have:neg:fu"
+      ],
+      "18:4": [
+        "all soul:pl of ipl",
+        "soul of father",
+        "soul of son",
+        "soul who sin:pr it die:fu"
+      ],
+      "18:5": [
+        "kjv_righteous",
+        "lawful and fitting"
+      ],
+      "18:6": [
+        "upon mountain:pl eat:neg:perf",
+        "his/neighbour wife:a",
+        "woman of kjv_menstrual_flow"
+      ],
+      "18:7": [
+        "debt:a owe:pr his/pledge:a restore:perf",
+        "his/bread:a to hungry",
+        "with garment cover:perf"
+      ],
+      "18:8": [
+        "kjv_usury",
+        "increase:a",
+        "true judgment:a between man and man"
+      ],
+      "18:9": [
+        "mypl/kjv_statute:pl",
+        "to truly deal:inf",
+        "he surely live:fu"
+      ],
+      "18:10": [
+        "rob:ag",
+        "shed:ag of blood",
+        "any of these thing:pl"
+      ],
+      "18:11": [
+        "any of those duty:pl:a do:neg:pr",
+        "mountain:pl eat:perf"
+      ],
+      "18:12": [
+        "poor and kjv_needy:a",
+        "pledge:a restore:neg:perf"
+      ],
+      "18:13": [
+        "he then live:fu?",
+        "he live:neg:fu",
+        "his/blood upon he"
+      ],
+      "18:14": [
+        "all his/father sin:pl:a",
+        "consider:pr",
+        "such like:a do:neg:pr"
+      ],
+      "18:15": [
+        "upon mountain:pl eat:neg:perf",
+        "wife:a defile:neg:perf"
+      ],
+      "18:16": [
+        "pledge:a withhold:neg:perf",
+        "his/bread:a to hungry"
+      ],
+      "18:17": [
+        "his/hand:a from poor off take:perf",
+        "for kjv_iniquity of his/father die:neg:fu"
+      ],
+      "18:18": [
+        "his/brother:a",
+        "in his/kjv_iniquity die:fu"
+      ],
+      "18:19": [
+        "yet you say:pr why?",
+        "father endure:neg:pr?",
+        "he surely live:fu"
+      ],
+      "18:20": [
+        "son kjv_iniquity:a of father endure:neg:fu",
+        "neither father kjv_iniquity:a of son endure:fu"
+      ],
+      "18:21": [
+        "from all his/sin:pl",
+        "he die:neg:fu"
+      ],
+      "18:22": [
+        "kjv_mention:psv:neg:fu",
+        "his/kjv_righteousness"
+      ],
+      "18:23": [
+        "ipl any pleasure:a at all",
+        "return:should and live:pr?"
+      ],
+      "18:24": [
+        "all his/kjv_righteousness",
+        "kjv_mention:psv:neg:fu",
+        "in they he die:fu"
+      ],
+      "18:25": [
+        "mypl/way equal be:neg:pr?",
+        "your/way:pl equal:neg:adj be:neg:pr?"
+      ],
+      "18:26": [
+        "and in they die:pr",
+        "for his/kjv_iniquity"
+      ],
+      "18:27": [
+        "he his/soul:a alive save:fu"
+      ],
+      "18:28": [
+        "because he consider:pr",
+        "he die:neg:fu"
+      ],
+      "18:29": [
+        "mypl/way:pl equal be:neg:pr?",
+        "your/way:pl equal:neg:adj be:neg:pr?"
+      ],
+      "18:30": [
+        "each according_to his/way:pl",
+        "yourselves:a",
+        "ruin be:neg:fu"
+      ],
+      "18:31": [
+        "for you new heart:a and new spirit:a make:imp",
+        "why you die:fu"
+      ],
+      "18:32": [
+        "ipl no pleasure:a",
+        "yourselves:a turn:imp",
+        "you live:imp"
+      ],
+      "19:1": [
+        "lamentation:a for prince:pl"
+      ],
+      "19:2": [
+        "female lion",
+        "her/kjv_whelp:pl:a"
+      ],
+      "19:3": [
+        "one_num of her/kjv_whelp:pl:a",
+        "prey:a catch:inf learn:pa"
+      ],
+      "19:4": [
+        "their/kjv_pit",
+        "chain:pl to land of egypt"
+      ],
+      "19:5": [
+        "her/hope lose:psv:pa",
+        "another of her/kjv_whelp:pl:a"
+      ],
+      "19:6": [
+        "among lion:pl up and down",
+        "man:pl:a devour:pa"
+      ],
+      "19:7": [
+        "their/kjv_desolate palace:pl:a know:pa",
+        "their/city:pl:a kjv_desolate make:pa"
+      ],
+      "19:8": [
+        "every side",
+        "their/kjv_net:a",
+        "their/kjv_pit"
+      ],
+      "19:9": [
+        "under guard in chain:pl",
+        "kjv_stronghold:pl",
+        "no more hear:psv:should"
+      ],
+      "19:10": [
+        "in thy/blood",
+        "because of many water:pl"
+      ],
+      "19:11": [
+        "authority:a hold:pa",
+        "stature among thick branch:pl up lift:psv:pa"
+      ],
+      "19:12": [
+        "east wind",
+        "her/strong rod:pl break:psv:pa"
+      ],
+      "19:13": [
+        "dry and thirst:adj ground"
+      ],
+      "19:14": [
+        "fire out of rod of her/branch:pl",
+        "no strong rod:a",
+        "this lamentation be:pr and for lamentation be:fu"
+      ],
+      "20:1": [
+        "seven:ord year",
+        "five:ord month ten:ord day",
+        "before i sit:pa"
+      ],
+      "20:2": [
+        "to i come:pa"
+      ],
+      "20:3": [
+        "you to ipl ask:inf come:perf?",
+        "ipl by you ask:psv:neg:fu"
+      ],
+      "20:4": [
+        "thou they:a judge:fu son of man thou they:a judge:fu?",
+        "know:caus:imp"
+      ],
+      "20:5": [
+        "iplself:a",
+        "mypl/hand:a to seed",
+        "mypl/hand:a to they"
+      ],
+      "20:6": [
+        "which ipl for they see:pp",
+        "flow:cv with milk and honey"
+      ],
+      "20:7": [
+        "each man",
+        "yourselves:a",
+        "defile:neg:imp"
+      ],
+      "20:8": [
+        "to ipl listen:inf refuse:pa",
+        "away cast:neg:pa",
+        "neither idol:pl:a of egypt forsake:pa"
+      ],
+      "20:9": [
+        "for mypl/name sake",
+        "ipl iplself:a",
+        "know:caus:pa"
+      ],
+      "20:10": [
+        "go:caus:pa",
+        "into kjv_wilderness bring:pa"
+      ],
+      "20:11": [
+        "if man do:pr he even in they live:fu"
+      ],
+      "20:12": [
+        "mypl/kjv_sabbath:pl:a",
+        "sign between ipl and they",
+        "sanctify:pr"
+      ],
+      "20:13": [
+        "if man do:pr he even in they live:fu",
+        "mypl/kjv_sabbath:pl:a",
+        "to they:a consume:inf"
+      ],
+      "20:14": [
+        "for mypl/name sake",
+        "kjv_pollute_sacred:psv:neg:should"
+      ],
+      "20:15": [
+        "mypl/hand:a",
+        "which ipl they:a give:pp",
+        "bring:neg:fu"
+      ],
+      "20:16": [
+        "their/heart after their/idol:pl"
+      ],
+      "20:17": [
+        "mypl/eye",
+        "neither ipl end:a of they"
+      ],
+      "20:18": [
+        "kjv_statute:pl of your/father:pl",
+        "walk:neg:imp",
+        "nor yourselves:a"
+      ],
+      "20:19": [
+        "ipl kjv_lord your/god",
+        "mypl/kjv_statute:pl",
+        "they:a do:imp"
+      ],
+      "20:20": [
+        "sign between ipl and you",
+        "sanctify:imp"
+      ],
+      "20:21": [
+        "child:pl against ipl rebel:pa",
+        "if man do:pr he even in they live:fu"
+      ],
+      "20:22": [
+        "mypl/hand:a withdraw:pa",
+        "for mypl/name sake"
+      ],
+      "20:23": [
+        "mypl/hand:a",
+        "scatter:fu",
+        "disperse:fu"
+      ],
+      "20:24": [
+        "perform:neg:pp",
+        "their/father:pl idol:pl"
+      ],
+      "20:25": [
+        "ipl they:a also kjv_statute:pl:a which good be:neg:pa give:pa",
+        "by which they live:neg:should"
+      ],
+      "20:26": [
+        "ipl they:a in their/own gift:pl kjv_pollute_sacred:pa",
+        "all which womb:a open:pr through fire pass:caus:pa"
+      ],
+      "20:27": [
+        "your/father:pl ipl:a kjv_blaspheme:perf"
+      ],
+      "20:28": [
+        "all thick kjv_tree:pl:a",
+        "kjv_provoke:ev:a of their/kjv_offering",
+        "kjv_drinkoffer:pl:a"
+      ],
+      "20:29": [
+        "high place to which you go:pr what be:pr?",
+        "kjv_bamah"
+      ],
+      "20:30": [
+        "your/father:pl kjv_pollute_sacred:psv:pr?",
+        "kjv_whoredom:a do:pr?"
+      ],
+      "20:31": [
+        "your/son:pl:a through fire pass:caus:pr",
+        "ipl by you ask:psv:neg:fu"
+      ],
+      "20:32": [
+        "at all be:neg:fu",
+        "wesg as kjv_heathen as kjv_family:pl",
+        "wood and stone:a serve:inf"
+      ],
+      "20:33": [
+        "out stretch:psv:adj arm",
+        "out pour:psv:adj fury",
+        "ipl over you rule:fu"
+      ],
+      "20:34": [
+        "out stretch:psv:adj arm",
+        "out pour:psv:adj fury"
+      ],
+      "20:35": [
+        "kjv_wilderness of people",
+        "face to face kjv_litigate:fu"
+      ],
+      "20:36": [
+        "with your/father:pl",
+        "so ipl with you kjv_litigate:fu"
+      ],
+      "20:37": [
+        "under rod pass:caus:fu",
+        "bond of kjv_covenant"
+      ],
+      "20:38": [
+        "out purge:fu",
+        "enter:neg:fu"
+      ],
+      "20:39": [
+        "go:imp each his/idol:pl:a serve:imp",
+        "if you to ipl listen:neg:fu",
+        "mypl/holy name:a no more"
+      ],
+      "20:40": [
+        "all house of kjv_israel all of they",
+        "kjv_firstfruits:a"
+      ],
+      "20:41": [
+        "ipl in you before kjv_heathen sanctify:psv:fu"
+      ],
+      "20:42": [
+        "mypl/hand:a",
+        "to your/father:pl give:inf"
+      ],
+      "20:43": [
+        "you yourselves:a in your/own sight",
+        "loathe:fu"
+      ],
+      "20:44": [
+        "for mypl/name sake",
+        "not according_to",
+        "nor according_to"
+      ],
+      "20:45": [
+        "to i come:pa"
+      ],
+      "20:46": [
+        "towards kjv_south",
+        "thy/word:a",
+        "drop:imp"
+      ],
+      "20:47": [
+        "every green kjv_tree:a",
+        "every dry kjv_tree:a",
+        "burn:cv flame extinguish:psv:neg:fu",
+        "all face:pl"
+      ],
+      "20:48": [
+        "ipl kjv_lord it:a kjv_kindle_fire:perf",
+        "extinguish:psv:neg:fu"
+      ],
+      "20:49": [
+        "then i say:pa ah lord god:excl",
+        "he kjv_parable_oracle:pl:a speak:neg:pr?"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "17:1",
+        "17:11",
+        "18:1",
+        "20:1",
+        "20:2",
+        "20:45",
+        "20:49"
+      ],
+      "ipl": [
+        "17:16",
+        "17:19",
+        "17:20",
+        "17:21",
+        "17:22",
+        "17:23",
+        "17:24",
+        "18:23",
+        "18:3",
+        "18:30",
+        "18:32",
+        "18:4",
+        "20:10",
+        "20:11",
+        "20:12",
+        "20:13",
+        "20:14",
+        "20:15",
+        "20:17",
+        "20:18",
+        "20:19",
+        "20:20",
+        "20:21",
+        "20:22",
+        "20:23",
+        "20:25",
+        "20:26",
+        "20:27",
+        "20:28",
+        "20:29",
+        "20:3",
+        "20:31",
+        "20:33",
+        "20:34",
+        "20:35",
+        "20:36",
+        "20:37",
+        "20:38",
+        "20:39",
+        "20:40",
+        "20:41",
+        "20:42",
+        "20:44",
+        "20:47",
+        "20:48",
+        "20:5",
+        "20:6",
+        "20:7",
+        "20:8",
+        "20:9"
+      ],
+      "wesg": [
+        "20:32"
+      ],
+      "wepl": [],
+      "mypl": [
+        "17:19",
+        "17:20",
+        "18:17",
+        "18:19",
+        "18:21",
+        "18:25",
+        "18:29",
+        "18:9",
+        "20:11",
+        "20:12",
+        "20:13",
+        "20:14",
+        "20:15",
+        "20:16",
+        "20:17",
+        "20:19",
+        "20:20",
+        "20:21",
+        "20:22",
+        "20:23",
+        "20:24",
+        "20:28",
+        "20:39",
+        "20:40",
+        "20:42",
+        "20:44",
+        "20:5",
+        "20:6",
+        "20:8",
+        "20:9"
+      ],
+      "ourone": [],
+      "iplself": [
+        "20:5",
+        "20:9"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "One whelp and seventh-year fifth-month tenth-day date retained exactly.",
+      "Another eagle or whelp,tender twig,all winds,every wing and firstfruits do not add unprinted cardinals.",
+      "Man-to-man is reciprocal,not a dual-person pronoun."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel17–20 adds119 verses,total480;whole Bible incomplete.",
+      "Personal narration,divine plural-I and plural-self reflexive,and quoted communal singular-we distinguished.",
+      "Inherited guilt dispute,divine gift of not-good statutes and active pollution,source ambiguities and refused consultation retained without harmonization.",
+      "One common semantic entry,one contextual name;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 376,
+    "spreads": 188,
+    "units": 480,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c9780a29c37b6cd5cce097d89e383f8453ae2c1a1e8b12abfe6a74c63d4e1b02",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 188,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.939,
+    "modules": [
+      "tests.test_kjv_ezekiel_refused_consultation",
+      "tests.test_kjv_ezekiel_covenant_shame",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    375,
+    376
+  ],
+  "status": "incomplete Bible;Ezekiel1–20 section checkpoint verified"
+}

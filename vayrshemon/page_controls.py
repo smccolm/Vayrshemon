@@ -43,6 +43,12 @@ class PageControls:
         if mode not in self.buttons:raise ValueError('UNKNOWN_PAGE_VIEW_MODE')
         canvas=self.window.preview;canvas.page_mode=mode;canvas._center_signature=None;canvas.center_page()
         for key,button in self.buttons.items():button.setChecked(key==mode)
+        navigator=getattr(self.window,'page_navigator',None)
+        if navigator:
+            navigator.reframe()
+            navigator.sync()
+        numbering=getattr(self.window,'numbering_controls',None)
+        if numbering:numbering.sync()
         if persist:
             try:write_json(self.path,dict(version='1.0.0',mode=mode));self.error=None
             except OSError as error:self.error=str(error);self.window.book.log.exception('page-view',error)

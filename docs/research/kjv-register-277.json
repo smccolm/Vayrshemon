@@ -1,0 +1,494 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.277",
+    "parentVersion": "0.10-kjv.276",
+    "parentHead": "03ea0b75c1233b414b85601dc50f60326fa9bae1ee15b4f42e6362074de269d7",
+    "head": "bb54b759e255410573ffa3d735924a3a9fc6cfe2444f23ad12db35554367d1ee",
+    "newLexicalEntries": 6,
+    "newProperEntries": 2,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 36,
+    "exactCompilerCases": 36,
+    "newAuthoredVerses": 36,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 303,
+    "jamesVerses": 108,
+    "peter1Verses": 105,
+    "peter2Verses": 61,
+    "john1Verses": 105,
+    "john2Verses": 13,
+    "john3Verses": 14,
+    "judeVerses": 25,
+    "revelationVerses": 356,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 48,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newRevelationVerses": 36,
+    "revelationVerses": 356,
+    "authoredVerses": 31054,
+    "remainingVerses": 48,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "Revelation 19:4",
+        "source": "And the four and twenty elders and the four beasts fell down and worshipped God that sat on the throne, saying, Amen; Alleluia.",
+        "expectedDecimalQuantities": [
+          24,
+          4
+        ],
+        "targetQuantities": [
+          24,
+          4
+        ]
+      },
+      {
+        "reference": "Revelation 20:2",
+        "source": "And he laid hold on the dragon, that old serpent, which is the Devil, and Satan, and bound him a thousand years,",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Revelation 20:3",
+        "source": "And cast him into the bottomless pit, and shut him up, and set a seal upon him, that he should deceive the nations no more, till the thousand years should be fulfilled: and after that he must be loosed a little season.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Revelation 20:4",
+        "source": "And I saw thrones, and they sat upon them, and judgment was given unto them: and I saw the souls of them that were beheaded for the witness of Jesus, and for the word of God, and which had not worshipped the beast, neither his image, neither had received his mark upon their foreheads, or in their hands; and they lived and reigned with Christ a thousand years.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Revelation 20:5",
+        "source": "But the rest of the dead lived not again until the thousand years were finished. This is the first resurrection.",
+        "expectedDecimalQuantities": [
+          1000,
+          1
+        ],
+        "targetQuantities": [
+          1000,
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 20:6",
+        "source": "Blessed and holy is he that hath part in the first resurrection: on such the second death hath no power, but they shall be priests of God and of Christ, and shall reign with him a thousand years.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          1000
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          1000
+        ]
+      },
+      {
+        "reference": "Revelation 20:7",
+        "source": "And when the thousand years are expired, Satan shall be loosed out of his prison,",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Revelation 20:8",
+        "source": "And shall go out to deceive the nations which are in the four quarters of the earth, Gog, and Magog, to gather them together to battle: the number of whom is as the sand of the sea.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Revelation 20:14",
+        "source": "And death and hell were cast into the lake of fire. This is the second death.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "19:1": [
+        "much people great voice",
+        "kjv_alleluia_revelation",
+        "salvation and glory and honour and power",
+        "lord ourone/god"
+      ],
+      "19:2": [
+        "true and kjv_righteous",
+        "earth with her/kjv_fornication corrupt:pa",
+        "his/servant:pl blood kjv_avenge:perf"
+      ],
+      "19:3": [
+        "again they kjv_alleluia_revelation",
+        "forever and forever"
+      ],
+      "19:4": [
+        "two+twelve kjv_elder:pl and four beast:pl",
+        "amen kjv_alleluia_revelation"
+      ],
+      "19:5": [
+        "ourone/god praise:imp",
+        "all you his/servant:pl",
+        "both small and great"
+      ],
+      "19:6": [
+        "as great kjv_multitude voice",
+        "as many water:pl voice",
+        "as mighty thunder:ev:pl voice",
+        "lord god kjv_almighty rule:pr"
+      ],
+      "19:7": [
+        "wesg glad be:opt and rejoice:opt and to he honour give:opt",
+        "his/wife herself ready make:perf"
+      ],
+      "19:8": [
+        "fine linen clean and white",
+        "holy person:pl kjv_righteousness"
+      ],
+      "19:9": [
+        "he to i write:imp",
+        "kjv_lamb marriage supper",
+        "and he to i these god true say:ev:pl"
+      ],
+      "19:10": [
+        "i thy/kjv_fellowservant_revelation",
+        "thou it do:neg:imp",
+        "god kjv_worship:imp",
+        "kjv_jesus_matthew testimony kjv_prophesy:ev spirit"
+      ],
+      "19:11": [
+        "white horse",
+        "faithful and true",
+        "in kjv_righteousness judge:pr and war make:pr"
+      ],
+      "19:12": [
+        "as fire flame",
+        "many crown:pl",
+        "no man know:pa except he himself"
+      ],
+      "19:13": [
+        "in blood kjv_dip_liquid:psv:pp",
+        "his/name god word"
+      ],
+      "19:14": [
+        "army:pl which in heaven",
+        "white horse:pl",
+        "fine linen white and clean"
+      ],
+      "19:15": [
+        "out of his/mouth sharp sword",
+        "with iron rod",
+        "kjv_almighty god fierce:ev and wrath kjv_winepress"
+      ],
+      "19:16": [
+        "on his/garment and on his/thigh",
+        "king:pl king and lord:pl lord"
+      ],
+      "19:17": [
+        "angel in sun",
+        "to all bird:pl",
+        "great god supper"
+      ],
+      "19:18": [
+        "king:pl flesh and captain:pl flesh and mighty man:pl flesh",
+        "horse:pl flesh",
+        "they who upon they sit:pr flesh",
+        "all man:pl flesh both free and slave:pl both small and great"
+      ],
+      "19:19": [
+        "beast and earth king:pl and their/army:pl",
+        "against he who upon horse sit:pa and against his/army"
+      ],
+      "19:20": [
+        "false prophet",
+        "beast mark receive:perf",
+        "his/image kjv_worship:pa",
+        "both these:du alive",
+        "with kjv_brimstone burn:cv"
+      ],
+      "19:21": [
+        "he who upon horse sit:pa sword",
+        "out of his/mouth",
+        "all bird:pl with their/flesh"
+      ],
+      "20:1": [
+        "angel from heaven down come:cv",
+        "kjv_bottomless_pit_revelation key",
+        "in his/hand great chain"
+      ],
+      "20:2": [
+        "that old serpent who devil and satan",
+        "thousand year:pl he:a bind:pa"
+      ],
+      "20:3": [
+        "upon he seal set:pa",
+        "nation:pl no more deceive:should",
+        "until thousand year:pl",
+        "little season loose:psv:must"
+      ],
+      "20:4": [
+        "throne:pl",
+        "judge:ev to they give:psv:pa",
+        "kjv_jesus_matthew witness and for god word",
+        "kjv_behead_revelation:psv:pa",
+        "kjv_worship:neg:perf",
+        "neither his/mark",
+        "receive:neg:perf",
+        "with kjv_christ_title thousand year:pl rule:pa"
+      ],
+      "20:5": [
+        "again live:neg:pa",
+        "until thousand year:pl",
+        "this first kjv_resurrection"
+      ],
+      "20:6": [
+        "first kjv_resurrection",
+        "second death power have:neg:pr",
+        "god and kjv_christ_title priest:pl",
+        "thousand year:pl rule:fu"
+      ],
+      "20:7": [
+        "thousand year:pl expire:perf",
+        "satan out of his/prison"
+      ],
+      "20:8": [
+        "earth four kjv_direction_quarter:pl",
+        "kjv_gog_revelation and kjv_magog_revelation",
+        "whose kjv_number:ev as sea sand"
+      ],
+      "20:9": [
+        "holy person:pl kjv_camp_site_revelation and beloved city",
+        "from god out of heaven fire"
+      ],
+      "20:10": [
+        "fire and kjv_brimstone kjv_lake_fire_revelation",
+        "where beast and false prophet be:pr",
+        "day and night forever and forever"
+      ],
+      "20:11": [
+        "great white throne",
+        "earth and heaven away flee:pa",
+        "for they no place"
+      ],
+      "20:12": [
+        "dead:pl small and great before god",
+        "other book",
+        "life book",
+        "kjv_according their/work:pl"
+      ],
+      "20:13": [
+        "sea dead:pl",
+        "death and hell dead:pl",
+        "each man kjv_according their/work:pl"
+      ],
+      "20:14": [
+        "death and hell into fire kjv_lake_fire_revelation",
+        "this second death"
+      ],
+      "20:15": [
+        "in life book write:psv:pp find:psv:neg:pa",
+        "fire kjv_lake_fire_revelation"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "19:1",
+        "19:10",
+        "19:11",
+        "19:17",
+        "19:19",
+        "19:6",
+        "19:9",
+        "20:1",
+        "20:11",
+        "20:12",
+        "20:4"
+      ],
+      "ipl": [],
+      "wesg": [
+        "19:7"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "19:1",
+        "19:5"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [
+      "19:20"
+    ],
+    "divineQuotedSelfReferences": [],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "24elders,four beasts,four directions,first resurrection,second death and six thousand-year clauses retained.",
+      "Communal singular-we and our-singular in praise differ from personal witness/angel I and explicit physical both-dual.",
+      "No modern chronology,unknown name or present city identity supplied."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "36new;Revelation1–20cumulative356;whole Bible incomplete;48versesremain.",
+      "Keep Lord,all praise terms,three as-comparisons,dipped,both inscription locations,great-God supper,all flesh groups,from-God fire,before-God judgment and concise second-death identification.",
+      "Four common entries,two contextual names,no paradigms;earlier320Revelation targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Revelation — incomplete Bible working text",
+    "pages": 258,
+    "spreads": 129,
+    "units": 356,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "dc5adef48dc632a7a3ce1ad3cfe1103e95d47e38f4cfda3d16ac74432d106169",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 129,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.765,
+    "modules": [
+      "tests.test_kjv_revelation_common_praise",
+      "tests.test_kjv_revelation_city_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    257,
+    258
+  ],
+  "status": "incomplete Bible;Revelation1–20 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 257,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv277\\preflight-revelation\\Proofs\\page-257.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv277\\composed-revelation\\Proofs\\page-257.png",
+        "sha256": "1aee9f5446ef7208ecf2448b76157f604e90b2a676daf308fa2f43488b1db5c6",
+        "bytesIdentical": true
+      },
+      {
+        "page": 258,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv277\\preflight-revelation\\Proofs\\page-258.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv277\\composed-revelation\\Proofs\\page-258.png",
+        "sha256": "e18e3aaf9e3c650e7510cb2bbf013c5243c19c9b5643297d9be514c57a202c21",
+        "bytesIdentical": true
+      }
+    ]
+  },
+  "unsealedAuditCorrection": {
+    "finding": "Inherited remaining-verse assertion was 84; corrected to 48 = 31102 - 31054 before publication.",
+    "verseTextChanged": false,
+    "earlierSealsChanged": false,
+    "failureLog": ".local/kjv277/audit-count-failure.log"
+  }
+}

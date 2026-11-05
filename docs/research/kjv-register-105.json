@@ -1,0 +1,750 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.105",
+    "parentVersion": "0.10-kjv.104",
+    "parentHead": "097561f2a8d9fd3c54f9025bab49e998ebb76f6a4d6f39455d2d395b2e0b0522",
+    "head": "4949f82d7b3a99c32ada79e60f00d73b91f666ecee430dd5188812c3c2bd9456",
+    "newLexicalEntries": 3,
+    "newProperEntries": 0,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 143,
+    "exactCompilerCases": 143,
+    "newAuthoredVerses": 143,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 663,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 17521,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJobVerses": 143,
+    "jobVerses": 663,
+    "authoredVerses": 13581,
+    "remainingVerses": 17521,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 1,
+    "quantityChecks": [
+      {
+        "reference": "Job 23:13",
+        "source": "But he is in one mind, and who can turn him? and what his soul desireth, even that he doeth.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "22:1": [
+        "kjv_eliphaz_friend kjv_temanite"
+      ],
+      "22:2": [
+        "to god profitable",
+        "to himself profitable"
+      ],
+      "22:3": [
+        "pleasure to kjv_almighty",
+        "gain:ev to he"
+      ],
+      "22:4": [
+        "for fear of thee",
+        "with thee into judgment"
+      ],
+      "22:5": [
+        "wickedness great be:neg",
+        "kjv_iniquity:pl infinite"
+      ],
+      "22:6": [
+        "pledge:a from thy/brother for nothing",
+        "kjv_nakedness:adj:a"
+      ],
+      "22:7": [
+        "water:a to weary",
+        "give:neg:perf",
+        "bread:a from hungry"
+      ],
+      "22:8": [
+        "mighty man",
+        "honour:adj man"
+      ],
+      "22:9": [
+        "widow:pl:a empty",
+        "kjv_fatherless break"
+      ],
+      "22:10": [
+        "snare:pl round",
+        "sudden fear"
+      ],
+      "22:11": [
+        "or darkness",
+        "see:neg:pr:can"
+      ],
+      "22:12": [
+        "height of heaven",
+        "high they be:pr:excl"
+      ],
+      "22:13": [
+        "thou say:pr",
+        "through dark cloud"
+      ],
+      "22:14": [
+        "he see:neg:pr",
+        "kjv_circuit of heaven"
+      ],
+      "22:15": [
+        "old way:a",
+        "observe:perf"
+      ],
+      "22:16": [
+        "out of time",
+        "kjv_foundation with flood"
+      ],
+      "22:17": [
+        "from wesg depart",
+        "for they do"
+      ],
+      "22:18": [
+        "their/house:pl:a with good",
+        "far from i"
+      ],
+      "22:19": [
+        "innocent they:a to scorn"
+      ],
+      "22:20": [
+        "ourone/substance",
+        "down cut:psv:neg:pr",
+        "fire kjv_consume"
+      ],
+      "22:21": [
+        "thyself:a with he acquaint",
+        "at peace"
+      ],
+      "22:22": [
+        "receive:imp please",
+        "in thy/heart"
+      ],
+      "22:23": [
+        "if thou",
+        "thy/tent:pl"
+      ],
+      "22:24": [
+        "gold:a as dust",
+        "gold of kjv_ophir"
+      ],
+      "22:25": [
+        "thy/defence",
+        "abundance of silver"
+      ],
+      "22:26": [
+        "thy/delight",
+        "thy/face:a to god"
+      ],
+      "22:27": [
+        "thy/prayer",
+        "he thee:a hear",
+        "thy/vow:pl:a pay"
+      ],
+      "22:28": [
+        "thing:a decree",
+        "kjv_establish:psv:fu"
+      ],
+      "22:29": [
+        "person:pl down cast",
+        "humble person:a save"
+      ],
+      "22:30": [
+        "kjv_isle of innocent",
+        "pure:ev of thy/hand:pl"
+      ],
+      "23:1": [
+        "kjv_job_sufferer"
+      ],
+      "23:2": [
+        "my/strike:ev",
+        "more heavy than my/groan:ev"
+      ],
+      "23:3": [
+        "know:opt:excl",
+        "to his/seat"
+      ],
+      "23:4": [
+        "my/kjv_case_plea:a before he arrange",
+        "with argument:pl"
+      ],
+      "23:5": [
+        "answer:cond",
+        "say:cond understand:cond"
+      ],
+      "23:6": [
+        "no but",
+        "strength:a in i"
+      ],
+      "23:7": [
+        "kjv_righteous with he plead",
+        "from my/judge"
+      ],
+      "23:8": [
+        "forward go",
+        "backward",
+        "perceive:neg:pr:can"
+      ],
+      "23:9": [
+        "on left",
+        "on kjv_right_side",
+        "see:neg:pr:can"
+      ],
+      "23:10": [
+        "test:perf",
+        "as gold"
+      ],
+      "23:11": [
+        "my/foot his/step:pl",
+        "aside turn:neg:perf"
+      ],
+      "23:12": [
+        "neither i",
+        "more than my/necessary food"
+      ],
+      "23:13": [
+        "one_num mind",
+        "his/soul desire"
+      ],
+      "23:14": [
+        "for i appoint",
+        "many such thing:pl"
+      ],
+      "23:15": [
+        "i at his/presence",
+        "i of he afraid"
+      ],
+      "23:16": [
+        "my/heart:a soft",
+        "i:a distress"
+      ],
+      "23:17": [
+        "before darkness off cut:psv:neg",
+        "neither he darkness"
+      ],
+      "24:1": [
+        "time:pl from kjv_almighty hide:psv:neg",
+        "see:neg:pr"
+      ],
+      "24:2": [
+        "kjv_landmark:pl",
+        "flock:pl:a violent:adv"
+      ],
+      "24:3": [
+        "ass of kjv_fatherless",
+        "widow:poss ox:a"
+      ],
+      "24:4": [
+        "person:a who need:pr",
+        "poor of earth themselves"
+      ],
+      "24:5": [
+        "wild ass:pl",
+        "early for prey",
+        "their/child:pl"
+      ],
+      "24:6": [
+        "every person his/corn:a",
+        "vintage"
+      ],
+      "24:7": [
+        "without clothing lodge:caus",
+        "no cover:ev in cold"
+      ],
+      "24:8": [
+        "shower:pl of mountain:pl",
+        "rock:a for lack"
+      ],
+      "24:9": [
+        "kjv_fatherless:a from breast",
+        "pledge:a of poor"
+      ],
+      "24:10": [
+        "go:caus:pr",
+        "kjv_sheaf:a from hungry"
+      ],
+      "24:11": [
+        "oil:a within their/wall:pl",
+        "winepress:pl:a",
+        "thirst:a suffer"
+      ],
+      "24:12": [
+        "city groan",
+        "god folly:a to they lay:neg"
+      ],
+      "24:13": [
+        "against light rebel",
+        "know:neg:pr nor"
+      ],
+      "24:14": [
+        "murder:ag with light",
+        "in night as thief"
+      ],
+      "24:15": [
+        "kjv_adulterer",
+        "no eye i:a see",
+        "his/face:a disguise"
+      ],
+      "24:16": [
+        "kjv_dig",
+        "in day mark:pa",
+        "know:neg:pr"
+      ],
+      "24:17": [
+        "if person they:a know",
+        "shadow of death"
+      ],
+      "24:18": [
+        "he swift",
+        "their/kjv_portion_share",
+        "behold:neg:pr"
+      ],
+      "24:19": [
+        "snow water:pl",
+        "grave those who sin:perf kjv_consume"
+      ],
+      "24:20": [
+        "womb he:a forget",
+        "worm on he sweet",
+        "wickedness as kjv_tree"
+      ],
+      "24:21": [
+        "barren:a who bear:neg:pr",
+        "to widow good:a do:neg"
+      ],
+      "24:22": [
+        "mighty:a",
+        "no person of life sure"
+      ],
+      "24:23": [
+        "in safety",
+        "his/eye:pl upon their/way:pl"
+      ],
+      "24:24": [
+        "for little while",
+        "top:pl of kjv_grain_ear:pl"
+      ],
+      "24:25": [
+        "if it now thus be:neg",
+        "i:a liar"
+      ],
+      "25:1": [
+        "kjv_bildad kjv_shuhite"
+      ],
+      "25:2": [
+        "rule:ev and fear",
+        "his/high place:pl"
+      ],
+      "25:3": [
+        "kjv_number:ev of his/army:pl",
+        "rise:neg:pr"
+      ],
+      "25:4": [
+        "person with god kjv_righteous declare",
+        "of woman bear"
+      ],
+      "25:5": [
+        "moon",
+        "shine:neg:pr",
+        "pure be:neg:pr"
+      ],
+      "25:6": [
+        "person who worm",
+        "son of person who worm"
+      ],
+      "26:1": [
+        "kjv_job_sufferer"
+      ],
+      "26:2": [
+        "he:a who without power",
+        "arm:a which no strength"
+      ],
+      "26:3": [
+        "he:a who no wisdom",
+        "thing:a as it be:pr"
+      ],
+      "26:4": [
+        "to whom",
+        "whose spirit"
+      ],
+      "26:5": [
+        "dead thing:pl",
+        "form:psv:pr",
+        "their/inhabit:ag:pl"
+      ],
+      "26:6": [
+        "kjv_hell_depth",
+        "kjv_nakedness:adj",
+        "no cover:ev"
+      ],
+      "26:7": [
+        "kjv_north:a",
+        "earth:a upon nothing"
+      ],
+      "26:8": [
+        "water:pl:a in his/thick cloud:pl",
+        "tear:psv:neg"
+      ],
+      "26:9": [
+        "face of his/throne",
+        "cloud:a upon it"
+      ],
+      "26:10": [
+        "with bound:pl",
+        "until day and night to end"
+      ],
+      "26:11": [
+        "pillar:pl of heaven",
+        "at his/rebuke:ev"
+      ],
+      "26:12": [
+        "sea:a with his/power",
+        "proud:a through strike"
+      ],
+      "26:13": [
+        "his/spirit",
+        "adorn:perf",
+        "crooked serpent"
+      ],
+      "26:14": [
+        "little kjv_portion_share",
+        "thunder of his/power"
+      ],
+      "27:1": [
+        "his/kjv_parable_oracle"
+      ],
+      "27:2": [
+        "as god live",
+        "my/judgment:a away take",
+        "my/soul:a vex"
+      ],
+      "27:3": [
+        "my/breath in i",
+        "spirit of god in my/kjv_nostril:pl"
+      ],
+      "27:4": [
+        "speak:neg:fu nor",
+        "deceit:a utter"
+      ],
+      "27:5": [
+        "god forbid:opt",
+        "you:pl:a kjv_righteous declare",
+        "my/integrity"
+      ],
+      "27:6": [
+        "kjv_firmly hold",
+        "let:neg:fu",
+        "kjv_reproach:neg:fu"
+      ],
+      "27:7": [
+        "my/enemy as wicked",
+        "against i up rise"
+      ],
+      "27:8": [
+        "kjv_hypocrite",
+        "though he gain",
+        "his/soul:a away take"
+      ],
+      "27:9": [
+        "god his/cry:ev",
+        "when distress"
+      ],
+      "27:10": [
+        "himself:a in kjv_almighty",
+        "always upon god"
+      ],
+      "27:11": [
+        "by hand of god",
+        "conceal:neg:fu"
+      ],
+      "27:12": [
+        "all you:pl yourselves",
+        "entirely vain"
+      ],
+      "27:13": [
+        "kjv_portion_share",
+        "heritage of oppress:ag:pl"
+      ],
+      "27:14": [
+        "if his/child:pl",
+        "for sword",
+        "satisfy:psv:neg"
+      ],
+      "27:15": [
+        "in death bury",
+        "widow:pl weep:neg"
+      ],
+      "27:16": [
+        "silver:a as dust",
+        "clothing:a as kjv_clay_material"
+      ],
+      "27:17": [
+        "kjv_righteous it:a on put",
+        "innocent silver:a kjv_divide"
+      ],
+      "27:18": [
+        "as kjv_moth_job",
+        "as kjv_booth"
+      ],
+      "27:19": [
+        "gather:psv:neg",
+        "his/eye:pl:a open",
+        "he be:neg:pr"
+      ],
+      "27:20": [
+        "as water:pl",
+        "in night away steal"
+      ],
+      "27:21": [
+        "east wind",
+        "out of his/kjv_place_site"
+      ],
+      "27:22": [
+        "god upon he cast",
+        "spare:neg:fu",
+        "willingly"
+      ],
+      "27:23": [
+        "hand:pl:a at he together strike",
+        "kjv_hiss"
+      ],
+      "28:1": [
+        "kjv_mineral_vein",
+        "kjv_fine_metal"
+      ],
+      "28:2": [
+        "iron out of earth",
+        "kjv_brass out of stone"
+      ],
+      "28:3": [
+        "all perfection",
+        "stone:pl of darkness"
+      ],
+      "28:4": [
+        "flood from inhabit:ag",
+        "by foot forget",
+        "up dry:psv:pr"
+      ],
+      "28:5": [
+        "bread come",
+        "under it as fire"
+      ],
+      "28:6": [
+        "kjv_sapphire:pl",
+        "dust of gold"
+      ],
+      "28:7": [
+        "no bird",
+        "eye of kjv_vulture"
+      ],
+      "28:8": [
+        "lion:poss young:pl",
+        "tread:neg:perf"
+      ],
+      "28:9": [
+        "hand:a upon rock",
+        "mountain:pl:a by root:pl"
+      ],
+      "28:10": [
+        "river:pl:a among rock:pl",
+        "precious thing"
+      ],
+      "28:11": [
+        "from overflow:ev",
+        "forth to light"
+      ],
+      "28:12": [
+        "where wisdom",
+        "where kjv_place_site of understanding"
+      ],
+      "28:13": [
+        "its/price:a know:neg",
+        "land of live:pp"
+      ],
+      "28:14": [
+        "kjv_depth say:pr it in i",
+        "sea say:pr it with i"
+      ],
+      "28:15": [
+        "obtain:psv:neg:pr:can",
+        "silver for its/price"
+      ],
+      "28:16": [
+        "gold of kjv_ophir",
+        "kjv_onyx",
+        "kjv_sapphire"
+      ],
+      "28:17": [
+        "gold and crystal",
+        "equal:pr:can:neg",
+        "jewel:pl of pure gold"
+      ],
+      "28:18": [
+        "kjv_coral or pearl:pl",
+        "above ruby:pl"
+      ],
+      "28:19": [
+        "kjv_topaz of kjv_ethiopia",
+        "neither it with pure gold"
+      ],
+      "28:20": [
+        "from where then wisdom",
+        "place_site of understanding"
+      ],
+      "28:21": [
+        "eye:pl of all live:pp",
+        "bird:pl of air"
+      ],
+      "28:22": [
+        "destroy:ev and death",
+        "we:du",
+        "ear:pl of we:du"
+      ],
+      "28:23": [
+        "god its/way:a",
+        "its/kjv_place_site:a"
+      ],
+      "28:24": [
+        "end:pl of earth",
+        "under whole heaven"
+      ],
+      "28:25": [
+        "weight for wind:pl",
+        "water:pl:a by measure"
+      ],
+      "28:26": [
+        "decree:a for rain",
+        "lightning of thunder"
+      ],
+      "28:27": [
+        "see:pa",
+        "declare:pa",
+        "prepare:pa",
+        "out search:pa"
+      ],
+      "28:28": [
+        "fear of kjv_lord",
+        "evil depart:ev understanding"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "22:18",
+        "23:10",
+        "23:11",
+        "23:12",
+        "23:14",
+        "23:15",
+        "23:16",
+        "23:17",
+        "23:3",
+        "23:4",
+        "23:5",
+        "23:6",
+        "23:7",
+        "23:8",
+        "23:9",
+        "24:15",
+        "24:25",
+        "27:11",
+        "27:3",
+        "27:5",
+        "27:6",
+        "27:7",
+        "28:14"
+      ],
+      "ipl": [],
+      "wesg": [
+        "22:17"
+      ],
+      "wepl": [],
+      "they:du": [],
+      "you:du": [],
+      "mypl": [],
+      "iplself": [],
+      "ourone": [
+        "22:20"
+      ],
+      "we:du": [
+        "28:22"
+      ]
+    },
+    "quantityInterpretation": [
+      "One mind23:13 is the sole explicit cardinal clause;it expresses resolve,not a divine-person count.",
+      "Unnumbered armies,metal prices and measured waters receive no invented numeric values."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Quoted common refusal22:17 takes singular-we;ourone/substance22:20 claims one continuing body. Individual speakers and personified sea/depth use personal-I;Destruction and Death28:22 are the explicit dual.",
+      "KJV island-of-innocent,dead-things-formed,throne-face,until-day-and-night-end,proud,crooked-serpent and difficult mining-water wording are not replaced with other witnesses.",
+      "Social accusations remain speaker claims;unclear they/he changes are not resolved by inventing named people.",
+      "All inherited targets and old seals unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Job — incomplete Bible working text",
+    "pages": 322,
+    "spreads": 161,
+    "units": 663,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "5ac1798158aff2d47bc011e96108ccd8aa0f51b6e316db58314cfcf2bfbce99e",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 161,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.989,
+    "modules": [
+      "tests.test_kjv_job_hidden_wisdom",
+      "tests.test_kjv_job_arguing_body",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    321,
+    322
+  ],
+  "status": "incompleteBible;Job1to28sectioncheckpointverified"
+}

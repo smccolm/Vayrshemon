@@ -1,0 +1,488 @@
+[
+  {
+    "id": "1-chronicles-1-1",
+    "analysis": "kjv_adam kjv_sheth_adam kjv_enosh,",
+    "expected": "accept",
+    "expectedText": "Adam ÚeÕ EnoÛ,",
+    "expectedGloss": "Adam · sheth-adam · enosh,",
+    "interpretation": "Adam, Sheth, Enosh.",
+    "note": "The bare list remains a bare list; the source gives no explicit father-of edge in this verse. Sheth is locally the Adam lineage, not the earlier oracle label."
+  },
+  {
+    "id": "1-chronicles-1-2",
+    "analysis": "kjv_kenan kjv_mahalaleel kjv_jered,",
+    "expected": "accept",
+    "expectedText": "Kenan Mahalalel Jered,",
+    "expectedGloss": "kenan · Mahalaleel · jered,",
+    "interpretation": "Kenan, Mahalaleel, Jered.",
+    "note": "The supplied Kenan and Jered forms are preserved rather than silently normalized to Genesis spellings."
+  },
+  {
+    "id": "1-chronicles-1-3",
+    "analysis": "kjv_henoch_line kjv_methuselah kjv_lamech,",
+    "expected": "accept",
+    "expectedText": "HenoÕ MeÓuselah Lamek,",
+    "expectedGloss": "henoch-line · Methuselah · Lamech,",
+    "interpretation": "Henoch, Methuselah, Lamech.",
+    "note": "Henoch follows the opening lineage, distinct from the later son of Midian; Methuselah is not Methusael."
+  },
+  {
+    "id": "1-chronicles-1-4",
+    "analysis": "kjv_noah kjv_shem kjv_ham and kjv_japheth.",
+    "expected": "accept",
+    "expectedText": "Noah Úem Ham ãÑ JafeÓ.",
+    "expectedGloss": "Noah · Shem · Ham · and · Japheth.",
+    "interpretation": "Noah, Shem, Ham and Japheth.",
+    "note": "The conjunction is retained without turning the whole list into a father-to-son chain."
+  },
+  {
+    "id": "1-chronicles-1-5",
+    "analysis": "son:pl of kjv_japheth kjv_gomer and kjv_magog and kjv_madai and kjv_javan and kjv_tubal and kjv_meshech and kjv_tiras.",
+    "expected": "accept",
+    "expectedText": "Pelenun i JafeÓ Gomer ãÑ Magog ãÑ Madai ãÑ Javan ãÑ Tubal ãÑ MeÛek ãÑ Tiras.",
+    "expectedGloss": "son(pl.) · of · Japheth · Gomer · and · Magog · and · Madai · and · Javan · and · Tubal · and · Meshech · and · Tiras.",
+    "interpretation": "Japheth's sons: Gomer, Magog, Madai, Javan, Tubal, Meshech and Tiras.",
+    "note": "All seven named positions remain in the supplied order; no modern national identities are substituted."
+  },
+  {
+    "id": "1-chronicles-1-6",
+    "analysis": "and son:pl of kjv_gomer kjv_ashchenaz and kjv_riphath and kjv_togarmah.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i Gomer AÛkenaz ãÑ RifaÓ ãÑ Togarmah.",
+    "expectedGloss": "and · son(pl.) · of · Gomer · ashchenaz · and · Riphath · and · Togarmah.",
+    "interpretation": "Gomer's sons: Ashchenaz, Riphath and Togarmah.",
+    "note": "Ashchenaz is a supplied form, not a correction to a different spelling elsewhere."
+  },
+  {
+    "id": "1-chronicles-1-7",
+    "analysis": "and son:pl of kjv_javan kjv_elishah and kjv_tarshish_person kjv_kittim and kjv_dodanim.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i Javan EliÛah ãÑ TarÛiÛ Kitim ãÑ Dodanim.",
+    "expectedGloss": "and · son(pl.) · of · Javan · Elishah · and · Tarshish · Kittim · and · Dodanim.",
+    "interpretation": "Javan's sons: Elishah, Tarshish, Kittim and Dodanim.",
+    "note": "The personal/eponymic Tarshish entry is used rather than Jonah's destination sense."
+  },
+  {
+    "id": "1-chronicles-1-8",
+    "analysis": "son:pl of kjv_ham kjv_cush and kjv_mizraim kjv_put_person and kjv_canaan.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Ham KuÛ ãÑ Mitsraim Put ãÑ Kanaan.",
+    "expectedGloss": "son(pl.) · of · Ham · Cush · and · Mizraim · put-person · and · Canaan.",
+    "interpretation": "Ham's sons: Cush, Mizraim, Put and Canaan.",
+    "note": "Put is a name here, not the placement verb; the existing Canaan personal sense is retained."
+  },
+  {
+    "id": "1-chronicles-1-9",
+    "analysis": "and son:pl of kjv_cush kjv_seba and kjv_havilah_person and kjv_sabta and kjv_raamah and kjv_sabtecha and son:pl of kjv_raamah kjv_sheba and kjv_dedan.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i KuÛ Seba ãÑ Havilah ãÑ SabÓa ãÑ Raamah ãÑ Sabtekha ãÑ pelenun i Raamah Úeba ãÑ Dedan.",
+    "expectedGloss": "and · son(pl.) · of · Cush · Seba · and · Havilah · and · sabta · and · Raamah · and · sabtecha · and · son(pl.) · of · Raamah · Sheba · and · Dedan.",
+    "interpretation": "Cush's sons are Seba, Havilah, Sabta, Raamah and Sabtecha; Raamah's are Sheba and Dedan.",
+    "note": "Two generations are distinguished. Havilah uses the genealogical-person entry, not the named land."
+  },
+  {
+    "id": "1-chronicles-1-10",
+    "analysis": "and kjv_cush kjv_nimrod:a beget:pa he mighty upon earth be:inf begin:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ KuÛ Nimrodget pelaÙizya zi jwënenplesten gren joÙol r×’en páizya.",
+    "expectedGloss": "and · Cush · Nimrod(acc.) · beget(pst.) · he(sg.) · mighty · upon · earth · be(inf.) · begin(pst.).",
+    "interpretation": "Cush begets Nimrod, who begins to be mighty on earth.",
+    "note": "No hunting description or later empire story is imported from another passage."
+  },
+  {
+    "id": "1-chronicles-1-11",
+    "analysis": "and kjv_mizraim kjv_ludim and kjv_anamim and kjv_lehabim and kjv_naphtuhim:a beget:pa,",
+    "expected": "accept",
+    "expectedText": "âÑ Mitsraim Ludim ãÑ Anamim ãÑ Lehabim ãÑ Naftuhimget pelaÙizya,",
+    "expectedGloss": "and · Mizraim · Ludim · and · Anamim · and · Lehabim · and · Naphtuhim(acc.) · beget(pst.),",
+    "interpretation": "Mizraim begets Ludim, Anamim, Lehabim and Naphtuhim.",
+    "note": "The list continues into the next verse; no sentence-closing completion is invented."
+  },
+  {
+    "id": "1-chronicles-1-12",
+    "analysis": "and kjv_pathrusim and kjv_casluhim:a [of whom kjv_philistine:pl come:pa] and kjv_caphthorim:a.",
+    "expected": "accept",
+    "expectedText": "âÑ PaÓrusim ãÑ Kasluhimget [ i falib Filistinun tçlizya ] ãÑ KafÕorimget.",
+    "expectedGloss": "and · Pathrusim · and · Casluhim(acc.) · [ · of · whom · Philistine(pl.) · come(pst.) · ] · and · caphthorim(acc.).",
+    "interpretation": "And Pathrusim, Casluhim—from whom came the Philistines—and Caphthorim.",
+    "note": "The parenthetical origin statement stays attached as printed; it is not moved to a different ancestor to harmonize traditions."
+  },
+  {
+    "id": "1-chronicles-1-13",
+    "analysis": "and kjv_canaan kjv_zidon his/first+born and kjv_heth:a beget:pa,",
+    "expected": "accept",
+    "expectedText": "âÑ Kanaan Zidon zi’neksaÙÕßr ãÑ HeÓget pelaÙizya,",
+    "expectedGloss": "and · Canaan · Zidon · his-first-born · and · Heth(acc.) · beget(pst.),",
+    "interpretation": "Canaan begets Zidon his firstborn and Heth.",
+    "note": "Firstborn is birth-order terminology, not a generic-human one or an added counted son."
+  },
+  {
+    "id": "1-chronicles-1-14",
+    "analysis": "kjv_jebusite:a also and kjv_amorite:a and kjv_girgashite:a,",
+    "expected": "accept",
+    "expectedText": "Jebusitget al ãÑ Amoritget ãÑ GirgaÛitget,",
+    "expectedGloss": "Jebusite(acc.) · also · and · Amorite(acc.) · and · girgashite(acc.),",
+    "interpretation": "Also the Jebusite, Amorite and Girgashite.",
+    "note": "The singular people labels remain in the continuing descent list."
+  },
+  {
+    "id": "1-chronicles-1-15",
+    "analysis": "and kjv_hivite:a and kjv_arkite:a and kjv_sinite:a,",
+    "expected": "accept",
+    "expectedText": "âÑ Hivitget ãÑ Arkitget ãÑ Sinitget,",
+    "expectedGloss": "and · Hivite(acc.) · and · Arkite(acc.) · and · Sinite(acc.),",
+    "interpretation": "And the Hivite, Arkite and Sinite.",
+    "note": "All three source labels are preserved without modern ethnic mapping."
+  },
+  {
+    "id": "1-chronicles-1-16",
+    "analysis": "and kjv_arvadite:a and kjv_zemarite:a and kjv_hamathite:a.",
+    "expected": "accept",
+    "expectedText": "âÑ Arvaditget ãÑ Zemaritget ãÑ HamaÓitget.",
+    "expectedGloss": "and · Arvadite(acc.) · and · Zemarite(acc.) · and · Hamathite(acc.).",
+    "interpretation": "And the Arvadite, Zemarite and Hamathite.",
+    "note": "This closes the supplied continuation of Canaan's list."
+  },
+  {
+    "id": "1-chronicles-1-17",
+    "analysis": "son:pl of kjv_shem kjv_elam and kjv_asshur and kjv_arphaxad and kjv_lud and kjv_aram and kjv_uz and kjv_hul and kjv_gether and kjv_meshech_shem.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Úem Elam ãÑ AÛur ãÑ Arfaksad ãÑ Lud ãÑ Aram ãÑ Uts ãÑ Hul ãÑ GeÓer ãÑ MeÛek.",
+    "expectedGloss": "son(pl.) · of · Shem · Elam · and · Asshur · and · Arphaxad · and · Lud · and · Aram · and · Uz · and · Hul · and · Gether · and · meshech-shem.",
+    "interpretation": "Shem's sons: Elam, Asshur, Arphaxad, Lud, Aram, Uz, Hul, Gether and Meshech.",
+    "note": "The source's flat list is retained; no extra Aram-generation bracket is imported. Meshech is not silently replaced with Mash."
+  },
+  {
+    "id": "1-chronicles-1-18",
+    "analysis": "and kjv_arphaxad kjv_shelah_arphaxad:a beget:pa and kjv_shelah_arphaxad kjv_eber:a beget:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Arfaksad Úelahget pelaÙizya ãÑ Úelah Eberget pelaÙizya.",
+    "expectedGloss": "and · Arphaxad · shelah-arphaxad(acc.) · beget(pst.) · and · shelah-arphaxad · Eber(acc.) · beget(pst.).",
+    "interpretation": "Arphaxad begets Shelah, and Shelah begets Eber.",
+    "note": "Shelah here is distinct from Judah's son, despite sharing a name form."
+  },
+  {
+    "id": "1-chronicles-1-19",
+    "analysis": "and to kjv_eber two son:pl born:psv:pa name of one_num kjv_peleg be:pa because in his/day:pl earth kjv_divide:psv:pa and name of his/brother kjv_joktan be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ Eber ÓÅtus pelenun aÙÕßrimizya den i neksus Peleg r×izya kenst ni zi’yelun joÙol threninaÙimizya ãÑ den i zi’palil Joktan r×izya.",
+    "expectedGloss": "and · to · Eber · two · son(pl.) · born(pass.,pst.) · name · of · one · Peleg · be(pst.) · because · in · his-day(pl.) · earth · divide(pass.,pst.) · and · name · of · his-brother · Joktan · be(pst.).",
+    "interpretation": "Eber has two sons: one is Peleg because the earth was divided in his days; his brother is Joktan.",
+    "note": "One identifies one of the counted pair; the naming explanation is preserved without inventing a geological mechanism."
+  },
+  {
+    "id": "1-chronicles-1-20",
+    "analysis": "and kjv_joktan kjv_almodad and kjv_sheleph and kjv_hazarmaveth and kjv_jerah:a beget:pa,",
+    "expected": "accept",
+    "expectedText": "âÑ Joktan Almodad ãÑ Úelef ãÑ HatsarmaveÓ ãÑ Jerahget pelaÙizya,",
+    "expectedGloss": "and · Joktan · Almodad · and · Sheleph · and · Hazarmaveth · and · Jerah(acc.) · beget(pst.),",
+    "interpretation": "Joktan begets Almodad, Sheleph, Hazarmaveth and Jerah.",
+    "note": "The open list continues through the following verses."
+  },
+  {
+    "id": "1-chronicles-1-21",
+    "analysis": "kjv_hadoram:a also and kjv_uzal:a and kjv_diklah:a,",
+    "expected": "accept",
+    "expectedText": "Hadoramget al ãÑ Utsalget ãÑ Diklahget,",
+    "expectedGloss": "Hadoram(acc.) · also · and · Uzal(acc.) · and · Diklah(acc.),",
+    "interpretation": "Also Hadoram, Uzal and Diklah.",
+    "note": "The repeated list rhythm is intentionally retained in the historical register."
+  },
+  {
+    "id": "1-chronicles-1-22",
+    "analysis": "and kjv_ebal_joktan:a and kjv_abimael:a and kjv_sheba:a,",
+    "expected": "accept",
+    "expectedText": "âÑ Ebalget ãÑ Abimaelget ãÑ Úebaget,",
+    "expectedGloss": "and · ebal-joktan(acc.) · and · Abimael(acc.) · and · Sheba(acc.),",
+    "interpretation": "And Ebal, Abimael and Sheba.",
+    "note": "Ebal is the Joktan descendant here, not the Edomite-list Ebal or a mountain."
+  },
+  {
+    "id": "1-chronicles-1-23",
+    "analysis": "and kjv_ophir:a and kjv_havilah_person:a and kjv_jobab:a all these son:pl of kjv_joktan be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Ofirget ãÑ Havilahget ãÑ Jobabget ol Ñem pelenun i Joktan r×izya.",
+    "expectedGloss": "and · Ophir(acc.) · and · Havilah(acc.) · and · Jobab(acc.) · all · these · son(pl.) · of · Joktan · be(pst.).",
+    "interpretation": "And Ophir, Havilah and Jobab; all these are Joktan's sons.",
+    "note": "The Havilah person entry allows distinct local genealogical referents and does not merge this line with Cush's; Jobab is not the later Edomite king."
+  },
+  {
+    "id": "1-chronicles-1-24",
+    "analysis": "kjv_shem kjv_arphaxad kjv_shelah_arphaxad,",
+    "expected": "accept",
+    "expectedText": "Úem Arfaksad Úelah,",
+    "expectedGloss": "Shem · Arphaxad · shelah-arphaxad,",
+    "interpretation": "Shem, Arphaxad, Shelah.",
+    "note": "The abbreviated lineage list retains its bare-name form."
+  },
+  {
+    "id": "1-chronicles-1-25",
+    "analysis": "kjv_eber kjv_peleg kjv_reu,",
+    "expected": "accept",
+    "expectedText": "Eber Peleg Reu,",
+    "expectedGloss": "Eber · Peleg · Reu,",
+    "interpretation": "Eber, Peleg, Reu.",
+    "note": "No unprinted ages or dates are added."
+  },
+  {
+    "id": "1-chronicles-1-26",
+    "analysis": "kjv_serug kjv_nahor kjv_terah,",
+    "expected": "accept",
+    "expectedText": "Serug Nahor Terah,",
+    "expectedGloss": "Serug · Nahor · Terah,",
+    "interpretation": "Serug, Nahor, Terah.",
+    "note": "The local lineage governs Nahor's referent without merging all namesakes."
+  },
+  {
+    "id": "1-chronicles-1-27",
+    "analysis": "kjv_abram same kjv_abraham be:pr.",
+    "expected": "accept",
+    "expectedText": "Abram ilna Abraham r×owya.",
+    "expectedGloss": "Abram · same · Abraham · be(prs.).",
+    "interpretation": "Abram: the same is Abraham.",
+    "note": "Unlike the surrounding bare lists, this verse explicitly equates the two names; that identity assertion is translated."
+  },
+  {
+    "id": "1-chronicles-1-28",
+    "analysis": "son:pl of kjv_abraham kjv_isaac and kjv_ishmael.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Abraham Itsak ãÑ IÛmael.",
+    "expectedGloss": "son(pl.) · of · Abraham · Isaac · and · Ishmael.",
+    "interpretation": "Abraham's sons: Isaac and Ishmael.",
+    "note": "The pair is retained as a genealogical list; no collective first-person identity is inserted."
+  },
+  {
+    "id": "1-chronicles-1-29",
+    "analysis": "these their/generation:pl be:pr first+born of kjv_ishmael kjv_nebaioth then kjv_kedar and kjv_adbeel and kjv_mibsam,",
+    "expected": "accept",
+    "expectedText": "Ðem zem’pelvornvenorun r×owya neksaÙÕßr i IÛmael Nebaiot rav Kedar ãÑ Adbeel ãÑ Mibsam,",
+    "expectedGloss": "these · their-generation(pl.) · be(prs.) · first-born · of · Ishmael · nebaioth · then · Kedar · and · Adbeel · and · Mibsam,",
+    "interpretation": "Their generations: Ishmael's firstborn Nebaioth, then Kedar, Adbeel and Mibsam.",
+    "note": "The supplied Nebaioth form and firstborn relation are retained; the list continues."
+  },
+  {
+    "id": "1-chronicles-1-30",
+    "analysis": "kjv_mishma and kjv_dumah kjv_massa kjv_hadad_ishmael and kjv_tema,",
+    "expected": "accept",
+    "expectedText": "MiÛma ãÑ Dumah Massa Hadad ãÑ Tema,",
+    "expectedGloss": "Mishma · and · Dumah · Massa · hadad-ishmael · and · Tema,",
+    "interpretation": "Mishma, Dumah, Massa, Hadad and Tema.",
+    "note": "Hadad here belongs to Ishmael's list and is not merged with an Edomite ruler."
+  },
+  {
+    "id": "1-chronicles-1-31",
+    "analysis": "kjv_jetur kjv_naphish and kjv_kedemah these son:pl of kjv_ishmael be:pr.",
+    "expected": "accept",
+    "expectedText": "Jetur NafiÛ ãÑ Kedema Ñem pelenun i IÛmael r×owya.",
+    "expectedGloss": "Jetur · Naphish · and · Kedemah · these · son(pl.) · of · Ishmael · be(prs.).",
+    "interpretation": "Jetur, Naphish and Kedemah; these are Ishmael's sons.",
+    "note": "The source's closing identity statement is retained."
+  },
+  {
+    "id": "1-chronicles-1-32",
+    "analysis": "now son:pl of kjv_keturah kjv_concubine of kjv_abraham she kjv_zimran and kjv_jokshan and kjv_medan and kjv_midian and kjv_ishbak and kjv_shuah:a born:pa and son:pl of kjv_jokshan kjv_sheba and kjv_dedan.",
+    "expected": "accept",
+    "expectedText": "Ven pelenun i Ketura pilage i Abraham za Zimran ãÑ JokÛan ãÑ Medan ãÑ Midian ãÑ IÛbak ãÑ Úuahget aÙÕßrizya ãÑ pelenun i JokÛan Úeba ãÑ Dedan.",
+    "expectedGloss": "now · son(pl.) · of · Keturah · concubine · of · Abraham · she(sg.) · Zimran · and · Jokshan · and · Medan · and · Midian · and · Ishbak · and · Shuah(acc.) · born(pst.) · and · son(pl.) · of · Jokshan · Sheba · and · Dedan.",
+    "interpretation": "Keturah, Abraham's concubine, bears Zimran, Jokshan, Medan, Midian, Ishbak and Shuah; Jokshan's sons are Sheba and Dedan.",
+    "note": "Medan and Midian remain separate; the shift to Jokshan's sons is explicit, and the supplied concubine status is not replaced with wife."
+  },
+  {
+    "id": "1-chronicles-1-33",
+    "analysis": "and son:pl of kjv_midian kjv_ephah and kjv_epher and kjv_henoch_midian and kjv_abida and kjv_eldaah all these son:pl of kjv_keturah be:pr.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i Midian Efah ãÑ Efer ãÑ HenoÕ ãÑ Abida ãÑ Eldaah ol Ñem pelenun i Ketura r×owya.",
+    "expectedGloss": "and · son(pl.) · of · Midian · Ephah · and · Epher · and · henoch-midian · and · abida · and · Eldaah · all · these · son(pl.) · of · Keturah · be(prs.).",
+    "interpretation": "Midian's sons: Ephah, Epher, Henoch, Abida and Eldaah; all these are Keturah's sons.",
+    "note": "The source's broader sons-of-Keturah statement follows the grandson list without adding a biological generation correction."
+  },
+  {
+    "id": "1-chronicles-1-34",
+    "analysis": "and kjv_abraham kjv_isaac:a beget:pa son:pl of kjv_isaac kjv_esau and kjv_israel.",
+    "expected": "accept",
+    "expectedText": "âÑ Abraham Itsakget pelaÙizya pelenun i Itsak Esau ãÑ Israel.",
+    "expectedGloss": "and · Abraham · Isaac(acc.) · beget(pst.) · son(pl.) · of · Isaac · Esau · and · Israel.",
+    "interpretation": "Abraham begets Isaac; Isaac's sons are Esau and Israel.",
+    "note": "Israel is the supplied personal name in this genealogy, without importing a new renaming scene."
+  },
+  {
+    "id": "1-chronicles-1-35",
+    "analysis": "son:pl of kjv_esau kjv_eliphaz kjv_reuel and kjv_jeush and kjv_jaalam and kjv_korah.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Esau Elifaz Reuel ãÑ JeuÛ ãÑ Jaalam ãÑ Korah.",
+    "expectedGloss": "son(pl.) · of · Esau · Eliphaz · Reuel · and · Jeush · and · Jaalam · and · Korah.",
+    "interpretation": "Esau's sons: Eliphaz, Reuel, Jeush, Jaalam and Korah.",
+    "note": "The five names remain ordered; the verse itself does not print a number, so none is added."
+  },
+  {
+    "id": "1-chronicles-1-36",
+    "analysis": "son:pl of kjv_eliphaz kjv_teman and kjv_omar kjv_zephi and kjv_gatam kjv_kenaz and kjv_timna and kjv_amalek.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Elifaz Teman ãÑ Omar Zefi ãÑ Gatam Kenaz ãÑ Timna ãÑ Amalek.",
+    "expectedGloss": "son(pl.) · of · Eliphaz · Teman · and · Omar · zephi · and · Gatam · Kenaz · and · Timna · and · Amalek.",
+    "interpretation": "Eliphaz's sons: Teman, Omar, Zephi, Gatam, Kenaz, Timna and Amalek.",
+    "note": "Timna remains in the supplied sons-list; neither its gender nor a concubine relationship is silently repaired from another passage."
+  },
+  {
+    "id": "1-chronicles-1-37",
+    "analysis": "son:pl of kjv_reuel kjv_nahath kjv_zerah kjv_shammah and kjv_mizzah.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Reuel NahaÓ Zerah Úammah ãÑ Mizzah.",
+    "expectedGloss": "son(pl.) · of · Reuel · Nahath · Zerah · Shammah · and · Mizzah.",
+    "interpretation": "Reuel's sons: Nahath, Zerah, Shammah and Mizzah.",
+    "note": "The local Edomite line governs these names rather than later same-named people."
+  },
+  {
+    "id": "1-chronicles-1-38",
+    "analysis": "and son:pl of kjv_seir kjv_lotan and kjv_shobal and kjv_zibeon and kjv_anah and kjv_dishon and kjv_ezar and kjv_dishan.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i Seir Lotan ãÑ Úobal ãÑ Zibeon ãÑ Anah ãÑ DiÛon ãÑ Ezar ãÑ DiÛan.",
+    "expectedGloss": "and · son(pl.) · of · Seir · Lotan · and · Shobal · and · Zibeon · and · Anah · and · Dishon · and · ezar · and · Dishan.",
+    "interpretation": "Seir's sons: Lotan, Shobal, Zibeon, Anah, Dishon, Ezar and Dishan.",
+    "note": "Dishon and Dishan remain distinct forms. Ezar is preserved as printed here beside Ezer later."
+  },
+  {
+    "id": "1-chronicles-1-39",
+    "analysis": "and son:pl of kjv_lotan kjv_hori and kjv_homam and kjv_timna sister of kjv_lotan be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ pelenun i Lotan Hori ãÑ Homam ãÑ Timna palila i Lotan r×izya.",
+    "expectedGloss": "and · son(pl.) · of · Lotan · Hori · and · homam · and · Timna · sister · of · Lotan · be(pst.).",
+    "interpretation": "Lotan's sons are Hori and Homam, and Timna is Lotan's sister.",
+    "note": "The explicit sister relation remains even beside the earlier sons-list Timna; no unprinted identity equation resolves it."
+  },
+  {
+    "id": "1-chronicles-1-40",
+    "analysis": "son:pl of kjv_shobal kjv_alian and kjv_manahath and kjv_ebal kjv_shephi and kjv_onam and son:pl of kjv_zibeon kjv_aiah_zibeon and kjv_anah.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Úobal Alian ãÑ ManahaÓ ãÑ Ebal Úefi ãÑ Onam ãÑ pelenun i Zibeon Aiah ãÑ Anah.",
+    "expectedGloss": "son(pl.) · of · Shobal · alian · and · Manahath · and · Ebal · shephi · and · Onam · and · son(pl.) · of · Zibeon · aiah-zibeon · and · Anah.",
+    "interpretation": "Shobal's sons are Alian, Manahath, Ebal, Shephi and Onam; Zibeon's are Aiah and Anah.",
+    "note": "The generation boundary is explicit. Aiah has a local identity distinct from Rizpah's father; Ebal is the Edomite genealogy entry here."
+  },
+  {
+    "id": "1-chronicles-1-41",
+    "analysis": "son:pl of kjv_anah kjv_dishon and son:pl of kjv_dishon kjv_amram_dishon and kjv_eshban and kjv_ithran and kjv_cheran.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Anah DiÛon ãÑ pelenun i DiÛon Amram ãÑ EÛban ãÑ IÓran ãÑ Ðeran.",
+    "expectedGloss": "son(pl.) · of · Anah · Dishon · and · son(pl.) · of · Dishon · amram-dishon · and · Eshban · and · Ithran · and · Cheran.",
+    "interpretation": "Anah's sons: Dishon; Dishon's sons: Amram, Eshban, Ithran and Cheran.",
+    "note": "The plural heading before a single name remains as printed; Amram is not the Exodus father of Moses."
+  },
+  {
+    "id": "1-chronicles-1-42",
+    "analysis": "son:pl of kjv_ezer kjv_bilhan and kjv_zavan and kjv_jakan son:pl of kjv_dishan kjv_uz and kjv_aran.",
+    "expected": "accept",
+    "expectedText": "Pelenun i Ezer Bilhan ãÑ Zavan ãÑ Jakan pelenun i DiÛan Uts ãÑ Aran.",
+    "expectedGloss": "son(pl.) · of · Ezer · Bilhan · and · zavan · and · jakan · son(pl.) · of · Dishan · Uz · and · Aran.",
+    "interpretation": "Ezer's sons: Bilhan, Zavan and Jakan; Dishan's: Uz and Aran.",
+    "note": "Ezer is not silently respelled Ezar, and the two paternal headings remain separate."
+  },
+  {
+    "id": "1-chronicles-1-43",
+    "analysis": "now these king:pl be:pr that in land of kjv_edom rule:pa before any king over child:pl of kjv_israel rule:pa kjv_bela_king son of kjv_beor and name of his/city kjv_dinhabah be:pa.",
+    "expected": "accept",
+    "expectedText": "Ven Ñem varßnun r×owya ka ni joÙ i Edom varßnenizya pán grafel varßn na pelun i Israel varßnenizya Bela pelen i Beor ãÑ den i zi’zálagur Dinhabah r×izya.",
+    "expectedGloss": "now · these · king(pl.) · be(prs.) · that · in · land · of · Edom · rule(pst.) · before · any · king · over · child(pl.) · of · Israel · rule(pst.) · Bela · son · of · Beor · and · name · of · his-city · Dinhabah · be(pst.).",
+    "interpretation": "These kings rule in Edom before any king over Israel: Bela son of Beor, whose city is Dinhabah.",
+    "note": "The relative chronological claim is retained without inventing a calendar date; Bela is the king, not the earlier city name."
+  },
+  {
+    "id": "1-chronicles-1-44",
+    "analysis": "and when kjv_bela_king dead be:pa kjv_jobab_king son of kjv_zerah of kjv_bozrah in his/place rule:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ vin Bela n×nna r×izya Jobab pelen i Zerah i Bozrah ni zi’çl×on varßnenizya.",
+    "expectedGloss": "and · when · Bela · dead · be(pst.) · Jobab · son · of · Zerah · of · Bozrah · in · his-place · rule(pst.).",
+    "interpretation": "After Bela's death, Jobab son of Zerah of Bozrah succeeds.",
+    "note": "Jobab is the Edomite king, distinct from the earlier Joktan descendant and the king of Madon."
+  },
+  {
+    "id": "1-chronicles-1-45",
+    "analysis": "and when kjv_jobab_king dead be:pa kjv_husham of land of kjv_temanite:pl in his/place rule:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ vin Jobab n×nna r×izya HuÛam i joÙ i Temanitun ni zi’çl×on varßnenizya.",
+    "expectedGloss": "and · when · Jobab · dead · be(pst.) · Husham · of · land · of · temanite(pl.) · in · his-place · rule(pst.).",
+    "interpretation": "After Jobab's death, Husham from the Temanites' land succeeds.",
+    "note": "The source people designation is retained rather than replaced with an asserted modern country."
+  },
+  {
+    "id": "1-chronicles-1-46",
+    "analysis": "and when kjv_husham dead be:pa kjv_hadad son of kjv_bedad who kjv_midian:a in field of kjv_moab strike:pa in his/place rule:pa and name of his/city kjv_avith be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ vin HuÛam n×nna r×izya Hadad pelen i Bedad falib Midianget ni wÏnÇ i Moab slebizya ni zi’çl×on varßnenizya ãÑ den i zi’zálagur AviÓ r×izya.",
+    "expectedGloss": "and · when · Husham · dead · be(pst.) · Hadad · son · of · Bedad · who · Midian(acc.) · in · field · of · Moab · strike(pst.) · in · his-place · rule(pst.) · and · name · of · his-city · Avith · be(pst.).",
+    "interpretation": "Hadad son of Bedad, who struck Midian in Moab's field, succeeds Husham; his city is Avith.",
+    "note": "The military relative clause belongs to Hadad, and the source field/location wording is retained."
+  },
+  {
+    "id": "1-chronicles-1-47",
+    "analysis": "and when kjv_hadad dead be:pa kjv_samlah of kjv_masrekah in his/place rule:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ vin Hadad n×nna r×izya Samlah i Masrekah ni zi’çl×on varßnenizya.",
+    "expectedGloss": "and · when · Hadad · dead · be(pst.) · Samlah · of · Masrekah · in · his-place · rule(pst.).",
+    "interpretation": "After Hadad's death, Samlah of Masrekah succeeds.",
+    "note": "Succession does not become an invented father-son relationship."
+  },
+  {
+    "id": "1-chronicles-1-48",
+    "analysis": "and when kjv_samlah dead be:pa kjv_shaul_edom of kjv_rehoboth_river by river in his/place rule:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ vin Samlah n×nna r×izya Úaul i RehoboÓ Ëers nilom ni zi’çl×on varßnenizya.",
+    "expectedGloss": "and · when · Samlah · dead · be(pst.) · shaul-edom · of · Rehoboth · by · river · in · his-place · rule(pst.).",
+    "interpretation": "After Samlah's death, Shaul of Rehoboth by the river succeeds.",
+    "note": "The supplied Shaul form is retained; the river-associated place is not merged with a different Rehoboth."
+  },
+  {
+    "id": "1-chronicles-1-49",
+    "analysis": "and when kjv_shaul_edom dead be:pa kjv_baalhanan son of kjv_achbor in his/place rule:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ vin Úaul n×nna r×izya Baalhanan pelen i AÑbor ni zi’çl×on varßnenizya.",
+    "expectedGloss": "and · when · shaul-edom · dead · be(pst.) · Baalhanan · son · of · Achbor · in · his-place · rule(pst.).",
+    "interpretation": "After Shaul's death, Baalhanan son of Achbor succeeds.",
+    "note": "Achbor is the Edomite genealogy entry, not the later member of Josiah's delegation."
+  },
+  {
+    "id": "1-chronicles-1-50",
+    "analysis": "and when kjv_baalhanan dead be:pa kjv_hadad_pai in his/place rule:pa and name of his/city kjv_pai be:pa and name of his/wife kjv_mehetabel daughter of kjv_matred daughter of kjv_mezahab be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ vin Baalhanan n×nna r×izya Hadad ni zi’çl×on varßnenizya ãÑ den i zi’zálagur Pai r×izya ãÑ den i zi’zerena Mehetabel pelena i Matred pelena i Mezahab r×izya.",
+    "expectedGloss": "and · when · Baalhanan · dead · be(pst.) · hadad-pai · in · his-place · rule(pst.) · and · name · of · his-city · pai · be(pst.) · and · name · of · his-wife · Mehetabel · daughter · of · Matred · daughter · of · Mezahab · be(pst.).",
+    "interpretation": "Hadad succeeds Baalhanan; his city is Pai, and his wife Mehetabel is daughter of Matred, daughter of Mezahab.",
+    "note": "Hadad/Pai are not normalized to another passage's Hadar/Pau. The two successive daughter relationships remain explicit."
+  },
+  {
+    "id": "1-chronicles-1-51",
+    "analysis": "kjv_hadad_pai also die:pa and kjv_duke:pl of kjv_edom be:pa kjv_duke kjv_timnah kjv_duke kjv_aliah kjv_duke kjv_jetheth,",
+    "expected": "accept",
+    "expectedText": "Hadad al n×nizya ãÑ harenun i Edom r×izya haren Timnah haren Aliah haren JeÓeÓ,",
+    "expectedGloss": "hadad-pai · also · die(pst.) · and · duke-chief(pl.) · of · Edom · be(pst.) · duke-chief · Timnah · duke-chief · aliah · duke-chief · Jetheth,",
+    "interpretation": "Hadad also dies. Edom's dukes: Timnah, Aliah and Jetheth.",
+    "note": "The explicit death statement and change from kings to dukes remain; duke uses the historical chief/head sense, not European peerage."
+  },
+  {
+    "id": "1-chronicles-1-52",
+    "analysis": "kjv_duke kjv_aholibamah kjv_duke kjv_elah kjv_duke kjv_pinon,",
+    "expected": "accept",
+    "expectedText": "Haren Aholibamah haren Elah haren Pinon,",
+    "expectedGloss": "duke-chief · Aholibamah · duke-chief · Elah · duke-chief · Pinon,",
+    "interpretation": "Duke Aholibamah, duke Elah, duke Pinon.",
+    "note": "The repeated title is preserved rather than implying a new royal succession order."
+  },
+  {
+    "id": "1-chronicles-1-53",
+    "analysis": "kjv_duke kjv_kenaz kjv_duke kjv_teman kjv_duke kjv_mibzar,",
+    "expected": "accept",
+    "expectedText": "Haren Kenaz haren Teman haren Mibzar,",
+    "expectedGloss": "duke-chief · Kenaz · duke-chief · Teman · duke-chief · Mibzar,",
+    "interpretation": "Duke Kenaz, duke Teman, duke Mibzar.",
+    "note": "The source's repetitive title-and-name list remains deliberately stiff."
+  },
+  {
+    "id": "1-chronicles-1-54",
+    "analysis": "kjv_duke kjv_magdiel kjv_duke kjv_iram these kjv_duke:pl of kjv_edom be:pr.",
+    "expected": "accept",
+    "expectedText": "Haren Magdiel haren Iram Ñem harenun i Edom r×owya.",
+    "expectedGloss": "duke-chief · Magdiel · duke-chief · Iram · these · duke-chief(pl.) · of · Edom · be(prs.).",
+    "interpretation": "Duke Magdiel, duke Iram; these are Edom's dukes.",
+    "note": "The closing class statement is retained. No first-person self/whole identity is inserted into the genealogy."
+  }
+]

@@ -104,7 +104,8 @@ class FileTests(unittest.TestCase):
                 self.assertEqual(Path(dialog.call_args.args[2]),ROOT/'Saves/visible.v2.vay')
             self.assertEqual(self.book.saved_preview['pageMode'],'two')
             window.refresh();self.assertEqual(window.windowTitle(),'Native document')
-            self.book.open(path,advance_revision=False);window.refresh()
+            window.open_path(path);window.refresh()
+            self.assertFalse(window.last_error)
             self.assertEqual(window.windowTitle(),'visible.v2')
             self.call('document.new');window.refresh()
             self.assertEqual(window.windowTitle(),'Untitled');self.assertEqual(window.windowFilePath(),'')
@@ -137,7 +138,8 @@ class FileTests(unittest.TestCase):
 
     def test_corrupt_or_stale_preview_does_not_replace_open_document(self):
         path=self.work/'good.vay';self.book.save(path);value=load_json(path);before=self.book.capture()
-        for field,change in [('colorMode','mono-white'),('stateSha256','0'*64),('pngSha256','0'*64),('width',0),('pngBase64','%%%')]:
+        wrong_mode='color' if value['shellPreview']['colorMode']!='color' else 'mono-white'
+        for field,change in [('colorMode',wrong_mode),('stateSha256','0'*64),('pngSha256','0'*64),('width',0),('pngBase64','%%%')]:
             invalid=deepcopy(value);invalid['shellPreview'][field]=change;target=self.work/(field+'.vay');write_json(target,invalid)
             with self.assertRaises(Exception):self.book.open(target)
             self.assertEqual(self.book.capture(),before)
@@ -162,7 +164,8 @@ class FileTests(unittest.TestCase):
         self.book.open(path,advance_revision=False);self.assertTrue(self.book.migrated_from)
 
     def test_new_file_api_contracts_and_cli_detection(self):
-        self.assertEqual(len(METHODS),155)
+        self.assertEqual(len(METHODS),161)
+        self.assertIn('publication.edition.inspect',METHODS)
         published=load_json(ROOT/'data/file-mcp-tools.json');self.assertEqual(len(published['tools']),len(METHODS))
         schema=load_json(ROOT/'schemas/file-command.schema.json')
         Draft202012Validator(schema).validate(dict(apiVersion='0.15.0',method='document.save',params=dict(path='x.vay',preview_mode='two'),documentId=self.book.state['documentId'],expectedRevision=self.book.revision,idempotencyKey='test'))
@@ -182,6 +185,19 @@ class FileTests(unittest.TestCase):
             png=base64.b64decode(load_json(path)['shellPreview']['pngBase64']);expected=QImage.fromData(png,'PNG')
             self.assertTrue((pixels(image)==pixels(expected)).all())
         value=load_json(path)
+        # A real compressed native book still supplies exactly the same pixels.
+        from vayrshemon.native_storage import pack
+        packed=self.work/'compressed.vay';write_json(packed,pack(value))
+        info,image=direct(dll,packed,1024)
+        self.assertTrue((pixels(image)==pixels(expected)).all())
+        # The native handler reads at most its bounded preview header, even if
+        # the rest of the file is large. It does not claim document validity.
+        header=self.work/'large-header.vay'
+        prefix=json.dumps({key:value[key] for key in ('shellPreview','format','formatVersion')})[:-1]+',"stateEncoding":'
+        with header.open('wb') as stream:
+            stream.write(prefix.encode());stream.seek(140*1024*1024);stream.write(b'0}')
+        info,image=direct(dll,header,1024)
+        self.assertTrue((pixels(image)==pixels(expected)).all())
         for i,raw in enumerate((b'garbage',b'['*1000+b']'*1000,json.dumps(dict(value,shellPreview=dict(value['shellPreview'],pngBase64='SGVsbG8='))).encode(),b'{"format":"vayrshemon.document","format":"x"}')):
             invalid=self.work/f'bad-{i}.vay';invalid.write_bytes(raw)
             with self.assertRaises(OSError):direct(dll,invalid)

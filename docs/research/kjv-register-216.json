@@ -1,0 +1,802 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.216",
+    "parentVersion": "0.10-kjv.215",
+    "parentHead": "4a7caa455df99c4577465d0f95fea4d79dc717e8e549ec52366f9c609c1025f2",
+    "head": "c55b3b6e93b3f771a74fe38e484230b04f4bc387031f5ebfb7dcd4f23a0c9688",
+    "newLexicalEntries": 0,
+    "newProperEntries": 0,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 112,
+    "exactCompilerCases": 112,
+    "newAuthoredVerses": 112,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 396,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4661,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJohnVerses": 112,
+    "johnVerses": 396,
+    "authoredVerses": 26441,
+    "remainingVerses": 4661,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 7,
+    "quantityChecks": [
+      {
+        "reference": "John 7:21",
+        "source": "Jesus answered and said unto them, I have done one work, and ye all marvel.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 7:50",
+        "source": "Nicodemus saith unto them, (he that came to Jesus by night, being one of them,)",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 8:7",
+        "source": "So when they continued asking him, he lifted up himself, and said unto them, He that is without sin among you, let him first cast a stone at her.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 8:17",
+        "source": "It is also written in your law, that the testimony of two men is true.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "John 8:18",
+        "source": "I am one that bear witness of myself, and the Father that sent me beareth witness of me.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 8:41",
+        "source": "Ye do the deeds of your father. Then said they to him, We be not born of fornication; we have one Father, even God.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 8:57",
+        "source": "Then said the Jews unto him, Thou art not yet fifty years old, and hast thou seen Abraham?",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "7:1": [
+        "kjv_galilee walk:pa",
+        "kjv_judaea walk:inf will:neg:pa",
+        "kill:inf seek:pa"
+      ],
+      "7:2": [
+        "feast of tent:pl of kjv_jew:pl near"
+      ],
+      "7:3": [
+        "his/brother:pl",
+        "kjv_judaea",
+        "thy/disciple:pl also work:pl"
+      ],
+      "7:4": [
+        "in secret",
+        "in public know:psv:inf",
+        "thyself to world show:imp"
+      ],
+      "7:5": [
+        "his/brother:pl in he believe:neg:pa"
+      ],
+      "7:6": [
+        "mypl/time yet come:neg:perf",
+        "your/time always ready"
+      ],
+      "7:7": [
+        "world you:a hate:neg:can",
+        "ipl:a hate:pr",
+        "ipl of it",
+        "its/work:pl evil"
+      ],
+      "7:8": [
+        "ipl yet to this feast up go:neg:pr",
+        "mypl/time yet fully come:neg:perf"
+      ],
+      "7:9": [
+        "still in kjv_galilee stay:pa"
+      ],
+      "7:10": [
+        "his/brother:pl up go:pp",
+        "not in public but as in secret"
+      ],
+      "7:11": [
+        "at feast seek:pa",
+        "where he be:pr:q"
+      ],
+      "7:12": [
+        "kjv_murmur:ev",
+        "good man",
+        "no but people deceive:pr"
+      ],
+      "7:13": [
+        "no man in public",
+        "fear of kjv_jew:pl"
+      ],
+      "7:14": [
+        "about middle of feast",
+        "kjv_temple",
+        "teach:pa"
+      ],
+      "7:15": [
+        "writing know:pr never learn:perf:q"
+      ],
+      "7:16": [
+        "mypl/doctrine of ipl be:neg:pr",
+        "he who ipl:a send:pa"
+      ],
+      "7:17": [
+        "his/will do:inf will:pr",
+        "whether of god",
+        "ipl of iplself speak:pr"
+      ],
+      "7:18": [
+        "his/own glory",
+        "glory of he who he:a send:pa",
+        "no kjv_unrighteousness"
+      ],
+      "7:19": [
+        "kjv_moses to you law give:neg:pa:q",
+        "none of you law keep:pr",
+        "ipl:a kill:inf"
+      ],
+      "7:20": [
+        "thou devil have:pr",
+        "who thee kill:inf seek:pr:q"
+      ],
+      "7:21": [
+        "ipl one_num work do:perf",
+        "you all marvel:pr"
+      ],
+      "7:22": [
+        "kjv_moses",
+        "kjv_circumcise:ev",
+        "not because of kjv_moses be:pr but of father:pl",
+        "kjv_sabbath day man kjv_circumcise:pr"
+      ],
+      "7:23": [
+        "kjv_sabbath day kjv_circumcise:ev",
+        "break:psv:neg:should",
+        "ipl man entirely whole"
+      ],
+      "7:24": [
+        "appearance judge:neg:imp",
+        "kjv_righteous judgment judge:imp"
+      ],
+      "7:25": [
+        "kjv_jerusalem",
+        "whom they kill:inf seek:pr"
+      ],
+      "7:26": [
+        "with boldness speak:pr",
+        "nothing say:pr",
+        "very kjv_christ_title"
+      ],
+      "7:27": [
+        "wesg this man from where",
+        "no man from where"
+      ],
+      "7:28": [
+        "you both ipl:a know:pr",
+        "from where ipl be:pr",
+        "ipl of iplself come:neg:perf",
+        "whom you know:neg:pr"
+      ],
+      "7:29": [
+        "ipl he:a know:pr",
+        "ipl from he be:pr",
+        "he ipl:a send:perf"
+      ],
+      "7:30": [
+        "no man hand:pl on he lay:pa",
+        "his/hour yet come:neg:pp"
+      ],
+      "7:31": [
+        "many of people on he believe:pa",
+        "more miracle:pl"
+      ],
+      "7:32": [
+        "kjv_pharisee:pl and chief priest:pl officer:pl",
+        "take:inf send:pa"
+      ],
+      "7:33": [
+        "little time ipl with you",
+        "ipl to he who ipl:a send:pa"
+      ],
+      "7:34": [
+        "ipl:a seek:fu and ipl:a find:neg:fu",
+        "where ipl be:pr",
+        "come:neg:can"
+      ],
+      "7:35": [
+        "wesg he:a find:neg:fu",
+        "among kjv_gentile:pl scatter:psv:adj people",
+        "kjv_gentile:pl teach:fu:q"
+      ],
+      "7:36": [
+        "which he say:pa you ipl:a seek:fu",
+        "ipl:a find:neg:fu",
+        "where ipl be:pr"
+      ],
+      "7:37": [
+        "last day that great day",
+        "cry:pa",
+        "thirst:pr to ipl come:imp and drink:imp"
+      ],
+      "7:38": [
+        "on ipl believe:pr",
+        "out of his/belly river:pl of water which live:pr"
+      ],
+      "7:39": [
+        "of spirit",
+        "holy spirit yet give:psv:neg:pp",
+        "kjv_jesus_matthew yet glorify:psv:neg:pp"
+      ],
+      "7:40": [
+        "truly this prophet be:pr"
+      ],
+      "7:41": [
+        "this kjv_christ_title",
+        "out of kjv_galilee come:fu:q"
+      ],
+      "7:42": [
+        "seed of kjv_david",
+        "town of kjv_bethlehem",
+        "say:neg:perf:q"
+      ],
+      "7:43": [
+        "division among people because of he"
+      ],
+      "7:44": [
+        "take:inf will:pa",
+        "no man hand:pl"
+      ],
+      "7:45": [
+        "officer:pl to chief priest:pl and kjv_pharisee:pl",
+        "why he:a bring:neg:perf:q"
+      ],
+      "7:46": [
+        "never man like this man speak:pa"
+      ],
+      "7:47": [
+        "you also deceive:psv:pr:q"
+      ],
+      "7:48": [
+        "ruler:pl or of kjv_pharisee:pl",
+        "believe:perf:q"
+      ],
+      "7:49": [
+        "people who law know:neg:pr curse:psv:pr"
+      ],
+      "7:50": [
+        "kjv_nicodemus_john",
+        "by night",
+        "one_num of they"
+      ],
+      "7:51": [
+        "ourone/law",
+        "before he:a hear:pr and what do:pr know:pr:q"
+      ],
+      "7:52": [
+        "thou also of kjv_galilee",
+        "search:imp and look:imp",
+        "no prophet rise:pr"
+      ],
+      "7:53": [
+        "each man to his/own house"
+      ],
+      "8:1": [
+        "mountain of kjv_olive:pl"
+      ],
+      "8:2": [
+        "early in morning",
+        "all people",
+        "sit:pa and they:a teach:pa"
+      ],
+      "8:3": [
+        "kjv_scribe:pl and kjv_pharisee:pl",
+        "woman in kjv_adultery",
+        "in middle set:pp"
+      ],
+      "8:4": [
+        "in kjv_adultery in very act"
+      ],
+      "8:5": [
+        "kjv_moses in law to wesg command:pa",
+        "with stone:pl strike:psv:should"
+      ],
+      "8:6": [
+        "tempt:cv",
+        "accuse:inf",
+        "with his/finger on ground write:pa",
+        "as though they:a hear:neg:pa"
+      ],
+      "8:7": [
+        "without sin among you",
+        "first stone at she cast:imp"
+      ],
+      "8:8": [
+        "again down bend:pa and on ground write:pa"
+      ],
+      "8:9": [
+        "their/own conscience kjv_convince_reprove:psv:cv",
+        "each after each",
+        "from eldest",
+        "woman in middle"
+      ],
+      "8:10": [
+        "none but woman",
+        "thine/accuse:ag:pl",
+        "no man thee condemn:perf:q"
+      ],
+      "8:11": [
+        "no man kjv_lord",
+        "ipl also thee condemn:neg:pr",
+        "more sin:neg:imp"
+      ],
+      "8:12": [
+        "ipl light of world",
+        "darkness walk:neg:fu",
+        "light of life have:fu"
+      ],
+      "8:13": [
+        "thyself testify:pr",
+        "thy/kjv_record_witness true:neg"
+      ],
+      "8:14": [
+        "ipl of iplself testify:pr",
+        "mypl/kjv_record_witness true",
+        "ipl from where come:pa",
+        "tell:neg:can"
+      ],
+      "8:15": [
+        "after flesh judge:pr",
+        "ipl no man judge:pr"
+      ],
+      "8:16": [
+        "if ipl judge:pr",
+        "mypl/judgment true",
+        "ipl alone be:neg:pr",
+        "ipl and father"
+      ],
+      "8:17": [
+        "your/law",
+        "testimony of two man:pl true"
+      ],
+      "8:18": [
+        "ipl one_num who of iplself testify:pr",
+        "father who ipl:a send:pa of ipl testify:pr"
+      ],
+      "8:19": [
+        "ipl:a know:neg:pr nor mypl/father know:neg:pr",
+        "mypl/father also know:should"
+      ],
+      "8:20": [
+        "kjv_treasury",
+        "his/hour yet come:neg:pp"
+      ],
+      "8:21": [
+        "ipl mypl/way",
+        "in your/sin:pl die:fu",
+        "come:neg:can"
+      ],
+      "8:22": [
+        "himself kill:fu:q",
+        "where ipl go:pr"
+      ],
+      "8:23": [
+        "you from beneath",
+        "ipl from above",
+        "ipl of this world be:neg:pr"
+      ],
+      "8:24": [
+        "if that ipl he be:pr believe:neg:pr",
+        "your/sin:pl die:fu"
+      ],
+      "8:25": [
+        "who thou be:pr:q",
+        "same that ipl to you from beginning"
+      ],
+      "8:26": [
+        "ipl many thing:pl",
+        "he who ipl:a send:pa true",
+        "of he hear:perf speak:pr"
+      ],
+      "8:27": [
+        "of father",
+        "understand:neg:pa"
+      ],
+      "8:28": [
+        "son of man up lift:perf",
+        "ipl of iplself nothing do:pr",
+        "mypl/father ipl:a teach:perf"
+      ],
+      "8:29": [
+        "with ipl",
+        "ipl:a alone leave:neg:perf",
+        "kjv_please_satisfy:pr"
+      ],
+      "8:30": [
+        "many on he believe:pa"
+      ],
+      "8:31": [
+        "kjv_jew:pl who on he believe:pa",
+        "mypl/word continue:pr",
+        "mypl/disciple:pl"
+      ],
+      "8:32": [
+        "truth know:fu",
+        "truth you:a free:caus:fu"
+      ],
+      "8:33": [
+        "wesg seed of kjv_abraham",
+        "never in bondage",
+        "free:psv:fu"
+      ],
+      "8:34": [
+        "truly truly ipl",
+        "sin do:pr servant of sin"
+      ],
+      "8:35": [
+        "servant in house for ever remain:neg:pr",
+        "son ever remain:pr"
+      ],
+      "8:36": [
+        "son therefore you:a free:caus:fu",
+        "indeed free"
+      ],
+      "8:37": [
+        "ipl that seed of kjv_abraham",
+        "ipl:a kill:inf",
+        "mypl/word no place"
+      ],
+      "8:38": [
+        "ipl that which with mypl/father see:perf",
+        "with your/father see:perf"
+      ],
+      "8:39": [
+        "kjv_abraham ourone/father",
+        "work:pl of kjv_abraham do:should"
+      ],
+      "8:40": [
+        "ipl:a kill:inf",
+        "man who to you truth",
+        "ipl of god hear:perf",
+        "kjv_abraham do:neg:pa"
+      ],
+      "8:41": [
+        "wesg of kjv_fornication bear:psv:neg:pr",
+        "wesg one_num father even god"
+      ],
+      "8:42": [
+        "ipl:a love:should",
+        "from god come:pa",
+        "ipl also of iplself come:neg:pa",
+        "he ipl:a send:pa"
+      ],
+      "8:43": [
+        "mypl/speech understand:neg:pr",
+        "mypl/word hear:neg:can"
+      ],
+      "8:44": [
+        "your/father devil",
+        "from beginning murderer",
+        "no truth in he",
+        "false word speak:pr",
+        "liar and father of it"
+      ],
+      "8:45": [
+        "because ipl to you truth tell:pr",
+        "ipl:a believe:neg:pr"
+      ],
+      "8:46": [
+        "ipl:a of sin kjv_convince_reprove:pr:q",
+        "if ipl truth say:pr"
+      ],
+      "8:47": [
+        "they:a hear:neg:pr",
+        "of god be:neg:pr"
+      ],
+      "8:48": [
+        "wesg well",
+        "kjv_samaritan",
+        "devil have:pr say:neg:pr:q"
+      ],
+      "8:49": [
+        "ipl devil have:neg:pr",
+        "mypl/father honour:pr",
+        "ipl:a dishonour:pr"
+      ],
+      "8:50": [
+        "ipl mypl/own glory seek:neg:pr",
+        "person who seek:pr and judge:pr"
+      ],
+      "8:51": [
+        "truly truly ipl",
+        "mypl/say:ev keep:pr never death see:fu"
+      ],
+      "8:52": [
+        "wesg",
+        "kjv_abraham dead",
+        "mypl/say:ev keep:pr never of death taste:fu"
+      ],
+      "8:53": [
+        "ourone/father kjv_abraham",
+        "prophet:pl dead",
+        "whom thyself make:pr:q"
+      ],
+      "8:54": [
+        "ipl iplself honour:pr",
+        "mypl/father who ipl:a honour:pr",
+        "your/god"
+      ],
+      "8:55": [
+        "ipl he:a know:pr",
+        "if ipl ipl he:a know:neg:pr",
+        "liar like you",
+        "his/say:ev keep:pr"
+      ],
+      "8:56": [
+        "kjv_abraham mypl/day see:inf rejoice:pa",
+        "it see:pa and glad"
+      ],
+      "8:57": [
+        "four+twelve and two year:pl old be:neg:pr",
+        "kjv_abraham see:perf:q"
+      ],
+      "8:58": [
+        "before kjv_abraham be:pa ipl be:pr"
+      ],
+      "8:59": [
+        "stone:pl up take:pa",
+        "himself hide:pa",
+        "through middle of they",
+        "so by pass:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [],
+      "ipl": [
+        "7:16",
+        "7:17",
+        "7:19",
+        "7:21",
+        "7:23",
+        "7:28",
+        "7:29",
+        "7:33",
+        "7:34",
+        "7:36",
+        "7:37",
+        "7:38",
+        "7:7",
+        "7:8",
+        "8:11",
+        "8:12",
+        "8:14",
+        "8:15",
+        "8:16",
+        "8:18",
+        "8:19",
+        "8:21",
+        "8:22",
+        "8:23",
+        "8:24",
+        "8:25",
+        "8:26",
+        "8:28",
+        "8:29",
+        "8:34",
+        "8:37",
+        "8:38",
+        "8:40",
+        "8:42",
+        "8:45",
+        "8:46",
+        "8:49",
+        "8:50",
+        "8:51",
+        "8:54",
+        "8:55",
+        "8:58"
+      ],
+      "wesg": [
+        "7:27",
+        "7:35",
+        "8:33",
+        "8:41",
+        "8:48",
+        "8:5",
+        "8:52"
+      ],
+      "wepl": [],
+      "mypl": [
+        "7:16",
+        "7:6",
+        "7:8",
+        "8:14",
+        "8:16",
+        "8:19",
+        "8:21",
+        "8:28",
+        "8:31",
+        "8:37",
+        "8:38",
+        "8:43",
+        "8:49",
+        "8:50",
+        "8:51",
+        "8:52",
+        "8:54",
+        "8:56"
+      ],
+      "ourone": [
+        "7:51",
+        "8:39",
+        "8:53"
+      ],
+      "iplself": [
+        "7:17",
+        "7:28",
+        "8:14",
+        "8:18",
+        "8:28",
+        "8:42",
+        "8:54"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Onework,oneofthem,firststone,two-witness rule,onewitness,oneFather,and50year threshold retained.",
+      "I-many stays plural-self even when claiming one witness position;no invented numerical theology."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "112new verses;396John;whole Bible incomplete.",
+      "Supplied adultery episode,conflicting witness assertions,and before-Abraham-was I-am remain.",
+      "No new lexical entries,paradigm changes or earlier-target revisions."
+    ]
+  },
+  "nativeLayout": {
+    "book": "John — incomplete Bible working text",
+    "pages": 206,
+    "spreads": 103,
+    "units": 396,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "ea43c5f09c35f9a2934f1f48befe96abde891504a567ea6a143a5eed53d332ca",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 103,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.775,
+    "modules": [
+      "tests.test_kjv_john_disputed_origins",
+      "tests.test_kjv_john_life_flesh",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    205,
+    206
+  ],
+  "status": "incomplete Bible;John1–8 section checkpoint verified",
+  "unsealedAuthoringRefinement": {
+    "reference": "John 8:41",
+    "reason": "Measured construction-gloss line exceeded frame by 2.155 px.",
+    "change": "Case-marked fronted object follows established object–subject–verb order; responding they is explicit.",
+    "typographyUnchanged": true,
+    "earlierSealedTargetsUnchanged": true,
+    "preflightProofsViewed": [
+      195,
+      196
+    ],
+    "finalMaximumHorizontalBearingExcessPx": 0.0
+  }
+}

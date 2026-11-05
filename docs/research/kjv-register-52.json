@@ -1,0 +1,669 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.52",
+    "parentVersion": "0.10-kjv.51",
+    "parentHead": "8a799dc2fb0ee3a0a85f2bf06df45ee24430732cd6df2b6261fa43bdbf8aa709",
+    "head": "c0ae3665a78bc14be35ed6a548a975495f8e3de4663d4cbf73112dff2b66f1be",
+    "newLexicalEntries": 26,
+    "newProperEntries": 19,
+    "newCommonEntries": 7,
+    "newSurfaceForms": 19,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 87,
+    "exactCompilerCases": 122,
+    "newAuthoredVerses": 122,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 489,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 22542,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newSamuelVerses": 122,
+    "samuel2Verses": 489,
+    "authoredVerses": 8560,
+    "remainingVerses": 22542,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 20,
+    "quantityChecks": [
+      {
+        "reference": "2 Samuel 17:9",
+        "source": "Behold, he is hid now in some pit, or in some other place: and it will come to pass, when some of them be overthrown at the first, that whosoever heareth it will say, There is a slaughter among the people that follow Absalom.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:27",
+        "source": "And the watchman said, Me thinketh the running of the foremost is like the running of Ahimaaz the son of Zadok. And the king said, He is a good man, and cometh with good tidings.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Samuel 15:1",
+        "source": "And it came to pass after this, that Absalom prepared him chariots and horses, and fifty men to run before him.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "2 Samuel 15:7",
+        "source": "And it came to pass after forty years, that Absalom said unto the king, I pray thee, let me go and pay my vow, which I have vowed unto the LORD, in Hebron.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "2 Samuel 15:11",
+        "source": "And with Absalom went two hundred men out of Jerusalem, that were called; and they went in their simplicity, and they knew not any thing.",
+        "expectedDecimalQuantities": [
+          200
+        ],
+        "targetQuantities": [
+          200
+        ]
+      },
+      {
+        "reference": "2 Samuel 15:16",
+        "source": "And the king went forth, and all his household after him. And the king left ten women, which were concubines, to keep the house.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "2 Samuel 15:18",
+        "source": "And all his servants passed on beside him; and all the Cherethites, and all the Pelethites, and all the Gittites, six hundred men which came after him from Gath, passed on before the king.",
+        "expectedDecimalQuantities": [
+          600
+        ],
+        "targetQuantities": [
+          600
+        ]
+      },
+      {
+        "reference": "2 Samuel 15:27",
+        "source": "The king said also unto Zadok the priest, Art not thou a seer? return into the city in peace, and your two sons with you, Ahimaaz thy son, and Jonathan the son of Abiathar.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Samuel 15:36",
+        "source": "Behold, they have there with them their two sons, Ahimaaz Zadok’s son, and Jonathan Abiathar’s son; and by them ye shall send unto me every thing that ye can hear.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Samuel 16:1",
+        "source": "And when David was a little past the top of the hill, behold, Ziba the servant of Mephibosheth met him, with a couple of asses saddled, and upon them two hundred loaves of bread, and an hundred bunches of raisins, and an hundred of summer fruits, and a bottle of wine.",
+        "expectedDecimalQuantities": [
+          2,
+          200,
+          100,
+          100
+        ],
+        "targetQuantities": [
+          2,
+          200,
+          100,
+          100
+        ]
+      },
+      {
+        "reference": "2 Samuel 17:1",
+        "source": "Moreover Ahithophel said unto Absalom, Let me now choose out twelve thousand men, and I will arise and pursue after David this night:",
+        "expectedDecimalQuantities": [
+          12000
+        ],
+        "targetQuantities": [
+          12000
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:1",
+        "source": "And David numbered the people that were with him, and set captains of thousands, and captains of hundreds over them.",
+        "expectedDecimalQuantities": [
+          1000,
+          100
+        ],
+        "targetQuantities": [
+          1000,
+          100
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:3",
+        "source": "But the people answered, Thou shalt not go forth: for if we flee away, they will not care for us; neither if half of us die, will they care for us: but now thou art worth ten thousand of us: therefore now it is better that thou succour us out of the city.",
+        "expectedDecimalQuantities": [
+          0.5,
+          10000
+        ],
+        "targetQuantities": [
+          0.5,
+          10000
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:4",
+        "source": "And the king said unto them, What seemeth you best I will do. And the king stood by the gate side, and all the people came out by hundreds and by thousands.",
+        "expectedDecimalQuantities": [
+          100,
+          1000
+        ],
+        "targetQuantities": [
+          100,
+          1000
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:7",
+        "source": "Where the people of Israel were slain before the servants of David, and there was there a great slaughter that day of twenty thousand men.",
+        "expectedDecimalQuantities": [
+          20000
+        ],
+        "targetQuantities": [
+          20000
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:11",
+        "source": "And Joab said unto the man that told him, And, behold, thou sawest him, and why didst thou not smite him there to the ground? and I would have given thee ten shekels of silver, and a girdle.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:12",
+        "source": "And the man said unto Joab, Though I should receive a thousand shekels of silver in mine hand, yet would I not put forth mine hand against the king’s son: for in our hearing the king charged thee and Abishai and Ittai, saying, Beware that none touch the young man Absalom.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:14",
+        "source": "Then said Joab, I may not tarry thus with thee. And he took three darts in his hand, and thrust them through the heart of Absalom, while he was yet alive in the midst of the oak.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:15",
+        "source": "And ten young men that bare Joab’s armour compassed about and smote Absalom, and slew him.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "2 Samuel 18:24",
+        "source": "And David sat between the two gates: and the watchman went up to the roof over the gate unto the wall, and lifted up his eyes, and looked, and behold a man running alone.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "Fifty runners, forty source years, two hundred innocent invitees, ten concubines and six hundred Gittites remain distinct.",
+      "Two messenger sons belong to two priests; actual duals distinguish them from plural pursuers.",
+      "Two asses, two hundred loaves and two separate hundreds of fruit provisions.",
+      "Ahithophels twelve thousand is a proposed force, not an executed pursuit.",
+      "Three exact thirds exhaust the army division; command categories of thousands and hundreds do not imply a total.",
+      "Half the people and ten thousand express the peoples valuation; twenty thousand is the battle count.",
+      "Ten versus a thousand silver shekels distinguish counterfactual reward and refusal.",
+      "Three darts and ten armor-bearers are separate counts; two gates remain architecture."
+    ],
+    "semanticChecks": {
+      "15:1": [
+        "five+ten man:pl",
+        "to before he run:inf"
+      ],
+      "15:2": [
+        "kjv_legal_case:a",
+        "of what city"
+      ],
+      "15:3": [
+        "thy/kjv_legal_case:pl",
+        "appoint:psv man",
+        "none"
+      ],
+      "15:4": [
+        "judge i make:psv:opt",
+        "justice:a ipl do:cond:excl"
+      ],
+      "15:5": [
+        "his/hand:a",
+        "kiss:pa"
+      ],
+      "15:6": [
+        "heart:pl:a kjv_absalom steal:pa"
+      ],
+      "15:7": [
+        "four+ten year:pl",
+        "my/vow:a pay:opt"
+      ],
+      "15:8": [
+        "kjv_geshur in kjv_syria",
+        "if indeed",
+        "kjv_lord:a i serve:fu"
+      ],
+      "15:10": [
+        "spy:ag:pl",
+        "of trumpet sound",
+        "kjv_absalom rule:pr"
+      ],
+      "15:11": [
+        "two+hundred",
+        "their/simplicity",
+        "anything:a they know:pa not"
+      ],
+      "15:12": [
+        "kjv_ahithophel kjv_gilonite",
+        "kjv_giloh",
+        "conspiracy"
+      ],
+      "15:14": [
+        "wesg flee:opt",
+        "lest suddenly",
+        "city:a strike:pr"
+      ],
+      "15:15": [
+        "whatever:a my/lord king appoint:fu"
+      ],
+      "15:16": [
+        "ten woman:pl",
+        "kjv_concubine:pl",
+        "house:a keep:inf"
+      ],
+      "15:18": [
+        "kjv_gittite:pl six+hundred",
+        "kjv_gath"
+      ],
+      "15:19": [
+        "with wesg",
+        "with king remain:imp",
+        "exile:psv"
+      ],
+      "15:20": [
+        "kjv_yesterday",
+        "with wesg",
+        "where i go:pr:may i go:pr"
+      ],
+      "15:21": [
+        "whether in death or life",
+        "thy/servant be:fu"
+      ],
+      "15:22": [
+        "all little one:pl"
+      ],
+      "15:24": [
+        "kjv_ark_chest:a they set:pa down",
+        "kjv_abiathar go:pa up"
+      ],
+      "15:25": [
+        "into city carry:imp back",
+        "if",
+        "i find:fu"
+      ],
+      "15:26": [
+        "if thus he say:pr",
+        "ipl have:pr not",
+        "here i be:pr"
+      ],
+      "15:27": [
+        "your/two son:pl with you:du",
+        "kjv_ahimaaz_zadok",
+        "kjv_jonathan_abiathar"
+      ],
+      "15:30": [
+        "with bare foot:pl",
+        "his/head:a cover:psv",
+        "weep:cv"
+      ],
+      "15:31": [
+        "into folly turn:imp"
+      ],
+      "15:34": [
+        "to kjv_absalom say:pr",
+        "thy/servant i be:fu",
+        "counsel:a thou defeat:pr:may"
+      ],
+      "15:36": [
+        "their/two son:pl",
+        "by they to i every thing:a"
+      ],
+      "16:1": [
+        "two ass:pl kjv_saddle:psv",
+        "two+hundred",
+        "hundred of kjv_raisin:pl",
+        "hundred of summer fruit:pl",
+        "kjv_bottle"
+      ],
+      "16:3": [
+        "kjv_ziba say:pa",
+        "for he say:pa",
+        "my/father kingdom:a restore:fu"
+      ],
+      "16:4": [
+        "thine all that to kjv_mephibosheth belong:pa"
+      ],
+      "16:5": [
+        "kjv_shimei_gera of kjv_gera_bahurim"
+      ],
+      "16:7": [
+        "kjv_shimei_gera say:pa",
+        "come:imp out come:imp out"
+      ],
+      "16:8": [
+        "all of of kjv_saul house blood",
+        "thy/harm:ev"
+      ],
+      "16:10": [
+        "you:du of kjv_zeruiah son:pl",
+        "kjv_lord say:perf"
+      ],
+      "16:11": [
+        "out of my/kjv_bowels:pl",
+        "he:a alone leave:imp"
+      ],
+      "16:12": [
+        "it be:pr:may",
+        "my/suffer:ev"
+      ],
+      "16:16": [
+        "king:a god save:opt king:a god save:opt"
+      ],
+      "16:18": [
+        "of he i be:fu"
+      ],
+      "16:20": [
+        "what wesg do:fu"
+      ],
+      "16:21": [
+        "thy/father kjv_concubine:pl",
+        "thou loathe:psv:pr"
+      ],
+      "16:22": [
+        "house top tent",
+        "in of all kjv_israel sight"
+      ],
+      "16:23": [
+        "as if",
+        "kjv_oracle_reply",
+        "both with kjv_david and with kjv_absalom"
+      ],
+      "17:1": [
+        "ten+thousand and two+thousand",
+        "i choose:opt",
+        "ipl rise:fu"
+      ],
+      "17:2": [
+        "king only:a ipl strike:fu"
+      ],
+      "17:3": [
+        "all people:a ipl bring:fu back"
+      ],
+      "17:5": [
+        "what:a he say:pr wesg hear:opt"
+      ],
+      "17:7": [
+        "at this time good be:pr not"
+      ],
+      "17:8": [
+        "bear_animal of her/kjv_whelp:pl",
+        "with people lodge:fu not"
+      ],
+      "17:9": [
+        "whoever it:a hear:pr say:fu",
+        "kjv_slaughter"
+      ],
+      "17:10": [
+        "of lion heart",
+        "completely melt:fu"
+      ],
+      "17:11": [
+        "kjv_dan even to kjv_beersheba",
+        "as sand",
+        "thy/own person"
+      ],
+      "17:12": [
+        "wesg fall:fu as dew",
+        "not so much as one leave:psv:fu"
+      ],
+      "17:13": [
+        "kjv_cord:pl",
+        "into river it:a wesg draw:fu",
+        "not one small stone"
+      ],
+      "17:14": [
+        "of kjv_ahithophel good counsel",
+        "kjv_lord appoint:pp",
+        "upon kjv_absalom evil"
+      ],
+      "17:16": [
+        "kjv_wilderness kjv_plain_land:pl lodge:imp not",
+        "kjv_swallow:psv:pr"
+      ],
+      "17:17": [
+        "young woman",
+        "kjv_enrogel"
+      ],
+      "17:18": [
+        "they:du:a see:pa",
+        "kjv_well:a",
+        "they:du go:pa down"
+      ],
+      "17:19": [
+        "kjv_covering:a",
+        "kjv_well mouth",
+        "kjv_grind:psv corn"
+      ],
+      "17:20": [
+        "they:du go:perf",
+        "they:du:a find:pr:can not",
+        "they return:pa"
+      ],
+      "17:21": [
+        "after they depart:pp",
+        "out of kjv_well they:du come:pa"
+      ],
+      "17:22": [
+        "not one of they lack:pa",
+        "go:pp not"
+      ],
+      "17:23": [
+        "his/counsel follow:psv:pa not",
+        "self:a hang:pa and die:pa"
+      ],
+      "17:25": [
+        "kjv_ithra kjv_israelite",
+        "kjv_abigail_nahash of kjv_nahash_abigail daughter"
+      ],
+      "17:28": [
+        "kjv_parch_grain:psv corn",
+        "kjv_lentil:pl",
+        "kjv_pulse_food"
+      ],
+      "17:29": [
+        "of kjv_cow:pl cheese",
+        "hungry and weary and thirst:adj"
+      ],
+      "18:1": [
+        "kjv_number:pa",
+        "of thousand:pl captain:pl",
+        "of hundred:pl captain:pl"
+      ],
+      "18:2": [
+        "kjv_third_share",
+        "with you i self also go:fu"
+      ],
+      "18:3": [
+        "half of wepl",
+        "ten+thousand of wepl",
+        "out of city wepl:a"
+      ],
+      "18:4": [
+        "what:a to you best seem:pr",
+        "by hundred:pl and by thousand:pl"
+      ],
+      "18:5": [
+        "gently deal:imp",
+        "all people hear:pa"
+      ],
+      "18:7": [
+        "two+ten+thousand man:pl"
+      ],
+      "18:8": [
+        "more people:a forest devour:pa than sword"
+      ],
+      "18:9": [
+        "his/head oak:a catch:pa",
+        "between heaven and earth",
+        "mule that under he be:pa go:pa away"
+      ],
+      "18:11": [
+        "ten kjv_shekel:pl",
+        "kjv_girdle",
+        "i give:pp:cond"
+      ],
+      "18:12": [
+        "thousand kjv_shekel:pl",
+        "of wepl hear:ev",
+        "none touch:pr"
+      ],
+      "18:13": [
+        "against my/own life lie_false:ev",
+        "thou self against i"
+      ],
+      "18:14": [
+        "kjv_three kjv_dart:pl",
+        "while yet alive"
+      ],
+      "18:15": [
+        "ten young man:pl",
+        "kjv_armour",
+        "he:a slay:pa"
+      ],
+      "18:17": [
+        "kjv_pit in forest",
+        "of stone:pl kjv_heap"
+      ],
+      "18:18": [
+        "in his/life time",
+        "no son:a i have:pr",
+        "kjv_pillar"
+      ],
+      "18:20": [
+        "because king son dead"
+      ],
+      "18:21": [
+        "what:a thou see:perf tell:imp",
+        "kjv_cushi"
+      ],
+      "18:24": [
+        "between two gate:pl"
+      ],
+      "18:26": [
+        "kjv_gatekeeper",
+        "another man alone"
+      ],
+      "18:29": [
+        "in safety be:pr?",
+        "kjv_tumult:a i see:pa",
+        "i know:pa not"
+      ],
+      "18:32": [
+        "enemy:pl",
+        "as that young man be:pr be:opt"
+      ],
+      "18:33": [
+        "my/son kjv_absalom my/son my/son kjv_absalom:excl",
+        "for thou i die:pp:cond",
+        "my/son my/son:excl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Counsel, accusations, divine explanations within dialogue and messenger claims stay attributed.",
+      "Source forty years, Ithra the Israelite, Abigail daughter of Nahash and no-son versus three-sons tension are not harmonized.",
+      "Head caught in the oak is retained without importing hair as the mechanism.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeValidation": {
+    "book": "2 Samuel — incomplete Bible working text",
+    "pages": 380,
+    "spreads": 190,
+    "units": 489,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "099c31d974145991769d370d81155aeee082d6b722b2bd7f0596905cdaa2d49a",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 190,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": "4 tests passed in13.037s: rebellion, responsibility, approved parallel translation.",
+  "visualReview": "Final spread379–380 inspected: Maxima, aligned paragraph starts, body proportions and outside Unta folios retained; personal-I and exclamatory repeated-son lament visible.",
+  "status": "incomplete; entire Bible goal remains active"
+}

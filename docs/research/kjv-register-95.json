@@ -1,0 +1,1244 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.95",
+    "parentVersion": "0.10-kjv.94",
+    "parentHead": "719d6c1dbae4d89a9021c363540ec42a160a9d28020fcc2cd9c353582e7288a9",
+    "head": "d9050fd4f54882784210c53a76a7ad75d30ad52cefdf46de8d0b360a15abb461",
+    "newLexicalEntries": 140,
+    "newProperEntries": 136,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 98,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 118,
+    "exactCompilerCases": 118,
+    "newAuthoredVerses": 118,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 118,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 18919,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzraVerses": 118,
+    "ezraVerses": 118,
+    "authoredVerses": 12183,
+    "remainingVerses": 18919,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 56,
+    "quantityChecks": [
+      {
+        "reference": "Ezra 1:1",
+        "source": "Now in the first year of Cyrus king of Persia, that the word of the LORD by the mouth of Jeremiah might be fulfilled, the LORD stirred up the spirit of Cyrus king of Persia, that he made a proclamation throughout all his kingdom, and put it also in writing, saying,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezra 1:9",
+        "source": "And this is the number of them: thirty chargers of gold, a thousand chargers of silver, nine and twenty knives,",
+        "expectedDecimalQuantities": [
+          30,
+          1000,
+          29
+        ],
+        "targetQuantities": [
+          30,
+          1000,
+          29
+        ]
+      },
+      {
+        "reference": "Ezra 1:10",
+        "source": "Thirty basons of gold, silver basons of a second sort four hundred and ten, and other vessels a thousand.",
+        "expectedDecimalQuantities": [
+          30,
+          2,
+          410,
+          1000
+        ],
+        "targetQuantities": [
+          30,
+          2,
+          410,
+          1000
+        ]
+      },
+      {
+        "reference": "Ezra 1:11",
+        "source": "All the vessels of gold and of silver were five thousand and four hundred. All these did Sheshbazzar bring up with them of the captivity that were brought up from Babylon unto Jerusalem.",
+        "expectedDecimalQuantities": [
+          5400
+        ],
+        "targetQuantities": [
+          5400
+        ]
+      },
+      {
+        "reference": "Ezra 2:3",
+        "source": "The children of Parosh, two thousand an hundred seventy and two.",
+        "expectedDecimalQuantities": [
+          2172
+        ],
+        "targetQuantities": [
+          2172
+        ]
+      },
+      {
+        "reference": "Ezra 2:4",
+        "source": "The children of Shephatiah, three hundred seventy and two.",
+        "expectedDecimalQuantities": [
+          372
+        ],
+        "targetQuantities": [
+          372
+        ]
+      },
+      {
+        "reference": "Ezra 2:5",
+        "source": "The children of Arah, seven hundred seventy and five.",
+        "expectedDecimalQuantities": [
+          775
+        ],
+        "targetQuantities": [
+          775
+        ]
+      },
+      {
+        "reference": "Ezra 2:6",
+        "source": "The children of Pahathmoab, of the children of Jeshua and Joab, two thousand eight hundred and twelve.",
+        "expectedDecimalQuantities": [
+          2812
+        ],
+        "targetQuantities": [
+          2812
+        ]
+      },
+      {
+        "reference": "Ezra 2:7",
+        "source": "The children of Elam, a thousand two hundred fifty and four.",
+        "expectedDecimalQuantities": [
+          1254
+        ],
+        "targetQuantities": [
+          1254
+        ]
+      },
+      {
+        "reference": "Ezra 2:8",
+        "source": "The children of Zattu, nine hundred forty and five.",
+        "expectedDecimalQuantities": [
+          945
+        ],
+        "targetQuantities": [
+          945
+        ]
+      },
+      {
+        "reference": "Ezra 2:9",
+        "source": "The children of Zaccai, seven hundred and threescore.",
+        "expectedDecimalQuantities": [
+          760
+        ],
+        "targetQuantities": [
+          760
+        ]
+      },
+      {
+        "reference": "Ezra 2:10",
+        "source": "The children of Bani, six hundred forty and two.",
+        "expectedDecimalQuantities": [
+          642
+        ],
+        "targetQuantities": [
+          642
+        ]
+      },
+      {
+        "reference": "Ezra 2:11",
+        "source": "The children of Bebai, six hundred twenty and three.",
+        "expectedDecimalQuantities": [
+          623
+        ],
+        "targetQuantities": [
+          623
+        ]
+      },
+      {
+        "reference": "Ezra 2:12",
+        "source": "The children of Azgad, a thousand two hundred twenty and two.",
+        "expectedDecimalQuantities": [
+          1222
+        ],
+        "targetQuantities": [
+          1222
+        ]
+      },
+      {
+        "reference": "Ezra 2:13",
+        "source": "The children of Adonikam, six hundred sixty and six.",
+        "expectedDecimalQuantities": [
+          666
+        ],
+        "targetQuantities": [
+          666
+        ]
+      },
+      {
+        "reference": "Ezra 2:14",
+        "source": "The children of Bigvai, two thousand fifty and six.",
+        "expectedDecimalQuantities": [
+          2056
+        ],
+        "targetQuantities": [
+          2056
+        ]
+      },
+      {
+        "reference": "Ezra 2:15",
+        "source": "The children of Adin, four hundred fifty and four.",
+        "expectedDecimalQuantities": [
+          454
+        ],
+        "targetQuantities": [
+          454
+        ]
+      },
+      {
+        "reference": "Ezra 2:16",
+        "source": "The children of Ater of Hezekiah, ninety and eight.",
+        "expectedDecimalQuantities": [
+          98
+        ],
+        "targetQuantities": [
+          98
+        ]
+      },
+      {
+        "reference": "Ezra 2:17",
+        "source": "The children of Bezai, three hundred twenty and three.",
+        "expectedDecimalQuantities": [
+          323
+        ],
+        "targetQuantities": [
+          323
+        ]
+      },
+      {
+        "reference": "Ezra 2:18",
+        "source": "The children of Jorah, an hundred and twelve.",
+        "expectedDecimalQuantities": [
+          112
+        ],
+        "targetQuantities": [
+          112
+        ]
+      },
+      {
+        "reference": "Ezra 2:19",
+        "source": "The children of Hashum, two hundred twenty and three.",
+        "expectedDecimalQuantities": [
+          223
+        ],
+        "targetQuantities": [
+          223
+        ]
+      },
+      {
+        "reference": "Ezra 2:20",
+        "source": "The children of Gibbar, ninety and five.",
+        "expectedDecimalQuantities": [
+          95
+        ],
+        "targetQuantities": [
+          95
+        ]
+      },
+      {
+        "reference": "Ezra 2:21",
+        "source": "The children of Bethlehem, an hundred twenty and three.",
+        "expectedDecimalQuantities": [
+          123
+        ],
+        "targetQuantities": [
+          123
+        ]
+      },
+      {
+        "reference": "Ezra 2:22",
+        "source": "The men of Netophah, fifty and six.",
+        "expectedDecimalQuantities": [
+          56
+        ],
+        "targetQuantities": [
+          56
+        ]
+      },
+      {
+        "reference": "Ezra 2:23",
+        "source": "The men of Anathoth, an hundred twenty and eight.",
+        "expectedDecimalQuantities": [
+          128
+        ],
+        "targetQuantities": [
+          128
+        ]
+      },
+      {
+        "reference": "Ezra 2:24",
+        "source": "The children of Azmaveth, forty and two.",
+        "expectedDecimalQuantities": [
+          42
+        ],
+        "targetQuantities": [
+          42
+        ]
+      },
+      {
+        "reference": "Ezra 2:25",
+        "source": "The children of Kirjatharim, Chephirah, and Beeroth, seven hundred and forty and three.",
+        "expectedDecimalQuantities": [
+          743
+        ],
+        "targetQuantities": [
+          743
+        ]
+      },
+      {
+        "reference": "Ezra 2:26",
+        "source": "The children of Ramah and Gaba, six hundred twenty and one.",
+        "expectedDecimalQuantities": [
+          621
+        ],
+        "targetQuantities": [
+          621
+        ]
+      },
+      {
+        "reference": "Ezra 2:27",
+        "source": "The men of Michmas, an hundred twenty and two.",
+        "expectedDecimalQuantities": [
+          122
+        ],
+        "targetQuantities": [
+          122
+        ]
+      },
+      {
+        "reference": "Ezra 2:28",
+        "source": "The men of Bethel and Ai, two hundred twenty and three.",
+        "expectedDecimalQuantities": [
+          223
+        ],
+        "targetQuantities": [
+          223
+        ]
+      },
+      {
+        "reference": "Ezra 2:29",
+        "source": "The children of Nebo, fifty and two.",
+        "expectedDecimalQuantities": [
+          52
+        ],
+        "targetQuantities": [
+          52
+        ]
+      },
+      {
+        "reference": "Ezra 2:30",
+        "source": "The children of Magbish, an hundred fifty and six.",
+        "expectedDecimalQuantities": [
+          156
+        ],
+        "targetQuantities": [
+          156
+        ]
+      },
+      {
+        "reference": "Ezra 2:31",
+        "source": "The children of the other Elam, a thousand two hundred fifty and four.",
+        "expectedDecimalQuantities": [
+          1254
+        ],
+        "targetQuantities": [
+          1254
+        ]
+      },
+      {
+        "reference": "Ezra 2:32",
+        "source": "The children of Harim, three hundred and twenty.",
+        "expectedDecimalQuantities": [
+          320
+        ],
+        "targetQuantities": [
+          320
+        ]
+      },
+      {
+        "reference": "Ezra 2:33",
+        "source": "The children of Lod, Hadid, and Ono, seven hundred twenty and five.",
+        "expectedDecimalQuantities": [
+          725
+        ],
+        "targetQuantities": [
+          725
+        ]
+      },
+      {
+        "reference": "Ezra 2:34",
+        "source": "The children of Jericho, three hundred forty and five.",
+        "expectedDecimalQuantities": [
+          345
+        ],
+        "targetQuantities": [
+          345
+        ]
+      },
+      {
+        "reference": "Ezra 2:35",
+        "source": "The children of Senaah, three thousand and six hundred and thirty.",
+        "expectedDecimalQuantities": [
+          3630
+        ],
+        "targetQuantities": [
+          3630
+        ]
+      },
+      {
+        "reference": "Ezra 2:36",
+        "source": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three.",
+        "expectedDecimalQuantities": [
+          973
+        ],
+        "targetQuantities": [
+          973
+        ]
+      },
+      {
+        "reference": "Ezra 2:37",
+        "source": "The children of Immer, a thousand fifty and two.",
+        "expectedDecimalQuantities": [
+          1052
+        ],
+        "targetQuantities": [
+          1052
+        ]
+      },
+      {
+        "reference": "Ezra 2:38",
+        "source": "The children of Pashur, a thousand two hundred forty and seven.",
+        "expectedDecimalQuantities": [
+          1247
+        ],
+        "targetQuantities": [
+          1247
+        ]
+      },
+      {
+        "reference": "Ezra 2:39",
+        "source": "The children of Harim, a thousand and seventeen.",
+        "expectedDecimalQuantities": [
+          1017
+        ],
+        "targetQuantities": [
+          1017
+        ]
+      },
+      {
+        "reference": "Ezra 2:40",
+        "source": "The Levites: the children of Jeshua and Kadmiel, of the children of Hodaviah, seventy and four.",
+        "expectedDecimalQuantities": [
+          74
+        ],
+        "targetQuantities": [
+          74
+        ]
+      },
+      {
+        "reference": "Ezra 2:41",
+        "source": "The singers: the children of Asaph, an hundred twenty and eight.",
+        "expectedDecimalQuantities": [
+          128
+        ],
+        "targetQuantities": [
+          128
+        ]
+      },
+      {
+        "reference": "Ezra 2:42",
+        "source": "The children of the porters: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, in all an hundred thirty and nine.",
+        "expectedDecimalQuantities": [
+          139
+        ],
+        "targetQuantities": [
+          139
+        ]
+      },
+      {
+        "reference": "Ezra 2:58",
+        "source": "All the Nethinims, and the children of Solomon’s servants, were three hundred ninety and two.",
+        "expectedDecimalQuantities": [
+          392
+        ],
+        "targetQuantities": [
+          392
+        ]
+      },
+      {
+        "reference": "Ezra 2:60",
+        "source": "The children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred fifty and two.",
+        "expectedDecimalQuantities": [
+          652
+        ],
+        "targetQuantities": [
+          652
+        ]
+      },
+      {
+        "reference": "Ezra 2:64",
+        "source": "The whole congregation together was forty and two thousand three hundred and threescore,",
+        "expectedDecimalQuantities": [
+          42360
+        ],
+        "targetQuantities": [
+          42360
+        ]
+      },
+      {
+        "reference": "Ezra 2:65",
+        "source": "Beside their servants and their maids, of whom there were seven thousand three hundred thirty and seven: and there were among them two hundred singing men and singing women.",
+        "expectedDecimalQuantities": [
+          7337,
+          200
+        ],
+        "targetQuantities": [
+          7337,
+          200
+        ]
+      },
+      {
+        "reference": "Ezra 2:66",
+        "source": "Their horses were seven hundred thirty and six; their mules, two hundred forty and five;",
+        "expectedDecimalQuantities": [
+          736,
+          245
+        ],
+        "targetQuantities": [
+          736,
+          245
+        ]
+      },
+      {
+        "reference": "Ezra 2:67",
+        "source": "Their camels, four hundred thirty and five; their asses, six thousand seven hundred and twenty.",
+        "expectedDecimalQuantities": [
+          435,
+          6720
+        ],
+        "targetQuantities": [
+          435,
+          6720
+        ]
+      },
+      {
+        "reference": "Ezra 2:69",
+        "source": "They gave after their ability unto the treasure of the work threescore and one thousand drams of gold, and five thousand pound of silver, and one hundred priests’ garments.",
+        "expectedDecimalQuantities": [
+          61000,
+          5000,
+          100
+        ],
+        "targetQuantities": [
+          61000,
+          5000,
+          100
+        ]
+      },
+      {
+        "reference": "Ezra 3:1",
+        "source": "And when the seventh month was come, and the children of Israel were in the cities, the people gathered themselves together as one man to Jerusalem.",
+        "expectedDecimalQuantities": [
+          7,
+          1
+        ],
+        "targetQuantities": [
+          7,
+          1
+        ]
+      },
+      {
+        "reference": "Ezra 3:6",
+        "source": "From the first day of the seventh month began they to offer burnt offerings unto the LORD. But the foundation of the temple of the LORD was not yet laid.",
+        "expectedDecimalQuantities": [
+          1,
+          7
+        ],
+        "targetQuantities": [
+          1,
+          7
+        ]
+      },
+      {
+        "reference": "Ezra 3:8",
+        "source": "Now in the second year of their coming unto the house of God at Jerusalem, in the second month, began Zerubbabel the son of Shealtiel, and Jeshua the son of Jozadak, and the remnant of their brethren the priests and the Levites, and all they that were come out of the captivity unto Jerusalem; and appointed the Levites, from twenty years old and upward, to set forward the work of the house of the LORD.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          20
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          20
+        ]
+      },
+      {
+        "reference": "Ezra 3:12",
+        "source": "But many of the priests and Levites and chief of the fathers, who were ancient men, that had seen the first house, when the foundation of this house was laid before their eyes, wept with a loud voice; and many shouted aloud for joy:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezra 4:24",
+        "source": "Then ceased the work of the house of God which is at Jerusalem. So it ceased unto the second year of the reign of Darius king of Persia.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "first year",
+        "kjv_jeremiah_prophet",
+        "fulfil:psv:may",
+        "in writing"
+      ],
+      "1:2": [
+        "to ipl all kingdom:pl",
+        "he ipl:a charge:perf",
+        "at kjv_jerusalem"
+      ],
+      "1:3": [
+        "who among you:pl",
+        "he god be:pr",
+        "his/god with he be:opt"
+      ],
+      "1:4": [
+        "kjv_sojourn:pr",
+        "silver",
+        "willing kjv_offering"
+      ],
+      "1:5": [
+        "chief of father:pl",
+        "whose spirit god raise:pp"
+      ],
+      "1:6": [
+        "their/hand:pl:a strengthen:pa",
+        "besides all which willingly"
+      ],
+      "1:7": [
+        "nebuchadnezzar",
+        "house of his/god:pl"
+      ],
+      "1:8": [
+        "kjv_mithredath_treasurer",
+        "kjv_sheshbazzar",
+        "kjv_number:pa"
+      ],
+      "1:9": [
+        "kjv_charger_dish:pl of gold",
+        "kjv_knife:pl"
+      ],
+      "1:10": [
+        "second kind",
+        "other vessel:pl"
+      ],
+      "1:11": [
+        "five+thousand and four+hundred",
+        "kjv_captivity"
+      ],
+      "2:1": [
+        "kjv_province",
+        "nebuchadnezzar",
+        "each to his/city"
+      ],
+      "2:2": [
+        "kjv_zerubbabel_shealtiel",
+        "kjv_nehemiah_return",
+        "kjv_mordecai_return",
+        "kjv_rehum_return",
+        "kjv_baanah_return"
+      ],
+      "2:3": [
+        "child:pl of kjv_parosh"
+      ],
+      "2:4": [
+        "child:pl of kjv_shephatiah_return"
+      ],
+      "2:5": [
+        "child:pl of kjv_arah_return"
+      ],
+      "2:6": [
+        "kjv_pahathmoab of child:pl of kjv_jeshua_pahathmoab and kjv_joab_pahathmoab"
+      ],
+      "2:7": [
+        "child:pl of kjv_elam_return"
+      ],
+      "2:8": [
+        "child:pl of kjv_zattu"
+      ],
+      "2:9": [
+        "child:pl of kjv_zaccai"
+      ],
+      "2:10": [
+        "child:pl of kjv_bani_return"
+      ],
+      "2:11": [
+        "child:pl of kjv_bebai"
+      ],
+      "2:12": [
+        "child:pl of kjv_azgad"
+      ],
+      "2:13": [
+        "child:pl of kjv_adonikam"
+      ],
+      "2:14": [
+        "child:pl of kjv_bigvai"
+      ],
+      "2:15": [
+        "child:pl of kjv_adin"
+      ],
+      "2:16": [
+        "kjv_ater_hezekiah of kjv_hezekiah_ater"
+      ],
+      "2:17": [
+        "child:pl of kjv_bezai"
+      ],
+      "2:18": [
+        "child:pl of kjv_jorah"
+      ],
+      "2:19": [
+        "child:pl of kjv_hashum"
+      ],
+      "2:20": [
+        "child:pl of kjv_gibbar"
+      ],
+      "2:21": [
+        "child:pl of kjv_bethlehem"
+      ],
+      "2:22": [
+        "man:pl of kjv_netophah"
+      ],
+      "2:23": [
+        "man:pl of kjv_anathoth"
+      ],
+      "2:24": [
+        "child:pl of kjv_azmaveth_place"
+      ],
+      "2:25": [
+        "kjv_kirjatharim kjv_chephirah and kjv_beeroth"
+      ],
+      "2:26": [
+        "kjv_ramah and kjv_gaba",
+        "one_num"
+      ],
+      "2:27": [
+        "man:pl of kjv_michmas"
+      ],
+      "2:28": [
+        "man:pl of kjv_bethel and kjv_ai"
+      ],
+      "2:29": [
+        "child:pl of kjv_nebo_return"
+      ],
+      "2:30": [
+        "child:pl of kjv_magbish"
+      ],
+      "2:31": [
+        "other kjv_elam_other"
+      ],
+      "2:32": [
+        "child:pl of kjv_harim_return"
+      ],
+      "2:33": [
+        "kjv_lod kjv_hadid and kjv_ono"
+      ],
+      "2:34": [
+        "child:pl of kjv_jericho"
+      ],
+      "2:35": [
+        "child:pl of kjv_senaah"
+      ],
+      "2:36": [
+        "priest:pl",
+        "kjv_jedaiah_return_priest of house of kjv_jeshua_priest_house"
+      ],
+      "2:37": [
+        "child:pl of kjv_immer_return_priest"
+      ],
+      "2:38": [
+        "child:pl of kjv_pashur_return_priest"
+      ],
+      "2:39": [
+        "child:pl of kjv_harim_return_priest"
+      ],
+      "2:40": [
+        "kjv_levite:pl",
+        "kjv_jeshua_levite_return and kjv_kadmiel",
+        "kjv_hodaviah_return"
+      ],
+      "2:41": [
+        "sing:ag:pl",
+        "kjv_asaph_singer"
+      ],
+      "2:42": [
+        "kjv_gatekeeper:pl",
+        "kjv_shallum_porter_return",
+        "kjv_ater_porter",
+        "kjv_talmon_return",
+        "kjv_akkub_porter_return",
+        "kjv_hatita",
+        "kjv_shobai"
+      ],
+      "2:43": [
+        "kjv_nethinim",
+        "kjv_ziha",
+        "kjv_hasupha",
+        "kjv_tabbaoth"
+      ],
+      "2:44": [
+        "kjv_keros",
+        "kjv_siaha",
+        "kjv_padon"
+      ],
+      "2:45": [
+        "kjv_lebanah",
+        "kjv_hagabah",
+        "kjv_akkub_nethinim"
+      ],
+      "2:46": [
+        "kjv_hagab ",
+        "kjv_shalmai",
+        "kjv_hanan_nethinim"
+      ],
+      "2:47": [
+        "kjv_giddel_nethinim",
+        "kjv_gahar",
+        "kjv_reaiah_nethinim"
+      ],
+      "2:48": [
+        "kjv_rezin_nethinim",
+        "kjv_nekoda_nethinim",
+        "kjv_gazzam"
+      ],
+      "2:49": [
+        "kjv_uzza_nethinim",
+        "kjv_paseah_nethinim",
+        "kjv_besai"
+      ],
+      "2:50": [
+        "kjv_asnah",
+        "kjv_mehunim_return",
+        "kjv_nephusim"
+      ],
+      "2:51": [
+        "kjv_bakbuk",
+        "kjv_hakupha",
+        "kjv_harhur"
+      ],
+      "2:52": [
+        "kjv_bazluth",
+        "kjv_mehida",
+        "kjv_harsha"
+      ],
+      "2:53": [
+        "kjv_barkos",
+        "kjv_sisera_nethinim",
+        "kjv_thamah"
+      ],
+      "2:54": [
+        "kjv_neziah",
+        "kjv_hatipha"
+      ],
+      "2:55": [
+        "kjv_solomon:poss servant:pl",
+        "kjv_sotai",
+        "kjv_sophereth",
+        "kjv_peruda"
+      ],
+      "2:56": [
+        "kjv_jaalah",
+        "kjv_darkon",
+        "kjv_giddel_solomon"
+      ],
+      "2:57": [
+        "kjv_shephatiah_solomon",
+        "kjv_hattil",
+        "kjv_pochereth of kjv_zebaim",
+        "kjv_ami"
+      ],
+      "2:58": [
+        "all kjv_nethinim and child:pl of kjv_solomon:poss servant:pl"
+      ],
+      "2:59": [
+        "kjv_telmelah",
+        "kjv_telharsa",
+        "kjv_cherub_place",
+        "kjv_addan",
+        "kjv_immer_place",
+        "show:neg:pa:can",
+        "whether they of kjv_israel"
+      ],
+      "2:60": [
+        "kjv_delaiah_descent",
+        "kjv_tobiah_descent",
+        "kjv_nekoda_descent"
+      ],
+      "2:61": [
+        "kjv_habaiah",
+        "kjv_koz_claimant",
+        "kjv_barzillai_claimant",
+        "kjv_barzillai kjv_gileadite",
+        "after their/name"
+      ],
+      "2:62": [
+        "their/record:ev:a",
+        "by kjv_genealogy",
+        "find:psv:neg:pa",
+        "kjv_pollute_sacred:psv"
+      ],
+      "2:63": [
+        "kjv_tirshatha",
+        "eat:neg:should",
+        "until priest with kjv_urim and with kjv_thummim"
+      ],
+      "2:64": [
+        "whole kjv_congregation together"
+      ],
+      "2:65": [
+        "besides their/servant:pl and their/maid:pl",
+        "among they",
+        "sing:cv man:pl and sing:cv woman:pl"
+      ],
+      "2:66": [
+        "their/horse:pl",
+        "their/mule:pl"
+      ],
+      "2:67": [
+        "their/kjv_camel:pl",
+        "their/ass:pl"
+      ],
+      "2:68": [
+        "some of chief of father:pl",
+        "freely",
+        "in its/kjv_place_site"
+      ],
+      "2:69": [
+        "after their/ability",
+        "kjv_dram_treasure:pl of gold",
+        "kjv_pound_weight:pl of silver",
+        "priest:poss clothing:pl"
+      ],
+      "2:70": [
+        "some of people",
+        "kjv_nethinim",
+        "and all kjv_israel in their/city:pl"
+      ],
+      "3:1": [
+        "seven:ord month",
+        "as one_num man"
+      ],
+      "3:2": [
+        "kjv_jeshua_jozadak son of kjv_jozadak",
+        "kjv_zerubbabel_shealtiel son of kjv_shealtiel",
+        "kjv_moses"
+      ],
+      "3:3": [
+        "its/kjv_foundation:pl",
+        "fear upon they",
+        "morning and evening"
+      ],
+      "3:4": [
+        "feast of kjv_tabernacle:pl",
+        "by kjv_number",
+        "duty of each day"
+      ],
+      "3:5": [
+        "kjv_continual_rite",
+        "new moon:pl",
+        "willingly willing"
+      ],
+      "3:6": [
+        "first day of seven:ord month",
+        "kjv_foundation",
+        "lay:psv:neg:pa"
+      ],
+      "3:7": [
+        "money:a",
+        "kjv_zidon",
+        "kjv_tyre",
+        "kjv_lebanon",
+        "kjv_joppa",
+        "permission"
+      ],
+      "3:8": [
+        "second year",
+        "second month",
+        "remain:cv part",
+        "kjv_levite:pl:a from twenty year:pl old"
+      ],
+      "3:9": [
+        "son:pl of kjv_judah",
+        "kjv_henadad",
+        "forward set:inf"
+      ],
+      "3:10": [
+        "kjv_foundation",
+        "priest:pl:a in their/clothing with trumpet:pl",
+        "kjv_cymbal:pl"
+      ],
+      "3:11": [
+        "by kjv_service_order",
+        "his/mercy forever",
+        "because kjv_foundation"
+      ],
+      "3:12": [
+        "old man:pl",
+        "first house:a see:pp",
+        "weep:pa",
+        "many loud:adv for joy"
+      ],
+      "3:13": [
+        "distinguish:neg:pa:can",
+        "noise far away hear:psv:pa"
+      ],
+      "4:1": [
+        "kjv_adversary:pl",
+        "child:pl of kjv_captivity"
+      ],
+      "4:2": [
+        "wesg with you:pl build:opt",
+        "wesg your/god:a seek:pr",
+        "kjv_esarhaddon king of kjv_assur",
+        "who wesg:a"
+      ],
+      "4:3": [
+        "with wesg",
+        "ourone/god",
+        "wesg ourselves together",
+        "wesg:a command:perf"
+      ],
+      "4:4": [
+        "hand:pl of people of kjv_judah:a weak:caus:pa"
+      ],
+      "4:5": [
+        "kjv_hire:pa",
+        "their/purpose:a defeat:inf",
+        "until rule:ev of kjv_darius"
+      ],
+      "4:6": [
+        "kjv_ahasuerus",
+        "begin:ev of his/rule:ev",
+        "accusation:a"
+      ],
+      "4:7": [
+        "kjv_bishlam",
+        "kjv_mithredath_letter",
+        "kjv_tabeel",
+        "kjv_artaxerxes",
+        "kjv_syrian speech write:psv:pa",
+        "kjv_syrian speech interpret:psv:pa"
+      ],
+      "4:8": [
+        "kjv_rehum_chancellor kjv_chancellor",
+        "kjv_shimshai kjv_scribe"
+      ],
+      "4:9": [
+        "kjv_dinaite:pl",
+        "kjv_apharsathchite:pl",
+        "kjv_tarpelite:pl",
+        "kjv_apharsite:pl",
+        "kjv_archevite:pl",
+        "kjv_babylonian:pl",
+        "kjv_susanchite:pl",
+        "kjv_dehavite:pl",
+        "kjv_elamite:pl"
+      ],
+      "4:10": [
+        "kjv_asnapper",
+        "this side of river",
+        "at such time"
+      ],
+      "4:11": [
+        "copy of letter",
+        "thy/servant:pl",
+        "at such time"
+      ],
+      "4:12": [
+        "from thee to wesg",
+        "rebel:adj and bad city:a",
+        "its/wall:pl:a",
+        "kjv_foundation:pl:a"
+      ],
+      "4:13": [
+        "if this city build:psv:pr",
+        "toll kjv_tribute and kjv_custom_duty",
+        "pay:neg:fu"
+      ],
+      "4:14": [
+        "wepl support:ev:a",
+        "wepl to king:poss dishonour",
+        "therefore wesg send:perf"
+      ],
+      "4:15": [
+        "book of record:ev:pl",
+        "kjv_sedition",
+        "for which cause this city destroy:psv:pa"
+      ],
+      "4:16": [
+        "wesg king:a know:caus:pr",
+        "no kjv_portion_share:a",
+        "this side of river"
+      ],
+      "4:17": [
+        "beyond river",
+        "peace and at such time"
+      ],
+      "4:18": [
+        "to wesg",
+        "before ipl read:psv:perf"
+      ],
+      "4:19": [
+        "ipl command:pa",
+        "search make:psv:perf",
+        "kjv_sedition"
+      ],
+      "4:20": [
+        "beyond river",
+        "toll kjv_tribute and kjv_custom_duty"
+      ],
+      "4:21": [
+        "city build:psv:neg:opt",
+        "until another command from ipl"
+      ],
+      "4:22": [
+        "fail:neg:pr",
+        "grow:should?"
+      ],
+      "4:23": [
+        "in haste",
+        "by force and power cease:caus:pa"
+      ],
+      "4:24": [
+        "work of house of god cease:pa",
+        "until second year",
+        "kjv_darius"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [],
+      "ipl": [
+        "1:2",
+        "4:18",
+        "4:19",
+        "4:21"
+      ],
+      "mypl": [],
+      "iplself": [],
+      "wesg": [
+        "4:12",
+        "4:14",
+        "4:16",
+        "4:18",
+        "4:2",
+        "4:3"
+      ],
+      "wepl": [
+        "4:14"
+      ],
+      "ourone": [
+        "4:3"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Exact vessel category counts retained beside source total5400,without reconciling the2499listed subtotal.",
+      "Every returnee count checked independently against source;42360whole congregation,7337servants and200singers retain their stated relations.",
+      "736horses,245mules,435camels,6720asses;61000drams gold,5000pounds silver,100priestly garments. No modern unit conversions.",
+      "Month7,day1,year2/month2,Levite age20,andDariusyear2 remain separate dates and thresholds."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Imperial plural-I,opposed communal singular-we claims,receiving-court singular-we and multiple materially supported recipients remain distinct. No invented Trinity count.",
+      "Repeated names,other-Elam,source totals,Hodaviah/Judah and inserted royal correspondence remain unharmonized.",
+      "All inherited targets exact,including90host and93remainder repairs. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezra — incomplete Bible working text",
+    "pages": 68,
+    "spreads": 34,
+    "units": 118,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "f3524103619bf289879732fcae746fbafa88b69e8374e07204a34cf671d74cf6",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 34,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.936,
+    "modules": [
+      "tests.test_kjv_ezra_returnees",
+      "tests.test_kjv_chronicles_closing_oracles",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    67,
+    68
+  ],
+  "status": "incompleteBible;Ezra1–4sectioncheckpointverified"
+}

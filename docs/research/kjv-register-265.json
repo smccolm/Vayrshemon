@@ -1,0 +1,1012 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.265",
+    "parentVersion": "0.10-kjv.264",
+    "parentHead": "a800d0207283f90f94ffb18e45ff27a9eb90a2c9e588d351b4e0bc8ac1e3b4f5",
+    "head": "d8b9589558039558a74658b3f3663aec395d23cedff88eb0bf26ab9759982bb3",
+    "newLexicalEntries": 9,
+    "newProperEntries": 2,
+    "newCommonEntries": 7,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 105,
+    "exactCompilerCases": 105,
+    "newAuthoredVerses": 105,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 303,
+    "jamesVerses": 108,
+    "peter1Verses": 105,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 622,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPeter1Verses": 105,
+    "peter1Verses": 105,
+    "authoredVerses": 30480,
+    "remainingVerses": 622,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "1 Peter 3:18",
+        "source": "For Christ also hath once suffered for sins, the just for the unjust, that he might bring us to God, being put to death in the flesh, but quickened by the Spirit:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Peter 3:20",
+        "source": "Which sometime were disobedient, when once the longsuffering of God waited in the days of Noah, while the ark was a preparing, wherein few, that is, eight souls were saved by water.",
+        "expectedDecimalQuantities": [
+          1,
+          8
+        ],
+        "targetQuantities": [
+          1,
+          8
+        ]
+      },
+      {
+        "reference": "1 Peter 4:17",
+        "source": "For the time is come that judgment must begin at the house of God: and if it first begin at us, what shall the end be of them that obey not the gospel of God?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_peter_disciple",
+        "kjv_apostle",
+        "kjv_pontus_acts",
+        "kjv_galatia_acts",
+        "kjv_cappadocia_acts",
+        "kjv_asia_acts",
+        "kjv_bithynia_acts"
+      ],
+      "1:2": [
+        "god father kjv_foreknow_romans:ev",
+        "through spirit sanctify:ev",
+        "obedience and",
+        "blood kjv_sprinkle",
+        "grace to you and peace"
+      ],
+      "1:3": [
+        "ourone/lord",
+        "god and father",
+        "his/abundance:adj mercy",
+        "wesg:a again beget",
+        "alive hope"
+      ],
+      "1:4": [
+        "kjv_corrupt_decay:psv:neg:can",
+        "defile:psv:neg",
+        "away fade:neg",
+        "in heaven keep"
+      ],
+      "1:5": [
+        "god power through faith",
+        "salvation",
+        "last time reveal",
+        "keep:psv"
+      ],
+      "1:6": [
+        "greatly rejoice",
+        "for season if need",
+        "many different kjv_tempt_trial_hebrews"
+      ],
+      "1:7": [
+        "your/faith test:ev",
+        "more precious than gold",
+        "perish",
+        "by fire test",
+        "praise and honour and glory"
+      ],
+      "1:8": [
+        "see:neg:perf you love",
+        "now you he:a see:neg",
+        "yet believe",
+        "speak:psv:neg:can",
+        "glory full joy"
+      ],
+      "1:9": [
+        "your/faith end",
+        "your/kjv_soul:pl salvation"
+      ],
+      "1:10": [
+        "prophet:pl kjv_diligent:adv ask",
+        "search",
+        "grace that to you come",
+        "kjv_prophesy"
+      ],
+      "1:11": [
+        "what or what manner of time",
+        "kjv_christ_title spirit",
+        "in they",
+        "beforehand",
+        "suffer:ev:pl and glory"
+      ],
+      "1:12": [
+        "not to themselves but to wesg",
+        "now to you",
+        "holy spirit from heaven",
+        "angel:pl into look:inf desire"
+      ],
+      "1:13": [
+        "your/mind kjv_loins kjv_gird",
+        "kjv_soberness_acts:adj",
+        "grace",
+        "to end hope"
+      ],
+      "1:14": [
+        "obedient child:pl",
+        "former lust:pl",
+        "your/ignorance shape:neg"
+      ],
+      "1:15": [
+        "call:perf holy",
+        "all manner of kjv_conversation_conduct_corinthians"
+      ],
+      "1:16": [
+        "write:psv:pr",
+        "you holy be:imp",
+        "ipl holy be:pr"
+      ],
+      "1:17": [
+        "if you on father",
+        "without person:pl kjv_favour_partiality",
+        "every man work",
+        "kjv_sojourn:ev time in fear"
+      ],
+      "1:18": [
+        "vain kjv_conversation_conduct_corinthians",
+        "kjv_tradition from your/father:pl",
+        "not with kjv_corrupt_decay:psv:can",
+        "silver and gold"
+      ],
+      "1:19": [
+        "precious blood",
+        "as of kjv_lamb",
+        "without kjv_blemish and without spot"
+      ],
+      "1:20": [
+        "before world kjv_foundation",
+        "beforehand appoint",
+        "these last time:pl",
+        "for you"
+      ],
+      "1:21": [
+        "by he in god believe",
+        "from dead:pl up raise",
+        "to he glory give",
+        "faith and hope"
+      ],
+      "1:22": [
+        "truth obey",
+        "through spirit",
+        "feign:psv:neg:adj love",
+        "with pure heart",
+        "each other love"
+      ],
+      "1:23": [
+        "again birth",
+        "not of kjv_corrupt_decay:psv:can:adj seed",
+        "but of kjv_corrupt_decay:psv:neg:can:adj",
+        "forever live:pr and remain"
+      ],
+      "1:24": [
+        "all flesh as grass",
+        "all man glory",
+        "its/flower away fall"
+      ],
+      "1:25": [
+        "lord word forever endure",
+        "by good news to you proclaim"
+      ],
+      "2:1": [
+        "malice",
+        "kjv_guile",
+        "kjv_hypocrisy:pl",
+        "kjv_envy:ev:pl",
+        "evil speak:ev"
+      ],
+      "2:2": [
+        "newly birth:psv:pp kjv_infant:pl",
+        "word kjv_sincere_milk_peter milk",
+        "by it grow"
+      ],
+      "2:3": [
+        "if so be",
+        "lord grace:adj",
+        "taste"
+      ],
+      "2:4": [
+        "alive stone",
+        "by man:pl truly reject",
+        "by god choose"
+      ],
+      "2:5": [
+        "alive stone:pl",
+        "spirit:adj house holy kjv_priesthood",
+        "spirit:adj kjv_sacrifice:pl",
+        "to god accept"
+      ],
+      "2:6": [
+        "sacred write:ev",
+        "ipl in kjv_sion_psalm",
+        "chief kjv_cornerstone_ephesians",
+        "ashamed make:psv:neg"
+      ],
+      "2:7": [
+        "he precious",
+        "kjv_disobedient",
+        "build:ag:pl reject",
+        "corner head"
+      ],
+      "2:8": [
+        "kjv_stumble:ev stone",
+        "offend:ev rock",
+        "at word kjv_stumble",
+        "to which also they appoint"
+      ],
+      "2:9": [
+        "choose:psv:pp kjv_generation_kind_peter",
+        "royal kjv_priesthood",
+        "holy nation",
+        "kjv_peculiar_possession people",
+        "darkness into his/marvellous light"
+      ],
+      "2:10": [
+        "past time people be:neg",
+        "now god people",
+        "mercy obtain:neg",
+        "now mercy obtain"
+      ],
+      "2:11": [
+        "i you as stranger:pl and kjv_sojourn:ag:pl",
+        "flesh:adj lust:pl",
+        "against kjv_soul war"
+      ],
+      "2:12": [
+        "among kjv_gentile:pl honest",
+        "as evil do:ag:pl",
+        "your/good work:pl",
+        "kjv_visitation_peter day"
+      ],
+      "2:13": [
+        "for lord sake",
+        "every man kjv_ordinance",
+        "king as highest"
+      ],
+      "2:14": [
+        "kjv_governor:pl",
+        "by he send",
+        "evil do:ag:pl kjv_punishment",
+        "well do:pr praise"
+      ],
+      "2:15": [
+        "god will:ev",
+        "well do:cv",
+        "foolish man:pl ignorance silence"
+      ],
+      "2:16": [
+        "as free",
+        "free:ev for malice kjv_cloak employ:neg",
+        "god servant:pl"
+      ],
+      "2:17": [
+        "all man:pl honour",
+        "brother:pl fellowship love",
+        "god fear",
+        "king honour"
+      ],
+      "2:18": [
+        "your/master:pl",
+        "not only to good and gentle",
+        "also to kjv_froward"
+      ],
+      "2:19": [
+        "thanks worthy",
+        "if man for conscience to god",
+        "grief endure",
+        "wrong:adv suffer"
+      ],
+      "2:20": [
+        "for your/fault:pl kjv_buffet",
+        "patient:adv",
+        "if when you well do",
+        "with god accept"
+      ],
+      "2:21": [
+        "for wesg suffer",
+        "to wesg example",
+        "you his/step:pl follow"
+      ],
+      "2:22": [
+        "sin no do",
+        "neither in his/mouth kjv_guile"
+      ],
+      "2:23": [
+        "insult:psv",
+        "back insult:neg",
+        "threaten:neg",
+        "himself",
+        "entrust"
+      ],
+      "2:24": [
+        "his/own self ourone/sin:pl",
+        "his/own body on kjv_tree carry",
+        "wesg to sin:pl dead",
+        "whose kjv_stripe_blow:pl"
+      ],
+      "2:25": [
+        "sheep astray",
+        "your/kjv_soul:pl shepherd and kjv_bishop_souls_peter"
+      ],
+      "3:1": [
+        "wife:pl to your/own husband:pl",
+        "if any word obey:neg",
+        "without word",
+        "kjv_conversation_conduct_corinthians win"
+      ],
+      "3:2": [
+        "chaste kjv_conversation_conduct_corinthians",
+        "with fear join"
+      ],
+      "3:3": [
+        "outside adorn:ev",
+        "hair weave:ev",
+        "gold wear:ev",
+        "clothing on put"
+      ],
+      "3:4": [
+        "heart hide:psv:pp man",
+        "kjv_corrupt_decay:psv:neg:can",
+        "kjv_meek_disposition:adj and quiet spirit",
+        "great price"
+      ],
+      "3:5": [
+        "old time holy woman:pl",
+        "in god trust",
+        "their/own husband:pl"
+      ],
+      "3:6": [
+        "kjv_sara_hebrews kjv_abraham obey",
+        "he:a lord call",
+        "daughter:pl",
+        "as long as you well do",
+        "any terror afraid be:neg"
+      ],
+      "3:7": [
+        "by knowledge dwell",
+        "more weak vessel",
+        "together life grace heir:pl",
+        "prayer:pl hinder:psv:neg"
+      ],
+      "3:8": [
+        "all same mind",
+        "each other kjv_compassion",
+        "as brother:pl love",
+        "courteous"
+      ],
+      "3:9": [
+        "for evil evil",
+        "insult:ev insult:ev repay:neg",
+        "on contrary bless",
+        "blessing inherit"
+      ],
+      "3:10": [
+        "life love",
+        "good day:pl see",
+        "tongue from evil",
+        "lip:pl",
+        "kjv_guile speak:neg"
+      ],
+      "3:11": [
+        "evil avoid",
+        "good do",
+        "peace seek",
+        "it pursue"
+      ],
+      "3:12": [
+        "lord eye:pl",
+        "ear:pl to their/prayer:pl",
+        "lord face against"
+      ],
+      "3:13": [
+        "harm:fu",
+        "if you",
+        "follow:ag:pl"
+      ],
+      "3:14": [
+        "even if you for kjv_righteous:ev",
+        "happy",
+        "their/terror afraid be:neg",
+        "kjv_trouble be:neg"
+      ],
+      "3:15": [
+        "lord god in your/heart:pl sanctify",
+        "always",
+        "reason",
+        "kjv_meek_disposition:ev and fear answer"
+      ],
+      "3:16": [
+        "good conscience",
+        "as evil do:ag:pl",
+        "good kjv_conversation_conduct_corinthians",
+        "falsely accuse"
+      ],
+      "3:17": [
+        "if god will:ev so",
+        "well do:cv suffer",
+        "than for evil do"
+      ],
+      "3:18": [
+        "once for sin:pl suffer",
+        "kjv_righteous for kjv_righteous:neg",
+        "wesg:a to god",
+        "death put",
+        "by spirit alive"
+      ],
+      "3:19": [
+        "by which also he go",
+        "spirit:pl in prison proclaim"
+      ],
+      "3:20": [
+        "in former time kjv_disobedient",
+        "once god kjv_longsuffering:ev",
+        "kjv_noah",
+        "kjv_flood_ark prepare",
+        "eight kjv_soul:pl by water"
+      ],
+      "3:21": [
+        "kjv_corresponding_figure_peter",
+        "kjv_baptize:ev also now wesg:a save",
+        "not flesh dirty:ev",
+        "good conscience answer:ev",
+        "kjv_resurrection"
+      ],
+      "3:22": [
+        "into heaven",
+        "god kjv_right_side",
+        "angel:pl and authority:pl and power:pl",
+        "submit:caus:psv"
+      ],
+      "4:1": [
+        "for wesg in flesh suffer",
+        "same mind arm",
+        "from sin cease"
+      ],
+      "4:2": [
+        "no longer",
+        "time remainder",
+        "man:pl lust:pl",
+        "god will:ev"
+      ],
+      "4:3": [
+        "ourone/life past time wesg",
+        "kjv_gentile:pl will",
+        "wesg in lascivious:ev",
+        "wine excess",
+        "kjv_rioting_revel_romans",
+        "drink:ev feast:pl",
+        "idol worship:ev"
+      ],
+      "4:4": [
+        "same kjv_riot_dissipation_peter excess",
+        "run:neg",
+        "strange think",
+        "evil speak"
+      ],
+      "4:5": [
+        "alive person:pl and dead:pl",
+        "judge:inf ready",
+        "reckon:ev give"
+      ],
+      "4:6": [
+        "they who dead be:pr proclaim:psv:pa",
+        "by man:pl in flesh judge",
+        "by god in spirit live"
+      ],
+      "4:7": [
+        "all thing:pl end near",
+        "kjv_soberness_acts",
+        "to prayer watch"
+      ],
+      "4:8": [
+        "fervour:adj kjv_charity_love_corinthians",
+        "sin:pl kjv_multitude cover"
+      ],
+      "4:9": [
+        "without kjv_grudge:ev",
+        "each other kjv_hospitality_romans"
+      ],
+      "4:10": [
+        "every man gift receive",
+        "each other serve",
+        "many different grace good steward:pl"
+      ],
+      "4:11": [
+        "if any man speak",
+        "kjv_oracle_saying_acts:pl",
+        "if any man serve",
+        "ability which god give",
+        "through kjv_jesus_matthew",
+        "praise and kjv_dominion"
+      ],
+      "4:12": [
+        "fire:adj kjv_tempt_trial_hebrews:ev",
+        "you:a test",
+        "as though some strange",
+        "strange think:neg"
+      ],
+      "4:13": [
+        "suffer:ev:pl share:ag:pl",
+        "glory reveal",
+        "very great joy"
+      ],
+      "4:14": [
+        "if you",
+        "glory and god spirit",
+        "upon you rest",
+        "on their/side he evil",
+        "on your/side he glorify"
+      ],
+      "4:15": [
+        "murder:ag",
+        "thief",
+        "evil do:ag",
+        "other man:pl affair:pl kjv_busybody_peter"
+      ],
+      "4:16": [
+        "kjv_christian_name_acts",
+        "ashamed be:neg",
+        "on this behalf"
+      ],
+      "4:17": [
+        "judgment at god house begin",
+        "at wesg first",
+        "obey:neg",
+        "end what"
+      ],
+      "4:18": [
+        "if kjv_righteous person scarcely",
+        "god:neg:adj person and sin:ag",
+        "where"
+      ],
+      "4:19": [
+        "by god will:ev suffer",
+        "kjv_soul:pl keep:ev",
+        "well do",
+        "faithful create:ag entrust"
+      ],
+      "5:1": [
+        "kjv_elder:pl",
+        "i kjv_exhort_romans",
+        "also kjv_elder",
+        "suffer:ev:pl witness",
+        "glory which reveal"
+      ],
+      "5:2": [
+        "god flock",
+        "its/kjv_oversee:ev",
+        "not by compulsion",
+        "willing:adv",
+        "not for filthy gain",
+        "ready mind"
+      ],
+      "5:3": [
+        "god inheritance lord:pl",
+        "flock example:pl"
+      ],
+      "5:4": [
+        "chief shepherd",
+        "glory crown",
+        "away fade:neg"
+      ],
+      "5:5": [
+        "younger person:pl to kjv_elder",
+        "all to each other submit",
+        "humble:ev clothe",
+        "proud person:pl against resistance"
+      ],
+      "5:6": [
+        "god mighty hand",
+        "yourselves humble",
+        "due time kjv_exalt"
+      ],
+      "5:7": [
+        "your/worry:ev upon he",
+        "he for you care"
+      ],
+      "5:8": [
+        "kjv_soberness_acts:adj",
+        "watch:cv",
+        "kjv_adversary devil",
+        "as roar:cv lion",
+        "whom he devour"
+      ],
+      "5:9": [
+        "faith kjv_steadfast",
+        "resistance make",
+        "same kjv_afflict:ev:pl",
+        "your/brother:pl",
+        "accomplish"
+      ],
+      "5:10": [
+        "wesg:a to his/eternal glory",
+        "kjv_christ_title kjv_jesus_matthew",
+        "after you for while suffer",
+        "perfect make",
+        "kjv_establish",
+        "strengthen",
+        "settle"
+      ],
+      "5:11": [
+        "glory and kjv_dominion",
+        "forever and forever",
+        "amen"
+      ],
+      "5:12": [
+        "kjv_silvanus_peter",
+        "to you faithful brother",
+        "as i suppose",
+        "i brief:adv write",
+        "true god grace",
+        "you stand:pr"
+      ],
+      "5:13": [
+        "kjv_church_assembly",
+        "at kjv_babylon",
+        "with you choose",
+        "my/son kjv_marcus_peter"
+      ],
+      "5:14": [
+        "kjv_charity_love_corinthians kiss",
+        "each other greet",
+        "you all",
+        "kjv_christ_title kjv_jesus_matthew",
+        "amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "2:11",
+        "5:1",
+        "5:12"
+      ],
+      "ipl": [
+        "1:16",
+        "2:6"
+      ],
+      "wesg": [
+        "1:12",
+        "1:3",
+        "2:21",
+        "2:24",
+        "3:18",
+        "3:21",
+        "4:1",
+        "4:17",
+        "4:3",
+        "5:10"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "1:3",
+        "2:24",
+        "4:3"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [],
+    "divineQuotedSelfReferences": [
+      "1:16",
+      "2:6"
+    ],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Once suffering,once waiting,eight souls,and judgment first retained.",
+      "One mind expresses concord as same-mind;reciprocals are not physical duals.",
+      "Divine quoted plural-I,personal writer-I and communal singular-we remain distinct;printed us/our preserved."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "All105first-Peter verses;whole Bible incomplete.",
+      "Keep Lord God,courteous,for-us,by-Spirit,answer-of-conscience,full4:14and5:5,indicative stand,church at Babylon,Christ Jesus and Amen.",
+      "Seven common entries,two contextual names,no new paradigms;earlier targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Peter — incomplete Bible working text",
+    "pages": 62,
+    "spreads": 31,
+    "units": 105,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c3c823abd7b221c00c5baf894493cd9af24d5d16cd150ced328ea56e8ad3e229",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 31,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.903,
+    "modules": [
+      "tests.test_kjv_peter_shared_hope",
+      "tests.test_kjv_james_speech_and_works",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    61,
+    62
+  ],
+  "status": "incomplete Bible;1Peter1–5 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 61,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv265\\preflight-peter1\\Proofs\\page-061.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv265\\composed-peter1\\Proofs\\page-061.png",
+        "sha256": "acc7f3ffe3e58f8dacb1225cb530732157b8f799cde50213a3318c9c1e2c417b",
+        "bytesIdentical": true
+      },
+      {
+        "page": 62,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv265\\preflight-peter1\\Proofs\\page-062.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv265\\composed-peter1\\Proofs\\page-062.png",
+        "sha256": "6c52ab8dc70ce0d33d9356643003749256e98210959c9073b9bb55102d319ee8",
+        "bytesIdentical": true
+      }
+    ]
+  },
+  "applicationCapacityFix": {
+    "reason": "1 Peter publication exceeded the former 2000 grammar-record ceiling before any checkpoint seal or Forge clone.",
+    "grammarLimitBefore": 2000,
+    "grammarLimitAfter": 10000,
+    "nativeEngineUnchanged": "0.15.31",
+    "layoutChanged": false,
+    "earlierHistoricalFilesChanged": false,
+    "tests": {
+      "passed": true,
+      "count": 6,
+      "seconds": 18.157,
+      "modules": [
+        "tests.test_language_grammar_capacity",
+        "tests.test_language_dictionary_capacity",
+        "tests.test_parallel_translation"
+      ]
+    },
+    "contracts": [
+      {
+        "path": "schemas/file-document.schema.json",
+        "beforeSha256": "5389c0e4695aa1528cca938c447bace286ffa649ad49790600c37d2047570355",
+        "afterSha256": "7684731419a3b8f7043f3587c12d39569233aea03b3f840edd0129d1c53e9065",
+        "changedPaths": [
+          [
+            "oneOf",
+            0,
+            "properties",
+            "state",
+            "properties",
+            "language",
+            "properties",
+            "revisions",
+            "items",
+            "properties",
+            "collections",
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ]
+      },
+      {
+        "path": "schemas/language-document.schema.json",
+        "beforeSha256": "dad7822ef97902b3503f225db3df9f6b733b8f2e3777e8fa207f35bb2d5abf46",
+        "afterSha256": "fedc922b12e6c32f89d16022608e81cc7522a49b204c7034ccf79f59a118e954",
+        "changedPaths": [
+          [
+            "properties",
+            "state",
+            "properties",
+            "language",
+            "properties",
+            "revisions",
+            "items",
+            "properties",
+            "collections",
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ]
+      },
+      {
+        "path": "schemas/language-package.schema.json",
+        "beforeSha256": "6537e038641283993b5fc8fca31ffd8f493be91dbb6d875d060208a440e853b1",
+        "afterSha256": "a672403ad8c09d0394085785d654b0d91cbc83f1f8d731dd421050c28546ed49",
+        "changedPaths": [
+          [
+            "properties",
+            "data",
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ]
+      }
+    ],
+    "validationCacheMigration": {
+      "reason": "Only grammar maxItems relaxed from 2000 to 10000; every previously valid snapshot remains valid. Actual bytes are still rehashed on every export.",
+      "oldFingerprint": "b7a905413aa5d331303c3e13e1d436307167badaf0f50ca4be3f1371559254f0",
+      "newFingerprint": "7640e10bd3e00ce6069f5ea4f8af806f04de87af5ec85be94a9c2bc997b0195c",
+      "beforeCacheSha256": "bd57cf1efba19bba047cd5f33800d945de75e193d9c4a7b71f875584cc0fd343",
+      "afterCacheSha256": "43b45a7f14f3da0846b6ee03b3505a5c0686198e8410c432f43584e3005b19ed",
+      "beforeContractSha256": "63b12ed903fd098712593e8fe3978e33b9e3f112b819dfa4db89d01fcada6b29",
+      "afterContractSha256": "9f16b2d918c80baa069c71530ae8b12b153a0e14c9dea2d97d7a66ff9ec70d23",
+      "unchangedCommitReceipts": 307,
+      "unchangedSnapshotReceipts": 306,
+      "schemaRelaxationProof": {
+        "DATA": [
+          [
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ],
+        "REVISION": [
+          [
+            "properties",
+            "collections",
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ],
+        "LANGUAGE": [
+          [
+            "properties",
+            "revisions",
+            "items",
+            "properties",
+            "collections",
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ],
+        "PACKAGE": [
+          [
+            "properties",
+            "data",
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ],
+        "STATE": [
+          [
+            "properties",
+            "language",
+            "properties",
+            "revisions",
+            "items",
+            "properties",
+            "collections",
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ],
+        "DOCUMENT": [
+          [
+            "properties",
+            "state",
+            "properties",
+            "language",
+            "properties",
+            "revisions",
+            "items",
+            "properties",
+            "collections",
+            "properties",
+            "grammar",
+            "maxItems"
+          ]
+        ]
+      }
+    },
+    "firstPublishedGrammarCount": 2001
+  }
+}

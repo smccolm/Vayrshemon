@@ -335,11 +335,12 @@ def remote_call(root, method, params=None, *, expected_revision=None, idempotenc
     data = bytearray()
     # Construction and alignment measure multiple columns with exact fonts.
     # Give these bounded operations time to return their results.
-    deadline = time.monotonic() + (180 if method in ('page.gloss.copy','page.paragraphs.align') else 30)
+    deadline = time.monotonic() + (600 if method in ('document.open','document.preflight') else
+        180 if method in ('page.gloss.copy','page.paragraphs.align','document.save','document.save-as','document.read','backup.create','backup.verify','jobs.export','ui.capture') else 30)
     while b'\n' not in data:
         if socket.bytesAvailable() or socket.waitForReadyRead(max(1, int((deadline-time.monotonic())*1000))):
             data.extend(bytes(socket.readAll()))
-        if len(data) > 32*1024*1024:
+        if len(data) > 128*1024*1024:
             raise ValueError('LOCAL_API_RESPONSE_TOO_LARGE')
         if time.monotonic() >= deadline or socket.state() == QLocalSocket.LocalSocketState.UnconnectedState:
             if b'\n' not in data:

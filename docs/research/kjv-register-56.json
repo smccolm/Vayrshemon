@@ -1,0 +1,1033 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.56",
+    "parentVersion": "0.10-kjv.55",
+    "parentHead": "32f317acf6d755dca10c38f8a76c0a35c8d11d7b194450f12dd1a49f182025aa",
+    "head": "f844c65c078d0714a175340bc9a362a585e17033c610a0ddcd936d69804f6c5e",
+    "newLexicalEntries": 64,
+    "newProperEntries": 44,
+    "newCommonEntries": 20,
+    "newSurfaceForms": 45,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 114,
+    "exactCompilerCases": 118,
+    "newAuthoredVerses": 118,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 217,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 22119,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 118,
+    "kings1Verses": 217,
+    "authoredVerses": 8983,
+    "remainingVerses": 22119,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 36,
+    "quantityChecks": [
+      {
+        "reference": "1 Kings 3:4",
+        "source": "And the king went to Gibeon to sacrifice there; for that was the great high place: a thousand burnt offerings did Solomon offer upon that altar.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "1 Kings 3:16",
+        "source": "Then came there two women, that were harlots, unto the king, and stood before him.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 3:18",
+        "source": "And it came to pass the third day after that I was delivered, that this woman was delivered also: and we were together; there was no stranger with us in the house, save we two in the house.",
+        "expectedDecimalQuantities": [
+          3,
+          2
+        ],
+        "targetQuantities": [
+          3,
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 3:25",
+        "source": "And the king said, Divide the living child in two, and give half to the one, and half to the other.",
+        "expectedDecimalQuantities": [
+          2,
+          0.5,
+          0.5
+        ],
+        "targetQuantities": [
+          2,
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Kings 4:7",
+        "source": "And Solomon had twelve officers over all Israel, which provided victuals for the king and his household: each man his month in a year made provision.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "1 Kings 4:13",
+        "source": "The son of Geber, in Ramothgilead; to him pertained the towns of Jair the son of Manasseh, which are in Gilead; to him also pertained the region of Argob, which is in Bashan, threescore great cities with walls and brasen bars:",
+        "expectedDecimalQuantities": [
+          60
+        ],
+        "targetQuantities": [
+          60
+        ]
+      },
+      {
+        "reference": "1 Kings 4:22",
+        "source": "And Solomonâ€™s provision for one day was thirty measures of fine flour, and threescore measures of meal,",
+        "expectedDecimalQuantities": [
+          30,
+          60
+        ],
+        "targetQuantities": [
+          30,
+          60
+        ]
+      },
+      {
+        "reference": "1 Kings 4:23",
+        "source": "Ten fat oxen, and twenty oxen out of the pastures, and an hundred sheep, beside harts, and roebucks, and fallowdeer, and fatted fowl.",
+        "expectedDecimalQuantities": [
+          10,
+          20,
+          100
+        ],
+        "targetQuantities": [
+          10,
+          20,
+          100
+        ]
+      },
+      {
+        "reference": "1 Kings 4:26",
+        "source": "And Solomon had forty thousand stalls of horses for his chariots, and twelve thousand horsemen.",
+        "expectedDecimalQuantities": [
+          40000,
+          12000
+        ],
+        "targetQuantities": [
+          40000,
+          12000
+        ]
+      },
+      {
+        "reference": "1 Kings 4:32",
+        "source": "And he spake three thousand proverbs: and his songs were a thousand and five.",
+        "expectedDecimalQuantities": [
+          3000,
+          1005
+        ],
+        "targetQuantities": [
+          3000,
+          1005
+        ]
+      },
+      {
+        "reference": "1 Kings 5:11",
+        "source": "And Solomon gave Hiram twenty thousand measures of wheat for food to his household, and twenty measures of pure oil: thus gave Solomon to Hiram year by year.",
+        "expectedDecimalQuantities": [
+          20000,
+          20
+        ],
+        "targetQuantities": [
+          20000,
+          20
+        ]
+      },
+      {
+        "reference": "1 Kings 5:12",
+        "source": "And the LORD gave Solomon wisdom, as he promised him: and there was peace between Hiram and Solomon; and they two made a league together.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 5:13",
+        "source": "And king Solomon raised a levy out of all Israel; and the levy was thirty thousand men.",
+        "expectedDecimalQuantities": [
+          30000
+        ],
+        "targetQuantities": [
+          30000
+        ]
+      },
+      {
+        "reference": "1 Kings 5:14",
+        "source": "And he sent them to Lebanon, ten thousand a month by courses: a month they were in Lebanon, and two months at home: and Adoniram was over the levy.",
+        "expectedDecimalQuantities": [
+          10000,
+          2
+        ],
+        "targetQuantities": [
+          10000,
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 5:15",
+        "source": "And Solomon had threescore and ten thousand that bare burdens, and fourscore thousand hewers in the mountains;",
+        "expectedDecimalQuantities": [
+          70000,
+          80000
+        ],
+        "targetQuantities": [
+          70000,
+          80000
+        ]
+      },
+      {
+        "reference": "1 Kings 5:16",
+        "source": "Beside the chief of Solomonâ€™s officers which were over the work, three thousand and three hundred, which ruled over the people that wrought in the work.",
+        "expectedDecimalQuantities": [
+          3300
+        ],
+        "targetQuantities": [
+          3300
+        ]
+      },
+      {
+        "reference": "1 Kings 6:1",
+        "source": "And it came to pass in the four hundred and eightieth year after the children of Israel were come out of the land of Egypt, in the fourth year of Solomonâ€™s reign over Israel, in the month Zif, which is the second month, that he began to build the house of the LORD.",
+        "expectedDecimalQuantities": [
+          480,
+          4,
+          2
+        ],
+        "targetQuantities": [
+          480,
+          4,
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 6:2",
+        "source": "And the house which king Solomon built for the LORD, the length thereof was threescore cubits, and the breadth thereof twenty cubits, and the height thereof thirty cubits.",
+        "expectedDecimalQuantities": [
+          60,
+          20,
+          30
+        ],
+        "targetQuantities": [
+          60,
+          20,
+          30
+        ]
+      },
+      {
+        "reference": "1 Kings 6:3",
+        "source": "And the porch before the temple of the house, twenty cubits was the length thereof, according to the breadth of the house; and ten cubits was the breadth thereof before the house.",
+        "expectedDecimalQuantities": [
+          20,
+          10
+        ],
+        "targetQuantities": [
+          20,
+          10
+        ]
+      },
+      {
+        "reference": "1 Kings 6:6",
+        "source": "The nethermost chamber was five cubits broad, and the middle was six cubits broad, and the third was seven cubits broad: for without in the wall of the house he made narrowed rests round about, that the beams should not be fastened in the walls of the house.",
+        "expectedDecimalQuantities": [
+          5,
+          6,
+          3,
+          7
+        ],
+        "targetQuantities": [
+          5,
+          6,
+          3,
+          7
+        ]
+      },
+      {
+        "reference": "1 Kings 6:8",
+        "source": "The door for the middle chamber was in the right side of the house: and they went up with winding stairs into the middle chamber, and out of the middle into the third.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Kings 6:10",
+        "source": "And then he built chambers against all the house, five cubits high: and they rested on the house with timber of cedar.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Kings 6:16",
+        "source": "And he built twenty cubits on the sides of the house, both the floor and the walls with boards of cedar: he even built them for it within, even for the oracle, even for the most holy place.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "1 Kings 6:17",
+        "source": "And the house, that is, the temple before it, was forty cubits long.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "1 Kings 6:20",
+        "source": "And the oracle in the forepart was twenty cubits in length, and twenty cubits in breadth, and twenty cubits in the height thereof: and he overlaid it with pure gold; and so covered the altar which was of cedar.",
+        "expectedDecimalQuantities": [
+          20,
+          20,
+          20
+        ],
+        "targetQuantities": [
+          20,
+          20,
+          20
+        ]
+      },
+      {
+        "reference": "1 Kings 6:23",
+        "source": "And within the oracle he made two cherubims of olive tree, each ten cubits high.",
+        "expectedDecimalQuantities": [
+          2,
+          10
+        ],
+        "targetQuantities": [
+          2,
+          10
+        ]
+      },
+      {
+        "reference": "1 Kings 6:24",
+        "source": "And five cubits was the one wing of the cherub, and five cubits the other wing of the cherub: from the uttermost part of the one wing unto the uttermost part of the other were ten cubits.",
+        "expectedDecimalQuantities": [
+          5,
+          5,
+          10
+        ],
+        "targetQuantities": [
+          5,
+          5,
+          10
+        ]
+      },
+      {
+        "reference": "1 Kings 6:25",
+        "source": "And the other cherub was ten cubits: both the cherubims were of one measure and one size.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "1 Kings 6:26",
+        "source": "The height of the one cherub was ten cubits, and so was it of the other cherub.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "1 Kings 6:31",
+        "source": "And for the entering of the oracle he made doors of olive tree: the lintel and side posts were a fifth part of the wall.",
+        "expectedDecimalQuantities": [
+          0.2
+        ],
+        "targetQuantities": [
+          0.2
+        ]
+      },
+      {
+        "reference": "1 Kings 6:32",
+        "source": "The two doors also were of olive tree; and he carved upon them carvings of cherubims and palm trees and open flowers, and overlaid them with gold, and spread gold upon the cherubims, and upon the palm trees.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 6:33",
+        "source": "So also made he for the door of the temple posts of olive tree, a fourth part of the wall.",
+        "expectedDecimalQuantities": [
+          0.25
+        ],
+        "targetQuantities": [
+          0.25
+        ]
+      },
+      {
+        "reference": "1 Kings 6:34",
+        "source": "And the two doors were of fir tree: the two leaves of the one door were folding, and the two leaves of the other door were folding.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 6:36",
+        "source": "And he built the inner court with three rows of hewed stone, and a row of cedar beams.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Kings 6:37",
+        "source": "In the fourth year was the foundation of the house of the LORD laid, in the month Zif:",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Kings 6:38",
+        "source": "And in the eleventh year, in the month Bul, which is the eighth month, was the house finished throughout all the parts thereof, and according to all the fashion of it. So was he seven years in building it.",
+        "expectedDecimalQuantities": [
+          11,
+          8,
+          7
+        ],
+        "targetQuantities": [
+          11,
+          8,
+          7
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "The two adult witnesses and third-day births retain actual dual and ordinal. The proposed two halves are not narrated as an executed cutting.",
+      "Twelve officers, sixty walled cities, thirty/sixty grain measures,10/20/100domestic animals,40000stalls and12000horsemen remain exact.",
+      "3000proverbs and1005songs remain distinct;20000wheat and20oil measures are annual amounts.",
+      "30000levy men rotate10000per month, one month abroad and two home;70000carriers,80000hewers and3300overseers are separate categories.",
+      "480th departure-year, fourth regnal year, second month;60-by20-by30cubits whole-house,20-by20-by20inner-space and40front-space.",
+      "Five/six/seven chamber widths differ from five-cubit height. Two cherubim each have5+5wing span and10height.",
+      "One-fifth and one-quarter entrance relations are exact fractions, not ordinals;two doors with two leaves each are explicit.",
+      "Fourth-year Zif start, eleventh-year Bul eighth-month completion and stated seven years remain unharmonized with a calculated exact month duration.",
+      "Lexical one in one-house, one-month and one-row clauses is separately covered by semantic checks."
+    ],
+    "semanticChecks": {
+      "3:1": [
+        "kjv_affinity_marriage",
+        "of kjv_pharaoh daughter",
+        "his/own house and of kjv_lord house",
+        "of kjv_jerusalem wall"
+      ],
+      "3:2": [
+        "in high kjv_place_site:pl",
+        "house build:psv:pp not"
+      ],
+      "3:3": [
+        "kjv_lord:a love:pa",
+        "only in high",
+        "kjv_incense:a burn:caus:pa"
+      ],
+      "3:4": [
+        "kjv_gibeon",
+        "thousand burn:psv kjv_offering:pl"
+      ],
+      "3:5": [
+        "by night in dream",
+        "ipl give:fu"
+      ],
+      "3:6": [
+        "kjv_righteousness",
+        "kjv_uprightness",
+        "this great kjv_kindness",
+        "son:a thou give:perf"
+      ],
+      "3:7": [
+        "only little child i be:pr",
+        "i know:pr not"
+      ],
+      "3:8": [
+        "because of kjv_multitude",
+        "kjv_number:psv:pr:can not nor reckon:psv:pr:can"
+      ],
+      "3:9": [
+        "understand:cv heart",
+        "between good and bad i distinguish:pr:may"
+      ],
+      "3:10": [
+        "with speech",
+        "kjv_please_satisfy:psv:pa"
+      ],
+      "3:11": [
+        "long life:a ask:perf not",
+        "wealth:a ask:perf",
+        "thy/enemy:pl life:a",
+        "understanding:a ask:perf"
+      ],
+      "3:12": [
+        "ipl do:perf",
+        "ipl give:perf",
+        "none be:pa",
+        "neither after thou"
+      ],
+      "3:13": [
+        "wealth and honour",
+        "all thy/day:pl"
+      ],
+      "3:14": [
+        "if in mypl/way:pl",
+        "then thy/day:pl:a ipl long:caus:fu"
+      ],
+      "3:15": [
+        "dream it be:pa",
+        "kjv_covenant kjv_ark_chest",
+        "peace kjv_offering:pl",
+        "all his/servant:pl"
+      ],
+      "3:16": [
+        "two woman:pl who kjv_harlot:pl"
+      ],
+      "3:17": [
+        "i and this woman in one house",
+        "child:a i bear:pa"
+      ],
+      "3:18": [
+        "kjv_three:ord day",
+        "together we:du",
+        "stranger be:pa not",
+        "we:du two"
+      ],
+      "3:19": [
+        "because upon it she lie:pa"
+      ],
+      "3:20": [
+        "at midnight",
+        "while thy/kjv_handmaid sleep:pa",
+        "her/dead child"
+      ],
+      "3:21": [
+        "my/child:a suck:caus:inf",
+        "my/son whom i bear:pa it be:pa not"
+      ],
+      "3:22": [
+        "living my/son",
+        "dead thy/son",
+        "they:du speak:pa"
+      ],
+      "3:23": [
+        "one say:pr",
+        "other say:pr"
+      ],
+      "3:24": [
+        "to i sword:a bring:imp"
+      ],
+      "3:25": [
+        "into two living child:a",
+        "to one half:a",
+        "to other half:a"
+      ],
+      "3:26": [
+        "woman of whom living child",
+        "her/kjv_bowels kjv_yearn:pa",
+        "slay:imp not",
+        "neither of i nor of thou"
+      ],
+      "3:27": [
+        "slay:imp not",
+        "mother she be:pr"
+      ],
+      "3:28": [
+        "king:a they fear:pa",
+        "of god wisdom"
+      ],
+      "4:2": [
+        "kjv_azariah_zadok of kjv_zadok priest son"
+      ],
+      "4:3": [
+        "kjv_ahiah_shisha of kjv_shisha",
+        "kjv_record_keeper"
+      ],
+      "4:4": [
+        "kjv_zadok and kjv_abiathar priest:pl"
+      ],
+      "4:5": [
+        "kjv_azariah_nathan",
+        "kjv_nathan_officials",
+        "principal officer and king friend"
+      ],
+      "4:6": [
+        "kjv_adoniram of kjv_abda",
+        "kjv_tribute"
+      ],
+      "4:7": [
+        "twelve officer:pl",
+        "each man his/month"
+      ],
+      "4:8": [
+        "of kjv_hur_officer son"
+      ],
+      "4:9": [
+        "kjv_dekar",
+        "kjv_makaz",
+        "kjv_shaalbim",
+        "kjv_bethshemesh",
+        "kjv_elonbethhanan"
+      ],
+      "4:10": [
+        "kjv_hesed",
+        "kjv_aruboth",
+        "kjv_sochoh",
+        "kjv_hepher_city"
+      ],
+      "4:11": [
+        "kjv_abinadab_officer",
+        "kjv_taphath",
+        "as wife"
+      ],
+      "4:12": [
+        "kjv_baana",
+        "kjv_bethshean",
+        "kjv_zartanah",
+        "beyond kjv_jokneam"
+      ],
+      "4:13": [
+        "kjv_geber_father",
+        "kjv_ramothgilead",
+        "six+ten great city:pl",
+        "of kjv_brass bar:pl"
+      ],
+      "4:14": [
+        "kjv_ahinadab of kjv_iddo"
+      ],
+      "4:15": [
+        "kjv_ahimaaz_officer",
+        "kjv_basmath"
+      ],
+      "4:16": [
+        "kjv_baanah_hushai",
+        "kjv_aloth"
+      ],
+      "4:17": [
+        "kjv_jehoshaphat_paruah of kjv_paruah"
+      ],
+      "4:18": [
+        "kjv_shimei_elah of kjv_elah_officer"
+      ],
+      "4:19": [
+        "kjv_geber_uri of kjv_uri_geber",
+        "only officer he be:pa"
+      ],
+      "4:20": [
+        "as by sea sand",
+        "merry make:cv"
+      ],
+      "4:21": [
+        "from river",
+        "of egypt boundary",
+        "all of his/life day:pl"
+      ],
+      "4:22": [
+        "one day",
+        "kjv_three+ten",
+        "fine kjv_flour",
+        "six+ten kjv_measure_portion:pl of kjv_flour"
+      ],
+      "4:23": [
+        "ten fat ox:pl",
+        "two+ten ox:pl",
+        "hundred sheep:pl",
+        "kjv_fallow_deer:pl"
+      ],
+      "4:24": [
+        "this side river",
+        "kjv_tiphsah",
+        "kjv_azzah",
+        "peace:a he have:pa"
+      ],
+      "4:25": [
+        "under his/kjv_vine",
+        "under his/fig kjv_tree",
+        "from kjv_dan to kjv_beersheba"
+      ],
+      "4:26": [
+        "four+ten+thousand kjv_horse_stall:pl",
+        "twelve+thousand kjv_horseman:pl"
+      ],
+      "4:27": [
+        "every man in his/month",
+        "nothing:a they lack:pa"
+      ],
+      "4:28": [
+        "kjv_barley and straw",
+        "kjv_dromedary:pl",
+        "kjv_charge_custody"
+      ],
+      "4:29": [
+        "of heart broad:ev",
+        "sea kjv_shore sand"
+      ],
+      "4:30": [
+        "east country child:pl",
+        "all of egypt wisdom"
+      ],
+      "4:31": [
+        "kjv_ethan kjv_ezrahite",
+        "kjv_heman",
+        "kjv_chalcol",
+        "kjv_darda of kjv_mahol son:pl"
+      ],
+      "4:32": [
+        "kjv_three+thousand proverb:pl",
+        "thousand and five"
+      ],
+      "4:33": [
+        "kjv_cedar kjv_tree",
+        "kjv_hyssop",
+        "creep:cv thing:pl",
+        "fish:pl"
+      ],
+      "4:34": [
+        "from all people",
+        "from all of earth king:pl"
+      ],
+      "5:1": [
+        "kjv_hiram of kjv_tyre king",
+        "of his/father kjv_place_site",
+        "always of kjv_david love:ag"
+      ],
+      "5:3": [
+        "build:pa:can not",
+        "on every side war:pl",
+        "under of his/foot:pl kjv_sole:pl"
+      ],
+      "5:4": [
+        "rest:a to ipl",
+        "neither kjv_adversary nor evil event"
+      ],
+      "5:5": [
+        "ipl purpose:pr",
+        "thy/son whom",
+        "ipl set:fu",
+        "to mypl/name"
+      ],
+      "5:6": [
+        "mypl/servant:pl",
+        "kjv_wages:a ipl give:fu",
+        "among wesg",
+        "skilled be:pr like kjv_sidonian:pl"
+      ],
+      "5:7": [
+        "blessed kjv_lord",
+        "wise son"
+      ],
+      "5:8": [
+        "i consider:perf",
+        "ipl do:fu",
+        "kjv_fir wood"
+      ],
+      "5:9": [
+        "mypl/servant:pl",
+        "in kjv_raft:pl",
+        "kjv_unload:caus:fu",
+        "mypl/kjv_household"
+      ],
+      "5:10": [
+        "kjv_cedar kjv_tree:pl and kjv_fir kjv_tree:pl"
+      ],
+      "5:11": [
+        "two+ten+thousand",
+        "two+ten kjv_measure_portion:pl of pure oil",
+        "year by year"
+      ],
+      "5:12": [
+        "they:du two kjv_covenant:a make:pa"
+      ],
+      "5:13": [
+        "kjv_labour_levy",
+        "kjv_three+ten+thousand man:pl"
+      ],
+      "5:14": [
+        "ten+thousand in month",
+        "one month in kjv_lebanon",
+        "two month:pl at home",
+        "kjv_adoniram"
+      ],
+      "5:15": [
+        "seven+ten+thousand",
+        "carry:cv person:pl",
+        "eight+ten+thousand"
+      ],
+      "5:16": [
+        "kjv_three+thousand and kjv_three+hundred"
+      ],
+      "5:17": [
+        "great stone:pl costly stone:pl",
+        "kjv_hew:psv stone:pl"
+      ],
+      "5:18": [
+        "kjv_hiram build:ag:pl",
+        "kjv_stonesquarer:pl"
+      ],
+      "6:1": [
+        "four+hundred and eight+ten:ord",
+        "four:ord year",
+        "kjv_zif",
+        "two:ord month"
+      ],
+      "6:2": [
+        "length six+ten",
+        "breadth two+ten",
+        "height kjv_three+ten"
+      ],
+      "6:3": [
+        "kjv_porch length two+ten",
+        "its/breadth ten"
+      ],
+      "6:4": [
+        "of narrow kjv_windowlight:pl window:pl"
+      ],
+      "6:5": [
+        "both of kjv_temple_sanctuary and of kjv_oracle_chamber",
+        "chamber:pl:a around he make:pa"
+      ],
+      "6:6": [
+        "lowest chamber five",
+        "middle six",
+        "kjv_three:ord seven",
+        "narrow:psv kjv_beam_support:pl",
+        "kjv_fasten:psv:opt not"
+      ],
+      "6:7": [
+        "ready make:psv:pp",
+        "neither kjv_hammer nor kjv_axe nor any of iron kjv_tool",
+        "hear:psv:pa"
+      ],
+      "6:8": [
+        "middle chamber door",
+        "kjv_right_side",
+        "kjv_winding kjv_stair:pl",
+        "into kjv_three:ord"
+      ],
+      "6:9": [
+        "beam:pl and of kjv_cedar kjv_board:pl"
+      ],
+      "6:10": [
+        "five kjv_cubit:pl high",
+        "support:psv:pa"
+      ],
+      "6:12": [
+        "if in mypl/kjv_statute:pl",
+        "mypl/judgment:pl:a perform:fu",
+        "then with thou mypl/word:a ipl perform:fu"
+      ],
+      "6:13": [
+        "ipl dwell:fu",
+        "mypl/people kjv_israel:a forsake:fu not"
+      ],
+      "6:15": [
+        "of kjv_ceiling wall:pl",
+        "of kjv_fir kjv_board:pl"
+      ],
+      "6:16": [
+        "on of house side:pl two+ten",
+        "most holy kjv_place_site"
+      ],
+      "6:17": [
+        "four+ten kjv_cubit:pl long"
+      ],
+      "6:18": [
+        "kjv_knop:pl and open flower:pl",
+        "stone see:psv:pa not"
+      ],
+      "6:19": [
+        "kjv_oracle_chamber",
+        "kjv_covenant kjv_ark_chest"
+      ],
+      "6:20": [
+        "front part",
+        "in length two+ten",
+        "in breadth two+ten",
+        "its/height two+ten",
+        "altar:a which of kjv_cedar"
+      ],
+      "6:21": [
+        "by of gold chain:pl partition"
+      ],
+      "6:22": [
+        "whole house",
+        "whole altar"
+      ],
+      "6:23": [
+        "two kjv_cherub:pl",
+        "each ten kjv_cubit:pl high"
+      ],
+      "6:24": [
+        "one wing five",
+        "other wing five",
+        "ten kjv_cubit:pl"
+      ],
+      "6:25": [
+        "other kjv_cherub ten",
+        "one measure and one size"
+      ],
+      "6:26": [
+        "height ten",
+        "other kjv_cherub"
+      ],
+      "6:27": [
+        "one wall:a touch:pa",
+        "other wall:a touch:pa",
+        "each other:a touch:pa"
+      ],
+      "6:28": [
+        "with gold kjv_cherub:pl:a"
+      ],
+      "6:29": [
+        "kjv_palm_tree",
+        "within and outside"
+      ],
+      "6:30": [
+        "floor:pl",
+        "within and outside"
+      ],
+      "6:31": [
+        "kjv_lintel",
+        "side kjv_doorpost:pl",
+        "kjv_fifth_share"
+      ],
+      "6:32": [
+        "two door:pl",
+        "kjv_olive kjv_tree",
+        "gold:a he spread:pa"
+      ],
+      "6:33": [
+        "kjv_doorpost:pl",
+        "kjv_fourth_share"
+      ],
+      "6:34": [
+        "two door:pl",
+        "one door two kjv_door_leaf:pl",
+        "other door two kjv_door_leaf:pl",
+        "kjv_fold_panel:cv"
+      ],
+      "6:35": [
+        "upon kjv_engrave:psv work fit:psv"
+      ],
+      "6:36": [
+        "kjv_three row:pl",
+        "one row of kjv_cedar beam:pl"
+      ],
+      "6:37": [
+        "four:ord year",
+        "kjv_zif month"
+      ],
+      "6:38": [
+        "eleven:ord year",
+        "kjv_bul month",
+        "eight:ord month",
+        "seven year:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Dream promises, maternal allegations and narrator resolution retain separate evidential status.",
+      "The supplied Abiathar roster, only-officer statement,40,000stalls,20oil measures,3300overseers, window lights and oracle wording are not harmonized to other witnesses.",
+      "No modern species, building blueprint or converted cubit length is asserted.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Kings â€” incomplete Bible working text",
+    "pages": 146,
+    "spreads": 73,
+    "units": 217,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "f3eb03d78c0e82d0ac33a97f1f95be7e8f2323995b99fb166f2b5ce215abdb51",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.514160000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 73,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "command": "python -m unittest tests.test_kjv_kings_wisdom tests.test_kjv_kings_succession tests.test_parallel_translation",
+    "count": 4,
+    "seconds": 12.172,
+    "passed": true
+  },
+  "visualReview": {
+    "viewedPages": [
+      145,
+      146
+    ],
+    "finding": "Final four-column temple completion spread visibly preserves Maxima, matched paragraph first baselines, clear margins and outside Unta numbering. No clipped text seen. Full layout checks report zero missing glyphs and zero vertical overset.",
+    "scope": "Sample visual review plus full structural checks; not independent literary certification."
+  }
+}

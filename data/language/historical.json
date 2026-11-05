@@ -1,0 +1,2533 @@
+{
+  "policy": "Never promote frozen historical registers to the modern pointer or migrate their completed editions.",
+  "registers": [
+    {
+      "version": "0.10-kjv.1",
+      "package": "data/language/archaic-kjv-1",
+      "manifestSha256": "0944ab07a11c8eb01845823aecaf9deca9ea1e3aabe0d5bacdc2de0cd2f22a37",
+      "forgeHead": "72b5746f19b9c753c51f1aed35cfe943fbe4790de8406c36414ac3301e1d985c",
+      "policy": "never-modernize",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.2",
+      "package": "data/language/archaic-kjv-2",
+      "manifestSha256": "f2dbd88c6f03523abf2cb2776b239037304a3881f2e7b430a629aee4ae16c46f",
+      "forgeHead": "0cca3ec046b553a2d846a7983d91ed47a7e0c8cb242ee990921c8ce2111a0f7d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.3",
+      "package": "data/language/archaic-kjv-3",
+      "manifestSha256": "5e44f27305829cfb2d9b7fed342c91e2b5b576742b746112004728d705cf2d74",
+      "forgeHead": "6ea3d263412ca6ddf004421edb6be1ea3d869187ea02b3dc698aa25b11f8712b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.4",
+      "package": "data/language/archaic-kjv-4",
+      "manifestSha256": "01253b2550cbf1639b0dfd06d1fc103c137aa0c1f0cc486b11f3678db6d56a00",
+      "forgeHead": "736c0c04e338d70924fecbe35db968d640f3f134a34b3c3daa865859a71d3c02",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.5",
+      "package": "data/language/archaic-kjv-5",
+      "manifestSha256": "229c09f0d7220ac5ae0bb186043d9e38ca935c5ec13992070a1d0ac56fe7867e",
+      "forgeHead": "28ae39ea4e7889d817b1671a73fb2eacf5ebff4f8d87d3d24222fc22f6f0a263",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.6",
+      "package": "data/language/archaic-kjv-6",
+      "manifestSha256": "8491d9784c5d59f934c0fcaa51d38291ff47aa3377862266e2c7f44e9a0ec53f",
+      "forgeHead": "9af87a8ae41f3482c3a0f4a6b2ea9ae6b7129e12e04586f16ee1ee98dbd49f25",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.7",
+      "package": "data/language/archaic-kjv-7",
+      "manifestSha256": "61b60d697dd76cdf67c3c3560c9f87d3266135d520b52dfd75739f1aa6528f4c",
+      "forgeHead": "80cb06da4854c0048bda578135e8321c961451e5006a75c805f3a7e5a03ec876",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.8",
+      "package": "data/language/archaic-kjv-8",
+      "manifestSha256": "8ef70683f59cee3f486a9d28a9738d6b9032d3017b307b08f21dad1fd128e676",
+      "forgeHead": "5470e35db84e7d680b23ad4f94d7be8e028bd724347ab067e8270a508eea59c1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.9",
+      "package": "data/language/archaic-kjv-9",
+      "manifestSha256": "448b41c076abd24223f931dd76a8db64d4c4a5c34c1362e6a0f1c37e1cd8319c",
+      "forgeHead": "9cb47ca39061c34edf3947b55ad8c9ab0760357dbb8785b513251e522cf734fd",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.10",
+      "package": "data/language/archaic-kjv-10",
+      "manifestSha256": "a61ed357aea0844b4db9d8a570c783f141e1143727000eee63d1f445377ef37e",
+      "forgeHead": "5abb115d18740592cb4d14f9e07743ce5fcd4a10a37ad3501e02b38358def010",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.11",
+      "package": "data/language/archaic-kjv-11",
+      "manifestSha256": "814b4352a3e7aca166fd1b1533ea38c83857bb58022381c3bbce91aa60f81bbe",
+      "forgeHead": "3d82735542f56f1b36b9396e02f653d4c13101f1740f375f2fd5dfd013c5bd8e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.12",
+      "package": "data/language/archaic-kjv-12",
+      "manifestSha256": "4812997cedd82b46840c924e2f2e82f07bc411c3ea7e17ed3d7bbf57e45cc8fb",
+      "forgeHead": "e5e86194f3c4d794ed6c3745dbe27137c434bdea91db66dd17f263ebe28dfb31",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.13",
+      "package": "data/language/archaic-kjv-13",
+      "manifestSha256": "768bbc25124b3a5973f2dc73b8d620bcf5a2b6c54a6e1348c281ec01e0c8ee9f",
+      "forgeHead": "96eb4e99d891ac904d35f211e04c02177b8bf80c4d4a6467bf11dd48611bd342",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.14",
+      "package": "data/language/archaic-kjv-14",
+      "manifestSha256": "b100d9e97645ff1bada36d4541b4bf67c73d408875e0b76a1bd07a3b19fb5b05",
+      "forgeHead": "f5453992e7d63a575abc23de42eba01a4e452e13973c5e20d74155c0d5a6f7a1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.15",
+      "package": "data/language/archaic-kjv-15",
+      "manifestSha256": "9b9270a18729eb74723e63d0fdb7ea7c09a694d522354c393c72c4c5f379b918",
+      "forgeHead": "743b2748f0b9d652d8e977f601927dd983fb1ba56408faaf80c69ec0b2b4f920",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.16",
+      "package": "data/language/archaic-kjv-16",
+      "manifestSha256": "e1b0273c16e93a3cf3a4463d9a2535ecd4c2deb3dd325df130f0c257aa55454a",
+      "forgeHead": "a445039c71edf96b5f40835d5dfc998a8c3956620b4df7268dcf5d703ba0fbdd",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.17",
+      "package": "data/language/archaic-kjv-17",
+      "manifestSha256": "aa3d05ede5a5b758c7200f3d74d232afee37d5e9a38e176b385f203411f10f98",
+      "forgeHead": "286170adabc6adb3f30db6ba62de44e6625adf5352237784be4b5fd494e11382",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.18",
+      "package": "data/language/archaic-kjv-18",
+      "manifestSha256": "4c87996ad80bc92f5fc17d618a801352d3b032caf5d784dd7dc4eece78d03554",
+      "forgeHead": "d44b50896c9edac2597f9d25386b35faf0a299300799120e57118babe269d08b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.19",
+      "package": "data/language/archaic-kjv-19",
+      "manifestSha256": "0d67b6eec8ae5e66dfee0ae9e695822ca689df4663b9c896ab586a6d197a246b",
+      "forgeHead": "31dc6894a34279bd9fbf4de9d16f2b3cd30c118eed5e55449381396c294a16a9",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.20",
+      "package": "data/language/archaic-kjv-20",
+      "manifestSha256": "747a354f5a6edc3a787bfaaea1be3051e9e3616f47c516dc82a15f007946642a",
+      "forgeHead": "1c4a7dfde752d4bef822d1b68eeb6189e7f874a16e52f150d2c62c745170ff4c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.21",
+      "package": "data/language/archaic-kjv-21",
+      "manifestSha256": "a3c234ddce9436b950650fe25aba3bd20726ddcb75286af4b20821e00c32262d",
+      "forgeHead": "97f5e68f0aadb4a8aecdff1bdd31433060c3f7075832d62ee9f732ca4a97ee9a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.22",
+      "package": "data/language/archaic-kjv-22",
+      "manifestSha256": "9acfc644a8417fb328439356db9c78d6dd4d45e43e25aab2bdf77ca381bfc21b",
+      "forgeHead": "1faa4755d7e370b5636a9893c63f9f3f5314fe2c34b71c597a0cdf42f47e8197",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.23",
+      "package": "data/language/archaic-kjv-23",
+      "manifestSha256": "75679b0697298afb07575ceec43679aeade4a22d95f779def637dd174e64a509",
+      "forgeHead": "f795df62e726b14fcc5ea2094c651c5e5c7f2cc9f779f4b3bb9f4271915016fe",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.24",
+      "package": "data/language/archaic-kjv-24",
+      "manifestSha256": "3170bae26d0914f4e42256972c3f1ec73a6821048f4edc60f646b6ff56e09a59",
+      "forgeHead": "9dc8a6056d6be5d8c3c0d72d0e93935b2e2cc4ac49ad3c96372fd7c8df0d2618",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.25",
+      "package": "data/language/archaic-kjv-25",
+      "manifestSha256": "3a207e0cf2abce2abf5d1ab9d388d3223932259d10b4f84079c0065ab6fc3c77",
+      "forgeHead": "7bdda2adc695361a4a4d50985d3060b4abb4f2a28d9c7ba8939abded4ac9fa54",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.26",
+      "package": "data/language/archaic-kjv-26",
+      "manifestSha256": "1290a66e83e59b93f8827c9482155e1d44ccca2c13cfd5120f77f07e1b3ccf2b",
+      "forgeHead": "b0ed5b428c64630d5a9f4ebd9d242c1d23d944c3e1d3d3ffe7ddcff673e4a8a5",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.27",
+      "package": "data/language/archaic-kjv-27",
+      "manifestSha256": "6a0ae47b7941dfc9c7275be1ec1703d9a05f49b3456651b1b39917dbe4f4bad6",
+      "forgeHead": "ac8c90cfa235b522458e5d926574a771cedbdf7e8522dc4b5ad57e39ecdba9d1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.28",
+      "package": "data/language/archaic-kjv-28",
+      "manifestSha256": "9e9623778e727139d61640e28cb09b39f578b21d7a728530d0e10cb6c0343c5e",
+      "forgeHead": "b6e0e41e4c61325da8093696b9d3523d6c060db6a6009726a6d3106b9f7fa6a7",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.29",
+      "package": "data/language/archaic-kjv-29",
+      "manifestSha256": "7683fdd283da360dd522f9f5be3deedb26edb4bdf1fb9a26604a375b4839212b",
+      "forgeHead": "7e448b43756578fa4b17bb6dcde7b095050b8a0dde63fb7dbbd4242a548b9307",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.30",
+      "package": "data/language/archaic-kjv-30",
+      "manifestSha256": "f34309dc9067903352c1d6553a9b73c4c4bcc45f9eac863742d99f45d5d16dd2",
+      "forgeHead": "e1edeeb58405c8ad33bacb25beb8377ffd97918c41c8dfc7c8459e56f3990733",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.31",
+      "package": "data/language/archaic-kjv-31",
+      "manifestSha256": "18eb6de6977674ca891eee05f2e904644741d535fd344e8fa343dc291c6875c9",
+      "forgeHead": "457571ee7241ee87b254364d243529b065a60b25f4ba692eee86c8c937603564",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.32",
+      "package": "data/language/archaic-kjv-32",
+      "manifestSha256": "2ddad8bea0b717f5dd7d27f9e12aabe7b145ae27b17bb6747ef694fc6adc7c44",
+      "forgeHead": "f18eb775d234a14b079ac28a30be02b94ba3f8fa622bbedb29fabd9add68e70b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.33",
+      "package": "data/language/archaic-kjv-33",
+      "manifestSha256": "2cf7635fb3463fa000cbdfbb2b240ad6a2b2e2884df377dadb0fee2fbc862285",
+      "forgeHead": "9db5431949fb7bda4e291b90bc1bec0da0d64c0703f132789b4ee564894b8028",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.34",
+      "package": "data/language/archaic-kjv-34",
+      "manifestSha256": "0a8d655524b9c33058d5e630abbf3fa064cddd5fbc002f6824999fe9e2e76182",
+      "forgeHead": "acaa0599d0e0a89a1c3ac8ffe5a61565720ae899a4006fc71d9d7c4997e6a91d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.35",
+      "package": "data/language/archaic-kjv-35",
+      "manifestSha256": "cca1b5418997e247dc3f04e9b5da6874b7561609725348726479f672b7714063",
+      "forgeHead": "d164e1c2dba3607029331d19adaf7cf47c6420cff469b56cf8b6d1a38ceeefa6",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.36",
+      "package": "data/language/archaic-kjv-36",
+      "manifestSha256": "689d26002a9e4653be06c717bcbd7c8a1578f5eaaa6231c1ee8e1d7ca0cecd85",
+      "forgeHead": "325a1b8b89c08d8585a066626ef22f05fe2860cb57ea2752e1512694f09a14a8",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.37",
+      "package": "data/language/archaic-kjv-37",
+      "manifestSha256": "16339f4ff1e0e73d33540e79f87e0a9928fcf7f41eb905b048cd02e64b970a5a",
+      "forgeHead": "92f9f52730998e653f87960148f3f5662376db8efaf8afc20645375f68603863",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.38",
+      "package": "data/language/archaic-kjv-38",
+      "manifestSha256": "8acc93ea2bd11cb15a536311d38a89d09482e3882f5a49ae37a0b1136a5bafa6",
+      "forgeHead": "a78b69a595d4ee9bdaba6273df11701241d349643390ef20795257006c2d20d7",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.39",
+      "package": "data/language/archaic-kjv-39",
+      "manifestSha256": "a8d615fa4aeb964f618796e729dbad08e7a413f79d80fd58b80a6dc92459f643",
+      "forgeHead": "56b6ed0c84726a8457489a58ab91e67848ba84f8d0f4b9e85dc6cf6c917ca98c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.40",
+      "package": "data/language/archaic-kjv-40",
+      "manifestSha256": "9a4b92d3c36017bbc4162f82c90b002f15ad0d12ad5ea06c8ec1152f0a88dfc6",
+      "forgeHead": "9d520e9c2573004212f47d6315ca348d56b07ccf36d8353a0c7ce5457d9f263a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.41",
+      "package": "data/language/archaic-kjv-41",
+      "manifestSha256": "ccdfde9878441f884e4fc743e56b79944bb2a787420a55c2d8be33bb1017b9a2",
+      "forgeHead": "58a21247bc6a03a045f773b3e1c9dc5438489d516b4ce4306908f04d780405a7",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.42",
+      "package": "data/language/archaic-kjv-42",
+      "manifestSha256": "f0b905ef1488d01e9e58ca8ff5da75b06de716414fbd4032cc4e20ffe58cc8d7",
+      "forgeHead": "55893e8e9c4ea5aa1ab91bcc37b4594a8bdb4f8c46ea2954f023b332cdf50f39",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.43",
+      "package": "data/language/archaic-kjv-43",
+      "manifestSha256": "79329fd54633c5ea90ea7a7f6651354ed40397e53800b3e1c02d88e7e8e3cf50",
+      "forgeHead": "f414a6c8dfe77870d01af6a7fb73e986ed412aa19b379112a0783d55a9915813",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.44",
+      "package": "data/language/archaic-kjv-44",
+      "manifestSha256": "8520b6ed1955559eaf66dc25a5bb738808cc26665c32f2ec3ae6269779e56c96",
+      "forgeHead": "b7575ba1cad64da82a076b1bf31263718927ee611143d522d1c37b1e47bd72cd",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.45",
+      "package": "data/language/archaic-kjv-45",
+      "manifestSha256": "8e062f43ff0f6d278e40e2265f380c7ac0cef37b5ffe3b2d5c8588f6f8eed328",
+      "forgeHead": "586b27011721339c713606d136d17b2c8e2b22b80b9e7a7826b6125f231febdd",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.46",
+      "package": "data/language/archaic-kjv-46",
+      "manifestSha256": "42f4b94a171286be13920d4da94896ccd0bc77da1a8769aebbefbdc4724f1298",
+      "forgeHead": "86237c262d7c369e45b14ee626390c9ff74f43bed8354cb4589e0fb5ed889e9d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.47",
+      "package": "data/language/archaic-kjv-47",
+      "manifestSha256": "7ce0b4057b5530fc3c3862f99e69b9ad628ba310f9361edf1f27301f8dc7de0e",
+      "forgeHead": "973ae0f56bdd9b67a755f087811f0a56abdeb06fd75a914c3d7b5763c768562a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.48",
+      "package": "data/language/archaic-kjv-48",
+      "manifestSha256": "c9268fe4b8cf573f6b3d1f04eac28b568c45fe8872af997d74c3037f10991125",
+      "forgeHead": "2f566bdf63fe6c6ee750940ecf59ef1014fcda73f5541254e953326a5ea34147",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.49",
+      "package": "data/language/archaic-kjv-49",
+      "manifestSha256": "475aea99151556b4887d7f6feae01f2f69489f6ba7e564b722d5abe9761d89c6",
+      "forgeHead": "ff103879f98f261c2a3b862cbbf42202a2ae1cac69a663a4661fbbd4e10d6729",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.50",
+      "package": "data/language/archaic-kjv-50",
+      "manifestSha256": "01452ee0e4e570468d948df2fb6b40ba68a313e01ec05586d6c351e0b21b2fad",
+      "forgeHead": "f2e5f53c147d3bc1f755570c9a7184da05528324f299e3494bafca6cb56d197f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.51",
+      "package": "data/language/archaic-kjv-51",
+      "manifestSha256": "3ff57075d6ab3575092c5cd1e703cfef3eee5446988e61a600c9f252cdfe8e2f",
+      "forgeHead": "8a799dc2fb0ee3a0a85f2bf06df45ee24430732cd6df2b6261fa43bdbf8aa709",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.52",
+      "package": "data/language/archaic-kjv-52",
+      "manifestSha256": "24b02181ec60d028288d6aec229c03b24f1c8fe043cf98a7478a9197e3ffe9ec",
+      "forgeHead": "c0ae3665a78bc14be35ed6a548a975495f8e3de4663d4cbf73112dff2b66f1be",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.53",
+      "package": "data/language/archaic-kjv-53",
+      "manifestSha256": "66b240704b4a8d4e207dd089916830a66e00b2a306d070dabb787564c1eaccf0",
+      "forgeHead": "b193c9af4c56e0db98192fd081d7ba554f07c9eb5464a441b2e696a30e9de76e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.54",
+      "package": "data/language/archaic-kjv-54",
+      "manifestSha256": "6cc82c4e14f8519a1a9260f831da1021811cb4569691b53e0dddaa995dacc0e9",
+      "forgeHead": "4b7c36ae23bf53b0007ede23d975ce7602d6eb03d903ce6268874a78141d3e86",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.55",
+      "package": "data/language/archaic-kjv-55",
+      "manifestSha256": "030c0916eb1a319c1f19086192d0a8f58b334741be2518a1e668431ea8d50e3a",
+      "forgeHead": "32f317acf6d755dca10c38f8a76c0a35c8d11d7b194450f12dd1a49f182025aa",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.56",
+      "package": "data/language/archaic-kjv-56",
+      "manifestSha256": "0235ec8f94a3237e03d40699d5bf9689eed75eae06eaab887daf4aa71a779fc3",
+      "forgeHead": "f844c65c078d0714a175340bc9a362a585e17033c610a0ddcd936d69804f6c5e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.57",
+      "package": "data/language/archaic-kjv-57",
+      "manifestSha256": "9e5c0fbb3d1a3c72f912c2b333e7f0efdad176c27ca94ec9bcb5e8b9403594f5",
+      "forgeHead": "9f3f52360f9e392321f4dbe60b5f9cca6a294bf5895df89e4c1438faa2392d9f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.58",
+      "package": "data/language/archaic-kjv-58",
+      "manifestSha256": "7b693018b93514be7ac3182d02440af2cf26ddf7d22e5da7b0a2848d1b7102ec",
+      "forgeHead": "323302313496fed4ed0418449dca2c112c9b808784fb67b93d5a5c30689a04f6",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.59",
+      "package": "data/language/archaic-kjv-59",
+      "manifestSha256": "8d3561fa12813a60ceb8e7c3c966428aaa1d08516e680a523ac9ad6d34405bd3",
+      "forgeHead": "6602de1a8d68c6887f072bf7c7906e2b71dc4903596f41d485a83a19b4371fd6",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.60",
+      "package": "data/language/archaic-kjv-60",
+      "manifestSha256": "9090bf155569efac9a7e04a7413b9d8038469f680f8f7bcc947cfe1fc8c49c06",
+      "forgeHead": "5ab271fec7e29400cb13256bfbc67fec3eca829823e2ad8453c34e160de5ae14",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.61",
+      "package": "data/language/archaic-kjv-61",
+      "manifestSha256": "974e94efa36422ad021f5c43d7834765ab06b7f1eee48f28a0359d7eab27f841",
+      "forgeHead": "3d72c5d6f27b1665e442a5eb655782ee6009ad83f81293d07f6cb7f8487d0050",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.62",
+      "package": "data/language/archaic-kjv-62",
+      "manifestSha256": "8a55d1ae20ee3742891019d8f6672d26f27052c650be4a87268b96a18a5a8a04",
+      "forgeHead": "2e47d4585a5b44ae216e3f7d66f63b986862848e550c44aa41fc251593f34192",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.63",
+      "package": "data/language/archaic-kjv-63",
+      "manifestSha256": "781e88d88834aca93778dc08f9c36dc7184a081e6ce794eb9b97f7bae9a91cc1",
+      "forgeHead": "f0412bdc2bd180b8b1a88c74a6e678d9314bf516d4dfdea84b7f81d1666173ad",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.64",
+      "package": "data/language/archaic-kjv-64",
+      "manifestSha256": "7574f5b9cf94beb86c53f48b394d91d7ad975d64f495d0fe44b48317342174ae",
+      "forgeHead": "e17522877682f4d24d3e6a91738534241a9f5482fa66286403686ab6098dc92f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.65",
+      "package": "data/language/archaic-kjv-65",
+      "manifestSha256": "1e4b9addeaac62f3591b66a5b3cf80635078a5d73d59d35155e55945832e1567",
+      "forgeHead": "b6c847588b2a9130014e20891f5325cf15c4c8143bb7070800fb71c1bca50086",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.66",
+      "package": "data/language/archaic-kjv-66",
+      "manifestSha256": "9ccc691adf4bed65a6e5bc7a1f06459af14fbe93ca6deb24774278d6d005a238",
+      "forgeHead": "62300242169a2aa41df83980d1727a21df36730adeebdd1a9871ac6dae33bb29",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.67",
+      "package": "data/language/archaic-kjv-67",
+      "manifestSha256": "008dd4b5924a3ec431db6bf0badc55fa2838861be14e9f79ccc379276baf77f8",
+      "forgeHead": "2f34496fa6373a3e121d4bae0c7900f992edfb945af30d6be112ff7dc88339b2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.68",
+      "package": "data/language/archaic-kjv-68",
+      "manifestSha256": "a6a98c5c95504b3b810417c4cf49cd9c20bff662c4404ccc64ae1a6c6d1d0cce",
+      "forgeHead": "d56059b4e98edc665c6892a03c650f36fe59ee0a3762c2a3042031f3a2461b19",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.69",
+      "package": "data/language/archaic-kjv-69",
+      "manifestSha256": "4af3d089e628550ab7f874cc9e5c70c6675aa12f84a7f8e549d3fd6bf7bea0c3",
+      "forgeHead": "e5636557cef92bf0008c57fa685820556831c79703c746f287ed646157bab53b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.70",
+      "package": "data/language/archaic-kjv-70",
+      "manifestSha256": "84d6f369834308e3363511c2e9a7d0bf5a90937c25ceea808c2a35664fbd65cb",
+      "forgeHead": "bf8a7534c3a4fe53ee6e0d8042d653b80ec917ee578b8ba8470570a314a3c461",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.71",
+      "package": "data/language/archaic-kjv-71",
+      "manifestSha256": "18beb6392dbe4f546a5fb4ec356b5f1314d4660f7bf9cb7b5293d085ac7edc7b",
+      "forgeHead": "a5c9fc5491c6c0a3810b535d6a42cbd549471877a3855a2ca4f2243c5f018c92",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.72",
+      "package": "data/language/archaic-kjv-72",
+      "manifestSha256": "03a3459286ce222dd7a98f9e54ffe35e27cb510dfccff79bb8c74e2f343b4ced",
+      "forgeHead": "fbbde70d3e89010cc1fee1ea4db793eff7b907e457e0d7feb3a9973c34b5c5c4",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.73",
+      "package": "data/language/archaic-kjv-73",
+      "manifestSha256": "fa2fa993eaaa692889ffa933ccfae99232817daa584fe1203711b0e865e2c1f1",
+      "forgeHead": "178c5f284b0607c1e68c92740d67607cc46aff06ed5edb7f55e7aedad5fd6934",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.74",
+      "package": "data/language/archaic-kjv-74",
+      "manifestSha256": "11afef275df28c580cee8a8ca5ccd1705f25f177b5ee42998e1e3d59f7d12d62",
+      "forgeHead": "a800801da075d1c8e3403e2ef68220175ee2941c0f7b7d4f54f20342b0fb4807",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.75",
+      "package": "data/language/archaic-kjv-75",
+      "manifestSha256": "86ec22bb1d12da3259ca26a095c7a6a03c9d1af50a992cb8fb630693615fb80c",
+      "forgeHead": "a2370d5cdf4e0b1db4c15292110215fbf0a41aa86ef5f338ca4947d8f8b5e9fb",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.76",
+      "package": "data/language/archaic-kjv-76",
+      "manifestSha256": "86bd23070ea8f89b39c7fa974ddf26744c9c9bafc42218ab12e6ddded0860a38",
+      "forgeHead": "bb3a52ed1266acdb6842041a0f88861f3052c721eae343f6b8424f6671b9034e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.77",
+      "package": "data/language/archaic-kjv-77",
+      "manifestSha256": "baec678b7d38bf399b400fc17d5343b912b171cf2676d9ff5cce33fbeb14f1fc",
+      "forgeHead": "1ca227ca06db71f48001714f3f0ebcc6a9bda1a962d80e225e1fc204d22209ab",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.78",
+      "package": "data/language/archaic-kjv-78",
+      "manifestSha256": "0745f7639d18050321e06e50198e4c63c1022ecaaac8fe1acc4ee2b04bb43ab3",
+      "forgeHead": "351778b8ccc130aacf8c2606604b0d2aefbdd4f5b5a5ebfd601eab631c0cabab",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.79",
+      "package": "data/language/archaic-kjv-79",
+      "manifestSha256": "980d254cafc5af1a62488d08dc2b35360e872e477a6758ad6c6ff4c4dbcc37b7",
+      "forgeHead": "d87054db7f57c68d711469f1d4f2b001f8b4d5ba54e4a4535345a084c09edb59",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.80",
+      "package": "data/language/archaic-kjv-80",
+      "manifestSha256": "97cf04602f9a4a1388857ae3aa428bd048bd131bc6eb3d936fadbd161ac7e43f",
+      "forgeHead": "7b4d409f45cf1b881fe50ffef1e99877f5db9bfca33ebbf0ccb1ce208b005bae",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.81",
+      "package": "data/language/archaic-kjv-81",
+      "manifestSha256": "9c9e8913e75ed175d533320bd42b52c04797ffebfc7649b3e3846c3cae03e925",
+      "forgeHead": "cf7d7fef065f1c9b0723c203cb974abf581623648efe9ac550cc8dd07afedabf",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.82",
+      "package": "data/language/archaic-kjv-82",
+      "manifestSha256": "9d236ee7aa6a3165803fc3b53cd8e3346fd9d0e46f7d2230143ab4c03df7d631",
+      "forgeHead": "7fe66225a4ed9259807117f886c842eb60c1f45c8567bf7683d5a2d108483cf7",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.83",
+      "package": "data/language/archaic-kjv-83",
+      "manifestSha256": "4f80c51d0cda5790700d1410c7c546636e542c06e44f3b8074af23412ea03e94",
+      "forgeHead": "07a49683d62d9cea6a05003fa2dcb9bee2d6ab08b416cf520e10cefc71f13123",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.84",
+      "package": "data/language/archaic-kjv-84",
+      "manifestSha256": "b7040c3f3b38950c2fcfa7e7a02033fb4dc9f1b8434c4ab47ef15cbba280d0c8",
+      "forgeHead": "969b038434dabd40c8923c13dd9264fc3bd0af952924e9b0f941979f136c9906",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.85",
+      "package": "data/language/archaic-kjv-85",
+      "manifestSha256": "8c3f05adef12037273aed99459119adbe133d1a1cad18d3b9c770000a3f9928f",
+      "forgeHead": "db39ca4aa909cf41b14075dac667212a71fe45ffa0be38df962c684b171a7959",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.86",
+      "package": "data/language/archaic-kjv-86",
+      "manifestSha256": "8787afeeb7fb306bac8ea6081c11f6249cc571a5f5894cf375a7260d98f2b1d9",
+      "forgeHead": "d518be57e047c170481bd1d702681c291864a3ee664fc102db3f04c3972328fb",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.87",
+      "package": "data/language/archaic-kjv-87",
+      "manifestSha256": "2a6728eb0495741088c753c3b68b037d9cfeaefd18f445252922ce54ef07c843",
+      "forgeHead": "db3336815baf8608d38a31096e0a19e02c30d0eac87f14f11b70b9117019520f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.88",
+      "package": "data/language/archaic-kjv-88",
+      "manifestSha256": "fdf39e7b772a816261422138de377c200f811cf47a063830a11c45f04aaaf2dd",
+      "forgeHead": "b6fd5d3ded5a5edf6fcb3ea4270874fde1f112f61106a3c8fbf2839763ca0e85",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.89",
+      "package": "data/language/archaic-kjv-89",
+      "manifestSha256": "cbe9d67af07a8b9072d5846c9fda3761e26b1a43d2f622f254c1d247f459ce0e",
+      "forgeHead": "18cee6f980899d840bb78bf69ad0e52d4e17fe1089ef21fd78e56b7d37c042f4",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.90",
+      "package": "data/language/archaic-kjv-90",
+      "manifestSha256": "4f7438346cc769b05e26d51c8ffa0fa7c6d90d33b89e27a292c3cea6c41ccb3d",
+      "forgeHead": "c4314b5173ce3b1e12cb3865063d04d7d34989fdc9ff75dc639213763fdf8551",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.91",
+      "package": "data/language/archaic-kjv-91",
+      "manifestSha256": "9fee395bf1fcab06bd15ff8a27f0ad7be426fc06a8dfdfe0bb989f541e334c4e",
+      "forgeHead": "801a43c89bd64dee4be7653e91f0e0a51de95604d903eee70ad5501042cde579",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.92",
+      "package": "data/language/archaic-kjv-92",
+      "manifestSha256": "104b8a1cd2a752e048ad725946b194844449b62c82a32a7cb062225a2fdb3c20",
+      "forgeHead": "f9eaf6cae55a3a35282410a9ea09f1751756f2d7c7d455800b2d3a6437a7924c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.93",
+      "package": "data/language/archaic-kjv-93",
+      "manifestSha256": "e274d082e02456676b6560a5e4fa9e36451e0a206f4d602bd94bb81bb3090333",
+      "forgeHead": "2bcb1765f8f6b360cbabfe67463bdc45b1270e19073d6888833cffd324863a04",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.94",
+      "package": "data/language/archaic-kjv-94",
+      "manifestSha256": "87435a4a39121b8eb3d28044dbfef1d1c0430d476460d979fc0a89f6d6d5f8ba",
+      "forgeHead": "719d6c1dbae4d89a9021c363540ec42a160a9d28020fcc2cd9c353582e7288a9",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.95",
+      "package": "data/language/archaic-kjv-95",
+      "manifestSha256": "c8045ebf06536e210ed0dce647c9c4e1675b6b6efa37050824ac1a7c2a2eda59",
+      "forgeHead": "d9050fd4f54882784210c53a76a7ad75d30ad52cefdf46de8d0b360a15abb461",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.96",
+      "package": "data/language/archaic-kjv-96",
+      "manifestSha256": "31736b8710968fc252a4f2e765df29b75e325fa4199404a234a22839e05ced4b",
+      "forgeHead": "54c3e8ac07f5a396cafde8694019e4dab5e8da09f2fc30c522ba6529596b1821",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.97",
+      "package": "data/language/archaic-kjv-97",
+      "manifestSha256": "d3e1ccfb9f1896f8304275fa357eca1e468c646bdf57069d741ef1835510868a",
+      "forgeHead": "e161ba884f6c4324a3d5fae8de89b1c1f0b4a143f32c8fca046b558c086827f5",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.98",
+      "package": "data/language/archaic-kjv-98",
+      "manifestSha256": "8d6256d0893a7f4e51ea10c0eae929be46b9d9992cde916741955bac646d2769",
+      "forgeHead": "8993c78777597d421c59e35ce2cc3224ad4858bdc6d11a27861f237cfe96ce72",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.99",
+      "package": "data/language/archaic-kjv-99",
+      "manifestSha256": "c20945157eafb4e9800e175ee5fa19effe198666b12df58dd16f83a3633eaec0",
+      "forgeHead": "1adb01bec847769b9eb904c6352bc26af81ab28f28302745f6acf0d020f26c3e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.100",
+      "package": "data/language/archaic-kjv-100",
+      "manifestSha256": "66c54b59c5bd6ffc3e54ac73a721ed6d09f18bb2e773c1d6ce9534d8fc093b5e",
+      "forgeHead": "3f3ce1522ce252b9718f07aa6d7b20d7a0a5f582d299e0859507fb42229ae3ce",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.101",
+      "package": "data/language/archaic-kjv-101",
+      "manifestSha256": "89806748ef00ab67b8305a7a327d19e22803bc924a95a1c889c14c96a5420044",
+      "forgeHead": "ab20a20951d55b47d5780b17a0f0bb8654380b4de28a03a81d2a21aea1b277b6",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.102",
+      "package": "data/language/archaic-kjv-102",
+      "manifestSha256": "301f049c91c72bb72c46b3a0e6b60c2540da46ceb38e6510d4b1e643344e55a8",
+      "forgeHead": "9a9092670fd3589c49d39a8be107bb0505f623fdeb3a1167e6654f66255066b3",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.103",
+      "package": "data/language/archaic-kjv-103",
+      "manifestSha256": "d53f05e6e3cb896040dfcb0760fb3e02c652f008deb025665aede398d2a7cc94",
+      "forgeHead": "8118294c384f8a3243db579fe6e66eae6777771e0045fb82e8bd26090f5ceb05",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.104",
+      "package": "data/language/archaic-kjv-104",
+      "manifestSha256": "c6b5f8a43ccfddbfce647668b1dea2a581773028079d7e52a013113fa84198eb",
+      "forgeHead": "097561f2a8d9fd3c54f9025bab49e998ebb76f6a4d6f39455d2d395b2e0b0522",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.105",
+      "package": "data/language/archaic-kjv-105",
+      "manifestSha256": "fab2e4f8574524b9c80ead5f58d7b92c48e646448804dae4450f99835e2fde92",
+      "forgeHead": "4949f82d7b3a99c32ada79e60f00d73b91f666ecee430dd5188812c3c2bd9456",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.106",
+      "package": "data/language/archaic-kjv-106",
+      "manifestSha256": "04a572f0b791af5aa66bd877fc78b1ebaf08bf6cc41b36e37aa4940ab62d8636",
+      "forgeHead": "f53b88862e0ddc55a468864b2472d1a99dbdb627286bbc09f154c3b0cae853ba",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.107",
+      "package": "data/language/archaic-kjv-107",
+      "manifestSha256": "b83c74e65683b7b32642fb6f011a7a8b055ab0b7982499400a6056f6a8f3f577",
+      "forgeHead": "bd7187107a9bfdd829e902a5024d703ca55ea7391d40c289178c65b22b4fe9b3",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.108",
+      "package": "data/language/archaic-kjv-108",
+      "manifestSha256": "f6c68b32651fc81755ceb121d4d7ce7a9a4cdeb85aa6d3e02bcb2a77080dbb55",
+      "forgeHead": "419283a93391d363cabd3d815955e66148e22e07a7d4a874a0ff0f0c179fa06c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.109",
+      "package": "data/language/archaic-kjv-109",
+      "manifestSha256": "a8de60ac12917b2237a7bd098ab06d1e94d49951bfccf09715853d9de3eb47d7",
+      "forgeHead": "d175aff895d8781234eec2e594bbdc22acd238440d01d7319745846e80805207",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.110",
+      "package": "data/language/archaic-kjv-110",
+      "manifestSha256": "a2017b6118a0a066bd45efd943fc1eff99d2c1837309c9028664270f7a5ac312",
+      "forgeHead": "90a4e9984e536a6efed5cd2d07fbf906ee3c6b4ce9f6b99fac9451a95a7be92d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.111",
+      "package": "data/language/archaic-kjv-111",
+      "manifestSha256": "7028f173737686f642142a9eea918b8cfe27dec8428be5d4f68d7dbd3db587bb",
+      "forgeHead": "49a106f638b60508691102f2d7b3259c7e8e70646bd20f25df319cb0b86b73ca",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.112",
+      "package": "data/language/archaic-kjv-112",
+      "manifestSha256": "ad1dff34836117b20af3d8906b7344ba6b48814b709f4a2b27a14a319c9572ff",
+      "forgeHead": "75618d0daba297f7ebc3fd007a91c97963a78584dc2a51280b6cdcea0a63076f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.113",
+      "package": "data/language/archaic-kjv-113",
+      "manifestSha256": "4fed196d05165452849ce1b8a8bf7c47896bd7e4f789a75b4cc63d982ed9e6ce",
+      "forgeHead": "541d75716fdbe209afe0db097cf0980d22d37f7b388a52cb80736192d6ea467a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.114",
+      "package": "data/language/archaic-kjv-114",
+      "manifestSha256": "b01b2d592d7555c5e1ac76493eb5c84344a9f16be24695d952cd1e7893fb02fb",
+      "forgeHead": "930e5eedd97f06801b6197bdd9b94a018bf203f54826388de7c8423b6337925c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.115",
+      "package": "data/language/archaic-kjv-115",
+      "manifestSha256": "0536752867639dcd9f58ba520c871b990e14ccb6235696adf2b2868575eb6108",
+      "forgeHead": "f3eab1a53675c232d158da47cf0af22a6bc4811d5eb7293a81c7f4738b25e49a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.116",
+      "package": "data/language/archaic-kjv-116",
+      "manifestSha256": "ee892fc17fda86153bd59886d060885ce085b4d8cb46b066273303b5b4dd1780",
+      "forgeHead": "bfb5e22d5eac52bef73d95e83d39e882d80a87d0886680a84f6ba3ba7a53583d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.117",
+      "package": "data/language/archaic-kjv-117",
+      "manifestSha256": "3f600d4a7b0520d5797d907b873ee33f9fecc7f6292c731b04a99fcc79542412",
+      "forgeHead": "3965303a28b5b6a341d7353c35773b19ba5350ba721702fb8037741f6e4db41f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.118",
+      "package": "data/language/archaic-kjv-118",
+      "manifestSha256": "b85bbeaadbe5e16d17792a52edc021046e313ceeedd25f0196b2240ffdea9e58",
+      "forgeHead": "db4e5a09d319af9463569fbbaf9fd03a84b2cb9bb84a2b6c79fe690d5075c809",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.119",
+      "package": "data/language/archaic-kjv-119",
+      "manifestSha256": "76c11130d473d94343283067e83c51f60c652d6c5e35910155489ae9cbb88e22",
+      "forgeHead": "5ca29e639b9740c4bd4294b33699c947a92466dec2563dcbbfd83c7a2bc6b482",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.120",
+      "package": "data/language/archaic-kjv-120",
+      "manifestSha256": "acfa4077573dc3cec7bfaf2a45e25a8c480d3e008982938cf81caf6e7b8bab49",
+      "forgeHead": "37cc1b2b899f0909af41280cf11e306841e8663680dde941ce066f2c89cfc97d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.121",
+      "package": "data/language/archaic-kjv-121",
+      "manifestSha256": "c03e3ba80a1d38190bc5d8fa792a84dc18aa9dc072f1b7f10dc7b40c97234c25",
+      "forgeHead": "f2d792568b7da0223d12d0781129399b4046485349b69c4377ec4654fbdda7a1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.122",
+      "package": "data/language/archaic-kjv-122",
+      "manifestSha256": "b1f30903b53487179a8a95b710f38ed5b9a2663a5214c59c3f6280c4ccac5a74",
+      "forgeHead": "10fa10f2310c9455db48011a5b51017eb86397b9a3f5156d48e7bb91d680cb6c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.123",
+      "package": "data/language/archaic-kjv-123",
+      "manifestSha256": "fd79d3c8ed120a3b6ccaf92f3469f1d8270d2a9f3baacdff870da4724a9a059f",
+      "forgeHead": "bd137ccdb89ca21506afdf8e219fcd46871d2f4494f3c4ad1bf2ff702191c6fe",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.124",
+      "package": "data/language/archaic-kjv-124",
+      "manifestSha256": "ba769593ba55067eeaed32f6667e57d05bec6d07972a757fe4ae19b561bf61ab",
+      "forgeHead": "5f5d1f4302ff50aee2d3da924977efd0e12f462de8c844a8f7a59f41c8424175",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.125",
+      "package": "data/language/archaic-kjv-125",
+      "manifestSha256": "e43d35db0fd9f055037dd88a38399446810ce3b925772a5c1d2a45d35b1b66ad",
+      "forgeHead": "258f6f74f478bb22b15091d5fd0f4b8e72b0040f073f32ff6652050011bb217a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.126",
+      "package": "data/language/archaic-kjv-126",
+      "manifestSha256": "3631d3ddbaf68f7e8a2111d2a47e96551f4fde638cee8f1de3faeadeec91e322",
+      "forgeHead": "522cf4ff9b3906c3a56978c2100c1b94c3bcdf83654f9395c279c58af4ec8e52",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.127",
+      "package": "data/language/archaic-kjv-127",
+      "manifestSha256": "dd0a2e68fb48b921a39ed12fe8717c4d86e3ef39b7d581f31b8fbc22d8c56e81",
+      "forgeHead": "04743298a129b987cc2b8220c2b305d82ac5643639e1150e54135f03e428c447",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.128",
+      "package": "data/language/archaic-kjv-128",
+      "manifestSha256": "8c3325bedaf7cb5458210c1930f920c0134a1eccdc02c2f01614cfd5daec038d",
+      "forgeHead": "c6ece27bf4a093f96029eb0882f0c9d98c550e382c206125e4554341d6a849d1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.129",
+      "package": "data/language/archaic-kjv-129",
+      "manifestSha256": "03b907fafc6c188a1665c2ae5f7194ecce865467e21ec5b380be2576c30949b2",
+      "forgeHead": "9e0d529ccae1828536d85dba5d1761ca5f4cc2401ea69d41c7b61c9a974e9a09",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.130",
+      "package": "data/language/archaic-kjv-130",
+      "manifestSha256": "a78a382ccfb5b79c38327c38551fcb7c5a2e82e6233a09d41ebadc3ccf21eab6",
+      "forgeHead": "04f285a46c02280510c85c5164a30f4889b1d06f3eea5e716cac1c0fe917a6ae",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.131",
+      "package": "data/language/archaic-kjv-131",
+      "manifestSha256": "6d3f62319094d2ce7000282735c1bb44ed967789c64db0663be54135b5b7c574",
+      "forgeHead": "82965786cb71eb7288a9be8c264f69afd2e560080bd3d390773b7e8a299ec387",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.132",
+      "package": "data/language/archaic-kjv-132",
+      "manifestSha256": "e37c92fcd4c6009fdf7c4843931872fad3dae4c31ed6ff6b32db65799a17ad22",
+      "forgeHead": "884750e2ccf021df2a7d5e18c46c1d6b91de3f9ace5537d7e17a3f0eb85ff0ee",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.133",
+      "package": "data/language/archaic-kjv-133",
+      "manifestSha256": "9e47b3a23810074a76e4d4a247cad6ab88e592d1fbf878d0ca14f2a0b08719e8",
+      "forgeHead": "f575971978299adff2c95340d53d0d2c120b3444eae8186c62ae96c6587e8c8a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.134",
+      "package": "data/language/archaic-kjv-134",
+      "manifestSha256": "a86f113471ff2414a6406279236b800c1168ebb6a9690a2db83141f5c5faf71f",
+      "forgeHead": "f4e34fdaa03688797c17c58238d13b228ab3da7b102823958b1ce4d76c19da36",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.135",
+      "package": "data/language/archaic-kjv-135",
+      "manifestSha256": "a8e5d1159bbef8b0bf84d26c567b29501b1c10746d3cdc286f4a4ab71b3c9dd4",
+      "forgeHead": "3429e544f686cbb88e166611569c41026214a1c105a421e675ca77dff4c6f66c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.136",
+      "package": "data/language/archaic-kjv-136",
+      "manifestSha256": "ec1638f4dddf18981bd8685fd6acba6d5dc13431e33b6b114d7b6e60c8a4587a",
+      "forgeHead": "84c0d95821fe7616391a24cdb792e7f0412b411e06695a7a0c8d30a851d186c1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.137",
+      "package": "data/language/archaic-kjv-137",
+      "manifestSha256": "fba4f84f0a94401e4b869ea8ba394f7fb4f1b4d1274c90dfe6fb036a25734e7d",
+      "forgeHead": "a5052b7b23064ff073402f4025b7ebecd82234c7a8678350aff5cbe95360a4c2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.138",
+      "package": "data/language/archaic-kjv-138",
+      "manifestSha256": "fdc1b65261cdaf8eca82c93233491ec873674dbc5c8ce46bde41fd9fa6b6e92a",
+      "forgeHead": "3fa1684e043c489e9fca129a4b1e7d741ebb97c7d805ecda43266cfd169fbfa3",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.139",
+      "package": "data/language/archaic-kjv-139",
+      "manifestSha256": "ca89f62393b81838d93a5d9d12003975dddc676106af10fbb001e78bfd0155ff",
+      "forgeHead": "acfe3c2ae364bac6dba2e2dac0866b2861c73d7dbdda3d5fa13c3cab2d8d06c2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.140",
+      "package": "data/language/archaic-kjv-140",
+      "manifestSha256": "98588773012a94cfd12645f317f330718cc18e39ba1de22259acb79efc746282",
+      "forgeHead": "115299bc67f6149fde5143206d70c11df8294aaa4e31179c51c042021015ccf0",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.141",
+      "package": "data/language/archaic-kjv-141",
+      "manifestSha256": "f0ad211751b65045b8d134c2c1699a449c4a5aeb018c8ab4e95552cbd7c2d060",
+      "forgeHead": "85a67a7cd43754558f29dd0c692ed96151ca4fe1a043803c356d8b78ad792a58",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.142",
+      "package": "data/language/archaic-kjv-142",
+      "manifestSha256": "0ef13d13a3f593b59d76f23d9b3ebc6f2e7e13acdbf7a4d7e40fc3790a5e995f",
+      "forgeHead": "5e9f7125908bc8fe13deeff7f3bfc4593adad4bcf9007b77d88f989d0884cc46",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.143",
+      "package": "data/language/archaic-kjv-143",
+      "manifestSha256": "c1669c7e6c5878093a9c1ed40e11de059264736edc6d747d1c592d4c8c93c3d0",
+      "forgeHead": "aed44a627ffd23a63b1ceb813e479e5fb6bc362236a0da839142607f7b4ff1a8",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.144",
+      "package": "data/language/archaic-kjv-144",
+      "manifestSha256": "2319407e5af3ad532afb894c99953cecf3d8784dca5da789c4cd3a3533bfd6a7",
+      "forgeHead": "4109013a84ff14b14c038b6a06bf78bc4102164c1f61a7ff1a049011d911704d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.145",
+      "package": "data/language/archaic-kjv-145",
+      "manifestSha256": "9a7b48de9c901da80c7ed3c51d803c0dc3a6b34b24c09350535bc26356c807a8",
+      "forgeHead": "661303e535643fd3266ba7df2283603b744e0a70634ae3ce0be9a0d719a40060",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.146",
+      "package": "data/language/archaic-kjv-146",
+      "manifestSha256": "2e06ea640e26a41112707c46cb4b76a59cf236306a10355aa92416cf7b46bbe5",
+      "forgeHead": "5111ffe2312da2c93fa699f1ed3c2a86fcb9fa50d76fc1bb7a20d55a09cc7695",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.147",
+      "package": "data/language/archaic-kjv-147",
+      "manifestSha256": "e65ad70b5537cf1a5a242934a083f3d3baf846e4d048542b4bea8540929d7678",
+      "forgeHead": "971c0bf1e7c409d6cfc3d590f13ea7d85e269b508e08425748339f4ca823ad88",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.148",
+      "package": "data/language/archaic-kjv-148",
+      "manifestSha256": "3aecf1225e45d63a4955d6a5b18c75debfd2f21f2b65ddae7058e032881c0f8e",
+      "forgeHead": "59acd09d8b95a4ee9ac4e9e407a3b3f9897613d2286c93b3e0418ea6f4d5265d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.149",
+      "package": "data/language/archaic-kjv-149",
+      "manifestSha256": "099dfb9cf564e61d9764a074fd6c0b4e8cb75c5b034d9ca2e3bc646383d46bb7",
+      "forgeHead": "9bf424cbce4744bec0eb476257f6219d48df739225ce908131cf97e2e5558c6b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.150",
+      "package": "data/language/archaic-kjv-150",
+      "manifestSha256": "d04c0573713d043e1761c080ea2f074c5927c2b300eb786fa7b4930f7b4c47cd",
+      "forgeHead": "71cea9dc658799bafa870d5c855a667b0695a716fbbc2acd75ecc6d7659f1cb1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.151",
+      "package": "data/language/archaic-kjv-151",
+      "manifestSha256": "987163e221e948565f0ef200a719944091004ca27082f97833a3381303bd761a",
+      "forgeHead": "30e64a70ab7586eba0b533c1e5f800347bff5a0711da308d026ef0df8cf2ea1d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.152",
+      "package": "data/language/archaic-kjv-152",
+      "manifestSha256": "c0be62ea03987873250735863f6b70c33fbccbaf0f6746e812fd0349d2792100",
+      "forgeHead": "0c8daa7f9f09c8b07f657e6afb933e32ec441380ff9bb7d5d00ebfa5abeb5ba9",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.153",
+      "package": "data/language/archaic-kjv-153",
+      "manifestSha256": "a7397b3f688a6e20e1bdf9a514912b55919c254ce8bb37c41d8d34b71f3866c9",
+      "forgeHead": "f63487ac992bc3fe36384b1078e452b9907994b5867e93a52110d4a246a859cd",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.154",
+      "package": "data/language/archaic-kjv-154",
+      "manifestSha256": "7a4e47e0fcbaa4d025f3b306f0c7acde4d5fcc38b5a370e0ca061c20d59acff1",
+      "forgeHead": "3a95f3159d9f653d3da18c27c13936516dd800f151144013df4cdedb1e7e24fc",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.155",
+      "package": "data/language/archaic-kjv-155",
+      "manifestSha256": "6ee40b69276de06ca4b5e41a5c525b4d16ecfec84b394b00b8f78ac8dbdf34a9",
+      "forgeHead": "bd0bb52545d065788c36d638ce57edf5f2f896393d97ed503b119224866578a4",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.156",
+      "package": "data/language/archaic-kjv-156",
+      "manifestSha256": "7f7ab5041c51f8582fb3c529025280df02b104505b3703876077cfe6d65b792b",
+      "forgeHead": "c0f9c859ee85ac494b49a94bb092cf1f80917ddfe1b7ad0e9fe972f2c5414790",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.157",
+      "package": "data/language/archaic-kjv-157",
+      "manifestSha256": "01b26e301b11740b2a9da3907836ef1710fa1a2c0aa3eb4c4ea4c30e47e8a1bc",
+      "forgeHead": "2b4cc60914c915e2fa9e79143822c0a0c3b5e16d4a0de26304116017e619a640",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.158",
+      "package": "data/language/archaic-kjv-158",
+      "manifestSha256": "9882393aabb9a08588c5ebfb00a5131af46e438c3700ca06039c159cfd9bfc9e",
+      "forgeHead": "989ada1cfc99042959c3c39b81ff12fc12c92442696e4f7833cf20b068a0e81a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.159",
+      "package": "data/language/archaic-kjv-159",
+      "manifestSha256": "d311cd59384c290c704f2eeda6b1f2b75ae5cfc2895ff896f4f8b72829a32052",
+      "forgeHead": "89ba10792b772d43ac3b179e9eb0c740b79a33d0691699cd039e8fa6c36122f7",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.160",
+      "package": "data/language/archaic-kjv-160",
+      "manifestSha256": "9e1b3f2e02810726c700177d1857c6e7bdca9524d4ad1abe8e200cbdfc5668ef",
+      "forgeHead": "be40e3aa5cfefae785c0dcb629f7dca9d2681cfd85652fcdea2b4c0a22e3e175",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.161",
+      "package": "data/language/archaic-kjv-161",
+      "manifestSha256": "7989149b7d889adafda6d00bb9dde46b3a2fb363d24912253658fdc578f58b5e",
+      "forgeHead": "2b38f31cc5ee198d041aa3f16c0676d1b2491cdabe32e0b2d54b300f3beaf2b0",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.162",
+      "package": "data/language/archaic-kjv-162",
+      "manifestSha256": "46a918359ccc44f20ff2a59f69e8fcc7311d41b5350148e66565e9a9d6c5021f",
+      "forgeHead": "b0ea619284520229206a3ad4906fb6810e28459c0958508e2dc6f20d6b66a1d5",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.163",
+      "package": "data/language/archaic-kjv-163",
+      "manifestSha256": "f90f21a102474982190ec42cccdf0b5a2a2310370abddabbfc391018da2a047b",
+      "forgeHead": "17d2fbcbe79b154f2fee4ea639cc999a9848b6d05347177baf502a16df49724a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.164",
+      "package": "data/language/archaic-kjv-164",
+      "manifestSha256": "551dc515d137ea7ec6e1152db54047043d0288ba1fe5a8d95033a5709b9b43cd",
+      "forgeHead": "8f59425a7e58379d90051327db36af24cceac79a4145c6fbf3b59d34a89fb5ac",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.165",
+      "package": "data/language/archaic-kjv-165",
+      "manifestSha256": "d8a2caa8b2b42381d0494b988cd782708e30452b87ba5550c74ebe558c79dca1",
+      "forgeHead": "ca9e8cb79f397720015df96300b058f92d6df5d0f25fa428fd5cb96774dcaad2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.166",
+      "package": "data/language/archaic-kjv-166",
+      "manifestSha256": "d1754d71f5cb1bf12bbd9872e51993236d98905c3404fd4e83c11afeeb2a2554",
+      "forgeHead": "77dca381e4eb9953865427d120ea01da5095f08456128c287ef5b82e941c4578",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.167",
+      "package": "data/language/archaic-kjv-167",
+      "manifestSha256": "5cf80ece227fc053fae7f608d205c645a81ecbd29999113abca61e8c2587fa1f",
+      "forgeHead": "3897872081588e92bebf5e3f722070d013a17c39743c22e9e7bfcf97bfcfae79",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.168",
+      "package": "data/language/archaic-kjv-168",
+      "manifestSha256": "b0dba7f4c74a76cfe0df3c55687a5a1d60e8d0a8c1ea001601684ff3f4d79feb",
+      "forgeHead": "b8578f1124f9c888a8943cca8fe302b4bec55da1e5ae7adcae067550ce8ce20e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.169",
+      "package": "data/language/archaic-kjv-169",
+      "manifestSha256": "462925b8c4dc20c13f932e5cc45c3a2c28d25dff4b7a9219f6a02c8acb13efa1",
+      "forgeHead": "9a2624a7b68e3666f63e613f8fc9305fe2aabe52d66af2ab680b1573411f7bc4",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.170",
+      "package": "data/language/archaic-kjv-170",
+      "manifestSha256": "4a22f53376a7b6cb52f652f5c83ab3cc45d3dbb12c4cb73574a10fd1c9753d5d",
+      "forgeHead": "ae09b51a202450999d4a49fc8d812461fc9f25c99c0836725731a5ce38bd776b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.171",
+      "package": "data/language/archaic-kjv-171",
+      "manifestSha256": "d889d454e793fe218bac562f4c591dfdfe04bf1f853879e7d2cc60af15440af2",
+      "forgeHead": "cb4ac216eda5e5fb2eaa441837ee9322966409eac84f4123665e09998f832021",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.172",
+      "package": "data/language/archaic-kjv-172",
+      "manifestSha256": "cafb07f573b60e06ea04458f1873d27274b9cd1006779f3dd41a9168f9a11927",
+      "forgeHead": "64b77e56ce9e7762ed1f48f12b13ea3a07d2219b2ab81cce3a2d40570b63fe25",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.173",
+      "package": "data/language/archaic-kjv-173",
+      "manifestSha256": "225f008bc1fac0ffd2972fa34ab2efb26d482ccc7ad30fecaa69c1b8355ff53b",
+      "forgeHead": "1bcedf77a1380dc26fbcda200067934aa9e910691d4f3ffad8c1d690cee1f0a4",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.174",
+      "package": "data/language/archaic-kjv-174",
+      "manifestSha256": "40730b04b025221c2ca348f8bf1b123c03ce4febc18c0193a72e77c068ec77bb",
+      "forgeHead": "b40be06ae6014ac083df036d1c4892501439de0e9db4bcbe6b4daf760c65484a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.175",
+      "package": "data/language/archaic-kjv-175",
+      "manifestSha256": "fe2e63ac7f50e9f5faf1e054b854a8832e9ad4d6457a47748fc3e20adf9c7449",
+      "forgeHead": "c90c2cc55d64f9830c23814483c4d280bded9e35ed9b37a3e9d0345c66540303",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.176",
+      "package": "data/language/archaic-kjv-176",
+      "manifestSha256": "3d7aec0028f3c108d7da9e4d7975595aae4e923047e22de67894ae135c4af7ca",
+      "forgeHead": "3e448eb6e8ee96402a0fb75f8e4985c978b67900a56116188935a6a31b9353fa",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.177",
+      "package": "data/language/archaic-kjv-177",
+      "manifestSha256": "ea006f8c0deb7b71423357a665e9f0946aab7edc0ac37188ffbca013ddf41190",
+      "forgeHead": "d000f4ff5743e42b4df86365b9315f923d520d7b808d744c4378880abc1e9e64",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.178",
+      "package": "data/language/archaic-kjv-178",
+      "manifestSha256": "bc7559613579aaf9054d702ca2f3bbf536b72c8995f88d297b3fce9e87dd30b9",
+      "forgeHead": "a60cf16d6caaa4e079a9dc23e55d09bdb8360d5dc524350ece0e1f332a6f3e61",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.179",
+      "package": "data/language/archaic-kjv-179",
+      "manifestSha256": "751f7f6eb362f1b0708f31bbbbb3740055efc99775a396195c02e1ad6ca050f9",
+      "forgeHead": "01c0492bae6bb7fb432bb380992d35cf925bc1375ffccb6a30b8af491739a31d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.180",
+      "package": "data/language/archaic-kjv-180",
+      "manifestSha256": "836c7372f359f42cc8e3521d7a46430b96e596f00a56628b13316332ba0d7755",
+      "forgeHead": "b1cae393d91e29e29d2157dd06d42783c8e39b053f751af8e5f9acc284912e76",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.181",
+      "package": "data/language/archaic-kjv-181",
+      "manifestSha256": "27dcda4cb7154d0f713d8dbe6219e496ff256c7b790c5a841919b16dc498f335",
+      "forgeHead": "92ee0eb9307eef8a61de2ddd1e2f0c36040822b0b741d1cc1320dd3387dbda3f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.182",
+      "package": "data/language/archaic-kjv-182",
+      "manifestSha256": "1af6d719feb278236f6465da878a0fef4d716ecda7c0316215a4642246b0a4f5",
+      "forgeHead": "60106a9becdebcfdcd9e33724ecf7dd5bd515211e18fad06004dfb73a7ef2f10",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.183",
+      "package": "data/language/archaic-kjv-183",
+      "manifestSha256": "b3bc3cd2aa4595257d8be35218a86670d09e6e711a8e320df714459d0f1d91df",
+      "forgeHead": "f688e60c4b33c4700e2ae86672332aa2e9a019a5f212f2aafa82e5efb5bd97c2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.184",
+      "package": "data/language/archaic-kjv-184",
+      "manifestSha256": "b7601da32c34d73ab9e5c3ed462379260db48e769686294cc68b6150b312037b",
+      "forgeHead": "22eea1b1b980745b6ac7115a038666b582d4d1b42b77b7c4747ea5f4dc7c333a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.185",
+      "package": "data/language/archaic-kjv-185",
+      "manifestSha256": "c7ed31bb57d3b4b7e61f04902594c56b607da8056133be8da996e017e87028be",
+      "forgeHead": "5b60ecd871ff01efee6fdb48885c646e53fc3909c0fc361885b428428c3bdcd0",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.186",
+      "package": "data/language/archaic-kjv-186",
+      "manifestSha256": "910479bdc36390ea7ff387beff9bbe51fe2b43f2a08cae618ca0b48bc157e4cb",
+      "forgeHead": "48a8db007684782d92deec6bd6b8d779a42a5f2b638535984c5a3452c290f983",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.187",
+      "package": "data/language/archaic-kjv-187",
+      "manifestSha256": "60d1fc5538ab917b42204dd7ca5e601f3053a01fd9908f58d901caf4a54a972f",
+      "forgeHead": "c40f8ce6232ab1461f947ba1fc3ad46dd93b1c7b97f6a55dfd72bb45cf5a2f03",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.188",
+      "package": "data/language/archaic-kjv-188",
+      "manifestSha256": "dec07e0d4f65109687de298131b6efd3865d3e6c10e74ec80045b7ae74eacbc1",
+      "forgeHead": "23bf8601904a993d43f1df733a67270cfb5d7b9da2ad17f5b4e5c6ccd3f892b5",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.189",
+      "package": "data/language/archaic-kjv-189",
+      "manifestSha256": "84e2427dd8c045750ec92358329030f7b7a0a324cef4774a452eeab12e28fbc6",
+      "forgeHead": "db312d58ba7e50cd7e12fabe7a6fe43fec1661d240847f5233ae272238de56f0",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.190",
+      "package": "data/language/archaic-kjv-190",
+      "manifestSha256": "32f0a8ac992be5ed42fa212184f66c742affa465ffc317cf6d5b4285de6ad6a7",
+      "forgeHead": "9030d5a877b5734d697a83426bf6ef1e06202c1f687d05e0722bbb68bb31a6ae",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.191",
+      "package": "data/language/archaic-kjv-191",
+      "manifestSha256": "5fc2a9bb326f3c3a8d07a67b5d93ac8d548767cbd67b4edeb6cafd95e9aaf7c3",
+      "forgeHead": "b4e63f6f18dfddcafa7efce1842406757a0ac75fc6539d346b03829eca15a96f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.192",
+      "package": "data/language/archaic-kjv-192",
+      "manifestSha256": "10f509f61ac91b2a40cadda26c57188323375177caba63763d4f85a8abfee80d",
+      "forgeHead": "d3b3bc6a8b96f3fa86b13eb39c10f95e9052da5aee5af13a87f9834a50d3205c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.193",
+      "package": "data/language/archaic-kjv-193",
+      "manifestSha256": "b0a016e66ddb63aa6dbd296d37af71e3fc062e340ae458bfd426407a79dccd3d",
+      "forgeHead": "fd9bfb7605e564f6c901f3d832eeebc270ec8c9200ea8b9f6acd6136367d11c6",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.194",
+      "package": "data/language/archaic-kjv-194",
+      "manifestSha256": "9c657d8b48fae15c187cd3da13335a03010f1f0305cddbb1e9d16140fd613005",
+      "forgeHead": "2fbd4c7ebf18171b8fde4ae33a970f560d7078baedf6f10a87b3b8404e2fca85",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.195",
+      "package": "data/language/archaic-kjv-195",
+      "manifestSha256": "c5b4afd2d62cefdad35f40311d5a96e5be8ad18648bb40f8bfec067e3a78bce1",
+      "forgeHead": "7570f614f6b5016a54dce71b9619dc76ac552349f86c9470e749fdd194c6824b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.196",
+      "package": "data/language/archaic-kjv-196",
+      "manifestSha256": "c2c4ddc34311494000715006037f3391158e642a3aa94b20ba4c2ad046cb7de7",
+      "forgeHead": "7d80cbd6dc0c224275b9a670121c1078f4b20d5c479027815d6d92e179f6d8d2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.197",
+      "package": "data/language/archaic-kjv-197",
+      "manifestSha256": "14e2e38642fa47e4968ab1b0ade33b3307a50b43d08c105fd2acf3a5d5cb0467",
+      "forgeHead": "238b7a7810008dc10db8e56b0407f469f7e486fbf93fd4a419bc18cf1aeeda79",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.198",
+      "package": "data/language/archaic-kjv-198",
+      "manifestSha256": "0bca768b8b22350a1a8e1469d4091b62f2b03490bbb30998a62ac0c2857c6025",
+      "forgeHead": "cfd13e6c6b51be2a43a36a177c1860b62756a6ef6e2032b484876383a56d9c4e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.199",
+      "package": "data/language/archaic-kjv-199",
+      "manifestSha256": "b95367a75bc4f6f3b8cf5e529358a00eb05925de0d3df6179c8062a040069cbf",
+      "forgeHead": "f257eb51cff57e7e9b7a9e6a3c69d783ca66fc04d95663c8743efa8ee94b528b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.200",
+      "package": "data/language/archaic-kjv-200",
+      "manifestSha256": "1e4facfb0f224bd4ef583a5dd90388da6d562d7c1da747f96ebb3c0b18a4d19f",
+      "forgeHead": "c7d7d84cb527c8198671ce403889eeb5cdbe9442374a3dff245081a2fd739c23",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.201",
+      "package": "data/language/archaic-kjv-201",
+      "manifestSha256": "9d75275d18f6a841ad3510979a772db8bc5c0df28a76e276d2353ca9ab71cfef",
+      "forgeHead": "6dfb8f23abbdfb99f7dee84804307742ba7fdceea7748f414a2334e99802589b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.202",
+      "package": "data/language/archaic-kjv-202",
+      "manifestSha256": "ccdd035a3b7742b4a0408037c7d7d8694cb48c4ca7287c01cd22b0c393cb3b93",
+      "forgeHead": "4aae2ba266365f1b2f1ab3752b5b0f6571f515143f49e60ca828ad4d97c10236",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.203",
+      "package": "data/language/archaic-kjv-203",
+      "manifestSha256": "fd04306f5565aaa246a17aef623b09ffde2899aa27771c19aa7495e360dcd568",
+      "forgeHead": "10c87fe8e0f0f001ccfae2d3d4409de02436f5842f3ec3830208d4709e802dda",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.204",
+      "package": "data/language/archaic-kjv-204",
+      "manifestSha256": "2797ed583f68860ee26f8ab71b2063811e7b5bdc3d4547890bc332eadf39c162",
+      "forgeHead": "2dfbdd6031c413ea862a59a0e305aaef3c5f5e396d00c7cbdba6611cdf18039c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.205",
+      "package": "data/language/archaic-kjv-205",
+      "manifestSha256": "749aa93994479a189a6ef34d5b5c5a2ac09fc3e8fe334054f18e70957b55c138",
+      "forgeHead": "b94382a40f00b45dc6de2573cfb5dafc237e511602c6b92e25ff07df81a5e0b2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.206",
+      "package": "data/language/archaic-kjv-206",
+      "manifestSha256": "c32ad9b8f004fa8e24dca87bd54bb7de53a25ec0e00248be897fc32cfae5f602",
+      "forgeHead": "209b0d86e1586ccadfde364d08d435344ffc2b183187dce29e8dc93a52ce00bf",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.207",
+      "package": "data/language/archaic-kjv-207",
+      "manifestSha256": "b5988d0c3ff0a89e62b76008f45aea2fc3d38f28fd94dee015f011821316bbd6",
+      "forgeHead": "21cafdb29e691ccae7593df09a0a0782ec06b55fde8e82d13513264d3f5f33e2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.208",
+      "package": "data/language/archaic-kjv-208",
+      "manifestSha256": "fc64e0ade014a5ae089e06b6c6a67b5b7f3626c895dc1e091f1e9822e711beba",
+      "forgeHead": "81deb6a7e3e5be8555fd36acee5f3656c593f4d71d355438ab03d50fad0cf58c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.209",
+      "package": "data/language/archaic-kjv-209",
+      "manifestSha256": "4b45c7a8e689594cc3134469a67439bc95deee41e06baccbab89fff6ac993d6e",
+      "forgeHead": "58a521b37d81f7e4e163838fd89dd4b8da2fc2cf13349c4552745adfb3e632da",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.210",
+      "package": "data/language/archaic-kjv-210",
+      "manifestSha256": "1c7ae87358e32bc97d6996b060705739256ea00c9d440e1b8e2b0452c44b71a8",
+      "forgeHead": "86585d00b69935d3b7d64f7260505ea6635a44dadb3fddb4326ab0d76d8bedc4",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.211",
+      "package": "data/language/archaic-kjv-211",
+      "manifestSha256": "996b00286fba8453082f4e7b623d4c7a700665fe41e502b74ab4d4fc786316ca",
+      "forgeHead": "1f1d053f1720143e0a70e838680fe8a2b7086901cf92fd984ccf4a8e1c8c0b4b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.212",
+      "package": "data/language/archaic-kjv-212",
+      "manifestSha256": "5a275ceef0f95273ddc60ecbb4327820525681a520991cfa32087a2155736519",
+      "forgeHead": "e45e0e14ed2f7457d2f6b30186f0d89bd24610873940af1f4597fa45d456b5f1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.213",
+      "package": "data/language/archaic-kjv-213",
+      "manifestSha256": "117016a4a64eda9408b070bc425c4119adf3e861e5c7c71ed6c1471c1d09bf06",
+      "forgeHead": "dd4ff3350da1951775d3072b8edeb6aa9f2a66d456cadbda53a1499d24c673c2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.214",
+      "package": "data/language/archaic-kjv-214",
+      "manifestSha256": "8b8d4d15ed5a171ff576e98af03760fa4f187c72113f2f18db980e806ef3f9c8",
+      "forgeHead": "5724ee3911c0e893ffe2bae33a78ec86c909f216a4fcadddcc09b3eabbad2eea",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.215",
+      "package": "data/language/archaic-kjv-215",
+      "manifestSha256": "8ff5ace6d14e5c877f9eb324766043b9d009cbb30ccf0905ccb5de73c49224d1",
+      "forgeHead": "4a7caa455df99c4577465d0f95fea4d79dc717e8e549ec52366f9c609c1025f2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.216",
+      "package": "data/language/archaic-kjv-216",
+      "manifestSha256": "92176b6b3d7d370764aa44acb0f6e0f9cf588214f58c2f17a09d21a2445d5a96",
+      "forgeHead": "c55b3b6e93b3f771a74fe38e484230b04f4bc387031f5ebfb7dcd4f23a0c9688",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.217",
+      "package": "data/language/archaic-kjv-217",
+      "manifestSha256": "8ad52897bda100ef27d64dc26ecbad1957fe4637e4fb32a2f1443acc81ec7f70",
+      "forgeHead": "7694edf29bd5ffc400c9fa3dca99d42a64ece18083a25208f80197828f952952",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.218",
+      "package": "data/language/archaic-kjv-218",
+      "manifestSha256": "5e7a3edfd31b14a68a6cf989bb7631d330c5b6acd971f4cecd6ed32ba27cbd87",
+      "forgeHead": "7d0fc9ba47f96a4aaffa711da36bc413ff3045efe768df01461dd864a7663efe",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.219",
+      "package": "data/language/archaic-kjv-219",
+      "manifestSha256": "dd165c3c64d51bae4b509915a8ede25071d35db5b4e576f001a2209306b4be66",
+      "forgeHead": "4bbd34ce8142f58dfd2df92e18899f9bdcaa11f8e9ca2743f883c721b3000d2a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.220",
+      "package": "data/language/archaic-kjv-220",
+      "manifestSha256": "f3e47f2a0c847ec197db6748f612c1e53847401795656755b2d3f351b9a9e3fe",
+      "forgeHead": "d5300ae1db1c0c76bbbb9d4c7334cc35b5d406a2985e9205c30feda85087ba65",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.221",
+      "package": "data/language/archaic-kjv-221",
+      "manifestSha256": "2c9709c96018922c2011c51ff0bf7c083ce22182a6fb069eeb67c52da90c4ec4",
+      "forgeHead": "d6df274bd1239dcaf3bd8cf3af020b0f6cff056f1113553b8866207165b50f1e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.222",
+      "package": "data/language/archaic-kjv-222",
+      "manifestSha256": "cad16828886ae8b4f83647173889f2f2eadc8a9ac2f04773db7238e205ad9934",
+      "forgeHead": "d93788f054269d9654f1da3132c53d75ab836c23f58bafe7d4f07f83b62808d1",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.223",
+      "package": "data/language/archaic-kjv-223",
+      "manifestSha256": "d9c108d1cc61209692c29f75a3c34e14227b4fd98aeec5aab63c2d252407091c",
+      "forgeHead": "53a9bb9d09c30640103a52e84e2be8f8dfda4a488390be20228759512d2a7e9f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.224",
+      "package": "data/language/archaic-kjv-224",
+      "manifestSha256": "2e5de97192a5c3646eebff748c42a93740ff503e238c41ac57085124e0605fe1",
+      "forgeHead": "0df2c915fb28eba846765ef3282c501bf4506a8a863225a74227627650847c7e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.225",
+      "package": "data/language/archaic-kjv-225",
+      "manifestSha256": "00eb14c30202f5c3eeca541f43e7bbe3d242b0d4862691e6fc8b00761a2d08f2",
+      "forgeHead": "0e6deeff80812b25a90c1653d751c74f526dffef3c082bc7342719559bd50b8a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.226",
+      "package": "data/language/archaic-kjv-226",
+      "manifestSha256": "59f14cae37f8c0ca759f4336caa3b8e187e6c37427ec1774c20f390e7634a00e",
+      "forgeHead": "1b36e55f4e3b4a837fcd708dbceea123299bd38e76e319eb4bf84d1b48f946e7",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.227",
+      "package": "data/language/archaic-kjv-227",
+      "manifestSha256": "24063996780fca80aa0c62cbed865a67420e22513572b23651dd5140e376cb0f",
+      "forgeHead": "cd9e6375beda990b618767b1f6c11b48925662190f36afb2b8509b623ff6c8d8",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.228",
+      "package": "data/language/archaic-kjv-228",
+      "manifestSha256": "5c0760290618a11f2a7630f66f4b1e566ffd6ca2e7b9b039ad14b70a223c0c5f",
+      "forgeHead": "1094e68ef55d5eeababdf22f41edac8fd24f4a2930b6481dd4d53a15caead4b6",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.229",
+      "package": "data/language/archaic-kjv-229",
+      "manifestSha256": "e1a0c894a01afbcb68c03298e92881e660b37b94de5b38d51fc947aaef4c4f4f",
+      "forgeHead": "1dad563bcddeb2dd8188ea66c3330b7a8566a4e4c54e92d733cf596729d51b89",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.230",
+      "package": "data/language/archaic-kjv-230",
+      "manifestSha256": "a4ae63beeee058ef0415b71e96304f77e8e694904ca047009b7b508f626ca059",
+      "forgeHead": "d5c997425a5f20b454e1cfd8389b690262273cf1f01937793d816df071db423e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.231",
+      "package": "data/language/archaic-kjv-231",
+      "manifestSha256": "e05c6be4cee9c2628fb72893dcc40178123f248b42bdc20362a3bbac30234164",
+      "forgeHead": "68ea382ec99ff0d7f7f62d530635ffae4bdaba2e47950d0aedd4a35d151dafea",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.232",
+      "package": "data/language/archaic-kjv-232",
+      "manifestSha256": "96f349bf1b2c35f18b55279e076a4be4e06a4fed201216df3fcd1450593b95f6",
+      "forgeHead": "50eaa05d2f2551a3960165c6898cf20c4cad465667ea681032b91746c5ebdcbf",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.233",
+      "package": "data/language/archaic-kjv-233",
+      "manifestSha256": "636440739c15d4ef4ad34c45dc70c5f0dd5312785fa6488715c8b5914a18ef43",
+      "forgeHead": "6bac4a64e1791c9042b76432410a086db7f752fc55653b86885fa7fc34ff8809",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.234",
+      "package": "data/language/archaic-kjv-234",
+      "manifestSha256": "ab5b260e4ec2d8978b8a8eda4c74cc6dd92d6c37948d709b391f40cc1a0ce06b",
+      "forgeHead": "f77b8a7c6ddedb5a73b4e4d3873ec6d6019196d5fcb8598b8300a9c3f7123e65",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.235",
+      "package": "data/language/archaic-kjv-235",
+      "manifestSha256": "0331d01603644f389c184dde683fd3ad50eb6c08736adcb0496a027503c69104",
+      "forgeHead": "1abad43b870356e6afbbb5d28f4d0c0210236a3010fd94e288d73a3d5b30c833",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.236",
+      "package": "data/language/archaic-kjv-236",
+      "manifestSha256": "fa0db69b6b8a2d8f0e4dd3c18b54edff1c407983616c6c478890a85b65e4e62c",
+      "forgeHead": "65b25a7cf454a0ad9bb5af1fc67e250839583e64eada82575cc3df6ec757cc53",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.237",
+      "package": "data/language/archaic-kjv-237",
+      "manifestSha256": "fbc02630405be0e011dd811d6f57eb9e6166e71854bc01529d516b66352cd4e2",
+      "forgeHead": "916459434dc089f60535b07945029b38ee5d9234546cc41872fa563a4b3b750a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.238",
+      "package": "data/language/archaic-kjv-238",
+      "manifestSha256": "25b014493ffd54802cb103315d6f68a252e05c292da43b9e23f06c0a7a8f124c",
+      "forgeHead": "95c664ad4edd62f6cae0d66759d2794918f1f85da1f43d094d171d8152988cc8",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.239",
+      "package": "data/language/archaic-kjv-239",
+      "manifestSha256": "f3d7cbe71c3ba917c7fbcd938e2f185ee321b972b15f1e24bf38a2a208455dd2",
+      "forgeHead": "a6d9d504742b4fbbee3c6ff0751db53a688ddeb92e7c31a9251db980c18452a4",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.240",
+      "package": "data/language/archaic-kjv-240",
+      "manifestSha256": "5e63f35dfb633db0f7e15f6c6ec4541be116fd00edef2bb6010fdc516a89b52a",
+      "forgeHead": "5b2d1770b4335f2e65ff5fb5d432605cf380dc0b1ac8131f43342ccf9bf9d078",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.241",
+      "package": "data/language/archaic-kjv-241",
+      "manifestSha256": "9896e34133dae98c19e572c130ff9c8069001cddb1c6be34fc5c76d6d6054ef4",
+      "forgeHead": "03a5d6c68d703f336003bab7bcebe9f6852c23c23c96bac79603fdef37a69f72",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.242",
+      "package": "data/language/archaic-kjv-242",
+      "manifestSha256": "d431a100d27786e629662e3c0fa55f1ff0f629135d2f99513d1f453542454fc8",
+      "forgeHead": "31bd7ac0fc3ac24418587a7d0ba7a697036006672be1ba91da15201c831adf3c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.243",
+      "package": "data/language/archaic-kjv-243",
+      "manifestSha256": "5a3be9c0a971b12bb1674c79c68ac2f13e65d4e635f7d252e10f431ee6aa0d60",
+      "forgeHead": "96c1d7c90c711b8ebaa793c8a6e02b0a1c61ece46f7e329653f366abcf0cc27d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.244",
+      "package": "data/language/archaic-kjv-244",
+      "manifestSha256": "ccd5b9ed0f608bdf537df76dd2b3000edd4b43acfd02092512adb931bbfbcc0d",
+      "forgeHead": "f315ad31cc8bc1dca9ff43cfc4e0ae750f0496c08be895f7a5dfec6e8d844c5c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.245",
+      "package": "data/language/archaic-kjv-245",
+      "manifestSha256": "16806210feeb13b028fc39c7700a0ad861a0451a57bb67cf74c3d4858d6466ca",
+      "forgeHead": "28854fc1acfc9fd91a71f17bd4099ced9e4ed560f40254e3bd912742dd4ce334",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.246",
+      "package": "data/language/archaic-kjv-246",
+      "manifestSha256": "2d32bed20ffb0c3dc028070f39f55a862f54b829257c975b68cf35bde39d5c7e",
+      "forgeHead": "aeda4ad3f7e5d505bf1d022317304be02d0828f54d700764c6ab9c5abecee4a4",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.247",
+      "package": "data/language/archaic-kjv-247",
+      "manifestSha256": "8749a57afa76c1d1793f0f0b252c13b989d6ac983692784244101c9659b48dc7",
+      "forgeHead": "5997ec46b0135922877cb58ae1dea319616f2c6a980a2213a37f27b8a9c5681b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.248",
+      "package": "data/language/archaic-kjv-248",
+      "manifestSha256": "5601c70c70e0b26947a1257a9bdead90c0639dc826be28fdfb1c8a55b919ad53",
+      "forgeHead": "9a923e8ecc5f95aa418f76e977c852b3a949ffba88f175eaed2c2a3cc8742e27",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.249",
+      "package": "data/language/archaic-kjv-249",
+      "manifestSha256": "a4961d7602566f0933adf357bb61f651053fe546f8c0762fd88b3f8f299ac27e",
+      "forgeHead": "9b91a3b99be4c43dfbd024bf06a82082b92f29100be34c0759f094310de1b287",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.250",
+      "package": "data/language/archaic-kjv-250",
+      "manifestSha256": "25fc0edec9251a69dda72d17e28100a242cd9ced0ba1158d349e3794da9f3f9e",
+      "forgeHead": "a9315c279886c2d0b4d1ab9929b854f060b1b9c4a1699229f460aea278d8814e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.251",
+      "package": "data/language/archaic-kjv-251",
+      "manifestSha256": "7f4a3913fbe7344e37e9b2b4f58504cca132e928bc5fa455e6bff643c97386aa",
+      "forgeHead": "0592f299cb648c2418734037ee462ca98762e8d474af5a7b9eab2407698ccb1e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.252",
+      "package": "data/language/archaic-kjv-252",
+      "manifestSha256": "807e4651a67e2a6e3976d5e872f2ec5d1c735bb90c3acc0f76747f6803a94cb1",
+      "forgeHead": "23e9d20bc47ad308dc773ab440dee33eeef4b725c559976214e5b7acb8ba6e81",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.253",
+      "package": "data/language/archaic-kjv-253",
+      "manifestSha256": "805d4274d802c31bd936009a2064e76045c235f79aff5aabf8c402bc8d71a488",
+      "forgeHead": "064d3a7f8ae73ec507425ef9ee5acbdec213794489522711d789671a8ba8e3c8",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.254",
+      "package": "data/language/archaic-kjv-254",
+      "manifestSha256": "ff6d160a47d7a1f0d60bf802cf950b8ad3206e0761befa4ae6e6ee4439f7ad69",
+      "forgeHead": "9d6d0285eac32bc63fd01610c756cf8e8b60cb62ff46b405587398ee002059fe",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.255",
+      "package": "data/language/archaic-kjv-255",
+      "manifestSha256": "ea32342d24e4611fb8d0dcdbd24ed985ff5e3e26036a7069b7bcc6dfbc1c0d3d",
+      "forgeHead": "8378dd9061ca3a932f445a05554d91dfde4a8f720718bb2f11861705f72335e6",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.256",
+      "package": "data/language/archaic-kjv-256",
+      "manifestSha256": "71aebc4f5a01314cf085d61173a4c2be43729c5de8c4f19d0e1cee0222ca33e2",
+      "forgeHead": "8b993d2284b2a9ab81cb284b0cf031127de41bb58d2e20f58e33d9880a9fca54",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.257",
+      "package": "data/language/archaic-kjv-257",
+      "manifestSha256": "8a5c84cd78fddb5b7e13fb5a61bbf23213691c0dfa81f75e29454b53139f7801",
+      "forgeHead": "c32d7564c857015af4ba62ddc74d1322f408147ca1e8163d28ad6ca40b5e262e",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.258",
+      "package": "data/language/archaic-kjv-258",
+      "manifestSha256": "20c11ed13a22db0d1728d487abece7fa7a4166f06255d2da6db0626555df5ea3",
+      "forgeHead": "0ab6a685dd82dd617bd38b84ef0cc8695699a1a127a5c13e8dbc47ac6ebce32a",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.259",
+      "package": "data/language/archaic-kjv-259",
+      "manifestSha256": "c2903164dd0531d16b0daecc222abda5d6c60cfdcb8178fe1f8c6dfd3c3db946",
+      "forgeHead": "8e927a429c16e75a1fae39e2bbed51eac92e69d95eb90459ee4fd9fde19f89de",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.260",
+      "package": "data/language/archaic-kjv-260",
+      "manifestSha256": "bd928c03325fbfe59bf9af562973bcd96f1027d7c4109e38c3d46ca07ba6b6e9",
+      "forgeHead": "e6ae94f8f7aae891584d21a204c7c7d9ea65bd1895c7f23d0a1e69ee33612f74",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.261",
+      "package": "data/language/archaic-kjv-261",
+      "manifestSha256": "3f1939c492f28bcb077574ec563409f6ca6b3dd69f43778c65629b557c697918",
+      "forgeHead": "6401f711cebf37bef8e0240e72905b58eadd38ae1ba883da3c53ce1fe1087f4f",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.262",
+      "package": "data/language/archaic-kjv-262",
+      "manifestSha256": "e8b5e5dd9bbe5d494c071dfbe6d40a38853f690d589fd67f6cdbb58fda88c68a",
+      "forgeHead": "4f103b562ad97a3eaa67f62c918c04df539559447260eec73c416ef26f9c8d2d",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.263",
+      "package": "data/language/archaic-kjv-263",
+      "manifestSha256": "8e99d94df5b5e8c8b426f8dd472b6aea4ed76dbe4b8ec6ae3d374869a6ab613d",
+      "forgeHead": "501f712e8051de79b0820e26e4a66c76e92f44317843fa2fa2fdcf0dfe7780c2",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.264",
+      "package": "data/language/archaic-kjv-264",
+      "manifestSha256": "d5d29368105a0857cf7e2a41848f7e13405a5b1d63a4fe0f1668b88749646119",
+      "forgeHead": "a800d0207283f90f94ffb18e45ff27a9eb90a2c9e588d351b4e0bc8ac1e3b4f5",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.265",
+      "package": "data/language/archaic-kjv-265",
+      "manifestSha256": "7c7ac4e898a40ed26f038e5add3ca08dd833a1f19a29ab77663e9a7139817f15",
+      "forgeHead": "d8b9589558039558a74658b3f3663aec395d23cedff88eb0bf26ab9759982bb3",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.266",
+      "package": "data/language/archaic-kjv-266",
+      "manifestSha256": "2911ec9423f67bbb4d437635fca92a044d4b7073d5caf1ba56ad7cc71523c52d",
+      "forgeHead": "d564dc97590eee8935c4b5f7a81ae7609f9308b90f7e9b37359a0a93672ebae0",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.267",
+      "package": "data/language/archaic-kjv-267",
+      "manifestSha256": "3cad7921e0563ecc8373533ea3e860e2072d8947e8bb7c4068c87eb31a7e3acc",
+      "forgeHead": "baf9c22abda173cbd2a8a832656a50fba28808f9e39c869f1426aaaf66c51ab9",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.268",
+      "package": "data/language/archaic-kjv-268",
+      "manifestSha256": "db68fe53d167d149594292d2a9a8ee096b4eb546b822885a43f5b82740414632",
+      "forgeHead": "ed2653c511d3b2245cf54c0617a4d301e6bce454d88bd9ffd3564029fa1aa662",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.269",
+      "package": "data/language/archaic-kjv-269",
+      "manifestSha256": "97c6d2cf1a5f8e6e8e8678201e0d9b8fe9bea05fdfd12819b8bbe4e22e48b503",
+      "forgeHead": "caed82fec71e435cc30948a012739a5be3862185c277b7592cceb172d26ebe84",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.270",
+      "package": "data/language/archaic-kjv-270",
+      "manifestSha256": "aaf04d602e7de8d0fabe8990d899e0b0a339cfb90f8acf42a96870c9d6333943",
+      "forgeHead": "34a90d8bdccd041d3265eea0c8d8baa38326896e519bcf07fe1a5cd2c9f0a02b",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.271",
+      "package": "data/language/archaic-kjv-271",
+      "manifestSha256": "3a71de0b6a1604f97bf2dae4fd71f01c1fe8d12b9974cb935de61eeceb4e5bf9",
+      "forgeHead": "b898f67c90ad8caec235305495ab003a8fd5ffdfe9758adbbc18a282d079078c",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.272",
+      "package": "data/language/archaic-kjv-272",
+      "manifestSha256": "c2e5b3e6ca5e798f71ea2f57a5e91c6b99e6da9ea2173c09d8c39c5a3d860abf",
+      "forgeHead": "b90494e61df4e9df618a2ccdb91ed4fa5050022396c0c445a7997864d144ff30",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.273",
+      "package": "data/language/archaic-kjv-273",
+      "manifestSha256": "e781ae144b2c69c84b9be7b18853ad64eb499fad90be8ee7e12ce91dc231530b",
+      "forgeHead": "908bc2524a9539cea211cdf5946d222b05e10103b125459f57c455acb6db9e12",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.274",
+      "package": "data/language/archaic-kjv-274",
+      "manifestSha256": "75f619d2b232b1c6a5616e88d2f739d0ab19374784fec7931643598c4ea1cc31",
+      "forgeHead": "8c86340dde0ebd46c920df6816c3731897e79ce81d7af108f1c0cec60c5bade5",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.275",
+      "package": "data/language/archaic-kjv-275",
+      "manifestSha256": "bb871d72de6606e59633333539a7a415f83541ca2fc8600d6bd400f873509bb3",
+      "forgeHead": "60ca7411fb5f3be90bee4eac2900a3bbee352d8b9dac6391fbaf15a39511e094",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.276",
+      "package": "data/language/archaic-kjv-276",
+      "manifestSha256": "e028b25f6eeea614db19f687186f6b3fdaa7f9e61558f911f61bae13ca267e20",
+      "forgeHead": "03ea0b75c1233b414b85601dc50f60326fa9bae1ee15b4f42e6362074de269d7",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.277",
+      "package": "data/language/archaic-kjv-277",
+      "manifestSha256": "7ec399419ed82fd778cae1322d7618b59d3289948fd582aff3d242f077dab868",
+      "forgeHead": "bb54b759e255410573ffa3d735924a3a9fc6cfe2444f23ad12db35554367d1ee",
+      "policy": "never-modernize",
+      "status": "working; incomplete Bible",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.278",
+      "package": "data/language/archaic-kjv-278",
+      "manifestSha256": "b75385769bc4a4aa026852ca0c75a1c66b785e78bae527f396f882b85b9b0f4a",
+      "forgeHead": "87b5358cf77e81e6148c528d0f4e13195a25f6088be6c180aa80c6be5952906b",
+      "policy": "never-modernize",
+      "status": "complete historical Bible;never modernize",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.279",
+      "package": "data/language/archaic-kjv-279",
+      "manifestSha256": "b58dcd98147df9f6695f19a6f04f43db76f713c2916c5652529dc3288e48f8d9",
+      "forgeHead": "db17b88fc4c48492f5b24d30deaee3ef7cb07adc4022853f53a006aff543471d",
+      "policy": "never-modernize",
+      "status": "Native-vocabulary correction; complete target text",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.280",
+      "package": "data/language/archaic-kjv-280",
+      "manifestSha256": "872f8dcc0e20d356bbefed216de5fcc084a793b80be32ea2a1a5f3864d44eac5",
+      "forgeHead": "da33601402a3abd548a0af36924599af837753740469d6b5c90dfdbbc687fa71",
+      "policy": "never-modernize",
+      "status": "Native-vocabulary correction; complete target text",
+      "guide": "docs/KJV_ARCHIVE.md"
+    },
+    {
+      "version": "0.10-kjv.281",
+      "package": "data/language/archaic-kjv-281",
+      "manifestSha256": "b0f6f296779582dd72eae72c58918bf7374e70a9f21866134693b1e82b26cf5c",
+      "forgeHead": "523fa72096dcc7858aa97e8aff0033384e6f4a01071592a14e168c2e100623f9",
+      "policy": "never-modernize",
+      "status": "Historical grammar correction; complete 31,102 verse targets",
+      "guide": "docs/KJV_ARCHIVE.md"
+    }
+  ]
+}

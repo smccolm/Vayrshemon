@@ -1,0 +1,1171 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.193",
+    "parentVersion": "0.10-kjv.192",
+    "parentHead": "d3b3bc6a8b96f3fa86b13eb39c10f95e9052da5aee5af13a87f9834a50d3205c",
+    "head": "fd9bfb7605e564f6c901f3d832eeebc270ec8c9200ea8b9f6acd6136367d11c6",
+    "newLexicalEntries": 10,
+    "newProperEntries": 4,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 9,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 126,
+    "exactCompilerCases": 126,
+    "newAuthoredVerses": 126,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 774,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 7183,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newMatthewVerses": 126,
+    "matthewVerses": 774,
+    "authoredVerses": 23919,
+    "remainingVerses": 7183,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 30,
+    "quantityChecks": [
+      {
+        "reference": "Matthew 20:2",
+        "source": "And when he had agreed with the labourers for a penny a day, he sent them into his vineyard.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 20:3",
+        "source": "And he went out about the third hour, and saw others standing idle in the marketplace,",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Matthew 20:5",
+        "source": "Again he went out about the sixth and ninth hour, and did likewise.",
+        "expectedDecimalQuantities": [
+          6,
+          9
+        ],
+        "targetQuantities": [
+          6,
+          9
+        ]
+      },
+      {
+        "reference": "Matthew 20:6",
+        "source": "And about the eleventh hour he went out, and found others standing idle, and saith unto them, Why stand ye here all the day idle?",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "Matthew 20:8",
+        "source": "So when even was come, the lord of the vineyard saith unto his steward, Call the labourers, and give them their hire, beginning from the last unto the first.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 20:9",
+        "source": "And when they came that were hired about the eleventh hour, they received every man a penny.",
+        "expectedDecimalQuantities": [
+          11,
+          1
+        ],
+        "targetQuantities": [
+          11,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 20:10",
+        "source": "But when the first came, they supposed that they should have received more; and they likewise received every man a penny.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 20:12",
+        "source": "Saying, These last have wrought but one hour, and thou hast made them equal unto us, which have borne the burden and heat of the day.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 20:13",
+        "source": "But he answered one of them, and said, Friend, I do thee no wrong: didst not thou agree with me for a penny?",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 20:16",
+        "source": "So the last shall be first, and the first last: for many be called, but few chosen.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 20:17",
+        "source": "And Jesus going up to Jerusalem took the twelve disciples apart in the way, and said unto them,",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Matthew 20:19",
+        "source": "And shall deliver him to the Gentiles to mock, and to scourge, and to crucify him: and the third day he shall rise again.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Matthew 20:21",
+        "source": "And he said unto her, What wilt thou? She saith unto him, Grant that these my two sons may sit, the one on thy right hand, and the other on the left, in thy kingdom.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 20:24",
+        "source": "And when the ten heard it, they were moved with indignation against the two brethren.",
+        "expectedDecimalQuantities": [
+          10,
+          2
+        ],
+        "targetQuantities": [
+          10,
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 20:30",
+        "source": "And, behold, two blind men sitting by the way side, when they heard that Jesus passed by, cried out, saying, Have mercy on us, O Lord, thou son of David.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 21:1",
+        "source": "And when they drew nigh unto Jerusalem, and were come to Bethphage, unto the mount of Olives, then sent Jesus two disciples,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 21:24",
+        "source": "And Jesus answered and said unto them, I also will ask you one thing, which if ye tell me, I in like wise will tell you by what authority I do these things.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 21:28",
+        "source": "But what think ye? A certain man had two sons; and he came to the first, and said, Son, go work to day in my vineyard.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 21:30",
+        "source": "And he came to the second, and said likewise. And he answered and said, I go, sir: and went not.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 21:31",
+        "source": "Whether of them twain did the will of his father? They say unto him, The first. Jesus saith unto them, Verily I say unto you, That the publicans and the harlots go into the kingdom of God before you.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 21:35",
+        "source": "And the husbandmen took his servants, and beat one, and killed another, and stoned another.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 21:36",
+        "source": "Again, he sent other servants more than the first: and they did unto them likewise.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 22:19",
+        "source": "Shew me the tribute money. And they brought unto him a penny.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 22:25",
+        "source": "Now there were with us seven brethren: and the first, when he had married a wife, deceased, and, having no issue, left his wife unto his brother:",
+        "expectedDecimalQuantities": [
+          7,
+          1
+        ],
+        "targetQuantities": [
+          7,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 22:26",
+        "source": "Likewise the second also, and the third, unto the seventh.",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          7
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          7
+        ]
+      },
+      {
+        "reference": "Matthew 22:28",
+        "source": "Therefore in the resurrection whose wife shall she be of the seven? for they all had her.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Matthew 22:35",
+        "source": "Then one of them, which was a lawyer, asked him a question, tempting him, and saying,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 22:38",
+        "source": "This is the first and great commandment.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 22:39",
+        "source": "And the second is like unto it, Thou shalt love thy neighbour as thyself.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 22:40",
+        "source": "On these two commandments hang all the law and the prophets.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "20:1": [
+        "house master",
+        "early in morning",
+        "work:ag:pl kjv_hire",
+        "kjv_vineyard"
+      ],
+      "20:2": [
+        "one_num kjv_penny_source each day",
+        "agree:pp"
+      ],
+      "20:3": [
+        "about three:ord hour",
+        "market idle"
+      ],
+      "20:4": [
+        "whatever justice:adj",
+        "i to you give:fu"
+      ],
+      "20:5": [
+        "six:ord and nine:ord hour",
+        "likewise"
+      ],
+      "20:6": [
+        "about eleven:ord hour",
+        "all day idle"
+      ],
+      "20:7": [
+        "no man wesg:a kjv_hire",
+        "whatever justice:adj",
+        "receive:fu"
+      ],
+      "20:8": [
+        "his/steward",
+        "their/kjv_wages",
+        "from last until first"
+      ],
+      "20:9": [
+        "eleven:ord hour",
+        "each man one_num kjv_penny_source"
+      ],
+      "20:10": [
+        "first come",
+        "more receive:pp:should",
+        "each man one_num kjv_penny_source"
+      ],
+      "20:11": [
+        "receive:pp",
+        "against house master kjv_murmur"
+      ],
+      "20:12": [
+        "only one_num hour",
+        "equal to wesg",
+        "burden and heat of day endure"
+      ],
+      "20:13": [
+        "one_num of they",
+        "i to thou no wrong",
+        "with i for one_num kjv_penny_source"
+      ],
+      "20:14": [
+        "thy/own",
+        "i to this last even as to thou",
+        "willing"
+      ],
+      "20:15": [
+        "for i with my/own",
+        "i willing",
+        "thy/eye evil",
+        "i good"
+      ],
+      "20:16": [
+        "last first",
+        "first last",
+        "many call:psv",
+        "few choose:psv"
+      ],
+      "20:17": [
+        "twelve disciple:pl apart",
+        "kjv_jerusalem"
+      ],
+      "20:18": [
+        "wesg to kjv_jerusalem",
+        "son of man",
+        "chief priest:pl",
+        "kjv_scribe:pl",
+        "death condemn"
+      ],
+      "20:19": [
+        "kjv_gentile:pl",
+        "mock:inf and whip:inf and kjv_crucify:inf",
+        "three:ord day"
+      ],
+      "20:20": [
+        "mother of child:pl of kjv_zebedee",
+        "with her/son:pl",
+        "kjv_worship"
+      ],
+      "20:21": [
+        "my/two son:pl",
+        "one_num on thy/kjv_right_side",
+        "other on left"
+      ],
+      "20:22": [
+        "you:du what you:du ask",
+        "cup which ipl drink",
+        "kjv_baptize:ev",
+        "they:du",
+        "we:du able:pr"
+      ],
+      "20:23": [
+        "you:du indeed of mypl/cup",
+        "kjv_baptize:psv:fu",
+        "mypl/kjv_right_side",
+        "mypl/left",
+        "belong:neg:pr",
+        "mypl/father prepare:psv:perf"
+      ],
+      "20:24": [
+        "ten it:a hear",
+        "against two brother:pl"
+      ],
+      "20:25": [
+        "prince:pl of kjv_gentile:pl",
+        "kjv_dominion hold",
+        "authority hold"
+      ],
+      "20:26": [
+        "among you it so be:neg",
+        "willing",
+        "your/serve:ag"
+      ],
+      "20:27": [
+        "chief be:inf willing",
+        "your/servant"
+      ],
+      "20:28": [
+        "serve:psv:inf come:neg",
+        "but serve:inf",
+        "life ransom for many"
+      ],
+      "20:29": [
+        "from kjv_jericho depart",
+        "great kjv_multitude"
+      ],
+      "20:30": [
+        "two blind man:pl",
+        "they:du",
+        "on we:du mercy",
+        "son of kjv_david"
+      ],
+      "20:31": [
+        "they:du:a rebuke",
+        "silent be:should",
+        "more cry",
+        "on we:du mercy"
+      ],
+      "20:32": [
+        "still stand",
+        "they:du:a call",
+        "you:du ipl to you:du"
+      ],
+      "20:33": [
+        "eye:pl of we:du open:psv"
+      ],
+      "20:34": [
+        "on they:du kjv_compassion",
+        "eye:pl of they:du touch",
+        "immediately",
+        "they:du he:a follow"
+      ],
+      "21:1": [
+        "kjv_bethphage",
+        "mountain of kjv_olive:pl",
+        "two disciple:pl"
+      ],
+      "21:2": [
+        "to they:du",
+        "opposite you:du",
+        "ass bind:psv",
+        "kjv_asscolt with she",
+        "they:du:a to ipl"
+      ],
+      "21:3": [
+        "you:du",
+        "lord they:du:a need",
+        "immediately he they:du:a send"
+      ],
+      "21:4": [
+        "all this",
+        "prophet speak:psv",
+        "fulfil:psv"
+      ],
+      "21:5": [
+        "daughter of kjv_sion_psalm",
+        "thy/king",
+        "kjv_meek_disposition",
+        "ass sit",
+        "kjv_asscolt kjv_assfoal"
+      ],
+      "21:6": [
+        "disciple:pl go",
+        "as kjv_jesus_matthew",
+        "command"
+      ],
+      "21:7": [
+        "ass and kjv_asscolt",
+        "on they:du their/clothing",
+        "he:a there upon"
+      ],
+      "21:8": [
+        "garment:pl",
+        "branch:pl from kjv_tree:pl",
+        "in way spread"
+      ],
+      "21:9": [
+        "before go",
+        "follow",
+        "kjv_hosanna:excl to son of kjv_david",
+        "name of lord",
+        "kjv_hosanna:excl in highest"
+      ],
+      "21:10": [
+        "all city move:psv",
+        "who this"
+      ],
+      "21:11": [
+        "kjv_jesus_matthew prophet of kjv_nazareth of kjv_galilee"
+      ],
+      "21:12": [
+        "kjv_temple of god",
+        "sell:pa and buy:pa",
+        "kjv_table_furniture:pl of kjv_moneychanger:pl",
+        "seat:pl",
+        "dove:pl"
+      ],
+      "21:13": [
+        "mypl/house house of prayer",
+        "kjv_den_shelter of thief:pl"
+      ],
+      "21:14": [
+        "blind person:pl and kjv_lame",
+        "in kjv_temple",
+        "heal"
+      ],
+      "21:15": [
+        "chief priest:pl and kjv_scribe:pl",
+        "marvellous thing:pl",
+        "child:pl",
+        "kjv_hosanna:excl",
+        "displease:psv"
+      ],
+      "21:16": [
+        "yes",
+        "mouth of kjv_infant:pl and suckling",
+        "thou praise perfect:caus:perf"
+      ],
+      "21:17": [
+        "out of city into kjv_bethany",
+        "lodge"
+      ],
+      "21:18": [
+        "morning",
+        "hungry become"
+      ],
+      "21:19": [
+        "except leaf:pl only",
+        "from now for eternal no fruit",
+        "immediately fig kjv_tree wither"
+      ],
+      "21:20": [
+        "how soon fig kjv_tree wither:perf:excl"
+      ],
+      "21:21": [
+        "ipl to you",
+        "faith have:pr and doubt:neg",
+        "not only",
+        "mountain",
+        "sea cast:psv",
+        "do:psv:fu"
+      ],
+      "21:22": [
+        "all thing:pl",
+        "in prayer ask:fu believe:cv",
+        "receive:fu"
+      ],
+      "21:23": [
+        "chief priest:pl and kjv_elder:pl",
+        "by what authority",
+        "who to thou this authority"
+      ],
+      "21:24": [
+        "ipl also one_num thing",
+        "if you to ipl tell",
+        "ipl these thing:pl do"
+      ],
+      "21:25": [
+        "kjv_baptize:ev of kjv_john_baptist",
+        "from heaven or of man:pl",
+        "wesg from heaven",
+        "to wesg",
+        "believe:neg"
+      ],
+      "21:26": [
+        "wesg of man:pl",
+        "wesg people:a fear",
+        "all kjv_john_baptist:a as prophet"
+      ],
+      "21:27": [
+        "wesg tell:neg:can",
+        "neither ipl",
+        "authority ipl"
+      ],
+      "21:28": [
+        "two son:pl",
+        "first",
+        "my/kjv_vineyard today"
+      ],
+      "21:29": [
+        "i willing:neg:pr",
+        "afterward repent:pa and go:pa"
+      ],
+      "21:30": [
+        "two:ord",
+        "i go:pr sir",
+        "go:neg:pa"
+      ],
+      "21:31": [
+        "they:du two",
+        "father do",
+        "first say",
+        "ipl to you",
+        "kjv_publican:pl and kjv_harlot:pl before you"
+      ],
+      "21:32": [
+        "way of kjv_righteousness",
+        "believe:neg:pa",
+        "kjv_publican:pl and kjv_harlot:pl he:a believe",
+        "afterward repent:neg"
+      ],
+      "21:33": [
+        "kjv_parable_teaching",
+        "kjv_vineyard plant",
+        "hedge",
+        "kjv_winepress kjv_dig",
+        "kjv_tower",
+        "kjv_lease_property",
+        "far country"
+      ],
+      "21:34": [
+        "time of fruit",
+        "his/servant:pl",
+        "fruit:pl of it receive"
+      ],
+      "21:35": [
+        "one_num beat",
+        "another kill",
+        "another kjv_stone_attack"
+      ],
+      "21:36": [
+        "more than first",
+        "likewise do"
+      ],
+      "21:37": [
+        "last of all",
+        "his/son",
+        "my/son honour"
+      ],
+      "21:38": [
+        "this heir",
+        "wesg he:a kill",
+        "wesg his/inheritance seize"
+      ],
+      "21:39": [
+        "catch:pa",
+        "out of kjv_vineyard",
+        "kill:pa"
+      ],
+      "21:40": [
+        "lord of kjv_vineyard",
+        "what he",
+        "do:fu:q"
+      ],
+      "21:41": [
+        "they to he say",
+        "miserable:adv destroy",
+        "other kjv_husbandman:pl kjv_lease_property",
+        "fruit:pl in their/season:pl"
+      ],
+      "21:42": [
+        "sacred writing:pl",
+        "stone which build:ag:pl reject",
+        "head of corner",
+        "lord do:ev",
+        "ourone/eye:pl"
+      ],
+      "21:43": [
+        "ipl to you",
+        "from you take:psv",
+        "nation fruit:pl of it forth bring"
+      ],
+      "21:44": [
+        "on this stone fall:fu break:psv",
+        "on whoever it fall",
+        "to kjv_powder kjv_grind"
+      ],
+      "21:45": [
+        "chief priest:pl and kjv_pharisee:pl",
+        "parable_teaching:pl",
+        "about they speak"
+      ],
+      "21:46": [
+        "hand:pl lay:inf seek",
+        "kjv_multitude:a fear",
+        "for prophet consider"
+      ],
+      "22:1": [
+        "again by kjv_parable_teaching:pl"
+      ],
+      "22:2": [
+        "certain king",
+        "for his/son marriage"
+      ],
+      "22:3": [
+        "call:psv:pp call:inf",
+        "come:inf willing:neg"
+      ],
+      "22:4": [
+        "i my/dinner prepare",
+        "my/ox:pl and my/kjv_fatling:pl kill:psv",
+        "all thing:pl ready"
+      ],
+      "22:5": [
+        "little weight consider",
+        "his/field",
+        "his/merchandise"
+      ],
+      "22:6": [
+        "remainder",
+        "cruel:adv treat",
+        "kill"
+      ],
+      "22:7": [
+        "king",
+        "angry",
+        "army:pl",
+        "murder:ag:pl destroy",
+        "their/city up burn"
+      ],
+      "22:8": [
+        "wedding ready",
+        "worthy be:neg"
+      ],
+      "22:9": [
+        "kjv_highway:pl",
+        "as many as you find",
+        "marriage call"
+      ],
+      "22:10": [
+        "all as many as they find",
+        "both bad and good",
+        "with guest:pl furnish"
+      ],
+      "22:11": [
+        "man",
+        "wedding garment on wear:neg"
+      ],
+      "22:12": [
+        "friend how",
+        "wedding garment have:neg",
+        "silent"
+      ],
+      "22:13": [
+        "hand and foot bind",
+        "away take",
+        "outside:adj dark:ev",
+        "weep:ev and tooth:pl kjv_gnash"
+      ],
+      "22:14": [
+        "many call:psv",
+        "few choose:psv"
+      ],
+      "22:15": [
+        "kjv_pharisee:pl",
+        "counsel",
+        "in his/talk he:a entangle"
+      ],
+      "22:16": [
+        "disciple:pl with kjv_herodians",
+        "wesg thou true",
+        "way of god in truth",
+        "person of man:pl regard:neg"
+      ],
+      "22:17": [
+        "to wesg tell",
+        "kjv_caesar_ruler kjv_tribute",
+        "lawful be:pr or not"
+      ],
+      "22:18": [
+        "wickedness",
+        "why you ipl:a tempt",
+        "kjv_hypocrite:pl"
+      ],
+      "22:19": [
+        "to ipl kjv_tribute money",
+        "one_num kjv_penny_source"
+      ],
+      "22:20": [
+        "whose this image and kjv_inscription_mark"
+      ],
+      "22:21": [
+        "to kjv_caesar_ruler thing:pl which of kjv_caesar_ruler",
+        "to god thing:pl that of god"
+      ],
+      "22:22": [
+        "wonder:pa",
+        "leave:pa",
+        "their/way"
+      ],
+      "22:23": [
+        "kjv_sadducee:pl",
+        "no kjv_resurrection be:pr say"
+      ],
+      "22:24": [
+        "kjv_moses",
+        "no child:pl",
+        "brother his/wife marry",
+        "seed up raise"
+      ],
+      "22:25": [
+        "with wesg seven brother:pl",
+        "first",
+        "no child:pl",
+        "wife to his/brother"
+      ],
+      "22:26": [
+        "two:ord",
+        "three:ord until seven:ord"
+      ],
+      "22:27": [
+        "last of all woman also die"
+      ],
+      "22:28": [
+        "kjv_resurrection whose wife of seven",
+        "all she:a have"
+      ],
+      "22:29": [
+        "err:pr",
+        "sacred writing:pl know:neg",
+        "power of god"
+      ],
+      "22:30": [
+        "neither marry",
+        "nor in marriage give:psv",
+        "as angel:pl of god"
+      ],
+      "22:31": [
+        "kjv_resurrection of dead",
+        "to you by god speak"
+      ],
+      "22:32": [
+        "ipl god of kjv_abraham",
+        "god of kjv_isaac",
+        "god of kjv_jacob",
+        "dead person:pl be:neg",
+        "of living"
+      ],
+      "22:33": [
+        "kjv_multitude",
+        "doctrine astonish"
+      ],
+      "22:34": [
+        "kjv_pharisee:pl",
+        "kjv_sadducee:pl silent",
+        "gather:psv"
+      ],
+      "22:35": [
+        "one_num of they",
+        "kjv_law_expert",
+        "tempt:cv"
+      ],
+      "22:36": [
+        "which great command in law"
+      ],
+      "22:37": [
+        "lord thy/god",
+        "all thy/heart",
+        "all thy/soul",
+        "all thy/mind"
+      ],
+      "22:38": [
+        "first and great command"
+      ],
+      "22:39": [
+        "two:ord like",
+        "neighbour as thyself"
+      ],
+      "22:40": [
+        "two command:pl",
+        "all law and prophet:pl hang"
+      ],
+      "22:41": [
+        "kjv_pharisee:pl",
+        "kjv_jesus_matthew they:a ask"
+      ],
+      "22:42": [
+        "kjv_christ_title",
+        "whose son",
+        "son of kjv_david"
+      ],
+      "22:43": [
+        "kjv_david in spirit",
+        "lord call"
+      ],
+      "22:44": [
+        "kjv_lord to my/lord",
+        "mypl/kjv_right_side",
+        "until ipl",
+        "thy/kjv_footstool"
+      ],
+      "22:45": [
+        "kjv_david",
+        "lord call",
+        "how he his/son"
+      ],
+      "22:46": [
+        "no man",
+        "answer:can:pa",
+        "from that day forth",
+        "dare:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "20:13",
+        "20:14",
+        "20:15",
+        "20:4",
+        "21:29",
+        "21:30",
+        "22:4"
+      ],
+      "ipl": [
+        "20:22",
+        "20:23",
+        "20:32",
+        "21:2",
+        "21:21",
+        "21:24",
+        "21:27",
+        "21:31",
+        "21:43",
+        "22:18",
+        "22:19",
+        "22:32",
+        "22:44"
+      ],
+      "wesg": [
+        "20:12",
+        "20:18",
+        "20:7",
+        "21:25",
+        "21:26",
+        "21:27",
+        "21:38",
+        "22:16",
+        "22:17",
+        "22:25"
+      ],
+      "wepl": [],
+      "mypl": [
+        "20:23",
+        "21:13",
+        "22:44"
+      ],
+      "ourone": [
+        "21:42"
+      ],
+      "iplself": [],
+      "we:du": [
+        "20:22",
+        "20:30",
+        "20:31",
+        "20:33"
+      ],
+      "they:du": [
+        "20:22",
+        "20:23",
+        "20:30",
+        "20:31",
+        "20:32",
+        "20:33",
+        "20:34",
+        "21:2",
+        "21:3",
+        "21:31",
+        "21:7"
+      ],
+      "you:du": [
+        "20:22",
+        "20:23",
+        "20:32",
+        "21:2",
+        "21:3"
+      ]
+    },
+    "physicalDualReferences": [
+      "Matthew20:22",
+      "Matthew20:23",
+      "Matthew20:30",
+      "Matthew20:31",
+      "Matthew20:32",
+      "Matthew20:33",
+      "Matthew20:34",
+      "Matthew21:2",
+      "Matthew21:3",
+      "Matthew21:7",
+      "Matthew21:31"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Daily penny,hour ordinals,one-hour grievance and last-first ordering remain.",
+      "The twelve divide as ten and two;two blind petitioners,two messengers and the two sons remain explicit.",
+      "Seven brothers and their first/second/third/seventh sequence remain;no modern coin conversion or additional person count.",
+      "First/second/two great commands retain their enumeration."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "126new verses continue Matthew to774;whole Bible remains incomplete.",
+      "Nested David personal possessive and quoted LORD plural self remain distinct;shared singular-we and physical duals remain.",
+      "Two-animal wording,source baptism clause,severe wedding and vineyard parables,unnamed kingdom nation and unanswered David-son question remain.",
+      "Six common senses and four proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Matthew — incomplete Bible working text",
+    "pages": 452,
+    "spreads": 226,
+    "units": 774,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "7736e38a1d0992d32b785d175f705b35df33ec8fe3a4644e1f0df4f877ef1982",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 226,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.709,
+    "modules": [
+      "tests.test_kjv_matthew_nested_authority",
+      "tests.test_kjv_matthew_cloud_forgiveness",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    451,
+    452
+  ],
+  "status": "incomplete Bible;Matthew1–22 section checkpoint verified"
+}

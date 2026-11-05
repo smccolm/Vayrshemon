@@ -1,0 +1,813 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.176",
+    "parentVersion": "0.10-kjv.175",
+    "parentHead": "c90c2cc55d64f9830c23814483c4d280bded9e35ed9b37a3e9d0345c66540303",
+    "head": "3e448eb6e8ee96402a0fb75f8e4985c978b67900a56116188935a6a31b9353fa",
+    "newLexicalEntries": 7,
+    "newProperEntries": 7,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 86,
+    "exactCompilerCases": 86,
+    "newAuthoredVerses": 86,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 86,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 8603,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newAmosVerses": 86,
+    "amosVerses": 86,
+    "authoredVerses": 22499,
+    "remainingVerses": 8603,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 18,
+    "quantityChecks": [
+      {
+        "reference": "Amos 1:1",
+        "source": "The words of Amos, who was among the herdmen of Tekoa, which he saw concerning Israel in the days of Uzziah king of Judah, and in the days of Jeroboam the son of Joash king of Israel, two years before the earthquake.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Amos 1:3",
+        "source": "Thus saith the LORD; For three transgressions of Damascus, and for four, I will not turn away the punishment thereof; because they have threshed Gilead with threshing instruments of iron:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Amos 1:6",
+        "source": "Thus saith the LORD; For three transgressions of Gaza, and for four, I will not turn away the punishment thereof; because they carried away captive the whole captivity, to deliver them up to Edom:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Amos 1:9",
+        "source": "Thus saith the LORD; For three transgressions of Tyrus, and for four, I will not turn away the punishment thereof; because they delivered up the whole captivity to Edom, and remembered not the brotherly covenant:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Amos 1:11",
+        "source": "Thus saith the LORD; For three transgressions of Edom, and for four, I will not turn away the punishment thereof; because he did pursue his brother with the sword, and did cast off all pity, and his anger did tear perpetually, and he kept his wrath for ever:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Amos 1:13",
+        "source": "Thus saith the LORD; For three transgressions of the children of Ammon, and for four, I will not turn away the punishment thereof; because they have ripped up the women with child of Gilead, that they might enlarge their border:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Amos 2:1",
+        "source": "Thus saith the LORD; For three transgressions of Moab, and for four, I will not turn away the punishment thereof; because he burned the bones of the king of Edom into lime:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Amos 2:4",
+        "source": "Thus saith the LORD; For three transgressions of Judah, and for four, I will not turn away the punishment thereof; because they have despised the law of the LORD, and have not kept his commandments, and their lies caused them to err, after the which their fathers have walked:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Amos 2:6",
+        "source": "Thus saith the LORD; For three transgressions of Israel, and for four, I will not turn away the punishment thereof; because they sold the righteous for silver, and the poor for a pair of shoes;",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Amos 2:10",
+        "source": "Also I brought you up from the land of Egypt, and led you forty years through the wilderness, to possess the land of the Amorite.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Amos 3:3",
+        "source": "Can two walk together, except they be agreed?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Amos 3:12",
+        "source": "Thus saith the LORD; As the shepherd taketh out of the mouth of the lion two legs, or a piece of an ear; so shall the children of Israel be taken out that dwell in Samaria in the corner of a bed, and in Damascus in a couch.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Amos 4:4",
+        "source": "Come to Bethel, and transgress; at Gilgal multiply transgression; and bring your sacrifices every morning, and your tithes after three years:",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Amos 4:7",
+        "source": "And also I have withholden the rain from you, when there were yet three months to the harvest: and I caused it to rain upon one city, and caused it not to rain upon another city: one piece was rained upon, and the piece whereupon it rained not withered.",
+        "expectedDecimalQuantities": [
+          3,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Amos 4:8",
+        "source": "So two or three cities wandered unto one city, to drink water; but they were not satisfied: yet have ye not returned unto me, saith the LORD.",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          1
+        ]
+      },
+      {
+        "reference": "Amos 5:3",
+        "source": "For thus saith the Lord GOD; The city that went out by a thousand shall leave an hundred, and that which went forth by an hundred shall leave ten, to the house of Israel.",
+        "expectedDecimalQuantities": [
+          1000,
+          100,
+          100,
+          10
+        ],
+        "targetQuantities": [
+          1000,
+          100,
+          100,
+          10
+        ]
+      },
+      {
+        "reference": "Amos 5:8",
+        "source": "Seek him that maketh the seven stars and Orion, and turneth the shadow of death into the morning, and maketh the day dark with night: that calleth for the waters of the sea, and poureth them out upon the face of the earth: The LORD is his name:",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Amos 5:25",
+        "source": "Have ye offered unto me sacrifices and offerings in the wilderness forty years, O house of Israel?",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_amos_prophet",
+        "kjv_herdsman:pl of kjv_tekoa",
+        "kjv_jeroboam_joash son of kjv_joash_jehoahaz",
+        "two year:pl before earthquake"
+      ],
+      "1:2": [
+        "kjv_lord from kjv_zion roar:fu",
+        "dwell:ev:pl of shepherd:pl mourn:fu",
+        "top of kjv_carmel"
+      ],
+      "1:3": [
+        "three transgress:ev:pl",
+        "and for four",
+        "punish:ev away turn:neg:fu",
+        "kjv_thresh:ev instrument:pl of iron"
+      ],
+      "1:4": [
+        "house of kjv_hazael",
+        "palace:pl of kjv_benhadad_amos"
+      ],
+      "1:5": [
+        "kjv_plain_land of kjv_aven_plain",
+        "house of kjv_eden_house",
+        "kjv_captivity to kjv_kir"
+      ],
+      "1:6": [
+        "three transgress:ev:pl",
+        "and for four",
+        "whole kjv_captivity captive",
+        "to kjv_edom up deliver"
+      ],
+      "1:7": [
+        "wall of kjv_gaza",
+        "its/palace:pl"
+      ],
+      "1:8": [
+        "kjv_ashdod",
+        "kjv_ashkelon",
+        "mypl/hand against kjv_ekron",
+        "kjv_philistine:pl"
+      ],
+      "1:9": [
+        "three transgress:ev:pl",
+        "and for four",
+        "kjv_tyrus",
+        "brother:adj kjv_covenant remember:neg:pa"
+      ],
+      "1:10": [
+        "wall of kjv_tyrus",
+        "devour:fu"
+      ],
+      "1:11": [
+        "three transgress:ev:pl",
+        "and for four",
+        "his/brother with sword",
+        "all pity off cast:pa",
+        "his/anger always rend:pa"
+      ],
+      "1:12": [
+        "kjv_teman",
+        "kjv_bozrah"
+      ],
+      "1:13": [
+        "three transgress:ev:pl",
+        "and for four",
+        "pregnant woman:pl of kjv_gilead up rend:perf",
+        "their/boundary large:caus:inf:may"
+      ],
+      "1:14": [
+        "kjv_rabbah kjv_kindle_fire:fu",
+        "day of battle",
+        "day of kjv_whirlwind"
+      ],
+      "1:15": [
+        "their/king into kjv_captivity",
+        "he and his/prince:pl"
+      ],
+      "2:1": [
+        "three transgress:ev:pl",
+        "and for four",
+        "bone:pl of king of kjv_edom into lime"
+      ],
+      "2:2": [
+        "kjv_kirioth_amos",
+        "kjv_tumult",
+        "sound of trumpet"
+      ],
+      "2:3": [
+        "judge:ag from its/middle",
+        "all its/prince:pl with he"
+      ],
+      "2:4": [
+        "three transgress:ev:pl",
+        "and for four",
+        "his/command:pl keep:neg:perf",
+        "false word:pl they:a err:caus:pa"
+      ],
+      "2:5": [
+        "kjv_judah",
+        "palace:pl of kjv_jerusalem"
+      ],
+      "2:6": [
+        "three transgress:ev:pl",
+        "and for four",
+        "kjv_righteous for silver",
+        "pair of shoe:pl"
+      ],
+      "2:7": [
+        "dust of earth on head of poor",
+        "man and his/father to same maid",
+        "mypl/holy name kjv_profane"
+      ],
+      "2:8": [
+        "clothing:pl to pledge",
+        "wine of condemn:psv:adj",
+        "house of their/god"
+      ],
+      "2:9": [
+        "kjv_amorite",
+        "height of kjv_cedar:pl",
+        "his/fruit from above",
+        "his/root:pl from beneath"
+      ],
+      "2:10": [
+        "egypt",
+        "three+twelve and four year:pl",
+        "land of kjv_amorite"
+      ],
+      "2:11": [
+        "for kjv_nazarite:pl",
+        "thus be:neg:pr"
+      ],
+      "2:12": [
+        "kjv_nazarite:pl wine",
+        "kjv_prophesy:neg:imp"
+      ],
+      "2:13": [
+        "ipl under you press:psv:pr",
+        "wagon press:psv:pr",
+        "kjv_sheaf:pl"
+      ],
+      "2:14": [
+        "flee:ev from swift",
+        "strength:caus:neg:fu",
+        "neither mighty himself"
+      ],
+      "2:15": [
+        "kjv_bow hold:pr",
+        "swift of foot",
+        "horse ride:pr"
+      ],
+      "2:16": [
+        "courage:adj among mighty",
+        "bare away flee:fu"
+      ],
+      "3:1": [
+        "whole kjv_family which ipl",
+        "egypt"
+      ],
+      "3:2": [
+        "you only of all kjv_family:pl",
+        "therefore ipl you",
+        "all your/kjv_iniquity:pl"
+      ],
+      "3:3": [
+        "two together walk:inf:can",
+        "they:du agree:psv:pr"
+      ],
+      "3:4": [
+        "no prey",
+        "his/kjv_den",
+        "nothing take:perf"
+      ],
+      "3:5": [
+        "no trap for he",
+        "person snare from earth",
+        "nothing at all"
+      ],
+      "3:6": [
+        "people afraid be:neg:fu?",
+        "kjv_lord it do:neg:perf?"
+      ],
+      "3:7": [
+        "nothing do:fu except",
+        "his/secret",
+        "his/servant:pl prophet:pl"
+      ],
+      "3:8": [
+        "who fear:neg:fu?",
+        "who except kjv_prophesy:inf:can?"
+      ],
+      "3:9": [
+        "kjv_ashdod",
+        "egypt",
+        "kjv_samaria",
+        "oppress:psv:adj in its/middle"
+      ],
+      "3:10": [
+        "fitting do:inf know:neg:pr",
+        "kjv_violence and rob:ev",
+        "palace:pl up store:pr"
+      ],
+      "3:11": [
+        "enemy even round about",
+        "thy/strength from thou",
+        "spoil:psv:fu"
+      ],
+      "3:12": [
+        "two leg:pl or piece of ear",
+        "corner of bed",
+        "kjv_damascus in kjv_couch_job"
+      ],
+      "3:13": [
+        "house of kjv_jacob",
+        "god of army:pl"
+      ],
+      "3:14": [
+        "kjv_israel upon he visit:fu",
+        "altar:pl of kjv_bethel",
+        "horn:pl of altar"
+      ],
+      "3:15": [
+        "winter house with summer house",
+        "house:pl of kjv_ivory"
+      ],
+      "4:1": [
+        "kjv_cow:pl of kjv_bashan",
+        "their/master:pl",
+        "wesg drink:opt"
+      ],
+      "4:2": [
+        "by his/holy:ev swear:perf",
+        "kjv_restraint_hook:pl",
+        "your/kjv_posterity with kjv_fishing_hook:pl"
+      ],
+      "4:3": [
+        "each kjv_cow",
+        "before she",
+        "you they:a into palace cast:fu"
+      ],
+      "4:4": [
+        "transgress:imp",
+        "kjv_multiply:imp",
+        "every morning",
+        "after three year:pl"
+      ],
+      "4:5": [
+        "thanks with kjv_leaven",
+        "proclaim:imp and publish:imp",
+        "you kjv_please_satisfy:pr"
+      ],
+      "4:6": [
+        "clean:adj tooth:pl",
+        "lack of bread",
+        "to ipl return:neg:perf"
+      ],
+      "4:7": [
+        "three month:pl",
+        "one_num city",
+        "another city rain:caus:neg:pa",
+        "one_num piece"
+      ],
+      "4:8": [
+        "two or three city:pl to one_num city",
+        "satisfy:psv:neg:pa",
+        "to ipl return:neg:perf"
+      ],
+      "4:9": [
+        "kjv_blasting and kjv_mildew",
+        "kjv_palmerworm",
+        "to ipl return:neg:perf"
+      ],
+      "4:10": [
+        "kjv_pestilence after manner of egypt",
+        "young man:pl ipl with sword slay:perf",
+        "stink of your/camp:pl",
+        "to ipl return:neg:perf"
+      ],
+      "4:11": [
+        "ipl some of you kjv_overthrow:perf as god",
+        "kjv_firebrand",
+        "to ipl return:neg:perf"
+      ],
+      "4:12": [
+        "ipl this to thou do:fu",
+        "thy/god meet:inf prepare:imp"
+      ],
+      "4:13": [
+        "what his/thought",
+        "morning darkness make:pr",
+        "god of army:pl"
+      ],
+      "5:1": [
+        "which i against you up take:pr",
+        "lament:ev"
+      ],
+      "5:2": [
+        "virgin of kjv_israel fall:perf",
+        "she no more rise:fu",
+        "none to she:a up raise"
+      ],
+      "5:3": [
+        "by thousand out go:pa hundred leave:fu",
+        "by hundred forth go:pa ten leave:fu"
+      ],
+      "5:4": [
+        "ipl:a seek:imp and you live:fu"
+      ],
+      "5:5": [
+        "kjv_bethel seek:neg:imp",
+        "kjv_gilgal",
+        "kjv_beersheba pass:neg:imp",
+        "kjv_bethel to nothing"
+      ],
+      "5:6": [
+        "house of kjv_joseph",
+        "none to it extinguish:inf in kjv_bethel"
+      ],
+      "5:7": [
+        "judgment to kjv_wormwood",
+        "kjv_righteousness in earth off leave:pr"
+      ],
+      "5:8": [
+        "seven star:pl and kjv_orion",
+        "shadow of death into morning",
+        "water:pl of sea",
+        "face of earth out pour:pr"
+      ],
+      "5:9": [
+        "spoil:psv:adj against strong strength:caus:pr",
+        "against fortress"
+      ],
+      "5:10": [
+        "in gate rebuke:pr",
+        "kjv_upright:adv speak:pr kjv_abhor:pr"
+      ],
+      "5:11": [
+        "burden:pl of wheat",
+        "kjv_hew:psv:adj stone",
+        "dwell:neg:fu",
+        "wine of they drink:neg:fu"
+      ],
+      "5:12": [
+        "ipl your/many transgress:ev:pl",
+        "kjv_bribe",
+        "from their/right"
+      ],
+      "5:13": [
+        "kjv_discretion:adj",
+        "evil time"
+      ],
+      "5:14": [
+        "good and not evil",
+        "as you speak:perf"
+      ],
+      "5:15": [
+        "judgment in gate kjv_establish:imp",
+        "be:inf:may",
+        "remainder of kjv_joseph"
+      ],
+      "5:16": [
+        "oh be:excl oh be:excl",
+        "kjv_husbandman",
+        "skill of lament:ev"
+      ],
+      "5:17": [
+        "for ipl through thou pass:fu"
+      ],
+      "5:18": [
+        "woe to you",
+        "be:excl",
+        "darkness and not light"
+      ],
+      "5:19": [
+        "bear_animal",
+        "kjv_lean_body:pa",
+        "serpent he:a kjv_bite:pa"
+      ],
+      "5:20": [
+        "darkness and not light be:neg:fu?",
+        "no bright:ev"
+      ],
+      "5:21": [
+        "ipl your/feast day:pl hate:pr ipl despise:pr",
+        "smell:neg:fu"
+      ],
+      "5:22": [
+        "your/food kjv_offering:pl",
+        "accept:neg:fu",
+        "neither ipl peace kjv_offering:pl"
+      ],
+      "5:23": [
+        "noise of thy/song:pl",
+        "melody of thy/kjv_viol:pl hear:neg:fu"
+      ],
+      "5:24": [
+        "judgment as water:pl down run:opt",
+        "kjv_righteousness as mighty stream"
+      ],
+      "5:25": [
+        "three+twelve and four year:pl",
+        "offer:perf",
+        "kjv_israel?"
+      ],
+      "5:26": [
+        "kjv_tabernacle of your/kjv_moloch_amos",
+        "kjv_chiun your/image:pl",
+        "star of your/god",
+        "carry:perf"
+      ],
+      "5:27": [
+        "beyond kjv_damascus",
+        "go:caus:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "5:1"
+      ],
+      "ipl": [
+        "1:10",
+        "1:11",
+        "1:12",
+        "1:13",
+        "1:14",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7",
+        "1:8",
+        "1:9",
+        "2:1",
+        "2:10",
+        "2:11",
+        "2:13",
+        "2:2",
+        "2:3",
+        "2:4",
+        "2:5",
+        "2:6",
+        "2:9",
+        "3:1",
+        "3:14",
+        "3:15",
+        "3:2",
+        "4:10",
+        "4:11",
+        "4:12",
+        "4:6",
+        "4:7",
+        "4:8",
+        "4:9",
+        "5:12",
+        "5:17",
+        "5:21",
+        "5:22",
+        "5:23",
+        "5:25",
+        "5:27",
+        "5:4"
+      ],
+      "wesg": [
+        "4:1"
+      ],
+      "wepl": [],
+      "mypl": [
+        "1:8",
+        "2:7"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "3:3"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Amos 3:3"
+    ],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Three and four remain separate rhetoric,not seven.",
+      "Pair of shoes in2:6is separately checked as the existing lexical two-member unit.",
+      "Two-or-three cities remain alternatives;years/months and reductions retain source units.",
+      "Seven stars retained beside Orion without an imported astronomical identification."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Amos1–5 adds86verses;whole Bible incomplete.",
+      "Divine plural-self,prophetic personal-I,oppressive communal singular-we and actual paired walkers distinguished.",
+      "Supplied pressed-deity,evil-agency,three-year tithe,palace and cult-name readings retained.",
+      "Seven contextual proper entries;no common lexeme,paradigm or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Amos — incomplete Bible working text",
+    "pages": 60,
+    "spreads": 30,
+    "units": 86,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "708a9cbcc2f78d1b685b90d7bdd58a563fe88ef560ccce75c8d86295947441cd",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 30,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.815,
+    "modules": [
+      "tests.test_kjv_amos_refused_return",
+      "tests.test_kjv_joel_poured_spirit",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    59,
+    60
+  ],
+  "status": "incomplete Bible;Amos1–5 section checkpoint verified"
+}

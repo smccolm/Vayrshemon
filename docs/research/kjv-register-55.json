@@ -1,0 +1,533 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.55",
+    "parentVersion": "0.10-kjv.54",
+    "parentHead": "4b7c36ae23bf53b0007ede23d975ce7602d6eb03d903ce6268874a78141d3e86",
+    "head": "32f317acf6d755dca10c38f8a76c0a35c8d11d7b194450f12dd1a49f182025aa",
+    "newLexicalEntries": 14,
+    "newProperEntries": 8,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 7,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 87,
+    "exactCompilerCases": 99,
+    "newAuthoredVerses": 99,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 99,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 22237,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 99,
+    "kings1Verses": 99,
+    "authoredVerses": 8865,
+    "remainingVerses": 22237,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "1 Kings 1:5",
+        "source": "Then Adonijah the son of Haggith exalted himself, saying, I will be king: and he prepared him chariots and horsemen, and fifty men to run before him.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "1 Kings 2:5",
+        "source": "Moreover thou knowest also what Joab the son of Zeruiah did to me, and what he did to the two captains of the hosts of Israel, unto Abner the son of Ner, and unto Amasa the son of Jether, whom he slew, and shed the blood of war in peace, and put the blood of war upon his girdle that was about his loins, and in his shoes that were on his feet.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 2:11",
+        "source": "And the days that David reigned over Israel were forty years: seven years reigned he in Hebron, and thirty and three years reigned he in Jerusalem.",
+        "expectedDecimalQuantities": [
+          40,
+          7,
+          33
+        ],
+        "targetQuantities": [
+          40,
+          7,
+          33
+        ]
+      },
+      {
+        "reference": "1 Kings 2:32",
+        "source": "And the LORD shall return his blood upon his own head, who fell upon two men more righteous and better than he, and slew them with the sword, my father David not knowing thereof, to wit, Abner the son of Ner, captain of the host of Israel, and Amasa the son of Jether, captain of the host of Judah.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Kings 2:39",
+        "source": "And it came to pass at the end of three years, that two of the servants of Shimei ran away unto Achish son of Maachah king of Gath. And they told Shimei, saying, Behold, thy servants be in Gath.",
+        "expectedDecimalQuantities": [
+          3,
+          2
+        ],
+        "targetQuantities": [
+          3,
+          2
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "Fifty runners are distinct from chariots and horsemen.",
+      "The two commanders are explicitly Abner and Amasa, with actual-dual anaphora.",
+      "Forty years is seven plus thirty-three; no six months imported from an earlier account.",
+      "Three years and two fleeing servants remain separate quantities; one small petition is explicitly retained."
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "king kjv_david old",
+        "heat:a he obtain:pa not"
+      ],
+      "1:2": [
+        "young virgin",
+        "in thy/bosom she lie:opt",
+        "heat:a my/lord king"
+      ],
+      "1:3": [
+        "all of kjv_israel boundary:pl",
+        "kjv_abishag kjv_shunammite"
+      ],
+      "1:4": [
+        "king:a she cherish:pa",
+        "she:a king know:pa not"
+      ],
+      "1:5": [
+        "king ipl be:fu",
+        "five+ten man:pl"
+      ],
+      "1:6": [
+        "his/father he:a displease:pp not",
+        "kjv_goodly",
+        "after kjv_absalom his/mother he:a bear:pa"
+      ],
+      "1:7": [
+        "they:du he:a help:pa"
+      ],
+      "1:8": [
+        "kjv_nathan_prophet",
+        "kjv_shimei_court",
+        "kjv_rei",
+        "with kjv_adonijah be:pa not"
+      ],
+      "1:9": [
+        "kjv_zoheleth",
+        "kjv_enrogel",
+        "all his/brother:pl"
+      ],
+      "1:10": [
+        "kjv_solomon his/brother:a he call:pa not"
+      ],
+      "1:11": [
+        "ourone/lord",
+        "it:a know:pr not"
+      ],
+      "1:12": [
+        "thy/own life",
+        "thy/son kjv_solomon life"
+      ],
+      "1:13": [
+        "after ipl rule:fu",
+        "mypl/throne",
+        "why then kjv_adonijah"
+      ],
+      "1:14": [
+        "i also enter:fu",
+        "thy/word:pl:a confirm:fu"
+      ],
+      "1:16": [
+        "kjv_obeisance",
+        "what:a thou desire:pr"
+      ],
+      "1:17": [
+        "by kjv_lord thy/god",
+        "after ipl rule:fu"
+      ],
+      "1:18": [
+        "thou it:a know:pr not"
+      ],
+      "1:19": [
+        "of army captain",
+        "kjv_solomon:a he call:perf not"
+      ],
+      "1:20": [
+        "of all kjv_israel eye:pl",
+        "after he sit:fu"
+      ],
+      "1:21": [
+        "with his/father:pl",
+        "i and my/son",
+        "offender:pl reckon:psv:fu"
+      ],
+      "1:24": [
+        "kjv_adonijah rule:fu",
+        "mypl/throne he sit:fu ?"
+      ],
+      "1:25": [
+        "king kjv_adonijah:a god save:opt:excl"
+      ],
+      "1:26": [
+        "i:a even i",
+        "he call:perf not"
+      ],
+      "1:27": [
+        "do:psv:perf ?",
+        "show:perf not"
+      ],
+      "1:29": [
+        "my/soul:a redeem:perf"
+      ],
+      "1:30": [
+        "ipl swear:pa",
+        "mypl/kjv_place_site",
+        "this day certainly ipl do:fu"
+      ],
+      "1:31": [
+        "for ever live:opt:excl"
+      ],
+      "1:33": [
+        "my/own mule",
+        "kjv_gihon_accession"
+      ],
+      "1:34": [
+        "kjv_zadok priest and kjv_nathan_prophet",
+        "king kjv_solomon:a god save:opt:excl"
+      ],
+      "1:35": [
+        "over kjv_israel and over kjv_judah",
+        "ipl appoint:perf"
+      ],
+      "1:36": [
+        "amen:excl",
+        "also thus say:opt"
+      ],
+      "1:37": [
+        "greater than",
+        "make:opt"
+      ],
+      "1:38": [
+        "kjv_cherethite:pl",
+        "kjv_pelethite:pl",
+        "ride:caus:pa"
+      ],
+      "1:39": [
+        "horn of oil",
+        "out of kjv_tabernacle"
+      ],
+      "1:40": [
+        "with pipe:pl people pipe:pa",
+        "earth kjv_rend:psv:pa"
+      ],
+      "1:41": [
+        "all guest:pl",
+        "eat:ev:a they end:pp",
+        "kjv_tumult"
+      ],
+      "1:42": [
+        "kjv_jonathan_abiathar",
+        "good news:a bring:pr"
+      ],
+      "1:43": [
+        "ourone/lord king kjv_david",
+        "kjv_solomon:a king make:perf"
+      ],
+      "1:45": [
+        "city kjv_resound:pa"
+      ],
+      "1:47": [
+        "ourone/lord",
+        "upon bed king self:a bow:pa"
+      ],
+      "1:48": [
+        "mypl/throne",
+        "my/eye:pl even it:a see:cv"
+      ],
+      "1:49": [
+        "every man his/way"
+      ],
+      "1:50": [
+        "of kjv_altar horn:pl:a kjv_grip:pa"
+      ],
+      "1:51": [
+        "to i king kjv_solomon swear:opt",
+        "his/servant:a he slay:fu not"
+      ],
+      "1:52": [
+        "if worthy man",
+        "hair to earth fall:fu",
+        "if in he wickedness",
+        "he die:fu"
+      ],
+      "1:53": [
+        "to thy/house go:imp"
+      ],
+      "2:2": [
+        "all earth way i go:pr",
+        "self:a man show:imp"
+      ],
+      "2:3": [
+        "kjv_charge_custody",
+        "kjv_statute:pl",
+        "command:pl",
+        "testimony:pl",
+        "of kjv_moses law"
+      ],
+      "2:4": [
+        "about i",
+        "if thy/child:pl",
+        "before ipl in truth",
+        "man lack:fu not"
+      ],
+      "2:5": [
+        "to ipl do:pa",
+        "two of kjv_israel",
+        "kjv_jether_amasa",
+        "they:du:a he slay:pa",
+        "in peace of war blood"
+      ],
+      "2:6": [
+        "kjv_gray head",
+        "in peace go:inf allow:imp not"
+      ],
+      "2:7": [
+        "kjv_kindness",
+        "thy/table",
+        "i flee:pa"
+      ],
+      "2:8": [
+        "kjv_shimei_gera",
+        "kjv_gera_bahurim",
+        "i swear:pa",
+        "to death ipl put:fu not"
+      ],
+      "2:9": [
+        "innocent he:a hold:imp not",
+        "with blood his/kjv_gray head"
+      ],
+      "2:10": [
+        "with his/father:pl kjv_david sleep:pa",
+        "bury:psv:pa"
+      ],
+      "2:11": [
+        "four+ten year:pl",
+        "seven year:pl",
+        "kjv_three+ten and kjv_three"
+      ],
+      "2:13": [
+        "in peace thou come:pr ?",
+        "in peace ."
+      ],
+      "2:15": [
+        "of ipl kingdom",
+        "ipl rule:pr:should",
+        "from kjv_lord of he"
+      ],
+      "2:16": [
+        "one petition:a i ask:pr"
+      ],
+      "2:17": [
+        "to thou no he say:fu not",
+        "to i kjv_abishag",
+        "as wife"
+      ],
+      "2:18": [
+        "good . for thou to king i speak:fu"
+      ],
+      "2:19": [
+        "to she self:a bow:pa",
+        "seat:a set:psv:caus:pa",
+        "kjv_right_side hand"
+      ],
+      "2:20": [
+        "one small petition",
+        "to thou no i say:fu not"
+      ],
+      "2:21": [
+        "as wife kjv_abishag kjv_shunammite give:psv:opt"
+      ],
+      "2:22": [
+        "also for he kingdom:a ask:imp",
+        "kjv_elder_sibling",
+        "kjv_abiathar priest",
+        "kjv_joab"
+      ],
+      "2:23": [
+        "to i god thus do:opt",
+        "against his/own life",
+        "speak:perf not"
+      ],
+      "2:24": [
+        "ipl:a kjv_establish:perf",
+        "for ipl house:a make:perf",
+        "this day kjv_adonijah to death"
+      ],
+      "2:26": [
+        "at this time",
+        "ipl put:fu not",
+        "kjv_ark_chest:a",
+        "carry:pa",
+        "kjv_afflict:psv:perf"
+      ],
+      "2:27": [
+        "from to kjv_lord priest be:ev",
+        "of kjv_eli house in kjv_shiloh"
+      ],
+      "2:28": [
+        "after kjv_adonijah",
+        "after kjv_absalom he turn:pp not",
+        "kjv_altar horn:pl"
+      ],
+      "2:30": [
+        "no but here i die:fu",
+        "thus i:a answer:pa"
+      ],
+      "2:31": [
+        "innocent blood",
+        "from ipl",
+        "of my/father house"
+      ],
+      "2:32": [
+        "two man:pl",
+        "they:du:a slay:pa",
+        "my/father kjv_david it:a know:cv not",
+        "kjv_jether_amasa"
+      ],
+      "2:33": [
+        "of they:du blood",
+        "his/seed head for ever",
+        "peace be:fu"
+      ],
+      "2:34": [
+        "in kjv_wilderness in his/own house"
+      ],
+      "2:35": [
+        "in his/kjv_place_site over army",
+        "in of kjv_abiathar kjv_place_site"
+      ],
+      "2:36": [
+        "from there anywhere forth go:imp not"
+      ],
+      "2:37": [
+        "kjv_kidron brook",
+        "thy/blood upon thy/own head"
+      ],
+      "2:38": [
+        "thy/servant do:fu",
+        "many day:pl"
+      ],
+      "2:39": [
+        "kjv_three year:pl",
+        "two of of kjv_shimei_gera servant:pl",
+        "kjv_maachah_achish"
+      ],
+      "2:40": [
+        "his/ass:a kjv_saddle:pa",
+        "from kjv_gath his/servant:pl:a bring:pa"
+      ],
+      "2:41": [
+        "from kjv_jerusalem to kjv_gath",
+        "again come:pp"
+      ],
+      "2:42": [
+        "ipl swear:caus:pa",
+        "kjv_warn_solemn:pa",
+        "anywhere outside",
+        "word which i hear:perf"
+      ],
+      "2:43": [
+        "kjv_lord oath",
+        "ipl charge:perf"
+      ],
+      "2:44": [
+        "which thy/heart know:pr",
+        "upon thy/own head"
+      ],
+      "2:45": [
+        "king kjv_solomon blessed be:fu",
+        "for ever kjv_establish:psv:fu"
+      ],
+      "2:46": [
+        "so that he die:pa",
+        "kingdom kjv_establish:psv:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Claims to royal authority, oaths, accusations, wishes and predictions remain attributed.",
+      "David and Solomon promise/action tensions are preserved, as are source parent names Jether and Maachah without harmonization.",
+      "The Gath journey does not invent an unstated Kidron crossing.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeValidation": {
+    "book": "1 Kings — incomplete Bible working text",
+    "pages": 72,
+    "spreads": 36,
+    "units": 99,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "80bfe87353295181b3c73890bfeaaca160ba442de8a08ea07e053061bb6db1c1",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 36,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "visualReview": {
+    "pages": [
+      71,
+      72
+    ],
+    "observed": "Final Shimei accusation and execution preserve aligned paragraph starts, Maxima, approved black-on-white four-column treatment and outside Unta folios.",
+    "kind": "translator self-review, not independent literary certification"
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 11.697,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_succession",
+      "tests.test_kjv_samuel2_final",
+      "tests.test_parallel_translation"
+    ]
+  }
+}

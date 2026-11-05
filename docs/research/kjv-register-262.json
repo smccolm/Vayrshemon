@@ -1,0 +1,731 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.262",
+    "parentVersion": "0.10-kjv.261",
+    "parentHead": "6401f711cebf37bef8e0240e72905b58eadd38ae1ba883da3c53ce1fe1087f4f",
+    "head": "4f103b562ad97a3eaa67f62c918c04df539559447260eec73c416ef26f9c8d2d",
+    "newLexicalEntries": 6,
+    "newProperEntries": 3,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 79,
+    "exactCompilerCases": 79,
+    "newAuthoredVerses": 79,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 249,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 889,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newHebrewsVerses": 79,
+    "hebrewsVerses": 249,
+    "authoredVerses": 30213,
+    "remainingVerses": 889,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "Hebrews 10:2",
+        "source": "For then would they not have ceased to be offered? because that the worshippers once purged should have had no more conscience of sins.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Hebrews 10:9",
+        "source": "Then said he, Lo, I come to do thy will, O God. He taketh away the first, that he may establish the second.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "Hebrews 10:10",
+        "source": "By the which will we are sanctified through the offering of the body of Jesus Christ once for all.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Hebrews 10:12",
+        "source": "But this man, after he had offered one sacrifice for sins for ever, sat down on the right hand of God;",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Hebrews 10:14",
+        "source": "For by one offering he hath perfected for ever them that are sanctified.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Hebrews 10:28",
+        "source": "He that despised Moses’ law died without mercy under two or three witnesses:",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "Hebrews 11:12",
+        "source": "Therefore sprang there even of one, and him as good as dead, so many as the stars of the sky in multitude, and as the sand which is by the sea shore innumerable.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Hebrews 11:23",
+        "source": "By faith Moses, when he was born, was hid three months of his parents, because they saw he was a proper child; and they were not afraid of the king’s commandment.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Hebrews 11:30",
+        "source": "By faith the walls of Jericho fell down, after they were compassed about seven days.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "10:1": [
+        "shadow and not thing:pl very image",
+        "year by year",
+        "perfect never make:can"
+      ],
+      "10:2": [
+        "offer:psv:inf cease:neg:should:perf",
+        "worshipper:pl once",
+        "no more"
+      ],
+      "10:3": [
+        "every year",
+        "sin:pl remember:ev again"
+      ],
+      "10:4": [
+        "bull:pl and kjv_goat:pl blood",
+        "possible be:neg"
+      ],
+      "10:5": [
+        "he into world",
+        "thou will:neg:pa",
+        "body thou for ipl prepare"
+      ],
+      "10:6": [
+        "burn:psv:pp offer:ev:pl",
+        "pleasure have:neg"
+      ],
+      "10:7": [
+        "ipl say:pa",
+        "in book scroll of ipl",
+        "thy/will:ev do:inf kjv_vocative god"
+      ],
+      "10:8": [
+        "above when he say",
+        "neither in they pleasure",
+        "by law offer:psv"
+      ],
+      "10:9": [
+        "ipl thy/will:ev do:inf",
+        "kjv_vocative god",
+        "first away take",
+        "second kjv_establish"
+      ],
+      "10:10": [
+        "wesg through",
+        "body once for all",
+        "sanctify:psv"
+      ],
+      "10:11": [
+        "every priest daily",
+        "often same kjv_sacrifice:pl",
+        "away never take:can"
+      ],
+      "10:12": [
+        "one_num kjv_sacrifice forever",
+        "god kjv_right_side",
+        "sit:pa"
+      ],
+      "10:13": [
+        "until his/enemy:pl",
+        "his/kjv_footstool make:psv"
+      ],
+      "10:14": [
+        "one_num offer:ev",
+        "they who sanctify:psv",
+        "forever perfect:caus"
+      ],
+      "10:15": [
+        "kjv_holy_spirit_title",
+        "to wesg witness",
+        "after he before say"
+      ],
+      "10:16": [
+        "ipl with they",
+        "mypl/law:pl into their/heart:pl",
+        "their/mind:pl ipl they:a write"
+      ],
+      "10:17": [
+        "their/sin:pl and their/kjv_iniquity:pl",
+        "ipl no more remember"
+      ],
+      "10:18": [
+        "these kjv_remission_romans",
+        "offer:ev no more"
+      ],
+      "10:19": [
+        "brother:pl",
+        "kjv_jesus_matthew blood",
+        "most holy enter:inf bold:ev"
+      ],
+      "10:20": [
+        "new and alive way",
+        "for wesg consecrate",
+        "kjv_vail_partition that say:inf his/flesh"
+      ],
+      "10:21": [
+        "over god house high priest"
+      ],
+      "10:22": [
+        "wesg with true heart",
+        "faith full assurance",
+        "ourone/heart:pl",
+        "ourone/body:pl with pure water"
+      ],
+      "10:23": [
+        "wesg ourone/faith acknowledge:ev",
+        "without kjv_waver_limp:ev",
+        "he who promise:pa faithful"
+      ],
+      "10:24": [
+        "wesg each other",
+        "love and good work:pl stir"
+      ],
+      "10:25": [
+        "wesg self:pl",
+        "forsake:neg:cv",
+        "some manner",
+        "so much more",
+        "day near"
+      ],
+      "10:26": [
+        "if wesg",
+        "truth knowledge receive:perf",
+        "willingly sin",
+        "kjv_sacrifice no more"
+      ],
+      "10:27": [
+        "judgment and fire:adj indignation",
+        "fearful",
+        "kjv_adversary:pl devour"
+      ],
+      "10:28": [
+        "kjv_moses law despise",
+        "two or three witness:pl",
+        "without mercy"
+      ],
+      "10:29": [
+        "more harsh kjv_punishment",
+        "god son under foot",
+        "with which he sanctify:psv:pa",
+        "holy:neg:adj thing reckon",
+        "grace spirit insult"
+      ],
+      "10:30": [
+        "wesg he who say",
+        "revenge:ev to ipl belong",
+        "ipl recompense",
+        "lord say:pr",
+        "his/people judge"
+      ],
+      "10:31": [
+        "alive god hand:pl",
+        "fearful thing"
+      ],
+      "10:32": [
+        "former day:pl",
+        "light:caus:psv",
+        "great kjv_afflict:ev:pl fight:ev"
+      ],
+      "10:33": [
+        "partly while",
+        "both by kjv_reproach:pl",
+        "kjv_gazingstock_hebrews",
+        "companion:pl become"
+      ],
+      "10:34": [
+        "i in my/chain:pl",
+        "your/good:pl spoil",
+        "in yourselves",
+        "in heaven better",
+        "kjv_substance_estate"
+      ],
+      "10:35": [
+        "your/confidence away cast:neg",
+        "great reward recompense"
+      ],
+      "10:36": [
+        "patience need",
+        "after god will:ev",
+        "promise receive"
+      ],
+      "10:37": [
+        "little while",
+        "he who come:fu come:fu",
+        "delay:neg:fu"
+      ],
+      "10:38": [
+        "kjv_righteous by faith",
+        "if any man",
+        "mypl/kjv_soul",
+        "pleasure have:neg"
+      ],
+      "10:39": [
+        "wesg of they who back draw",
+        "be:neg:pr",
+        "kjv_soul save:ev"
+      ],
+      "11:1": [
+        "hope:psv:pp thing:pl",
+        "kjv_substance_faith_hebrews",
+        "see:psv:neg:pp thing:pl evidence"
+      ],
+      "11:2": [
+        "kjv_elder:pl",
+        "good report obtain"
+      ],
+      "11:3": [
+        "wesg world:pl",
+        "by god word",
+        "from thing:pl which appear:pr make:psv:neg"
+      ],
+      "11:4": [
+        "kjv_abel",
+        "than kjv_cain more excellent",
+        "his/gift:pl",
+        "dead be:cv yet speak"
+      ],
+      "11:5": [
+        "kjv_enoch kjv_translate_enoch_hebrews:psv",
+        "death see:neg:should",
+        "find:psv:neg",
+        "before his/kjv_translate_enoch_hebrews:ev",
+        "kjv_please_satisfy"
+      ],
+      "11:6": [
+        "without faith",
+        "kjv_please_satisfy:inf impossible",
+        "that he be:pr",
+        "kjv_diligent:adv seek",
+        "reward:ag"
+      ],
+      "11:7": [
+        "kjv_noah",
+        "not yet see:psv",
+        "with fear",
+        "kjv_flood_ark",
+        "world condemn",
+        "heir become"
+      ],
+      "11:8": [
+        "kjv_abraham",
+        "afterward for inheritance",
+        "obey:pa",
+        "not where he go:pa know"
+      ],
+      "11:9": [
+        "promise land as in foreign country",
+        "tent:pl",
+        "kjv_isaac and kjv_jacob",
+        "same promise"
+      ],
+      "11:10": [
+        "city which kjv_foundation:pl",
+        "build:ag and make:ag god"
+      ],
+      "11:11": [
+        "kjv_sara_hebrews herself",
+        "kjv_seed_copulation conceive",
+        "child bear:pa",
+        "age past",
+        "faithful judge"
+      ],
+      "11:12": [
+        "from one_num",
+        "as good as dead",
+        "sky star:pl",
+        "sea kjv_shore",
+        "kjv_number:psv:neg:can:adj"
+      ],
+      "11:13": [
+        "all in faith die",
+        "promise:pl receive:neg",
+        "persuade:psv",
+        "embrace:pa",
+        "stranger:pl and pilgrim:pl"
+      ],
+      "11:14": [
+        "such thing:pl",
+        "country seek",
+        "clear:adv declare"
+      ],
+      "11:15": [
+        "if they",
+        "remember:perf",
+        "return:inf opportunity have:may:perf"
+      ],
+      "11:16": [
+        "heaven:adj",
+        "their/god call:psv:inf",
+        "ashamed be:neg",
+        "city prepare"
+      ],
+      "11:17": [
+        "kjv_tempt_trial_hebrews:psv",
+        "kjv_isaac up offer",
+        "only beget:psv:pp son"
+      ],
+      "11:18": [
+        "in kjv_isaac thy/offspring call"
+      ],
+      "11:19": [
+        "from dead:pl",
+        "able be:pa reckon",
+        "in kjv_figure_pattern_romans receive"
+      ],
+      "11:20": [
+        "kjv_isaac kjv_jacob and kjv_esau",
+        "thing:pl to come"
+      ],
+      "11:21": [
+        "both kjv_joseph son:du",
+        "his/staff top",
+        "kjv_worship"
+      ],
+      "11:22": [
+        "kjv_joseph",
+        "depart:ev kjv_mention",
+        "his/bone:pl command"
+      ],
+      "11:23": [
+        "his/parent:pl three month:pl",
+        "beautiful child",
+        "afraid be:neg"
+      ],
+      "11:24": [
+        "to year:pl come:perf",
+        "kjv_pharaoh daughter son",
+        "refuse"
+      ],
+      "11:25": [
+        "with god people",
+        "than for season sin pleasure:pl"
+      ],
+      "11:26": [
+        "kjv_christ_title kjv_reproach",
+        "treasure:pl in egypt",
+        "reward recompense"
+      ],
+      "11:27": [
+        "egypt forsake",
+        "wrath fear:neg",
+        "visible:neg:adj",
+        "endure"
+      ],
+      "11:28": [
+        "kjv_passover",
+        "blood kjv_sprinkle:ev",
+        "kjv_firstborn_human",
+        "touch:should"
+      ],
+      "11:29": [
+        "kjv_red_sea",
+        "dry land",
+        "kjv_egyptian:pl do:inf try:cv",
+        "drown:psv"
+      ],
+      "11:30": [
+        "kjv_jericho wall:pl",
+        "seven day:pl",
+        "surround:psv"
+      ],
+      "11:31": [
+        "kjv_harlot kjv_rahab",
+        "believe:neg",
+        "perish:neg",
+        "spy:pl with peace"
+      ],
+      "11:32": [
+        "what more i say",
+        "kjv_gedeon_hebrews",
+        "kjv_jephthae_hebrews",
+        "kjv_david also and kjv_samuel and prophet:pl"
+      ],
+      "11:33": [
+        "kingdom:pl subdue",
+        "promise:pl obtain",
+        "lion:pl mouth:pl stop"
+      ],
+      "11:34": [
+        "fire force extinguish",
+        "weakness strong make:psv",
+        "foreign:pl army:pl to flee"
+      ],
+      "11:35": [
+        "woman:pl their/dead:pl",
+        "torture:psv",
+        "release:ev accept:neg",
+        "better kjv_resurrection"
+      ],
+      "11:36": [
+        "cruel mock:ev:pl",
+        "whip:ev:pl",
+        "kjv_tempt_trial_hebrews:ev",
+        "chain:pl and prison"
+      ],
+      "11:37": [
+        "stone:psv",
+        "kjv_saw:psv",
+        "kjv_tempt_trial_hebrews:psv",
+        "sheep skin:pl and kjv_goat skin:pl",
+        "torment:psv"
+      ],
+      "11:38": [
+        "world worthy be:neg",
+        "desert:pl",
+        "mountain:pl",
+        "kjv_den:pl and earth kjv_cave:pl"
+      ],
+      "11:39": [
+        "all through faith good report",
+        "promise receive:neg"
+      ],
+      "11:40": [
+        "god for wesg",
+        "without wesg",
+        "perfect make:psv:neg:should"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:34",
+        "11:32"
+      ],
+      "ipl": [
+        "10:16",
+        "10:17",
+        "10:30",
+        "10:5",
+        "10:7",
+        "10:9"
+      ],
+      "wesg": [
+        "10:10",
+        "10:15",
+        "10:20",
+        "10:22",
+        "10:23",
+        "10:24",
+        "10:25",
+        "10:26",
+        "10:30",
+        "10:39",
+        "11:3",
+        "11:40"
+      ],
+      "wepl": [],
+      "mypl": [
+        "10:16",
+        "10:38"
+      ],
+      "ourone": [
+        "10:22",
+        "10:23"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [
+      "11:21"
+    ],
+    "divineQuotedSelfReferences": [
+      "10:5",
+      "10:7",
+      "10:9",
+      "10:16",
+      "10:17",
+      "10:30",
+      "10:38"
+    ],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Once,one offering,first/second,two-or-three witnesses,three months and seven days retained.",
+      "Divine quoted plural-I,author personal-I and communal singular-we remain distinct;both sons of Joseph licenses physical dual.",
+      "Earlier170Hebrews verses remain exact."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "79new verses;Hebrews1–11cumulative249;whole Bible incomplete.",
+      "Body-versus-ears,faith-versus-hope,warning-versus-reassurance,staff-versus-bed and received-versus-not-received remain supplied rather than harmonized.",
+      "Three common entries,three contextual names,no new paradigms;earlier targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Hebrews — incomplete Bible working text",
+    "pages": 146,
+    "spreads": 73,
+    "units": 249,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "ab2a6c2735cbe80e7f234c39e782f85b29b0013941fd1e9217c238850fc59ec3",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 73,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.23,
+    "modules": [
+      "tests.test_kjv_hebrews_faith_and_warning",
+      "tests.test_kjv_hebrews_covenant_testament",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    145,
+    146
+  ],
+  "status": "incomplete Bible;Hebrews10–11 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 145,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv262\\preflight-hebrews\\Proofs\\page-145.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv262\\composed-hebrews\\Proofs\\page-145.png",
+        "sha256": "bc70fc1ff2497bf5ab3970499e67517d8a2a54566b09b65d08c1ccdebfaec1e9",
+        "bytesIdentical": true
+      },
+      {
+        "page": 146,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv262\\preflight-hebrews\\Proofs\\page-146.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv262\\composed-hebrews\\Proofs\\page-146.png",
+        "sha256": "ce8d3ef43972ef9360b6adb5d173c7c153a0b82dd4c79b3be68c505542c9dab1",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

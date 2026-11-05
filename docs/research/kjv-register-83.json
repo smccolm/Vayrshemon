@@ -1,0 +1,646 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.83",
+    "parentVersion": "0.10-kjv.82",
+    "parentHead": "7fe66225a4ed9259807117f886c842eb60c1f45c8567bf7683d5a2d108483cf7",
+    "head": "07a49683d62d9cea6a05003fa2dcb9bee2d6ab08b416cf520e10cefc71f13123",
+    "newLexicalEntries": 12,
+    "newProperEntries": 10,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 7,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 87,
+    "exactCompilerCases": 87,
+    "newAuthoredVerses": 87,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 655,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20146,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 87,
+    "chronicles1Verses": 655,
+    "authoredVerses": 10956,
+    "remainingVerses": 20146,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 16:7",
+        "source": "Then on that day David delivered first this psalm to thank the LORD into the hand of Asaph and his brethren.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 16:15",
+        "source": "Be ye mindful always of his covenant; the word which he commanded to a thousand generations;",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 16:20",
+        "source": "And when they went from nation to nation, and from one kingdom to another people;",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 16:38",
+        "source": "And Obededom with their brethren, threescore and eight; Obededom also the son of Jeduthun and Hosah to be porters:",
+        "expectedDecimalQuantities": [
+          68
+        ],
+        "targetQuantities": [
+          68
+        ]
+      },
+      {
+        "reference": "1 Chronicles 17:5",
+        "source": "For I have not dwelt in an house since the day that I brought up Israel unto this day; but have gone from tent to tent, and from one tabernacle to another.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 17:21",
+        "source": "And what one nation in the earth is like thy people Israel, whom God went to redeem to be his own people, to make thee a name of greatness and terribleness, by driving out nations from before thy people whom thou hast redeemed out of Egypt?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 18:4",
+        "source": "And David took from him a thousand chariots, and seven thousand horsemen, and twenty thousand footmen: David also houghed all the chariot horses, but reserved of them an hundred chariots.",
+        "expectedDecimalQuantities": [
+          1000,
+          7000,
+          20000,
+          100
+        ],
+        "targetQuantities": [
+          1000,
+          7000,
+          20000,
+          100
+        ]
+      },
+      {
+        "reference": "1 Chronicles 18:5",
+        "source": "And when the Syrians of Damascus came to help Hadarezer king of Zobah, David slew of the Syrians two and twenty thousand men.",
+        "expectedDecimalQuantities": [
+          22000
+        ],
+        "targetQuantities": [
+          22000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 18:12",
+        "source": "Moreover Abishai the son of Zeruiah slew of the Edomites in the valley of salt eighteen thousand.",
+        "expectedDecimalQuantities": [
+          18000
+        ],
+        "targetQuantities": [
+          18000
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "16:1": [
+        "kjv_ark_chest of god:a",
+        "middle of tent",
+        "burn:psv kjv_sacrifice:pl and peace kjv_offering:pl"
+      ],
+      "16:2": [
+        "offer:ev:a end:caus:pp",
+        "in name of kjv_lord bless:pa"
+      ],
+      "16:3": [
+        "each person",
+        "both man and woman",
+        "kjv_loaf of bread",
+        "piece of flesh",
+        "kjv_flagon of wine"
+      ],
+      "16:4": [
+        "serve:inf and to record:inf",
+        "thank:inf and praise:inf"
+      ],
+      "16:5": [
+        "kjv_asaph_singer chief",
+        "kjv_jeiel_musician with kjv_psaltery:pl",
+        "with kjv_cymbal:pl"
+      ],
+      "16:6": [
+        "kjv_benaiah_trumpeter",
+        "kjv_jahaziel_priest",
+        "trumpet:pl"
+      ],
+      "16:7": [
+        "first this kjv_psalm:a",
+        "hand of kjv_asaph_singer"
+      ],
+      "16:8": [
+        "thanks:a give:imp",
+        "call:imp upon",
+        "know:caus:imp"
+      ],
+      "16:9": [
+        "to he sing:imp to he kjv_psalm:pl:a sing:imp",
+        "all his/wondrous work:pl"
+      ],
+      "16:10": [
+        "kjv_exult:imp",
+        "heart of they",
+        "rejoice:opt"
+      ],
+      "16:11": [
+        "kjv_lord and his/strength:a",
+        "his/face:a"
+      ],
+      "16:12": [
+        "his/kjv_wonder:pl",
+        "judgment:pl of his/mouth"
+      ],
+      "16:13": [
+        "kjv_seedline",
+        "kjv_jacob",
+        "choose:psv person:pl"
+      ],
+      "16:14": [
+        "ourone/god",
+        "all earth"
+      ],
+      "16:15": [
+        "always remember:imp",
+        "thousand generation:pl"
+      ],
+      "16:16": [
+        "kjv_abraham",
+        "his/oath to kjv_isaac"
+      ],
+      "16:17": [
+        "to kjv_jacob for law",
+        "to kjv_israel for kjv_covenant for forever"
+      ],
+      "16:18": [
+        "to thou ipl",
+        "kjv_lot of your/inherit:ev"
+      ],
+      "16:19": [
+        "few even few",
+        "stranger:pl"
+      ],
+      "16:20": [
+        "from nation to nation",
+        "one_num kingdom"
+      ],
+      "16:21": [
+        "no man:a to they:a wrong:inf permit:pa",
+        "king:pl:a for their/sake rebuke:pa"
+      ],
+      "16:22": [
+        "mypl/anoint:psv person:pl:a touch:neg:imp",
+        "mypl/prophet:pl harm:a do:neg:imp"
+      ],
+      "16:23": [
+        "all earth",
+        "from day to day"
+      ],
+      "16:24": [
+        "kjv_heathen_peoples",
+        "all nation:pl"
+      ],
+      "16:25": [
+        "above all god:pl fear:psv:inf"
+      ],
+      "16:26": [
+        "god:pl of people idol:pl",
+        "kjv_lord heaven:pl:a make:pa"
+      ],
+      "16:27": [
+        "glory and honour",
+        "strength and glad:ev"
+      ],
+      "16:28": [
+        "you:pl kin of people",
+        "glory and strength:a"
+      ],
+      "16:29": [
+        "glory:a due to his/name",
+        "kjv_offering:a bring:imp",
+        "beauty of holy:ev"
+      ],
+      "16:30": [
+        "world also kjv_establish:psv:fu",
+        "move:psv:neg:pr:may"
+      ],
+      "16:31": [
+        "glad be:opt",
+        "rejoice:opt",
+        "kjv_lord rule:pr"
+      ],
+      "16:32": [
+        "sea roar:opt",
+        "all that it fill:pr",
+        "field:pl rejoice:opt"
+      ],
+      "16:33": [
+        "kjv_tree:pl of forest",
+        "earth:a judge:inf"
+      ],
+      "16:34": [
+        "thanks:a give:imp:excl",
+        "his/kjv_mercy forever endure:pr"
+      ],
+      "16:35": [
+        "wesg:a save:imp",
+        "ourone/salvation",
+        "wesg:a together gather:imp",
+        "wesg:a from kjv_heathen_peoples",
+        "wesg to thy/holy name",
+        "kjv_exult:pr:may"
+      ],
+      "16:36": [
+        "forever and ever bless:psv:opt",
+        "all people say:pa: amen"
+      ],
+      "16:37": [
+        "kjv_asaph_singer and his/brother:pl",
+        "as each day work require:pa"
+      ],
+      "16:38": [
+        "kjv_three+twenty and eight",
+        "kjv_obededom_jeduthun also son of kjv_jeduthun",
+        "kjv_hosah_porter"
+      ],
+      "16:39": [
+        "kjv_zadok priest",
+        "kjv_tabernacle",
+        "high place which at kjv_gibeon"
+      ],
+      "16:40": [
+        "morning and evening",
+        "all that in law of kjv_lord write:psv:pr"
+      ],
+      "16:41": [
+        "by name call:psv:pa",
+        "his/kjv_mercy forever endure:pr"
+      ],
+      "16:42": [
+        "trumpet:pl and kjv_cymbal:pl",
+        "instrument:pl of music of god",
+        "son:pl of kjv_jeduthun kjv_gatekeeper:pl"
+      ],
+      "16:43": [
+        "each man to his/house",
+        "his/house:a bless:inf"
+      ],
+      "17:1": [
+        "i in house of kjv_cedar:pl",
+        "under kjv_curtain:pl"
+      ],
+      "17:2": [
+        "all:a that in thy/heart",
+        "god with thou"
+      ],
+      "17:3": [
+        "same night",
+        "word of god to kjv_nathan_prophet"
+      ],
+      "17:4": [
+        "mypl/servant",
+        "to ipl house:a",
+        "build:neg:fu"
+      ],
+      "17:5": [
+        "ipl in house",
+        "ipl kjv_israel:a",
+        "dwell:neg:perf",
+        "one_num kjv_tabernacle"
+      ],
+      "17:6": [
+        "ipl with all kjv_israel",
+        "judge:ag:pl",
+        "mypl/people:a feed:inf",
+        "why you:pl to ipl"
+      ],
+      "17:7": [
+        "mypl/servant kjv_david",
+        "kjv_lord of army:pl",
+        "ipl thou:a from kjv_sheepcote",
+        "mypl/people"
+      ],
+      "17:8": [
+        "ipl with thou",
+        "all thy/enemy:pl:a",
+        "name:a as name of great man:pl"
+      ],
+      "17:9": [
+        "ipl place:a",
+        "mypl/people",
+        "they:a plant:fu",
+        "kjv_deplete:fu"
+      ],
+      "17:10": [
+        "ipl judge:ag:pl:a",
+        "ipl all thy/enemy:pl:a subdue:fu",
+        "ipl to thou tell:pr that kjv_lord for thou house:a build:fu"
+      ],
+      "17:11": [
+        "thy/day:pl expire:perf",
+        "with thy/father:pl",
+        "ipl thy/kjv_seedline:a",
+        "of thy/son:pl",
+        "ipl his/kingdom:a"
+      ],
+      "17:12": [
+        "he to ipl house:a build:fu",
+        "ipl his/throne:a"
+      ],
+      "17:13": [
+        "ipl his/father be:fu",
+        "he mypl/son be:fu",
+        "mypl/kjv_mercy:a",
+        "take:neg:fu away",
+        "as ipl it:a"
+      ],
+      "17:14": [
+        "ipl he:a in mypl/house and in mypl/kingdom",
+        "his/throne"
+      ],
+      "17:15": [
+        "all these word:pl",
+        "all this vision",
+        "kjv_nathan_prophet to kjv_david"
+      ],
+      "17:16": [
+        "who i be:pr",
+        "what my/house",
+        "thou i:a here"
+      ],
+      "17:17": [
+        "small thing",
+        "of house of thy/servant",
+        "estate of man of high rank"
+      ],
+      "17:18": [
+        "what kjv_david more",
+        "thou thy/servant:a know:pr"
+      ],
+      "17:19": [
+        "thy/own heart",
+        "all this great:ev",
+        "all these great thing:pl"
+      ],
+      "17:20": [
+        "none as thou",
+        "any god apart from thou",
+        "wepl with ear:pl of wepl hear:perf"
+      ],
+      "17:21": [
+        "one_num nation",
+        "his/own people",
+        "great:ev and terrible:ev",
+        "nation:pl:a",
+        "out of egypt"
+      ],
+      "17:22": [
+        "thy/own people forever",
+        "their/god become:pa"
+      ],
+      "17:23": [
+        "about thy/servant and about his/house",
+        "kjv_establish:psv:opt",
+        "as thou say:perf do:imp"
+      ],
+      "17:24": [
+        "thy/name forever great make:psv:pr:may",
+        "god of kjv_israel even god to kjv_israel",
+        "house of kjv_david"
+      ],
+      "17:25": [
+        "my/god",
+        "for he house:a build:fu",
+        "in his/heart to before thou pray:inf find:perf"
+      ],
+      "17:26": [
+        "thou god be:pr",
+        "this good:ev:a",
+        "promise:perf"
+      ],
+      "17:27": [
+        "kjv_please_satisfy:opt",
+        "forever be:pr:may",
+        "forever bless:psv:fu"
+      ],
+      "18:1": [
+        "kjv_gath and its/town:pl:a",
+        "hand of kjv_philistine:pl"
+      ],
+      "18:2": [
+        "kjv_moabite:pl servant:pl",
+        "gift:pl:a bring:pa"
+      ],
+      "18:3": [
+        "kjv_hadarezer king of kjv_zobah",
+        "kjv_hamath",
+        "his/rule:a by river kjv_euphrates"
+      ],
+      "18:4": [
+        "thousand chariot:pl",
+        "seven+thousand kjv_horseman:pl",
+        "twenty+thousand kjv_foot_soldier:pl",
+        "kjv_hough:pa",
+        "hundred chariot:pl:a reserve:pa"
+      ],
+      "18:5": [
+        "kjv_syrian:pl of kjv_damascus",
+        "twenty+thousand and two+thousand"
+      ],
+      "18:6": [
+        "kjv_garrison:pl:a in kjv_syriadamascus",
+        "servant:pl of kjv_david",
+        "kjv_lord kjv_david:a"
+      ],
+      "18:7": [
+        "kjv_shield_armour:pl:a of gold",
+        "on servant:pl of kjv_hadarezer"
+      ],
+      "18:8": [
+        "kjv_tibhath",
+        "kjv_chun",
+        "kjv_solomon kjv_sea_basin of kjv_brass",
+        "kjv_pillar:pl and vessel:pl"
+      ],
+      "18:9": [
+        "kjv_tou king of kjv_hamath",
+        "all army of kjv_hadarezer"
+      ],
+      "18:10": [
+        "kjv_hadoram_tou his/son:a",
+        "his/kjv_welfare ask:inf",
+        "kjv_congratulate:inf",
+        "kjv_hadarezer with kjv_tou war:a",
+        "gold and silver and kjv_brass"
+      ],
+      "18:11": [
+        "kjv_dedicate:pa",
+        "kjv_edom",
+        "kjv_moab",
+        "kjv_ammon",
+        "kjv_philistine:pl",
+        "kjv_amalek"
+      ],
+      "18:12": [
+        "kjv_abishai son of kjv_zeruiah",
+        "kjv_edomite:pl",
+        "valley of salt",
+        "ten+thousand and eight+thousand"
+      ],
+      "18:13": [
+        "all kjv_edomite:pl",
+        "wherever he go:pa preserve:pa"
+      ],
+      "18:14": [
+        "judgment and justice:a",
+        "all his/people"
+      ],
+      "18:15": [
+        "kjv_jehoshaphat son of kjv_ahilud kjv_record_keeper"
+      ],
+      "18:16": [
+        "kjv_abimelech_abiathar son of kjv_abiathar",
+        "kjv_shavsha kjv_scribe"
+      ],
+      "18:17": [
+        "kjv_cherethite:pl and kjv_pelethite:pl",
+        "son:pl of kjv_david chief about king"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "17:1",
+        "17:16",
+        "17:17"
+      ],
+      "ipl": [
+        "16:18",
+        "17:10",
+        "17:11",
+        "17:12",
+        "17:13",
+        "17:14",
+        "17:4",
+        "17:5",
+        "17:6",
+        "17:7",
+        "17:8",
+        "17:9"
+      ],
+      "wesg": [
+        "16:35"
+      ],
+      "wepl": [
+        "17:20"
+      ],
+      "ourone": [
+        "16:14",
+        "16:35"
+      ],
+      "mypl": [
+        "16:22",
+        "17:10",
+        "17:13",
+        "17:14",
+        "17:4",
+        "17:6",
+        "17:7",
+        "17:9"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "First psalm delivery, thousand generations, one kingdom/tabernacle/nation,68attendants,1000chariots,7000horsemen,20000infantry,100reserved chariots,22000Syrians and18000Edomites independently checked. Parallel-account differences retained."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Corporate singular-we requests gathering in16:35; plural witnesses hear in17:20. Divine plural-self can occupy a singular father relation17:13. David personal-I resumes17:16; no explicit Trinity count inferred.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 332,
+    "spreads": 166,
+    "units": 655,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "acd839b1da7cad30b255de06d29a2d15183b6fa50e18517bb442f7a8ea19f016",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 166,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.501,
+    "modules": [
+      "tests.test_kjv_chronicles_song_covenant",
+      "tests.test_kjv_chronicles_ark_order",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    331,
+    332
+  ],
+  "status": "incomplete Bible; checkpoint verified"
+}

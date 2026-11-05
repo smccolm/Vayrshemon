@@ -1,0 +1,532 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.70",
+    "parentVersion": "0.10-kjv.69",
+    "parentHead": "e5636557cef92bf0008c57fa685820556831c79703c746f287ed646157bab53b",
+    "head": "bf8a7534c3a4fe53ee6e0d8042d653b80ec917ee578b8ba8470570a314a3c461",
+    "newLexicalEntries": 26,
+    "newProperEntries": 24,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 20,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 58,
+    "exactCompilerCases": 58,
+    "newAuthoredVerses": 58,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 450,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21070,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 58,
+    "kings2Verses": 450,
+    "authoredVerses": 10032,
+    "remainingVerses": 21070,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 16,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 15:1",
+        "source": "In the twenty and seventh year of Jeroboam king of Israel began Azariah son of Amaziah king of Judah to reign.",
+        "expectedDecimalQuantities": [
+          27
+        ],
+        "targetQuantities": [
+          27
+        ]
+      },
+      {
+        "reference": "2 Kings 15:2",
+        "source": "Sixteen years old was he when he began to reign, and he reigned two and fifty years in Jerusalem. And his mother’s name was Jecholiah of Jerusalem.",
+        "expectedDecimalQuantities": [
+          16,
+          52
+        ],
+        "targetQuantities": [
+          16,
+          52
+        ]
+      },
+      {
+        "reference": "2 Kings 15:8",
+        "source": "In the thirty and eighth year of Azariah king of Judah did Zachariah the son of Jeroboam reign over Israel in Samaria six months.",
+        "expectedDecimalQuantities": [
+          38,
+          6
+        ],
+        "targetQuantities": [
+          38,
+          6
+        ]
+      },
+      {
+        "reference": "2 Kings 15:12",
+        "source": "This was the word of the LORD which he spake unto Jehu, saying, Thy sons shall sit on the throne of Israel unto the fourth generation. And so it came to pass.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "2 Kings 15:13",
+        "source": "Shallum the son of Jabesh began to reign in the nine and thirtieth year of Uzziah king of Judah; and he reigned a full month in Samaria.",
+        "expectedDecimalQuantities": [
+          39
+        ],
+        "targetQuantities": [
+          39
+        ]
+      },
+      {
+        "reference": "2 Kings 15:17",
+        "source": "In the nine and thirtieth year of Azariah king of Judah began Menahem the son of Gadi to reign over Israel, and reigned ten years in Samaria.",
+        "expectedDecimalQuantities": [
+          39,
+          10
+        ],
+        "targetQuantities": [
+          39,
+          10
+        ]
+      },
+      {
+        "reference": "2 Kings 15:19",
+        "source": "And Pul the king of Assyria came against the land: and Menahem gave Pul a thousand talents of silver, that his hand might be with him to confirm the kingdom in his hand.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "2 Kings 15:20",
+        "source": "And Menahem exacted the money of Israel, even of all the mighty men of wealth, of each man fifty shekels of silver, to give to the king of Assyria. So the king of Assyria turned back, and stayed not there in the land.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 15:23",
+        "source": "In the fiftieth year of Azariah king of Judah Pekahiah the son of Menahem began to reign over Israel in Samaria, and reigned two years.",
+        "expectedDecimalQuantities": [
+          50,
+          2
+        ],
+        "targetQuantities": [
+          50,
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 15:25",
+        "source": "But Pekah the son of Remaliah, a captain of his, conspired against him, and smote him in Samaria, in the palace of the king’s house, with Argob and Arieh, and with him fifty men of the Gileadites: and he killed him, and reigned in his room.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 15:27",
+        "source": "In the two and fiftieth year of Azariah king of Judah Pekah the son of Remaliah began to reign over Israel in Samaria, and reigned twenty years.",
+        "expectedDecimalQuantities": [
+          52,
+          20
+        ],
+        "targetQuantities": [
+          52,
+          20
+        ]
+      },
+      {
+        "reference": "2 Kings 15:30",
+        "source": "And Hoshea the son of Elah made a conspiracy against Pekah the son of Remaliah, and smote him, and slew him, and reigned in his stead, in the twentieth year of Jotham the son of Uzziah.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "2 Kings 15:32",
+        "source": "In the second year of Pekah the son of Remaliah king of Israel began Jotham the son of Uzziah king of Judah to reign.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 15:33",
+        "source": "Five and twenty years old was he when he began to reign, and he reigned sixteen years in Jerusalem. And his mother’s name was Jerusha, the daughter of Zadok.",
+        "expectedDecimalQuantities": [
+          25,
+          16
+        ],
+        "targetQuantities": [
+          25,
+          16
+        ]
+      },
+      {
+        "reference": "2 Kings 16:1",
+        "source": "In the seventeenth year of Pekah the son of Remaliah Ahaz the son of Jotham king of Judah began to reign.",
+        "expectedDecimalQuantities": [
+          17
+        ],
+        "targetQuantities": [
+          17
+        ]
+      },
+      {
+        "reference": "2 Kings 16:2",
+        "source": "Twenty years old was Ahaz when he began to reign, and reigned sixteen years in Jerusalem, and did not that which was right in the sight of the LORD his God, like David his father.",
+        "expectedDecimalQuantities": [
+          20,
+          16
+        ],
+        "targetQuantities": [
+          20,
+          16
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "15:1": [
+        "twenty and seven:ord",
+        "kjv_azariah_amaziah"
+      ],
+      "15:2": [
+        "sixteen year:pl old",
+        "two and fifty year:pl",
+        "kjv_jecholiah"
+      ],
+      "15:3": [
+        "right be:pa",
+        "kjv_amaziah_joash do:pp"
+      ],
+      "15:4": [
+        "except that",
+        "high place:pl remove:psv:pa not"
+      ],
+      "15:5": [
+        "of kjv_leprosy man",
+        "separate:psv house",
+        "kjv_jotham_azariah",
+        "judge:cv"
+      ],
+      "15:6": [
+        "chronicle:pl of king:pl of kjv_judah"
+      ],
+      "15:7": [
+        "city of kjv_david",
+        "his/son kjv_jotham_azariah"
+      ],
+      "15:8": [
+        "kjv_three+ten and eight:ord",
+        "kjv_zachariah_jeroboam",
+        "six month:pl"
+      ],
+      "15:9": [
+        "kjv_jeroboam son of kjv_nebat"
+      ],
+      "15:10": [
+        "kjv_shallum_jabesh son of kjv_jabesh_shallum",
+        "before people"
+      ],
+      "15:11": [
+        "behold they",
+        "write:psv:pr."
+      ],
+      "15:12": [
+        "kjv_jehu_nimshi",
+        "four:ord generation",
+        "so it happen:pa"
+      ],
+      "15:13": [
+        "nine and kjv_three+ten:ord",
+        "kjv_uzziah_amaziah",
+        "full month"
+      ],
+      "15:14": [
+        "kjv_menahem son of kjv_gadi",
+        "from kjv_tirzah",
+        "kjv_shallum_jabesh"
+      ],
+      "15:15": [
+        "his/conspiracy"
+      ],
+      "15:16": [
+        "kjv_tiphsah",
+        "its/boundary:pl",
+        "open:pa not",
+        "woman:pl:a",
+        "with child be:pa he kjv_rend:pa up"
+      ],
+      "15:17": [
+        "nine and kjv_three+ten:ord",
+        "kjv_azariah_amaziah",
+        "ten year:pl"
+      ],
+      "15:18": [
+        "all his/day:pl",
+        "depart:pa not"
+      ],
+      "15:19": [
+        "kjv_pul",
+        "thousand kjv_talent_weight:pl of silver",
+        "kingdom:a in his/hand confirm:inf"
+      ],
+      "15:20": [
+        "money:a of kjv_israel kjv_menahem demand:pa",
+        "of each man fifty kjv_shekel:pl",
+        "stay:pa not"
+      ],
+      "15:21": [
+        "kjv_menahem",
+        "chronicle:pl"
+      ],
+      "15:22": [
+        "his/son kjv_pekahiah"
+      ],
+      "15:23": [
+        "fifty:ord year",
+        "two year:pl"
+      ],
+      "15:24": [
+        "kjv_jeroboam son of kjv_nebat"
+      ],
+      "15:25": [
+        "kjv_pekah son of kjv_remaliah",
+        "kjv_argob_person and kjv_arieh",
+        "fifty men of kjv_gileadite:pl"
+      ],
+      "15:26": [
+        "kjv_pekahiah",
+        "behold they"
+      ],
+      "15:27": [
+        "two and fifty:ord",
+        "twenty year:pl"
+      ],
+      "15:28": [
+        "depart:pa not"
+      ],
+      "15:29": [
+        "kjv_tiglathpileser",
+        "kjv_ijon",
+        "kjv_abelbethmaachah",
+        "kjv_janoah",
+        "kjv_kedesh",
+        "kjv_hazor",
+        "kjv_gilead",
+        "kjv_galilee",
+        "kjv_naphtali",
+        "captive carry:pa"
+      ],
+      "15:30": [
+        "kjv_hoshea_elah son of kjv_elah_hoshea",
+        "twenty:ord year of kjv_jotham_azariah"
+      ],
+      "15:31": [
+        "kjv_pekah",
+        "behold they"
+      ],
+      "15:32": [
+        "two:ord year",
+        "kjv_jotham_azariah son of kjv_uzziah_amaziah"
+      ],
+      "15:33": [
+        "five and twenty year:pl old",
+        "sixteen year:pl",
+        "kjv_jerusha daughter of kjv_zadok_jerusha"
+      ],
+      "15:34": [
+        "kjv_uzziah_amaziah do:pp"
+      ],
+      "15:35": [
+        "higher gate",
+        "kjv_incense"
+      ],
+      "15:36": [
+        "king:pl of kjv_judah"
+      ],
+      "15:37": [
+        "kjv_rezin king of kjv_syria",
+        "kjv_pekah son of kjv_remaliah:a",
+        "kjv_lord begin:pa"
+      ],
+      "15:38": [
+        "his/son kjv_ahaz_jotham"
+      ],
+      "16:1": [
+        "seventeen:ord year",
+        "kjv_ahaz_jotham son of kjv_jotham_azariah"
+      ],
+      "16:2": [
+        "twenty year:pl old",
+        "sixteen year:pl",
+        "kjv_lord his/god"
+      ],
+      "16:3": [
+        "his/son:a through fire pass:caus:pa",
+        "kjv_abomination:pl of kjv_heathen"
+      ],
+      "16:4": [
+        "each green kjv_tree"
+      ],
+      "16:5": [
+        "kjv_rezin",
+        "kjv_pekah",
+        "overcome:inf can:pa not"
+      ],
+      "16:6": [
+        "kjv_elath:a to kjv_syria",
+        "kjv_jew:pl:a",
+        "kjv_syrian:pl to kjv_elath"
+      ],
+      "16:7": [
+        "ipl thy/servant and thy/son",
+        "ipl:a save:imp",
+        "against ipl"
+      ],
+      "16:8": [
+        "as gift",
+        "king of kjv_assyria"
+      ],
+      "16:9": [
+        "captive to kjv_kir",
+        "kjv_rezin:a slay:pa"
+      ],
+      "16:10": [
+        "of altar form and its/pattern:a",
+        "craft work"
+      ],
+      "16:11": [
+        "by time king kjv_ahaz_jotham",
+        "come:pa"
+      ],
+      "16:12": [
+        "approach:pa",
+        "upon it offer:pa"
+      ],
+      "16:13": [
+        "his/kjv_meat_offering",
+        "pour:pa",
+        "kjv_sprinkle:pa"
+      ],
+      "16:14": [
+        "of kjv_brass altar:a",
+        "between altar and house",
+        "kjv_north side"
+      ],
+      "16:15": [
+        "morning burn:psv kjv_offering",
+        "evening kjv_meat_offering",
+        "all people of land",
+        "for i by it kjv_consult:inf"
+      ],
+      "16:16": [
+        "all that king kjv_ahaz_jotham command:pa"
+      ],
+      "16:17": [
+        "of base:pl kjv_border:pl:a",
+        "kjv_laver:a remove:pa",
+        "of kjv_brass ox:pl",
+        "kjv_pavement"
+      ],
+      "16:18": [
+        "kjv_sabbath_covert",
+        "king kjv_entryway without",
+        "for king of kjv_assyria"
+      ],
+      "16:19": [
+        "king:pl of kjv_judah"
+      ],
+      "16:20": [
+        "his/son kjv_hezekiah_ahaz"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "A full month has no invented day count; six months remains distinct from years.",
+      "Thousand silver talents is total payment; fifty shekels is per wealthy man; fifty Gileadites is a separate count.",
+      "Jotham year20and16-year reign are retained without harmonization; other reign and age quantities remain separate."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Royal representative plural-I submission and personal reserved inquiry remain distinct; uncertain palace with-clauses and temple structural changes are not overresolved.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 366,
+    "spreads": 183,
+    "units": 450,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "0f3fc2db22b9426f64025e15fd0b38f7daff673643fe8064e42977461ee62967",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 183,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 732,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 10.397,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_subjection",
+      "tests.test_kjv_kings_limited_rescue",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      365,
+      366
+    ],
+    "observations": "Viewed final spread; approved Maxima, four column styles, margins, corresponding paragraph starts and outside Unta retained."
+  },
+  "status": "incomplete whole Bible"
+}

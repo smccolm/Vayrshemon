@@ -10,6 +10,7 @@ import sys
 import time
 import unittest
 import uuid
+from unittest.mock import patch
 import xml.etree.ElementTree as ET
 import numpy as np
 from PIL import Image,ImageFont,ImageDraw
@@ -277,10 +278,49 @@ class StudioTests(unittest.TestCase):
         self.assertIn('PAINT_LAYER_CMAP_MISMATCH',str(result))
 
     def test_preflight_reports_changed_font_without_rendering_it(self):
-        self.bind();path=self.work/'synthetic.ttf';path.write_bytes(path.read_bytes()+b'changed')
+        self.bind();self.book.composition('color')
+        path=self.work/'synthetic.ttf';path.write_bytes(path.read_bytes()+b'changed')
         report=self.call('publication.preflight',format='pdf',mode='color',dpi=300,raster_policy='raster')
         self.assertFalse(report['ok']);self.assertIn('MISSING_OR_CHANGED_FONT',[i['code'] for i in report['issues']])
         self.assertIsNone(report['pages'][0]['geometryHash'])
+
+    def test_paint_geometry_reuse_preserves_pixels_and_recipe_changes(self):
+        from vayrshemon.paint import Renderer
+        from vayrshemon.publication import raster
+        self.bind();page=self.book.current_page();renderer=self.book.paint_renderer
+        def pixels():
+            image=raster(self.book,page,'color',144)
+            return bytes(image.constBits())
+        initial=pixels()
+        warm=renderer.geometry_info()
+        self.book.invalidate_composition()
+        self.assertEqual(pixels(),initial)
+        self.assertGreater(renderer.geometry_info()['hits'],warm['hits'])
+        self.assertEqual(renderer.geometry_info()['misses'],warm['misses'])
+        self.call('paint.configure',glowRadius=.04,rim='#ad7523')
+        changed=pixels()
+        self.assertNotEqual(changed,initial)
+        self.book.paint_renderer=Renderer(self.book);self.book.invalidate_composition()
+        with patch('vayrshemon.paint.GEOMETRY_BYTES',0):
+            fresh=pixels()
+        self.assertEqual(changed,fresh)
+        self.assertEqual(self.book.paint_renderer.geometry_info()['entries'],0)
+
+    def test_paint_geometry_is_bounded_and_return_values_are_independent(self):
+        self.bind();renderer=self.book.paint_renderer;binding=renderer.binding(self.fid)
+        paths=renderer.paths(binding,2,50);original=paths[0].boundingRect()
+        paths[0].translate(100,100)
+        self.assertEqual(renderer.paths(binding,2,50)[0].boundingRect(),original)
+        bounds=renderer.bounds(binding,2,50);bounds.translate(100,100)
+        self.assertNotEqual(renderer.bounds(binding,2,50),bounds)
+        registration=renderer.registration(binding,2,50,(20,30));registration['layers'][0]['origin'][0]=999
+        self.assertEqual(renderer.registration(binding,2,50)['layers'][0]['origin'],[0.,0.])
+        renderer.geometry_cache.clear();renderer.geometry_bytes=0
+        with patch('vayrshemon.paint.GEOMETRY_BYTES',10000),patch('vayrshemon.paint.GEOMETRY_ENTRIES',2):
+            for em in range(30,40):renderer.registration(binding,2,em)
+            info=renderer.geometry_info()
+            self.assertLessEqual(info['entries'],2);self.assertLessEqual(info['estimatedBytes'],10000)
+            self.assertGreater(info['evictions'],0)
 
     def test_export_rejection_atomicity_svg_pdf_and_physical_size(self):
         self.bind()

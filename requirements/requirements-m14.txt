@@ -3,3 +3,5 @@
 -r requirements-m13.txt
 # PDF initial single/facing view and page labels, preserving Qt page content.
 pypdf==6.21.2
+# Native-book schema validation; retain the same Draft 2020-12 contracts.
+jsonschema-rs==0.60.0

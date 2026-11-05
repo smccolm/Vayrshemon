@@ -28,6 +28,8 @@ class SpreadSVGTests(unittest.TestCase):
         self.root=ROOT/'.local/test-svg-spread'/uuid.uuid4().hex
         shutil.copytree(ROOT/'schemas',self.root/'schemas');shutil.copytree(ROOT/'data',self.root/'data')
         self.book=FileSession(self.root,source_fonts=False,recovery=False);self.api=FileAPI(self.book)
+        # This proof fixture tests the user's explicit unnumbered choice.
+        self.call('page.numbering.configure',enabled=False)
         font=self.root/'synthetic.ttf';make_font(font)
         self.fid=self.call('fonts.load',path=str(font))['fontId'];self.ids=[]
         for i in range(2):

@@ -1,0 +1,736 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.128",
+    "parentVersion": "0.10-kjv.127",
+    "parentHead": "04743298a129b987cc2b8220c2b305d82ac5643639e1150e54135f03e428c447",
+    "head": "c6ece27bf4a093f96029eb0882f0c9d98c550e382c206125e4554341d6a849d1",
+    "newLexicalEntries": 2,
+    "newProperEntries": 0,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 108,
+    "exactCompilerCases": 108,
+    "newAuthoredVerses": 108,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 13516,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEcclesiastesVerses": 108,
+    "ecclesiastesVerses": 222,
+    "authoredVerses": 17586,
+    "remainingVerses": 13516,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "Ecclesiastes 7:19",
+        "source": "Wisdom strengtheneth the wise more than ten mighty men which are in the city.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 7:27",
+        "source": "Behold, this have I found, saith the preacher, counting one by one, to find out the account:",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 7:28",
+        "source": "Which yet my soul seeketh, but I find not: one man among a thousand have I found; but a woman among all those have I not found.",
+        "expectedDecimalQuantities": [
+          1,
+          1000
+        ],
+        "targetQuantities": [
+          1,
+          1000
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 8:12",
+        "source": "Though a sinner do evil an hundred times, and his days be prolonged, yet surely I know that it shall be well with them that fear God, which fear before him:",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 9:2",
+        "source": "All things come alike to all: there is one event to the righteous, and to the wicked; to the good and to the clean, and to the unclean; to him that sacrificeth, and to him that sacrificeth not: as is the good, so is the sinner; and he that sweareth, as he that feareth an oath.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 9:3",
+        "source": "This is an evil among all things that are done under the sun, that there is one event unto all: yea, also the heart of the sons of men is full of evil, and madness is in their heart while they live, and after that they go to the dead.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 9:18",
+        "source": "Wisdom is better than weapons of war: but one sinner destroyeth much good.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 11:2",
+        "source": "Give a portion to seven, and also to eight; for thou knowest not what evil shall be upon the earth.",
+        "expectedDecimalQuantities": [
+          7,
+          8
+        ],
+        "targetQuantities": [
+          7,
+          8
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 12:11",
+        "source": "The words of the wise are as goads, and as nails fastened by the masters of assemblies, which are given from one shepherd.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "7:1": [
+        "good name better than precious kjv_ointment",
+        "day of death than day of human birth"
+      ],
+      "7:2": [
+        "house of mourn:ev",
+        "house of feast:ev",
+        "end of all human:pl"
+      ],
+      "7:3": [
+        "sorrow better than laughter",
+        "heart better:caus:psv:pr"
+      ],
+      "7:4": [
+        "heart of wise",
+        "house of mirth"
+      ],
+      "7:5": [
+        "rebuke:a of wise",
+        "song:a of fool:pl"
+      ],
+      "7:6": [
+        "kjv_crackle of thorn:pl under kjv_pot",
+        "laughter of fool"
+      ],
+      "7:7": [
+        "oppress:ev wise human:a mad:caus:pr",
+        "gift heart:a destroy:pr"
+      ],
+      "7:8": [
+        "end of thing better than its/beginning",
+        "patient in spirit better than proud in spirit"
+      ],
+      "7:9": [
+        "haste:adj be:neg:imp",
+        "anger in bosom of fool:pl rest:pr"
+      ],
+      "7:10": [
+        "former day:pl better than these",
+        "wise:adv ask:neg:pr"
+      ],
+      "7:11": [
+        "wisdom with inheritance good",
+        "they who sun:a see:pr"
+      ],
+      "7:12": [
+        "wisdom defence",
+        "money defence",
+        "life:a give:pr"
+      ],
+      "7:13": [
+        "work:a of god",
+        "he crooked:caus:perf straight:caus:can?"
+      ],
+      "7:14": [
+        "day of prosper:ev",
+        "day of kjv_adversity",
+        "human nothing after he find:should"
+      ],
+      "7:15": [
+        "i in day:pl of my/vanity",
+        "kjv_righteous:ev perish:pr",
+        "wicked:ev long:caus:pr"
+      ],
+      "7:16": [
+        "kjv_righteous over much be:neg:imp",
+        "thyself:a destroy:should?"
+      ],
+      "7:17": [
+        "over much wicked be:neg:imp",
+        "before thy/time die:should?"
+      ],
+      "7:18": [
+        "from this thine hand:a withdraw:neg:imp",
+        "out of all of they come:fu"
+      ],
+      "7:19": [
+        "ten mighty human:pl who in city"
+      ],
+      "7:20": [
+        "kjv_righteous human who good:a do:pr and sin:neg:pr be:neg:pr"
+      ],
+      "7:21": [
+        "all word:pl:a which speak:psv:pr heed:neg:imp",
+        "thy/servant:a thee:a curse:inf"
+      ],
+      "7:22": [
+        "thou thyself likewise other:pl:a curse:perf"
+      ],
+      "7:23": [
+        "i by wisdom test:perf",
+        "i wise be:fu",
+        "far from i"
+      ],
+      "7:24": [
+        "far off and very deep",
+        "who it:a out find:can?"
+      ],
+      "7:25": [
+        "mine/heart:a",
+        "wisdom:a and reason:a of thing:pl",
+        "wicked:ev:a of folly"
+      ],
+      "7:26": [
+        "woman:a whose heart snare:pl and kjv_net:pl",
+        "her/hand:pl as fetter:pl",
+        "sin:ag by she take:psv:fu"
+      ],
+      "7:27": [
+        "one_num by one_num kjv_number:cv",
+        "account:a out find:inf"
+      ],
+      "7:28": [
+        "one_num kjv_male human:a among thousand",
+        "woman:a among all those i find:neg:perf"
+      ],
+      "7:29": [
+        "god human:a kjv_upright make:perf",
+        "they many invention:pl:a out seek:perf"
+      ],
+      "8:1": [
+        "interpret:ev:a of thing",
+        "his/face:a shine:caus:pr",
+        "bold:ev of his/face change:psv:fu"
+      ],
+      "8:2": [
+        "i thee:a king command:a keep:inf counsel:pr",
+        "oath of god"
+      ],
+      "8:3": [
+        "stand:neg:imp",
+        "whatever he:a kjv_please_satisfy:pr do:pr"
+      ],
+      "8:4": [
+        "word of king",
+        "what thou do:pr say:may?"
+      ],
+      "8:5": [
+        "command:a keep:pr",
+        "time:a and judgment:a distinguish:pr"
+      ],
+      "8:6": [
+        "every purpose time and judgment",
+        "misery of human"
+      ],
+      "8:7": [
+        "that which be:fu know:neg:pr",
+        "when it be:fu tell:can?"
+      ],
+      "8:8": [
+        "power:a over spirit to spirit:a keep:inf",
+        "release:ev in that war be:neg:pr",
+        "wicked:ev they:a"
+      ],
+      "8:9": [
+        "i see:perf",
+        "human over another to his/own hurt:ev rule:pr"
+      ],
+      "8:10": [
+        "wicked:a bury:psv:adj",
+        "forget:psv:pa",
+        "this also vanity"
+      ],
+      "8:11": [
+        "judgment against evil work quickly perform:psv:neg:pr",
+        "fully to evil:a do:inf"
+      ],
+      "8:12": [
+        "hundred time:pl",
+        "i that it with they who god:a fear:pr"
+      ],
+      "8:13": [
+        "his/day:pl:a which as shadow",
+        "long:caus:fu",
+        "fear:neg:pr"
+      ],
+      "8:14": [
+        "according_to work of wicked",
+        "according_to work of kjv_righteous",
+        "i that this also vanity"
+      ],
+      "8:15": [
+        "i mirth:a commend:pa",
+        "eat:inf and drink:inf and merry be:inf",
+        "god under sun to he give:pr"
+      ],
+      "8:16": [
+        "neither by day nor by night",
+        "his/eye:pl sleep:a see:pr"
+      ],
+      "8:17": [
+        "all work:a of god",
+        "find:neg:can",
+        "find:neg:fu",
+        "wise human"
+      ],
+      "9:1": [
+        "i in my/heart consider:pa",
+        "their/work:pl in hand of god",
+        "no human either love:a or hate:ev:a"
+      ],
+      "9:2": [
+        "one_num event",
+        "to clean and to unclean",
+        "kjv_sacrifice:neg:pr",
+        "oath:a fear:pr"
+      ],
+      "9:3": [
+        "one_num event to all",
+        "madness in their/heart while they live:pr",
+        "they to dead go:pr"
+      ],
+      "9:4": [
+        "living dog better than dead lion"
+      ],
+      "9:5": [
+        "dead any thing:a know:neg:pr",
+        "memory of they forget:psv:pr"
+      ],
+      "9:6": [
+        "their/love and their/hate:ev and their/kjv_envy",
+        "share:ev:a for ever",
+        "under sun"
+      ],
+      "9:7": [
+        "thy/bread:a with joy",
+        "thy/wine:a with merry heart",
+        "god now thy/work:pl:a accept:pr"
+      ],
+      "9:8": [
+        "garment:pl always white",
+        "no kjv_ointment:a lack:imp"
+      ],
+      "9:9": [
+        "wife whom thou love:pr",
+        "all day:pl of life of thy/vanity",
+        "all day:pl of thy/vanity"
+      ],
+      "9:10": [
+        "no work nor device nor knowledge nor wisdom in grave",
+        "to which thou go:pr"
+      ],
+      "9:11": [
+        "kjv_race to swift be:neg:pr",
+        "battle to strong",
+        "bread to wise",
+        "rich:ev to human:pl of understanding",
+        "favour to human:pl of skill",
+        "time and chance"
+      ],
+      "9:12": [
+        "fish:pl who in evil kjv_net",
+        "bird:pl who in snare",
+        "suddenly upon they"
+      ],
+      "9:13": [
+        "this wisdom:a i",
+        "to i great seem:pa"
+      ],
+      "9:14": [
+        "little city",
+        "few human:pl",
+        "great king",
+        "great kjv_bulwark:pl:a"
+      ],
+      "9:15": [
+        "poor wise human",
+        "city:a deliver:pa",
+        "no human that same poor human:a remember:pa"
+      ],
+      "9:16": [
+        "wisdom better than strength",
+        "wisdom of poor human despise:psv:pr",
+        "his/word:pl hear:psv:neg:pr"
+      ],
+      "9:17": [
+        "in quiet hear:psv:pr",
+        "cry of he who among fool:pl rule:pr"
+      ],
+      "9:18": [
+        "weapon:pl of war",
+        "one_num sin:ag much good:a destroy:pr"
+      ],
+      "10:1": [
+        "dead fly:pl",
+        "kjv_ointment:a of kjv_apothecary",
+        "stink:adj smell:ev:a",
+        "little folly"
+      ],
+      "10:2": [
+        "his/kjv_right_side",
+        "his/left"
+      ],
+      "10:3": [
+        "his/wisdom he:a fail:pr",
+        "to every human that he fool"
+      ],
+      "10:4": [
+        "spirit of ruler",
+        "thy/place:a leave:neg:imp",
+        "yield:ev great transgress:ev:pl:a kjv_calm:caus:pr"
+      ],
+      "10:5": [
+        "i under sun see:perf",
+        "error which from ruler"
+      ],
+      "10:6": [
+        "folly in great dignity",
+        "rich in low place"
+      ],
+      "10:7": [
+        "i servant:pl:a upon horse:pl",
+        "prince:pl:a as servant:pl upon earth walk:adj"
+      ],
+      "10:8": [
+        "kjv_pit:a kjv_dig:pr",
+        "hedge:a break:pr",
+        "serpent he:a kjv_bite:fu"
+      ],
+      "10:9": [
+        "stone:pl:a remove:pr",
+        "wood:a split:pr",
+        "danger:caus:psv:fu"
+      ],
+      "10:10": [
+        "iron sharp:neg:adj",
+        "edge:a sharp:caus:neg:pr",
+        "more strength:a",
+        "wisdom to direct:inf benefit:adj"
+      ],
+      "10:11": [
+        "without enchantment kjv_bite:fu",
+        "kjv_babble:ag better be:neg:pr"
+      ],
+      "10:12": [
+        "wise human mouth gracious",
+        "lip:pl of fool himself:a up kjv_swallow:fu"
+      ],
+      "10:13": [
+        "beginning of word:pl",
+        "kjv_mischief:adj madness"
+      ],
+      "10:14": [
+        "full of word:pl",
+        "what be:fu tell:neg:can",
+        "who to he tell:can?"
+      ],
+      "10:15": [
+        "every human of they:a",
+        "to city go:inf know:neg:pr"
+      ],
+      "10:16": [
+        "woe to thee land:excl",
+        "thy/king child",
+        "thy/prince:pl in morning eat:pr"
+      ],
+      "10:17": [
+        "land:excl",
+        "son of noble:pl",
+        "due season for strength and not for drunk:ev"
+      ],
+      "10:18": [
+        "build:ev rot:pr",
+        "house water:a through drop:pr"
+      ],
+      "10:19": [
+        "feast for laughter",
+        "wine merry:caus:pr",
+        "money all thing:pl:a answer:pr"
+      ],
+      "10:20": [
+        "king:a curse:neg:imp",
+        "thy/sleep:ev chamber",
+        "bird of air voice:a carry:fu",
+        "wing:pl:a have:pr"
+      ],
+      "11:1": [
+        "thy/bread:a upon water:pl cast:imp",
+        "after many day:pl find:fu"
+      ],
+      "11:2": [
+        "to seven",
+        "also to eight",
+        "what evil upon earth"
+      ],
+      "11:3": [
+        "full of rain",
+        "kjv_south or to kjv_north",
+        "there it be:fu"
+      ],
+      "11:4": [
+        "wind:a observe:pr kjv_sow:neg:fu",
+        "cloud:pl:a regard:pr reap:neg:fu"
+      ],
+      "11:5": [
+        "way of spirit",
+        "bone:pl in womb",
+        "work:pl:a of god"
+      ],
+      "11:6": [
+        "morning thy/seed:a kjv_sow:imp",
+        "evening thine hand:a withhold:neg:imp",
+        "both of they same:adv good"
+      ],
+      "11:7": [
+        "light sweet",
+        "eye:pl sun:a behold:inf"
+      ],
+      "11:8": [
+        "many year:pl live:pr",
+        "day:pl of darkness:a remember:imp",
+        "all that come:pr vanity"
+      ],
+      "11:9": [
+        "young human:excl",
+        "thy/heart thee:a",
+        "god thee:a into judgment"
+      ],
+      "11:10": [
+        "sorrow:a from thy/heart",
+        "evil:a from thy/flesh",
+        "childhood and youth vanity"
+      ],
+      "12:1": [
+        "thy/create:ag:a",
+        "i no pleasure:a in they"
+      ],
+      "12:2": [
+        "sun or light or moon or star:pl",
+        "cloud:pl after rain return:pr"
+      ],
+      "12:3": [
+        "keeper:pl of house tremble:fu",
+        "themselves:a bow:fu",
+        "kjv_grind:ag:pl cease:pr",
+        "window:pl look:pr"
+      ],
+      "12:4": [
+        "sound of kjv_grind:ev low",
+        "voice of bird",
+        "daughter:pl of music"
+      ],
+      "12:5": [
+        "kjv_almond kjv_tree",
+        "kjv_grasshopper burden",
+        "desire fail:fu",
+        "his/long home",
+        "mourn:ag:pl around"
+      ],
+      "12:6": [
+        "before silver kjv_cord",
+        "gold:adj bowl",
+        "kjv_pitcher at fountain",
+        "wheel at kjv_cistern"
+      ],
+      "12:7": [
+        "dust to earth",
+        "spirit to god who it:a give:pa return:fu"
+      ],
+      "12:8": [
+        "vanity of vanity:pl kjv_preacher say:pr"
+      ],
+      "12:9": [
+        "he still to people knowledge:a teach:pa",
+        "many proverb:pl:a in order set:pa"
+      ],
+      "12:10": [
+        "acceptable word:pl:a",
+        "write:psv:pa kjv_upright",
+        "word:pl of truth"
+      ],
+      "12:11": [
+        "kjv_goad:pl",
+        "kjv_fasten:psv:adj",
+        "master:pl of kjv_assembly:pl",
+        "one_num shepherd"
+      ],
+      "12:12": [
+        "my/son:excl instruction:a receive:imp",
+        "many book:pl:a make:ev end be:neg:pr",
+        "study weary:ev of flesh"
+      ],
+      "12:13": [
+        "wesg conclude:ev:a of whole matter hear:opt",
+        "god:a fear:imp",
+        "whole duty of human"
+      ],
+      "12:14": [
+        "god every work:a into judgment",
+        "every secret thing",
+        "good be:pr or whether it evil"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:5",
+        "10:7",
+        "12:1",
+        "7:15",
+        "7:23",
+        "7:25",
+        "7:26",
+        "7:27",
+        "7:28",
+        "7:29",
+        "8:10",
+        "8:12",
+        "8:14",
+        "8:15",
+        "8:16",
+        "8:17",
+        "8:2",
+        "8:9",
+        "9:1",
+        "9:11",
+        "9:13",
+        "9:16"
+      ],
+      "ipl": [],
+      "wesg": [
+        "12:13"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Ten mighty people7:19,one-by-one7:27,one man among1000in7:28,and100offenses8:12remain supplied rhetorical/hypothetical quantities.",
+      "One common event9:2–3and one sinner9:18are explicit;seven and eight11:2are separate gift recipients,not summed15;one shepherd12:11is not a deity-member tally."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ecclesiastes7–12adds108verses,completing all222;wholeBibleincomplete.",
+      "Personal-I remains the historical observer and quoted older self12:1;singular-we12:13is shared hearing;no new divine plural-I or physical dual.",
+      "Tensions retained:death and life preferences,righteous suffering and wicked prosperity,limits and value of wisdom,spirit question3:21and return12:7.",
+      "Gender/status claims remain attributed historical claims;retained KJV forgotten8:10,babbler10:11,grasshopper12:5and duty12:13.",
+      "Aging metaphors remain images without forced anatomical decoding;two common terms distinguish crackling from splitting and footrace from ethnicity.",
+      "No compiler/paradigm changes or inherited target repairs;all previous targets and seals unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ecclesiastes — incomplete Bible working text",
+    "pages": 140,
+    "spreads": 70,
+    "units": 222,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d420d4c11a9fa5925ffa91a9d6beec1ac0cb8e5477df6c7d30907ccea2876b70",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 70,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.874,
+    "modules": [
+      "tests.test_kjv_ecclesiastes_conclusion",
+      "tests.test_kjv_ecclesiastes_inquiry",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    139,
+    140
+  ],
+  "status": "incompleteBible;Ecclesiastes1–12sectioncheckpointverified"
+}

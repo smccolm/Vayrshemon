@@ -1,8 +1,8 @@
 """M6 navigation, visible background proof jobs, portable backup controls."""
-import json
+import json,time
 from PySide6.QtCore import QTimer,Qt
 from PySide6.QtGui import QAction,QKeySequence
-from PySide6.QtWidgets import QHBoxLayout,QLabel,QFileDialog,QPlainTextEdit,QButtonGroup
+from PySide6.QtWidgets import QHBoxLayout,QLabel,QFileDialog,QPlainTextEdit,QButtonGroup,QProgressBar
 from .language_window import LanguageWindow
 from .proof_names import suggested_proof_path
 
@@ -30,6 +30,16 @@ class ReliabilityWindow(LanguageWindow):
         self.job_output=QPlainTextEdit();self.job_output.setReadOnly(True);self.job_output.setAccessibleName('Proof jobs and backup status');self.job_output.setMinimumHeight(180);form.addRow(self.job_output)
         form.addRow(self.button('Cancel current proof',self.cancel_job))
         self.note(form,'Select: click a frame to edit. Hand: drag the page. Ctrl+Alt+H / Ctrl+Alt+V work anywhere. With preview focus: H / V, hold Space to pan, arrows to move, Home to center. Typing in text fields keeps these characters.')
+        self.export_progress=QLabel();self.export_progress.setAccessibleName('Export progress')
+        self.export_progress.setStyleSheet('color: white;')
+        self.statusBar().addPermanentWidget(self.export_progress);self.export_progress.hide()
+        self.export_progress_bar=QProgressBar();self.export_progress_bar.setAccessibleName('Export completion')
+        self.export_progress_bar.setFixedWidth(180);self.export_progress_bar.setRange(0,100)
+        self.export_progress_bar.setToolTip('Page processing progress; final PDF checks follow before the file is published.')
+        self.statusBar().addPermanentWidget(self.export_progress_bar);self.export_progress_bar.hide()
+        self.export_cancel=self.button('Cancel',self.cancel_job);self.export_cancel.setAccessibleName('Cancel export')
+        self.export_cancel.setToolTip('Cancel this background export; keep the document and existing files.')
+        self.statusBar().addPermanentWidget(self.export_cancel);self.export_cancel.hide()
         self.job_timer=QTimer(self);self.job_timer.setInterval(500);self.job_timer.timeout.connect(self.poll_jobs);self.job_timer.start()
         self._job_signature=None;self.refresh()
         from .sidebar import SidebarDock
@@ -77,7 +87,20 @@ class ReliabilityWindow(LanguageWindow):
                 self.statusBar().showMessage('Proof rendering in background. Reliability panel shows progress and Cancel.');self.poll_jobs()
 
     def poll_jobs(self):
+        if getattr(self,'_preparing_export',False):return
         value=self.book.jobs.status();signature=json.dumps(dict(lastBackup=self.book.last_backup,backupError=self.book.backup_error,**value),sort_keys=True)
+        running=next((job for job in value['jobs'] if job['status']=='running'),None)
+        self.export_progress.setVisible(running is not None)
+        self.export_progress_bar.setVisible(running is not None);self.export_cancel.setVisible(running is not None)
+        if running:
+            self.export_cancel.setEnabled(True)
+            percent=running['progress'].get('percent')
+            self.export_progress_bar.setRange(0,100 if percent is not None else 0)
+            if percent is not None:self.export_progress_bar.setValue(percent)
+            elapsed=max(0,int(time.time()-running['started']));minutes,seconds=divmod(elapsed,60)
+            kind=running['path'].rsplit('.',1)[-1].upper()
+            self.export_progress.setText(f"{kind} · {running['progress']['phase']} · {minutes}:{seconds:02d} elapsed")
+            self.export_progress.setToolTip(running['path'])
         if signature!=self._job_signature:
             old=self._job_signature;self._job_signature=signature
             backup=self.book.last_backup
@@ -92,6 +115,15 @@ class ReliabilityWindow(LanguageWindow):
             if old and value['jobs']:
                 job=value['jobs'][-1]
                 if job['status']!='running': self.statusBar().showMessage('Proof '+job['status']+': '+job.get('error',' · '.join(o['path'] for o in job.get('outputs',[])) or job['path'])+(' · from an earlier revision' if job['stale'] else ''),20000)
+
+    def prepare_export_progress(self):
+        from PySide6.QtCore import QEventLoop
+        from PySide6.QtWidgets import QApplication
+        self._preparing_export=True
+        self.export_progress.setText('PDF · preparing document snapshot');self.export_progress.show()
+        self.export_progress_bar.setRange(0,0);self.export_progress_bar.show()
+        self.export_cancel.setEnabled(False);self.export_cancel.show()
+        QApplication.processEvents(QEventLoop.ProcessEventsFlag.ExcludeUserInputEvents)
 
     def cancel_job(self):
         for job in self.book.jobs.status()['jobs']:

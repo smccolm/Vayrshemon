@@ -271,7 +271,7 @@ os._exit(73)
     def test_failed_checkpoint_reports_last_durable_revision(self):
         self.write('durable'); old=self.book.durable_revision
         previous=self.book.recovery_path.read_bytes()
-        with patch('vayrshemon.authoring.write_json',side_effect=OSError('disk full')):
+        with patch('vayrshemon.authoring.write_atomic',side_effect=OSError('disk full')):
             self.write('accepted but not durable')
         self.assertEqual(self.book.durable_revision,old); self.assertIn('disk full',self.book.recovery_error)
         self.assertEqual(self.book.recovery_path.read_bytes(),previous)

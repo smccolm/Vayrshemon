@@ -1,0 +1,598 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.162",
+    "parentVersion": "0.10-kjv.161",
+    "parentHead": "2b38f31cc5ee198d041aa3f16c0676d1b2491cdabe32e0b2d54b300f3beaf2b0",
+    "head": "b0ea619284520229206a3ad4906fb6810e28459c0958508e2dc6f20d6b66a1d5",
+    "newLexicalEntries": 13,
+    "newProperEntries": 8,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 11,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 100,
+    "exactCompilerCases": 100,
+    "newAuthoredVerses": 100,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 719,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9870,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 100,
+    "ezekielVerses": 719,
+    "authoredVerses": 21232,
+    "remainingVerses": 9870,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 1,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 26:1",
+        "source": "And it came to pass in the eleventh year, in the first day of the month, that the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          11,
+          1
+        ],
+        "targetQuantities": [
+          11,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "25:1": [
+        "to i come:pa"
+      ],
+      "25:2": [
+        "against kjv_ammonite:pl"
+      ],
+      "25:3": [
+        "kjv_gloat_aha:excl",
+        "mypl/kjv_sanctuary",
+        "they into kjv_captivity"
+      ],
+      "25:4": [
+        "man:pl of east",
+        "their/palace:pl:a",
+        "thy/fruit:a",
+        "thy/milk:a"
+      ],
+      "25:5": [
+        "kjv_rabbah:a stable for kjv_camel:pl",
+        "lie:ev place for flock:pl"
+      ],
+      "25:6": [
+        "thine/hand:pl:a together strike:perf",
+        "with foot:pl stamp:perf",
+        "thy/contempt"
+      ],
+      "25:7": [
+        "mypl/hand:a",
+        "perish:caus:fu",
+        "ipl thee:a destroy:fu"
+      ],
+      "25:8": [
+        "kjv_moab and kjv_seir",
+        "like all kjv_heathen"
+      ],
+      "25:9": [
+        "his/boundary:pl",
+        "kjv_bethjeshimoth kjv_baalmeon and kjv_kiriathaim"
+      ],
+      "25:10": [
+        "with kjv_ammonite:pl",
+        "remember:psv:neg:may"
+      ],
+      "25:11": [
+        "judgment:pl:a upon kjv_moab"
+      ],
+      "25:12": [
+        "by revenge:a take:cv",
+        "himself:a upon they revenge:perf"
+      ],
+      "25:13": [
+        "man and beast:a",
+        "from kjv_teman",
+        "they of kjv_dedan_people"
+      ],
+      "25:14": [
+        "by hand of mypl/people kjv_israel",
+        "mypl/anger",
+        "mypl/fury"
+      ],
+      "25:15": [
+        "contempt:adj heart",
+        "for old hate:ev"
+      ],
+      "25:16": [
+        "kjv_cherethims:a",
+        "sea kjv_coast_region"
+      ],
+      "25:17": [
+        "fury:adj rebuke:pl",
+        "mypl/revenge:a"
+      ],
+      "26:1": [
+        "eleven:ord year",
+        "one_num:ord day",
+        "to i"
+      ],
+      "26:2": [
+        "she to ipl turn:psv:pr",
+        "ipl fill:psv:fu"
+      ],
+      "26:3": [
+        "ipl against thee",
+        "sea his/kjv_wave:pl:a"
+      ],
+      "26:4": [
+        "her/dust:a from she kjv_scrape:fu",
+        "like top of rock"
+      ],
+      "26:5": [
+        "spread:ev of kjv_net:pl",
+        "middle of sea"
+      ],
+      "26:6": [
+        "her/daughter:pl who in field"
+      ],
+      "26:7": [
+        "kjv_nebuchadrezzar",
+        "king of king:pl",
+        "from kjv_north"
+      ],
+      "26:8": [
+        "kjv_siege_fort:a",
+        "kjv_siege_mound:a",
+        "kjv_buckler:a"
+      ],
+      "26:9": [
+        "war engine:pl:a",
+        "his/kjv_axe:pl"
+      ],
+      "26:10": [
+        "their/dust thee:a cover:fu",
+        "open:ev make:psv:perf"
+      ],
+      "26:11": [
+        "kjv_hoof:pl",
+        "thy/strong kjv_garrison:pl"
+      ],
+      "26:12": [
+        "and they",
+        "thy/stone:pl:a and thy/wood:a and thy/dust:a"
+      ],
+      "26:13": [
+        "thy/song:pl cease:caus:fu",
+        "thy/harp:pl no more"
+      ],
+      "26:14": [
+        "thou no more build:psv:fu"
+      ],
+      "26:15": [
+        "kjv_wound_inflict:psv:adj cry:pr",
+        "shake:neg:fu?"
+      ],
+      "26:16": [
+        "with tremble:ev clothe:fu",
+        "at every moment"
+      ],
+      "26:17": [
+        "she and her/inhabit:ag:pl",
+        "often visit:pr"
+      ],
+      "26:18": [
+        "thy/depart:ev distress:psv:fu"
+      ],
+      "26:19": [
+        "inhabit:psv:neg:pr",
+        "deep:a upon thee"
+      ],
+      "26:20": [
+        "with people of old time",
+        "inhabit:psv:neg:should",
+        "ipl glory:a in land of live:cv set:fu"
+      ],
+      "26:21": [
+        "never again find:psv:fu"
+      ],
+      "27:1": [
+        "to i come:pa"
+      ],
+      "27:2": [
+        "lamentation:a for kjv_tyrus"
+      ],
+      "27:3": [
+        "thou say:perf ipl of perfect beauty"
+      ],
+      "27:4": [
+        "thy/boundary:pl",
+        "thy/build:ag:pl"
+      ],
+      "27:5": [
+        "kjv_fir kjv_tree:pl of kjv_senir",
+        "kjv_mast:pl:a"
+      ],
+      "27:6": [
+        "oak:pl of kjv_bashan",
+        "company of kjv_ashurite:pl",
+        "kjv_bench:pl:a of kjv_ivory"
+      ],
+      "27:7": [
+        "fine linen",
+        "thy/sail",
+        "blue and purple",
+        "kjv_elishah"
+      ],
+      "27:8": [
+        "kjv_zidon and kjv_arvad",
+        "thy/kjv_sailor:pl",
+        "thy/kjv_ship_pilot:pl"
+      ],
+      "27:9": [
+        "kjv_elder:pl of kjv_gebal",
+        "thy/kjv_caulk:ag:pl",
+        "trade:inf"
+      ],
+      "27:10": [
+        "kjv_persia and of kjv_lud and of kjv_phut",
+        "shield and helmet:a"
+      ],
+      "27:11": [
+        "kjv_gammadims in thy/kjv_tower:pl"
+      ],
+      "27:12": [
+        "silver kjv_iron kjv_tin and lead_metal",
+        "thy/market:pl"
+      ],
+      "27:13": [
+        "kjv_javan kjv_tubal and kjv_meshech",
+        "person:pl:a of man:pl"
+      ],
+      "27:14": [
+        "horse:pl and kjv_horseman:pl and mule:pl"
+      ],
+      "27:15": [
+        "horn:pl:a of kjv_ivory and kjv_ebony"
+      ],
+      "27:16": [
+        "kjv_syria",
+        "kjv_emerald:pl",
+        "kjv_coral and kjv_agate"
+      ],
+      "27:17": [
+        "wheat:a of kjv_minnith and kjv_pannag",
+        "honey and oil and kjv_balm"
+      ],
+      "27:18": [
+        "wine of kjv_helbon and white kjv_wool"
+      ],
+      "27:19": [
+        "kjv_dan also and kjv_javan back and forth",
+        "bright kjv_iron kjv_cassia and kjv_calamus"
+      ],
+      "27:20": [
+        "precious clothes for chariot:pl"
+      ],
+      "27:21": [
+        "kjv_arabia",
+        "kjv_lamb:pl and kjv_ram:pl and kjv_goat:pl"
+      ],
+      "27:22": [
+        "kjv_sheba and kjv_raamah",
+        "chief of all spice:pl",
+        "precious stone:pl and gold"
+      ],
+      "27:23": [
+        "kjv_haran kjv_canneh and kjv_eden_trade",
+        "kjv_asshur and kjv_chilmad"
+      ],
+      "27:24": [
+        "chest:pl of rich clothing",
+        "kjv_cord:pl bind:psv:adj",
+        "kjv_cedar make:psv:adj"
+      ],
+      "27:25": [
+        "ship:pl of kjv_tarshish of thee in thy/market sing:pa"
+      ],
+      "27:26": [
+        "thy/kjv_row:ag:pl",
+        "east wind"
+      ],
+      "27:27": [
+        "thy/kjv_sailor:pl and thy/kjv_ship_pilot:pl thy/kjv_caulk:ag:pl",
+        "trade:ag:pl",
+        "all thy/man:pl of war"
+      ],
+      "27:28": [
+        "city outside land:pl",
+        "cry of thy/kjv_ship_pilot:pl"
+      ],
+      "27:29": [
+        "kjv_oar:a hold:pr",
+        "they upon land stand:fu"
+      ],
+      "27:30": [
+        "hear:psv:caus:fu",
+        "in kjv_ashes roll:fu"
+      ],
+      "27:31": [
+        "fully kjv_bald make:fu",
+        "bitter kjv_wail:ev"
+      ],
+      "27:32": [
+        "what city like kjv_tyrus",
+        "destroy:psv:adj in middle of sea"
+      ],
+      "27:33": [
+        "many people:a fill:pa",
+        "king:pl:a of earth",
+        "enrich:pa"
+      ],
+      "27:34": [
+        "deep:ev:pl of water:pl",
+        "all thy/company"
+      ],
+      "27:35": [
+        "their/king:pl greatly afraid",
+        "in their/face distress:psv:fu"
+      ],
+      "27:36": [
+        "kjv_hiss:fu",
+        "never any more be:fu"
+      ],
+      "28:1": [
+        "to i come:pa"
+      ],
+      "28:2": [
+        "ipl god be:pr",
+        "ipl in seat of god",
+        "yet thou man be:pr and not god"
+      ],
+      "28:3": [
+        "kjv_daniel_ezekiel_exemplar",
+        "no secret"
+      ],
+      "28:4": [
+        "gold and silver:a into thy/treasure:pl"
+      ],
+      "28:5": [
+        "thy/trade:ev",
+        "because of thy/rich:ev"
+      ],
+      "28:6": [
+        "thine/heart:a as heart of god"
+      ],
+      "28:7": [
+        "terrible:pl:a of nation:pl",
+        "beauty of thy/wisdom"
+      ],
+      "28:8": [
+        "death:pl:a",
+        "middle of sea:pl"
+      ],
+      "28:9": [
+        "ipl god be:pr?",
+        "man and no god"
+      ],
+      "28:10": [
+        "death:pl:a of kjv_circumcise:psv:neg:adj"
+      ],
+      "28:11": [
+        "to i come:pa"
+      ],
+      "28:12": [
+        "king of kjv_tyrus",
+        "thou sum:a up seal:pr"
+      ],
+      "28:13": [
+        "kjv_eden kjv_garden of god",
+        "kjv_sardius kjv_topaz and kjv_diamond",
+        "kjv_carbuncle and gold",
+        "thy/kjv_tabret:pl and of thy/pipe:pl"
+      ],
+      "28:14": [
+        "anoint:psv:adj kjv_cherub who cover:pr",
+        "ipl thee:a so set:perf",
+        "stone:pl of fire"
+      ],
+      "28:15": [
+        "until kjv_iniquity in thee find:psv:pa"
+      ],
+      "28:16": [
+        "they thy/middle:a with kjv_violence",
+        "as common",
+        "oh cover:cv kjv_cherub"
+      ],
+      "28:17": [
+        "before king:pl lay:fu"
+      ],
+      "28:18": [
+        "thy/kjv_sanctuary:pl:a",
+        "fire:a from thy/middle",
+        "to kjv_ashes"
+      ],
+      "28:19": [
+        "never any more be:fu"
+      ],
+      "28:20": [
+        "to i come:pa"
+      ],
+      "28:21": [
+        "against kjv_zidon"
+      ],
+      "28:22": [
+        "ipl in thy/middle glorify:psv:fu",
+        "in she sanctify:psv:fp"
+      ],
+      "28:23": [
+        "kjv_wound_inflict:psv:adj",
+        "judge:psv:fu"
+      ],
+      "28:24": [
+        "no more prick:cv kjv_brier",
+        "grief:caus:cv thorn"
+      ],
+      "28:25": [
+        "sanctify:psv:fp",
+        "mypl/servant kjv_jacob"
+      ],
+      "28:26": [
+        "house:pl:a build:fu",
+        "kjv_vineyard:pl:a plant:fu",
+        "with confidence"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "25:1",
+        "26:1",
+        "27:1",
+        "28:1",
+        "28:11",
+        "28:20"
+      ],
+      "ipl": [
+        "25:11",
+        "25:13",
+        "25:14",
+        "25:16",
+        "25:17",
+        "25:4",
+        "25:5",
+        "25:7",
+        "25:9",
+        "26:13",
+        "26:14",
+        "26:19",
+        "26:2",
+        "26:20",
+        "26:21",
+        "26:3",
+        "26:4",
+        "26:5",
+        "26:6",
+        "26:7",
+        "27:3",
+        "28:10",
+        "28:14",
+        "28:16",
+        "28:17",
+        "28:18",
+        "28:2",
+        "28:22",
+        "28:23",
+        "28:24",
+        "28:25",
+        "28:26",
+        "28:7",
+        "28:9"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "25:13",
+        "25:14",
+        "25:16",
+        "25:17",
+        "25:3",
+        "25:7",
+        "28:25"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [
+      "26:2",
+      "27:3",
+      "28:2",
+      "28:9"
+    ],
+    "quantityInterpretation": [
+      "Eleventh year and first day retained;source omits month number.",
+      "Cargo and name lists do not add unprinted cardinal totals."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel25–28 adds100 verses,total719;whole Bible incomplete.",
+      "Personal narration,divine plural-I,civic plural-I and attributed divine-self boasts distinguished without invented person counts.",
+      "Supplied siege,shipbuilding,trade,gemstone and cherub readings retained without outside harmonization.",
+      "Five common semantic entries including one interjection alias,eight contextual names;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 556,
+    "spreads": 278,
+    "units": 719,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "95a0ffe284803a5e88251f29a2eea1010a7a8051a0c89dc95a8c86a7440ed77f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 278,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.931,
+    "modules": [
+      "tests.test_kjv_ezekiel_maritime_lament",
+      "tests.test_kjv_ezekiel_mourning_sign",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    555,
+    556
+  ],
+  "status": "incomplete Bible;Ezekiel1–28 section checkpoint verified"
+}

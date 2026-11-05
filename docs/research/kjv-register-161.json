@@ -1,0 +1,895 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.161",
+    "parentVersion": "0.10-kjv.160",
+    "parentHead": "be40e3aa5cfefae785c0dcb629f7dca9d2681cfd85652fcdea2b4c0a22e3e175",
+    "head": "2b38f31cc5ee198d041aa3f16c0676d1b2491cdabe32e0b2d54b300f3beaf2b0",
+    "newLexicalEntries": 8,
+    "newProperEntries": 5,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 139,
+    "exactCompilerCases": 139,
+    "newAuthoredVerses": 139,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 619,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9970,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 139,
+    "ezekielVerses": 619,
+    "authoredVerses": 21132,
+    "remainingVerses": 9970,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 21:14",
+        "source": "Thou therefore, son of man, prophesy, and smite thine hands together, and let the sword be doubled the third time, the sword of the slain: it is the sword of the great men that are slain, which entereth into their privy chambers.",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "Ezekiel 21:19",
+        "source": "Also, thou son of man, appoint thee two ways, that the sword of the king of Babylon may come: both twain shall come forth out of one land: and choose thou a place, choose it at the head of the way to the city.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 21:21",
+        "source": "For the king of Babylon stood at the parting of the way, at the head of the two ways, to use divination: he made his arrows bright, he consulted with images, he looked in the liver.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 23:2",
+        "source": "Son of man, there were two women, the daughters of one mother:",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 23:13",
+        "source": "Then I saw that she was defiled, that they took both one way,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 24:1",
+        "source": "Again in the ninth year, in the tenth month, in the tenth day of the month, the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          9,
+          10,
+          10
+        ],
+        "targetQuantities": [
+          9,
+          10,
+          10
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "21:1": [
+        "to i come:pa"
+      ],
+      "21:2": [
+        "thy/word:a",
+        "holy place:pl drop:imp"
+      ],
+      "21:3": [
+        "ipl against thee",
+        "his/kjv_sheath",
+        "kjv_righteous and wicked:a"
+      ],
+      "21:4": [
+        "kjv_righteous and wicked:a",
+        "all flesh from kjv_south to kjv_north"
+      ],
+      "21:5": [
+        "it any more return:neg:fu"
+      ],
+      "21:6": [
+        "break:ev of thy/kjv_loins",
+        "bitterness before their/eye:pl"
+      ],
+      "21:7": [
+        "every heart melt:fu",
+        "all knee:pl as water",
+        "happen:caus:psv:fu"
+      ],
+      "21:8": [
+        "to i come:pa"
+      ],
+      "21:9": [
+        "sword sword",
+        "kjv_furbish:psv:perf"
+      ],
+      "21:10": [
+        "wesg mirth:a make:should?",
+        "rod:a of mypl/son as every kjv_tree"
+      ],
+      "21:11": [
+        "that it hold:psv:may",
+        "hand of slay:ag"
+      ],
+      "21:12": [
+        "mypl/people",
+        "upon thy/thigh strike:imp"
+      ],
+      "21:13": [
+        "what if sword even rod:a despise:pr?",
+        "it no more be:fu"
+      ],
+      "21:14": [
+        "double:psv:opt third:ord time",
+        "their/secret chamber:pl"
+      ],
+      "21:15": [
+        "kjv_sword_point:a",
+        "ah:excl",
+        "up wrap:psv:perf"
+      ],
+      "21:16": [
+        "this way or another",
+        "kjv_right_side hand",
+        "or on left"
+      ],
+      "21:17": [
+        "mypl/hand:pl:a together strike:fu",
+        "mypl/fury:a rest:caus:fu"
+      ],
+      "21:18": [
+        "to i again come:pa"
+      ],
+      "21:19": [
+        "two way:pl:a",
+        "both two out of one_num land",
+        "head of way to city"
+      ],
+      "21:20": [
+        "kjv_rabbath",
+        "kjv_judah in fortify:psv:adj kjv_jerusalem"
+      ],
+      "21:21": [
+        "two way:pl",
+        "his/arrow:pl:a bright make:pa",
+        "image:pl:a kjv_consult:pa",
+        "in kjv_liver look:pa"
+      ],
+      "21:22": [
+        "captain:pl:a appoint:inf",
+        "kjv_battering_ram:pl:a",
+        "kjv_siege_mound:a",
+        "kjv_siege_fort:a"
+      ],
+      "21:23": [
+        "false kjv_divine:ev",
+        "who oath:pl:a swear:perf",
+        "he kjv_iniquity:a remember:caus:fu"
+      ],
+      "21:24": [
+        "remember:psv:caus:perf",
+        "kjv_uncover:psv:pr",
+        "with hand take:psv:fu"
+      ],
+      "21:25": [
+        "holy:neg:adj wicked prince",
+        "whose day come:perf"
+      ],
+      "21:26": [
+        "kjv_diadem:a",
+        "this same be:neg:fu",
+        "who low be:pr up lift:imp"
+      ],
+      "21:27": [
+        "kjv_overthrow:fu kjv_overthrow:fu kjv_overthrow:fu",
+        "whose right it be:pr"
+      ],
+      "21:28": [
+        "sword sword",
+        "because of glitter:ev"
+      ],
+      "21:29": [
+        "lie:a to thee kjv_divine:pr",
+        "neck:pl of they who slay:psv:pr"
+      ],
+      "21:30": [
+        "ipl it:a into his/kjv_sheath return:caus:fu?",
+        "land of thy/kjv_nativity"
+      ],
+      "21:31": [
+        "mypl/indignation:a",
+        "kjv_brutish man:pl",
+        "skill:adj to destroy:inf"
+      ],
+      "21:32": [
+        "kjv_fuel for fire",
+        "no more remember:psv:fu"
+      ],
+      "22:1": [
+        "to i come:pa"
+      ],
+      "22:2": [
+        "thou judge:fu thou blood:adj city:a judge:fu?"
+      ],
+      "22:3": [
+        "against herself",
+        "to herself:a defile:inf"
+      ],
+      "22:4": [
+        "thy/day:pl:a near draw:caus:perf",
+        "thy/year:pl",
+        "ipl thee:a kjv_reproach"
+      ],
+      "22:5": [
+        "evil name:a have:pr",
+        "much vex:psv:pr"
+      ],
+      "22:6": [
+        "each in thee according_to their/power"
+      ],
+      "22:7": [
+        "father and mother:a little esteem:perf",
+        "kjv_fatherless and widow:a"
+      ],
+      "22:8": [
+        "mypl/holy thing:pl:a",
+        "mypl/kjv_sabbath:pl:a"
+      ],
+      "22:9": [
+        "tale:pl:a to blood:a shed:inf carry:pr",
+        "upon mountain:pl eat:pr"
+      ],
+      "22:10": [
+        "their/father:pl kjv_nakedness:a",
+        "apart set:psv:pa humble:caus:perf"
+      ],
+      "22:11": [
+        "person kjv_abomination:a",
+        "his/daughter by marriage:a",
+        "his/father daughter:a"
+      ],
+      "22:12": [
+        "gift:pl:a to blood:a shed:inf",
+        "kjv_usury:a and increase:a",
+        "ipl:a forget:perf"
+      ],
+      "22:13": [
+        "mypl/hand:a",
+        "honest:neg:adj gain:ev"
+      ],
+      "22:14": [
+        "thine/heart endure:can",
+        "thine/hand:pl strong be:can"
+      ],
+      "22:15": [
+        "thy/filthy:ev:a out of thee consume:fu"
+      ],
+      "22:16": [
+        "thine/inheritance:a in thyself"
+      ],
+      "22:17": [
+        "to i come:pa"
+      ],
+      "22:18": [
+        "kjv_brass and kjv_tin and kjv_iron and lead_metal",
+        "kjv_dross of silver"
+      ],
+      "22:19": [
+        "you all kjv_dross become:perf"
+      ],
+      "22:20": [
+        "kjv_brass and kjv_iron and lead_metal and kjv_tin:a",
+        "you:a there leave:fu"
+      ],
+      "22:21": [
+        "fire of mypl/wrath",
+        "you in its/middle melt:fu"
+      ],
+      "22:22": [
+        "silver in middle of kjv_furnace",
+        "mypl/fury:a upon you"
+      ],
+      "22:23": [
+        "to i come:pa"
+      ],
+      "22:24": [
+        "clean:psv:neg:pr",
+        "rain fall:neg:perf"
+      ],
+      "22:25": [
+        "conspiracy of her/prophet:pl",
+        "prey:a ravenous devour:cv",
+        "many widow:pl:a"
+      ],
+      "22:26": [
+        "mypl/law:a break:perf",
+        "between holy and common",
+        "between kjv_unclean_ritual and kjv_clean_ritual",
+        "ipl among they kjv_profane:psv:pr"
+      ],
+      "22:27": [
+        "her/prince:pl",
+        "honest:neg:adj gain:ev:a"
+      ],
+      "22:28": [
+        "kjv_untempered_mortar",
+        "when kjv_lord speak:neg:perf"
+      ],
+      "22:29": [
+        "stranger:a wrong:adj oppress:perf"
+      ],
+      "22:30": [
+        "in open place before ipl for land",
+        "destroy:neg:should",
+        "ipl none:a find:pa"
+      ],
+      "22:31": [
+        "their/own way:a upon their/head:pl"
+      ],
+      "23:1": [
+        "again to i come:pa"
+      ],
+      "23:2": [
+        "two woman:pl daughter:pl of one_num mother"
+      ],
+      "23:3": [
+        "they:du kjv_whoredom:pl:a",
+        "their/breast:pl press:psv:pa",
+        "kjv_teat:pl:a of their/virginity"
+      ],
+      "23:4": [
+        "kjv_aholah kjv_elder_sibling",
+        "they:du of ipl",
+        "son:pl:a and daughter:pl:a bear:pa",
+        "kjv_samaria kjv_aholah"
+      ],
+      "23:5": [
+        "when she of ipl",
+        "her/lover:pl",
+        "dote:pa"
+      ],
+      "23:6": [
+        "with blue",
+        "kjv_horseman:pl"
+      ],
+      "23:7": [
+        "choose:psv:adj man:pl of kjv_assyria",
+        "all their/idol:pl"
+      ],
+      "23:8": [
+        "neither she",
+        "leave:pa",
+        "their/kjv_whoredom:a upon she out pour:pa"
+      ],
+      "23:9": [
+        "ipl she:a",
+        "hand of her/lover:pl"
+      ],
+      "23:10": [
+        "her/kjv_nakedness:a kjv_uncover:pa",
+        "famous among woman:pl"
+      ],
+      "23:11": [
+        "her/excess:adj love more corrupt",
+        "more than her/sister"
+      ],
+      "23:12": [
+        "most splendid clothe:psv:adj",
+        "desire:psv:adj young man:pl"
+      ],
+      "23:13": [
+        "they:du both one_num way:a take:pa"
+      ],
+      "23:14": [
+        "upon wall paint:psv:adj",
+        "with kjv_vermilion"
+      ],
+      "23:15": [
+        "kjv_girdle:pl upon their/kjv_loins",
+        "dye:psv:adj clothing",
+        "land of their/kjv_nativity"
+      ],
+      "23:16": [
+        "as soon as",
+        "messenger:pl:a",
+        "into kjv_chaldea"
+      ],
+      "23:17": [
+        "bed of love",
+        "her/mind from they stranger make:psv:pa"
+      ],
+      "23:18": [
+        "mypl/mind from she stranger make:psv:pa",
+        "mypl/mind from her/sister"
+      ],
+      "23:19": [
+        "her/kjv_whoredom:pl:a kjv_multiply:pa",
+        "day:pl:a of her/youth"
+      ],
+      "23:20": [
+        "their/paramour:pl",
+        "flesh of ass:pl",
+        "issue:ev of horse:pl"
+      ],
+      "23:21": [
+        "thou kjv_lewdness:a of thy/youth",
+        "by kjv_egyptian:pl"
+      ],
+      "23:22": [
+        "ipl thy/lover:pl:a against thee",
+        "on every side"
+      ],
+      "23:23": [
+        "kjv_pekod and kjv_shoa and kjv_koa",
+        "great lord:pl and famous"
+      ],
+      "23:24": [
+        "chariot:pl wagon:pl and wheel:pl",
+        "according_to their/judgment:pl"
+      ],
+      "23:25": [
+        "thy/nose:a and thine/ear:pl:a",
+        "thy/remainder by sword",
+        "thy/remain:ev by fire"
+      ],
+      "23:26": [
+        "thy/beautiful jewel:pl:a"
+      ],
+      "23:27": [
+        "cease:caus:fu",
+        "up lift:neg:fu nor egypt:a any more remember:fu"
+      ],
+      "23:28": [
+        "whom thou hate:pr",
+        "thy/mind stranger make:psv:pr"
+      ],
+      "23:29": [
+        "all thy/labour:a",
+        "clothe:neg:psv:adj and bare"
+      ],
+      "23:30": [
+        "ipl these thing:pl:a to thee do:fu"
+      ],
+      "23:31": [
+        "her/cup:a into thine/hand"
+      ],
+      "23:32": [
+        "cup deep and large",
+        "it much:a contain:pr"
+      ],
+      "23:33": [
+        "drunk:ev and sorrow",
+        "thy/sister kjv_samaria"
+      ],
+      "23:34": [
+        "its/kjv_potsherd:pl:a break:fu",
+        "thine/own breast:pl:a off pluck:fu"
+      ],
+      "23:35": [
+        "ipl:a behind thy/back",
+        "endure:imp"
+      ],
+      "23:36": [
+        "kjv_lord also to i",
+        "to they:du"
+      ],
+      "23:37": [
+        "they:du kjv_adultery:a",
+        "whom they:du to ipl bear:pa",
+        "through fire pass:caus:perf"
+      ],
+      "23:38": [
+        "they:du mypl/kjv_sanctuary:a in same day"
+      ],
+      "23:39": [
+        "they:du same day into mypl/kjv_sanctuary",
+        "middle of mypl/house"
+      ],
+      "23:40": [
+        "you:du for man:pl:a",
+        "thou thyself:a wash:pa",
+        "thy/eye:pl:a paint:pa"
+      ],
+      "23:41": [
+        "kjv_meal_table",
+        "mypl/kjv_incense:a and mypl/oil:a"
+      ],
+      "23:42": [
+        "kjv_sabeans_ezekiel",
+        "bracelet:pl:a upon their/hand:pl",
+        "crown:pl:a upon their/head:pl"
+      ],
+      "23:43": [
+        "ipl to she who old in kjv_adultery:pl",
+        "she with they do:fu?"
+      ],
+      "23:44": [
+        "into kjv_aholah and into kjv_aholibah"
+      ],
+      "23:45": [
+        "kjv_righteous man:pl they they:du:a",
+        "they:du kjv_adulteress:pl"
+      ],
+      "23:46": [
+        "upon they:du",
+        "they:du:a to remove:psv:inf and spoil:psv:inf"
+      ],
+      "23:47": [
+        "they:du:a with stone:pl kjv_stone_attack:fu",
+        "with their/sword:pl kill:fu"
+      ],
+      "23:48": [
+        "all woman:pl",
+        "do:neg:inf teach:psv:may"
+      ],
+      "23:49": [
+        "upon you:du",
+        "you:du sin:pl:a",
+        "you:du know:fu"
+      ],
+      "24:1": [
+        "nine:ord year",
+        "ten:ord month",
+        "ten:ord day",
+        "to i"
+      ],
+      "24:2": [
+        "this same day",
+        "himself:a against kjv_jerusalem"
+      ],
+      "24:3": [
+        "kjv_pot:a on set:imp it:a on set:imp"
+      ],
+      "24:4": [
+        "thigh and kjv_shoulder",
+        "choice bone:pl"
+      ],
+      "24:5": [
+        "bone:pl:a under it burn:imp",
+        "they bone:pl:a of it in it boil:caus:opt"
+      ],
+      "24:6": [
+        "kjv_pot_scum out of it go:neg:perf",
+        "piece by piece",
+        "no kjv_lot"
+      ],
+      "24:7": [
+        "she it:a upon top of rock",
+        "pour:neg:pa"
+      ],
+      "24:8": [
+        "ipl her/blood:a upon top of rock",
+        "cover:psv:neg:should"
+      ],
+      "24:9": [
+        "kjv_heap:a for fire great make:fu"
+      ],
+      "24:10": [
+        "with spice well kjv_season_food:imp",
+        "bone:pl burn:psv:opt"
+      ],
+      "24:11": [
+        "empty upon its/kjv_charcoal",
+        "its/kjv_brass",
+        "kjv_pot_scum consume:psv:may"
+      ],
+      "24:12": [
+        "herself:a with lie:ev:pl tire:perf",
+        "go:neg:pa"
+      ],
+      "24:13": [
+        "ipl thee:a purge:perf",
+        "thou purge:psv:neg:pa",
+        "until ipl mypl/fury:a"
+      ],
+      "24:14": [
+        "back go:neg:fu neither ipl spare:fu neither ipl repent:fu",
+        "they thee:a judge:fu"
+      ],
+      "24:15": [
+        "to i come:pa"
+      ],
+      "24:16": [
+        "with strike:ev",
+        "neither thy/tear:pl down run:fu"
+      ],
+      "24:17": [
+        "kjv_head_tire:a",
+        "thy/lip:pl:a cover:neg:imp",
+        "bread:a of man:pl eat:neg:imp"
+      ],
+      "24:18": [
+        "i to people in morning",
+        "at evening my/wife die:pa",
+        "i in morning"
+      ],
+      "24:19": [
+        "thou wesg:a",
+        "to wesg",
+        "tell:neg:fu?"
+      ],
+      "24:20": [
+        "i they:a answer:pa",
+        "to i come:pa"
+      ],
+      "24:21": [
+        "ipl mypl/kjv_sanctuary:a kjv_profane:fu",
+        "your/soul pity:pr",
+        "whom you leave:perf"
+      ],
+      "24:22": [
+        "as i do:perf",
+        "cover:neg:fu nor bread:a of man:pl eat:fu"
+      ],
+      "24:23": [
+        "you mourn:neg:fu nor weep:fu",
+        "kjv_pine_away:fu",
+        "each towards another mourn:fu"
+      ],
+      "24:24": [
+        "kjv_ezekiel to you sign",
+        "ipl lord god"
+      ],
+      "24:25": [
+        "son of man",
+        "their/strength joy of their/glory",
+        "their/son:pl and their/daughter:pl"
+      ],
+      "24:26": [
+        "he who in that day escape:pr",
+        "with thine/ear:pl hear:caus:inf?"
+      ],
+      "24:27": [
+        "no more dumb",
+        "they know:fu that ipl kjv_lord"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "21:1",
+        "21:18",
+        "21:8",
+        "22:1",
+        "22:17",
+        "22:23",
+        "23:1",
+        "23:36",
+        "24:1",
+        "24:15",
+        "24:18",
+        "24:19",
+        "24:20",
+        "24:22"
+      ],
+      "ipl": [
+        "21:15",
+        "21:17",
+        "21:24",
+        "21:27",
+        "21:3",
+        "21:30",
+        "21:31",
+        "21:32",
+        "21:4",
+        "21:5",
+        "22:12",
+        "22:13",
+        "22:14",
+        "22:15",
+        "22:16",
+        "22:18",
+        "22:19",
+        "22:20",
+        "22:21",
+        "22:22",
+        "22:26",
+        "22:30",
+        "22:31",
+        "22:4",
+        "23:13",
+        "23:22",
+        "23:24",
+        "23:25",
+        "23:27",
+        "23:28",
+        "23:30",
+        "23:31",
+        "23:34",
+        "23:35",
+        "23:37",
+        "23:38",
+        "23:4",
+        "23:43",
+        "23:46",
+        "23:48",
+        "23:49",
+        "23:5",
+        "23:9",
+        "24:13",
+        "24:14",
+        "24:16",
+        "24:21",
+        "24:24",
+        "24:25",
+        "24:27",
+        "24:8",
+        "24:9"
+      ],
+      "wesg": [
+        "21:10",
+        "24:19"
+      ],
+      "wepl": [],
+      "mypl": [
+        "21:10",
+        "21:12",
+        "21:17",
+        "21:3",
+        "21:31",
+        "21:4",
+        "21:5",
+        "22:13",
+        "22:20",
+        "22:21",
+        "22:22",
+        "22:26",
+        "22:31",
+        "22:8",
+        "23:18",
+        "23:25",
+        "23:38",
+        "23:39",
+        "23:41",
+        "24:13",
+        "24:21"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "23:13",
+        "23:3",
+        "23:36",
+        "23:37",
+        "23:38",
+        "23:39",
+        "23:4",
+        "23:45",
+        "23:46",
+        "23:47"
+      ],
+      "you:du": [
+        "23:40",
+        "23:49"
+      ]
+    },
+    "pairedCivicReferences": [
+      "23:13",
+      "23:3",
+      "23:36",
+      "23:37",
+      "23:38",
+      "23:39",
+      "23:4",
+      "23:40",
+      "23:45",
+      "23:46",
+      "23:47",
+      "23:49"
+    ],
+    "quantityInterpretation": [
+      "Printed double,third,two/twain/one road counts,two sisters/one mother/one way and ninth-year tenth-month tenth-day retained.",
+      "One-way-or-other and each are not counted;the triple overturn remains verb repetition.",
+      "The two named civic sisters take dual pronouns only where both are referents."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel21–24 adds139 verses,total619;whole Bible incomplete.",
+      "Personal prophet,divine plural-I,communal singular-we and paired civic dual distinguished.",
+      "Sword/furnace accusations,source reading difficulties,civic metaphors and mourning-sign tensions retained without harmonization.",
+      "Three common semantic entries,five contextual names;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 480,
+    "spreads": 240,
+    "units": 619,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "36ee7bf4ee96f628ef8e308d7ae72659f8b085c6e9693747e83c06edb887774a",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 240,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.949,
+    "modules": [
+      "tests.test_kjv_ezekiel_mourning_sign",
+      "tests.test_kjv_ezekiel_refused_consultation",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    479,
+    480
+  ],
+  "status": "incomplete Bible;Ezekiel1–24 section checkpoint verified"
+}

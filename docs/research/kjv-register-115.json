@@ -1,0 +1,1182 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.115",
+    "parentVersion": "0.10-kjv.114",
+    "parentHead": "930e5eedd97f06801b6197bdd9b94a018bf203f54826388de7c8423b6337925c",
+    "head": "f3eab1a53675c232d158da47cf0af22a6bc4811d5eb7293a81c7f4738b25e49a",
+    "newLexicalEntries": 7,
+    "newProperEntries": 6,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 198,
+    "exactCompilerCases": 198,
+    "newAuthoredVerses": 198,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1198,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 1492,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 15622,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 198,
+    "psalmsVerses": 1492,
+    "authoredVerses": 15480,
+    "remainingVerses": 15622,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 8,
+    "quantityChecks": [
+      {
+        "reference": "Psalms 83:5",
+        "source": "For they have consulted together with one consent: they are confederate against thee:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 84:10",
+        "source": "For a day in thy courts is better than a thousand. I had rather be a doorkeeper in the house of my God, than to dwell in the tents of wickedness.",
+        "expectedDecimalQuantities": [
+          1,
+          1000
+        ],
+        "targetQuantities": [
+          1,
+          1000
+        ]
+      },
+      {
+        "reference": "Psalms 89:27",
+        "source": "Also I will make him my firstborn, higher than the kings of the earth.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 89:35",
+        "source": "Once have I sworn by my holiness that I will not lie unto David.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 90:4",
+        "source": "For a thousand years in thy sight are but as yesterday when it is past, and as a watch in the night.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Psalms 90:10",
+        "source": "The days of our years are threescore years and ten; and if by reason of strength they be fourscore years, yet is their strength labour and sorrow; for it is soon cut off, and we fly away.",
+        "expectedDecimalQuantities": [
+          70,
+          80
+        ],
+        "targetQuantities": [
+          70,
+          80
+        ]
+      },
+      {
+        "reference": "Psalms 91:7",
+        "source": "A thousand shall fall at thy side, and ten thousand at thy right hand; but it shall not come nigh thee.",
+        "expectedDecimalQuantities": [
+          1000,
+          10000
+        ],
+        "targetQuantities": [
+          1000,
+          10000
+        ]
+      },
+      {
+        "reference": "Psalms 92:3",
+        "source": "Upon an instrument of ten strings, and upon the psaltery; upon the harp with a solemn sound.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "82:1": [
+        "god in kjv_congregation of mighty",
+        "among god:pl judge:pr"
+      ],
+      "82:2": [
+        "in unjust manner",
+        "person:pl:a of wicked accept:fu"
+      ],
+      "82:3": [
+        "kjv_fatherless:a shield:imp",
+        "kjv_afflict:psv:adj and kjv_needy"
+      ],
+      "82:4": [
+        "poor and kjv_needy:a deliver:imp",
+        "hand of wicked free:imp"
+      ],
+      "82:5": [
+        "know:pr:neg",
+        "foundation:pl of earth out of course"
+      ],
+      "82:6": [
+        "ipl say:perf you:pl god:pl be:pr",
+        "child:pl of most high"
+      ],
+      "82:7": [
+        "like human:pl die:fu",
+        "one of prince:pl"
+      ],
+      "82:8": [
+        "earth:a judge:imp",
+        "all nation:pl:a inherit:fu"
+      ],
+      "83:1": [
+        "silence:a keep:imp:neg",
+        "peace:a hold:imp:neg",
+        "still be:imp:neg"
+      ],
+      "83:2": [
+        "enemy:pl kjv_tumult:a",
+        "head:a up lift:perf"
+      ],
+      "83:3": [
+        "cunning counsel:a",
+        "thy/hide:psv:adj one:pl"
+      ],
+      "83:4": [
+        "wesg:a",
+        "nation be:inf",
+        "name of kjv_israel no more"
+      ],
+      "83:5": [
+        "one_num consent",
+        "against thee join:psv:pr"
+      ],
+      "83:6": [
+        "kjv_edom",
+        "kjv_ishmaelite:pl",
+        "kjv_moab",
+        "kjv_hagarene:pl"
+      ],
+      "83:7": [
+        "kjv_gebal",
+        "kjv_ammon",
+        "kjv_amalek",
+        "kjv_philistine:pl",
+        "kjv_tyre"
+      ],
+      "83:8": [
+        "kjv_assur",
+        "child:pl:a of kjv_lot",
+        "kjv_selah_marker"
+      ],
+      "83:9": [
+        "kjv_midianite:pl",
+        "kjv_sisera",
+        "kjv_jabin",
+        "kjv_kison"
+      ],
+      "83:10": [
+        "kjv_endor perish:pa",
+        "kjv_dung for earth"
+      ],
+      "83:11": [
+        "kjv_oreb",
+        "kjv_zeeb",
+        "kjv_zebah",
+        "kjv_zalmunna"
+      ],
+      "83:12": [
+        "wesg:a house:pl:a of god",
+        "to ourselves in kjv_possession"
+      ],
+      "83:13": [
+        "my/god:excl",
+        "like wheel",
+        "kjv_stubble before wind"
+      ],
+      "83:14": [
+        "fire wood:a burn:pr",
+        "flame mountain:pl:a on fire"
+      ],
+      "83:15": [
+        "thy/tempest pursue:imp",
+        "thy/storm afraid"
+      ],
+      "83:16": [
+        "face:pl:a with shame",
+        "thy/name:a seek:may"
+      ],
+      "83:17": [
+        "for ever be:opt",
+        "perish:opt"
+      ],
+      "83:18": [
+        "whose name alone kjv_jehovah",
+        "most high over all earth"
+      ],
+      "84:1": [
+        "lovely thy/kjv_tabernacle:pl",
+        "army:pl:excl"
+      ],
+      "84:2": [
+        "my/soul kjv_yearn:pr",
+        "court:pl",
+        "my/heart and my/flesh"
+      ],
+      "84:3": [
+        "sparrow house:a",
+        "kjv_swallow_bird nest:a",
+        "her/young:a",
+        "thine altar:pl"
+      ],
+      "84:4": [
+        "house dwell:pr",
+        "still thee:a praise:fu"
+      ],
+      "84:5": [
+        "whose strength in thee",
+        "way:pl of they"
+      ],
+      "84:6": [
+        "valley of kjv_baca",
+        "it:a kjv_well make:pr",
+        "rain also kjv_pool:pl:a"
+      ],
+      "84:7": [
+        "from strength to strength",
+        "every one of they",
+        "kjv_zion"
+      ],
+      "84:8": [
+        "my/prayer:a hear:imp",
+        "god of kjv_jacob:excl"
+      ],
+      "84:9": [
+        "ourone/kjv_shield_armour:excl",
+        "face of thine anoint:psv:adj"
+      ],
+      "84:10": [
+        "one_num day",
+        "better than thousand",
+        "i rather door keeper"
+      ],
+      "84:11": [
+        "god sun and kjv_shield_armour",
+        "no good thing:a",
+        "withhold:fu"
+      ],
+      "84:12": [
+        "man who in thee trust:pr"
+      ],
+      "85:1": [
+        "lord:excl",
+        "thy/land favour:a",
+        "kjv_captivity:a of kjv_jacob"
+      ],
+      "85:2": [
+        "kjv_iniquity:a",
+        "forgive:perf",
+        "all their/sin:a cover:perf"
+      ],
+      "85:3": [
+        "all thy/wrath:a",
+        "thyself:a from fierce:ev"
+      ],
+      "85:4": [
+        "wesg:a turn:imp",
+        "ourone/salvation",
+        "anger towards wesg"
+      ],
+      "85:5": [
+        "with wesg for ever angry",
+        "all generation:pl out extend:fu"
+      ],
+      "85:6": [
+        "wesg:a again revive:fu:neg",
+        "thy/people in thee rejoice:may"
+      ],
+      "85:7": [
+        "wesg:a thy/mercy:a",
+        "to wesg thy/salvation:a"
+      ],
+      "85:8": [
+        "i what god kjv_lord speak:fu",
+        "his/people and to his/saint:pl",
+        "folly turn:inf allow:imp:neg"
+      ],
+      "85:9": [
+        "salvation near",
+        "glory in ourone/land"
+      ],
+      "85:10": [
+        "mercy and truth together meet:perf",
+        "kjv_righteousness and peace each other:a kiss:perf"
+      ],
+      "85:11": [
+        "truth from earth grow:fu",
+        "from heaven down look:fu"
+      ],
+      "85:12": [
+        "good thing:a give:fu",
+        "ourone/land her/increase:a"
+      ],
+      "85:13": [
+        "kjv_righteousness before he",
+        "wesg:a in way of his/step:pl"
+      ],
+      "86:1": [
+        "thine ear:a down bow:imp",
+        "i poor and kjv_needy"
+      ],
+      "86:2": [
+        "i holy be:pr",
+        "thy/servant:a who in thee trust:pr"
+      ],
+      "86:3": [
+        "to i merciful",
+        "i daily to thee cry:pr"
+      ],
+      "86:4": [
+        "soul:a of thy/servant rejoice:caus:imp",
+        "i my/soul:a"
+      ],
+      "86:5": [
+        "ready forgive:inf",
+        "full in mercy"
+      ],
+      "86:6": [
+        "my/prayer",
+        "voice:a of my/kjv_supplication:pl"
+      ],
+      "86:7": [
+        "i upon thee call:fu",
+        "thou i:a answer:fu"
+      ],
+      "86:8": [
+        "among god:pl",
+        "none like thee",
+        "thy/work:pl"
+      ],
+      "86:9": [
+        "all nation:pl",
+        "come:fu and worship:fu",
+        "thy/name:a glorify:fu"
+      ],
+      "86:10": [
+        "wondrous thing:pl:a",
+        "thou god alone"
+      ],
+      "86:11": [
+        "i:a thy/way:a teach:imp",
+        "my/heart:a together join:imp"
+      ],
+      "86:12": [
+        "i thee:a praise:fu",
+        "all my/heart",
+        "i thy/name:a"
+      ],
+      "86:13": [
+        "towards i",
+        "lowest kjv_hell"
+      ],
+      "86:14": [
+        "proud against i",
+        "kjv_assembly:pl of violent man:pl",
+        "set:perf:neg"
+      ],
+      "86:15": [
+        "kjv_compassion",
+        "gracious kjv_longsuffering",
+        "mercy and truth"
+      ],
+      "86:16": [
+        "to i turn:imp",
+        "son:a of thine kjv_handmaid"
+      ],
+      "86:17": [
+        "i:a token:a for good",
+        "i:a help:perf",
+        "i:a comfort:perf"
+      ],
+      "87:1": [
+        "his/kjv_foundation",
+        "holy mountain:pl"
+      ],
+      "87:2": [
+        "gate:pl:a of kjv_zion",
+        "more than all dwelling:pl"
+      ],
+      "87:3": [
+        "glorious thing:pl",
+        "city of god:excl"
+      ],
+      "87:4": [
+        "ipl kjv_rahab_psalm:a and kjv_babylon:a",
+        "kjv_philistia",
+        "kjv_tyre",
+        "kjv_ethiopia",
+        "born:psv:pa"
+      ],
+      "87:5": [
+        "this and that man",
+        "in she born:psv:pa",
+        "highest himself"
+      ],
+      "87:6": [
+        "kjv_lord kjv_number:fu",
+        "people:a up write:pr",
+        "this man there born:psv:pa"
+      ],
+      "87:7": [
+        "singer:pl",
+        "instrument:pl:a play:ag:pl",
+        "all my/spring:pl"
+      ],
+      "88:1": [
+        "lord god of my/salvation:excl",
+        "i day and night"
+      ],
+      "88:2": [
+        "my/prayer:a",
+        "ear:a to my/cry:ev"
+      ],
+      "88:3": [
+        "full of kjv_trouble:pl",
+        "near to grave"
+      ],
+      "88:4": [
+        "i with those",
+        "kjv_number:psv:pr",
+        "no strength"
+      ],
+      "88:5": [
+        "free among dead",
+        "in grave lie:pr",
+        "no more remember:pr",
+        "thy/hand cut:psv:pr off"
+      ],
+      "88:6": [
+        "i:a in lowest kjv_pit",
+        "in darkness",
+        "kjv_depth:pl"
+      ],
+      "88:7": [
+        "wrath upon i in heavy manner lie:pr",
+        "thy/kjv_wave:pl"
+      ],
+      "88:8": [
+        "my/acquaintance:a far from i",
+        "kjv_abomination",
+        "i forth come:can:neg"
+      ],
+      "88:9": [
+        "my/eye",
+        "kjv_afflict:ev",
+        "my/hand:pl:a"
+      ],
+      "88:10": [
+        "wonder:pl:a to dead",
+        "dead rise:fu and thee:a praise:fu"
+      ],
+      "88:11": [
+        "kjv_lovingkindness in grave",
+        "faithful:ev in destroy:ev"
+      ],
+      "88:12": [
+        "wonder:pl in dark",
+        "land of forget:ev"
+      ],
+      "88:13": [
+        "to thee i cry:perf",
+        "in morning my/prayer before thee come:fu"
+      ],
+      "88:14": [
+        "my/soul:a off cast:pr",
+        "thy/face:a from i"
+      ],
+      "88:15": [
+        "from my/youth",
+        "thy/terror:pl:a suffer:pr",
+        "i distracted"
+      ],
+      "88:16": [
+        "wrath over i",
+        "thy/terror:pl i:a"
+      ],
+      "88:17": [
+        "daily around i like water",
+        "together i:a around surround:pa"
+      ],
+      "88:18": [
+        "lover and friend:a",
+        "my/acquaintance:a into darkness"
+      ],
+      "89:1": [
+        "i mercy:pl:a",
+        "with my/mouth",
+        "faithful:ev:a"
+      ],
+      "89:2": [
+        "i say:perf",
+        "mercy for ever up build:psv:fu",
+        "very heaven:pl"
+      ],
+      "89:3": [
+        "ipl kjv_covenant:a",
+        "mypl/choose:psv:adj",
+        "kjv_david mypl/servant"
+      ],
+      "89:4": [
+        "thy/seed:a ipl",
+        "thy/throne:a",
+        "all generation:pl"
+      ],
+      "89:5": [
+        "heaven:pl thy/wonder:pl:a",
+        "kjv_congregation of saint:pl"
+      ],
+      "89:6": [
+        "compare:psv:can",
+        "son:pl of mighty",
+        "like:caus:psv:can"
+      ],
+      "89:7": [
+        "kjv_assembly of saint:pl",
+        "kjv_revere:psv:inf"
+      ],
+      "89:8": [
+        "god of army:pl:excl",
+        "strong kjv_lord",
+        "faithful:ev around thee"
+      ],
+      "89:9": [
+        "rage:ev:a of sea",
+        "kjv_wave:pl",
+        "still:caus:pr"
+      ],
+      "89:10": [
+        "kjv_rahab_broken:a",
+        "as one who slay:psv:pr",
+        "strong arm"
+      ],
+      "89:11": [
+        "heaven:pl thine",
+        "earth also thine",
+        "kjv_found_base:perf"
+      ],
+      "89:12": [
+        "kjv_north and kjv_south",
+        "kjv_tabor and kjv_hermon"
+      ],
+      "89:13": [
+        "mighty arm",
+        "high thy/kjv_right_side hand"
+      ],
+      "89:14": [
+        "justice and judgment dwelling",
+        "mercy and truth"
+      ],
+      "89:15": [
+        "joy:adj sound:a",
+        "light of thy/face"
+      ],
+      "89:16": [
+        "all day rejoice:fu",
+        "kjv_righteousness",
+        "kjv_exalt:psv:fu"
+      ],
+      "89:17": [
+        "their/strength",
+        "ourone/horn"
+      ],
+      "89:18": [
+        "ourone/defence",
+        "kjv_holy_one",
+        "ourone/king"
+      ],
+      "89:19": [
+        "to thy/holy one speak:pa",
+        "say:pa ipl",
+        "one who mighty",
+        "one:a choose:psv"
+      ],
+      "89:20": [
+        "ipl kjv_david mypl/servant:a",
+        "mypl/holy oil"
+      ],
+      "89:21": [
+        "mypl/hand",
+        "mypl/arm also"
+      ],
+      "89:22": [
+        "kjv_exact_debt:fu:neg",
+        "son of wicked:ev"
+      ],
+      "89:23": [
+        "ipl his/foe:pl:a",
+        "down beat:fu",
+        "plague:fu"
+      ],
+      "89:24": [
+        "mypl/faithful:ev and mypl/mercy",
+        "mypl/name"
+      ],
+      "89:25": [
+        "ipl his/hand:a",
+        "sea",
+        "kjv_right_side hand:a in river:pl"
+      ],
+      "89:26": [
+        "he to ipl cry:fu",
+        "thou my/father my/god",
+        "my/salvation"
+      ],
+      "89:27": [
+        "ipl he:a mypl/first born:psv:adj",
+        "more high than king:pl"
+      ],
+      "89:28": [
+        "mypl/mercy:a ipl",
+        "mypl/kjv_covenant",
+        "kjv_firmly stand:fu"
+      ],
+      "89:29": [
+        "his/seed:a also ipl",
+        "his/throne:a as day:pl of heaven"
+      ],
+      "89:30": [
+        "if his/child:pl",
+        "mypl/law:a",
+        "mypl/judgment:pl walk:pr:neg"
+      ],
+      "89:31": [
+        "if they mypl/kjv_statute:pl:a",
+        "mypl/command:pl:a keep:pr:neg"
+      ],
+      "89:32": [
+        "then ipl",
+        "with rod visit:fu",
+        "kjv_stripe_blow:pl"
+      ],
+      "89:33": [
+        "mypl/kjv_lovingkindness:a ipl entirely",
+        "take:fu:neg",
+        "faithful:ev:a fail:inf allow:fu"
+      ],
+      "89:34": [
+        "mypl/kjv_covenant:a ipl break:fu:neg",
+        "mypl/lip:pl"
+      ],
+      "89:35": [
+        "once ipl",
+        "mypl/holy:ev",
+        "kjv_lie_false:fu:neg"
+      ],
+      "89:36": [
+        "seed for ever endure:fu",
+        "sun before ipl"
+      ],
+      "89:37": [
+        "as moon",
+        "faithful witness in heaven"
+      ],
+      "89:38": [
+        "but thou off cast:perf and kjv_abhor:perf",
+        "thine anoint:psv:adj"
+      ],
+      "89:39": [
+        "kjv_covenant:a of thy/servant void make:perf",
+        "crown:a",
+        "kjv_profane:perf"
+      ],
+      "89:40": [
+        "his/hedge:pl:a",
+        "kjv_stronghold:pl:a to ruin"
+      ],
+      "89:41": [
+        "by way pass:pr",
+        "kjv_reproach to his/neighbour:pl"
+      ],
+      "89:42": [
+        "kjv_right_side hand:a of his/kjv_adversary:pl",
+        "enemy:pl:a rejoice:caus:perf"
+      ],
+      "89:43": [
+        "edge:a of his/sword",
+        "battle stand:caus:perf:neg"
+      ],
+      "89:44": [
+        "glory:a cease:caus:perf",
+        "throne:a down to ground"
+      ],
+      "89:45": [
+        "youth thou shorten:perf",
+        "with shame cover:perf"
+      ],
+      "89:46": [
+        "how long",
+        "thyself:a for ever hide:fu",
+        "wrath like fire"
+      ],
+      "89:47": [
+        "how short my/time",
+        "all human:pl:a in vain"
+      ],
+      "89:48": [
+        "death:a see:fu:neg",
+        "hand of grave"
+      ],
+      "89:49": [
+        "former kjv_lovingkindness:pl",
+        "kjv_david in thy/truth swear:pa"
+      ],
+      "89:50": [
+        "thy/servant:pl",
+        "i in my/bosom",
+        "all mighty people"
+      ],
+      "89:51": [
+        "thine enemy:pl",
+        "kjv_footstep:pl:a of thine anoint:psv:adj"
+      ],
+      "89:52": [
+        "kjv_lord bless:psv",
+        "amen and amen"
+      ],
+      "90:1": [
+        "ourone/dwell:ev place",
+        "all generation:pl"
+      ],
+      "90:2": [
+        "before mountain:pl",
+        "earth:a and world:a shape:pp",
+        "from for ever to for ever"
+      ],
+      "90:3": [
+        "human:a to destroy:ev",
+        "you:pl child:pl of human:pl:excl"
+      ],
+      "90:4": [
+        "thousand year:pl",
+        "kjv_yesterday",
+        "kjv_watch_period in night"
+      ],
+      "90:5": [
+        "away as with flood",
+        "as sleep:ev",
+        "grass which up grow:pr"
+      ],
+      "90:6": [
+        "morning it thrive:pr",
+        "evening it down cut:psv:pr"
+      ],
+      "90:7": [
+        "wesg by thine anger destroy:psv:pr",
+        "thy/wrath wesg vex:psv:pr"
+      ],
+      "90:8": [
+        "ourone/kjv_iniquity:pl:a",
+        "ourone/secret sin:pl:a",
+        "light of thy/face"
+      ],
+      "90:9": [
+        "all our/day:pl",
+        "wesg our/year:pl:a",
+        "tale which tell:psv:pr"
+      ],
+      "90:10": [
+        "three+twenty and ten year:pl",
+        "four+twenty year:pl",
+        "labour and sorrow",
+        "wepl away fly:pr"
+      ],
+      "90:11": [
+        "power:a of thine anger",
+        "kjv_according to thy/fear"
+      ],
+      "90:12": [
+        "wepl:a our/day:pl:a kjv_number:inf",
+        "wepl our/heart:pl:a"
+      ],
+      "90:13": [
+        "return:imp kjv_lord:excl",
+        "thy/servant:pl thou relent:opt"
+      ],
+      "90:14": [
+        "wesg:a early",
+        "wesg all our/day:pl"
+      ],
+      "90:15": [
+        "wesg:a glad",
+        "thou wepl:a kjv_afflict:perf",
+        "wepl evil:a see:perf"
+      ],
+      "90:16": [
+        "work:a to thy/servant:pl",
+        "glory:a to their/child:pl"
+      ],
+      "90:17": [
+        "ourone/god upon wesg",
+        "our/hand:pl upon wesg",
+        "yes work:a of our/hand:pl"
+      ],
+      "91:1": [
+        "secret place of most high",
+        "shadow of kjv_almighty"
+      ],
+      "91:2": [
+        "i of kjv_lord",
+        "my/kjv_refuge and my/fortress",
+        "in he i trust:fu"
+      ],
+      "91:3": [
+        "snare of fowler",
+        "harm:adj kjv_pestilence"
+      ],
+      "91:4": [
+        "feather:pl",
+        "wing:pl",
+        "truth thy/kjv_shield_armour and kjv_buckler"
+      ],
+      "91:5": [
+        "terror by night",
+        "arrow which by day fly:pr"
+      ],
+      "91:6": [
+        "kjv_pestilence which in darkness walk:pr",
+        "destroy:ev which at noon"
+      ],
+      "91:7": [
+        "thousand at thy/side",
+        "ten+thousand at thy/kjv_right_side hand",
+        "come:fu:neg"
+      ],
+      "91:8": [
+        "only with thine eye:pl",
+        "reward:a of wicked"
+      ],
+      "91:9": [
+        "who my/kjv_refuge be:pr",
+        "thy/dwelling"
+      ],
+      "91:10": [
+        "no evil to thee happen:fu",
+        "neither any plague"
+      ],
+      "91:11": [
+        "his/angel:pl:a charge:a",
+        "in all thy/way:pl"
+      ],
+      "91:12": [
+        "in their/hand:pl",
+        "lest thou thy/foot:a against stone"
+      ],
+      "91:13": [
+        "lion and adder",
+        "young lion and kjv_dragon_source:a"
+      ],
+      "91:14": [
+        "upon ipl",
+        "ipl he:a deliver:fu",
+        "mypl/name:a"
+      ],
+      "91:15": [
+        "upon ipl call:fu",
+        "ipl with he in kjv_trouble",
+        "he:a honour:fu"
+      ],
+      "91:16": [
+        "with long life ipl",
+        "mypl/salvation:a"
+      ],
+      "92:1": [
+        "to lord thanks:a give:inf",
+        "thy/name praise:pl:a"
+      ],
+      "92:2": [
+        "kjv_lovingkindness:a in morning",
+        "faithful:ev:a every night"
+      ],
+      "92:3": [
+        "instrument of ten string:pl",
+        "kjv_psaltery",
+        "harp with solemn sound"
+      ],
+      "92:4": [
+        "i:a through thy/work glad",
+        "i in work:pl of thy/hand:pl"
+      ],
+      "92:5": [
+        "how great thy/work:pl be:pr:excl",
+        "thy/thought:pl very deep"
+      ],
+      "92:6": [
+        "kjv_brutish man",
+        "neither fool this:a understand:pr"
+      ],
+      "92:7": [
+        "wicked like grass grow:pr",
+        "kjv_iniquity thrive:pr",
+        "for ever destroy:psv:fu"
+      ],
+      "92:8": [
+        "most high for ever"
+      ],
+      "92:9": [
+        "behold:imp thine enemy:pl kjv_lord:excl because behold:imp thine enemy:pl",
+        "scatter:psv:fu"
+      ],
+      "92:10": [
+        "my/horn:a",
+        "kjv_unicorn",
+        "i with fresh oil anoint:psv:fu"
+      ],
+      "92:11": [
+        "my/eye also my/desire:a",
+        "my/ear:pl my/desire:a",
+        "against i"
+      ],
+      "92:12": [
+        "kjv_palm_tree thrive:fu",
+        "kjv_cedar in kjv_lebanon"
+      ],
+      "92:13": [
+        "house of kjv_lord plant:psv:pr",
+        "ourone/god thrive:fu"
+      ],
+      "92:14": [
+        "fruit:a in old age",
+        "fat and thrive:adj"
+      ],
+      "92:15": [
+        "kjv_lord kjv_upright",
+        "my/rock",
+        "no unjust:ev"
+      ],
+      "93:1": [
+        "with majesty clothe:psv:pr",
+        "himself:a kjv_gird:perf",
+        "move:psv:can:neg"
+      ],
+      "93:2": [
+        "throne of old kjv_establish:psv:pr",
+        "from for ever"
+      ],
+      "93:3": [
+        "flood:pl up lift:perf",
+        "flood:pl their/voice:a up lift:perf",
+        "flood:pl their/kjv_wave:pl:a up lift:pr"
+      ],
+      "93:4": [
+        "more mighty than noise of much water",
+        "kjv_wave:pl of sea"
+      ],
+      "93:5": [
+        "testimony:pl very sure",
+        "holy:ev thy/house:a fit:pr"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "84:10",
+        "85:8",
+        "86:1",
+        "86:11",
+        "86:12",
+        "86:13",
+        "86:14",
+        "86:16",
+        "86:17",
+        "86:2",
+        "86:3",
+        "86:4",
+        "86:7",
+        "88:1",
+        "88:13",
+        "88:14",
+        "88:15",
+        "88:16",
+        "88:17",
+        "88:18",
+        "88:4",
+        "88:6",
+        "88:7",
+        "88:8",
+        "88:9",
+        "89:1",
+        "89:2",
+        "89:50",
+        "91:2",
+        "92:10",
+        "92:11",
+        "92:4"
+      ],
+      "ipl": [
+        "82:6",
+        "87:4",
+        "89:19",
+        "89:20",
+        "89:23",
+        "89:25",
+        "89:26",
+        "89:27",
+        "89:28",
+        "89:29",
+        "89:3",
+        "89:32",
+        "89:33",
+        "89:34",
+        "89:35",
+        "89:36",
+        "89:4",
+        "91:14",
+        "91:15",
+        "91:16"
+      ],
+      "wesg": [
+        "83:12",
+        "83:4",
+        "85:13",
+        "85:4",
+        "85:5",
+        "85:6",
+        "85:7",
+        "90:14",
+        "90:15",
+        "90:17",
+        "90:7",
+        "90:9"
+      ],
+      "wepl": [
+        "90:10",
+        "90:12",
+        "90:15"
+      ],
+      "mypl": [
+        "89:20",
+        "89:21",
+        "89:24",
+        "89:27",
+        "89:28",
+        "89:3",
+        "89:30",
+        "89:31",
+        "89:33",
+        "89:34",
+        "89:35",
+        "91:14",
+        "91:16"
+      ],
+      "ourone": [
+        "84:9",
+        "85:12",
+        "85:4",
+        "85:9",
+        "89:17",
+        "89:18",
+        "90:1",
+        "90:17",
+        "90:8",
+        "92:13"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Psalm83:5one consent describes unity,not one conspirator.",
+      "Psalm84:10one day compared with1000;89:27firstborn rank1,not a number of children;89:35one oath.",
+      "Psalm90:4one thousand years retains the night-watch comparison without an invented duration;90:10three scores plus ten=70and four scores=80.",
+      "Psalm91:7one thousand and ten thousand remain unequal;92:3only the named instrument has ten strings.",
+      "Generic one,God-alone and HolyOne carry no divine-person count;87:5this-and-that is distributive,not exactly two men."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Plural gods in82and86remain without forced human-judge substitution;interpreted divine plural-I boundaries are documented.",
+      "Psalm89:26human myfather/myGod remains a nested quoted voice inside divine plural-I,while89:34covenant promise and39void-covenant accusation both remain.",
+      "Psalm88ends in darkness without invented comfort;90distinguishes shared lament from physical plural hearts,hands and mortal members.",
+      "Rahab peoples/image entries remain distinct from Jericho woman;swallow is a bird,firstborn is passive rank,bows/lying/springs keep their contextual senses.",
+      "All prior targets and old seals remain unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 780,
+    "spreads": 390,
+    "units": 1492,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "47fdd97ff5f1e098bd7293d85a6d877b9e4db563c9717aaef275c8933425918f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 390,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.489,
+    "modules": [
+      "tests.test_kjv_psalm_nested_covenant_mortality",
+      "tests.test_kjv_psalm_crisis_judgment_memory",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    779,
+    780
+  ],
+  "status": "incompleteBible;Psalms1to93sectioncheckpointverified"
+}

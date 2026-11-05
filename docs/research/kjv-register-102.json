@@ -1,0 +1,978 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.102",
+    "parentVersion": "0.10-kjv.101",
+    "parentHead": "ab20a20951d55b47d5780b17a0f0bb8654380b4de28a03a81d2a21aea1b277b6",
+    "head": "9a9092670fd3589c49d39a8be107bb0505f623fdeb3a1167e6654f66255066b3",
+    "newLexicalEntries": 21,
+    "newProperEntries": 9,
+    "newCommonEntries": 12,
+    "newSurfaceForms": 17,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 160,
+    "exactCompilerCases": 160,
+    "newAuthoredVerses": 160,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 160,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 18024,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJobVerses": 160,
+    "jobVerses": 160,
+    "authoredVerses": 13078,
+    "remainingVerses": 18024,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 8,
+    "quantityChecks": [
+      {
+        "reference": "Job 1:2",
+        "source": "And there were born unto him seven sons and three daughters.",
+        "expectedDecimalQuantities": [
+          7,
+          3
+        ],
+        "targetQuantities": [
+          7,
+          3
+        ]
+      },
+      {
+        "reference": "Job 1:3",
+        "source": "His substance also was seven thousand sheep, and three thousand camels, and five hundred yoke of oxen, and five hundred she asses, and a very great household; so that this man was the greatest of all the men of the east.",
+        "expectedDecimalQuantities": [
+          7000,
+          3000,
+          500,
+          500
+        ],
+        "targetQuantities": [
+          7000,
+          3000,
+          500,
+          500
+        ]
+      },
+      {
+        "reference": "Job 1:4",
+        "source": "And his sons went and feasted in their houses, every one his day; and sent and called for their three sisters to eat and to drink with them.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Job 1:17",
+        "source": "While he was yet speaking, there came also another, and said, The Chaldeans made out three bands, and fell upon the camels, and have carried them away, yea, and slain the servants with the edge of the sword; and I only am escaped alone to tell thee.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Job 1:19",
+        "source": "And, behold, there came a great wind from the wilderness, and smote the four corners of the house, and it fell upon the young men, and they are dead; and I only am escaped alone to tell thee.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Job 2:11",
+        "source": "Now when Job’s three friends heard of all this evil that was come upon him, they came every one from his own place; Eliphaz the Temanite, and Bildad the Shuhite, and Zophar the Naamathite: for they had made an appointment together to come to mourn with him and to comfort him.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Job 2:13",
+        "source": "So they sat down with him upon the ground seven days and seven nights, and none spake a word unto him: for they saw that his grief was very great.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Job 5:19",
+        "source": "He shall deliver thee in six troubles: yea, in seven there shall no evil touch thee.",
+        "expectedDecimalQuantities": [
+          6,
+          7
+        ],
+        "targetQuantities": [
+          6,
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_uz_job_land",
+        "blameless and kjv_uprightness:adj",
+        "evil:a avoid:cv"
+      ],
+      "1:2": [
+        "seven son:pl and kjv_three daughter:pl"
+      ],
+      "1:3": [
+        "seven+thousand sheep:pl",
+        "kjv_three+thousand kjv_camel:pl",
+        "five+hundred yoke:pl",
+        "five+hundred female ass:pl",
+        "great kjv_household"
+      ],
+      "1:4": [
+        "each on his/day",
+        "their/kjv_three sister:pl:a"
+      ],
+      "1:5": [
+        "kjv_number:ev of all they",
+        "it be:may",
+        "in their/heart:pl curse:perf"
+      ],
+      "1:6": [
+        "son:pl of god",
+        "kjv_satan_job also among they"
+      ],
+      "1:7": [
+        "from where",
+        "to and back in earth",
+        "up and down"
+      ],
+      "1:8": [
+        "mypl/servant kjv_job_sufferer",
+        "none like he",
+        "evil:a avoid:cv"
+      ],
+      "1:9": [
+        "for nothing fear:pr?"
+      ],
+      "1:10": [
+        "hedge:a about he",
+        "work of his/hand:pl:a",
+        "his/kjv_goods"
+      ],
+      "1:11": [
+        "all:a that he have:pr",
+        "to thy/face curse:fu"
+      ],
+      "1:12": [
+        "all that he have:pr in thy/power",
+        "only upon himself",
+        "put:neg:imp"
+      ],
+      "1:13": [
+        "his/son:pl and his/daughter:pl",
+        "eldest brother:poss house",
+        "eat:pprog"
+      ],
+      "1:14": [
+        "ox:pl plough:pprog",
+        "ass:pl near they feed:pprog"
+      ],
+      "1:15": [
+        "kjv_sabeans_job",
+        "servant:pl:a with sword:poss edge",
+        "i only alone escape:perf"
+      ],
+      "1:16": [
+        "while he yet speak:cv",
+        "fire of god from heaven",
+        "i only alone escape:perf"
+      ],
+      "1:17": [
+        "kjv_chaldean:pl kjv_three band:pl",
+        "kjv_camel:pl",
+        "i only alone escape:perf"
+      ],
+      "1:18": [
+        "thy/son:pl and thy/daughter:pl",
+        "eldest brother:poss house",
+        "eat:pprog"
+      ],
+      "1:19": [
+        "four corner:pl",
+        "upon young man:pl",
+        "i only alone escape:perf"
+      ],
+      "1:20": [
+        "his/mantle:a rend:pa",
+        "his/head:a shave:pa",
+        "kjv_worship:pa"
+      ],
+      "1:21": [
+        "kjv_nakedness:adj i",
+        "to there return:fu",
+        "kjv_lord give:pa",
+        "away take:perf",
+        "bless:psv:opt"
+      ],
+      "1:22": [
+        "sin:neg:pa nor god:a foolish:adv accuse:pa"
+      ],
+      "2:1": [
+        "again day",
+        "son:pl of god",
+        "himself:a before kjv_lord present:inf"
+      ],
+      "2:2": [
+        "from where",
+        "to and back in earth",
+        "up and down"
+      ],
+      "2:3": [
+        "mypl/servant",
+        "his/integrity:a",
+        "thou ipl:a against he",
+        "without reason destroy:inf"
+      ],
+      "2:4": [
+        "skin for skin",
+        "all that person have:pr",
+        "for his/life"
+      ],
+      "2:5": [
+        "his/bone and his/flesh:a",
+        "to thy/face curse:fu"
+      ],
+      "2:6": [
+        "he in thy/hand",
+        "but his/life:a preserve:imp"
+      ],
+      "2:7": [
+        "kjv_boil_lesion:pl",
+        "kjv_sole of his/foot",
+        "top of his/head"
+      ],
+      "2:8": [
+        "kjv_potsherd_scraper",
+        "himself:a with it kjv_scrape:inf",
+        "among kjv_ashes"
+      ],
+      "2:9": [
+        "his/wife",
+        "thy/integrity",
+        "god:a curse:imp and die:imp"
+      ],
+      "2:10": [
+        "wesg good:a",
+        "wesg evil:a receive:neg:fu",
+        "with his/lip:pl sin:neg:pa"
+      ],
+      "2:11": [
+        "kjv_three friend:pl",
+        "kjv_eliphaz_friend kjv_temanite",
+        "kjv_bildad kjv_shuhite",
+        "kjv_zophar kjv_naamathite",
+        "mourn:inf",
+        "comfort:inf"
+      ],
+      "2:12": [
+        "he:a recognize:neg:pa",
+        "each his/mantle:a",
+        "their/head:pl to heaven"
+      ],
+      "2:13": [
+        "seven day:pl and seven night:pl",
+        "none word:a",
+        "grief very great"
+      ],
+      "3:1": [
+        "his/day:a curse:pa"
+      ],
+      "3:2": [
+        "kjv_job_sufferer speak:pa and say:pa"
+      ],
+      "3:3": [
+        "day perish:opt",
+        "i bear:psv:pa",
+        "kjv_male child conceive:psv:perf"
+      ],
+      "3:4": [
+        "day darkness",
+        "regard:neg:opt",
+        "neither light"
+      ],
+      "3:5": [
+        "shadow of death",
+        "stain:opt",
+        "black:ev of day"
+      ],
+      "3:6": [
+        "darkness it:a seize:opt",
+        "join:psv:neg:opt",
+        "kjv_number:ev of month:pl"
+      ],
+      "3:7": [
+        "night alone",
+        "no joy:adj voice"
+      ],
+      "3:8": [
+        "those it:a curse:opt",
+        "their/mourn:ev:a up raise:inf"
+      ],
+      "3:9": [
+        "star:pl of its/kjv_twilight",
+        "but none have:opt",
+        "kjv_dawn"
+      ],
+      "3:10": [
+        "door:pl of my/mother:poss womb",
+        "shut:neg:pa",
+        "sorrow:a"
+      ],
+      "3:11": [
+        "why i from womb die:neg:pa",
+        "breath:a release:neg:pa",
+        "belly out come:pa"
+      ],
+      "3:12": [
+        "knee:pl i:a meet:pa",
+        "breast:pl that i suck:should"
+      ],
+      "3:13": [
+        "lie:pp:should",
+        "sleep:pp:should",
+        "at rest be:pp"
+      ],
+      "3:14": [
+        "king:pl and counsellor:pl",
+        "kjv_desolate kjv_place_site:pl:a for themselves build:pr"
+      ],
+      "3:15": [
+        "prince:pl who gold:a",
+        "with silver fill:pa"
+      ],
+      "3:16": [
+        "hide:psv:pp kjv_untimely_birth",
+        "i be:neg:pp",
+        "never light:a see:pa"
+      ],
+      "3:17": [
+        "wicked from disturb:ev cease:pr",
+        "weary at rest"
+      ],
+      "3:18": [
+        "captive:pl together rest:pr",
+        "oppress:ag:poss voice:a hear:neg:pr"
+      ],
+      "3:19": [
+        "small and great",
+        "servant from his/master free"
+      ],
+      "3:20": [
+        "why light",
+        "misery",
+        "bitter in soul"
+      ],
+      "3:21": [
+        "for death long:pr",
+        "it come:neg:pr",
+        "more than for hide:psv:pp treasure:pl"
+      ],
+      "3:22": [
+        "rejoice:pr",
+        "grave:a find:pr:can"
+      ],
+      "3:23": [
+        "whose way hide:psv:pr",
+        "god hedge:perf in"
+      ],
+      "3:24": [
+        "before i eat:pr",
+        "my/roar:ev:pl like water:pl"
+      ],
+      "3:25": [
+        "i greatly fear:pa",
+        "upon i come:perf",
+        "i afraid be:pa"
+      ],
+      "3:26": [
+        "in safety be:neg:pa",
+        "neither i rest:a",
+        "neither i quiet",
+        "yet distress"
+      ],
+      "4:1": [
+        "kjv_eliphaz_friend kjv_temanite answer:pa"
+      ],
+      "4:2": [
+        "if wesg",
+        "thou grief:caus:psv:fu",
+        "who himself:a"
+      ],
+      "4:3": [
+        "many:a instruct:perf",
+        "weak hand:pl:a strengthen:perf"
+      ],
+      "4:4": [
+        "fall:pprog",
+        "weak knee:pl:a"
+      ],
+      "4:5": [
+        "thou faint:pr",
+        "thou distress:psv:pr"
+      ],
+      "4:6": [
+        "thy/fear thy/confidence thy/hope",
+        "kjv_uprightness of thy/way:pl"
+      ],
+      "4:7": [
+        "i thee:a beseech:pr",
+        "innocent be:cv",
+        "kjv_righteous cut:psv:pa off"
+      ],
+      "4:8": [
+        "as i see:perf",
+        "kjv_iniquity:a plough:pr",
+        "same:a reap:pr"
+      ],
+      "4:9": [
+        "kjv_blast of god",
+        "breath of his/kjv_nostril:pl"
+      ],
+      "4:10": [
+        "roar:ev of lion",
+        "tooth:pl of young lion:pl",
+        "break:psv:pr"
+      ],
+      "4:11": [
+        "old lion for lack of prey",
+        "strong lion:poss young:pl"
+      ],
+      "4:12": [
+        "secretly to i",
+        "my/ear little of it:a"
+      ],
+      "4:13": [
+        "vision:pl of night",
+        "deep sleep upon person:pl"
+      ],
+      "4:14": [
+        "fear upon i",
+        "all my/bone:pl:a shake:caus:pa"
+      ],
+      "4:15": [
+        "spirit before my/face",
+        "hair of my/flesh"
+      ],
+      "4:16": [
+        "its/form:a perceive:neg:pa:can",
+        "silence there",
+        "i voice:a hear:pa"
+      ],
+      "4:17": [
+        "mortal person more kjv_righteous than god",
+        "more pure than his/make:ag"
+      ],
+      "4:18": [
+        "no trust:a in his/servant:pl",
+        "his/angel:pl:a with folly"
+      ],
+      "4:19": [
+        "house:pl of kjv_clay_material",
+        "kjv_foundation in dust",
+        "before kjv_moth_job"
+      ],
+      "4:20": [
+        "from morning to evening",
+        "forever perish:pr",
+        "without any"
+      ],
+      "4:21": [
+        "their/excellent:ev",
+        "without wisdom"
+      ],
+      "5:1": [
+        "if any",
+        "which of holy:pl"
+      ],
+      "5:2": [
+        "wrath foolish man:a",
+        "kjv_envy:ev simple person:a"
+      ],
+      "5:3": [
+        "i foolish root:a",
+        "i his/dwell:ev:a curse:pa"
+      ],
+      "5:4": [
+        "his/child:pl far from safety",
+        "in gate crush:psv:pr",
+        "neither any"
+      ],
+      "5:5": [
+        "hungry eat:pr",
+        "out of thorn:pl",
+        "their/kjv_goods:a kjv_swallow:pr"
+      ],
+      "5:6": [
+        "from dust forth come:neg:pr",
+        "neither distress out of ground"
+      ],
+      "5:7": [
+        "person to distress bear:psv:pr",
+        "spark:pl up fly:pr"
+      ],
+      "5:8": [
+        "i to god seek:should",
+        "my/kjv_case_plea:a entrust:should"
+      ],
+      "5:9": [
+        "search:psv:neg:can",
+        "without kjv_number:ev"
+      ],
+      "5:10": [
+        "rain:a upon earth",
+        "water:pl:a upon field:pl"
+      ],
+      "5:11": [
+        "who low be:pr",
+        "to safety kjv_exalt:psv:may"
+      ],
+      "5:12": [
+        "device:pl:a defeat:pr",
+        "perform:neg:pr:can"
+      ],
+      "5:13": [
+        "wise:a in their/own craft:ev",
+        "counsel of kjv_froward haste:cv"
+      ],
+      "5:14": [
+        "darkness:a in day time",
+        "in noon as in night"
+      ],
+      "5:15": [
+        "poor:a from sword from their/mouth",
+        "hand of mighty"
+      ],
+      "5:16": [
+        "poor hope:a",
+        "kjv_iniquity her/mouth:a"
+      ],
+      "5:17": [
+        "god kjv_chasten:pr",
+        "kjv_almighty:a despise:neg:imp"
+      ],
+      "5:18": [
+        "pain:a make:pr",
+        "wound:pr",
+        "his/hand:pl whole make:pr"
+      ],
+      "5:19": [
+        "six distress:pl",
+        "in seven no evil"
+      ],
+      "5:20": [
+        "in kjv_famine",
+        "from death redeem:fu",
+        "in war"
+      ],
+      "5:21": [
+        "whip:ev of tongue",
+        "neither thou",
+        "when it come:pr"
+      ],
+      "5:22": [
+        "destroy:ev and kjv_famine",
+        "beast:pl of earth"
+      ],
+      "5:23": [
+        "kjv_covenant with stone:pl of field",
+        "beast:pl of field at peace"
+      ],
+      "5:24": [
+        "thy/tent in peace",
+        "thy/dwell:ev:a visit:fu and sin:neg:fu"
+      ],
+      "5:25": [
+        "thy/seed great",
+        "thy/offspring as grass"
+      ],
+      "5:26": [
+        "grave in full age",
+        "kjv_grain_shock in its/season"
+      ],
+      "5:27": [
+        "wesg it:a search:perf",
+        "for thy/good know:imp"
+      ],
+      "6:1": [
+        "kjv_job_sufferer answer:pa"
+      ],
+      "6:2": [
+        "my/grief entirely weigh:psv:opt",
+        "my/kjv_calamity in balance:pl",
+        "lay:psv:opt:excl"
+      ],
+      "6:3": [
+        "heavier than sand of sea",
+        "my/word:pl kjv_swallow:psv:pr"
+      ],
+      "6:4": [
+        "arrow:pl of kjv_almighty",
+        "poison of which my/spirit:a drink:pr",
+        "themselves:a against i kjv_array_battle:pr"
+      ],
+      "6:5": [
+        "wild ass kjv_bray:pr",
+        "ox over his/fodder kjv_low_cattle:pr"
+      ],
+      "6:6": [
+        "without taste",
+        "without salt",
+        "white of egg"
+      ],
+      "6:7": [
+        "my/soul touch:inf refuse:pa",
+        "my/sorrow:adj food"
+      ],
+      "6:8": [
+        "i my/request:a have:may:excl",
+        "which i for long:pr"
+      ],
+      "6:9": [
+        "god:a kjv_please_satisfy:should",
+        "i:a destroy:inf",
+        "i:a cut:should off"
+      ],
+      "6:10": [
+        "myself:a in sorrow hard:caus:should",
+        "he spare:neg:opt",
+        "kjv_holy_one:a conceal:neg:perf"
+      ],
+      "6:11": [
+        "what my/strength",
+        "what my/end",
+        "my/life:a long:caus:should"
+      ],
+      "6:12": [
+        "strength of stone:pl",
+        "my/flesh of kjv_brass"
+      ],
+      "6:13": [
+        "my/help in i be:neg:pr",
+        "wisdom quite from i"
+      ],
+      "6:14": [
+        "pity from his/friend",
+        "but he fear of kjv_almighty:a forsake:pr"
+      ],
+      "6:15": [
+        "my/brother:pl deceitful:adv",
+        "stream of brook:pl"
+      ],
+      "6:16": [
+        "because ice black+like",
+        "snow hide:psv:pr"
+      ],
+      "6:17": [
+        "warm become:pr",
+        "hot be:pr",
+        "their/kjv_place_site kjv_consume:psv:pr"
+      ],
+      "6:18": [
+        "path:pl of their/way",
+        "to nothing go:pr"
+      ],
+      "6:19": [
+        "troop:pl of kjv_tema",
+        "company:pl of kjv_sheba"
+      ],
+      "6:20": [
+        "because they hope:pp",
+        "to there",
+        "ashamed be:pa"
+      ],
+      "6:21": [
+        "you:pl nothing",
+        "my/cast+down:psv:ev:a",
+        "afraid be:pr"
+      ],
+      "6:22": [
+        "i say:pa",
+        "your/kjv_goods reward:a for i"
+      ],
+      "6:23": [
+        "enemy:poss hand",
+        "hand of mighty redeem:imp"
+      ],
+      "6:24": [
+        "i:a teach:imp",
+        "my/tongue:a hold:fu",
+        "in what i err:perf"
+      ],
+      "6:25": [
+        "kjv_right_speech word:pl",
+        "your/argument rebuke:pr"
+      ],
+      "6:26": [
+        "you:pl",
+        "speech:pl of person who desperate",
+        "as wind"
+      ],
+      "6:27": [
+        "kjv_fatherless:a overwhelm:pr",
+        "kjv_pit:a for your/friend"
+      ],
+      "6:28": [
+        "upon i look:imp",
+        "if i kjv_lie_false:pr"
+      ],
+      "6:29": [
+        "i you:pl:a beseech:pr",
+        "kjv_iniquity be:neg:opt",
+        "my/kjv_righteousness in it"
+      ],
+      "6:30": [
+        "kjv_iniquity in my/tongue",
+        "my/taste",
+        "perceive:neg:pr:can"
+      ],
+      "7:1": [
+        "appoint:psv:pp time to person",
+        "day:pl of kjv_hireling_job"
+      ],
+      "7:2": [
+        "servant earnest:adv shadow:a",
+        "kjv_hireling_job reward of his/work"
+      ],
+      "7:3": [
+        "month:pl of vanity:a possess:caus:psv:pr",
+        "weary:adj night:pl"
+      ],
+      "7:4": [
+        "when i down lie:pr",
+        "to and back turn:ev:pl",
+        "kjv_dawn"
+      ],
+      "7:5": [
+        "worm:pl and lump:pl of dust",
+        "my/skin break:psv:pr",
+        "kjv_loathsome"
+      ],
+      "7:6": [
+        "weaver:poss kjv_shuttle_weaving",
+        "without hope"
+      ],
+      "7:7": [
+        "my/life wind",
+        "my/eye good:a no more see:fu"
+      ],
+      "7:8": [
+        "i:a no more see:fu",
+        "thy/eye:pl upon i",
+        "i be:neg:pr"
+      ],
+      "7:9": [
+        "cloud kjv_consume:psv:pr",
+        "grave down go:pr",
+        "no more up come:fu"
+      ],
+      "7:10": [
+        "his/house no more",
+        "his/kjv_place_site he:a any more know:fu"
+      ],
+      "7:11": [
+        "my/mouth:a restrain:neg:fu",
+        "anguish of my/spirit",
+        "bitterness of my/soul"
+      ],
+      "7:12": [
+        "i sea or whale",
+        "watch:ev:a over i"
+      ],
+      "7:13": [
+        "my/bed i:a comfort:fu",
+        "my/kjv_couch_job"
+      ],
+      "7:14": [
+        "thou i:a with dream:pl",
+        "through vision:pl"
+      ],
+      "7:15": [
+        "my/soul kjv_strangling_lament:a choose:pr",
+        "death more than my/life"
+      ],
+      "7:16": [
+        "i it:a loathe:pr",
+        "always live:neg:should",
+        "i:a alone let:imp"
+      ],
+      "7:17": [
+        "what person",
+        "great:caus:should",
+        "thy/heart:a upon he"
+      ],
+      "7:18": [
+        "every morning",
+        "every moment test:should"
+      ],
+      "7:19": [
+        "from i depart:neg:fu",
+        "my/kjv_saliva:a down kjv_swallow:pr"
+      ],
+      "7:20": [
+        "i sin:perf",
+        "person:pl:poss preserve:ag:excl",
+        "mark against thee",
+        "to myself burden"
+      ],
+      "7:21": [
+        "my/transgress:ev:a pardon:neg:pr",
+        "my/kjv_iniquity:a away take:neg:pr",
+        "i in dust sleep:fu",
+        "but i be:neg:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:15",
+        "1:16",
+        "1:17",
+        "1:19",
+        "1:21",
+        "3:11",
+        "3:12",
+        "3:13",
+        "3:16",
+        "3:24",
+        "3:25",
+        "3:26",
+        "3:3",
+        "4:12",
+        "4:14",
+        "4:16",
+        "4:7",
+        "4:8",
+        "5:3",
+        "5:8",
+        "6:10",
+        "6:11",
+        "6:13",
+        "6:22",
+        "6:23",
+        "6:24",
+        "6:28",
+        "6:29",
+        "6:4",
+        "6:8",
+        "6:9",
+        "7:11",
+        "7:12",
+        "7:13",
+        "7:14",
+        "7:16",
+        "7:19",
+        "7:20",
+        "7:21",
+        "7:3",
+        "7:4",
+        "7:8"
+      ],
+      "ipl": [
+        "2:3"
+      ],
+      "wesg": [
+        "2:10",
+        "4:2",
+        "5:27"
+      ],
+      "wepl": [],
+      "they:du": [],
+      "you:du": [],
+      "mypl": [
+        "1:8",
+        "2:3"
+      ],
+      "iplself": [],
+      "ourone": [],
+      "we:du": []
+    },
+    "quantityInterpretation": [
+      "Seven sons and three daughters;7000sheep,3000camels,500yokes,500female asses;units retained.",
+      "Three raiding bands,four house corners and seven days plus seven nights remain separate.",
+      "Six/seven is an ascending poetic pair,not divine-person arithmetic."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Divine plural-I/mypl are contextual;messengers,sufferer and adviser retain personal-I. Singular-we claims shared receiving or advisory identity without certifying agreement or truth.",
+      "The narrator,the LORD,Satan,Job,his wife and Eliphaz remain distinct voices. Unidentified spirit,without-cause suffering and contradictory claims are not harmonized.",
+      "KJV mourning,comparative more-than,not-sin,swallowed words and I-have-sinned are retained without importing other textual witnesses.",
+      "Bodily suffering and death wishes remain attributed literary speech without diagnostic or procedural additions. All inherited targets and old seals unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Job — incomplete Bible working text",
+    "pages": 88,
+    "spreads": 44,
+    "units": 160,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c0ab2ae4e3622be4b8ff0cb80f766cacff4260b5c9170337f76eb6d4f04e66a6",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 44,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.66,
+    "modules": [
+      "tests.test_kjv_job_court_lament",
+      "tests.test_kjv_esther_court_reversal",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    87,
+    88
+  ],
+  "status": "incompleteBible;Job1to7sectioncheckpointverified"
+}

@@ -995,7 +995,7 @@
     },
     {
       "method": "view.inspect",
-      "description": "Read the active navigation tool, page origin, viewport and zoom.",
+      "description": "Read tool, origin, viewport, effective zoom, fitMode, pageNumber, pageCount, visiblePageNumbers and previous/next availability.",
       "mutation": false,
       "transports": [
         "python",
@@ -1061,7 +1061,7 @@
     },
     {
       "method": "jobs.status",
-      "description": "Inspect proof job state, phase, revision, staleness, output and full worker log path.",
+      "description": "Inspect proof job state, revision, staleness, output and worker log. PDF progress includes stage, physical page, pageCount, completedUnits, totalUnits and percent; 100 means successfully published.",
       "mutation": false,
       "transports": [
         "python",
@@ -1589,7 +1589,7 @@
     },
     {
       "method": "view.pages",
-      "description": "Show one current page or a facing pair. Workspace preference only; preserves document content, page geometry, zoom and undo history. Inspect page offsets with view.inspect.",
+      "description": "Show the selected single page or its facing pair. Retain an explicit right-page target, manual zoom or automatic fit choice; preserve content and Undo history.",
       "mutation": true,
       "transports": [
         "python",
@@ -1665,6 +1665,61 @@
       ]
     },
     {
+      "method": "publication.edition.inspect",
+      "description": "Inspect native fixed print edition provenance, complete verse/section counts, section page references and current page side/folio. Frozen text stays searchable and copyable; text/layout edits require a new generated edition.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "document.close",
+      "description": "Close the current document and return to a clean Untitled page, keeping the application session open. Reject unsaved changes unless discardUnsaved is explicit; save first to retain them.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.numbering.read",
+      "description": "Read saved Unta page-number settings. New documents number multiple pages at 50 pt and 28 pt edge inset; older documents without settings remain hidden.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.numbering.configure",
+      "description": "Set Unta numbering visibility, margin position, size, edge inset and minimumPages (1 or 2) in one undo step. Keep body frames and typography unchanged; unsafe numbers are withheld and block export.",
+      "mutation": true,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "page.numbering.inspect",
+      "description": "Inspect actual base-12 glyphs, physical page numbers and collision-safe placements for the visible pages, one page, or all pages.",
+      "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
       "method": "document.saved-preview",
       "description": "Inspect embedded preview metadata from the saved file (never unsaved state). No rendering or external fonts required.",
       "mutation": false,
@@ -1679,6 +1734,17 @@
       "method": "shell.status",
       "description": "Inspect Windows .vay association and installed icon/thumbnail component; no registry changes.",
       "mutation": false,
+      "transports": [
+        "python",
+        "cli",
+        "desktop",
+        "mcp"
+      ]
+    },
+    {
+      "method": "view.page",
+      "description": "Go to a 1-based page or the previous/next visible page pair. Direct right-page targets retain their number. Viewing preserves text, formatting, dirty state and Undo history; selection advances the revision guard.",
+      "mutation": true,
       "transports": [
         "python",
         "cli",

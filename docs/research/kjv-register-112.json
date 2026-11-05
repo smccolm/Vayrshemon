@@ -1,0 +1,1336 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.112",
+    "parentVersion": "0.10-kjv.111",
+    "parentHead": "49a106f638b60508691102f2d7b3259c7e8e70646bd20f25df319cb0b86b73ca",
+    "head": "75618d0daba297f7ebc3fd007a91c97963a78584dc2a51280b6cdcea0a63076f",
+    "newLexicalEntries": 5,
+    "newProperEntries": 1,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 171,
+    "exactCompilerCases": 171,
+    "newAuthoredVerses": 171,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 880,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 16234,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 171,
+    "psalmsVerses": 880,
+    "authoredVerses": 14868,
+    "remainingVerses": 16234,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "Psalms 50:10",
+        "source": "For every beast of the forest is mine, and the cattle upon a thousand hills.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Psalms 53:3",
+        "source": "Every one of them is gone back: they are altogether become filthy; there is none that doeth good, no, not one.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 55:23",
+        "source": "But thou, O God, shalt bring them down into the pit of destruction: bloody and deceitful men shall not live out half their days; but I will trust in thee.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "49:1": [
+        "all you:pl people:excl",
+        "inhabit:ag:pl of world"
+      ],
+      "49:2": [
+        "both low and high",
+        "rich and poor"
+      ],
+      "49:3": [
+        "my/mouth of wisdom",
+        "my/heart of understanding"
+      ],
+      "49:4": [
+        "kjv_parable_oracle",
+        "my/riddle:a upon harp"
+      ],
+      "49:5": [
+        "kjv_iniquity of my/heel:pl",
+        "fear:should"
+      ],
+      "49:6": [
+        "their/wealth trust:pr",
+        "boast:pr"
+      ],
+      "49:7": [
+        "none of they",
+        "his/brother:a redeem:can",
+        "ransom:a"
+      ],
+      "49:8": [
+        "redeem:ev of their/soul precious",
+        "for ever cease:pr"
+      ],
+      "49:9": [
+        "live:should",
+        "kjv_corrupt_decay:ev:a see:neg:should"
+      ],
+      "49:10": [
+        "wise man:pl die:pr",
+        "kjv_brutish person perish:pr",
+        "other:pl leave:pr"
+      ],
+      "49:11": [
+        "their/inside thought",
+        "their/own name:pl"
+      ],
+      "49:12": [
+        "dwell:neg:pr",
+        "beast:pl who perish:pr"
+      ],
+      "49:13": [
+        "their/folly",
+        "kjv_posterity",
+        "approve:pr",
+        "kjv_selah_marker"
+      ],
+      "49:14": [
+        "death on they feed:fu",
+        "kjv_upright",
+        "beauty",
+        "waste:fu"
+      ],
+      "49:15": [
+        "god my/soul:a",
+        "redeem:fu",
+        "receive:fu",
+        "kjv_selah_marker"
+      ],
+      "49:16": [
+        "when one rich make:psv:pr",
+        "afraid be:neg:imp"
+      ],
+      "49:17": [
+        "nothing:a away carry:fu",
+        "descend:neg:fu"
+      ],
+      "49:18": [
+        "his/soul:a bless:pa",
+        "thee:a praise:fu"
+      ],
+      "49:19": [
+        "generation of his/father:pl",
+        "never light:a see:fu"
+      ],
+      "49:20": [
+        "understand:neg:pr",
+        "beast:pl who perish:pr"
+      ],
+      "50:1": [
+        "mighty god even kjv_lord",
+        "rise:ev of sun",
+        "down go:ev"
+      ],
+      "50:2": [
+        "kjv_zion perfection of beauty",
+        "god shine:perf"
+      ],
+      "50:3": [
+        "ourone/god",
+        "silence:a keep:neg:fu",
+        "fire",
+        "storm"
+      ],
+      "50:4": [
+        "heaven:pl from above",
+        "his/people:a judge:may"
+      ],
+      "50:5": [
+        "mypl/saint:pl:a",
+        "to ipl gather:imp",
+        "with ipl kjv_covenant"
+      ],
+      "50:6": [
+        "heaven:pl his/kjv_righteousness",
+        "god judge himself",
+        "kjv_selah_marker"
+      ],
+      "50:7": [
+        "mypl/people:excl",
+        "ipl against thee testify:fu",
+        "ipl god even thy/god"
+      ],
+      "50:8": [
+        "thy/kjv_burnt_sacrifice:pl",
+        "before ipl be:perf:inf",
+        "rebuke:neg:fu"
+      ],
+      "50:9": [
+        "ipl no kjv_bullock:a",
+        "kjv_male kjv_goat:pl:a",
+        "thy/sheepfold:pl"
+      ],
+      "50:10": [
+        "every beast of forest of ipl",
+        "kjv_livestock upon thousand hill:pl"
+      ],
+      "50:11": [
+        "ipl all bird:pl:a",
+        "wild beast:pl of field of ipl"
+      ],
+      "50:12": [
+        "if ipl hungry be:pa",
+        "ipl would thee:a tell:neg:pr",
+        "world of ipl"
+      ],
+      "50:13": [
+        "ipl flesh:a of bull:pl eat:fu",
+        "blood:a of kjv_goat:pl drink:fu?"
+      ],
+      "50:14": [
+        "to god thanks:ev:a offer:imp",
+        "thy/vow:pl:a",
+        "pay:imp"
+      ],
+      "50:15": [
+        "upon ipl",
+        "ipl thee:a deliver:fu",
+        "thou ipl:a glorify:fu"
+      ],
+      "50:16": [
+        "to wicked god say:pr",
+        "mypl/kjv_statute:pl:a",
+        "mypl/kjv_covenant:a"
+      ],
+      "50:17": [
+        "instruction:a hate:pr",
+        "mypl/word:pl:a behind thee"
+      ],
+      "50:18": [
+        "thief:a see:pa",
+        "consent:pa",
+        "kjv_adultery:ag:pl share:ag"
+      ],
+      "50:19": [
+        "thy/mouth:a to evil",
+        "thy/tongue deceit:a shape:pr"
+      ],
+      "50:20": [
+        "thy/brother",
+        "thy/own mother:poss son:a"
+      ],
+      "50:21": [
+        "ipl silence:a keep:pa",
+        "ipl fully such one as thyself",
+        "ipl thee:a rebuke:fu"
+      ],
+      "50:22": [
+        "you:pl who god:a forget:pr",
+        "lest ipl",
+        "none deliver:inf"
+      ],
+      "50:23": [
+        "ipl:a glorify:pr",
+        "his/behaviour:a fittingly",
+        "ipl salvation:a of god"
+      ],
+      "51:1": [
+        "kjv_according to thy/kjv_lovingkindness",
+        "my/transgress:ev:pl:a erase:imp"
+      ],
+      "51:2": [
+        "from my/kjv_iniquity wash:imp",
+        "from my/sin clean:imp"
+      ],
+      "51:3": [
+        "i my/transgress:ev:pl:a acknowledge:pr",
+        "my/sin ever before i"
+      ],
+      "51:4": [
+        "against thee thee only",
+        "i sin:perf",
+        "kjv_justify_judicial:psv:may",
+        "innocent be:may"
+      ],
+      "51:5": [
+        "i in kjv_iniquity shape:psv:pa",
+        "my/mother i:a conceive:pa"
+      ],
+      "51:6": [
+        "truth:a in part:pl within",
+        "hidden part",
+        "wisdom:a know:caus:fu"
+      ],
+      "51:7": [
+        "kjv_hyssop purify:imp",
+        "more white than snow"
+      ],
+      "51:8": [
+        "joy:a and glad:ev:a hear:caus:imp",
+        "bone:pl which thou break:perf"
+      ],
+      "51:9": [
+        "thy/face:a from my/sin:pl hide:imp",
+        "all my/kjv_iniquity:pl:a erase:imp"
+      ],
+      "51:10": [
+        "pure heart:a create:imp",
+        "kjv_upright spirit:a",
+        "renew:imp"
+      ],
+      "51:11": [
+        "away cast:neg:imp",
+        "thy/holy spirit:a from i take:neg:imp"
+      ],
+      "51:12": [
+        "joy:a of thy/salvation restore:imp",
+        "thy/willing spirit support:imp"
+      ],
+      "51:13": [
+        "transgress:ag:pl:a thy/way:pl:a teach:fu",
+        "turn:psv:fu"
+      ],
+      "51:14": [
+        "kjv_bloodguilt",
+        "god of my/salvation",
+        "thy/kjv_righteousness loud sing:fu"
+      ],
+      "51:15": [
+        "my/lip:pl:a open:imp",
+        "thy/praise:a forth show:fu"
+      ],
+      "51:16": [
+        "desire:neg:pr",
+        "else i it:a would give:pr",
+        "delight:neg:pr"
+      ],
+      "51:17": [
+        "kjv_sacrifice:pl of god broken spirit",
+        "kjv_contrite heart:a",
+        "despise:neg:fu"
+      ],
+      "51:18": [
+        "thy/good pleasure",
+        "kjv_zion",
+        "wall:pl:a of kjv_jerusalem"
+      ],
+      "51:19": [
+        "kjv_sacrifice:pl of kjv_righteousness",
+        "whole kjv_burnt_sacrifice",
+        "kjv_bullock:pl:a"
+      ],
+      "52:1": [
+        "thyself in kjv_mischief boast:pr",
+        "goodness of god always endure:pr"
+      ],
+      "52:2": [
+        "tongue kjv_mischief:pl:a plan:pr",
+        "sharp kjv_razor",
+        "with deceit work:cv"
+      ],
+      "52:3": [
+        "evil:a more than good",
+        "kjv_lie_false:ev:a",
+        "kjv_selah_marker"
+      ],
+      "52:4": [
+        "devour:ag word:pl:a",
+        "deceitful tongue:excl"
+      ],
+      "52:5": [
+        "destroy:fu",
+        "pluck:fu",
+        "kjv_uproot:fu",
+        "land of living"
+      ],
+      "52:6": [
+        "see:fu and fear:fu",
+        "at he laugh:fu"
+      ],
+      "52:7": [
+        "god:a his/strength make:neg:pa",
+        "his/wealth trust:pa",
+        "his/wickedness strengthen:pa"
+      ],
+      "52:8": [
+        "i like green kjv_olive kjv_tree",
+        "mercy of god"
+      ],
+      "52:9": [
+        "because thou it:a do:perf",
+        "on thy/name wait:fu",
+        "before thy/saints"
+      ],
+      "53:1": [
+        "fool in his/heart",
+        "kjv_abomination:adj kjv_iniquity:a",
+        "none who good:a"
+      ],
+      "53:2": [
+        "god from heaven",
+        "understand:pa",
+        "god:a seek:pa"
+      ],
+      "53:3": [
+        "every one of they back go:perf",
+        "no not one_num"
+      ],
+      "53:4": [
+        "my/people:a up eat:pr",
+        "upon god call:neg:perf"
+      ],
+      "53:5": [
+        "where no fear be:pa",
+        "bone:pl:a",
+        "against thee kjv_encamp:pr",
+        "god they:a despise:perf"
+      ],
+      "53:6": [
+        "salvation of kjv_israel",
+        "come:opt:excl",
+        "when god kjv_captivity:a"
+      ],
+      "54:1": [
+        "by thy/name",
+        "by thy/strength judge:imp"
+      ],
+      "54:2": [
+        "my/prayer:a hear:imp",
+        "word:pl of my/mouth"
+      ],
+      "54:3": [
+        "stranger:pl",
+        "oppress:ag:pl after my/soul",
+        "set:neg:perf"
+      ],
+      "54:4": [
+        "my/help:ag",
+        "lord with those",
+        "support:pr"
+      ],
+      "54:5": [
+        "evil:a to my/enemy:pl repay:fu",
+        "in thy/truth off cut:imp"
+      ],
+      "54:6": [
+        "willingly",
+        "kjv_sacrifice:fu",
+        "kjv_lord:excl"
+      ],
+      "54:7": [
+        "deliver:perf",
+        "my/eye its/desire:a",
+        "my/enemy:pl"
+      ],
+      "55:1": [
+        "my/kjv_supplication",
+        "hide:neg:imp"
+      ],
+      "55:2": [
+        "my/complaint mourn:pr",
+        "noise:a make:pr"
+      ],
+      "55:3": [
+        "oppress:ev of wicked",
+        "kjv_iniquity:a upon i cast:pr",
+        "wrath"
+      ],
+      "55:4": [
+        "greatly pain:psv:pr",
+        "terror:pl of death"
+      ],
+      "55:5": [
+        "tremble:ev",
+        "terror i:a overwhelm:perf"
+      ],
+      "55:6": [
+        "wing:pl:a like dove have:opt:excl",
+        "fly:pr would",
+        "rest be:pr would"
+      ],
+      "55:7": [
+        "wander:pr would",
+        "kjv_wilderness remain:pr would"
+      ],
+      "55:8": [
+        "wind:adj storm and tempest",
+        "hasten:pr would"
+      ],
+      "55:9": [
+        "their/tongue:pl:a kjv_divide:imp",
+        "kjv_violence:a and strife:a"
+      ],
+      "55:10": [
+        "day and night",
+        "upon its/wall:pl",
+        "kjv_mischief also and sorrow"
+      ],
+      "55:11": [
+        "wickedness in its/middle",
+        "kjv_guile",
+        "her/street:pl depart:neg:pr"
+      ],
+      "55:12": [
+        "enemy who i:a kjv_reproach:pa be:neg:pa",
+        "bear:perf:inf can",
+        "hide:perf:inf would"
+      ],
+      "55:13": [
+        "thou man my/equal",
+        "my/guide and my/acquaintance"
+      ],
+      "55:14": [
+        "we:du sweet counsel:a",
+        "in company walk:pa"
+      ],
+      "55:15": [
+        "death upon they seize:opt",
+        "alive into kjv_hell",
+        "down go:opt"
+      ],
+      "55:16": [
+        "as for i",
+        "god call:fu",
+        "kjv_lord i:a save:fu"
+      ],
+      "55:17": [
+        "evening and morning and at noon",
+        "pray:fu",
+        "my/voice:a hear:fu"
+      ],
+      "55:18": [
+        "my/soul:a in peace",
+        "many with i"
+      ],
+      "55:19": [
+        "of old remain:pr",
+        "no change:pl:a",
+        "fear:neg:pr"
+      ],
+      "55:20": [
+        "his/hand:pl:a",
+        "at peace with he",
+        "his/kjv_covenant:a break:perf"
+      ],
+      "55:21": [
+        "more smooth than butter",
+        "war in his/heart",
+        "out pull:psv sword:pl"
+      ],
+      "55:22": [
+        "thy/burden:a upon kjv_lord",
+        "sustain:fu",
+        "never allow:fu"
+      ],
+      "55:23": [
+        "kjv_pit of destroy:ev",
+        "half their/day:pl",
+        "i in thee trust:fu"
+      ],
+      "56:1": [
+        "merciful to i",
+        "up kjv_swallow:pr would",
+        "daily fight:cv"
+      ],
+      "56:2": [
+        "daily up kjv_swallow:pr would",
+        "many",
+        "most high:excl"
+      ],
+      "56:3": [
+        "when i afraid be:pr",
+        "i in thee trust:fu"
+      ],
+      "56:4": [
+        "his/word:a praise:fu",
+        "what flesh",
+        "fear:neg:fu"
+      ],
+      "56:5": [
+        "my/word:pl:a twist:pr",
+        "their/thought:pl against i"
+      ],
+      "56:6": [
+        "themselves:a hide:pr",
+        "my/step:pl:a observe:pr",
+        "my/soul wait:pr"
+      ],
+      "56:7": [
+        "by kjv_iniquity escape:fu?",
+        "thy/anger",
+        "down cast:imp"
+      ],
+      "56:8": [
+        "my/wander:ev:pl:a kjv_number:pr",
+        "thy/kjv_bottle",
+        "thy/book be:neg:pr?"
+      ],
+      "56:9": [
+        "when i to thee cry:pr",
+        "back turn:fu",
+        "god for i"
+      ],
+      "56:10": [
+        "in god",
+        "in kjv_lord",
+        "his/word:a praise:fu"
+      ],
+      "56:11": [
+        "my/trust:a put:perf",
+        "what man",
+        "afraid be:neg:fu"
+      ],
+      "56:12": [
+        "thy/vow:pl upon i",
+        "praise:pl:a to thee give:fu"
+      ],
+      "56:13": [
+        "my/soul:a from death deliver:perf",
+        "my/foot:pl:a",
+        "light of living"
+      ],
+      "57:1": [
+        "merciful to i be:imp god:excl merciful to i be:imp",
+        "thy/wing:pl",
+        "until these kjv_calamity:pl"
+      ],
+      "57:2": [
+        "god most high",
+        "all thing:pl:a for i perform:pr"
+      ],
+      "57:3": [
+        "from heaven send:fu",
+        "kjv_reproach",
+        "his/mercy:a and his/truth:a"
+      ],
+      "57:4": [
+        "among lion:pl",
+        "on fire set:psv:pr lie:pr",
+        "tooth:pl kjv_spear:pl"
+      ],
+      "57:5": [
+        "kjv_exalt:psv:imp",
+        "thy/glory above all earth be:opt"
+      ],
+      "57:6": [
+        "kjv_net:a for my/step:pl",
+        "bow:psv:pr",
+        "they themselves fall:perf"
+      ],
+      "57:7": [
+        "my/heart fixed be:pr god:excl my/heart fixed be:pr",
+        "sing:fu"
+      ],
+      "57:8": [
+        "my/glory:excl",
+        "kjv_psaltery and harp",
+        "i myself early awake:fu"
+      ],
+      "57:9": [
+        "lord:excl",
+        "among people",
+        "among nation:pl"
+      ],
+      "57:10": [
+        "thy/mercy great to heaven:pl",
+        "thy/truth to cloud:pl"
+      ],
+      "57:11": [
+        "kjv_exalt:psv:imp",
+        "thy/glory above all earth be:opt"
+      ],
+      "58:1": [
+        "kjv_congregation:excl",
+        "in kjv_righteousness judge:pr",
+        "son:pl of man:pl:excl"
+      ],
+      "58:2": [
+        "in heart",
+        "kjv_violence:a of your/hand:pl",
+        "weigh:pr"
+      ],
+      "58:3": [
+        "from womb separate:psv:pr",
+        "born:psv:pr",
+        "kjv_lie_false:ev:pl:a speak:cv"
+      ],
+      "58:4": [
+        "poison of serpent",
+        "kjv_deaf adder",
+        "her/ear:a stop:pr"
+      ],
+      "58:5": [
+        "charm:ag:pl listen:neg:fu",
+        "however with wisdom they charm:pr"
+      ],
+      "58:6": [
+        "their/tooth:pl:a break:imp",
+        "great tooth:pl:a of young lion:pl",
+        "kjv_lord:excl"
+      ],
+      "58:7": [
+        "melt:opt",
+        "water:pl",
+        "his/bow:a bend:pr",
+        "piece:pl cut:psv be:opt"
+      ],
+      "58:8": [
+        "snail which melt:pr",
+        "kjv_untimely_birth",
+        "sun:a see:neg:may"
+      ],
+      "58:9": [
+        "your/kjv_pot:pl thorn:pl:a feel:can",
+        "kjv_whirlwind",
+        "both living and in his/wrath"
+      ],
+      "58:10": [
+        "revenge:a see:pr",
+        "his/foot:pl:a in blood of wicked wash:fu"
+      ],
+      "58:11": [
+        "man say:fu",
+        "reward for kjv_righteous",
+        "god who in earth judge:pr"
+      ],
+      "59:1": [
+        "deliver:imp my/god:excl",
+        "shield:imp"
+      ],
+      "59:2": [
+        "work:ag:pl of kjv_iniquity",
+        "bloody man:pl"
+      ],
+      "59:3": [
+        "for my/soul in wait lie:pr",
+        "not for my/transgress:ev",
+        "nor for my/sin"
+      ],
+      "59:4": [
+        "without my/fault",
+        "awake:imp and behold"
+      ],
+      "59:5": [
+        "god of army:pl:excl",
+        "all kjv_heathen:a visit:inf",
+        "merciful",
+        "be:neg:imp"
+      ],
+      "59:6": [
+        "at evening return:pr",
+        "like dog make:pr",
+        "city go:pr"
+      ],
+      "59:7": [
+        "their/mouth kjv_belch:pr",
+        "sword:pl in their/lip:pl",
+        "who they say:pr hear:pr?"
+      ],
+      "59:8": [
+        "kjv_lord:excl",
+        "laugh:fu",
+        "kjv_heathen:a in derision"
+      ],
+      "59:9": [
+        "his/strength",
+        "i upon thee wait:fu",
+        "my/defence"
+      ],
+      "59:10": [
+        "god of my/mercy before i go:fu",
+        "my/desire:a",
+        "see:caus:fu"
+      ],
+      "59:11": [
+        "slay:neg:imp",
+        "lest my/people forget:pr",
+        "scatter:imp",
+        "ourone/kjv_shield_armour:excl"
+      ],
+      "59:12": [
+        "in their/pride take:psv:opt",
+        "curse:ev",
+        "kjv_lie_false:ev"
+      ],
+      "59:13": [
+        "destroy:imp they:a destroy:imp",
+        "that they be:neg:pr",
+        "god in kjv_jacob"
+      ],
+      "59:14": [
+        "at evening they return:opt",
+        "like dog make:opt",
+        "city go:opt"
+      ],
+      "59:15": [
+        "for food",
+        "if they satisfy:psv:neg:pr kjv_murmur:opt"
+      ],
+      "59:16": [
+        "thy/mercy in morning loud sing:fu",
+        "my/defence and kjv_refuge"
+      ],
+      "59:17": [
+        "my/strength:excl",
+        "god of my/mercy"
+      ],
+      "60:1": [
+        "wesg:a off cast:perf",
+        "wepl:a scatter:perf",
+        "to wesg again turn:imp"
+      ],
+      "60:2": [
+        "earth:a tremble:caus:perf",
+        "its/breach:pl:a heal:imp"
+      ],
+      "60:3": [
+        "thy/people:a hard thing:pl:a",
+        "wepl:a wine:a of astonish:ev drink:caus:perf"
+      ],
+      "60:4": [
+        "banner:a",
+        "because of truth show:psv:may"
+      ],
+      "60:5": [
+        "thy/beloved deliver:psv:may",
+        "thy/kjv_right_side hand",
+        "i:a hear:imp"
+      ],
+      "60:6": [
+        "god in his/holy:ev speak:perf",
+        "ipl rejoice:fu",
+        "kjv_shechem:a kjv_divide:fu",
+        "kjv_succoth out measure:fu"
+      ],
+      "60:7": [
+        "kjv_gilead of ipl",
+        "kjv_manasseh of ipl",
+        "mypl/head",
+        "mypl/kjv_lawgiver"
+      ],
+      "60:8": [
+        "mypl/kjv_washpot",
+        "kjv_edom ipl mypl/shoe:a",
+        "kjv_philistia:excl",
+        "because of ipl triumph:imp"
+      ],
+      "60:9": [
+        "who i:a",
+        "strong city",
+        "kjv_edom lead:fu?"
+      ],
+      "60:10": [
+        "wesg:a off cast:pp",
+        "our/army:pl",
+        "go:neg:pa"
+      ],
+      "60:11": [
+        "to wesg help:a",
+        "vain help of man"
+      ],
+      "60:12": [
+        "wepl with courage do:fu",
+        "ourone/enemy:pl:a down tread:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "49:15",
+        "49:4",
+        "49:5",
+        "51:1",
+        "51:10",
+        "51:11",
+        "51:12",
+        "51:13",
+        "51:14",
+        "51:16",
+        "51:2",
+        "51:3",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "52:8",
+        "52:9",
+        "54:1",
+        "54:3",
+        "54:6",
+        "54:7",
+        "55:12",
+        "55:16",
+        "55:17",
+        "55:18",
+        "55:2",
+        "55:23",
+        "55:3",
+        "55:4",
+        "55:5",
+        "55:6",
+        "55:7",
+        "55:8",
+        "55:9",
+        "56:1",
+        "56:10",
+        "56:11",
+        "56:12",
+        "56:13",
+        "56:2",
+        "56:3",
+        "56:4",
+        "56:5",
+        "56:9",
+        "57:1",
+        "57:2",
+        "57:3",
+        "57:4",
+        "57:6",
+        "57:7",
+        "57:8",
+        "57:9",
+        "59:1",
+        "59:10",
+        "59:16",
+        "59:17",
+        "59:2",
+        "59:3",
+        "59:4",
+        "59:9",
+        "60:5",
+        "60:9"
+      ],
+      "ipl": [
+        "50:10",
+        "50:11",
+        "50:12",
+        "50:13",
+        "50:15",
+        "50:21",
+        "50:22",
+        "50:23",
+        "50:5",
+        "50:7",
+        "50:8",
+        "50:9",
+        "60:6",
+        "60:7",
+        "60:8"
+      ],
+      "wesg": [
+        "60:1",
+        "60:10",
+        "60:11"
+      ],
+      "wepl": [
+        "60:1",
+        "60:12",
+        "60:3"
+      ],
+      "mypl": [
+        "50:16",
+        "50:17",
+        "50:5",
+        "50:7",
+        "60:7",
+        "60:8"
+      ],
+      "ourone": [
+        "50:3",
+        "59:11",
+        "60:12"
+      ],
+      "iplself": [],
+      "we:du": [
+        "55:14"
+      ],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Psalm50:10thousand counts hills,not cattle or divine persons.",
+      "Psalm53:3not-one is a negative universal;generic one in49:16,50:21,53:3and58:8is not a headcount.",
+      "Psalm55:23half concerns allotted days without an invented lifespan;55:14dual marks the explicit I-and-thou pair.",
+      "Psalm56:8counts wanderings without a total;60:6measures territory without an area."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Psalms50and60:6–8explicit divine speech uses plural-I;Psalm51individual confession remains singular-I and holy-spirit possession does not add a count of divine persons.",
+      "Psalm55:14intimate pair is dual;Psalm60alternates shared singular-we allegiance with physical plural-we scattering,drinking and combat.",
+      "Psalm53retains source differences from14;59:9his strength,59:17my strength,and60:8Philistia imperative are not harmonized.",
+      "All prior targets and old seals remain unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 476,
+    "spreads": 238,
+    "units": 880,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d11d77f0452c1ae97fee7e57048486da60ea373798f790a1698f1adbcbb12990",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 238,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.317,
+    "modules": [
+      "tests.test_kjv_psalm_divine_penitent",
+      "tests.test_kjv_psalm_corporate_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    475,
+    476
+  ],
+  "status": "incompleteBible;Psalms1to60sectioncheckpointverified",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "befc16a55d56d7ab3148995e26500cdc6d79cb7279f5c0de0e287d7e7b334488",
+    "pages": 10324,
+    "spreads": 5162,
+    "authoredVerses": 14868,
+    "missingVerses": 16234,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 20648,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Genesis.vay",
+        "sha256": "bbf6c7a92ef956364ece52877f1998be0b02ddfb7e33f2563afb529b41cb79dd",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Exodus.vay",
+        "sha256": "5d69c5730d924959e1019809b8c2f7738161ffb011e144f6d1c9d57dc5957fe7",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Leviticus.vay",
+        "sha256": "acece7c9de894107116d7e27cab2a67fa2300ea2b37ae14e30523e109024b27b",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Numbers.vay",
+        "sha256": "b2edc7791a7e89e92c9cab6759c24d76b7fa7b3a9a290a352201d624f6174199",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Deuteronomy.vay",
+        "sha256": "e71f451a8ae07c3d5a3604d569192d12864ed9887d48ebc7e684b13e54c3dad2",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Joshua.vay",
+        "sha256": "04524ad57a4e8bfbc78fb5c8384faae56437b88c67cc4fd9e13819b1766efae3",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Judges.vay",
+        "sha256": "ccccb1c5b09c54b80866e25aae8a49ccf20a53ec278b844860e9fd9553932c01",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Ruth.vay",
+        "sha256": "8ad1ca7778bd9763a56e5efb28291827eb797fc2eacfc18ff4b1e7d6fece4033",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Chronicles.vay",
+        "sha256": "d95465cafe4db78a757f2a5c3b4cbaf94b44f5101c865c07adaaa9387d5bf906",
+        "firstPage": 7483,
+        "lastPage": 8006
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Chronicles2.vay",
+        "sha256": "77a0caef2309273bcc99db7c88022f1cbe154df236ff4153fda036b34e8f9a8b",
+        "firstPage": 8007,
+        "lastPage": 8692
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Ezra.vay",
+        "sha256": "35cdd43f50d0192404e588ea0656e33744e23846a5ca5345b01a89c595ff157c",
+        "firstPage": 8693,
+        "lastPage": 8882
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Nehemiah.vay",
+        "sha256": "b5abc4ad65f8fa51146ab7cb9c3b7a0f3938a7ab8f3b9cb3d0d52957b40d442d",
+        "firstPage": 8883,
+        "lastPage": 9160
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Esther.vay",
+        "sha256": "e6ff324bc045bea6f1fa34c5dcbc14de09a25b295ca75f76ccc318f011605ddb",
+        "firstPage": 9161,
+        "lastPage": 9300
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Job.vay",
+        "sha256": "2bcc3eea6400ebf96761b4f3cfe2e5da61758d7a9799e36b031f8bbe2820c4dc",
+        "firstPage": 9301,
+        "lastPage": 9806
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Psalms.vay",
+        "sha256": "d11d77f0452c1ae97fee7e57048486da60ea373798f790a1698f1adbcbb12990",
+        "firstPage": 9807,
+        "lastPage": 10282
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.112\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 10283,
+        "lastPage": 10324
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.90",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.93",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.93",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.93",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "working"
+      },
+      {
+        "section": "1 Chronicles",
+        "version": "0.10-kjv.93",
+        "firstPage": 7483,
+        "lastPage": 8006,
+        "status": "working"
+      },
+      {
+        "section": "2 Chronicles",
+        "version": "0.10-kjv.94",
+        "firstPage": 8007,
+        "lastPage": 8692,
+        "status": "working"
+      },
+      {
+        "section": "Ezra",
+        "version": "0.10-kjv.96",
+        "firstPage": 8693,
+        "lastPage": 8882,
+        "status": "working"
+      },
+      {
+        "section": "Nehemiah",
+        "version": "0.10-kjv.100",
+        "firstPage": 8883,
+        "lastPage": 9160,
+        "status": "working"
+      },
+      {
+        "section": "Esther",
+        "version": "0.10-kjv.101",
+        "firstPage": 9161,
+        "lastPage": 9300,
+        "status": "working"
+      },
+      {
+        "section": "Job",
+        "version": "0.10-kjv.107",
+        "firstPage": 9301,
+        "lastPage": 9806,
+        "status": "working"
+      },
+      {
+        "section": "Psalms 1–60",
+        "version": "0.10-kjv.112",
+        "firstPage": 9807,
+        "lastPage": 10282,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 10283,
+        "lastPage": 10324,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    9813,
+    9814,
+    10203,
+    10204,
+    10241,
+    10242,
+    10281,
+    10282,
+    10283,
+    10284
+  ],
+  "referenceLinksChecked": true
+}

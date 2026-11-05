@@ -1,0 +1,894 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.189",
+    "parentVersion": "0.10-kjv.188",
+    "parentHead": "23bf8601904a993d43f1df733a67270cfb5d7b9da2ad17f5b4e5c6ccd3f892b5",
+    "head": "db312d58ba7e50cd7e12fabe7a6fe43fec1661d240847f5233ae272238de56f0",
+    "newLexicalEntries": 16,
+    "newProperEntries": 13,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 11,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 114,
+    "exactCompilerCases": 114,
+    "newAuthoredVerses": 114,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 315,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 7642,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newMatthewVerses": 114,
+    "matthewVerses": 315,
+    "authoredVerses": 23460,
+    "remainingVerses": 7642,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 10,
+    "quantityChecks": [
+      {
+        "reference": "Matthew 8:21",
+        "source": "And another of his disciples said unto him, Lord, suffer me first to go and bury my father.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 8:28",
+        "source": "And when he was come to the other side into the country of the Gergesenes, there met him two possessed with devils, coming out of the tombs, exceeding fierce, so that no man might pass by that way.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 9:20",
+        "source": "And, behold, a woman, which was diseased with an issue of blood twelve years, came behind him, and touched the hem of his garment:",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Matthew 9:27",
+        "source": "And when Jesus departed thence, two blind men followed him, crying, and saying, Thou son of David, have mercy on us.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 10:1",
+        "source": "And when he had called unto him his twelve disciples, he gave them power against unclean spirits, to cast them out, and to heal all manner of sickness and all manner of disease.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Matthew 10:2",
+        "source": "Now the names of the twelve apostles are these; The first, Simon, who is called Peter, and Andrew his brother; James the son of Zebedee, and John his brother;",
+        "expectedDecimalQuantities": [
+          12,
+          1
+        ],
+        "targetQuantities": [
+          12,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 10:5",
+        "source": "These twelve Jesus sent forth, and commanded them, saying, Go not into the way of the Gentiles, and into any city of the Samaritans enter ye not:",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Matthew 10:10",
+        "source": "Nor scrip for your journey, neither two coats, neither shoes, nor yet staves: for the workman is worthy of his meat.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 10:29",
+        "source": "Are not two sparrows sold for a farthing? and one of them shall not fall on the ground without your Father.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 10:42",
+        "source": "And whosoever shall give to drink unto one of these little ones a cup of cold water only in the name of a disciple, verily I say unto you, he shall in no wise lose his reward.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "8:1": [
+        "from mountain down",
+        "great kjv_multitude:pl"
+      ],
+      "8:2": [
+        "person with kjv_leprosy",
+        "kjv_worship",
+        "if thou willing",
+        "i:a clean:can"
+      ],
+      "8:3": [
+        "his/hand forth",
+        "touch",
+        "ipl willing be:pr",
+        "immediately his/kjv_leprosy clean"
+      ],
+      "8:4": [
+        "no man tell",
+        "thyself to priest",
+        "gift that kjv_moses command",
+        "testimony to they"
+      ],
+      "8:5": [
+        "kjv_capernaum",
+        "kjv_centurion",
+        "beseech"
+      ],
+      "8:6": [
+        "my/servant at home",
+        "kjv_palsy lie",
+        "kjv_grievous:adv torment"
+      ],
+      "8:7": [
+        "ipl come:fu and he:a heal"
+      ],
+      "8:8": [
+        "i that thou under my/roof",
+        "worthy be:neg",
+        "word only speak",
+        "my/servant heal"
+      ],
+      "8:9": [
+        "i man under authority",
+        "soldier:pl under i",
+        "this man go:imp",
+        "another come:imp",
+        "my/servant this do:imp"
+      ],
+      "8:10": [
+        "marvel",
+        "ipl so great faith find:neg:perf",
+        "no not in kjv_israel"
+      ],
+      "8:11": [
+        "east and west",
+        "kjv_abraham and kjv_isaac and kjv_jacob",
+        "kingdom of heaven"
+      ],
+      "8:12": [
+        "child:pl of kingdom",
+        "outside:adj darkness",
+        "weep:ev and kjv_gnash:ev"
+      ],
+      "8:13": [
+        "as thou believe:perf thus",
+        "same hour"
+      ],
+      "8:14": [
+        "house of kjv_peter_disciple",
+        "mother of his/wife",
+        "kjv_fever"
+      ],
+      "8:15": [
+        "her/hand",
+        "kjv_fever she:a leave",
+        "she rise",
+        "to they serve"
+      ],
+      "8:16": [
+        "evening",
+        "devil:pl possess",
+        "spirit:pl with his/word",
+        "all that sick"
+      ],
+      "8:17": [
+        "kjv_esaias",
+        "himself ourone/infirmity:pl",
+        "ourone/sickness:pl carry"
+      ],
+      "8:18": [
+        "multitude:pl about he",
+        "other side depart"
+      ],
+      "8:19": [
+        "certain kjv_scribe",
+        "i thou:a wherever"
+      ],
+      "8:20": [
+        "fox:pl hole:pl",
+        "bird:pl of air nest:pl",
+        "son of man",
+        "head lay:inf have:neg"
+      ],
+      "8:21": [
+        "another of his/disciple:pl",
+        "i one_num:ord",
+        "my/father bury"
+      ],
+      "8:22": [
+        "ipl:a follow",
+        "dead their/dead bury"
+      ],
+      "8:23": [
+        "into ship",
+        "his/disciple:pl he:a follow"
+      ],
+      "8:24": [
+        "great tempest",
+        "ship with kjv_wave:pl cover",
+        "he asleep"
+      ],
+      "8:25": [
+        "he:a awake:caus",
+        "wesg:a save",
+        "wesg perish"
+      ],
+      "8:26": [
+        "little faith",
+        "wind:pl and sea rebuke",
+        "great kjv_calm"
+      ],
+      "8:27": [
+        "manner of man be:excl",
+        "wind:pl and sea he:a obey"
+      ],
+      "8:28": [
+        "kjv_gergesenes",
+        "two with devil:pl",
+        "they:du out of tomb:pl",
+        "no man"
+      ],
+      "8:29": [
+        "they:du out cry",
+        "wesg with thou",
+        "son of god",
+        "before time wesg:a torment"
+      ],
+      "8:30": [
+        "far from they",
+        "herd of many pig:pl feed"
+      ],
+      "8:31": [
+        "devil:pl he:a beseech",
+        "if thou wesg:a out cast",
+        "wesg into herd"
+      ],
+      "8:32": [
+        "go:imp",
+        "whole herd",
+        "violent:adv down kjv_steep_slope",
+        "in water:pl perish"
+      ],
+      "8:33": [
+        "they that they:a keep",
+        "into city",
+        "every thing",
+        "person:pl that with devil:pl"
+      ],
+      "8:34": [
+        "whole city",
+        "depart:should",
+        "their/kjv_coast_region:pl"
+      ],
+      "9:1": [
+        "ship",
+        "over pass",
+        "his/own city"
+      ],
+      "9:2": [
+        "kjv_palsy on bed lie",
+        "their/faith see",
+        "good cheer",
+        "thy/sin:pl to thou forgive"
+      ],
+      "9:3": [
+        "kjv_scribe:pl within themselves",
+        "this man kjv_blaspheme"
+      ],
+      "9:4": [
+        "their/thought:pl know",
+        "evil in your/heart:pl"
+      ],
+      "9:5": [
+        "which more easy",
+        "forgive:psv:pr say:inf",
+        "rise:imp and walk:imp say:inf"
+      ],
+      "9:6": [
+        "son of man power on earth",
+        "sin:pl forgive",
+        "thy/bed up take",
+        "thy/house"
+      ],
+      "9:7": [
+        "he rise",
+        "his/house"
+      ],
+      "9:8": [
+        "god which such power to man:pl",
+        "glorify"
+      ],
+      "9:9": [
+        "kjv_matthew_disciple",
+        "place of tax receive:ev",
+        "ipl:a follow",
+        "he rise"
+      ],
+      "9:10": [
+        "in house at food",
+        "kjv_publican:pl and sin:ag:pl",
+        "his/disciple:pl"
+      ],
+      "9:11": [
+        "to his/disciple:pl",
+        "your/master with kjv_publican:pl and sin:ag:pl"
+      ],
+      "9:12": [
+        "healthy person:pl physician need:neg",
+        "they that sick"
+      ],
+      "9:13": [
+        "what this mean",
+        "ipl mercy desire",
+        "not kjv_sacrifice",
+        "ipl kjv_righteous",
+        "sin:ag:pl to repent:ev"
+      ],
+      "9:14": [
+        "disciple:pl of kjv_john_baptist",
+        "wesg and kjv_pharisee:pl often",
+        "thy/disciple:pl kjv_fast do:neg"
+      ],
+      "9:15": [
+        "child:pl of bride/chamber",
+        "kjv_bridegroom with they",
+        "from they take:psv",
+        "then they kjv_fast"
+      ],
+      "9:16": [
+        "new cloth",
+        "old garment",
+        "from garment take",
+        "kjv_rend:ev worse"
+      ],
+      "9:17": [
+        "new wine into old kjv_bottle:pl",
+        "wine out run",
+        "new wine into new kjv_bottle:pl",
+        "both preserve"
+      ],
+      "9:18": [
+        "rule:ag",
+        "kjv_worship",
+        "my/daughter even now dead",
+        "thy/hand upon she",
+        "she live"
+      ],
+      "9:19": [
+        "kjv_jesus_matthew rise",
+        "he:a follow",
+        "his/disciple:pl also"
+      ],
+      "9:20": [
+        "blood issue:ev twelve year:pl",
+        "behind he",
+        "kjv_hem"
+      ],
+      "9:21": [
+        "within herself",
+        "i his/garment only touch",
+        "i healthy"
+      ],
+      "9:22": [
+        "about turn",
+        "daughter good comfort",
+        "thy/faith thou:a healthy",
+        "from that hour"
+      ],
+      "9:23": [
+        "house of rule:ag",
+        "kjv_minstrel:pl",
+        "people noise"
+      ],
+      "9:24": [
+        "maiden dead be:neg:pr but sleep",
+        "laugh:cv scorn"
+      ],
+      "9:25": [
+        "people forth put",
+        "by hand take",
+        "maiden rise"
+      ],
+      "9:26": [
+        "fame of this",
+        "all that land"
+      ],
+      "9:27": [
+        "two blind man:pl",
+        "son of kjv_david",
+        "we:du mercy"
+      ],
+      "9:28": [
+        "to they:du",
+        "you:du that ipl this do:can",
+        "they:du",
+        "yes lord"
+      ],
+      "9:29": [
+        "eye:pl of they:du",
+        "faith of you:du",
+        "to you:du it be:opt"
+      ],
+      "9:30": [
+        "eye:pl of they:du open",
+        "they:du:a kjv_strict:adv charge",
+        "no man it:a know"
+      ],
+      "9:31": [
+        "they:du",
+        "his/fame in all that country"
+      ],
+      "9:32": [
+        "they:du out go",
+        "they to he dumb man",
+        "devil possess"
+      ],
+      "9:33": [
+        "devil out cast",
+        "dumb man speak",
+        "in kjv_israel thus never"
+      ],
+      "9:34": [
+        "kjv_pharisee:pl say",
+        "by prince of devil:pl"
+      ],
+      "9:35": [
+        "all city:pl and village:pl",
+        "kjv_synagogue:pl teach",
+        "kjv_gospel of kingdom",
+        "every sickness and every illness"
+      ],
+      "9:36": [
+        "kjv_compassion",
+        "faint",
+        "scatter:psv",
+        "sheep no shepherd"
+      ],
+      "9:37": [
+        "harvest truly abundance:adj",
+        "labour:ag:pl few"
+      ],
+      "9:38": [
+        "lord of harvest",
+        "labour:ag:pl into his/harvest",
+        "kjv_pray"
+      ],
+      "10:1": [
+        "his/twelve disciple:pl",
+        "power against unclean spirit:pl",
+        "they:a out cast",
+        "all manner of sickness and all manner of illness"
+      ],
+      "10:2": [
+        "twelve kjv_apostle:pl",
+        "one_num:ord kjv_simon_peter",
+        "kjv_peter_disciple call",
+        "kjv_andrew_disciple",
+        "kjv_james_zebedee",
+        "kjv_john_zebedee"
+      ],
+      "10:3": [
+        "kjv_philip_apostle and kjv_bartholomew",
+        "kjv_thomas_apostle",
+        "kjv_matthew_disciple kjv_publican",
+        "kjv_james_alphaeus son of kjv_alphaeus",
+        "kjv_lebbaeus who kjv_thaddaeus kjv_surname"
+      ],
+      "10:4": [
+        "kjv_simon_canaanite kjv_canaanite",
+        "kjv_judas_iscariot",
+        "betray"
+      ],
+      "10:5": [
+        "these twelve",
+        "kjv_gentile:pl go:neg",
+        "kjv_samaritan:pl enter:neg"
+      ],
+      "10:6": [
+        "lose:psv:adj sheep",
+        "house of kjv_israel"
+      ],
+      "10:7": [
+        "as you go",
+        "proclaim",
+        "kingdom of heaven near"
+      ],
+      "10:8": [
+        "sick person:pl heal",
+        "kjv_leprosy clean",
+        "dead person:pl raise",
+        "devil:pl out cast",
+        "freely you receive:perf freely give"
+      ],
+      "10:9": [
+        "neither gold nor silver nor kjv_brass",
+        "your/purse:pl"
+      ],
+      "10:10": [
+        "kjv_scrip",
+        "two coat:pl",
+        "shoe:pl",
+        "staff:pl",
+        "worthy of his/food"
+      ],
+      "10:11": [
+        "city or town",
+        "who in it worthy",
+        "until you from there go"
+      ],
+      "10:12": [
+        "house come",
+        "it:a greet"
+      ],
+      "10:13": [
+        "if house worthy",
+        "your/peace upon it",
+        "if it worthy be:neg",
+        "your/peace to you return"
+      ],
+      "10:14": [
+        "receive:neg:fu nor your/word:pl hear",
+        "house or city",
+        "dust of your/foot:pl off shake"
+      ],
+      "10:15": [
+        "ipl to you",
+        "kjv_sodom and kjv_gomorrha_matthew",
+        "day of judgment",
+        "more tolerable"
+      ],
+      "10:16": [
+        "ipl you:a as sheep",
+        "middle of wolf:pl",
+        "serpent:pl wise",
+        "dove:pl harm:neg"
+      ],
+      "10:17": [
+        "to council:pl up deliver",
+        "their/kjv_synagogue:pl you:a whip"
+      ],
+      "10:18": [
+        "kjv_governor:pl and king:pl",
+        "mypl/sake",
+        "testimony against they and kjv_gentile:pl"
+      ],
+      "10:19": [
+        "how or what",
+        "worry:neg",
+        "same hour",
+        "give:psv"
+      ],
+      "10:20": [
+        "you that speak:pr be:neg",
+        "spirit of your/father",
+        "in you speak"
+      ],
+      "10:21": [
+        "brother brother:a to death",
+        "father child:a",
+        "against their/parent:pl",
+        "they:a to death put:caus:fu"
+      ],
+      "10:22": [
+        "all man:pl",
+        "mypl/name",
+        "to end endure",
+        "save:psv"
+      ],
+      "10:23": [
+        "into another flee",
+        "ipl to you",
+        "over go:neg:fp until son of man come"
+      ],
+      "10:24": [
+        "disciple above his/master be:neg",
+        "servant above his/lord"
+      ],
+      "10:25": [
+        "disciple that he as his/master",
+        "servant as his/lord",
+        "kjv_beelzebub",
+        "his/kjv_household"
+      ],
+      "10:26": [
+        "they:a fear:neg",
+        "nothing cover:psv:adj",
+        "reveal:psv:neg",
+        "hide:psv:adj",
+        "know:psv:neg"
+      ],
+      "10:27": [
+        "ipl to you in darkness",
+        "in light speak",
+        "in ear hear",
+        "house/roof:pl proclaim"
+      ],
+      "10:28": [
+        "body kill",
+        "soul kill:neg:can",
+        "both soul and body in hell destroy"
+      ],
+      "10:29": [
+        "two sparrow:pl for kjv_farthing",
+        "one_num of they",
+        "without your/father"
+      ],
+      "10:30": [
+        "hair:pl of your/head all kjv_number"
+      ],
+      "10:31": [
+        "fear:neg",
+        "more value than many sparrow:pl"
+      ],
+      "10:32": [
+        "ipl:a before man:pl confess",
+        "he:a ipl also before mypl/father"
+      ],
+      "10:33": [
+        "ipl:a before man:pl deny",
+        "he:a ipl also before mypl/father"
+      ],
+      "10:34": [
+        "ipl peace on earth send",
+        "ipl peace send:inf come:neg:pa but sword"
+      ],
+      "10:35": [
+        "ipl man against his/father",
+        "daughter against her/mother",
+        "kjv_daughter_in_law against mother of her/husband",
+        "kjv_divide"
+      ],
+      "10:36": [
+        "enemy:pl of man",
+        "his/own kjv_household"
+      ],
+      "10:37": [
+        "father or mother more than ipl",
+        "son or daughter more than ipl",
+        "worthy be:neg"
+      ],
+      "10:38": [
+        "his/kjv_cross_instrument take:cv after ipl follow:neg",
+        "of ipl worthy be:neg"
+      ],
+      "10:39": [
+        "his/life find:pr it:a lose",
+        "his/life for mypl/sake lose:pr it:a find"
+      ],
+      "10:40": [
+        "you:a receive:pr ipl:a receive",
+        "ipl:a receive:pr he that ipl:a send"
+      ],
+      "10:41": [
+        "prophet in name of prophet",
+        "reward of prophet",
+        "kjv_righteous man in name of kjv_righteous man",
+        "reward of kjv_righteous man"
+      ],
+      "10:42": [
+        "one_num of these little person:pl",
+        "cup of cold water only",
+        "in name of disciple",
+        "ipl to you",
+        "reward lose:neg"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "8:19",
+        "8:2",
+        "8:21",
+        "8:8",
+        "8:9",
+        "9:21"
+      ],
+      "ipl": [
+        "10:15",
+        "10:16",
+        "10:23",
+        "10:27",
+        "10:32",
+        "10:33",
+        "10:34",
+        "10:35",
+        "10:37",
+        "10:38",
+        "10:40",
+        "10:42",
+        "8:10",
+        "8:11",
+        "8:22",
+        "8:3",
+        "8:7",
+        "9:13",
+        "9:28",
+        "9:9"
+      ],
+      "wesg": [
+        "8:25",
+        "8:29",
+        "8:31",
+        "9:14"
+      ],
+      "wepl": [],
+      "mypl": [
+        "10:18",
+        "10:22",
+        "10:32",
+        "10:33",
+        "10:39"
+      ],
+      "ourone": [
+        "8:17"
+      ],
+      "iplself": [],
+      "we:du": [
+        "9:27"
+      ],
+      "they:du": [
+        "8:28",
+        "8:29",
+        "9:28",
+        "9:29",
+        "9:30",
+        "9:31",
+        "9:32"
+      ],
+      "you:du": [
+        "9:28",
+        "9:29"
+      ]
+    },
+    "physicalDualReferences": [
+      "Matthew8:28",
+      "Matthew8:29",
+      "Matthew9:27",
+      "Matthew9:28",
+      "Matthew9:29",
+      "Matthew9:30",
+      "Matthew9:31",
+      "Matthew9:32"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Two possessed humans,two blind men,twelve years,twelve commissioned disciples and two coats remain explicit.",
+      "Simon/Peter and Lebbaeus/Thaddaeus are aliases,not additional apostles.",
+      "Two sparrows and one selection remain;centurion title and same-hour language do not add invented quantities."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "114new verses continue Matthew to315;whole Bible remains incomplete.",
+      "Personal petitioners,Jesus plural-I,communal danger/plea and physical duals remain distinct.",
+      "Source possession categories are not modern diagnoses,and no spirit or Trinity headcount is inferred.",
+      "Three common senses and thirteen contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Matthew — incomplete Bible working text",
+    "pages": 184,
+    "spreads": 92,
+    "units": 315,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c5a9e6802abdd4f18dd44e0ced6c5f535952a36503d816fa1708363c7a0decc0",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 92,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.729,
+    "modules": [
+      "tests.test_kjv_matthew_healing_pairs",
+      "tests.test_kjv_matthew_sermon_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    183,
+    184
+  ],
+  "status": "incomplete Bible;Matthew1–10 section checkpoint verified"
+}

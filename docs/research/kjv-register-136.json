@@ -1,0 +1,726 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.136",
+    "parentVersion": "0.10-kjv.135",
+    "parentHead": "3429e544f686cbb88e166611569c41026214a1c105a421e675ca77dff4c6f66c",
+    "head": "84c0d95821fe7616391a24cdb792e7f0412b411e06695a7a0c8d30a851d186c1",
+    "newLexicalEntries": 5,
+    "newProperEntries": 2,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 99,
+    "exactCompilerCases": 99,
+    "newAuthoredVerses": 99,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 797,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 12602,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 99,
+    "isaiahVerses": 797,
+    "authoredVerses": 18500,
+    "remainingVerses": 12602,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 37:30",
+        "source": "And this shall be a sign unto thee, Ye shall eat this year such as groweth of itself; and the second year that which springeth of the same: and in the third year sow ye, and reap, and plant vineyards, and eat the fruit thereof.",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "Isaiah 37:36",
+        "source": "Then the angel of the LORD went forth, and smote in the camp of the Assyrians a hundred and fourscore and five thousand: and when they arose early in the morning, behold, they were all dead corpses.",
+        "expectedDecimalQuantities": [
+          185000
+        ],
+        "targetQuantities": [
+          185000
+        ]
+      },
+      {
+        "reference": "Isaiah 38:5",
+        "source": "Go, and say to Hezekiah, Thus saith the LORD, the God of David thy father, I have heard thy prayer, I have seen thy tears: behold, I will add unto thy days fifteen years.",
+        "expectedDecimalQuantities": [
+          15
+        ],
+        "targetQuantities": [
+          15
+        ]
+      },
+      {
+        "reference": "Isaiah 38:8",
+        "source": "Behold, I will bring again the shadow of the degrees, which is gone down in the sun dial of Ahaz, ten degrees backward. So the sun returned ten degrees, by which degrees it was gone down.",
+        "expectedDecimalQuantities": [
+          10,
+          10
+        ],
+        "targetQuantities": [
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "Isaiah 40:2",
+        "source": "Speak ye comfortably to Jerusalem, and cry unto her, that her warfare is accomplished, that her iniquity is pardoned: for she hath received of the LORD’s hand double for all her sins.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Isaiah 40:26",
+        "source": "Lift up your eyes on high, and behold who hath created these things, that bringeth out their host by number: he calleth them all by names by the greatness of his might, for that he is strong in power; not one faileth.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "37:1": [
+        "his/clothing:a",
+        "himself:a with kjv_sackcloth",
+        "house of kjv_lord"
+      ],
+      "37:2": [
+        "kjv_elder:pl of priest:pl",
+        "kjv_isaiah prophet son of kjv_amoz"
+      ],
+      "37:3": [
+        "kjv_trouble",
+        "rebuke",
+        "kjv_blaspheme:ev",
+        "no strength to forth bring:inf"
+      ],
+      "37:4": [
+        "it may be:pr",
+        "word:pl:a of kjv_rabshakeh",
+        "remainder who leave:psv:pr"
+      ],
+      "37:5": [
+        "servant:pl of king kjv_hezekiah_ahaz"
+      ],
+      "37:6": [
+        "thus kjv_lord say:pr",
+        "ipl:a kjv_blaspheme:perf"
+      ],
+      "37:7": [
+        "ipl kjv_blast:a",
+        "his/own land",
+        "ipl he:a by sword"
+      ],
+      "37:8": [
+        "kjv_libnah war:cv",
+        "kjv_lachish he depart:pp"
+      ],
+      "37:9": [
+        "kjv_tirhakah",
+        "kjv_ethiopia",
+        "when he it:a hear:pa"
+      ],
+      "37:10": [
+        "deceive:neg:imp",
+        "give:psv:neg:fu"
+      ],
+      "37:11": [
+        "all land:pl",
+        "completely destroy:ev",
+        "deliver:psv:fu?"
+      ],
+      "37:12": [
+        "mypl/father:pl",
+        "kjv_eden_thelasar",
+        "kjv_telassar"
+      ],
+      "37:13": [
+        "kjv_arphad",
+        "kjv_hena",
+        "kjv_ivah"
+      ],
+      "37:14": [
+        "letter:a from hand",
+        "read:pa",
+        "before kjv_lord spread:pa"
+      ],
+      "37:15": [
+        "kjv_hezekiah_ahaz to kjv_lord pray:pa"
+      ],
+      "37:16": [
+        "kjv_lord of army:pl",
+        "kjv_cherub:pl",
+        "thou alone",
+        "heaven:a and earth:a"
+      ],
+      "37:17": [
+        "all word:pl:a",
+        "kjv_sennacherib",
+        "living god"
+      ],
+      "37:18": [
+        "all nation:pl:a and their/country:pl:a",
+        "waste lay:perf"
+      ],
+      "37:19": [
+        "no god:pl",
+        "wood and stone",
+        "they they:a destroy:perf"
+      ],
+      "37:20": [
+        "ourone/god",
+        "wesg:a",
+        "kjv_lord be:pr even thou only"
+      ],
+      "37:21": [
+        "because thou to ipl",
+        "kjv_sennacherib"
+      ],
+      "37:22": [
+        "virgin daughter of kjv_zion",
+        "scorn",
+        "her/head:a"
+      ],
+      "37:23": [
+        "kjv_holy_one of kjv_israel"
+      ],
+      "37:24": [
+        "thy/servant:pl",
+        "lord:a",
+        "mypl/chariot:pl",
+        "height of his/boundary"
+      ],
+      "37:25": [
+        "ipl kjv_dig:perf and water:a drink:perf",
+        "mypl/foot:pl",
+        "all river:pl"
+      ],
+      "37:26": [
+        "ipl it:a do:perf",
+        "ipl it:a form:perf",
+        "ipl it:a happen:caus:perf"
+      ],
+      "37:27": [
+        "green herb",
+        "house top:pl",
+        "corn kjv_blasting:psv:adj"
+      ],
+      "37:28": [
+        "thy/rage against ipl:a ipl know:pr"
+      ],
+      "37:29": [
+        "mypl/ear:pl",
+        "mypl/kjv_restraint_hook",
+        "mypl/bridle"
+      ],
+      "37:30": [
+        "second year",
+        "third year",
+        "kjv_vineyard:pl"
+      ],
+      "37:31": [
+        "root:a down take:fu",
+        "fruit:a up bear:fu"
+      ],
+      "37:32": [
+        "kjv_zeal of kjv_lord of army:pl"
+      ],
+      "37:33": [
+        "come:neg:fu",
+        "arrow:a",
+        "shield:pl",
+        "kjv_siege_mound"
+      ],
+      "37:34": [
+        "by same he return:fu",
+        "come:fu not"
+      ],
+      "37:35": [
+        "ipl this city:a shield:fu",
+        "mypl/own sake",
+        "mypl/servant kjv_david/sake"
+      ],
+      "37:36": [
+        "then angel",
+        "hundred+thousand and eight+ten+thousand and five+thousand",
+        "they all dead kjv_corpse:pl"
+      ],
+      "37:37": [
+        "depart:pa and go:pa and return:pa",
+        "kjv_nineveh"
+      ],
+      "37:38": [
+        "kjv_nisroch",
+        "kjv_adrammelech_sennacherib",
+        "kjv_sharezer",
+        "kjv_armenia",
+        "kjv_esarhaddon"
+      ],
+      "38:1": [
+        "die:fu and live:neg:fu",
+        "thy/house:a in order set:imp"
+      ],
+      "38:2": [
+        "towards wall",
+        "to kjv_lord pray:pa"
+      ],
+      "38:3": [
+        "i thee:a beseech:pr",
+        "perfect heart",
+        "greatly weep:pa"
+      ],
+      "38:4": [
+        "word of kjv_lord to kjv_isaiah"
+      ],
+      "38:5": [
+        "ipl thy/pray:ev:a",
+        "ipl thy/tear:pl:a",
+        "fifteen year:pl"
+      ],
+      "38:6": [
+        "ipl thee:a and this city:a",
+        "ipl this city:a shield:fu"
+      ],
+      "38:7": [
+        "sign to thee from kjv_lord",
+        "this thing:a which he speak:perf"
+      ],
+      "38:8": [
+        "ipl shadow:a",
+        "ten kjv_shadow_degree:pl backward",
+        "sun ten kjv_shadow_degree:pl return:pa"
+      ],
+      "38:9": [
+        "write:ev of kjv_hezekiah_ahaz",
+        "sickness recover:pp"
+      ],
+      "38:10": [
+        "i to gate:pl of grave",
+        "kjv_deprive:psv:pr"
+      ],
+      "38:11": [
+        "kjv_lord:a even kjv_lord:a",
+        "i human:a no more"
+      ],
+      "38:12": [
+        "my/age",
+        "shepherd/tent",
+        "i like weaver",
+        "he i:a",
+        "thou of i"
+      ],
+      "38:13": [
+        "all my/bone:pl",
+        "from day even to night thou of i end:a make:fu"
+      ],
+      "38:14": [
+        "kjv_crane_bird",
+        "kjv_swallow_bird",
+        "dove",
+        "for i undertake:imp"
+      ],
+      "38:15": [
+        "he both to i speak:perf",
+        "himself it:a",
+        "my/soul quietly"
+      ],
+      "38:16": [
+        "life of my/spirit",
+        "recover:caus:fu",
+        "live:caus:fu"
+      ],
+      "38:17": [
+        "great bitter:ev",
+        "kjv_pit of rot:ev",
+        "behind thy/back"
+      ],
+      "38:18": [
+        "grave thee:a praise:neg:can",
+        "death thee:a praise:neg:can",
+        "hope:neg:can"
+      ],
+      "38:19": [
+        "living living",
+        "as i this day",
+        "father to child:pl"
+      ],
+      "38:20": [
+        "wesg my/song:pl:a",
+        "ourone/life",
+        "house of kjv_lord"
+      ],
+      "38:21": [
+        "lump:a of fig:pl",
+        "kjv_poultice",
+        "kjv_boil_lesion",
+        "recover:fu"
+      ],
+      "38:22": [
+        "kjv_hezekiah_ahaz also say:pp",
+        "i to house of kjv_lord"
+      ],
+      "39:1": [
+        "kjv_merodachbaladan",
+        "kjv_baladan",
+        "sick be:pp and recover:pp"
+      ],
+      "39:2": [
+        "glad be:pa",
+        "kjv_ointment",
+        "kjv_armour",
+        "his/kjv_dominion"
+      ],
+      "39:3": [
+        "to ipl come:perf",
+        "kjv_babylon"
+      ],
+      "39:4": [
+        "mypl/house",
+        "mypl/treasure:pl",
+        "ipl to they show:neg:perf"
+      ],
+      "39:5": [
+        "kjv_lord of army:pl"
+      ],
+      "39:6": [
+        "until this day",
+        "kjv_babylon",
+        "nothing leave:psv:fu"
+      ],
+      "39:7": [
+        "thy/son:pl",
+        "beget:fu",
+        "eunuch:pl"
+      ],
+      "39:8": [
+        "he further say:pa for peace and truth in my/day:pl be:fu"
+      ],
+      "40:1": [
+        "mypl/people:a comfort:imp comfort:imp"
+      ],
+      "40:2": [
+        "her/war accomplish:psv:pr",
+        "pardon:psv:pr",
+        "double for all her/sin:pl"
+      ],
+      "40:3": [
+        "kjv_wilderness cry:pr",
+        "ourone/god"
+      ],
+      "40:4": [
+        "every valley up raise:psv:fu",
+        "crooked straight",
+        "rough place:pl level"
+      ],
+      "40:5": [
+        "all flesh it:a together see:fu",
+        "mouth of kjv_lord"
+      ],
+      "40:6": [
+        "what i cry:fu?",
+        "all flesh grass"
+      ],
+      "40:7": [
+        "grass wither:pr flower fade:pr",
+        "spirit of kjv_lord upon it blow:pr"
+      ],
+      "40:8": [
+        "grass wither:pr flower fade:pr",
+        "ourone/god forever stand:fu"
+      ],
+      "40:9": [
+        "kjv_zion who good news:a",
+        "kjv_jerusalem who good news:a",
+        "behold:imp:excl"
+      ],
+      "40:10": [
+        "strong hand",
+        "his/arm",
+        "his/reward",
+        "his/work"
+      ],
+      "40:11": [
+        "kjv_lamb:pl",
+        "his/bosom",
+        "with young",
+        "gently lead:fu"
+      ],
+      "40:12": [
+        "kjv_hollow of his/hand",
+        "kjv_span",
+        "scale:pl",
+        "balance"
+      ],
+      "40:13": [
+        "spirit:a of kjv_lord direct:perf",
+        "counsel:ag",
+        "teach:perf"
+      ],
+      "40:14": [
+        "counsel:a take:pa",
+        "path of judgment",
+        "knowledge",
+        "way:a of understand:ev"
+      ],
+      "40:15": [
+        "drop of kjv_bucket",
+        "dust of balance consider:psv:pr",
+        "kjv_isle:pl"
+      ],
+      "40:16": [
+        "kjv_lebanon enough",
+        "beast:pl enough",
+        "kjv_offering"
+      ],
+      "40:17": [
+        "less than nothing and vanity consider:psv:pr"
+      ],
+      "40:18": [
+        "to whom",
+        "what likeness:a",
+        "compare:fu?"
+      ],
+      "40:19": [
+        "kjv_graven image:a melt:pr",
+        "gold work:ag",
+        "silver chain:pl:a kjv_cast_metal:pr"
+      ],
+      "40:20": [
+        "kjv_offering:a have:neg:pr",
+        "rot:neg:fu",
+        "skill:adj work:ag",
+        "move:psv:neg:fu"
+      ],
+      "40:21": [
+        "know:neg:perf?",
+        "hear:neg:perf?",
+        "tell:psv:neg:perf?",
+        "understand:neg:perf?"
+      ],
+      "40:22": [
+        "circle of earth",
+        "kjv_grasshopper:pl",
+        "kjv_curtain",
+        "tent"
+      ],
+      "40:23": [
+        "prince:pl:a to nothing",
+        "judge:pl:a of earth"
+      ],
+      "40:24": [
+        "plant:psv:neg:fu",
+        "kjv_sow:psv:neg:fu",
+        "their/kjv_plant_stock",
+        "kjv_whirlwind",
+        "kjv_stubble"
+      ],
+      "40:25": [
+        "ipl:a compare:fu",
+        "ipl equal be:fu",
+        "kjv_holy_one say:pr"
+      ],
+      "40:26": [
+        "their/army:a by kjv_number:ev",
+        "by name:pl",
+        "not one_num fail:pr"
+      ],
+      "40:27": [
+        "mypl/way",
+        "mypl/judgment",
+        "mypl/god"
+      ],
+      "40:28": [
+        "eternal god",
+        "create:ag of end:pl",
+        "faint:neg:pr",
+        "no search:ev"
+      ],
+      "40:29": [
+        "faint power:a",
+        "no might:a",
+        "strength:a increase:pr"
+      ],
+      "40:30": [
+        "youth:pl faint:fu",
+        "young human:pl completely fall:fu"
+      ],
+      "40:31": [
+        "kjv_lord wait:pr",
+        "wing:pl as kjv_eagle:pl",
+        "weary be:neg:fu",
+        "faint:neg:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "38:10",
+        "38:11",
+        "38:12",
+        "38:13",
+        "38:14",
+        "38:15",
+        "38:16",
+        "38:17",
+        "38:19",
+        "38:20",
+        "38:22",
+        "38:3",
+        "40:6"
+      ],
+      "ipl": [
+        "37:21",
+        "37:24",
+        "37:25",
+        "37:26",
+        "37:28",
+        "37:29",
+        "37:35",
+        "37:6",
+        "37:7",
+        "38:5",
+        "38:6",
+        "38:8",
+        "39:3",
+        "39:4",
+        "40:25"
+      ],
+      "wesg": [
+        "37:20",
+        "38:20"
+      ],
+      "wepl": [],
+      "mypl": [
+        "37:12",
+        "37:24",
+        "37:25",
+        "37:29",
+        "37:35",
+        "39:4",
+        "40:1",
+        "40:27"
+      ],
+      "ourone": [
+        "37:20",
+        "38:20",
+        "40:3",
+        "40:8"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "parallelAccountReview": {
+      "verses": 68,
+      "exactSourceVerses": [
+        "Isaiah 37:1",
+        "Isaiah 37:19",
+        "Isaiah 37:23",
+        "Isaiah 37:28",
+        "Isaiah 37:32",
+        "Isaiah 37:34",
+        "Isaiah 37:37",
+        "Isaiah 37:5",
+        "Isaiah 37:8",
+        "Isaiah 39:7"
+      ],
+      "exactAnalysisReuseCount": 9,
+      "newCopyTitleClarification": [
+        "Isaiah37:23"
+      ],
+      "earlierSealUnchanged": true
+    },
+    "quantityInterpretation": [
+      "Second/third years37:30,185000struck37:36,fifteen added years38:5,two tens38:8,double40:2,not one40:26.",
+      "Holy One is a title,not a cardinal;divine,royal and community plurality is grammatical."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah37–40 adds99 verses,total797;whole Bible incomplete.",
+      "Imperial and divine plural-I remain distinguished by speaker;personal lament shifts to communal singular-we singing.",
+      "Three common entries,two written proper variants;no inherited targets changed.",
+      "Awkward death claims,source account differences and pronoun shifts remain unresolved."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 556,
+    "spreads": 278,
+    "units": 797,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "deaad89bb29de47372e87efc4bc1476ade2e087f618e59ef5a9b22523d53a372",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 278,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.609,
+    "modules": [
+      "tests.test_kjv_isaiah_answering_selves",
+      "tests.test_kjv_isaiah_plural_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    555,
+    556
+  ],
+  "status": "incomplete Bible;Isaiah1–40 section checkpoint verified"
+}

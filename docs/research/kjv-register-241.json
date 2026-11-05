@@ -1,0 +1,790 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.241",
+    "parentVersion": "0.10-kjv.240",
+    "parentHead": "5b2d1770b4335f2e65ff5fb5d432605cf380dc0b1ac8131f43342ccf9bf9d078",
+    "head": "03a5d6c68d703f336003bab7bcebe9f6852c23c23c96bac79603fdef37a69f72",
+    "newLexicalEntries": 4,
+    "newProperEntries": 0,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 84,
+    "exactCompilerCases": 84,
+    "newAuthoredVerses": 84,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 355,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2383,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newCorinthians1Verses": 84,
+    "corinthians1Verses": 355,
+    "authoredVerses": 28719,
+    "remainingVerses": 2383,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 14,
+    "quantityChecks": [
+      {
+        "reference": "1 Corinthians 12:11",
+        "source": "But all these worketh that one and the selfsame Spirit, dividing to every man severally as he will.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 12:12",
+        "source": "For as the body is one, and hath many members, and all the members of that one body, being many, are one body: so also is Christ.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 12:13",
+        "source": "For by one Spirit are we all baptized into one body, whether we be Jews or Gentiles, whether we be bond or free; and have been all made to drink into one Spirit.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 12:14",
+        "source": "For the body is not one member, but many.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 12:19",
+        "source": "And if they were all one member, where were the body?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 12:20",
+        "source": "But now are they many members, yet but one body.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 12:26",
+        "source": "And whether one member suffer, all the members suffer with it; or one member be honoured, all the members rejoice with it.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 12:28",
+        "source": "And God hath set some in the church, first apostles, secondarily prophets, thirdly teachers, after that miracles, then gifts of healings, helps, governments, diversities of tongues.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          3
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "1 Corinthians 13:13",
+        "source": "And now abideth faith, hope, charity, these three; but the greatest of these is charity.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Corinthians 14:19",
+        "source": "Yet in the church I had rather speak five words with my understanding, that by my voice I might teach others also, than ten thousand words in an unknown tongue.",
+        "expectedDecimalQuantities": [
+          5,
+          10000
+        ],
+        "targetQuantities": [
+          5,
+          10000
+        ]
+      },
+      {
+        "reference": "1 Corinthians 14:23",
+        "source": "If therefore the whole church be come together into one place, and all speak with tongues, and there come in those that are unlearned, or unbelievers, will they not say that ye are mad?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 14:27",
+        "source": "If any man speak in an unknown tongue, let it be by two, or at the most by three, and that by course; and let one interpret.",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 14:29",
+        "source": "Let the prophets speak two or three, and let the other judge.",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "1 Corinthians 14:30",
+        "source": "If any thing be revealed to another that sitteth by, let the first hold his peace.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "12:1": [
+        "about spirit:adj gift:pl",
+        "i you know:neg:adj"
+      ],
+      "12:2": [
+        "kjv_gentile:pl",
+        "speak:neg:can:adj idol:pl",
+        "carry:psv",
+        "lead:psv"
+      ],
+      "12:3": [
+        "no person by spirit of god",
+        "kjv_jesus_matthew cursed",
+        "except by kjv_holy_spirit_title"
+      ],
+      "12:4": [
+        "gift:pl difference:pl",
+        "same spirit"
+      ],
+      "12:5": [
+        "kjv_administration_service_corinthians:pl",
+        "same kjv_lord"
+      ],
+      "12:6": [
+        "work:ev:pl difference:pl",
+        "same god who all in all"
+      ],
+      "12:7": [
+        "manifestation to each person",
+        "for together benefit"
+      ],
+      "12:8": [
+        "wisdom word",
+        "knowledge word",
+        "same spirit"
+      ],
+      "12:9": [
+        "another faith",
+        "heal:ev gift:pl"
+      ],
+      "12:10": [
+        "miracle:pl work:ev",
+        "kjv_prophesy:ev",
+        "spirit:pl distinguish:ev",
+        "tongue:pl different kind:pl",
+        "kjv_interpretation"
+      ],
+      "12:11": [
+        "one_num and same spirit",
+        "each person separate:adv",
+        "as he wish"
+      ],
+      "12:12": [
+        "body one_num",
+        "many kjv_member_body_romans:pl",
+        "that one_num body",
+        "one_num body be:pr",
+        "so also kjv_christ_title"
+      ],
+      "12:13": [
+        "by one_num spirit wesg all",
+        "into one_num body",
+        "kjv_jew:pl or kjv_gentile:pl",
+        "servant:pl or free",
+        "into one_num spirit drink"
+      ],
+      "12:14": [
+        "one_num kjv_member_body_romans be:neg",
+        "but many"
+      ],
+      "12:15": [
+        "foot say:fu",
+        "i hand be:neg",
+        "i of body be:neg",
+        "it therefore of body be:neg:pr:q"
+      ],
+      "12:16": [
+        "ear say:fu",
+        "i eye be:neg",
+        "it therefore of body be:neg:pr:q"
+      ],
+      "12:17": [
+        "whole body eye",
+        "hearing where",
+        "smell:ev where"
+      ],
+      "12:18": [
+        "god",
+        "of they each kjv_member_body_romans:pl",
+        "as to he pleasing"
+      ],
+      "12:19": [
+        "all one_num kjv_member_body_romans",
+        "body where"
+      ],
+      "12:20": [
+        "many kjv_member_body_romans:pl",
+        "only one_num body"
+      ],
+      "12:21": [
+        "i of thou need:ev have:neg",
+        "head to foot:pl",
+        "i of you need:ev have:neg"
+      ],
+      "12:22": [
+        "more feeble seem:pr",
+        "necessary"
+      ],
+      "12:23": [
+        "wesg less honour:adj think",
+        "wesg more abundance:adj honour",
+        "ourone/kjv_comely_corinthians:neg:adj"
+      ],
+      "12:24": [
+        "ourone/kjv_comely_corinthians",
+        "body together mix",
+        "part which lack",
+        "more abundance:adj honour"
+      ],
+      "12:25": [
+        "division be:neg:should",
+        "same care:ev each for another"
+      ],
+      "12:26": [
+        "one_num kjv_member_body_romans suffer",
+        "all kjv_member_body_romans:pl with it suffer",
+        "one_num kjv_member_body_romans honour:psv",
+        "with it rejoice"
+      ],
+      "12:27": [
+        "you body of kjv_christ_title",
+        "particular:adv"
+      ],
+      "12:28": [
+        "first kjv_apostle:pl second prophet:pl third teach:ag:pl",
+        "miracle:pl",
+        "heal:ev gift:pl",
+        "help:ev:pl rule:ev:pl",
+        "tongue:pl difference:pl"
+      ],
+      "12:29": [
+        "all kjv_apostle:pl",
+        "all prophet:pl",
+        "all teach:ag:pl",
+        "miracle:pl work:ag:pl"
+      ],
+      "12:30": [
+        "all heal:ev gift:pl",
+        "all with tongue:pl",
+        "all interpret"
+      ],
+      "12:31": [
+        "best gift:pl earnest:adv desire",
+        "i to you more excellent way"
+      ],
+      "13:1": [
+        "tongue:pl of man:pl and of angel:pl",
+        "kjv_charity_love_corinthians have:neg",
+        "sound:cv kjv_brass",
+        "kjv_tinkle:cv kjv_cymbal"
+      ],
+      "13:2": [
+        "kjv_prophesy:ev gift",
+        "all mystery:pl and all knowledge",
+        "all faith",
+        "mountain:pl remove:can",
+        "i nothing"
+      ],
+      "13:3": [
+        "all my/kjv_goods for poor feed",
+        "my/body for burn:psv",
+        "it i:a nothing benefit"
+      ],
+      "13:4": [
+        "long suffer",
+        "kjv_kindness:adj",
+        "kjv_envy:neg",
+        "itself boast:neg",
+        "proud be:neg"
+      ],
+      "13:5": [
+        "kjv_comely_corinthians:neg:adv behave:neg",
+        "her/own seek:neg",
+        "easily kjv_provoke:psv:neg",
+        "no evil think"
+      ],
+      "13:6": [
+        "kjv_iniquity in rejoice:neg",
+        "truth in rejoice"
+      ],
+      "13:7": [
+        "all thing:pl carry",
+        "all thing:pl believe",
+        "all thing:pl hope",
+        "all thing:pl endure"
+      ],
+      "13:8": [
+        "never fail",
+        "they fail:fu",
+        "they cease:fu",
+        "it away vanish:fu"
+      ],
+      "13:9": [
+        "wesg in part know",
+        "wesg in part kjv_prophesy"
+      ],
+      "13:10": [
+        "perfect",
+        "in part",
+        "away do:psv"
+      ],
+      "13:11": [
+        "i as child speak",
+        "i as child understand",
+        "i as child think",
+        "i man become",
+        "child:adj thing:pl away put"
+      ],
+      "13:12": [
+        "wesg through kjv_mirror dark:adv",
+        "face to face",
+        "i in part know",
+        "i know:psv"
+      ],
+      "13:13": [
+        "faith hope kjv_charity_love_corinthians these three",
+        "greatest kjv_charity_love_corinthians"
+      ],
+      "14:1": [
+        "kjv_charity_love_corinthians after follow",
+        "spirit:adj gift:pl desire",
+        "rather that you kjv_prophesy"
+      ],
+      "14:2": [
+        "unknown tongue",
+        "to man:pl speak:neg",
+        "to god",
+        "no person he:a understand",
+        "in spirit he mystery:pl"
+      ],
+      "14:3": [
+        "kjv_edify_romans:ev and kjv_exhort_romans:ev and comfort:ev"
+      ],
+      "14:4": [
+        "himself kjv_edify_romans",
+        "kjv_church_assembly kjv_edify_romans"
+      ],
+      "14:5": [
+        "i you all with tongue:pl",
+        "rather you kjv_prophesy",
+        "except he interpret",
+        "kjv_church_assembly kjv_edify_romans:ev receive"
+      ],
+      "14:6": [
+        "by reveal:ev",
+        "by knowledge",
+        "by kjv_prophesy:ev",
+        "by doctrine"
+      ],
+      "14:7": [
+        "life without",
+        "pipe or harp",
+        "distinction",
+        "pipe:psv:pr or harp:psv"
+      ],
+      "14:8": [
+        "trumpet certain:neg:adj",
+        "for battle prepare"
+      ],
+      "14:9": [
+        "easy for understand:psv:inf word:pl",
+        "how what speak:psv",
+        "into air"
+      ],
+      "14:10": [
+        "kind:pl of voice:pl",
+        "none of they signify:ev without"
+      ],
+      "14:11": [
+        "voice meaning know:neg",
+        "i to he who speak:pr kjv_barbarian_unintelligible_corinthians",
+        "to i kjv_barbarian_unintelligible_corinthians"
+      ],
+      "14:12": [
+        "zealous",
+        "kjv_church_assembly kjv_edify_romans:ev",
+        "kjv_excel"
+      ],
+      "14:13": [
+        "unknown tongue",
+        "pray:opt that he interpret:may"
+      ],
+      "14:14": [
+        "my/spirit pray:pr",
+        "my/understanding fruitful:neg"
+      ],
+      "14:15": [
+        "i with spirit pray:fu",
+        "i with understanding also pray:fu",
+        "i with spirit sing:fu",
+        "i with understanding also sing:fu"
+      ],
+      "14:16": [
+        "in unlearned place:ev",
+        "thy/thanks give:ev amen",
+        "what thou say:pr understand:neg"
+      ],
+      "14:17": [
+        "thou indeed well thanks",
+        "another kjv_edify_romans:psv:neg"
+      ],
+      "14:18": [
+        "i my/god thanks",
+        "than you all more"
+      ],
+      "14:19": [
+        "five word:pl",
+        "my/understanding",
+        "my/voice",
+        "teach:may",
+        "five+twelve+twelve+twelve and nine+twelve+twelve and five+twelve and four"
+      ],
+      "14:20": [
+        "in understanding child:pl be:neg",
+        "in malice child:pl",
+        "in understanding man:pl"
+      ],
+      "14:21": [
+        "other tongue:pl and other lip:pl",
+        "ipl to this people speak:fu",
+        "they ipl:a hear:neg",
+        "kjv_lord say"
+      ],
+      "14:22": [
+        "not to they who believe:pr",
+        "but to they who believe:neg:pr",
+        "not for they who believe:neg:pr",
+        "for they who believe:pr"
+      ],
+      "14:23": [
+        "into one_num place:ev",
+        "all with tongue:pl",
+        "unlearned or believe:neg:ag:pl",
+        "mad:adj",
+        "say:neg:fu:q"
+      ],
+      "14:24": [
+        "all kjv_prophesy",
+        "person who believe:neg",
+        "unlearned person",
+        "by all kjv_convince_reprove:psv",
+        "by all judge:psv"
+      ],
+      "14:25": [
+        "his/heart secret:pl",
+        "on his/face down fall",
+        "god kjv_worship:fu",
+        "god in you indeed"
+      ],
+      "14:26": [
+        "kjv_psalm have",
+        "doctrine have",
+        "tongue have",
+        "reveal:ev have",
+        "kjv_interpretation have",
+        "for kjv_edify_romans:ev"
+      ],
+      "14:27": [
+        "by two or at most three",
+        "each after another",
+        "one_num interpret"
+      ],
+      "14:28": [
+        "no interpreter",
+        "silent remain",
+        "to himself and to god"
+      ],
+      "14:29": [
+        "prophet:pl two or three",
+        "other judge"
+      ],
+      "14:30": [
+        "to another who near sit",
+        "first silent"
+      ],
+      "14:31": [
+        "you all each after another kjv_prophesy:may",
+        "all learn:may",
+        "all comfort:psv:may"
+      ],
+      "14:32": [
+        "prophet:pl spirit:pl",
+        "kjv_subject_authority_romans:psv"
+      ],
+      "14:33": [
+        "god kjv_confusion_disorder_corinthians make:ag be:neg",
+        "peace",
+        "all kjv_church_assembly:pl"
+      ],
+      "14:34": [
+        "your/woman:pl",
+        "silent remain",
+        "speak:inf permit:psv:neg",
+        "under obedience",
+        "as also law say"
+      ],
+      "14:35": [
+        "their/husband:pl at home ask",
+        "woman:pl in kjv_church_assembly speak:inf shame"
+      ],
+      "14:36": [
+        "out from you come:pa:q",
+        "to you only come:pa:q"
+      ],
+      "14:37": [
+        "i to you write",
+        "kjv_lord command:pl",
+        "acknowledge"
+      ],
+      "14:38": [
+        "if any person know:neg:adj be:pr",
+        "he know:neg:adj be:opt"
+      ],
+      "14:39": [
+        "kjv_prophesy:inf desire",
+        "with tongue:pl speak:inf forbid:neg"
+      ],
+      "14:40": [
+        "kjv_comely_corinthians:adv",
+        "in arrange:ev"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "12:1",
+        "12:15",
+        "12:16",
+        "12:21",
+        "12:3",
+        "12:31",
+        "13:1",
+        "13:11",
+        "13:12",
+        "13:2",
+        "13:3",
+        "14:11",
+        "14:14",
+        "14:15",
+        "14:18",
+        "14:19",
+        "14:37",
+        "14:5",
+        "14:6"
+      ],
+      "ipl": [
+        "14:21"
+      ],
+      "wesg": [
+        "12:13",
+        "12:23",
+        "13:12",
+        "13:9"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "12:23",
+        "12:24"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "One body with many members keeps every explicit one;communal we remains singular-whole.",
+      "Five versus10000and two/at-most-three/one interpreter retain exact Unta values.",
+      "One/another recipients and one-by-one sequencing are distributive,not added cardinals;first/second/third remain ordinals."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "84new verses;3551Corinthians;whole Bible incomplete.",
+      "Personified organs and author use personal-I;quoted divine speaker14:21uses plural-self.",
+      "Women prophesying in11:5and the later silence rule remain in tension;no harmonizing rule inserted.",
+      "Four common entries;no new proper names,paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Corinthians — incomplete Bible working text",
+    "pages": 208,
+    "spreads": 104,
+    "units": 355,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "6f5f3a844d7d677baead748f4fa0e5432f2818bd60b43525603f11f98d6ae6cf",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 104,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.775,
+    "modules": [
+      "tests.test_kjv_corinthians_members_love_speech",
+      "tests.test_kjv_corinthians_many_one_meal",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    207,
+    208
+  ],
+  "status": "incomplete Bible;1 Corinthians1–14 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 207,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv241\\preflight-corinthians1\\Proofs\\page-207.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv241\\composed-corinthians1\\Proofs\\page-207.png",
+        "sha256": "057b59e3b6e8db61f8e0b75ac2c5f156cd7e99091926d9d42a38dec894e9324f",
+        "bytesIdentical": true
+      },
+      {
+        "page": 208,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv241\\preflight-corinthians1\\Proofs\\page-208.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv241\\composed-corinthians1\\Proofs\\page-208.png",
+        "sha256": "62c78ddf13072b297fb617717293f0db7986cbae867c8cee730810a479a2e550",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

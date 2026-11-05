@@ -32,14 +32,17 @@ RECORDS = {
     'numberConventions': record(dict(digits=array(TEXT, 12), digitNames=array(TEXT, 12), radixPoint=TEXT, minus=TEXT, repeatOpen=TEXT, repeatClose=TEXT, readingPolicy={'enum': ['digits-only', 'positional-unverified']}), ('digits', 'digitNames', 'radixPoint', 'minus', 'repeatOpen', 'repeatClose', 'readingPolicy')),
 }
 COLLECTIONS = tuple(RECORDS)
-DATA = full(**{key: array(schema) for key, schema in RECORDS.items()})
+# Full literary corpora exceed the original 2,000-headword/rule ceiling.
+# Keep collection bounds explicit and identical in data and frozen revisions.
+COLLECTION_LIMITS = {key: 10000 if key in ('lexicon', 'grammar') else 2000 for key in COLLECTIONS}
+DATA = full(**{key: array(schema, COLLECTION_LIMITS[key]) for key, schema in RECORDS.items()})
 REVISION = full(id=ID, parentId={'type': ['string', 'null']}, label=TEXT, createdAt=TEXT, sha256=HASH,
-                collections=full(**{key: array(HASH) for key in COLLECTIONS}))
+                collections=full(**{key: array(HASH, COLLECTION_LIMITS[key]) for key in COLLECTIONS}))
 ANCHOR = full(frameId=ID, start=INT, end=INT, text=TEXT, frameSha256=HASH)
 LINK = full(id=ID, revisionId=ID, corpusId=ID, source=ANCHOR, translation=ANCHOR,
             adaptation=TEXT, offsetUnit={'const': 'utf16-code-unit'})
 LANGUAGE = full(version={'const': '1.0.0'}, activeRevisionId=ID,
-                objects={'type': 'object', 'propertyNames': HASH, 'additionalProperties': {'type': 'object'}, 'maxProperties': 10000},
+                objects={'type': 'object', 'propertyNames': HASH, 'additionalProperties': {'type': 'object'}, 'maxProperties': 20000},
                 revisions=array(REVISION, 256), links=array(LINK, 2000))
 PACKAGE = full(format={'const': 'vayrshemon.language'}, formatVersion={'const': '1.0.0'}, label=TEXT, sha256=HASH, data=DATA)
 STATE = deepcopy(STUDIO_STATE)

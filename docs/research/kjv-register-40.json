@@ -1,0 +1,2078 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.40",
+    "parentVersion": "0.10-kjv.39",
+    "parentHead": "56b6ed0c84726a8457489a58ab91e67848ba84f8d0f4b9e85dc6cf6c917ca98c",
+    "head": "9d520e9c2573004212f47d6315ca348d56b07ccf36d8353a0c7ce5457d9f263a",
+    "newLexicalEntries": 21,
+    "newProperEntries": 12,
+    "newCommonEntries": 9,
+    "newSurfaceForms": 18,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 78,
+    "exactCompilerCases": 147,
+    "newAuthoredVerses": 147,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 23926,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJudgesVerses": 147,
+    "authoredVerses": 7176,
+    "remainingVerses": 23926,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 148,
+    "quantityChecks": [
+      {
+        "reference": "Judges 1:1",
+        "source": "Now after the death of Joshua it came to pass, that the children of Israel asked the LORD, saying, Who shall go up for us against the Canaanites first, to fight against them?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 1:4",
+        "source": "And Judah went up; and the LORD delivered the Canaanites and the Perizzites into their hand: and they slew of them in Bezek ten thousand men.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 1:7",
+        "source": "And Adonibezek said, Threescore and ten kings, having their thumbs and their great toes cut off, gathered their meat under my table: as I have done, so God hath requited me. And they brought him to Jerusalem, and there he died.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 1:20",
+        "source": "And they gave Hebron unto Caleb, as Moses said: and he expelled thence the three sons of Anak.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 2:8",
+        "source": "And Joshua the son of Nun, the servant of the LORD, died, being an hundred and ten years old.",
+        "expectedDecimalQuantities": [
+          110
+        ],
+        "targetQuantities": [
+          110
+        ]
+      },
+      {
+        "reference": "Judges 3:3",
+        "source": "Namely, five lords of the Philistines, and all the Canaanites, and the Sidonians, and the Hivites that dwelt in mount Lebanon, from mount Baalhermon unto the entering in of Hamath.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Judges 3:8",
+        "source": "Therefore the anger of the LORD was hot against Israel, and he sold them into the hand of Chushanrishathaim king of Mesopotamia: and the children of Israel served Chushanrishathaim eight years.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "Judges 3:11",
+        "source": "And the land had rest forty years. And Othniel the son of Kenaz died.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Judges 3:14",
+        "source": "So the children of Israel served Eglon the king of Moab eighteen years.",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "Judges 3:16",
+        "source": "But Ehud made him a dagger which had two edges, of a cubit length; and he did gird it under his raiment upon his right thigh.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 3:29",
+        "source": "And they slew of Moab at that time about ten thousand men, all lusty, and all men of valour; and there escaped not a man.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 3:30",
+        "source": "So Moab was subdued that day under the hand of Israel. And the land had rest fourscore years.",
+        "expectedDecimalQuantities": [
+          80
+        ],
+        "targetQuantities": [
+          80
+        ]
+      },
+      {
+        "reference": "Judges 3:31",
+        "source": "And after him was Shamgar the son of Anath, which slew of the Philistines six hundred men with an ox goad: and he also delivered Israel.",
+        "expectedDecimalQuantities": [
+          600
+        ],
+        "targetQuantities": [
+          600
+        ]
+      },
+      {
+        "reference": "Judges 4:3",
+        "source": "And the children of Israel cried unto the LORD: for he had nine hundred chariots of iron; and twenty years he mightily oppressed the children of Israel.",
+        "expectedDecimalQuantities": [
+          900,
+          20
+        ],
+        "targetQuantities": [
+          900,
+          20
+        ]
+      },
+      {
+        "reference": "Judges 4:6",
+        "source": "And she sent and called Barak the son of Abinoam out of Kedeshnaphtali, and said unto him, Hath not the LORD God of Israel commanded, saying, Go and draw toward mount Tabor, and take with thee ten thousand men of the children of Naphtali and of the children of Zebulun?",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 4:10",
+        "source": "And Barak called Zebulun and Naphtali to Kedesh; and he went up with ten thousand men at his feet: and Deborah went up with him.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 4:13",
+        "source": "And Sisera gathered together all his chariots, even nine hundred chariots of iron, and all the people that were with him, from Harosheth of the Gentiles unto the river of Kishon.",
+        "expectedDecimalQuantities": [
+          900
+        ],
+        "targetQuantities": [
+          900
+        ]
+      },
+      {
+        "reference": "Judges 4:14",
+        "source": "And Deborah said unto Barak, Up; for this is the day in which the LORD hath delivered Sisera into thine hand: is not the LORD gone out before thee? So Barak went down from mount Tabor, and ten thousand men after him.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 5:8",
+        "source": "They chose new gods; then was war in the gates: was there a shield or spear seen among forty thousand in Israel?",
+        "expectedDecimalQuantities": [
+          40000
+        ],
+        "targetQuantities": [
+          40000
+        ]
+      },
+      {
+        "reference": "Judges 5:30",
+        "source": "Have they not sped? have they not divided the prey; to every man a damsel or two; to Sisera a prey of divers colours, a prey of divers colours of needlework, of divers colours of needlework on both sides, meet for the necks of them that take the spoil?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 5:31",
+        "source": "So let all thine enemies perish, O LORD: but let them that love him be as the sun when he goeth forth in his might. And the land had rest forty years.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Judges 6:1",
+        "source": "And the children of Israel did evil in the sight of the LORD: and the LORD delivered them into the hand of Midian seven years.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Judges 6:16",
+        "source": "And the LORD said unto him, Surely I will be with thee, and thou shalt smite the Midianites as one man.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 6:25",
+        "source": "And it came to pass the same night, that the LORD said unto him, Take thy father’s young bullock, even the second bullock of seven years old, and throw down the altar of Baal that thy father hath, and cut down the grove that is by it:",
+        "expectedDecimalQuantities": [
+          2,
+          7
+        ],
+        "targetQuantities": [
+          2,
+          7
+        ]
+      },
+      {
+        "reference": "Judges 6:26",
+        "source": "And build an altar unto the LORD thy God upon the top of this rock, in the ordered place, and take the second bullock, and offer a burnt sacrifice with the wood of the grove which thou shalt cut down.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 6:27",
+        "source": "Then Gideon took ten men of his servants, and did as the LORD had said unto him: and so it was, because he feared his father’s household, and the men of the city, that he could not do it by day, that he did it by night.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Judges 6:28",
+        "source": "And when the men of the city arose early in the morning, behold, the altar of Baal was cast down, and the grove was cut down that was by it, and the second bullock was offered upon the altar that was built.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 6:31",
+        "source": "And Joash said unto all that stood against him, Will ye plead for Baal? will ye save him? he that will plead for him, let him be put to death whilst it is yet morning: if he be a god, let him plead for himself, because one hath cast down his altar.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 7:3",
+        "source": "Now therefore go to, proclaim in the ears of the people, saying, Whosoever is fearful and afraid, let him return and depart early from mount Gilead. And there returned of the people twenty and two thousand; and there remained ten thousand.",
+        "expectedDecimalQuantities": [
+          22000,
+          10000
+        ],
+        "targetQuantities": [
+          22000,
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 7:5",
+        "source": "So he brought down the people unto the water: and the LORD said unto Gideon, Every one that lappeth of the water with his tongue, as a dog lappeth, him shalt thou set by himself; likewise every one that boweth down upon his knees to drink.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 7:6",
+        "source": "And the number of them that lapped, putting their hand to their mouth, were three hundred men: but all the rest of the people bowed down upon their knees to drink water.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 7:7",
+        "source": "And the LORD said unto Gideon, By the three hundred men that lapped will I save you, and deliver the Midianites into thine hand: and let all the other people go every man unto his place.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 7:8",
+        "source": "So the people took victuals in their hand, and their trumpets: and he sent all the rest of Israel every man unto his tent, and retained those three hundred men: and the host of Midian was beneath him in the valley.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 7:16",
+        "source": "And he divided the three hundred men into three companies, and he put a trumpet in every man’s hand, with empty pitchers, and lamps within the pitchers.",
+        "expectedDecimalQuantities": [
+          300,
+          3
+        ],
+        "targetQuantities": [
+          300,
+          3
+        ]
+      },
+      {
+        "reference": "Judges 7:19",
+        "source": "So Gideon, and the hundred men that were with him, came unto the outside of the camp in the beginning of the middle watch; and they had but newly set the watch: and they blew the trumpets, and brake the pitchers that were in their hands.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Judges 7:20",
+        "source": "And the three companies blew the trumpets, and brake the pitchers, and held the lamps in their left hands, and the trumpets in their right hands to blow withal: and they cried, The sword of the LORD, and of Gideon.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 7:22",
+        "source": "And the three hundred blew the trumpets, and the LORD set every man’s sword against his fellow, even throughout all the host: and the host fled to Bethshittah in Zererath, and to the border of Abelmeholah, unto Tabbath.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 7:25",
+        "source": "And they took two princes of the Midianites, Oreb and Zeeb; and they slew Oreb upon the rock Oreb, and Zeeb they slew at the winepress of Zeeb, and pursued Midian, and brought the heads of Oreb and Zeeb to Gideon on the other side Jordan.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 8:4",
+        "source": "And Gideon came to Jordan, and passed over, he, and the three hundred men that were with him, faint, yet pursuing them.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 8:10",
+        "source": "Now Zebah and Zalmunna were in Karkor, and their hosts with them, about fifteen thousand men, all that were left of all the hosts of the children of the east: for there fell an hundred and twenty thousand men that drew sword.",
+        "expectedDecimalQuantities": [
+          15000,
+          120000
+        ],
+        "targetQuantities": [
+          15000,
+          120000
+        ]
+      },
+      {
+        "reference": "Judges 8:12",
+        "source": "And when Zebah and Zalmunna fled, he pursued after them, and took the two kings of Midian, Zebah and Zalmunna, and discomfited all the host.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 8:14",
+        "source": "And caught a young man of the men of Succoth, and enquired of him: and he described unto him the princes of Succoth, and the elders thereof, even threescore and seventeen men.",
+        "expectedDecimalQuantities": [
+          77
+        ],
+        "targetQuantities": [
+          77
+        ]
+      },
+      {
+        "reference": "Judges 8:18",
+        "source": "Then said he unto Zebah and Zalmunna, What manner of men were they whom ye slew at Tabor? And they answered, As thou art, so were they; each one resembled the children of a king.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 8:26",
+        "source": "And the weight of the golden earrings that he requested was a thousand and seven hundred shekels of gold; beside ornaments, and collars, and purple raiment that was on the kings of Midian, and beside the chains that were about their camels’ necks.",
+        "expectedDecimalQuantities": [
+          1700
+        ],
+        "targetQuantities": [
+          1700
+        ]
+      },
+      {
+        "reference": "Judges 8:28",
+        "source": "Thus was Midian subdued before the children of Israel, so that they lifted up their heads no more. And the country was in quietness forty years in the days of Gideon.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Judges 8:30",
+        "source": "And Gideon had threescore and ten sons of his body begotten: for he had many wives.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 9:2",
+        "source": "Speak, I pray you, in the ears of all the men of Shechem, Whether is better for you, either that all the sons of Jerubbaal, which are threescore and ten persons, reign over you, or that one reign over you? remember also that I am your bone and your flesh.",
+        "expectedDecimalQuantities": [
+          70,
+          1
+        ],
+        "targetQuantities": [
+          70,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 9:4",
+        "source": "And they gave him threescore and ten pieces of silver out of the house of Baalberith, wherewith Abimelech hired vain and light persons, which followed him.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 9:5",
+        "source": "And he went unto his father’s house at Ophrah, and slew his brethren the sons of Jerubbaal, being threescore and ten persons, upon one stone: notwithstanding yet Jotham the youngest son of Jerubbaal was left; for he hid himself.",
+        "expectedDecimalQuantities": [
+          70,
+          1
+        ],
+        "targetQuantities": [
+          70,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 9:18",
+        "source": "And ye are risen up against my father’s house this day, and have slain his sons, threescore and ten persons, upon one stone, and have made Abimelech, the son of his maidservant, king over the men of Shechem, because he is your brother;)",
+        "expectedDecimalQuantities": [
+          70,
+          1
+        ],
+        "targetQuantities": [
+          70,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 9:22",
+        "source": "When Abimelech had reigned three years over Israel,",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 9:24",
+        "source": "That the cruelty done to the threescore and ten sons of Jerubbaal might come, and their blood be laid upon Abimelech their brother, which slew them; and upon the men of Shechem, which aided him in the killing of his brethren.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 9:34",
+        "source": "And Abimelech rose up, and all the people that were with him, by night, and they laid wait against Shechem in four companies.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Judges 9:43",
+        "source": "And he took the people, and divided them into three companies, and laid wait in the field, and looked, and, behold, the people were come forth out of the city; and he rose up against them, and smote them.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 9:44",
+        "source": "And Abimelech, and the company that was with him, rushed forward, and stood in the entering of the gate of the city: and the two other companies ran upon all the people that were in the fields, and slew them.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 9:49",
+        "source": "And all the people likewise cut down every man his bough, and followed Abimelech, and put them to the hold, and set the hold on fire upon them; so that all the men of the tower of Shechem died also, about a thousand men and women.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Judges 9:56",
+        "source": "Thus God rendered the wickedness of Abimelech, which he did unto his father, in slaying his seventy brethren:",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 10:2",
+        "source": "And he judged Israel twenty and three years, and died, and was buried in Shamir.",
+        "expectedDecimalQuantities": [
+          23
+        ],
+        "targetQuantities": [
+          23
+        ]
+      },
+      {
+        "reference": "Judges 10:3",
+        "source": "And after him arose Jair, a Gileadite, and judged Israel twenty and two years.",
+        "expectedDecimalQuantities": [
+          22
+        ],
+        "targetQuantities": [
+          22
+        ]
+      },
+      {
+        "reference": "Judges 10:4",
+        "source": "And he had thirty sons that rode on thirty ass colts, and they had thirty cities, which are called Havothjair unto this day, which are in the land of Gilead.",
+        "expectedDecimalQuantities": [
+          30,
+          30,
+          30
+        ],
+        "targetQuantities": [
+          30,
+          30,
+          30
+        ]
+      },
+      {
+        "reference": "Judges 10:8",
+        "source": "And that year they vexed and oppressed the children of Israel: eighteen years, all the children of Israel that were on the other side Jordan in the land of the Amorites, which is in Gilead.",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "Judges 11:26",
+        "source": "While Israel dwelt in Heshbon and her towns, and in Aroer and her towns, and in all the cities that be along by the coasts of Arnon, three hundred years? why therefore did ye not recover them within that time?",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 11:33",
+        "source": "And he smote them from Aroer, even till thou come to Minnith, even twenty cities, and unto the plain of the vineyards, with a very great slaughter. Thus the children of Ammon were subdued before the children of Israel.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "Judges 11:35",
+        "source": "And it came to pass, when he saw her, that he rent his clothes, and said, Alas, my daughter! thou hast brought me very low, and thou art one of them that trouble me: for I have opened my mouth unto the LORD, and I cannot go back.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 11:37",
+        "source": "And she said unto her father, Let this thing be done for me: let me alone two months, that I may go up and down upon the mountains, and bewail my virginity, I and my fellows.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 11:38",
+        "source": "And he said, Go. And he sent her away for two months: and she went with her companions, and bewailed her virginity upon the mountains.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 11:39",
+        "source": "And it came to pass at the end of two months, that she returned unto her father, who did with her according to his vow which he had vowed: and she knew no man. And it was a custom in Israel,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 11:40",
+        "source": "That the daughters of Israel went yearly to lament the daughter of Jephthah the Gileadite four days in a year.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Judges 12:6",
+        "source": "Then said they unto him, Say now Shibboleth: and he said Sibboleth: for he could not frame to pronounce it right. Then they took him, and slew him at the passages of Jordan: and there fell at that time of the Ephraimites forty and two thousand.",
+        "expectedDecimalQuantities": [
+          42000
+        ],
+        "targetQuantities": [
+          42000
+        ]
+      },
+      {
+        "reference": "Judges 12:7",
+        "source": "And Jephthah judged Israel six years. Then died Jephthah the Gileadite, and was buried in one of the cities of Gilead.",
+        "expectedDecimalQuantities": [
+          6,
+          1
+        ],
+        "targetQuantities": [
+          6,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 12:9",
+        "source": "And he had thirty sons, and thirty daughters, whom he sent abroad, and took in thirty daughters from abroad for his sons. And he judged Israel seven years.",
+        "expectedDecimalQuantities": [
+          30,
+          30,
+          30,
+          7
+        ],
+        "targetQuantities": [
+          30,
+          30,
+          30,
+          7
+        ]
+      },
+      {
+        "reference": "Judges 12:11",
+        "source": "And after him Elon, a Zebulonite, judged Israel; and he judged Israel ten years.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Judges 12:14",
+        "source": "And he had forty sons and thirty nephews, that rode on threescore and ten ass colts: and he judged Israel eight years.",
+        "expectedDecimalQuantities": [
+          40,
+          30,
+          70,
+          8
+        ],
+        "targetQuantities": [
+          40,
+          30,
+          70,
+          8
+        ]
+      },
+      {
+        "reference": "Judges 13:1",
+        "source": "And the children of Israel did evil again in the sight of the LORD; and the LORD delivered them into the hand of the Philistines forty years.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Judges 14:11",
+        "source": "And it came to pass, when they saw him, that they brought thirty companions to be with him.",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      },
+      {
+        "reference": "Judges 14:12",
+        "source": "And Samson said unto them, I will now put forth a riddle unto you: if ye can certainly declare it me within the seven days of the feast, and find it out, then I will give you thirty sheets and thirty change of garments:",
+        "expectedDecimalQuantities": [
+          7,
+          30,
+          30
+        ],
+        "targetQuantities": [
+          7,
+          30,
+          30
+        ]
+      },
+      {
+        "reference": "Judges 14:13",
+        "source": "But if ye cannot declare it me, then shall ye give me thirty sheets and thirty change of garments. And they said unto him, Put forth thy riddle, that we may hear it.",
+        "expectedDecimalQuantities": [
+          30,
+          30
+        ],
+        "targetQuantities": [
+          30,
+          30
+        ]
+      },
+      {
+        "reference": "Judges 14:14",
+        "source": "And he said unto them, Out of the eater came forth meat, and out of the strong came forth sweetness. And they could not in three days expound the riddle.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 14:15",
+        "source": "And it came to pass on the seventh day, that they said unto Samson’s wife, Entice thy husband, that he may declare unto us the riddle, lest we burn thee and thy father’s house with fire: have ye called us to take that we have? is it not so?",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Judges 14:17",
+        "source": "And she wept before him the seven days, while their feast lasted: and it came to pass on the seventh day, that he told her, because she lay sore upon him: and she told the riddle to the children of her people.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Judges 14:18",
+        "source": "And the men of the city said unto him on the seventh day before the sun went down, What is sweeter than honey? And what is stronger than a lion? and he said unto them, If ye had not plowed with my heifer, ye had not found out my riddle.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Judges 14:19",
+        "source": "And the Spirit of the LORD came upon him, and he went down to Ashkelon, and slew thirty men of them, and took their spoil, and gave change of garments unto them which expounded the riddle. And his anger was kindled, and he went up to his father’s house.",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      },
+      {
+        "reference": "Judges 15:4",
+        "source": "And Samson went and caught three hundred foxes, and took firebrands, and turned tail to tail, and put a firebrand in the midst between two tails.",
+        "expectedDecimalQuantities": [
+          300,
+          2
+        ],
+        "targetQuantities": [
+          300,
+          2
+        ]
+      },
+      {
+        "reference": "Judges 15:11",
+        "source": "Then three thousand men of Judah went to the top of the rock Etam, and said to Samson, Knowest thou not that the Philistines are rulers over us? what is this that thou hast done unto us? And he said unto them, As they did unto me, so have I done unto them.",
+        "expectedDecimalQuantities": [
+          3000
+        ],
+        "targetQuantities": [
+          3000
+        ]
+      },
+      {
+        "reference": "Judges 15:13",
+        "source": "And they spake unto him, saying, No; but we will bind thee fast, and deliver thee into their hand: but surely we will not kill thee. And they bound him with two new cords, and brought him up from the rock.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 15:15",
+        "source": "And he found a new jawbone of an ass, and put forth his hand, and took it, and slew a thousand men therewith.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Judges 15:16",
+        "source": "And Samson said, With the jawbone of an ass, heaps upon heaps, with the jaw of an ass have I slain a thousand men.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Judges 15:20",
+        "source": "And he judged Israel in the days of the Philistines twenty years.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "Judges 16:3",
+        "source": "And Samson lay till midnight, and arose at midnight, and took the doors of the gate of the city, and the two posts, and went away with them, bar and all, and put them upon his shoulders, and carried them up to the top of an hill that is before Hebron.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 16:5",
+        "source": "And the lords of the Philistines came up unto her, and said unto her, Entice him, and see wherein his great strength lieth, and by what means we may prevail against him, that we may bind him to afflict him; and we will give thee every one of us eleven hundred pieces of silver.",
+        "expectedDecimalQuantities": [
+          1,
+          1100
+        ],
+        "targetQuantities": [
+          1,
+          1100
+        ]
+      },
+      {
+        "reference": "Judges 16:7",
+        "source": "And Samson said unto her, If they bind me with seven green withs that were never dried, then shall I be weak, and be as another man.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Judges 16:8",
+        "source": "Then the lords of the Philistines brought up to her seven green withs which had not been dried, and she bound him with them.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Judges 16:13",
+        "source": "And Delilah said unto Samson, Hitherto thou hast mocked me, and told me lies: tell me wherewith thou mightest be bound. And he said unto her, If thou weavest the seven locks of my head with the web.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Judges 16:15",
+        "source": "And she said unto him, How canst thou say, I love thee, when thine heart is not with me? thou hast mocked me these three times, and hast not told me wherein thy great strength lieth.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 16:19",
+        "source": "And she made him sleep upon her knees; and she called for a man, and she caused him to shave off the seven locks of his head; and she began to afflict him, and his strength went from him.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Judges 16:27",
+        "source": "Now the house was full of men and women; and all the lords of the Philistines were there; and there were upon the roof about three thousand men and women, that beheld while Samson made sport.",
+        "expectedDecimalQuantities": [
+          3000
+        ],
+        "targetQuantities": [
+          3000
+        ]
+      },
+      {
+        "reference": "Judges 16:28",
+        "source": "And Samson called unto the LORD, and said, O Lord God, remember me, I pray thee, and strengthen me, I pray thee, only this once, O God, that I may be at once avenged of the Philistines for my two eyes.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 16:29",
+        "source": "And Samson took hold of the two middle pillars upon which the house stood, and on which it was borne up, of the one with his right hand, and of the other with his left.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 16:31",
+        "source": "Then his brethren and all the house of his father came down, and took him, and brought him up, and buried him between Zorah and Eshtaol in the buryingplace of Manoah his father. And he judged Israel twenty years.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "Judges 17:2",
+        "source": "And he said unto his mother, The eleven hundred shekels of silver that were taken from thee, about which thou cursedst, and spakest of also in mine ears, behold, the silver is with me; I took it. And his mother said, Blessed be thou of the LORD, my son.",
+        "expectedDecimalQuantities": [
+          1100
+        ],
+        "targetQuantities": [
+          1100
+        ]
+      },
+      {
+        "reference": "Judges 17:3",
+        "source": "And when he had restored the eleven hundred shekels of silver to his mother, his mother said, I had wholly dedicated the silver unto the LORD from my hand for my son, to make a graven image and a molten image: now therefore I will restore it unto thee.",
+        "expectedDecimalQuantities": [
+          1100
+        ],
+        "targetQuantities": [
+          1100
+        ]
+      },
+      {
+        "reference": "Judges 17:4",
+        "source": "Yet he restored the money unto his mother; and his mother took two hundred shekels of silver, and gave them to the founder, who made thereof a graven image and a molten image: and they were in the house of Micah.",
+        "expectedDecimalQuantities": [
+          200
+        ],
+        "targetQuantities": [
+          200
+        ]
+      },
+      {
+        "reference": "Judges 17:5",
+        "source": "And the man Micah had an house of gods, and made an ephod, and teraphim, and consecrated one of his sons, who became his priest.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 17:10",
+        "source": "And Micah said unto him, Dwell with me, and be unto me a father and a priest, and I will give thee ten shekels of silver by the year, and a suit of apparel, and thy victuals. So the Levite went in.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Judges 17:11",
+        "source": "And the Levite was content to dwell with the man; and the young man was unto him as one of his sons.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 18:2",
+        "source": "And the children of Dan sent of their family five men from their coasts, men of valour, from Zorah, and from Eshtaol, to spy out the land, and to search it; and they said unto them, Go, search the land: who when they came to mount Ephraim, to the house of Micah, they lodged there.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Judges 18:7",
+        "source": "Then the five men departed, and came to Laish, and saw the people that were therein, how they dwelt careless, after the manner of the Zidonians, quiet and secure; and there was no magistrate in the land, that might put them to shame in any thing; and they were far from the Zidonians, and had no business with any man.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Judges 18:11",
+        "source": "And there went from thence of the family of the Danites, out of Zorah and out of Eshtaol, six hundred men appointed with weapons of war.",
+        "expectedDecimalQuantities": [
+          600
+        ],
+        "targetQuantities": [
+          600
+        ]
+      },
+      {
+        "reference": "Judges 18:14",
+        "source": "Then answered the five men that went to spy out the country of Laish, and said unto their brethren, Do ye know that there is in these houses an ephod, and teraphim, and a graven image, and a molten image? now therefore consider what ye have to do.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Judges 18:16",
+        "source": "And the six hundred men appointed with their weapons of war, which were of the children of Dan, stood by the entering of the gate.",
+        "expectedDecimalQuantities": [
+          600
+        ],
+        "targetQuantities": [
+          600
+        ]
+      },
+      {
+        "reference": "Judges 18:17",
+        "source": "And the five men that went to spy out the land went up, and came in thither, and took the graven image, and the ephod, and the teraphim, and the molten image: and the priest stood in the entering of the gate with the six hundred men that were appointed with weapons of war.",
+        "expectedDecimalQuantities": [
+          5,
+          600
+        ],
+        "targetQuantities": [
+          5,
+          600
+        ]
+      },
+      {
+        "reference": "Judges 18:19",
+        "source": "And they said unto him, Hold thy peace, lay thine hand upon thy mouth, and go with us, and be to us a father and a priest: is it better for thee to be a priest unto the house of one man, or that thou be a priest unto a tribe and a family in Israel?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 19:2",
+        "source": "And his concubine played the whore against him, and went away from him unto her father’s house to Bethlehemjudah, and was there four whole months.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Judges 19:4",
+        "source": "And his father in law, the damsel’s father, retained him; and he abode with him three days: so they did eat and drink, and lodged there.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 19:5",
+        "source": "And it came to pass on the fourth day, when they arose early in the morning, that he rose up to depart: and the damsel’s father said unto his son in law, Comfort thine heart with a morsel of bread, and afterward go your way.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Judges 19:8",
+        "source": "And he arose early in the morning on the fifth day to depart; and the damsel’s father said, Comfort thine heart, I pray thee. And they tarried until afternoon, and they did eat both of them.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Judges 19:10",
+        "source": "But the man would not tarry that night, but he rose up and departed, and came over against Jebus, which is Jerusalem; and there were with him two asses saddled, his concubine also was with him.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 19:13",
+        "source": "And he said unto his servant, Come, and let us draw near to one of these places to lodge all night, in Gibeah, or in Ramah.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 19:29",
+        "source": "And when he was come into his house, he took a knife, and laid hold on his concubine, and divided her, together with her bones, into twelve pieces, and sent her into all the coasts of Israel.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Judges 20:1",
+        "source": "Then all the children of Israel went out, and the congregation was gathered together as one man, from Dan even to Beersheba, with the land of Gilead, unto the LORD in Mizpeh.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 20:2",
+        "source": "And the chief of all the people, even of all the tribes of Israel, presented themselves in the assembly of the people of God, four hundred thousand footmen that drew sword.",
+        "expectedDecimalQuantities": [
+          400000
+        ],
+        "targetQuantities": [
+          400000
+        ]
+      },
+      {
+        "reference": "Judges 20:8",
+        "source": "And all the people arose as one man, saying, We will not any of us go to his tent, neither will we any of us turn into his house.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 20:10",
+        "source": "And we will take ten men of an hundred throughout all the tribes of Israel, and an hundred of a thousand, and a thousand out of ten thousand, to fetch victual for the people, that they may do, when they come to Gibeah of Benjamin, according to all the folly that they have wrought in Israel.",
+        "expectedDecimalQuantities": [
+          10,
+          100,
+          100,
+          1000,
+          1000,
+          10000
+        ],
+        "targetQuantities": [
+          10,
+          100,
+          100,
+          1000,
+          1000,
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 20:11",
+        "source": "So all the men of Israel were gathered against the city, knit together as one man.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 20:15",
+        "source": "And the children of Benjamin were numbered at that time out of the cities twenty and six thousand men that drew sword, beside the inhabitants of Gibeah, which were numbered seven hundred chosen men.",
+        "expectedDecimalQuantities": [
+          26000,
+          700
+        ],
+        "targetQuantities": [
+          26000,
+          700
+        ]
+      },
+      {
+        "reference": "Judges 20:16",
+        "source": "Among all this people there were seven hundred chosen men lefthanded; every one could sling stones at an hair breadth, and not miss.",
+        "expectedDecimalQuantities": [
+          700,
+          1
+        ],
+        "targetQuantities": [
+          700,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 20:17",
+        "source": "And the men of Israel, beside Benjamin, were numbered four hundred thousand men that drew sword: all these were men of war.",
+        "expectedDecimalQuantities": [
+          400000
+        ],
+        "targetQuantities": [
+          400000
+        ]
+      },
+      {
+        "reference": "Judges 20:21",
+        "source": "And the children of Benjamin came forth out of Gibeah, and destroyed down to the ground of the Israelites that day twenty and two thousand men.",
+        "expectedDecimalQuantities": [
+          22000
+        ],
+        "targetQuantities": [
+          22000
+        ]
+      },
+      {
+        "reference": "Judges 20:24",
+        "source": "And the children of Israel came near against the children of Benjamin the second day.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 20:25",
+        "source": "And Benjamin went forth against them out of Gibeah the second day, and destroyed down to the ground of the children of Israel again eighteen thousand men; all these drew the sword.",
+        "expectedDecimalQuantities": [
+          2,
+          18000
+        ],
+        "targetQuantities": [
+          2,
+          18000
+        ]
+      },
+      {
+        "reference": "Judges 20:30",
+        "source": "And the children of Israel went up against the children of Benjamin on the third day, and put themselves in array against Gibeah, as at other times.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 20:31",
+        "source": "And the children of Benjamin went out against the people, and were drawn away from the city; and they began to smite of the people, and kill, as at other times, in the highways, of which one goeth up to the house of God, and the other to Gibeah in the field, about thirty men of Israel.",
+        "expectedDecimalQuantities": [
+          1,
+          30
+        ],
+        "targetQuantities": [
+          1,
+          30
+        ]
+      },
+      {
+        "reference": "Judges 20:34",
+        "source": "And there came against Gibeah ten thousand chosen men out of all Israel, and the battle was sore: but they knew not that evil was near them.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 20:35",
+        "source": "And the LORD smote Benjamin before Israel: and the children of Israel destroyed of the Benjamites that day twenty and five thousand and an hundred men: all these drew the sword.",
+        "expectedDecimalQuantities": [
+          25100
+        ],
+        "targetQuantities": [
+          25100
+        ]
+      },
+      {
+        "reference": "Judges 20:39",
+        "source": "And when the men of Israel retired in the battle, Benjamin began to smite and kill of the men of Israel about thirty persons: for they said, Surely they are smitten down before us, as in the first battle.",
+        "expectedDecimalQuantities": [
+          30,
+          1
+        ],
+        "targetQuantities": [
+          30,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 20:44",
+        "source": "And there fell of Benjamin eighteen thousand men; all these were men of valour.",
+        "expectedDecimalQuantities": [
+          18000
+        ],
+        "targetQuantities": [
+          18000
+        ]
+      },
+      {
+        "reference": "Judges 20:45",
+        "source": "And they turned and fled toward the wilderness unto the rock of Rimmon: and they gleaned of them in the highways five thousand men; and pursued hard after them unto Gidom, and slew two thousand men of them.",
+        "expectedDecimalQuantities": [
+          5000,
+          2000
+        ],
+        "targetQuantities": [
+          5000,
+          2000
+        ]
+      },
+      {
+        "reference": "Judges 20:46",
+        "source": "So that all which fell that day of Benjamin were twenty and five thousand men that drew the sword; all these were men of valour.",
+        "expectedDecimalQuantities": [
+          25000
+        ],
+        "targetQuantities": [
+          25000
+        ]
+      },
+      {
+        "reference": "Judges 20:47",
+        "source": "But six hundred men turned and fled to the wilderness unto the rock Rimmon, and abode in the rock Rimmon four months.",
+        "expectedDecimalQuantities": [
+          600,
+          4
+        ],
+        "targetQuantities": [
+          600,
+          4
+        ]
+      },
+      {
+        "reference": "Judges 21:3",
+        "source": "And said, O LORD God of Israel, why is this come to pass in Israel, that there should be to day one tribe lacking in Israel?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 21:6",
+        "source": "And the children of Israel repented them for Benjamin their brother, and said, There is one tribe cut off from Israel this day.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 21:8",
+        "source": "And they said, What one is there of the tribes of Israel that came not up to Mizpeh to the LORD? And, behold, there came none to the camp from Jabeshgilead to the assembly.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 21:10",
+        "source": "And the congregation sent thither twelve thousand men of the valiantest, and commanded them, saying, Go and smite the inhabitants of Jabeshgilead with the edge of the sword, with the women and the children.",
+        "expectedDecimalQuantities": [
+          12000
+        ],
+        "targetQuantities": [
+          12000
+        ]
+      },
+      {
+        "reference": "Judges 21:12",
+        "source": "And they found among the inhabitants of Jabeshgilead four hundred young virgins, that had known no man by lying with any male: and they brought them unto the camp to Shiloh, which is in the land of Canaan.",
+        "expectedDecimalQuantities": [
+          400
+        ],
+        "targetQuantities": [
+          400
+        ]
+      },
+      {
+        "reference": "Judges 18:29",
+        "source": "And they called the name of the city Dan, after the name of Dan their father, who was born unto Israel: howbeit the name of the city was Laish at the first.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 20:18",
+        "source": "And the children of Israel arose, and went up to the house of God, and asked counsel of God, and said, Which of us shall go up first to the battle against the children of Benjamin? And the LORD said, Judah shall go up first.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 20:22",
+        "source": "And the people the men of Israel encouraged themselves, and set their battle again in array in the place where they put themselves in array the first day.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 20:32",
+        "source": "And the children of Benjamin said, They are smitten down before us, as at the first. But the children of Israel said, Let us flee, and draw them from the city unto the highways.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "1100 dedicated versus 200 given to caster remain distinct.",
+      "26000 plus 700, 25100 versus 25000, and repeated approximately30 retain supplied differences and retelling.",
+      "600 survivors and400 wives are explicit; no invented200 abductee count.",
+      "A pair of asses does not make the three-person travelling party dual."
+    ],
+    "semanticChecks": {
+      "17:2": [
+        "eleven+hundred",
+        "i it:a take:pa",
+        "of kjv_lord thou bless:psv:opt"
+      ],
+      "17:3": [
+        "to kjv_lord",
+        "from my/hand",
+        "kjv_graven image and melt:psv image"
+      ],
+      "17:4": [
+        "two+hundred",
+        "kjv_founder_metal"
+      ],
+      "17:5": [
+        "of god:pl house",
+        "kjv_teraphim",
+        "one_num of his/son:pl"
+      ],
+      "17:6": [
+        "kjv_right_conduct in his/own eye:pl"
+      ],
+      "17:7": [
+        "of of kjv_judah kjv_family",
+        "kjv_levite"
+      ],
+      "17:10": [
+        "father and priest",
+        "ten of silver kjv_shekel:pl by year",
+        "of clothing set:ev"
+      ],
+      "17:11": [
+        "as one_num of his/son:pl"
+      ],
+      "17:13": [
+        "kjv_lord to i good do:fu i know:pr"
+      ],
+      "18:1": [
+        "all their/inheritance",
+        "fall:pp not"
+      ],
+      "18:2": [
+        "five man:pl",
+        "kjv_zorah",
+        "kjv_eshtaol"
+      ],
+      "18:5": [
+        "of wepl way",
+        "wepl know:pr:may"
+      ],
+      "18:6": [
+        "before kjv_lord your/way"
+      ],
+      "18:7": [
+        "without fear",
+        "kjv_secure_ease",
+        "no kjv_magistrate",
+        "no business"
+      ],
+      "18:9": [
+        "against they wesg go:pr:may",
+        "land:a wepl see:perf"
+      ],
+      "18:11": [
+        "six+hundred"
+      ],
+      "18:14": [
+        "kjv_ephod and kjv_teraphim and kjv_graven image and melt:psv image"
+      ],
+      "18:17": [
+        "five man:pl",
+        "six+hundred man:pl"
+      ],
+      "18:19": [
+        "to wesg father and priest",
+        "of one_num man house",
+        "kjv_tribe and kjv_family"
+      ],
+      "18:21": [
+        "little child:pl and kjv_livestock and kjv_baggage"
+      ],
+      "18:24": [
+        "my/god:pl whom i make:pa",
+        "what more i have:pr"
+      ],
+      "18:25": [
+        "among wesg",
+        "of thy/kjv_household life:pl"
+      ],
+      "18:27": [
+        "people who at quiet and kjv_secure_ease",
+        "city:a with fire burn:caus:pa"
+      ],
+      "18:30": [
+        "kjv_jonathan of kjv_gershom son of kjv_manasseh son",
+        "kjv_captivity"
+      ],
+      "18:31": [
+        "all time that of god house in kjv_shiloh"
+      ],
+      "19:2": [
+        "kjv_whoring:pa",
+        "four whole month:pl"
+      ],
+      "19:3": [
+        "his/servant with he",
+        "pair of ass:pl",
+        "she he:a into her/father house bring:pa"
+      ],
+      "19:6": [
+        "both of they together eat:pa"
+      ],
+      "19:9": [
+        "he and his/kjv_concubine and his/servant"
+      ],
+      "19:10": [
+        "kjv_jebus which kjv_jerusalem",
+        "two ass:pl"
+      ],
+      "19:11": [
+        "wepl:a into this"
+      ],
+      "19:12": [
+        "wepl turn:fu not",
+        "to kjv_gibeah wepl pass:fu"
+      ],
+      "19:16": [
+        "kjv_sojourn:pa",
+        "kjv_benjamite:pl"
+      ],
+      "19:18": [
+        "wepl pass:pr",
+        "from there i be:pr",
+        "to of kjv_lord house i go:pr"
+      ],
+      "19:19": [
+        "fodder for of wepl ass:pl",
+        "thy/female servant",
+        "thy/servant:pl"
+      ],
+      "19:22": [
+        "man:a who into thy/house come:pa",
+        "he:a wepl know:pr:may"
+      ],
+      "19:24": [
+        "my/daughter maiden and his/kjv_concubine",
+        "they:a you:pl humble:caus:imp"
+      ],
+      "19:25": [
+        "man his/kjv_concubine:a take:pa",
+        "to they she:a bring:pa forth",
+        "all night until morning"
+      ],
+      "19:26": [
+        "until light it be:pa"
+      ],
+      "19:27": [
+        "her/hand:pl upon kjv_threshold"
+      ],
+      "19:28": [
+        "wepl go:opt",
+        "no one answer:pa"
+      ],
+      "19:29": [
+        "with her/bone:pl into twelve piece:pl"
+      ],
+      "20:4": [
+        "woman who slay:psv:pp",
+        "i and my/kjv_concubine"
+      ],
+      "20:5": [
+        "i:a slay:inf intend:pa",
+        "rape:perf that dead she be:pr"
+      ],
+      "20:8": [
+        "wesg any one of wepl",
+        "as one_num man"
+      ],
+      "20:10": [
+        "ten man:pl of hundred",
+        "hundred of thousand",
+        "thousand out of ten+thousand"
+      ],
+      "20:13": [
+        "man:pl:a of kjv_belial child:pl",
+        "listen:inf will:pa not"
+      ],
+      "20:15": [
+        "twenty+thousand and six+thousand",
+        "besides",
+        "seven+hundred"
+      ],
+      "20:16": [
+        "left+hand",
+        "kjv_sling:inf",
+        "miss:inf not"
+      ],
+      "20:18": [
+        "which of wepl",
+        "kjv_judah first go:fu"
+      ],
+      "20:21": [
+        "twenty+thousand and two+thousand"
+      ],
+      "20:23": [
+        "mypl/brother ipl go:fu"
+      ],
+      "20:25": [
+        "ten+thousand and eight+thousand"
+      ],
+      "20:26": [
+        "kjv_fast:pa",
+        "peace kjv_offering:pl"
+      ],
+      "20:28": [
+        "mypl/brother ipl go:fu or ipl cease:fu",
+        "into thy/hand ipl deliver:fu"
+      ],
+      "20:31": [
+        "about thirty"
+      ],
+      "20:33": [
+        "kjv_baaltamar",
+        "kjv_gibeah meadow:pl"
+      ],
+      "20:35": [
+        "twenty+thousand and five+thousand and hundred"
+      ],
+      "20:39": [
+        "about thirty",
+        "before wesg"
+      ],
+      "20:45": [
+        "five+thousand",
+        "kjv_glean:pa",
+        "two+thousand"
+      ],
+      "20:46": [
+        "twenty+thousand and five+thousand man:pl"
+      ],
+      "20:47": [
+        "six+hundred",
+        "four month:pl"
+      ],
+      "20:48": [
+        "as beast and all that to hand",
+        "all city:pl:a"
+      ],
+      "21:1": [
+        "any of wepl his/daughter:a",
+        "give:fu not"
+      ],
+      "21:5": [
+        "great oath",
+        "to death he surely put:psv:fu"
+      ],
+      "21:6": [
+        "kjv_regret_loss:pa"
+      ],
+      "21:7": [
+        "wesg swear:perf",
+        "ourone/daughter:pl"
+      ],
+      "21:10": [
+        "twelve+thousand",
+        "with woman:pl and child:pl"
+      ],
+      "21:11": [
+        "every kjv_male",
+        "every woman:a who by man lie:perf"
+      ],
+      "21:12": [
+        "four+hundred young virgin:pl",
+        "kjv_shiloh"
+      ],
+      "21:14": [
+        "alive they save:pp",
+        "they suffice:pa not"
+      ],
+      "21:15": [
+        "kjv_regret_loss:pa",
+        "kjv_lord",
+        "breach:a make:pp"
+      ],
+      "21:18": [
+        "ourone/daughter:pl",
+        "wife:a to kjv_benjamin give:pr curse:psv:opt"
+      ],
+      "21:19": [
+        "every year",
+        "kjv_north",
+        "east",
+        "kjv_south"
+      ],
+      "21:21": [
+        "in dance:ev:pl dance:inf",
+        "every man catch:imp"
+      ],
+      "21:22": [
+        "to wesg to complaint:a speak:inf",
+        "to they wesg say:fu",
+        "for of wepl sake:pl",
+        "wepl reserve:pa not",
+        "you:pl give:pa not"
+      ],
+      "21:23": [
+        "whom they catch:pa",
+        "city:pl:a repair:pa"
+      ],
+      "21:25": [
+        "in his/own eye:pl kjv_right_conduct"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Compilation/layout do not prove semantic equivalence.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeSection": {
+    "book": "Judges — incomplete Bible working text",
+    "pages": 482,
+    "spreads": 241,
+    "units": 618,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "cbc266175edd9d15970ccd139431b4dfbf1c560c1427afd8a104b70d56d06f3f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 241,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "command": "python -m unittest tests.test_kjv_judges_closing tests.test_kjv_judges_samson tests.test_parallel_translation",
+    "passed": 4,
+    "seconds": 12.272
+  },
+  "visualProofsViewed": [
+    ".local/kjv40/composed-judges/Proofs/page-481.png",
+    ".local/kjv40/composed-judges/Proofs/page-482.png"
+  ],
+  "combinedBuild": "In progress; inspect combined-validation.json before claiming save/reopen complete.",
+  "combinedBible": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "6e4b7fb2a13e4ff8badb2f2f7f2272ce90940245bbae7fcf01617dddc8566cc2",
+    "pages": 5086,
+    "spreads": 2543,
+    "authoredVerses": 7176,
+    "missingVerses": 23926,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 10172,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\Build sources\\Genesis.vay",
+        "sha256": "da2a8e84a13406a9d393e994ae6d10b962688f02898da30d908756b2ead70241",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\Build sources\\Exodus.vay",
+        "sha256": "36e827d8ff72e89213baacb89ed73052ee85a6654c80e92fe0043744f0b38ae0",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\Build sources\\Leviticus.vay",
+        "sha256": "198ef8a0fc381e208b99e9dd83e0fe76549d174630b386872d2bcf5f3e5d696c",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\Build sources\\Numbers.vay",
+        "sha256": "42e74aad8d9c4b89b2b6b1336cc0f2970186a45ab6a28622daa73612c21bfa36",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\Build sources\\Deuteronomy.vay",
+        "sha256": "224062c8d24fed83fc8c60cf21550b0c369977ea7fba6317f56a15bdaf9d7785",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\Build sources\\Joshua.vay",
+        "sha256": "fa516f69c091de5aa989df2afa75fbd5572f8551e11a594dbfc6f4900fffc02e",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\Build sources\\Judges.vay",
+        "sha256": "cbc266175edd9d15970ccd139431b4dfbf1c560c1427afd8a104b70d56d06f3f",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.40\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 5045,
+        "lastPage": 5086
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.26",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.26",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.19",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.26",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.31",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.35",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 5045,
+        "lastPage": 5086,
+        "status": "inherited frozen text"
+      }
+    ]
+  }
+}

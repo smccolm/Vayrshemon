@@ -1,0 +1,673 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.140",
+    "parentVersion": "0.10-kjv.139",
+    "parentHead": "acfe3c2ae364bac6dba2e2dac0866b2861c73d7dbdda3d5fa13c3cab2d8d06c2",
+    "head": "115299bc67f6149fde5143206d70c11df8294aaa4e31179c51c042021015ccf0",
+    "newLexicalEntries": 4,
+    "newProperEntries": 2,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 101,
+    "exactCompilerCases": 101,
+    "newAuthoredVerses": 101,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1200,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 12199,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 101,
+    "isaiahVerses": 1200,
+    "authoredVerses": 18903,
+    "remainingVerses": 12199,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 60:9",
+        "source": "Surely the isles shall wait for me, and the ships of Tarshish first, to bring thy sons from far, their silver and their gold with them, unto the name of the LORD thy God, and to the Holy One of Israel, because he hath glorified thee.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 60:22",
+        "source": "A little one shall become a thousand, and a small one a strong nation: I the LORD will hasten it in his time.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Isaiah 61:7",
+        "source": "For your shame ye shall have double; and for confusion they shall rejoice in their portion: therefore in their land they shall possess the double: everlasting joy shall be unto them.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "56:1": [
+        "mypl/salvation near",
+        "mypl/kjv_righteousness"
+      ],
+      "56:2": [
+        "kjv_sabbath:a from it:a kjv_pollute_sacred:inf",
+        "his/hand:a from any evil"
+      ],
+      "56:3": [
+        "kjv_lord i:a from his/people",
+        "i dry kjv_tree be:pr"
+      ],
+      "56:4": [
+        "to eunuch:pl",
+        "mypl/kjv_covenant:a hold:pr"
+      ],
+      "56:5": [
+        "name:a better than of son:pl and of daughter:pl",
+        "off cut:psv:neg:fu"
+      ],
+      "56:6": [
+        "every human",
+        "mypl/kjv_covenant"
+      ],
+      "56:7": [
+        "mypl/house of pray:ev",
+        "their/burn:psv:adj kjv_offering:pl",
+        "for all people"
+      ],
+      "56:8": [
+        "people:a of kjv_israel who out cast:psv:pr",
+        "other:pl:a to he"
+      ],
+      "56:9": [
+        "all you beast:pl",
+        "to devour:inf"
+      ],
+      "56:10": [
+        "kjv_mute dog:pl",
+        "bark:neg:can",
+        "ignorance:adj"
+      ],
+      "56:11": [
+        "enough:a never have:can",
+        "understand:neg:can",
+        "each for his/gain from his/region"
+      ],
+      "56:12": [
+        "i wine:a fetch:fu",
+        "wesg ourone/self:a",
+        "kjv_strong_drink"
+      ],
+      "57:1": [
+        "no human it:a to heart lay:pr",
+        "from evil to come:inf"
+      ],
+      "57:2": [
+        "he into peace enter:fu they",
+        "each in his/kjv_uprightness"
+      ],
+      "57:3": [
+        "female kjv_sorcerer",
+        "kjv_adultery:ag and whore"
+      ],
+      "57:4": [
+        "wide mouth:a",
+        "tongue:a out draw:pr",
+        "kjv_seedline of false:ev"
+      ],
+      "57:5": [
+        "child:pl:a",
+        "under split:ev:pl of rock:pl kill:cv"
+      ],
+      "57:6": [
+        "they they thy/kjv_lot",
+        "corn kjv_offering",
+        "ipl comfort:a receive:should"
+      ],
+      "57:7": [
+        "thy/bed:a",
+        "kjv_sacrifice:a offer:inf"
+      ],
+      "57:8": [
+        "other than ipl kjv_uncover:perf",
+        "thy/bed:a large:caus:perf",
+        "where thou it:a see:pa"
+      ],
+      "57:9": [
+        "to king with kjv_ointment",
+        "thy/kjv_perfume",
+        "kjv_hell_depth"
+      ],
+      "57:10": [
+        "thou say:neg:pa no hope",
+        "life:a of thy/hand",
+        "grief:caus:psv:neg:pa"
+      ],
+      "57:11": [
+        "thou kjv_lie_false:perf",
+        "ipl:a remember:neg:perf",
+        "mypl/peace:a hold:neg:perf"
+      ],
+      "57:12": [
+        "thy/kjv_righteousness:a",
+        "benefit:neg:fu"
+      ],
+      "57:13": [
+        "thy/company:pl",
+        "wind they:a all away carry:fu",
+        "mypl/holy mountain"
+      ],
+      "57:14": [
+        "you up kjv_heap:caus:imp you up kjv_heap:caus:imp",
+        "kjv_stumblingblock"
+      ],
+      "57:15": [
+        "high and lofty who eternal:ev:a inhabit:pr",
+        "with he also",
+        "kjv_contrite"
+      ],
+      "57:16": [
+        "forever contend:neg:fu",
+        "always wrathful be:neg:fu",
+        "soul:pl which ipl make:perf"
+      ],
+      "57:17": [
+        "ipl iplself:a hide:pa",
+        "he in way of his/heart",
+        "kjv_perverse_way:adv"
+      ],
+      "57:18": [
+        "ipl his/way:pl:a see:perf",
+        "his/mourn:ag:pl"
+      ],
+      "57:19": [
+        "fruit:a of lip:pl create:pr",
+        "peace peace"
+      ],
+      "57:20": [
+        "rest:neg:can",
+        "mud:a and earth:a"
+      ],
+      "57:21": [
+        "no peace",
+        "my/god"
+      ],
+      "58:1": [
+        "thy/voice:a like trumpet",
+        "mypl/people:a their/transgress:ev"
+      ],
+      "58:2": [
+        "as nation",
+        "forsake:neg:pa",
+        "kjv_ordinance:pl:a of justice"
+      ],
+      "58:3": [
+        "why wesg fast:perf",
+        "wesg ourone/soul:a",
+        "all your/labour:pl:a exact:pr"
+      ],
+      "58:4": [
+        "fist of wicked:ev",
+        "fast:neg:fu"
+      ],
+      "58:5": [
+        "head:a like kjv_bulrush",
+        "kjv_sackcloth:a and kjv_ashes:a"
+      ],
+      "58:6": [
+        "heavy burden:pl:a undo:inf",
+        "free go:caus:inf",
+        "every yoke:a break:pr"
+      ],
+      "58:7": [
+        "thy/bread:a to hungry share:inf",
+        "thy/own flesh hide:neg:pr"
+      ],
+      "58:8": [
+        "thy/health quickly forth rise:fu",
+        "thy/kjv_rearguard"
+      ],
+      "58:9": [
+        "here ipl be:pr",
+        "finger:a forth put:ev"
+      ],
+      "58:10": [
+        "thy/soul:a to hungry out draw:pr",
+        "darkness as noon day"
+      ],
+      "58:11": [
+        "thy/bone:pl:a fat:caus:fu",
+        "spring of water whose water:pl fail:neg:pr"
+      ],
+      "58:12": [
+        "repair:ag of breach",
+        "restore:ag of path:pl"
+      ],
+      "58:13": [
+        "mypl/holy day",
+        "nor thy/own pleasure",
+        "nor thy/own word:pl"
+      ],
+      "58:14": [
+        "ipl thee:a upon high place:pl",
+        "heritage of kjv_jacob"
+      ],
+      "59:1": [
+        "hand of kjv_lord shorten:psv:neg:pr",
+        "his/ear heavy"
+      ],
+      "59:2": [
+        "between you and your/god",
+        "he hear:neg:fu"
+      ],
+      "59:3": [
+        "your/hand:pl with blood",
+        "false:ev:pl:a speak:perf",
+        "kjv_mutter:perf"
+      ],
+      "59:4": [
+        "none for justice",
+        "kjv_mischief:a conceive:pr",
+        "kjv_iniquity:a forth bring:pr"
+      ],
+      "59:5": [
+        "kjv_cockatrice kjv_hatch:pr",
+        "web:a of spider",
+        "kjv_viper"
+      ],
+      "59:6": [
+        "garment:pl become:neg:fu",
+        "cover:neg:fu",
+        "kjv_violence"
+      ],
+      "59:7": [
+        "innocent blood:a shed:inf",
+        "waste:ev and destroy:ev"
+      ],
+      "59:8": [
+        "peace they know:neg:pr",
+        "peace:a know:neg:fu"
+      ],
+      "59:9": [
+        "judgment far from wesg",
+        "justice wesg:a overtake:neg:pr"
+      ],
+      "59:10": [
+        "wesg no eye:pl:a have:pa",
+        "dead human:pl"
+      ],
+      "59:11": [
+        "wesg all like bear_animal:pl",
+        "like dove:pl",
+        "far off from wesg"
+      ],
+      "59:12": [
+        "ourone/transgress:ev:pl",
+        "ourone/sin:pl against wesg",
+        "wesg they:a know:pr"
+      ],
+      "59:13": [
+        "kjv_lie_false:cv",
+        "ourone/god",
+        "word:pl:a of false:ev"
+      ],
+      "59:14": [
+        "truth in street fall:perf",
+        "kjv_equity enter:neg:can"
+      ],
+      "59:15": [
+        "himself:a prey make:pr",
+        "no judgment"
+      ],
+      "59:16": [
+        "no human who for other:pl plead:pr",
+        "his/arm to he salvation:a"
+      ],
+      "59:17": [
+        "kjv_breastplate_armour",
+        "helmet:a of salvation",
+        "kjv_zeal as kjv_cloak"
+      ],
+      "59:18": [
+        "kjv_isle:pl he recompense:a repay:fu"
+      ],
+      "59:19": [
+        "enemy like flood",
+        "spirit of kjv_lord kjv_standard_banner:a against he"
+      ],
+      "59:20": [
+        "redeem:ag to kjv_zion",
+        "turn:pr come:fu"
+      ],
+      "59:21": [
+        "as for ipl",
+        "mypl/spirit which upon thee",
+        "thy/kjv_seedline/kjv_seedline",
+        "depart:neg:fu"
+      ],
+      "60:1": [
+        "thy/light come:perf",
+        "upon thee rise:perf"
+      ],
+      "60:2": [
+        "thick darkness",
+        "his/glory upon thee see:psv:fu"
+      ],
+      "60:3": [
+        "kjv_gentile:pl",
+        "king:pl to bright:ev"
+      ],
+      "60:4": [
+        "thy/daughter:pl at thy/side kjv_nurse:psv:fu"
+      ],
+      "60:5": [
+        "together flow:fu",
+        "heart fear:fu",
+        "force:pl of kjv_gentile:pl"
+      ],
+      "60:6": [
+        "kjv_dromedary:pl",
+        "kjv_ephah_people",
+        "kjv_sheba_realm",
+        "gold:a and kjv_incense:a"
+      ],
+      "60:7": [
+        "kjv_nebaioth_people",
+        "mypl/altar",
+        "house:a of mypl/glory"
+      ],
+      "60:8": [
+        "as cloud",
+        "dove:pl to their/window:pl"
+      ],
+      "60:9": [
+        "ship:pl of kjv_tarshish first",
+        "their/silver and their/gold"
+      ],
+      "60:10": [
+        "mypl/wrath ipl thee:a strike:pa",
+        "mypl/favour"
+      ],
+      "60:11": [
+        "day nor by night shut:psv:neg:fu",
+        "their/king:pl bring:psv:may"
+      ],
+      "60:12": [
+        "serve:neg:fu perish:fu",
+        "completely waste:psv:fu"
+      ],
+      "60:13": [
+        "kjv_fir kjv_pine_tree and kjv_box_tree",
+        "mypl/foot:pl"
+      ],
+      "60:14": [
+        "kjv_sole:pl of thy/foot:pl",
+        "city of kjv_lord kjv_zion"
+      ],
+      "60:15": [
+        "no human through thee",
+        "eternal kjv_excellence"
+      ],
+      "60:16": [
+        "breast:a of king:pl suck:fu",
+        "ipl kjv_lord thy/save:ag"
+      ],
+      "60:17": [
+        "for kjv_brass ipl gold:a",
+        "for iron ipl silver:a",
+        "for wood kjv_brass",
+        "for stone:pl iron"
+      ],
+      "60:18": [
+        "wall:pl:a salvation",
+        "gate:pl:a praise"
+      ],
+      "60:19": [
+        "sun no more thy/light",
+        "moon to thee light:a give:neg:fu"
+      ],
+      "60:20": [
+        "thy/sun no more down go:fu",
+        "moon itself:a withdraw:neg:fu"
+      ],
+      "60:21": [
+        "branch of mypl/plant:ev",
+        "work of mypl/hand:pl"
+      ],
+      "60:22": [
+        "little human thousand become:fu",
+        "small human strong nation",
+        "in his/time"
+      ],
+      "61:1": [
+        "spirit of lord god upon ipl",
+        "he ipl:a send:perf",
+        "prison:a open:ev"
+      ],
+      "61:2": [
+        "year:a of kjv_lord",
+        "day:a of kjv_avenge:ev of ourone/god"
+      ],
+      "61:3": [
+        "beauty:a for kjv_ashes",
+        "oil:a of joy",
+        "garment:a of praise",
+        "kjv_tree:pl of kjv_righteousness"
+      ],
+      "61:4": [
+        "old waste place:pl",
+        "many generation:pl"
+      ],
+      "61:5": [
+        "stranger:pl",
+        "your/plough:ag:pl",
+        "your/kjv_vinedresser:pl"
+      ],
+      "61:6": [
+        "priest:pl of kjv_lord",
+        "kjv_minister:pl of ourone/god",
+        "wealth:a of kjv_gentile:pl eat:fu"
+      ],
+      "61:7": [
+        "you double:a have:fu",
+        "they double:a possess:fu"
+      ],
+      "61:8": [
+        "ipl kjv_lord judgment:a love:pr",
+        "rob:ev:a for burn:psv:adj kjv_offering hate:pr"
+      ],
+      "61:9": [
+        "their/kjv_seedline",
+        "their/offspring",
+        "kjv_lord bless:perf"
+      ],
+      "61:10": [
+        "ipl greatly in kjv_lord rejoice:fu",
+        "mypl/god",
+        "kjv_bridegroom himself:a",
+        "bride herself:a"
+      ],
+      "61:11": [
+        "her/bud:a",
+        "forth sprout:caus:pr",
+        "kjv_righteousness:a and praise:a"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "56:12",
+        "56:3"
+      ],
+      "ipl": [
+        "56:4",
+        "56:5",
+        "56:7",
+        "56:8",
+        "57:11",
+        "57:12",
+        "57:13",
+        "57:15",
+        "57:16",
+        "57:17",
+        "57:18",
+        "57:19",
+        "57:6",
+        "57:8",
+        "58:14",
+        "58:2",
+        "58:5",
+        "58:6",
+        "58:9",
+        "59:21",
+        "60:10",
+        "60:13",
+        "60:15",
+        "60:16",
+        "60:17",
+        "60:21",
+        "60:22",
+        "60:7",
+        "60:9",
+        "61:1",
+        "61:10",
+        "61:8"
+      ],
+      "wesg": [
+        "56:12",
+        "58:3",
+        "59:10",
+        "59:11",
+        "59:12",
+        "59:9"
+      ],
+      "wepl": [],
+      "mypl": [
+        "56:1",
+        "56:4",
+        "56:5",
+        "56:6",
+        "56:7",
+        "57:11",
+        "57:13",
+        "57:14",
+        "58:1",
+        "58:13",
+        "58:2",
+        "59:21",
+        "60:10",
+        "60:13",
+        "60:21",
+        "60:7",
+        "61:10"
+      ],
+      "ourone": [
+        "56:12",
+        "58:3",
+        "59:12",
+        "59:13",
+        "61:2",
+        "61:6"
+      ],
+      "iplself": [
+        "57:17"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "First priority60:9;thousand60:22;two separate doubles61:7.",
+      "Little/small one60:22 is indefinite human/group seed,not added cardinal ones."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah56–61 adds101 verses,total1200;whole Bible incomplete.",
+      "Divine/representative plural-I,plural-self57:17,personal-I and communal singular-we distinguished by role.",
+      "Two common senses and two contextual people labels;no inherited targets changed.",
+      "Spirit,sender,herald and community remain syntactically distinct without inserted divine-person counts."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 884,
+    "spreads": 442,
+    "units": 1200,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "016d84bce2c2a434810520e625cff0c1323bcc28675c464eaf492d1bd38a2628",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 442,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.215,
+    "modules": [
+      "tests.test_kjv_isaiah_commissioned_voices",
+      "tests.test_kjv_isaiah_common_faces",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    883,
+    884
+  ],
+  "status": "incomplete Bible;Isaiah1–61 section checkpoint verified"
+}

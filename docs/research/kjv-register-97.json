@@ -1,0 +1,758 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.97",
+    "parentVersion": "0.10-kjv.96",
+    "parentHead": "54c3e8ac07f5a396cafde8694019e4dab5e8da09f2fc30c522ba6529596b1821",
+    "head": "e161ba884f6c4324a3d5fae8de89b1c1f0b4a143f32c8fca046b558c086827f5",
+    "newLexicalEntries": 84,
+    "newProperEntries": 83,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 35,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 86,
+    "exactCompilerCases": 86,
+    "newAuthoredVerses": 86,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 86,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 18671,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newNehemiahVerses": 86,
+    "nehemiahVerses": 86,
+    "authoredVerses": 12431,
+    "remainingVerses": 18671,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 15,
+    "quantityChecks": [
+      {
+        "reference": "Nehemiah 1:1",
+        "source": "The words of Nehemiah the son of Hachaliah. And it came to pass in the month Chisleu, in the twentieth year, as I was in Shushan the palace,",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "Nehemiah 2:1",
+        "source": "And it came to pass in the month Nisan, in the twentieth year of Artaxerxes the king, that wine was before him: and I took up the wine, and gave it unto the king. Now I had not been beforetime sad in his presence.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "Nehemiah 2:11",
+        "source": "So I came to Jerusalem, and was there three days.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Nehemiah 3:9",
+        "source": "And next unto them repaired Rephaiah the son of Hur, the ruler of the half part of Jerusalem.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 3:12",
+        "source": "And next unto him repaired Shallum the son of Halohesh, the ruler of the half part of Jerusalem, he and his daughters.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 3:13",
+        "source": "The valley gate repaired Hanun, and the inhabitants of Zanoah; they built it, and set up the doors thereof, the locks thereof, and the bars thereof, and a thousand cubits on the wall unto the dung gate.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Nehemiah 3:16",
+        "source": "After him repaired Nehemiah the son of Azbuk, the ruler of the half part of Bethzur, unto the place over against the sepulchres of David, and to the pool that was made, and unto the house of the mighty.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 3:17",
+        "source": "After him repaired the Levites, Rehum the son of Bani. Next unto him repaired Hashabiah, the ruler of the half part of Keilah, in his part.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 3:18",
+        "source": "After him repaired their brethren, Bavai the son of Henadad, the ruler of the half part of Keilah.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 3:30",
+        "source": "After him repaired Hananiah the son of Shelemiah, and Hanun the sixth son of Zalaph, another piece. After him repaired Meshullam the son of Berechiah over against his chamber.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "Nehemiah 4:6",
+        "source": "So built we the wall; and all the wall was joined together unto the half thereof: for the people had a mind to work.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 4:12",
+        "source": "And it came to pass, that when the Jews which dwelt by them came, they said unto us ten times, From all places whence ye shall return unto us they will be upon you.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Nehemiah 4:16",
+        "source": "And it came to pass from that time forth, that the half of my servants wrought in the work, and the other half of them held both the spears, the shields, and the bows, and the habergeons; and the rulers were behind all the house of Judah.",
+        "expectedDecimalQuantities": [
+          0.5,
+          0.5
+        ],
+        "targetQuantities": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 4:17",
+        "source": "They which builded on the wall, and they that bare burdens, with those that laded, every one with one of his hands wrought in the work, and with the other hand held a weapon.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Nehemiah 4:21",
+        "source": "So we laboured in the work: and half of them held the spears from the rising of the morning till the stars appeared.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_nehemiah_hachaliah son of kjv_hachaliah",
+        "kjv_chisleu",
+        "twenty:ord year",
+        "i in kjv_shushan"
+      ],
+      "1:2": [
+        "kjv_hanani_nehemiah person of my/brother:pl",
+        "i they:a",
+        "who escape:pp"
+      ],
+      "1:3": [
+        "remain:cv part",
+        "great kjv_afflict:ev",
+        "wall of kjv_jerusalem",
+        "its/gate:pl"
+      ],
+      "1:4": [
+        "down sit:pa and weep:pa",
+        "some day:pl",
+        "kjv_fast:pa"
+      ],
+      "1:5": [
+        "i thee:a beseech:pr",
+        "great and terrible god",
+        "kjv_covenant and mercy"
+      ],
+      "1:6": [
+        "thy/ear now heedful",
+        "i before thee",
+        "wesg against thee",
+        "both i and my/father:poss house"
+      ],
+      "1:7": [
+        "wesg very corrupt:adv",
+        "command:pl nor kjv_statute:pl nor judgment:pl",
+        "kjv_moses"
+      ],
+      "1:8": [
+        "remember:imp i thee:a",
+        "if you:pl transgress:pr ipl",
+        "nation:pl scatter:fu"
+      ],
+      "1:9": [
+        "to ipl turn:pr",
+        "mypl/command:pl",
+        "utmost part of kjv_heaven",
+        "mypl/name:a"
+      ],
+      "1:10": [
+        "thy/servant:pl and thy/people",
+        "thy/great power",
+        "thy/strong hand"
+      ],
+      "1:11": [
+        "this man",
+        "i king:poss kjv_cupbearer"
+      ],
+      "2:1": [
+        "kjv_nisan",
+        "twenty:ord year of kjv_artaxerxes",
+        "be:neg:pp"
+      ],
+      "2:2": [
+        "thou sick be:neg:pr",
+        "sorrow of heart",
+        "i very greatly afraid"
+      ],
+      "2:3": [
+        "king forever live:opt",
+        "my/father:pl:poss tomb:pl",
+        "consume:psv:pr"
+      ],
+      "2:4": [
+        "for what thou request:a",
+        "i to god of kjv_heaven pray:pa"
+      ],
+      "2:5": [
+        "if it king:a please:pr",
+        "thy/servant favour:a",
+        "i it:a build:may"
+      ],
+      "2:6": [
+        "queen also by he sit:cv",
+        "how long",
+        "i to he time:a set:pa"
+      ],
+      "2:7": [
+        "letter:pl",
+        "kjv_governor:pl beyond river",
+        "convey:may"
+      ],
+      "2:8": [
+        "kjv_asaph_forest",
+        "king:poss forest",
+        "for wall of city",
+        "for house which i into enter:fu"
+      ],
+      "2:9": [
+        "king:poss letter:pl",
+        "captain:pl of army and kjv_horseman:pl"
+      ],
+      "2:10": [
+        "kjv_sanballat kjv_horonite",
+        "kjv_tobiah_ammonite servant kjv_ammonite",
+        "kjv_welfare"
+      ],
+      "2:11": [
+        "kjv_jerusalem",
+        "kjv_three day:pl"
+      ],
+      "2:12": [
+        "some few man:pl",
+        "neither i to any person",
+        "except beast which i upon ride:pa"
+      ],
+      "2:13": [
+        "kjv_dragon_source well",
+        "kjv_dung gate",
+        "wall:pl of kjv_jerusalem"
+      ],
+      "2:14": [
+        "gate of kjv_fountain",
+        "king:poss kjv_pool",
+        "no kjv_place_site"
+      ],
+      "2:15": [
+        "by brook",
+        "back turn:pa",
+        "gate of valley enter:pa"
+      ],
+      "2:16": [
+        "know:neg:pa",
+        "nor to priest:pl nor to noble:pl",
+        "remain:cv part"
+      ],
+      "2:17": [
+        "wesg in be:pr",
+        "wesg wall of kjv_jerusalem:a up build:opt",
+        "no more kjv_reproach"
+      ],
+      "2:18": [
+        "my/god",
+        "king:poss word:pl",
+        "they say:pa wesg up rise:opt"
+      ],
+      "2:19": [
+        "kjv_geshem kjv_arabian",
+        "wesg:a to scorn",
+        "you:pl against king rebel:fu?"
+      ],
+      "2:20": [
+        "wesg his/servant:pl",
+        "no kjv_portion_share nor right nor kjv_memorial"
+      ],
+      "3:1": [
+        "kjv_eliashib_high_priest",
+        "sheep gate",
+        "kjv_meah",
+        "kjv_hananeel"
+      ],
+      "3:2": [
+        "man:pl of kjv_jericho",
+        "kjv_zaccur_imri son of kjv_imri_zaccur"
+      ],
+      "3:3": [
+        "fish gate",
+        "son:pl of kjv_hassenaah",
+        "beam:pl",
+        "lock:ev:pl",
+        "bar:pl"
+      ],
+      "3:4": [
+        "kjv_meremoth_wall son of kjv_urijah_meremoth son of kjv_koz_meremoth",
+        "kjv_meshullam_wall son of kjv_berechiah_meshullam son of kjv_meshezabeel",
+        "kjv_zadok_baana son of kjv_baana_zadok"
+      ],
+      "3:5": [
+        "kjv_tekoite:pl repair:pa",
+        "their/noble:pl",
+        "their/neck:pl",
+        "their/kjv_lord put:neg:pa"
+      ],
+      "3:6": [
+        "old gate",
+        "kjv_jehoiada_paseah",
+        "kjv_meshullam_besodeiah",
+        "lock:ev:pl"
+      ],
+      "3:7": [
+        "kjv_melatiah kjv_gibeonite",
+        "kjv_jadon kjv_meronothite",
+        "throne of kjv_governor on this side of river"
+      ],
+      "3:8": [
+        "kjv_uzziel_harhaiah",
+        "gold work:ag:pl",
+        "kjv_hananiah_apothecary son of person of kjv_apothecary:pl",
+        "broad wall"
+      ],
+      "3:9": [
+        "kjv_rephaiah_hur son of kjv_hur_rephaiah",
+        "half part of kjv_jerusalem"
+      ],
+      "3:10": [
+        "kjv_jedaiah_harumaph",
+        "opposite his/house",
+        "kjv_hattush_hashabniah"
+      ],
+      "3:11": [
+        "kjv_malchijah_harim son of kjv_harim_malchijah",
+        "kjv_hashub_pahathmoab",
+        "kjv_furnace:pl"
+      ],
+      "3:12": [
+        "kjv_shallum_halohesh",
+        "half part of kjv_jerusalem",
+        "he and his/daughter:pl"
+      ],
+      "3:13": [
+        "kjv_hanun_wall",
+        "kjv_zanoah",
+        "thousand kjv_cubit:pl",
+        "kjv_dung gate"
+      ],
+      "3:14": [
+        "kjv_malchiah_rechab son of kjv_rechab_malchiah",
+        "kjv_bethhaccerem",
+        "its/bar:pl"
+      ],
+      "3:15": [
+        "kjv_shallun son of kjv_colhozeh",
+        "cover:pa",
+        "kjv_siloah",
+        "kjv_stair:pl",
+        "city of kjv_david"
+      ],
+      "3:16": [
+        "kjv_nehemiah_azbuk son of kjv_azbuk",
+        "kjv_bethzur",
+        "tomb:pl of kjv_david",
+        "kjv_pool which make:psv:pa",
+        "house of mighty"
+      ],
+      "3:17": [
+        "kjv_rehum_bani son of kjv_bani_rehum",
+        "kjv_hashabiah_keilah",
+        "in his/part"
+      ],
+      "3:18": [
+        "kjv_bavai son of kjv_henadad",
+        "half part of kjv_keilah"
+      ],
+      "3:19": [
+        "kjv_ezer_jeshua son of kjv_jeshua_ezer",
+        "weapon store",
+        "turn:ev of wall"
+      ],
+      "3:20": [
+        "kjv_baruch_zabbai son of kjv_zabbai_baruch",
+        "earnest:adv",
+        "kjv_eliashib_high_priest"
+      ],
+      "3:21": [
+        "kjv_meremoth_wall son of kjv_urijah_meremoth son of kjv_koz_meremoth",
+        "end of house of kjv_eliashib_high_priest"
+      ],
+      "3:22": [
+        "priest:pl man:pl of kjv_plain_land"
+      ],
+      "3:23": [
+        "kjv_benjamin_wall and kjv_hashub_wall",
+        "their/house",
+        "kjv_azariah_maaseiah son of kjv_maaseiah_ananiah son of kjv_ananiah"
+      ],
+      "3:24": [
+        "kjv_binnui_henadad son of kjv_henadad",
+        "house of kjv_azariah_maaseiah",
+        "even to corner"
+      ],
+      "3:25": [
+        "kjv_palal son of kjv_uzai",
+        "kjv_tower which out lie:pr",
+        "court of prison",
+        "kjv_pedaiah_parosh son of kjv_parosh"
+      ],
+      "3:26": [
+        "kjv_nethinim:pl in kjv_ophel dwell:pa",
+        "water gate to east"
+      ],
+      "3:27": [
+        "kjv_tekoite:pl another piece:a",
+        "wall of kjv_ophel"
+      ],
+      "3:28": [
+        "above horse gate",
+        "each opposite his/house"
+      ],
+      "3:29": [
+        "kjv_zadok_immer son of kjv_immer_zadok",
+        "kjv_shemaiah_shechaniah_wall",
+        "east gate keep:ag"
+      ],
+      "3:30": [
+        "kjv_hananiah_shelemiah",
+        "kjv_hanun_zalaph six:ord son of kjv_zalaph",
+        "kjv_meshullam_wall son of kjv_berechiah_meshullam"
+      ],
+      "3:31": [
+        "kjv_malchiah_goldworker son of gold work:ag",
+        "kjv_miphkad",
+        "up go:ev of corner"
+      ],
+      "3:32": [
+        "sheep gate",
+        "gold work:ag:pl and kjv_merchant:pl"
+      ],
+      "4:1": [
+        "wesg wall:a build:pa",
+        "kjv_jew:pl:a mock:pa"
+      ],
+      "4:2": [
+        "army of kjv_samaria",
+        "feeble kjv_jew:pl",
+        "kjv_heap:pl of kjv_rubble revive:fu"
+      ],
+      "4:3": [
+        "fox up go:pr",
+        "their/stone wall:a down break:fu"
+      ],
+      "4:4": [
+        "ourone/god:excl",
+        "wesg despise:psv:pr",
+        "for prey in land of kjv_captivity"
+      ],
+      "4:5": [
+        "cover:neg:imp",
+        "blot:psv:neg:opt",
+        "kjv_provoke:perf"
+      ],
+      "4:6": [
+        "to its/half",
+        "people mind:a to work:inf"
+      ],
+      "4:7": [
+        "kjv_arabian:pl and kjv_ammonite:pl and kjv_ashdodite:pl",
+        "stop:psv:inf begin:pa"
+      ],
+      "4:8": [
+        "all of they together conspire:pa",
+        "to against kjv_jerusalem fight:inf"
+      ],
+      "4:9": [
+        "wesg ourone/prayer:a",
+        "watch:a against they day and night"
+      ],
+      "4:10": [
+        "strength of burden:pl bear:ag:pl",
+        "weak become:perf",
+        "wepl wall:a build:neg:pr:can"
+      ],
+      "4:11": [
+        "ourone/kjv_adversary:pl",
+        "until wesg in middle",
+        "they:a slay:pr",
+        "cease:caus:pr"
+      ],
+      "4:12": [
+        "to wesg ten time:pl",
+        "to wepl return:fu"
+      ],
+      "4:13": [
+        "i in lower kjv_place_site:pl",
+        "higher kjv_place_site:pl",
+        "their/kjv_family:pl",
+        "kjv_spear:pl"
+      ],
+      "4:14": [
+        "remain:cv part",
+        "great and terrible",
+        "your/daughter:pl your/wife:pl"
+      ],
+      "4:15": [
+        "to wesg know:psv:pa",
+        "wepl all of wepl",
+        "each to his/work"
+      ],
+      "4:16": [
+        "half of my/servant:pl",
+        "other half of they",
+        "kjv_habergeon:pl"
+      ],
+      "4:17": [
+        "those who kjv_load:pa",
+        "one_num of his/hand:pl",
+        "other hand weapon:a"
+      ],
+      "4:18": [
+        "each his/sword:a",
+        "kjv_gird:psv:pr",
+        "trumpet:a sound:pa by i"
+      ],
+      "4:19": [
+        "wepl upon wall separate:psv:pr",
+        "person far from another"
+      ],
+      "4:20": [
+        "sound of trumpet:a",
+        "to wesg gather:imp",
+        "ourone/god for wesg fight:fu"
+      ],
+      "4:21": [
+        "wepl in work labour:pa",
+        "half of they kjv_spear:pl",
+        "until star:pl appear:pa"
+      ],
+      "4:22": [
+        "each with his/servant",
+        "night they guard to wesg",
+        "on day labour:may"
+      ],
+      "4:23": [
+        "neither i nor my/brother:pl",
+        "none of wepl",
+        "except that each they:a for wash:ev off put:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:1",
+        "1:11",
+        "1:2",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:8",
+        "2:1",
+        "2:11",
+        "2:12",
+        "2:13",
+        "2:14",
+        "2:15",
+        "2:16",
+        "2:17",
+        "2:18",
+        "2:2",
+        "2:20",
+        "2:4",
+        "2:5",
+        "2:6",
+        "2:7",
+        "2:8",
+        "2:9",
+        "4:13",
+        "4:14",
+        "4:18",
+        "4:19",
+        "4:22",
+        "4:23"
+      ],
+      "ipl": [
+        "1:8",
+        "1:9"
+      ],
+      "mypl": [
+        "1:9"
+      ],
+      "iplself": [],
+      "wesg": [
+        "1:6",
+        "1:7",
+        "2:17",
+        "2:18",
+        "2:19",
+        "2:20",
+        "4:1",
+        "4:11",
+        "4:12",
+        "4:15",
+        "4:20",
+        "4:22",
+        "4:4",
+        "4:6",
+        "4:9"
+      ],
+      "wepl": [
+        "4:10",
+        "4:12",
+        "4:15",
+        "4:19",
+        "4:21",
+        "4:23"
+      ],
+      "ourone": [
+        "4:11",
+        "4:15",
+        "4:20",
+        "4:4",
+        "4:9"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Bothtwentieth-year references retained without invented chronology;three days in Jerusalem.",
+      "Thousandcubits of wall andsixthsonofZalaph are exact;Meah remains a tower name,not100towers.",
+      "Tenwarnings andonehand are counted;eachworker,oneofthebrethren andoneoftheapothecaries are distributive personal references.",
+      "Halfwall,halfworkforce andhalf-districts retain proportions without fabricated measurements."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Personal narrator,quoted divine plural-self,communal singular-we and dispersed ordinary plural bodies are contextually distinct. Opposing conspirators can also claim singular-we.",
+      "Source escort,hostileprayer,participant daughters,namesakes,ellipses,andwashingexception remain unharmonized.",
+      "Inherited targets and all old seals unchanged;whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Nehemiah — incomplete Bible working text",
+    "pages": 68,
+    "spreads": 34,
+    "units": 86,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "081bb1b31e2d1e337de0cd4187bec38ab703f21e22a1cf6d61d2f810be1d9c99",
+    "maxBaselineErrorPt": 0.007812500000056843,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 34,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.802,
+    "modules": [
+      "tests.test_kjv_nehemiah_wall_body",
+      "tests.test_kjv_ezra_crown_and_confession",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    67,
+    68
+  ],
+  "status": "incompleteBible;Nehemiah1–4sectioncheckpointverified"
+}

@@ -1,0 +1,2092 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.47",
+    "parentVersion": "0.10-kjv.46",
+    "parentHead": "86237c262d7c369e45b14ee626390c9ff74f43bed8354cb4589e0fb5ed889e9d",
+    "head": "973ae0f56bdd9b67a755f087811f0a56abdeb06fd75a914c3d7b5763c768562a",
+    "newLexicalEntries": 17,
+    "newProperEntries": 12,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 14,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 109,
+    "exactCompilerCases": 118,
+    "newAuthoredVerses": 118,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 693,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 23148,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newSamuelVerses": 118,
+    "samuelVerses": 693,
+    "authoredVerses": 7954,
+    "remainingVerses": 23148,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "1 Samuel 22:2",
+        "source": "And every one that was in distress, and every one that was in debt, and every one that was discontented, gathered themselves unto him; and he became a captain over them: and there were with him about four hundred men.",
+        "expectedDecimalQuantities": [
+          400
+        ],
+        "targetQuantities": [
+          400
+        ]
+      },
+      {
+        "reference": "1 Samuel 22:7",
+        "source": "Then Saul said unto his servants that stood about him, Hear now, ye Benjamites; will the son of Jesse give every one of you fields and vineyards, and make you all captains of thousands, and captains of hundreds;",
+        "expectedDecimalQuantities": [
+          1000,
+          100
+        ],
+        "targetQuantities": [
+          1000,
+          100
+        ]
+      },
+      {
+        "reference": "1 Samuel 22:18",
+        "source": "And the king said to Doeg, Turn thou, and fall upon the priests. And Doeg the Edomite turned, and he fell upon the priests, and slew on that day fourscore and five persons that did wear a linen ephod.",
+        "expectedDecimalQuantities": [
+          85
+        ],
+        "targetQuantities": [
+          85
+        ]
+      },
+      {
+        "reference": "1 Samuel 23:13",
+        "source": "Then David and his men, which were about six hundred, arose and departed out of Keilah, and went whithersoever they could go. And it was told Saul that David was escaped from Keilah; and he forbare to go forth.",
+        "expectedDecimalQuantities": [
+          600
+        ],
+        "targetQuantities": [
+          600
+        ]
+      },
+      {
+        "reference": "1 Samuel 23:18",
+        "source": "And they two made a covenant before the LORD: and David abode in the wood, and Jonathan went to his house.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Samuel 23:23",
+        "source": "See therefore, and take knowledge of all the lurking places where he hideth himself, and come ye again to me with the certainty, and I will go with you: and it shall come to pass, if he be in the land, that I will search him out throughout all the thousands of Judah.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "1 Samuel 24:2",
+        "source": "Then Saul took three thousand chosen men out of all Israel, and went to seek David and his men upon the rocks of the wild goats.",
+        "expectedDecimalQuantities": [
+          3000
+        ],
+        "targetQuantities": [
+          3000
+        ]
+      },
+      {
+        "reference": "1 Samuel 25:2",
+        "source": "And there was a man in Maon, whose possessions were in Carmel; and the man was very great, and he had three thousand sheep, and a thousand goats: and he was shearing his sheep in Carmel.",
+        "expectedDecimalQuantities": [
+          3000,
+          1000
+        ],
+        "targetQuantities": [
+          3000,
+          1000
+        ]
+      },
+      {
+        "reference": "1 Samuel 25:5",
+        "source": "And David sent out ten young men, and David said unto the young men, Get you up to Carmel, and go to Nabal, and greet him in my name:",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "1 Samuel 25:13",
+        "source": "And David said unto his men, Gird ye on every man his sword. And they girded on every man his sword; and David also girded on his sword: and there went up after David about four hundred men; and two hundred abode by the stuff.",
+        "expectedDecimalQuantities": [
+          400,
+          200
+        ],
+        "targetQuantities": [
+          400,
+          200
+        ]
+      },
+      {
+        "reference": "1 Samuel 25:18",
+        "source": "Then Abigail made haste, and took two hundred loaves, and two bottles of wine, and five sheep ready dressed, and five measures of parched corn, and an hundred clusters of raisins, and two hundred cakes of figs, and laid them on asses.",
+        "expectedDecimalQuantities": [
+          200,
+          2,
+          5,
+          5,
+          100,
+          200
+        ],
+        "targetQuantities": [
+          200,
+          2,
+          5,
+          5,
+          100,
+          200
+        ]
+      },
+      {
+        "reference": "1 Samuel 25:38",
+        "source": "And it came to pass about ten days after, that the LORD smote Nabal, that he died.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "1 Samuel 25:42",
+        "source": "And Abigail hasted, and arose and rode upon an ass, with five damsels of hers that went after her; and she went after the messengers of David, and became his wife.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "About400 and about600 remain approximate at their separate scenes.",
+      "85 linen-ephod wearers retain the supplied fourscore-and-five value.",
+      "Thousands/hundreds in patronage and territorial statements remain plural magnitudes.",
+      "3000 pursuers;3000 sheep and1000 goats;10 messengers;about400 attackers and200 baggage guards remain distinct.",
+      "Gift inventory200,2,5,5,100,200 retains unnamed measures;about10 days and5 damsels remain bounded."
+    ],
+    "semanticChecks": {
+      "22:1": [
+        "kjv_cave kjv_adullam_city",
+        "all of his/father house"
+      ],
+      "22:2": [
+        "in debt",
+        "not content",
+        "about four+hundred"
+      ],
+      "22:3": [
+        "my/father and my/mother",
+        "until what:a for i god do:fu i know:pr"
+      ],
+      "22:4": [
+        "all while that in kjv_stronghold"
+      ],
+      "22:5": [
+        "kjv_gad_prophet",
+        "kjv_hareth forest"
+      ],
+      "22:6": [
+        "kjv_gibeah under kjv_tree in kjv_ramah",
+        "his/kjv_spear in his/hand"
+      ],
+      "22:7": [
+        "kjv_benjamite:pl",
+        "captain:pl of thousand:pl and captain:pl of hundred:pl"
+      ],
+      "22:8": [
+        "my/son kjv_covenant:a make:perf",
+        "against i conspire:perf",
+        "to in wait lie:inf"
+      ],
+      "22:9": [
+        "to kjv_nob",
+        "kjv_ahimelech of kjv_ahitub son",
+        "i see:pa"
+      ],
+      "22:10": [
+        "of kjv_lord for he he ask:pa",
+        "food:a",
+        "kjv_goliath"
+      ],
+      "22:11": [
+        "all of his/father house",
+        "all they come:pa"
+      ],
+      "22:12": [
+        "here i be:pr"
+      ],
+      "22:13": [
+        "you:du conspire:perf",
+        "thou and of kjv_jesse son"
+      ],
+      "22:14": [
+        "king son_in_law",
+        "at thy/command"
+      ],
+      "22:15": [
+        "nothing:a thy/servant know:pa",
+        "my/father house",
+        "kjv_impute"
+      ],
+      "22:16": [
+        "all thy/father house"
+      ],
+      "22:17": [
+        "also with kjv_david their/hand",
+        "will:pa not"
+      ],
+      "22:18": [
+        "eight+ten and five",
+        "linen kjv_ephod"
+      ],
+      "22:19": [
+        "woman:pl child:pl and suck:cv one:pl",
+        "ox:pl and ass:pl and sheep"
+      ],
+      "22:20": [
+        "kjv_abiathar",
+        "of kjv_ahitub son son:pl"
+      ],
+      "22:21": [
+        "kjv_saul slay:pp"
+      ],
+      "22:22": [
+        "i know:pa",
+        "death:a i cause:perf"
+      ],
+      "22:23": [
+        "my/life:a seek:pr thy/life:a seek:pr"
+      ],
+      "23:1": [
+        "kjv_keilah",
+        "kjv_threshfloor:pl"
+      ],
+      "23:2": [
+        "ipl go:fu",
+        "kjv_keilah:a save:imp"
+      ],
+      "23:3": [
+        "afraid wepl be:pr",
+        "wepl come:pr"
+      ],
+      "23:4": [
+        "kjv_lord he:a answer:pa",
+        "ipl deliver:fu"
+      ],
+      "23:5": [
+        "their/kjv_livestock:a",
+        "great kjv_slaughter",
+        "inhabit:ag:pl"
+      ],
+      "23:6": [
+        "kjv_ephod"
+      ],
+      "23:7": [
+        "kjv_saul say:pa",
+        "god deliver:perf",
+        "gate:pl and bar:pl"
+      ],
+      "23:8": [
+        "besiege:inf"
+      ],
+      "23:9": [
+        "secretly harm:a kjv_saul plan:pa",
+        "kjv_ephod:a bring:imp"
+      ],
+      "23:10": [
+        "for my/sake city:a destroy:inf"
+      ],
+      "23:11": [
+        "he come:fu down"
+      ],
+      "23:12": [
+        "i and my/man:pl:a",
+        "thou:a they deliver:fu up"
+      ],
+      "23:13": [
+        "about six+hundred",
+        "he restrain:refl:pa"
+      ],
+      "23:14": [
+        "every day",
+        "god deliver:pa not"
+      ],
+      "23:15": [
+        "in forest"
+      ],
+      "23:16": [
+        "in god his/hand:a strong:caus:pa"
+      ],
+      "23:17": [
+        "king thou be:fu",
+        "next to thou i be:fu",
+        "my/father know:pr"
+      ],
+      "23:18": [
+        "they two",
+        "kjv_covenant:a"
+      ],
+      "23:19": [
+        "with wesg",
+        "kjv_hachilah",
+        "kjv_south of kjv_jeshimon"
+      ],
+      "23:20": [
+        "ourone/part"
+      ],
+      "23:21": [
+        "on i kjv_compassion:a"
+      ],
+      "23:22": [
+        "his/go:ev habit",
+        "subtle:adv he deal:pr"
+      ],
+      "23:23": [
+        "with you:pl i go:fu",
+        "kjv_judah thousand:pl",
+        "ipl search:fu"
+      ],
+      "23:24": [
+        "kjv_plain_land"
+      ],
+      "23:25": [
+        "into rock he come:pa down"
+      ],
+      "23:26": [
+        "this of mountain side",
+        "that of mountain side",
+        "to they:a take:inf"
+      ],
+      "23:27": [
+        "kjv_philistine:pl kjv_invade:perf"
+      ],
+      "23:28": [
+        "kjv_selahammahlekoth"
+      ],
+      "23:29": [
+        "kjv_engedi"
+      ],
+      "24:2": [
+        "kjv_three+thousand",
+        "wild kjv_goat:pl"
+      ],
+      "24:3": [
+        "sheepfold:pl",
+        "his/foot:pl:a cover:inf",
+        "kjv_cave side:pl"
+      ],
+      "24:4": [
+        "man:pl to he say:pa",
+        "ipl deliver:fu",
+        "kjv_skirt_garment:a secretly cut:pa off"
+      ],
+      "24:5": [
+        "heart he:a strike:pa"
+      ],
+      "24:6": [
+        "i do:pr:should",
+        "my/hand:a stretch:inf"
+      ],
+      "24:7": [
+        "restrain:pa",
+        "permit:pa not"
+      ],
+      "24:8": [
+        "with his/face to earth",
+        "himself:a bow:pa"
+      ],
+      "24:9": [
+        "of man:pl word:pl:a",
+        "thy/harm:a kjv_david seek:pr"
+      ],
+      "24:10": [
+        "my/eye thou:a spare:pa",
+        "my/hand:a i put:fu forth not"
+      ],
+      "24:11": [
+        "my/father",
+        "kill:pa not",
+        "my/soul:a thou hunt:pr"
+      ],
+      "24:12": [
+        "kjv_lord kjv_avenge:opt",
+        "my/hand be:fu not"
+      ],
+      "24:13": [
+        "of ancient:pl proverb"
+      ],
+      "24:14": [
+        "dead dog",
+        "kjv_flea"
+      ],
+      "24:15": [
+        "my/kjv_case_plea:a plead:opt"
+      ],
+      "24:16": [
+        "my/son kjv_david",
+        "weep:pa"
+      ],
+      "24:17": [
+        "than i more kjv_righteous",
+        "evil:a to thou i reward:perf"
+      ],
+      "24:20": [
+        "well i know:pr",
+        "king thou be:fu"
+      ],
+      "24:21": [
+        "my/seed:a thou cut:fu off not",
+        "my/name:a thou destroy:fu not"
+      ],
+      "24:22": [
+        "home kjv_saul go:pa",
+        "kjv_stronghold"
+      ],
+      "25:1": [
+        "kjv_samuel die:pa",
+        "in his/house at kjv_ramah",
+        "kjv_paran"
+      ],
+      "25:2": [
+        "kjv_three+thousand sheep and thousand kjv_goat:pl",
+        "shear:pprog"
+      ],
+      "25:3": [
+        "rude and evil",
+        "kjv_caleb house"
+      ],
+      "25:5": [
+        "ten young man:pl"
+      ],
+      "25:7": [
+        "i hear:perf",
+        "with wesg",
+        "wesg harm:pa not"
+      ],
+      "25:8": [
+        "wepl come:pr",
+        "thy/son kjv_david"
+      ],
+      "25:10": [
+        "every man from his/master"
+      ],
+      "25:11": [
+        "my/bread and my/water and my/flesh",
+        "i know:pr not"
+      ],
+      "25:13": [
+        "about four+hundred",
+        "kjv_baggage two+hundred"
+      ],
+      "25:14": [
+        "of wepl master",
+        "rail:pa"
+      ],
+      "25:15": [
+        "wepl harm:psv:pa not",
+        "anything:a wepl miss:pa"
+      ],
+      "25:16": [
+        "to wepl wall",
+        "both by night and day"
+      ],
+      "25:17": [
+        "against of wepl master",
+        "kjv_belial son"
+      ],
+      "25:18": [
+        "two+hundred kjv_loaf:pl",
+        "two of wine kjv_bottle:pl",
+        "five sheep prepare:psv",
+        "five kjv_measure_portion:pl",
+        "hundred of kjv_raisin kjv_fruit_cluster:pl",
+        "two+hundred of fig cake:pl"
+      ],
+      "25:19": [
+        "her/husband kjv_nabal she tell:pa not"
+      ],
+      "25:20": [
+        "of hill hidden side"
+      ],
+      "25:21": [
+        "ipl keep:perf",
+        "to ipl he repay:perf"
+      ],
+      "25:22": [
+        "to of kjv_david enemy:pl god do:opt",
+        "piss:pr",
+        "ipl leave:pr"
+      ],
+      "25:24": [
+        "upon i",
+        "thy/kjv_handmaid"
+      ],
+      "25:25": [
+        "kjv_nabal his/name",
+        "folly",
+        "see:pa not"
+      ],
+      "25:26": [
+        "kjv_lord withhold:perf",
+        "thy/own hand",
+        "like kjv_nabal"
+      ],
+      "25:27": [
+        "this blessing:a",
+        "young man:pl"
+      ],
+      "25:28": [
+        "sure house:a",
+        "all thy/day:pl evil find:psv:perf not"
+      ],
+      "25:29": [
+        "of life bundle",
+        "kjv_sling_tool",
+        "he kjv_sling:fu out"
+      ],
+      "25:30": [
+        "do:fp",
+        "ruler thou:a appoint:fp"
+      ],
+      "25:31": [
+        "without reason blood:a",
+        "thy/kjv_handmaid:a remember:imp"
+      ],
+      "25:33": [
+        "my/own hand myself:a"
+      ],
+      "25:34": [
+        "except thou haste:pp:cond",
+        "against wall piss:pr",
+        "leave:psv:pp:cond not"
+      ],
+      "25:35": [
+        "thy/voice:a i heed:perf",
+        "thy/person:a accept:perf"
+      ],
+      "25:36": [
+        "like of king feast",
+        "very drunk",
+        "until morning light"
+      ],
+      "25:37": [
+        "his/heart die:pa",
+        "like stone"
+      ],
+      "25:38": [
+        "about ten day:pl",
+        "kjv_lord strike:pa",
+        "he die:pa"
+      ],
+      "25:39": [
+        "my/kjv_reproach kjv_case_plea",
+        "to to he for wife she:a take:inf"
+      ],
+      "25:40": [
+        "wepl:a kjv_david send:pa"
+      ],
+      "25:41": [
+        "of of my/lord servant:pl foot:pl:a wash:inf"
+      ],
+      "25:42": [
+        "five of she maiden:pl",
+        "his/wife become:pa"
+      ],
+      "25:43": [
+        "kjv_ahinoam_jezreel",
+        "both of they his/wife:pl"
+      ],
+      "25:44": [
+        "kjv_laish_person",
+        "kjv_gallim",
+        "of kjv_david wife:a"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Reported promises, accusations and defenses are not narrator-certified facts.",
+      "Cover-feet euphemism retained with a linked translator-note reference.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeValidation": {
+    "book": "1 Samuel — incomplete Bible working text",
+    "pages": 566,
+    "spreads": 283,
+    "units": 693,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "df35ec7f50e6fe7c708d27c196ff9455d81acc866969fe895554766886144c6c",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "checks": [
+      {
+        "leftPage": 1,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 3,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 5,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 7,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 9,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 11,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 13,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 15,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 17,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 19,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 21,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 23,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 25,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 27,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 29,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 31,
+        "maxBaselineErrorPt": 1.7053025658242404e-13,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 33,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 35,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 37,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 39,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 41,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 43,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 45,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 47,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 49,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 51,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 53,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 55,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 57,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 59,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 61,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 63,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 65,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 67,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 69,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 71,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 73,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 75,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 77,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 79,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 81,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 83,
+        "maxBaselineErrorPt": 0.007812500000227374,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 85,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 87,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 89,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 91,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 93,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 95,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 97,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 99,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 101,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 103,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 105,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 107,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 109,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 111,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 113,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 115,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 117,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 119,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 121,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 123,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 125,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 127,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 129,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 131,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 133,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 135,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 137,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 139,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 141,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 143,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 145,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 147,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 149,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 151,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 153,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 155,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 157,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 159,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 161,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 163,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 165,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 167,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 169,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 171,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 173,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 175,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 177,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 179,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 181,
+        "maxBaselineErrorPt": 0.0039062499997726263,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 183,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 185,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 187,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 189,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 191,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 193,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 195,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 197,
+        "maxBaselineErrorPt": 0.0039062499997726263,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 199,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 201,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 203,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 205,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 207,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 209,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 211,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 213,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 215,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 217,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 219,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 221,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 223,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 225,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 227,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 229,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 231,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 233,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 235,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 237,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 239,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 241,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 243,
+        "maxBaselineErrorPt": 0.01171874999982947,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 245,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 247,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 249,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 251,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 253,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 255,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 257,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 259,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 261,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 263,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 265,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 267,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 269,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 271,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 273,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 275,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 277,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 279,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 281,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 283,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 285,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 287,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 289,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 291,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 293,
+        "maxBaselineErrorPt": 0.0039062499998578915,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 295,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 297,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 299,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 301,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 303,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 305,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 307,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 309,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 311,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 313,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 315,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 317,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 319,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 321,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 323,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 325,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 327,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 329,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 331,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 333,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 335,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 337,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 339,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 341,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 343,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 345,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 347,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 349,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 351,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 353,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 355,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 357,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 359,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 361,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 363,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 365,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 367,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 369,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 371,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 373,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 375,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 377,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 379,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 381,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 383,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 385,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 387,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 389,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 391,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 393,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 395,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 397,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 399,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 401,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 403,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 405,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 407,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 409,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 411,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 413,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 415,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 417,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 419,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 421,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 423,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 425,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 427,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 429,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 431,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 433,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 435,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 437,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 439,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 441,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 443,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 445,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 447,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 449,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 451,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 453,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 455,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 457,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 459,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 461,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 463,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 465,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 467,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 469,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 471,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 473,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 475,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 477,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 479,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 481,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 483,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 485,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 487,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 489,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 491,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 493,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 495,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 497,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 499,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 501,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 503,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 505,
+        "maxBaselineErrorPt": 1.7053025658242404e-13,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 507,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 509,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 511,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 513,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 515,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 517,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 519,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 521,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 523,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 525,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 527,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 529,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 531,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 533,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 535,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 537,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 539,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 541,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 543,
+        "maxBaselineErrorPt": 0.0039062499997726263,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 545,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 547,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 549,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 551,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 553,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 555,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 557,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 559,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 561,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 563,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 565,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      }
+    ],
+    "reusedMeasuredSpreads": 283,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 10.799,
+    "passed": true,
+    "modules": [
+      "tests.test_kjv_samuel_pursuit_abigail",
+      "tests.test_kjv_samuel_covenant_flight",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": "Viewed final pages565/566; aligned four columns, intact Maxima and bottom outside Unta; no visual clipping observed."
+}

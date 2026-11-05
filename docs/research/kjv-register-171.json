@@ -1,0 +1,946 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.171",
+    "parentVersion": "0.10-kjv.170",
+    "parentHead": "ae09b51a202450999d4a49fc8d812461fc9f25c99c0836725731a5ce38bd776b",
+    "head": "cb4ac216eda5e5fb2eaa441837ee9322966409eac84f4123665e09998f832021",
+    "newLexicalEntries": 6,
+    "newProperEntries": 4,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 82,
+    "exactCompilerCases": 82,
+    "newAuthoredVerses": 82,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 278,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9038,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newDanielVerses": 82,
+    "danielVerses": 278,
+    "authoredVerses": 22064,
+    "remainingVerses": 9038,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 32,
+    "quantityChecks": [
+      {
+        "reference": "Daniel 7:1",
+        "source": "In the first year of Belshazzar king of Babylon Daniel had a dream and visions of his head upon his bed: then he wrote the dream, and told the sum of the matters.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 7:2",
+        "source": "Daniel spake and said, I saw in my vision by night, and, behold, the four winds of the heaven strove upon the great sea.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 7:3",
+        "source": "And four great beasts came up from the sea, diverse one from another.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 7:4",
+        "source": "The first was like a lion, and had eagle’s wings: I beheld till the wings thereof were plucked, and it was lifted up from the earth, and made stand upon the feet as a man, and a man’s heart was given to it.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 7:5",
+        "source": "And behold another beast, a second, like to a bear, and it raised up itself on one side, and it had three ribs in the mouth of it between the teeth of it: and they said thus unto it, Arise, devour much flesh.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 7:6",
+        "source": "After this I beheld, and lo another, like a leopard, which had upon the back of it four wings of a fowl; the beast had also four heads; and dominion was given to it.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 7:7",
+        "source": "After this I saw in the night visions, and behold a fourth beast, dreadful and terrible, and strong exceedingly; and it had great iron teeth: it devoured and brake in pieces, and stamped the residue with the feet of it: and it was diverse from all the beasts that were before it; and it had ten horns.",
+        "expectedDecimalQuantities": [
+          4,
+          10
+        ],
+        "targetQuantities": [
+          4,
+          10
+        ]
+      },
+      {
+        "reference": "Daniel 7:8",
+        "source": "I considered the horns, and, behold, there came up among them another little horn, before whom there were three of the first horns plucked up by the roots: and, behold, in this horn were eyes like the eyes of man, and a mouth speaking great things.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 7:10",
+        "source": "A fiery stream issued and came forth from before him: thousand thousands ministered unto him, and ten thousand times ten thousand stood before him: the judgment was set, and the books were opened.",
+        "expectedDecimalQuantities": [
+          1000000,
+          100000000
+        ],
+        "targetQuantities": [
+          1000000,
+          100000000
+        ]
+      },
+      {
+        "reference": "Daniel 7:16",
+        "source": "I came near unto one of them that stood by, and asked him the truth of all this. So he told me, and made me know the interpretation of the things.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 7:17",
+        "source": "These great beasts, which are four, are four kings, which shall arise out of the earth.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 7:19",
+        "source": "Then I would know the truth of the fourth beast, which was diverse from all the others, exceeding dreadful, whose teeth were of iron, and his nails of brass; which devoured, brake in pieces, and stamped the residue with his feet;",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 7:20",
+        "source": "And of the ten horns that were in his head, and of the other which came up, and before whom three fell; even of that horn that had eyes, and a mouth that spake very great things, whose look was more stout than his fellows.",
+        "expectedDecimalQuantities": [
+          10,
+          3
+        ],
+        "targetQuantities": [
+          10,
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 7:23",
+        "source": "Thus he said, The fourth beast shall be the fourth kingdom upon earth, which shall be diverse from all kingdoms, and shall devour the whole earth, and shall tread it down, and break it in pieces.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 7:24",
+        "source": "And the ten horns out of this kingdom are ten kings that shall arise: and another shall rise after them; and he shall be diverse from the first, and he shall subdue three kings.",
+        "expectedDecimalQuantities": [
+          10,
+          10,
+          3
+        ],
+        "targetQuantities": [
+          10,
+          10,
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 8:1",
+        "source": "In the third year of the reign of king Belshazzar a vision appeared unto me, even unto me Daniel, after that which appeared unto me at the first.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 8:3",
+        "source": "Then I lifted up mine eyes, and saw, and, behold, there stood before the river a ram which had two horns: and the two horns were high; but one was higher than the other, and the higher came up last.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 8:6",
+        "source": "And he came to the ram that had two horns, which I had seen standing before the river, and ran unto him in the fury of his power.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Daniel 8:7",
+        "source": "And I saw him come close unto the ram, and he was moved with choler against him, and smote the ram, and brake his two horns: and there was no power in the ram to stand before him, but he cast him down to the ground, and stamped upon him: and there was none that could deliver the ram out of his hand.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Daniel 8:8",
+        "source": "Therefore the he goat waxed very great: and when he was strong, the great horn was broken; and for it came up four notable ones toward the four winds of heaven.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 8:9",
+        "source": "And out of one of them came forth a little horn, which waxed exceeding great, toward the south, and toward the east, and toward the pleasant land.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 8:13",
+        "source": "Then I heard one saint speaking, and another saint said unto that certain saint which spake, How long shall be the vision concerning the daily sacrifice, and the transgression of desolation, to give both the sanctuary and the host to be trodden under foot?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 8:14",
+        "source": "And he said unto me, Unto two thousand and three hundred days; then shall the sanctuary be cleansed.",
+        "expectedDecimalQuantities": [
+          2300
+        ],
+        "targetQuantities": [
+          2300
+        ]
+      },
+      {
+        "reference": "Daniel 8:20",
+        "source": "The ram which thou sawest having two horns are the kings of Media and Persia.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Daniel 8:21",
+        "source": "And the rough goat is the king of Grecia: and the great horn that is between his eyes is the first king.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 8:22",
+        "source": "Now that being broken, whereas four stood up for it, four kingdoms shall stand up out of the nation, but not in his power.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 9:1",
+        "source": "In the first year of Darius the son of Ahasuerus, of the seed of the Medes, which was made king over the realm of the Chaldeans;",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 9:2",
+        "source": "In the first year of his reign I Daniel understood by books the number of the years, whereof the word of the LORD came to Jeremiah the prophet, that he would accomplish seventy years in the desolations of Jerusalem.",
+        "expectedDecimalQuantities": [
+          1,
+          70
+        ],
+        "targetQuantities": [
+          1,
+          70
+        ]
+      },
+      {
+        "reference": "Daniel 9:24",
+        "source": "Seventy weeks are determined upon thy people and upon thy holy city, to finish the transgression, and to make an end of sins, and to make reconciliation for iniquity, and to bring in everlasting righteousness, and to seal up the vision and prophecy, and to anoint the most Holy.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Daniel 9:25",
+        "source": "Know therefore and understand, that from the going forth of the commandment to restore and to build Jerusalem unto the Messiah the Prince shall be seven weeks, and threescore and two weeks: the street shall be built again, and the wall, even in troublous times.",
+        "expectedDecimalQuantities": [
+          7,
+          62
+        ],
+        "targetQuantities": [
+          7,
+          62
+        ]
+      },
+      {
+        "reference": "Daniel 9:26",
+        "source": "And after threescore and two weeks shall Messiah be cut off, but not for himself: and the people of the prince that shall come shall destroy the city and the sanctuary; and the end thereof shall be with a flood, and unto the end of the war desolations are determined.",
+        "expectedDecimalQuantities": [
+          62
+        ],
+        "targetQuantities": [
+          62
+        ]
+      },
+      {
+        "reference": "Daniel 9:27",
+        "source": "And he shall confirm the covenant with many for one week: and in the midst of the week he shall cause the sacrifice and the oblation to cease, and for the overspreading of abominations he shall make it desolate, even until the consummation, and that determined shall be poured upon the desolate.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "7:1": [
+        "one_num:ord year",
+        "kjv_belshazzar",
+        "sum of affair:pl"
+      ],
+      "7:2": [
+        "i in my/vision",
+        "four wind:pl"
+      ],
+      "7:3": [
+        "four great beast:pl",
+        "different each from other"
+      ],
+      "7:4": [
+        "one_num:ord",
+        "kjv_eagle/wing:pl",
+        "man/heart"
+      ],
+      "7:5": [
+        "two:ord like bear_animal",
+        "one_num side",
+        "three kjv_rib:pl"
+      ],
+      "7:6": [
+        "four wing:pl of bird",
+        "four head:pl",
+        "kjv_dominion"
+      ],
+      "7:7": [
+        "four:ord beast",
+        "iron tooth:pl",
+        "ten horn:pl"
+      ],
+      "7:8": [
+        "three of former horn:pl",
+        "by root:pl pluck:psv:pa",
+        "mouth great thing:pl"
+      ],
+      "7:9": [
+        "throne:pl down cast:psv:pa",
+        "kjv_ancient_days",
+        "pure kjv_wool",
+        "his/wheel:pl"
+      ],
+      "7:10": [
+        "thousand+thousand",
+        "ten+thousand+ten+thousand",
+        "book:pl open:psv:pa"
+      ],
+      "7:11": [
+        "i then because voice",
+        "i even until beast slay:psv:pa",
+        "his/body destroy:psv:pa"
+      ],
+      "7:12": [
+        "their/kjv_dominion away take",
+        "season and time",
+        "more long make:psv:pa"
+      ],
+      "7:13": [
+        "person like son of man",
+        "to kjv_ancient_days",
+        "they he:a near before he"
+      ],
+      "7:14": [
+        "all people nation:pl and language:pl",
+        "away pass:fu:neg",
+        "destroy:psv:fu:neg"
+      ],
+      "7:15": [
+        "i kjv_daniel_captive",
+        "middle of my/body",
+        "my/head i:a distress:pa"
+      ],
+      "7:16": [
+        "one_num of they",
+        "interpret:ev of thing:pl"
+      ],
+      "7:17": [
+        "which four be:pr four king:pl",
+        "out of earth"
+      ],
+      "7:18": [
+        "saint:pl of most high",
+        "kingdom forever possess:fu even forever and forever"
+      ],
+      "7:19": [
+        "four:ord beast",
+        "his/nail:pl of kjv_brass"
+      ],
+      "7:20": [
+        "ten horn:pl",
+        "three fall:pa",
+        "look more great"
+      ],
+      "7:21": [
+        "with saint:pl war make:pa",
+        "against they prevail:pa"
+      ],
+      "7:22": [
+        "kjv_ancient_days",
+        "judgment to saint:pl",
+        "kingdom possess:pa"
+      ],
+      "7:23": [
+        "four:ord beast four:ord kingdom",
+        "whole earth devour:fu"
+      ],
+      "7:24": [
+        "ten horn:pl",
+        "ten king:pl",
+        "three king:pl subdue:fu"
+      ],
+      "7:25": [
+        "saint:pl of most high exhaust:fu",
+        "time and time:pl and kjv_divide:ev of time"
+      ],
+      "7:26": [
+        "judgment sit:fu",
+        "his/kjv_dominion away take:fu"
+      ],
+      "7:27": [
+        "people of saint:pl of most high",
+        "all kjv_dominion:pl he:a"
+      ],
+      "7:28": [
+        "my/face in i change:pa",
+        "i affair in my/heart keep:pa"
+      ],
+      "8:1": [
+        "three:ord year",
+        "to i appear:pa even to i",
+        "at beginning"
+      ],
+      "8:2": [
+        "kjv_shushan in palace",
+        "kjv_province of kjv_elam",
+        "river of kjv_ulai"
+      ],
+      "8:3": [
+        "two horn:pl have:pa",
+        "two horn:pl high",
+        "one_num higher",
+        "higher last"
+      ],
+      "8:4": [
+        "towards west and towards kjv_north and towards kjv_south",
+        "no beast:pl",
+        "neither any"
+      ],
+      "8:5": [
+        "kjv_male kjv_goat",
+        "ground touch:pa:neg",
+        "notable horn between his/eye:pl"
+      ],
+      "8:6": [
+        "two horn:pl",
+        "fury of his/power"
+      ],
+      "8:7": [
+        "with anger",
+        "his/two horn:pl break:pa",
+        "power in kjv_ram",
+        "none that"
+      ],
+      "8:8": [
+        "great horn break:psv:pa",
+        "four notable horn:pl",
+        "four wind:pl"
+      ],
+      "8:9": [
+        "out of one_num of they",
+        "pleasing land"
+      ],
+      "8:10": [
+        "army of heaven",
+        "some of army and of star:pl"
+      ],
+      "8:11": [
+        "himself:a",
+        "by he daily kjv_sacrifice",
+        "kjv_sanctuary down cast:psv:pa"
+      ],
+      "8:12": [
+        "army to he",
+        "because transgress:ev",
+        "truth down to ground",
+        "it do:pa and prosper:pa"
+      ],
+      "8:13": [
+        "one_num saint",
+        "another saint",
+        "both kjv_sanctuary and army"
+      ],
+      "8:14": [
+        "two+thousand and three+hundred day:pl",
+        "clean:psv:fu"
+      ],
+      "8:15": [
+        "i even i kjv_daniel_captive",
+        "as appear:ev of man"
+      ],
+      "8:16": [
+        "man/voice between bank:pl of kjv_ulai",
+        "kjv_gabriel"
+      ],
+      "8:17": [
+        "oh son of man",
+        "at time of end"
+      ],
+      "8:18": [
+        "deep sleep on my/face",
+        "i:a touch:pa",
+        "stand:cv set:pa"
+      ],
+      "8:19": [
+        "i thou:a",
+        "last end of indignation",
+        "appoint:psv:adj time"
+      ],
+      "8:20": [
+        "two horn:pl",
+        "king:pl of kjv_media and kjv_persia"
+      ],
+      "8:21": [
+        "rough kjv_goat",
+        "kjv_grecia",
+        "one_num:ord king"
+      ],
+      "8:22": [
+        "four up stand:pa",
+        "four kingdom:pl",
+        "not in his/power"
+      ],
+      "8:23": [
+        "transgress:ag:pl to full",
+        "fierce face",
+        "dark sentence:pl"
+      ],
+      "8:24": [
+        "not by his/own power",
+        "wonder:adv destroy:fu",
+        "mighty and holy people"
+      ],
+      "8:25": [
+        "deceit in his/hand prosper:caus:fu",
+        "by peace many destroy:fu",
+        "prince of prince:pl",
+        "without hand"
+      ],
+      "8:26": [
+        "evening and morning",
+        "many day:pl"
+      ],
+      "8:27": [
+        "some day:pl sick",
+        "king/business",
+        "none it:a understand:pa"
+      ],
+      "9:1": [
+        "one_num:ord year",
+        "kjv_ahasuerus_darius_father",
+        "seed of kjv_mede:pl"
+      ],
+      "9:2": [
+        "one_num:ord year",
+        "kjv_jeremiah_prophet",
+        "five+twelve and ten year:pl"
+      ],
+      "9:3": [
+        "i my/face",
+        "kjv_fast",
+        "kjv_sackcloth and kjv_ashes"
+      ],
+      "9:4": [
+        "my/god",
+        "my/confession",
+        "kjv_covenant and mercy"
+      ],
+      "9:5": [
+        "wesg sin:perf",
+        "kjv_iniquity do:perf",
+        "rebel:perf",
+        "thy/kjv_precept:pl"
+      ],
+      "9:6": [
+        "neither wesg",
+        "ourone/king:pl ourone/prince:pl and ourone/father:pl"
+      ],
+      "9:7": [
+        "to wesg shame of face:pl",
+        "near and far",
+        "their/kjv_trespass"
+      ],
+      "9:8": [
+        "shame of face",
+        "ourone/king:pl",
+        "wesg against thou sin:perf"
+      ],
+      "9:9": [
+        "ourone/god mercy:pl and forgive:ev:pl",
+        "though wesg"
+      ],
+      "9:10": [
+        "neither wesg",
+        "ourone/god",
+        "before wesg"
+      ],
+      "9:11": [
+        "all kjv_israel",
+        "curse:ev upon wesg",
+        "law of kjv_moses",
+        "wesg against he"
+      ],
+      "9:12": [
+        "ourone/judge:ag:pl that wesg:a judge:pa",
+        "great evil bring:cv",
+        "do:psv:perf:neg"
+      ],
+      "9:13": [
+        "wesg ourone/prayer",
+        "make:pa:neg",
+        "ourone/kjv_iniquity:pl",
+        "thy/truth"
+      ],
+      "9:14": [
+        "upon evil watch:perf",
+        "upon wesg bring:perf",
+        "wesg his/voice obey:pa:neg"
+      ],
+      "9:15": [
+        "ourone/god",
+        "egypt",
+        "wesg sin:perf wesg wicked:adv"
+      ],
+      "9:16": [
+        "i thou:a beseech:pr",
+        "ourone/sin:pl",
+        "ourone/father:pl",
+        "about wesg"
+      ],
+      "9:17": [
+        "ourone/god",
+        "his/kjv_supplication:pl",
+        "for sake of lord"
+      ],
+      "9:18": [
+        "my/god thy/ear bend",
+        "ourone/kjv_desolate:ev:pl",
+        "ourone/kjv_righteousness:pl present:pr:neg but"
+      ],
+      "9:19": [
+        "oh lord hear oh lord forgive oh lord listen",
+        "defer:neg",
+        "my/god"
+      ],
+      "9:20": [
+        "my/sin and sin of my/people",
+        "my/kjv_supplication",
+        "my/god"
+      ],
+      "9:21": [
+        "man kjv_gabriel",
+        "swiftly fly:caus:psv:cv",
+        "evening kjv_offering"
+      ],
+      "9:22": [
+        "i now forth come:perf",
+        "skill and understand:ev"
+      ],
+      "9:23": [
+        "beginning of thy/kjv_supplication:pl",
+        "i come:perf",
+        "greatly love:psv:pr"
+      ],
+      "9:24": [
+        "five+twelve and ten week:pl",
+        "kjv_reconcile_ritual:ev",
+        "kjv_prophesy:ev",
+        "most holy anoint"
+      ],
+      "9:25": [
+        "kjv_messiah_title prince",
+        "seven week:pl and five+twelve and two week:pl",
+        "street again",
+        "wall"
+      ],
+      "9:26": [
+        "five+twelve and two week:pl",
+        "but not for himself",
+        "people of prince",
+        "with flood"
+      ],
+      "9:27": [
+        "one_num week",
+        "middle of week",
+        "kjv_sacrifice and kjv_offering cease:caus:fu",
+        "upon kjv_desolate pour:psv:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "7:11",
+        "7:13",
+        "7:15",
+        "7:16",
+        "7:19",
+        "7:2",
+        "7:21",
+        "7:28",
+        "7:4",
+        "7:6",
+        "7:7",
+        "7:8",
+        "7:9",
+        "8:1",
+        "8:13",
+        "8:14",
+        "8:15",
+        "8:16",
+        "8:17",
+        "8:18",
+        "8:19",
+        "8:2",
+        "8:27",
+        "8:3",
+        "8:4",
+        "8:5",
+        "8:6",
+        "8:7",
+        "9:16",
+        "9:2",
+        "9:20",
+        "9:21",
+        "9:22",
+        "9:23",
+        "9:3",
+        "9:4"
+      ],
+      "ipl": [],
+      "wesg": [
+        "9:10",
+        "9:11",
+        "9:12",
+        "9:13",
+        "9:14",
+        "9:15",
+        "9:16",
+        "9:18",
+        "9:5",
+        "9:6",
+        "9:7",
+        "9:8",
+        "9:9"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "9:10",
+        "9:12",
+        "9:13",
+        "9:14",
+        "9:15",
+        "9:16",
+        "9:17",
+        "9:18",
+        "9:6",
+        "9:8",
+        "9:9"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Beast/horn counts,ordinal roles,1000x1000and10000x10000preserved.",
+      "2300days retained without halving or converting to years.",
+      "Seventy years distinguished from seventy weeks;seven and62weeks separate,one week/midweek unconverted.",
+      "Time,times,dividing of time stays uncomputed."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Daniel7–9 adds82 verses;278Danielverses;whole Bible incomplete.",
+      "Personal visionary/interpreter and communal singular-we confession distinguished.",
+      "Ancient and approaching figure,unresolved prophetic agents and source time units retained without doctrinal harmonization.",
+      "Two common titles and four contextual names;no paradigms or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Daniel — incomplete Bible working text",
+    "pages": 216,
+    "spreads": 108,
+    "units": 278,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "79c7f3c3f855b568c821d4159896be83c23f12c4849192a5fd9b03fd3d3d6a66",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 108,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 16.354,
+    "modules": [
+      "tests.test_kjv_daniel_confessing_self",
+      "tests.test_kjv_daniel_exposed_kings",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    215,
+    216
+  ],
+  "status": "incomplete Bible;Daniel1–9 section checkpoint verified"
+}

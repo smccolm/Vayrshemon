@@ -1,0 +1,1543 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.37",
+    "parentVersion": "0.10-kjv.36",
+    "parentHead": "325a1b8b89c08d8585a066626ef22f05fe2860cb57ea2752e1512694f09a14a8",
+    "head": "92f9f52730998e653f87960148f3f5662376db8efaf8afc20645375f68603863",
+    "newLexicalEntries": 43,
+    "newProperEntries": 32,
+    "newCommonEntries": 11,
+    "newSurfaceForms": 39,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 76,
+    "exactCompilerCases": 157,
+    "newAuthoredVerses": 157,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 302,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 24242,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJudgesVerses": 157,
+    "revisedPreviousTargetVerses": 0,
+    "authoredVerses": 6860,
+    "remainingVerses": 24242,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 57,
+    "quantityChecks": [
+      {
+        "reference": "Judges 1:1",
+        "source": "Now after the death of Joshua it came to pass, that the children of Israel asked the LORD, saying, Who shall go up for us against the Canaanites first, to fight against them?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 1:4",
+        "source": "And Judah went up; and the LORD delivered the Canaanites and the Perizzites into their hand: and they slew of them in Bezek ten thousand men.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 1:7",
+        "source": "And Adonibezek said, Threescore and ten kings, having their thumbs and their great toes cut off, gathered their meat under my table: as I have done, so God hath requited me. And they brought him to Jerusalem, and there he died.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 1:20",
+        "source": "And they gave Hebron unto Caleb, as Moses said: and he expelled thence the three sons of Anak.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 2:8",
+        "source": "And Joshua the son of Nun, the servant of the LORD, died, being an hundred and ten years old.",
+        "expectedDecimalQuantities": [
+          110
+        ],
+        "targetQuantities": [
+          110
+        ]
+      },
+      {
+        "reference": "Judges 3:3",
+        "source": "Namely, five lords of the Philistines, and all the Canaanites, and the Sidonians, and the Hivites that dwelt in mount Lebanon, from mount Baalhermon unto the entering in of Hamath.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Judges 3:8",
+        "source": "Therefore the anger of the LORD was hot against Israel, and he sold them into the hand of Chushanrishathaim king of Mesopotamia: and the children of Israel served Chushanrishathaim eight years.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "Judges 3:11",
+        "source": "And the land had rest forty years. And Othniel the son of Kenaz died.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Judges 3:14",
+        "source": "So the children of Israel served Eglon the king of Moab eighteen years.",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "Judges 3:16",
+        "source": "But Ehud made him a dagger which had two edges, of a cubit length; and he did gird it under his raiment upon his right thigh.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 3:29",
+        "source": "And they slew of Moab at that time about ten thousand men, all lusty, and all men of valour; and there escaped not a man.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 3:30",
+        "source": "So Moab was subdued that day under the hand of Israel. And the land had rest fourscore years.",
+        "expectedDecimalQuantities": [
+          80
+        ],
+        "targetQuantities": [
+          80
+        ]
+      },
+      {
+        "reference": "Judges 3:31",
+        "source": "And after him was Shamgar the son of Anath, which slew of the Philistines six hundred men with an ox goad: and he also delivered Israel.",
+        "expectedDecimalQuantities": [
+          600
+        ],
+        "targetQuantities": [
+          600
+        ]
+      },
+      {
+        "reference": "Judges 4:3",
+        "source": "And the children of Israel cried unto the LORD: for he had nine hundred chariots of iron; and twenty years he mightily oppressed the children of Israel.",
+        "expectedDecimalQuantities": [
+          900,
+          20
+        ],
+        "targetQuantities": [
+          900,
+          20
+        ]
+      },
+      {
+        "reference": "Judges 4:6",
+        "source": "And she sent and called Barak the son of Abinoam out of Kedeshnaphtali, and said unto him, Hath not the LORD God of Israel commanded, saying, Go and draw toward mount Tabor, and take with thee ten thousand men of the children of Naphtali and of the children of Zebulun?",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 4:10",
+        "source": "And Barak called Zebulun and Naphtali to Kedesh; and he went up with ten thousand men at his feet: and Deborah went up with him.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 4:13",
+        "source": "And Sisera gathered together all his chariots, even nine hundred chariots of iron, and all the people that were with him, from Harosheth of the Gentiles unto the river of Kishon.",
+        "expectedDecimalQuantities": [
+          900
+        ],
+        "targetQuantities": [
+          900
+        ]
+      },
+      {
+        "reference": "Judges 4:14",
+        "source": "And Deborah said unto Barak, Up; for this is the day in which the LORD hath delivered Sisera into thine hand: is not the LORD gone out before thee? So Barak went down from mount Tabor, and ten thousand men after him.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 5:8",
+        "source": "They chose new gods; then was war in the gates: was there a shield or spear seen among forty thousand in Israel?",
+        "expectedDecimalQuantities": [
+          40000
+        ],
+        "targetQuantities": [
+          40000
+        ]
+      },
+      {
+        "reference": "Judges 5:30",
+        "source": "Have they not sped? have they not divided the prey; to every man a damsel or two; to Sisera a prey of divers colours, a prey of divers colours of needlework, of divers colours of needlework on both sides, meet for the necks of them that take the spoil?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 5:31",
+        "source": "So let all thine enemies perish, O LORD: but let them that love him be as the sun when he goeth forth in his might. And the land had rest forty years.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Judges 6:1",
+        "source": "And the children of Israel did evil in the sight of the LORD: and the LORD delivered them into the hand of Midian seven years.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Judges 6:16",
+        "source": "And the LORD said unto him, Surely I will be with thee, and thou shalt smite the Midianites as one man.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 6:25",
+        "source": "And it came to pass the same night, that the LORD said unto him, Take thy father’s young bullock, even the second bullock of seven years old, and throw down the altar of Baal that thy father hath, and cut down the grove that is by it:",
+        "expectedDecimalQuantities": [
+          2,
+          7
+        ],
+        "targetQuantities": [
+          2,
+          7
+        ]
+      },
+      {
+        "reference": "Judges 6:26",
+        "source": "And build an altar unto the LORD thy God upon the top of this rock, in the ordered place, and take the second bullock, and offer a burnt sacrifice with the wood of the grove which thou shalt cut down.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 6:27",
+        "source": "Then Gideon took ten men of his servants, and did as the LORD had said unto him: and so it was, because he feared his father’s household, and the men of the city, that he could not do it by day, that he did it by night.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Judges 6:28",
+        "source": "And when the men of the city arose early in the morning, behold, the altar of Baal was cast down, and the grove was cut down that was by it, and the second bullock was offered upon the altar that was built.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 6:31",
+        "source": "And Joash said unto all that stood against him, Will ye plead for Baal? will ye save him? he that will plead for him, let him be put to death whilst it is yet morning: if he be a god, let him plead for himself, because one hath cast down his altar.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 7:3",
+        "source": "Now therefore go to, proclaim in the ears of the people, saying, Whosoever is fearful and afraid, let him return and depart early from mount Gilead. And there returned of the people twenty and two thousand; and there remained ten thousand.",
+        "expectedDecimalQuantities": [
+          22000,
+          10000
+        ],
+        "targetQuantities": [
+          22000,
+          10000
+        ]
+      },
+      {
+        "reference": "Judges 7:5",
+        "source": "So he brought down the people unto the water: and the LORD said unto Gideon, Every one that lappeth of the water with his tongue, as a dog lappeth, him shalt thou set by himself; likewise every one that boweth down upon his knees to drink.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 7:6",
+        "source": "And the number of them that lapped, putting their hand to their mouth, were three hundred men: but all the rest of the people bowed down upon their knees to drink water.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 7:7",
+        "source": "And the LORD said unto Gideon, By the three hundred men that lapped will I save you, and deliver the Midianites into thine hand: and let all the other people go every man unto his place.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 7:8",
+        "source": "So the people took victuals in their hand, and their trumpets: and he sent all the rest of Israel every man unto his tent, and retained those three hundred men: and the host of Midian was beneath him in the valley.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 7:16",
+        "source": "And he divided the three hundred men into three companies, and he put a trumpet in every man’s hand, with empty pitchers, and lamps within the pitchers.",
+        "expectedDecimalQuantities": [
+          300,
+          3
+        ],
+        "targetQuantities": [
+          300,
+          3
+        ]
+      },
+      {
+        "reference": "Judges 7:19",
+        "source": "So Gideon, and the hundred men that were with him, came unto the outside of the camp in the beginning of the middle watch; and they had but newly set the watch: and they blew the trumpets, and brake the pitchers that were in their hands.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Judges 7:20",
+        "source": "And the three companies blew the trumpets, and brake the pitchers, and held the lamps in their left hands, and the trumpets in their right hands to blow withal: and they cried, The sword of the LORD, and of Gideon.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 7:22",
+        "source": "And the three hundred blew the trumpets, and the LORD set every man’s sword against his fellow, even throughout all the host: and the host fled to Bethshittah in Zererath, and to the border of Abelmeholah, unto Tabbath.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 7:25",
+        "source": "And they took two princes of the Midianites, Oreb and Zeeb; and they slew Oreb upon the rock Oreb, and Zeeb they slew at the winepress of Zeeb, and pursued Midian, and brought the heads of Oreb and Zeeb to Gideon on the other side Jordan.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 8:4",
+        "source": "And Gideon came to Jordan, and passed over, he, and the three hundred men that were with him, faint, yet pursuing them.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Judges 8:10",
+        "source": "Now Zebah and Zalmunna were in Karkor, and their hosts with them, about fifteen thousand men, all that were left of all the hosts of the children of the east: for there fell an hundred and twenty thousand men that drew sword.",
+        "expectedDecimalQuantities": [
+          15000,
+          120000
+        ],
+        "targetQuantities": [
+          15000,
+          120000
+        ]
+      },
+      {
+        "reference": "Judges 8:12",
+        "source": "And when Zebah and Zalmunna fled, he pursued after them, and took the two kings of Midian, Zebah and Zalmunna, and discomfited all the host.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 8:14",
+        "source": "And caught a young man of the men of Succoth, and enquired of him: and he described unto him the princes of Succoth, and the elders thereof, even threescore and seventeen men.",
+        "expectedDecimalQuantities": [
+          77
+        ],
+        "targetQuantities": [
+          77
+        ]
+      },
+      {
+        "reference": "Judges 8:18",
+        "source": "Then said he unto Zebah and Zalmunna, What manner of men were they whom ye slew at Tabor? And they answered, As thou art, so were they; each one resembled the children of a king.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Judges 8:26",
+        "source": "And the weight of the golden earrings that he requested was a thousand and seven hundred shekels of gold; beside ornaments, and collars, and purple raiment that was on the kings of Midian, and beside the chains that were about their camels’ necks.",
+        "expectedDecimalQuantities": [
+          1700
+        ],
+        "targetQuantities": [
+          1700
+        ]
+      },
+      {
+        "reference": "Judges 8:28",
+        "source": "Thus was Midian subdued before the children of Israel, so that they lifted up their heads no more. And the country was in quietness forty years in the days of Gideon.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Judges 8:30",
+        "source": "And Gideon had threescore and ten sons of his body begotten: for he had many wives.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 9:2",
+        "source": "Speak, I pray you, in the ears of all the men of Shechem, Whether is better for you, either that all the sons of Jerubbaal, which are threescore and ten persons, reign over you, or that one reign over you? remember also that I am your bone and your flesh.",
+        "expectedDecimalQuantities": [
+          70,
+          1
+        ],
+        "targetQuantities": [
+          70,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 9:4",
+        "source": "And they gave him threescore and ten pieces of silver out of the house of Baalberith, wherewith Abimelech hired vain and light persons, which followed him.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 9:5",
+        "source": "And he went unto his father’s house at Ophrah, and slew his brethren the sons of Jerubbaal, being threescore and ten persons, upon one stone: notwithstanding yet Jotham the youngest son of Jerubbaal was left; for he hid himself.",
+        "expectedDecimalQuantities": [
+          70,
+          1
+        ],
+        "targetQuantities": [
+          70,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 9:18",
+        "source": "And ye are risen up against my father’s house this day, and have slain his sons, threescore and ten persons, upon one stone, and have made Abimelech, the son of his maidservant, king over the men of Shechem, because he is your brother;)",
+        "expectedDecimalQuantities": [
+          70,
+          1
+        ],
+        "targetQuantities": [
+          70,
+          1
+        ]
+      },
+      {
+        "reference": "Judges 9:22",
+        "source": "When Abimelech had reigned three years over Israel,",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 9:24",
+        "source": "That the cruelty done to the threescore and ten sons of Jerubbaal might come, and their blood be laid upon Abimelech their brother, which slew them; and upon the men of Shechem, which aided him in the killing of his brethren.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Judges 9:34",
+        "source": "And Abimelech rose up, and all the people that were with him, by night, and they laid wait against Shechem in four companies.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Judges 9:43",
+        "source": "And he took the people, and divided them into three companies, and laid wait in the field, and looked, and, behold, the people were come forth out of the city; and he rose up against them, and smote them.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Judges 9:44",
+        "source": "And Abimelech, and the company that was with him, rushed forward, and stood in the entering of the gate of the city: and the two other companies ran upon all the people that were in the fields, and slew them.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Judges 9:49",
+        "source": "And all the people likewise cut down every man his bough, and followed Abimelech, and put them to the hold, and set the hold on fire upon them; so that all the men of the tower of Shechem died also, about a thousand men and women.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Judges 9:56",
+        "source": "Thus God rendered the wickedness of Abimelech, which he did unto his father, in slaying his seventy brethren:",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "About15000 and about1000 retain approximation;120000 fallen is a distinct stated number.",
+      "Seventy sons and seventy slain coexist with Jotham survivor; no silent69 correction.",
+      "Second bullock even construction does not assert two distinct animals.",
+      "Four companies in9:34 and three in9:43 remain separate events.",
+      "1700gold shekels excludes other listed ornaments."
+    ],
+    "semanticChecks": {
+      "6:8": [
+        "prophet:a",
+        "ipl bring:pa"
+      ],
+      "6:10": [
+        "kjv_lord your/god ipl be:pr",
+        "mypl/voice:a you:pl obey:perf not"
+      ],
+      "6:13": [
+        "with wesg",
+        "ourone/father:pl",
+        "wesg:a forsake:perf"
+      ],
+      "6:14": [
+        "kjv_lord upon he look:pa",
+        "ipl send:perf not?"
+      ],
+      "6:15": [
+        "i save:fu",
+        "least in my/father house"
+      ],
+      "6:16": [
+        "ipl be:fu",
+        "as one_num man"
+      ],
+      "6:18": [
+        "i come:pr",
+        "ipl wait:fu"
+      ],
+      "6:19": [
+        "kjv_broth:a in kjv_pot",
+        "offer:pa"
+      ],
+      "6:22": [
+        "i see:perf:excl"
+      ],
+      "6:23": [
+        "thou die:fu not"
+      ],
+      "6:25": [
+        "even kjv_second kjv_bullock of seven"
+      ],
+      "6:27": [
+        "ten man:pl",
+        "by day it:a do:inf be:pa:can not",
+        "by night"
+      ],
+      "6:29": [
+        "say:rec:pa",
+        "search:pa and ask:pa"
+      ],
+      "6:31": [
+        "if god he be:pr",
+        "for himself he plead:opt"
+      ],
+      "6:34": [
+        "spirit upon kjv_gideon come:pa"
+      ],
+      "6:37": [
+        "dew on kjv_fleece only",
+        "dry upon all earth besides"
+      ],
+      "6:39": [
+        "dry only upon kjv_fleece",
+        "upon all ground dew"
+      ],
+      "6:40": [
+        "dry upon kjv_fleece only",
+        "dew on all ground"
+      ],
+      "7:2": [
+        "for ipl",
+        "against ipl boast:pr",
+        "mypl/own hand ipl:a save:perf"
+      ],
+      "7:3": [
+        "mountain kjv_gilead",
+        "twenty+thousand and two+thousand",
+        "ten+thousand remain"
+      ],
+      "7:4": [
+        "ipl test:fu",
+        "same with thou go:fu",
+        "same go:fu not"
+      ],
+      "7:5": [
+        "with his/tongue kjv_lap_drink:pr",
+        "as dog kjv_lap_drink:pr",
+        "upon his/knee:pl"
+      ],
+      "7:6": [
+        "their/hand:a to their/mouth",
+        "all of people remainder"
+      ],
+      "7:7": [
+        "you:pl:a ipl save:fu",
+        "into thy/hand"
+      ],
+      "7:9": [
+        "ipl deliver:perf"
+      ],
+      "7:13": [
+        "dream:a i dream:pa",
+        "kjv_barley bread cake"
+      ],
+      "7:14": [
+        "nothing else except",
+        "god deliver:perf"
+      ],
+      "7:16": [
+        "kjv_three+hundred",
+        "into kjv_three company:pl",
+        "lamp:pl within kjv_pitcher:pl"
+      ],
+      "7:17": [
+        "as i do:pr so you:pl do:fu"
+      ],
+      "7:19": [
+        "hundred man:pl",
+        "middle kjv_watch_period",
+        "watch:ev:a but newly"
+      ],
+      "7:20": [
+        "left hand:pl",
+        "kjv_right_side hand:pl"
+      ],
+      "7:22": [
+        "kjv_lord of every man sword:a against his/fellow"
+      ],
+      "7:25": [
+        "two prince:pl",
+        "on of kjv_jordan other side"
+      ],
+      "8:1": [
+        "wesg"
+      ],
+      "8:3": [
+        "diminish:psv:pa"
+      ],
+      "8:7": [
+        "kjv_rend:fu",
+        "kjv_brier:pl"
+      ],
+      "8:10": [
+        "fifteen+thousand",
+        "hundred+thousand and twenty+thousand"
+      ],
+      "8:12": [
+        "of kjv_midian two king:pl"
+      ],
+      "8:14": [
+        "seven+ten and seven"
+      ],
+      "8:16": [
+        "teach:pa"
+      ],
+      "8:17": [
+        "slay:pa"
+      ],
+      "8:19": [
+        "my/mother son:pl",
+        "i you:pl:a slay:cond not"
+      ],
+      "8:21": [
+        "we:du"
+      ],
+      "8:22": [
+        "over wesg"
+      ],
+      "8:23": [
+        "i rule:fu not",
+        "kjv_lord over you:pl rule:fu"
+      ],
+      "8:25": [
+        "wepl"
+      ],
+      "8:26": [
+        "thousand and seven+hundred",
+        "besides"
+      ],
+      "8:27": [
+        "kjv_ephod",
+        "snare"
+      ],
+      "8:30": [
+        "seven+ten son:pl"
+      ],
+      "8:31": [
+        "kjv_concubine",
+        "kjv_abimelech_gideon"
+      ],
+      "8:35": [
+        "kjv_kindness:a",
+        "goodness"
+      ],
+      "9:2": [
+        "seven+ten person:pl",
+        "one_num",
+        "your/bone and your/flesh i be:pr"
+      ],
+      "9:3": [
+        "ourone/brother"
+      ],
+      "9:4": [
+        "vain and reckless"
+      ],
+      "9:5": [
+        "seven+ten person:pl",
+        "one_num stone",
+        "kjv_jotham"
+      ],
+      "9:8": [
+        "over wesg thou rule:imp"
+      ],
+      "9:9": [
+        "my/fat:ev:a i",
+        "god and man:a"
+      ],
+      "9:13": [
+        "my/wine:a i",
+        "god and man:a cheer:pr"
+      ],
+      "9:15": [
+        "if in truth",
+        "my/shadow",
+        "if not"
+      ],
+      "9:18": [
+        "seven+ten person:pl",
+        "female servant"
+      ],
+      "9:20": [
+        "devour:opt:excl"
+      ],
+      "9:23": [
+        "god evil spirit:a",
+        "betray:pa"
+      ],
+      "9:25": [
+        "in wait lie:ag:pl"
+      ],
+      "9:28": [
+        "he:a wesg serve:pr:should?"
+      ],
+      "9:29": [
+        "my/hand",
+        "i remove:cond"
+      ],
+      "9:34": [
+        "four company:pl"
+      ],
+      "9:38": [
+        "thou say:pa",
+        "wesg serve:pr:should?"
+      ],
+      "9:40": [
+        "wound:psv:pa"
+      ],
+      "9:43": [
+        "kjv_three company:pl"
+      ],
+      "9:44": [
+        "two other company:pl"
+      ],
+      "9:49": [
+        "about thousand man:pl and woman:pl"
+      ],
+      "9:52": [
+        "near to of kjv_tower door"
+      ],
+      "9:53": [
+        "kjv_millstone piece:a",
+        "kjv_skull"
+      ],
+      "9:54": [
+        "kjv_armourbearer",
+        "i:a slay:imp",
+        "woman he:a slay:pa"
+      ],
+      "9:56": [
+        "god",
+        "seven+ten brother:pl"
+      ],
+      "9:57": [
+        "upon their/head:pl god repay:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Compilation/layout do not prove semantic equivalence.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "layoutValidation": {
+    "book": "Judges — incomplete Bible working text",
+    "pages": 228,
+    "spreads": 114,
+    "units": 302,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "2a3b593a15c5725012479689d02df11c618c439c78be14be2dedefea7da44f90",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "checks": [
+      {
+        "leftPage": 1,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 3,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 5,
+        "maxBaselineErrorPt": 0.01171874999982947,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 7,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 9,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 11,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 13,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 15,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 17,
+        "maxBaselineErrorPt": 0.01171874999982947,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 19,
+        "maxBaselineErrorPt": 0.01171874999982947,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 21,
+        "maxBaselineErrorPt": 1.7053025658242404e-13,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 23,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 25,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 27,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 29,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 31,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 33,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 35,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 37,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 39,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 41,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 43,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 45,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 47,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 49,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 51,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 53,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 55,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 57,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 59,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 61,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 63,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 65,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 67,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 69,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 71,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 73,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 75,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 77,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 79,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 81,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 83,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 85,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 87,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 89,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 91,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 93,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 95,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 97,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 99,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 101,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 103,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 105,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 107,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 109,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 111,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 113,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 115,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 117,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 119,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 121,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 123,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 125,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 127,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 129,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 131,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 133,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 135,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 137,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 139,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 141,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 143,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 145,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 147,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 149,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 151,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 153,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 155,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 157,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 159,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 161,
+        "maxBaselineErrorPt": 0.0039062499998578915,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 163,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 165,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 167,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 169,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 171,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 173,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 175,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 177,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 179,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 181,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 183,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 185,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 187,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 189,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 191,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 193,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 195,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 197,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 199,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 201,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 203,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 205,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 207,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 209,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 211,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 213,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 215,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 217,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 219,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 221,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 223,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 225,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 227,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      }
+    ],
+    "reusedMeasuredSpreads": 114,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "status": "Incomplete Bible; Judges1–9 section saved and reopened",
+  "tests": {
+    "passed": 4,
+    "seconds": 12.601,
+    "modules": [
+      "tests.test_kjv_judges_gideon",
+      "tests.test_kjv_judges_opening",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "viewedProofs": [
+    ".local/kjv37/composed-judges/Proofs/page-227.png",
+    ".local/kjv37/composed-judges/Proofs/page-228.png"
+  ],
+  "limitations": [
+    "Translator self-review, not independent literary certification.",
+    "Whole Bible incomplete; latest combined edition is v35."
+  ]
+}

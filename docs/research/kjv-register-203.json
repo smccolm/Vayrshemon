@@ -1,0 +1,740 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.203",
+    "parentVersion": "0.10-kjv.202",
+    "parentHead": "4aae2ba266365f1b2f1ab3752b5b0f6571f515143f49e60ca828ad4d97c10236",
+    "head": "10c87fe8e0f0f001ccfae2d3d4409de02436f5842f3ec3830208d4709e802dda",
+    "newLexicalEntries": 9,
+    "newProperEntries": 6,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 88,
+    "exactCompilerCases": 88,
+    "newAuthoredVerses": 88,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 302,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 5906,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newLukeVerses": 88,
+    "lukeVerses": 302,
+    "authoredVerses": 25196,
+    "remainingVerses": 5906,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 8,
+    "quantityChecks": [
+      {
+        "reference": "Luke 5:2",
+        "source": "And saw two ships standing by the lake: but the fishermen were gone out of them, and were washing their nets.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 5:3",
+        "source": "And he entered into one of the ships, which was Simon’s, and prayed him that he would thrust out a little from the land. And he sat down, and taught the people out of the ship.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 5:7",
+        "source": "And they beckoned unto their partners, which were in the other ship, that they should come and help them. And they came, and filled both the ships, so that they began to sink.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 6:1",
+        "source": "And it came to pass on the second sabbath after the first, that he went through the corn fields; and his disciples plucked the ears of corn, and did eat, rubbing them in their hands.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 6:9",
+        "source": "Then said Jesus unto them, I will ask you one thing; Is it lawful on the sabbath days to do good, or to do evil? to save life, or to destroy it?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 6:13",
+        "source": "And when it was day, he called unto him his disciples: and of them he chose twelve, whom also he named apostles;",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 6:29",
+        "source": "And unto him that smiteth thee on the one cheek offer also the other; and him that taketh away thy cloak forbid not to take thy coat also.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 6:42",
+        "source": "Either how canst thou say to thy brother, Brother, let me pull out the mote that is in thine eye, when thou thyself beholdest not the beam that is in thine own eye? Thou hypocrite, cast out first the beam out of thine own eye, and then shalt thou see clearly to pull out the mote that is in thy brother’s eye.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "5:1": [
+        "people on he press",
+        "word of god",
+        "kjv_lake of kjv_gennesaret"
+      ],
+      "5:2": [
+        "two ship:pl",
+        "fish:ag:pl",
+        "their/kjv_net:pl wash"
+      ],
+      "5:3": [
+        "one_num of ship:pl",
+        "kjv_simon_peter",
+        "little from land",
+        "down sit",
+        "from ship"
+      ],
+      "5:4": [
+        "speak:ev finish",
+        "into deep",
+        "your/kjv_net:pl lower"
+      ],
+      "5:5": [
+        "wesg all night",
+        "nothing take",
+        "thy/word",
+        "i kjv_net lower"
+      ],
+      "5:6": [
+        "kjv_multitude of kjv_fish:pl",
+        "their/kjv_net break"
+      ],
+      "5:7": [
+        "their/kjv_work_partner:pl",
+        "other ship",
+        "two ship:pl fill",
+        "they:du sink"
+      ],
+      "5:8": [
+        "kjv_simon_peter kjv_peter_disciple",
+        "knee:pl",
+        "from i depart",
+        "i sinful man",
+        "lord:excl"
+      ],
+      "5:9": [
+        "all that with he",
+        "catch:ev of kjv_fish:pl"
+      ],
+      "5:10": [
+        "kjv_james_zebedee and kjv_john_zebedee",
+        "son:pl of kjv_zebedee",
+        "kjv_work_partner:pl",
+        "thou man:pl catch"
+      ],
+      "5:11": [
+        "their/ship:pl to land",
+        "all forsake",
+        "follow"
+      ],
+      "5:12": [
+        "full of kjv_leprosy",
+        "on his/face",
+        "if thou will",
+        "i:a clean make:can"
+      ],
+      "5:13": [
+        "his/hand",
+        "touch",
+        "ipl will:pr",
+        "immediately kjv_leprosy"
+      ],
+      "5:14": [
+        "no man tell",
+        "thyself to priest",
+        "kjv_moses command",
+        "testimony"
+      ],
+      "5:15": [
+        "fame",
+        "great kjv_multitude:pl",
+        "hear:inf",
+        "their/infirmity:pl"
+      ],
+      "5:16": [
+        "himself into kjv_wilderness withdraw",
+        "pray"
+      ],
+      "5:17": [
+        "teach:ag:pl of law",
+        "every town",
+        "kjv_galilee and kjv_judaea and kjv_jerusalem",
+        "power of lord to they:a heal"
+      ],
+      "5:18": [
+        "man:pl on bed",
+        "kjv_palsy",
+        "before he lay"
+      ],
+      "5:19": [
+        "kjv_multitude",
+        "house roof",
+        "through kjv_roof_tiling",
+        "his/kjv_couch_job",
+        "before kjv_jesus_matthew"
+      ],
+      "5:20": [
+        "their/faith",
+        "thy/sin:pl to thou forgive"
+      ],
+      "5:21": [
+        "kjv_scribe:pl and kjv_pharisee:pl",
+        "kjv_blaspheme:ev:pl",
+        "god alone"
+      ],
+      "5:22": [
+        "their/thought:pl",
+        "your/heart:pl think"
+      ],
+      "5:23": [
+        "more easy",
+        "forgive:psv:opt",
+        "up rise:imp and walk:imp"
+      ],
+      "5:24": [
+        "son of man on earth power",
+        "sin:pl forgive",
+        "( to sick person of kjv_palsy",
+        "ipl to thou say",
+        "thy/kjv_couch_job"
+      ],
+      "5:25": [
+        "immediately",
+        "before they",
+        "on which he lie",
+        "his/own house",
+        "god glorify"
+      ],
+      "5:26": [
+        "all amaze",
+        "with fear fill",
+        "wesg strange thing:pl today"
+      ],
+      "5:27": [
+        "kjv_levi_luke",
+        "receive:ev of kjv_custom_duty",
+        "ipl:a follow"
+      ],
+      "5:28": [
+        "all leave",
+        "up rise",
+        "follow"
+      ],
+      "5:29": [
+        "kjv_levi_luke",
+        "his/own house",
+        "kjv_publican:pl",
+        "other person:pl"
+      ],
+      "5:30": [
+        "their/kjv_scribe:pl",
+        "his/disciple:pl",
+        "kjv_publican:pl and sin:ag:pl",
+        "eat:pr and drink"
+      ],
+      "5:31": [
+        "healthy",
+        "physician need:neg",
+        "sick"
+      ],
+      "5:32": [
+        "ipl",
+        "kjv_righteous person:pl",
+        "sin:ag:pl to repent:ev"
+      ],
+      "5:33": [
+        "kjv_john_baptist",
+        "often kjv_fast",
+        "prayer:pl",
+        "kjv_pharisee:pl",
+        "thine eat"
+      ],
+      "5:34": [
+        "child:pl of bride chamber",
+        "kjv_fast",
+        "while kjv_bridegroom with"
+      ],
+      "5:35": [
+        "kjv_bridegroom from they away",
+        "then in those day:pl"
+      ],
+      "5:36": [
+        "piece of new garment on old",
+        "new kjv_rend:ev",
+        "with old agree:neg"
+      ],
+      "5:37": [
+        "new wine into old kjv_bottle:pl",
+        "burst",
+        "spill:psv",
+        "perish"
+      ],
+      "5:38": [
+        "new wine into new kjv_bottle:pl",
+        "they:du preserve"
+      ],
+      "5:39": [
+        "old wine drink:pp",
+        "immediately new desire",
+        "old better"
+      ],
+      "6:1": [
+        "two:ord kjv_sabbath after first",
+        "corn field:pl",
+        "kjv_grain_ear:pl",
+        "their/hand:pl rub"
+      ],
+      "6:2": [
+        "lawful be:neg",
+        "kjv_sabbath day:pl"
+      ],
+      "6:3": [
+        "kjv_david",
+        "himself hungry",
+        "they who with"
+      ],
+      "6:4": [
+        "house of god",
+        "kjv_shewbread",
+        "also to they",
+        "priest:pl alone"
+      ],
+      "6:5": [
+        "son of man also lord of kjv_sabbath"
+      ],
+      "6:6": [
+        "another kjv_sabbath",
+        "kjv_right_side hand",
+        "wither"
+      ],
+      "6:7": [
+        "watch",
+        "kjv_sabbath day heal",
+        "against he accuse"
+      ],
+      "6:8": [
+        "their/thought:pl know",
+        "in middle forth stand",
+        "rise:pa and forth stand"
+      ],
+      "6:9": [
+        "ipl one_num thing",
+        "good do:inf or evil do:inf",
+        "life save:inf or it destroy"
+      ],
+      "6:10": [
+        "on they all",
+        "thy/hand forth stretch",
+        "healthy as other restore"
+      ],
+      "6:11": [
+        "madness",
+        "with each other",
+        "what to kjv_jesus_matthew do"
+      ],
+      "6:12": [
+        "mountain to pray",
+        "all night",
+        "prayer to god"
+      ],
+      "6:13": [
+        "when day",
+        "twelve choose",
+        "kjv_apostle:pl name"
+      ],
+      "6:14": [
+        "kjv_simon_peter",
+        "kjv_peter_disciple",
+        "kjv_andrew_disciple his/brother",
+        "kjv_james_zebedee",
+        "kjv_john_zebedee",
+        "kjv_philip_apostle",
+        "kjv_bartholomew"
+      ],
+      "6:15": [
+        "kjv_matthew_disciple",
+        "kjv_thomas_apostle",
+        "kjv_james_alphaeus son of kjv_alphaeus",
+        "kjv_simon_zelotes_luke",
+        "kjv_zelotes_luke"
+      ],
+      "6:16": [
+        "kjv_judas_james_brother brother of kjv_james_judas_brother",
+        "kjv_judas_iscariot kjv_iscariot_luke",
+        "traitor"
+      ],
+      "6:17": [
+        "down come",
+        "level place",
+        "all kjv_judaea and kjv_jerusalem",
+        "kjv_tyre and kjv_sidon",
+        "hear:inf",
+        "heal:psv"
+      ],
+      "6:18": [
+        "unclean spirit:pl",
+        "distress:psv",
+        "heal:psv"
+      ],
+      "6:19": [
+        "whole kjv_multitude",
+        "touch",
+        "kjv_healing_virtue",
+        "all heal"
+      ],
+      "6:20": [
+        "his/eye:pl",
+        "his/disciple:pl",
+        "you poor person:pl",
+        "yours kingdom of god"
+      ],
+      "6:21": [
+        "now hunger",
+        "fill:psv:fu",
+        "now weep",
+        "laugh:fu"
+      ],
+      "6:22": [
+        "hate",
+        "separate",
+        "kjv_reproach",
+        "your/name as evil",
+        "sake of son of man"
+      ],
+      "6:23": [
+        "that day rejoice",
+        "for joy leap",
+        "reward in heaven",
+        "their/father:pl to prophet:pl"
+      ],
+      "6:24": [
+        "woe:excl",
+        "rich",
+        "your/comfort:ev receive:perf"
+      ],
+      "6:25": [
+        "full",
+        "hunger:fu",
+        "now laugh",
+        "mourn:fu and weep"
+      ],
+      "6:26": [
+        "all man:pl of you well",
+        "their/father:pl",
+        "false prophet:pl"
+      ],
+      "6:27": [
+        "ipl to you who hear",
+        "your/enemy:pl love",
+        "they who you:a hate"
+      ],
+      "6:28": [
+        "curse:pr bless",
+        "malicious:adv treat",
+        "pray"
+      ],
+      "6:29": [
+        "one_num cheek",
+        "other offer",
+        "thy/kjv_cloak",
+        "thy/coat also"
+      ],
+      "6:30": [
+        "every man",
+        "thy/kjv_goods",
+        "again ask:neg"
+      ],
+      "6:31": [
+        "to you do:should desire",
+        "to they likewise"
+      ],
+      "6:32": [
+        "what thanks",
+        "sin:ag:pl also",
+        "love"
+      ],
+      "6:33": [
+        "good do",
+        "what thanks",
+        "even same"
+      ],
+      "6:34": [
+        "receive:inf hope",
+        "sin:ag:pl also to sin:ag:pl",
+        "as much again"
+      ],
+      "6:35": [
+        "your/enemy:pl",
+        "lend:imp nothing again hope",
+        "child:pl of highest",
+        "ungrateful person:pl",
+        "evil person:pl kind"
+      ],
+      "6:36": [
+        "merciful",
+        "your/father also"
+      ],
+      "6:37": [
+        "judge:neg:imp",
+        "judge:psv:neg",
+        "condemn:neg:imp",
+        "condemn:psv:neg",
+        "forgive:imp",
+        "forgive:psv"
+      ],
+      "6:38": [
+        "good measure down press",
+        "together shake",
+        "over run",
+        "your/bosom",
+        "same measure"
+      ],
+      "6:39": [
+        "blind person blind person",
+        "they:du into kjv_ditch"
+      ],
+      "6:40": [
+        "disciple above his/master be:neg",
+        "each who perfect",
+        "as his/master"
+      ],
+      "6:41": [
+        "mote",
+        "eye of thy/brother",
+        "beam",
+        "thy/own eye"
+      ],
+      "6:42": [
+        "brother i mote",
+        "thou kjv_hypocrite first",
+        "thy/own eye",
+        "then clearly",
+        "eye of thy/brother"
+      ],
+      "6:43": [
+        "good kjv_tree corrupt fruit",
+        "neither corrupt kjv_tree good fruit"
+      ],
+      "6:44": [
+        "his/own fruit",
+        "thorn:pl",
+        "fig:pl",
+        "kjv_bramble bush",
+        "grape:pl"
+      ],
+      "6:45": [
+        "good treasure of his/heart",
+        "evil treasure of his/heart",
+        "abundance of heart",
+        "his/mouth"
+      ],
+      "6:46": [
+        "ipl:a lord lord",
+        "which ipl say:pr do:neg"
+      ],
+      "6:47": [
+        "to ipl come",
+        "mypl/say:ev:pl",
+        "they:a do",
+        "ipl to you"
+      ],
+      "6:48": [
+        "deep kjv_dig",
+        "kjv_foundation on rock lay",
+        "stream",
+        "shake:neg:can",
+        "on rock kjv_establish"
+      ],
+      "6:49": [
+        "hear:pr and do:neg",
+        "without kjv_foundation",
+        "on earth",
+        "immediately it fall",
+        "ruin"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "5:12",
+        "5:5",
+        "5:8",
+        "6:42"
+      ],
+      "ipl": [
+        "5:13",
+        "5:24",
+        "5:27",
+        "5:32",
+        "6:27",
+        "6:46",
+        "6:47",
+        "6:9"
+      ],
+      "wesg": [
+        "5:26",
+        "5:5"
+      ],
+      "wepl": [],
+      "mypl": [
+        "6:47"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "5:38",
+        "5:7",
+        "6:39"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Luke5:7",
+      "Luke6:39"
+    ],
+    "pairedKindDualReferences": [
+      "Luke5:38"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Two ships,one selected ship,both ships;second Sabbath after first;one question;twelve chosen;one cheek;first remove beam.",
+      "Wine and containers form a coordinated pair,not an assertion of exactly two bottles.",
+      "No imported four carriers,modern festival date,healing diagnosis or repayment rate."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "88new verses;302Luke total;whole Bible remains incomplete.",
+      "Crew-we to Simon-I,healer plural-self,witness-we and quoted helper-I remain distinct.",
+      "Old-wine preference,direct poor/hungry woes,no-return lending and source ancestry labels retained.",
+      "Three common and six proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Luke — incomplete Bible working text",
+    "pages": 170,
+    "spreads": 85,
+    "units": 302,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "a13b4453e98f435bab6cc6accb48f6b19d09d275b1b1ece7a4b94dbc12b9ebe0",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 85,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.016,
+    "modules": [
+      "tests.test_kjv_luke_working_selves",
+      "tests.test_kjv_luke_named_descent",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    169,
+    170
+  ],
+  "status": "incomplete Bible;Luke1–6 section checkpoint verified"
+}

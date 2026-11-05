@@ -1,0 +1,681 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.68",
+    "parentVersion": "0.10-kjv.67",
+    "parentHead": "2f34496fa6373a3e121d4bae0c7900f992edfb945af30d6be112ff7dc88339b2",
+    "head": "d56059b4e98edc665c6892a03c650f36fe59ee0a3762c2a3042031f3a2461b19",
+    "newLexicalEntries": 21,
+    "newProperEntries": 16,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 17,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 78,
+    "exactCompilerCases": 78,
+    "newAuthoredVerses": 78,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 338,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21182,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 78,
+    "kings2Verses": 338,
+    "authoredVerses": 9920,
+    "remainingVerses": 21182,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 22,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 10:1",
+        "source": "And Ahab had seventy sons in Samaria. And Jehu wrote letters, and sent to Samaria, unto the rulers of Jezreel, to the elders, and to them that brought up Ahab’s children, saying,",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "2 Kings 10:4",
+        "source": "But they were exceedingly afraid, and said, Behold, two kings stood not before him: how then shall we stand?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 10:6",
+        "source": "Then he wrote a letter the second time to them, saying, If ye be mine, and if ye will hearken unto my voice, take ye the heads of the men your master’s sons, and come to me to Jezreel by to morrow this time. Now the king’s sons, being seventy persons, were with the great men of the city, which brought them up.",
+        "expectedDecimalQuantities": [
+          2,
+          70
+        ],
+        "targetQuantities": [
+          2,
+          70
+        ]
+      },
+      {
+        "reference": "2 Kings 10:7",
+        "source": "And it came to pass, when the letter came to them, that they took the king’s sons, and slew seventy persons, and put their heads in baskets, and sent him them to Jezreel.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "2 Kings 10:8",
+        "source": "And there came a messenger, and told him, saying, They have brought the heads of the king’s sons. And he said, Lay ye them in two heaps at the entering in of the gate until the morning.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 10:14",
+        "source": "And he said, Take them alive. And they took them alive, and slew them at the pit of the shearing house, even two and forty men; neither left he any of them.",
+        "expectedDecimalQuantities": [
+          42
+        ],
+        "targetQuantities": [
+          42
+        ]
+      },
+      {
+        "reference": "2 Kings 10:21",
+        "source": "And Jehu sent through all Israel: and all the worshippers of Baal came, so that there was not a man left that came not. And they came into the house of Baal; and the house of Baal was full from one end to another.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 10:24",
+        "source": "And when they went in to offer sacrifices and burnt offerings, Jehu appointed fourscore men without, and said, If any of the men whom I have brought into your hands escape, he that letteth him go, his life shall be for the life of him.",
+        "expectedDecimalQuantities": [
+          80
+        ],
+        "targetQuantities": [
+          80
+        ]
+      },
+      {
+        "reference": "2 Kings 10:30",
+        "source": "And the LORD said unto Jehu, Because thou hast done well in executing that which is right in mine eyes, and hast done unto the house of Ahab according to all that was in mine heart, thy children of the fourth generation shall sit on the throne of Israel.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "2 Kings 10:36",
+        "source": "And the time that Jehu reigned over Israel in Samaria was twenty and eight years.",
+        "expectedDecimalQuantities": [
+          28
+        ],
+        "targetQuantities": [
+          28
+        ]
+      },
+      {
+        "reference": "2 Kings 11:3",
+        "source": "And he was with her hid in the house of the LORD six years. And Athaliah did reign over the land.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "2 Kings 11:4",
+        "source": "And the seventh year Jehoiada sent and fetched the rulers over hundreds, with the captains and the guard, and brought them to him into the house of the LORD, and made a covenant with them, and took an oath of them in the house of the LORD, and shewed them the king’s son.",
+        "expectedDecimalQuantities": [
+          7,
+          100
+        ],
+        "targetQuantities": [
+          7,
+          100
+        ]
+      },
+      {
+        "reference": "2 Kings 11:5",
+        "source": "And he commanded them, saying, This is the thing that ye shall do; A third part of you that enter in on the sabbath shall even be keepers of the watch of the king’s house;",
+        "expectedDecimalQuantities": [
+          0.3333333333333333
+        ],
+        "targetQuantities": [
+          0.3333333333333333
+        ]
+      },
+      {
+        "reference": "2 Kings 11:6",
+        "source": "And a third part shall be at the gate of Sur; and a third part at the gate behind the guard: so shall ye keep the watch of the house, that it be not broken down.",
+        "expectedDecimalQuantities": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "targetQuantities": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "reference": "2 Kings 11:7",
+        "source": "And two parts of all you that go forth on the sabbath, even they shall keep the watch of the house of the LORD about the king.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 11:9",
+        "source": "And the captains over the hundreds did according to all things that Jehoiada the priest commanded: and they took every man his men that were to come in on the sabbath, with them that should go out on the sabbath, and came to Jehoiada the priest.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Kings 11:10",
+        "source": "And to the captains over hundreds did the priest give king David’s spears and shields, that were in the temple of the LORD.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Kings 11:15",
+        "source": "But Jehoiada the priest commanded the captains of the hundreds, the officers of the host, and said unto them, Have her forth without the ranges: and him that followeth her kill with the sword. For the priest had said, Let her not be slain in the house of the LORD.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Kings 11:19",
+        "source": "And he took the rulers over hundreds, and the captains, and the guard, and all the people of the land; and they brought down the king from the house of the LORD, and came by the way of the gate of the guard to the king’s house. And he sat on the throne of the kings.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Kings 11:21",
+        "source": "Seven years old was Jehoash when he began to reign.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 12:1",
+        "source": "In the seventh year of Jehu Jehoash began to reign; and forty years reigned he in Jerusalem. And his mother’s name was Zibiah of Beersheba.",
+        "expectedDecimalQuantities": [
+          7,
+          40
+        ],
+        "targetQuantities": [
+          7,
+          40
+        ]
+      },
+      {
+        "reference": "2 Kings 12:6",
+        "source": "But it was so, that in the three and twentieth year of king Jehoash the priests had not repaired the breaches of the house.",
+        "expectedDecimalQuantities": [
+          23
+        ],
+        "targetQuantities": [
+          23
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "10:1": [
+        "seven+ten son:pl",
+        "to ruler:pl of kjv_jezreel",
+        "child:pl:a rear:pa"
+      ],
+      "10:2": [
+        "fortify:psv city",
+        "kjv_armour"
+      ],
+      "10:3": [
+        "best and most suitable",
+        "his/father throne"
+      ],
+      "10:4": [
+        "two king:pl",
+        "wepl stand:fu"
+      ],
+      "10:5": [
+        "wesg thy/servant:pl",
+        "wesg any king:a make:fu not"
+      ],
+      "10:6": [
+        "two:ord time",
+        "if you of ipl",
+        "mypl/voice",
+        "head:pl:a take:imp",
+        "seven+ten person:pl"
+      ],
+      "10:7": [
+        "seven+ten person:pl:a slay:pa",
+        "their/head:pl:a in kjv_basket:pl"
+      ],
+      "10:8": [
+        "two kjv_heap:pl",
+        "until morning"
+      ],
+      "10:9": [
+        "you kjv_righteous",
+        "i against my/master conspire:pa",
+        "who all these:a slay:pa"
+      ],
+      "10:10": [
+        "nothing of word of kjv_lord fall:fu",
+        "by his/servant kjv_elijah"
+      ],
+      "10:11": [
+        "his/kinsman:pl",
+        "his/priest:pl",
+        "none remain:cv"
+      ],
+      "10:12": [
+        "shear:ev house"
+      ],
+      "10:13": [
+        "wepl brother:pl",
+        "wesg to of king child:pl"
+      ],
+      "10:14": [
+        "they:a alive take:pa",
+        "two and forty men"
+      ],
+      "10:15": [
+        "kjv_jehonadab son of kjv_rechab_jehonadab",
+        "my/heart",
+        "to i thy/hand:a",
+        "into chariot"
+      ],
+      "10:16": [
+        "with i come:imp",
+        "my/kjv_zeal",
+        "he:a they ride:caus:pa"
+      ],
+      "10:17": [
+        "in kjv_samaria remain:pa",
+        "until he:a he destroy:pp"
+      ],
+      "10:18": [
+        "kjv_ahab kjv_baal:a little serve:pa",
+        "kjv_jehu_nimshi he:a much serve:fu"
+      ],
+      "10:19": [
+        "to ipl all prophet:pl",
+        "kjv_sacrifice:a to kjv_baal do:inf ipl",
+        "in cunning",
+        "worship:ag:pl:a he destroy:pr:may"
+      ],
+      "10:20": [
+        "solemn kjv_assembly:a"
+      ],
+      "10:21": [
+        "from one_num end to another"
+      ],
+      "10:22": [
+        "over kjv_vestry",
+        "garment:pl:a"
+      ],
+      "10:23": [
+        "kjv_jehonadab son of kjv_rechab_jehonadab",
+        "none of servant:pl of kjv_lord",
+        "kjv_baal worship:ag:pl only"
+      ],
+      "10:24": [
+        "four+twenty men",
+        "into your/hand:pl ipl bring:perf",
+        "his/life for of he life"
+      ],
+      "10:25": [
+        "of sword edge",
+        "to city of house of kjv_baal"
+      ],
+      "10:26": [
+        "image:pl:a",
+        "burn:caus:pa"
+      ],
+      "10:27": [
+        "image:a",
+        "kjv_latrine_house",
+        "until this day"
+      ],
+      "10:28": [
+        "kjv_baal:a kjv_jehu_nimshi destroy:pa"
+      ],
+      "10:29": [
+        "depart:pa not",
+        "of gold kjv_calf:pl",
+        "kjv_bethel",
+        "kjv_dan"
+      ],
+      "10:30": [
+        "mypl/eye:pl",
+        "mypl/heart",
+        "four:ord generation"
+      ],
+      "10:31": [
+        "all his/heart",
+        "heed:pa not",
+        "sin:caus:pa"
+      ],
+      "10:32": [
+        "kjv_israel:a cut:inf short",
+        "all boundary:pl"
+      ],
+      "10:33": [
+        "from kjv_jordan to east",
+        "kjv_aroer",
+        "river kjv_arnon"
+      ],
+      "10:34": [
+        "remainder of act:pl",
+        "chronicle:pl"
+      ],
+      "10:35": [
+        "kjv_jehoahaz_jehu",
+        "in his/kjv_place_site"
+      ],
+      "10:36": [
+        "twenty and eight year:pl"
+      ],
+      "11:1": [
+        "kjv_athaliah mother",
+        "all royal descendant:pl:a"
+      ],
+      "11:2": [
+        "kjv_jehosheba",
+        "kjv_joash_ahaziah son of kjv_ahaziah_jehoram",
+        "his/kjv_nurse",
+        "he slay:psv:pa not"
+      ],
+      "11:3": [
+        "with she",
+        "six year:pl",
+        "kjv_athaliah rule:pa"
+      ],
+      "11:4": [
+        "seven:ord year",
+        "ruler:pl over hundred:pl",
+        "kjv_covenant:a",
+        "oath:a",
+        "king son:a"
+      ],
+      "11:5": [
+        "kjv_third_share",
+        "on kjv_sabbath enter:pr"
+      ],
+      "11:6": [
+        "kjv_third_share at gate of kjv_sur_gate",
+        "kjv_third_share at gate behind guard"
+      ],
+      "11:7": [
+        "two part:pl",
+        "on kjv_sabbath go:pr forth"
+      ],
+      "11:8": [
+        "each man with his/weapon:pl",
+        "within kjv_guard_rank:pl",
+        "he slay:psv:opt"
+      ],
+      "11:9": [
+        "on kjv_sabbath come:inf in",
+        "on kjv_sabbath go:inf out"
+      ],
+      "11:10": [
+        "of king kjv_david kjv_spear:pl and shield:pl"
+      ],
+      "11:11": [
+        "right corner",
+        "left corner",
+        "altar and temple"
+      ],
+      "11:12": [
+        "testimony:a",
+        "he:a king they make:pa",
+        "kjv_clap_hands:pa",
+        "god king:a save:opt"
+      ],
+      "11:13": [
+        "of guard and of people sound:a"
+      ],
+      "11:14": [
+        "by kjv_pillar",
+        "betray:ev:excl betray:ev:excl"
+      ],
+      "11:15": [
+        "outside kjv_guard_rank:pl",
+        "who she:a follow:pr",
+        "in house of kjv_lord she slay:psv:opt not"
+      ],
+      "11:16": [
+        "horse:pl into king house",
+        "there she slay:psv:pa"
+      ],
+      "11:17": [
+        "between kjv_lord and king and people",
+        "between king also and people"
+      ],
+      "11:18": [
+        "kjv_mattan_priest priest of kjv_baal",
+        "officer:pl:a over house of kjv_lord"
+      ],
+      "11:19": [
+        "by way of of guard gate",
+        "of king:pl throne"
+      ],
+      "11:20": [
+        "city in quiet",
+        "with sword they slay:pa"
+      ],
+      "11:21": [
+        "seven year:pl old kjv_jehoash_judah"
+      ],
+      "12:1": [
+        "seven:ord year of kjv_jehu_nimshi",
+        "forty year:pl",
+        "kjv_zibiah of kjv_beersheba"
+      ],
+      "12:2": [
+        "all his/day:pl wherein",
+        "instruct:pa"
+      ],
+      "12:3": [
+        "high place:pl take:psv away be:pa not",
+        "kjv_incense:a burn:caus:pa"
+      ],
+      "12:4": [
+        "money of each who account:a pass:pr",
+        "each man at set:psv:pr",
+        "any man heart"
+      ],
+      "12:5": [
+        "each man of his/acquaintance",
+        "wherever any breach"
+      ],
+      "12:6": [
+        "kjv_three and twenty:ord year",
+        "repair:pp not"
+      ],
+      "12:7": [
+        "no more money",
+        "deliver:imp"
+      ],
+      "12:8": [
+        "receive:inf consent:pa",
+        "neither of house breach:pl:a repair:inf"
+      ],
+      "12:9": [
+        "hole:a in its/kjv_lid bore:pa",
+        "as one into house",
+        "door:a keep:pa"
+      ],
+      "12:10": [
+        "king kjv_scribe and high priest",
+        "in bag:pl money:a they:du put:pa and reckon:pa"
+      ],
+      "12:11": [
+        "money:a reckon:psv",
+        "kjv_oversight",
+        "carpenter:pl and build:ag:pl pay:pa"
+      ],
+      "12:12": [
+        "kjv_mason:pl",
+        "stone kjv_hew:ag:pl",
+        "wood and kjv_hew:psv stone:a buy:inf"
+      ],
+      "12:13": [
+        "kjv_snuffer:pl",
+        "vessel:pl make:psv:pa not"
+      ],
+      "12:14": [
+        "workman:pl",
+        "with it house of kjv_lord:a repair:pa"
+      ],
+      "12:15": [
+        "with men they reckon:pa not",
+        "faithfully they deal:pa"
+      ],
+      "12:16": [
+        "kjv_trespass money and sin money",
+        "bring:psv:pa not",
+        "of priest:pl it be:pa"
+      ],
+      "12:17": [
+        "kjv_gath",
+        "his/face:a kjv_hazael set:pa"
+      ],
+      "12:18": [
+        "kjv_jehoshaphat_asa",
+        "kjv_jehoram_jehoshaphat",
+        "kjv_ahaziah_jehoram",
+        "his/own holy thing:pl",
+        "to kjv_hazael",
+        "from kjv_jerusalem he go:pa away"
+      ],
+      "12:19": [
+        "kjv_joash_ahaziah",
+        "chronicle:pl of king:pl of kjv_judah"
+      ],
+      "12:20": [
+        "conspiracy:a",
+        "kjv_millo",
+        "kjv_silla"
+      ],
+      "12:21": [
+        "kjv_jozachar son of kjv_shimeath",
+        "kjv_jehozabad son of kjv_shomer",
+        "he die:pa",
+        "kjv_amaziah_joash"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Seventy repeats the same royal sons; two heaps need not be equal.",
+      "Forty-two seized alive are subsequently killed; eighty denotes guards.",
+      "Three third-shares are incoming duties; two parts of the outgoing group has no supplied denominator.",
+      "Hundreds names military unit denominations, not a total number of officers.",
+      "Accession age, regnal synchronisms and durations are separate quantities."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Personal admitted agency, royal plural-self authority, singular surrender and mission, ordinary plural fear and kin identity, and an actual counting pair remain distinct.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 280,
+    "spreads": 140,
+    "units": 338,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "2929cea95d7f6a5c67650f94c9a9a6af3d2e65e4805d6df059ed89888d8dbca6",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 140,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 560,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 10.28,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_accession",
+      "tests.test_kjv_kings_coup",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      279,
+      280
+    ],
+    "observations": "Viewed final accession/repair spread; matching paragraph starts, approved Maxima and four column styles, margins and Unta retained."
+  },
+  "status": "incomplete whole Bible"
+}

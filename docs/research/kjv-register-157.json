@@ -1,0 +1,1062 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.157",
+    "parentVersion": "0.10-kjv.156",
+    "parentHead": "c0f9c859ee85ac494b49a94bb092cf1f80917ddfe1b7ad0e9fe972f2c5414790",
+    "head": "2b4cc60914c915e2fa9e79143822c0a0c3b5e16d4a0de26304116017e619a640",
+    "newLexicalEntries": 12,
+    "newProperEntries": 5,
+    "newCommonEntries": 7,
+    "newSurfaceForms": 12,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 140,
+    "exactCompilerCases": 140,
+    "newAuthoredVerses": 140,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 140,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 10449,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 140,
+    "ezekielVerses": 140,
+    "authoredVerses": 20653,
+    "remainingVerses": 10449,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 22,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 1:1",
+        "source": "Now it came to pass in the thirtieth year, in the fourth month, in the fifth day of the month, as I was among the captives by the river of Chebar, that the heavens were opened, and I saw visions of God.",
+        "expectedDecimalQuantities": [
+          30,
+          4,
+          5
+        ],
+        "targetQuantities": [
+          30,
+          4,
+          5
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:2",
+        "source": "In the fifth day of the month, which was the fifth year of king Jehoiachin’s captivity,",
+        "expectedDecimalQuantities": [
+          5,
+          5
+        ],
+        "targetQuantities": [
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:5",
+        "source": "Also out of the midst thereof came the likeness of four living creatures. And this was their appearance; they had the likeness of a man.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:6",
+        "source": "And every one had four faces, and every one had four wings.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:8",
+        "source": "And they had the hands of a man under their wings on their four sides; and they four had their faces and their wings.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:10",
+        "source": "As for the likeness of their faces, they four had the face of a man, and the face of a lion, on the right side: and they four had the face of an ox on the left side; they four also had the face of an eagle.",
+        "expectedDecimalQuantities": [
+          4,
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:11",
+        "source": "Thus were their faces: and their wings were stretched upward; two wings of every one were joined one to another, and two covered their bodies.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:15",
+        "source": "Now as I beheld the living creatures, behold one wheel upon the earth by the living creatures, with his four faces.",
+        "expectedDecimalQuantities": [
+          1,
+          4
+        ],
+        "targetQuantities": [
+          1,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:16",
+        "source": "The appearance of the wheels and their work was like unto the colour of a beryl: and they four had one likeness: and their appearance and their work was as it were a wheel in the middle of a wheel.",
+        "expectedDecimalQuantities": [
+          4,
+          1
+        ],
+        "targetQuantities": [
+          4,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:17",
+        "source": "When they went, they went upon their four sides: and they turned not when they went.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:18",
+        "source": "As for their rings, they were so high that they were dreadful; and their rings were full of eyes round about them four.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 1:23",
+        "source": "And under the firmament were their wings straight, the one toward the other: every one had two, which covered on this side, and every one had two, which covered on that side, their bodies.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 3:15",
+        "source": "Then I came to them of the captivity at Telabib, that dwelt by the river of Chebar, and I sat where they sat, and remained there astonished among them seven days.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 3:16",
+        "source": "And it came to pass at the end of seven days, that the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 4:5",
+        "source": "For I have laid upon thee the years of their iniquity, according to the number of the days, three hundred and ninety days: so shalt thou bear the iniquity of the house of Israel.",
+        "expectedDecimalQuantities": [
+          390
+        ],
+        "targetQuantities": [
+          390
+        ]
+      },
+      {
+        "reference": "Ezekiel 4:6",
+        "source": "And when thou hast accomplished them, lie again on thy right side, and thou shalt bear the iniquity of the house of Judah forty days: I have appointed thee each day for a year.",
+        "expectedDecimalQuantities": [
+          40,
+          1
+        ],
+        "targetQuantities": [
+          40,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 4:9",
+        "source": "Take thou also unto thee wheat, and barley, and beans, and lentiles, and millet, and fitches, and put them in one vessel, and make thee bread thereof, according to the number of the days that thou shalt lie upon thy side, three hundred and ninety days shalt thou eat thereof.",
+        "expectedDecimalQuantities": [
+          1,
+          390
+        ],
+        "targetQuantities": [
+          1,
+          390
+        ]
+      },
+      {
+        "reference": "Ezekiel 4:10",
+        "source": "And thy meat which thou shalt eat shall be by weight, twenty shekels a day: from time to time shalt thou eat it.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "Ezekiel 4:11",
+        "source": "Thou shalt drink also water by measure, the sixth part of an hin: from time to time shalt thou drink.",
+        "expectedDecimalQuantities": [
+          0.16666666666666666
+        ],
+        "targetQuantities": [
+          0.16666666666666666
+        ]
+      },
+      {
+        "reference": "Ezekiel 5:2",
+        "source": "Thou shalt burn with fire a third part in the midst of the city, when the days of the siege are fulfilled: and thou shalt take a third part, and smite about it with a knife: and a third part thou shalt scatter in the wind; and I will draw out a sword after them.",
+        "expectedDecimalQuantities": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "targetQuantities": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "reference": "Ezekiel 5:12",
+        "source": "A third part of thee shall die with the pestilence, and with famine shall they be consumed in the midst of thee: and a third part shall fall by the sword round about thee; and I will scatter a third part into all the winds, and I will draw out a sword after them.",
+        "expectedDecimalQuantities": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "targetQuantities": [
+          0.3333333333333333,
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "reference": "Ezekiel 7:2",
+        "source": "Also, thou son of man, thus saith the Lord GOD unto the land of Israel; An end, the end is come upon the four corners of the land.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "thirty:ord year",
+        "four:ord month",
+        "five:ord day",
+        "i vision:pl:a"
+      ],
+      "1:2": [
+        "five:ord day",
+        "five:ord year",
+        "kjv_jehoiachin"
+      ],
+      "1:3": [
+        "kjv_ezekiel priest son of kjv_buzi",
+        "hand of kjv_lord"
+      ],
+      "1:4": [
+        "kjv_north",
+        "itself:a within wrap:cv",
+        "kjv_amber_vision"
+      ],
+      "1:5": [
+        "four living creature:pl",
+        "likeness:a of man"
+      ],
+      "1:6": [
+        "each four face:pl:a",
+        "each four wing:pl:a"
+      ],
+      "1:7": [
+        "straight foot:pl",
+        "kjv_calf",
+        "kjv_polish_surface:psv:adj kjv_brass"
+      ],
+      "1:8": [
+        "hand:pl:a of man",
+        "their/four side:pl",
+        "they four"
+      ],
+      "1:9": [
+        "each to other join:psv:pa",
+        "turn:neg:pa"
+      ],
+      "1:10": [
+        "kjv_right_side",
+        "ox on left side",
+        "kjv_eagle"
+      ],
+      "1:11": [
+        "two wing:pl of each",
+        "two their/body:pl:a"
+      ],
+      "1:12": [
+        "where spirit go:inf",
+        "turn:neg:pa"
+      ],
+      "1:13": [
+        "burn:cv kjv_charcoal:pl",
+        "it among living creature:pl",
+        "lightning"
+      ],
+      "1:14": [
+        "run:pa and return:pa",
+        "flash of lightning"
+      ],
+      "1:15": [
+        "one_num wheel",
+        "his/four face:pl"
+      ],
+      "1:16": [
+        "kjv_beryl",
+        "four one_num likeness:a",
+        "wheel in middle of wheel"
+      ],
+      "1:17": [
+        "their/four side:pl",
+        "turn:neg:pa"
+      ],
+      "1:18": [
+        "ring:pl full of eye:pl",
+        "they four"
+      ],
+      "1:19": [
+        "when living creature:pl",
+        "wheel:pl up lift:psv:pa"
+      ],
+      "1:20": [
+        "their/spirit",
+        "spirit of living creature in wheel:pl"
+      ],
+      "1:21": [
+        "those go:pa these go:pa",
+        "those stand:pa these stand:pa"
+      ],
+      "1:22": [
+        "kjv_firmament",
+        "terrible crystal",
+        "their/head:pl"
+      ],
+      "1:23": [
+        "each two:a have:pa",
+        "on that side their/body:pl:a"
+      ],
+      "1:24": [
+        "i noise:a",
+        "kjv_almighty",
+        "noise of army",
+        "wing:pl:a down let:pa"
+      ],
+      "1:25": [
+        "voice from kjv_firmament",
+        "down let:pp"
+      ],
+      "1:26": [
+        "likeness of throne",
+        "likeness as appear:ev of man"
+      ],
+      "1:27": [
+        "kjv_amber_vision",
+        "his/kjv_loins even up",
+        "his/kjv_loins even down"
+      ],
+      "1:28": [
+        "kjv_bow which in cloud",
+        "likeness of glory",
+        "i upon my/face fall:pa"
+      ],
+      "2:1": [
+        "he to i say:pa",
+        "ipl to thee speak:fu"
+      ],
+      "2:2": [
+        "spirit into i enter:pa",
+        "my/foot:pl"
+      ],
+      "2:3": [
+        "ipl thee:a",
+        "their/father:pl against ipl"
+      ],
+      "2:4": [
+        "impudent child:pl and hard heart:adj",
+        "ipl thee:a to they indeed send:pr"
+      ],
+      "2:5": [
+        "whether they hear:fu",
+        "whether they kjv_forbear:fu"
+      ],
+      "2:6": [
+        "kjv_brier:pl and thorn:pl",
+        "kjv_scorpion:pl",
+        "kjv_dismay:psv:neg:imp"
+      ],
+      "2:7": [
+        "mypl/word:pl:a",
+        "most rebel:adj"
+      ],
+      "2:8": [
+        "ipl to thee say:pr",
+        "be:neg:imp",
+        "ipl thee:a give:pr eat:imp"
+      ],
+      "2:9": [
+        "hand to i send:psv:pa",
+        "scroll of book"
+      ],
+      "2:10": [
+        "within and without write:psv:pa",
+        "lament:ev:pl and mourn:ev and woe"
+      ],
+      "3:1": [
+        "this scroll:a eat:imp"
+      ],
+      "3:2": [
+        "i my/mouth:a open:pa",
+        "eat:caus:pa"
+      ],
+      "3:3": [
+        "thy/belly:a eat:caus:imp",
+        "ipl thee:a give:pr",
+        "honey for sweet:ev"
+      ],
+      "3:4": [
+        "with mypl/word:pl"
+      ],
+      "3:5": [
+        "hard language send:psv:neg:pr",
+        "but to house of kjv_israel"
+      ],
+      "3:6": [
+        "understand:neg:can",
+        "if ipl thee:a to they send:pp",
+        "listen:pp:should"
+      ],
+      "3:7": [
+        "to thee listen:neg:fu",
+        "to ipl listen:neg:fu"
+      ],
+      "3:8": [
+        "thy/face:a strong against their/face:pl",
+        "thy/forehead:a"
+      ],
+      "3:9": [
+        "kjv_adamant more hard than flint",
+        "fear:neg:imp"
+      ],
+      "3:10": [
+        "mypl/word:pl:a which ipl",
+        "thine/heart",
+        "thine/ear:pl"
+      ],
+      "3:11": [
+        "kjv_captivity",
+        "whether they kjv_forbear:fu"
+      ],
+      "3:12": [
+        "behind i",
+        "from his/place bless:psv:opt"
+      ],
+      "3:13": [
+        "each other:a touch:pa",
+        "great kjv_rush_motion:ev"
+      ],
+      "3:14": [
+        "heat of my/spirit",
+        "hand of kjv_lord upon i strong"
+      ],
+      "3:15": [
+        "kjv_telabib",
+        "where they sit:pa sit:pa",
+        "seven day:pl"
+      ],
+      "3:16": [
+        "end of seven day:pl"
+      ],
+      "3:17": [
+        "ipl thee:a watch:ag",
+        "mypl/mouth",
+        "from ipl warning:a"
+      ],
+      "3:18": [
+        "warning:a give:neg:pr",
+        "his/blood:a ipl at thine/hand require:fu"
+      ],
+      "3:19": [
+        "turn:neg:pr",
+        "thou thy/soul:a deliver:perf"
+      ],
+      "3:20": [
+        "ipl kjv_stumblingblock:a before he lay:pr",
+        "remember:psv:neg:fu"
+      ],
+      "3:21": [
+        "sin:neg:pr and he sin:neg:pr",
+        "surely live:fu"
+      ],
+      "3:22": [
+        "kjv_plain_land",
+        "ipl there with thee talk:fu"
+      ],
+      "3:23": [
+        "kjv_chebar",
+        "i on my/face fall:pa"
+      ],
+      "3:24": [
+        "spirit into i enter:pa",
+        "within thine/house shut:imp"
+      ],
+      "3:25": [
+        "they kjv_binding_restraint:pl:a",
+        "go:neg:fu"
+      ],
+      "3:26": [
+        "ipl cause:fu that thy/tongue",
+        "kjv_cleave_adhere:pr",
+        "rebuke:ag be:neg:fu"
+      ],
+      "3:27": [
+        "ipl thy/mouth:a open:fu",
+        "he hear:opt",
+        "he kjv_forbear:opt"
+      ],
+      "4:1": [
+        "kjv_tile:a",
+        "kjv_jerusalem portray:imp"
+      ],
+      "4:2": [
+        "kjv_siege_fort:a",
+        "kjv_siege_mound:a",
+        "kjv_battering_ram:pl:a"
+      ],
+      "4:3": [
+        "iron kjv_pan:a",
+        "between thee and city",
+        "sign to house"
+      ],
+      "4:4": [
+        "thy/left side",
+        "their/kjv_iniquity:a carry:fu"
+      ],
+      "4:5": [
+        "three+hundred and seven+twelve and six day:pl"
+      ],
+      "4:6": [
+        "thy/kjv_right_side",
+        "forty day:pl",
+        "each day:a for one_num year"
+      ],
+      "4:7": [
+        "thine/arm kjv_uncover:psv:fu"
+      ],
+      "4:8": [
+        "kjv_binding_restraint:pl:a",
+        "turn:neg:fu"
+      ],
+      "4:9": [
+        "wheat:a and kjv_barley:a and bean:pl:a and kjv_lentil:pl:a and kjv_millet:a and kjv_fitches:a",
+        "one_num vessel",
+        "three+hundred and seven+twelve and six"
+      ],
+      "4:10": [
+        "thy/food",
+        "twenty kjv_shekel:pl each day"
+      ],
+      "4:11": [
+        "kjv_sixth_share of kjv_hin"
+      ],
+      "4:12": [
+        "with kjv_dung which out of man come:pr"
+      ],
+      "4:13": [
+        "defile:psv:adj bread:a",
+        "where ipl they:a drive:fu"
+      ],
+      "4:14": [
+        "i say:pa",
+        "my/soul kjv_pollute_sacred:psv:neg:perf",
+        "of itself die:pr",
+        "rend:psv:pr eat:neg:perf"
+      ],
+      "4:15": [
+        "ipl kjv_cow kjv_dung:a for man kjv_dung"
+      ],
+      "4:16": [
+        "ipl staff:a of bread",
+        "with worry",
+        "with astonish:ev"
+      ],
+      "4:17": [
+        "lack:may",
+        "each with other astonish:psv:may"
+      ],
+      "5:1": [
+        "kjv_razor:a of barber",
+        "balance:pl:a to weigh:inf",
+        "hair:a kjv_divide:imp"
+      ],
+      "5:2": [
+        "kjv_third_share:a",
+        "ipl sword:a after they"
+      ],
+      "5:3": [
+        "few:a in kjv_number",
+        "thy/kjv_skirt_garment:pl"
+      ],
+      "5:4": [
+        "of they again",
+        "all house of kjv_israel"
+      ],
+      "5:5": [
+        "ipl it:a in middle of nation:pl"
+      ],
+      "5:6": [
+        "mypl/judgment:pl:a into wickedness",
+        "they in they walk:neg:perf"
+      ],
+      "5:7": [
+        "kjv_multiply:perf",
+        "neither kjv_according to judgment:pl of nation:pl"
+      ],
+      "5:8": [
+        "ipl even ipl against thee"
+      ],
+      "5:9": [
+        "ipl do:neg:perf",
+        "ipl any more like do:neg:fu"
+      ],
+      "5:10": [
+        "father:pl son:pl:a",
+        "son:pl their/father:pl:a",
+        "whole remain:ag:pl:a"
+      ],
+      "5:11": [
+        "as ipl live:pr",
+        "neither mypl/eye spare:fu",
+        "neither ipl any pity:a"
+      ],
+      "5:12": [
+        "kjv_third_share of thee with kjv_pestilence",
+        "kjv_third_share by sword",
+        "kjv_third_share:a into all wind:pl"
+      ],
+      "5:13": [
+        "ipl comfort:psv:fu",
+        "mypl/kjv_zeal"
+      ],
+      "5:14": [
+        "in sight of all who by pass:pr"
+      ],
+      "5:15": [
+        "taunt and instruction and astonish:ev",
+        "fury:adj rebuke:ev:pl"
+      ],
+      "5:16": [
+        "to you:a destroy:inf",
+        "your/staff:a of bread"
+      ],
+      "5:17": [
+        "they thee:a kjv_bereave:fu",
+        "kjv_pestilence and blood"
+      ],
+      "6:1": [
+        "to i come:pa"
+      ],
+      "6:2": [
+        "mountain:pl of kjv_israel",
+        "against they kjv_prophesy:imp"
+      ],
+      "6:3": [
+        "hill:pl to river:pl and to valley:pl",
+        "ipl even ipl"
+      ],
+      "6:4": [
+        "your/slay:psv:adj man:pl:a before your/idol:pl"
+      ],
+      "6:5": [
+        "dead kjv_corpse:pl:a",
+        "your/bone:pl:a"
+      ],
+      "6:6": [
+        "your/idol:pl break:psv:may and cease:may",
+        "your/work:pl remove:psv:may"
+      ],
+      "6:7": [
+        "ipl kjv_lord be:pr"
+      ],
+      "6:8": [
+        "yet ipl remain:ag:pl:a leave:fu"
+      ],
+      "6:9": [
+        "ipl with their/whore:adj heart",
+        "break:psv:pr",
+        "they themselves:a"
+      ],
+      "6:10": [
+        "in vain say:neg:perf",
+        "this evil:a"
+      ],
+      "6:11": [
+        "with thy/foot stamp:imp",
+        "kjv_israel:excl"
+      ],
+      "6:12": [
+        "far off",
+        "near",
+        "remain:pr and besiege:psv:pr",
+        "mypl/fury:a"
+      ],
+      "6:13": [
+        "under every green kjv_tree",
+        "every thick oak",
+        "sweet smell:ev:a"
+      ],
+      "6:14": [
+        "kjv_diblath",
+        "more kjv_desolate than"
+      ],
+      "7:1": [
+        "to i come:pa"
+      ],
+      "7:2": [
+        "end end",
+        "four corner:pl"
+      ],
+      "7:3": [
+        "mypl/anger:a",
+        "thine/kjv_abomination:pl:a"
+      ],
+      "7:4": [
+        "mypl/eye thee:a spare:neg:fu",
+        "you know:fu"
+      ],
+      "7:5": [
+        "evil only evil"
+      ],
+      "7:6": [
+        "end come:perf end come:perf",
+        "it for thee watch:pr"
+      ],
+      "7:7": [
+        "morning to thee come:perf",
+        "not sound:ev again of mountain:pl"
+      ],
+      "7:8": [
+        "soon mypl/fury:a",
+        "mypl/anger:a"
+      ],
+      "7:9": [
+        "ipl kjv_lord who strike:pr"
+      ],
+      "7:10": [
+        "rod blossom:perf pride bud:perf"
+      ],
+      "7:11": [
+        "kjv_violence into rod",
+        "neither kjv_wail:ev for they be:fu"
+      ],
+      "7:12": [
+        "buy:ag rejoice:neg:opt nor sell:ag mourn:opt"
+      ],
+      "7:13": [
+        "although they yet alive",
+        "which return:neg:fu",
+        "neither any himself:a"
+      ],
+      "7:14": [
+        "none to battle go:pr",
+        "mypl/wrath"
+      ],
+      "7:15": [
+        "sword outside",
+        "kjv_pestilence and kjv_famine within"
+      ],
+      "7:16": [
+        "like dove:pl of valley:pl",
+        "each for his/kjv_iniquity"
+      ],
+      "7:17": [
+        "knee:pl weak as water"
+      ],
+      "7:18": [
+        "kjv_sackcloth",
+        "kjv_bald:ev"
+      ],
+      "7:19": [
+        "deliver:neg:can",
+        "satisfy:neg:fu",
+        "kjv_stumblingblock"
+      ],
+      "7:20": [
+        "his/kjv_ornament",
+        "therefore ipl it:a far from they"
+      ],
+      "7:21": [
+        "stranger:pl for prey",
+        "they it:a kjv_pollute_sacred:fu"
+      ],
+      "7:22": [
+        "mypl/face:a ipl",
+        "mypl/secret place:a"
+      ],
+      "7:23": [
+        "chain:a make:imp",
+        "blood:adj crime:pl"
+      ],
+      "7:24": [
+        "worst:a of kjv_heathen",
+        "their/holy place:pl defile:psv:fu"
+      ],
+      "7:25": [
+        "peace:a seek:fu and none be:fu"
+      ],
+      "7:26": [
+        "kjv_calamity upon kjv_calamity",
+        "law from priest and counsel from ancient:pl"
+      ],
+      "7:27": [
+        "their/desert:pl",
+        "ipl they:a judge:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:1",
+        "1:15",
+        "1:24",
+        "1:27",
+        "1:28",
+        "1:4",
+        "2:1",
+        "2:10",
+        "2:2",
+        "2:3",
+        "2:9",
+        "3:1",
+        "3:10",
+        "3:12",
+        "3:13",
+        "3:14",
+        "3:15",
+        "3:16",
+        "3:2",
+        "3:22",
+        "3:23",
+        "3:24",
+        "3:3",
+        "3:4",
+        "4:14",
+        "4:15",
+        "4:16",
+        "6:1",
+        "7:1"
+      ],
+      "ipl": [
+        "2:1",
+        "2:3",
+        "2:4",
+        "2:8",
+        "3:10",
+        "3:17",
+        "3:18",
+        "3:20",
+        "3:22",
+        "3:26",
+        "3:27",
+        "3:3",
+        "3:6",
+        "3:7",
+        "3:8",
+        "3:9",
+        "4:13",
+        "4:15",
+        "4:16",
+        "4:5",
+        "4:6",
+        "4:8",
+        "5:10",
+        "5:11",
+        "5:12",
+        "5:13",
+        "5:14",
+        "5:15",
+        "5:16",
+        "5:17",
+        "5:2",
+        "5:5",
+        "5:8",
+        "5:9",
+        "6:10",
+        "6:12",
+        "6:13",
+        "6:14",
+        "6:3",
+        "6:4",
+        "6:5",
+        "6:7",
+        "6:8",
+        "6:9",
+        "7:20",
+        "7:21",
+        "7:22",
+        "7:24",
+        "7:27",
+        "7:3",
+        "7:4",
+        "7:8",
+        "7:9"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "2:7",
+        "3:10",
+        "3:17",
+        "3:4",
+        "5:11",
+        "5:13",
+        "5:6",
+        "5:7",
+        "6:12",
+        "6:14",
+        "7:14",
+        "7:22",
+        "7:3",
+        "7:4",
+        "7:8",
+        "7:9"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Explicit creature,wing,face and wheel counts retained without invented divine-person counts.",
+      "390 and40days,each day for one year,20shekels,1/6hin and three1/3shares retained without modern conversions.",
+      "Each and reciprocal one-another are distributive,not additional cardinals or dual persons."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel1–7 adds140 verses;whole Bible incomplete.",
+      "Personal visionary and quoted divine plural-I distinguished;no first-person communal speech is invented.",
+      "Repeated likeness,ambiguous spirit references,divine passives and difficult source readings remain without harmonization.",
+      "Seven common semantic entries,five contextual names;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 106,
+    "spreads": 53,
+    "units": 140,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "847e0089e963219f900c033248e63802c60311afff1ed1b2bcedb56c7a190ffb",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 53,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 14.151,
+    "modules": [
+      "tests.test_kjv_ezekiel_visionary_self",
+      "tests.test_kjv_lamentations_unanswered_prayer",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    105,
+    106
+  ],
+  "status": "incomplete Bible;Ezekiel1–7 section checkpoint verified"
+}

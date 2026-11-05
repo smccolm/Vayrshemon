@@ -1,0 +1,27 @@
+# Historical KJV 135: plural-self, ruined worlds and competing royal voices
+
+This continuation adds 93 authored verses, Isaiah 32–36, bringing Isaiah to 698 verses and whole-Bible coverage to 18,401/31,102 after validation; 12,701 remain. Earlier targets, the corrected Proverbs132 copy, and frozen Jonah remain unchanged. This is still an incomplete Bible.
+
+## Plural-I can act upon plural-self
+Isaiah33:10 explicitly names the LORD and repeats now with three first-person declarations. Plural-I rises, is exalted, and lifts plural-self; the existing iplself reflexive preserves the inward plurality without adding an external companion or a cardinal count. Divine speech continues in33:13 with plural-I and my-plural might. My-plural sword and curse34:5 resume this divine voice. In34:16 the source shifts from my mouth to his spirit; retain my-plural/his rather than forcing agreement or deriving a separate-person doctrine from the switch.
+
+## Communities, individuals and interpretive boundaries
+The prayer33:2 uses singular-we and our-one while preserving the source's their arm. The frightened group33:14 asks both fire questions as singular-we. Zion's solemnities33:20, judge/lawgiver/king33:22 and our God35:2 use shared our-one possession. The sick inhabitant33:24 remains personal-I. My people32:13 is read as the prophet's solidarity; my people32:18 is read as a shift into divine promise and therefore my-plural. This uncertain boundary is documented as a translator choice, not claimed as an explicit source speech marker. Us32:15 receives the spirit as singular-we.
+
+## Royal institutional self is not divinity
+The Assyrian royal message36:4–7 uses plural-I for the represented imperial king, while the two I forms in36:5 belong to the confidence claim attributed to Hezekiah. In36:8–12 the herald names my master and speaks personally. The direct royal quotation36:16–20 resumes institutional plural-I and my-plural. Quoted Judean trust and rescue promises36:7/15/18 use singular-we. The three individually named officials36:11 use physical we-plural for their language competence, following the earlier account; they are separate comprehenders, not an asserted single corporate person. This discourse distinction, not moral approval, controls the pronouns.
+
+## The parallel account is evidence, not replacement text
+Isaiah36 was compared verse by verse with2Kings18. Only36:9 exactly matches its corresponding supplied source sentence, and it reuses that checked construction. Isaiah36:2 names only Rabshakeh, not Tartan and Rabsaris;36:3 lacks the extra summons;36:7 has singular thou and omits a final in-Jerusalem phrase;36:14 omits out of his hand;36:17 omits the oil/honey/live-not-die extension;36:19 omits Hena and Ivah. All these differences remain. Courtesy requests use please, not literal deity-prayer. Arphad is retained as the source's written variant associated with the prior Arpad context.
+
+## Material senses and bodily words
+Six common entries add the ungenerous churl, teat, oar, galley, rigging and hatching action. Churl in32:5/7 contrasts with generosity and is distinct from merely ill-mannered churl. Liberal and bountiful use the generosity family, not modern political terminology. Teats32:12 retains the printed anatomical term rather than replacing it with another witness's breast-beating reading. Rigging33:23 is cordage; mast and sail remain separate. Lime33:12 is building material, pitch34:9 is resinous material, court34:13 is enclosure, and dumb35:6 uses the explicit mute bodily sense. The rose35:1 is the established flower, not the inherited color adjective.
+
+## Creatures and source strangeness
+Unicorns, dragons, satyr, cormorant, bittern, screech owl and great owl follow the supplied historical labels. No modern species or named demon is inserted. The source's nesting actions and mate/companion pairings remain; none is converted into a guessed egg or animal count. The ruined place is forever impassable34:10 yet inhabited by creatures in the following verses; its contradictory texture is left visible. Forever ruins32:14 stand beside until32:15. Parched ground35:7 remains dry ground rather than a substituted mirage reading. The awkward for those and though fools in35:8 remain unresolved.
+
+## Numbers, repetitions and exclamation
+The explicit numbers are one stake33:20, not one creature34:16, fourteenth regnal year36:1, two thousand horses36:8 and one captain36:9. Every one in the food promise36:16 is distributive each. LORD our judge, LORD our lawgiver and LORD our king33:22 repeat three functions without asserting three beings. Repeated now33:10 and both fire questions33:14 remain. Woe and vocative force use grammatical exclamation; no unsupported exclamation-mark glyph or altered Maxima mapping is introduced.
+
+## Validation and onward work
+All93 new verses carry source identity, analysis, back-reading, notes and critical anchors. Validate exact numbers and first-person sets, compare inherited targets, and test the new lexical senses and account-specific omissions. The overwide stammerer agent-plural32:4 is expressed analytically as they who stammer,retaining its meaning and the approved50ptfont. Native checks preserve approved fonts, leading, paragraph starts, Maxima, Unta numbering and save/reopen equality. These checks are structural and translator self-review, not independent literary certification. Continue atIsaiah37:1 toward the entire Bible in one .vay; never modernize this historical edition.

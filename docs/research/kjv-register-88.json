@@ -1,0 +1,762 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.88",
+    "parentVersion": "0.10-kjv.87",
+    "parentHead": "db3336815baf8608d38a31096e0a19e02c30d0eac87f14f11b70b9117019520f",
+    "head": "b6fd5d3ded5a5edf6fcb3ea4270874fde1f112f61106a3c8fbf2839763ca0e85",
+    "newLexicalEntries": 19,
+    "newProperEntries": 18,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 8,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 89,
+    "exactCompilerCases": 89,
+    "newAuthoredVerses": 89,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 259,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19600,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 89,
+    "chronicles2Verses": 259,
+    "authoredVerses": 11502,
+    "remainingVerses": 19600,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 20,
+    "quantityChecks": [
+      {
+        "reference": "2 Chronicles 9:6",
+        "source": "Howbeit I believed not their words, until I came, and mine eyes had seen it: and, behold, the one half of the greatness of thy wisdom was not told me: for thou exceedest the fame that I heard.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:9",
+        "source": "And she gave the king an hundred and twenty talents of gold, and of spices great abundance, and precious stones: neither was there any such spice as the queen of Sheba gave king Solomon.",
+        "expectedDecimalQuantities": [
+          120
+        ],
+        "targetQuantities": [
+          120
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:13",
+        "source": "Now the weight of gold that came to Solomon in one year was six hundred and threescore and six talents of gold;",
+        "expectedDecimalQuantities": [
+          1,
+          666
+        ],
+        "targetQuantities": [
+          1,
+          666
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:15",
+        "source": "And king Solomon made two hundred targets of beaten gold: six hundred shekels of beaten gold went to one target.",
+        "expectedDecimalQuantities": [
+          200,
+          600,
+          1
+        ],
+        "targetQuantities": [
+          200,
+          600,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:16",
+        "source": "And three hundred shields made he of beaten gold: three hundred shekels of gold went to one shield. And the king put them in the house of the forest of Lebanon.",
+        "expectedDecimalQuantities": [
+          300,
+          300,
+          1
+        ],
+        "targetQuantities": [
+          300,
+          300,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:18",
+        "source": "And there were six steps to the throne, with a footstool of gold, which were fastened to the throne, and stays on each side of the sitting place, and two lions standing by the stays:",
+        "expectedDecimalQuantities": [
+          6,
+          2
+        ],
+        "targetQuantities": [
+          6,
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:19",
+        "source": "And twelve lions stood there on the one side and on the other upon the six steps. There was not the like made in any kingdom.",
+        "expectedDecimalQuantities": [
+          12,
+          1,
+          6
+        ],
+        "targetQuantities": [
+          12,
+          1,
+          6
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:21",
+        "source": "For the king’s ships went to Tarshish with the servants of Huram: every three years once came the ships of Tarshish bringing gold, and silver, ivory, and apes, and peacocks.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:25",
+        "source": "And Solomon had four thousand stalls for horses and chariots, and twelve thousand horsemen; whom he bestowed in the chariot cities, and with the king at Jerusalem.",
+        "expectedDecimalQuantities": [
+          4000,
+          12000
+        ],
+        "targetQuantities": [
+          4000,
+          12000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:29",
+        "source": "Now the rest of the acts of Solomon, first and last, are they not written in the book of Nathan the prophet, and in the prophecy of Ahijah the Shilonite, and in the visions of Iddo the seer against Jeroboam the son of Nebat?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 9:30",
+        "source": "And Solomon reigned in Jerusalem over all Israel forty years.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "2 Chronicles 10:5",
+        "source": "And he said unto them, Come again unto me after three days. And the people departed.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 10:12",
+        "source": "So Jeroboam and all the people came to Rehoboam on the third day, as the king bade, saying, Come again to me on the third day.",
+        "expectedDecimalQuantities": [
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 11:1",
+        "source": "And when Rehoboam was come to Jerusalem, he gathered of the house of Judah and Benjamin an hundred and fourscore thousand chosen men, which were warriors, to fight against Israel, that he might bring the kingdom again to Rehoboam.",
+        "expectedDecimalQuantities": [
+          180000
+        ],
+        "targetQuantities": [
+          180000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 11:17",
+        "source": "So they strengthened the kingdom of Judah, and made Rehoboam the son of Solomon strong, three years: for three years they walked in the way of David and Solomon.",
+        "expectedDecimalQuantities": [
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 11:21",
+        "source": "And Rehoboam loved Maachah the daughter of Absalom above all his wives and his concubines: (for he took eighteen wives, and threescore concubines; and begat twenty and eight sons, and threescore daughters.)",
+        "expectedDecimalQuantities": [
+          18,
+          60,
+          28,
+          60
+        ],
+        "targetQuantities": [
+          18,
+          60,
+          28,
+          60
+        ]
+      },
+      {
+        "reference": "2 Chronicles 12:2",
+        "source": "And it came to pass, that in the fifth year of king Rehoboam Shishak king of Egypt came up against Jerusalem, because they had transgressed against the LORD,",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "2 Chronicles 12:3",
+        "source": "With twelve hundred chariots, and threescore thousand horsemen: and the people were without number that came with him out of Egypt; the Lubims, the Sukkiims, and the Ethiopians.",
+        "expectedDecimalQuantities": [
+          1200,
+          60000
+        ],
+        "targetQuantities": [
+          1200,
+          60000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 12:13",
+        "source": "So king Rehoboam strengthened himself in Jerusalem, and reigned: for Rehoboam was one and forty years old when he began to reign, and he reigned seventeen years in Jerusalem, the city which the LORD had chosen out of all the tribes of Israel, to put his name there. And his mother’s name was Naamah an Ammonitess.",
+        "expectedDecimalQuantities": [
+          41,
+          17
+        ],
+        "targetQuantities": [
+          41,
+          17
+        ]
+      },
+      {
+        "reference": "2 Chronicles 12:15",
+        "source": "Now the acts of Rehoboam, first and last, are they not written in the book of Shemaiah the prophet, and of Iddo the seer concerning genealogies? And there were wars between Rehoboam and Jeroboam continually.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "9:1": [
+        "kjv_sheba_realm",
+        "hard question:pl",
+        "kjv_camel:pl",
+        "all which in her/heart"
+      ],
+      "9:2": [
+        "all her/question:pl",
+        "nothing",
+        "tell:neg:pa"
+      ],
+      "9:3": [
+        "wisdom of kjv_solomon",
+        "house which he build:pp"
+      ],
+      "9:4": [
+        "his/kjv_table_furniture",
+        "his/kjv_cupbearer:pl and their/clothing",
+        "his/kjv_ascent",
+        "no more spirit"
+      ],
+      "9:5": [
+        "i in my/own land"
+      ],
+      "9:6": [
+        "i their/word:pl:a believe:neg:pa",
+        "one_num+half",
+        "thou fame:a exceed:pr"
+      ],
+      "9:7": [
+        "thy/man:pl",
+        "thy/servant:pl",
+        "always before thee"
+      ],
+      "9:8": [
+        "on his/throne",
+        "for kjv_lord thy/god king",
+        "judgment and justice"
+      ],
+      "9:9": [
+        "hundred and twenty kjv_talent_weight:pl",
+        "neither any such spice"
+      ],
+      "9:10": [
+        "kjv_huram_king",
+        "kjv_ophir",
+        "kjv_algum"
+      ],
+      "9:11": [
+        "kjv_terrace:pl",
+        "palace of king",
+        "harp:pl and kjv_psaltery:pl"
+      ],
+      "9:12": [
+        "all her/desire",
+        "besides that which she to king bring:pp",
+        "her/servant:pl"
+      ],
+      "9:13": [
+        "one_num year",
+        "six+hundred and kjv_three+twenty and six"
+      ],
+      "9:14": [
+        "kjv_merchant:pl and kjv_merchant:pl",
+        "kjv_arabia"
+      ],
+      "9:15": [
+        "two+hundred kjv_target_inventory:pl",
+        "six+hundred kjv_shekel:pl",
+        "one_num kjv_target_inventory"
+      ],
+      "9:16": [
+        "kjv_three+hundred shield:pl",
+        "kjv_three+hundred kjv_shekel:pl",
+        "one_num shield"
+      ],
+      "9:17": [
+        "kjv_ivory",
+        "pure gold"
+      ],
+      "9:18": [
+        "six step:pl",
+        "kjv_footstool",
+        "kjv_fasten:psv:pa",
+        "two lion:pl"
+      ],
+      "9:19": [
+        "twelve lion:pl",
+        "one_num side",
+        "six step:pl"
+      ],
+      "9:20": [
+        "none of silver",
+        "worth reckon:psv:neg:pa"
+      ],
+      "9:21": [
+        "kjv_tarshish",
+        "each kjv_three year:pl once",
+        "kjv_ape:pl and kjv_peacock:pl"
+      ],
+      "9:22": [
+        "all king:pl of earth",
+        "wealth and wisdom"
+      ],
+      "9:23": [
+        "god in his/heart put:pp"
+      ],
+      "9:24": [
+        "each man his/gift",
+        "kjv_armour",
+        "year by year"
+      ],
+      "9:25": [
+        "four+thousand kjv_horse_stall:pl",
+        "twelve+thousand kjv_horseman:pl"
+      ],
+      "9:26": [
+        "from river",
+        "kjv_philistine:pl",
+        "boundary of egypt"
+      ],
+      "9:27": [
+        "silver:a",
+        "as stone:pl",
+        "kjv_sycomore"
+      ],
+      "9:28": [
+        "from egypt and from all land:pl"
+      ],
+      "9:29": [
+        "kjv_nathan_prophet",
+        "kjv_ahijah_shilonite",
+        "kjv_iddo_seer",
+        "against kjv_jeroboam son of kjv_nebat"
+      ],
+      "9:30": [
+        "forty year:pl"
+      ],
+      "9:31": [
+        "with his/father:pl sleep:pa",
+        "kjv_rehoboam his/son"
+      ],
+      "10:1": [
+        "kjv_shechem",
+        "he:a king make:inf"
+      ],
+      "10:2": [
+        "kjv_nebat",
+        "flee:pp",
+        "from egypt return:pa"
+      ],
+      "10:3": [
+        "kjv_jeroboam and all kjv_israel"
+      ],
+      "10:4": [
+        "ourone/yoke",
+        "upon wesg:a",
+        "wesg thee:a serve:fu"
+      ],
+      "10:5": [
+        "to i after kjv_three day:pl"
+      ],
+      "10:6": [
+        "old man:pl",
+        "you:pl to i"
+      ],
+      "10:7": [
+        "kind",
+        "please:pr",
+        "good word:pl"
+      ],
+      "10:8": [
+        "counsel:a",
+        "young man:pl",
+        "bring:psv:pp up"
+      ],
+      "10:9": [
+        "you:pl",
+        "wesg to this people",
+        "to i speak:perf",
+        "upon wesg:a"
+      ],
+      "10:10": [
+        "ourone/yoke",
+        "less heavy",
+        "my/little finger",
+        "my/father kjv_loins kjv_thicker"
+      ],
+      "10:11": [
+        "ipl more to your/yoke",
+        "kjv_scourge_lash:pl",
+        "kjv_scorpion:pl"
+      ],
+      "10:12": [
+        "on third day",
+        "to i on third day"
+      ],
+      "10:13": [
+        "rough:adv",
+        "old man:pl"
+      ],
+      "10:14": [
+        "ipl to it add:fu",
+        "ipl you:pl:a with kjv_scorpion:pl"
+      ],
+      "10:15": [
+        "turn:ev of event:pl from god",
+        "kjv_ahijah_shilonite",
+        "kjv_nebat"
+      ],
+      "10:16": [
+        "wesg in kjv_david",
+        "wesg no inheritance",
+        "each man",
+        "thine own house"
+      ],
+      "10:17": [
+        "city:pl of kjv_judah",
+        "over they rule:pa"
+      ],
+      "10:18": [
+        "kjv_hadoram_tribute",
+        "he die:pa",
+        "his/chariot",
+        "kjv_jerusalem flee:inf"
+      ],
+      "10:19": [
+        "house of kjv_david",
+        "until this day"
+      ],
+      "11:1": [
+        "hundred+thousand and four+twenty+thousand",
+        "kingdom:a again to kjv_rehoboam"
+      ],
+      "11:2": [
+        "kjv_shemaiah_prophet man of god"
+      ],
+      "11:3": [
+        "all kjv_israel in kjv_judah and kjv_benjamin"
+      ],
+      "11:4": [
+        "you:pl go:neg:fu",
+        "your/brother:pl fight:neg:fu",
+        "each man",
+        "by ipl"
+      ],
+      "11:5": [
+        "for defence in kjv_judah"
+      ],
+      "11:6": [
+        "kjv_bethlehem and kjv_etam and kjv_tekoa"
+      ],
+      "11:7": [
+        "kjv_bethzur and kjv_shoco and kjv_adullam_city"
+      ],
+      "11:8": [
+        "kjv_gath and kjv_mareshah and kjv_ziph"
+      ],
+      "11:9": [
+        "kjv_adoraim and kjv_lachish and kjv_azekah"
+      ],
+      "11:10": [
+        "kjv_zorah and kjv_aijalon and kjv_hebron",
+        "fortify:psv city:pl"
+      ],
+      "11:11": [
+        "kjv_stronghold:pl",
+        "store of food and of oil and wine"
+      ],
+      "11:12": [
+        "each separate city",
+        "kjv_spear:pl",
+        "on his/side"
+      ],
+      "11:13": [
+        "all their/boundary:pl"
+      ],
+      "11:14": [
+        "their/kjv_suburb_land:pl",
+        "their/kjv_possession",
+        "kjv_jeroboam and his/son:pl"
+      ],
+      "11:15": [
+        "devil:pl",
+        "kjv_calf:pl"
+      ],
+      "11:16": [
+        "such as their/heart:pl",
+        "their/father:pl"
+      ],
+      "11:17": [
+        "kjv_three year:pl for kjv_three year:pl"
+      ],
+      "11:18": [
+        "kjv_mahalath_rehoboam",
+        "kjv_jerimoth_david",
+        "kjv_abihail_eliab",
+        "kjv_eliab_jesse"
+      ],
+      "11:19": [
+        "which to he",
+        "kjv_jeush_rehoboam",
+        "kjv_shamariah_rehoboam",
+        "kjv_zaham"
+      ],
+      "11:20": [
+        "kjv_maachah_absalom daughter of kjv_absalom",
+        "kjv_abijah_rehoboam",
+        "kjv_attai_rehoboam",
+        "kjv_ziza_rehoboam",
+        "kjv_shelomith_rehoboam"
+      ],
+      "11:21": [
+        "ten and eight wife:pl",
+        "kjv_three+twenty kjv_concubine:pl",
+        "twenty and eight son:pl",
+        "kjv_three+twenty daughter:pl"
+      ],
+      "11:22": [
+        "kjv_abijah_rehoboam son of kjv_maachah_absalom",
+        "king make:inf intend:pa"
+      ],
+      "11:23": [
+        "wise:adv act:pa",
+        "disperse:pa",
+        "many wife:pl:a desire:pa"
+      ],
+      "12:1": [
+        "kingdom:a kjv_establish:pp",
+        "law of kjv_lord:a forsake:pa"
+      ],
+      "12:2": [
+        "five:ord year",
+        "kjv_shishak"
+      ],
+      "12:3": [
+        "twelve+hundred chariot:pl",
+        "kjv_three+twenty+thousand",
+        "kjv_lubim:pl kjv_sukkiim:pl and kjv_ethiopian:pl"
+      ],
+      "12:4": [
+        "fortify:psv city:pl",
+        "kjv_jerusalem come:pa"
+      ],
+      "12:5": [
+        "you:pl ipl:a forsake:perf",
+        "ipl also you:pl:a"
+      ],
+      "12:6": [
+        "humble:caus:pa",
+        "kjv_righteous"
+      ],
+      "12:7": [
+        "ipl they:a destroy:neg:fu",
+        "some kjv_deliverance",
+        "mypl/wrath"
+      ],
+      "12:8": [
+        "his/servant:pl",
+        "mypl/service and service of kingdom:pl"
+      ],
+      "12:9": [
+        "house of kjv_lord",
+        "house of king",
+        "shield:pl of gold"
+      ],
+      "12:10": [
+        "shield:pl of kjv_brass",
+        "chief of guard",
+        "kjv_entryway"
+      ],
+      "12:11": [
+        "guard come:pa",
+        "again into guard chamber"
+      ],
+      "12:12": [
+        "humble:caus:pa",
+        "destroy:neg:pa:should",
+        "kjv_judah thing:pl well"
+      ],
+      "12:13": [
+        "one_num and forty year:pl",
+        "seventeen year:pl",
+        "kjv_naamah_ammonitess kjv_ammonitess"
+      ],
+      "12:14": [
+        "his/heart:a prepare:neg:pa"
+      ],
+      "12:15": [
+        "kjv_shemaiah_prophet",
+        "kjv_iddo_seer",
+        "kjv_genealogy:pl",
+        "war:pl"
+      ],
+      "12:16": [
+        "kjv_david bury:psv:pa",
+        "kjv_abijah_rehoboam his/son"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:12",
+        "10:5",
+        "10:6",
+        "10:9",
+        "9:5",
+        "9:6"
+      ],
+      "ipl": [
+        "10:11",
+        "10:14",
+        "11:4",
+        "12:5",
+        "12:7"
+      ],
+      "mypl": [
+        "12:7",
+        "12:8"
+      ],
+      "iplself": [],
+      "wesg": [
+        "10:10",
+        "10:16",
+        "10:4",
+        "10:9"
+      ],
+      "wepl": [],
+      "ourone": [
+        "10:10",
+        "10:4"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Half-wisdom,120talents,666annualtalents,200/600/1targets,300/300/1shields,6steps/2lions/12lions,3-yearships,4000stalls/12000horsemen,40years,third-dayrepeat,180000muster,3-yearrepeat,18/60/28/60family,year5,1200chariots/60000horsemen,age41/reign17; source forms retained. First/last source headings retain their ordinal."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Queen personal-I,royal coercive plural-I,council singular-we,petitioners singular-we,seceding singular-we and divine plural-self remain contextual. No divine person-count supplied.",
+      "All prior targets and seals unchanged, including87furniture-table corrections. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Chronicles — incomplete Bible working text",
+    "pages": 204,
+    "spreads": 102,
+    "units": 259,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "a6f91f3dbd7d72b3baf164db742d72e7559d61f31822c684d1af6c231fa33433",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 102,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.395,
+    "modules": [
+      "tests.test_kjv_chronicles_coercion_secession",
+      "tests.test_kjv_chronicles_dedication_confession",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    203,
+    204
+  ],
+  "status": "incomplete Bible; section checkpoint verified"
+}

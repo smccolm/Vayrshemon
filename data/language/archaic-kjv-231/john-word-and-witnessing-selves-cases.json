@@ -1,0 +1,686 @@
+[
+  {
+    "id": "john-1-1",
+    "analysis": "in beginning kjv_word_john be:pa and kjv_word_john with god be:pa and kjv_word_john god be:pa.",
+    "expected": "accept",
+    "expectedText": "Ni pá Ton r×izya ãÑ Ton rÇnÓ prodvar r×izya ãÑ Ton prodvar r×izya.",
+    "expectedGloss": "in · beginning · word-john · be(pst.) · and · word-john · with · god · be(pst.) · and · word-john · god · be(pst.).",
+    "interpretation": "Beginning:Word was;Word with God;Word was God.",
+    "note": "The relational with and identity predicate both remain;neither is resolved into a count or replaced by a doctrinal explanation."
+  },
+  {
+    "id": "john-1-2",
+    "analysis": "same in beginning with god be:pa.",
+    "expected": "accept",
+    "expectedText": "Ilna ni pá rÇnÓ prodvar r×izya.",
+    "expectedGloss": "same · in · beginning · with · god · be(pst.).",
+    "interpretation": "Same in beginning with God.",
+    "note": "The repeated opening relation remains deliberately repeated."
+  },
+  {
+    "id": "john-1-3",
+    "analysis": "all thing:pl by he make:psv:pa and without he any thing which make:psv:pa make:psv:neg:pa.",
+    "expected": "accept",
+    "expectedText": "Ol Ñetun Ëers zi aÙimizya ãÑ marin zi grafel Ñet Ñetib aÙimizya ma’aÙimizya.",
+    "expectedGloss": "all · thing(pl.) · by · he(sg.) · make(pass.,pst.) · and · without · he(sg.) · any · thing · which · make(pass.,pst.) · make(pass.,neg.,pst.).",
+    "interpretation": "Everything made by him;without him nothing made that was made.",
+    "note": "The comprehensive negative remains,without narrowing to only visible objects."
+  },
+  {
+    "id": "john-1-4",
+    "analysis": "in he life be:pa and life light of man:pl be:pa.",
+    "expected": "accept",
+    "expectedText": "Ni zi Õßr r×izya ãÑ Õßr b×Çr i sßlumun r×izya.",
+    "expectedGloss": "in · he(sg.) · life · be(pst.) · and · life · light · of · man(pl.) · be(pst.).",
+    "interpretation": "In him life;life men's light.",
+    "note": "Life and light remain linked predicates,not translated as interchangeable dictionary entries."
+  },
+  {
+    "id": "john-1-5",
+    "analysis": "and light in darkness shine:pr and darkness it:a comprehend:neg:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ b×Çr ni kër bçorenowya ãÑ kër poget ma’hÅbÍpomizya.",
+    "expectedGloss": "and · light · in · darkness · shine(prs.) · and · darkness · it(acc.) · comprehend(neg.,pst.).",
+    "interpretation": "Light shines in darkness;darkness did not comprehend it.",
+    "note": "The supplied comprehend wording is retained;it is not silently replaced with overcome."
+  },
+  {
+    "id": "john-1-6",
+    "analysis": "man from god send:psv:adj whose name kjv_john_baptist be:pa be:pa.",
+    "expected": "accept",
+    "expectedText": "Sßlum tha prodvar gazémim’na falibi den Jon r×izya r×izya.",
+    "expectedGloss": "man · from · god · send(pass.,adj.) · whose · name · john-baptist · be(pst.) · be(pst.).",
+    "interpretation": "Man sent from God,name John.",
+    "note": "John is the witness figure,not the Word or Light."
+  },
+  {
+    "id": "john-1-7",
+    "analysis": "same for witness come:pa of kjv_light_john testify:inf that all man:pl through he believe:may.",
+    "expected": "accept",
+    "expectedText": "Ilna t× sëven tçlizya i B×Çr sëvengiktenv×en’en ka ol sßlumun thrin zi prod’lah.",
+    "expectedGloss": "same · for · witness · come(pst.) · of · light-john · testify(inf.) · that · all · man(pl.) · through · he(sg.) · believe(possib.).",
+    "interpretation": "Came as witness to Light,that all through him might believe.",
+    "note": "The through-him phrase remains without an extra interpretation resolving its antecedent beyond the source wording."
+  },
+  {
+    "id": "john-1-8",
+    "analysis": "he that kjv_light_john be:neg:pa but of that kjv_light_john testify:inf send:psv:pa.",
+    "expected": "accept",
+    "expectedText": "Zi ka B×Çr ma’r×izya pÇnßë i ka B×Çr sëvengiktenv×en’en gazémimizya.",
+    "expectedGloss": "he(sg.) · that · light-john · be(neg.,pst.) · but · of · that · light-john · testify(inf.) · send(pass.,pst.).",
+    "interpretation": "He was not Light;sent to witness Light.",
+    "note": "The explicit negative prevents conflating witness with witnessed."
+  },
+  {
+    "id": "john-1-9",
+    "analysis": "that true kjv_light_john which every man who into world come:pr light:caus:pr be:pa.",
+    "expected": "accept",
+    "expectedText": "Ka lám B×Çr Ñetib elenol sßlum falib nira joÙol tçlowya b×Çrarowya r×izya.",
+    "expectedGloss": "that · true · light-john · which · every · man · who · into · world · come(prs.) · light(caus.,prs.) · be(pst.).",
+    "interpretation": "True Light illuminates every man coming into world.",
+    "note": "The supplied attachment to every-man-coming is retained without inserting a competing translation."
+  },
+  {
+    "id": "john-1-10",
+    "analysis": "he in world be:pa and world by he make:psv:pa and world he:a know:neg:pa.",
+    "expected": "accept",
+    "expectedText": "Zi ni joÙol r×izya ãÑ joÙol Ëers zi aÙimizya ãÑ joÙol ziget ma’hÅbÍizya.",
+    "expectedGloss": "he(sg.) · in · world · be(pst.) · and · world · by · he(sg.) · make(pass.,pst.) · and · world · he(sg.)(acc.) · know(neg.,pst.).",
+    "interpretation": "In world;world made by him;world did not know him.",
+    "note": "The repeated world remains an intentional refrain."
+  },
+  {
+    "id": "john-1-11",
+    "analysis": "to his/own come:pa and his/own he:a receive:neg:pa.",
+    "expected": "accept",
+    "expectedText": "äÃ zi’kÏbaÑ tçlizya ãÑ zi’kÏbaÑ ziget ma’mlapv×staizya.",
+    "expectedGloss": "to · his-own · come(pst.) · and · his-own · he(sg.)(acc.) · receive(neg.,pst.).",
+    "interpretation": "Came to his own;his own did not receive.",
+    "note": "The two own expressions remain without an added geographic or ethnic restriction."
+  },
+  {
+    "id": "john-1-12",
+    "analysis": "but as many as he:a receive:pa to they son:pl of god become:inf power give:pa even to they who on his/name believe:pr.",
+    "expected": "accept",
+    "expectedText": "PÇnßë kãm gimßv kãm ziget mlapv×staizya åÃ zem pelenun i prodvar gimËaÕ’en jwënen fÅwizya aleth åÃ zem falib gren zi’den prodowya.",
+    "expectedGloss": "but · as · many · as · he(sg.)(acc.) · receive(pst.) · to · they(pl.) · son(pl.) · of · god · become(inf.) · power · give(pst.) · even · to · they(pl.) · who · on · his-name · believe(prs.).",
+    "interpretation": "Receivers given power to become God's sons,believers in his name.",
+    "note": "Power to become remains distinct from an automatic assertion about every person."
+  },
+  {
+    "id": "john-1-13",
+    "analysis": "who not of blood nor of will of flesh nor of will of man but of god bear:psv:pa.",
+    "expected": "accept",
+    "expectedText": "Falib ma i zár malomih i Élm i vorin malomih i Élm i sßlum pÇnßë i prodvar aÙÕßrimizya.",
+    "expectedGloss": "who · not · of · blood · nor · of · will · of · flesh · nor · of · will · of · man · but · of · god · bear(pass.,pst.).",
+    "interpretation": "Born not blood,flesh-will,man-will,but God.",
+    "note": "All three denied origins and the affirmed origin remain;birth is not carrying."
+  },
+  {
+    "id": "john-1-14",
+    "analysis": "and kjv_word_john flesh make:psv:pa and among wesg dwell:pa and wesg his/glory behold:pa glory as of only beget:psv:adj of father full of grace and truth.",
+    "expected": "accept",
+    "expectedText": "âÑ Ton vorin aÙimizya ãÑ gurin ly zálinizya ãÑ ly zi’arvbçor oÃizya arvbçor kãm i yib’ëw pelaÙim’na i pala plesten i farprod ãÑ lám.",
+    "expectedGloss": "and · word-john · flesh · make(pass.,pst.) · and · among · we(sg.whole.) · dwell(pst.) · and · we(sg.whole.) · his-glory · behold(pst.) · glory · as · of · only · beget(pass.,adj.) · of · father · full · of · grace · and · truth.",
+    "interpretation": "Word made flesh,dwelt among we-one;we-one saw glory,only-begotten from Father,grace and truth.",
+    "note": "The witness community is singular-we. Flesh is retained,not softened to merely appearing human;the Father relation stays explicit."
+  },
+  {
+    "id": "john-1-15",
+    "analysis": "kjv_john_baptist of he testify:pa and cry:pa say:cv this he of whom i speak:pa be:pa he who after i come:pr before i prefer:psv:pr for before i be:pa.",
+    "expected": "accept",
+    "expectedText": "Jon i zi sëvengiktenv×enizya ãÑ gorenÓÅçizya tonda’es ÑeÕ zi i falib rá giktenv×izya r×izya zi falib hëth rá tçlowya pán rá énalimowya t× pán rá r×izya.",
+    "expectedGloss": "john-baptist · of · he(sg.) · testify(pst.) · and · cry(pst.) · say(cv.) · this · he(sg.) · of · whom · I(sg.) · speak(pst.) · be(pst.) · he(sg.) · who · after · I(sg.) · come(prs.) · before · I(sg.) · prefer(pass.,prs.) · for · before · I(sg.) · be(pst.).",
+    "interpretation": "John:I-person spoke of him,after me yet preferred before me,for before me.",
+    "note": "Personal witness-I and the awkward after/before distinction remain;chronological priority and rank are not flattened together."
+  },
+  {
+    "id": "john-1-16",
+    "analysis": "and from his/full:ev all wesg receive:perf and grace for grace.",
+    "expected": "accept",
+    "expectedText": "âÑ tha ef’zi’plesten ol ly mlapv×staowfu ãÑ farprod t× farprod.",
+    "expectedGloss": "and · from · his-full(nmlz.) · all · we(sg.whole.) · receive(prs.pf.) · and · grace · for · grace.",
+    "interpretation": "From his fullness all we-one received,grace for grace.",
+    "note": "The repeated grace-for-grace remains rather than a modern explanatory paraphrase."
+  },
+  {
+    "id": "john-1-17",
+    "analysis": "for law by kjv_moses give:psv:pa but grace and truth by kjv_jesus_matthew kjv_christ_title come:pa.",
+    "expected": "accept",
+    "expectedText": "T× lamthrën Ëers Moses fÅwimizya pÇnßë farprod ãÑ lám Ëers Jesus Krist tçlizya.",
+    "expectedGloss": "for · law · by · Moses · give(pass.,pst.) · but · grace · and · truth · by · jesus-matthew · Christ · come(pst.).",
+    "interpretation": "Law through Moses;grace/truth through Jesus Christ.",
+    "note": "The contrast stays as supplied without declaring the earlier law false or graceless."
+  },
+  {
+    "id": "john-1-18",
+    "analysis": "no man at any time god see:perf only beget:psv:adj son who in bosom of father be:pr he he:a declare:perf.",
+    "expected": "accept",
+    "expectedText": "Mav sßlum ni grafel venor prodvar oÃowfu yib’ëw pelaÙim’na pelen falib ni vorsevar i pala r×owya zi ziget olvensëÛgaowfu.",
+    "expectedGloss": "no · man · at · any · time · god · see(prs.pf.) · only · beget(pass.,adj.) · son · who · in · bosom · of · father · be(prs.) · he(sg.) · he(sg.)(acc.) · declare(prs.pf.).",
+    "interpretation": "No one ever saw God;only-begotten Son in Father's bosom declared him.",
+    "note": "The supplied Son and bosom wording remains;no alternate textual reading or anatomical explanation is imposed."
+  },
+  {
+    "id": "john-1-19",
+    "analysis": "and this kjv_record_witness of kjv_john_baptist when kjv_jew:pl priest:pl and kjv_levite:pl from kjv_jerusalem he:a ask:inf send:pa thou who be:pr:q be:pr.",
+    "expected": "accept",
+    "expectedText": "âÑ ÑeÕ sëven i Jon vin judahsßlumun prodvardÇvensßlumun ãÑ levisßlumun tha Jerusalem ziget wÏß’en gazémizya nel falib not’r×owya r×owya.",
+    "expectedGloss": "and · this · record-witness · of · john-baptist · when · Jew(pl.) · priest(pl.) · and · Levite(pl.) · from · Jerusalem · he(sg.)(acc.) · ask(inf.) · send(pst.) · you(fam.sg.) · who · be(prs.,qual.) · be(prs.).",
+    "interpretation": "John's testimony:priests/Levites sent from Jerusalem ask who he is.",
+    "note": "The delegation's question remains distinct from the narrator's identification of John."
+  },
+  {
+    "id": "john-1-20",
+    "analysis": "and confess:pa and deny:neg:pa but confess:pa i kjv_christ_title be:neg:pr.",
+    "expected": "accept",
+    "expectedText": "âÑ lámtondaizya ãÑ ma’matondizya pÇnßë lámtondaizya rá Krist ma’r×owya.",
+    "expectedGloss": "and · confess(pst.) · and · deny(neg.,pst.) · but · confess(pst.) · I(sg.) · Christ · be(neg.,prs.).",
+    "interpretation": "Confessed,not denied,confessed:I-person not Christ.",
+    "note": "The repeated confess wording and the denial's actual content both remain."
+  },
+  {
+    "id": "john-1-21",
+    "analysis": "and he:a ask:pa then what:q thou kjv_elias_matthew be:pr:q and say:pr i be:neg:pr thou that prophet be:pr:q and answer:pa no.",
+    "expected": "accept",
+    "expectedText": "âÑ ziget wÏßizya rav not’Ñetib nel Elijah not’r×owya ãÑ tondaowya rá ma’r×owya nel ka pátondasßlum not’r×owya ãÑ broftizya mav.",
+    "expectedGloss": "and · he(sg.)(acc.) · ask(pst.) · then · what(qual.) · you(fam.sg.) · Elias · be(prs.,qual.) · and · say(prs.) · I(sg.) · be(neg.,prs.) · you(fam.sg.) · that · prophet · be(prs.,qual.) · and · answer(pst.) · no.",
+    "interpretation": "Elijah?I-person am not.That prophet?No.",
+    "note": "These are distinct questions and replies;the tensions with other Elijah sayings are not harmonized away."
+  },
+  {
+    "id": "john-1-22",
+    "analysis": "then to he say:pa thou who be:pr:q that to they who wesg:a send:pa answer give:may of thyself what say:pr:q.",
+    "expected": "accept",
+    "expectedText": "Rav åÃ zi tondaizya nel falib not’r×owya ka åÃ zem falib lyget gazémizya broft fÅw’lah i nelir Ñetib not’tondaowya.",
+    "expectedGloss": "then · to · he(sg.) · say(pst.) · you(fam.sg.) · who · be(prs.,qual.) · that · to · they(pl.) · who · we(sg.whole.)(acc.) · send(pst.) · answer · give(possib.) · of · thyself · what · say(prs.,qual.).",
+    "interpretation": "Who are you,so we-one can answer senders?What of yourself?",
+    "note": "The deputation speaks singular-we as a shared commission."
+  },
+  {
+    "id": "john-1-23",
+    "analysis": "he say:pa i voice of person in kjv_wilderness cry:cv be:pr way of kjv_lord straight make:imp as prophet kjv_esaias say:pa.",
+    "expected": "accept",
+    "expectedText": "Zi tondaizya rá giktenv×son i sßlum ni varëljoÙ gorenÓÅç’es r×owya marjoÙ i Denarvenek jemin aÙe kãm pátondasßlum Esaias tondaizya.",
+    "expectedGloss": "he(sg.) · say(pst.) · I(sg.) · voice · of · person · in · wilderness · cry(cv.) · be(prs.) · way · of · LORD{name-lord} · straight · make(imp.) · as · prophet · esaias · say(pst.).",
+    "interpretation": "I-person a wilderness crying voice:straighten Lord's way,as Esaias said.",
+    "note": "The quoted human voice remains personal-I;the source name Esaias is preserved beside earlier Isaiah."
+  },
+  {
+    "id": "john-1-24",
+    "analysis": "and they who send:psv:pa of kjv_pharisee:pl be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ zem falib gazémimizya i Fariseun r×izya.",
+    "expectedGloss": "and · they(pl.) · who · send(pass.,pst.) · of · pharisee(pl.) · be(pst.).",
+    "interpretation": "Those sent were of Pharisees.",
+    "note": "The source affiliation is retained without a new census or party description."
+  },
+  {
+    "id": "john-1-25",
+    "analysis": "and he:a ask:pa and to he say:pa why then kjv_baptize:pr if thou that kjv_christ_title nor kjv_elias_matthew neither that prophet be:neg:pr:q.",
+    "expected": "accept",
+    "expectedText": "âÑ ziget wÏßizya ãÑ åÃ zi tondaizya horib rav meralprodnaowya mßrnav nel ka Krist malomih Elijah maneks ka pátondasßlum not’ma’r×owya.",
+    "expectedGloss": "and · he(sg.)(acc.) · ask(pst.) · and · to · he(sg.) · say(pst.) · why · then · baptize(prs.) · if · you(fam.sg.) · that · Christ · nor · Elias · neither · that · prophet · be(neg.,prs.,qual.).",
+    "interpretation": "Why baptize if neither Christ,Elijah,nor prophet?",
+    "note": "All three alternatives remain within the challenge."
+  },
+  {
+    "id": "john-1-26",
+    "analysis": "kjv_john_baptist to they answer:pa say:cv i with water kjv_baptize:pr but among you person whom know:neg:pr stand:pr.",
+    "expected": "accept",
+    "expectedText": "Jon åÃ zem broftizya tonda’es rá rÇnÓ yems× meralprodnaowya pÇnßë gurin ne sßlum falib ma’hÅbÍowya kojowya.",
+    "expectedGloss": "john-baptist · to · they(pl.) · answer(pst.) · say(cv.) · I(sg.) · with · water · baptize(prs.) · but · among · you(pol./pl.) · person · whom · know(neg.,prs.) · stand(prs.).",
+    "interpretation": "I-person baptize water;among you stands one you do not know.",
+    "note": "Person is indefinite rather than an added cardinal count."
+  },
+  {
+    "id": "john-1-27",
+    "analysis": "he who after i come:cv before i prefer:psv:pr whose shoe kjv_shoelatchet loose:inf i worthy be:neg:pr be:pr.",
+    "expected": "accept",
+    "expectedText": "Zi falib hëth rá tçl’es pán rá énalimowya falibi palin palinthiril maserfÅw’en rá farvem ma’r×owya r×owya.",
+    "expectedGloss": "he(sg.) · who · after · I(sg.) · come(cv.) · before · I(sg.) · prefer(pass.,prs.) · whose · shoe · shoe-thong · loose(inf.) · I(sg.) · worthy · be(neg.,prs.) · be(prs.).",
+    "interpretation": "After me,preferred before me;I-person unworthy to loose shoe-thong.",
+    "note": "Latchet is footwear fastening,not a door latch or the whole shoe."
+  },
+  {
+    "id": "john-1-28",
+    "analysis": "these thing:pl in kjv_bethabara_john beyond kjv_jordan where kjv_john_baptist kjv_baptize:pprog do:psv:pa.",
+    "expected": "accept",
+    "expectedText": "Ðem Ñetun ni BeÕabara nathavim Jordan kÇnib Jon meralprodnaizam f×imizya.",
+    "expectedGloss": "these · thing(pl.) · in · bethabara-john · beyond · Jordan · where · john-baptist · baptize(pst.prog.) · do(pass.,pst.).",
+    "interpretation": "At Bethabara beyond Jordan,John baptizing.",
+    "note": "Bethabara remains the supplied place-name,not a harmonized Bethany."
+  },
+  {
+    "id": "john-1-29",
+    "analysis": "next day kjv_john_baptist kjv_jesus_matthew to he come:cv see:pr and say:pr behold kjv_lamb of god which sin of world away take:pr.",
+    "expected": "accept",
+    "expectedText": "Neril yel Jon Jesus åÃ zi tçl’es oÃowya ãÑ tondaowya oÃ nevshëral i prodvar Ñetib prodmurlamet i joÙol thav çztowya.",
+    "expectedGloss": "next · day · john-baptist · jesus-matthew · to · he(sg.) · come(cv.) · see(prs.) · and · say(prs.) · behold · lamb · of · god · which · sin · of · world · away · take(prs.).",
+    "interpretation": "Next day:behold God's Lamb,taking world's sin away.",
+    "note": "Lamb remains the source image;no sacrificial procedure is inserted."
+  },
+  {
+    "id": "john-1-30",
+    "analysis": "this he of whom i say:pa after i man who before i prefer:psv:pr come:pr for before i be:pa be:pr.",
+    "expected": "accept",
+    "expectedText": "ÐeÕ zi i falib rá tondaizya hëth rá sßlum falib pán rá énalimowya tçlowya t× pán rá r×izya r×owya.",
+    "expectedGloss": "this · he(sg.) · of · whom · I(sg.) · say(pst.) · after · I(sg.) · man · who · before · I(sg.) · prefer(pass.,prs.) · come(prs.) · for · before · I(sg.) · be(pst.) · be(prs.).",
+    "interpretation": "The man after I-person,preferred before me,for before me.",
+    "note": "The repetition of the earlier testimony is intentional."
+  },
+  {
+    "id": "john-1-31",
+    "analysis": "and i he:a know:neg:pa but that to kjv_israel manifest:psv:may therefore i with water kjv_baptize:cv come:perf.",
+    "expected": "accept",
+    "expectedText": "âÑ rá ziget ma’hÅbÍizya pÇnßë ka åÃ Israel oÃplestenim’lah horrav rá rÇnÓ yems× meralprodna’es tçlowfu.",
+    "expectedGloss": "and · I(sg.) · he(sg.)(acc.) · know(neg.,pst.) · but · that · to · Israel · manifest(pass.,possib.) · therefore · I(sg.) · with · water · baptize(cv.) · come(prs.pf.).",
+    "interpretation": "I-person did not know him;came water-baptizing for manifestation to Israel.",
+    "note": "The admission of not-knowing remains beside later recognition."
+  },
+  {
+    "id": "john-1-32",
+    "analysis": "and kjv_john_baptist testify:pa say:cv i spirit from heaven as dove descend:cv see:pa and upon he remain:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Jon sëvengiktenv×enizya tonda’es rá swiflßn tha prodnar kãm muril velÃÍ’es oÃizya ãÑ gren zi dlenÛeminizya.",
+    "expectedGloss": "and · john-baptist · testify(pst.) · say(cv.) · I(sg.) · spirit · from · heaven · as · dove · descend(cv.) · see(pst.) · and · upon · he(sg.) · remain(pst.).",
+    "interpretation": "I-person saw Spirit descend like dove and remain upon him.",
+    "note": "Like-a-dove is comparison;remaining is explicit,not merely a passing flight."
+  },
+  {
+    "id": "john-1-33",
+    "analysis": "and i he:a know:neg:pa but he who i:a with water kjv_baptize:inf send:pa same to i say:pa upon whom thou spirit descend:cv and on he remain:cv see:fu same he who with holy spirit kjv_baptize:pr be:pr.",
+    "expected": "accept",
+    "expectedText": "âÑ rá ziget ma’hÅbÍizya pÇnßë zi falib ráget rÇnÓ yems× meralprodna’en gazémizya ilna åÃ rá tondaizya gren falib nel swiflßn velÃÍ’es ãÑ gren zi dlenÛemin’es oÃatya ilna zi falib rÇnÓ prodna swiflßn meralprodnaowya r×owya.",
+    "expectedGloss": "and · I(sg.) · he(sg.)(acc.) · know(neg.,pst.) · but · he(sg.) · who · I(sg.)(acc.) · with · water · baptize(inf.) · send(pst.) · same · to · I(sg.) · say(pst.) · upon · whom · you(fam.sg.) · spirit · descend(cv.) · and · on · he(sg.) · remain(cv.) · see(fut.) · same · he(sg.) · who · with · holy · spirit · baptize(prs.) · be(prs.).",
+    "interpretation": "I did not know;sender said:Spirit descending and remaining identifies Holy-Spirit baptizer.",
+    "note": "The sender's quoted second-person instruction adds no unstated first-person identity;Spirit is not ghost-apparition."
+  },
+  {
+    "id": "john-1-34",
+    "analysis": "and i see:pa and testify:pa that this son of god be:pr.",
+    "expected": "accept",
+    "expectedText": "âÑ rá oÃizya ãÑ sëvengiktenv×enizya ka ÑeÕ pelen i prodvar r×owya.",
+    "expectedGloss": "and · I(sg.) · see(pst.) · and · testify(pst.) · that · this · son · of · god · be(prs.).",
+    "interpretation": "I-person saw and testified:Son of God.",
+    "note": "The testimony is John's report and is not merged with Jesus's own speaking voice."
+  },
+  {
+    "id": "john-1-35",
+    "analysis": "again next day kjv_john_baptist and two of his/disciple:pl stand:pa.",
+    "expected": "accept",
+    "expectedText": "Tav neril yel Jon ãÑ ÓÅtus i zi’pomsßlumun kojizya.",
+    "expectedGloss": "again · next · day · john-baptist · and · two · of · his-disciple(pl.) · stand(pst.).",
+    "interpretation": "Next day John and two disciples stood.",
+    "note": "The two counts disciples,not a total group of two including John."
+  },
+  {
+    "id": "john-1-36",
+    "analysis": "and upon kjv_jesus_matthew as walk:pa look:cv say:pr kjv_lamb of god behold:imp:excl.",
+    "expected": "accept",
+    "expectedText": "âÑ gren Jesus kãm mårizya veritas’es tondaowya nevshëral i prodvar oÃe’hÅ.",
+    "expectedGloss": "and · upon · jesus-matthew · as · walk(pst.) · look(cv.) · say(prs.) · lamb · of · god · behold(imp.,excl.).",
+    "interpretation": "Behold God's Lamb.",
+    "note": "The source exclamation uses morphological emphasis rather than an unsupported punctuation glyph."
+  },
+  {
+    "id": "john-1-37",
+    "analysis": "and two disciple:pl he speak:cv hear:pa and they:du kjv_jesus_matthew follow:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ ÓÅtus pomsßlumun zi giktenv×’es jÍizya ãÑ zemet Jesus akradizya.",
+    "expectedGloss": "and · two · disciple(pl.) · he(sg.) · speak(cv.) · hear(pst.) · and · they(pl.)(du.) · jesus-matthew · follow(pst.).",
+    "interpretation": "Two disciples heard and followed.",
+    "note": "The actual pair begins a dual reference chain."
+  },
+  {
+    "id": "john-1-38",
+    "analysis": "then kjv_jesus_matthew turn:pa and they:du follow:cv see:pa and to they:du say:pr what you:du seek:pr:q they:du to he say:pa kjv_rabbi which interpret:psv:cv master say:inf be:pr where thou dwell:pr:q.",
+    "expected": "accept",
+    "expectedText": "Rav Jesus elyiÑizya ãÑ zemet akrad’es oÃizya ãÑ åÃ zemet tondaowya Ñetib neet not’t×yßbßkeldeÛonowya zemet åÃ zi tondaizya rabi Ñetib kÅbÏfim’es marven tonda’en r×owya kÇnib nel not’zálinowya.",
+    "expectedGloss": "then · jesus-matthew · turn(pst.) · and · they(pl.)(du.) · follow(cv.) · see(pst.) · and · to · they(pl.)(du.) · say(prs.) · what · you(pol./pl.)(du.) · seek(prs.,qual.) · they(pl.)(du.) · to · he(sg.) · say(pst.) · Rabbi · which · interpret(pass.,cv.) · master · say(inf.) · be(prs.) · where · you(fam.sg.) · dwell(prs.,qual.).",
+    "interpretation": "You-two seek what?Rabbi—interpreted Master—where dwell?",
+    "note": "The title and its explicit source interpretation both remain."
+  },
+  {
+    "id": "john-1-39",
+    "analysis": "to they:du say:pr come:imp and see:imp they:du come:pa and where dwell:pa see:pa and that day with he remain:pa for about ten:ord hour be:pa.",
+    "expected": "accept",
+    "expectedText": "äÃ zemet tondaowya tçle ãÑ oÃe zemet tçlizya ãÑ kÇnib zálinizya oÃizya ãÑ ka yel rÇnÓ zi dlenÛeminizya t× grem eÛnÉ’t ventin r×izya.",
+    "expectedGloss": "to · they(pl.)(du.) · say(prs.) · come(imp.) · and · see(imp.) · they(pl.)(du.) · come(pst.) · and · where · dwell(pst.) · see(pst.) · and · that · day · with · he(sg.) · remain(pst.) · for · about · ten(ord.) · hour · be(pst.).",
+    "interpretation": "The two came,saw,stayed that day;about tenth hour.",
+    "note": "The approximate source hour is retained without conversion to a clock convention."
+  },
+  {
+    "id": "john-1-40",
+    "analysis": "one_num of two who kjv_john_baptist speak:cv hear:pa and he:a follow:pa kjv_andrew_disciple brother of kjv_simon_peter kjv_peter_disciple be:pa.",
+    "expected": "accept",
+    "expectedText": "Neksus i ÓÅtus falib Jon giktenv×’es jÍizya ãÑ ziget akradizya Andru palil i Simon Peter r×izya.",
+    "expectedGloss": "one · of · two · who · john-baptist · speak(cv.) · hear(pst.) · and · he(sg.)(acc.) · follow(pst.) · andrew-disciple · brother · of · simon-peter · peter-disciple · be(pst.).",
+    "interpretation": "One of two was Andrew,Simon Peter's brother.",
+    "note": "The other disciple remains unnamed;Simon Peter is one person with both source designations."
+  },
+  {
+    "id": "john-1-41",
+    "analysis": "he first his/own brother kjv_simon_peter find:pr and to he say:pr we:du kjv_messias_john find:perf which interpret:psv:cv kjv_christ_title be:pr.",
+    "expected": "accept",
+    "expectedText": "Zi neks zi’kÏbaÑ palil Simon t×yßbßowya ãÑ åÃ zi tondaowya lyet Mesias t×yßbßowfu Ñetib kÅbÏfim’es Krist r×owya.",
+    "expectedGloss": "he(sg.) · first · his-own · brother · simon-peter · find(prs.) · and · to · he(sg.) · say(prs.) · we(coll./royal)(du.) · messias-john · find(prs.pf.) · which · interpret(pass.,cv.) · Christ · be(prs.).",
+    "interpretation": "First finds brother:we-two found Messias,interpreted Christ.",
+    "note": "We-two refers back to the actual finding pair;the interpretation remains separate from the loan-name."
+  },
+  {
+    "id": "john-1-42",
+    "analysis": "and to kjv_jesus_matthew he:a bring:pa and when kjv_jesus_matthew he:a behold:pa say:pa thou kjv_simon_peter son of kjv_jona_simon_father be:pr thou kjv_cephas_john call:psv:fu which by interpret:ev stone be:pr.",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ Jesus ziget yÉnenizya ãÑ vin Jesus ziget oÃizya tondaizya nel Simon pelen i Jona r×owya nel Kefas ÓÅçimatya Ñetib Ëers ef’kÅbÏf kwesta r×owya.",
+    "expectedGloss": "and · to · jesus-matthew · he(sg.)(acc.) · bring(pst.) · and · when · jesus-matthew · he(sg.)(acc.) · behold(pst.) · say(pst.) · you(fam.sg.) · simon-peter · son · of · jona-simon-father · be(prs.) · you(fam.sg.) · cephas-john · call(pass.,fut.) · which · by · interpret(nmlz.) · stone · be(prs.).",
+    "interpretation": "Simon son of Jona shall be Cephas,interpreted stone.",
+    "note": "Jona is not the prophet Jonah;name and supplied stone explanation remain distinct."
+  },
+  {
+    "id": "john-1-43",
+    "analysis": "following day kjv_jesus_matthew into kjv_galilee forth go:inf will:pa and kjv_philip_apostle find:pr and to he say:pr ipl:a follow:imp.",
+    "expected": "accept",
+    "expectedText": "Akrad yel Jesus nira Galile thar ÃÍ’en Élmizya ãÑ Filip t×yßbßowya ãÑ åÃ zi tondaowya ráunget akrade.",
+    "expectedGloss": "following · day · jesus-matthew · into · Galilee · forth · go(inf.) · will(pst.) · and · philip-apostle · find(prs.) · and · to · he(sg.) · say(prs.) · I(pl.self.)(acc.) · follow(imp.).",
+    "interpretation": "Next day,to Galilee,finds Philip:follow I-many.",
+    "note": "Direct Jesus first person is plural-self;Philip remains the individual addressee."
+  },
+  {
+    "id": "john-1-44",
+    "analysis": "now kjv_philip_apostle from kjv_bethsaida city of kjv_andrew_disciple and kjv_peter_disciple be:pa.",
+    "expected": "accept",
+    "expectedText": "Ven Filip tha BeÕsaida zálagur i Andru ãÑ Peter r×izya.",
+    "expectedGloss": "now · philip-apostle · from · bethsaida · city · of · andrew-disciple · and · peter-disciple · be(pst.).",
+    "interpretation": "Philip of Bethsaida,Andrew/Peter's city.",
+    "note": "The city relation does not assert the three are brothers."
+  },
+  {
+    "id": "john-1-45",
+    "analysis": "kjv_philip_apostle kjv_nathanael_john find:pr and to he say:pr wesg he of whom kjv_moses in law and prophet:pl write:pa kjv_jesus_matthew of kjv_nazareth son of kjv_joseph_mary find:perf.",
+    "expected": "accept",
+    "expectedText": "Filip NaÕanael t×yßbßowya ãÑ åÃ zi tondaowya ly zi i falib Moses ni lamthrën ãÑ pátondasßlumun Ývizya Jesus i NazareÕ pelen i Josef t×yßbßowfu.",
+    "expectedGloss": "philip-apostle · nathanael-john · find(prs.) · and · to · he(sg.) · say(prs.) · we(sg.whole.) · he(sg.) · of · whom · Moses · in · law · and · prophet(pl.) · write(pst.) · jesus-matthew · of · nazareth · son · of · joseph-mary · find(prs.pf.).",
+    "interpretation": "Philip:we-one found the one written of,Jesus of Nazareth,Joseph's son.",
+    "note": "The enlarged witness company is singular-we;Joseph-son is Philip's supplied identification,not a rewritten genealogy claim."
+  },
+  {
+    "id": "john-1-46",
+    "analysis": "and kjv_nathanael_john to he say:pa from kjv_nazareth any good thing come:can:q kjv_philip_apostle to he say:pr come:imp and see:imp.",
+    "expected": "accept",
+    "expectedText": "âÑ NaÕanael åÃ zi tondaizya tha NazareÕ grafel far Ñet not’tçl’jwën Filip åÃ zi tondaowya tçle ãÑ oÃe.",
+    "expectedGloss": "and · nathanael-john · to · he(sg.) · say(pst.) · from · nazareth · any · good · thing · come(abil.,qual.) · philip-apostle · to · he(sg.) · say(prs.) · come(imp.) · and · see(imp.).",
+    "interpretation": "Can good come from Nazareth?Come and see.",
+    "note": "The skeptical locality question remains without the translator endorsing prejudice against its people."
+  },
+  {
+    "id": "john-1-47",
+    "analysis": "kjv_jesus_matthew kjv_nathanael_john to he come:cv see:pa and of he say:pr indeed kjv_israelite in whom no kjv_guile be:pr behold:imp:excl.",
+    "expected": "accept",
+    "expectedText": "Jesus NaÕanael åÃ zi tçl’es oÃizya ãÑ i zi tondaowya lamëw israelsßlum ni falib mav tratékwÅvumen r×owya oÃe’hÅ.",
+    "expectedGloss": "jesus-matthew · nathanael-john · to · he(sg.) · come(cv.) · see(pst.) · and · of · he(sg.) · say(prs.) · indeed · Israelite · in · whom · no · guile · be(prs.) · behold(imp.,excl.).",
+    "interpretation": "Behold an Israelite indeed,without guile.",
+    "note": "Guile is deceit,not craft skill;the emphatic praise remains a speaker judgment."
+  },
+  {
+    "id": "john-1-48",
+    "analysis": "kjv_nathanael_john to he say:pr from where i:a know:pr:q kjv_jesus_matthew answer:pa and to he say:pa before kjv_philip_apostle thee:a call:pa when under fig kjv_tree be:pa ipl thee:a see:pa.",
+    "expected": "accept",
+    "expectedText": "NaÕanael åÃ zi tondaowya tha kÇnib ráget not’hÅbÍowya Jesus broftizya ãÑ åÃ zi tondaizya pán Filip nelget ÓÅçizya vin grel figil yëlverzet r×izya ráun nelget oÃizya.",
+    "expectedGloss": "nathanael-john · to · he(sg.) · say(prs.) · from · where · I(sg.)(acc.) · know(prs.,qual.) · jesus-matthew · answer(pst.) · and · to · he(sg.) · say(pst.) · before · philip-apostle · you(fam.sg.)(acc.) · call(pst.) · when · under · fig · tree · be(pst.) · I(pl.self.) · you(fam.sg.)(acc.) · see(pst.).",
+    "interpretation": "How know I-person?Before Philip called,under fig tree,I-many saw you.",
+    "note": "The questioner's personal-I and answerer's plural-I remain distinct in the same verse."
+  },
+  {
+    "id": "john-1-49",
+    "analysis": "kjv_nathanael_john answer:pa and to he say:pr kjv_rabbi thou son of god be:pr thou king of kjv_israel be:pr.",
+    "expected": "accept",
+    "expectedText": "NaÕanael broftizya ãÑ åÃ zi tondaowya rabi nel pelen i prodvar r×owya nel varßn i Israel r×owya.",
+    "expectedGloss": "nathanael-john · answer(pst.) · and · to · he(sg.) · say(prs.) · Rabbi · you(fam.sg.) · son · of · god · be(prs.) · you(fam.sg.) · king · of · Israel · be(prs.).",
+    "interpretation": "Rabbi,you Son of God,you king of Israel.",
+    "note": "Both titles remain without merging them into one new compound deity-name."
+  },
+  {
+    "id": "john-1-50",
+    "analysis": "kjv_jesus_matthew answer:pa and to he say:pa because ipl to thee say:pa ipl thee:a under fig kjv_tree see:pa believe:pr:q greater thing:pl than these see:fu.",
+    "expected": "accept",
+    "expectedText": "Jesus broftizya ãÑ åÃ zi tondaizya kenst ráun åÃ nel tondaizya ráun nelget grel figil yëlverzet oÃizya not’prodowya yÍ×goren Ñetun kãv Ñem oÃatya.",
+    "expectedGloss": "jesus-matthew · answer(pst.) · and · to · he(sg.) · say(pst.) · because · I(pl.self.) · to · you(fam.sg.) · say(pst.) · I(pl.self.) · you(fam.sg.)(acc.) · under · fig · tree · see(pst.) · believe(prs.,qual.) · greater · thing(pl.) · than · these · see(fut.).",
+    "interpretation": "Because I-many said I saw you,believe?You shall see greater.",
+    "note": "The embedded first person is the same Jesus voice,not a new quoted speaker."
+  },
+  {
+    "id": "john-1-51",
+    "analysis": "and to he say:pr truly truly ipl to you say:pr after this heaven open:adj and angel:pl of god upon son of man up go:cv and descend:cv see:fu.",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ zi tondaowya lámëw lámëw ráun åÃ ne tondaowya hëth ÑeÕ prodnar Åel’na ãÑ prodnargazémsßlumun i prodvar gren pelen i sßlum ner ÃÍ’es ãÑ velÃÍ’es oÃatya.",
+    "expectedGloss": "and · to · he(sg.) · say(prs.) · truly · truly · I(pl.self.) · to · you(pol./pl.) · say(prs.) · after · this · heaven · open(adj.) · and · angel(pl.) · of · god · upon · son · of · man · up · go(cv.) · and · descend(cv.) · see(fut.).",
+    "interpretation": "Truly,truly,I-many to you-all:opened heaven,angels ascending/descending on Son of man.",
+    "note": "The shift from singular addressee to plural you is retained;the saying is not restricted to a newly invented pair."
+  },
+  {
+    "id": "john-2-1",
+    "analysis": "and third day in kjv_cana_john of kjv_galilee marriage be:pa and mother of kjv_jesus_matthew there be:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ venik’t yel ni Kana i Galile zeril r×izya ãÑ mela i Jesus kinos r×izya.",
+    "expectedGloss": "and · third · day · in · cana-john · of · Galilee · marriage · be(pst.) · and · mother · of · jesus-matthew · there · be(pst.).",
+    "interpretation": "Third day,wedding in Cana Galilee;Jesus's mother there.",
+    "note": "Third-day marker remains without calculating it against a later passion chronology."
+  },
+  {
+    "id": "john-2-2",
+    "analysis": "and kjv_jesus_matthew and his/disciple:pl to marriage call:psv:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ Jesus ãÑ zi’pomsßlumun åÃ zeril ÓÅçimizya.",
+    "expectedGloss": "and · jesus-matthew · and · his-disciple(pl.) · to · marriage · call(pass.,pst.).",
+    "interpretation": "Jesus and disciples invited to wedding.",
+    "note": "Both links two categories,not exactly two attendees;no false dual is added."
+  },
+  {
+    "id": "john-2-3",
+    "analysis": "and when wine lack:pa mother of kjv_jesus_matthew to he say:pr wine have:neg:pr.",
+    "expected": "accept",
+    "expectedText": "âÑ vin mërven mavsifizya mela i Jesus åÃ zi tondaowya mërven ma’sÇfowya.",
+    "expectedGloss": "and · when · wine · lack(pst.) · mother · of · jesus-matthew · to · he(sg.) · say(prs.) · wine · have(neg.,prs.).",
+    "interpretation": "Wine lacking;mother says they have no wine.",
+    "note": "Wanted means lacked,not merely wished for a different drink."
+  },
+  {
+    "id": "john-2-4",
+    "analysis": "kjv_jesus_matthew to she say:pr woman what ipl with thee do:inf have:pr:q mypl/hour yet come:neg:perf.",
+    "expected": "accept",
+    "expectedText": "Jesus åÃ za tondaowya salena Ñetib ráun rÇnÓ nel f×’en not’sÇfowya ráun’ventin venim ma’tçlowfu.",
+    "expectedGloss": "jesus-matthew · to · she(sg.) · say(prs.) · woman · what · I(pl.self.) · with · you(fam.sg.) · do(inf.) · have(prs.,qual.) · my(pl.self.)-hour · yet · come(neg.,prs.pf.).",
+    "interpretation": "Woman,what I-many with you?My-many hour not yet come.",
+    "note": "The awkward address and distancing question remain instead of being rewritten as polite agreement."
+  },
+  {
+    "id": "john-2-5",
+    "analysis": "his/mother to servant:pl say:pr whatever to you say:pr it:a do:imp.",
+    "expected": "accept",
+    "expectedText": "Zi’mela åÃ dÇvun tondaowya Ñetibgrafel åÃ ne tondaowya poget f×e.",
+    "expectedGloss": "his-mother · to · servant(pl.) · say(prs.) · whatever · to · you(pol./pl.) · say(prs.) · it(acc.) · do(imp.).",
+    "interpretation": "Mother tells servants:do whatever he says.",
+    "note": "Her instruction remains distinct from an order by the wedding ruler."
+  },
+  {
+    "id": "john-2-6",
+    "analysis": "and there six kjv_waterpot_john:pl of stone as manner of purify:ev of kjv_jew:pl set:psv:pa each two or three kjv_firkin_source:pl contain:cv.",
+    "expected": "accept",
+    "expectedText": "âÑ kinos ßd×um yems×potenun i kwesta kãm fÇl i ef’yataÙ i judahsßlumun hyÅvÍimizya elen ÓÅtus lomih venik firkinun niglÉzËen’es.",
+    "expectedGloss": "and · there · six · waterpot(pl.) · of · stone · as · manner · of · purify(nmlz.) · of · Jew(pl.) · set(pass.,pst.) · each · two · or · three · firkin{source}(pl.) · contain(cv.).",
+    "interpretation": "Six stone waterpots for purification,two or three firkins each.",
+    "note": "Six vessels and alternative two-or-three capacities remain;no sum of five or precise total volume is invented."
+  },
+  {
+    "id": "john-2-7",
+    "analysis": "kjv_jesus_matthew to they say:pr kjv_waterpot_john:pl with water fill:imp and to brim they:a fill:pa.",
+    "expected": "accept",
+    "expectedText": "Jesus åÃ zem tondaowya yems×potenun rÇnÓ yems× pleste ãÑ åÃ borelthren zemget plestizya.",
+    "expectedGloss": "jesus-matthew · to · they(pl.) · say(prs.) · waterpot(pl.) · with · water · fill(imp.) · and · to · brim · they(pl.)(acc.) · fill(pst.).",
+    "interpretation": "Fill pots with water;filled to brim.",
+    "note": "The liquid and fill limit remain explicit."
+  },
+  {
+    "id": "john-2-8",
+    "analysis": "and to they say:pr now out draw:imp and to ruler of feast carry:imp and it:a carry:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ zem tondaowya ven thar kloje ãÑ åÃ varßnensßlum i yéÛna ÛÇde ãÑ poget ÛÇdizya.",
+    "expectedGloss": "and · to · they(pl.) · say(prs.) · now · out · draw(imp.) · and · to · ruler · of · feast · carry(imp.) · and · it(acc.) · carry(pst.).",
+    "interpretation": "Draw now,carry to feast ruler;they carried.",
+    "note": "Governor is the feast's supervising role,not a Roman political governor."
+  },
+  {
+    "id": "john-2-9",
+    "analysis": "when ruler of feast water which wine make:psv:pp taste:pp and from where be:pa know:neg:pa but servant:pl who water draw:pa know:pa ruler of feast kjv_bridegroom call:pa.",
+    "expected": "accept",
+    "expectedText": "Vin varßnensßlum i yéÛna yems× Ñetib mërven aÙimizfu ÑéÙizfu ãÑ tha kÇnib r×izya ma’hÅbÍizya pÇnßë dÇvun falib yems× klojizya hÅbÍizya varßnensßlum i yéÛna zerilzeren ÓÅçizya.",
+    "expectedGloss": "when · ruler · of · feast · water · which · wine · make(pass.,pst.pf.) · taste(pst.pf.) · and · from · where · be(pst.) · know(neg.,pst.) · but · servant(pl.) · who · water · draw(pst.) · know(pst.) · ruler · of · feast · bridegroom · call(pst.).",
+    "interpretation": "Ruler tasted water-made-wine,not knowing origin;drawing servants knew;called bridegroom.",
+    "note": "The unequal knowledge of ruler and servants remains alongside the transformation claim."
+  },
+  {
+    "id": "john-2-10",
+    "analysis": "and to he say:pr every man at beginning good wine forth set:pr and when man:pl well drink:perf then worse but thou good wine until now keep:perf.",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ zi tondaowya elenol sßlum ni pá far mërven thar hyÅvÍowya ãÑ vin sßlumun faren mërowfu rav muryÍ× pÇnßë nel far mërven vinto ven jemãowfu.",
+    "expectedGloss": "and · to · he(sg.) · say(prs.) · every · man · at · beginning · good · wine · forth · set(prs.) · and · when · man(pl.) · well · drink(prs.pf.) · then · worse · but · you(fam.sg.) · good · wine · until · now · keep(prs.pf.).",
+    "interpretation": "Good wine first,then worse after much drinking;you kept good until now.",
+    "note": "The ruler's generalization and surprise are not converted into a narrator's drinking recommendation."
+  },
+  {
+    "id": "john-2-11",
+    "analysis": "this beginning of miracle:pl kjv_jesus_matthew in kjv_cana_john of kjv_galilee do:pa and his/glory manifest:pa and his/disciple:pl on he believe:pa.",
+    "expected": "accept",
+    "expectedText": "ÐeÕ pá i prodnarhÉftÍun Jesus ni Kana i Galile f×izya ãÑ zi’arvbçor oÃplestenizya ãÑ zi’pomsßlumun gren zi prodizya.",
+    "expectedGloss": "this · beginning · of · miracle(pl.) · jesus-matthew · in · cana-john · of · Galilee · do(pst.) · and · his-glory · manifest(pst.) · and · his-disciple(pl.) · on · he(sg.) · believe(pst.).",
+    "interpretation": "Beginning of miracles in Cana,glory shown,disciples believed.",
+    "note": "Beginning is retained without adding a cardinal first token where the source gives a noun."
+  },
+  {
+    "id": "john-2-12",
+    "analysis": "after this to kjv_capernaum down go:pa he and his/mother and his/brother:pl and his/disciple:pl and there not many day:pl continue:pa.",
+    "expected": "accept",
+    "expectedText": "Hëth ÑeÕ åÃ Kapernaum vel ÃÍizya zi ãÑ zi’mela ãÑ zi’palilun ãÑ zi’pomsßlumun ãÑ kinos ma gimßv yelun vÅlf×izya.",
+    "expectedGloss": "after · this · to · capernaum · down · go(pst.) · he(sg.) · and · his-mother · and · his-brother(pl.) · and · his-disciple(pl.) · and · there · not · many · day(pl.) · continue(pst.).",
+    "interpretation": "He,mother,brothers,disciples went Capernaum,stayed not many days.",
+    "note": "All four named participant groups remain;brothers are not replaced by an unstated kin category."
+  },
+  {
+    "id": "john-2-13",
+    "analysis": "and kjv_passover of kjv_jew:pl near be:pa and kjv_jesus_matthew to kjv_jerusalem up go:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ thrinÃÍna i judahsßlumun nerin r×izya ãÑ Jesus åÃ Jerusalem ner ÃÍizya.",
+    "expectedGloss": "and · pass-over{rite} · of · Jew(pl.) · near · be(pst.) · and · jesus-matthew · to · Jerusalem · up · go(pst.).",
+    "interpretation": "Passover near;Jesus up to Jerusalem.",
+    "note": "The source's early narrative placement is not moved to match another Gospel."
+  },
+  {
+    "id": "john-2-14",
+    "analysis": "and in kjv_temple they who ox:pl and sheep and dove:pl sell:pa and money exchange:ag:pl sit:cv find:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ ni straszál zem falib borënun ãÑ shëral ãÑ murilun ãÑtizya ãÑ zarven leÛÇfÅwsßlumun veÕ’es t×yßbßizya.",
+    "expectedGloss": "and · in · temple{apart-house} · they(pl.) · who · ox(pl.) · and · sheep · and · dove(pl.) · sell(pst.) · and · money · exchange(agt.,pl.) · sit(cv.) · find(pst.).",
+    "interpretation": "Temple:ox,sheep,dove sellers and seated money exchangers.",
+    "note": "All three animal categories and the exchangers remain."
+  },
+  {
+    "id": "john-2-15",
+    "analysis": "and when from small kjv_cord:pl kjv_scourge_lash make:pp all they out of kjv_temple drive:pa and sheep and ox:pl and exchange:ag:pl money out pour:pa and kjv_table_furniture:pl kjv_overthrow:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ vin tha vimin kordelun vernÑet aÙizfu ol zem thar i straszál terastizya ãÑ shëral ãÑ borënun ãÑ leÛÇfÅwsßlumun zarven thar yemsdaÃizya ãÑ tabilun veltarnizya.",
+    "expectedGloss": "and · when · from · small · cord(pl.) · scourge · make(pst.pf.) · all · they(pl.) · out · of · temple{apart-house} · drive(pst.) · and · sheep · and · ox(pl.) · and · exchange(agt.,pl.) · money · out · pour(pst.) · and · table{furniture}(pl.) · overthrow{down-cast}(pst.).",
+    "interpretation": "Small-cord lash;drove all out with sheep/oxen,poured money,overturned tables.",
+    "note": "The source's scope remains without inventing named injuries or erasing the lash and physical disruption."
+  },
+  {
+    "id": "john-2-16",
+    "analysis": "and to they who dove:pl sell:pa say:pa these thing:pl from here take:imp house of mypl/father house of trade:ev make:neg:imp.",
+    "expected": "accept",
+    "expectedText": "âÑ åÃ zem falib murilun ãÑtizya tondaizya Ñem Ñetun tha kin çzte zál i ráun’pala zál i ef’kwist ma’aÙe.",
+    "expectedGloss": "and · to · they(pl.) · who · dove(pl.) · sell(pst.) · say(pst.) · these · thing(pl.) · from · here · take(imp.) · house · of · my(pl.self.)-father · house · of · trade(nmlz.) · make(neg.,imp.).",
+    "interpretation": "Dove sellers:take these;my-many Father's house not trade-house.",
+    "note": "Father remains the possessed relation;the addressees are specifically the dove sellers here."
+  },
+  {
+    "id": "john-2-17",
+    "analysis": "and his/disciple:pl remember:pa that write:psv:pp kjv_zeal of thine/house i:a up eat:perf.",
+    "expected": "accept",
+    "expectedText": "âÑ zi’pomsßlumun tarÕizya ka Ývimizfu sevarzarunplesten i nel’i’zál ráget ner wemowfu.",
+    "expectedGloss": "and · his-disciple(pl.) · remember(pst.) · that · write(pass.,pst.pf.) · zeal · of · thine-house · I(sg.)(acc.) · up · eat(prs.pf.).",
+    "interpretation": "Disciples remembered written:your-house zeal ate I-person up.",
+    "note": "The quoted psalm's personal-I remains inside a remembered text;it is not automatically changed into direct Jesus plural-self."
+  },
+  {
+    "id": "john-2-18",
+    "analysis": "then kjv_jew:pl answer:pa and to he say:pa what sign to wesg show:pr because these thing:pl do:pr:q.",
+    "expected": "accept",
+    "expectedText": "Rav judahsßlumun broftizya ãÑ åÃ zi tondaizya Ñetib jelam åÃ ly glÉstowya kenst Ñem Ñetun not’f×owya.",
+    "expectedGloss": "then · Jew(pl.) · answer(pst.) · and · to · he(sg.) · say(pst.) · what · sign · to · we(sg.whole.) · show(prs.) · because · these · thing(pl.) · do(prs.,qual.).",
+    "interpretation": "What sign show we-one for doing this?",
+    "note": "The challenging group speaks singular-we as a shared demand."
+  },
+  {
+    "id": "john-2-19",
+    "analysis": "kjv_jesus_matthew answer:pa and to they say:pa this kjv_temple destroy:imp and in three day:pl ipl it:a up raise:fu.",
+    "expected": "accept",
+    "expectedText": "Jesus broftizya ãÑ åÃ zem tondaizya ÑeÕ straszál ÍgÅe ãÑ ni venik yelun ráun poget ner naoraÙatya.",
+    "expectedGloss": "jesus-matthew · answer(pst.) · and · to · they(pl.) · say(pst.) · this · temple{apart-house} · destroy(imp.) · and · in · three · day(pl.) · I(pl.self.) · it(acc.) · up · raise(fut.).",
+    "interpretation": "Destroy this temple;in three days I-many raise it.",
+    "note": "The destructive imperative and promise remain before the narrator's body explanation."
+  },
+  {
+    "id": "john-2-20",
+    "analysis": "then kjv_jew:pl say:pa three+twelve and ten year:pl this kjv_temple build:psv:pprog and thou in three day:pl it:a up raise:fu:q.",
+    "expected": "accept",
+    "expectedText": "Rav judahsßlumun tondaizya venikÉm×nß ãÑ eÛnÉ venalun ÑeÕ straszál zálaimizam ãÑ nel ni venik yelun poget ner not’naoraÙatya.",
+    "expectedGloss": "then · Jew(pl.) · say(pst.) · three-twelve · and · ten · year(pl.) · this · temple{apart-house} · build(pass.,pst.prog.) · and · you(fam.sg.) · in · three · day(pl.) · it(acc.) · up · raise(fut.,qual.).",
+    "interpretation": "Forty-six years building;you raise in three days?",
+    "note": "Forty-six and three remain distinct;no completion-date or modern calendar is added."
+  },
+  {
+    "id": "john-2-21",
+    "analysis": "but of kjv_temple of his/body speak:pa.",
+    "expected": "accept",
+    "expectedText": "PÇnßë i straszál i zi’vor giktenv×izya.",
+    "expectedGloss": "but · of · temple{apart-house} · of · his-body · speak(pst.).",
+    "interpretation": "He spoke of body-temple.",
+    "note": "The narrator supplies this explanation here;it is not moved ahead into the initial question."
+  },
+  {
+    "id": "john-2-22",
+    "analysis": "when therefore from dead person:pl rise:pp his/disciple:pl that to they this say:pp remember:pa and writing and word which kjv_jesus_matthew say:pp believe:pa.",
+    "expected": "accept",
+    "expectedText": "Vin horrav tha n×nna sßlumun nerÃÍizfu zi’pomsßlumun ka åÃ zem ÑeÕ tondaizfu tarÕizya ãÑ Ýv ãÑ ton Ñetib Jesus tondaizfu prodizya.",
+    "expectedGloss": "when · therefore · from · dead · person(pl.) · rise(pst.pf.) · his-disciple(pl.) · that · to · they(pl.) · this · say(pst.pf.) · remember(pst.) · and · writing · and · word · which · jesus-matthew · say(pst.pf.) · believe(pst.).",
+    "interpretation": "After rising,disciples remembered and believed writing and his word.",
+    "note": "The retrospective timing is retained rather than giving them full understanding at the first hearing."
+  },
+  {
+    "id": "john-2-23",
+    "analysis": "now when in kjv_jerusalem at kjv_passover in feast day be:pa many on his/name believe:pa when miracle:pl which do:pa see:pa.",
+    "expected": "accept",
+    "expectedText": "Ven vin ni Jerusalem ni thrinÃÍna ni yéÛna yel r×izya gimßv gren zi’den prodizya vin prodnarhÉftÍun Ñetib f×izya oÃizya.",
+    "expectedGloss": "now · when · in · Jerusalem · at · pass-over{rite} · in · feast · day · be(pst.) · many · on · his-name · believe(pst.) · when · miracle(pl.) · which · do(pst.) · see(pst.).",
+    "interpretation": "At Passover feast,many believed on name,seeing miracles.",
+    "note": "The many remain unnumbered and the stated occasion remains explicit."
+  },
+  {
+    "id": "john-2-24",
+    "analysis": "but kjv_jesus_matthew himself to they entrust:neg:pa because all man:pl know:pa.",
+    "expected": "accept",
+    "expectedText": "PÇnßë Jesus ziir åÃ zem ma’lamprodfÅwizya kenst ol sßlumun hÅbÍizya.",
+    "expectedGloss": "but · jesus-matthew · himself · to · they(pl.) · entrust(neg.,pst.) · because · all · man(pl.) · know(pst.).",
+    "interpretation": "Yet Jesus did not entrust himself,knowing all people.",
+    "note": "Commit means entrust,not a criminal act or software revision;belief and withholding remain in tension."
+  },
+  {
+    "id": "john-2-25",
+    "analysis": "and that any person of man testify:should need:neg:pa for what in man be:pa know:pa.",
+    "expected": "accept",
+    "expectedText": "âÑ ka grafel sßlum i sßlum sëvengiktenv×en’jorin ma’fërÓizya t× Ñetib ni sßlum r×izya hÅbÍizya.",
+    "expectedGloss": "and · that · any · person · of · man · testify(expect.) · need(neg.,pst.) · for · what · in · man · be(pst.) · know(pst.).",
+    "interpretation": "Needed no human testimony,knowing what in people.",
+    "note": "The source's knowledge claim is retained without inventing secret thoughts for particular people."
+  }
+]

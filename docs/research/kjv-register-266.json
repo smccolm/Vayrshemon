@@ -1,0 +1,627 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.266",
+    "parentVersion": "0.10-kjv.265",
+    "parentHead": "d8b9589558039558a74658b3f3663aec395d23cedff88eb0bf26ab9759982bb3",
+    "head": "d564dc97590eee8935c4b5f7a81ae7609f9308b90f7e9b37359a0a93672ebae0",
+    "newLexicalEntries": 6,
+    "newProperEntries": 1,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 61,
+    "exactCompilerCases": 61,
+    "newAuthoredVerses": 61,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 303,
+    "jamesVerses": 108,
+    "peter1Verses": 105,
+    "peter2Verses": 61,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 561,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPeter2Verses": 61,
+    "peter2Verses": 61,
+    "authoredVerses": 30541,
+    "remainingVerses": 561,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "2 Peter 1:20",
+        "source": "Knowing this first, that no prophecy of the scripture is of any private interpretation.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Peter 2:5",
+        "source": "And spared not the old world, but saved Noah the eighth person, a preacher of righteousness, bringing in the flood upon the world of the ungodly;",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "2 Peter 3:1",
+        "source": "This second epistle, beloved, I now write unto you; in both which I stir up your pure minds by way of remembrance:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Peter 3:3",
+        "source": "Knowing this first, that there shall come in the last days scoffers, walking after their own lusts,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Peter 3:8",
+        "source": "But, beloved, be not ignorant of this one thing, that one day is with the Lord as a thousand years, and a thousand years as one day.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          1000,
+          1000,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          1000,
+          1000,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_simon_peter kjv_peter_disciple",
+        "servant and kjv_apostle",
+        "with wesg equally precious faith",
+        "god and ourone/save:ag"
+      ],
+      "1:2": [
+        "grace and peace",
+        "god and kjv_jesus_matthew ourone/lord knowledge"
+      ],
+      "1:3": [
+        "his/god:adj power",
+        "to wesg all thing:pl",
+        "life and god:adj:ev",
+        "wesg:a to glory and virtue"
+      ],
+      "1:4": [
+        "to wesg very great and precious promise:pl",
+        "god:adj nature share:ag:pl",
+        "world corrupt:ev",
+        "through lust"
+      ],
+      "1:5": [
+        "all kjv_diligent:ev",
+        "faith virtue add",
+        "to virtue knowledge"
+      ],
+      "1:6": [
+        "knowledge kjv_temperance_acts",
+        "kjv_temperance_acts patience",
+        "patience god:adj:ev"
+      ],
+      "1:7": [
+        "god:adj:ev brother:adj kjv_kindness",
+        "kindness kjv_charity_love_corinthians"
+      ],
+      "1:8": [
+        "if these",
+        "abound",
+        "neither barren nor fruit:neg:adj",
+        "ourone/lord"
+      ],
+      "1:9": [
+        "lack:pr blind",
+        "far see:neg:can",
+        "old sin:pl clean:psv:pa forget"
+      ],
+      "1:10": [
+        "call:ev and choose:ev sure",
+        "if you these thing:pl do",
+        "never fall"
+      ],
+      "1:11": [
+        "eternal kingdom",
+        "enter:ev",
+        "abundance:adv provide"
+      ],
+      "1:12": [
+        "i you:a always",
+        "neglect:neg:fu",
+        "though you they:a know",
+        "present truth"
+      ],
+      "1:13": [
+        "i it fitting",
+        "i in this kjv_tabernacle_body_peter",
+        "remember:caus:cv up stir"
+      ],
+      "1:14": [
+        "soon i",
+        "my/kjv_tabernacle_body_peter off put",
+        "ourone/lord",
+        "i:a show"
+      ],
+      "1:15": [
+        "i that after my/kjv_decease_departure_peter",
+        "always in memory",
+        "endeavour"
+      ],
+      "1:16": [
+        "wesg cunning:adv invent:psv:pp fable:pl follow:neg",
+        "power and come:ev",
+        "his/majesty eye witness:pl"
+      ],
+      "1:17": [
+        "god father honour and glory",
+        "excellent glory",
+        "mypl/love:psv:adj son",
+        "ipl well kjv_please_satisfy"
+      ],
+      "1:18": [
+        "voice which from heaven",
+        "wesg hear",
+        "wesg with he in holy mountain"
+      ],
+      "1:19": [
+        "wesg also more sure kjv_prophesy:ev word",
+        "light which in dark place",
+        "until day begin",
+        "kjv_day_star_peter in your/heart:pl"
+      ],
+      "1:20": [
+        "first know",
+        "no sacred write:ev kjv_prophesy:ev",
+        "any own interpret:ev"
+      ],
+      "1:21": [
+        "old time by man will:ev come:neg",
+        "god holy man:pl",
+        "by holy spirit move"
+      ],
+      "2:1": [
+        "false prophet:pl",
+        "false teach:ag:pl",
+        "secretly destroy:adj kjv_heresy_teaching_peter:pl",
+        "lord who they:a buy",
+        "swift destroy"
+      ],
+      "2:2": [
+        "their/harm:adj way:pl",
+        "truth way evil speak:psv"
+      ],
+      "2:3": [
+        "kjv_covetousness",
+        "feign:psv:pp word:pl",
+        "you:a merchandise",
+        "long time delay:neg",
+        "kjv_damnation_judgment_romans slumber:neg"
+      ],
+      "2:4": [
+        "if god angel:pl who sin",
+        "down to hell",
+        "darkness chain:pl",
+        "judgment keep"
+      ],
+      "2:5": [
+        "old world spare:neg",
+        "kjv_noah eight:ord person",
+        "kjv_righteous:ev proclaim:ag",
+        "flood in bring"
+      ],
+      "2:6": [
+        "kjv_sodom and kjv_gomorrha_matthew",
+        "kjv_ashes:pl",
+        "kjv_overthrow",
+        "afterward god:neg"
+      ],
+      "2:7": [
+        "kjv_righteous kjv_lot_person",
+        "filthy kjv_conversation_conduct_corinthians"
+      ],
+      "2:8": [
+        "among they dwell",
+        "see:cv and hear",
+        "law:neg:adj deed:pl",
+        "his/kjv_righteous kjv_soul",
+        "day to day vex"
+      ],
+      "2:9": [
+        "god:adj person:pl",
+        "kjv_tempt_trial_hebrews:ev:pl",
+        "kjv_righteous:neg:adj person:pl",
+        "punish:psv:inf keep"
+      ],
+      "2:10": [
+        "flesh in unclean:ev lust",
+        "rule:ev despise",
+        "own will:ev",
+        "dignity:pl of evil speak"
+      ],
+      "2:11": [
+        "angel:pl",
+        "greater",
+        "before lord",
+        "insult:adj accusation bring:neg"
+      ],
+      "2:12": [
+        "natural reason:neg:adj beast:pl",
+        "capture:psv:inf and destroy:psv:inf",
+        "understand:neg",
+        "own kjv_corrupt_decay:ev"
+      ],
+      "2:13": [
+        "reward receive",
+        "day time kjv_rioting_revel_romans",
+        "spot:pl and kjv_blemish:pl",
+        "own deceit:ev:pl",
+        "with you feast"
+      ],
+      "2:14": [
+        "eye:pl full of kjv_adultery",
+        "sin cease:neg:can",
+        "kjv_steadfast:neg:adj kjv_soul:pl",
+        "kjv_covetousness practice:pl train",
+        "curse:psv:pp child:pl"
+      ],
+      "2:15": [
+        "straight way forsake",
+        "kjv_balaam son of kjv_bosor_peter",
+        "kjv_wages love"
+      ],
+      "2:16": [
+        "his/kjv_iniquity rebuke",
+        "dumb ass",
+        "man voice",
+        "prophet madness forbid"
+      ],
+      "2:17": [
+        "well:pl without water",
+        "cloud:pl",
+        "tempest",
+        "darkness kjv_mist forever"
+      ],
+      "2:18": [
+        "great swell:cv word:pl",
+        "flesh lust:pl",
+        "much wanton:ev",
+        "completely escape:perf"
+      ],
+      "2:19": [
+        "free:ev promise",
+        "themselves corrupt:ev servant:pl",
+        "by whom man overcome",
+        "bondage bring"
+      ],
+      "2:20": [
+        "if after",
+        "world defile:ev:pl escape",
+        "again in they entangle",
+        "overcome",
+        "later end",
+        "worse"
+      ],
+      "2:21": [
+        "know:neg:perf",
+        "after they it know",
+        "holy command",
+        "better be:cond"
+      ],
+      "2:22": [
+        "true proverb",
+        "dog to his/own kjv_vomit:ev",
+        "wash:psv:pp female pig",
+        "mud roll"
+      ],
+      "3:1": [
+        "second letter",
+        "i now",
+        "both letter:du",
+        "i your/pure mind:pl"
+      ],
+      "3:2": [
+        "holy prophet:pl",
+        "command of wesg",
+        "kjv_apostle:pl"
+      ],
+      "3:3": [
+        "first know",
+        "last day:pl mock:ag:pl",
+        "their/own lust:pl"
+      ],
+      "3:4": [
+        "promise where",
+        "father:pl asleep fall",
+        "from create:ev beginning",
+        "say:cv"
+      ],
+      "3:5": [
+        "willing:adv ignorance:adj",
+        "god word heaven:pl of old",
+        "out of water and in water"
+      ],
+      "3:6": [
+        "world which then",
+        "with water overflow",
+        "perish"
+      ],
+      "3:7": [
+        "heaven:pl and earth which now",
+        "same word",
+        "in store keep",
+        "fire",
+        "judgment and destroy:ev day"
+      ],
+      "3:8": [
+        "this one_num thing",
+        "one_num day",
+        "six+twelve+twelve and eleven+twelve and four year:pl",
+        "as one_num day"
+      ],
+      "3:9": [
+        "kjv_slack be:neg",
+        "to wesg kjv_longsuffering",
+        "any perish:should will:neg",
+        "all to repent:ev"
+      ],
+      "3:10": [
+        "thief in night",
+        "great noise",
+        "kjv_elements_cosmos_peter:pl",
+        "fervour:adj heat melt",
+        "earth also and work:pl",
+        "up burn:psv:fu"
+      ],
+      "3:11": [
+        "all these thing:pl dissolve",
+        "holy kjv_conversation_conduct_corinthians",
+        "god:adj:ev"
+      ],
+      "3:12": [
+        "god day come:ev",
+        "to it hasten",
+        "heaven:pl on fire",
+        "kjv_elements_cosmos_peter:pl",
+        "heat melt"
+      ],
+      "3:13": [
+        "wesg by his/promise",
+        "new heaven:pl and new earth",
+        "kjv_righteous:ev dwell"
+      ],
+      "3:14": [
+        "kjv_diligent",
+        "in peace",
+        "without spot and blame:neg"
+      ],
+      "3:15": [
+        "ourone/lord kjv_longsuffering:ev salvation",
+        "ourone/love:psv:adj brother kjv_paul_acts",
+        "wisdom to he give",
+        "to you write"
+      ],
+      "3:16": [
+        "all his/letter:pl",
+        "some thing:pl understand:psv:inf hard",
+        "unlearned and kjv_steadfast:neg",
+        "twist",
+        "other sacred write:ev:pl",
+        "own destroy"
+      ],
+      "3:17": [
+        "before know",
+        "wicked person:pl error",
+        "own kjv_steadfast:ev fall"
+      ],
+      "3:18": [
+        "grace",
+        "ourone/lord and save:ag",
+        "knowledge grow",
+        "both now and forever",
+        "amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:12",
+        "1:13",
+        "1:14",
+        "1:15",
+        "3:1"
+      ],
+      "ipl": [
+        "1:17"
+      ],
+      "wesg": [
+        "1:1",
+        "1:16",
+        "1:18",
+        "1:19",
+        "1:3",
+        "1:4",
+        "3:13",
+        "3:2",
+        "3:9"
+      ],
+      "wepl": [],
+      "mypl": [
+        "1:17"
+      ],
+      "ourone": [
+        "1:1",
+        "1:11",
+        "1:14",
+        "1:16",
+        "1:2",
+        "1:8",
+        "3:15",
+        "3:18"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [
+      "3:1"
+    ],
+    "divineQuotedSelfReferences": [
+      "1:17"
+    ],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "First,Noah eighth,second letter and all five quantities in the thousand-year comparison retained.",
+      "Both letters have physical dual;both now and forever has temporal coordination.",
+      "Father quoted plural-I,personal writer-I and communal singular-we remain distinct;printed us-apostles and us-ward preserved."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "All61second-Peter verses;whole Bible incomplete.",
+      "Keep will-not-neglect,more-sure,holy-men-of-God,bought-them,chains,Bosor,own-deceivings,clouds,forever,clean-escaped,out-of-and-in-water,in-night,burned-up,hasting-unto,other-scriptures and Amen.",
+      "Five common entries,one contextual name,no new paradigms;earlier targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Peter — incomplete Bible working text",
+    "pages": 40,
+    "spreads": 20,
+    "units": 61,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "e6c3796535777a8f2c4ce7b91b29e5b364910e20bff81c25efd7a3ea6968dc45",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 20,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.841,
+    "modules": [
+      "tests.test_kjv_peter_remembered_voices",
+      "tests.test_kjv_peter_shared_hope",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    39,
+    40
+  ],
+  "status": "incomplete Bible;2Peter1–3 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 39,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv266\\preflight-peter2\\Proofs\\page-039.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv266\\composed-peter2\\Proofs\\page-039.png",
+        "sha256": "8dac3760e406fa6c3aaaa8f83d05345d3743d8668455e7aea9b2e54e881f717c",
+        "bytesIdentical": true
+      },
+      {
+        "page": 40,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv266\\preflight-peter2\\Proofs\\page-040.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv266\\composed-peter2\\Proofs\\page-040.png",
+        "sha256": "4088755ee9e773f76d5633f30b6dcfcfb3d557973d8bcd939f924dbf859a9d8e",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

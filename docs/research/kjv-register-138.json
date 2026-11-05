@@ -1,0 +1,732 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.138",
+    "parentVersion": "0.10-kjv.137",
+    "parentHead": "a5052b7b23064ff073402f4025b7ebecd82234c7a8678350aff5cbe95360a4c2",
+    "head": "3fa1684e043c489e9fca129a4b1e7d741ebb97c7d805ecda43266cfd169fbfa3",
+    "newLexicalEntries": 7,
+    "newProperEntries": 4,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 101,
+    "exactCompilerCases": 101,
+    "newAuthoredVerses": 101,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1008,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 12391,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 101,
+    "isaiahVerses": 1008,
+    "authoredVerses": 18711,
+    "remainingVerses": 12391,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 45:1",
+        "source": "Thus saith the LORD to his anointed, to Cyrus, whose right hand I have holden, to subdue nations before him; and I will loose the loins of kings, to open before him the two leaved gates; and the gates shall not be shut;",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Isaiah 47:9",
+        "source": "But these two things shall come to thee in a moment in one day, the loss of children, and widowhood: they shall come upon thee in their perfection for the multitude of thy sorceries, and for the great abundance of thine enchantments.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 48:12",
+        "source": "Hearken unto me, O Jacob and Israel, my called; I am he; I am the first, I also am the last.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "45:1": [
+        "kjv_cyrus",
+        "kjv_right_side hand",
+        "two kjv_door_leaf:pl",
+        "shut:psv:neg:fu"
+      ],
+      "45:2": [
+        "gate:pl:a of kjv_brass",
+        "bar:pl:a of iron"
+      ],
+      "45:3": [
+        "treasure:pl:a of darkness",
+        "hidden wealth:a",
+        "by thy/name"
+      ],
+      "45:4": [
+        "kjv_surname:perf",
+        "though thou ipl:a know:neg:perf"
+      ],
+      "45:5": [
+        "no god apart from ipl",
+        "kjv_gird:pa"
+      ],
+      "45:6": [
+        "from rise:ev of sun and from west",
+        "none else"
+      ],
+      "45:7": [
+        "light:a form:pr",
+        "darkness:a create:pr",
+        "peace:a make:pr",
+        "evil:a create:pr"
+      ],
+      "45:8": [
+        "sky:pl kjv_righteousness:a",
+        "they salvation:a",
+        "ipl kjv_lord it:a create:perf"
+      ],
+      "45:9": [
+        "kjv_potsherd with kjv_potsherd:pl",
+        "kjv_clay_material",
+        "thy/work he no hand:pl"
+      ],
+      "45:10": [
+        "his/father",
+        "or to woman",
+        "forth bring:perf:excl?"
+      ],
+      "45:11": [
+        "mypl/son:pl",
+        "work of mypl/hand:pl you ipl:a command:imp"
+      ],
+      "45:12": [
+        "ipl even mypl/hand:pl",
+        "all their/army:a"
+      ],
+      "45:13": [
+        "mypl/city",
+        "mypl/captive:pl:a go:caus:fu",
+        "not for price nor reward"
+      ],
+      "45:14": [
+        "kjv_sabeans_isaiah",
+        "they of thee be:fu",
+        "in chain:pl",
+        "god in thee"
+      ],
+      "45:15": [
+        "thyself:a hide:pr"
+      ],
+      "45:16": [
+        "all of they",
+        "make:ag:pl of idol:pl"
+      ],
+      "45:17": [
+        "eternal salvation",
+        "confound:psv:neg:fu",
+        "world without end"
+      ],
+      "45:18": [
+        "god himself",
+        "in vain create:neg:pa",
+        "inhabit:psv:inf"
+      ],
+      "45:19": [
+        "speak:neg:perf",
+        "kjv_seedline of kjv_jacob",
+        "kjv_right_conduct"
+      ],
+      "45:20": [
+        "wood:a of their/kjv_graven image",
+        "god who save:neg:can"
+      ],
+      "45:21": [
+        "counsel:a take:imp",
+        "kjv_righteous god and save:ag"
+      ],
+      "45:22": [
+        "all end:pl of earth",
+        "ipl god"
+      ],
+      "45:23": [
+        "by iplself swear:perf",
+        "mypl/mouth",
+        "every knee",
+        "every tongue"
+      ],
+      "45:24": [
+        "human say:fu",
+        "i kjv_righteousness:a",
+        "against he angry"
+      ],
+      "45:25": [
+        "all kjv_seedline",
+        "kjv_justify:psv:fu"
+      ],
+      "46:1": [
+        "kjv_bel",
+        "kjv_nebo_god",
+        "your/kjv_baggage",
+        "kjv_load:psv:pa"
+      ],
+      "46:2": [
+        "burden:a deliver:neg:can:pa",
+        "themselves into kjv_captivity"
+      ],
+      "46:3": [
+        "by ipl from belly carry:psv:pr",
+        "from womb carry:psv:pr"
+      ],
+      "46:4": [
+        "ipl he be:pr",
+        "grey hair:pl",
+        "ipl carry:fu"
+      ],
+      "46:5": [
+        "ipl:a compare:fu",
+        "we:du like be:may"
+      ],
+      "46:6": [
+        "much gold:a",
+        "silver:a in balance",
+        "gold work:ag:a kjv_hire:pr"
+      ],
+      "46:7": [
+        "upon kjv_shoulder",
+        "from his/place he move:neg:fu",
+        "human to he cry:fu"
+      ],
+      "46:8": [
+        "yourselves:a human:pl show:imp",
+        "transgress:ag:pl:excl"
+      ],
+      "46:9": [
+        "former thing:pl:a of old remember:imp",
+        "none like ipl"
+      ],
+      "46:10": [
+        "mypl/counsel",
+        "all mypl/pleasure"
+      ],
+      "46:11": [
+        "ravenous bird:a from east",
+        "human:a who mypl/counsel:a perform:pr",
+        "ipl it:a purpose:perf"
+      ],
+      "46:12": [
+        "obstinate heart:adj",
+        "far from kjv_righteousness"
+      ],
+      "46:13": [
+        "mypl/salvation tarry:neg:fu",
+        "kjv_israel mypl/glory"
+      ],
+      "47:1": [
+        "virgin daughter of kjv_babylon",
+        "no throne",
+        "tender and delicate"
+      ],
+      "47:2": [
+        "kjv_flour:a kjv_grind:imp",
+        "kjv_hair_lock:pl",
+        "thigh:a kjv_uncover"
+      ],
+      "47:3": [
+        "ipl revenge:a",
+        "as human meet:neg:fu"
+      ],
+      "47:4": [
+        "ourone/redeem:ag",
+        "kjv_holy_one"
+      ],
+      "47:5": [
+        "lady of kingdom:pl"
+      ],
+      "47:6": [
+        "mypl/inheritance:a kjv_pollute_sacred:perf",
+        "old human",
+        "very with heavy weight"
+      ],
+      "47:7": [
+        "thou say:pa ipl lady forever",
+        "remember:neg:pa"
+      ],
+      "47:8": [
+        "ipl be:pr and none else apart from ipl",
+        "widow sit:neg:fu",
+        "loss:a of child:pl know:neg:fu"
+      ],
+      "47:9": [
+        "two thing:pl",
+        "one_num day",
+        "loss of child:pl and widow:ev",
+        "kjv_sorcery:pl"
+      ],
+      "47:10": [
+        "none ipl:a see:pr",
+        "wisdom and thy/knowledge",
+        "ipl be:pr and none else"
+      ],
+      "47:11": [
+        "from where it rise:pr know:neg:fu",
+        "off put:neg:can:fu",
+        "suddenly"
+      ],
+      "47:12": [
+        "enchantment:pl",
+        "kjv_sorcery:pl",
+        "benefit:can:fu",
+        "prevail:may"
+      ],
+      "47:13": [
+        "kjv_astrologer:pl",
+        "star:pl:a watch:pr",
+        "each month foretell:pr"
+      ],
+      "47:14": [
+        "themselves:a from power of flame deliver:neg:fu",
+        "no kjv_charcoal"
+      ],
+      "47:15": [
+        "thy/kjv_merchant:pl",
+        "each to his/region",
+        "none thee:a save:fu"
+      ],
+      "48:1": [
+        "water:pl of kjv_judah",
+        "but not in truth nor in kjv_righteousness"
+      ],
+      "48:2": [
+        "themselves:a upon god of kjv_israel support:pr"
+      ],
+      "48:3": [
+        "mypl/mouth",
+        "suddenly do:pa",
+        "they happen:pa"
+      ],
+      "48:4": [
+        "obstinate",
+        "iron sinew",
+        "thy/brow kjv_brass"
+      ],
+      "48:5": [
+        "lest thou say:should mypl/idol",
+        "mypl/kjv_graven image",
+        "mypl/melt:psv:adj image"
+      ],
+      "48:6": [
+        "you it:a declare:neg:fu?",
+        "hidden thing:pl",
+        "thou they:a know:neg:pa"
+      ],
+      "48:7": [
+        "now create:psv:pr",
+        "not from beginning",
+        "lest thou say:should",
+        "ipl they:a know:pa"
+      ],
+      "48:8": [
+        "thy/ear open:psv:neg:pa",
+        "with great betray:ev",
+        "from womb transgress:ag"
+      ],
+      "48:9": [
+        "mypl/name/sake",
+        "mypl/anger:a defer:fu",
+        "off cut:neg:pr"
+      ],
+      "48:10": [
+        "purify:perf but not with silver",
+        "kjv_furnace of kjv_afflict:ev"
+      ],
+      "48:11": [
+        "for mypl/own sake even for mypl/own sake",
+        "glory:a to another give:neg:fu"
+      ],
+      "48:12": [
+        "ipl he be:pr",
+        "ipl first be:pr",
+        "ipl also last"
+      ],
+      "48:13": [
+        "mypl/kjv_right_side hand",
+        "with kjv_span measure:perf",
+        "they together up stand:pr"
+      ],
+      "48:14": [
+        "kjv_lord he:a love:perf",
+        "his/arm on kjv_chaldean:pl"
+      ],
+      "48:15": [
+        "ipl even ipl speak:perf",
+        "he his/way:a prosperous"
+      ],
+      "48:16": [
+        "ipl in secret from beginning speak:neg:perf",
+        "lord god and his/spirit ipl:a send:perf"
+      ],
+      "48:17": [
+        "to benefit:inf teach:pr",
+        "way thou go:should"
+      ],
+      "48:18": [
+        "listen:pp:opt:excl",
+        "peace as river",
+        "kjv_wave:pl of sea"
+      ],
+      "48:19": [
+        "thy/kjv_bowels",
+        "kjv_gravel",
+        "his/name",
+        "destroy:psv:neg:should"
+      ],
+      "48:20": [
+        "out of kjv_babylon",
+        "voice of sing:ev",
+        "kjv_lord his/servant kjv_jacob:a redeem:perf"
+      ],
+      "48:21": [
+        "thirst:neg:pa",
+        "rock:a also split:pa",
+        "water:pl out with force flow:pa"
+      ],
+      "48:22": [
+        "no peace to wicked"
+      ],
+      "49:1": [
+        "ipl:a from womb",
+        "mypl/mother",
+        "mypl/name:a kjv_mention:caus:perf"
+      ],
+      "49:2": [
+        "mypl/mouth:a like sharp sword",
+        "smooth:psv:adj arrow",
+        "his/kjv_quiver"
+      ],
+      "49:3": [
+        "to ipl say:pa",
+        "mypl/servant",
+        "kjv_israel:excl",
+        "ipl glorify:psv:fu"
+      ],
+      "49:4": [
+        "ipl in vain labour:perf",
+        "mypl/strength:a for nothing",
+        "mypl/judgment"
+      ],
+      "49:5": [
+        "though kjv_israel gather:psv:neg:pr",
+        "ipl in eye:pl",
+        "mypl/god mypl/strength"
+      ],
+      "49:6": [
+        "it small thing",
+        "for light to kjv_gentile:pl",
+        "mypl/salvation to end"
+      ],
+      "49:7": [
+        "his/kjv_holy_one",
+        "nation kjv_abhor:pr",
+        "servant of rule:ag:pl"
+      ],
+      "49:8": [
+        "for kjv_covenant of people",
+        "kjv_desolate inheritance:pl:a inherit:caus:inf"
+      ],
+      "49:9": [
+        "kjv_prisoner:pl",
+        "yourselves:a show:imp",
+        "kjv_pasture:pl"
+      ],
+      "49:10": [
+        "hunger:neg:fu",
+        "thirst:neg:fu",
+        "they:a strike:neg:fu",
+        "spring:pl of water"
+      ],
+      "49:11": [
+        "all mypl/mountain:pl:a way",
+        "mypl/highway:pl up raise:psv:fu"
+      ],
+      "49:12": [
+        "kjv_north",
+        "west",
+        "land of kjv_sinim"
+      ],
+      "49:13": [
+        "his/people:a comfort:perf",
+        "his/kjv_afflict:psv:adj people"
+      ],
+      "49:14": [
+        "kjv_zion say:pa",
+        "ipl:a forsake:perf",
+        "mypl/lord ipl:a forget:perf"
+      ],
+      "49:15": [
+        "yes they forget:may",
+        "ipl thee:a forget:neg:fu"
+      ],
+      "49:16": [
+        "kjv_palm_hand:pl of mypl/hand:pl",
+        "kjv_engrave:perf",
+        "thy/wall:pl always"
+      ],
+      "49:17": [
+        "thy/child:pl",
+        "thy/destroy:ag:pl",
+        "out of thee"
+      ],
+      "49:18": [
+        "eye:pl:a around",
+        "as ipl live:pr",
+        "kjv_ornament",
+        "as bride"
+      ],
+      "49:19": [
+        "too narrow",
+        "they who thee:a up kjv_swallow:pa"
+      ],
+      "49:20": [
+        "place too narrow for i",
+        "that i dwell:may"
+      ],
+      "49:21": [
+        "who these:a to ipl beget:perf",
+        "mypl/child:pl",
+        "kjv_desolate_person",
+        "ipl alone leave:psv:pa"
+      ],
+      "49:22": [
+        "mypl/hand:a",
+        "mypl/banner:a",
+        "son:pl:a in their/arm:pl",
+        "daughter:pl upon their/kjv_shoulder:pl"
+      ],
+      "49:23": [
+        "kjv_nurse father:pl",
+        "kjv_nurse mother:pl",
+        "dust:a of thy/foot:pl up kjv_lick:fu"
+      ],
+      "49:24": [
+        "lawful captive deliver:psv:fu?"
+      ],
+      "49:25": [
+        "prey of terrible",
+        "ipl with he who with thee contend:pr contend:fu"
+      ],
+      "49:26": [
+        "their/own flesh",
+        "their/own blood",
+        "sweet wine",
+        "mighty of kjv_jacob"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "45:24",
+        "49:20"
+      ],
+      "ipl": [
+        "45:1",
+        "45:11",
+        "45:12",
+        "45:13",
+        "45:18",
+        "45:19",
+        "45:2",
+        "45:21",
+        "45:22",
+        "45:23",
+        "45:3",
+        "45:4",
+        "45:5",
+        "45:6",
+        "45:7",
+        "45:8",
+        "46:10",
+        "46:11",
+        "46:12",
+        "46:13",
+        "46:3",
+        "46:4",
+        "46:5",
+        "46:9",
+        "47:10",
+        "47:3",
+        "47:6",
+        "47:7",
+        "47:8",
+        "48:10",
+        "48:11",
+        "48:12",
+        "48:13",
+        "48:15",
+        "48:16",
+        "48:17",
+        "48:19",
+        "48:3",
+        "48:4",
+        "48:5",
+        "48:6",
+        "48:7",
+        "48:8",
+        "48:9",
+        "49:1",
+        "49:11",
+        "49:14",
+        "49:15",
+        "49:16",
+        "49:18",
+        "49:2",
+        "49:21",
+        "49:22",
+        "49:23",
+        "49:25",
+        "49:26",
+        "49:3",
+        "49:4",
+        "49:5",
+        "49:6",
+        "49:8"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "45:11",
+        "45:12",
+        "45:13",
+        "45:23",
+        "45:4",
+        "46:10",
+        "46:11",
+        "46:13",
+        "47:6",
+        "48:11",
+        "48:12",
+        "48:13",
+        "48:18",
+        "48:3",
+        "48:5",
+        "48:9",
+        "49:1",
+        "49:11",
+        "49:14",
+        "49:16",
+        "49:2",
+        "49:21",
+        "49:22",
+        "49:3",
+        "49:4",
+        "49:5",
+        "49:6"
+      ],
+      "ourone": [
+        "47:4"
+      ],
+      "iplself": [
+        "45:23"
+      ],
+      "we:du": [
+        "46:5"
+      ],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [
+      "46:5"
+    ],
+    "quantityInterpretation": [
+      "Two door-leaves45:1,two calamities and one day47:9,first-position ordinal48:12.",
+      "Dual-we46:5 is the hypothetical deity/likeness comparative pair,not two internal divine persons.",
+      "Indefinite one is human,every one distributive each;Mighty One is a title."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah45–49 adds101 verses,total1008;whole Bible incomplete.",
+      "Divine/civic/servant plural-I and personal human-I distinguished;sent speaker48:16 deliberately unresolved.",
+      "Three common entries,four proper/contextual labels;no inherited targets changed.",
+      "Source evil-creation,exclusive claims,humiliation imagery and counterfactual regret retained."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 724,
+    "spreads": 362,
+    "units": 1008,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "7e6843dbcbf8cb1db657a924581b1dfa00869a1c58c46b28e782fab14a2ab0d8",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 362,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.446,
+    "modules": [
+      "tests.test_kjv_isaiah_sent_speaker",
+      "tests.test_kjv_isaiah_self_alone",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    723,
+    724
+  ],
+  "status": "incomplete Bible;Isaiah1–49 section checkpoint verified"
+}

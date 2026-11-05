@@ -1,0 +1,51 @@
+{
+  "delta": {
+    "version": "0.10-kjv.2",
+    "parentVersion": "0.10-kjv.1",
+    "parentHead": "72b5746f19b9c753c51f1aed35cfe943fbe4790de8406c36414ac3301e1d985c",
+    "head": "0cca3ec046b553a2d846a7983d91ed47a7e0c8cb242ee990921c8ce2111a0f7d",
+    "newLexicalEntries": 189,
+    "newProperEntries": 135,
+    "newCommonEntries": 54,
+    "newSurfaceForms": 179,
+    "inflectionalSuffixChanges": 0,
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 56,
+    "newAuthoredVerses": 299,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 30755,
+    "status": "incomplete"
+  },
+  "validation": {
+    "status": "incomplete",
+    "authoredVerses": 347,
+    "sourceVerses": 31102,
+    "remainingVerses": 30755,
+    "combinedPages": 226,
+    "regressionTests": 23,
+    "regressionPassed": true,
+    "guideLocalLinksChecked": 27,
+    "brokenGuideLinks": [],
+    "visualProofsInspected": [
+      1,
+      2,
+      45
+    ],
+    "colorProofsInspected": [
+      1
+    ],
+    "visualResult": "Maxima, approved sizes, four-column paragraph starts and relief/glow retained in sampled proofs; not a complete every-page visual audit",
+    "frozenJonahVerified": true,
+    "modernLanguageVerifiedUnchanged": true,
+    "setupSyntaxChecked": true,
+    "setupExecuted": false,
+    "nextVerse": "Genesis 12:1",
+    "workRemaining": [
+      "Translate the remaining 30,755 verses with source-aligned analyses and review.",
+      "Extend and test large-book storage/rendering beyond current 2,048-page and text limits.",
+      "Assemble and validate the entire Bible, then freeze the complete historical edition."
+    ]
+  }
+}

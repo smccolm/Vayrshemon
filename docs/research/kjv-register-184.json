@@ -1,0 +1,971 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.184",
+    "parentVersion": "0.10-kjv.183",
+    "parentHead": "f688e60c4b33c4700e2ae86672332aa2e9a019a5f212f2aafa82e5efb5bd97c2",
+    "head": "22eea1b1b980745b6ac7115a038666b582d4d1b42b77b7c4747ea5f4dc7c333a",
+    "newLexicalEntries": 14,
+    "newProperEntries": 13,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 10,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 98,
+    "exactCompilerCases": 98,
+    "newAuthoredVerses": 98,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 98,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 8125,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newZechariahVerses": 98,
+    "zechariahVerses": 98,
+    "authoredVerses": 22977,
+    "remainingVerses": 8125,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 22,
+    "quantityChecks": [
+      {
+        "reference": "Zechariah 1:1",
+        "source": "In the eighth month, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying,",
+        "expectedDecimalQuantities": [
+          8,
+          2
+        ],
+        "targetQuantities": [
+          8,
+          2
+        ]
+      },
+      {
+        "reference": "Zechariah 1:7",
+        "source": "Upon the four and twentieth day of the eleventh month, which is the month Sebat, in the second year of Darius, came the word of the LORD unto Zechariah, the son of Berechiah, the son of Iddo the prophet, saying,",
+        "expectedDecimalQuantities": [
+          24,
+          11,
+          2
+        ],
+        "targetQuantities": [
+          24,
+          11,
+          2
+        ]
+      },
+      {
+        "reference": "Zechariah 1:12",
+        "source": "Then the angel of the LORD answered and said, O LORD of hosts, how long wilt thou not have mercy on Jerusalem and on the cities of Judah, against which thou hast had indignation these threescore and ten years?",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Zechariah 1:18",
+        "source": "Then lifted I up mine eyes, and saw, and behold four horns.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Zechariah 1:20",
+        "source": "And the LORD shewed me four carpenters.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Zechariah 2:6",
+        "source": "Ho, ho, come forth, and flee from the land of the north, saith the LORD: for I have spread you abroad as the four winds of the heaven, saith the LORD.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Zechariah 3:9",
+        "source": "For behold the stone that I have laid before Joshua; upon one stone shall be seven eyes: behold, I will engrave the graving thereof, saith the LORD of hosts, and I will remove the iniquity of that land in one day.",
+        "expectedDecimalQuantities": [
+          1,
+          7,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          7,
+          1
+        ]
+      },
+      {
+        "reference": "Zechariah 4:2",
+        "source": "And said unto me, What seest thou? And I said, I have looked, and behold a candlestick all of gold, with a bowl upon the top of it, and his seven lamps thereon, and seven pipes to the seven lamps, which are upon the top thereof:",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Zechariah 4:3",
+        "source": "And two olive trees by it, one upon the right side of the bowl, and the other upon the left side thereof.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Zechariah 4:10",
+        "source": "For who hath despised the day of small things? for they shall rejoice, and shall see the plummet in the hand of Zerubbabel with those seven; they are the eyes of the LORD, which run to and fro through the whole earth.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Zechariah 4:11",
+        "source": "Then answered I, and said unto him, What are these two olive trees upon the right side of the candlestick and upon the left side thereof?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Zechariah 4:12",
+        "source": "And I answered again, and said unto him, What be these two olive branches which through the two golden pipes empty the golden oil out of themselves?",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Zechariah 4:14",
+        "source": "Then said he, These are the two anointed ones, that stand by the LORD of the whole earth.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Zechariah 5:2",
+        "source": "And he said unto me, What seest thou? And I answered, I see a flying roll; the length thereof is twenty cubits, and the breadth thereof ten cubits.",
+        "expectedDecimalQuantities": [
+          20,
+          10
+        ],
+        "targetQuantities": [
+          20,
+          10
+        ]
+      },
+      {
+        "reference": "Zechariah 5:9",
+        "source": "Then lifted I up mine eyes, and looked, and, behold, there came out two women, and the wind was in their wings; for they had wings like the wings of a stork: and they lifted up the ephah between the earth and the heaven.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Zechariah 6:1",
+        "source": "And I turned, and lifted up mine eyes, and looked, and, behold, there came four chariots out from between two mountains; and the mountains were mountains of brass.",
+        "expectedDecimalQuantities": [
+          4,
+          2
+        ],
+        "targetQuantities": [
+          4,
+          2
+        ]
+      },
+      {
+        "reference": "Zechariah 6:2",
+        "source": "In the first chariot were red horses; and in the second chariot black horses;",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "Zechariah 6:3",
+        "source": "And in the third chariot white horses; and in the fourth chariot grisled and bay horses.",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Zechariah 6:5",
+        "source": "And the angel answered and said unto me, These are the four spirits of the heavens, which go forth from standing before the LORD of all the earth.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Zechariah 7:1",
+        "source": "And it came to pass in the fourth year of king Darius, that the word of the LORD came unto Zechariah in the fourth day of the ninth month, even in Chisleu;",
+        "expectedDecimalQuantities": [
+          4,
+          4,
+          9
+        ],
+        "targetQuantities": [
+          4,
+          4,
+          9
+        ]
+      },
+      {
+        "reference": "Zechariah 7:3",
+        "source": "And to speak unto the priests which were in the house of the LORD of hosts, and to the prophets, saying, Should I weep in the fifth month, separating myself, as I have done these so many years?",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Zechariah 7:5",
+        "source": "Speak unto all the people of the land, and to the priests, saying, When ye fasted and mourned in the fifth and seventh month, even those seventy years, did ye at all fast unto me, even to me?",
+        "expectedDecimalQuantities": [
+          5,
+          7,
+          70
+        ],
+        "targetQuantities": [
+          5,
+          7,
+          70
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "eight:ord month",
+        "two:ord year",
+        "son of kjv_berechiah_zechariah son of kjv_iddo_zechariah_prophet"
+      ],
+      "1:2": [
+        "your/father:pl",
+        "kjv_grievous:adv displease:psv"
+      ],
+      "1:3": [
+        "you to ipl turn",
+        "ipl to you turn"
+      ],
+      "1:4": [
+        "former prophet:pl",
+        "your/evil way:pl",
+        "your/evil do:ev:pl",
+        "to ipl listen"
+      ],
+      "1:5": [
+        "your/father:pl where",
+        "prophet:pl they for ever live:q"
+      ],
+      "1:6": [
+        "mypl/word:pl and mypl/kjv_statute:pl",
+        "ipl mypl/servant:pl",
+        "hold take:neg:q",
+        "to wesg do",
+        "ourone/way:pl",
+        "ourone/do:ev:pl",
+        "with wesg deal"
+      ],
+      "1:7": [
+        "two+twelve:ord day",
+        "eleven:ord month",
+        "kjv_sebat_month",
+        "two:ord year",
+        "kjv_berechiah_zechariah"
+      ],
+      "1:8": [
+        "i by night see",
+        "red horse",
+        "kjv_myrtle_tree:pl",
+        "in bottom",
+        "red horse:pl kjv_speckled and white"
+      ],
+      "1:9": [
+        "i say:pa oh my/lord",
+        "angel that with i talk",
+        "i thou:a what these be:pr show"
+      ],
+      "1:10": [
+        "man that among kjv_myrtle_tree:pl",
+        "kjv_lord",
+        "there and back through earth"
+      ],
+      "1:11": [
+        "angel of kjv_lord",
+        "wesg there and back",
+        "all earth still sit",
+        "at rest"
+      ],
+      "1:12": [
+        "angel of kjv_lord",
+        "mercy have:neg:fu",
+        "kjv_jerusalem",
+        "city:pl of kjv_judah",
+        "five+twelve and ten year:pl"
+      ],
+      "1:13": [
+        "good word:pl and comfort:adj word:pl"
+      ],
+      "1:14": [
+        "angel that with i kjv_commune",
+        "ipl for kjv_jerusalem",
+        "for kjv_zion",
+        "great jealous:ev"
+      ],
+      "1:15": [
+        "ipl with kjv_heathen",
+        "but little displease",
+        "kjv_afflict:ev forward help"
+      ],
+      "1:16": [
+        "ipl to kjv_jerusalem with mercy:pl",
+        "mypl/house",
+        "line upon kjv_jerusalem"
+      ],
+      "1:17": [
+        "mypl/city:pl through prosperity",
+        "kjv_lord yet kjv_zion",
+        "yet kjv_jerusalem choose"
+      ],
+      "1:18": [
+        "i my/eye:pl",
+        "four horn:pl"
+      ],
+      "1:19": [
+        "horn:pl which kjv_judah kjv_israel and kjv_jerusalem scatter"
+      ],
+      "1:20": [
+        "kjv_lord i:a four carpenter:pl"
+      ],
+      "1:21": [
+        "no man his/head up lift",
+        "they:a frighten",
+        "horn:pl of kjv_gentile:pl",
+        "their/horn over land"
+      ],
+      "2:1": [
+        "i my/eye:pl again",
+        "measure:ev line in his/hand"
+      ],
+      "2:2": [
+        "kjv_jerusalem measure:inf",
+        "its/breadth",
+        "its/length"
+      ],
+      "2:3": [
+        "another angel",
+        "he:a meet"
+      ],
+      "2:4": [
+        "this young man",
+        "town:pl without wall:pl",
+        "man:pl and kjv_livestock"
+      ],
+      "2:5": [
+        "ipl kjv_lord say",
+        "to she wall of fire",
+        "glory in middle of she"
+      ],
+      "2:6": [
+        "ho ho",
+        "land of kjv_north",
+        "ipl you:a",
+        "four wind:pl"
+      ],
+      "2:7": [
+        "thyself deliver",
+        "daughter of kjv_babylon"
+      ],
+      "2:8": [
+        "after glory he ipl:a",
+        "nation:pl which you:a spoil",
+        "apple of his/eye"
+      ],
+      "2:9": [
+        "ipl mypl/hand",
+        "spoil to their/servant:pl",
+        "kjv_lord of army:pl ipl:a send"
+      ],
+      "2:10": [
+        "daughter of kjv_zion",
+        "ipl come:pr",
+        "ipl in middle of thou dwell"
+      ],
+      "2:11": [
+        "many nation:pl",
+        "mypl/people",
+        "ipl in middle of thou",
+        "kjv_lord of army:pl ipl:a to thou send"
+      ],
+      "2:12": [
+        "kjv_judah his/kjv_portion_share",
+        "holy land",
+        "kjv_jerusalem again choose"
+      ],
+      "2:13": [
+        "all flesh",
+        "his/holy dwell:ev",
+        "raise:psv"
+      ],
+      "3:1": [
+        "kjv_joshua_josedech high priest",
+        "kjv_satan_zechariah at his/kjv_right_side",
+        "against he stand"
+      ],
+      "3:2": [
+        "kjv_lord to kjv_satan_zechariah",
+        "kjv_lord thou:a rebuke",
+        "kjv_lord that kjv_jerusalem choose",
+        "kjv_firebrand out of fire",
+        "be:neg:q"
+      ],
+      "3:3": [
+        "filthy garment:pl",
+        "before angel stand"
+      ],
+      "3:4": [
+        "they that before he stand",
+        "filthy garment:pl from he",
+        "i thy/kjv_iniquity from thou pass:caus",
+        "i thou:a with change of clothing"
+      ],
+      "3:5": [
+        "i say:pa",
+        "beautiful kjv_mitre",
+        "his/head set",
+        "angel of kjv_lord by stand"
+      ],
+      "3:6": [
+        "kjv_warn_solemn"
+      ],
+      "3:7": [
+        "if thou in mypl/way:pl",
+        "if thou mypl/kjv_charge_custody",
+        "mypl/house judge",
+        "mypl/kjv_court_enclosure:pl",
+        "ipl to thou place:pl"
+      ],
+      "3:8": [
+        "thy/fellow:pl",
+        "man:pl wonder:psv:adj",
+        "ipl mypl/servant kjv_branch_title"
+      ],
+      "3:9": [
+        "ipl before kjv_joshua_josedech lay",
+        "one_num stone seven eye:pl",
+        "ipl its/kjv_engrave:ev kjv_engrave",
+        "in one_num day remove"
+      ],
+      "3:10": [
+        "every man his/neighbour",
+        "under kjv_vine",
+        "under fig kjv_tree"
+      ],
+      "4:1": [
+        "angel that with i talk",
+        "out of his/sleep wake:psv"
+      ],
+      "4:2": [
+        "all of gold",
+        "bowl upon top",
+        "his/seven lamp:pl",
+        "seven kjv_delivery_pipe:pl to seven lamp:pl"
+      ],
+      "4:3": [
+        "two kjv_olive kjv_tree:pl",
+        "one_num upon kjv_right_side of bowl",
+        "other upon its/left"
+      ],
+      "4:4": [
+        "these what be:q my/lord"
+      ],
+      "4:5": [
+        "know:neg:q",
+        "no my/lord"
+      ],
+      "4:6": [
+        "to kjv_zerubbabel_shealtiel",
+        "not by might nor by power",
+        "but by mypl/spirit"
+      ],
+      "4:7": [
+        "great mountain",
+        "kjv_plain_land become",
+        "its/head stone",
+        "grace grace to it be:excl"
+      ],
+      "4:8": [
+        "word of kjv_lord to i"
+      ],
+      "4:9": [
+        "hand:pl of kjv_zerubbabel_shealtiel",
+        "kjv_foundation",
+        "his/hand:pl also it:a finish",
+        "kjv_lord of army:pl ipl:a to you send"
+      ],
+      "4:10": [
+        "day of small thing:pl",
+        "kjv_plummet in hand",
+        "with those seven",
+        "eye:pl of kjv_lord",
+        "whole earth"
+      ],
+      "4:11": [
+        "two kjv_olive kjv_tree:pl",
+        "kjv_right_side of kjv_candlestick",
+        "its/left"
+      ],
+      "4:12": [
+        "two kjv_olive branch:pl",
+        "two gold:adj kjv_delivery_pipe:pl",
+        "gold:adj oil out of themselves empty:caus"
+      ],
+      "4:13": [
+        "know:neg:q",
+        "no my/lord"
+      ],
+      "4:14": [
+        "two anoint:psv:adj person:pl",
+        "kjv_lord of whole earth"
+      ],
+      "5:1": [
+        "fly:cv scroll"
+      ],
+      "5:2": [
+        "its/length twelve and eight kjv_cubit:pl",
+        "its/breadth ten kjv_cubit:pl"
+      ],
+      "5:3": [
+        "curse:ev",
+        "face of whole earth",
+        "steal:pr off cut",
+        "this side",
+        "swear:pr off cut",
+        "that side"
+      ],
+      "5:4": [
+        "ipl it:a forth bring",
+        "house of thief",
+        "by mypl/name falsely swear",
+        "his/house remain",
+        "its/wood and its/stone:pl"
+      ],
+      "5:5": [
+        "thy/eye:pl up lift",
+        "what this that forth go"
+      ],
+      "5:6": [
+        "kjv_ephah_measure",
+        "their/likeness through all earth"
+      ],
+      "5:7": [
+        "kjv_talent_weight of lead_metal",
+        "woman",
+        "middle of kjv_ephah_measure"
+      ],
+      "5:8": [
+        "wickedness",
+        "weight of lead_metal upon its/mouth"
+      ],
+      "5:9": [
+        "two woman:pl",
+        "wind in wing:pl of they:du",
+        "wing:pl of kjv_stork",
+        "they:du kjv_ephah_measure between earth and heaven"
+      ],
+      "5:10": [
+        "they:du kjv_ephah_measure where carry"
+      ],
+      "5:11": [
+        "land of kjv_shinar",
+        "kjv_establish:psv",
+        "upon her/own base"
+      ],
+      "6:1": [
+        "four chariot:pl",
+        "between two mountain:pl",
+        "mountain:pl of kjv_brass"
+      ],
+      "6:2": [
+        "one_num:ord chariot red",
+        "two:ord chariot black"
+      ],
+      "6:3": [
+        "three:ord chariot white",
+        "four:ord chariot kjv_grisled and bay"
+      ],
+      "6:4": [
+        "these what be:q my/lord"
+      ],
+      "6:5": [
+        "four spirit:pl of heaven:pl",
+        "before kjv_lord of all earth stand"
+      ],
+      "6:6": [
+        "black horse:pl",
+        "kjv_north country",
+        "white after they",
+        "kjv_grisled towards kjv_south"
+      ],
+      "6:7": [
+        "bay forth go",
+        "he say:pa",
+        "you hence go",
+        "they there and back through earth walk:pa"
+      ],
+      "6:8": [
+        "he upon i cry",
+        "my/spirit in kjv_north country quiet:caus"
+      ],
+      "6:9": [
+        "word of kjv_lord to i"
+      ],
+      "6:10": [
+        "kjv_heldai_returnee",
+        "kjv_tobijah_returnee",
+        "kjv_jedaiah_returnee",
+        "same day",
+        "kjv_josiah_zephaniah son of kjv_zephaniah_josiah"
+      ],
+      "6:11": [
+        "silver and gold",
+        "crown:pl",
+        "upon head of kjv_joshua_josedech son of kjv_josedech_haggai"
+      ],
+      "6:12": [
+        "name kjv_branch_title",
+        "out of his/place up grow",
+        "kjv_temple of kjv_lord build"
+      ],
+      "6:13": [
+        "he glory carry",
+        "priest upon his/throne",
+        "counsel of peace between they:du both"
+      ],
+      "6:14": [
+        "kjv_helem_memorial",
+        "kjv_hen_zephaniah son of kjv_zephaniah_josiah",
+        "kjv_memorial in kjv_temple"
+      ],
+      "6:15": [
+        "far off",
+        "kjv_lord of army:pl ipl:a to you send",
+        "if you",
+        "kjv_diligent:adv obey"
+      ],
+      "7:1": [
+        "four:ord year",
+        "four:ord day of nine:ord month",
+        "kjv_chisleu"
+      ],
+      "7:2": [
+        "to house of god",
+        "kjv_sherezer_envoy and kjv_regemmelech",
+        "before kjv_lord kjv_pray"
+      ],
+      "7:3": [
+        "ipl in five:ord month",
+        "iplself separate",
+        "ipl these so many year:pl"
+      ],
+      "7:4": [
+        "word of kjv_lord of army:pl to i"
+      ],
+      "7:5": [
+        "five:ord and seven:ord month",
+        "five+twelve and ten year:pl",
+        "to ipl even to ipl",
+        "kjv_fast do:pa:q"
+      ],
+      "7:6": [
+        "for yourselves eat:neg:pa:q",
+        "for yourselves drink:pa:q"
+      ],
+      "7:7": [
+        "former prophet:pl",
+        "hear:neg:should:q",
+        "prosperity",
+        "kjv_south and kjv_plain_land"
+      ],
+      "7:8": [
+        "word of kjv_lord to kjv_zechariah_prophet"
+      ],
+      "7:9": [
+        "true judgment perform",
+        "mercy and kjv_compassion:pl",
+        "every man to his/brother"
+      ],
+      "7:10": [
+        "widow nor kjv_fatherless nor stranger nor poor",
+        "none of you evil",
+        "his/brother in your/heart"
+      ],
+      "7:11": [
+        "kjv_shoulder away pull",
+        "their/ear:pl stop",
+        "hear:neg:should"
+      ],
+      "7:12": [
+        "their/heart:pl as kjv_adamant stone",
+        "in his/spirit by former prophet:pl",
+        "great wrath"
+      ],
+      "7:13": [
+        "he cry:pa",
+        "they hear:neg",
+        "they cry:pa and ipl hear:neg"
+      ],
+      "7:14": [
+        "ipl they:a with kjv_whirlwind",
+        "all nation:pl whom they know:neg",
+        "no man through pass",
+        "they pleasing land kjv_desolate"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:13",
+        "1:14",
+        "1:18",
+        "1:19",
+        "1:20",
+        "1:21",
+        "1:8",
+        "1:9",
+        "2:1",
+        "2:2",
+        "2:3",
+        "3:1",
+        "3:4",
+        "3:5",
+        "4:1",
+        "4:11",
+        "4:12",
+        "4:13",
+        "4:2",
+        "4:4",
+        "4:5",
+        "4:6",
+        "4:8",
+        "5:1",
+        "5:10",
+        "5:11",
+        "5:2",
+        "5:3",
+        "5:5",
+        "5:6",
+        "5:9",
+        "6:1",
+        "6:4",
+        "6:5",
+        "6:8",
+        "6:9",
+        "7:4"
+      ],
+      "ipl": [
+        "1:14",
+        "1:15",
+        "1:16",
+        "1:3",
+        "1:4",
+        "1:6",
+        "2:10",
+        "2:11",
+        "2:5",
+        "2:6",
+        "2:8",
+        "2:9",
+        "3:7",
+        "3:8",
+        "3:9",
+        "4:9",
+        "5:4",
+        "6:15",
+        "7:13",
+        "7:14",
+        "7:3",
+        "7:5"
+      ],
+      "wesg": [
+        "1:11",
+        "1:6"
+      ],
+      "wepl": [],
+      "mypl": [
+        "1:16",
+        "1:17",
+        "1:6",
+        "2:11",
+        "2:9",
+        "3:7",
+        "3:8",
+        "4:6",
+        "5:4"
+      ],
+      "ourone": [
+        "1:6"
+      ],
+      "iplself": [
+        "7:3"
+      ],
+      "we:du": [],
+      "they:du": [
+        "5:10",
+        "5:9",
+        "6:13"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Zechariah 5:9",
+      "Zechariah 5:10"
+    ],
+    "unresolvedPairedRelation": [
+      "Zechariah 6:13"
+    ],
+    "civicPluralSelfReferences": [
+      "Zechariah 7:3"
+    ],
+    "quantityInterpretation": [
+      "Dates,70years,scroll20by10and the separate vision counts remain exact.",
+      "Seven lamps/seven pipes/seven lamps4:2are retained;no multiplied49is inserted.",
+      "Two women license dual;between them both6:13preserves a pair without inventing names or a numerical deity count."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "98Zechariah verses added;Zechariah8–14and whole Bible remain incomplete.",
+      "Divine plural-I is retained in explicit LORD quotations that also say LORD sent me;sender/sent tension is not doctrinally resolved.",
+      "Personal angelic speech,communal patrol/admission and corporate fasting question have explicit contextual choices.",
+      "One common delivery-pipe sense,twelve contextual names and inherited-form BRANCH title;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Zechariah — incomplete Bible working text",
+    "pages": 68,
+    "spreads": 34,
+    "units": 98,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "b7e19f5624af33855a8fb83ffadba3bd1f53f64542b17891a6565c9340e3b30f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 34,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.112,
+    "modules": [
+      "tests.test_kjv_zechariah_sent_self",
+      "tests.test_kjv_haggai_unequal_contact",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    67,
+    68
+  ],
+  "status": "incomplete Bible;Zechariah1–7 section checkpoint verified"
+}

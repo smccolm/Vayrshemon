@@ -1,0 +1,682 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.214",
+    "parentVersion": "0.10-kjv.213",
+    "parentHead": "dd4ff3350da1951775d3072b8edeb6aa9f2a66d456cadbda53a1499d24c673c2",
+    "head": "5724ee3911c0e893ffe2bae33a78ec86c909f216a4fcadddcc09b3eabbad2eea",
+    "newLexicalEntries": 5,
+    "newProperEntries": 4,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 3,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 90,
+    "exactCompilerCases": 90,
+    "newAuthoredVerses": 90,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 166,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4891,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJohnVerses": 90,
+    "johnVerses": 166,
+    "authoredVerses": 26211,
+    "remainingVerses": 4891,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 8,
+    "quantityChecks": [
+      {
+        "reference": "John 3:4",
+        "source": "Nicodemus saith unto him, How can a man be born when he is old? can he enter the second time into his mother’s womb, and be born?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "John 4:6",
+        "source": "Now Jacob’s well was there. Jesus therefore, being wearied with his journey, sat thus on the well: and it was about the sixth hour.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "John 4:18",
+        "source": "For thou hast had five husbands; and he whom thou now hast is not thy husband: in that saidst thou truly.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "John 4:35",
+        "source": "Say not ye, There are yet four months, and then cometh harvest? behold, I say unto you, Lift up your eyes, and look on the fields; for they are white already to harvest.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "John 4:40",
+        "source": "So when the Samaritans were come unto him, they besought him that he would tarry with them: and he abode there two days.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "John 4:43",
+        "source": "Now after two days he departed thence, and went into Galilee.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "John 4:52",
+        "source": "Then enquired he of them the hour when he began to amend. And they said unto him, Yesterday at the seventh hour the fever left him.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "John 4:54",
+        "source": "This is again the second miracle that Jesus did, when he was come out of Judaea into Galilee.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "3:1": [
+        "kjv_nicodemus_john",
+        "kjv_pharisee:pl",
+        "ruler of kjv_jew:pl"
+      ],
+      "3:2": [
+        "by night",
+        "wesg",
+        "teach:ag who from god come:perf",
+        "unless god with he"
+      ],
+      "3:3": [
+        "truly truly ipl",
+        "again bear:psv:pr",
+        "see:neg:can"
+      ],
+      "3:4": [
+        "when old",
+        "second time",
+        "his/mother womb"
+      ],
+      "3:5": [
+        "ipl",
+        "of water and of spirit",
+        "enter:neg:can"
+      ],
+      "3:6": [
+        "of flesh bear:psv:pr flesh",
+        "of spirit bear:psv:pr spirit"
+      ],
+      "3:7": [
+        "ipl to thee",
+        "you again bear:psv:must"
+      ],
+      "3:8": [
+        "wind where will:pr blow:pr",
+        "its/sound",
+        "from where",
+        "to where",
+        "of spirit bear:psv:pr"
+      ],
+      "3:9": [
+        "how these thing:pl be:can:q"
+      ],
+      "3:10": [
+        "master of kjv_israel",
+        "know:neg:pr:q"
+      ],
+      "3:11": [
+        "ipl to thee",
+        "wesg that which wesg know:pr",
+        "wesg see:perf",
+        "ourone/witness receive:neg:pr"
+      ],
+      "3:12": [
+        "ipl to you earthly thing:pl",
+        "believe:neg:pr",
+        "ipl to you heavenly thing:pl"
+      ],
+      "3:13": [
+        "no man into heaven up go:perf",
+        "from heaven down come:pa",
+        "son of man who in heaven be:pr"
+      ],
+      "3:14": [
+        "kjv_moses",
+        "serpent up lift:pa",
+        "son of man up lift:psv:must"
+      ],
+      "3:15": [
+        "whoever in he believe:pr",
+        "perish:neg:should",
+        "eternal life"
+      ],
+      "3:16": [
+        "god so world love:pa",
+        "only beget:psv:adj son give:pa",
+        "whoever",
+        "perish:neg:should",
+        "eternal life"
+      ],
+      "3:17": [
+        "condemn:inf send:neg:pa",
+        "world through he save:psv:may"
+      ],
+      "3:18": [
+        "believe:pr condemn:psv:neg:pr",
+        "believe:neg:pr already condemn:psv:pr",
+        "only beget:psv:adj son"
+      ],
+      "3:19": [
+        "light into world come:perf",
+        "rather than light darkness",
+        "their/deed:pl evil"
+      ],
+      "3:20": [
+        "evil do:pr",
+        "light hate:pr",
+        "lest his/deed:pl rebuke:psv:should"
+      ],
+      "3:21": [
+        "truth do:pr",
+        "light come:pr",
+        "manifest:psv:may",
+        "in god work:psv:perf"
+      ],
+      "3:22": [
+        "kjv_jesus_matthew and his/disciple:pl",
+        "kjv_judaea",
+        "stay:pa and kjv_baptize:pa"
+      ],
+      "3:23": [
+        "kjv_aenon_john near kjv_salim_john",
+        "much water",
+        "kjv_baptize:psv:pa"
+      ],
+      "3:24": [
+        "yet into prison cast:psv:neg:pp"
+      ],
+      "3:25": [
+        "some disciple:pl",
+        "kjv_jew:pl",
+        "purify:ev"
+      ],
+      "3:26": [
+        "beyond kjv_jordan",
+        "thou testify:pa",
+        "all man:pl to he come:pr"
+      ],
+      "3:27": [
+        "nothing receive:can",
+        "unless from heaven"
+      ],
+      "3:28": [
+        "you yourselves to i",
+        "i say:pa i kjv_christ_title be:neg:pr",
+        "i before he send:psv:pr"
+      ],
+      "3:29": [
+        "bride have:pr kjv_bridegroom",
+        "friend of kjv_bridegroom",
+        "voice",
+        "my/joy fulfil:psv:perf"
+      ],
+      "3:30": [
+        "he increase:must but i diminish:must"
+      ],
+      "3:31": [
+        "from above",
+        "above all",
+        "of earth",
+        "from heaven"
+      ],
+      "3:32": [
+        "see:perf and hear:perf",
+        "no man his/testimony receive:pr"
+      ],
+      "3:33": [
+        "receive:perf",
+        "his/seal set:perf",
+        "god true"
+      ],
+      "3:34": [
+        "god send:perf",
+        "word:pl of god",
+        "spirit by measure give:neg:pr"
+      ],
+      "3:35": [
+        "father son love:pr",
+        "all thing:pl into his/hand"
+      ],
+      "3:36": [
+        "eternal life have:pr",
+        "believe:neg:pr life see:neg:fu",
+        "wrath of god on he remain:pr"
+      ],
+      "4:1": [
+        "kjv_lord",
+        "kjv_pharisee:pl",
+        "more disciple:pl than kjv_john_baptist"
+      ],
+      "4:2": [
+        "kjv_jesus_matthew himself kjv_baptize:neg:pa but his/disciple:pl"
+      ],
+      "4:3": [
+        "kjv_judaea leave:pa",
+        "kjv_galilee"
+      ],
+      "4:4": [
+        "through kjv_samaria go:must"
+      ],
+      "4:5": [
+        "kjv_sychar_john",
+        "part of ground",
+        "kjv_jacob to his/son kjv_joseph"
+      ],
+      "4:6": [
+        "kjv_well of kjv_jacob",
+        "his/journey weary:psv:adj",
+        "about six:ord hour"
+      ],
+      "4:7": [
+        "woman of kjv_samaria",
+        "water draw:inf",
+        "to ipl drink:inf give:imp"
+      ],
+      "4:8": [
+        "city food buy:inf"
+      ],
+      "4:9": [
+        "from i who woman of kjv_samaria",
+        "kjv_jew:pl with kjv_samaritan:pl kjv_dealings_social"
+      ],
+      "4:10": [
+        "gift of god",
+        "to ipl drink:inf give:imp",
+        "water which live:pr"
+      ],
+      "4:11": [
+        "draw:inf nothing",
+        "kjv_well deep",
+        "from where",
+        "water which live:pr"
+      ],
+      "4:12": [
+        "ourone/father kjv_jacob",
+        "to wesg kjv_well",
+        "his/child:pl and his/kjv_livestock"
+      ],
+      "4:13": [
+        "this water drink:pr again thirst:fu"
+      ],
+      "4:14": [
+        "water which ipl to he give:fu",
+        "never thirst:fu",
+        "in he kjv_well of water into eternal life up rise:cv"
+      ],
+      "4:15": [
+        "to i",
+        "i thirst:neg:pr",
+        "neither here draw:inf come:neg:pr"
+      ],
+      "4:16": [
+        "thy/husband call:imp",
+        "here come:imp"
+      ],
+      "4:17": [
+        "i no husband have:pr",
+        "well say:perf i no husband have:pr"
+      ],
+      "4:18": [
+        "five husband:pl",
+        "thy/husband be:neg:pr",
+        "truly"
+      ],
+      "4:19": [
+        "i that prophet be:pr perceive:pr"
+      ],
+      "4:20": [
+        "ourone/father:pl",
+        "this mountain",
+        "you",
+        "kjv_jerusalem",
+        "kjv_worship:inf necessary"
+      ],
+      "4:21": [
+        "ipl:a believe:imp",
+        "you neither in this mountain nor yet at kjv_jerusalem",
+        "father kjv_worship:fu"
+      ],
+      "4:22": [
+        "you what know:neg:pr",
+        "wesg what wesg kjv_worship:pr know:pr",
+        "salvation of kjv_jew:pl"
+      ],
+      "4:23": [
+        "hour come:pr and now be:pr",
+        "spirit and truth",
+        "father such he:a kjv_worship:inf seek:pr"
+      ],
+      "4:24": [
+        "god spirit be:pr",
+        "spirit and truth kjv_worship:must"
+      ],
+      "4:25": [
+        "i that kjv_messias_john",
+        "kjv_christ_title",
+        "to wesg tell:fu"
+      ],
+      "4:26": [
+        "ipl who to thee speak:pr he be:pr"
+      ],
+      "4:27": [
+        "marvel:pa",
+        "yet no man",
+        "what seek:pr:q or why with she talk:pr:q say:pa"
+      ],
+      "4:28": [
+        "her/kjv_waterpot_john leave:pa",
+        "into city"
+      ],
+      "4:29": [
+        "all thing:pl which ever i do:pa to i",
+        "kjv_christ_title be:neg:pr:q"
+      ],
+      "4:30": [
+        "out of city",
+        "to he come:pa"
+      ],
+      "4:31": [
+        "disciple:pl he:a urge:pa",
+        "master eat:imp"
+      ],
+      "4:32": [
+        "ipl food eat:inf",
+        "know:neg:pr"
+      ],
+      "4:33": [
+        "any man",
+        "anything eat:inf bring:perf:q"
+      ],
+      "4:34": [
+        "mypl/food will of he who ipl:a send:pa",
+        "his/work finish:inf"
+      ],
+      "4:35": [
+        "four month:pl",
+        "ipl to you",
+        "eye:pl up lift:imp",
+        "already to harvest white"
+      ],
+      "4:36": [
+        "kjv_wages:pl",
+        "eternal life fruit",
+        "kjv_sow:pr and he who reap:pr they:du"
+      ],
+      "4:37": [
+        "person kjv_sow:pr and another reap:pr"
+      ],
+      "4:38": [
+        "ipl you:a reap:inf",
+        "no labour bestow:pa",
+        "other man:pl labour:pa",
+        "their/labour:pl enter:perf"
+      ],
+      "4:39": [
+        "kjv_samaritan:pl",
+        "woman",
+        "all which ever i do:pa to i",
+        "believe:pa"
+      ],
+      "4:40": [
+        "with they stay:should",
+        "two day:pl"
+      ],
+      "4:41": [
+        "many more",
+        "his/own word"
+      ],
+      "4:42": [
+        "wesg not because thy/say:ev",
+        "wesg ourselves he:a hear:perf",
+        "kjv_christ_title save:ag of world"
+      ],
+      "4:43": [
+        "after two day:pl",
+        "kjv_galilee"
+      ],
+      "4:44": [
+        "prophet in his/own country no honour"
+      ],
+      "4:45": [
+        "kjv_galilaean_mark:pl",
+        "kjv_jerusalem at feast",
+        "they also to feast go:pp"
+      ],
+      "4:46": [
+        "kjv_cana_john",
+        "water wine make:pa",
+        "nobleman",
+        "son at kjv_capernaum sick"
+      ],
+      "4:47": [
+        "kjv_judaea into kjv_galilee",
+        "his/son heal:should",
+        "near death"
+      ],
+      "4:48": [
+        "unless you sign:pl and wonder:pl",
+        "you believe:neg:fu"
+      ],
+      "4:49": [
+        "before my/child die:pr down come:imp"
+      ],
+      "4:50": [
+        "thy/son live:pr",
+        "word",
+        "believe:pa",
+        "his/way go:pa"
+      ],
+      "4:51": [
+        "his/servant:pl",
+        "thy/son live:pr"
+      ],
+      "4:52": [
+        "kjv_yesterday at seven:ord hour kjv_fever",
+        "leave:pa"
+      ],
+      "4:53": [
+        "same hour",
+        "thy/son live:pr",
+        "himself and his/whole house"
+      ],
+      "4:54": [
+        "second miracle",
+        "kjv_judaea into kjv_galilee"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "3:28",
+        "3:30",
+        "4:15",
+        "4:17",
+        "4:19",
+        "4:25",
+        "4:29",
+        "4:39",
+        "4:9"
+      ],
+      "ipl": [
+        "3:11",
+        "3:12",
+        "3:3",
+        "3:5",
+        "3:7",
+        "4:10",
+        "4:14",
+        "4:21",
+        "4:26",
+        "4:32",
+        "4:34",
+        "4:35",
+        "4:38",
+        "4:7"
+      ],
+      "wesg": [
+        "3:11",
+        "3:2",
+        "4:12",
+        "4:22",
+        "4:25",
+        "4:42"
+      ],
+      "wepl": [],
+      "mypl": [
+        "4:34"
+      ],
+      "ourone": [
+        "3:11",
+        "4:12",
+        "4:20"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "4:36"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "4:36"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Second womb-entry,sixth hour,five husbands,four-month expectation,two-day stay,seventh-hour recovery,second miracle retained.",
+      "Sower/reaper dual marks paired roles without inventing a field-worker count."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "90new verses;166John;whole Bible incomplete.",
+      "Plural-I introduces singular-we witness speech without invented membership.",
+      "One common and four contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "John — incomplete Bible working text",
+    "pages": 88,
+    "spreads": 44,
+    "units": 166,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "550a0019e56e3d2f788038552c9e66ca89a74717ca47b8103afad497c002df61",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 44,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.841,
+    "modules": [
+      "tests.test_kjv_john_knowing_communities",
+      "tests.test_kjv_john_word_witness",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    87,
+    88
+  ],
+  "status": "incomplete Bible;John1–4 section checkpoint verified"
+}

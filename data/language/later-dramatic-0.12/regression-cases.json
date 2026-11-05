@@ -1,0 +1,476 @@
+[
+  {
+    "id": "generic-person",
+    "analysis": "one rel sing:pr.",
+    "expected": "accept",
+    "expectedText": "Vem ki lilowya.",
+    "expectedGloss": "one(person) · rel · sing(prs.).",
+    "interpretation": "Generic human relative, not one counted object."
+  },
+  {
+    "id": "cardinal-one",
+    "analysis": "one_num mile.",
+    "expected": "accept",
+    "expectedText": "Neksus paljÅr.",
+    "expectedGloss": "one · mile.",
+    "interpretation": "A measured mile, not a generic person."
+  },
+  {
+    "id": "two-husbands",
+    "analysis": "two husband.",
+    "expected": "accept",
+    "expectedText": "ÒÅtus zeren.",
+    "expectedGloss": "two · husband.",
+    "interpretation": "Quantity two."
+  },
+  {
+    "id": "second-husband",
+    "analysis": "husband:a second:m i bury:pr.",
+    "expected": "accept",
+    "expectedText": "Zerenget ÓÅtus’t’mç rá jovetowya.",
+    "expectedGloss": "husband(acc.) · second(mod.) · I(sg.) · bury(prs.).",
+    "interpretation": "Ordinal second; Alls Well 0002."
+  },
+  {
+    "id": "living-mortal",
+    "analysis": "mortal be:cv, she die:pa.",
+    "expected": "accept",
+    "expectedText": "N×njwën r×’es, za n×nizya.",
+    "expectedGloss": "mortal · be(cv.), · she(sg.) · die(pst.).",
+    "interpretation": "The human may die; she is not already dead."
+  },
+  {
+    "id": "dead-result",
+    "analysis": "dead she be:pr.",
+    "expected": "accept",
+    "expectedText": "N×nna za r×owya.",
+    "expectedGloss": "dead · she(sg.) · be(prs.).",
+    "interpretation": "Result of death, distinct from mortality."
+  },
+  {
+    "id": "bar-object",
+    "analysis": "bar:a i see:pr.",
+    "expected": "accept",
+    "expectedText": "Zarilget rá oÃowya.",
+    "expectedGloss": "bar(acc.) · I(sg.) · see(prs.).",
+    "interpretation": "Physical bar."
+  },
+  {
+    "id": "bar-prevent",
+    "analysis": "merit:a they bar_obstruct:pr.",
+    "expected": "accept",
+    "expectedText": "Farvemenget zem threnbraowya.",
+    "expectedGloss": "merit(acc.) · they(pl.) · bar(obstruct)(prs.).",
+    "interpretation": "Preventing action, separate lexical sense."
+  },
+  {
+    "id": "partitive-dative",
+    "analysis": "each:d of you one_num gift.",
+    "expected": "accept",
+    "expectedText": "Elenel i ne neksus fÅwen.",
+    "expectedGloss": "each(dat.) · of · you(pol./pl.) · one · gift.",
+    "interpretation": "One case per head, free partitive."
+  },
+  {
+    "id": "same-subject",
+    "analysis": "story:a aunt tell:cv, sit:pr.",
+    "expected": "accept",
+    "expectedText": "TÍnget melan sëÛga’es, veÕowya.",
+    "expectedGloss": "story(acc.) · aunt · tell(cv.), · sit(prs.).",
+    "interpretation": "Aunt tells and sits; reference interpreted by reader."
+  },
+  {
+    "id": "different-subject",
+    "analysis": "titania sleep:cvds, clown:pl enter:pr.",
+    "expected": "accept",
+    "expectedText": "Titania seÛ’esta, barilun ybsßowya.",
+    "expectedGloss": "titania · sleep(cv.ds.), · clown(pl.) · enter(prs.).",
+    "interpretation": "Titania sleeps; clowns enter."
+  },
+  {
+    "id": "imperative",
+    "analysis": "sleep:imp.",
+    "expected": "accept",
+    "expectedText": "SeÛe.",
+    "expectedGloss": "sleep(imp.).",
+    "interpretation": "Ordinary command."
+  },
+  {
+    "id": "wish",
+    "analysis": "sleep:pr:opt.",
+    "expected": "accept",
+    "expectedText": "SeÛowya’ne.",
+    "expectedGloss": "sleep(prs.,opt.).",
+    "interpretation": "Wish, not ritual imposition."
+  },
+  {
+    "id": "ritual",
+    "analysis": "sleep:pr:juss.",
+    "expected": "accept",
+    "expectedText": "SeÛowya’rai.",
+    "expectedGloss": "sleep(prs.,rit.juss.).",
+    "interpretation": "Ritual performative intention."
+  },
+  {
+    "id": "report",
+    "analysis": "be:pa:rep.",
+    "expected": "accept",
+    "expectedText": "R×izya’vë.",
+    "expectedGloss": "be(pst.,rep.).",
+    "interpretation": "Attributed claim."
+  },
+  {
+    "id": "appearance",
+    "analysis": "be:pr:app.",
+    "expected": "accept",
+    "expectedText": "R×owya’sëm.",
+    "expectedGloss": "be(prs.,appr.).",
+    "interpretation": "Apparent state, not certainty or necessarily deception."
+  },
+  {
+    "id": "prohibition",
+    "analysis": "slumber:neg:pr:must.",
+    "expected": "accept",
+    "expectedText": "Ma’seÛowya’jor.",
+    "expectedGloss": "slumber(neg.,prs.,necess.).",
+    "interpretation": "Necessity takes scope over not slumbering."
+  },
+  {
+    "id": "unnecessary",
+    "analysis": "slumber:inf i need:pr not.",
+    "expected": "accept",
+    "expectedText": "SeÛ’en rá fërÓowya ma.",
+    "expectedGloss": "slumber(inf.) · I(sg.) · need(prs.) · not.",
+    "interpretation": "No necessity, not a prohibition."
+  },
+  {
+    "id": "perfect-infinitive",
+    "analysis": "my/fault:pl:a amend:perf:inf.",
+    "expected": "accept",
+    "expectedText": "Rá’murf×venorunget ufolowfu’en.",
+    "expectedGloss": "my-fault(pl.,acc.) · amend(prs.pf.,inf.).",
+    "interpretation": "Inherited anterior infinitive; Alls Well 0613."
+  },
+  {
+    "id": "passive-causative",
+    "analysis": "believe:psv:caus:pr:cond.",
+    "expected": "accept",
+    "expectedText": "Prodimarowya’ve.",
+    "expectedGloss": "believe(pass.,caus.,prs.,irr.).",
+    "interpretation": "Cause it to be believed."
+  },
+  {
+    "id": "causative-passive",
+    "analysis": "fool:caus:psv:cv.",
+    "expected": "accept",
+    "expectedText": "Lofarim’es.",
+    "expectedGloss": "fool(caus.,pass.,cv.).",
+    "interpretation": "Having been made a fool."
+  },
+  {
+    "id": "collective",
+    "analysis": "we be:pr.",
+    "expected": "accept",
+    "expectedText": "Ly r×owya.",
+    "expectedGloss": "we(sg.) · be(prs.).",
+    "interpretation": "Collective/royal we."
+  },
+  {
+    "id": "plural",
+    "analysis": "wepl be:pr.",
+    "expected": "accept",
+    "expectedText": "Lym r×owya.",
+    "expectedGloss": "we(pl.) · be(prs.).",
+    "interpretation": "Individuated plural we."
+  },
+  {
+    "id": "familiar",
+    "analysis": "thou speak:pr.",
+    "expected": "accept",
+    "expectedText": "Nel giktenv×owya.",
+    "expectedGloss": "you(fam.sg.) · speak(prs.).",
+    "interpretation": "Familiar singular addressee."
+  },
+  {
+    "id": "formal",
+    "analysis": "you speak:pr.",
+    "expected": "accept",
+    "expectedText": "Ne giktenv×owya.",
+    "expectedGloss": "you(pol./pl.) · speak(prs.).",
+    "interpretation": "Respectful or plural addressee."
+  },
+  {
+    "id": "counterfactual",
+    "analysis": "asif hundred thousand heart:pl:a pierce:pr:cond.",
+    "expected": "accept",
+    "expectedText": "Venki krizÉmbÅr ßdÉmyambÅr sevarunget thrinterastnerdaÃowya’ve.",
+    "expectedGloss": "asif · hundred · thousand · heart(pl.,acc.) · pierce(prs.,irr.).",
+    "interpretation": "Source quantities unchanged; no numerical reinterpretation."
+  },
+  {
+    "id": "unta-0",
+    "analysis": "zero",
+    "expected": "accept",
+    "expectedText": "Fßlem",
+    "expectedGloss": "zero",
+    "expectedReading": "Fōlem"
+  },
+  {
+    "id": "unta-1",
+    "analysis": "one_num",
+    "expected": "accept",
+    "expectedText": "Neksus",
+    "expectedGloss": "one",
+    "expectedReading": "Neksus"
+  },
+  {
+    "id": "unta-2",
+    "analysis": "two",
+    "expected": "accept",
+    "expectedText": "ÒÅtus",
+    "expectedGloss": "two",
+    "expectedReading": "Thātus"
+  },
+  {
+    "id": "unta-3",
+    "analysis": "three",
+    "expected": "accept",
+    "expectedText": "Venik",
+    "expectedGloss": "three",
+    "expectedReading": "Venik"
+  },
+  {
+    "id": "unta-4",
+    "analysis": "four",
+    "expected": "accept",
+    "expectedText": "BÅrum",
+    "expectedGloss": "four",
+    "expectedReading": "Bārum"
+  },
+  {
+    "id": "unta-5",
+    "analysis": "five",
+    "expected": "accept",
+    "expectedText": "Jensis",
+    "expectedGloss": "five",
+    "expectedReading": "Jensis"
+  },
+  {
+    "id": "unta-6",
+    "analysis": "six",
+    "expected": "accept",
+    "expectedText": "Þd×um",
+    "expectedGloss": "six",
+    "expectedReading": "Ōdēum"
+  },
+  {
+    "id": "unta-7",
+    "analysis": "seven",
+    "expected": "accept",
+    "expectedText": "PÉrsus",
+    "expectedGloss": "seven",
+    "expectedReading": "Pärsus"
+  },
+  {
+    "id": "unta-8",
+    "analysis": "eight",
+    "expected": "accept",
+    "expectedText": "Krizum",
+    "expectedGloss": "eight",
+    "expectedReading": "Krizum"
+  },
+  {
+    "id": "unta-9",
+    "analysis": "nine",
+    "expected": "accept",
+    "expectedText": "Deksin",
+    "expectedGloss": "nine",
+    "expectedReading": "Deksin"
+  },
+  {
+    "id": "unta-10",
+    "analysis": "ten",
+    "expected": "accept",
+    "expectedText": "EÛnÉ",
+    "expectedGloss": "ten",
+    "expectedReading": "Eshnä"
+  },
+  {
+    "id": "unta-11",
+    "analysis": "eleven",
+    "expected": "accept",
+    "expectedText": "Yamen",
+    "expectedGloss": "eleven",
+    "expectedReading": "Yamen"
+  },
+  {
+    "id": "unta-12",
+    "analysis": "twelve",
+    "expected": "accept",
+    "expectedText": "Èm×nß",
+    "expectedGloss": "twelve",
+    "expectedReading": "Ämēnō"
+  },
+  {
+    "id": "expressive-statement",
+    "analysis": "this moon slow:adv wane:pr:excl.",
+    "expected": "accept",
+    "expectedText": "ÐeÕ mënir venimna’ëw mënivowya’hÅ.",
+    "expectedGloss": "this · moon · slow(adv.) · wane(prs.,excl.).",
+    "interpretation": "Expressive statement; not a command."
+  },
+  {
+    "id": "expressive-command",
+    "analysis": "go:imp:excl.",
+    "expected": "accept",
+    "expectedText": "ÂÍe’hÅ.",
+    "expectedGloss": "go(imp.,excl.).",
+    "interpretation": "Marked command; ordinary go:imp remains available."
+  },
+  {
+    "id": "expressive-wish",
+    "analysis": "live:pa:opt:excl.",
+    "expected": "accept",
+    "expectedText": "Ôßrizya’ne’hÅ.",
+    "expectedGloss": "live(pst.,opt.,excl.).",
+    "interpretation": "Expressive wish; not assertion or ritual imposition."
+  },
+  {
+    "id": "expressive-spell",
+    "analysis": "sleep:pr:juss:excl.",
+    "expected": "accept",
+    "expectedText": "SeÛowya’rai’hÅ.",
+    "expectedGloss": "sleep(prs.,rit.juss.,excl.).",
+    "interpretation": "Marked ritual utterance; scope remains jussive."
+  },
+  {
+    "id": "expressive-vocative",
+    "analysis": "my/mother:excl.",
+    "expected": "accept",
+    "expectedText": "Rá’mela’hÅ.",
+    "expectedGloss": "my-mother(excl.).",
+    "interpretation": "Nominal fragment/vocative can carry expressive force without an invented copula."
+  },
+  {
+    "id": "expressive-report",
+    "analysis": "be:pa:rep:excl.",
+    "expected": "accept",
+    "expectedText": "R×izya’vë’hÅ.",
+    "expectedGloss": "be(pst.,rep.,excl.).",
+    "interpretation": "Expressive attitude toward an attributed claim does not certify it."
+  },
+  {
+    "id": "double-case",
+    "analysis": "you:g:d",
+    "expected": "reject",
+    "error": "CONFLICTING_CASE"
+  },
+  {
+    "id": "double-tense",
+    "analysis": "be:pa:pr",
+    "expected": "reject",
+    "error": "CONFLICTING_TENSE_ASPECT"
+  },
+  {
+    "id": "number-conflict",
+    "analysis": "eye:du:pl",
+    "expected": "reject",
+    "error": "CONFLICTING_NUMBER"
+  },
+  {
+    "id": "finite-converb",
+    "analysis": "sleep:pr:cv",
+    "expected": "reject",
+    "error": "FINITE_NONFINITE_CONFLICT"
+  },
+  {
+    "id": "subject-marker-conflict",
+    "analysis": "sleep:cv:cvds",
+    "expected": "reject",
+    "error": "CONFLICTING_CLAUSE_FORM"
+  },
+  {
+    "id": "evidential-stack",
+    "analysis": "be:pr:app:rep",
+    "expected": "reject",
+    "error": "UNLICENSED_EVIDENTIAL_STACK"
+  },
+  {
+    "id": "bare-report",
+    "analysis": "be:rep",
+    "expected": "reject",
+    "error": "FINITE_ANCHOR_REQUIRED"
+  },
+  {
+    "id": "bare-spell",
+    "analysis": "sleep:juss",
+    "expected": "reject",
+    "error": "FINITE_ANCHOR_REQUIRED"
+  },
+  {
+    "id": "voice-order",
+    "analysis": "see:pr:psv",
+    "expected": "reject",
+    "error": "VOICE_AFTER_CLAUSE_ENDING"
+  },
+  {
+    "id": "invented-feature",
+    "analysis": "be:iter",
+    "expected": "reject",
+    "error": "UNKNOWN_FEATURE"
+  },
+  {
+    "id": "duplicate",
+    "analysis": "be:pr:pr",
+    "expected": "reject",
+    "error": "DUPLICATE_FEATURE"
+  },
+  {
+    "id": "finite-inf",
+    "analysis": "go:pa:inf",
+    "expected": "reject",
+    "error": "INFINITIVE_TENSE_CONFLICT"
+  },
+  {
+    "id": "inf-perfect-order",
+    "analysis": "go:inf:perf",
+    "expected": "reject",
+    "error": "PERFECT_INFINITIVE_ORDER"
+  },
+  {
+    "id": "force-conflict",
+    "analysis": "go:pr:opt:juss",
+    "expected": "reject",
+    "error": "CONFLICTING_FORCE"
+  },
+  {
+    "id": "modal-stack",
+    "analysis": "go:pr:must:may",
+    "expected": "reject",
+    "error": "UNLICENSED_MODAL_STACK"
+  },
+  {
+    "id": "unknown-word",
+    "analysis": "unrecordedword:pr",
+    "expected": "reject",
+    "error": "UNKNOWN_LEXICAL_KEY"
+  },
+  {
+    "id": "unsupported-exclamation",
+    "analysis": "go:imp!",
+    "expected": "reject",
+    "error": "EXCLAMATION_REQUIRES_EXCL_FORM"
+  },
+  {
+    "id": "exclamative-order",
+    "analysis": "go:excl:pr",
+    "expected": "reject",
+    "error": "EXCLAMATIVE_NOT_FINAL"
+  },
+  {
+    "id": "exclamative-duplicate",
+    "analysis": "go:pr:excl:excl",
+    "expected": "reject",
+    "error": "DUPLICATE_FEATURE"
+  }
+]

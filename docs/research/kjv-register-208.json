@@ -1,0 +1,655 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.208",
+    "parentVersion": "0.10-kjv.207",
+    "parentHead": "21cafdb29e691ccae7593df09a0a0782ec06b55fde8e82d13513264d3f5f33e2",
+    "head": "81deb6a7e3e5be8555fd36acee5f3656c593f4d71d355438ab03d50fad0cf58c",
+    "newLexicalEntries": 3,
+    "newProperEntries": 1,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 63,
+    "exactCompilerCases": 63,
+    "newAuthoredVerses": 63,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 758,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 5450,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newLukeVerses": 63,
+    "lukeVerses": 758,
+    "authoredVerses": 25652,
+    "remainingVerses": 5450,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 15,
+    "quantityChecks": [
+      {
+        "reference": "Luke 15:4",
+        "source": "What man of you, having an hundred sheep, if he lose one of them, doth not leave the ninety and nine in the wilderness, and go after that which is lost, until he find it?",
+        "expectedDecimalQuantities": [
+          100,
+          1,
+          99
+        ],
+        "targetQuantities": [
+          100,
+          1,
+          99
+        ]
+      },
+      {
+        "reference": "Luke 15:7",
+        "source": "I say unto you, that likewise joy shall be in heaven over one sinner that repenteth, more than over ninety and nine just persons, which need no repentance.",
+        "expectedDecimalQuantities": [
+          1,
+          99
+        ],
+        "targetQuantities": [
+          1,
+          99
+        ]
+      },
+      {
+        "reference": "Luke 15:8",
+        "source": "Either what woman having ten pieces of silver, if she lose one piece, doth not light a candle, and sweep the house, and seek diligently till she find it?",
+        "expectedDecimalQuantities": [
+          10,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 15:10",
+        "source": "Likewise, I say unto you, there is joy in the presence of the angels of God over one sinner that repenteth.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 15:11",
+        "source": "And he said, A certain man had two sons:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 15:19",
+        "source": "And am no more worthy to be called thy son: make me as one of thy hired servants.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 15:26",
+        "source": "And he called one of the servants, and asked what these things meant.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 16:5",
+        "source": "So he called every one of his lord’s debtors unto him, and said unto the first, How much owest thou unto my lord?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 16:6",
+        "source": "And he said, An hundred measures of oil. And he said unto him, Take thy bill, and sit down quickly, and write fifty.",
+        "expectedDecimalQuantities": [
+          100,
+          50
+        ],
+        "targetQuantities": [
+          100,
+          50
+        ]
+      },
+      {
+        "reference": "Luke 16:7",
+        "source": "Then said he to another, And how much owest thou? And he said, An hundred measures of wheat. And he said unto him, Take thy bill, and write fourscore.",
+        "expectedDecimalQuantities": [
+          100,
+          80
+        ],
+        "targetQuantities": [
+          100,
+          80
+        ]
+      },
+      {
+        "reference": "Luke 16:13",
+        "source": "No servant can serve two masters: for either he will hate the one, and love the other; or else he will hold to the one, and despise the other. Ye cannot serve God and mammon.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 16:17",
+        "source": "And it is easier for heaven and earth to pass, than one tittle of the law to fail.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 16:28",
+        "source": "For I have five brethren; that he may testify unto them, lest they also come into this place of torment.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Luke 16:30",
+        "source": "And he said, Nay, father Abraham: but if one went unto them from the dead, they will repent.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 16:31",
+        "source": "And he said unto him, If they hear not Moses and the prophets, neither will they be persuaded, though one rose from the dead.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "15:1": [
+        "all kjv_publican:pl and sin:ag:pl",
+        "he:a hear:inf"
+      ],
+      "15:2": [
+        "kjv_murmur:pa",
+        "receive:pr and with they eat:pr"
+      ],
+      "15:3": [
+        "this kjv_parable_teaching speak:pa"
+      ],
+      "15:4": [
+        "eight+twelve and four sheep:pl",
+        "one_num of they",
+        "eight+twelve and three in kjv_wilderness",
+        "until it find:pr"
+      ],
+      "15:5": [
+        "on his/kjv_shoulder:pl",
+        "rejoice:cv"
+      ],
+      "15:6": [
+        "with i rejoice:imp",
+        "i my/sheep which lose:psv:pa find:perf"
+      ],
+      "15:7": [
+        "ipl to you say:pr",
+        "one_num sin:ag",
+        "eight+twelve and three kjv_righteous",
+        "no repent:ev need:pr"
+      ],
+      "15:8": [
+        "ten piece:pl of silver",
+        "one_num piece",
+        "lamp kjv_light_lamp",
+        "house sweep",
+        "kjv_diligent:adv"
+      ],
+      "15:9": [
+        "her/friend:pl and her/neighbour:pl",
+        "with i rejoice:imp",
+        "which i lose:pp"
+      ],
+      "15:10": [
+        "ipl to you say:pr",
+        "in presence of angel:pl of god",
+        "one_num sin:ag"
+      ],
+      "15:11": [
+        "two son:pl have:pa"
+      ],
+      "15:12": [
+        "younger of they:du",
+        "to i kjv_portion_share",
+        "to they:du his/means of life kjv_divide:pa"
+      ],
+      "15:13": [
+        "not many day:pl",
+        "far country",
+        "reckless:adv spend:pa"
+      ],
+      "15:14": [
+        "all spend:pp",
+        "mighty kjv_famine",
+        "in lack be:inf begin:pa"
+      ],
+      "15:15": [
+        "citizen of that country",
+        "his/field:pl pig:pl feed:inf"
+      ],
+      "15:16": [
+        "kjv_husk:pl which pig:pl eat:pa",
+        "fill:inf desire:pa",
+        "no man to he give:pa"
+      ],
+      "15:17": [
+        "to himself come:pa",
+        "kjv_hire:psv:adj servant:pl",
+        "enough bread and more",
+        "i with hunger perish:pr:excl"
+      ],
+      "15:18": [
+        "i rise:fu",
+        "against heaven and before thou sin:perf"
+      ],
+      "15:19": [
+        "no more worthy",
+        "one_num of thy/kjv_hire:psv:adj servant:pl i:a make:imp"
+      ],
+      "15:20": [
+        "yet far away",
+        "kjv_compassion",
+        "run:pa",
+        "on his/neck fall:pa",
+        "kiss:pa"
+      ],
+      "15:21": [
+        "father i against heaven",
+        "in thy/sight sin:perf",
+        "no more worthy"
+      ],
+      "15:22": [
+        "best kjv_robe",
+        "on his/hand ring",
+        "on his/foot:pl shoe:pl"
+      ],
+      "15:23": [
+        "fatten:psv:adj kjv_calf",
+        "kill:imp",
+        "wesg eat:opt and merry be:opt"
+      ],
+      "15:24": [
+        "this my/son dead be:pa",
+        "again alive",
+        "lose:psv:pa and find:psv:pr"
+      ],
+      "15:25": [
+        "more old be:pa",
+        "in field",
+        "music and dance:ev hear:pa"
+      ],
+      "15:26": [
+        "one_num of servant:pl",
+        "what these thing:pl mean:pa ask:pa"
+      ],
+      "15:27": [
+        "thy/brother come:perf",
+        "fatten:psv:adj kjv_calf",
+        "safety:adj and healthy"
+      ],
+      "15:28": [
+        "angry be:pa",
+        "in go:inf will:neg:pa",
+        "father out come:pa",
+        "beseech:pa"
+      ],
+      "15:29": [
+        "i thou:a serve:pr",
+        "neither i at any time thy/command transgress:pa",
+        "never kjv_kid",
+        "my/friend:pl"
+      ],
+      "15:30": [
+        "this thy/son",
+        "with kjv_harlot:pl devour:perf",
+        "fatten:psv:adj kjv_calf"
+      ],
+      "15:31": [
+        "thou always with i",
+        "all that i have:pr thine"
+      ],
+      "15:32": [
+        "wesg merry be:should",
+        "this thy/brother",
+        "dead be:pa and again alive",
+        "lose:psv:pa and find:psv:pr"
+      ],
+      "16:1": [
+        "to his/disciple:pl",
+        "certain rich man",
+        "his/kjv_goods reckless:adv spend:pp accuse:psv:pa"
+      ],
+      "16:2": [
+        "how i this of thou hear:pr:q",
+        "account give:imp",
+        "no longer steward be:may"
+      ],
+      "16:3": [
+        "within himself say:pa",
+        "i kjv_dig:inf able:neg:pr",
+        "to beg:inf i ashamed"
+      ],
+      "16:4": [
+        "i what do:inf resolve:perf",
+        "into their/house:pl i:a receive:may"
+      ],
+      "16:5": [
+        "every person of his/lord debt:ag:pl",
+        "to first",
+        "to my/lord how much owe:pr:q"
+      ],
+      "16:6": [
+        "eight+twelve and four kjv_measure_portion:pl of oil",
+        "thy/kjv_debt_bill",
+        "quickly down sit:imp",
+        "four+twelve and two write:imp"
+      ],
+      "16:7": [
+        "eight+twelve and four kjv_measure_portion:pl of wheat",
+        "thy/kjv_debt_bill",
+        "six+twelve and eight write:imp"
+      ],
+      "16:8": [
+        "lord unjust steward commend:pa",
+        "wise:adv do:pp",
+        "in their/generation",
+        "child:pl of light"
+      ],
+      "16:9": [
+        "ipl to you say:pr",
+        "kjv_mammon of unjust:ev",
+        "when fail:pr",
+        "eternal dwelling:pl"
+      ],
+      "16:10": [
+        "in least faithful",
+        "in much faithful",
+        "in least unjust",
+        "in much unjust"
+      ],
+      "16:11": [
+        "unjust kjv_mammon",
+        "faithful be:neg:perf",
+        "true wealth"
+      ],
+      "16:12": [
+        "another man possess:pr",
+        "your/own be:pr"
+      ],
+      "16:13": [
+        "two master:pl",
+        "one_num hate:fu and other love:fu",
+        "to one_num hold:fu and other despise:fu",
+        "god and kjv_mammon"
+      ],
+      "16:14": [
+        "kjv_covetousness:adj",
+        "hear:pa and he:a mock:pa"
+      ],
+      "16:15": [
+        "yourselves kjv_justify:pr",
+        "god your/heart:pl know:pr",
+        "in sight of god kjv_abomination be:pr"
+      ],
+      "16:16": [
+        "law and prophet:pl until kjv_john_baptist",
+        "kingdom of god proclaim:psv:pr",
+        "every man into it press:pr"
+      ],
+      "16:17": [
+        "heaven and earth",
+        "one_num kjv_tittle of law fail:inf"
+      ],
+      "16:18": [
+        "his/wife away put:pr",
+        "another marry:pr kjv_adultery",
+        "from her/husband away put:psv:pr marry:pr kjv_adultery"
+      ],
+      "16:19": [
+        "certain rich man",
+        "purple and fine linen",
+        "every day rich:adv feast:pa"
+      ],
+      "16:20": [
+        "beg:ag name:psv:adj kjv_lazarus_beggar",
+        "at his/gate lay:psv:pa",
+        "full of wound:pl"
+      ],
+      "16:21": [
+        "kjv_crumb:pl",
+        "kjv_table_furniture of rich man",
+        "feed:psv:inf desire:cv",
+        "dog:pl",
+        "his/wound:pl kjv_lick:pa"
+      ],
+      "16:22": [
+        "beg:ag die:pa",
+        "by angel:pl into bosom of kjv_abraham",
+        "rich man also die:pa and bury:psv:pa"
+      ],
+      "16:23": [
+        "in kjv_hell_depth",
+        "in torment:ev:pl",
+        "kjv_abraham far away",
+        "kjv_lazarus_beggar in his/bosom"
+      ],
+      "16:24": [
+        "father kjv_abraham",
+        "end of his/finger in water",
+        "my/tongue cool:may",
+        "i in this flame torment:psv:pr"
+      ],
+      "16:25": [
+        "son that thou",
+        "thy/good thing:pl",
+        "kjv_lazarus_beggar evil thing:pl",
+        "he comfort:psv:pr and thou torment:psv:pr"
+      ],
+      "16:26": [
+        "between wesg and you great kjv_gulf_chasm fix:psv:pr",
+        "from here to you",
+        "neither they who from there",
+        "to wesg pass:inf able:pr"
+      ],
+      "16:27": [
+        "i thou:a pray:pr father",
+        "house of my/father"
+      ],
+      "16:28": [
+        "i five brother:pl",
+        "testify:may",
+        "lest they also into this place of torment:ev"
+      ],
+      "16:29": [
+        "kjv_moses and prophet:pl have:pr",
+        "they:a hear:opt"
+      ],
+      "16:30": [
+        "no father kjv_abraham",
+        "one_num from dead person:pl",
+        "repent:fu"
+      ],
+      "16:31": [
+        "kjv_moses and prophet:pl hear:neg:pr",
+        "neither persuade:psv:fu",
+        "one_num from dead person:pl rise:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "15:12",
+        "15:17",
+        "15:18",
+        "15:19",
+        "15:21",
+        "15:29",
+        "15:31",
+        "15:6",
+        "15:9",
+        "16:2",
+        "16:24",
+        "16:27",
+        "16:28",
+        "16:3",
+        "16:4"
+      ],
+      "ipl": [
+        "15:10",
+        "15:7",
+        "16:9"
+      ],
+      "wesg": [
+        "15:23",
+        "15:32",
+        "16:26"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "15:12"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "15:12"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Hundred/one/ninety-nine sheep,ten/one silver pieces and two sons retained.",
+      "Debt bills distinguish100to50oil from100to80wheat with no unit conversion or inferred commission.",
+      "Two masters,one tittle,five brothers and one risen witness preserved."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "63new verses;758Luke total;whole Bible remains incomplete.",
+      "Parable personal voices and shared household/side distinguished from framing plural-self teacher.",
+      "Rehearsed and actual confession differ;elder son final choice not supplied.",
+      "Two common and one proper entry;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Luke — incomplete Bible working text",
+    "pages": 438,
+    "spreads": 219,
+    "units": 758,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "0af35a95577ed26a2a32228fc3bcf365001d441c483d2b370ad412804869a54d",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.529785000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 219,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.311,
+    "modules": [
+      "tests.test_kjv_luke_recovered_relations",
+      "tests.test_kjv_luke_refused_shelter",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    437,
+    438
+  ],
+  "status": "incomplete Bible;Luke1–16 section checkpoint verified"
+}

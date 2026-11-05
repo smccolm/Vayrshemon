@@ -1,0 +1,981 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.32",
+    "parentVersion": "0.10-kjv.31",
+    "parentHead": "457571ee7241ee87b254364d243529b065a60b25f4ba692eee86c8c937603564",
+    "head": "f18eb775d234a14b079ac28a30be02b94ba3f8fa622bbedb29fabd9add68e70b",
+    "newLexicalEntries": 7,
+    "newProperEntries": 3,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 72,
+    "exactCompilerCases": 125,
+    "newAuthoredVerses": 125,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 125,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 25077,
+    "status": "incomplete"
+  },
+  "validation": {
+    "status": "incomplete",
+    "newJoshuaVerses": 125,
+    "revisedPreviousTargetVerses": 0,
+    "authoredVerses": 6025,
+    "remainingVerses": 25077,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 33,
+    "quantityChecks": [
+      {
+        "reference": "Joshua 1:11",
+        "source": "Pass through the host, and command the people, saying, Prepare you victuals; for within three days ye shall pass over this Jordan, to go in to possess the land, which the LORD your God giveth you to possess it.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 1:12",
+        "source": "And to the Reubenites, and to the Gadites, and to half the tribe of Manasseh, spake Joshua, saying,",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 2:1",
+        "source": "And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlotâ€™s house, named Rahab, and lodged there.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 2:4",
+        "source": "And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 2:10",
+        "source": "For we have heard how the LORD dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that were on the other side Jordan, Sihon and Og, whom ye utterly destroyed.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 2:16",
+        "source": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 2:22",
+        "source": "And they went, and came unto the mountain, and abode there three days, until the pursuers were returned: and the pursuers sought them throughout all the way, but found them not.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 2:23",
+        "source": "So the two men returned, and descended from the mountain, and passed over, and came to Joshua the son of Nun, and told him all things that befell them:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 3:2",
+        "source": "And it came to pass after three days, that the officers went through the host;",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 3:4",
+        "source": "Yet there shall be a space between you and it, about two thousand cubits by measure: come not near unto it, that ye may know the way by which ye must go: for ye have not passed this way heretofore.",
+        "expectedDecimalQuantities": [
+          2000
+        ],
+        "targetQuantities": [
+          2000
+        ]
+      },
+      {
+        "reference": "Joshua 3:12",
+        "source": "Now therefore take you twelve men out of the tribes of Israel, out of every tribe a man.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:2",
+        "source": "Take you twelve men out of the people, out of every tribe a man,",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:3",
+        "source": "And command ye them, saying, Take you hence out of the midst of Jordan, out of the place where the priestsâ€™ feet stood firm, twelve stones, and ye shall carry them over with you, and leave them in the lodging place, where ye shall lodge this night.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:4",
+        "source": "Then Joshua called the twelve men, whom he had prepared of the children of Israel, out of every tribe a man:",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:8",
+        "source": "And the children of Israel did so as Joshua commanded, and took up twelve stones out of the midst of Jordan, as the LORD spake unto Joshua, according to the number of the tribes of the children of Israel, and carried them over with them unto the place where they lodged, and laid them down there.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:9",
+        "source": "And Joshua set up twelve stones in the midst of Jordan, in the place where the feet of the priests which bare the ark of the covenant stood: and they are there unto this day.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:12",
+        "source": "And the children of Reuben, and the children of Gad, and half the tribe of Manasseh, passed over armed before the children of Israel, as Moses spake unto them:",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 4:13",
+        "source": "About forty thousand prepared for war passed over before the LORD unto battle, to the plains of Jericho.",
+        "expectedDecimalQuantities": [
+          40000
+        ],
+        "targetQuantities": [
+          40000
+        ]
+      },
+      {
+        "reference": "Joshua 4:19",
+        "source": "And the people came up out of Jordan on the tenth day of the first month, and encamped in Gilgal, in the east border of Jericho.",
+        "expectedDecimalQuantities": [
+          10,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 4:20",
+        "source": "And those twelve stones, which they took out of Jordan, did Joshua pitch in Gilgal.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 5:2",
+        "source": "At that time the LORD said unto Joshua, Make thee sharp knives, and circumcise again the children of Israel the second time.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 5:6",
+        "source": "For the children of Israel walked forty years in the wilderness, till all the people that were men of war, which came out of Egypt, were consumed, because they obeyed not the voice of the LORD: unto whom the LORD sware that he would not shew them the land, which the LORD sware unto their fathers that he would give us, a land that floweth with milk and honey.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Joshua 5:10",
+        "source": "And the children of Israel encamped in Gilgal, and kept the passover on the fourteenth day of the month at even in the plains of Jericho.",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      },
+      {
+        "reference": "Joshua 6:3",
+        "source": "And ye shall compass the city, all ye men of war, and go round about the city once. Thus shalt thou do six days.",
+        "expectedDecimalQuantities": [
+          1,
+          6
+        ],
+        "targetQuantities": [
+          1,
+          6
+        ]
+      },
+      {
+        "reference": "Joshua 6:4",
+        "source": "And seven priests shall bear before the ark seven trumpets of ramsâ€™ horns: and the seventh day ye shall compass the city seven times, and the priests shall blow with the trumpets.",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:6",
+        "source": "And Joshua the son of Nun called the priests, and said unto them, Take up the ark of the covenant, and let seven priests bear seven trumpets of ramsâ€™ horns before the ark of the LORD.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:8",
+        "source": "And it came to pass, when Joshua had spoken unto the people, that the seven priests bearing the seven trumpets of ramsâ€™ horns passed on before the LORD, and blew with the trumpets: and the ark of the covenant of the LORD followed them.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:11",
+        "source": "So the ark of the LORD compassed the city, going about it once: and they came into the camp, and lodged in the camp.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 6:13",
+        "source": "And seven priests bearing seven trumpets of ramsâ€™ horns before the ark of the LORD went on continually, and blew with the trumpets: and the armed men went before them; but the rereward came after the ark of the LORD, the priests going on, and blowing with the trumpets.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:14",
+        "source": "And the second day they compassed the city once, and returned into the camp: so they did six days.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          6
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          6
+        ]
+      },
+      {
+        "reference": "Joshua 6:15",
+        "source": "And it came to pass on the seventh day, that they rose early about the dawning of the day, and compassed the city after the same manner seven times: only on that day they compassed the city seven times.",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:16",
+        "source": "And it came to pass at the seventh time, when the priests blew with the trumpets, Joshua said unto the people, Shout; for the LORD hath given you the city.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:22",
+        "source": "But Joshua had said unto the two men that had spied out the country, Go into the harlotâ€™s house, and bring out thence the woman, and all that she hath, as ye sware unto her.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "Two spies have actual dual pronouns; dual morphology is distinct from the explicit count two.",
+      "About 2000 cubits and about 40000 combatants retain approximation.",
+      "Twelve stones carried out and twelve set in the river are separate textual placements, not collapsed to one set.",
+      "Six ordinary days, seventh day and seven circuits have distinct scopes; repeated sevens retained.",
+      "Calendar tenth/first and fourteenth are ordinals.",
+      "Firstborn and youngest remain succession/age relations, not an invented number of sons."
+    ],
+    "semanticChecks": {
+      "1:2": [
+        "mypl/servant",
+        "ipl give:pr"
+      ],
+      "1:3": [
+        "kjv_sole",
+        "ipl give:perf"
+      ],
+      "1:4": [
+        "kjv_euphrates",
+        "your/boundary"
+      ],
+      "1:5": [
+        "ipl be:pa",
+        "ipl be:fu"
+      ],
+      "1:7": [
+        "kjv_right_side",
+        "to left"
+      ],
+      "1:8": [
+        "thy/mouth",
+        "day and night"
+      ],
+      "1:9": [
+        "ipl command:perf not?"
+      ],
+      "1:11": [
+        "within kjv_three day:pl",
+        "through army"
+      ],
+      "1:12": [
+        "half of kjv_manasseh kjv_tribe"
+      ],
+      "1:14": [
+        "your/wife:pl",
+        "remain:fu",
+        "armed pass:fu"
+      ],
+      "1:16": [
+        "wesg do:fu",
+        "wesg go:fu"
+      ],
+      "1:17": [
+        "wesg listen:fu",
+        "be:opt"
+      ],
+      "1:18": [
+        "to death put:psv:fu"
+      ],
+      "2:1": [
+        "two man:pl",
+        "kjv_harlot",
+        "kjv_rahab"
+      ],
+      "2:4": [
+        "they:a hide:pa",
+        "i know:pa not"
+      ],
+      "2:5": [
+        "i know:pr not",
+        "pursue:imp"
+      ],
+      "2:6": [
+        "kjv_flax stem:pl",
+        "she lay:pp"
+      ],
+      "2:9": [
+        "i know:pr",
+        "upon wesg"
+      ],
+      "2:10": [
+        "wepl hear:perf",
+        "two of kjv_amorite:pl king:pl"
+      ],
+      "2:11": [
+        "of wepl heart:pl",
+        "earth beneath"
+      ],
+      "2:12": [
+        "of my/father house"
+      ],
+      "2:13": [
+        "of wepl life:pl"
+      ],
+      "2:14": [
+        "of we:du life",
+        "to wesg give:perf",
+        "we:du deal:fu"
+      ],
+      "2:18": [
+        "wesg come:pr",
+        "kjv_scarlet thread kjv_cord",
+        "we:du:a thou lower:pa"
+      ],
+      "2:19": [
+        "his/blood upon his/head",
+        "of we:du head"
+      ],
+      "2:20": [
+        "free we:du be:fu"
+      ],
+      "2:24": [
+        "ourone/hand:pl",
+        "because of wesg"
+      ],
+      "3:3": [
+        "kjv_ark_chest",
+        "carry:pr"
+      ],
+      "3:4": [
+        "about two+thousand kjv_cubit:pl",
+        "near to it come:imp not"
+      ],
+      "3:7": [
+        "ipl begin:fu",
+        "with thou ipl be:fu"
+      ],
+      "3:10": [
+        "kjv_canaanite:pl",
+        "kjv_girgashites:pl",
+        "kjv_jebusite:pl"
+      ],
+      "3:13": [
+        "upon kjv_heap"
+      ],
+      "3:15": [
+        "all of harvest time overflow:pr"
+      ],
+      "3:16": [
+        "kjv_adam_city",
+        "kjv_zaretan",
+        "salt sea"
+      ],
+      "3:17": [
+        "on dry ground",
+        "completely over"
+      ],
+      "4:3": [
+        "twelve stone:pl",
+        "they:a carry:fu over"
+      ],
+      "4:8": [
+        "they:a carry:pa over",
+        "there they:a lay:pa down"
+      ],
+      "4:9": [
+        "in of kjv_jordan middle",
+        "twelve stone:pl",
+        "to this day"
+      ],
+      "4:11": [
+        "kjv_ark_chest and priest:pl",
+        "people presence"
+      ],
+      "4:13": [
+        "about forty+thousand"
+      ],
+      "4:18": [
+        "water:pl to their/kjv_place_site return:pa"
+      ],
+      "4:19": [
+        "ten:ord day of first month",
+        "kjv_gilgal"
+      ],
+      "4:20": [
+        "twelve stone:pl"
+      ],
+      "4:23": [
+        "before wesg",
+        "wesg go:pp"
+      ],
+      "5:1": [
+        "until wesg pass:pp over"
+      ],
+      "5:2": [
+        "kjv_second time",
+        "sharp kjv_knife:pl"
+      ],
+      "5:4": [
+        "kjv_male:pl",
+        "of war man:pl"
+      ],
+      "5:5": [
+        "born:psv:pa",
+        "kjv_circumcise:pp not"
+      ],
+      "5:6": [
+        "forty year:pl",
+        "to wesg he give:fu"
+      ],
+      "5:9": [
+        "ipl roll:perf away",
+        "kjv_gilgal"
+      ],
+      "5:10": [
+        "fourteen:ord day"
+      ],
+      "5:11": [
+        "old corn",
+        "without kjv_leaven"
+      ],
+      "5:12": [
+        "kjv_manna",
+        "any more have:pa"
+      ],
+      "5:13": [
+        "for wesg or for ourone/kjv_adversary:pl"
+      ],
+      "5:14": [
+        "captain i now come:perf",
+        "kjv_worship:pa"
+      ],
+      "5:15": [
+        "thy/shoe",
+        "holy be:pr"
+      ],
+      "6:2": [
+        "ipl give:perf"
+      ],
+      "6:3": [
+        "one_num time",
+        "six day:pl"
+      ],
+      "6:4": [
+        "seven priest:pl",
+        "seven:ord day",
+        "seven time:pl"
+      ],
+      "6:10": [
+        "i you:pl:a shout:inf bid:pr"
+      ],
+      "6:13": [
+        "kjv_rearguard"
+      ],
+      "6:15": [
+        "seven:ord day",
+        "seven time:pl"
+      ],
+      "6:16": [
+        "shout:imp:excl"
+      ],
+      "6:17": [
+        "kjv_accursed_devoted",
+        "only kjv_rahab",
+        "whom wesg send:pa"
+      ],
+      "6:18": [
+        "kjv_accursed_devoted thing",
+        "camp:a curse:ev"
+      ],
+      "6:19": [
+        "silver and gold",
+        "consecrate:psv:pr",
+        "kjv_treasury"
+      ],
+      "6:21": [
+        "both man and woman young and old",
+        "ass:a",
+        "completely they destroy:pa"
+      ],
+      "6:22": [
+        "two man:pl",
+        "you:pl swear:pa"
+      ],
+      "6:23": [
+        "outside of kjv_israel camp"
+      ],
+      "6:24": [
+        "burn:caus:pa",
+        "only silver"
+      ],
+      "6:25": [
+        "alive save:pa",
+        "to this day"
+      ],
+      "6:26": [
+        "curse:psv:opt:excl",
+        "in his/first+born",
+        "in his/kjv_youngest son"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Compilation/layout do not prove semantic equivalence.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "sectionLayout": {
+    "book": "Joshua â€” incomplete Bible working text",
+    "pages": 104,
+    "spreads": 52,
+    "units": 125,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "1ea04936001248cc2f03ed1a557aaa64772e886d4258548e48a7b440c58c3999",
+    "maxBaselineErrorPt": 0.007812500000056843,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "checks": [
+      {
+        "leftPage": 1,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 3,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 5,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 7,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 9,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 11,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 13,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 15,
+        "maxBaselineErrorPt": 0.0039062499998578915,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 17,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 19,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 21,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 23,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 25,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 27,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 29,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 31,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 33,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 35,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 37,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 39,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 41,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 43,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 45,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 47,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 49,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 51,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 53,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 55,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 57,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 59,
+        "maxBaselineErrorPt": 0.00781250000001421,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 61,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 63,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 65,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 67,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 69,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 71,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 73,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 75,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 77,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 79,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 81,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 83,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 85,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 87,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 89,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 91,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 93,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 95,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 97,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 99,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 101,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 103,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      }
+    ],
+    "reusedMeasuredSpreads": 52,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "targetedTests": 9,
+  "visualProofsInspected": [
+    "Joshua final spread 103–104"
+  ],
+  "status": "whole Bible incomplete"
+}

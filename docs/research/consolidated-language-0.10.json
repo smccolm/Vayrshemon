@@ -1,0 +1,122 @@
+{
+  "languageVersion": "0.10",
+  "forgeHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+  "delta": {
+    "version": "0.10",
+    "semanticKeysBefore": 3805,
+    "semanticKeysAfter": 3809,
+    "addedSemanticKeys": [
+      "bar_obstruct",
+      "eleven",
+      "mortal_legacy",
+      "zero"
+    ],
+    "changedLexicalForms": 28,
+    "propagatedCompoundForms": 19,
+    "editorialAnalysisCorrections": 212,
+    "nonExpressiveCorrections": 36,
+    "exclamatoryUnits": 176,
+    "exclamatoryOccurrences": 221,
+    "unitsChanged": {
+      "allswell": 249,
+      "midsummer": 170
+    },
+    "allSourceUnits": 1970,
+    "regressionCases": 64,
+    "historicalHeads": {
+      "allswell": "117ea486b8159d76b90a7141bc24344693b216decbcf32d6e6e7a337ec422e50",
+      "midsummer": "c1ac6e6271a4f3620329b9d8867741f03ce439999ab36d859862e1312c73ac22"
+    },
+    "decisions": {
+      "duplicateDeclarations": 12,
+      "homographCandidates": 57,
+      "unrelatedHomophonyRetained": 10
+    },
+    "forgeHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+    "headwordRecordsBefore": 2655,
+    "headwordRecordsAfter": 2685,
+    "newCurrentHeadwordRecords": 30,
+    "retiredHeadwordRecords": 23,
+    "newGrammarRules": 10,
+    "newMorphologyRecords": 1,
+    "newWikiPages": 3,
+    "newForgeFixtures": 53,
+    "forgeFixturesAfter": 1659
+  },
+  "languageValidation": {
+    "languageVersion": "0.10",
+    "languageHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+    "contrastPassed": 64,
+    "contrastFailed": 0,
+    "allSourceUnitsCompiled": 1970,
+    "exactSourceAndOrderPreserved": true,
+    "originalForgeFilesUnchanged": true,
+    "originalFilesWrittenByThisTask": [],
+    "observedOriginalChangesSinceInventory": [
+      {
+        "path": "Saves\\A Midsummer Nights Dream\\A Midsummer Nights Dream.vay",
+        "inventorySha256": "a3f8ed1c9fc597ba66dd71334c17b524591a5cb792d34dab867cb8d389c839ea",
+        "currentSha256": "36cdc41dc53818acb25d27c273fab77a7fdc62fd1dc87752cf8902c61f168a54",
+        "note": "Saved original changed between the read-only inventory and the book-copy phase. Current saved state is used; the copy job verifies its input hash again after completing."
+      }
+    ],
+    "approvedTemplateUnchanged": true,
+    "noTargetExclamationMarks": true,
+    "expressiveOccurrences": 221,
+    "inheritedSuiteBefore": "Needs review",
+    "inheritedSuiteAfter": "Needs review",
+    "inheritedCaseCount": 274,
+    "inheritedRegressions": 0,
+    "scope": "Declared analyses and grammatical constraints, not automatic literary-equivalence review. Inherited laboratory rules retain their historical scope; new contrasts run through the canonical compiler."
+  },
+  "books": {
+    "allswell": {
+      "book": "../Alls Well That Ends Well v0.10/Alls Well That Ends Well - 0.10.vay",
+      "languageHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+      "pages": 678,
+      "spreads": 339,
+      "previousPages": 674,
+      "units": 1215,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "saveReopenEvidence": "books.py completed its save/reopen equality assertion and proof rendering before the renamed source path interrupted report writing; this pass reopens and checks every saved spread.",
+      "geometryAndPaintPreserved": true,
+      "originalUnchanged": true,
+      "sourcePath": "Saves\\Alls Well That Ends Well v0.8\\Alls Well That Ends Well.vay",
+      "sourceSha256": "6f0b5cb1a5f3038abb258d49e076830e7f8d7ff0aa0fdf95db3e08a77df9a087",
+      "sha256": "cdb4c24f0ccb245cb85c26de8206bf7a548228083d151bdb6557e948750d6067",
+      "maxBaselineErrorPt": 0.011718749999957367,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "inkDisclaimer": "Approved decorative ink overhangs remain; this is not a zero ink-collision claim.",
+      "editionFolder": "Saves/Alls Well That Ends Well v0.10"
+    },
+    "midsummer": {
+      "book": "../A Midsummer Nights Dream v0.10/A Midsummer Nights Dream - 0.10.vay",
+      "languageHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+      "pages": 444,
+      "spreads": 222,
+      "previousPages": 434,
+      "units": 755,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "geometryAndPaintPreserved": true,
+      "originalUnchanged": true,
+      "sourceSha256": "36cdc41dc53818acb25d27c273fab77a7fdc62fd1dc87752cf8902c61f168a54",
+      "sha256": "ab62fb4408b96fb3a18572199e65b53809896cc6fbcd144a4cb121bc8b75ccfb",
+      "maxBaselineErrorPt": 0.011718749999957367,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "inkDisclaimer": "Approved decorative ink overhangs remain; this is not a zero ink-collision claim.",
+      "editionFolder": "Saves/A Midsummer Nights Dream v0.10"
+    }
+  },
+  "applicationTests": 11,
+  "applicationTestsPassed": true,
+  "setupUpdated": true,
+  "reinstallationRun": false
+}

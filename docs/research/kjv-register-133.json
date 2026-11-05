@@ -1,0 +1,872 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.133",
+    "parentVersion": "0.10-kjv.132",
+    "parentHead": "884750e2ccf021df2a7d5e18c46c1d6b91de3f9ace5537d7e17a3f0eb85ff0ee",
+    "head": "f575971978299adff2c95340d53d0d2c120b3444eae8186c62ae96c6587e8c8a",
+    "newLexicalEntries": 3,
+    "newProperEntries": 2,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 122,
+    "exactCompilerCases": 122,
+    "newAuthoredVerses": 122,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 497,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 12902,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 122,
+    "isaiahVerses": 497,
+    "authoredVerses": 18200,
+    "remainingVerses": 12902,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 20:3",
+        "source": "And the LORD said, Like as my servant Isaiah hath walked naked and barefoot three years for a sign and wonder upon Egypt and upon Ethiopia;",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Isaiah 21:16",
+        "source": "For thus hath the LORD said unto me, Within a year, according to the years of an hireling, and all the glory of Kedar shall fail:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 22:11",
+        "source": "Ye made also a ditch between the two walls for the water of the old pool: but ye have not looked unto the maker thereof, neither had respect unto him that fashioned it long ago.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Isaiah 23:15",
+        "source": "And it shall come to pass in that day, that Tyre shall be forgotten seventy years, according to the days of one king: after the end of seventy years shall Tyre sing as an harlot.",
+        "expectedDecimalQuantities": [
+          70,
+          1,
+          70
+        ],
+        "targetQuantities": [
+          70,
+          1,
+          70
+        ]
+      },
+      {
+        "reference": "Isaiah 23:17",
+        "source": "And it shall come to pass after the end of seventy years, that the LORD will visit Tyre, and she shall turn to her hire, and shall commit fornication with all the kingdoms of the world upon the face of the earth.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "20:1": [
+        "kjv_tartan",
+        "kjv_sargon",
+        "kjv_ashdod",
+        "take:pa"
+      ],
+      "20:2": [
+        "kjv_sackcloth:a",
+        "thy/shoe:a",
+        "bare and with bare foot:pl"
+      ],
+      "20:3": [
+        "mypl/servant",
+        "three year:pl",
+        "egypt",
+        "kjv_ethiopia"
+      ],
+      "20:4": [
+        "young and old",
+        "buttock:pl kjv_uncover:psv:adj",
+        "shame of egypt"
+      ],
+      "20:5": [
+        "kjv_ethiopia their/expectation",
+        "egypt their/glory"
+      ],
+      "20:6": [
+        "ourone/expectation",
+        "wesg",
+        "how wesg escape:fu?"
+      ],
+      "21:1": [
+        "desert of sea",
+        "kjv_south",
+        "terrible land"
+      ],
+      "21:2": [
+        "to i declare:psv:pr",
+        "kjv_elam:excl",
+        "kjv_media:excl",
+        "ipl cease:caus:perf"
+      ],
+      "21:3": [
+        "my/kjv_loins",
+        "kjv_travail:pr",
+        "i down bow:psv:pa",
+        "i kjv_dismay:psv:pa"
+      ],
+      "21:4": [
+        "my/heart kjv_pant:pa",
+        "my/pleasure",
+        "he into fear"
+      ],
+      "21:5": [
+        "table:a",
+        "watch:ev kjv_tower",
+        "shield:a anoint:imp"
+      ],
+      "21:6": [
+        "kjv_lord to i",
+        "watch:ag:a",
+        "declare:imp"
+      ],
+      "21:7": [
+        "kjv_horseman:du",
+        "ass:pl",
+        "kjv_camel:pl",
+        "much heed"
+      ],
+      "21:8": [
+        "lion:excl",
+        "my/lord:excl",
+        "i continue:adv",
+        "my/watch:ev place"
+      ],
+      "21:9": [
+        "kjv_horseman:du",
+        "fall:perf fall:perf",
+        "her/god:pl"
+      ],
+      "21:10": [
+        "my/kjv_thresh:ev:excl",
+        "corn of my/floor",
+        "i declare:perf"
+      ],
+      "21:11": [
+        "kjv_dumah",
+        "kjv_seir",
+        "watch:ag:excl what of night?"
+      ],
+      "21:12": [
+        "morning come:pr and also night",
+        "ask:imp",
+        "return:imp come:imp"
+      ],
+      "21:13": [
+        "kjv_arabia",
+        "forest",
+        "kjv_dedanim"
+      ],
+      "21:14": [
+        "kjv_tema",
+        "water:a",
+        "their/bread",
+        "beforehand meet:pa"
+      ],
+      "21:15": [
+        "sword:pl",
+        "draw:psv:adj sword",
+        "bend:psv:adj bow"
+      ],
+      "21:16": [
+        "one_num year",
+        "kjv_hire:ag",
+        "kjv_kedar"
+      ],
+      "21:17": [
+        "kjv_number of kjv_archer:pl",
+        "diminish:psv:fu"
+      ],
+      "22:1": [
+        "valley of vision",
+        "whole:adv",
+        "house:pl top:pl"
+      ],
+      "22:2": [
+        "with sword slay:psv:pr not",
+        "nor in battle dead"
+      ],
+      "22:3": [
+        "ruler:pl together flee:perf",
+        "kjv_archer:pl",
+        "bind:psv:pr"
+      ],
+      "22:4": [
+        "i say:pa",
+        "i bitter:adv weep:fu",
+        "labour:neg:imp",
+        "my/people"
+      ],
+      "22:5": [
+        "kjv_trouble",
+        "confusion:ev",
+        "wall:pl:a",
+        "mountain:pl"
+      ],
+      "22:6": [
+        "kjv_quiver:a",
+        "carry:pa",
+        "kjv_kir",
+        "kjv_uncover:pa"
+      ],
+      "22:7": [
+        "most choose:psv:adj valley:pl",
+        "kjv_horseman:pl",
+        "kjv_array_battle:ev"
+      ],
+      "22:8": [
+        "cover:ev:a",
+        "kjv_uncover:pa",
+        "kjv_armour"
+      ],
+      "22:9": [
+        "breach:pl:a",
+        "many",
+        "lower kjv_pool"
+      ],
+      "22:10": [
+        "house:pl:a",
+        "kjv_number:perf",
+        "fortify:inf"
+      ],
+      "22:11": [
+        "between two wall:pl",
+        "look:neg:perf",
+        "neither",
+        "long ago"
+      ],
+      "22:12": [
+        "weep:ev",
+        "mourn:ev",
+        "kjv_bald:ev",
+        "kjv_sackcloth"
+      ],
+      "22:13": [
+        "ox:pl:a",
+        "sheep:a",
+        "wesg eat:opt and drink:opt",
+        "tomorrow wesg die:fu"
+      ],
+      "22:14": [
+        "my/ear:pl",
+        "purge:psv:neg:fu until you die:pr"
+      ],
+      "22:15": [
+        "treasure:ag",
+        "kjv_shebna",
+        "over house"
+      ],
+      "22:16": [
+        "what thou here",
+        "whom thou here",
+        "tomb:a",
+        "in rock kjv_engrave:pr"
+      ],
+      "22:17": [
+        "mighty kjv_captivity",
+        "surely thee:a cover:fu"
+      ],
+      "22:18": [
+        "like ball",
+        "large country",
+        "thy/lord/house"
+      ],
+      "22:19": [
+        "ipl",
+        "thy/office",
+        "thy/rank he"
+      ],
+      "22:20": [
+        "ipl mypl/servant",
+        "kjv_eliakim_hilkiah",
+        "kjv_hilkiah_eliakim"
+      ],
+      "22:21": [
+        "ipl",
+        "thy/kjv_robe",
+        "thy/kjv_girdle",
+        "thy/rule:ev:a",
+        "father"
+      ],
+      "22:22": [
+        "key:a",
+        "kjv_david",
+        "kjv_shoulder",
+        "none shut:fu",
+        "none open:fu"
+      ],
+      "22:23": [
+        "ipl",
+        "as nail",
+        "sure place",
+        "glorious throne"
+      ],
+      "22:24": [
+        "offspring:a and descendant:pl:a",
+        "small amount",
+        "kjv_flagon:pl"
+      ],
+      "22:25": [
+        "nail",
+        "sure place",
+        "remove:psv:fu",
+        "fall:fu",
+        "burden"
+      ],
+      "23:1": [
+        "kjv_tyre",
+        "kjv_tarshish",
+        "no house",
+        "kjv_chittim"
+      ],
+      "23:2": [
+        "still be:imp",
+        "kjv_merchant:pl",
+        "kjv_zidon",
+        "fill:perf"
+      ],
+      "23:3": [
+        "kjv_sihor",
+        "her/revenue",
+        "market of nation:pl"
+      ],
+      "23:4": [
+        "sea speak:perf",
+        "ipl kjv_travail:neg:pr",
+        "neither ipl",
+        "nor virgin:pl:a"
+      ],
+      "23:5": [
+        "report about egypt",
+        "report of kjv_tyre"
+      ],
+      "23:6": [
+        "kjv_tarshish",
+        "howl:imp",
+        "kjv_isle"
+      ],
+      "23:7": [
+        "ancient:ev",
+        "her/own foot:pl",
+        "far away",
+        "kjv_sojourn:inf"
+      ],
+      "23:8": [
+        "crown:adj city",
+        "kjv_merchant:pl prince:pl",
+        "trade:ag:pl"
+      ],
+      "23:9": [
+        "pride:a of all glory",
+        "contempt",
+        "purpose:perf"
+      ],
+      "23:10": [
+        "as river",
+        "daughter of kjv_tarshish",
+        "no more strength"
+      ],
+      "23:11": [
+        "his/hand:a over sea",
+        "command:ev:a",
+        "kjv_stronghold:pl:a"
+      ],
+      "23:12": [
+        "no more rejoice:fu",
+        "oppress:psv:adj virgin",
+        "kjv_chittim",
+        "no rest:a"
+      ],
+      "23:13": [
+        "be:pa not until",
+        "kjv_establish:pa",
+        "kjv_tower:pl",
+        "ruin bring:pa"
+      ],
+      "23:14": [
+        "ship:pl of kjv_tarshish",
+        "your/strength waste:psv:pr"
+      ],
+      "23:15": [
+        "seven+ten year:pl",
+        "one_num king",
+        "as kjv_harlot sing:fu"
+      ],
+      "23:16": [
+        "around city",
+        "sweet melody:a",
+        "many song:pl:a",
+        "remember:psv:may"
+      ],
+      "23:17": [
+        "seven+ten year:pl",
+        "her/kjv_hire",
+        "kjv_whoredom:a do:fu"
+      ],
+      "23:18": [
+        "holy:ev to kjv_lord",
+        "treasure:psv:neg:fu",
+        "nor up lay:psv:fu",
+        "enough eat:inf",
+        "endure:adj clothing"
+      ],
+      "24:1": [
+        "empty:caus:pr",
+        "waste:caus:pr",
+        "top down turn:pr",
+        "scatter:pr"
+      ],
+      "24:2": [
+        "people",
+        "priest",
+        "maid",
+        "mistress",
+        "buy:ag",
+        "sell:ag",
+        "lend:ag",
+        "borrow:ag",
+        "kjv_usury"
+      ],
+      "24:3": [
+        "completely empty:psv:fu",
+        "completely spoil:psv:fu"
+      ],
+      "24:4": [
+        "earth mourn:pr",
+        "world languish:pr",
+        "proud people"
+      ],
+      "24:5": [
+        "defile:psv:pr",
+        "transgress:perf",
+        "kjv_ordinance:a change:perf",
+        "kjv_covenant:a break:perf"
+      ],
+      "24:6": [
+        "curse earth:a devour:perf",
+        "burn:psv:pr",
+        "few human:pl"
+      ],
+      "24:7": [
+        "new wine",
+        "kjv_vine",
+        "merry heart:adj",
+        "sigh:pr"
+      ],
+      "24:8": [
+        "kjv_tabret:pl",
+        "noise of they",
+        "joy of harp"
+      ],
+      "24:9": [
+        "drink:neg:fu",
+        "strong drink bitter"
+      ],
+      "24:10": [
+        "city of confusion",
+        "every house",
+        "no human in come:may"
+      ],
+      "24:11": [
+        "cry:ev for wine",
+        "joy dark:caus:psv:pr",
+        "mirth of land go:perf"
+      ],
+      "24:12": [
+        "kjv_desolate:ev",
+        "gate",
+        "destroy:ev"
+      ],
+      "24:13": [
+        "kjv_olive kjv_tree",
+        "kjv_glean:ev grape:pl",
+        "kjv_vintage"
+      ],
+      "24:14": [
+        "voice:a up lift:fu",
+        "majesty",
+        "from sea cry:fu"
+      ],
+      "24:15": [
+        "in fire:pl",
+        "kjv_isle:pl of sea"
+      ],
+      "24:16": [
+        "wesg song:pl:a",
+        "but i say:pa",
+        "my/thin:ev my/thin:ev",
+        "very betray:adv"
+      ],
+      "24:17": [
+        "fear and kjv_pit and snare",
+        "inhabit:ag"
+      ],
+      "24:18": [
+        "into kjv_pit fall:fu",
+        "in snare take:psv:fu",
+        "window:pl",
+        "kjv_foundation:pl"
+      ],
+      "24:19": [
+        "completely down break:psv:pr",
+        "completely dissolve:psv:pr",
+        "very move:psv:pr"
+      ],
+      "24:20": [
+        "drunk:ag",
+        "small house",
+        "heavy",
+        "again rise:neg:fu"
+      ],
+      "24:21": [
+        "army:a of high:pl",
+        "king:pl:a of earth"
+      ],
+      "24:22": [
+        "kjv_prisoner:pl",
+        "prison",
+        "after many day:pl visit:psv:fu"
+      ],
+      "24:23": [
+        "moon",
+        "sun ashamed",
+        "his/kjv_elder:pl",
+        "glory:adv rule:fu"
+      ],
+      "25:1": [
+        "mypl/god",
+        "ipl thee:a",
+        "thy/name:a",
+        "faithful:ev and truth"
+      ],
+      "25:2": [
+        "kjv_heap:a",
+        "fortify:psv:adj city",
+        "never build:psv:fu"
+      ],
+      "25:3": [
+        "strong people",
+        "terrible nation:pl",
+        "fear:fu"
+      ],
+      "25:4": [
+        "strength to poor",
+        "strength to kjv_needy",
+        "kjv_refuge",
+        "shadow"
+      ],
+      "25:5": [
+        "noise:a of stranger:pl",
+        "shadow of cloud",
+        "branch of terrible:pl"
+      ],
+      "25:6": [
+        "all people",
+        "fat thing:pl",
+        "kjv_wine_lees",
+        "marrow",
+        "purify:psv:adj"
+      ],
+      "25:7": [
+        "all people",
+        "kjv_veil:a",
+        "all nation:pl"
+      ],
+      "25:8": [
+        "death:a in win:ev up kjv_swallow:fu",
+        "all face:pl",
+        "kjv_reproach:a",
+        "all earth"
+      ],
+      "25:9": [
+        "ourone/god",
+        "wesg for he wait:perf",
+        "he wesg:a save:fu"
+      ],
+      "25:10": [
+        "kjv_moab",
+        "straw",
+        "kjv_dung kjv_heap"
+      ],
+      "25:11": [
+        "swim:pr",
+        "their/pride:a",
+        "spoil:pl of their/hand:pl"
+      ],
+      "25:12": [
+        "high fortress",
+        "low lay:fu",
+        "even to dust"
+      ],
+      "26:1": [
+        "wesg strong city:a",
+        "salvation:a",
+        "wall:pl and kjv_bulwark:pl"
+      ],
+      "26:2": [
+        "gate:pl:a open:imp",
+        "truth:a keep:pr",
+        "enter:may"
+      ],
+      "26:3": [
+        "perfect peace",
+        "mind upon thee support:psv:pr",
+        "trust:pr"
+      ],
+      "26:4": [
+        "kjv_lord kjv_jehovah",
+        "eternal strength"
+      ],
+      "26:5": [
+        "low lay:pr",
+        "to ground",
+        "to dust"
+      ],
+      "26:6": [
+        "foot",
+        "foot:pl of poor",
+        "step:pl of kjv_needy"
+      ],
+      "26:7": [
+        "kjv_uprightness",
+        "most kjv_upright",
+        "weigh:pr"
+      ],
+      "26:8": [
+        "wesg for thee wait:perf",
+        "ourone/soul",
+        "remember:ev"
+      ],
+      "26:9": [
+        "my/soul i",
+        "my/spirit",
+        "i thee:a early seek:fu",
+        "learn:fu"
+      ],
+      "26:10": [
+        "show:psv:imp",
+        "learn:neg:fu",
+        "unjust:adv",
+        "behold:neg:fu"
+      ],
+      "26:11": [
+        "see:neg:fu but they see:fu",
+        "their/kjv_envy",
+        "devour:fu"
+      ],
+      "26:12": [
+        "peace:a for wesg",
+        "ourone/work:pl:a in wesg"
+      ],
+      "26:13": [
+        "ourone/god",
+        "other lord:pl apart from thee",
+        "by thee only wesg"
+      ],
+      "26:14": [
+        "live:neg:fu",
+        "rise:neg:fu",
+        "memory:a perish:caus:perf"
+      ],
+      "26:15": [
+        "nation:a increase:perf",
+        "glorify:psv:pr",
+        "remove:pp"
+      ],
+      "26:16": [
+        "they thee:a visit:perf",
+        "prayer:a out pour:pa",
+        "kjv_chasten:ev"
+      ],
+      "26:17": [
+        "woman with child",
+        "her/deliver:ev",
+        "wesg in thy/sight"
+      ],
+      "26:18": [
+        "wesg with child",
+        "wind:a forth bring:perf",
+        "work:neg:perf",
+        "neither inhabit:ag:pl of world fall:perf"
+      ],
+      "26:19": [
+        "thy/dead human:pl live:fu",
+        "my/kjv_corpse",
+        "awake:imp",
+        "earth dead:a out cast:fu"
+      ],
+      "26:20": [
+        "my/people:excl",
+        "chamber:pl",
+        "around thee",
+        "until indignation past"
+      ],
+      "26:21": [
+        "kjv_lord out of his/place",
+        "her/blood:a disclose:fu",
+        "no more her/slay:psv:adj"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "21:10",
+        "21:11",
+        "21:16",
+        "21:2",
+        "21:3",
+        "21:4",
+        "21:6",
+        "21:8",
+        "22:4",
+        "24:16",
+        "26:9"
+      ],
+      "ipl": [
+        "21:2",
+        "22:19",
+        "22:20",
+        "22:21",
+        "22:22",
+        "22:23",
+        "23:4",
+        "25:1"
+      ],
+      "wesg": [
+        "20:6",
+        "22:13",
+        "24:16",
+        "25:9",
+        "26:1",
+        "26:12",
+        "26:13",
+        "26:17",
+        "26:18",
+        "26:8"
+      ],
+      "wepl": [],
+      "mypl": [
+        "20:3",
+        "22:20",
+        "25:1"
+      ],
+      "ourone": [
+        "20:6",
+        "25:9",
+        "26:12",
+        "26:13",
+        "26:8"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Isaiah21:7",
+      "Isaiah21:9"
+    ],
+    "quantityInterpretation": [
+      "Three-year sign20:3,one hired-service year21:16,two walls22:11,seventy years twice and one king23:15,seventy23:17.",
+      "Horsemen are a physical pair21:7/9;high ones and terrible ones are nonnumerical plurals."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah20–26adds122verses,total497;wholeBibleincomplete.",
+      "Divine plural-I,corporate sea-port and worshipping plural-I,personal prophet/watchman and communal singular-we remain distinct.",
+      "One new common wine-lees sense,two proper labels;all earlier targets unchanged including corrected Proverbs132.",
+      "Printed difficult readings,failed childbirth and conflicting death statements remain unresolved;no inserted Trinity count."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 336,
+    "spreads": 168,
+    "units": 497,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "cb056d537cc735d84418473be1eb99afd5ec9628c71c0670bae9027b811b74a9",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 168,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.924,
+    "modules": [
+      "tests.test_kjv_isaiah_civic_selves",
+      "tests.test_kjv_isaiah_national_oracles",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    335,
+    336
+  ],
+  "status": "incomplete Bible;Isaiah1–26 section checkpoint verified"
+}

@@ -1,0 +1,827 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.130",
+    "parentVersion": "0.10-kjv.129",
+    "parentHead": "9e0d529ccae1828536d85dba5d1761ca5f4cc2401ea69d41c7b61c9a974e9a09",
+    "head": "04f285a46c02280510c85c5164a30f4889b1d06f3eea5e716cac1c0fe917a6ae",
+    "newLexicalEntries": 16,
+    "newProperEntries": 0,
+    "newCommonEntries": 16,
+    "newSurfaceForms": 16,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 128,
+    "exactCompilerCases": 128,
+    "newAuthoredVerses": 128,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 128,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 13271,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 128,
+    "isaiahVerses": 128,
+    "authoredVerses": 17831,
+    "remainingVerses": 13271,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 7,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 1:26",
+        "source": "And I will restore thy judges as at the first, and thy counsellors as at the beginning: afterward thou shalt be called, The city of righteousness, the faithful city.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 3:3",
+        "source": "The captain of fifty, and the honourable man, and the counsellor, and the cunning artificer, and the eloquent orator.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "Isaiah 4:1",
+        "source": "And in that day seven women shall take hold of one man, saying, We will eat our own bread, and wear our own apparel: only let us be called by thy name, to take away our reproach.",
+        "expectedDecimalQuantities": [
+          7,
+          1
+        ],
+        "targetQuantities": [
+          7,
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 5:10",
+        "source": "Yea, ten acres of vineyard shall yield one bath, and the seed of an homer shall yield an ephah.",
+        "expectedDecimalQuantities": [
+          10,
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 6:2",
+        "source": "Above it stood the seraphims: each one had six wings; with twain he covered his face, and with twain he covered his feet, and with twain he did fly.",
+        "expectedDecimalQuantities": [
+          6,
+          2,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          6,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Isaiah 6:6",
+        "source": "Then flew one of the seraphims unto me, having a live coal in his hand, which he had taken with the tongs from off the altar:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 6:13",
+        "source": "But yet in it shall be a tenth, and it shall return, and shall be eaten: as a teil tree, and as an oak, whose substance is in them, when they cast their leaves: so the holy seed shall be the substance thereof.",
+        "expectedDecimalQuantities": [
+          0.1
+        ],
+        "targetQuantities": [
+          0.1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_isaiah son of kjv_amoz",
+        "kjv_uzziah_amaziah kjv_jotham_azariah kjv_ahaz_jotham and kjv_hezekiah_ahaz"
+      ],
+      "1:2": [
+        "ipl child:pl:a kjv_nourish:perf",
+        "they against ipl rebel:perf"
+      ],
+      "1:3": [
+        "ass his/master kjv_crib:a",
+        "mypl/people consider:neg:pr"
+      ],
+      "1:4": [
+        "kjv_load:psv:adj",
+        "kjv_holy_one:a",
+        "backward away go:perf"
+      ],
+      "1:5": [
+        "why you any more strike:psv:should",
+        "whole head sick",
+        "whole heart faint"
+      ],
+      "1:6": [
+        "no healthy:ev",
+        "neither up bind:psv:perf",
+        "kjv_ointment soft:caus:psv:perf"
+      ],
+      "1:7": [
+        "your/city:pl with fire",
+        "stranger:pl it:a in your/presence"
+      ],
+      "1:8": [
+        "daughter of kjv_zion",
+        "kjv_garden of kjv_cucumber:pl",
+        "besiege:psv:adj city"
+      ],
+      "1:9": [
+        "except kjv_lord of army:pl to wesg",
+        "wesg would as kjv_sodom",
+        "wesg would like kjv_gomorrah"
+      ],
+      "1:10": [
+        "ourone/god",
+        "ruler:pl of kjv_sodom",
+        "people of kjv_gomorrah"
+      ],
+      "1:11": [
+        "kjv_multitude of your/kjv_sacrifice:ev:pl to ipl",
+        "fat of feed:psv:adj beast:pl",
+        "delight:neg:pr"
+      ],
+      "1:12": [
+        "before ipl appear:inf",
+        "mypl/kjv_court_enclosure:pl:a tread:inf"
+      ],
+      "1:13": [
+        "kjv_incense kjv_abomination to ipl",
+        "ipl endure:neg:can",
+        "solemn meet:ev"
+      ],
+      "1:14": [
+        "mypl/soul hate:pr",
+        "ipl they:a carry:inf weary"
+      ],
+      "1:15": [
+        "ipl mypl/eye:pl:a",
+        "ipl hear:neg:fu",
+        "hand:pl full of blood"
+      ],
+      "1:16": [
+        "before mypl/eye:pl away",
+        "evil:a do:inf cease:imp"
+      ],
+      "1:17": [
+        "oppress:psv:adj:a relieve:imp",
+        "kjv_fatherless:a judge:imp",
+        "widow plead:imp"
+      ],
+      "1:18": [
+        "wesg together reason:opt",
+        "kjv_scarlet",
+        "white as snow",
+        "red like crimson",
+        "kjv_wool"
+      ],
+      "1:19": [
+        "if you willing and obedient",
+        "good:a of land eat:fu"
+      ],
+      "1:20": [
+        "if you refuse:pr and rebel:pr",
+        "sword devour:psv:fu",
+        "mouth of kjv_lord"
+      ],
+      "1:21": [
+        "how faithful city kjv_harlot become:perf:excl",
+        "but now murder:ag:pl"
+      ],
+      "1:22": [
+        "silver kjv_dross",
+        "wine with water mix:psv:pr"
+      ],
+      "1:23": [
+        "companion:pl of thief:pl",
+        "each gift:pl:a love:pr",
+        "cause of widow"
+      ],
+      "1:24": [
+        "ipl iplself:a of mypl/kjv_adversary:pl",
+        "iplself:a of mypl/enemy:pl kjv_avenge:fu"
+      ],
+      "1:25": [
+        "ipl mypl/hand:a",
+        "thy/kjv_dross:a pure:adv",
+        "all thy/kjv_tin:a"
+      ],
+      "1:26": [
+        "ipl thy/judge:pl:a as at first",
+        "thy/counsellor:pl:a as at beginning",
+        "faithful city call:psv:fu"
+      ],
+      "1:27": [
+        "her/kjv_convert:ag:pl",
+        "with kjv_righteous:ev"
+      ],
+      "1:28": [
+        "destroy:ev of transgress:ag:pl",
+        "kjv_lord:a forsake:pr consume:psv:fu"
+      ],
+      "1:29": [
+        "they of oak:pl which you",
+        "you for kjv_garden:pl"
+      ],
+      "1:30": [
+        "oak whose leaf fade:pr",
+        "kjv_garden which no water:a"
+      ],
+      "1:31": [
+        "strong as kjv_tow",
+        "its/make:ag as spark",
+        "both of they together burn:fu"
+      ],
+      "2:1": [
+        "word which kjv_isaiah",
+        "see:pa"
+      ],
+      "2:2": [
+        "all nation:pl to it flow:fu",
+        "above hill:pl kjv_exalt:psv:fu"
+      ],
+      "2:3": [
+        "wesg to mountain",
+        "he wesg:a of his/way:pl teach:fu",
+        "wesg in his/path:pl walk:fu"
+      ],
+      "2:4": [
+        "sword:pl:a into kjv_ploughshare:pl",
+        "kjv_spear:pl:a into kjv_pruninghook:pl",
+        "war:a any more learn:fu"
+      ],
+      "2:5": [
+        "wesg in light of kjv_lord walk:opt"
+      ],
+      "2:6": [
+        "as kjv_philistine:pl kjv_divine:ag:pl",
+        "kjv_please_satisfy:pr"
+      ],
+      "2:7": [
+        "end of their/treasure:pl",
+        "end of their/chariot:pl"
+      ],
+      "2:8": [
+        "their/own hand:pl",
+        "their/own finger:pl"
+      ],
+      "2:9": [
+        "low human down bow:pr",
+        "they:a forgive:neg:imp"
+      ],
+      "2:10": [
+        "into rock enter:imp",
+        "thyself:a in dust hide:imp"
+      ],
+      "2:11": [
+        "kjv_lord alone in that day kjv_exalt:psv:fu"
+      ],
+      "2:12": [
+        "upon each who proud and lofty",
+        "he low bring:psv:fu"
+      ],
+      "2:13": [
+        "kjv_cedar:pl of kjv_lebanon",
+        "oak:pl of kjv_bashan"
+      ],
+      "2:14": [
+        "all high mountain:pl",
+        "all hill:pl"
+      ],
+      "2:15": [
+        "high kjv_tower",
+        "fortify:psv:adj wall"
+      ],
+      "2:16": [
+        "ship:pl of kjv_tarshish",
+        "pleasing image:pl"
+      ],
+      "2:17": [
+        "kjv_lord alone in that day kjv_exalt:psv:fu"
+      ],
+      "2:18": [
+        "idol:pl:a completely remove:fu"
+      ],
+      "2:19": [
+        "hole:pl of rock:pl",
+        "kjv_cave:pl of earth",
+        "terrible:adv shake:inf"
+      ],
+      "2:20": [
+        "each for himself",
+        "kjv_mole_animal:pl and to bat:pl"
+      ],
+      "2:21": [
+        "split:ev:pl of rock:pl",
+        "top:pl of rough rock:pl"
+      ],
+      "2:22": [
+        "breath in his/kjv_nostril:pl",
+        "esteem:psv:inf"
+      ],
+      "3:1": [
+        "support:ev:a and staff:a",
+        "support:ev:a of bread",
+        "support:ev:a of water"
+      ],
+      "3:2": [
+        "human:a of war",
+        "kjv_elder:a"
+      ],
+      "3:3": [
+        "five+ten",
+        "skilled craft:ag:a",
+        "kjv_eloquent speak:ag:a"
+      ],
+      "3:4": [
+        "ipl child:pl:a",
+        "kjv_infant:pl over they rule:fu"
+      ],
+      "3:5": [
+        "each by another",
+        "child against kjv_elder",
+        "low against honourable"
+      ],
+      "3:6": [
+        "thou ourone/ruler be:imp",
+        "this ruin under thy/hand"
+      ],
+      "3:7": [
+        "i heal:ag be:neg:fu",
+        "i:a ruler of people make:neg:imp"
+      ],
+      "3:8": [
+        "their/tongue and their/do:ev:pl",
+        "eye:pl:a of his/glory"
+      ],
+      "3:9": [
+        "they it:a hide:neg:pr",
+        "woe to their/soul:excl"
+      ],
+      "3:10": [
+        "with he well be:fu",
+        "they fruit:a of their/do:ev:pl"
+      ],
+      "3:11": [
+        "woe to wicked:excl",
+        "reward of his/hand:pl"
+      ],
+      "3:12": [
+        "my/people child:pl",
+        "woman:pl over they rule:pr",
+        "thee:a err:caus:pr"
+      ],
+      "3:13": [
+        "to plead:inf up stand:pr",
+        "to people:a judge:inf stand:pr"
+      ],
+      "3:14": [
+        "you kjv_vineyard:a up eat:perf",
+        "spoil of poor in your/house:pl"
+      ],
+      "3:15": [
+        "mypl/people:a to piece:pl beat:pr",
+        "face:pl:a of poor kjv_grind:pr"
+      ],
+      "3:16": [
+        "small delicate step:pl:a",
+        "their/foot:pl kjv_tinkle:ev:a"
+      ],
+      "3:17": [
+        "scalp:a",
+        "with kjv_scab",
+        "secret part:pl:a expose:fu"
+      ],
+      "3:18": [
+        "kjv_head_caul:pl",
+        "kjv_crescent_tire:pl like moon"
+      ],
+      "3:19": [
+        "chain:pl:a and bracelet:pl:a and kjv_muffler:pl:a"
+      ],
+      "3:20": [
+        "kjv_headband:pl:a",
+        "kjv_tablet_ornament:pl:a",
+        "kjv_earring:pl:a"
+      ],
+      "3:21": [
+        "ring:pl:a and nose jewel:pl:a"
+      ],
+      "3:22": [
+        "kjv_wimple:pl:a",
+        "kjv_crisping_pin:pl:a"
+      ],
+      "3:23": [
+        "kjv_mirror:pl:a",
+        "fine linen:a",
+        "hood:pl:a and kjv_veil:pl:a"
+      ],
+      "3:24": [
+        "in place of kjv_girdle rend:ev",
+        "in place of kjv_stomacher",
+        "burn:ev in place of beauty"
+      ],
+      "3:25": [
+        "thy/human:pl by sword",
+        "thy/mighty in war"
+      ],
+      "3:26": [
+        "her/gate:pl lament:fu and mourn:fu",
+        "she kjv_desolate"
+      ],
+      "4:1": [
+        "seven woman:pl one_num",
+        "wesg ourone/own bread:a",
+        "wesg by thy/name call:psv:opt"
+      ],
+      "4:2": [
+        "branch of kjv_lord",
+        "they who of kjv_israel escape:perf"
+      ],
+      "4:3": [
+        "each who among living in kjv_jerusalem write:psv:pr"
+      ],
+      "4:4": [
+        "spirit of judgment and by spirit of burn:ev"
+      ],
+      "4:5": [
+        "cloud:a and smoke:a by day",
+        "flame:adj fire by night",
+        "upon all glory defence"
+      ],
+      "4:6": [
+        "kjv_tabernacle for shadow",
+        "kjv_refuge",
+        "storm and from rain"
+      ],
+      "5:1": [
+        "i to my/well beloved song:a",
+        "his/kjv_vineyard",
+        "very fruit:adj hill"
+      ],
+      "5:2": [
+        "most choose:psv:adj kjv_vine",
+        "kjv_winepress:a in it",
+        "wild grape:pl:a"
+      ],
+      "5:3": [
+        "between ipl and mypl/kjv_vineyard",
+        "ipl you:a pray:pr"
+      ],
+      "5:4": [
+        "which ipl in it do:neg:perf",
+        "ipl that it grape:pl:a",
+        "wild grape:pl:a"
+      ],
+      "5:5": [
+        "ipl to you what ipl to mypl/kjv_vineyard",
+        "hedge:a away",
+        "wall:a down"
+      ],
+      "5:6": [
+        "ipl it:a waste",
+        "kjv_prune:psv:neg:fu",
+        "ipl also cloud:pl:a",
+        "no rain:a rain:pr"
+      ],
+      "5:7": [
+        "kjv_vineyard of kjv_lord",
+        "judgment expect:pa but behold oppress:ev",
+        "kjv_righteous:ev but behold cry"
+      ],
+      "5:8": [
+        "house:a to house",
+        "field:a to field",
+        "no place"
+      ],
+      "5:9": [
+        "in mine/ear:pl",
+        "great and beautiful without inhabit:ag"
+      ],
+      "5:10": [
+        "ten kjv_acre:pl",
+        "one_num kjv_bath_measure:a",
+        "one_num kjv_homer one_num kjv_ephah_measure:a"
+      ],
+      "5:11": [
+        "early in morning",
+        "until night",
+        "wine they:a hot make:pr:excl"
+      ],
+      "5:12": [
+        "harp and kjv_viol and kjv_tabret and pipe",
+        "work:ev:a of his/hand:pl"
+      ],
+      "5:13": [
+        "my/people into kjv_captivity",
+        "hungry",
+        "with thirst up dry:psv:pr"
+      ],
+      "5:14": [
+        "kjv_hell_depth herself:a large make:perf",
+        "her/mouth:a without measure:ev"
+      ],
+      "5:15": [
+        "low human",
+        "mighty human",
+        "eye:pl of lofty"
+      ],
+      "5:16": [
+        "god who holy",
+        "in kjv_righteous:ev sanctify:psv:fu"
+      ],
+      "5:17": [
+        "kjv_lamb:pl",
+        "fat human:pl stranger:pl eat:fu"
+      ],
+      "5:18": [
+        "kjv_iniquity:a with kjv_cord:pl of vanity",
+        "wagon kjv_cord"
+      ],
+      "5:19": [
+        "wesg it:a see:may",
+        "kjv_holy_one",
+        "wesg it:a know:may:excl"
+      ],
+      "5:20": [
+        "evil:a good and good:a evil",
+        "darkness:a for light and light:a for darkness",
+        "bitter:a for sweet and sweet:a for bitter"
+      ],
+      "5:21": [
+        "their/own eye:pl wise",
+        "their/own sight kjv_discreet"
+      ],
+      "5:22": [
+        "wine:a drink:inf mighty",
+        "kjv_strong_drink:a mix:inf:excl"
+      ],
+      "5:23": [
+        "wicked:a for reward kjv_justify:pr",
+        "kjv_righteous:ev:a of kjv_righteous"
+      ],
+      "5:24": [
+        "kjv_stubble:a",
+        "kjv_chaff:a",
+        "their/root as rot:ev",
+        "their/blossom as dust"
+      ],
+      "5:25": [
+        "anger of kjv_lord against his/people burn:pr",
+        "kjv_corpse:pl in middle of street:pl rend:psv:pa",
+        "his/hand still out stretch:psv:pr"
+      ],
+      "5:26": [
+        "kjv_ensign_emblem:a",
+        "whistle:fu",
+        "with speed swiftly come:fu"
+      ],
+      "5:27": [
+        "nor kjv_stumble:fu",
+        "kjv_girdle of their/kjv_loins",
+        "kjv_shoelatchet"
+      ],
+      "5:28": [
+        "their/bow:pl bend:psv:pr",
+        "kjv_hoof:pl like flint esteem:psv:fu",
+        "wheel:pl like kjv_whirlwind"
+      ],
+      "5:29": [
+        "young lion:pl roar:fu",
+        "none it:a deliver:fu"
+      ],
+      "5:30": [
+        "they against they",
+        "if human to land",
+        "light in its/heaven:pl dark:caus:psv:pr"
+      ],
+      "6:1": [
+        "i also kjv_lord:a",
+        "his/kjv_robe_train temple:a fill:pa"
+      ],
+      "6:2": [
+        "each six wing:pl:a",
+        "with two he his/face:a",
+        "with two he his/foot:pl:a",
+        "with two he fly:pa"
+      ],
+      "6:3": [
+        "holy holy holy",
+        "whole earth full of his/glory"
+      ],
+      "6:4": [
+        "post:pl of door",
+        "house with smoke fill:psv:pa"
+      ],
+      "6:5": [
+        "woe to i:excl",
+        "i undo:psv:pr",
+        "i human of unclean lip:pl",
+        "people of unclean lip:pl"
+      ],
+      "6:6": [
+        "one_num of kjv_seraph:pl",
+        "burn:adj kjv_charcoal:a",
+        "with tongs from upon altar"
+      ],
+      "6:7": [
+        "thy/lip:pl:a touch:perf",
+        "kjv_iniquity away take:psv:pr",
+        "thy/sin purge:psv:pr"
+      ],
+      "6:8": [
+        "i voice:a of lord hear:pa",
+        "whom:a ipl send:fu and who for wesg go:fu",
+        "then i say:pa here i be:pr i:a send:imp"
+      ],
+      "6:9": [
+        "hear:imp but understand:neg:imp",
+        "see:imp but perceive:neg:imp"
+      ],
+      "6:10": [
+        "heart:a of this people fat make:imp",
+        "lest they",
+        "kjv_convert:pr and heal:psv:pr"
+      ],
+      "6:11": [
+        "i say:pa lord:excl how long",
+        "until city:pl without inhabit:ag"
+      ],
+      "6:12": [
+        "kjv_lord human:pl:a far away remove:perf",
+        "great forsake:ev"
+      ],
+      "6:13": [
+        "kjv_tenth_share",
+        "kjv_teil_tree",
+        "their/leaf:pl:a cast:pr",
+        "holy seed its/kjv_tree_stock"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "3:7",
+        "5:1",
+        "6:1",
+        "6:11",
+        "6:5",
+        "6:6",
+        "6:8"
+      ],
+      "ipl": [
+        "1:11",
+        "1:12",
+        "1:13",
+        "1:14",
+        "1:15",
+        "1:2",
+        "1:24",
+        "1:25",
+        "1:26",
+        "3:4",
+        "5:3",
+        "5:4",
+        "5:5",
+        "5:6",
+        "6:8"
+      ],
+      "wesg": [
+        "1:18",
+        "1:9",
+        "2:3",
+        "2:5",
+        "4:1",
+        "5:19",
+        "6:8"
+      ],
+      "wepl": [],
+      "mypl": [
+        "1:12",
+        "1:14",
+        "1:15",
+        "1:16",
+        "1:24",
+        "1:25",
+        "1:3",
+        "3:15",
+        "5:3",
+        "5:4",
+        "5:5"
+      ],
+      "ourone": [
+        "1:10",
+        "3:6",
+        "4:1"
+      ],
+      "iplself": [
+        "1:24"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "50in3:3;7women/1man4:1;10acres/1bath/1homer/1ephah5:10remain separate historical values.",
+      "6wings and three printed pairs6:2remain6/2/2/2;1seraph6:6is a messenger,not a deity count.",
+      "Tenth-share6:13is exact1/10;tripleholy6:3is repetition,not a numeric claim."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah1–6 adds128verses as a major-section beginning inside the one Bible;wholeBibleincomplete.",
+      "Divine plural-I and singular-we coexist in6:8;enclosing narrator and answering volunteer remain personal-I. No Trinity count or council roster is inserted.",
+      "Divine,prophetic,lover-like singer,mocking community,pilgrim and women speakers are distinguished;unmarked my people remains personal affiliation.",
+      "Sixteen common entries preserve pruninghooks,ornament/garment senses,robe-train,seraph,teil-tree,woody stock,tenth-share,convert,tinkle and viol.",
+      "Cultic rejection,forgive-not,obstructive commission and social accusations remain attributed source claims,not harmonized editorial rules.",
+      "No compiler/paradigm changes or inherited target repairs;all previous targets and seals unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 86,
+    "spreads": 43,
+    "units": 128,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "28555087a8f374047a04c74e4236946abe2402c479bf4472a6736709df357b3e",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 43,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.288,
+    "modules": [
+      "tests.test_kjv_isaiah_commission",
+      "tests.test_kjv_song_human_voices",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    85,
+    86
+  ],
+  "status": "incompleteBible;Isaiah1–6sectioncheckpointverified"
+}

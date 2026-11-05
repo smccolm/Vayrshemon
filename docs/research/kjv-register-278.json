@@ -1,0 +1,1678 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.278",
+    "parentVersion": "0.10-kjv.277",
+    "parentHead": "bb54b759e255410573ffa3d735924a3a9fc6cfe2444f23ad12db35554367d1ee",
+    "head": "87b5358cf77e81e6148c528d0f4e13195a25f6088be6c180aa80c6be5952906b",
+    "newLexicalEntries": 7,
+    "newProperEntries": 0,
+    "newCommonEntries": 7,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 48,
+    "exactCompilerCases": 48,
+    "newAuthoredVerses": 48,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 303,
+    "jamesVerses": 108,
+    "peter1Verses": 105,
+    "peter2Verses": 61,
+    "john1Verses": 105,
+    "john2Verses": 13,
+    "john3Verses": 14,
+    "judeVerses": 25,
+    "revelationVerses": 404,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 0,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "all verses authored;complete combined native Bible pending",
+    "newRevelationVerses": 48,
+    "revelationVerses": 404,
+    "authoredVerses": 31102,
+    "remainingVerses": 0,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "Revelation 21:1",
+        "source": "And I saw a new heaven and a new earth: for the first heaven and the first earth were passed away; and there was no more sea.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 21:8",
+        "source": "But the fearful, and unbelieving, and the abominable, and murderers, and whoremongers, and sorcerers, and idolaters, and all liars, shall have their part in the lake which burneth with fire and brimstone: which is the second death.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Revelation 21:9",
+        "source": "And there came unto me one of the seven angels which had the seven vials full of the seven last plagues, and talked with me, saying, Come hither, I will shew thee the bride, the Lamb’s wife.",
+        "expectedDecimalQuantities": [
+          1,
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          1,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 21:12",
+        "source": "And had a wall great and high, and had twelve gates, and at the gates twelve angels, and names written thereon, which are the names of the twelve tribes of the children of Israel:",
+        "expectedDecimalQuantities": [
+          12,
+          12,
+          12
+        ],
+        "targetQuantities": [
+          12,
+          12,
+          12
+        ]
+      },
+      {
+        "reference": "Revelation 21:13",
+        "source": "On the east three gates; on the north three gates; on the south three gates; and on the west three gates.",
+        "expectedDecimalQuantities": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "Revelation 21:14",
+        "source": "And the wall of the city had twelve foundations, and in them the names of the twelve apostles of the Lamb.",
+        "expectedDecimalQuantities": [
+          12,
+          12
+        ],
+        "targetQuantities": [
+          12,
+          12
+        ]
+      },
+      {
+        "reference": "Revelation 21:16",
+        "source": "And the city lieth foursquare, and the length is as large as the breadth: and he measured the city with the reed, twelve thousand furlongs. The length and the breadth and the height of it are equal.",
+        "expectedDecimalQuantities": [
+          12000
+        ],
+        "targetQuantities": [
+          12000
+        ]
+      },
+      {
+        "reference": "Revelation 21:17",
+        "source": "And he measured the wall thereof, an hundred and forty and four cubits, according to the measure of a man, that is, of the angel.",
+        "expectedDecimalQuantities": [
+          144
+        ],
+        "targetQuantities": [
+          144
+        ]
+      },
+      {
+        "reference": "Revelation 21:19",
+        "source": "And the foundations of the wall of the city were garnished with all manner of precious stones. The first foundation was jasper; the second, sapphire; the third, a chalcedony; the fourth, an emerald;",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Revelation 21:20",
+        "source": "The fifth, sardonyx; the sixth, sardius; the seventh, chrysolyte; the eighth, beryl; the ninth, a topaz; the tenth, a chrysoprasus; the eleventh, a jacinth; the twelfth, an amethyst.",
+        "expectedDecimalQuantities": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ],
+        "targetQuantities": [
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      },
+      {
+        "reference": "Revelation 21:21",
+        "source": "And the twelve gates were twelve pearls: every several gate was of one pearl: and the street of the city was pure gold, as it were transparent glass.",
+        "expectedDecimalQuantities": [
+          12,
+          12,
+          1
+        ],
+        "targetQuantities": [
+          12,
+          12,
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 22:2",
+        "source": "In the midst of the street of it, and on either side of the river, was there the tree of life, which bare twelve manner of fruits, and yielded her fruit every month: and the leaves of the tree were for the healing of the nations.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Revelation 22:13",
+        "source": "I am Alpha and Omega, the beginning and the end, the first and the last.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "21:1": [
+        "new heaven and new earth",
+        "first heaven and first earth",
+        "no more sea"
+      ],
+      "21:2": [
+        "i kjv_john_revelation",
+        "holy city new kjv_jerusalem",
+        "from god out of heaven",
+        "as bride for her/husband"
+      ],
+      "21:3": [
+        "out of heaven great voice",
+        "god kjv_tabernacle_presence_revelation with man:pl",
+        "they his/people",
+        "god himself with they",
+        "their/god"
+      ],
+      "21:4": [
+        "all tear:pl away kjv_wipe:fu",
+        "no more death neither sorrow nor cry:ev neither any more pain",
+        "former thing:pl"
+      ],
+      "21:5": [
+        "ipl all thing:pl new make:pr",
+        "to i write:imp",
+        "true and faithful"
+      ],
+      "21:6": [
+        "it do:psv:perf",
+        "ipl kjv_alpha_letter_revelation and kjv_omega_letter_revelation beginning and end",
+        "ipl to he who thirst:pr",
+        "kjv_without_price_revelation"
+      ],
+      "21:7": [
+        "overcome:pr all thing:pl inherit:fu",
+        "ipl his/god",
+        "he mypl/son"
+      ],
+      "21:8": [
+        "fearful:pl and believe:neg:ag:pl",
+        "kjv_abomination:adj:pl and murder:ag:pl",
+        "kjv_fornication do:ag:pl and kjv_sorcerer:pl",
+        "idol kjv_worship:ag:pl and all lie:ag:pl",
+        "second death"
+      ],
+      "21:9": [
+        "one_num of seven angel:pl",
+        "seven kjv_vial_wrath_revelation:pl",
+        "seven last plague:pl",
+        "i to thee bride kjv_lamb wife show:fu"
+      ],
+      "21:10": [
+        "in spirit to great and high mountain",
+        "that great city holy kjv_jerusalem",
+        "out of heaven from god"
+      ],
+      "21:11": [
+        "god glory",
+        "like most precious stone",
+        "like kjv_jasper stone as crystal clear"
+      ],
+      "21:12": [
+        "great and high wall",
+        "twelve gate:pl",
+        "twelve angel:pl",
+        "kjv_israel child:pl twelve kjv_tribe:pl"
+      ],
+      "21:13": [
+        "east three gate:pl",
+        "kjv_north three gate:pl",
+        "kjv_south three gate:pl",
+        "west three gate:pl"
+      ],
+      "21:14": [
+        "twelve kjv_foundation:pl",
+        "kjv_lamb twelve kjv_apostle:pl"
+      ],
+      "21:15": [
+        "city and its/gate:pl and its/wall",
+        "gold:adj reed"
+      ],
+      "21:16": [
+        "kjv_square",
+        "length as great as breadth",
+        "twelve+thousand kjv_furlong_source",
+        "its/length and breadth and height equal"
+      ],
+      "21:17": [
+        "twelve+twelve kjv_cubit",
+        "man measure:ev that be:pr angel measure:ev"
+      ],
+      "21:18": [
+        "wall build:ev of kjv_jasper",
+        "pure gold like clear glass"
+      ],
+      "21:19": [
+        "all kind:pl of precious stone:pl",
+        "first kjv_foundation kjv_jasper second kjv_sapphire third kjv_chalcedony_revelation fourth kjv_emerald"
+      ],
+      "21:20": [
+        "five:ord kjv_sardonyx_revelation six:ord kjv_sardius seven:ord kjv_chrysolyte_revelation eight:ord kjv_beryl nine:ord kjv_topaz ten:ord kjv_chrysoprasus_revelation eleven:ord kjv_jacinth_stone_revelation twelve:ord kjv_amethyst"
+      ],
+      "21:21": [
+        "twelve gate:pl twelve pearl:pl",
+        "each separate gate of one_num pearl",
+        "pure gold as transparent glass"
+      ],
+      "21:22": [
+        "no kjv_temple",
+        "lord god kjv_almighty and kjv_lamb its/kjv_temple"
+      ],
+      "21:23": [
+        "sun neither moon",
+        "god glory to it light give:pa",
+        "kjv_lamb its/light"
+      ],
+      "21:24": [
+        "they who save:psv:pp nation:pl",
+        "earth king:pl",
+        "their/glory and honour"
+      ],
+      "21:25": [
+        "by day at all shut:psv:neg:fu",
+        "no night"
+      ],
+      "21:26": [
+        "nation:pl glory and honour"
+      ],
+      "21:27": [
+        "anything which defile:pr",
+        "kjv_abomination work:pr or lie make:pr",
+        "enter:neg:fu",
+        "kjv_lamb life book"
+      ],
+      "22:1": [
+        "pure life water river as crystal clear",
+        "out of god and kjv_lamb throne"
+      ],
+      "22:2": [
+        "street middle",
+        "river either side life kjv_tree",
+        "twelve kind:pl of fruit:pl",
+        "each month her/fruit",
+        "nation:pl heal:ev"
+      ],
+      "22:3": [
+        "no more curse",
+        "god and kjv_lamb throne",
+        "his/servant:pl he:a serve:fu"
+      ],
+      "22:4": [
+        "his/face",
+        "his/name in their/forehead:pl"
+      ],
+      "22:5": [
+        "no night",
+        "candle neither sun light",
+        "lord god to they light",
+        "forever and forever rule:fu"
+      ],
+      "22:6": [
+        "faithful and true",
+        "holy prophet:pl lord god",
+        "soon do:psv:must"
+      ],
+      "22:7": [
+        "ipl quickly come:pr",
+        "this book kjv_prophesy:ev say:ev:pl keep:pr"
+      ],
+      "22:8": [
+        "i kjv_john_revelation",
+        "see:pa and hear:pa",
+        "hear:perf and see:perf",
+        "kjv_worship:inf down fall:pa"
+      ],
+      "22:9": [
+        "thou it do:neg:imp",
+        "i thy/kjv_fellowservant_revelation",
+        "thy/brother:pl prophet:pl",
+        "they who this book say:ev:pl keep:pr",
+        "god kjv_worship:imp"
+      ],
+      "22:10": [
+        "seal:neg:imp",
+        "time at hand"
+      ],
+      "22:11": [
+        "unjust be:pr still unjust be:opt",
+        "filthy be:pr still filthy be:opt",
+        "kjv_righteous be:pr still kjv_righteous be:opt",
+        "holy be:pr still holy be:opt"
+      ],
+      "22:12": [
+        "ipl quickly come:pr",
+        "mypl/reward with ipl",
+        "each man kjv_according his/work"
+      ],
+      "22:13": [
+        "ipl kjv_alpha_letter_revelation and kjv_omega_letter_revelation beginning and end first and last"
+      ],
+      "22:14": [
+        "his/command:pl do:pr",
+        "life kjv_tree right have:may",
+        "through gate:pl into city enter:may"
+      ],
+      "22:15": [
+        "outside dog:pl",
+        "kjv_sorcerer:pl and kjv_fornication do:ag:pl and murder:ag:pl",
+        "idol kjv_worship:ag:pl",
+        "lie love:pr and make:pr"
+      ],
+      "22:16": [
+        "ipl kjv_jesus_matthew mypl/angel",
+        "in church:pl",
+        "ipl kjv_david root and offspring and bright and morning star"
+      ],
+      "22:17": [
+        "spirit and bride come:imp say:pr",
+        "he who hear:pr come:imp say:opt",
+        "he who thirst:pr come:opt",
+        "whoever will:pr life water kjv_without_price_revelation take:opt"
+      ],
+      "22:18": [
+        "i to each man",
+        "if any man to these thing:pl add:fu",
+        "god to he plague:pl",
+        "in this book write:psv:pp"
+      ],
+      "22:19": [
+        "from this kjv_prophesy:ev book word:pl",
+        "his/part out of life book and out of holy city and from thing:pl",
+        "away take:fu"
+      ],
+      "22:20": [
+        "surely ipl quickly come:pr",
+        "amen even so lord kjv_jesus_matthew come:imp"
+      ],
+      "22:21": [
+        "ourone/lord kjv_jesus_matthew kjv_christ_title grace",
+        "with you all be:opt amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "21:1",
+        "21:10",
+        "21:15",
+        "21:2",
+        "21:22",
+        "21:3",
+        "21:5",
+        "21:6",
+        "21:9",
+        "22:1",
+        "22:10",
+        "22:18",
+        "22:6",
+        "22:8",
+        "22:9"
+      ],
+      "ipl": [
+        "21:5",
+        "21:6",
+        "21:7",
+        "22:12",
+        "22:13",
+        "22:16",
+        "22:20",
+        "22:7"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "21:7",
+        "22:12",
+        "22:16"
+      ],
+      "ourone": [
+        "22:21"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [],
+    "divineQuotedSelfReferences": [
+      "21:5",
+      "21:6",
+      "21:7",
+      "22:7",
+      "22:12",
+      "22:13",
+      "22:16",
+      "22:20"
+    ],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "All twelves,directional threes,12000furlongs,144cubits,twelve ordered gems and fruit kinds retained.",
+      "Divine plural-I/my-plural differs from personal witness/angel I;final our-singular is communal.",
+      "Man-measure that-is angel-measure stays awkward;no modern conversions or divine person count."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "48new;Revelationcomplete404;31102authored;completecombinednativefilepending.",
+      "Keep John,new-Jerusalem,great-city,saved-nations,pure-river,holy-prophets,do-commandments,book-of-life,all invitation clauses and final all/Amen.",
+      "Seven common entries,no new names or paradigms;earlier356Revelation targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Revelation — incomplete Bible working text",
+    "pages": 288,
+    "spreads": 144,
+    "units": 404,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "f4b20a09f8f1d1e08020ceff6f81b2504dcf78dae2ba53e20feb0d7be5300bd4",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 144,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.827,
+    "modules": [
+      "tests.test_kjv_revelation_final_self",
+      "tests.test_kjv_revelation_common_praise",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    287,
+    288
+  ],
+  "status": "complete Bible in one verified native file;independent literary review not claimed",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 287,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv278\\preflight-revelation\\Proofs\\page-287.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv278\\composed-revelation\\Proofs\\page-287.png",
+        "sha256": "79a42f015521504c631e6dfce0984aa0c1e6ce6ee800466e2750020f7126f322",
+        "bytesIdentical": true
+      },
+      {
+        "page": 288,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv278\\preflight-revelation\\Proofs\\page-288.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv278\\composed-revelation\\Proofs\\page-288.png",
+        "sha256": "d6b39c7aa63f53c12800fd6a81e178a0093e053f9afec9abe5d4a787071d203f",
+        "bytesIdentical": true
+      }
+    ]
+  },
+  "unsealedAuditCorrection": {
+    "finding": "Inherited remaining-verse assertion was 84; corrected to 0 = 31102 - 31102 before the first preflight.",
+    "verseTextChanged": false,
+    "earlierSealsChanged": false
+  },
+  "combinedValidation": {
+    "status": "complete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\KJV Bible.vay",
+    "sha256": "ff22480a4cfef4999bfc658bdd96ae0ba514062de537406a6b9235ad2c6afc50",
+    "pages": 20498,
+    "spreads": 10249,
+    "authoredVerses": 31102,
+    "missingVerses": 0,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 40996,
+    "freshFolioPlacementsChecked": 8020,
+    "reusedFolioPlacements": 32976,
+    "folioReuseProof": {
+      "sourceNative": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.195\\KJV Bible - WORK IN PROGRESS.vay",
+      "sourceSha256": "5e22bafea40a611130c41e17e88778338370537cbb872d5db21a222886018acf",
+      "sourceValidationSha256": "1d33637ea34898bd36ccad3157e4fc648c5306792513604359cb12cafbce6a34",
+      "sourceNumberingSha256": "1d393ca05d36bccaee7b585b42601ec515db50be6f4747749d103cbef323840d",
+      "pages": 16488,
+      "basis": "Previously verified placements; exact canonical prefix and numbering retained. No fresh composition is claimed for reused pages.",
+      "cacheSha256": "9c9148c48e280cba59092bce2b63e87ca5383b8a5d8e26240045c7e6d0dbe7a3",
+      "placements": 32976,
+      "exactPageSignatures": true,
+      "globalFormattingIdentical": true,
+      "typesettingAndFlowsIdentical": true,
+      "paintAndLayoutEngineIdentical": true
+    },
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Genesis.vay",
+        "sha256": "bbf6c7a92ef956364ece52877f1998be0b02ddfb7e33f2563afb529b41cb79dd",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Exodus.vay",
+        "sha256": "5d69c5730d924959e1019809b8c2f7738161ffb011e144f6d1c9d57dc5957fe7",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Leviticus.vay",
+        "sha256": "acece7c9de894107116d7e27cab2a67fa2300ea2b37ae14e30523e109024b27b",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Numbers.vay",
+        "sha256": "b2edc7791a7e89e92c9cab6759c24d76b7fa7b3a9a290a352201d624f6174199",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Deuteronomy.vay",
+        "sha256": "e71f451a8ae07c3d5a3604d569192d12864ed9887d48ebc7e684b13e54c3dad2",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Joshua.vay",
+        "sha256": "04524ad57a4e8bfbc78fb5c8384faae56437b88c67cc4fd9e13819b1766efae3",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Judges.vay",
+        "sha256": "ccccb1c5b09c54b80866e25aae8a49ccf20a53ec278b844860e9fd9553932c01",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Ruth.vay",
+        "sha256": "8ad1ca7778bd9763a56e5efb28291827eb797fc2eacfc18ff4b1e7d6fece4033",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Chronicles.vay",
+        "sha256": "d95465cafe4db78a757f2a5c3b4cbaf94b44f5101c865c07adaaa9387d5bf906",
+        "firstPage": 7483,
+        "lastPage": 8006
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Chronicles2.vay",
+        "sha256": "77a0caef2309273bcc99db7c88022f1cbe154df236ff4153fda036b34e8f9a8b",
+        "firstPage": 8007,
+        "lastPage": 8692
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Ezra.vay",
+        "sha256": "35cdd43f50d0192404e588ea0656e33744e23846a5ca5345b01a89c595ff157c",
+        "firstPage": 8693,
+        "lastPage": 8882
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Nehemiah.vay",
+        "sha256": "b5abc4ad65f8fa51146ab7cb9c3b7a0f3938a7ab8f3b9cb3d0d52957b40d442d",
+        "firstPage": 8883,
+        "lastPage": 9160
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Esther.vay",
+        "sha256": "e6ff324bc045bea6f1fa34c5dcbc14de09a25b295ca75f76ccc318f011605ddb",
+        "firstPage": 9161,
+        "lastPage": 9300
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Job.vay",
+        "sha256": "2bcc3eea6400ebf96761b4f3cfe2e5da61758d7a9799e36b031f8bbe2820c4dc",
+        "firstPage": 9301,
+        "lastPage": 9806
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Psalms.vay",
+        "sha256": "6b1d4269d4f51e4168bb6dfdb366c202f023daba3fecad530460c25e5a0d1816",
+        "firstPage": 9807,
+        "lastPage": 11050
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Proverbs.vay",
+        "sha256": "5648490204035d240dc63199dc7a6905a5c7ca490a51eeb225c810db1167c5a9",
+        "firstPage": 11051,
+        "lastPage": 11458
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Ecclesiastes.vay",
+        "sha256": "d420d4c11a9fa5925ffa91a9d6beec1ac0cb8e5477df6c7d30907ccea2876b70",
+        "firstPage": 11459,
+        "lastPage": 11598
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Song of Solomon.vay",
+        "sha256": "2a7ad490d41aed88ca6818783739b200cf6b35e3b8d75c8fe3f050cfd19581e4",
+        "firstPage": 11599,
+        "lastPage": 11670
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Isaiah.vay",
+        "sha256": "fb00f8ac6c07250bdcb761e28b18716ef78f9275537fc42bd6f244d5f136cd6d",
+        "firstPage": 11671,
+        "lastPage": 12630
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Jeremiah.vay",
+        "sha256": "c5e45e99fe92f1485a308d6c9c18816def72ea8e9a98be4b90677dca4930d38e",
+        "firstPage": 12631,
+        "lastPage": 13744
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Lamentations.vay",
+        "sha256": "2042c71952e61d566793130523e57e378aa2deaa0d05dedf0503836f2fc61e69",
+        "firstPage": 13745,
+        "lastPage": 13838
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Ezekiel.vay",
+        "sha256": "fe865ae777d1bc698150fd204c2f4cc17347f75889ba423eebc983be7b2ef112",
+        "firstPage": 13839,
+        "lastPage": 14830
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Daniel.vay",
+        "sha256": "009a5102d66a43fe1403e2893680bd9145f606b0f79f6b8ff813587675288fd7",
+        "firstPage": 14831,
+        "lastPage": 15102
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Hosea.vay",
+        "sha256": "4b4bb150ba379c296922ffc9a2bb106f22c80ca08ca5fa1ccd3cb6894c70d09c",
+        "firstPage": 15103,
+        "lastPage": 15234
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Joel.vay",
+        "sha256": "e19f7d608f5b713bc0a06c8d61766160563536d8dde8a1a0f1a08dd214ac8b8a",
+        "firstPage": 15235,
+        "lastPage": 15282
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Amos.vay",
+        "sha256": "671df8b83aff66e1ef1a954896e4ddbb11062f57661ea3bef11c691da4f8564a",
+        "firstPage": 15283,
+        "lastPage": 15388
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Obadiah.vay",
+        "sha256": "51e3fe0a1164d24678b80bf5d3b5d8214d2bb1f81e125312a64a8c9c3ea76cb3",
+        "firstPage": 15389,
+        "lastPage": 15404
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 15405,
+        "lastPage": 15446
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Micah.vay",
+        "sha256": "e333948f2e8a70dd8a4e36138d1dec8f39e7ff6af473e042ac8bd58c1670bd79",
+        "firstPage": 15447,
+        "lastPage": 15528
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Nahum.vay",
+        "sha256": "f903c53f0a8b0e7ce4d173d02167c8ddabb779d819fae52ee318dff748fa4b69",
+        "firstPage": 15529,
+        "lastPage": 15562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Habakkuk.vay",
+        "sha256": "d0012ab2ca5507842097198f208ebc5d8aecf176adf4db2974bda43f9aef06eb",
+        "firstPage": 15563,
+        "lastPage": 15602
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Zephaniah.vay",
+        "sha256": "f5c2cc5a3cb0291745a350b21c81765f1dfb77f5e666bbd1cddb31ba0851d22b",
+        "firstPage": 15603,
+        "lastPage": 15642
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Haggai.vay",
+        "sha256": "da457fc8ffdf3feb3b58bb58cfeb620d58d414b40e293fd19ea2918c9db41a76",
+        "firstPage": 15643,
+        "lastPage": 15670
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Zechariah.vay",
+        "sha256": "a38003e20fa6857b6151b79cd7f8b875214e7352db9331e03fcb4c0f052a796d",
+        "firstPage": 15671,
+        "lastPage": 15826
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Malachi.vay",
+        "sha256": "a3e9e2580931130b9c5e7b200e32696e211e4d2ceebce31b46b25a991c5a4834",
+        "firstPage": 15827,
+        "lastPage": 15876
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Matthew.vay",
+        "sha256": "99eeca60244b612dfbd48d4e2f381896e5d84e46672aa833743746ea88551ea6",
+        "firstPage": 15877,
+        "lastPage": 16488
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Mark.vay",
+        "sha256": "efbea5445f388da1555943f0372675778afd1a3d590213d8c6eec8e2ee925029",
+        "firstPage": 16489,
+        "lastPage": 16872
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Luke.vay",
+        "sha256": "b9e2730efe5f75a26a0c2141a6fb77bf4fd989e4d63791cd8bae22b681f24dee",
+        "firstPage": 16873,
+        "lastPage": 17512
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\John.vay",
+        "sha256": "ef5e2cef9f3ac90b7c5c170c3773b9242e0fd500f1c268063a98d20c697b0565",
+        "firstPage": 17513,
+        "lastPage": 17998
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Acts.vay",
+        "sha256": "1c9f7b7e3f0b9d6f6cc4bf374f5b435dd35c87ffead63f3a741fdb384856d8eb",
+        "firstPage": 17999,
+        "lastPage": 18614
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Romans.vay",
+        "sha256": "614498fd1f75972fa64b50853448e38453fb437427504698c17356f468a2e0d6",
+        "firstPage": 18615,
+        "lastPage": 18862
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\1 Corinthians.vay",
+        "sha256": "efe641e6208c76b0fe4458d674b4213131cbf6463bc5b488aff6d8878c3f8a0f",
+        "firstPage": 18863,
+        "lastPage": 19110
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\2 Corinthians.vay",
+        "sha256": "d712a9d785d6a6e7b53439db07d21852e8192accba53893f39c2df78d10a26ad",
+        "firstPage": 19111,
+        "lastPage": 19280
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Galatians.vay",
+        "sha256": "b40f5ba14e4b5e02ba192b759e51f4e40dccabef0fab767287b11f7be6527289",
+        "firstPage": 19281,
+        "lastPage": 19362
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Ephesians.vay",
+        "sha256": "943ba498cb733f39d536ee9a50f5741961b1a41ed0f088a219d272280ca11657",
+        "firstPage": 19363,
+        "lastPage": 19442
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Philippians.vay",
+        "sha256": "55c1933dea75edb9f0ff662e585b79301a6b7d0c3aecbcaeeb9f22ac672f375c",
+        "firstPage": 19443,
+        "lastPage": 19496
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Colossians.vay",
+        "sha256": "d310b67f5a15ab39b3ea73f3e4b2f4fdeca687b16fe34ededeba0b2a60239262",
+        "firstPage": 19497,
+        "lastPage": 19546
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\1 Thessalonians.vay",
+        "sha256": "c93c5d936ec71fa2d0f30f311786c30d20db9e0a709ffceefd0be4eb81212248",
+        "firstPage": 19547,
+        "lastPage": 19598
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\2 Thessalonians.vay",
+        "sha256": "eafd7783539190830f58bebad6b29ba0b23842b5451bcfcc15e80799822cf587",
+        "firstPage": 19599,
+        "lastPage": 19626
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\1 Timothy.vay",
+        "sha256": "a0aaf0e97a7ba6e68d8f34e91e2bd4956cac0c0aea8b109dd3306b2acbd8069b",
+        "firstPage": 19627,
+        "lastPage": 19686
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\2 Timothy.vay",
+        "sha256": "7a7d6f28eb6e2dfa45b210052c490dfd8986cbbfdbe3d7aa243cd8b646833aea",
+        "firstPage": 19687,
+        "lastPage": 19732
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Titus.vay",
+        "sha256": "b97eb77bca0c55fe9f58eb30acf0562426f3c61bf32046e885263b20853327ca",
+        "firstPage": 19733,
+        "lastPage": 19758
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Philemon.vay",
+        "sha256": "04af876a6852e78c1c5a533ee58f14ac8512087411641f11e1e90b92e32806a2",
+        "firstPage": 19759,
+        "lastPage": 19770
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Hebrews.vay",
+        "sha256": "1b07460715c88fc8daf9b7c88ea8d59bef509e3c1032c165578eb72c4e966730",
+        "firstPage": 19771,
+        "lastPage": 19948
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\James.vay",
+        "sha256": "55758f88a2f5abcfdac8c9b8d516203179ef57efd4fe2d96f2a6d91b166be5d3",
+        "firstPage": 19949,
+        "lastPage": 20008
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\1 Peter.vay",
+        "sha256": "c3c823abd7b221c00c5baf894493cd9af24d5d16cd150ced328ea56e8ad3e229",
+        "firstPage": 20009,
+        "lastPage": 20070
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\2 Peter.vay",
+        "sha256": "e6c3796535777a8f2c4ce7b91b29e5b364910e20bff81c25efd7a3ea6968dc45",
+        "firstPage": 20071,
+        "lastPage": 20110
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\1 John.vay",
+        "sha256": "ac23a6f95caf7d575dfd51768deddff5f1a93affd06f9e0a9b4f95b91d7dc346",
+        "firstPage": 20111,
+        "lastPage": 20176
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\2 John.vay",
+        "sha256": "e281b5cf96b02876a148fde7b0061f4e13dcb8ae817640142c0edfd4b23ad51b",
+        "firstPage": 20177,
+        "lastPage": 20184
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\3 John.vay",
+        "sha256": "626d3ffa36dbf0b4d4260138fdd462a119d9b799c3d1407e112e10855c1f7ba8",
+        "firstPage": 20185,
+        "lastPage": 20194
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Jude.vay",
+        "sha256": "2036aaf040825a94f8d971990d84e175e319c31d303d6cef4efc2d091c9e865e",
+        "firstPage": 20195,
+        "lastPage": 20210
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.278\\Build sources\\Revelation.vay",
+        "sha256": "f4b20a09f8f1d1e08020ceff6f81b2504dcf78dae2ba53e20feb0d7be5300bd4",
+        "firstPage": 20211,
+        "lastPage": 20498
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.90",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Numbers",
+        "version": "0.10-kjv.93",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Deuteronomy",
+        "version": "0.10-kjv.93",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.93",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "1 Chronicles",
+        "version": "0.10-kjv.93",
+        "firstPage": 7483,
+        "lastPage": 8006,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "2 Chronicles",
+        "version": "0.10-kjv.94",
+        "firstPage": 8007,
+        "lastPage": 8692,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Ezra",
+        "version": "0.10-kjv.96",
+        "firstPage": 8693,
+        "lastPage": 8882,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Nehemiah",
+        "version": "0.10-kjv.100",
+        "firstPage": 8883,
+        "lastPage": 9160,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Esther",
+        "version": "0.10-kjv.101",
+        "firstPage": 9161,
+        "lastPage": 9300,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Job",
+        "version": "0.10-kjv.107",
+        "firstPage": 9301,
+        "lastPage": 9806,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Psalms",
+        "version": "0.10-kjv.120",
+        "firstPage": 9807,
+        "lastPage": 11050,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Proverbs",
+        "version": "0.10-kjv.132",
+        "firstPage": 11051,
+        "lastPage": 11458,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Ecclesiastes",
+        "version": "0.10-kjv.128",
+        "firstPage": 11459,
+        "lastPage": 11598,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Song of Solomon",
+        "version": "0.10-kjv.129",
+        "firstPage": 11599,
+        "lastPage": 11670,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Isaiah",
+        "version": "0.10-kjv.141",
+        "firstPage": 11671,
+        "lastPage": 12630,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Jeremiah",
+        "version": "0.10-kjv.155",
+        "firstPage": 12631,
+        "lastPage": 13744,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Lamentations",
+        "version": "0.10-kjv.156",
+        "firstPage": 13745,
+        "lastPage": 13838,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Ezekiel",
+        "version": "0.10-kjv.168",
+        "firstPage": 13839,
+        "lastPage": 14830,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Daniel",
+        "version": "0.10-kjv.172",
+        "firstPage": 14831,
+        "lastPage": 15102,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Hosea",
+        "version": "0.10-kjv.174",
+        "firstPage": 15103,
+        "lastPage": 15234,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Joel",
+        "version": "0.10-kjv.175",
+        "firstPage": 15235,
+        "lastPage": 15282,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Amos",
+        "version": "0.10-kjv.177",
+        "firstPage": 15283,
+        "lastPage": 15388,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Obadiah",
+        "version": "0.10-kjv.178",
+        "firstPage": 15389,
+        "lastPage": 15404,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 15405,
+        "lastPage": 15446,
+        "status": "inherited frozen text"
+      },
+      {
+        "section": "Micah",
+        "version": "0.10-kjv.179",
+        "firstPage": 15447,
+        "lastPage": 15528,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Nahum",
+        "version": "0.10-kjv.180",
+        "firstPage": 15529,
+        "lastPage": 15562,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Habakkuk",
+        "version": "0.10-kjv.181",
+        "firstPage": 15563,
+        "lastPage": 15602,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Zephaniah",
+        "version": "0.10-kjv.182",
+        "firstPage": 15603,
+        "lastPage": 15642,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Haggai",
+        "version": "0.10-kjv.183",
+        "firstPage": 15643,
+        "lastPage": 15670,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Zechariah",
+        "version": "0.10-kjv.185",
+        "firstPage": 15671,
+        "lastPage": 15826,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Malachi",
+        "version": "0.10-kjv.186",
+        "firstPage": 15827,
+        "lastPage": 15876,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Matthew",
+        "version": "0.10-kjv.195",
+        "firstPage": 15877,
+        "lastPage": 16488,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Mark",
+        "version": "0.10-kjv.200",
+        "firstPage": 16489,
+        "lastPage": 16872,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Luke",
+        "version": "0.10-kjv.212",
+        "firstPage": 16873,
+        "lastPage": 17512,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "John",
+        "version": "0.10-kjv.222",
+        "firstPage": 17513,
+        "lastPage": 17998,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Acts",
+        "version": "0.10-kjv.232",
+        "firstPage": 17999,
+        "lastPage": 18614,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Romans",
+        "version": "0.10-kjv.237",
+        "firstPage": 18615,
+        "lastPage": 18862,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "1 Corinthians",
+        "version": "0.10-kjv.242",
+        "firstPage": 18863,
+        "lastPage": 19110,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "2 Corinthians",
+        "version": "0.10-kjv.246",
+        "firstPage": 19111,
+        "lastPage": 19280,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Galatians",
+        "version": "0.10-kjv.248",
+        "firstPage": 19281,
+        "lastPage": 19362,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Ephesians",
+        "version": "0.10-kjv.250",
+        "firstPage": 19363,
+        "lastPage": 19442,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Philippians",
+        "version": "0.10-kjv.251",
+        "firstPage": 19443,
+        "lastPage": 19496,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Colossians",
+        "version": "0.10-kjv.252",
+        "firstPage": 19497,
+        "lastPage": 19546,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "1 Thessalonians",
+        "version": "0.10-kjv.253",
+        "firstPage": 19547,
+        "lastPage": 19598,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "2 Thessalonians",
+        "version": "0.10-kjv.254",
+        "firstPage": 19599,
+        "lastPage": 19626,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "1 Timothy",
+        "version": "0.10-kjv.255",
+        "firstPage": 19627,
+        "lastPage": 19686,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "2 Timothy",
+        "version": "0.10-kjv.256",
+        "firstPage": 19687,
+        "lastPage": 19732,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Titus",
+        "version": "0.10-kjv.257",
+        "firstPage": 19733,
+        "lastPage": 19758,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Philemon",
+        "version": "0.10-kjv.258",
+        "firstPage": 19759,
+        "lastPage": 19770,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Hebrews",
+        "version": "0.10-kjv.263",
+        "firstPage": 19771,
+        "lastPage": 19948,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "James",
+        "version": "0.10-kjv.264",
+        "firstPage": 19949,
+        "lastPage": 20008,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "1 Peter",
+        "version": "0.10-kjv.265",
+        "firstPage": 20009,
+        "lastPage": 20070,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "2 Peter",
+        "version": "0.10-kjv.266",
+        "firstPage": 20071,
+        "lastPage": 20110,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "1 John",
+        "version": "0.10-kjv.267",
+        "firstPage": 20111,
+        "lastPage": 20176,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "2 John",
+        "version": "0.10-kjv.268",
+        "firstPage": 20177,
+        "lastPage": 20184,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "3 John",
+        "version": "0.10-kjv.269",
+        "firstPage": 20185,
+        "lastPage": 20194,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Jude",
+        "version": "0.10-kjv.270",
+        "firstPage": 20195,
+        "lastPage": 20210,
+        "status": "frozen historical translation"
+      },
+      {
+        "section": "Revelation",
+        "version": "0.10-kjv.278",
+        "firstPage": 20211,
+        "lastPage": 20498,
+        "status": "frozen historical translation"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    1,
+    2,
+    11379,
+    11380,
+    15445,
+    15446,
+    15917,
+    15918,
+    16487,
+    16488,
+    16767,
+    16768,
+    17455,
+    17456,
+    17513,
+    17514,
+    17557,
+    17558,
+    17583,
+    17584,
+    17653,
+    17654,
+    17707,
+    17708,
+    17723,
+    17724,
+    17729,
+    17730,
+    17755,
+    17756,
+    17843,
+    17844,
+    17905,
+    17906,
+    18017,
+    18018,
+    18019,
+    18020,
+    18033,
+    18034,
+    18173,
+    18174,
+    18205,
+    18206,
+    18209,
+    18210,
+    18715,
+    18716,
+    18719,
+    18720,
+    18727,
+    18728,
+    18729,
+    18730,
+    18965,
+    18966,
+    19027,
+    19028,
+    19279,
+    19280,
+    19307,
+    19308,
+    19383,
+    19384,
+    19397,
+    19398,
+    19451,
+    19452,
+    19461,
+    19462,
+    19503,
+    19504,
+    19507,
+    19508,
+    19771,
+    19772,
+    19797,
+    19798,
+    19937,
+    19938,
+    20009,
+    20010,
+    20167,
+    20168,
+    20267,
+    20268,
+    20427,
+    20428,
+    20447,
+    20448,
+    20473,
+    20474,
+    20493,
+    20494,
+    20497,
+    20498
+  ],
+  "colorProofsViewed": [
+    "color-page-001.png",
+    "color-page-002.png"
+  ],
+  "referenceLinksChecked": 193,
+  "completeLanguageDelta": {
+    "version": "0.10-kjv.278",
+    "baseVersion": "0.10",
+    "baseForgeHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+    "forgeHead": "87b5358cf77e81e6148c528d0f4e13195a25f6088be6c180aa80c6be5952906b",
+    "sourceVerses": 31102,
+    "translatedVerses": 31102,
+    "majorSections": 66,
+    "totalLexicalEntries": 10586,
+    "baseLexicalEntries": 3809,
+    "addedLexicalEntries": 6777,
+    "addedProperEntries": 4972,
+    "addedCommonEntries": 1805,
+    "newSurfaceForms": 4749,
+    "latestCheckpointEntries": 7,
+    "grammarSections": 2071,
+    "wikiArticles": 590,
+    "forgeFixtures": 28170,
+    "nativePages": 20498,
+    "independentLiteraryCertification": false,
+    "policy": "never-modernize",
+    "versesUsingIdentityForms": {
+      "ipl": 3309,
+      "mypl": 1283,
+      "wesg": 1717,
+      "ourone": 799,
+      "i": 4288,
+      "wepl": 252
+    }
+  },
+  "combinedInheritedCorrection": {
+    "reference": "Proverbs 26:2",
+    "finding": "Corrected132copy inherited unchanged;earlier126seal preserved"
+  }
+}

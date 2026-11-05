@@ -1,0 +1,657 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.217",
+    "parentVersion": "0.10-kjv.216",
+    "parentHead": "c55b3b6e93b3f771a74fe38e484230b04f4bc387031f5ebfb7dcd4f23a0c9688",
+    "head": "7694edf29bd5ffc400c9fa3dca99d42a64ece18083a25208f80197828f952952",
+    "newLexicalEntries": 1,
+    "newProperEntries": 1,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 83,
+    "exactCompilerCases": 83,
+    "newAuthoredVerses": 83,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 479,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4578,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJohnVerses": 83,
+    "johnVerses": 479,
+    "authoredVerses": 26524,
+    "remainingVerses": 4578,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 4,
+    "quantityChecks": [
+      {
+        "reference": "John 9:25",
+        "source": "He answered and said, Whether he be a sinner or no, I know not: one thing I know, that, whereas I was blind, now I see.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 10:16",
+        "source": "And other sheep I have, which are not of this fold: them also I must bring, and they shall hear my voice; and there shall be one fold, and one shepherd.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "John 10:30",
+        "source": "I and my Father are one.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 10:40",
+        "source": "And went away again beyond Jordan into the place where John at first baptized; and there he abode.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "9:1": [
+        "blind from his/birth"
+      ],
+      "9:2": [
+        "who sin:pa",
+        "this man or his/parent:pl",
+        "blind bear:psv:pa"
+      ],
+      "9:3": [
+        "this man sin:neg:perf nor his/parent:pl sin:neg:perf",
+        "work:pl of god"
+      ],
+      "9:4": [
+        "ipl work:pl of he who ipl:a send:pa work:must",
+        "night come:pr",
+        "no man work:can"
+      ],
+      "9:5": [
+        "ipl in world",
+        "ipl light of world"
+      ],
+      "9:6": [
+        "ground kjv_spit:pa",
+        "kjv_clay_material of kjv_saliva",
+        "eye:pl of blind man"
+      ],
+      "9:7": [
+        "kjv_siloam_pool_john wash:imp",
+        "by interpret:ev send:psv:adj",
+        "see:cv come:pa"
+      ],
+      "9:8": [
+        "neighbour:pl",
+        "blind be:pa",
+        "sit:pa and beg:pa"
+      ],
+      "9:9": [
+        "this he be:pr",
+        "like he be:pr",
+        "i he be:pr"
+      ],
+      "9:10": [
+        "how thine/eye:pl open:psv:pa:q"
+      ],
+      "9:11": [
+        "kjv_jesus_matthew call:psv:pr",
+        "my/eye:pl",
+        "to i",
+        "kjv_siloam_pool_john",
+        "i go:pa and wash:pa"
+      ],
+      "9:12": [
+        "where he be:pr:q",
+        "i know:neg:pr"
+      ],
+      "9:13": [
+        "before blind",
+        "to kjv_pharisee:pl"
+      ],
+      "9:14": [
+        "kjv_sabbath day",
+        "kjv_clay_material",
+        "eye:pl open:pa"
+      ],
+      "9:15": [
+        "again kjv_pharisee:pl",
+        "my/eye:pl",
+        "i wash:pa and see:pr"
+      ],
+      "9:16": [
+        "of god be:neg:pr",
+        "kjv_sabbath day keep:neg:pr",
+        "sin:ag",
+        "division"
+      ],
+      "9:17": [
+        "what of he that thine/eye:pl open:perf say:pr:q",
+        "prophet be:pr"
+      ],
+      "9:18": [
+        "blind be:pp and sight receive:pp believe:neg:pa",
+        "parent:pl"
+      ],
+      "9:19": [
+        "son of you:du",
+        "you:du blind bear:psv:pa",
+        "how then now see:pr:q"
+      ],
+      "9:20": [
+        "we:du",
+        "son of we:du",
+        "blind bear:psv:pa"
+      ],
+      "9:21": [
+        "we:du know:neg:pr",
+        "who his/eye:pl open:perf",
+        "of age",
+        "for himself speak:fu"
+      ],
+      "9:22": [
+        "parent:pl",
+        "fear:pa",
+        "already agree:pp",
+        "kjv_christ_title",
+        "out of kjv_synagogue"
+      ],
+      "9:23": [
+        "of age be:pr he:a ask:imp"
+      ],
+      "9:24": [
+        "to god praise give:imp",
+        "wesg",
+        "sin:ag"
+      ],
+      "9:25": [
+        "i know:neg:pr",
+        "one_num thing i know:pr",
+        "i blind be:pa now i see:pr"
+      ],
+      "9:26": [
+        "again",
+        "what to thee do:pa:q",
+        "how thine/eye:pl"
+      ],
+      "9:27": [
+        "i to you already tell:perf",
+        "hear:neg:pa",
+        "also his/disciple:pl"
+      ],
+      "9:28": [
+        "insult:pa",
+        "thou his/disciple",
+        "wesg disciple:pl of kjv_moses"
+      ],
+      "9:29": [
+        "wesg that god to kjv_moses speak:pa",
+        "wesg from where be:pr know:neg:pr"
+      ],
+      "9:30": [
+        "you from where be:pr know:neg:pr",
+        "my/eye:pl open:perf"
+      ],
+      "9:31": [
+        "wesg",
+        "god sin:ag:pl hear:neg:pr",
+        "god kjv_worship:ag",
+        "his/will"
+      ],
+      "9:32": [
+        "since world begin:pa",
+        "blind bear:psv:pa",
+        "hear:psv:neg:pa"
+      ],
+      "9:33": [
+        "of god be:neg:pa nothing do:can"
+      ],
+      "9:34": [
+        "entirely in sin:pl bear:psv:pa",
+        "wesg:a teach:pr:q",
+        "out cast:pa"
+      ],
+      "9:35": [
+        "out cast:pp",
+        "find:pp",
+        "son of god believe:pr:q"
+      ],
+      "9:36": [
+        "who he be:pr",
+        "i on he believe:may"
+      ],
+      "9:37": [
+        "both he:a see:perf",
+        "he who with thee talk:pr"
+      ],
+      "9:38": [
+        "kjv_lord i believe:pr",
+        "he:a kjv_worship:pa"
+      ],
+      "9:39": [
+        "for judgment ipl",
+        "see:neg:pr see:may",
+        "see:pr blind make:psv:may"
+      ],
+      "9:40": [
+        "kjv_pharisee:pl who with he",
+        "wesg blind also"
+      ],
+      "9:41": [
+        "if blind",
+        "no sin have:should",
+        "wesg see:pr say:pr",
+        "your/sin remain:pr"
+      ],
+      "10:1": [
+        "truly truly ipl",
+        "door into sheepfold enter:neg:pr",
+        "other way climb:pr",
+        "thief and rob:ag"
+      ],
+      "10:2": [
+        "by door",
+        "shepherd of sheep"
+      ],
+      "10:3": [
+        "kjv_gatekeeper",
+        "his/voice",
+        "by name call:pr",
+        "out lead:pr"
+      ],
+      "10:4": [
+        "own sheep",
+        "before they go:pr",
+        "his/voice know:pr"
+      ],
+      "10:5": [
+        "stranger follow:neg:fu",
+        "flee:fu",
+        "voice of stranger:pl know:neg:pr"
+      ],
+      "10:6": [
+        "kjv_parable_teaching",
+        "understand:neg:pa"
+      ],
+      "10:7": [
+        "truly truly ipl",
+        "ipl door of sheep"
+      ],
+      "10:8": [
+        "before ipl",
+        "thief:pl and rob:ag:pl",
+        "hear:neg:pa"
+      ],
+      "10:9": [
+        "ipl door",
+        "by ipl",
+        "in and out",
+        "kjv_pasture"
+      ],
+      "10:10": [
+        "steal:inf and kill:inf and destroy:inf",
+        "ipl come:perf",
+        "more in abundance"
+      ],
+      "10:11": [
+        "ipl good shepherd",
+        "his/life for sheep give:pr"
+      ],
+      "10:12": [
+        "kjv_hireling_job",
+        "shepherd be:neg:pr",
+        "own sheep be:neg:pr",
+        "wolf",
+        "catch:pr",
+        "scatter:pr"
+      ],
+      "10:13": [
+        "kjv_hireling_job flee:pr",
+        "care:neg:pr"
+      ],
+      "10:14": [
+        "ipl good shepherd",
+        "mypl/sheep know:pr",
+        "mypl/own know:psv:pr"
+      ],
+      "10:15": [
+        "father ipl:a know:pr",
+        "ipl father:a know:pr",
+        "ipl mypl/life down lay:pr"
+      ],
+      "10:16": [
+        "other sheep ipl have:pr",
+        "this sheepfold be:neg:pr",
+        "ipl bring:must",
+        "one_num sheepfold and one_num shepherd"
+      ],
+      "10:17": [
+        "mypl/father ipl:a love:pr",
+        "ipl mypl/life down lay:pr",
+        "ipl it again take:may"
+      ],
+      "10:18": [
+        "no man it from ipl take:pr",
+        "ipl it of iplself down lay:pr",
+        "power it again take:inf",
+        "command from mypl/father ipl receive:perf"
+      ],
+      "10:19": [
+        "again division",
+        "these say:ev:pl"
+      ],
+      "10:20": [
+        "devil have:pr and mad be:pr",
+        "why he:a hear:pr:q"
+      ],
+      "10:21": [
+        "word:pl of he who devil have:pr be:neg:pr",
+        "eye:pl of blind open:can:q"
+      ],
+      "10:22": [
+        "kjv_jerusalem",
+        "kjv_dedicate_inaugurate:ev",
+        "winter"
+      ],
+      "10:23": [
+        "kjv_temple",
+        "kjv_solomon/kjv_porch"
+      ],
+      "10:24": [
+        "wesg:a doubt:caus:pr",
+        "kjv_christ_title",
+        "plainly to wesg"
+      ],
+      "10:25": [
+        "ipl to you tell:pa",
+        "believe:neg:pa",
+        "mypl/father/name",
+        "of ipl testify:pr"
+      ],
+      "10:26": [
+        "believe:neg:pr because of mypl/sheep be:neg:pr",
+        "ipl to you say:pa"
+      ],
+      "10:27": [
+        "mypl/sheep mypl/voice",
+        "ipl they:a know:pr",
+        "ipl:a follow:pr"
+      ],
+      "10:28": [
+        "ipl to they eternal life",
+        "never perish:fu",
+        "mypl/hand they:a pluck:neg:fu"
+      ],
+      "10:29": [
+        "mypl/father who to ipl they:a give:pa",
+        "greater than all",
+        "no man",
+        "pluck:can"
+      ],
+      "10:30": [
+        "ipl and mypl/father one_num be:pr"
+      ],
+      "10:31": [
+        "stone:pl again up take:pa",
+        "strike:inf"
+      ],
+      "10:32": [
+        "many good work:pl from mypl/father",
+        "which of those work:pl",
+        "ipl:a with stone:pl strike:pr:q"
+      ],
+      "10:33": [
+        "wesg thee with stone:pl strike:neg:pr",
+        "kjv_blaspheme:ev",
+        "man be:cv thyself god"
+      ],
+      "10:34": [
+        "your/law write:psv:neg:perf:q",
+        "ipl say:pa you god:pl be:pr"
+      ],
+      "10:35": [
+        "they:a god:pl call:pa",
+        "word of god",
+        "writing break:psv:neg:can"
+      ],
+      "10:36": [
+        "father sanctify:perf and into world send:perf",
+        "thou kjv_blaspheme:pr",
+        "ipl say:pa ipl son of god"
+      ],
+      "10:37": [
+        "ipl work:pl of mypl/father do:neg:pr",
+        "ipl:a believe:neg:imp"
+      ],
+      "10:38": [
+        "though ipl:a believe:neg:pr work:pl believe:imp",
+        "father in ipl be:pr and ipl in he"
+      ],
+      "10:39": [
+        "again he:a take:inf seek:pa",
+        "escape:pa"
+      ],
+      "10:40": [
+        "beyond kjv_jordan",
+        "kjv_john_baptist at first kjv_baptize:pa",
+        "stay:pa"
+      ],
+      "10:41": [
+        "kjv_john_baptist no miracle",
+        "all thing:pl",
+        "true be:pa"
+      ],
+      "10:42": [
+        "many on he there believe:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "9:11",
+        "9:12",
+        "9:15",
+        "9:25",
+        "9:27",
+        "9:36",
+        "9:38",
+        "9:9"
+      ],
+      "ipl": [
+        "10:1",
+        "10:10",
+        "10:11",
+        "10:14",
+        "10:15",
+        "10:16",
+        "10:17",
+        "10:18",
+        "10:25",
+        "10:26",
+        "10:27",
+        "10:28",
+        "10:29",
+        "10:30",
+        "10:32",
+        "10:34",
+        "10:36",
+        "10:37",
+        "10:38",
+        "10:7",
+        "10:8",
+        "10:9",
+        "9:39",
+        "9:4",
+        "9:5"
+      ],
+      "wesg": [
+        "10:24",
+        "10:33",
+        "9:24",
+        "9:28",
+        "9:29",
+        "9:31",
+        "9:34",
+        "9:40",
+        "9:41"
+      ],
+      "wepl": [],
+      "mypl": [
+        "10:14",
+        "10:15",
+        "10:16",
+        "10:17",
+        "10:18",
+        "10:25",
+        "10:26",
+        "10:27",
+        "10:28",
+        "10:29",
+        "10:30",
+        "10:32",
+        "10:37"
+      ],
+      "ourone": [],
+      "iplself": [
+        "10:18"
+      ],
+      "we:du": [
+        "9:20",
+        "9:21"
+      ],
+      "they:du": [],
+      "you:du": [
+        "9:19"
+      ]
+    },
+    "physicalDualReferences": [
+      "9:19",
+      "9:20",
+      "9:21"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "One known thing,one fold,one shepherd,one unity predicate,and first-baptism temporal ordering retained.",
+      "Actual parent pair uses dual;divine unity is not replaced by numerical Trinity or a named ontology."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "83new verses;479John;whole Bible incomplete.",
+      "Personal I-am-he,parental dual,communal we-one,and divine I-many are distinguished.",
+      "One contextual proper entry;no common-word,paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "John — incomplete Bible working text",
+    "pages": 250,
+    "spreads": 125,
+    "units": 479,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "0f93adc11eb84e609369c6d3f8bd62f9c7ba31e003a7bb05aa0a6d7693692e7a",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 125,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.521,
+    "modules": [
+      "tests.test_kjv_john_known_voices",
+      "tests.test_kjv_john_disputed_origins",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    249,
+    250
+  ],
+  "status": "incomplete Bible;John1–10 section checkpoint verified",
+  "identityProofReview": {
+    "reference": "John 10:30",
+    "preflightProofsViewed": [
+      243,
+      244
+    ],
+    "construction": "I(pl.self.) and my(pl.self.)-father one be(prs.)."
+  }
+}

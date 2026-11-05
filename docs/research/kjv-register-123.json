@@ -1,0 +1,659 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.123",
+    "parentVersion": "0.10-kjv.122",
+    "parentHead": "10fa10f2310c9455db48011a5b51017eb86397b9a3f5156d48e7bb91d680cb6c",
+    "head": "bd137ccdb89ca21506afdf8e219fcd46871d2f4494f3c4ad1bf2ff702191c6fe",
+    "newLexicalEntries": 1,
+    "newProperEntries": 0,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 1,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 126,
+    "exactCompilerCases": 126,
+    "newAuthoredVerses": 126,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 473,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 14180,
+    "status": "incomplete",
+    "metadataCorrections": [
+      "Correct inherited121/122decision evidence label from newPsalmsverses to newProverbsverses in this new snapshot;counts,targets and earlier seals unchanged."
+    ]
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newProverbsVerses": 126,
+    "proverbsVerses": 473,
+    "authoredVerses": 16922,
+    "remainingVerses": 14180,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 0,
+    "quantityChecks": [],
+    "semanticChecks": {
+      "13:1": [
+        "his/father/instruction",
+        "rebuke:ev:a hear:neg:pr"
+      ],
+      "13:2": [
+        "fruit of his/mouth",
+        "kjv_violence:a eat:fu"
+      ],
+      "13:3": [
+        "his/life:a keep:pr",
+        "wide open:pr",
+        "destroy:ev:a have:fu"
+      ],
+      "13:4": [
+        "desire:pr and nothing:a have:pr",
+        "kjv_diligent fat:caus:psv:fu"
+      ],
+      "13:5": [
+        "false:ev:a hate:pr",
+        "kjv_loathsome",
+        "to shame"
+      ],
+      "13:6": [
+        "kjv_righteousness",
+        "wickedness sin:ag:a down throw:pr"
+      ],
+      "13:7": [
+        "himself:a rich:caus:pr yet nothing",
+        "himself:a poor:caus:pr yet great rich:ev"
+      ],
+      "13:8": [
+        "ransom of human/life",
+        "poor rebuke:ev:a hear:neg:pr"
+      ],
+      "13:9": [
+        "light of kjv_righteous rejoice:pr",
+        "lamp of wicked out put:psv:fu"
+      ],
+      "13:10": [
+        "only by pride",
+        "well advise:psv:adj wisdom"
+      ],
+      "13:11": [
+        "by vanity gain:psv:adj diminish:psv:fu",
+        "by labour gather:pr increase:fu"
+      ],
+      "13:12": [
+        "defer:psv:adj heart:a sick:caus:pr",
+        "kjv_tree of life"
+      ],
+      "13:13": [
+        "word:a despise:pr destroy:psv:fu",
+        "command:ev:a fear:pr reward:psv:fu"
+      ],
+      "13:14": [
+        "law of wise fountain of life",
+        "snare:pl of death depart:inf"
+      ],
+      "13:15": [
+        "understanding favour:a give:pr",
+        "transgress:ag:pl hard"
+      ],
+      "13:16": [
+        "with knowledge deal:pr",
+        "his/folly:a open lay:pr"
+      ],
+      "13:17": [
+        "wicked messenger into kjv_mischief",
+        "faithful kjv_ambassador health"
+      ],
+      "13:18": [
+        "poor:ev and shame",
+        "rebuke:ev:a regard:pr honour:psv:fu"
+      ],
+      "13:19": [
+        "desire accomplish:psv:adj sweet",
+        "to fool:pl kjv_abomination",
+        "from evil depart:inf"
+      ],
+      "13:20": [
+        "with wise human:pl walk:pr wise be:fu",
+        "companion of fool:pl destroy:psv:fu"
+      ],
+      "13:21": [
+        "evil sin:ag:pl:a pursue:pr",
+        "good repay:psv:fu"
+      ],
+      "13:22": [
+        "his/child:pl/child:pl",
+        "wealth of sin:ag for kjv_righteous"
+      ],
+      "13:23": [
+        "land work:ev of poor",
+        "for lack of judgment destroy:psv:pr"
+      ],
+      "13:24": [
+        "his/rod:a spare:pr",
+        "his/son:a hate:pr",
+        "early kjv_chastise:pr"
+      ],
+      "13:25": [
+        "satisfy:ev of his/soul",
+        "belly of wicked lack:fu"
+      ],
+      "14:1": [
+        "wise woman her/house:a build:pr",
+        "with her/hand:pl down pluck:pr"
+      ],
+      "14:2": [
+        "kjv_lord:a fear:pr",
+        "kjv_froward in his/way:pl",
+        "he:a despise:pr"
+      ],
+      "14:3": [
+        "mouth of foolish rod of pride",
+        "lip:pl of wise they:a preserve:fu"
+      ],
+      "14:4": [
+        "no ox:pl",
+        "kjv_crib clean",
+        "strength of ox"
+      ],
+      "14:5": [
+        "faithful witness false:ev:a speak:neg:fu",
+        "false witness false:ev:pl:a utter:fu"
+      ],
+      "14:6": [
+        "wisdom:a seek:pr and it:a find:neg:pr",
+        "knowledge easy"
+      ],
+      "14:7": [
+        "from presence of foolish human go:imp",
+        "when thou",
+        "perceive:neg:pr"
+      ],
+      "14:8": [
+        "his/way:a understand:inf",
+        "folly of fool:pl deceit"
+      ],
+      "14:9": [
+        "fool:pl at sin mock:pr",
+        "among kjv_righteous favour"
+      ],
+      "14:10": [
+        "his/own bitter:ev:a know:pr",
+        "stranger in his/joy join:neg:pr"
+      ],
+      "14:11": [
+        "house of wicked down throw:psv:fu",
+        "tent of kjv_upright thrive:fu"
+      ],
+      "14:12": [
+        "kjv_upright to human seem:pr",
+        "end of it way:pl of death"
+      ],
+      "14:13": [
+        "even in laugh:ev heart sorrowful",
+        "mirth heaviness"
+      ],
+      "14:14": [
+        "in heart back turn:pr",
+        "his/own way:pl fill:psv:fu",
+        "from himself satisfy:psv:fu"
+      ],
+      "14:15": [
+        "kjv_naive every word:a believe:pr",
+        "well to his/go:ev"
+      ],
+      "14:16": [
+        "fear:pr and from evil depart:pr",
+        "fool rage:pr and confident"
+      ],
+      "14:17": [
+        "soon angry",
+        "foolish:adv deal:pr",
+        "wicked plan:pl hate:psv:pr"
+      ],
+      "14:18": [
+        "kjv_naive folly:a inherit:pr",
+        "with knowledge crown:psv:pr"
+      ],
+      "14:19": [
+        "evil before good bow:pr",
+        "wicked at gate:pl"
+      ],
+      "14:20": [
+        "poor even by his/own neighbour hate:psv:pr",
+        "rich many friend:pl"
+      ],
+      "14:21": [
+        "neighbour:a despise:pr sin:pr",
+        "mercy:a on poor",
+        "happy"
+      ],
+      "14:22": [
+        "evil:a plan:pr err:neg:pr?",
+        "mercy and truth",
+        "good:a plan:pr"
+      ],
+      "14:23": [
+        "all labour benefit",
+        "talk of lip:pl only to poor:ev"
+      ],
+      "14:24": [
+        "crown of wise their/rich:ev",
+        "foolish:ev of fool:pl folly"
+      ],
+      "14:25": [
+        "true witness soul:pl:a deliver:pr",
+        "deceitful witness false:ev:pl:a speak:pr"
+      ],
+      "14:26": [
+        "fear of kjv_lord strong confidence",
+        "his/child:pl place of kjv_refuge"
+      ],
+      "14:27": [
+        "fear of kjv_lord fountain of life",
+        "snare:pl of death"
+      ],
+      "14:28": [
+        "kjv_multitude of people king/honour",
+        "lack of people",
+        "prince"
+      ],
+      "14:29": [
+        "slow to wrath",
+        "great understanding",
+        "haste:adj of spirit",
+        "kjv_exalt:pr"
+      ],
+      "14:30": [
+        "health:adj heart life of flesh",
+        "kjv_envy rotten:ev of bone:pl"
+      ],
+      "14:31": [
+        "poor:a oppress:pr",
+        "shame:a on his/make:ag put:pr",
+        "mercy:a on poor"
+      ],
+      "14:32": [
+        "in his/wickedness away drive:psv:pr",
+        "hope:a in his/death"
+      ],
+      "14:33": [
+        "wisdom in heart",
+        "rest:pr",
+        "middle of fool:pl",
+        "know:caus:psv:pr"
+      ],
+      "14:34": [
+        "kjv_righteousness nation:a kjv_exalt:pr",
+        "sin kjv_reproach to any people"
+      ],
+      "14:35": [
+        "king/favour to wise servant",
+        "his/wrath against",
+        "shame:a cause:pr"
+      ],
+      "15:1": [
+        "soft answer wrath:a away turn:pr",
+        "pain:caus:adj word:pl anger:a stir:pr"
+      ],
+      "15:2": [
+        "knowledge:a fitting:adv use:pr",
+        "foolish:ev:a out pour:pr"
+      ],
+      "15:3": [
+        "eye:pl of kjv_lord in every place",
+        "evil and good:a behold:cv"
+      ],
+      "15:4": [
+        "health:adj tongue kjv_tree of life",
+        "kjv_froward:ev in it breach in spirit"
+      ],
+      "15:5": [
+        "father/instruct:ev:a despise:pr",
+        "rebuke:ev:a regard:pr kjv_prudence:adj"
+      ],
+      "15:6": [
+        "house of kjv_righteous much treasure",
+        "kjv_income of wicked kjv_trouble"
+      ],
+      "15:7": [
+        "lip:pl of wise knowledge:a disperse:pr",
+        "heart of foolish thus do:neg:pr"
+      ],
+      "15:8": [
+        "kjv_sacrifice of wicked kjv_abomination",
+        "prayer of kjv_upright his/delight"
+      ],
+      "15:9": [
+        "way of wicked kjv_abomination",
+        "he:a who after kjv_righteousness follow:pr love:pr"
+      ],
+      "15:10": [
+        "kjv_chastise:ev kjv_grievous",
+        "way:a forsake:pr",
+        "rebuke:ev:a hate:pr die:fu"
+      ],
+      "15:11": [
+        "kjv_hell and destroy:ev before kjv_lord",
+        "how much more",
+        "heart:pl of child:pl of human:pl?"
+      ],
+      "15:12": [
+        "one:a who he:a rebuke:pr",
+        "love:neg:pr neither",
+        "to wise go:fu"
+      ],
+      "15:13": [
+        "merry heart glad face:a make:pr",
+        "sorrow of heart spirit break:psv:pr"
+      ],
+      "15:14": [
+        "understanding:a have:pr knowledge:a seek:pr",
+        "mouth of fool:pl on foolish:ev feed:pr"
+      ],
+      "15:15": [
+        "all day:pl of kjv_afflict:psv:adj evil",
+        "merry heart",
+        "feast:a always have:pr"
+      ],
+      "15:16": [
+        "little with fear of kjv_lord better",
+        "great treasure and kjv_trouble"
+      ],
+      "15:17": [
+        "meal of herb:pl where love",
+        "stall:psv:adj ox and hate:ev"
+      ],
+      "15:18": [
+        "wrath:adj human strife:a stir:pr",
+        "slow to anger",
+        "strife:a quiet:caus:pr"
+      ],
+      "15:19": [
+        "lazy human like hedge of thorn:pl",
+        "way of kjv_righteous clear:caus:psv:pr"
+      ],
+      "15:20": [
+        "wise son glad father:a make:pr",
+        "foolish human his/mother:a despise:pr"
+      ],
+      "15:21": [
+        "wisdom:a lack:pr",
+        "understanding kjv_upright:adv walk:pr"
+      ],
+      "15:22": [
+        "without counsel purpose:pl fail:pr",
+        "kjv_multitude of counsel:ag:pl",
+        "kjv_establish:psv:pr"
+      ],
+      "15:23": [
+        "joy:a by answer of his/mouth",
+        "fitting season",
+        "how good it be:pr:excl"
+      ],
+      "15:24": [
+        "way of life above",
+        "kjv_hell beneath depart:may"
+      ],
+      "15:25": [
+        "house of proud:a destroy:fu",
+        "boundary of widow:a kjv_establish:fu"
+      ],
+      "15:26": [
+        "thought:pl of wicked kjv_abomination",
+        "word:pl of pure delight:adj word:pl"
+      ],
+      "15:27": [
+        "gain:ev:a excessive:adv desire:pr",
+        "his/own house:a kjv_afflict:pr",
+        "gift:pl:a hate:pr live:fu"
+      ],
+      "15:28": [
+        "heart of kjv_righteous to answer:inf study:pr",
+        "evil thing:pl:a out pour:pr"
+      ],
+      "15:29": [
+        "kjv_lord far from wicked",
+        "prayer of kjv_righteous:a hear:pr"
+      ],
+      "15:30": [
+        "light of eye:pl heart:a rejoice:caus:pr",
+        "good report bone:pl:a fat:caus:pr"
+      ],
+      "15:31": [
+        "ear which rebuke:ev of life:a hear:pr",
+        "among wise remain:pr"
+      ],
+      "15:32": [
+        "instruct:ev:a refuse:pr his/own soul:a despise:pr",
+        "rebuke:ev:a hear:pr understanding:a get:pr"
+      ],
+      "15:33": [
+        "fear of kjv_lord instruct:ev of wisdom",
+        "before honour humility"
+      ],
+      "16:1": [
+        "prepare:ev:pl of heart in human and answer of tongue from kjv_lord"
+      ],
+      "16:2": [
+        "all way:pl of human clean in his/own eye:pl",
+        "kjv_lord spirit:pl:a weigh:pr"
+      ],
+      "16:3": [
+        "thy/work:pl:a to kjv_lord entrust:imp",
+        "thy/thought:pl kjv_establish:psv:fu"
+      ],
+      "16:4": [
+        "all thing:pl:a for himself make:perf",
+        "even wicked for day of evil"
+      ],
+      "16:5": [
+        "proud in heart",
+        "though hand in hand join:pr",
+        "punish:psv:neg:adj remain:neg:fu"
+      ],
+      "16:6": [
+        "by mercy and truth kjv_iniquity purify:psv:pr",
+        "fear of kjv_lord",
+        "from evil depart:pr"
+      ],
+      "16:7": [
+        "human/way:pl kjv_lord:a delight:caus:pr",
+        "even his/enemy:pl with he peace:adj be:caus:pr"
+      ],
+      "16:8": [
+        "little with kjv_righteousness better",
+        "great kjv_income without kjv_uprightness"
+      ],
+      "16:9": [
+        "human/heart his/way:a plan:pr",
+        "kjv_lord his/step:pl:a direct:pr"
+      ],
+      "16:10": [
+        "divine sentence in lip:pl of king",
+        "his/mouth in judgment transgress:neg:pr"
+      ],
+      "16:11": [
+        "true weight and balance",
+        "all weight:pl of bag his/work"
+      ],
+      "16:12": [
+        "wickedness:a commit:inf kjv_abomination",
+        "throne by kjv_righteousness kjv_establish:psv:pr"
+      ],
+      "16:13": [
+        "kjv_righteous lip:pl delight of king:pl",
+        "he:a who kjv_upright:adj:a speak:pr love:pr"
+      ],
+      "16:14": [
+        "wrath of king like messenger:pl of death",
+        "wise human it:a quiet:caus:fu"
+      ],
+      "16:15": [
+        "light of king/face life",
+        "his/favour like cloud of kjv_latter_rain"
+      ],
+      "16:16": [
+        "wisdom:a get:inf than gold be:pr:excl",
+        "understanding:a get:inf rather choose:psv:adj than silver be:pr:excl"
+      ],
+      "16:17": [
+        "kjv_highway of kjv_upright",
+        "from evil depart:inf",
+        "his/soul:a preserve:pr"
+      ],
+      "16:18": [
+        "pride before destroy:ev go:pr",
+        "proud spirit before fall:ev"
+      ],
+      "16:19": [
+        "humility:adj spirit with lowly",
+        "spoil:a with proud kjv_divide:inf"
+      ],
+      "16:20": [
+        "matter:a wise:adv deal:pr good:a find:fu",
+        "in kjv_lord trust:pr happy"
+      ],
+      "16:21": [
+        "wise in heart kjv_prudence:adj call:psv:fu",
+        "sweetness of lip:pl learn:ev:a increase:pr"
+      ],
+      "16:22": [
+        "understanding fountain of life",
+        "instruct:ev of fool:pl folly"
+      ],
+      "16:23": [
+        "heart of wise his/mouth:a teach:pr",
+        "learn:ev:a to his/lip:pl add:pr"
+      ],
+      "16:24": [
+        "delight:adj word:pl like kjv_honeycomb",
+        "sweet to soul and health to bone:pl"
+      ],
+      "16:25": [
+        "kjv_upright to human seem:pr",
+        "end of it way:pl of death"
+      ],
+      "16:26": [
+        "for himself labour:pr",
+        "his/mouth it:a from he demand:pr"
+      ],
+      "16:27": [
+        "kjv_ungodly human evil:a up kjv_dig:pr",
+        "his/lip:pl like burn:adj fire"
+      ],
+      "16:28": [
+        "kjv_froward human strife:a kjv_sow:pr",
+        "whisper:ag chief friend:pl:a separate:pr"
+      ],
+      "16:29": [
+        "violent human his/neighbour:a entice:pr",
+        "way which good be:neg:pr lead:pr"
+      ],
+      "16:30": [
+        "eye:pl:a shut:pr",
+        "kjv_froward thing:pl:a plan:inf",
+        "lip:pl:a move:cv",
+        "evil:a accomplish:pr"
+      ],
+      "16:31": [
+        "grey head crown of glory",
+        "if it in way of kjv_righteousness"
+      ],
+      "16:32": [
+        "slow to anger",
+        "better than mighty",
+        "his/spirit:a rule:pr",
+        "city:a take:pr"
+      ],
+      "16:33": [
+        "kjv_lot into lap cast:psv:pr",
+        "whole decide:ev of it of kjv_lord"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [],
+      "ipl": [],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "No explicit new cardinal,ordinal or multiplier in Proverbs13–16.",
+      "Indefinite one15:12and every one16:5are generic people,not counts;childrens children13:22gives relation,not descendant total."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Proverbs13–16adds126verses,473of915Proverbsverses;wholeBibleincomplete.",
+      "Third-person instructional and royal maxims do not acquire divine first-person pronouns;source relation and possessive ambiguity retained.",
+      "Identical14:12/16:25and source categorical tensions remain;negative-unpunished16:5retains two levels of scope.",
+      "Contextual aright,plain,betimes,intermeddle,disappointed,just,latter rain,disposal and lot are distinguished.",
+      "Inherited latter-rain and boundary used;one new common incoming-wealth term distinguishes estate revenue.",
+      "No compiler/paradigm changes or inherited target repairs;all previous targets and seals remain unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Proverbs — incomplete Bible working text",
+    "pages": 204,
+    "spreads": 102,
+    "units": 473,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "67719a2c0221ca5ec4fc500e728e80e0d9cb8fa4aed99de9728476494f8cb354",
+    "maxBaselineErrorPt": 0.01171875,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 102,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.48,
+    "modules": [
+      "tests.test_kjv_proverb_maxim_scope",
+      "tests.test_kjv_proverb_wisdom_origins",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    203,
+    204
+  ],
+  "status": "incompleteBible;Proverbs1–16sectioncheckpointverified"
+}

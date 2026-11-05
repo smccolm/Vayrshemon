@@ -1,0 +1,588 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.80",
+    "parentVersion": "0.10-kjv.79",
+    "parentHead": "d87054db7f57c68d711469f1d4f2b001f8b4d5ba54e4a4535345a084c09edb59",
+    "head": "7b4d409f45cf1b881fe50ffef1e99877f5db9bfca33ebbf0ccb1ce208b005bae",
+    "newLexicalEntries": 235,
+    "newProperEntries": 235,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 137,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 80,
+    "exactCompilerCases": 80,
+    "newAuthoredVerses": 80,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 363,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20438,
+    "status": "incomplete",
+    "metadataCorrection": "Corrected two copied count fields against the verified coverage ledger:1Samuel810 and1Kings816. Target text, scope, coverage, sealed language and Forge history unchanged."
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 80,
+    "chronicles1Verses": 363,
+    "authoredVerses": 10664,
+    "remainingVerses": 20438,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 16,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 7:1",
+        "source": "Now the sons of Issachar were, Tola, and Puah, Jashub, and Shimrom, four.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:2",
+        "source": "And the sons of Tola; Uzzi, and Rephaiah, and Jeriel, and Jahmai, and Jibsam, and Shemuel, heads of their father’s house, to wit, of Tola: they were valiant men of might in their generations; whose number was in the days of David two and twenty thousand and six hundred.",
+        "expectedDecimalQuantities": [
+          22600
+        ],
+        "targetQuantities": [
+          22600
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:3",
+        "source": "And the sons of Uzzi; Izrahiah: and the sons of Izrahiah; Michael, and Obadiah, and Joel, Ishiah, five: all of them chief men.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:4",
+        "source": "And with them, by their generations, after the house of their fathers, were bands of soldiers for war, six and thirty thousand men: for they had many wives and sons.",
+        "expectedDecimalQuantities": [
+          36000
+        ],
+        "targetQuantities": [
+          36000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:5",
+        "source": "And their brethren among all the families of Issachar were valiant men of might, reckoned in all by their genealogies fourscore and seven thousand.",
+        "expectedDecimalQuantities": [
+          87000
+        ],
+        "targetQuantities": [
+          87000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:6",
+        "source": "The sons of Benjamin; Bela, and Becher, and Jediael, three.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:7",
+        "source": "And the sons of Bela; Ezbon, and Uzzi, and Uzziel, and Jerimoth, and Iri, five; heads of the house of their fathers, mighty men of valour; and were reckoned by their genealogies twenty and two thousand and thirty and four.",
+        "expectedDecimalQuantities": [
+          5,
+          22034
+        ],
+        "targetQuantities": [
+          5,
+          22034
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:9",
+        "source": "And the number of them, after their genealogy by their generations, heads of the house of their fathers, mighty men of valour, was twenty thousand and two hundred.",
+        "expectedDecimalQuantities": [
+          20200
+        ],
+        "targetQuantities": [
+          20200
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:11",
+        "source": "All these the sons of Jediael, by the heads of their fathers, mighty men of valour, were seventeen thousand and two hundred soldiers, fit to go out for war and battle.",
+        "expectedDecimalQuantities": [
+          17200
+        ],
+        "targetQuantities": [
+          17200
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:15",
+        "source": "And Machir took to wife the sister of Huppim and Shuppim, whose sister’s name was Maachah;) and the name of the second was Zelophehad: and Zelophehad had daughters.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 7:40",
+        "source": "All these were the children of Asher, heads of their father’s house, choice and mighty men of valour, chief of the princes. And the number throughout the genealogy of them that were apt to the war and to battle was twenty and six thousand men.",
+        "expectedDecimalQuantities": [
+          26000
+        ],
+        "targetQuantities": [
+          26000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 8:1",
+        "source": "Now Benjamin begat Bela his firstborn, Ashbel the second, and Aharah the third,",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 8:2",
+        "source": "Nohah the fourth, and Rapha the fifth.",
+        "expectedDecimalQuantities": [
+          4,
+          5
+        ],
+        "targetQuantities": [
+          4,
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 8:38",
+        "source": "And Azel had six sons, whose names are these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan. All these were the sons of Azel.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "1 Chronicles 8:39",
+        "source": "And the sons of Eshek his brother were, Ulam his firstborn, Jehush the second, and Eliphelet the third.",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 8:40",
+        "source": "And the sons of Ulam were mighty men of valour, archers, and had many sons, and sons’ sons, an hundred and fifty. All these are of the sons of Benjamin.",
+        "expectedDecimalQuantities": [
+          150
+        ],
+        "targetQuantities": [
+          150
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "7:1": [
+        "kjv_puah_issachar",
+        "kjv_shimrom four"
+      ],
+      "7:2": [
+        "house of their/father namely of kjv_tola",
+        "day:pl of kjv_david",
+        "twenty+thousand and two+thousand and six+hundred"
+      ],
+      "7:3": [
+        "kjv_michael_izrahiah and kjv_obadiah_izrahiah and kjv_joel_izrahiah kjv_ishiah five"
+      ],
+      "7:4": [
+        "thirty+thousand and six+thousand",
+        "many wife:pl and son:pl:a have:pa"
+      ],
+      "7:5": [
+        "four+twenty+thousand and seven+thousand"
+      ],
+      "7:6": [
+        "kjv_bela_benjamin and kjv_becher and kjv_jediael kjv_three"
+      ],
+      "7:7": [
+        "kjv_ezbon_bela",
+        "kjv_iri five",
+        "twenty+thousand and two+thousand and thirty and four"
+      ],
+      "7:8": [
+        "kjv_joash_becher",
+        "kjv_omri_becher",
+        "kjv_anathoth_person and kjv_alameth"
+      ],
+      "7:9": [
+        "twenty+thousand and two+hundred"
+      ],
+      "7:10": [
+        "kjv_benjamin_bilhan",
+        "kjv_ehud_bilhan",
+        "kjv_tharshish_person and kjv_ahishahar"
+      ],
+      "7:11": [
+        "seventeen+thousand and two+hundred",
+        "fit to go:inf out for war and battle"
+      ],
+      "7:12": [
+        "kjv_shuppim also and kjv_huppim child:pl of kjv_ir",
+        "kjv_hushim_aher son:pl of kjv_aher"
+      ],
+      "7:13": [
+        "kjv_jahziel",
+        "kjv_shallum_naphtali son:pl of kjv_bilhah"
+      ],
+      "7:14": [
+        "kjv_ashriel whom she born:pa",
+        "his/kjv_concubine kjv_aramitess woman",
+        "kjv_machir father of kjv_gilead_machir:a born:pa"
+      ],
+      "7:15": [
+        "sister of kjv_huppim and kjv_shuppim:a take:pa",
+        "name of their/sister kjv_maachah_machir",
+        "name of two:ord kjv_zelophehad",
+        "daughter:pl:a have:pa"
+      ],
+      "7:16": [
+        "kjv_maachah_machir wife of kjv_machir",
+        "kjv_peresh",
+        "his/brother kjv_sheresh",
+        "his/son:pl kjv_ulam_manasseh and kjv_rakem"
+      ],
+      "7:17": [
+        "kjv_bedan_ulam",
+        "kjv_gilead_machir son of kjv_machir son of kjv_manasseh"
+      ],
+      "7:18": [
+        "his/sister kjv_hammoleketh",
+        "kjv_mahalah:a born:pa"
+      ],
+      "7:19": [
+        "kjv_shemidah",
+        "kjv_shechem_shemidah"
+      ],
+      "7:20": [
+        "kjv_tahath_bered his/son and kjv_eladah his/son and kjv_tahath_eladah his/son"
+      ],
+      "7:21": [
+        "kjv_ezer_ephraim and kjv_elead",
+        "man:pl of kjv_gath which in thatone land born:psv:pa",
+        "they their/kjv_livestock:a take:inf away come:pa down"
+      ],
+      "7:22": [
+        "many day:pl mourn:pa",
+        "his/brother:pl he:a comfort:inf come:pa"
+      ],
+      "7:23": [
+        "she conceive:pa and son:a born:pa",
+        "kjv_beriah_ephraim",
+        "with his/house evil go:pa"
+      ],
+      "7:24": [
+        "his/daughter kjv_sherah",
+        "kjv_bethhoron low and more high",
+        "kjv_uzzensherah:a build:pa"
+      ],
+      "7:25": [
+        "kjv_rephah his/son",
+        "also kjv_resheph and kjv_telah his/son and kjv_tahan his/son"
+      ],
+      "7:26": [
+        "kjv_laadan his/son kjv_ammihud his/son kjv_elishama his/son"
+      ],
+      "7:27": [
+        "kjv_non his/son kjv_jehoshuah his/son"
+      ],
+      "7:28": [
+        "their/kjv_possession:pl and dwelling:pl",
+        "to east kjv_naaran",
+        "to west kjv_gezer",
+        "until kjv_gaza"
+      ],
+      "7:29": [
+        "kjv_bethshean",
+        "kjv_taanach",
+        "kjv_megiddo",
+        "kjv_dor",
+        "child:pl of kjv_joseph son of kjv_israel"
+      ],
+      "7:30": [
+        "kjv_imnah and kjv_isuah and kjv_ishuai",
+        "kjv_serah their/sister"
+      ],
+      "7:31": [
+        "kjv_malchiel who father of kjv_birzavith"
+      ],
+      "7:32": [
+        "kjv_hotham and kjv_shua_woman their/sister:a beget:pa"
+      ],
+      "7:33": [
+        "kjv_pasach and kjv_bimhal and kjv_ashvath",
+        "child:pl of kjv_japhlet"
+      ],
+      "7:34": [
+        "kjv_shamer_asher",
+        "kjv_aram_shamer"
+      ],
+      "7:35": [
+        "his/brother kjv_helem",
+        "kjv_imna"
+      ],
+      "7:36": [
+        "kjv_suah",
+        "kjv_harnepher",
+        "kjv_shual_person",
+        "kjv_beri",
+        "kjv_imrah"
+      ],
+      "7:37": [
+        "kjv_bezer_person",
+        "kjv_hod",
+        "kjv_shamma",
+        "kjv_shilshah",
+        "kjv_ithran_asher",
+        "kjv_beera"
+      ],
+      "7:38": [
+        "kjv_jether_asher kjv_jephunneh_asher and kjv_pispah and kjv_ara"
+      ],
+      "7:39": [
+        "kjv_ulla",
+        "kjv_haniel_ulla"
+      ],
+      "7:40": [
+        "choose:psv and mighty",
+        "twenty+thousand and six+thousand"
+      ],
+      "8:1": [
+        "his/first+born",
+        "kjv_ashbel two:ord and kjv_aharah kjv_three:ord"
+      ],
+      "8:2": [
+        "kjv_nohah four:ord and kjv_rapha_benjamin five:ord"
+      ],
+      "8:3": [
+        "kjv_addar and kjv_gera_bela and kjv_abihud"
+      ],
+      "8:4": [
+        "kjv_abishua_bela and kjv_naaman and kjv_ahoah"
+      ],
+      "8:5": [
+        "kjv_gera_bela and kjv_shephuphan and kjv_huram_bela"
+      ],
+      "8:6": [
+        "kjv_ehud_geba",
+        "they they:a to kjv_manahath_place remove:pa"
+      ],
+      "8:7": [
+        "kjv_gera_removal he they:a remove:pa",
+        "kjv_uzza_gera and kjv_ahihud_gera:a beget:pa"
+      ],
+      "8:8": [
+        "after he they:a send:pp away",
+        "kjv_hushim_wife and kjv_baara his/wife:pl"
+      ],
+      "8:9": [
+        "of kjv_hodesh his/wife",
+        "kjv_mesha_hodesh and kjv_malcham_person"
+      ],
+      "8:10": [
+        "kjv_jeuz and kjv_shachia and kjv_mirma"
+      ],
+      "8:11": [
+        "of kjv_hushim_wife",
+        "kjv_abitub and kjv_elpaal"
+      ],
+      "8:12": [
+        "kjv_eber_elpaal",
+        "kjv_shamed who kjv_ono and kjv_lod",
+        "build:pa"
+      ],
+      "8:13": [
+        "kjv_beriah_aijalon",
+        "kjv_shema_aijalon",
+        "inhabit:ag:pl of kjv_gath:a drive:pa away"
+      ],
+      "8:14": [
+        "kjv_ahio_beriah kjv_shashak and kjv_jeremoth"
+      ],
+      "8:15": [
+        "kjv_zebadiah_beriah and kjv_arad_person and kjv_ader"
+      ],
+      "8:16": [
+        "kjv_michael_beriah and kjv_ispah and kjv_joha son:pl of kjv_beriah_aijalon"
+      ],
+      "8:17": [
+        "kjv_zebadiah_elpaal and kjv_meshullam_elpaal and kjv_hezeki and kjv_heber_elpaal"
+      ],
+      "8:18": [
+        "kjv_ishmerai",
+        "kjv_jezliah and kjv_jobab_elpaal son:pl of kjv_elpaal"
+      ],
+      "8:19": [
+        "kjv_jakim and kjv_zichri_shimhi and kjv_zabdi_shimhi"
+      ],
+      "8:20": [
+        "kjv_elienai and kjv_zilthai and kjv_eliel_shimhi"
+      ],
+      "8:21": [
+        "kjv_adaiah_shimhi and kjv_beraiah and kjv_shimrath son:pl of kjv_shimhi"
+      ],
+      "8:22": [
+        "kjv_ishpan and kjv_heber_shashak and kjv_eliel_shashak"
+      ],
+      "8:23": [
+        "kjv_abdon_shashak and kjv_zichri_shashak and kjv_hanan_shashak"
+      ],
+      "8:24": [
+        "kjv_hananiah_shashak and kjv_elam_shashak and kjv_antothijah"
+      ],
+      "8:25": [
+        "kjv_iphedeiah and kjv_penuel_shashak son:pl of kjv_shashak"
+      ],
+      "8:26": [
+        "kjv_shamsherai and kjv_shehariah and kjv_athaliah_jeroham"
+      ],
+      "8:27": [
+        "kjv_jaresiah and kjv_eliah and kjv_zichri_jeroham son:pl of kjv_jeroham_benjamin"
+      ],
+      "8:28": [
+        "by their/generation:pl",
+        "in kjv_jerusalem dwell:pa"
+      ],
+      "8:29": [
+        "father of kjv_gibeon dwell:pa",
+        "name of his/wife kjv_maachah_gibeon"
+      ],
+      "8:30": [
+        "his/first+born son kjv_abdon_gibeon",
+        "kjv_zur_gibeon and kjv_kish_gibeon and kjv_baal_gibeon and kjv_nadab_gibeon"
+      ],
+      "8:31": [
+        "kjv_gedor_person and kjv_ahio_gibeon and kjv_zacher"
+      ],
+      "8:32": [
+        "kjv_mikloth kjv_shimeah_mikloth:a beget:pa",
+        "opposite they dwell:pa"
+      ],
+      "8:33": [
+        "kjv_ner kjv_kish:a beget:pa",
+        "kjv_saul_israel kjv_jonathan_saul",
+        "kjv_malchishua",
+        "kjv_eshbaal"
+      ],
+      "8:34": [
+        "kjv_jonathan_saul kjv_meribbaal",
+        "kjv_micah_meribbaal"
+      ],
+      "8:35": [
+        "kjv_pithon and kjv_melech and kjv_tarea and kjv_ahaz_micah"
+      ],
+      "8:36": [
+        "kjv_jehoadah",
+        "kjv_alemeth_person",
+        "kjv_azmaveth_jehoadah",
+        "kjv_zimri_jehoadah",
+        "kjv_moza_zimri"
+      ],
+      "8:37": [
+        "kjv_binea:a beget:pa kjv_rapha_binea his/son",
+        "kjv_eleasah_rapha his/son kjv_azel his/son"
+      ],
+      "8:38": [
+        "six son:pl:a have:pa",
+        "kjv_bocheru",
+        "kjv_ishmael_azel",
+        "kjv_hanan_azel"
+      ],
+      "8:39": [
+        "kjv_ulam_eshek his/first+born kjv_jehush two:ord",
+        "kjv_eliphelet_eshek kjv_three:ord"
+      ],
+      "8:40": [
+        "kjv_bow shoot:ag:pl",
+        "son:pl and son:pl of son:pl hundred and fifty"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Troop totals, birth ranks and the150sons-and-grandsons aggregate independently checked. The printed7:3five remains without an invented extra name."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "No unprinted first-person speech. Supplied genealogy variants and city-list discrepancies retained without outside harmonization.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 158,
+    "spreads": 79,
+    "units": 363,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "310bec701b0ee2d40efb7cde85bde46df75c8e8177e12cd59667fd1a705e0f89",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 79,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.82,
+    "modules": [
+      "tests.test_kjv_chronicles_kinship",
+      "tests.test_kjv_chronicles_sanctuary",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    157,
+    158
+  ],
+  "status": "incomplete Bible; checkpoint verified"
+}

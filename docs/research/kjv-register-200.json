@@ -1,0 +1,1514 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.200",
+    "parentVersion": "0.10-kjv.199",
+    "parentHead": "f257eb51cff57e7e9b7a9e6a3c69d783ca66fc04d95663c8743efa8ee94b528b",
+    "head": "c7d7d84cb527c8198671ce403889eeb5cdbe9442374a3dff245081a2fd739c23",
+    "newLexicalEntries": 7,
+    "newProperEntries": 5,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 7,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 176,
+    "exactCompilerCases": 176,
+    "newAuthoredVerses": 176,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 6208,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newMarkVerses": 176,
+    "markVerses": 678,
+    "authoredVerses": 24894,
+    "remainingVerses": 6208,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 34,
+    "quantityChecks": [
+      {
+        "reference": "Mark 13:1",
+        "source": "And as he went out of the temple, one of his disciples saith unto him, Master, see what manner of stones and what buildings are here!",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 13:2",
+        "source": "And Jesus answering said unto him, Seest thou these great buildings? there shall not be left one stone upon another, that shall not be thrown down.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 13:10",
+        "source": "And the gospel must first be published among all nations.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 13:27",
+        "source": "And then shall he send his angels, and shall gather together his elect from the four winds, from the uttermost part of the earth to the uttermost part of heaven.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Mark 14:1",
+        "source": "After two days was the feast of the passover, and of unleavened bread: and the chief priests and the scribes sought how they might take him by craft, and put him to death.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Mark 14:5",
+        "source": "For it might have been sold for more than three hundred pence, and have been given to the poor. And they murmured against her.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "Mark 14:10",
+        "source": "And Judas Iscariot, one of the twelve, went unto the chief priests, to betray him unto them.",
+        "expectedDecimalQuantities": [
+          1,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          12
+        ]
+      },
+      {
+        "reference": "Mark 14:12",
+        "source": "And the first day of unleavened bread, when they killed the passover, his disciples said unto him, Where wilt thou that we go and prepare that thou mayest eat the passover?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 14:13",
+        "source": "And he sendeth forth two of his disciples, and saith unto them, Go ye into the city, and there shall meet you a man bearing a pitcher of water: follow him.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Mark 14:17",
+        "source": "And in the evening he cometh with the twelve.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Mark 14:18",
+        "source": "And as they sat and did eat, Jesus said, Verily I say unto you, One of you which eateth with me shall betray me.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 14:19",
+        "source": "And they began to be sorrowful, and to say unto him one by one, Is it I? and another said, Is it I?",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Mark 14:20",
+        "source": "And he answered and said unto them, It is one of the twelve, that dippeth with me in the dish.",
+        "expectedDecimalQuantities": [
+          1,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          12
+        ]
+      },
+      {
+        "reference": "Mark 14:30",
+        "source": "And Jesus saith unto him, Verily I say unto thee, That this day, even in this night, before the cock crow twice, thou shalt deny me thrice.",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "Mark 14:37",
+        "source": "And he cometh, and findeth them sleeping, and saith unto Peter, Simon, sleepest thou? couldest not thou watch one hour?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 14:41",
+        "source": "And he cometh the third time, and saith unto them, Sleep on now, and take your rest: it is enough, the hour is come; behold, the Son of man is betrayed into the hands of sinners.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Mark 14:43",
+        "source": "And immediately, while he yet spake, cometh Judas, one of the twelve, and with him a great multitude with swords and staves, from the chief priests and the scribes and the elders.",
+        "expectedDecimalQuantities": [
+          1,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          12
+        ]
+      },
+      {
+        "reference": "Mark 14:47",
+        "source": "And one of them that stood by drew a sword, and smote a servant of the high priest, and cut off his ear.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 14:58",
+        "source": "We heard him say, I will destroy this temple that is made with hands, and within three days I will build another made without hands.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Mark 14:66",
+        "source": "And as Peter was beneath in the palace, there cometh one of the maids of the high priest:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 14:69",
+        "source": "And a maid saw him again, and began to say to them that stood by, This is one of them.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 14:70",
+        "source": "And he denied it again. And a little after, they that stood by said again to Peter, Surely thou art one of them: for thou art a Galilaean, and thy speech agreeth thereto.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 14:72",
+        "source": "And the second time the cock crew. And Peter called to mind the word that Jesus said unto him, Before the cock crow twice, thou shalt deny me thrice. And when he thought thereon, he wept.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "Mark 15:6",
+        "source": "Now at that feast he released unto them one prisoner, whomsoever they desired.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 15:25",
+        "source": "And it was the third hour, and they crucified him.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Mark 15:27",
+        "source": "And with him they crucify two thieves; the one on his right hand, and the other on his left.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Mark 15:29",
+        "source": "And they that passed by railed on him, wagging their heads, and saying, Ah, thou that destroyest the temple, and buildest it in three days,",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Mark 15:33",
+        "source": "And when the sixth hour was come, there was darkness over the whole land until the ninth hour.",
+        "expectedDecimalQuantities": [
+          6,
+          9
+        ],
+        "targetQuantities": [
+          6,
+          9
+        ]
+      },
+      {
+        "reference": "Mark 15:34",
+        "source": "And at the ninth hour Jesus cried with a loud voice, saying, Eloi, Eloi, lama sabachthani? which is, being interpreted, My God, my God, why hast thou forsaken me?",
+        "expectedDecimalQuantities": [
+          9
+        ],
+        "targetQuantities": [
+          9
+        ]
+      },
+      {
+        "reference": "Mark 15:38",
+        "source": "And the veil of the temple was rent in twain from the top to the bottom.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Mark 16:2",
+        "source": "And very early in the morning the first day of the week, they came unto the sepulchre at the rising of the sun.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Mark 16:9",
+        "source": "Now when Jesus was risen early the first day of the week, he appeared first to Mary Magdalene, out of whom he had cast seven devils.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          7
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          7
+        ]
+      },
+      {
+        "reference": "Mark 16:12",
+        "source": "After that he appeared in another form unto two of them, as they walked, and went into the country.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Mark 16:14",
+        "source": "Afterward he appeared unto the eleven as they sat at meat, and upbraided them with their unbelief and hardness of heart, because they believed not them which had seen him after he was risen.",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "one_num of his/disciple:pl",
+        "stone:pl and build:ev:pl",
+        "see:imp:excl"
+      ],
+      "13:2": [
+        "great build:ev:pl",
+        "one_num stone upon another",
+        "throw:psv:neg",
+        "leave:psv:neg"
+      ],
+      "13:3": [
+        "opposite kjv_temple",
+        "kjv_peter_disciple and kjv_james_zebedee and kjv_john_zebedee and kjv_andrew_disciple",
+        "private:adv"
+      ],
+      "13:4": [
+        "wesg:a tell",
+        "when these thing:pl",
+        "what sign",
+        "fulfil"
+      ],
+      "13:5": [
+        "heed",
+        "deceive"
+      ],
+      "13:6": [
+        "mypl/name",
+        "ipl kjv_christ_title",
+        "many deceive"
+      ],
+      "13:7": [
+        "rumour:pl of war:pl",
+        "distress:neg",
+        "happen:must",
+        "end not yet"
+      ],
+      "13:8": [
+        "nation against nation",
+        "kingdom against kingdom",
+        "earthquake:pl",
+        "kjv_famine:pl and distress:ev:pl",
+        "beginning:pl of sorrow:pl"
+      ],
+      "13:9": [
+        "council:pl deliver",
+        "kjv_synagogue:pl",
+        "ruler:pl and king:pl",
+        "mypl/sake",
+        "testimony against they"
+      ],
+      "13:10": [
+        "first among all nation:pl",
+        "proclaim:psv:must"
+      ],
+      "13:11": [
+        "beforehand",
+        "neither beforehand meditate",
+        "in that hour",
+        "not you that speak",
+        "but holy spirit"
+      ],
+      "13:12": [
+        "brother to death",
+        "father son",
+        "against their/parent:pl",
+        "death put:psv:inf cause"
+      ],
+      "13:13": [
+        "all man:pl",
+        "mypl/name sake",
+        "end endure",
+        "save:psv"
+      ],
+      "13:14": [
+        "kjv_daniel_captive prophet",
+        "it stand:neg:should stand:pr",
+        "read:pr understand",
+        "kjv_judaea",
+        "mountain:pl flee"
+      ],
+      "13:15": [
+        "house roof",
+        "down go:neg",
+        "neither there enter",
+        "anything out"
+      ],
+      "13:16": [
+        "in field",
+        "back again turn:neg",
+        "his/garment"
+      ],
+      "13:17": [
+        "woe:excl",
+        "pregnant",
+        "kjv_nurse_feed"
+      ],
+      "13:18": [
+        "your/flight in winter be:neg"
+      ],
+      "13:19": [
+        "beginning of creation",
+        "god create",
+        "neither be:fu"
+      ],
+      "13:20": [
+        "lord those day:pl shorten:pp",
+        "no flesh",
+        "whom he choose:perf",
+        "shorten:perf"
+      ],
+      "13:21": [
+        "here kjv_christ_title",
+        "he there",
+        "believe:neg"
+      ],
+      "13:22": [
+        "false kjv_christ_title:pl",
+        "false prophet:pl",
+        "sign:pl and wonder:pl",
+        "if possible",
+        "choose:psv:adj person:pl"
+      ],
+      "13:23": [
+        "ipl all thing:pl",
+        "foretell:perf"
+      ],
+      "13:24": [
+        "after that kjv_tribulation",
+        "sun dark become",
+        "moon her/light give:neg"
+      ],
+      "13:25": [
+        "star:pl of heaven",
+        "power:pl",
+        "shake"
+      ],
+      "13:26": [
+        "son of man in cloud:pl",
+        "great power and glory"
+      ],
+      "13:27": [
+        "his/angel:pl",
+        "four wind:pl",
+        "farthest part of earth",
+        "farthest part of heaven"
+      ],
+      "13:28": [
+        "fig kjv_tree",
+        "her/branch",
+        "leaf:pl forth put",
+        "summer near"
+      ],
+      "13:29": [
+        "thing:pl happen",
+        "it near even at door:pl"
+      ],
+      "13:30": [
+        "ipl",
+        "this generation pass:neg",
+        "all these thing:pl"
+      ],
+      "13:31": [
+        "heaven and earth",
+        "mypl/word:pl away pass:neg"
+      ],
+      "13:32": [
+        "no man",
+        "not angel:pl",
+        "neither son but father"
+      ],
+      "13:33": [
+        "heed:imp watch:imp and pray:imp",
+        "time be:pr know:neg"
+      ],
+      "13:34": [
+        "son of man as man",
+        "far journey",
+        "authority",
+        "every man his/work",
+        "kjv_gatekeeper watch"
+      ],
+      "13:35": [
+        "evening or at midnight or at kjv_cock_crow:ev or in morning"
+      ],
+      "13:36": [
+        "suddenly",
+        "sleep:cv find"
+      ],
+      "13:37": [
+        "ipl to you",
+        "ipl to all",
+        "watch"
+      ],
+      "14:1": [
+        "two day:pl",
+        "kjv_passover",
+        "bread without kjv_leaven",
+        "by deceit",
+        "to death put"
+      ],
+      "14:2": [
+        "not on feast day",
+        "kjv_tumult"
+      ],
+      "14:3": [
+        "kjv_simon_leper",
+        "kjv_alabaster",
+        "kjv_spikenard",
+        "box break",
+        "his/head pour"
+      ],
+      "14:4": [
+        "some within themselves",
+        "indignation",
+        "destroy:ev of kjv_ointment"
+      ],
+      "14:5": [
+        "more than two+twelve+twelve and twelve",
+        "kjv_penny_source:pl",
+        "to poor",
+        "against she kjv_murmur"
+      ],
+      "14:6": [
+        "she:a alone leave",
+        "she:a distress",
+        "on ipl good work"
+      ],
+      "14:7": [
+        "poor with you always",
+        "whenever you will",
+        "good do:may",
+        "ipl:a always have:neg"
+      ],
+      "14:8": [
+        "what she able",
+        "beforehand mypl/body",
+        "burial anoint"
+      ],
+      "14:9": [
+        "ipl",
+        "whole world",
+        "she do:perf",
+        "remembrance of she"
+      ],
+      "14:10": [
+        "kjv_judas_iscariot one_num of twelve",
+        "chief priest:pl",
+        "betray"
+      ],
+      "14:11": [
+        "glad",
+        "money give:inf promise",
+        "at fitting time",
+        "betray"
+      ],
+      "14:12": [
+        "first day",
+        "kjv_passover kill",
+        "wesg go",
+        "prepare",
+        "eat:may"
+      ],
+      "14:13": [
+        "two of his/disciple:pl",
+        "you:du",
+        "man water kjv_pitcher carry",
+        "follow"
+      ],
+      "14:14": [
+        "you:du to house master",
+        "ipl with mypl/disciple:pl",
+        "chamber for guest"
+      ],
+      "14:15": [
+        "you:du",
+        "large chamber above",
+        "furnish",
+        "prepare",
+        "for wesg"
+      ],
+      "14:16": [
+        "his/disciple:du",
+        "into city",
+        "as he to they say",
+        "they:du kjv_passover"
+      ],
+      "14:17": [
+        "evening",
+        "with twelve"
+      ],
+      "14:18": [
+        "ipl",
+        "one_num of you",
+        "with ipl eat",
+        "ipl:a betray"
+      ],
+      "14:19": [
+        "one_num by one_num",
+        "it i be:pr:q",
+        "another say:pa it i"
+      ],
+      "14:20": [
+        "one_num of twelve",
+        "with ipl in kjv_dish dip"
+      ],
+      "14:21": [
+        "as of he write",
+        "woe:excl",
+        "never bear:psv:pp"
+      ],
+      "14:22": [
+        "bread take",
+        "bless",
+        "break",
+        "take:imp eat:imp",
+        "this mypl/body"
+      ],
+      "14:23": [
+        "thanks give",
+        "they all of it drink"
+      ],
+      "14:24": [
+        "mypl/blood",
+        "new kjv_testament_covenant",
+        "for many shed"
+      ],
+      "14:25": [
+        "ipl",
+        "fruit of kjv_vine",
+        "no more",
+        "new in kingdom of god"
+      ],
+      "14:26": [
+        "hymn",
+        "mountain of kjv_olive:pl"
+      ],
+      "14:27": [
+        "all you",
+        "ipl this night",
+        "write:psv",
+        "ipl shepherd strike",
+        "sheep scatter"
+      ],
+      "14:28": [
+        "after ipl rise",
+        "before you into kjv_galilee"
+      ],
+      "14:29": [
+        "kjv_peter_disciple",
+        "although all",
+        "yet i not"
+      ],
+      "14:30": [
+        "ipl",
+        "this night",
+        "cock twice kjv_cock_crow",
+        "three time:pl deny"
+      ],
+      "14:31": [
+        "more strongly",
+        "i with thou die",
+        "deny:neg",
+        "they all say"
+      ],
+      "14:32": [
+        "kjv_gethsemane",
+        "here sit",
+        "while ipl pray"
+      ],
+      "14:33": [
+        "kjv_peter_disciple and kjv_james_zebedee and kjv_john_zebedee",
+        "greatly amaze",
+        "very heavy"
+      ],
+      "14:34": [
+        "mypl/soul",
+        "sorrowful to death",
+        "tarry",
+        "watch"
+      ],
+      "14:35": [
+        "little forward",
+        "on ground fall",
+        "if possible",
+        "hour from he pass"
+      ],
+      "14:36": [
+        "kjv_abba_quoted father",
+        "all thing:pl to thou possible",
+        "cup from ipl",
+        "not what ipl will",
+        "what thou will"
+      ],
+      "14:37": [
+        "kjv_simon_peter",
+        "sleep:pr:q",
+        "one_num hour"
+      ],
+      "14:38": [
+        "watch:imp and pray:imp",
+        "tempt:ev",
+        "spirit truly ready",
+        "flesh weak"
+      ],
+      "14:39": [
+        "again",
+        "same word:pl"
+      ],
+      "14:40": [
+        "sleep:cv",
+        "their/eye:pl heavy",
+        "what to he answer:inf know"
+      ],
+      "14:41": [
+        "third time",
+        "sleep:imp",
+        "enough",
+        "hour come:perf",
+        "hand:pl of sin:ag:pl"
+      ],
+      "14:42": [
+        "wesg go",
+        "ipl:a betray",
+        "near"
+      ],
+      "14:43": [
+        "one_num of twelve",
+        "sword:pl and staff:pl",
+        "chief priest:pl and kjv_scribe:pl and kjv_elder:pl"
+      ],
+      "14:44": [
+        "token give:pp",
+        "i kiss",
+        "in safety",
+        "away lead"
+      ],
+      "14:45": [
+        "master master",
+        "kiss"
+      ],
+      "14:46": [
+        "their/hand:pl",
+        "take"
+      ],
+      "14:47": [
+        "one_num of they",
+        "sword draw",
+        "servant of high priest",
+        "his/ear off cut"
+      ],
+      "14:48": [
+        "as against thief",
+        "sword:pl and staff:pl",
+        "ipl:a take"
+      ],
+      "14:49": [
+        "ipl daily",
+        "kjv_temple teach",
+        "ipl:a take:neg",
+        "sacred writing:pl fulfil"
+      ],
+      "14:50": [
+        "they all",
+        "forsake",
+        "flee"
+      ],
+      "14:51": [
+        "young man",
+        "linen cloth",
+        "his/body without clothing",
+        "young man:pl"
+      ],
+      "14:52": [
+        "linen cloth leave",
+        "without clothing flee"
+      ],
+      "14:53": [
+        "high priest",
+        "all chief priest:pl and kjv_elder:pl and kjv_scribe:pl"
+      ],
+      "14:54": [
+        "far off",
+        "palace",
+        "with servant:pl",
+        "at fire warm"
+      ],
+      "14:55": [
+        "all council",
+        "witness against",
+        "to death put",
+        "none find"
+      ],
+      "14:56": [
+        "many false witness",
+        "agree:neg"
+      ],
+      "14:57": [
+        "false witness",
+        "say:cv"
+      ],
+      "14:58": [
+        "wesg he:a say",
+        "ipl this kjv_temple",
+        "with hand:pl",
+        "within three day:pl",
+        "without hand:pl"
+      ],
+      "14:59": [
+        "neither so",
+        "witness together agree"
+      ],
+      "14:60": [
+        "in middle up stand",
+        "nothing answer",
+        "these against thou witness"
+      ],
+      "14:61": [
+        "silent remain",
+        "again high priest",
+        "kjv_christ_title son of blessed"
+      ],
+      "14:62": [
+        "ipl be:pr",
+        "kjv_right_side of power",
+        "cloud:pl of heaven"
+      ],
+      "14:63": [
+        "his/clothes rend",
+        "witness:pl wesg need"
+      ],
+      "14:64": [
+        "kjv_blaspheme:ev",
+        "what you think",
+        "they all",
+        "death guilty"
+      ],
+      "14:65": [
+        "kjv_spit",
+        "his/face cover",
+        "kjv_prophesy:imp",
+        "kjv_palm_hand:pl"
+      ],
+      "14:66": [
+        "below in palace",
+        "one_num of maid:pl"
+      ],
+      "14:67": [
+        "himself warm",
+        "with kjv_jesus_matthew of kjv_nazareth"
+      ],
+      "14:68": [
+        "i know:neg",
+        "neither i",
+        "kjv_porch",
+        "cock kjv_cock_crow"
+      ],
+      "14:69": [
+        "maid",
+        "again",
+        "one_num of they"
+      ],
+      "14:70": [
+        "again deny",
+        "one_num of they",
+        "kjv_galilaean_mark",
+        "thy/speech"
+      ],
+      "14:71": [
+        "curse",
+        "swear",
+        "i this man",
+        "know:neg"
+      ],
+      "14:72": [
+        "two:ord time",
+        "twice kjv_cock_crow",
+        "ipl:a three time:pl deny",
+        "think",
+        "weep"
+      ],
+      "15:1": [
+        "in morning",
+        "whole council",
+        "bind",
+        "kjv_pilate deliver"
+      ],
+      "15:2": [
+        "king of kjv_jew:pl",
+        "to they say",
+        "thou it:a say"
+      ],
+      "15:3": [
+        "many thing:pl accuse",
+        "nothing answer"
+      ],
+      "15:4": [
+        "again",
+        "nothing answer",
+        "how many thing:pl"
+      ],
+      "15:5": [
+        "still nothing",
+        "kjv_pilate marvel"
+      ],
+      "15:6": [
+        "one_num kjv_prisoner",
+        "whoever they desire"
+      ],
+      "15:7": [
+        "kjv_barabbas",
+        "with they",
+        "rebellion",
+        "murder"
+      ],
+      "15:8": [
+        "loud:adv cry",
+        "always to they do"
+      ],
+      "15:9": [
+        "i to you",
+        "king of kjv_jew:pl release"
+      ],
+      "15:10": [
+        "chief priest:pl",
+        "for kjv_envy:ev"
+      ],
+      "15:11": [
+        "people stir",
+        "rather kjv_barabbas"
+      ],
+      "15:12": [
+        "i to he",
+        "whom you king of kjv_jew:pl call"
+      ],
+      "15:13": [
+        "again cry",
+        "kjv_crucify:imp"
+      ],
+      "15:14": [
+        "what evil",
+        "much more cry",
+        "kjv_crucify:imp"
+      ],
+      "15:15": [
+        "people satisfy",
+        "kjv_barabbas",
+        "whip:pp",
+        "kjv_crucify:psv"
+      ],
+      "15:16": [
+        "kjv_governor_hall",
+        "kjv_praetorium",
+        "whole troop"
+      ],
+      "15:17": [
+        "purple",
+        "crown of thorn:pl weave",
+        "about his/head"
+      ],
+      "15:18": [
+        "greet",
+        "greeting:excl",
+        "king of kjv_jew:pl"
+      ],
+      "15:19": [
+        "head with reed",
+        "kjv_spit",
+        "knee:pl bend",
+        "kjv_worship"
+      ],
+      "15:20": [
+        "purple from he",
+        "his/own clothes",
+        "kjv_crucify"
+      ],
+      "15:21": [
+        "kjv_simon_cyrene of kjv_cyrene",
+        "from country",
+        "kjv_alexander_simon and kjv_rufus_simon",
+        "cross_instrument carry"
+      ],
+      "15:22": [
+        "kjv_golgotha",
+        "interpret",
+        "place of kjv_skull"
+      ],
+      "15:23": [
+        "wine with kjv_myrrh",
+        "receive:neg"
+      ],
+      "15:24": [
+        "garment:pl kjv_divide",
+        "kjv_lot:pl",
+        "every man"
+      ],
+      "15:25": [
+        "third hour",
+        "kjv_crucify"
+      ],
+      "15:26": [
+        "kjv_inscription_mark",
+        "accuse:ev",
+        "king of kjv_jew:pl"
+      ],
+      "15:27": [
+        "two thief:pl",
+        "one_num on his/kjv_right_side",
+        "other on his/left"
+      ],
+      "15:28": [
+        "sacred writing fulfil",
+        "transgress:ag:pl kjv_number"
+      ],
+      "15:29": [
+        "head:pl shake",
+        "ah:excl",
+        "kjv_temple",
+        "three day:pl"
+      ],
+      "15:30": [
+        "thyself save",
+        "cross_instrument down come"
+      ],
+      "15:31": [
+        "with kjv_scribe:pl",
+        "other:pl save",
+        "himself save:neg"
+      ],
+      "15:32": [
+        "king of kjv_israel",
+        "wesg see:may",
+        "they:du that with he",
+        "insult"
+      ],
+      "15:33": [
+        "six:ord hour",
+        "whole land",
+        "nine:ord hour"
+      ],
+      "15:34": [
+        "nine:ord hour",
+        "kjv_eloi_quoted kjv_eloi_quoted",
+        "kjv_lama_quoted kjv_sabachthani_quoted",
+        "mypl/god mypl/god",
+        "thou ipl:a forsake"
+      ],
+      "15:35": [
+        "some of they",
+        "kjv_elias_matthew call"
+      ],
+      "15:36": [
+        "kjv_sponge with vinegar",
+        "on reed",
+        "wesg see",
+        "he:a down take"
+      ],
+      "15:37": [
+        "loud voice",
+        "spirit up give"
+      ],
+      "15:38": [
+        "kjv_vail_partition",
+        "from top to bottom",
+        "into two"
+      ],
+      "15:39": [
+        "kjv_centurion",
+        "thus he cry",
+        "spirit up give",
+        "son of god"
+      ],
+      "15:40": [
+        "far off",
+        "kjv_mary_magdalene",
+        "kjv_mary_james_joses",
+        "kjv_james_mary_witness less",
+        "kjv_joses_mary_witness",
+        "kjv_salome_mark"
+      ],
+      "15:41": [
+        "kjv_galilee",
+        "follow",
+        "serve",
+        "many other woman:pl",
+        "kjv_jerusalem"
+      ],
+      "15:42": [
+        "evening",
+        "preparation",
+        "day before kjv_sabbath"
+      ],
+      "15:43": [
+        "kjv_joseph_arimathaea",
+        "counsellor",
+        "kingdom of god wait",
+        "bold:adv",
+        "body of kjv_jesus_matthew"
+      ],
+      "15:44": [
+        "already dead",
+        "kjv_centurion",
+        "any while dead"
+      ],
+      "15:45": [
+        "from kjv_centurion",
+        "body to kjv_joseph_arimathaea"
+      ],
+      "15:46": [
+        "fine linen buy",
+        "down take",
+        "wrap",
+        "tomb",
+        "rock kjv_hew",
+        "stone",
+        "roll"
+      ],
+      "15:47": [
+        "kjv_mary_magdalene and kjv_mary_james_joses",
+        "they:du",
+        "lay:psv"
+      ],
+      "16:1": [
+        "kjv_sabbath pass",
+        "kjv_mary_magdalene",
+        "kjv_mary_james_joses",
+        "kjv_salome_mark",
+        "sweet spice:pl",
+        "anoint"
+      ],
+      "16:2": [
+        "very early",
+        "first day of week",
+        "sun rise:ev"
+      ],
+      "16:3": [
+        "for wesg",
+        "stone from door",
+        "away roll"
+      ],
+      "16:4": [
+        "away roll:psv",
+        "very great"
+      ],
+      "16:5": [
+        "young man",
+        "kjv_right_side",
+        "long white garment",
+        "frighten"
+      ],
+      "16:6": [
+        "kjv_nazareth",
+        "kjv_crucify",
+        "rise:perf",
+        "here be:neg",
+        "where they he:a lay"
+      ],
+      "16:7": [
+        "his/disciple:pl and kjv_peter_disciple",
+        "kjv_galilee",
+        "as he to you say"
+      ],
+      "16:8": [
+        "quickly",
+        "flee",
+        "tremble",
+        "neither to any man anything",
+        "afraid"
+      ],
+      "16:9": [
+        "first day",
+        "first to kjv_mary_magdalene",
+        "seven devil:pl"
+      ],
+      "16:10": [
+        "with he be:pp",
+        "mourn:pa and weep"
+      ],
+      "16:11": [
+        "alive",
+        "by she see",
+        "believe:neg"
+      ],
+      "16:12": [
+        "another form",
+        "two of they",
+        "they:du walk",
+        "into country"
+      ],
+      "16:13": [
+        "they:du go",
+        "they that remain",
+        "they they:du:a believe"
+      ],
+      "16:14": [
+        "eleven",
+        "at meal",
+        "believe:neg:ev",
+        "heart hard:ev",
+        "believe:neg"
+      ],
+      "16:15": [
+        "all world",
+        "every creature",
+        "kjv_gospel"
+      ],
+      "16:16": [
+        "believe:pr and kjv_baptize:psv",
+        "save:psv",
+        "believe:neg",
+        "damn:psv"
+      ],
+      "16:17": [
+        "mypl/name",
+        "devil:pl out cast",
+        "new tongue:pl"
+      ],
+      "16:18": [
+        "serpent:pl",
+        "if any deadly thing drink",
+        "harm:neg",
+        "hand:pl on sick",
+        "recover"
+      ],
+      "16:19": [
+        "up into heaven",
+        "receive:psv",
+        "kjv_right_side of god"
+      ],
+      "16:20": [
+        "everywhere",
+        "lord with they work",
+        "sign:pl follow",
+        "amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "14:19",
+        "14:29",
+        "14:31",
+        "14:44",
+        "14:68",
+        "14:71",
+        "15:12",
+        "15:9"
+      ],
+      "ipl": [
+        "13:23",
+        "13:30",
+        "13:37",
+        "13:6",
+        "14:14",
+        "14:18",
+        "14:20",
+        "14:25",
+        "14:27",
+        "14:28",
+        "14:30",
+        "14:32",
+        "14:36",
+        "14:42",
+        "14:48",
+        "14:49",
+        "14:58",
+        "14:6",
+        "14:62",
+        "14:7",
+        "14:72",
+        "14:9",
+        "15:34"
+      ],
+      "wesg": [
+        "13:4",
+        "14:12",
+        "14:15",
+        "14:42",
+        "14:58",
+        "14:63",
+        "15:32",
+        "15:36",
+        "16:3"
+      ],
+      "wepl": [],
+      "mypl": [
+        "13:13",
+        "13:31",
+        "13:6",
+        "13:9",
+        "14:14",
+        "14:22",
+        "14:24",
+        "14:34",
+        "14:8",
+        "15:34",
+        "16:17"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "14:16",
+        "15:32",
+        "15:47",
+        "16:12",
+        "16:13"
+      ],
+      "you:du": [
+        "14:13",
+        "14:14",
+        "14:15"
+      ]
+    },
+    "physicalDualReferences": [
+      "Mark14:13",
+      "Mark14:14",
+      "Mark14:15",
+      "Mark14:16",
+      "Mark15:32",
+      "Mark15:47",
+      "Mark16:12",
+      "Mark16:13"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Four winds,two days,more than300pence,one/twelve,first day,two preparing disciples,one-by-one and one betrayer.",
+      "Two cockcrows and three denials,one watching hour,third visit,three-day witness claim,third/sixth/ninth hours,two companions,two veil pieces.",
+      "First day and first appearance,seven devils,two travellers,eleven;no modern clock or money conversion and no diagnosis."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "176new verses;678Mark total;whole Bible remains incomplete.",
+      "Divine and attributed plural-self,personal witnesses,shared communities and actual pairs remain distinct.",
+      "Neither-the-Son,Abba,Eloi,source timing and the complete supplied KJV ending remain.",
+      "Two common entries and five proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Mark — incomplete Bible working text",
+    "pages": 384,
+    "spreads": 192,
+    "units": 678,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "efbea5445f388da1555943f0372675778afd1a3d590213d8c6eec8e2ee925029",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 192,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 15.369,
+    "modules": [
+      "tests.test_kjv_mark_suffering_selves",
+      "tests.test_kjv_mark_nested_lords",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    383,
+    384
+  ],
+  "status": "incomplete Bible;Mark1–16 section checkpoint verified"
+}

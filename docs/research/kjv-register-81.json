@@ -1,0 +1,825 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.81",
+    "parentVersion": "0.10-kjv.80",
+    "parentHead": "7b4d409f45cf1b881fe50ffef1e99877f5db9bfca33ebbf0ccb1ce208b005bae",
+    "head": "cf7d7fef065f1c9b0723c203cb974abf581623648efe9ac550cc8dd07afedabf",
+    "newLexicalEntries": 136,
+    "newProperEntries": 134,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 79,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 105,
+    "exactCompilerCases": 105,
+    "newAuthoredVerses": 105,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 468,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20333,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 105,
+    "chronicles1Verses": 468,
+    "authoredVerses": 10769,
+    "remainingVerses": 20333,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 25,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 9:2",
+        "source": "Now the first inhabitants that dwelt in their possessions in their cities were, the Israelites, the priests, Levites, and the Nethinims.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:6",
+        "source": "And of the sons of Zerah; Jeuel, and their brethren, six hundred and ninety.",
+        "expectedDecimalQuantities": [
+          690
+        ],
+        "targetQuantities": [
+          690
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:9",
+        "source": "And their brethren, according to their generations, nine hundred and fifty and six. All these men were chief of the fathers in the house of their fathers.",
+        "expectedDecimalQuantities": [
+          956
+        ],
+        "targetQuantities": [
+          956
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:13",
+        "source": "And their brethren, heads of the house of their fathers, a thousand and seven hundred and threescore; very able men for the work of the service of the house of God.",
+        "expectedDecimalQuantities": [
+          1760
+        ],
+        "targetQuantities": [
+          1760
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:22",
+        "source": "All these which were chosen to be porters in the gates were two hundred and twelve. These were reckoned by their genealogy in their villages, whom David and Samuel the seer did ordain in their set office.",
+        "expectedDecimalQuantities": [
+          212
+        ],
+        "targetQuantities": [
+          212
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:24",
+        "source": "In four quarters were the porters, toward the east, west, north, and south.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:25",
+        "source": "And their brethren, which were in their villages, were to come after seven days from time to time with them.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:26",
+        "source": "For these Levites, the four chief porters, were in their set office, and were over the chambers and treasuries of the house of God.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:31",
+        "source": "And Mattithiah, one of the Levites, who was the firstborn of Shallum the Korahite, had the set office over the things that were made in the pans.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 9:44",
+        "source": "And Azel had six sons, whose names are these, Azrikam, Bocheru, and Ishmael, and Sheariah, and Obadiah, and Hanan: these were the sons of Azel.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "1 Chronicles 10:6",
+        "source": "So Saul died, and his three sons, and all his house died together.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 10:12",
+        "source": "They arose, all the valiant men, and took away the body of Saul, and the bodies of his sons, and brought them to Jabesh, and buried their bones under the oak in Jabesh, and fasted seven days.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:6",
+        "source": "And David said, Whosoever smiteth the Jebusites first shall be chief and captain. So Joab the son of Zeruiah went first up, and was chief.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:11",
+        "source": "And this is the number of the mighty men whom David had; Jashobeam, an Hachmonite, the chief of the captains: he lifted up his spear against three hundred slain by him at one time.",
+        "expectedDecimalQuantities": [
+          300,
+          1
+        ],
+        "targetQuantities": [
+          300,
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:12",
+        "source": "And after him was Eleazar the son of Dodo, the Ahohite, who was one of the three mighties.",
+        "expectedDecimalQuantities": [
+          1,
+          3
+        ],
+        "targetQuantities": [
+          1,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:15",
+        "source": "Now three of the thirty captains went down to the rock to David, into the cave of Adullam; and the host of the Philistines encamped in the valley of Rephaim.",
+        "expectedDecimalQuantities": [
+          3,
+          30
+        ],
+        "targetQuantities": [
+          3,
+          30
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:18",
+        "source": "And the three brake through the host of the Philistines, and drew water out of the well of Bethlehem, that was by the gate, and took it, and brought it to David: but David would not drink of it, but poured it out to the LORD.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:19",
+        "source": "And said, My God forbid it me, that I should do this thing: shall I drink the blood of these men that have put their lives in jeopardy? for with the jeopardy of their lives they brought it. Therefore he would not drink it. These things did these three mightiest.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:20",
+        "source": "And Abishai the brother of Joab, he was chief of the three: for lifting up his spear against three hundred, he slew them, and had a name among the three.",
+        "expectedDecimalQuantities": [
+          3,
+          300,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          300,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:21",
+        "source": "Of the three, he was more honourable than the two; for he was their captain: howbeit he attained not to the first three.",
+        "expectedDecimalQuantities": [
+          3,
+          2,
+          1,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          2,
+          1,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:22",
+        "source": "Benaiah the son of Jehoiada, the son of a valiant man of Kabzeel, who had done many acts; he slew two lionlike men of Moab: also he went down and slew a lion in a pit in a snowy day.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:23",
+        "source": "And he slew an Egyptian, a man of great stature, five cubits high; and in the Egyptian’s hand was a spear like a weaver’s beam; and he went down to him with a staff, and plucked the spear out of the Egyptian’s hand, and slew him with his own spear.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:24",
+        "source": "These things did Benaiah the son of Jehoiada, and had the name among the three mighties.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:25",
+        "source": "Behold, he was honourable among the thirty, but attained not to the first three: and David set him over his guard.",
+        "expectedDecimalQuantities": [
+          30,
+          1,
+          3
+        ],
+        "targetQuantities": [
+          30,
+          1,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 11:42",
+        "source": "Adina the son of Shiza the Reubenite, a captain of the Reubenites, and thirty with him,",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "9:1": [
+        "by kjv_genealogy:pl reckon:psv:pa",
+        "book of king:pl of kjv_israel and kjv_judah",
+        "to kjv_babylon for their/transgress:ev"
+      ],
+      "9:2": [
+        "first inhabit:ag:pl",
+        "kjv_israelite:pl priest:pl kjv_levite:pl and kjv_nethinim"
+      ],
+      "9:3": [
+        "kjv_judah",
+        "kjv_benjamin",
+        "kjv_ephraim and kjv_manasseh"
+      ],
+      "9:4": [
+        "kjv_uthai son of kjv_ammihud_uthai son of kjv_omri_uthai son of kjv_imri son of kjv_bani_uthai",
+        "kjv_pharez son of kjv_judah"
+      ],
+      "9:5": [
+        "kjv_shilonite_resident:pl",
+        "kjv_asaiah_shilonite first+born"
+      ],
+      "9:6": [
+        "kjv_zerah_judah",
+        "kjv_jeuel",
+        "six+hundred and nine+ten"
+      ],
+      "9:7": [
+        "kjv_sallu son of kjv_meshullam_sallu son of kjv_hodaviah_sallu son of kjv_hasenuah"
+      ],
+      "9:8": [
+        "kjv_ibneiah son of kjv_jeroham_ibneiah",
+        "kjv_elah_resident son of kjv_uzzi_elah son of kjv_michri",
+        "kjv_meshullam_resident son of kjv_shephathiah son of kjv_reuel_meshullam son of kjv_ibnijah"
+      ],
+      "9:9": [
+        "nine+hundred and fifty and six",
+        "chief of father:pl"
+      ],
+      "9:10": [
+        "kjv_jedaiah_priest and kjv_jehoiarib and kjv_jachin_priest"
+      ],
+      "9:11": [
+        "kjv_azariah_sanctuary son of kjv_hilkiah_sanctuary son of kjv_meshullam_sanctuary son of kjv_zadok_sanctuary son of kjv_meraioth_sanctuary son of kjv_ahitub_sanctuary",
+        "ruler of house of god"
+      ],
+      "9:12": [
+        "kjv_adaiah_priest son of kjv_jeroham_adaiah son of kjv_pashur son of kjv_malchijah",
+        "kjv_maasiai son of kjv_adiel_maasiai son of kjv_jahzerah son of kjv_meshullam_maasiai son of kjv_meshillemith son of kjv_immer"
+      ],
+      "9:13": [
+        "thousand and seven+hundred and six+ten",
+        "very able man:pl for work of service"
+      ],
+      "9:14": [
+        "kjv_shemaiah_levite son of kjv_hasshub son of kjv_azrikam_levite son of kjv_hashabiah_levite",
+        "kjv_merari"
+      ],
+      "9:15": [
+        "kjv_bakbakkar kjv_heresh and kjv_galal_levite",
+        "kjv_mattaniah_levite son of kjv_micah_mattaniah son of kjv_zichri_asaph son of kjv_asaph_singer"
+      ],
+      "9:16": [
+        "kjv_obadiah_levite son of kjv_shemaiah_obadiah son of kjv_galal_jeduthun son of kjv_jeduthun",
+        "kjv_berechiah_levite son of kjv_asa_berechiah son of kjv_elkanah_asa",
+        "village:pl of kjv_netophathite:pl"
+      ],
+      "9:17": [
+        "kjv_shallum_porter and kjv_akkub_porter and kjv_talmon and kjv_ahiman_porter",
+        "kjv_shallum_porter chief"
+      ],
+      "9:18": [
+        "gate of king to east serve:pa",
+        "kjv_gatekeeper:pl in company:pl"
+      ],
+      "9:19": [
+        "kjv_shallum_porter son of kjv_kore son of kjv_ebiasaph son of kjv_korah_izhar",
+        "kjv_korahite:pl",
+        "keeper:pl of gate:pl of kjv_tabernacle",
+        "keeper:pl of kjv_entryway"
+      ],
+      "9:20": [
+        "kjv_phinehas son of kjv_eleazar",
+        "in past time",
+        "kjv_lord with he"
+      ],
+      "9:21": [
+        "kjv_zechariah_porter son of kjv_meshelemiah",
+        "door of kjv_tabernacle of kjv_congregation"
+      ],
+      "9:22": [
+        "two+hundred and twelve",
+        "in their/village:pl",
+        "kjv_david and kjv_samuel kjv_seer",
+        "their/appointed office"
+      ],
+      "9:23": [
+        "they and their/child:pl kjv_oversight",
+        "namely house of kjv_tabernacle",
+        "by kjv_duty_watch:pl"
+      ],
+      "9:24": [
+        "four side:pl",
+        "east west kjv_north and kjv_south"
+      ],
+      "9:25": [
+        "after seven day:pl from time to time"
+      ],
+      "9:26": [
+        "four chief kjv_gatekeeper:pl",
+        "chamber:pl and kjv_treasury:pl"
+      ],
+      "9:27": [
+        "round about house of god lodge:pa",
+        "duty upon they",
+        "open:ev of it each morning"
+      ],
+      "9:28": [
+        "in and out by kjv_number:ev"
+      ],
+      "9:29": [
+        "all instrument:pl of kjv_sanctuary",
+        "fine kjv_flour and wine and oil and kjv_frankincense and spice:pl",
+        "kjv_oversee:inf"
+      ],
+      "9:30": [
+        "kjv_ointment:a of spice:pl make:pa"
+      ],
+      "9:31": [
+        "one_num of kjv_levite:pl",
+        "first+born of kjv_shallum_porter kjv_korahite",
+        "kjv_pan_cooking:pl"
+      ],
+      "9:32": [
+        "kjv_kohathite:pl",
+        "kjv_shewbread",
+        "each kjv_sabbath"
+      ],
+      "9:33": [
+        "exempt:psv",
+        "day and night employ:psv:pa"
+      ],
+      "9:34": [
+        "throughout their/generation:pl",
+        "at kjv_jerusalem"
+      ],
+      "9:35": [
+        "father of kjv_gibeon kjv_jehiel_gibeon",
+        "kjv_maachah_gibeon"
+      ],
+      "9:36": [
+        "kjv_abdon_gibeon",
+        "kjv_zur_gibeon and kjv_kish_gibeon and kjv_baal_gibeon and kjv_ner and kjv_nadab_gibeon"
+      ],
+      "9:37": [
+        "kjv_gedor_person and kjv_ahio_gibeon and kjv_zechariah_gibeon and kjv_mikloth"
+      ],
+      "9:38": [
+        "kjv_shimeam",
+        "opposite their/brother:pl"
+      ],
+      "9:39": [
+        "kjv_ner kjv_kish:a beget:pa",
+        "kjv_jonathan_saul and kjv_malchishua and kjv_abinadab_saul and kjv_eshbaal"
+      ],
+      "9:40": [
+        "kjv_jonathan_saul kjv_meribbaal",
+        "kjv_micah_meribbaal"
+      ],
+      "9:41": [
+        "kjv_pithon and kjv_melech and kjv_tahrea and kjv_ahaz_micah"
+      ],
+      "9:42": [
+        "kjv_ahaz_micah kjv_jarah:a beget:pa",
+        "kjv_jarah kjv_alemeth_person",
+        "kjv_zimri_jehoadah kjv_moza_zimri"
+      ],
+      "9:43": [
+        "kjv_rephaiah_binea his/son",
+        "kjv_eleasah_rapha his/son kjv_azel"
+      ],
+      "9:44": [
+        "six son:pl",
+        "kjv_bocheru",
+        "kjv_hanan_azel"
+      ],
+      "10:1": [
+        "from before kjv_philistine:pl flee:pa",
+        "mountain kjv_gilboa slain fall:pa"
+      ],
+      "10:2": [
+        "kjv_jonathan_saul and kjv_abinadab_saul and kjv_malchishua"
+      ],
+      "10:3": [
+        "kjv_bow shoot:ag:pl he:a hit:pa",
+        "wound:psv:pa"
+      ],
+      "10:4": [
+        "i:a thrust:imp through",
+        "i:a abuse:pr",
+        "will:neg:pa",
+        "upon it fall:pa"
+      ],
+      "10:5": [
+        "kjv_saul_israel dead",
+        "he likewise on sword fall:pa and die:pa"
+      ],
+      "10:6": [
+        "his/kjv_three son:pl and all his/house together die:pa"
+      ],
+      "10:7": [
+        "their/city:pl:a forsake:pa",
+        "kjv_philistine:pl come:pa and in they dwell:pa"
+      ],
+      "10:8": [
+        "next day",
+        "slain:a strip:inf",
+        "mountain kjv_gilboa"
+      ],
+      "10:9": [
+        "his/head and his/kjv_armour",
+        "to their/idol:pl and to people news:a carry:inf"
+      ],
+      "10:10": [
+        "his/kjv_armour:a in house of their/god:pl",
+        "his/head:a in temple of kjv_dagon kjv_fasten:pa"
+      ],
+      "10:11": [
+        "all kjv_jabeshgilead",
+        "to kjv_saul_israel do:pp hear:pa"
+      ],
+      "10:12": [
+        "their/bone:pl:a under oak",
+        "seven day:pl kjv_fast:pa"
+      ],
+      "10:13": [
+        "word of kjv_lord which he keep:neg:pa",
+        "person who kjv_familiar_spirit:a have:pa",
+        "of it ask:inf"
+      ],
+      "10:14": [
+        "of kjv_lord ask:neg:pa",
+        "therefore he he:a slay:pa",
+        "kjv_david son of kjv_jesse"
+      ],
+      "11:1": [
+        "thy/bone and thy/flesh wesg be:pr"
+      ],
+      "11:2": [
+        "kjv_lord thy/god",
+        "mypl/people kjv_israel:a thou feed:fu",
+        "over mypl/people kjv_israel ruler"
+      ],
+      "11:3": [
+        "all kjv_elder:pl",
+        "kjv_covenant:a make:pa",
+        "kjv_david:a king over kjv_israel anoint:pa",
+        "by kjv_samuel"
+      ],
+      "11:4": [
+        "kjv_jerusalem which kjv_jebus",
+        "kjv_jebusite:pl"
+      ],
+      "11:5": [
+        "thou here come:neg:fu",
+        "fortress:a of kjv_zion"
+      ],
+      "11:6": [
+        "first strike:pr chief and captain",
+        "kjv_joab son of kjv_zeruiah first go:pa up"
+      ],
+      "11:7": [
+        "in fortress dwell:pa",
+        "city of kjv_david call:pa"
+      ],
+      "11:8": [
+        "kjv_millo_jerusalem",
+        "kjv_joab remainder:a of city repair:pa"
+      ],
+      "11:9": [
+        "greater and greater",
+        "kjv_lord of army:pl"
+      ],
+      "11:10": [
+        "strengthen:refl:pa",
+        "he:a king make:inf"
+      ],
+      "11:11": [
+        "kjv_jashobeam kjv_hachmonite",
+        "kjv_three+hundred",
+        "one_num time"
+      ],
+      "11:12": [
+        "kjv_eleazar_dodo son of kjv_dodo_ahohite",
+        "one_num of kjv_three"
+      ],
+      "11:13": [
+        "kjv_pasdammim",
+        "full of kjv_barley"
+      ],
+      "11:14": [
+        "they in middle",
+        "kjv_lord they:a by great deliver:ev"
+      ],
+      "11:15": [
+        "kjv_three of thirty captain:pl",
+        "to rock",
+        "kjv_cave of kjv_adullam_city",
+        "valley of kjv_rephaim"
+      ],
+      "11:16": [
+        "kjv_stronghold",
+        "kjv_garrison",
+        "kjv_bethlehem"
+      ],
+      "11:17": [
+        "that one to i",
+        "give:opt:excl"
+      ],
+      "11:18": [
+        "kjv_three through army",
+        "drink:inf will:neg:pa",
+        "to kjv_lord pour:pa out"
+      ],
+      "11:19": [
+        "my/god it:a to i forbid:opt",
+        "i this thing:a do:pr:should",
+        "i blood:a",
+        "with risk of their/life:pl",
+        "kjv_three most mighty"
+      ],
+      "11:20": [
+        "kjv_abishai brother of kjv_joab",
+        "kjv_three+hundred"
+      ],
+      "11:21": [
+        "of kjv_three",
+        "more honourable than two",
+        "first kjv_three he reach:neg:pa"
+      ],
+      "11:22": [
+        "two man:pl as lion",
+        "lion:a in kjv_pit in day of snow"
+      ],
+      "11:23": [
+        "five kjv_cubit:pl high",
+        "kjv_spear as beam of weaver",
+        "with staff",
+        "with his/own kjv_spear"
+      ],
+      "11:24": [
+        "kjv_benaiah son of kjv_jehoiada",
+        "among kjv_three mighty"
+      ],
+      "11:25": [
+        "among thirty",
+        "first kjv_three",
+        "over his/guard"
+      ],
+      "11:26": [
+        "kjv_asahel brother of kjv_joab",
+        "kjv_elhanan_dodo son of kjv_dodo_bethlehem"
+      ],
+      "11:27": [
+        "kjv_shammoth kjv_harorite kjv_helez kjv_pelonite"
+      ],
+      "11:28": [
+        "kjv_ira_ikkesh son of kjv_ikkesh",
+        "kjv_antothite"
+      ],
+      "11:29": [
+        "kjv_sibbecai kjv_hushathite kjv_ilai kjv_ahohite"
+      ],
+      "11:30": [
+        "kjv_heled son of kjv_baanah_netophah"
+      ],
+      "11:31": [
+        "kjv_ithai son of kjv_ribai",
+        "kjv_benaiah_pirathonite"
+      ],
+      "11:32": [
+        "kjv_hurai",
+        "kjv_abiel_arbathite"
+      ],
+      "11:33": [
+        "kjv_baharumite",
+        "kjv_eliahba kjv_shaalbonite"
+      ],
+      "11:34": [
+        "son:pl of kjv_hashem kjv_gizonite",
+        "kjv_jonathan_shage son of kjv_shage"
+      ],
+      "11:35": [
+        "kjv_sacar",
+        "kjv_eliphal son of kjv_ur_person"
+      ],
+      "11:36": [
+        "kjv_hepher_warrior kjv_mecherathite kjv_ahijah_pelonite kjv_pelonite"
+      ],
+      "11:37": [
+        "kjv_hezro",
+        "kjv_naarai son of kjv_ezbai"
+      ],
+      "11:38": [
+        "kjv_joel_nathan brother of kjv_nathan_joel",
+        "kjv_mibhar son of kjv_haggeri"
+      ],
+      "11:39": [
+        "kjv_naharai kjv_berothite",
+        "kjv_armourbearer of kjv_joab"
+      ],
+      "11:40": [
+        "kjv_ira_ithrite kjv_ithrite kjv_gareb kjv_ithrite"
+      ],
+      "11:41": [
+        "kjv_zabad_ahlai son of kjv_ahlai"
+      ],
+      "11:42": [
+        "kjv_adina son of kjv_shiza",
+        "thirty with he"
+      ],
+      "11:43": [
+        "kjv_hanan_maachah son of kjv_maachah_hanan",
+        "kjv_joshaphat kjv_mithnite"
+      ],
+      "11:44": [
+        "kjv_shama and kjv_jehiel_hothan son:pl of kjv_hothan"
+      ],
+      "11:45": [
+        "kjv_jediael_shimri son of kjv_shimri_jediael",
+        "kjv_joha_tizite his/brother"
+      ],
+      "11:46": [
+        "kjv_jeribai and kjv_joshaviah son:pl of kjv_elnaam",
+        "kjv_ithmah kjv_moabite"
+      ],
+      "11:47": [
+        "kjv_eliel_final and kjv_obed_warrior and kjv_jasiel kjv_mesobaite"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:4",
+        "11:17",
+        "11:19"
+      ],
+      "wesg": [
+        "11:1"
+      ],
+      "mypl": [
+        "11:2"
+      ],
+      "ipl": [],
+      "wepl": [],
+      "ourone": [],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Resident totals, guard counts and schedules, ranks,300slain,three/thirty groups,fivecubits and accompanying thirty independently checked; differing parallel-account numbers not harmonized."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Singular-we in11:1presents Israel as one body; divine plural-self possessors in11:2are an authored register choice, not an explicit source Trinity claim. Saul and David personal-I preserved.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 214,
+    "spreads": 107,
+    "units": 468,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "291bd94d809d10e2c1dff41d075a78942f771f8de989288720048a23d72200e6",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 107,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.842,
+    "modules": [
+      "tests.test_kjv_chronicles_body_service",
+      "tests.test_kjv_chronicles_kinship",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    213,
+    214
+  ],
+  "status": "incomplete Bible; checkpoint verified"
+}

@@ -1,0 +1,684 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.238",
+    "parentVersion": "0.10-kjv.237",
+    "parentHead": "916459434dc089f60535b07945029b38ee5d9234546cc41872fa563a4b3b750a",
+    "head": "95c664ad4edd62f6cae0d66759d2794918f1f85da1f43d094d171d8152988cc8",
+    "newLexicalEntries": 13,
+    "newProperEntries": 5,
+    "newCommonEntries": 8,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 91,
+    "exactCompilerCases": 91,
+    "newAuthoredVerses": 91,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 91,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2647,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newCorinthians1Verses": 91,
+    "corinthians1Verses": 91,
+    "authoredVerses": 28455,
+    "remainingVerses": 2647,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "1 Corinthians 3:8",
+        "source": "Now he that planteth and he that watereth are one: and every man shall receive his own reward according to his own labour.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 4:15",
+        "source": "For though ye have ten thousand instructers in Christ, yet have ye not many fathers: for in Christ Jesus I have begotten you through the gospel.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_paul_acts kjv_apostle",
+        "through will of god",
+        "kjv_sosthenes_corinthians ourone/brother"
+      ],
+      "1:2": [
+        "kjv_church_assembly of god",
+        "at kjv_corinth_acts",
+        "both of they and of wesg"
+      ],
+      "1:3": [
+        "god ourone/father",
+        "kjv_lord kjv_jesus_matthew kjv_christ_title"
+      ],
+      "1:4": [
+        "i my/god always",
+        "grace of god",
+        "give:psv:pr thank"
+      ],
+      "1:5": [
+        "in each thing",
+        "all utter:ev and in all knowledge"
+      ],
+      "1:6": [
+        "testimony of kjv_christ_title",
+        "confirm:psv:pa"
+      ],
+      "1:7": [
+        "in no gift behind",
+        "coming of ourone/lord"
+      ],
+      "1:8": [
+        "to end confirm",
+        "in day of ourone/lord",
+        "blameless be:may"
+      ],
+      "1:9": [
+        "god faithful",
+        "fellowship of his/son",
+        "call:psv:pa"
+      ],
+      "1:10": [
+        "i you:a brother:pl",
+        "no division:pl",
+        "same mind and in same judgment"
+      ],
+      "1:11": [
+        "house of kjv_chloe_corinthians",
+        "declare:psv:perf",
+        "among you strife:pl"
+      ],
+      "1:12": [
+        "i of kjv_paul_acts",
+        "i of kjv_apollos_acts",
+        "i of kjv_cephas_john",
+        "i of kjv_christ_title"
+      ],
+      "1:13": [
+        "kjv_christ_title kjv_divide:psv",
+        "kjv_paul_acts for you kjv_crucify",
+        "in name of kjv_paul_acts"
+      ],
+      "1:14": [
+        "none of you",
+        "but kjv_crispus_corinthians and kjv_gaius_corinthians"
+      ],
+      "1:15": [
+        "lest any say:should",
+        "in my/own name"
+      ],
+      "1:16": [
+        "also kjv_household of kjv_stephanas_corinthians",
+        "whether i any other",
+        "know:neg:pr"
+      ],
+      "1:17": [
+        "not to kjv_baptize:inf but to kjv_gospel",
+        "not with wisdom",
+        "kjv_cross_instrument"
+      ],
+      "1:18": [
+        "to they who perish",
+        "to wesg who save",
+        "power of god"
+      ],
+      "1:19": [
+        "ipl wisdom of wise:pl destroy",
+        "understand:ev of kjv_discreet:pl to nothing"
+      ],
+      "1:20": [
+        "where wise person",
+        "where kjv_scribe",
+        "where kjv_dispute_argument_corinthians:ag",
+        "god wisdom of this world foolish"
+      ],
+      "1:21": [
+        "world by wisdom god know:neg",
+        "foolish:ev of proclaim:ev",
+        "they who believe"
+      ],
+      "1:22": [
+        "jew:pl sign require",
+        "greek:pl after wisdom seek"
+      ],
+      "1:23": [
+        "wesg kjv_christ_title kjv_crucify",
+        "jew:pl kjv_stumblingblock",
+        "greek:pl foolish:ev"
+      ],
+      "1:24": [
+        "both jew:pl and greek:pl",
+        "power of god and wisdom of god"
+      ],
+      "1:25": [
+        "foolish:ev of god wiser",
+        "weak:ev of god stronger"
+      ],
+      "1:26": [
+        "not many wise",
+        "not many mighty",
+        "not many noble"
+      ],
+      "1:27": [
+        "foolish thing:pl of world choose",
+        "wise:pl kjv_confound_shame_corinthians",
+        "weak thing:pl",
+        "thing:pl which mighty"
+      ],
+      "1:28": [
+        "thing:pl despise:psv",
+        "thing:pl which be:neg:pr",
+        "thing:pl which be:pr"
+      ],
+      "1:29": [
+        "no flesh in his/presence boast"
+      ],
+      "1:30": [
+        "to wesg wisdom and kjv_righteousness and sanctify:ev and redeem:ev"
+      ],
+      "1:31": [
+        "he who boast:pr in kjv_lord boast:opt"
+      ],
+      "2:1": [
+        "with excellent:ev of speech or of wisdom come:neg",
+        "testimony of god"
+      ],
+      "2:2": [
+        "any thing except kjv_jesus_matthew kjv_christ_title",
+        "he:a kjv_crucify",
+        "know:neg:inf decide"
+      ],
+      "2:3": [
+        "in weak:ev and in fear and in much tremble:ev"
+      ],
+      "2:4": [
+        "entice:adj word:pl",
+        "be:neg:pa but in proof of spirit and of power"
+      ],
+      "2:5": [
+        "wisdom of man:pl stand:neg",
+        "but in power of god"
+      ],
+      "2:6": [
+        "wesg among they who perfect",
+        "not wisdom of this world nor of prince:pl"
+      ],
+      "2:7": [
+        "wisdom of god in mystery",
+        "before world to ourone/glory"
+      ],
+      "2:8": [
+        "none of prince:pl",
+        "if they know:pp",
+        "kjv_crucify:neg:pp"
+      ],
+      "2:9": [
+        "eye see:neg:perf nor ear hear:perf neither into heart of man enter:perf",
+        "god for they who he:a love:pr prepare"
+      ],
+      "2:10": [
+        "to wesg by his/spirit reveal",
+        "spirit all thing:pl search",
+        "deep thing:pl of god"
+      ],
+      "2:11": [
+        "spirit of man which in he",
+        "thing:pl of god no man know",
+        "but spirit of god"
+      ],
+      "2:12": [
+        "wesg not spirit of world but spirit which of god",
+        "kjv_freely_gift_romans"
+      ],
+      "2:13": [
+        "not in word:pl which wisdom of man",
+        "holy spirit teach",
+        "spirit:adj thing:pl with spirit:adj compare"
+      ],
+      "2:14": [
+        "natural man",
+        "receive:neg:pr",
+        "neither he they:a know:can",
+        "spirit:adv distinguish"
+      ],
+      "2:15": [
+        "all thing:pl judge",
+        "he himself by no man"
+      ],
+      "2:16": [
+        "who mind of kjv_lord",
+        "wesg mind of kjv_christ_title have"
+      ],
+      "3:1": [
+        "i brother:pl",
+        "speak:neg:can:pa",
+        "as to flesh:adj",
+        "kjv_infant:pl in kjv_christ_title"
+      ],
+      "3:2": [
+        "with milk and not with food",
+        "until now",
+        "able be:neg:pa neither yet now"
+      ],
+      "3:3": [
+        "kjv_envy:ev and strife and division:pl",
+        "flesh:adj be:neg:pr:q"
+      ],
+      "3:4": [
+        "i of kjv_paul_acts",
+        "i of kjv_apollos_acts",
+        "flesh:adj be:neg:pr:q"
+      ],
+      "3:5": [
+        "kjv_minister:pl by whom you believe",
+        "kjv_lord to each man give"
+      ],
+      "3:6": [
+        "i plant:perf",
+        "kjv_apollos_acts kjv_water_irrigate:pa",
+        "god increase give"
+      ],
+      "3:7": [
+        "neither he who plant",
+        "neither he who kjv_water_irrigate",
+        "but god who increase"
+      ],
+      "3:8": [
+        "they:du one_num be",
+        "each man his/own reward",
+        "his/own labour"
+      ],
+      "3:9": [
+        "we:du with god",
+        "you kjv_husbandry_corinthians of god",
+        "you build:ev of god"
+      ],
+      "3:10": [
+        "wise kjv_masterbuilder_corinthians",
+        "i kjv_foundation lay",
+        "another upon it build",
+        "each man how"
+      ],
+      "3:11": [
+        "no man other kjv_foundation",
+        "which kjv_jesus_matthew kjv_christ_title"
+      ],
+      "3:12": [
+        "gold silver precious stone:pl wood hay kjv_stubble"
+      ],
+      "3:13": [
+        "work of each man",
+        "day it declare",
+        "by fire reveal",
+        "fire work of each man what kind"
+      ],
+      "3:14": [
+        "if work of any man",
+        "remain:pr he reward receive"
+      ],
+      "3:15": [
+        "work of any man burn",
+        "he loss suffer",
+        "he himself save",
+        "yet so as by fire"
+      ],
+      "3:16": [
+        "you kjv_temple_sanctuary of god",
+        "spirit of god in you dwell"
+      ],
+      "3:17": [
+        "kjv_temple_sanctuary of god defile",
+        "god he:a destroy",
+        "which kjv_temple_sanctuary you"
+      ],
+      "3:18": [
+        "no man himself deceive",
+        "he fool become",
+        "that he wise"
+      ],
+      "3:19": [
+        "world with god foolish",
+        "wise:pl in their/own cunning:ev"
+      ],
+      "3:20": [
+        "thought:pl of wise:pl",
+        "they vain"
+      ],
+      "3:21": [
+        "no man in man:pl boast",
+        "all thing:pl of you"
+      ],
+      "3:22": [
+        "kjv_paul_acts or kjv_apollos_acts or kjv_cephas_john",
+        "world or life or death",
+        "thing:pl present or thing:pl to come"
+      ],
+      "3:23": [
+        "you of kjv_christ_title",
+        "kjv_christ_title of god"
+      ],
+      "4:1": [
+        "wesg:a as kjv_minister:pl of kjv_christ_title",
+        "steward:pl of mystery:pl of god"
+      ],
+      "4:2": [
+        "in steward:pl require",
+        "person faithful find"
+      ],
+      "4:3": [
+        "by you or by judgment of man",
+        "i my/own self judge:neg"
+      ],
+      "4:4": [
+        "against myself nothing know",
+        "i kjv_justify:psv:neg",
+        "he who i:a judge:pr kjv_lord"
+      ],
+      "4:5": [
+        "before time nothing judge",
+        "until kjv_lord come",
+        "hidden thing:pl of darkness",
+        "counsel:pl of heart:pl",
+        "each man from god praise"
+      ],
+      "4:6": [
+        "kjv_figure_metaphor_corinthians",
+        "myself and to kjv_apollos_acts",
+        "in we:du",
+        "above that which write:psv",
+        "no person of you for person against another"
+      ],
+      "4:7": [
+        "who thou:a from another",
+        "which thou receive:neg:pa",
+        "as if thou receive:neg:pp"
+      ],
+      "4:8": [
+        "now you full",
+        "now you rich",
+        "without wesg rule:perf",
+        "i to god wish",
+        "wesg also with you rule"
+      ],
+      "4:9": [
+        "wesg kjv_apostle:pl last",
+        "as to death appoint",
+        "kjv_spectacle_corinthians to world and to angel:pl and to man:pl"
+      ],
+      "4:10": [
+        "wesg for sake of kjv_christ_title fool:pl",
+        "you in kjv_christ_title wise",
+        "wesg weak",
+        "you strong",
+        "you honourable",
+        "wesg despise"
+      ],
+      "4:11": [
+        "this present hour wesg",
+        "hunger:pr and thirst:pr",
+        "kjv_nakedness:adj",
+        "kjv_buffet_corinthians:psv",
+        "no fixed dwell:ev place"
+      ],
+      "4:12": [
+        "ourone/own hand:pl",
+        "insult:psv:cv wesg bless",
+        "persecute:psv:cv wesg it suffer"
+      ],
+      "4:13": [
+        "slander:psv:cv wesg entreat",
+        "kjv_filth_refuse_corinthians",
+        "kjv_offscouring"
+      ],
+      "4:14": [
+        "shame:inf write:neg",
+        "my/beloved son:pl",
+        "kjv_warn_solemn"
+      ],
+      "4:15": [
+        "five+twelve+twelve+twelve and nine+twelve+twelve and five+twelve and four",
+        "not many father:pl",
+        "i through kjv_gospel you:a beget"
+      ],
+      "4:16": [
+        "i you:a beseech",
+        "of i imitate:ag:pl"
+      ],
+      "4:17": [
+        "kjv_timotheus_acts",
+        "my/beloved son and in kjv_lord faithful",
+        "of my/way:pl",
+        "each kjv_church_assembly"
+      ],
+      "4:18": [
+        "some proud become",
+        "as though i to you come:neg"
+      ],
+      "4:19": [
+        "soon to you come:fu if kjv_lord will:pr",
+        "not speech",
+        "but power know"
+      ],
+      "4:20": [
+        "kingdom of god not in word but in power"
+      ],
+      "4:21": [
+        "what you will:pr:q",
+        "with rod come:fu:q",
+        "or in love and in spirit of kjv_meek_disposition:ev"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:10",
+        "1:11",
+        "1:12",
+        "1:14",
+        "1:15",
+        "1:16",
+        "1:17",
+        "1:4",
+        "2:1",
+        "2:2",
+        "2:3",
+        "3:1",
+        "3:10",
+        "3:2",
+        "3:4",
+        "3:6",
+        "4:14",
+        "4:15",
+        "4:16",
+        "4:17",
+        "4:18",
+        "4:19",
+        "4:21",
+        "4:3",
+        "4:4",
+        "4:6",
+        "4:8",
+        "4:9"
+      ],
+      "ipl": [
+        "1:19"
+      ],
+      "wesg": [
+        "1:18",
+        "1:2",
+        "1:23",
+        "1:30",
+        "2:10",
+        "2:12",
+        "2:13",
+        "2:16",
+        "2:6",
+        "2:7",
+        "4:1",
+        "4:10",
+        "4:11",
+        "4:12",
+        "4:13",
+        "4:8",
+        "4:9"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "1:1",
+        "1:10",
+        "1:2",
+        "1:3",
+        "1:7",
+        "1:8",
+        "1:9",
+        "2:7",
+        "4:12"
+      ],
+      "iplself": [],
+      "we:du": [
+        "3:9",
+        "4:6"
+      ],
+      "they:du": [
+        "3:8"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "1Corinthians3:8",
+      "1Corinthians3:9",
+      "1Corinthians4:6"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Planter and waterer are an actual pair called one,while each receives his own reward.",
+      "Ten thousand instructors is exactly10000,not ten groups of an assumed dozen.",
+      "Factional I is personal,quoted divine I plural,and shared Christ-mind belongs to community singular-we."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "91new verses;whole Bible incomplete.",
+      "Baptism recollection,Greek-folly,three not-many scopes,testimony-of-God,spiritual comparison,one-temple plural addressees and irony retained.",
+      "Eight common entries and5contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Corinthians — incomplete Bible working text",
+    "pages": 52,
+    "spreads": 26,
+    "units": 91,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "fe0eb0ba870af249902f13ae1fc79ac276c07f4a4bde266755f80bb692063b8f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 26,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.857,
+    "modules": [
+      "tests.test_kjv_corinthians_shared_mind",
+      "tests.test_kjv_romans_conscience_greetings",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    51,
+    52
+  ],
+  "status": "incomplete Bible;1 Corinthians1–4 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 51,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv238\\preflight-corinthians1\\Proofs\\page-051.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv238\\composed-corinthians1\\Proofs\\page-051.png",
+        "sha256": "d3b093d0bebc479b912bc729ea72e2994d2fcd32e6189bc7d8435283a6f027ed",
+        "bytesIdentical": true
+      },
+      {
+        "page": 52,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv238\\preflight-corinthians1\\Proofs\\page-052.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv238\\composed-corinthians1\\Proofs\\page-052.png",
+        "sha256": "424034e03ef43f1b80ee154aa0fc0fdbf2b835b76fdb875026e05da7665101a6",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

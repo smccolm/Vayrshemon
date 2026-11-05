@@ -1,0 +1,590 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.154",
+    "parentVersion": "0.10-kjv.153",
+    "parentHead": "f63487ac992bc3fe36384b1078e452b9907994b5867e93a52110d4a246a859cd",
+    "head": "3a95f3159d9f653d3da18c27c13936516dd800f151144013df4cdedb1e7e24fc",
+    "newLexicalEntries": 7,
+    "newProperEntries": 7,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 7,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 86,
+    "exactCompilerCases": 86,
+    "newAuthoredVerses": 86,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1220,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 10887,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 86,
+    "jeremiahVerses": 1220,
+    "authoredVerses": 20215,
+    "remainingVerses": 10887,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 48:34",
+        "source": "From the cry of Heshbon even unto Elealeh, and even unto Jahaz, have they uttered their voice, from Zoar even unto Horonaim, as an heifer of three years old: for the waters also of Nimrim shall be desolate.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Jeremiah 49:36",
+        "source": "And upon Elam will I bring the four winds from the four quarters of heaven, and will scatter them toward all those winds; and there shall be no nation whither the outcasts of Elam shall not come.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "48:1": [
+        "kjv_nebo:excl",
+        "kjv_kiriathaim",
+        "kjv_misgab"
+      ],
+      "48:2": [
+        "in kjv_heshbon",
+        "wesg it:a from nation be:ev off cut:opt",
+        "kjv_madmen"
+      ],
+      "48:3": [
+        "from kjv_horonaim",
+        "spoil:ev and great destroy:ev"
+      ],
+      "48:4": [
+        "her/little:pl",
+        "hear:caus:psv:perf"
+      ],
+      "48:5": [
+        "up go:ev of kjv_luhith",
+        "down go:ev of kjv_horonaim",
+        "enemy:pl"
+      ],
+      "48:6": [
+        "your/life:pl:a save:imp",
+        "kjv_heath_shrub in kjv_wilderness"
+      ],
+      "48:7": [
+        "thy/work:pl",
+        "thy/treasure:pl",
+        "kjv_chemosh into captive:ev"
+      ],
+      "48:8": [
+        "no city escape:fu",
+        "valley also perish:fu",
+        "plain destroy:psv:fu"
+      ],
+      "48:9": [
+        "wing:pl:a to kjv_moab give:imp",
+        "without any to in it dwell:inf"
+      ],
+      "48:10": [
+        "deceitful:adv do:pr",
+        "his/sword:a from blood back keep:pr"
+      ],
+      "48:11": [
+        "his/kjv_wine_lees",
+        "empty:caus:psv:neg:perf",
+        "neither he into captive:ev",
+        "his/odour change:psv:neg:pr"
+      ],
+      "48:12": [
+        "ipl to he wander:ag:pl:a send:fu",
+        "wander:caus:fu",
+        "his/vessel:pl:a",
+        "their/kjv_bottle:pl:a"
+      ],
+      "48:13": [
+        "of kjv_chemosh",
+        "of kjv_bethel their/confidence"
+      ],
+      "48:14": [
+        "wesg mighty and strong man:pl"
+      ],
+      "48:15": [
+        "out of her/city:pl up go:perf",
+        "his/choose:psv:adj young man:pl",
+        "to kjv_slaughter down go:perf"
+      ],
+      "48:16": [
+        "kjv_calamity of kjv_moab",
+        "his/kjv_afflict:ev quickly hasten:pr"
+      ],
+      "48:17": [
+        "strong staff break:psv:pr",
+        "beautiful rod:excl"
+      ],
+      "48:18": [
+        "kjv_dibon",
+        "in thirst sit:imp",
+        "kjv_stronghold:pl:a of thou destroy:fu"
+      ],
+      "48:19": [
+        "kjv_aroer",
+        "he:a who flee:pr and she:a who escape:pr"
+      ],
+      "48:20": [
+        "in kjv_arnon tell:imp",
+        "kjv_moab spoil:psv:pr"
+      ],
+      "48:21": [
+        "kjv_holon",
+        "kjv_jahazah",
+        "kjv_mephaath"
+      ],
+      "48:22": [
+        "kjv_dibon",
+        "kjv_nebo",
+        "kjv_bethdiblathaim"
+      ],
+      "48:23": [
+        "kjv_kiriathaim",
+        "kjv_bethgamul",
+        "kjv_bethmeon"
+      ],
+      "48:24": [
+        "kjv_kerioth",
+        "kjv_bozrah",
+        "far or near"
+      ],
+      "48:25": [
+        "horn of kjv_moab off cut:psv:pr",
+        "his/arm break:psv:pr"
+      ],
+      "48:26": [
+        "he:a drunk make:imp",
+        "himself:a against kjv_lord great:caus:pa",
+        "in his/kjv_vomit:ev roll:fu"
+      ],
+      "48:27": [
+        "derision be:neg:pa?",
+        "among thief:pl find:psv:pa?",
+        "for joy skip:pa"
+      ],
+      "48:28": [
+        "city:pl:a leave:imp",
+        "in side:pl of hole mouth"
+      ],
+      "48:29": [
+        "wesg pride:a of kjv_moab hear:perf",
+        "(he very proud be:pr)",
+        "his/arrogance"
+      ],
+      "48:30": [
+        "ipl his/wrath:a know:pr",
+        "it so be:neg:fu",
+        "his/kjv_lie_false:ev:pl it:a so make:neg:fu"
+      ],
+      "48:31": [
+        "ipl for kjv_moab howl:fu",
+        "mypl/heart",
+        "kjv_kirheres"
+      ],
+      "48:32": [
+        "kjv_vine of kjv_sibmah",
+        "ipl for thee with weep:ev of kjv_jazer",
+        "sea of kjv_jazer",
+        "thy/kjv_vintage"
+      ],
+      "48:33": [
+        "ipl wine:a from kjv_winepress:pl fail:caus:perf",
+        "none with shout:ev tread:fu",
+        "their/shout:ev no shout:ev be:fu"
+      ],
+      "48:34": [
+        "kjv_elealeh",
+        "kjv_jahaz",
+        "kjv_zoar",
+        "kjv_heifer of three year:pl",
+        "kjv_nimrim"
+      ],
+      "48:35": [
+        "ipl in kjv_moab",
+        "in high place:pl offer:pr",
+        "to his/god:pl burn:pr cease:caus:fu"
+      ],
+      "48:36": [
+        "mypl/heart for kjv_moab like pipe:pl",
+        "mypl/heart like pipe:pl for man:pl of kjv_kirheres"
+      ],
+      "48:37": [
+        "every beard short cut:psv:fu",
+        "upon all hand:pl cut:ev:pl",
+        "kjv_loins kjv_sackcloth"
+      ],
+      "48:38": [
+        "top:pl of all house:pl",
+        "ipl kjv_moab:a like vessel wherein no pleasure be:pr break:perf"
+      ],
+      "48:39": [
+        "down break:psv:pr:excl",
+        "with shame turn:perf:excl"
+      ],
+      "48:40": [
+        "as kjv_eagle fly:fu",
+        "over kjv_moab spread:fu"
+      ],
+      "48:41": [
+        "kjv_stronghold:pl suddenly take:psv:pr",
+        "woman in her/pain:pl"
+      ],
+      "48:42": [
+        "from people be:ev destroy:psv:fu",
+        "himself:a against kjv_lord"
+      ],
+      "48:43": [
+        "fear and kjv_pit and snare"
+      ],
+      "48:44": [
+        "from fear flee:pr into kjv_pit fall:fu",
+        "out of kjv_pit",
+        "in snare take:psv:fu",
+        "ipl upon it"
+      ],
+      "48:45": [
+        "because of force",
+        "from middle of kjv_sihon",
+        "head top:a of kjv_tumult:adj:pl"
+      ],
+      "48:46": [
+        "people of kjv_chemosh perish:pr",
+        "thy/son:pl as captive:pl",
+        "thy/daughter:pl as captive:pl"
+      ],
+      "48:47": [
+        "yet ipl captive:ev:a of kjv_moab again bring:fu",
+        "later day:pl",
+        "thus far judgment"
+      ],
+      "49:1": [
+        "no son:pl:a have:pr?",
+        "no heir:a have:pr?",
+        "their/king kjv_gad:a inherit:pr"
+      ],
+      "49:2": [
+        "ipl alarm:a of war",
+        "hear:caus:psv:fu",
+        "her/daughter:pl with fire burn:psv:fu",
+        "heir to they who his/heir:pl"
+      ],
+      "49:3": [
+        "kjv_ai spoil:psv:pr",
+        "by hedge:pl run:imp",
+        "their/king into captive:ev"
+      ],
+      "49:4": [
+        "kjv_backslide:cv daughter",
+        "who to ipl come:fu?"
+      ],
+      "49:5": [
+        "ipl fear:a upon thee",
+        "every man straight forth",
+        "none he:a who wander:pr"
+      ],
+      "49:6": [
+        "ipl captive:ev:a of child:pl of kjv_ammon again bring:fu"
+      ],
+      "49:7": [
+        "wisdom no more in kjv_teman",
+        "counsel from wise:pl",
+        "their/wisdom vanish:perf?"
+      ],
+      "49:8": [
+        "deep dwell:imp",
+        "kjv_dedan",
+        "kjv_calamity:a of kjv_esau"
+      ],
+      "49:9": [
+        "some kjv_gleanings:a of grape leave:neg:should?",
+        "until they enough:a have:pr"
+      ],
+      "49:10": [
+        "ipl kjv_esau:a bare make:perf",
+        "hide:neg:can",
+        "he be:neg:pr"
+      ],
+      "49:11": [
+        "thy/kjv_fatherless child:pl:a",
+        "ipl they:a alive preserve:fu",
+        "thy/widow:pl in ipl trust:opt"
+      ],
+      "49:12": [
+        "judgment to of cup drink:inf be:neg:pa",
+        "without punish:ev go:neg:fu",
+        "surely of it drink:fu"
+      ],
+      "49:13": [
+        "ipl by iplself swear:perf",
+        "kjv_bozrah",
+        "perpetual waste:pl"
+      ],
+      "49:14": [
+        "i rumour:a from kjv_lord hear:perf",
+        "kjv_ambassador",
+        "against she"
+      ],
+      "49:15": [
+        "ipl thee:a small among kjv_heathen"
+      ],
+      "49:16": [
+        "split:ev:pl of rock",
+        "thy/nest:a as high as kjv_eagle",
+        "ipl thee:a down from there bring:fu"
+      ],
+      "49:17": [
+        "every human",
+        "kjv_hiss:fu"
+      ],
+      "49:18": [
+        "kjv_sodom and kjv_gomorrah",
+        "no man there dwell:fu",
+        "neither son of man in it dwell:fu"
+      ],
+      "49:19": [
+        "from swell:ev of kjv_jordan",
+        "ipl suddenly he:a away from she run:caus:fu",
+        "who like ipl",
+        "who to ipl time:a appoint:fu"
+      ],
+      "49:20": [
+        "least of flock they:a out draw:fu",
+        "place:pl:a of their/dwell:ev"
+      ],
+      "49:21": [
+        "noise of their/fall:ev",
+        "kjv_red_sea hear:psv:pa"
+      ],
+      "49:22": [
+        "wing:pl:a over kjv_bozrah",
+        "woman in her/pain:pl"
+      ],
+      "49:23": [
+        "kjv_hamath",
+        "kjv_arpad",
+        "sorrow on sea",
+        "quiet be:neg:can"
+      ],
+      "49:24": [
+        "herself:a to flee:inf",
+        "fear she:a seize:perf",
+        "woman in kjv_travail:ev"
+      ],
+      "49:25": [
+        "city of praise leave:psv:neg:pr",
+        "my/joy:excl"
+      ],
+      "49:26": [
+        "her/young man:pl",
+        "all man:pl of war"
+      ],
+      "49:27": [
+        "ipl fire:a in wall of kjv_damascus kjv_kindle_fire:fu",
+        "kjv_benhadad"
+      ],
+      "49:28": [
+        "kingdom:pl of kjv_hazor",
+        "kjv_nebuchadrezzar",
+        "man:pl:a of east"
+      ],
+      "49:29": [
+        "their/tent:pl:a",
+        "their/kjv_curtain:pl:a",
+        "their/kjv_camel:pl:a",
+        "fear on every side"
+      ],
+      "49:30": [
+        "deep dwell:imp",
+        "kjv_nebuchadrezzar",
+        "purpose:a against you conceive:perf"
+      ],
+      "49:31": [
+        "without worry",
+        "neither gate:pl nor bar:pl:a",
+        "alone dwell:pr"
+      ],
+      "49:32": [
+        "their/kjv_camel:pl",
+        "their/kjv_livestock",
+        "utmost corner:pl",
+        "all wind:pl"
+      ],
+      "49:33": [
+        "kjv_dragon_creature:pl",
+        "no man there dwell:fu",
+        "nor any son of man"
+      ],
+      "49:34": [
+        "beginning of rule:ev",
+        "kjv_zedekiah_king"
+      ],
+      "49:35": [
+        "kjv_bow:a of kjv_elam",
+        "chief of their/might"
+      ],
+      "49:36": [
+        "four wind:pl:a from four quarter:pl",
+        "no nation where people who from kjv_elam out cast:psv:pr come:neg:fu be:fu"
+      ],
+      "49:37": [
+        "kjv_dismay:caus:fu",
+        "mypl/fierce anger",
+        "until ipl they:a consume:perf"
+      ],
+      "49:38": [
+        "ipl mypl/throne:a in kjv_elam",
+        "king:a and prince:pl:a destroy:fu"
+      ],
+      "49:39": [
+        "later day:pl",
+        "ipl captive:ev:a of kjv_elam again bring:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "49:14"
+      ],
+      "ipl": [
+        "48:12",
+        "48:30",
+        "48:31",
+        "48:32",
+        "48:33",
+        "48:35",
+        "48:38",
+        "48:44",
+        "48:47",
+        "49:10",
+        "49:11",
+        "49:13",
+        "49:15",
+        "49:16",
+        "49:19",
+        "49:2",
+        "49:27",
+        "49:32",
+        "49:35",
+        "49:36",
+        "49:37",
+        "49:38",
+        "49:39",
+        "49:4",
+        "49:5",
+        "49:6",
+        "49:8"
+      ],
+      "wesg": [
+        "48:14",
+        "48:2",
+        "48:29"
+      ],
+      "wepl": [],
+      "mypl": [
+        "48:31",
+        "48:36",
+        "49:37",
+        "49:38"
+      ],
+      "ourone": [],
+      "iplself": [
+        "49:13"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Three-year heifer and two separate four-wind/four-quarter expressions retained.",
+      "Every man/human is distributive;male/female refugees do not imply exactly two."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah48–49 adds86 verses,total1220;whole Bible incomplete.",
+      "Divine lament continuity48:31–36 and personal lament49:25 are documented choices with alternatives.",
+      "Civic plural-I,communal singular-we,divine plural-self oath and personal receiving-I retained.",
+      "Seven proper labels added;common vocabulary reused;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 1008,
+    "spreads": 504,
+    "units": 1220,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "e426f4cc7dda34a0493a1af4d0f2496a71bf78daffdc2c88ba9222dd342d8dce",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 504,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.59,
+    "modules": [
+      "tests.test_kjv_jeremiah_nations_lamented",
+      "tests.test_kjv_jeremiah_contending_memories",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    1007,
+    1008
+  ],
+  "status": "incomplete Bible;Jeremiah1–49 section checkpoint verified"
+}

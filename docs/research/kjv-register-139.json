@@ -1,0 +1,624 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.139",
+    "parentVersion": "0.10-kjv.138",
+    "parentHead": "3fa1684e043c489e9fca129a4b1e7d741ebb97c7d805ecda43266cfd169fbfa3",
+    "head": "acfe3c2ae364bac6dba2e2dac0866b2861c73d7dbdda3d5fa13c3cab2d8d06c2",
+    "newLexicalEntries": 0,
+    "newProperEntries": 0,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 91,
+    "exactCompilerCases": 91,
+    "newAuthoredVerses": 91,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1099,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 12300,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 91,
+    "isaiahVerses": 1099,
+    "authoredVerses": 18802,
+    "remainingVerses": 12300,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 1,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 51:19",
+        "source": "These two things are come unto thee; who shall be sorry for thee? desolation, and destruction, and the famine, and the sword: by whom shall I comfort thee?",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "50:1": [
+        "write:ev of your/mother/divorce:ev",
+        "mypl/kjv_creditor:pl",
+        "you yourselves:a sell:perf"
+      ],
+      "50:2": [
+        "no human be:pa",
+        "mypl/hand at all shorten:psv:pr",
+        "their/fish stink:pr",
+        "for thirst die:pr"
+      ],
+      "50:3": [
+        "with black:ev clothe:pr",
+        "kjv_sackcloth:a"
+      ],
+      "50:4": [
+        "lord god to ipl tongue:a",
+        "morning by morning",
+        "mypl/ear:a"
+      ],
+      "50:5": [
+        "rebel:adj be:neg:pa",
+        "back turn:neg:pa"
+      ],
+      "50:6": [
+        "mypl/back:a",
+        "mypl/cheek:pl:a",
+        "hair:a off pluck:pa",
+        "kjv_spit:ev hide:neg:pa"
+      ],
+      "50:7": [
+        "face:a like flint",
+        "ashamed be:neg:fu"
+      ],
+      "50:8": [
+        "wesg together stand:opt",
+        "mypl/kjv_adversary"
+      ],
+      "50:9": [
+        "as garment old become:fu",
+        "kjv_moth_job"
+      ],
+      "50:10": [
+        "in darkness walk:pr and no light:a have:pr",
+        "upon his/god support:imp"
+      ],
+      "50:11": [
+        "in light of your/fire",
+        "of mypl/hand",
+        "in sorrow down lie:fu"
+      ],
+      "51:1": [
+        "rock from where you kjv_hew:psv:pr",
+        "hole of kjv_pit"
+      ],
+      "51:2": [
+        "kjv_sarah who you:a bear:pa",
+        "he:a alone call:pa"
+      ],
+      "51:3": [
+        "like kjv_eden",
+        "like kjv_garden",
+        "thank:ev"
+      ],
+      "51:4": [
+        "mypl/judgment:a to rest for light"
+      ],
+      "51:5": [
+        "mypl/arm:pl people:a judge:fu",
+        "on mypl/arm they trust:fu"
+      ],
+      "51:6": [
+        "heaven:pl like smoke",
+        "earth like garment",
+        "kjv_righteousness end:psv:neg:fu"
+      ],
+      "51:7": [
+        "in whose heart mypl/law",
+        "afraid be:neg:imp"
+      ],
+      "51:8": [
+        "kjv_moth_job",
+        "worm",
+        "kjv_wool",
+        "from generation to generation"
+      ],
+      "51:9": [
+        "kjv_rahab_broken:a cut:perf",
+        "dragon:a wound:perf"
+      ],
+      "51:10": [
+        "water:pl:a of great deep",
+        "kjv_depth:pl:a of sea way"
+      ],
+      "51:11": [
+        "eternal joy upon their/head",
+        "sorrow and mourn:ev away flee:fu"
+      ],
+      "51:12": [
+        "ipl even ipl he",
+        "son of human",
+        "as grass make:psv:fu"
+      ],
+      "51:13": [
+        "every day always",
+        "where fury of oppress:ag"
+      ],
+      "51:14": [
+        "die:neg:should",
+        "bread fail:neg:should"
+      ],
+      "51:15": [
+        "sea:a kjv_divide:pa",
+        "kjv_lord of army:pl his/name"
+      ],
+      "51:16": [
+        "heaven:pl:a plant:may",
+        "thou mypl/people be:pr"
+      ],
+      "51:17": [
+        "kjv_wine_dregs:pl:a",
+        "out kjv_wring:perf"
+      ],
+      "51:18": [
+        "none to she:a guide:inf",
+        "forth bring:perf",
+        "up bring:perf"
+      ],
+      "51:19": [
+        "two thing:pl",
+        "kjv_desolate:ev and destroy:ev and kjv_famine and sword",
+        "by whom ipl"
+      ],
+      "51:20": [
+        "wild bull in kjv_net",
+        "fury of kjv_lord"
+      ],
+      "51:21": [
+        "drunken but not with wine"
+      ],
+      "51:22": [
+        "kjv_legal_case:a",
+        "cup of mypl/fury",
+        "no more again drink:fu"
+      ],
+      "51:23": [
+        "wepl over go:may",
+        "thy/body:a as ground and as street"
+      ],
+      "52:1": [
+        "kjv_circumcise:psv:neg:adj and unclean",
+        "no more come:fu"
+      ],
+      "52:2": [
+        "rise:imp and down sit:imp",
+        "band:pl of thy/neck"
+      ],
+      "52:3": [
+        "yourselves:a for nothing sell:perf",
+        "without money redeem:psv:fu"
+      ],
+      "52:4": [
+        "to there kjv_sojourn:inf",
+        "without cause:ev oppress:pa"
+      ],
+      "52:5": [
+        "they:a howl:caus:pr",
+        "every day kjv_blaspheme:psv:pr"
+      ],
+      "52:6": [
+        "ipl he who speak:pr be:pr",
+        "it ipl be:pr"
+      ],
+      "52:7": [
+        "foot:pl",
+        "peace:a proclaim:pr",
+        "salvation:a proclaim:pr",
+        "thy/god rule:pr:excl"
+      ],
+      "52:8": [
+        "eye to eye see:fu",
+        "kjv_zion:a again bring:fu"
+      ],
+      "52:9": [
+        "you waste place:pl",
+        "his/people:a comfort:perf"
+      ],
+      "52:10": [
+        "his/holy arm:a bare",
+        "ourone/god"
+      ],
+      "52:11": [
+        "no unclean thing:a touch:imp",
+        "vessel:pl:a of kjv_lord carry:pr"
+      ],
+      "52:12": [
+        "with haste out go:neg:fu",
+        "by flight go:neg:fu",
+        "your/kjv_rearguard"
+      ],
+      "52:13": [
+        "with wisdom act:fu",
+        "kjv_exalt:psv:fu",
+        "praise:psv:fu",
+        "very high be:fu"
+      ],
+      "52:14": [
+        "at thee astonish:psv:pa",
+        "his/face",
+        "his/form"
+      ],
+      "52:15": [
+        "many nation:pl:a kjv_sprinkle:fu",
+        "tell:psv:neg:pp",
+        "hear:neg:pp"
+      ],
+      "53:1": [
+        "ourone/report:a",
+        "arm of kjv_lord"
+      ],
+      "53:2": [
+        "tender plant",
+        "dry ground",
+        "wesg he:a see:fu",
+        "no beauty"
+      ],
+      "53:3": [
+        "ourone/face:pl:a",
+        "wesg he:a esteem:neg:pa"
+      ],
+      "53:4": [
+        "ourone/grief:pl:a carry:perf",
+        "by god strike:psv:adj"
+      ],
+      "53:5": [
+        "kjv_chastise:ev of ourone/peace",
+        "kjv_stripe_blow:pl wesg heal:psv:pr"
+      ],
+      "53:6": [
+        "all wesg like sheep",
+        "wesg each to his/own way",
+        "kjv_iniquity:a of all wesg"
+      ],
+      "53:7": [
+        "mouth:a open:neg:pa",
+        "kjv_lamb to kill:ev",
+        "her/shear:ag:pl kjv_mute",
+        "mouth:a open:neg:pr"
+      ],
+      "53:8": [
+        "who his/generation:a declare:fu",
+        "my/people",
+        "strike:psv:pa"
+      ],
+      "53:9": [
+        "with wicked",
+        "with rich in his/death because",
+        "no kjv_violence",
+        "mouth be:neg:pa"
+      ],
+      "53:10": [
+        "kjv_lord:a kjv_please_satisfy:pa",
+        "his/soul:a kjv_offering for sin",
+        "kjv_seedline:a",
+        "day:pl:a long:caus:fu"
+      ],
+      "53:11": [
+        "kjv_toil of his/soul",
+        "mypl/kjv_righteous servant"
+      ],
+      "53:12": [
+        "ipl to he part:a with great kjv_divide:fu",
+        "soul:a to death out pour:perf",
+        "kjv_number:psv:pa",
+        "for transgress:ag:pl pray:pa"
+      ],
+      "54:1": [
+        "bear:neg:pa",
+        "kjv_travail:neg:pa",
+        "kjv_desolate_person more than"
+      ],
+      "54:2": [
+        "large:caus:imp",
+        "kjv_cord:pl:a long:caus:imp",
+        "kjv_pin:pl:a strengthen:imp"
+      ],
+      "54:3": [
+        "on right side and on left",
+        "kjv_seedline kjv_gentile:pl:a inherit:fu"
+      ],
+      "54:4": [
+        "ashamed be:neg:fu",
+        "thy/widow:ev no more remember:fu"
+      ],
+      "54:5": [
+        "thy/make:ag thy/husband",
+        "kjv_holy_one of kjv_israel",
+        "god of whole earth"
+      ],
+      "54:6": [
+        "woman forsake:psv:adj",
+        "wife of youth",
+        "thou refuse:psv:pa"
+      ],
+      "54:7": [
+        "small moment ipl thee:a forsake:perf",
+        "great mercy:pl"
+      ],
+      "54:8": [
+        "mypl/face:a from thee for moment hide:pa",
+        "eternal kjv_kindness"
+      ],
+      "54:9": [
+        "water:pl of kjv_noah",
+        "wrathful be:neg:should",
+        "rebuke:neg:should"
+      ],
+      "54:10": [
+        "mypl/kjv_kindness from thee depart:neg:fu",
+        "kjv_covenant of mypl/peace remove:psv:neg:fu"
+      ],
+      "54:11": [
+        "comfort:psv:neg:adj",
+        "beautiful colour:pl",
+        "kjv_sapphire:pl"
+      ],
+      "54:12": [
+        "kjv_agate:pl",
+        "kjv_carbuncle:pl",
+        "thy/edge:pl:a"
+      ],
+      "54:13": [
+        "all thy/child:pl",
+        "by kjv_lord teach:psv:fu"
+      ],
+      "54:14": [
+        "fear:neg:fu",
+        "near thee come:neg:fu"
+      ],
+      "54:15": [
+        "not by ipl",
+        "for thy/sake fall:fu"
+      ],
+      "54:16": [
+        "kjv_smith:a",
+        "kjv_charcoal:pl:a",
+        "waste:ag:a to destroy:inf create:perf"
+      ],
+      "54:17": [
+        "no weapon",
+        "every tongue",
+        "their/kjv_righteousness of ipl"
+      ],
+      "55:1": [
+        "every human who thirst:pr",
+        "without money and without price"
+      ],
+      "55:2": [
+        "bread be:neg:pr",
+        "satisfy:neg:pr",
+        "your/soul itself:a in fat:ev"
+      ],
+      "55:3": [
+        "eternal kjv_covenant:a",
+        "sure mercy:pl of kjv_david"
+      ],
+      "55:4": [
+        "witness to people lead:ag and command:ag"
+      ],
+      "55:5": [
+        "thou know:neg:pr",
+        "thee:a know:neg:pa",
+        "he thee:a glorify:perf"
+      ],
+      "55:6": [
+        "while he find:psv:may",
+        "while he near be:pr"
+      ],
+      "55:7": [
+        "ourone/god",
+        "greatly pardon:fu"
+      ],
+      "55:8": [
+        "mypl/thought:pl your/thought:pl be:neg:pr",
+        "your/way:pl mypl/way:pl be:neg:pr"
+      ],
+      "55:9": [
+        "mypl/way:pl higher than your/way:pl",
+        "mypl/thought:pl than your/thought:pl"
+      ],
+      "55:10": [
+        "there return:neg:pr",
+        "seed:a to kjv_sow:ag",
+        "bread:a to eat:ag"
+      ],
+      "55:11": [
+        "mypl/word",
+        "mypl/mouth",
+        "to ipl empty return:neg:fu",
+        "ipl it:a send:pa"
+      ],
+      "55:12": [
+        "mountain:pl and hill:pl",
+        "all kjv_tree:pl of field their/hand:pl:a kjv_clap_hands:fu"
+      ],
+      "55:13": [
+        "kjv_fir",
+        "kjv_brier",
+        "kjv_myrtle_tree",
+        "off cut:psv:neg:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [],
+      "ipl": [
+        "50:1",
+        "50:2",
+        "50:3",
+        "50:4",
+        "50:5",
+        "50:6",
+        "50:7",
+        "50:8",
+        "50:9",
+        "51:1",
+        "51:12",
+        "51:15",
+        "51:16",
+        "51:19",
+        "51:2",
+        "51:22",
+        "51:23",
+        "51:4",
+        "51:5",
+        "51:7",
+        "52:5",
+        "52:6",
+        "53:12",
+        "54:11",
+        "54:12",
+        "54:15",
+        "54:16",
+        "54:17",
+        "54:7",
+        "54:8",
+        "54:9",
+        "55:11",
+        "55:2",
+        "55:3",
+        "55:4"
+      ],
+      "wesg": [
+        "50:8",
+        "53:2",
+        "53:3",
+        "53:4",
+        "53:5",
+        "53:6"
+      ],
+      "wepl": [
+        "51:23"
+      ],
+      "mypl": [
+        "50:1",
+        "50:11",
+        "50:2",
+        "50:4",
+        "50:5",
+        "50:6",
+        "50:7",
+        "50:8",
+        "51:16",
+        "51:22",
+        "51:4",
+        "51:5",
+        "51:6",
+        "51:7",
+        "51:8",
+        "52:13",
+        "52:4",
+        "52:5",
+        "52:6",
+        "53:11",
+        "54:10",
+        "54:8",
+        "55:11",
+        "55:8",
+        "55:9"
+      ],
+      "ourone": [
+        "52:10",
+        "53:1",
+        "53:3",
+        "53:4",
+        "53:5",
+        "55:7"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Two things51:19 retained beside its four-term list;no corrected total invented.",
+      "Every one is distributive human/each,not cardinal one;alone is exclusivity."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah50–55 adds91 verses,total1099;whole Bible incomplete.",
+      "Servant plural-I,communal singular-we with multiple faces and divergent ways,physical tramplers we-plural distinguished.",
+      "Zero new lexical entries;established senses and analytic constructions reused.",
+      "Source suffering,divine agency,sprinkle and because wording preserved without later theological harmonization."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 800,
+    "spreads": 400,
+    "units": 1099,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "97dfc7bc3d16213f0e66a6be9e6b47b414b4462a8cae28f3a186ea97ec5ada38",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 400,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.595,
+    "modules": [
+      "tests.test_kjv_isaiah_common_faces",
+      "tests.test_kjv_isaiah_sent_speaker",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    799,
+    800
+  ],
+  "status": "incomplete Bible;Isaiah1–55 section checkpoint verified"
+}

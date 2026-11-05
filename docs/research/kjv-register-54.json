@@ -1,0 +1,878 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.54",
+    "parentVersion": "0.10-kjv.53",
+    "parentHead": "b193c9af4c56e0db98192fd081d7ba554f07c9eb5464a441b2e696a30e9de76e",
+    "head": "4b7c36ae23bf53b0007ede23d975ce7602d6eb03d903ce6268874a78141d3e86",
+    "newLexicalEntries": 69,
+    "newProperEntries": 60,
+    "newCommonEntries": 9,
+    "newSurfaceForms": 48,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 96,
+    "exactCompilerCases": 115,
+    "newAuthoredVerses": 115,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 22336,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newSamuelVerses": 115,
+    "samuel2Verses": 695,
+    "authoredVerses": 8766,
+    "remainingVerses": 22336,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 19,
+    "quantityChecks": [
+      {
+        "reference": "2 Samuel 23:8",
+        "source": "These be the names of the mighty men whom David had: The Tachmonite that sat in the seat, chief among the captains; the same was Adino the Eznite: he lift up his spear against eight hundred, whom he slew at one time.",
+        "expectedDecimalQuantities": [
+          800
+        ],
+        "targetQuantities": [
+          800
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:9",
+        "source": "And after him was Eleazar the son of Dodo the Ahohite, one of the three mighty men with David, when they defied the Philistines that were there gathered together to battle, and the men of Israel were gone away:",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:13",
+        "source": "And three of the thirty chief went down, and came to David in the harvest time unto the cave of Adullam: and the troop of the Philistines pitched in the valley of Rephaim.",
+        "expectedDecimalQuantities": [
+          3,
+          30
+        ],
+        "targetQuantities": [
+          3,
+          30
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:16",
+        "source": "And the three mighty men brake through the host of the Philistines, and drew water out of the well of Bethlehem, that was by the gate, and took it, and brought it to David: nevertheless he would not drink thereof, but poured it out unto the LORD.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:17",
+        "source": "And he said, Be it far from me, O LORD, that I should do this: is not this the blood of the men that went in jeopardy of their lives? therefore he would not drink it. These things did these three mighty men.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:18",
+        "source": "And Abishai, the brother of Joab, the son of Zeruiah, was chief among three. And he lifted up his spear against three hundred, and slew them, and had the name among three.",
+        "expectedDecimalQuantities": [
+          3,
+          300,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          300,
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:19",
+        "source": "Was he not most honourable of three? therefore he was their captain: howbeit he attained not unto the first three.",
+        "expectedDecimalQuantities": [
+          3,
+          1,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          1,
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:20",
+        "source": "And Benaiah the son of Jehoiada, the son of a valiant man, of Kabzeel, who had done many acts, he slew two lionlike men of Moab: he went down also and slew a lion in the midst of a pit in time of snow:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:22",
+        "source": "These things did Benaiah the son of Jehoiada, and had the name among three mighty men.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:23",
+        "source": "He was more honourable than the thirty, but he attained not to the first three. And David set him over his guard.",
+        "expectedDecimalQuantities": [
+          30,
+          1,
+          3
+        ],
+        "targetQuantities": [
+          30,
+          1,
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:24",
+        "source": "Asahel the brother of Joab was one of the thirty; Elhanan the son of Dodo of Bethlehem,",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      },
+      {
+        "reference": "2 Samuel 23:39",
+        "source": "Uriah the Hittite: thirty and seven in all.",
+        "expectedDecimalQuantities": [
+          37
+        ],
+        "targetQuantities": [
+          37
+        ]
+      },
+      {
+        "reference": "2 Samuel 24:3",
+        "source": "And Joab said unto the king, Now the LORD thy God add unto the people, how many soever they be, an hundredfold, and that the eyes of my lord the king may see it: but why doth my lord the king delight in this thing?",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Samuel 24:8",
+        "source": "So when they had gone through all the land, they came to Jerusalem at the end of nine months and twenty days.",
+        "expectedDecimalQuantities": [
+          9,
+          20
+        ],
+        "targetQuantities": [
+          9,
+          20
+        ]
+      },
+      {
+        "reference": "2 Samuel 24:9",
+        "source": "And Joab gave up the sum of the number of the people unto the king: and there were in Israel eight hundred thousand valiant men that drew the sword; and the men of Judah were five hundred thousand men.",
+        "expectedDecimalQuantities": [
+          800000,
+          500000
+        ],
+        "targetQuantities": [
+          800000,
+          500000
+        ]
+      },
+      {
+        "reference": "2 Samuel 24:12",
+        "source": "Go and say unto David, Thus saith the LORD, I offer thee three things; choose thee one of them, that I may do it unto thee.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 24:13",
+        "source": "So Gad came to David, and told him, and said unto him, Shall seven years of famine come unto thee in thy land? or wilt thou flee three months before thine enemies, while they pursue thee? or that there be three daysâ€™ pestilence in thy land? now advise, and see what answer I shall return to him that sent me.",
+        "expectedDecimalQuantities": [
+          7,
+          3,
+          3
+        ],
+        "targetQuantities": [
+          7,
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 24:15",
+        "source": "So the LORD sent a pestilence upon Israel from the morning even to the time appointed: and there died of the people from Dan even to Beersheba seventy thousand men.",
+        "expectedDecimalQuantities": [
+          70000
+        ],
+        "targetQuantities": [
+          70000
+        ]
+      },
+      {
+        "reference": "2 Samuel 24:24",
+        "source": "And the king said unto Araunah, Nay; but I will surely buy it of thee at a price: neither will I offer burnt offerings unto the LORD my God of that which doth cost me nothing. So David bought the threshingfloor and the oxen for fifty shekels of silver.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "Eight hundred in23:8 retained; groups of three and the first three are not silently equated.",
+      "Three from thirty, Abishais three hundred, two lionlike men versus a separate lion, and the stated thirty-seven remain.",
+      "A hundredfold increase is an optative wish, not the census result.",
+      "Nine months and twenty days are separate units.",
+      "Israel800000 and Judah500000 remain separate exact source figures.",
+      "Three offered alternatives: seven years, three months, three days; no alternate-witness harmonization.",
+      "Seventy thousand plague deaths and fifty silver shekels are retained without converted totals."
+    ],
+    "semanticChecks": {
+      "22:1": [
+        "of all his/enemy:pl hand",
+        "of kjv_saul hand"
+      ],
+      "22:2": [
+        "my/rock",
+        "my/fortress",
+        "my/deliver:ag"
+      ],
+      "22:3": [
+        "in he i trust:fu",
+        "my/kjv_shield_armour",
+        "of my/salvation horn",
+        "from kjv_violence i:a thou save:pr"
+      ],
+      "22:5": [
+        "of death kjv_wave:pl",
+        "kjv_ungodly man:pl flood:pl"
+      ],
+      "22:6": [
+        "of kjv_hell sorrow:pl",
+        "before i come:pa"
+      ],
+      "22:7": [
+        "his/kjv_temple_sanctuary",
+        "into his/ear:pl my/cry enter:pa"
+      ],
+      "22:8": [
+        "of heaven kjv_foundation:pl",
+        "because angry he be:pa"
+      ],
+      "22:9": [
+        "his/kjv_nostril:pl smoke",
+        "his/mouth fire",
+        "kjv_charcoal:pl"
+      ],
+      "22:11": [
+        "upon kjv_cherub",
+        "he see:psv:pa"
+      ],
+      "22:12": [
+        "darkness:a kjv_pavilion:pl",
+        "dark water:pl"
+      ],
+      "22:14": [
+        "most high his/voice:a utter:pa"
+      ],
+      "22:16": [
+        "kjv_sea_channel:pl",
+        "kjv_foundation:pl kjv_uncover:psv:pa",
+        "his/kjv_nostril:pl breath kjv_blast"
+      ],
+      "22:17": [
+        "out of many water:pl i:a he draw:pa"
+      ],
+      "22:19": [
+        "before i they come:pa",
+        "my/support:ev"
+      ],
+      "22:20": [
+        "broad kjv_place_site",
+        "in i delight:a"
+      ],
+      "22:21": [
+        "my/kjv_righteousness",
+        "my/hand:pl kjv_cleanness"
+      ],
+      "22:22": [
+        "i keep:perf",
+        "i depart:perf not"
+      ],
+      "22:24": [
+        "my/kjv_iniquity self:a i keep:perf"
+      ],
+      "22:26": [
+        "merciful",
+        "kjv_uprightness:adj"
+      ],
+      "22:27": [
+        "kjv_froward person",
+        "kjv_unsavoury thou show:fu"
+      ],
+      "22:28": [
+        "kjv_afflict:psv people",
+        "proud person:pl",
+        "bring:pr:may down"
+      ],
+      "22:29": [
+        "my/lamp",
+        "light:caus:fu"
+      ],
+      "22:30": [
+        "through troop i run:perf",
+        "over wall i leap:perf"
+      ],
+      "22:31": [
+        "word test:psv:pr",
+        "kjv_shield_armour"
+      ],
+      "22:32": [
+        "except kjv_lord",
+        "ourone/god"
+      ],
+      "22:34": [
+        "female deer foot:pl"
+      ],
+      "22:35": [
+        "of steel bow",
+        "by my/arm:pl break:psv:pr"
+      ],
+      "22:36": [
+        "thy/gentleness i:a great make:perf"
+      ],
+      "22:38": [
+        "mypl/enemy:pl:a ipl pursue:perf",
+        "until they:a ipl consume:pp"
+      ],
+      "22:39": [
+        "under mypl/foot:pl"
+      ],
+      "22:40": [
+        "ipl:a thou kjv_gird:perf",
+        "under ipl"
+      ],
+      "22:41": [
+        "mypl/enemy:pl neck:pl",
+        "ipl destroy:pr:may"
+      ],
+      "22:42": [
+        "even to kjv_lord",
+        "he answer:pa not"
+      ],
+      "22:43": [
+        "dust",
+        "mud",
+        "ipl beat:pa",
+        "ipl stamp:pa"
+      ],
+      "22:44": [
+        "mypl/people",
+        "people whom i know:pa not ipl:a serve:fu"
+      ],
+      "22:45": [
+        "to ipl submit:fu"
+      ],
+      "22:46": [
+        "their/close:psv kjv_place_site:pl"
+      ],
+      "22:48": [
+        "ipl:a kjv_avenge:pr"
+      ],
+      "22:49": [
+        "i:a thou deliver:perf"
+      ],
+      "22:50": [
+        "among kjv_heathen",
+        "i give:fu",
+        "i sing:fu"
+      ],
+      "22:51": [
+        "of salvation kjv_tower",
+        "to his/seed forever"
+      ],
+      "23:1": [
+        "last word:pl",
+        "sweet kjv_psalm:ag"
+      ],
+      "23:2": [
+        "spirit by i speak:pa",
+        "his/word in my/tongue"
+      ],
+      "23:3": [
+        "kjv_right_conduct:adj",
+        "in of god fear"
+      ],
+      "23:5": [
+        "my/house so be:pr not",
+        "eternal kjv_covenant",
+        "it:a he grow:caus:pr not"
+      ],
+      "23:6": [
+        "as thorn:pl",
+        "hand:pl they take:psv:pr:can not"
+      ],
+      "23:7": [
+        "with iron",
+        "shield:psv:pr:must"
+      ],
+      "23:8": [
+        "kjv_tachmonite",
+        "kjv_adino kjv_eznite",
+        "eight+hundred",
+        "at one time"
+      ],
+      "23:9": [
+        "kjv_eleazar_dodo of kjv_dodo_ahohite",
+        "one of kjv_three"
+      ],
+      "23:10": [
+        "his/hand kjv_cling:pa",
+        "only to spoil:inf"
+      ],
+      "23:11": [
+        "kjv_shammah_agee of kjv_agee",
+        "kjv_lentil:pl"
+      ],
+      "23:13": [
+        "kjv_three of kjv_three+ten",
+        "kjv_adullam_city",
+        "kjv_encamp:pa"
+      ],
+      "23:15": [
+        "kjv_bethlehem kjv_well",
+        "give:opt",
+        "be:pr:excl"
+      ],
+      "23:16": [
+        "kjv_three mighty man:pl",
+        "drink:inf he will:pa not",
+        "to kjv_lord it:a pour:pa out"
+      ],
+      "23:17": [
+        "their/life:pl danger",
+        "blood this be:pr not"
+      ],
+      "23:18": [
+        "chief among kjv_three",
+        "kjv_three+hundred",
+        "name:a have:pa"
+      ],
+      "23:19": [
+        "to first kjv_three he reach:pa not"
+      ],
+      "23:20": [
+        "two lion like man:pl",
+        "kjv_pit",
+        "snow time lion:a"
+      ],
+      "23:21": [
+        "kjv_goodly man",
+        "with his/own kjv_spear"
+      ],
+      "23:23": [
+        "kjv_three+ten",
+        "first kjv_three",
+        "over his/guard"
+      ],
+      "23:24": [
+        "kjv_elhanan_dodo of kjv_dodo_bethlehem"
+      ],
+      "23:25": [
+        "kjv_shammah_harodite",
+        "kjv_elika"
+      ],
+      "23:26": [
+        "kjv_ira_ikkesh of kjv_ikkesh"
+      ],
+      "23:27": [
+        "kjv_abiezer_anethothite"
+      ],
+      "23:28": [
+        "kjv_zalmon_ahohite"
+      ],
+      "23:29": [
+        "kjv_baanah_netophah",
+        "kjv_ittai_ribai of kjv_ribai"
+      ],
+      "23:30": [
+        "kjv_benaiah_pirathonite"
+      ],
+      "23:32": [
+        "of of kjv_jashen son:pl kjv_jonathan_jashen"
+      ],
+      "23:33": [
+        "kjv_shammah_hararite",
+        "kjv_ahiam"
+      ],
+      "23:34": [
+        "kjv_eliphelet_ahasbai",
+        "kjv_eliam_ahithophel"
+      ],
+      "23:36": [
+        "kjv_igal_zobah of kjv_nathan_zobah"
+      ],
+      "23:37": [
+        "kjv_armour carry:ag",
+        "kjv_joab of kjv_zeruiah"
+      ],
+      "23:38": [
+        "kjv_ira_ithrite",
+        "kjv_gareb"
+      ],
+      "23:39": [
+        "kjv_uriah kjv_hittite",
+        "kjv_three+ten and seven"
+      ],
+      "24:1": [
+        "of kjv_lord anger",
+        "kjv_david:a he move:pa",
+        "kjv_number:imp"
+      ],
+      "24:2": [
+        "kjv_number:imp",
+        "i know:pr:may"
+      ],
+      "24:3": [
+        "hundred kjv_fold",
+        "add:opt"
+      ],
+      "24:4": [
+        "king word prevail:pa",
+        "kjv_number:inf"
+      ],
+      "24:5": [
+        "kjv_aroer kjv_encamp:pa",
+        "kjv_right_side"
+      ],
+      "24:6": [
+        "kjv_tahtimhodshi",
+        "kjv_danjaan"
+      ],
+      "24:8": [
+        "nine month:pl and two+ten day:pl"
+      ],
+      "24:9": [
+        "eight+hundred+thousand",
+        "five+hundred+thousand"
+      ],
+      "24:10": [
+        "heart he:a strike:pa",
+        "i sin:perf",
+        "i do:perf"
+      ],
+      "24:11": [
+        "kjv_gad_prophet",
+        "kjv_seer"
+      ],
+      "24:12": [
+        "kjv_three thing:pl:a ipl offer:pr",
+        "of they one",
+        "ipl do:pr:may"
+      ],
+      "24:13": [
+        "seven of kjv_famine year:pl",
+        "kjv_three month:pl",
+        "kjv_three day:pl kjv_pestilence",
+        "i return:fu"
+      ],
+      "24:14": [
+        "distress i be:pr",
+        "wesg fall:opt",
+        "i fall:opt not"
+      ],
+      "24:15": [
+        "appoint:psv time",
+        "seven+ten+thousand"
+      ],
+      "24:16": [
+        "kjv_lord repent:pa",
+        "enough it be:pr",
+        "thy/hand:a stop:imp",
+        "kjv_araunah"
+      ],
+      "24:17": [
+        "i sin:perf",
+        "these sheep what:a they do:perf",
+        "against my/father house"
+      ],
+      "24:18": [
+        "kjv_threshfloor",
+        "altar:a raise:imp"
+      ],
+      "24:21": [
+        "kjv_threshfloor:a buy:inf",
+        "plague stop:psv:pr:may"
+      ],
+      "24:22": [
+        "kjv_thresh:ev instrument:pl",
+        "for wood"
+      ],
+      "24:23": [
+        "as king to king kjv_araunah give:pa",
+        "accept:opt"
+      ],
+      "24:24": [
+        "at price",
+        "nothing cost:pr",
+        "five+ten kjv_shekel:pl of silver"
+      ],
+      "24:25": [
+        "peace kjv_offering:pl",
+        "plague stop:psv:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "The songs moral claims remain attributed beside the narratives wrongdoing.",
+      "Divine incitement, personal confession, divine repentance and the sheep protest are preserved without harmonization.",
+      "Roster names and unresolved relationships remain locally identified rather than silently repaired.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeValidation": {
+    "book": "2 Samuel â€” incomplete Bible working text",
+    "pages": 526,
+    "spreads": 263,
+    "units": 695,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "9f26ccb6836133f9e431e09b896a045f977be31cb997fb6e3da1cfa6f3252ea3",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 263,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "visualReview": {
+    "pages": [
+      525,
+      526
+    ],
+    "observed": "Final threshing-floor purchase, fifty silver shekels and plague cessation retain aligned paragraph starts, Maxima, approved four-column treatment and outside Unta folios.",
+    "kind": "translator self-review, not independent literary certification"
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 13.142,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_samuel2_final",
+      "tests.test_kjv_samuel2_return",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "2adfb5766cd8693fea6599f3e7034f01b602d419954ab29cfaa4339a7547ce5a",
+    "pages": 6346,
+    "spreads": 3173,
+    "authoredVerses": 8766,
+    "missingVerses": 22336,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 12692,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Genesis.vay",
+        "sha256": "da2a8e84a13406a9d393e994ae6d10b962688f02898da30d908756b2ead70241",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Exodus.vay",
+        "sha256": "36e827d8ff72e89213baacb89ed73052ee85a6654c80e92fe0043744f0b38ae0",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Leviticus.vay",
+        "sha256": "198ef8a0fc381e208b99e9dd83e0fe76549d174630b386872d2bcf5f3e5d696c",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Numbers.vay",
+        "sha256": "42e74aad8d9c4b89b2b6b1336cc0f2970186a45ab6a28622daa73612c21bfa36",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Deuteronomy.vay",
+        "sha256": "224062c8d24fed83fc8c60cf21550b0c369977ea7fba6317f56a15bdaf9d7785",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Joshua.vay",
+        "sha256": "fa516f69c091de5aa989df2afa75fbd5572f8551e11a594dbfc6f4900fffc02e",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Judges.vay",
+        "sha256": "cbc266175edd9d15970ccd139431b4dfbf1c560c1427afd8a104b70d56d06f3f",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Ruth.vay",
+        "sha256": "046b105cf141f3dc107655da136a60ff151c7c2ff9ec92e2ec70b16b38641688",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Samuel.vay",
+        "sha256": "e39d17f4b7a6a0df8f06ff445293ba53a264937d3379a33e9179acb33b1fea09",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Samuel2.vay",
+        "sha256": "9f26ccb6836133f9e431e09b896a045f977be31cb997fb6e3da1cfa6f3252ea3",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.54\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 6305,
+        "lastPage": 6346
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.26",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.26",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.19",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1â€“36",
+        "version": "0.10-kjv.26",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1â€“34",
+        "version": "0.10-kjv.31",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.35",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.48",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.54",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 6305,
+        "lastPage": 6346,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedVisualReview": {
+    "pages": [
+      6297,
+      6298
+    ],
+    "reference": "2 Samuel24:17–19",
+    "finding": "Clear four-column personal confession/altar sequence; aligned first baselines, Maxima and outside Unta numbering retained. No clipping observed. Full file save/reopen, source-page and folio checks passed.",
+    "guide": "Saves/KJV Bible v0.10-kjv.54/Start here.html"
+  }
+}

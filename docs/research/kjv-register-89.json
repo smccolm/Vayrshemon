@@ -1,0 +1,612 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.89",
+    "parentVersion": "0.10-kjv.88",
+    "parentHead": "b6fd5d3ded5a5edf6fcb3ea4270874fde1f112f61106a3c8fbf2839763ca0e85",
+    "head": "18cee6f980899d840bb78bf69ad0e52d4e17fe1089ef21fd78e56b7d37c042f4",
+    "newLexicalEntries": 10,
+    "newProperEntries": 10,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 70,
+    "exactCompilerCases": 70,
+    "newAuthoredVerses": 70,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 329,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19530,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 70,
+    "chronicles2Verses": 329,
+    "authoredVerses": 11572,
+    "remainingVerses": 19530,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 16,
+    "quantityChecks": [
+      {
+        "reference": "2 Chronicles 13:1",
+        "source": "Now in the eighteenth year of king Jeroboam began Abijah to reign over Judah.",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "2 Chronicles 13:2",
+        "source": "He reigned three years in Jerusalem. His mother’s name also was Michaiah the daughter of Uriel of Gibeah. And there was war between Abijah and Jeroboam.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 13:3",
+        "source": "And Abijah set the battle in array with an army of valiant men of war, even four hundred thousand chosen men: Jeroboam also set the battle in array against him with eight hundred thousand chosen men, being mighty men of valour.",
+        "expectedDecimalQuantities": [
+          400000,
+          800000
+        ],
+        "targetQuantities": [
+          400000,
+          800000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 13:9",
+        "source": "Have ye not cast out the priests of the LORD, the sons of Aaron, and the Levites, and have made you priests after the manner of the nations of other lands? so that whosoever cometh to consecrate himself with a young bullock and seven rams, the same may be a priest of them that are no gods.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 13:17",
+        "source": "And Abijah and his people slew them with a great slaughter: so there fell down slain of Israel five hundred thousand chosen men.",
+        "expectedDecimalQuantities": [
+          500000
+        ],
+        "targetQuantities": [
+          500000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 13:21",
+        "source": "But Abijah waxed mighty, and married fourteen wives, and begat twenty and two sons, and sixteen daughters.",
+        "expectedDecimalQuantities": [
+          14,
+          22,
+          16
+        ],
+        "targetQuantities": [
+          14,
+          22,
+          16
+        ]
+      },
+      {
+        "reference": "2 Chronicles 14:1",
+        "source": "So Abijah slept with his fathers, and they buried him in the city of David: and Asa his son reigned in his stead. In his days the land was quiet ten years.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "2 Chronicles 14:8",
+        "source": "And Asa had an army of men that bare targets and spears, out of Judah three hundred thousand; and out of Benjamin, that bare shields and drew bows, two hundred and fourscore thousand: all these were mighty men of valour.",
+        "expectedDecimalQuantities": [
+          300000,
+          280000
+        ],
+        "targetQuantities": [
+          300000,
+          280000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 14:9",
+        "source": "And there came out against them Zerah the Ethiopian with an host of a thousand thousand, and three hundred chariots; and came unto Mareshah.",
+        "expectedDecimalQuantities": [
+          1000000,
+          300
+        ],
+        "targetQuantities": [
+          1000000,
+          300
+        ]
+      },
+      {
+        "reference": "2 Chronicles 15:10",
+        "source": "So they gathered themselves together at Jerusalem in the third month, in the fifteenth year of the reign of Asa.",
+        "expectedDecimalQuantities": [
+          3,
+          15
+        ],
+        "targetQuantities": [
+          3,
+          15
+        ]
+      },
+      {
+        "reference": "2 Chronicles 15:11",
+        "source": "And they offered unto the LORD the same time, of the spoil which they had brought, seven hundred oxen and seven thousand sheep.",
+        "expectedDecimalQuantities": [
+          700,
+          7000
+        ],
+        "targetQuantities": [
+          700,
+          7000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 15:19",
+        "source": "And there was no more war unto the five and thirtieth year of the reign of Asa.",
+        "expectedDecimalQuantities": [
+          35
+        ],
+        "targetQuantities": [
+          35
+        ]
+      },
+      {
+        "reference": "2 Chronicles 16:1",
+        "source": "In the six and thirtieth year of the reign of Asa Baasha king of Israel came up against Judah, and built Ramah, to the intent that he might let none go out or come in to Asa king of Judah.",
+        "expectedDecimalQuantities": [
+          36
+        ],
+        "targetQuantities": [
+          36
+        ]
+      },
+      {
+        "reference": "2 Chronicles 16:11",
+        "source": "And, behold, the acts of Asa, first and last, lo, they are written in the book of the kings of Judah and Israel.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 16:12",
+        "source": "And Asa in the thirty and ninth year of his reign was diseased in his feet, until his disease was exceeding great: yet in his disease he sought not to the LORD, but to the physicians.",
+        "expectedDecimalQuantities": [
+          39
+        ],
+        "targetQuantities": [
+          39
+        ]
+      },
+      {
+        "reference": "2 Chronicles 16:13",
+        "source": "And Asa slept with his fathers, and died in the one and fortieth year of his reign.",
+        "expectedDecimalQuantities": [
+          41
+        ],
+        "targetQuantities": [
+          41
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "ten and eight:ord",
+        "kjv_jeroboam",
+        "rule:inf begin:pa"
+      ],
+      "13:2": [
+        "kjv_three year:pl",
+        "kjv_michaiah_uriel",
+        "kjv_uriel_gibeah"
+      ],
+      "13:3": [
+        "four+hundred+thousand",
+        "eight+hundred+thousand",
+        "kjv_array_battle:pa"
+      ],
+      "13:4": [
+        "kjv_zemaraim",
+        "i:a hear:imp"
+      ],
+      "13:5": [
+        "forever",
+        "kjv_covenant of salt"
+      ],
+      "13:6": [
+        "servant of kjv_solomon",
+        "against his/lord rebel:perf"
+      ],
+      "13:7": [
+        "child:pl of kjv_belial",
+        "young and tender in heart"
+      ],
+      "13:8": [
+        "gold kjv_calf:pl",
+        "for god:pl"
+      ],
+      "13:9": [
+        "young kjv_bullock and seven kjv_ram:pl",
+        "which god:pl be:neg:pr"
+      ],
+      "13:10": [
+        "wesg he:a forsake:neg:perf",
+        "ourone/god",
+        "kjv_levite:pl their/business"
+      ],
+      "13:11": [
+        "each morning and each evening",
+        "pure kjv_table_furniture",
+        "wesg charge"
+      ],
+      "13:12": [
+        "with wesg:a for ourone/captain",
+        "fight:neg:imp"
+      ],
+      "13:13": [
+        "ambush:a behind",
+        "before kjv_judah",
+        "ambush behind"
+      ],
+      "13:14": [
+        "battle before and behind",
+        "priest:pl with trumpet:pl"
+      ],
+      "13:15": [
+        "god kjv_jeroboam and all kjv_israel:a",
+        "shout:pa"
+      ],
+      "13:16": [
+        "before kjv_judah flee:pa",
+        "into their/hand deliver:pa"
+      ],
+      "13:17": [
+        "great kjv_slaughter",
+        "five+hundred+thousand",
+        "slay:psv fall:pa"
+      ],
+      "13:18": [
+        "under bring:psv:pa",
+        "their/father:pl rely:pa"
+      ],
+      "13:19": [
+        "kjv_jeshanah",
+        "kjv_ephraim_city",
+        "its/town:pl"
+      ],
+      "13:20": [
+        "strength:a again",
+        "kjv_lord he:a strike:pa and he die:pa"
+      ],
+      "13:21": [
+        "fourteen wife:pl",
+        "twenty and two son:pl",
+        "sixteen daughter:pl"
+      ],
+      "13:22": [
+        "his/way:pl and his/say:ev:pl",
+        "prophet kjv_iddo_seer"
+      ],
+      "14:1": [
+        "ten year:pl",
+        "kjv_asa his/son"
+      ],
+      "14:2": [
+        "good and kjv_right_conduct"
+      ],
+      "14:3": [
+        "strange god:pl",
+        "kjv_grove_cult:pl:a cut:pa"
+      ],
+      "14:4": [
+        "law and command:a do:inf"
+      ],
+      "14:5": [
+        "all city:pl of kjv_judah",
+        "high place:pl"
+      ],
+      "14:6": [
+        "fortify:psv city:pl",
+        "no war:a",
+        "rest:a give:pp"
+      ],
+      "14:7": [
+        "wesg these city:pl:a build:opt",
+        "ourone/god",
+        "wesg he:a seek:perf"
+      ],
+      "14:8": [
+        "kjv_target_inventory:pl",
+        "kjv_three+hundred+thousand",
+        "two+hundred+thousand and four+twenty+thousand"
+      ],
+      "14:9": [
+        "kjv_zerah_ethiopian",
+        "thousand+thousand",
+        "kjv_three+hundred chariot:pl"
+      ],
+      "14:10": [
+        "kjv_zephathah",
+        "kjv_array_battle:pa"
+      ],
+      "14:11": [
+        "wesg:a help:imp",
+        "in thy/name wesg",
+        "no man against thee prevail:imp"
+      ],
+      "14:12": [
+        "kjv_ethiopian:pl:a",
+        "kjv_ethiopian:pl flee:pa"
+      ],
+      "14:13": [
+        "kjv_gerar",
+        "kjv_overthrow:psv:pa",
+        "very much spoil"
+      ],
+      "14:14": [
+        "all city:pl:a round about kjv_gerar",
+        "fear of kjv_lord"
+      ],
+      "14:15": [
+        "tent:pl of kjv_livestock",
+        "sheep and kjv_camel:pl"
+      ],
+      "15:1": [
+        "spirit of god",
+        "kjv_azariah_oded son of kjv_oded_prophet"
+      ],
+      "15:2": [
+        "you:pl i:a hear:imp",
+        "while you:pl with he",
+        "forsake:fu"
+      ],
+      "15:3": [
+        "without true god",
+        "without teach:cv priest and without law"
+      ],
+      "15:4": [
+        "their/kjv_trouble",
+        "find:psv:pa"
+      ],
+      "15:5": [
+        "go:pa out",
+        "come:pa in",
+        "great vex:ev:pl"
+      ],
+      "15:6": [
+        "nation by nation and city by city",
+        "god they:a with all kjv_trouble vex:pa"
+      ],
+      "15:7": [
+        "your/hand:pl weak be:neg:imp",
+        "reward:psv:fu"
+      ],
+      "15:8": [
+        "kjv_prophesy:ev of kjv_oded_prophet",
+        "kjv_abomination:adj idol:pl",
+        "altar of kjv_lord:a renew:pa"
+      ],
+      "15:9": [
+        "kjv_ephraim and kjv_manasseh and from kjv_simeon",
+        "join:pa"
+      ],
+      "15:10": [
+        "third month",
+        "fifteen:ord year"
+      ],
+      "15:11": [
+        "seven+hundred ox:pl",
+        "seven+thousand sheep"
+      ],
+      "15:12": [
+        "kjv_covenant",
+        "all their/heart",
+        "all their/soul"
+      ],
+      "15:13": [
+        "death",
+        "small or great",
+        "man or woman"
+      ],
+      "15:14": [
+        "loud voice",
+        "trumpet:pl",
+        "cornet:pl"
+      ],
+      "15:15": [
+        "at oath rejoice:pa",
+        "their/whole desire",
+        "rest:a round about"
+      ],
+      "15:16": [
+        "kjv_maachah_abijam mother of kjv_asa",
+        "stamp:pa",
+        "kjv_kidron burn:pa"
+      ],
+      "15:17": [
+        "high place:pl out of kjv_israel take:psv:neg:pa",
+        "perfect be:pa all his/day:pl"
+      ],
+      "15:18": [
+        "his/father kjv_dedicate:pp",
+        "he himself kjv_dedicate:pp"
+      ],
+      "15:19": [
+        "thirty and five:ord year"
+      ],
+      "16:1": [
+        "thirty and six:ord",
+        "kjv_baasha",
+        "none out go:inf or in come:inf"
+      ],
+      "16:2": [
+        "house of kjv_lord and of house of king",
+        "kjv_benhadad",
+        "kjv_damascus"
+      ],
+      "16:3": [
+        "kjv_league between i and thee",
+        "my/father and thy/father",
+        "thy/kjv_league"
+      ],
+      "16:4": [
+        "kjv_ijon and kjv_dan and kjv_abelmaim",
+        "store:ev city:pl of kjv_naphtali"
+      ],
+      "16:5": [
+        "kjv_ramah build:inf cease:pa",
+        "his/work:a cease:inf"
+      ],
+      "16:6": [
+        "stone:pl of kjv_ramah",
+        "its/wood",
+        "kjv_geba and kjv_mizpah"
+      ],
+      "16:7": [
+        "kjv_hanani_seer",
+        "army of king of kjv_syria out of thy/hand escape:perf"
+      ],
+      "16:8": [
+        "kjv_lubim",
+        "chariot:pl and kjv_horseman:pl",
+        "into thy/hand deliver:pa"
+      ],
+      "16:9": [
+        "eye:pl of kjv_lord",
+        "forward and back run:pr",
+        "foolish:adv",
+        "war:pl have:fu"
+      ],
+      "16:10": [
+        "prison house",
+        "some of people:a",
+        "oppress:pa"
+      ],
+      "16:11": [
+        "first and last",
+        "book of king:pl of kjv_judah and kjv_israel"
+      ],
+      "16:12": [
+        "thirty and nine:ord",
+        "his/foot:pl sick",
+        "seek:neg:pa but physician:pl"
+      ],
+      "16:13": [
+        "one_num and forty:ord",
+        "with his/father:pl sleep:pa"
+      ],
+      "16:14": [
+        "his/own tomb:pl",
+        "kjv_apothecary:pl",
+        "for he very great burn:ev"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "13:4",
+        "15:2",
+        "16:3"
+      ],
+      "ipl": [],
+      "mypl": [],
+      "iplself": [],
+      "wesg": [
+        "13:10",
+        "13:11",
+        "13:12",
+        "14:11",
+        "14:7"
+      ],
+      "wepl": [],
+      "ourone": [
+        "13:10",
+        "13:11",
+        "13:12",
+        "14:11",
+        "14:7"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Year18/reign3;armies400000/800000;seven rams;500000slain;14wives22sons16daughters;ten quiet years;300000/280000troops;1000000host/300chariots;month3/year15;700oxen/7000sheep;years35,36,39,41and first/last ordinal retained."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Abijah covenant-side singular-we,Asa civic and military singular-we,prophet personal-I and Asa transactional personal-I remain contextual. No divine first-person speech or invented person-count.",
+      "Michaiah/Maachah,Azariah/Oded,Asas mother,regnal dates,high-place claims,perfect-heart judgment and Syrian host remain as supplied.",
+      "All prior targets and seals unchanged. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Chronicles — incomplete Bible working text",
+    "pages": 258,
+    "spreads": 129,
+    "units": 329,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "e11bf776ccfd8d86cd7c054065da7401fb038caa48fb3eb5f361ed03c8dc8984",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 129,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.306,
+    "modules": [
+      "tests.test_kjv_chronicles_claimed_whole",
+      "tests.test_kjv_chronicles_coercion_secession",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    257,
+    258
+  ],
+  "status": "incomplete Bible; section checkpoint verified",
+  "knownErrata": [
+    "Military host14:9/14:13uses the hospitality-host root in this seal. New90working copies correct it to army; seven host-sense repairs across Genesis/1Chronicles/2Chronicles are tracked in90. No older seal is altered."
+  ]
+}

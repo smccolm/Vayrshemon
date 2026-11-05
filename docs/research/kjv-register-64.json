@@ -1,0 +1,649 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.64",
+    "parentVersion": "0.10-kjv.63",
+    "parentHead": "f0412bdc2bd180b8b1a88c74a6e678d9314bf516d4dfdea84b7f81d1666173ad",
+    "head": "e17522877682f4d24d3e6a91738534241a9f5482fa66286403686ab6098dc92f",
+    "newLexicalEntries": 7,
+    "newProperEntries": 4,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 70,
+    "exactCompilerCases": 70,
+    "newAuthoredVerses": 70,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 70,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21450,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 70,
+    "kings2Verses": 70,
+    "authoredVerses": 9652,
+    "remainingVerses": 21450,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 18,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 1:9",
+        "source": "Then the king sent unto him a captain of fifty with his fifty. And he went up to him: and, behold, he sat on the top of an hill. And he spake unto him, Thou man of God, the king hath said, Come down.",
+        "expectedDecimalQuantities": [
+          50,
+          50
+        ],
+        "targetQuantities": [
+          50,
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 1:10",
+        "source": "And Elijah answered and said to the captain of fifty, If I be a man of God, then let fire come down from heaven, and consume thee and thy fifty. And there came down fire from heaven, and consumed him and his fifty.",
+        "expectedDecimalQuantities": [
+          50,
+          50,
+          50
+        ],
+        "targetQuantities": [
+          50,
+          50,
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 1:11",
+        "source": "Again also he sent unto him another captain of fifty with his fifty. And he answered and said unto him, O man of God, thus hath the king said, Come down quickly.",
+        "expectedDecimalQuantities": [
+          50,
+          50
+        ],
+        "targetQuantities": [
+          50,
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 1:12",
+        "source": "And Elijah answered and said unto them, If I be a man of God, let fire come down from heaven, and consume thee and thy fifty. And the fire of God came down from heaven, and consumed him and his fifty.",
+        "expectedDecimalQuantities": [
+          50,
+          50
+        ],
+        "targetQuantities": [
+          50,
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 1:13",
+        "source": "And he sent again a captain of the third fifty with his fifty. And the third captain of fifty went up, and came and fell on his knees before Elijah, and besought him, and said unto him, O man of God, I pray thee, let my life, and the life of these fifty thy servants, be precious in thy sight.",
+        "expectedDecimalQuantities": [
+          3,
+          50,
+          50,
+          50,
+          3,
+          50
+        ],
+        "targetQuantities": [
+          3,
+          50,
+          50,
+          50,
+          3,
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 1:14",
+        "source": "Behold, there came fire down from heaven, and burnt up the two captains of the former fifties with their fifties: therefore let my life now be precious in thy sight.",
+        "expectedDecimalQuantities": [
+          2,
+          50,
+          50
+        ],
+        "targetQuantities": [
+          2,
+          50,
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 1:17",
+        "source": "So he died according to the word of the LORD which Elijah had spoken. And Jehoram reigned in his stead in the second year of Jehoram the son of Jehoshaphat king of Judah; because he had no son.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 2:7",
+        "source": "And fifty men of the sons of the prophets went, and stood to view afar off: and they two stood by Jordan.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 2:12",
+        "source": "And Elisha saw it, and he cried, My father, my father, the chariot of Israel, and the horsemen thereof. And he saw him no more: and he took hold of his own clothes, and rent them in two pieces.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 2:16",
+        "source": "And they said unto him, Behold now, there be with thy servants fifty strong men; let them go, we pray thee, and seek thy master: lest peradventure the Spirit of the LORD hath taken him up, and cast him upon some mountain, or into some valley. And he said, Ye shall not send.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "2 Kings 2:17",
+        "source": "And when they urged him till he was ashamed, he said, Send. They sent therefore fifty men; and they sought three days, but found him not.",
+        "expectedDecimalQuantities": [
+          50,
+          3
+        ],
+        "targetQuantities": [
+          50,
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 2:24",
+        "source": "And he turned back, and looked on them, and cursed them in the name of the LORD. And there came forth two she bears out of the wood, and tare forty and two children of them.",
+        "expectedDecimalQuantities": [
+          2,
+          42
+        ],
+        "targetQuantities": [
+          2,
+          42
+        ]
+      },
+      {
+        "reference": "2 Kings 3:1",
+        "source": "Now Jehoram the son of Ahab began to reign over Israel in Samaria the eighteenth year of Jehoshaphat king of Judah, and reigned twelve years.",
+        "expectedDecimalQuantities": [
+          18,
+          12
+        ],
+        "targetQuantities": [
+          18,
+          12
+        ]
+      },
+      {
+        "reference": "2 Kings 3:4",
+        "source": "And Mesha king of Moab was a sheepmaster, and rendered unto the king of Israel an hundred thousand lambs, and an hundred thousand rams, with the wool.",
+        "expectedDecimalQuantities": [
+          100000,
+          100000
+        ],
+        "targetQuantities": [
+          100000,
+          100000
+        ]
+      },
+      {
+        "reference": "2 Kings 3:9",
+        "source": "So the king of Israel went, and the king of Judah, and the king of Edom: and they fetched a compass of seven days’ journey: and there was no water for the host, and for the cattle that followed them.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 3:10",
+        "source": "And the king of Israel said, Alas! that the LORD hath called these three kings together, to deliver them into the hand of Moab!",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 3:13",
+        "source": "And Elisha said unto the king of Israel, What have I to do with thee? get thee to the prophets of thy father, and to the prophets of thy mother. And the king of Israel said unto him, Nay: for the LORD hath called these three kings together, to deliver them into the hand of Moab.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 3:26",
+        "source": "And when the king of Moab saw that the battle was too sore for him, he took with him seven hundred men that drew swords, to break through even unto the king of Edom: but they could not.",
+        "expectedDecimalQuantities": [
+          700
+        ],
+        "targetQuantities": [
+          700
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "after of kjv_ahab death",
+        "kjv_moab against kjv_israel rebel:pa"
+      ],
+      "1:2": [
+        "through lattice",
+        "his/kjv_upper chamber",
+        "kjv_baalzebub god of kjv_ekron",
+        "sickness i recover:fu"
+      ],
+      "1:3": [
+        "angel to kjv_elijah kjv_tishbite",
+        "in kjv_israel god be:pr not it be:pr not",
+        "you go:pr ?"
+      ],
+      "1:4": [
+        "from that bed",
+        "come:fu not down but surely die:fu",
+        "kjv_elijah depart:pa"
+      ],
+      "1:5": [
+        "why now you turn:perf back ?"
+      ],
+      "1:6": [
+        "to wesg meet:inf",
+        "king who you:a send:pa",
+        "thou send:pr ?",
+        "surely die:fu"
+      ],
+      "1:7": [
+        "what manner of man",
+        "these word:pl:a"
+      ],
+      "1:8": [
+        "hairy man",
+        "of leather kjv_girdle",
+        "kjv_elijah kjv_tishbite"
+      ],
+      "1:9": [
+        "of fifty captain:a with his/fifty",
+        "upon of hill top",
+        "king say:perf"
+      ],
+      "1:10": [
+        "if of god man i be:pr",
+        "fire come:opt down",
+        "he and his/fifty:a consume:pa"
+      ],
+      "1:11": [
+        "another of fifty captain",
+        "of god man:excl",
+        "quickly come:imp down"
+      ],
+      "1:12": [
+        "if of god man i be:pr",
+        "of god fire from heaven",
+        "he and his/fifty:a consume:pa"
+      ],
+      "1:13": [
+        "of kjv_three:ord fifty",
+        "kjv_three:ord captain",
+        "upon his/knee:pl",
+        "my/life and of these fifty thy/servant:pl life"
+      ],
+      "1:14": [
+        "two captain:pl of former fifty:pl",
+        "now my/life"
+      ],
+      "1:15": [
+        "of he afraid be:imp not",
+        "with he to king go:pa down"
+      ],
+      "1:16": [
+        "of his/word ask:inf",
+        "from that bed",
+        "surely die:fu"
+      ],
+      "1:17": [
+        "kjv_jehoram_ahab rule:pa",
+        "two:ord year of kjv_jehoram_jehoshaphat",
+        "son:a he have:pa not"
+      ],
+      "1:18": [
+        "remainder of act:pl",
+        "chronicle:pl of king:pl of kjv_israel"
+      ],
+      "2:1": [
+        "by kjv_whirlwind",
+        "kjv_elijah with kjv_elisha from kjv_gilgal"
+      ],
+      "2:2": [
+        "to kjv_bethel i:a kjv_lord send:perf",
+        "thou:a i leave:fu not"
+      ],
+      "2:3": [
+        "from thy/head kjv_lord take:fu away",
+        "yes it:a i know:pr",
+        "your/peace:a hold:imp"
+      ],
+      "2:4": [
+        "to kjv_jericho i:a kjv_lord send:perf",
+        "thou:a i leave:fu not"
+      ],
+      "2:5": [
+        "who at kjv_jericho",
+        "from thy/head",
+        "your/peace:a hold:imp"
+      ],
+      "2:6": [
+        "to kjv_jordan",
+        "they:du go:pa on"
+      ],
+      "2:7": [
+        "fifty man:pl",
+        "far off see:inf",
+        "they:du by kjv_jordan"
+      ],
+      "2:8": [
+        "his/mantle:a",
+        "together wrap:pa",
+        "water:pl:a strike:pa",
+        "they:du on dry ground"
+      ],
+      "2:9": [
+        "before from thou i take:psv:pr away",
+        "of thy/spirit double part"
+      ],
+      "2:10": [
+        "if i:a thou see:pr",
+        "but if not so it be:fu not"
+      ],
+      "2:11": [
+        "of fire chariot",
+        "they:du:a apart separate:pa",
+        "by kjv_whirlwind into heaven kjv_elijah go:pa up"
+      ],
+      "2:12": [
+        "my/father:excl my/father:excl",
+        "see:pa no more",
+        "two piece:pl they:a kjv_rend:pa"
+      ],
+      "2:13": [
+        "mantle:a which from he fall:pa",
+        "of kjv_jordan bank"
+      ],
+      "2:14": [
+        "where of kjv_elijah kjv_lord god be:pr ?",
+        "they kjv_divide:psv:pa",
+        "kjv_elisha go:pa over"
+      ],
+      "2:15": [
+        "they say:pa",
+        "of kjv_elijah spirit rest:pr",
+        "themselves:a bow:pa"
+      ],
+      "2:16": [
+        "fifty strong man:pl",
+        "thou:a wesg pray:pr",
+        "lest perhaps",
+        "you send:fu not"
+      ],
+      "2:17": [
+        "until ashamed he be:pa",
+        "fifty man:pl:a",
+        "kjv_three day:pl seek:pa",
+        "find:pa not"
+      ],
+      "2:18": [
+        "at kjv_jericho he tarry:pa",
+        "i say:pa not go:imp not ?"
+      ],
+      "2:19": [
+        "i pray:pr thou",
+        "water bad be:pr and ground barren"
+      ],
+      "2:20": [
+        "new kjv_cruse:a",
+        "salt:a put:imp"
+      ],
+      "2:21": [
+        "of water:pl spring",
+        "thus kjv_lord say:pr",
+        "these water:pl:a ipl heal:perf",
+        "death or barren land be:fu not"
+      ],
+      "2:22": [
+        "until this day water:pl heal:psv:pa",
+        "kjv_according to of kjv_elisha"
+      ],
+      "2:23": [
+        "little child:pl",
+        "thou kjv_bald head:excl go:imp up thou kjv_bald head:excl"
+      ],
+      "2:24": [
+        "in name of kjv_lord they:a curse:pa",
+        "two female bear_animal:pl",
+        "forty and two child:pl:a kjv_rend:pa"
+      ],
+      "2:25": [
+        "kjv_carmel mountain",
+        "to kjv_samaria return:pa"
+      ],
+      "3:1": [
+        "kjv_jehoram_ahab son of kjv_ahab",
+        "ten and eight:ord year",
+        "twelve year:pl"
+      ],
+      "3:2": [
+        "not like his/father and like his/mother",
+        "kjv_baal image:a",
+        "put:pa away"
+      ],
+      "3:3": [
+        "sin:caus:pa",
+        "kjv_cleave_adhere:pa",
+        "depart:pa not"
+      ],
+      "3:4": [
+        "kjv_mesha_moab",
+        "hundred+thousand kjv_lamb:pl",
+        "hundred+thousand kjv_ram:pl:a with kjv_wool give:pa"
+      ],
+      "3:5": [
+        "kjv_ahab dead be:pa",
+        "rebel:pa"
+      ],
+      "3:6": [
+        "kjv_jehoram_ahab",
+        "all kjv_israel:a kjv_number:pa"
+      ],
+      "3:7": [
+        "against ipl rebel:perf",
+        "ipl go:fu up",
+        "mypl/people",
+        "mypl/horse:pl"
+      ],
+      "3:8": [
+        "which way wesg go:fu up",
+        "of kjv_edom kjv_wilderness"
+      ],
+      "3:9": [
+        "king of kjv_edom",
+        "round course of seven day:pl journey",
+        "for army and for kjv_livestock"
+      ],
+      "3:10": [
+        "alas:excl",
+        "these kjv_three king:pl:a",
+        "hand of kjv_moab"
+      ],
+      "3:11": [
+        "wepl ask:pr:may",
+        "one of of king of kjv_israel servant:pl",
+        "kjv_elisha son of kjv_shaphat_elisha",
+        "hand:pl water:a pour:pa"
+      ],
+      "3:12": [
+        "kjv_jehoshaphat say:pa",
+        "king of kjv_edom to he go:pa down"
+      ],
+      "3:13": [
+        "with thou what:a i have:pr do:inf",
+        "thy/father prophet:pl",
+        "thy/mother prophet:pl",
+        "these kjv_three king:pl:a"
+      ],
+      "3:14": [
+        "before whom i stand:pr",
+        "kjv_jehoshaphat king of kjv_judah",
+        "i look:pr:cond not"
+      ],
+      "3:15": [
+        "kjv_minstrel:a bring:imp",
+        "when kjv_minstrel play:pa",
+        "of kjv_lord hand upon he"
+      ],
+      "3:16": [
+        "full of kjv_trench_channel:pl"
+      ],
+      "3:17": [
+        "wind:a you see:fu not nor rain:a you see:fu",
+        "your/kjv_livestock and your/beast:pl"
+      ],
+      "3:18": [
+        "only small thing",
+        "kjv_moabites:a into your/hand"
+      ],
+      "3:19": [
+        "fortify:psv city",
+        "good kjv_tree:a fall:caus:fu",
+        "all of water kjv_well:pl:a stop:fu",
+        "with stone:pl mar:fu"
+      ],
+      "3:20": [
+        "kjv_meat_offering offer:psv:pa",
+        "by of kjv_edom way water"
+      ],
+      "3:21": [
+        "kjv_armour:a put:inf on",
+        "and up they gather:pa",
+        "kjv_border"
+      ],
+      "3:22": [
+        "sun shine:pa",
+        "as red as blood see:pa"
+      ],
+      "3:23": [
+        "they say:pa",
+        "one another:a they strike:perf",
+        "kjv_moab to spoil"
+      ],
+      "3:24": [
+        "kjv_moabites flee:pa",
+        "forward of kjv_israel people go:pa"
+      ],
+      "3:25": [
+        "each man his/stone:a",
+        "all of water kjv_well:pl",
+        "only in kjv_kirharaseth",
+        "kjv_sling:ag:pl"
+      ],
+      "3:26": [
+        "seven+hundred man:pl",
+        "to king of kjv_edom",
+        "they can:pa not"
+      ],
+      "3:27": [
+        "his/eldest son:a",
+        "upon wall for burn:pp kjv_offering he:a offer:pa",
+        "against kjv_israel great indignation be:pa",
+        "of kjv_israel people depart:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Repeated captain titles and troop counts refer to three successive units, not additional troops.",
+      "Double portion is separately verified as doubling, not a count of divine persons.",
+      "Two bears tear42 children; no unstated death count is added.",
+      "Two100000-animal tribute groups, seven-day circuit and700 swordsmen retain their source scopes."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Divine and royal plural-self, personal I, actual prophetic dual, political singular-we and plural rulers remain distinct. No invented Trinity count.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 60,
+    "spreads": 30,
+    "units": 70,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "a04a1d92661db7324070df987de6e055f421d8339b84c3b4cb52a43fdc0c97c8",
+    "maxBaselineErrorPt": 0.007812500000056843,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 30,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 120,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 13.917,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_succession",
+      "tests.test_kjv_human_one_context",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      59,
+      60
+    ],
+    "observations": "Draft final spread viewed before sealing; official pages validated against identical ledger. Approved four-column geometry, Maxima and Unta preserved."
+  },
+  "status": "incomplete whole Bible"
+}

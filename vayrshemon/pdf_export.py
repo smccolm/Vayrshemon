@@ -24,8 +24,13 @@ def export_document(window):
         if QMessageBox.question(window,'Replace PDF?',path+' already exists. Replace it when the complete PDF is ready?',
             QMessageBox.StandardButton.Yes|QMessageBox.StandardButton.No,QMessageBox.StandardButton.No)!=QMessageBox.StandardButton.Yes:return
         replace['replace_sha256']=previous
-    result=window.invoke('jobs.export',path=path,format='pdf',mode=book.view['mode'],dpi=dpi,raster_policy='raster',
-        pdf_view=window.preview.page_mode,**replace)
+    window.prepare_export_progress()
+    try:
+        result=window.invoke('jobs.export',path=path,format='pdf',mode=book.view['mode'],dpi=dpi,raster_policy='raster',
+            pdf_view=window.preview.page_mode,**replace)
+    finally:
+        window._preparing_export=False
+        window.poll_jobs()
     if result:
         window.poll_jobs()
         window.statusBar().showMessage(f'Exporting all {len(book.state["pages"])} pages to PDF · {dpi} DPI · '+path,30000)

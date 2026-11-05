@@ -1,0 +1,29 @@
+{
+  "version": "0.10-kjv.3",
+  "policy": "never-modernize",
+  "status": "working historical continuation; WHOLE BIBLE INCOMPLETE",
+  "basePackage": "data/language/archaic-kjv-2",
+  "baseManifestSha256": "f2dbd88c6f03523abf2cb2776b239037304a3881f2e7b430a629aee4ae16c46f",
+  "baseForgeHead": "0cca3ec046b553a2d846a7983d91ed47a7e0c8cb242ee990921c8ce2111a0f7d",
+  "forgeHead": "6ea3d263412ca6ddf004421edb6be1ea3d869187ea02b3dc698aa25b11f8712b",
+  "compilerPath": "data/language/archaic-kjv-3/compiler.py",
+  "compilerSha256": "fce3a11a2eed028ea8e7d4cdb4d22984075cb5cdacb2d3ede8be0aaefdca3bde",
+  "compilerChange": "Compiler unchanged; authored plural-I and singular-we lexical perspectives, possessive aliases and sense distinctions.",
+  "files": {
+    "additions.json": "38d76711d3f4b103c418d846d99a66435d182bae4215a2ea70802cdd4304cf7c",
+    "compiler.py": "fce3a11a2eed028ea8e7d4cdb4d22984075cb5cdacb2d3ede8be0aaefdca3bde",
+    "continuation-cases.json": "12e7140213bbc262a9d72e37de8d8bee3e8c3cdc9471c75c629d4fe30dd66330",
+    "coverage-summary.json": "503c0dc64f15222423f4e7bd2eb1524204960d019ff3ac9870c6ae1b8d65310e",
+    "grammar.md": "fd0cd1f7cfe67070d6325836fa9498a5b802b723371d09f5d5e3232a1dc6a4fd",
+    "historical-cases.json": "e3739d352d7db05020274e88f800e2a6ea561442d35681d85ee03812afb69ebc",
+    "identity-cases.json": "284042d82ac9a657509d080ed8c3417c954310e34ecf1080a9e7b61bd1086c1c",
+    "inherited-grammar.md": "bd15af84f2db9de872808c8efd49178dada5dc98cc9afdf5826cde4b98eea116",
+    "lexicon.json": "926c7b471ed7bc98328517d2cab8aa5cd113a18346f2a977e307be4aab8ee6e3",
+    "morphology.json": "78353e23739f325009b872ff52ff0ef1af3fabbd589696c339218c10b5b50921",
+    "orthography.json": "032da7c5ffd64f327a4237762bcf00dcaf990cff660c142a037600f7ac464591",
+    "parent-continuation-grammar.md": "0065b4a05a1e7c8dd152900a2ea45d1ce14570d651f0eaedb3d5ea8b5bfde078",
+    "parent-historical-grammar.md": "2ba822e2dbcbea89729bc52fcc252eba0bdda0a004b4e1fa85a8d9442f45cf75",
+    "regression-cases.json": "0afcbcc75fc4cf998565088d8352e7b31737d5169ce38b00d89203b67b94a8a8",
+    "working-provenance.json": "70d67fb81c6547eceacae15d94b01e58c012f63aed0af2305e2b2aa929157a6e"
+  }
+}

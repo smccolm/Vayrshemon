@@ -42,8 +42,9 @@ class RichEditor(Editor):
     def within_document_limit(self,text):
         cursor=self.textCursor(); before=self.book.text()
         removed=scalar_offset(before,cursor.selectionEnd())-scalar_offset(before,cursor.selectionStart())
-        if sum(len(frame.text()) for frame in self.book.frames.values())-removed+len(text)>200_000:
-            self.book.log.emit('input','INPUT_REJECTED',level='warning',message='DOCUMENT_LIMIT: 200,000 total scalars')
+        count=self.book.text_scalar_count() if hasattr(type(self.book),'text_scalar_count') else sum(len(frame.text()) for frame in self.book.frames.values())
+        if count-removed+len(text)>self.book.max_document_scalars:
+            self.book.log.emit('input','INPUT_REJECTED',level='warning',message=f'DOCUMENT_LIMIT: {self.book.max_document_scalars} total scalars')
             return False
         return True
 
@@ -103,13 +104,20 @@ class PageCanvas(QAbstractScrollArea):
         self.pan_button=None
         self.auto_center_single=False
         self.page_mode='one'
+        self.fit_mode=None
         self._center_signature=None
         self.setFocusPolicy(Qt.FocusPolicy.StrongFocus)
         self.setAccessibleDescription('Select: click a frame to edit. Hand: drag to move the view. With preview focus use V, H, Space, arrow keys or Home.')
         for bar in (self.horizontalScrollBar(),self.verticalScrollBar()): bar.valueChanged.connect(self.viewport().update)
 
+    @property
+    def zoom(self):
+        if self.fit_mode and self.book.window:
+            return self.book.window.fitted_zoom(fit_height=self.fit_mode=='height')
+        return self.book.view['zoom']
+
     def update_page(self):
-        area=self.display_rect(); zoom=self.book.view['zoom']
+        area=self.display_rect(); zoom=self.zoom
         # A viewport of pasteboard on every side permits dragging a fitted page.
         self.horizontalScrollBar().setRange(-self.viewport().width(),math.ceil(area.width()*zoom))
         self.verticalScrollBar().setRange(-self.viewport().height(),math.ceil(area.height()*zoom))
@@ -118,8 +126,11 @@ class PageCanvas(QAbstractScrollArea):
                    area.width(),area.height(),zoom,self.viewport().width(),self.viewport().height())
         if self.auto_center_single and signature!=self._center_signature:
             self._position_center(area,zoom)
+            if self.fit_mode=='width':self.verticalScrollBar().setValue(0)
         self._center_signature=signature
         self.viewport().update()
+        navigator=getattr(self.book.window,'page_navigator',None)
+        if navigator:navigator.sync()
 
     def display_pages(self):
         from .page_view import arrangement
@@ -139,7 +150,7 @@ class PageCanvas(QAbstractScrollArea):
 
     def paintEvent(self,event):
         p=QPainter(self.viewport()); p.fillRect(self.viewport().rect(),QColor('#d8dfe5'))
-        zoom=self.book.view['zoom']; dx=self.RULER-self.horizontalScrollBar().value(); dy=self.RULER-self.verticalScrollBar().value()
+        zoom=self.zoom; dx=self.RULER-self.horizontalScrollBar().value(); dy=self.RULER-self.verticalScrollBar().value()
         p.save(); p.translate(dx,dy); p.scale(zoom,zoom)
         clip=QRectF(-dx/zoom,-dy/zoom,self.viewport().width()/zoom,self.viewport().height()/zoom)
         try:
@@ -183,7 +194,7 @@ class PageCanvas(QAbstractScrollArea):
 
     def wheelEvent(self,event):
         if event.modifiers() & Qt.KeyboardModifier.ControlModifier:
-            self.invoke('view.configure',zoom=max(.1,min(3,round(self.book.view['zoom']+(0.1 if event.angleDelta().y()>0 else -.1),2))))
+            self.invoke('view.configure',zoom=max(.1,min(3,round(self.zoom+(0.1 if event.angleDelta().y()>0 else -.1),2))))
             event.accept()
         else: super().wheelEvent(event)
 
@@ -192,7 +203,7 @@ class PageCanvas(QAbstractScrollArea):
         if event.button()==Qt.MouseButton.MiddleButton or (event.button()==Qt.MouseButton.LeftButton and (self.tool=='hand' or self.space_pan)):
             self.pan=event.position();self.pan_button=event.button();self.update_cursor();event.accept();return
         if event.button()==Qt.MouseButton.LeftButton:
-            zoom=self.book.view['zoom']
+            zoom=self.zoom
             x=(event.position().x()-self.RULER+self.horizontalScrollBar().value())/zoom
             y=(event.position().y()-self.RULER+self.verticalScrollBar().value())/zoom
             hit=self.hit_test(x,y)
@@ -228,7 +239,7 @@ class PageCanvas(QAbstractScrollArea):
         return self.navigation_state()
 
     def center_page(self):
-        self.update_page();area=self.display_rect();z=self.book.view['zoom']
+        self.update_page();area=self.display_rect();z=self.zoom
         self._position_center(area,z)
         return self.navigation_state()
 
@@ -237,11 +248,13 @@ class PageCanvas(QAbstractScrollArea):
         self.verticalScrollBar().setValue(round((area.height()*z-self.viewport().height()+self.RULER)/2))
 
     def navigation_state(self):
+        navigator=getattr(self.book.window,'page_navigator',None)
         return dict(tool=self.tool,dragging=self.pan is not None,temporaryHand=self.space_pan,
+            fitMode=self.fit_mode,**(navigator.inspect() if navigator else {}),
             pageMode=self.page_mode,visiblePages=[dict(pageId=p['pageId'],rect=[r.x(),r.y(),r.width(),r.height()]) for p,r in self.display_pages()],
             displayRect=[0,0,self.display_rect().width(),self.display_rect().height()],
             pageOrigin=[self.RULER-self.horizontalScrollBar().value(),self.RULER-self.verticalScrollBar().value()],
-            viewport=[self.viewport().width(),self.viewport().height()],zoom=self.book.view['zoom'],units='viewport-logical-pixels')
+            viewport=[self.viewport().width(),self.viewport().height()],zoom=self.zoom,units='viewport-logical-pixels')
 
     def keyPressEvent(self,event):
         if event.modifiers()==Qt.KeyboardModifier.NoModifier:

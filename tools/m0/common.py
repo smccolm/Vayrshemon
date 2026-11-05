@@ -19,8 +19,9 @@ def load_json(path):
     def reject_constant(value):
         raise ValueError("NONFINITE_JSON_NUMBER: " + value)
 
-    return json.loads(Path(path).read_text(encoding="utf-8-sig"),
-                      object_pairs_hook=unique_pairs, parse_constant=reject_constant)
+    from vayrshemon.native_storage import logical_payload
+    return logical_payload(json.loads(Path(path).read_text(encoding="utf-8-sig"),
+                      object_pairs_hook=unique_pairs, parse_constant=reject_constant))
 
 
 def json_text(value):

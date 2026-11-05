@@ -1,0 +1,805 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.229",
+    "parentVersion": "0.10-kjv.228",
+    "parentHead": "1094e68ef55d5eeababdf22f41edac8fd24f4a2930b6481dd4d53a15caead4b6",
+    "head": "1dad563bcddeb2dd8188ea66c3330b7a8566a4e4c54e92d733cf596729d51b89",
+    "newLexicalEntries": 43,
+    "newProperEntries": 35,
+    "newCommonEntries": 8,
+    "newSurfaceForms": 38,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 103,
+    "exactCompilerCases": 103,
+    "newAuthoredVerses": 103,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 703,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 3475,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newActsVerses": 103,
+    "actsVerses": 703,
+    "authoredVerses": 27627,
+    "remainingVerses": 3475,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 12,
+    "quantityChecks": [
+      {
+        "reference": "Acts 17:2",
+        "source": "And Paul, as his manner was, went in unto them, and three sabbath days reasoned with them out of the scriptures,",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 17:26",
+        "source": "And hath made of one blood all nations of men for to dwell on all the face of the earth, and hath determined the times before appointed, and the bounds of their habitation;",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 18:11",
+        "source": "And he continued there a year and six months, teaching the word of God among them.",
+        "expectedDecimalQuantities": [
+          1,
+          6
+        ],
+        "targetQuantities": [
+          1,
+          6
+        ]
+      },
+      {
+        "reference": "Acts 18:12",
+        "source": "And when Gallio was the deputy of Achaia, the Jews made insurrection with one accord against Paul, and brought him to the judgment seat,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 19:7",
+        "source": "And all the men were about twelve.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Acts 19:8",
+        "source": "And he went into the synagogue, and spake boldly for the space of three months, disputing and persuading the things concerning the kingdom of God.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 19:10",
+        "source": "And this continued by the space of two years; so that all they which dwelt in Asia heard the word of the Lord Jesus, both Jews and Greeks.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Acts 19:14",
+        "source": "And there were seven sons of one Sceva, a Jew, and chief of the priests, which did so.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Acts 19:19",
+        "source": "Many of them also which used curious arts brought their books together, and burned them before all men: and they counted the price of them, and found it fifty thousand pieces of silver.",
+        "expectedDecimalQuantities": [
+          50000
+        ],
+        "targetQuantities": [
+          50000
+        ]
+      },
+      {
+        "reference": "Acts 19:22",
+        "source": "So he sent into Macedonia two of them that ministered unto him, Timotheus and Erastus; but he himself stayed in Asia for a season.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Acts 19:29",
+        "source": "And the whole city was filled with confusion: and having caught Gaius and Aristarchus, men of Macedonia, Paul’s companions in travel, they rushed with one accord into the theatre.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 19:34",
+        "source": "But when they knew that he was a Jew, all with one voice about the space of two hours cried out, Great is Diana of the Ephesians.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "17:1": [
+        "kjv_amphipolis_acts and kjv_apollonia_acts",
+        "kjv_thessalonica_acts"
+      ],
+      "17:2": [
+        "three kjv_sabbath day:pl",
+        "holy writing:pl"
+      ],
+      "17:3": [
+        "suffer:perf:must",
+        "rise:perf:must",
+        "whom i to you proclaim:pr"
+      ],
+      "17:4": [
+        "devout greek:pl",
+        "chief woman:pl not few"
+      ],
+      "17:5": [
+        "who believe:neg:pa",
+        "with kjv_envy",
+        "wicked fellow:pl",
+        "kjv_jason_acts"
+      ],
+      "17:6": [
+        "find:neg:pa",
+        "kjv_jason_acts and certain brother:pl",
+        "world up down"
+      ],
+      "17:7": [
+        "contrary to decree:pl of kjv_caesar_ruler",
+        "another king person kjv_jesus_matthew"
+      ],
+      "17:8": [
+        "people and ruler:pl",
+        "kjv_trouble"
+      ],
+      "17:9": [
+        "pledge from kjv_jason_acts",
+        "go:inf let:pa"
+      ],
+      "17:10": [
+        "by night to kjv_berea_acts",
+        "kjv_synagogue"
+      ],
+      "17:11": [
+        "more kjv_noble_receptive_acts",
+        "all ready:ev of mind",
+        "daily holy writing:pl search:pa",
+        "whether"
+      ],
+      "17:12": [
+        "honourable woman:pl who greek:pl",
+        "man:pl not few"
+      ],
+      "17:13": [
+        "kjv_thessalonica_acts",
+        "kjv_berea_acts",
+        "people stir:pa"
+      ],
+      "17:14": [
+        "as it be:pa to sea",
+        "kjv_silas_acts and kjv_timotheus_acts there still"
+      ],
+      "17:15": [
+        "to athens",
+        "all speed",
+        "depart:pa"
+      ],
+      "17:16": [
+        "for they:du",
+        "his/spirit",
+        "kjv_worship:ev of idol:pl"
+      ],
+      "17:17": [
+        "devout person:pl",
+        "market daily"
+      ],
+      "17:18": [
+        "kjv_epicurean_acts:pl and kjv_stoick_acts:pl",
+        "kjv_babble:ag",
+        "strange god:pl",
+        "rise:ev again"
+      ],
+      "17:19": [
+        "kjv_areopagus_acts",
+        "wesg",
+        "new teach:ev"
+      ],
+      "17:20": [
+        "ourone/ear:pl",
+        "wesg",
+        "mean:pr"
+      ],
+      "17:21": [
+        "all kjv_athenian_acts:pl and stranger:pl",
+        "nothing else",
+        "tell:inf or hear:inf"
+      ],
+      "17:22": [
+        "kjv_mars_hill_acts/hill",
+        "i",
+        "too kjv_superstitious_acts"
+      ],
+      "17:23": [
+        "i by pass:pa",
+        "kjv_inscription_mark",
+        "to god who know:neg:psv:pr",
+        "i to you declare:pr"
+      ],
+      "17:24": [
+        "heaven and earth",
+        "with hand:pl make:psv:adj dwell:neg:pr"
+      ],
+      "17:25": [
+        "kjv_worship:psv:neg:pr",
+        "as though any thing need:pa",
+        "life and breath and all thing:pl"
+      ],
+      "17:26": [
+        "one_num blood all nation:pl",
+        "all face of earth",
+        "time:pl before appoint:psv:adj",
+        "boundary:pl"
+      ],
+      "17:27": [
+        "if perhaps",
+        "each of wesg far be:neg:pr"
+      ],
+      "17:28": [
+        "wesg live:pr and move:pr",
+        "ourone/be:ev",
+        "your/own poet:pl",
+        "wesg also his/offspring"
+      ],
+      "17:29": [
+        "wesg offspring of god",
+        "kjv_godhead_acts",
+        "gold or silver or stone",
+        "think:neg:should"
+      ],
+      "17:30": [
+        "ignorance god neglect:pa",
+        "all man:pl everywhere"
+      ],
+      "17:31": [
+        "day appoint:perf",
+        "by that man",
+        "assurance",
+        "from dead:pl"
+      ],
+      "17:32": [
+        "some mock:pa",
+        "wesg of this thing thee again hear:fu"
+      ],
+      "17:33": [
+        "from among they depart:pa"
+      ],
+      "17:34": [
+        "kjv_dionysius_acts kjv_areopagite_acts",
+        "kjv_damaris_acts",
+        "other:pl"
+      ],
+      "18:1": [
+        "athens",
+        "kjv_corinth_acts"
+      ],
+      "18:2": [
+        "kjv_aquila_acts in kjv_pontus_acts bear:psv:adj",
+        "who lately from italy come:perf",
+        "kjv_priscilla_acts",
+        "all kjv_jew:pl from kjv_rome_acts",
+        "to they:du"
+      ],
+      "18:3": [
+        "same craft",
+        "with they:du",
+        "tent make:ag:pl"
+      ],
+      "18:4": [
+        "each kjv_sabbath",
+        "kjv_jew:pl and greek:pl persuade:pa"
+      ],
+      "18:5": [
+        "kjv_silas_acts and kjv_timotheus_acts",
+        "in spirit press:psv:pa",
+        "kjv_jesus_matthew kjv_christ_title"
+      ],
+      "18:6": [
+        "kjv_blaspheme:pa",
+        "your/blood on your/own head:pl",
+        "i clean",
+        "i go:fu"
+      ],
+      "18:7": [
+        "kjv_justus_corinth_acts",
+        "god kjv_worship:pa",
+        "close to kjv_synagogue"
+      ],
+      "18:8": [
+        "kjv_crispus_acts",
+        "all his/house",
+        "kjv_corinthian_acts:pl",
+        "kjv_baptize:psv:pa"
+      ],
+      "18:9": [
+        "in night by vision",
+        "afraid be:neg:imp",
+        "silent remain:neg:imp"
+      ],
+      "18:10": [
+        "ipl with thee",
+        "no man",
+        "ipl much people"
+      ],
+      "18:11": [
+        "one_num year and six month:pl"
+      ],
+      "18:12": [
+        "kjv_gallio_acts kjv_deputy of kjv_achaia_acts",
+        "one_num agree:ev",
+        "judgment seat"
+      ],
+      "18:13": [
+        "god contrary to law kjv_worship:inf"
+      ],
+      "18:14": [
+        "about his/mouth open:inf",
+        "kjv_gallio_acts",
+        "if thing of wrong",
+        "i with you endure:should"
+      ],
+      "18:15": [
+        "word:pl and name:pl and of your/law",
+        "i judge:ag",
+        "be:neg:fu"
+      ],
+      "18:16": [
+        "judgment seat they:a drive:pa"
+      ],
+      "18:17": [
+        "all greek:pl",
+        "kjv_sosthenes_acts",
+        "beat:pa",
+        "none of those thing:pl care:pa"
+      ],
+      "18:18": [
+        "kjv_priscilla_acts and kjv_aquila_acts",
+        "his/head in kjv_cenchrea_acts shear:pp",
+        "vow:ev"
+      ],
+      "18:19": [
+        "kjv_ephesus_acts",
+        "they:du:a leave:pa",
+        "himself"
+      ],
+      "18:20": [
+        "longer time",
+        "consent:neg:pa"
+      ],
+      "18:21": [
+        "i by all means this feast",
+        "kjv_jerusalem",
+        "i to you again return:fu if god will:pr"
+      ],
+      "18:22": [
+        "kjv_caesarea_acts",
+        "up go:pp",
+        "kjv_church_assembly greet:pp",
+        "kjv_antioch_acts"
+      ],
+      "18:23": [
+        "kjv_galatia_acts and kjv_phrygia_acts by kjv_sequence_order",
+        "all disciple:pl"
+      ],
+      "18:24": [
+        "kjv_apollos_acts",
+        "kjv_alexandria_acts bear:psv:adj",
+        "kjv_eloquent",
+        "holy writing:pl"
+      ],
+      "18:25": [
+        "in spirit hot",
+        "kjv_diligent:adv",
+        "only kjv_baptize:ev of kjv_john_baptist"
+      ],
+      "18:26": [
+        "kjv_aquila_acts and kjv_priscilla_acts",
+        "they:du",
+        "more perfect:adv explain:pa"
+      ],
+      "18:27": [
+        "kjv_achaia_acts",
+        "brother:pl write:pa",
+        "through grace believe:pp"
+      ],
+      "18:28": [
+        "kjv_convince_reprove:pa",
+        "manifest:adv",
+        "kjv_jesus_matthew kjv_christ_title"
+      ],
+      "19:1": [
+        "kjv_apollos_acts at kjv_corinth_acts",
+        "kjv_upper region:pl",
+        "kjv_ephesus_acts"
+      ],
+      "19:2": [
+        "holy spirit receive:perf:q",
+        "wesg whether any holy spirit be:pr even hear:neg:perf"
+      ],
+      "19:3": [
+        "to what",
+        "kjv_john_baptist/kjv_baptize:ev"
+      ],
+      "19:4": [
+        "kjv_baptize:ev of repent:ev",
+        "kjv_christ_title kjv_jesus_matthew"
+      ],
+      "19:5": [
+        "in name of kjv_lord kjv_jesus_matthew"
+      ],
+      "19:6": [
+        "his/hand:pl",
+        "holy spirit",
+        "tongue:pl",
+        "kjv_prophesy:pa"
+      ],
+      "19:7": [
+        "about twelve"
+      ],
+      "19:8": [
+        "three month:pl",
+        "kingdom of god"
+      ],
+      "19:9": [
+        "hard:caus:psv:pa",
+        "believe:neg:pa",
+        "school of person kjv_tyrannus_acts"
+      ],
+      "19:10": [
+        "two year:pl",
+        "kjv_asia_acts",
+        "kjv_lord kjv_jesus_matthew",
+        "both kjv_jew:pl and greek:pl"
+      ],
+      "19:11": [
+        "god by hand:pl of kjv_paul_acts special miracle:pl"
+      ],
+      "19:12": [
+        "handkerchief:pl or kjv_apron:pl",
+        "sickness:pl",
+        "evil spirit:pl"
+      ],
+      "19:13": [
+        "wandering kjv_jew:pl kjv_exorcist_acts:pl",
+        "wesg you by kjv_jesus_matthew",
+        "kjv_adjure:pr"
+      ],
+      "19:14": [
+        "seven son:pl of person kjv_sceva_acts",
+        "chief of priest:pl"
+      ],
+      "19:15": [
+        "evil spirit",
+        "kjv_jesus_matthew i know:pr and kjv_paul_acts i know:pr"
+      ],
+      "19:16": [
+        "overcome:pa",
+        "without clothing and kjv_wound_inflict:psv:adj"
+      ],
+      "19:17": [
+        "all kjv_jew:pl and greek:pl",
+        "fear",
+        "name of kjv_lord kjv_jesus_matthew great make:psv:pa"
+      ],
+      "19:18": [
+        "many who believe:pa",
+        "confess:pa",
+        "deed:pl"
+      ],
+      "19:19": [
+        "kjv_curious_magic_acts:pl",
+        "book:pl",
+        "burn:pa",
+        "four+twelve+thousand and two+thousand piece:pl of silver"
+      ],
+      "19:20": [
+        "with might word of god grow:pa"
+      ],
+      "19:21": [
+        "in spirit purpose:pa",
+        "kjv_macedonia_acts and kjv_achaia_acts",
+        "after i there be:perf i also kjv_rome_acts"
+      ],
+      "19:22": [
+        "two of they",
+        "kjv_timotheus_acts and kjv_erastus_acts",
+        "himself in kjv_asia_acts"
+      ],
+      "19:23": [
+        "no small stir"
+      ],
+      "19:24": [
+        "kjv_demetrius_silver_acts silver artisan",
+        "kjv_shrine_acts:pl for kjv_diana_goddess_acts",
+        "no small gain"
+      ],
+      "19:25": [
+        "wesg ourone/wealth"
+      ],
+      "19:26": [
+        "not alone",
+        "almost through all kjv_asia_acts",
+        "with hand:pl make:psv:pr no god:pl"
+      ],
+      "19:27": [
+        "ourone/craft",
+        "kjv_temple",
+        "her/greatness",
+        "all kjv_asia_acts and world"
+      ],
+      "19:28": [
+        "full of wrath",
+        "great be:pr:excl"
+      ],
+      "19:29": [
+        "kjv_gaius_macedonia_acts and kjv_aristarchus_acts",
+        "one_num agree:ev",
+        "kjv_theatre_acts"
+      ],
+      "19:30": [
+        "disciple:pl he:a allow:neg:pa"
+      ],
+      "19:31": [
+        "chief:pl of kjv_asia_acts",
+        "his/friend:pl",
+        "risk:neg:should"
+      ],
+      "19:32": [
+        "kjv_congregation_general confuse:psv:adj",
+        "greater part",
+        "know:neg:pa"
+      ],
+      "19:33": [
+        "kjv_alexander_ephesus_acts",
+        "kjv_jew:pl he:a forward put:cv",
+        "defence make:inf intend:pa"
+      ],
+      "19:34": [
+        "one_num voice about space of two hour:pl",
+        "great be:pr:excl"
+      ],
+      "19:35": [
+        "kjv_townclerk_acts",
+        "image which from kjv_jupiter_acts down fall:pa"
+      ],
+      "19:36": [
+        "against speak:psv:neg:can",
+        "nothing with haste"
+      ],
+      "19:37": [
+        "neither kjv_temple:pl rob:ag:pl be:neg:pr nor yet your/goddess kjv_blaspheme:ag:pl be:neg:pr"
+      ],
+      "19:38": [
+        "law open",
+        "kjv_deputy:pl",
+        "each other accuse:opt"
+      ],
+      "19:39": [
+        "lawful kjv_congregation_general"
+      ],
+      "19:40": [
+        "wesg",
+        "no cause",
+        "wesg of this gather:ev account"
+      ],
+      "19:41": [
+        "kjv_congregation_general dismiss:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "17:22",
+        "17:23",
+        "17:3",
+        "18:14",
+        "18:15",
+        "18:21",
+        "18:6",
+        "19:15",
+        "19:21"
+      ],
+      "ipl": [
+        "18:10"
+      ],
+      "wesg": [
+        "17:19",
+        "17:20",
+        "17:27",
+        "17:28",
+        "17:29",
+        "17:32",
+        "19:13",
+        "19:2",
+        "19:25",
+        "19:40"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "17:20",
+        "17:28",
+        "19:25",
+        "19:27"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "17:16",
+        "18:19",
+        "18:2",
+        "18:26",
+        "18:3"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "17:16",
+      "18:19",
+      "18:2",
+      "18:26",
+      "18:3"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Three sabbaths,one blood,year/six months,one accord,about twelve,three months,two years,seven sons,fifty thousand silver pieces,two messengers,one accord/voice/about two hours.",
+      "Questioning,human,exorcist,guild and civic singular-we differ;the Lord plural-I differs from Paul/Gallio and evil-spirit personal-I."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "103new verses;703Acts;whole Bible incomplete.",
+      "Source superstitious,one-blood,Godhead,full feast clause,pressed-in-spirit,all-Greeks and seven-son wording retained.",
+      "Eight common and thirty-five proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Acts — incomplete Bible working text",
+    "pages": 422,
+    "spreads": 211,
+    "units": 703,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "42d79ad3ec9b587377d72e60fffd7b9aef935474aa994f304c03304350c8bc04",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 211,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.098,
+    "modules": [
+      "tests.test_kjv_acts_competing_communities",
+      "tests.test_kjv_acts_disputed_unity",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    421,
+    422
+  ],
+  "status": "incomplete Bible;Acts1–19 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 421,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv229\\preflight-acts\\Proofs\\page-421.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv229\\composed-acts\\Proofs\\page-421.png",
+        "sha256": "c028eeee4c981ae7c396024b5a52cc4979eb62763b06ddbc45bfa5043438f171",
+        "bytesIdentical": true
+      },
+      {
+        "page": 422,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv229\\preflight-acts\\Proofs\\page-422.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv229\\composed-acts\\Proofs\\page-422.png",
+        "sha256": "42c58c6719bc39cc1c4104b29c84df1545a78911fbff3dfbf33193cc64ccab58",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

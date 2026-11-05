@@ -1,0 +1,2316 @@
+{
+  "summary": {
+    "version": "0.10",
+    "semanticKeysBefore": 3805,
+    "semanticKeysAfter": 3809,
+    "addedSemanticKeys": [
+      "bar_obstruct",
+      "eleven",
+      "mortal_legacy",
+      "zero"
+    ],
+    "changedLexicalForms": 28,
+    "propagatedCompoundForms": 19,
+    "editorialAnalysisCorrections": 212,
+    "nonExpressiveCorrections": 36,
+    "exclamatoryUnits": 176,
+    "exclamatoryOccurrences": 221,
+    "unitsChanged": {
+      "allswell": 249,
+      "midsummer": 170
+    },
+    "allSourceUnits": 1970,
+    "regressionCases": 64,
+    "historicalHeads": {
+      "allswell": "117ea486b8159d76b90a7141bc24344693b216decbcf32d6e6e7a337ec422e50",
+      "midsummer": "c1ac6e6271a4f3620329b9d8867741f03ce439999ab36d859862e1312c73ac22"
+    },
+    "decisions": {
+      "duplicateDeclarations": 12,
+      "homographCandidates": 57,
+      "unrelatedHomophonyRetained": 10
+    },
+    "forgeHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+    "headwordRecordsBefore": 2655,
+    "headwordRecordsAfter": 2685,
+    "newCurrentHeadwordRecords": 30,
+    "retiredHeadwordRecords": 23,
+    "newGrammarRules": 10,
+    "newMorphologyRecords": 1,
+    "newWikiPages": 3,
+    "newForgeFixtures": 53,
+    "forgeFixturesAfter": 1659
+  },
+  "homographReview": [
+    {
+      "form": "jwën",
+      "keys": [
+        "able",
+        "can"
+      ],
+      "meanings": [
+        "Able (v)",
+        "can, be able to"
+      ],
+      "uses": {
+        "allswell": 22,
+        "midsummer": 7
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "aÙÕßr",
+      "keys": [
+        "bear",
+        "born",
+        "breed"
+      ],
+      "meanings": [
+        "Bear (v) <make+live>",
+        "beget or give birth, in passive be born",
+        "breed, generate offspring"
+      ],
+      "uses": {
+        "allswell": 17,
+        "midsummer": 6
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "hefak",
+      "keys": [
+        "fight",
+        "contend"
+      ],
+      "meanings": [
+        "Fight (v)",
+        "contend, struggle for mastery"
+      ],
+      "uses": {
+        "allswell": 5,
+        "midsummer": 5
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "Õßr",
+      "keys": [
+        "live",
+        "life"
+      ],
+      "meanings": [
+        "Live (v)",
+        "life, living duration or condition"
+      ],
+      "uses": {
+        "allswell": 52,
+        "midsummer": 21
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "norÓa",
+      "keys": [
+        "order",
+        "command"
+      ],
+      "meanings": [
+        "Order (v)",
+        "command, authoritative order"
+      ],
+      "uses": {
+        "allswell": 18,
+        "midsummer": 3
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "dlenÛemin",
+      "keys": [
+        "stay",
+        "remain"
+      ],
+      "meanings": [
+        "Stay (v)",
+        "Stay (v)"
+      ],
+      "uses": {
+        "allswell": 17,
+        "midsummer": 19
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "kÇfagëa",
+      "keys": [
+        "succeed",
+        "achieve"
+      ],
+      "meanings": [
+        "Succeed (v)",
+        "achieve, bring successfully to completion"
+      ],
+      "uses": {
+        "allswell": 5,
+        "midsummer": 0
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "Élm",
+      "keys": [
+        "want",
+        "desire",
+        "will"
+      ],
+      "meanings": [
+        "Want (v)",
+        "desire, want intensely",
+        "will, desire or intend; not an English future auxiliary"
+      ],
+      "uses": {
+        "allswell": 46,
+        "midsummer": 37
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "pá",
+      "keys": [
+        "begin",
+        "origin"
+      ],
+      "meanings": [
+        "begin (n, cnt) <origin>",
+        "begin (n, cnt) <origin>"
+      ],
+      "uses": {
+        "allswell": 9,
+        "midsummer": 5
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "na",
+      "keys": [
+        "over",
+        "above"
+      ],
+      "meanings": [
+        "over, above",
+        "above, higher than; socially superior in the love imagery"
+      ],
+      "uses": {
+        "allswell": 5,
+        "midsummer": 6
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "dÇven",
+      "keys": [
+        "attend",
+        "service"
+      ],
+      "meanings": [
+        "attend, serve or give sustained attention to",
+        "service, attendance or duty to another"
+      ],
+      "uses": {
+        "allswell": 27,
+        "midsummer": 7
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "n×nna",
+      "keys": [
+        "dead",
+        "mortal"
+      ],
+      "meanings": [
+        "the dead, people who have died",
+        "mortal, liable to death or causing death in a contextual predication"
+      ],
+      "uses": {
+        "allswell": 13,
+        "midsummer": 21
+      },
+      "disposition": "separated in current forms",
+      "decision": "SENSE-02"
+    },
+    {
+      "form": "prodna",
+      "keys": [
+        "holy",
+        "sacred"
+      ],
+      "meanings": [
+        "holy, set apart as sacred",
+        "sacred, consecrated or religiously authoritative"
+      ],
+      "uses": {
+        "allswell": 13,
+        "midsummer": 3
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "wÅvumen",
+      "keys": [
+        "mind",
+        "thought"
+      ],
+      "meanings": [
+        "mind, faculty or content of thinking",
+        "thought, particular product of thinking"
+      ],
+      "uses": {
+        "allswell": 18,
+        "midsummer": 11
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "lamprod",
+      "keys": [
+        "trust",
+        "faith"
+      ],
+      "meanings": [
+        "trust, rely on another's truth or fidelity",
+        "faith, trust or allegiance; religious belief in context"
+      ],
+      "uses": {
+        "allswell": 27,
+        "midsummer": 8
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "ni",
+      "keys": [
+        "at",
+        "inside",
+        "in"
+      ],
+      "meanings": [
+        "at, local setting without necessarily being inside",
+        "inside, interior location",
+        "in; interior, setting, or state"
+      ],
+      "uses": {
+        "allswell": 109,
+        "midsummer": 178
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "omi",
+      "keys": [
+        "blink",
+        "eye"
+      ],
+      "meanings": [
+        "blink, briefly close the eyes",
+        "eye, organ of sight"
+      ],
+      "uses": {
+        "allswell": 17,
+        "midsummer": 69
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "kran",
+      "keys": [
+        "bone",
+        "noise"
+      ],
+      "meanings": [
+        "bone, rigid skeletal support",
+        "unstructured audible sound"
+      ],
+      "uses": {
+        "allswell": 3,
+        "midsummer": 4
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "thren",
+      "keys": [
+        "boundary",
+        "dust"
+      ],
+      "meanings": [
+        "boundary, division or limit",
+        "dust, fine dry residue"
+      ],
+      "uses": {
+        "allswell": 5,
+        "midsummer": 2
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "muren",
+      "keys": [
+        "evil",
+        "illness"
+      ],
+      "meanings": [
+        "evil, bad quality or harmful act",
+        "illness, harmful bodily condition"
+      ],
+      "uses": {
+        "allswell": 10,
+        "midsummer": 2
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "lofna",
+      "keys": [
+        "foolish",
+        "mock"
+      ],
+      "meanings": [
+        "foolish, lacking practical judgment",
+        "make another an object of derision"
+      ],
+      "uses": {
+        "allswell": 7,
+        "midsummer": 13
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "grelna",
+      "keys": [
+        "humble",
+        "low"
+      ],
+      "meanings": [
+        "humble, low in rank or self-estimation",
+        "low, beneath in position or rank"
+      ],
+      "uses": {
+        "allswell": 16,
+        "midsummer": 6
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "threnin",
+      "keys": [
+        "line",
+        "part"
+      ],
+      "meanings": [
+        "line, drawn mark or contour",
+        "part, portion or side in a division"
+      ],
+      "uses": {
+        "allswell": 16,
+        "midsummer": 20
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "vimin",
+      "keys": [
+        "little",
+        "small"
+      ],
+      "meanings": [
+        "little, small amount or size",
+        "small, little in scale"
+      ],
+      "uses": {
+        "allswell": 15,
+        "midsummer": 15
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "voren",
+      "keys": [
+        "matter",
+        "case"
+      ],
+      "meanings": [
+        "matter, material substance from which something is made",
+        "case, circumstance or enclosing body; genital innuendo in Fool's dialogue"
+      ],
+      "uses": {
+        "allswell": 14,
+        "midsummer": 6
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "wÏßen",
+      "keys": [
+        "question",
+        "request"
+      ],
+      "meanings": [
+        "question, act or content of asking",
+        "request, asking another to act"
+      ],
+      "uses": {
+        "allswell": 12,
+        "midsummer": 5
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "varßn",
+      "keys": [
+        "sovereign",
+        "king"
+      ],
+      "meanings": [
+        "sovereign, reigning monarch",
+        "king, sovereign ruler"
+      ],
+      "uses": {
+        "allswell": 143,
+        "midsummer": 8
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "mel",
+      "keys": [
+        "sweet",
+        "soft"
+      ],
+      "meanings": [
+        "sweet, pleasant to taste or affection",
+        "soft, yielding to touch"
+      ],
+      "uses": {
+        "allswell": 15,
+        "midsummer": 49
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "tatus",
+      "keys": [
+        "two",
+        "second"
+      ],
+      "meanings": [
+        "two",
+        "second; order of two"
+      ],
+      "uses": {
+        "allswell": 73,
+        "midsummer": 21
+      },
+      "disposition": "separated in current forms",
+      "decision": "QUANTITY-02"
+    },
+    {
+      "form": "neir",
+      "keys": [
+        "yourselves",
+        "yourself"
+      ],
+      "meanings": [
+        "yourselves, reflexive addressees",
+        "yourself, reflexive respectful addressee"
+      ],
+      "uses": {
+        "allswell": 12,
+        "midsummer": 6
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "venor",
+      "keys": [
+        "time",
+        "long"
+      ],
+      "meanings": [
+        "time, duration or occasion",
+        "long, extended in duration"
+      ],
+      "uses": {
+        "allswell": 44,
+        "midsummer": 18
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "mem",
+      "keys": [
+        "enough",
+        "measure"
+      ],
+      "meanings": [
+        "enough; meeting a contextual threshold",
+        "measure, assess against a due amount"
+      ],
+      "uses": {
+        "allswell": 11,
+        "midsummer": 13
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "korin",
+      "keys": [
+        "cornet",
+        "corin"
+      ],
+      "meanings": [
+        "cornet, ceremonial wind instrument",
+        "Corin; adapted cultural or personal name"
+      ],
+      "uses": {
+        "allswell": 2,
+        "midsummer": 1
+      },
+      "disposition": "retained name/common-word homophony",
+      "decision": "HOMOPHONY-02"
+    },
+    {
+      "form": "jorin",
+      "keys": [
+        "ear",
+        "should"
+      ],
+      "meanings": [
+        "ear, organ of hearing",
+        "should; defeasible obligation or expected result"
+      ],
+      "uses": {
+        "allswell": 14,
+        "midsummer": 17
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "arven",
+      "keys": [
+        "noble",
+        "dignity"
+      ],
+      "meanings": [
+        "noble by rank; excellence distinguished by good or worthy",
+        "social dignity, from honour family"
+      ],
+      "uses": {
+        "allswell": 20,
+        "midsummer": 7
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "dlen",
+      "keys": [
+        "lie",
+        "rest"
+      ],
+      "meanings": [
+        "lie, remain situated; not speak falsely",
+        "rest, remain at ease"
+      ],
+      "uses": {
+        "allswell": 12,
+        "midsummer": 29
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "tom",
+      "keys": [
+        "mouth",
+        "tom"
+      ],
+      "meanings": [
+        "mouth, organ of speech and eating",
+        "Tom"
+      ],
+      "uses": {
+        "allswell": 6,
+        "midsummer": 2
+      },
+      "disposition": "retained name/common-word homophony",
+      "decision": "HOMOPHONY-02"
+    },
+    {
+      "form": "yel",
+      "keys": [
+        "day",
+        "grass"
+      ],
+      "meanings": [
+        "day, daylight period or full day by context",
+        "grass"
+      ],
+      "uses": {
+        "allswell": 16,
+        "midsummer": 26
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "den",
+      "keys": [
+        "mark",
+        "name"
+      ],
+      "meanings": [
+        "mark, distinguishing sign; make such a sign",
+        "name, identifying designation"
+      ],
+      "uses": {
+        "allswell": 27,
+        "midsummer": 20
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "hëthven",
+      "keys": [
+        "later",
+        "late"
+      ],
+      "meanings": [
+        "later, afterward in time",
+        "late; after the expected time"
+      ],
+      "uses": {
+        "allswell": 7,
+        "midsummer": 0
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "pal",
+      "keys": [
+        "parent",
+        "leg"
+      ],
+      "meanings": [
+        "parent, mother or father",
+        "leg"
+      ],
+      "uses": {
+        "allswell": 4,
+        "midsummer": 5
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "ren",
+      "keys": [
+        "flow",
+        "rain"
+      ],
+      "meanings": [
+        "move continuously as water",
+        "rain"
+      ],
+      "uses": {
+        "allswell": 3,
+        "midsummer": 1
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "mav",
+      "keys": [
+        "no",
+        "mood"
+      ],
+      "meanings": [
+        "no; negative response or determiner no",
+        "passing emotional disposition"
+      ],
+      "uses": {
+        "allswell": 40,
+        "midsummer": 73
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "krën",
+      "keys": [
+        "scar",
+        "crooked"
+      ],
+      "meanings": [
+        "healed mark of a wound",
+        "bent or deviating from straight"
+      ],
+      "uses": {
+        "allswell": 5,
+        "midsummer": 2
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "nel",
+      "keys": [
+        "thou",
+        "kernel"
+      ],
+      "meanings": [
+        "you, singular intimate or downward address",
+        "seed or edible centre; figurative substance"
+      ],
+      "uses": {
+        "allswell": 341,
+        "midsummer": 160
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "venka",
+      "keys": [
+        "condition",
+        "although"
+      ],
+      "meanings": [
+        "circumstance on which an outcome depends",
+        "although; concessive antecedent"
+      ],
+      "uses": {
+        "allswell": 24,
+        "midsummer": 0
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "marven",
+      "keys": [
+        "master",
+        "dishonour"
+      ],
+      "meanings": [
+        "master, person exercising authority or skilled teacher",
+        "loss or denial of honour; negative lexicalization"
+      ],
+      "uses": {
+        "allswell": 18,
+        "midsummer": 14
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "borel",
+      "keys": [
+        "vessel",
+        "bag"
+      ],
+      "meanings": [
+        "container",
+        "flexible carrying container"
+      ],
+      "uses": {
+        "allswell": 1,
+        "midsummer": 4
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "nër",
+      "keys": [
+        "nose",
+        "narrow"
+      ],
+      "meanings": [
+        "nose",
+        "limited in width"
+      ],
+      "uses": {
+        "allswell": 5,
+        "midsummer": 1
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "pánsën",
+      "keys": [
+        "prepare",
+        "ready"
+      ],
+      "meanings": [
+        "make ready beforehand",
+        "ready, prepared"
+      ],
+      "uses": {
+        "allswell": 1,
+        "midsummer": 11
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "kerin",
+      "keys": [
+        "spur",
+        "sting"
+      ],
+      "meanings": [
+        "metal spur used by a rider",
+        "small sharp wound or its infliction"
+      ],
+      "uses": {
+        "allswell": 5,
+        "midsummer": 1
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "shalen",
+      "keys": [
+        "wrinkle",
+        "cover"
+      ],
+      "meanings": [
+        "fold or crease in skin or cloth",
+        "cover or place over"
+      ],
+      "uses": {
+        "allswell": 2,
+        "midsummer": 2
+      },
+      "disposition": "retained provisional unrelated homophony; explicit semantic keys required; review when ambiguity occurs",
+      "decision": "HOMOPHONY-03"
+    },
+    {
+      "form": "jak",
+      "keys": [
+        "jaques",
+        "jack"
+      ],
+      "meanings": [
+        "Saint Jaques, pilgrimage destination",
+        "Jack; adapted cultural name in the supplied play"
+      ],
+      "uses": {
+        "allswell": 5,
+        "midsummer": 1
+      },
+      "disposition": "retained name/common-word homophony",
+      "decision": "HOMOPHONY-02"
+    },
+    {
+      "form": "fëlmir",
+      "keys": [
+        "bewitch",
+        "enchantment"
+      ],
+      "meanings": [
+        "alter perception or attachment by enchantment; accusation need not be true",
+        "magical alteration or binding; nominal sense of bewitch"
+      ],
+      "uses": {
+        "allswell": 0,
+        "midsummer": 4
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "piril",
+      "keys": [
+        "spot",
+        "freckle"
+      ],
+      "meanings": [
+        "small distinct coloured mark; same headword as freckle",
+        "small spot on skin or petals"
+      ],
+      "uses": {
+        "allswell": 0,
+        "midsummer": 2
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "chiril",
+      "keys": [
+        "chink",
+        "crack"
+      ],
+      "meanings": [
+        "narrow opening in a solid boundary",
+        "narrow split; same headword as chink"
+      ],
+      "uses": {
+        "allswell": 0,
+        "midsummer": 8
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    },
+    {
+      "form": "konspir",
+      "keys": [
+        "conspiracy",
+        "conspire"
+      ],
+      "meanings": [
+        "secret agreement to act together against another",
+        "make such a secret agreement; same headword"
+      ],
+      "uses": {
+        "allswell": 0,
+        "midsummer": 2
+      },
+      "disposition": "retained related senses / grammatical or contextual distinction",
+      "decision": "HOMOPHONY-01"
+    }
+  ],
+  "duplicateDeclarations": {
+    "scorn": [
+      {
+        "file": "lexicon-act1b.tsv",
+        "form": "=contempt+speech",
+        "meaning": "scorn, expressed contempt"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "grënaw",
+        "meaning": "reject as beneath one's dignity; contemptuous rejection"
+      }
+    ],
+    "steward": [
+      {
+        "file": "lexicon-act1b.tsv",
+        "form": "=home+organize+man",
+        "meaning": "steward, manager of a household"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "zálinhifår",
+        "meaning": "household administrator"
+      }
+    ],
+    "seeker": [
+      {
+        "file": "lexicon-act2.tsv",
+        "form": "=seek+person",
+        "meaning": "one who seeks or competes"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "t×yßbßkel",
+        "meaning": "one who seeks or competes"
+      }
+    ],
+    "bar": [
+      {
+        "file": "lexicon-act2b.tsv",
+        "form": "=boundary+close",
+        "meaning": "prevent passage or action"
+      },
+      {
+        "file": "lexicon-act5.tsv",
+        "form": "zaril",
+        "meaning": "long rigid bar"
+      }
+    ],
+    "navigator": [
+      {
+        "file": "lexicon-act2b.tsv",
+        "form": "=sea+guide+person",
+        "meaning": "ship's pilot"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "mermiktaz×r",
+        "meaning": "pilot, guide of a ship"
+      }
+    ],
+    "widow": [
+      {
+        "file": "lexicon-act3b.tsv",
+        "form": "=husband+loss+woman",
+        "meaning": "widow"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "zërna",
+        "meaning": "woman whose spouse has died"
+      }
+    ],
+    "bottom": [
+      {
+        "file": "lexicon-act3c.tsv",
+        "form": "=lowest+part",
+        "meaning": "bottom"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "durën",
+        "meaning": "lowest interior part; underlying substance or purpose figuratively"
+      }
+    ],
+    "dilemma": [
+      {
+        "file": "lexicon-act3c.tsv",
+        "form": "=two+hard+choice",
+        "meaning": "dilemma"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "tannerb",
+        "meaning": "choice between difficult alternatives"
+      }
+    ],
+    "anatomize": [
+      {
+        "file": "lexicon-act4b.tsv",
+        "form": "=part+examine",
+        "meaning": "anatomize"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "anët",
+        "meaning": "dissect or expose inner structure; figuratively expose character"
+      }
+    ],
+    "rector": [
+      {
+        "file": "lexicon-act4b.tsv",
+        "form": "=parson+master",
+        "meaning": "rector"
+      },
+      {
+        "file": "lexicon-z-lexicalized.tsv",
+        "form": "renvik",
+        "meaning": "cleric responsible for a parish or religious house"
+      }
+    ],
+    "taunt": [
+      {
+        "file": "lexicon-zz-midsummer3.tsv",
+        "form": "tavrel",
+        "meaning": "taunt; explicit dramatic sense of mock + insult"
+      },
+      {
+        "file": "lexicon-zz-midsummer4.tsv",
+        "form": "tavrel",
+        "meaning": "provoke by mocking personal insult"
+      }
+    ],
+    "woodbine": [
+      {
+        "file": "lexicon-zz-midsummer3.tsv",
+        "form": "=honeysuckle",
+        "meaning": "woodbine, a climbing plant twining around the honeysuckle in Titania's image"
+      },
+      {
+        "file": "lexicon-zz-midsummer4.tsv",
+        "form": "=climb+herb",
+        "meaning": "general twining climber in Titania's embrace image; not an exact modern species identification"
+      }
+    ]
+  },
+  "lexicalChanges": [
+    {
+      "key": "both",
+      "before": "tatusol",
+      "after": "ÓÅtusol",
+      "beforeRoman": "tatusol",
+      "afterRoman": "thātusol",
+      "reason": "two plus totality",
+      "propagated": true
+    },
+    {
+      "key": "double",
+      "before": "tatus",
+      "after": "ÓÅtus",
+      "beforeRoman": "tatus",
+      "afterRoman": "thātus",
+      "reason": "0.8 semantic extension or zero conversion of two",
+      "propagated": true
+    },
+    {
+      "key": "dozen",
+      "before": "dëkal",
+      "after": "Ém×nß",
+      "beforeRoman": "dükal",
+      "afterRoman": "ämēnō",
+      "reason": "0.8 semantic extension or zero conversion of twelve",
+      "propagated": true
+    },
+    {
+      "key": "either",
+      "before": "tatusgrafel",
+      "after": "ÓÅtusgrafel",
+      "beforeRoman": "tatusgrafel",
+      "afterRoman": "thātusgrafel",
+      "reason": "two plus any",
+      "propagated": true
+    },
+    {
+      "key": "equivocal",
+      "before": "tatusezna",
+      "after": "ÓÅtusezna",
+      "beforeRoman": "tatusezna",
+      "afterRoman": "thātusezna",
+      "reason": "0.8 authored dramatic register",
+      "propagated": true
+    },
+    {
+      "key": "fifteen",
+      "before": "eÛnÉpent",
+      "after": "eÛnÉjensis",
+      "beforeRoman": "eshnäpent",
+      "afterRoman": "eshnäjensis",
+      "reason": "0.8 semantic extension or zero conversion of ten+five",
+      "propagated": true
+    },
+    {
+      "key": "fifty",
+      "before": "penteÛnÉ",
+      "after": "jensiseÛnÉ",
+      "beforeRoman": "penteshnä",
+      "afterRoman": "jensiseshnä",
+      "reason": "0.8 semantic extension or zero conversion of five+ten",
+      "propagated": true
+    },
+    {
+      "key": "five",
+      "before": "pent",
+      "after": "jensis",
+      "beforeRoman": "pent",
+      "afterRoman": "jensis",
+      "reason": "Origins_3_Unta_2.jpg: row 5; Roman reading directly checked, encoded with the approved symbol map",
+      "propagated": false
+    },
+    {
+      "key": "fortnight",
+      "before": "eÛnÉketrenyel",
+      "after": "eÛnÉbÅrumyel",
+      "beforeRoman": "eshnäketrenyel",
+      "afterRoman": "eshnäbārumyel",
+      "reason": "0.9 explicitly authored compound",
+      "propagated": true
+    },
+    {
+      "key": "forty",
+      "before": "ketreneÛnÉ",
+      "after": "bÅrumeÛnÉ",
+      "beforeRoman": "ketreneshnä",
+      "afterRoman": "bārumeshnä",
+      "reason": "0.9 explicit grammatical or cultural proposal",
+      "propagated": true
+    },
+    {
+      "key": "four",
+      "before": "ketren",
+      "after": "bÅrum",
+      "beforeRoman": "ketren",
+      "afterRoman": "bārum",
+      "reason": "Origins_3_Unta_2.jpg: row 4; Roman reading directly checked, encoded with the approved symbol map",
+      "propagated": false
+    },
+    {
+      "key": "fourteen",
+      "before": "eÛnÉketren",
+      "after": "eÛnÉbÅrum",
+      "beforeRoman": "eshnäketren",
+      "afterRoman": "eshnäbārum",
+      "reason": "Explicit additive numeral",
+      "propagated": true
+    },
+    {
+      "key": "fourth",
+      "before": "ketrent",
+      "after": "bÅrum’t",
+      "beforeRoman": "ketrent",
+      "afterRoman": "bārum’t",
+      "reason": "0.10 regular ordinal: four + ord; old short ordinal remains historical",
+      "propagated": false
+    },
+    {
+      "key": "half",
+      "before": "tatusthrenin",
+      "after": "ÓÅtusthrenin",
+      "beforeRoman": "tatusthrenin",
+      "afterRoman": "thātusthrenin",
+      "reason": "0.8 semantic extension or zero conversion of two+part",
+      "propagated": true
+    },
+    {
+      "key": "mortal",
+      "before": "n×nna",
+      "after": "n×njwën",
+      "beforeRoman": "nēnna",
+      "afterRoman": "nēnjwün",
+      "reason": "0.10 transparent mortality compound; historical nēnna was ambiguous with dead",
+      "propagated": true
+    },
+    {
+      "key": "second",
+      "before": "tatus",
+      "after": "ÓÅtus’t",
+      "beforeRoman": "tatus",
+      "afterRoman": "thātus’t",
+      "reason": "0.10 regular ordinal: two + ord; old short ordinal remains historical",
+      "propagated": false
+    },
+    {
+      "key": "seven",
+      "before": "sept",
+      "after": "pÉrsus",
+      "beforeRoman": "sept",
+      "afterRoman": "pärsus",
+      "reason": "Origins_3_Unta_2.jpg: row 7; Roman reading directly checked, encoded with the approved symbol map",
+      "propagated": false
+    },
+    {
+      "key": "seventeen",
+      "before": "eÛnÉsept",
+      "after": "eÛnÉpÉrsus",
+      "beforeRoman": "eshnäsept",
+      "afterRoman": "eshnäpärsus",
+      "reason": "0.8 semantic extension or zero conversion of ten+seven",
+      "propagated": true
+    },
+    {
+      "key": "third",
+      "before": "trent",
+      "after": "venik’t",
+      "beforeRoman": "trent",
+      "afterRoman": "venik’t",
+      "reason": "0.10 regular ordinal: three + ord; old short ordinal remains historical",
+      "propagated": false
+    },
+    {
+      "key": "thirds",
+      "before": "trentthrenin",
+      "after": "venik’tthrenin",
+      "beforeRoman": "trentthrenin",
+      "afterRoman": "venik’tthrenin",
+      "reason": "0.8 semantic extension or zero conversion of third+part",
+      "propagated": true
+    },
+    {
+      "key": "thirty",
+      "before": "treneÛnÉ",
+      "after": "venikeÛnÉ",
+      "beforeRoman": "treneshnä",
+      "afterRoman": "venikeshnä",
+      "reason": "0.8 semantic extension or zero conversion of three+ten",
+      "propagated": true
+    },
+    {
+      "key": "three",
+      "before": "tren",
+      "after": "venik",
+      "beforeRoman": "tren",
+      "afterRoman": "venik",
+      "reason": "Origins_3_Unta_2.jpg: row 3; Roman reading directly checked, encoded with the approved symbol map",
+      "propagated": false
+    },
+    {
+      "key": "thrice",
+      "before": "trenvenor",
+      "after": "venikvenor",
+      "beforeRoman": "trenvenor",
+      "afterRoman": "venikvenor",
+      "reason": "0.8 semantic extension or zero conversion of three+time",
+      "propagated": true
+    },
+    {
+      "key": "triple",
+      "before": "trenna",
+      "after": "venikna",
+      "beforeRoman": "trenna",
+      "afterRoman": "venikna",
+      "reason": "0.9 regular derivation",
+      "propagated": true
+    },
+    {
+      "key": "twelve",
+      "before": "dëkal",
+      "after": "Ém×nß",
+      "beforeRoman": "dükal",
+      "afterRoman": "ämēnō",
+      "reason": "Origins_3_Unta_2.jpg: row 12; Roman reading directly checked, encoded with the approved symbol map",
+      "propagated": false
+    },
+    {
+      "key": "twenty",
+      "before": "tatuseÛnÉ",
+      "after": "ÓÅtuseÛnÉ",
+      "beforeRoman": "tatuseshnä",
+      "afterRoman": "thātuseshnä",
+      "reason": "Explicit multiplicative numeral",
+      "propagated": true
+    },
+    {
+      "key": "two",
+      "before": "tatus",
+      "after": "ÓÅtus",
+      "beforeRoman": "tatus",
+      "afterRoman": "thātus",
+      "reason": "Origins_3_Unta_2.jpg: row 2; Roman reading directly checked, encoded with the approved symbol map",
+      "propagated": false
+    },
+    {
+      "key": "week",
+      "before": "septyel",
+      "after": "pÉrsusyel",
+      "beforeRoman": "septyel",
+      "afterRoman": "pärsusyel",
+      "reason": "0.8 authored dramatic register",
+      "propagated": true
+    }
+  ],
+  "exclamatoryMigration": {
+    "form": "’hÅ",
+    "roman": "’hā",
+    "gloss": "excl.",
+    "units": [
+      {
+        "play": "allswell",
+        "unit": "0008",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0009",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0034",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0051",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0054",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0058",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0059",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0111",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0151",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0153",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0154",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0179",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0181",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0219",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0223",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0229",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0296",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0312",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0313",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0315",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0317",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0319",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0321",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0323",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0356",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0357",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0362",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0389",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0424",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0434",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0446",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0448",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0452",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0453",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0455",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0456",
+        "occurrences": 2
+      },
+      {
+        "play": "allswell",
+        "unit": "0539",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0589",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0612",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0616",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0628",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0658",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0692",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0693",
+        "occurrences": 3
+      },
+      {
+        "play": "allswell",
+        "unit": "0699",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0747",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0771",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0775",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0776",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0798",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0814",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0824",
+        "occurrences": 2
+      },
+      {
+        "play": "allswell",
+        "unit": "0835",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0864",
+        "occurrences": 2
+      },
+      {
+        "play": "allswell",
+        "unit": "0876",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0913",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0920",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0926",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0932",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0943",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0946",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "0965",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "1022",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "1032",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "1046",
+        "occurrences": 2
+      },
+      {
+        "play": "allswell",
+        "unit": "1056",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "1060",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "1088",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "1116",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "1167",
+        "occurrences": 1
+      },
+      {
+        "play": "allswell",
+        "unit": "1203",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0003",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0008",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0041",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0042",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0044",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0046",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0048",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0058",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0060",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0062",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0064",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0068",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0070",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0074",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0075",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0104",
+        "occurrences": 3
+      },
+      {
+        "play": "midsummer",
+        "unit": "0114",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0145",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0183",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0193",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0195",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0213",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0215",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0224",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0226",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0227",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0228",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0229",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0231",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0241",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0242",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0249",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0251",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0252",
+        "occurrences": 3
+      },
+      {
+        "play": "midsummer",
+        "unit": "0253",
+        "occurrences": 3
+      },
+      {
+        "play": "midsummer",
+        "unit": "0263",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0265",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0274",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0278",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0290",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0291",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0296",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0297",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0300",
+        "occurrences": 3
+      },
+      {
+        "play": "midsummer",
+        "unit": "0305",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0308",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0319",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0328",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0329",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0330",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0331",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0356",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0363",
+        "occurrences": 3
+      },
+      {
+        "play": "midsummer",
+        "unit": "0364",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0379",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0381",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0385",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0390",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0391",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0392",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0394",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0409",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0422",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0430",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0431",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0432",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0434",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0443",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0444",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0446",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0449",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0487",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0488",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0495",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0500",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0505",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0529",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0530",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0538",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0540",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0542",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0565",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0580",
+        "occurrences": 7
+      },
+      {
+        "play": "midsummer",
+        "unit": "0596",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0597",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0600",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0605",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0613",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0616",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0617",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0625",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0662",
+        "occurrences": 3
+      },
+      {
+        "play": "midsummer",
+        "unit": "0663",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0664",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0669",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0670",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0701",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0708",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0716",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0717",
+        "occurrences": 5
+      },
+      {
+        "play": "midsummer",
+        "unit": "0720",
+        "occurrences": 1
+      },
+      {
+        "play": "midsummer",
+        "unit": "0721",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0733",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0734",
+        "occurrences": 2
+      },
+      {
+        "play": "midsummer",
+        "unit": "0740",
+        "occurrences": 1
+      }
+    ],
+    "occurrences": 221,
+    "scope": "Existing authored expressive punctuation; English source preserved. Not every imperative or intense event is marked."
+  },
+  "unresolved": [
+    "Alls Well 0024: exact literary scope of mortal",
+    "Ten unrelated homophone groups retained with explicit sense keys",
+    "Higher Unta spoken-number composition",
+    "Independent literary review, metre, dialect development and broader use of rare new constructions"
+  ]
+}

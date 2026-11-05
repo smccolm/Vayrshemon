@@ -1,0 +1,816 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.100",
+    "parentVersion": "0.10-kjv.99",
+    "parentHead": "1adb01bec847769b9eb904c6352bc26af81ab28f28302745f6acf0d020f26c3e",
+    "head": "3f3ce1522ce252b9718f07aa6d7b20d7a0a5f582d299e0859507fb42229ae3ce",
+    "newLexicalEntries": 203,
+    "newProperEntries": 203,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 40,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 114,
+    "exactCompilerCases": 114,
+    "newAuthoredVerses": 114,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 18351,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newNehemiahVerses": 114,
+    "nehemiahVerses": 406,
+    "authoredVerses": 12751,
+    "remainingVerses": 18351,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 18,
+    "quantityChecks": [
+      {
+        "reference": "Nehemiah 11:1",
+        "source": "And the rulers of the people dwelt at Jerusalem: the rest of the people also cast lots, to bring one of ten to dwell in Jerusalem the holy city, and nine parts to dwell in other cities.",
+        "expectedDecimalQuantities": [
+          1,
+          10,
+          9
+        ],
+        "targetQuantities": [
+          1,
+          10,
+          9
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:6",
+        "source": "All the sons of Perez that dwelt at Jerusalem were four hundred threescore and eight valiant men.",
+        "expectedDecimalQuantities": [
+          468
+        ],
+        "targetQuantities": [
+          468
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:8",
+        "source": "And after him Gabbai, Sallai, nine hundred twenty and eight.",
+        "expectedDecimalQuantities": [
+          928
+        ],
+        "targetQuantities": [
+          928
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:9",
+        "source": "And Joel the son of Zichri was their overseer: and Judah the son of Senuah was second over the city.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:12",
+        "source": "And their brethren that did the work of the house were eight hundred twenty and two: and Adaiah the son of Jeroham, the son of Pelaliah, the son of Amzi, the son of Zechariah, the son of Pashur, the son of Malchiah.",
+        "expectedDecimalQuantities": [
+          822
+        ],
+        "targetQuantities": [
+          822
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:13",
+        "source": "And his brethren, chief of the fathers, two hundred forty and two: and Amashai the son of Azareel, the son of Ahasai, the son of Meshillemoth, the son of Immer,",
+        "expectedDecimalQuantities": [
+          242
+        ],
+        "targetQuantities": [
+          242
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:14",
+        "source": "And their brethren, mighty men of valour, an hundred twenty and eight: and their overseer was Zabdiel, the son of one of the great men.",
+        "expectedDecimalQuantities": [
+          128
+        ],
+        "targetQuantities": [
+          128
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:17",
+        "source": "And Mattaniah the son of Micha, the son of Zabdi, the son of Asaph, was the principal to begin the thanksgiving in prayer: and Bakbukiah the second among his brethren, and Abda the son of Shammua, the son of Galal, the son of Jeduthun.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:18",
+        "source": "All the Levites in the holy city were two hundred fourscore and four.",
+        "expectedDecimalQuantities": [
+          284
+        ],
+        "targetQuantities": [
+          284
+        ]
+      },
+      {
+        "reference": "Nehemiah 11:19",
+        "source": "Moreover the porters, Akkub, Talmon, and their brethren that kept the gates, were an hundred seventy and two.",
+        "expectedDecimalQuantities": [
+          172
+        ],
+        "targetQuantities": [
+          172
+        ]
+      },
+      {
+        "reference": "Nehemiah 12:31",
+        "source": "Then I brought up the princes of Judah upon the wall, and appointed two great companies of them that gave thanks, whereof one went on the right hand upon the wall toward the dung gate:",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Nehemiah 12:32",
+        "source": "And after them went Hoshaiah, and half of the princes of Judah,",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 12:38",
+        "source": "And the other company of them that gave thanks went over against them, and I after them, and the half of the people upon the wall, from beyond the tower of the furnaces even unto the broad wall;",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 12:40",
+        "source": "So stood the two companies of them that gave thanks in the house of God, and I, and the half of the rulers with me:",
+        "expectedDecimalQuantities": [
+          2,
+          0.5
+        ],
+        "targetQuantities": [
+          2,
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 12:44",
+        "source": "And at that time were some appointed over the chambers for the treasures, for the offerings, for the firstfruits, and for the tithes, to gather into them out of the fields of the cities the portions of the law for the priests and Levites: for Judah rejoiced for the priests and for the Levites that waited.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Nehemiah 13:6",
+        "source": "But in all this time was not I at Jerusalem: for in the two and thirtieth year of Artaxerxes king of Babylon came I unto the king, and after certain days obtained I leave of the king:",
+        "expectedDecimalQuantities": [
+          32
+        ],
+        "targetQuantities": [
+          32
+        ]
+      },
+      {
+        "reference": "Nehemiah 13:24",
+        "source": "And their children spake half in the speech of Ashdod, and could not speak in the Jews’ language, but according to the language of each people.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Nehemiah 13:31",
+        "source": "And for the wood offering, at times appointed, and for the firstfruits. Remember me, O my God, for good.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "11:1": [
+        "remain:cv part",
+        "kjv_lot:pl:a cast:pa",
+        "one_num of ten",
+        "nine part:pl"
+      ],
+      "11:2": [
+        "willingly themselves:a offer:pa"
+      ],
+      "11:3": [
+        "kjv_province",
+        "each in his/kjv_possession",
+        "child:pl of servant:pl of kjv_solomon"
+      ],
+      "11:6": [
+        "four+hundred and six+ten and eight",
+        "valiant man:pl"
+      ],
+      "11:8": [
+        "kjv_gabbai_resident kjv_sallai_resident",
+        "nine+hundred and twenty and eight"
+      ],
+      "11:9": [
+        "kjv_joel_zichri son of kjv_zichri_joel",
+        "kjv_judah_senuah son of kjv_senuah",
+        "second over city"
+      ],
+      "11:10": [
+        "kjv_jedaiah_joiarib son of kjv_joiarib_jedaiah kjv_jachin_resident"
+      ],
+      "11:14": [
+        "hundred and twenty and eight",
+        "kjv_zabdiel_resident son of some of great man:pl"
+      ],
+      "11:16": [
+        "kjv_shabbethai and kjv_jozabad_oversight",
+        "outside:adj business"
+      ],
+      "11:18": [
+        "two+hundred and four+twenty and four"
+      ],
+      "11:19": [
+        "kjv_akkub_porter_return kjv_talmon_return",
+        "hundred and seven+ten and two"
+      ],
+      "11:20": [
+        "remain:cv part of kjv_israel",
+        "each in his/inheritance"
+      ],
+      "11:21": [
+        "kjv_ophel",
+        "kjv_ziha and kjv_gispa"
+      ],
+      "11:23": [
+        "king:poss command",
+        "due for every day"
+      ],
+      "11:24": [
+        "kjv_pethahiah_meshezabeel son of kjv_meshezabeel_pethahiah",
+        "kjv_zerah_judah son of kjv_judah",
+        "all affair:pl"
+      ],
+      "11:25": [
+        "kjv_kirjatharba",
+        "kjv_dibon",
+        "kjv_jekabzeel"
+      ],
+      "11:26": [
+        "kjv_jeshua_town",
+        "kjv_moladah",
+        "kjv_bethphelet"
+      ],
+      "11:27": [
+        "kjv_hazarshual",
+        "kjv_beersheba"
+      ],
+      "11:28": [
+        "kjv_ziklag",
+        "kjv_mekonah"
+      ],
+      "11:29": [
+        "kjv_enrimmon",
+        "kjv_zareah",
+        "kjv_jarmuth"
+      ],
+      "11:30": [
+        "kjv_zanoah kjv_adullam",
+        "kjv_lachish and its/field:pl",
+        "kjv_azekah",
+        "from kjv_beersheba to valley of kjv_hinnom"
+      ],
+      "11:31": [
+        "from kjv_geba",
+        "kjv_michmash and kjv_aija and kjv_bethel"
+      ],
+      "11:32": [
+        "kjv_anathoth kjv_nob kjv_ananiah_town"
+      ],
+      "11:33": [
+        "kjv_hazor kjv_ramah kjv_gittaim"
+      ],
+      "11:34": [
+        "kjv_hadid kjv_zeboim_town kjv_neballat"
+      ],
+      "11:35": [
+        "kjv_lod and kjv_ono",
+        "valley of craft:ag:pl"
+      ],
+      "11:36": [
+        "division:pl in kjv_judah and in kjv_benjamin"
+      ],
+      "12:1": [
+        "kjv_zerubbabel_shealtiel son of kjv_shealtiel",
+        "kjv_jeshua_jozadak",
+        "kjv_ezra_return_priest"
+      ],
+      "12:8": [
+        "kjv_jeshua_return_music kjv_binnui_return_music kjv_kadmiel kjv_sherebiah_return kjv_judah_return_music and kjv_mattaniah_return_music",
+        "he and his/brother:pl"
+      ],
+      "12:9": [
+        "kjv_bakbukiah_return_music and kjv_unni_return_music",
+        "opposite they in watch:ev:pl"
+      ],
+      "12:10": [
+        "kjv_jeshua_jozadak kjv_joiakim_jeshua:a beget:pa",
+        "kjv_eliashib_high_priest:a beget:pa",
+        "kjv_joiada_eliashib:a beget:pa"
+      ],
+      "12:11": [
+        "kjv_joiada_eliashib kjv_jonathan_joiada:a beget:pa",
+        "kjv_jonathan_joiada kjv_jaddua_jonathan:a beget:pa"
+      ],
+      "12:22": [
+        "kjv_johanan_eliashib_priest",
+        "kjv_darius of kjv_persia"
+      ],
+      "12:23": [
+        "book of chronicle:pl",
+        "kjv_johanan_eliashib_priest son of kjv_eliashib_high_priest"
+      ],
+      "12:24": [
+        "kjv_jeshua_kadmiel son of kjv_kadmiel",
+        "watch:ev opposite watch:ev"
+      ],
+      "12:25": [
+        "kjv_mattaniah_gate_service",
+        "kjv_bakbukiah_gate_service",
+        "kjv_obadiah_gate_service",
+        "kjv_meshullam_gate_service",
+        "kjv_talmon_return kjv_akkub_porter_return",
+        "kjv_threshold:pl"
+      ],
+      "12:26": [
+        "kjv_joiakim_jeshua son of kjv_jeshua_jozadak son of kjv_jozadak",
+        "kjv_nehemiah_hachaliah kjv_governor",
+        "kjv_ezra_scribe priest kjv_scribe"
+      ],
+      "12:27": [
+        "kjv_dedicate_inaugurate:ev",
+        "kjv_cymbal:pl kjv_psaltery:pl and with harp:pl"
+      ],
+      "12:28": [
+        "kjv_plain_land",
+        "kjv_netophathi"
+      ],
+      "12:29": [
+        "house of kjv_gilgal",
+        "kjv_geba and kjv_azmaveth_place",
+        "for themselves village:pl:a"
+      ],
+      "12:30": [
+        "themselves:a purify:pa",
+        "people and gate:pl and wall:a purify:pa"
+      ],
+      "12:31": [
+        "i prince:pl",
+        "two great company:pl:a",
+        "one_num on kjv_right_side hand",
+        "kjv_dung gate"
+      ],
+      "12:32": [
+        "kjv_hoshaiah_procession",
+        "half of prince:pl"
+      ],
+      "12:33": [
+        "kjv_azariah_procession kjv_ezra_procession and kjv_meshullam_procession"
+      ],
+      "12:34": [
+        "kjv_judah_procession and kjv_benjamin_procession and kjv_shemaiah_procession and kjv_jeremiah_procession"
+      ],
+      "12:35": [
+        "kjv_zechariah_procession son of kjv_jonathan_zechariah son of kjv_shemaiah_jonathan son of kjv_mattaniah_shemaiah son of kjv_michaiah_mattaniah son of kjv_zaccur_michaiah son of kjv_asaph_singer"
+      ],
+      "12:36": [
+        "kjv_shemaiah_instrument kjv_azarael_instrument kjv_milalai kjv_gilalai kjv_maai kjv_nethaneel_instrument and kjv_judah_instrument kjv_hanani_instrument",
+        "kjv_ezra_scribe kjv_scribe before they"
+      ],
+      "12:37": [
+        "fountain gate",
+        "kjv_stair:pl of city of kjv_david",
+        "above house of kjv_david",
+        "water gate to east"
+      ],
+      "12:38": [
+        "other company",
+        "i after they",
+        "half of people",
+        "kjv_tower of kjv_furnace:pl",
+        "broad wall"
+      ],
+      "12:39": [
+        "gate of kjv_ephraim",
+        "old gate",
+        "fish gate",
+        "kjv_hananeel",
+        "kjv_meah",
+        "sheep gate",
+        "prison gate"
+      ],
+      "12:40": [
+        "two company:pl",
+        "half of ruler:pl with i"
+      ],
+      "12:41": [
+        "kjv_eliakim_trumpet kjv_maaseiah_trumpet kjv_miniamin_trumpet kjv_michaiah_trumpet kjv_elioenai_trumpet kjv_zechariah_trumpet and kjv_hananiah_trumpet"
+      ],
+      "12:42": [
+        "kjv_maaseiah_singer kjv_shemaiah_singer kjv_eleazar_singer kjv_uzzi_singer kjv_jehohanan_singer kjv_malchijah_singer kjv_elam_singer and kjv_ezer_singer",
+        "kjv_jezrahiah"
+      ],
+      "12:43": [
+        "wife:pl also and child:pl rejoice:pa",
+        "far away hear:psv:pa"
+      ],
+      "12:44": [
+        "first fruit:pl",
+        "field:pl of city:pl",
+        "who attend:pa"
+      ],
+      "12:45": [
+        "watch:ev of their/god and watch:ev of purify:ev",
+        "kjv_david and of kjv_solomon his/son"
+      ],
+      "12:46": [
+        "kjv_david and kjv_asaph_singer of old",
+        "song:pl of praise and thank:ev"
+      ],
+      "12:47": [
+        "day:pl of kjv_zerubbabel_shealtiel",
+        "day:pl of kjv_nehemiah_hachaliah",
+        "each day his/kjv_portion_share",
+        "to child:pl of kjv_aaron"
+      ],
+      "13:1": [
+        "kjv_ammonite and kjv_moabite",
+        "come:neg:should forever"
+      ],
+      "13:2": [
+        "bread and with water meet:neg:pa",
+        "kjv_balaam:a",
+        "ourone/god curse:a into blessing"
+      ],
+      "13:3": [
+        "all mixed kjv_multitude:a separate:pa"
+      ],
+      "13:4": [
+        "before this",
+        "ourone/god",
+        "with kjv_tobiah_ammonite join:psv:pp"
+      ],
+      "13:5": [
+        "great chamber",
+        "kjv_meat_offering:pl kjv_frankincense and vessel:pl",
+        "corn new wine and oil",
+        "kjv_offering:pl of priest:pl"
+      ],
+      "13:6": [
+        "i at kjv_jerusalem be:neg:pa",
+        "thirty and two:ord",
+        "kjv_artaxerxes king of kjv_babylon",
+        "permission:a"
+      ],
+      "13:7": [
+        "evil:a understand:pa",
+        "chamber:a in court:pl"
+      ],
+      "13:8": [
+        "very sorrow:caus:pa",
+        "house kjv_goods of kjv_tobiah_ammonite:a",
+        "forth cast:pa"
+      ],
+      "13:9": [
+        "chamber:pl:a clean:pa",
+        "vessel:pl of house of god",
+        "kjv_meat_offering and kjv_frankincense"
+      ],
+      "13:10": [
+        "give:psv:neg:pp",
+        "each to his/field flee:pp"
+      ],
+      "13:11": [
+        "why house of god forsake:psv:pr?",
+        "their/kjv_place_site"
+      ],
+      "13:12": [
+        "tithe of corn and new wine and oil",
+        "kjv_treasury:pl"
+      ],
+      "13:13": [
+        "kjv_shelemiah_treasurer",
+        "kjv_zadok_treasurer",
+        "kjv_pedaiah_treasurer",
+        "kjv_hanan_zaccur son of kjv_zaccur_hanan son of kjv_mattaniah_hanan",
+        "faithful reckon:psv:pa"
+      ],
+      "13:14": [
+        "i:a remember:imp my/god:excl",
+        "kjv_wipe:neg:imp",
+        "my/good deed:pl"
+      ],
+      "13:15": [
+        "wine press:pl:a tread:cv",
+        "kjv_sheaf:pl",
+        "ass:pl:a kjv_load:cv",
+        "wine grape:pl and fig:pl",
+        "day when they food:a sell:pa"
+      ],
+      "13:16": [
+        "man:pl of kjv_tyre dwell:pa",
+        "fish and all kind:pl of merchandise",
+        "to child:pl of kjv_judah"
+      ],
+      "13:17": [
+        "noble:pl of kjv_judah",
+        "kjv_sabbath day:a kjv_profane:pr?"
+      ],
+      "13:18": [
+        "ourone/god",
+        "upon wesg and upon this city",
+        "more wrath"
+      ],
+      "13:19": [
+        "before kjv_sabbath dark become:inf",
+        "until after kjv_sabbath open:psv:neg:should",
+        "some of my/servant:pl"
+      ],
+      "13:20": [
+        "outside kjv_jerusalem",
+        "once or twice"
+      ],
+      "13:21": [
+        "i hand:pl:a upon you:pl lay:fu",
+        "no more on kjv_sabbath"
+      ],
+      "13:22": [
+        "themselves:a clean:should",
+        "i:a spare:imp",
+        "greatness of thy/mercy"
+      ],
+      "13:23": [
+        "wife:pl of kjv_ashdod of kjv_ammon and of kjv_moab"
+      ],
+      "13:24": [
+        "half in speech of kjv_ashdod",
+        "language speak:neg:pa:can",
+        "language of each people"
+      ],
+      "13:25": [
+        "they:a curse:pa",
+        "some of they:a strike:pa",
+        "their/hair:a off pluck:pa",
+        "swear:caus:pa",
+        "or for yourselves"
+      ],
+      "13:26": [
+        "kjv_solomon king of kjv_israel",
+        "beloved of his/god",
+        "stranger:adj woman:pl sin:caus:pa"
+      ],
+      "13:27": [
+        "wesg to you:pl listen:fu",
+        "ourone/god",
+        "stranger:adj wife:pl"
+      ],
+      "13:28": [
+        "kjv_joiada_eliashib son of kjv_eliashib_high_priest",
+        "son in law to kjv_sanballat kjv_horonite",
+        "i he:a from i chase:pa"
+      ],
+      "13:29": [
+        "they:a remember:imp",
+        "kjv_covenant of kjv_priesthood"
+      ],
+      "13:30": [
+        "from all stranger:pl clean:pa",
+        "each in his/business"
+      ],
+      "13:31": [
+        "wood kjv_offering",
+        "appoint:psv:pp time:pl",
+        "i:a remember:imp my/god:excl for good"
+      ],
+      "11:4": [
+        "kjv_athaiah_neh_athaiah_line son of kjv_uzziah_neh_athaiah_line son of kjv_zechariah_neh_athaiah_line son of kjv_amariah_neh_athaiah_line son of kjv_shephatiah_neh_athaiah_line son of kjv_mahalaleel_neh_athaiah_line",
+        "of child:pl of kjv_perez"
+      ],
+      "11:5": [
+        "kjv_maaseiah_neh_maaseiah_line son of kjv_baruch_neh_maaseiah_line son of kjv_colhozeh_neh_maaseiah_line son of kjv_hazaiah_neh_maaseiah_line son of kjv_adaiah_neh_maaseiah_line son of kjv_joiarib_neh_maaseiah_line son of kjv_zechariah_neh_maaseiah_line son of kjv_shiloni_neh_maaseiah_line"
+      ],
+      "11:7": [
+        "kjv_sallu_neh_sallu_line son of kjv_meshullam_neh_sallu_line son of kjv_joed_neh_sallu_line son of kjv_pedaiah_neh_sallu_line son of kjv_kolaiah_neh_sallu_line son of kjv_maaseiah_neh_sallu_line son of kjv_ithiel_neh_sallu_line son of kjv_jesaiah_neh_sallu_line"
+      ],
+      "11:11": [
+        "kjv_seraiah_neh_seraiah_line son of kjv_hilkiah_neh_seraiah_line son of kjv_meshullam_neh_seraiah_line son of kjv_zadok_neh_seraiah_line son of kjv_meraioth_neh_seraiah_line son of kjv_ahitub_neh_seraiah_line"
+      ],
+      "11:12": [
+        "kjv_adaiah_neh_adaiah_line son of kjv_jeroham_neh_adaiah_line son of kjv_pelaliah_neh_adaiah_line son of kjv_amzi_neh_adaiah_line son of kjv_zechariah_neh_adaiah_line son of kjv_pashur_neh_adaiah_line son of kjv_malchiah_neh_adaiah_line",
+        "eight+hundred and twenty and two"
+      ],
+      "11:13": [
+        "kjv_amashai_neh_amashai_line son of kjv_azareel_neh_amashai_line son of kjv_ahasai_neh_amashai_line son of kjv_meshillemoth_neh_amashai_line son of kjv_immer_neh_amashai_line",
+        "two+hundred and forty and two"
+      ],
+      "11:15": [
+        "kjv_shemaiah_neh_shemaiah_line son of kjv_hashub_neh_shemaiah_line son of kjv_azrikam_neh_shemaiah_line son of kjv_hashabiah_neh_shemaiah_line son of kjv_bunni_neh_shemaiah_line"
+      ],
+      "11:17": [
+        "kjv_mattaniah_neh_mattaniah_line son of kjv_micha_neh_mattaniah_line son of kjv_zabdi_neh_mattaniah_line",
+        "son of kjv_asaph_singer",
+        "kjv_bakbukiah_resident second",
+        "kjv_abda_resident son of kjv_shammua_abda son of kjv_galal_abda son of kjv_jeduthun"
+      ],
+      "11:22": [
+        "kjv_uzzi_neh_uzzi_line son of kjv_bani_neh_uzzi_line son of kjv_hashabiah_neh_uzzi_line son of kjv_mattaniah_neh_uzzi_line son of kjv_micha_neh_uzzi_line"
+      ],
+      "12:2": [
+        "kjv_amariah_return_priest kjv_malluch_return_priest kjv_hattush_return_priest"
+      ],
+      "12:3": [
+        "kjv_shechaniah_return_priest kjv_rehum_return_priest kjv_meremoth_return_priest"
+      ],
+      "12:4": [
+        "kjv_iddo_return_priest kjv_ginnetho_return_priest kjv_abijah_return_priest"
+      ],
+      "12:5": [
+        "kjv_miamin_return_priest kjv_maadiah_return_priest kjv_bilgah_return_priest"
+      ],
+      "12:6": [
+        "kjv_shemaiah_return_priest kjv_joiarib_return_priest kjv_jedaiah_return_priest"
+      ],
+      "12:7": [
+        "kjv_sallu_return_priest kjv_amok_return_priest kjv_hilkiah_return_priest kjv_jedaiah_return_priest"
+      ],
+      "12:12": [
+        "of kjv_seraiah_priest_house kjv_meraiah_head_seraiah; of kjv_jeremiah_priest_house kjv_hananiah_head_jeremiah"
+      ],
+      "12:13": [
+        "of kjv_ezra_priest_house kjv_meshullam_head_ezra; of kjv_amariah_priest_house kjv_jehohanan_head_amariah"
+      ],
+      "12:14": [
+        "of kjv_melicu_priest_house kjv_jonathan_head_melicu; of kjv_shebaniah_priest_house kjv_joseph_head_shebaniah"
+      ],
+      "12:15": [
+        "of kjv_harim_priest_house kjv_adna_head_harim; of kjv_meraioth_priest_house kjv_helkai_head_meraioth"
+      ],
+      "12:16": [
+        "of kjv_iddo_priest_house kjv_zechariah_head_iddo; of kjv_ginnethon_priest_house kjv_meshullam_head_ginnethon"
+      ],
+      "12:17": [
+        "of kjv_abijah_priest_house kjv_zichri_head_abijah; of kjv_miniamin_priest_house; of kjv_moadiah_priest_house kjv_piltai_head_moadiah"
+      ],
+      "12:18": [
+        "of kjv_bilgah_priest_house kjv_shammua_head_bilgah; of kjv_shemaiah_priest_house kjv_jehonathan_head_shemaiah"
+      ],
+      "12:19": [
+        "of kjv_joiarib_priest_house kjv_mattenai_head_joiarib; of kjv_jedaiah_priest_house kjv_uzzi_head_jedaiah"
+      ],
+      "12:20": [
+        "of kjv_sallai_priest_house kjv_kallai_head_sallai; of kjv_amok_priest_house kjv_eber_head_amok"
+      ],
+      "12:21": [
+        "of kjv_hilkiah_priest_house kjv_hashabiah_head_hilkiah; of kjv_jedaiah_priest_house kjv_nethaneel_head_jedaiah"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "12:31",
+        "12:38",
+        "12:40",
+        "13:10",
+        "13:11",
+        "13:13",
+        "13:14",
+        "13:15",
+        "13:17",
+        "13:19",
+        "13:21",
+        "13:22",
+        "13:23",
+        "13:25",
+        "13:28",
+        "13:30",
+        "13:31",
+        "13:6",
+        "13:7",
+        "13:8",
+        "13:9"
+      ],
+      "ipl": [],
+      "mypl": [],
+      "iplself": [],
+      "wepl": [],
+      "we:du": [],
+      "they:du": [],
+      "wesg": [
+        "13:18",
+        "13:27"
+      ],
+      "ourone": [
+        "13:18",
+        "13:2",
+        "13:27",
+        "13:4"
+      ]
+    },
+    "quantityInterpretation": [
+      "OneintenassignedtoJerusalem,ninepartselsewhere;residentcounts468/928/822/242/128/284/172checkedindividually. Two second-rankofficesarenotpopulationcounts.",
+      "Two thanksgivingcompanies,onegoingright;halfprinces,halfpeopleandhalfrulerskeptwiththeiractualnouns.",
+      "Royalyear32;onceortwice isanalternativefrequency,notasummedthreevisits. HalfAshdodspeechstaysambiguousbetweenpeopleandproportionofspeech.",
+      "Firstfruits isaprecedencecategory,notaninventedquantity. Meah isatowername,not100towers."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Personal-Iorganizes,enforcesandpetitions;corporatesingular-wecarriescommonpunishmentandclaimedrefusal. No divineplural-self isinsertedwithoutdivinespeech.",
+      "Everyresidentgenealogy,listpairandprocessionname retained;missingMiniaminheadandJonathan/Johananvariantleftunreconciled.",
+      "Exclusion,violence,forcedoathsandselfinterestedpetitions remainattributed;oldsealsunchanged;wholeBibleincomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Nehemiah — incomplete Bible working text",
+    "pages": 278,
+    "spreads": 139,
+    "units": 406,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "b5abc4ad65f8fa51146ab7cb9c3b7a0f3938a7ab8f3b9cb3d0d52957b40d442d",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 139,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 15.426,
+    "modules": [
+      "tests.test_kjv_nehemiah_residents_reform",
+      "tests.test_kjv_nehemiah_hearing_covenant",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    277,
+    278
+  ],
+  "status": "incompleteBible;allNehemiahsectioncheckpointverified"
+}

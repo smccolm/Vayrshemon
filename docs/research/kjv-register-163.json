@@ -1,0 +1,755 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.163",
+    "parentVersion": "0.10-kjv.162",
+    "parentHead": "b0ea619284520229206a3ad4906fb6810e28459c0958508e2dc6f20d6b66a1d5",
+    "head": "17d2fbcbe79b154f2fee4ea639cc999a9848b6d05347177baf502a16df49724a",
+    "newLexicalEntries": 10,
+    "newProperEntries": 8,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 8,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 97,
+    "exactCompilerCases": 97,
+    "newAuthoredVerses": 97,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 816,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9773,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 97,
+    "ezekielVerses": 816,
+    "authoredVerses": 21329,
+    "remainingVerses": 9773,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 29:1",
+        "source": "In the tenth year, in the tenth month, in the twelfth day of the month, the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          10,
+          10,
+          12
+        ],
+        "targetQuantities": [
+          10,
+          10,
+          12
+        ]
+      },
+      {
+        "reference": "Ezekiel 29:11",
+        "source": "No foot of man shall pass through it, nor foot of beast shall pass through it, neither shall it be inhabited forty years.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Ezekiel 29:12",
+        "source": "And I will make the land of Egypt desolate in the midst of the countries that are desolate, and her cities among the cities that are laid waste shall be desolate forty years: and I will scatter the Egyptians among the nations, and will disperse them through the countries.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Ezekiel 29:13",
+        "source": "Yet thus saith the Lord GOD; At the end of forty years will I gather the Egyptians from the people whither they were scattered:",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Ezekiel 29:17",
+        "source": "And it came to pass in the seven and twentieth year, in the first month, in the first day of the month, the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          27,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          27,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 30:20",
+        "source": "And it came to pass in the eleventh year, in the first month, in the seventh day of the month, that the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          11,
+          1,
+          7
+        ],
+        "targetQuantities": [
+          11,
+          1,
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 31:1",
+        "source": "And it came to pass in the eleventh year, in the third month, in the first day of the month, that the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          11,
+          3,
+          1
+        ],
+        "targetQuantities": [
+          11,
+          3,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 32:1",
+        "source": "And it came to pass in the twelfth year, in the twelfth month, in the first day of the month, that the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          12,
+          12,
+          1
+        ],
+        "targetQuantities": [
+          12,
+          12,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 32:17",
+        "source": "It came to pass also in the twelfth year, in the fifteenth day of the month, that the word of the LORD came unto me, saying,",
+        "expectedDecimalQuantities": [
+          12,
+          15
+        ],
+        "targetQuantities": [
+          12,
+          15
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "29:1": [
+        "ten:ord year",
+        "ten:ord month",
+        "twelve:ord day",
+        "to i"
+      ],
+      "29:2": [
+        "against kjv_pharaoh",
+        "against all egypt"
+      ],
+      "29:3": [
+        "kjv_dragon_source",
+        "mypl/river of ipl own",
+        "for iplself"
+      ],
+      "29:4": [
+        "thy/jaw:pl",
+        "thy/kjv_body_scale:pl",
+        "kjv_cleave_adhere:caus:fu"
+      ],
+      "29:5": [
+        "nor gather:psv:fu",
+        "for food"
+      ],
+      "29:6": [
+        "they staff of reed"
+      ],
+      "29:7": [
+        "by thy/hand",
+        "all their/kjv_shoulder:a rend:pa",
+        "at stand:ev be:caus:pa"
+      ],
+      "29:8": [
+        "man and beast:a"
+      ],
+      "29:9": [
+        "because he say:perf river of ipl",
+        "ipl it:a make:perf"
+      ],
+      "29:10": [
+        "from kjv_tower of kjv_syene",
+        "boundary of kjv_ethiopia"
+      ],
+      "29:11": [
+        "no foot of man",
+        "nor foot of beast",
+        "three+twelve and four year:pl"
+      ],
+      "29:12": [
+        "three+twelve and four year:pl",
+        "scatter:fu",
+        "disperse:fu"
+      ],
+      "29:13": [
+        "yet thus",
+        "three+twelve and four year:pl",
+        "gather:fu"
+      ],
+      "29:14": [
+        "land of kjv_pathros",
+        "their/dwell:ev",
+        "low kingdom"
+      ],
+      "29:15": [
+        "lowest of kingdom:pl",
+        "no more over nation:pl rule:fu"
+      ],
+      "29:16": [
+        "their/kjv_iniquity:a remember:caus:pr",
+        "they after they"
+      ],
+      "29:17": [
+        "two+twelve and three:ord year",
+        "one_num:ord month",
+        "one_num:ord day"
+      ],
+      "29:18": [
+        "every head kjv_bald",
+        "every kjv_shoulder kjv_peel",
+        "no kjv_wages:a"
+      ],
+      "29:19": [
+        "her/kjv_multitude:a",
+        "her/spoil:a",
+        "her/prey:a",
+        "kjv_wages for his/army"
+      ],
+      "29:20": [
+        "because they for ipl work:pa"
+      ],
+      "29:21": [
+        "horn:a",
+        "forth bud:caus:fu",
+        "open:ev:a of mouth"
+      ],
+      "30:1": [
+        "again to i"
+      ],
+      "30:2": [
+        "woe:excl to day"
+      ],
+      "30:3": [
+        "day near",
+        "day of kjv_lord near",
+        "cloud:adj day"
+      ],
+      "30:4": [
+        "great pain in kjv_ethiopia",
+        "her/kjv_foundation:pl"
+      ],
+      "30:5": [
+        "kjv_libya and kjv_lydia",
+        "kjv_chub",
+        "in kjv_league"
+      ],
+      "30:6": [
+        "support:pr",
+        "kjv_tower of kjv_syene"
+      ],
+      "30:7": [
+        "her/city:pl",
+        "city:pl which ruin:psv:pr"
+      ],
+      "30:8": [
+        "ipl fire:a in egypt set:perf",
+        "all her/help:ag:pl"
+      ],
+      "30:9": [
+        "from ipl in ship:pl",
+        "without worry kjv_ethiopian:pl"
+      ],
+      "30:10": [
+        "kjv_nebuchadrezzar king of kjv_babylon"
+      ],
+      "30:11": [
+        "they their/sword:pl:a",
+        "land:a with slay:psv:adj"
+      ],
+      "30:12": [
+        "river:pl:a dry make:fu",
+        "land:a into hand of wicked sell:fu"
+      ],
+      "30:13": [
+        "out of kjv_noph",
+        "no more prince"
+      ],
+      "30:14": [
+        "kjv_pathros:a",
+        "in kjv_zoan",
+        "in kjv_no_egypt"
+      ],
+      "30:15": [
+        "mypl/fury:a upon kjv_sin_egypt",
+        "kjv_multitude:a of kjv_no_egypt"
+      ],
+      "30:16": [
+        "kjv_sin_egypt great pain",
+        "kjv_no_egypt apart rend:psv:fu",
+        "daily"
+      ],
+      "30:17": [
+        "kjv_aven_egypt and of kjv_pibeseth",
+        "these city:pl"
+      ],
+      "30:18": [
+        "kjv_tehaphnehes",
+        "yoke:pl:a",
+        "her/daughter:pl"
+      ],
+      "30:19": [
+        "judgment:pl:a in egypt perform:fu"
+      ],
+      "30:20": [
+        "eleven:ord year",
+        "one_num:ord month",
+        "seven:ord day",
+        "to i"
+      ],
+      "30:21": [
+        "bind:psv:neg:fu",
+        "kjv_roller_bandage:a",
+        "sword:a hold:inf"
+      ],
+      "30:22": [
+        "strong and that which break:psv:pa",
+        "sword:a out of his/hand fall:caus:fu"
+      ],
+      "30:23": [
+        "scatter:fu",
+        "through country:pl disperse:fu"
+      ],
+      "30:24": [
+        "mypl/sword:a in his/hand",
+        "kjv_pharaoh arm:pl:a",
+        "kjv_wound_inflict:psv:adj"
+      ],
+      "30:25": [
+        "mypl/sword:a",
+        "he it:a upon land of egypt"
+      ],
+      "30:26": [
+        "among country:pl disperse:fu",
+        "ipl kjv_lord be:pr"
+      ],
+      "31:1": [
+        "eleven:ord year",
+        "three:ord month",
+        "one_num:ord day",
+        "to i"
+      ],
+      "31:2": [
+        "kjv_pharaoh king of egypt",
+        "who in thy/great:ev"
+      ],
+      "31:3": [
+        "man of kjv_assyria",
+        "shade:cv canopy",
+        "thick branch:pl"
+      ],
+      "31:4": [
+        "her/river:pl",
+        "her/little river:pl:a"
+      ],
+      "31:5": [
+        "kjv_multiply:psv:pa",
+        "when he forth grow:pa"
+      ],
+      "31:6": [
+        "their/nest:pl:a",
+        "their/young:a bear:pa",
+        "all great nation:pl dwell:pa"
+      ],
+      "31:7": [
+        "his/root by great water:pl"
+      ],
+      "31:8": [
+        "hide:neg:pa:can",
+        "kjv_fir",
+        "kjv_chestnut",
+        "nor any kjv_tree"
+      ],
+      "31:9": [
+        "ipl he:a pleasing",
+        "kjv_eden",
+        "kjv_envy:pa"
+      ],
+      "31:10": [
+        "thou thyself:a",
+        "and he his/top:a",
+        "his/heart"
+      ],
+      "31:11": [
+        "mighty person of kjv_heathen",
+        "for his/wickedness"
+      ],
+      "31:12": [
+        "stranger:pl",
+        "his/branch:pl fall:perf",
+        "from his/shadow down go:perf"
+      ],
+      "31:13": [
+        "upon his/ruin",
+        "beast:pl of field"
+      ],
+      "31:14": [
+        "none of all kjv_tree:pl",
+        "neither their/top:a",
+        "neither their/kjv_tree:pl",
+        "all who water:a drink:pr",
+        "to death"
+      ],
+      "31:15": [
+        "to grave down go:pa",
+        "water:pl stop:psv:pa",
+        "kjv_lebanon:a for he mourn:caus:pa"
+      ],
+      "31:16": [
+        "kjv_hell_depth",
+        "choose:psv:adj and best",
+        "comfort:psv:fu"
+      ],
+      "31:17": [
+        "his/arm be:pa",
+        "kjv_hell_depth"
+      ],
+      "31:18": [
+        "yet thou",
+        "kjv_circumcise:psv:neg:adj",
+        "this kjv_pharaoh"
+      ],
+      "32:1": [
+        "twelve:ord year",
+        "twelve:ord month",
+        "one_num:ord day",
+        "to i"
+      ],
+      "32:2": [
+        "young lion",
+        "whale in sea:pl",
+        "with thy/river:pl",
+        "with thy/foot:pl stir:pa",
+        "foul make:pa"
+      ],
+      "32:3": [
+        "mypl/kjv_net:a",
+        "company of many people",
+        "they thee:a up"
+      ],
+      "32:4": [
+        "remain:caus:fu",
+        "beast:pl:a of whole earth"
+      ],
+      "32:5": [
+        "thy/flesh:a upon mountain:pl",
+        "valley:pl:a with thy/height"
+      ],
+      "32:6": [
+        "with thy/blood",
+        "kjv_water_irrigate:fu",
+        "full of thee"
+      ],
+      "32:7": [
+        "thee:a out put:fu",
+        "star:pl:a of it",
+        "moon her/light:a give:neg:fu"
+      ],
+      "32:8": [
+        "bright light:pl:a",
+        "darkness:a upon thy/land"
+      ],
+      "32:9": [
+        "country:pl which thou know:neg:perf"
+      ],
+      "32:10": [
+        "mypl/sword:a before they kjv_brandish:fu",
+        "at every moment",
+        "every man for his/own life"
+      ],
+      "32:11": [
+        "king of kjv_babylon"
+      ],
+      "32:12": [
+        "terrible:pl of nation:pl all of they",
+        "pomp:a of egypt"
+      ],
+      "32:13": [
+        "neither foot of man",
+        "nor kjv_hoof:pl",
+        "stir:fu"
+      ],
+      "32:14": [
+        "water:pl:a deep make:fu",
+        "like oil run:caus:fu"
+      ],
+      "32:15": [
+        "full be:pa lack:cv",
+        "all they:a who in it dwell:pr strike:fu"
+      ],
+      "32:16": [
+        "daughter:pl of nation:pl",
+        "for she even for egypt"
+      ],
+      "32:17": [
+        "twelve:ord year",
+        "twelve and three:ord day",
+        "to i"
+      ],
+      "32:18": [
+        "they:a down cast:imp even she:a",
+        "daughter:pl:a of famous nation:pl"
+      ],
+      "32:19": [
+        "who:a in beauty exceed:pr?",
+        "lay:psv:imp"
+      ],
+      "32:20": [
+        "they in middle",
+        "she to sword give:psv:pr",
+        "her/kjv_multitude:pl:a"
+      ],
+      "32:21": [
+        "out of middle of kjv_hell_depth",
+        "with they who he:a help:pr"
+      ],
+      "32:22": [
+        "kjv_asshur",
+        "her/company",
+        "his/grave:pl about he"
+      ],
+      "32:23": [
+        "side:pl of kjv_pit",
+        "her/company round about her/grave",
+        "terror:a in land"
+      ],
+      "32:24": [
+        "kjv_elam",
+        "kjv_circumcise:psv:neg:adj",
+        "yet they their/shame:a",
+        "endure:perf"
+      ],
+      "32:25": [
+        "her/grave:pl round about he",
+        "their/terror in land",
+        "cause:psv:pa",
+        "yet they",
+        "he in middle"
+      ],
+      "32:26": [
+        "kjv_meshech kjv_tubal",
+        "her/kjv_multitude",
+        "her/grave:pl round about he"
+      ],
+      "32:27": [
+        "lie:neg:fu",
+        "their/weapon:pl of war",
+        "their/sword:pl:a under their/head:pl",
+        "their/kjv_iniquity:pl upon their/bone:pl"
+      ],
+      "32:28": [
+        "thou in middle",
+        "break:psv:fu"
+      ],
+      "32:29": [
+        "kjv_edom her/king:pl",
+        "with their/might"
+      ],
+      "32:30": [
+        "prince:pl of kjv_north",
+        "all kjv_zidonian:pl",
+        "of their/might ashamed",
+        "endure:pr"
+      ],
+      "32:31": [
+        "kjv_pharaoh they:a see:fu",
+        "comfort:psv:fu",
+        "all his/army by sword"
+      ],
+      "32:32": [
+        "ipl mypl/terror:a",
+        "cause:perf",
+        "he in middle",
+        "kjv_pharaoh and all his/kjv_multitude"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "29:1",
+        "29:17",
+        "30:1",
+        "30:20",
+        "31:1",
+        "32:1",
+        "32:17"
+      ],
+      "ipl": [
+        "29:10",
+        "29:12",
+        "29:13",
+        "29:14",
+        "29:15",
+        "29:16",
+        "29:19",
+        "29:20",
+        "29:21",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:8",
+        "29:9",
+        "30:10",
+        "30:12",
+        "30:13",
+        "30:14",
+        "30:15",
+        "30:16",
+        "30:18",
+        "30:19",
+        "30:21",
+        "30:22",
+        "30:23",
+        "30:24",
+        "30:25",
+        "30:26",
+        "30:8",
+        "30:9",
+        "31:11",
+        "31:15",
+        "31:16",
+        "31:9",
+        "32:10",
+        "32:12",
+        "32:13",
+        "32:14",
+        "32:15",
+        "32:3",
+        "32:32",
+        "32:4",
+        "32:5",
+        "32:6",
+        "32:7",
+        "32:8",
+        "32:9"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "29:3",
+        "30:15",
+        "30:24",
+        "30:25",
+        "32:10",
+        "32:3",
+        "32:32"
+      ],
+      "ourone": [],
+      "iplself": [
+        "29:3"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [
+      "29:3",
+      "29:9"
+    ],
+    "quantityInterpretation": [
+      "All six printed dates retained,including no month number in32:17.",
+      "Forty years separately retained in29:11–13.",
+      "Mighty one in31:11 is a person,not an added cardinal."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel29–32 adds97 verses,total816;whole Bible incomplete.",
+      "Personal narration,divine plural-I and Pharaohs attributed river-maker plural-self distinguished without invented person counts.",
+      "Supplied dragon/whale,Assyrian/Pharaoh,underworld comfort,gender shifts and shall-not-lie readings retained without outside harmonization.",
+      "Two common semantic compounds,eight contextual names;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 634,
+    "spreads": 317,
+    "units": 816,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "725145646ff4c2971d40102e5505bb484f4c0ea14711a691b4455db67952624e",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 317,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.861,
+    "modules": [
+      "tests.test_kjv_ezekiel_pharaoh_underworld",
+      "tests.test_kjv_ezekiel_maritime_lament",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    633,
+    634
+  ],
+  "status": "incomplete Bible;Ezekiel1–32 section checkpoint verified"
+}

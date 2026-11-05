@@ -1,0 +1,495 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.69",
+    "parentVersion": "0.10-kjv.68",
+    "parentHead": "d56059b4e98edc665c6892a03c650f36fe59ee0a3762c2a3042031f3a2461b19",
+    "head": "e5636557cef92bf0008c57fa685820556831c79703c746f287ed646157bab53b",
+    "newLexicalEntries": 11,
+    "newProperEntries": 10,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 54,
+    "exactCompilerCases": 54,
+    "newAuthoredVerses": 54,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 392,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21128,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 54,
+    "kings2Verses": 392,
+    "authoredVerses": 9974,
+    "remainingVerses": 21128,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 13:1",
+        "source": "In the three and twentieth year of Joash the son of Ahaziah king of Judah Jehoahaz the son of Jehu began to reign over Israel in Samaria, and reigned seventeen years.",
+        "expectedDecimalQuantities": [
+          23,
+          17
+        ],
+        "targetQuantities": [
+          23,
+          17
+        ]
+      },
+      {
+        "reference": "2 Kings 13:7",
+        "source": "Neither did he leave of the people to Jehoahaz but fifty horsemen, and ten chariots, and ten thousand footmen; for the king of Syria had destroyed them, and had made them like the dust by threshing.",
+        "expectedDecimalQuantities": [
+          50,
+          10,
+          10000
+        ],
+        "targetQuantities": [
+          50,
+          10,
+          10000
+        ]
+      },
+      {
+        "reference": "2 Kings 13:10",
+        "source": "In the thirty and seventh year of Joash king of Judah began Jehoash the son of Jehoahaz to reign over Israel in Samaria, and reigned sixteen years.",
+        "expectedDecimalQuantities": [
+          37,
+          16
+        ],
+        "targetQuantities": [
+          37,
+          16
+        ]
+      },
+      {
+        "reference": "2 Kings 13:18",
+        "source": "And he said, Take the arrows. And he took them. And he said unto the king of Israel, Smite upon the ground. And he smote thrice, and stayed.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 13:19",
+        "source": "And the man of God was wroth with him, and said, Thou shouldest have smitten five or six times; then hadst thou smitten Syria till thou hadst consumed it: whereas now thou shalt smite Syria but thrice.",
+        "expectedDecimalQuantities": [
+          5,
+          6,
+          3
+        ],
+        "targetQuantities": [
+          5,
+          6,
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 13:25",
+        "source": "And Jehoash the son of Jehoahaz took again out of the hand of Benhadad the son of Hazael the cities, which he had taken out of the hand of Jehoahaz his father by war. Three times did Joash beat him, and recovered the cities of Israel.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 14:1",
+        "source": "In the second year of Joash son of Jehoahaz king of Israel reigned Amaziah the son of Joash king of Judah.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 14:2",
+        "source": "He was twenty and five years old when he began to reign, and reigned twenty and nine years in Jerusalem. And his mother’s name was Jehoaddan of Jerusalem.",
+        "expectedDecimalQuantities": [
+          25,
+          29
+        ],
+        "targetQuantities": [
+          25,
+          29
+        ]
+      },
+      {
+        "reference": "2 Kings 14:7",
+        "source": "He slew of Edom in the valley of salt ten thousand, and took Selah by war, and called the name of it Joktheel unto this day.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "2 Kings 14:13",
+        "source": "And Jehoash king of Israel took Amaziah king of Judah, the son of Jehoash the son of Ahaziah, at Bethshemesh, and came to Jerusalem, and brake down the wall of Jerusalem from the gate of Ephraim unto the corner gate, four hundred cubits.",
+        "expectedDecimalQuantities": [
+          400
+        ],
+        "targetQuantities": [
+          400
+        ]
+      },
+      {
+        "reference": "2 Kings 14:17",
+        "source": "And Amaziah the son of Joash king of Judah lived after the death of Jehoash son of Jehoahaz king of Israel fifteen years.",
+        "expectedDecimalQuantities": [
+          15
+        ],
+        "targetQuantities": [
+          15
+        ]
+      },
+      {
+        "reference": "2 Kings 14:21",
+        "source": "And all the people of Judah took Azariah, which was sixteen years old, and made him king instead of his father Amaziah.",
+        "expectedDecimalQuantities": [
+          16
+        ],
+        "targetQuantities": [
+          16
+        ]
+      },
+      {
+        "reference": "2 Kings 14:23",
+        "source": "In the fifteenth year of Amaziah the son of Joash king of Judah Jeroboam the son of Joash king of Israel began to reign in Samaria, and reigned forty and one years.",
+        "expectedDecimalQuantities": [
+          15,
+          41
+        ],
+        "targetQuantities": [
+          15,
+          41
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "kjv_three and twenty:ord",
+        "kjv_joash_ahaziah",
+        "kjv_jehoahaz_jehu",
+        "seventeen year:pl"
+      ],
+      "13:2": [
+        "kjv_jeroboam son of kjv_nebat",
+        "depart:pa not"
+      ],
+      "13:3": [
+        "anger of kjv_lord",
+        "kjv_kindle_fire:psv:pa",
+        "kjv_benhadad_hazael son of kjv_hazael",
+        "all their/day:pl"
+      ],
+      "13:4": [
+        "kjv_jehoahaz_jehu kjv_lord:a beseech:pa",
+        "oppress:ev:a"
+      ],
+      "13:5": [
+        "(and",
+        "save:ag:a",
+        "from under hand",
+        "as before"
+      ],
+      "13:6": [
+        "nevertheless",
+        "grove",
+        "kjv_samaria remain:pa.)"
+      ],
+      "13:7": [
+        "fifty kjv_horseman:pl",
+        "ten chariot:pl",
+        "ten+thousand kjv_foot_soldier:pl",
+        "like dust by kjv_thresh:ev"
+      ],
+      "13:8": [
+        "remainder",
+        "chronicle:pl of king:pl of kjv_israel"
+      ],
+      "13:9": [
+        "his/son kjv_joash_jehoahaz"
+      ],
+      "13:10": [
+        "kjv_three+ten and seven:ord",
+        "kjv_jehoash_jehoahaz son of kjv_jehoahaz_jehu",
+        "sixteen year:pl"
+      ],
+      "13:11": [
+        "kjv_jeroboam son of kjv_nebat",
+        "in they he walk:pa"
+      ],
+      "13:12": [
+        "kjv_joash_jehoahaz",
+        "against kjv_amaziah_joash king of kjv_judah"
+      ],
+      "13:13": [
+        "kjv_jeroboam_joash on his/throne",
+        "kjv_joash_jehoahaz bury:psv:pa"
+      ],
+      "13:14": [
+        "of his/sickness of which he die:pa",
+        "my/father:excl my/father:excl",
+        "chariot of kjv_israel"
+      ],
+      "13:15": [
+        "kjv_bow and arrow:pl:a take:imp"
+      ],
+      "13:16": [
+        "thy/hand:a upon kjv_bow",
+        "his/hand:pl:a upon king hand:pl"
+      ],
+      "13:17": [
+        "window:a to east",
+        "kjv_lord kjv_deliverance",
+        "kjv_syria",
+        "kjv_aphek"
+      ],
+      "13:18": [
+        "kjv_three time:pl he strike:pa and cease:pa"
+      ],
+      "13:19": [
+        "five or six time:pl",
+        "strike:pp:should",
+        "but kjv_three time:pl thou strike:fu"
+      ],
+      "13:20": [
+        "kjv_elisha die:pa",
+        "band:pl of kjv_moabites",
+        "kjv_invade:pa"
+      ],
+      "13:21": [
+        "tomb of kjv_elisha",
+        "bone:pl:a touch:pa",
+        "he revive:pa",
+        "his/foot:pl stand:pa"
+      ],
+      "13:22": [
+        "all day:pl of kjv_jehoahaz_jehu"
+      ],
+      "13:23": [
+        "kjv_compassion",
+        "kjv_covenant with kjv_abraham kjv_isaac and kjv_jacob",
+        "destroy:inf will:pa not",
+        "as yet"
+      ],
+      "13:24": [
+        "his/son kjv_benhadad_hazael"
+      ],
+      "13:25": [
+        "kjv_jehoash_jehoahaz son of kjv_jehoahaz_jehu",
+        "kjv_benhadad_hazael son of kjv_hazael",
+        "kjv_three time:pl",
+        "city:pl:a recover:pa"
+      ],
+      "14:1": [
+        "two:ord year",
+        "kjv_joash_jehoahaz",
+        "kjv_joash_ahaziah"
+      ],
+      "14:2": [
+        "twenty and five",
+        "twenty and nine",
+        "kjv_jehoaddan"
+      ],
+      "14:3": [
+        "not like his/father kjv_david",
+        "his/father kjv_joash_ahaziah"
+      ],
+      "14:4": [
+        "high place:pl take:psv away be:pa not",
+        "kjv_incense"
+      ],
+      "14:5": [
+        "kingdom in his/hand confirm:psv:pa",
+        "his/father:a slay:pp"
+      ],
+      "14:6": [
+        "of murderer:pl child:pl:a he slay:pa not",
+        "father:pl for child:pl",
+        "child:pl for father:pl",
+        "each man for his/own sin"
+      ],
+      "14:7": [
+        "ten+thousand:a",
+        "kjv_selah",
+        "kjv_joktheel_edom"
+      ],
+      "14:8": [
+        "we:du one another:a in face look:opt"
+      ],
+      "14:9": [
+        "thistle",
+        "kjv_cedar",
+        "thy/daughter:a to my/son",
+        "wild beast",
+        "thistle:a tread:pa down"
+      ],
+      "14:10": [
+        "thy/heart thou:a lift:perf up",
+        "glory:imp",
+        "kjv_judah with thou"
+      ],
+      "14:11": [
+        "hear:inf will:pa not",
+        "one another:a in face",
+        "kjv_bethshemesh",
+        "kjv_judah belong:pr"
+      ],
+      "14:12": [
+        "kjv_judah defeat:psv:pa",
+        "each man to their/tent:pl"
+      ],
+      "14:13": [
+        "kjv_jehoash_jehoahaz king of kjv_israel",
+        "son of kjv_jehoash_judah son of kjv_ahaziah_jehoram",
+        "four+hundred kjv_cubit:pl"
+      ],
+      "14:14": [
+        "kjv_hostage:pl",
+        "kjv_samaria return:pa"
+      ],
+      "14:15": [
+        "kjv_jehoash_jehoahaz",
+        "chronicle:pl of king:pl of kjv_israel"
+      ],
+      "14:16": [
+        "his/son kjv_jeroboam_joash"
+      ],
+      "14:17": [
+        "after death of kjv_jehoash_jehoahaz",
+        "fifteen year:pl live:pa"
+      ],
+      "14:18": [
+        "chronicle:pl of king:pl of kjv_judah"
+      ],
+      "14:19": [
+        "conspiracy:a",
+        "kjv_lachish",
+        "there he:a slay:pa"
+      ],
+      "14:20": [
+        "on horse:pl",
+        "city of kjv_david"
+      ],
+      "14:21": [
+        "kjv_azariah_amaziah",
+        "sixteen year:pl old",
+        "king he:a make:pa"
+      ],
+      "14:22": [
+        "kjv_elath:a",
+        "after that king with his/father:pl sleep:pa"
+      ],
+      "14:23": [
+        "fifteen:ord year",
+        "kjv_jeroboam_joash son of kjv_joash_jehoahaz",
+        "forty and one_num year:pl"
+      ],
+      "14:24": [
+        "kjv_jeroboam son of kjv_nebat"
+      ],
+      "14:25": [
+        "boundary:a",
+        "kjv_plain_land",
+        "kjv_jonah son of kjv_amittai",
+        "kjv_gathhepher"
+      ],
+      "14:26": [
+        "any shut:psv up nor any remain:cv",
+        "any helper"
+      ],
+      "14:27": [
+        "name:a from under heaven erase:inf",
+        "kjv_lord say:pa not",
+        "kjv_jeroboam_joash son of kjv_joash_jehoahaz"
+      ],
+      "14:28": [
+        "kjv_damascus and kjv_hamath",
+        "which to kjv_judah belong:pa for kjv_israel"
+      ],
+      "14:29": [
+        "kjv_zachariah_jeroboam"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Five or six counterfactual strikes is an alternative, not11; three actual strikes and three future victories remain distinct.",
+      "Fifty horsemen,ten chariots and10000foot soldiers are separate counts.",
+      "Reign synchronisms,durations,accession ages,survival interval and400cubit wall length are checked separately."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Actual dual confrontation and personal quoted possession follow their speakers; no first-person collective is invented where absent.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 322,
+    "spreads": 161,
+    "units": 392,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "14b50a635a68168fbf5a5bedd6398a2e3b9816f28fe3a5867ae115decd211f24",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 161,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 644,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 11.473,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_limited_rescue",
+      "tests.test_kjv_kings_accession",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      321,
+      322
+    ],
+    "observations": "Viewed final limited-rescue spread; matching paragraph starts, approved Maxima and four column styles, margins and Unta retained."
+  },
+  "status": "incomplete whole Bible"
+}

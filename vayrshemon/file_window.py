@@ -1,7 +1,7 @@
 """M14 native file dialogs; the reading layout and glyph renderer are unchanged."""
 from pathlib import Path
 from PySide6.QtCore import QEvent,QTimer
-from PySide6.QtGui import QIcon
+from PySide6.QtGui import QAction,QIcon,QKeySequence
 from PySide6.QtWidgets import QFileDialog,QMessageBox,QPushButton
 from .gloss_window import GlossWindow
 
@@ -26,6 +26,18 @@ class FileWindow(GlossWindow):
     DEFAULT_SIDEBAR=dict(expanded=False,pinned=False,width=390,panel='Paint')
     SHOW_SVG_PROOF_BUTTON=False
 
+    def build_menu(self):
+        super().build_menu()
+        self.close_document_action=QAction('Close',self)
+        self.close_document_action.setShortcut(QKeySequence('Ctrl+W'))
+        self.close_document_action.setToolTip('Close the current document without quitting the application.')
+        self.close_document_action.triggered.connect(lambda checked=False:self.guard(self.close_file))
+        self.file_menu.insertAction(self.recents.menuAction(),self.close_document_action)
+
+    def close_file(self):
+        if self.confirm_discard():
+            self.invoke('document.close',discardUnsaved=True)
+
     def build_export_menu(self,menu):
         self.export_menu=menu.addMenu('Export')
         self.png_export_action=self.export_menu.addAction('PNG…',lambda:self.guard(self.export_png))
@@ -44,7 +56,11 @@ class FileWindow(GlossWindow):
 
     def __init__(self,book,api):
         self.workspace_layout=None
+        self.page_navigator=None
+        self.numbering_controls=None
         super().__init__(book,api)
+        from .page_navigator import PageNavigator
+        self.page_navigator=PageNavigator(self)
         for button in self.findChildren(QPushButton):
             if button.text() in ('Export PNG · current page','Export SVG · current page'):
                 button.setText(button.text().replace('current page','current view'))
@@ -56,6 +72,9 @@ class FileWindow(GlossWindow):
         self.restore_saved_arrangement()
         from .workspace_layout import WorkspaceLayout
         self.workspace_layout=WorkspaceLayout(self)
+        from .numbering_window import NumberingControls
+        self.numbering_controls=NumberingControls(self)
+        self.numbering_controls.sync()
         self._startup_fit=QTimer(self)
         self._startup_fit.setSingleShot(True)
         self._startup_fit.setInterval(100)
@@ -96,16 +115,34 @@ class FileWindow(GlossWindow):
         self._startup_fit_pending=False
         self.centralWidget().layout().activate()
         if self.book.initialize_startup_zoom(self.fitted_zoom(fit_height=True)):
+            self.preview.fit_mode='height'
             self.preview.center_page()
+
+    def fit_new_page(self):
+        # Fit immediately, then record the clean initial zoom after the new
+        # document's controls and viewport have finished resizing.
+        self.timer.stop()
+        self.refresh()
+        self.centralWidget().layout().activate()
+        self.preview.fit_mode='height'
+        self.preview.center_page()
+        self._startup_fit_pending=True
+        self._startup_fit.start()
 
     def configure_workspace(self,**params):
         result=super().configure_workspace(**params)
+        if params.get('fit_height') or params.get('fit_width'):
+            self.preview.fit_mode='width' if params.get('fit_width') else 'height'
+            if self.page_navigator:
+                self.page_navigator.reframe()
+                self.page_navigator.sync()
         if self.workspace_layout is not None:
             if params.get('diagnostics'):self.refresh()
             self.workspace_layout.sync(persist=any(params.get(k) is not None for k in self.workspace_layout.FIELDS))
         return result
 
     def restore_saved_arrangement(self):
+        self.preview.fit_mode=None
         if self.book.saved_preview:
             self.page_controls.set_mode(self.book.saved_page_mode,persist=False)
         elif not self.book.saved_path:
@@ -115,6 +152,14 @@ class FileWindow(GlossWindow):
 
     def refresh(self):
         super().refresh()
+        fixed=bool(self.book.state.get('printEdition'))
+        self.mode.setEnabled(not fixed)
+        self.mode.setToolTip('This fixed print edition uses black ink on white paper.' if fixed else 'Color / relief, white on black, or black on white. Proofs use this choice.')
+        if fixed:
+            self.editor.setReadOnly(True)
+            self.frame_heading.setText('FROZEN PRINT TEXT · select and copy')
+        if self.page_navigator:self.page_navigator.sync()
+        if self.numbering_controls:self.numbering_controls.sync()
         path=self.book.saved_path
         self.setWindowFilePath(str(path) if path else '')
         title=Path(path).name if path else 'Untitled'
@@ -127,6 +172,12 @@ class FileWindow(GlossWindow):
     def open_file(self):
         path,_=QFileDialog.getOpenFileName(self,'Open document',str(saves_directory(self.book)),'Vayrshemon (*.vay *.vay.json *.vaylab.json)')
         if path:self.open_path(path)
+
+    def open_path(self,path):
+        from .loading import loading_dialog
+        path=str(path)
+        with loading_dialog(self.book,path),self.book.reuse_open_preflight():
+            return super().open_path(path)
 
     def save_as(self):
         path,_=QFileDialog.getSaveFileName(self,'Save document as',suggested_path(self.book),'Vayrshemon document (*.vay)')

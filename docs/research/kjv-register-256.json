@@ -1,0 +1,645 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.256",
+    "parentVersion": "0.10-kjv.255",
+    "parentHead": "8378dd9061ca3a932f445a05554d91dfde4a8f720718bb2f11861705f72335e6",
+    "head": "8b993d2284b2a9ab81cb284b0cf031127de41bb58d2e20f58e33d9880a9fca54",
+    "newLexicalEntries": 26,
+    "newProperEntries": 21,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 20,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 83,
+    "exactCompilerCases": 83,
+    "newAuthoredVerses": 83,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 1209,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newTimothyTwoVerses": 83,
+    "timothyTwoVerses": 83,
+    "authoredVerses": 29893,
+    "remainingVerses": 1209,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "2 Timothy 1:5",
+        "source": "When I call to remembrance the unfeigned faith that is in thee, which dwelt first in thy grandmother Lois, and thy mother Eunice; and I am persuaded that in thee also.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Timothy 2:6",
+        "source": "The husbandman that laboureth must be first partaker of the fruits.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Timothy 4:16",
+        "source": "At my first answer no man stood with me, but all men forsook me: I pray God that it may not be laid to their charge.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_jesus_matthew kjv_christ_title kjv_apostle",
+        "god will",
+        "life promise"
+      ],
+      "1:2": [
+        "my/dearly beloved son",
+        "grace mercy and peace",
+        "ourone/kjv_lord"
+      ],
+      "1:3": [
+        "i from my/ancestor:pl with pure conscience serve:pr",
+        "without cease:ev",
+        "my/prayer:pl night and day"
+      ],
+      "1:4": [
+        "thy/tear:pl",
+        "i with joy fill:psv:may"
+      ],
+      "1:5": [
+        "first in thy/kjv_grandmother_timothy kjv_lois_timothy",
+        "thy/mother kjv_eunice_timothy",
+        "in thou also"
+      ],
+      "1:6": [
+        "i thou:a remember:caus:pr",
+        "my/hand:pl on put:ev",
+        "stir:imp"
+      ],
+      "1:7": [
+        "god to wesg spirit of fear give:neg:perf",
+        "power and of love and of kjv_sound_mind_timothy"
+      ],
+      "1:8": [
+        "ourone/kjv_lord testimony",
+        "i his/kjv_prisoner",
+        "kjv_gospel kjv_afflict:ev:pl share:imp"
+      ],
+      "1:9": [
+        "wesg:a save:perf",
+        "not according_to ourone/work:pl",
+        "his/own purpose and grace",
+        "before world begin:pa"
+      ],
+      "1:10": [
+        "ourone/kjv_saviour_timothy kjv_jesus_matthew kjv_christ_title",
+        "death destroy:perf",
+        "life and immortal:ev to light"
+      ],
+      "1:11": [
+        "i proclaim:cv person and kjv_apostle",
+        "kjv_gentile:pl teach:cv person"
+      ],
+      "1:12": [
+        "i whom believe:perf know:pr",
+        "i to he entrust:perf for that day keep:inf able"
+      ],
+      "1:13": [
+        "kjv_sound_teaching_timothy word:pl form",
+        "thou from i hear:perf",
+        "kjv_firmly hold:imp"
+      ],
+      "1:14": [
+        "good thing which to thou entrust:psv:pa",
+        "kjv_holy_spirit_title who in wesg dwell:pr"
+      ],
+      "1:15": [
+        "all they who in kjv_asia_acts",
+        "from i away turn:perf",
+        "kjv_phygellus_timothy and kjv_hermogenes_timothy"
+      ],
+      "1:16": [
+        "kjv_onesiphorus_timothy kjv_household",
+        "often kjv_refresh:pa",
+        "my/chain shame:psv:neg:pa"
+      ],
+      "1:17": [
+        "in kjv_rome_acts",
+        "very kjv_diligent:adv seek:pa",
+        "i:a find:pa"
+      ],
+      "1:18": [
+        "kjv_lord to he",
+        "mercy of kjv_lord in that day",
+        "at kjv_ephesus_acts serve:pa"
+      ],
+      "2:1": [
+        "my/son",
+        "in grace",
+        "strong be:imp"
+      ],
+      "2:2": [
+        "from i among many witness:pl",
+        "to faithful man:pl entrust:imp",
+        "other:pl also teach:inf able"
+      ],
+      "2:3": [
+        "kjv_trouble endure:imp",
+        "good kjv_jesus_matthew kjv_christ_title soldier"
+      ],
+      "2:4": [
+        "this life affair:pl entangle:pr",
+        "soldier be:inf choose:perf",
+        "kjv_please_satisfy:may"
+      ],
+      "2:5": [
+        "for win:ev contend:pr",
+        "crown:psv:neg:pr except law:adv"
+      ],
+      "2:6": [
+        "kjv_husbandman who labour:pr first fruit:pl share:must"
+      ],
+      "2:7": [
+        "what i say:pr consider:imp",
+        "kjv_lord to thou in all thing:pl understand:ev give:opt"
+      ],
+      "2:8": [
+        "of kjv_david offspring",
+        "from dead:pl raise:psv:pa",
+        "my/kjv_gospel"
+      ],
+      "2:9": [
+        "i kjv_trouble as evil do:cv person",
+        "to bond:pl",
+        "god word bind:psv:neg:pr"
+      ],
+      "2:10": [
+        "i for kjv_election_romans:adj person:pl sake",
+        "salvation",
+        "eternal glory"
+      ],
+      "2:11": [
+        "if wesg with he dead be:pr wesg also with he live:fu"
+      ],
+      "2:12": [
+        "if wesg suffer:pr",
+        "with he rule:fu",
+        "if wesg he:a deny:pr he also wesg:a deny:fu"
+      ],
+      "2:13": [
+        "if wesg believe:neg:pr yet he faithful remain:pr",
+        "he himself deny:neg:can"
+      ],
+      "2:14": [
+        "before kjv_lord command:cv",
+        "about word:pl to no benefit",
+        "hear:cv person:pl kjv_overthrow:ev"
+      ],
+      "2:15": [
+        "approve:psv:adj",
+        "truth word straight cut:cv"
+      ],
+      "2:16": [
+        "kjv_unholy_profane and vain kjv_babble:pl",
+        "more kjv_ungodly:ev"
+      ],
+      "2:17": [
+        "their/word as kjv_canker_decay_timothy",
+        "kjv_hymenaeus_second_timothy and kjv_philetus_timothy"
+      ],
+      "2:18": [
+        "they:du about truth err:perf",
+        "rise:ev from dead:pl already past",
+        "some faith kjv_overthrow:pr"
+      ],
+      "2:19": [
+        "god kjv_foundation sure",
+        "this seal",
+        "kjv_lord they who to he belong:pr know:pr",
+        "kjv_christ_title name",
+        "from kjv_iniquity depart:opt"
+      ],
+      "2:20": [
+        "gold and silver vessel:pl",
+        "wood and earth",
+        "some to honour and some to dishonour"
+      ],
+      "2:21": [
+        "himself from these purge:pr",
+        "master use fitting",
+        "every good work prepare:psv:adj"
+      ],
+      "2:22": [
+        "youth:adj desire:pl",
+        "kjv_righteousness faith love peace",
+        "pure heart"
+      ],
+      "2:23": [
+        "foolish and learn:neg:adj question:pl",
+        "strife:pl beget:pr"
+      ],
+      "2:24": [
+        "servant contend:neg:must",
+        "to all man:pl gentle teach:inf able patient"
+      ],
+      "2:25": [
+        "kjv_meek_disposition:ev",
+        "they who contrary stand:pr",
+        "god perhaps",
+        "repent:ev give:fu"
+      ],
+      "2:26": [
+        "themselves out of devil snare recover:may",
+        "by he at his/will captive"
+      ],
+      "3:1": [
+        "last day:pl dangerous time:pl"
+      ],
+      "3:2": [
+        "their/own self:pl love:cv",
+        "to parent:pl kjv_disobedient",
+        "thanks give:neg:cv"
+      ],
+      "3:3": [
+        "natural affection without",
+        "kjv_covenant break:cv",
+        "themselves restrain:neg:cv",
+        "good person:pl despise:cv"
+      ],
+      "3:4": [
+        "betray:cv person:pl reckless proud",
+        "pleasure:pl more than god"
+      ],
+      "3:5": [
+        "kjv_godly:ev form",
+        "its/power deny:cv",
+        "from such away turn:imp"
+      ],
+      "3:6": [
+        "into house:pl creep:pr",
+        "foolish woman:pl with sin:pl burden:psv:adj",
+        "different desire:pl"
+      ],
+      "3:7": [
+        "always learn:cv and never",
+        "truth know:ev come:inf able"
+      ],
+      "3:8": [
+        "kjv_jannes_timothy and kjv_jambres_timothy kjv_moses against stand:pa",
+        "these also truth against stand:pr",
+        "about faith reject:psv:adj"
+      ],
+      "3:9": [
+        "further proceed:neg:fu",
+        "their/folly to all man:pl",
+        "those:du folly"
+      ],
+      "3:10": [
+        "my/doctrine life manner purpose faith patience love endure:ev"
+      ],
+      "3:11": [
+        "kjv_antioch_pisidia_acts",
+        "kjv_iconium_acts",
+        "kjv_lystra_acts",
+        "out of they all kjv_lord i:a deliver:pa"
+      ],
+      "3:12": [
+        "all who in kjv_christ_title kjv_jesus_matthew kjv_godly:adv live:inf will:pr"
+      ],
+      "3:13": [
+        "worse and worse grow:fu",
+        "deceive:cv and deceive:psv:cv"
+      ],
+      "3:14": [
+        "learn:perf and assure:psv:perf",
+        "from who learn:perf"
+      ],
+      "3:15": [
+        "from child thou holy write:ev:pl",
+        "to salvation through faith"
+      ],
+      "3:16": [
+        "all sacred write:ev by god kjv_inspiration_breath give:psv:pr",
+        "for doctrine for rebuke:ev for kjv_reform_discipline:ev",
+        "kjv_righteousness instruct:ev"
+      ],
+      "3:17": [
+        "god man perfect be:may",
+        "all good work:pl fully equip:psv:adj"
+      ],
+      "4:1": [
+        "i therefore thou:a before god",
+        "alive:pl and dead:pl",
+        "his/appear:ev and his/kingdom"
+      ],
+      "4:2": [
+        "in season out of season ready",
+        "kjv_convince_reprove:imp rebuke:imp kjv_exhort_romans:imp",
+        "all patience and doctrine"
+      ],
+      "4:3": [
+        "kjv_sound_teaching_timothy doctrine endure:neg:fu",
+        "their/own desire:pl",
+        "in kjv_heap gather:fu",
+        "kjv_itch_desire_timothy:cv"
+      ],
+      "4:4": [
+        "ear:pl from truth away turn:fu",
+        "to fable:pl turn:psv:fu"
+      ],
+      "4:5": [
+        "kjv_evangelist_ephesians work",
+        "thy/service fully fulfil:imp"
+      ],
+      "4:6": [
+        "i now offer:psv:inf ready",
+        "my/departure time near"
+      ],
+      "4:7": [
+        "i good fight fight:perf",
+        "i my/course finish:perf",
+        "i faith keep:perf"
+      ],
+      "4:8": [
+        "for i kjv_righteousness crown",
+        "not to i only",
+        "all who his/appear:ev love:pr"
+      ],
+      "4:9": [
+        "to i soon come:inf kjv_diligent:adv strive:imp"
+      ],
+      "4:10": [
+        "kjv_demas_colossians i:a forsake:perf this present world love:pp",
+        "kjv_thessalonica_acts",
+        "kjv_crescens_timothy to kjv_galatia_acts",
+        "kjv_titus_second_corinthians to kjv_dalmatia_timothy"
+      ],
+      "4:11": [
+        "only kjv_luke_physician_colossians with i",
+        "kjv_mark_second_timothy take:imp",
+        "for service benefit:adj"
+      ],
+      "4:12": [
+        "kjv_tychicus_acts i to kjv_ephesus_acts send:perf"
+      ],
+      "4:13": [
+        "kjv_cloak",
+        "kjv_troas_acts with kjv_carpus_timothy",
+        "book:pl but especially kjv_parchment_timothy:pl"
+      ],
+      "4:14": [
+        "kjv_alexander_coppersmith_timothy kjv_copper kjv_smith",
+        "much evil do:pa",
+        "according_to his/work:pl reward:opt"
+      ],
+      "4:15": [
+        "ourone/word:pl greatly against stand:perf"
+      ],
+      "4:16": [
+        "my/first answer",
+        "no person with i stand:pa",
+        "i god pray:pr",
+        "it against they reckon:psv:neg:may"
+      ],
+      "4:17": [
+        "kjv_lord with i stand:pa",
+        "all kjv_gentile:pl hear:may",
+        "out of lion mouth"
+      ],
+      "4:18": [
+        "i:a from every evil work deliver:fu",
+        "his/heaven:adj kingdom",
+        "forever and forever"
+      ],
+      "4:19": [
+        "kjv_prisca_timothy and kjv_aquila_acts",
+        "kjv_onesiphorus_timothy kjv_household"
+      ],
+      "4:20": [
+        "kjv_erastus_second_timothy at kjv_corinth_acts",
+        "kjv_trophimus_acts i at kjv_miletum_timothy sick"
+      ],
+      "4:21": [
+        "before winter",
+        "kjv_eubulus_timothy",
+        "kjv_pudens_timothy",
+        "kjv_linus_timothy",
+        "kjv_claudia_timothy",
+        "all brother:pl"
+      ],
+      "4:22": [
+        "with thy/spirit",
+        "grace with you",
+        "amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:11",
+        "1:12",
+        "1:13",
+        "1:15",
+        "1:16",
+        "1:17",
+        "1:18",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:8",
+        "2:10",
+        "2:2",
+        "2:7",
+        "2:9",
+        "3:11",
+        "4:1",
+        "4:10",
+        "4:11",
+        "4:12",
+        "4:13",
+        "4:14",
+        "4:16",
+        "4:17",
+        "4:18",
+        "4:20",
+        "4:6",
+        "4:7",
+        "4:8",
+        "4:9"
+      ],
+      "ipl": [],
+      "wesg": [
+        "1:14",
+        "1:7",
+        "1:9",
+        "2:11",
+        "2:12",
+        "2:13"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "1:10",
+        "1:2",
+        "1:8",
+        "1:9",
+        "4:15"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "2:18"
+      ],
+      "you:du": [],
+      "those:du": [
+        "3:9"
+      ]
+    },
+    "physicalDualReferences": [
+      "2:18",
+      "3:9"
+    ],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "First in prior family faith,fruit sharing and defence retains three local ordinal uses.",
+      "Hymenaeus/Philetus and Jannes/Jambres license physical dual references;no divine dual.",
+      "Communal singular-we in2:11–13 remains distinct from he/himself;personal-I carries the farewell."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "83new verses;all2Timothy;whole Bible incomplete.",
+      "Supplied Gentile-teacher,name-of-Christ,all-scripture,prayer-reward and thy/you ending retained.",
+      "Straight-cut,sound-mind,canker,itching-ears and household images are contextual,not clinical diagnoses or later doctrine.",
+      "Five common entries,twenty-one contextual names,no new paradigms;earlier targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Timothy — incomplete Bible working text",
+    "pages": 46,
+    "spreads": 23,
+    "units": 83,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "7a7d6f28eb6e2dfa45b210052c490dfd8986cbbfdbe3d7aa243cd8b646833aea",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 23,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.36,
+    "modules": [
+      "tests.test_kjv_timothy2_farewell",
+      "tests.test_kjv_timothy1_household",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    45,
+    46
+  ],
+  "status": "incomplete Bible;2 Timothy1–4 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 45,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv256\\preflight-timothy2\\Proofs\\page-045.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv256\\composed-timothy2\\Proofs\\page-045.png",
+        "sha256": "44d53a87f364b8de5fefc031668eb15a060cc79dee15ea00a40e10cdfc304ebb",
+        "bytesIdentical": true
+      },
+      {
+        "page": 46,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv256\\preflight-timothy2\\Proofs\\page-046.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv256\\composed-timothy2\\Proofs\\page-046.png",
+        "sha256": "185df7749843147f309af49062135b155553de5a33a4a33c03eff9bc124db2df",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

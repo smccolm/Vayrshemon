@@ -1,0 +1,650 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.147",
+    "parentVersion": "0.10-kjv.146",
+    "parentHead": "5111ffe2312da2c93fa699f1ed3c2a86fcb9fa50d76fc1bb7a20d55a09cc7695",
+    "head": "971c0bf1e7c409d6cfc3d590f13ea7d85e269b508e08425748339f4ca823ad88",
+    "newLexicalEntries": 8,
+    "newProperEntries": 6,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 94,
+    "exactCompilerCases": 94,
+    "newAuthoredVerses": 94,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 588,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 11519,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 94,
+    "jeremiahVerses": 588,
+    "authoredVerses": 19583,
+    "remainingVerses": 11519,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 24:1",
+        "source": "The LORD shewed me, and, behold, two baskets of figs were set before the temple of the LORD, after that Nebuchadrezzar king of Babylon had carried away captive Jeconiah the son of Jehoiakim king of Judah, and the princes of Judah, with the carpenters and smiths, from Jerusalem, and had brought them to Babylon.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 24:2",
+        "source": "One basket had very good figs, even like the figs that are first ripe: and the other basket had very naughty figs, which could not be eaten, they were so bad.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "21:1": [
+        "kjv_pashur_melchiah:a son of kjv_melchiah_pashur",
+        "kjv_zephaniah_maaseiah:a son of kjv_maaseiah_zephaniah"
+      ],
+      "21:2": [
+        "for wesg of kjv_lord ask:imp",
+        "i thee:a pray:pr",
+        "he from wesg up go:may"
+      ],
+      "21:3": [
+        "to kjv_zedekiah_king"
+      ],
+      "21:4": [
+        "weapon:pl:a of war back turn:fu",
+        "outside wall:pl",
+        "middle of this city"
+      ],
+      "21:5": [
+        "ipl iplself against you fight:fu",
+        "out stretch:psv:adj hand",
+        "great wrath"
+      ],
+      "21:6": [
+        "both human and beast",
+        "great kjv_pestilence"
+      ],
+      "21:7": [
+        "from kjv_pestilence from sword and from kjv_famine",
+        "spare:neg:fu",
+        "pity:a have:neg:fu",
+        "mercy:a have:neg:fu"
+      ],
+      "21:8": [
+        "way:a of life and way:a of death"
+      ],
+      "21:9": [
+        "to kjv_chaldean:pl fall:pr",
+        "his/life to he for prey"
+      ],
+      "21:10": [
+        "mypl/face:a",
+        "for evil and not for good"
+      ],
+      "21:11": [
+        "about house of king"
+      ],
+      "21:12": [
+        "judgment:a in morning do:imp",
+        "mypl/fury",
+        "no human it:a extinguish:can"
+      ],
+      "21:13": [
+        "against wesg",
+        "ourone/dwell:ev place:pl"
+      ],
+      "21:14": [
+        "fruit of your/deed:pl",
+        "its/forest kjv_kindle_fire:fu"
+      ],
+      "22:1": [
+        "down go:imp"
+      ],
+      "22:2": [
+        "thou and thy/servant:pl and thy/people"
+      ],
+      "22:3": [
+        "kjv_righteousness:a",
+        "stranger kjv_fatherless",
+        "widow",
+        "shed:neg:imp"
+      ],
+      "22:4": [
+        "king:pl enter:fu",
+        "he and his/servant:pl"
+      ],
+      "22:5": [
+        "ipl by iplself swear:pr"
+      ],
+      "22:6": [
+        "kjv_gilead and head of kjv_lebanon",
+        "inhabit:psv:neg:pr"
+      ],
+      "22:7": [
+        "each with his/weapon:pl",
+        "thy/choice kjv_cedar:pl:a"
+      ],
+      "22:8": [
+        "each human to his/neighbour",
+        "why kjv_lord"
+      ],
+      "22:9": [
+        "kjv_covenant:a",
+        "other god:pl:a worship:perf"
+      ],
+      "22:10": [
+        "weep:neg:imp",
+        "greatly for he weep:imp",
+        "country:a see:neg:fu"
+      ],
+      "22:11": [
+        "kjv_shallum_josiah",
+        "kjv_josiah_amon his/father",
+        "return:neg:fu"
+      ],
+      "22:12": [
+        "captive lead:perf",
+        "no more see:fu"
+      ],
+      "22:13": [
+        "without kjv_wages",
+        "give:neg:pr:excl"
+      ],
+      "22:14": [
+        "i for i wide house:a",
+        "kjv_ceiling:psv:pr",
+        "kjv_vermilion"
+      ],
+      "22:15": [
+        "thyself in kjv_cedar close:pr",
+        "thy/father eat:neg:pa",
+        "judgment:a and justice:a"
+      ],
+      "22:16": [
+        "poor and kjv_needy",
+        "this ipl:a know:inf"
+      ],
+      "22:17": [
+        "only for thy/kjv_covet:ev",
+        "innocent blood:a",
+        "kjv_violence"
+      ],
+      "22:18": [
+        "kjv_jehoiakim son of kjv_josiah_amon",
+        "ah my/brother:excl",
+        "ah his/glory:excl"
+      ],
+      "22:19": [
+        "bury:ev of ass",
+        "beyond gate:pl"
+      ],
+      "22:20": [
+        "kjv_bashan",
+        "from passage:pl",
+        "all thy/lover:pl"
+      ],
+      "22:21": [
+        "ipl to thee",
+        "thou say:pa ipl hear:neg:fu",
+        "mypl/voice:a"
+      ],
+      "22:22": [
+        "wind all thy/shepherd:pl:a up eat:fu",
+        "captive:ev"
+      ],
+      "22:23": [
+        "how gracious",
+        "woman in kjv_travail"
+      ],
+      "22:24": [
+        "kjv_coniah_jehoiakim",
+        "mypl/kjv_right_side hand",
+        "pluck:fu"
+      ],
+      "22:25": [
+        "whose face thou fear:pr",
+        "kjv_nebuchadrezzar"
+      ],
+      "22:26": [
+        "thy/mother:a who thee:a bear:pa",
+        "you:du bear:psv:neg:pa",
+        "you:du die:fu"
+      ],
+      "22:27": [
+        "they return:inf desire:pr",
+        "they return:neg:fu"
+      ],
+      "22:28": [
+        "broken idol",
+        "he and his/seed",
+        "they know:neg:pr"
+      ],
+      "22:29": [
+        "earth earth earth",
+        "hear:imp:excl"
+      ],
+      "22:30": [
+        "this human:a without child write:imp",
+        "no human of his/seed prosper:fu",
+        "throne of kjv_david"
+      ],
+      "23:1": [
+        "mypl/kjv_pasture",
+        "destroy:pr and scatter:pr:excl"
+      ],
+      "23:2": [
+        "visit:neg:perf",
+        "evil:a of your/deed:pl upon you visit:fu"
+      ],
+      "23:3": [
+        "ipl they:a drive:perf",
+        "their/sheepfold:pl",
+        "fruitful"
+      ],
+      "23:4": [
+        "no more fear:fu",
+        "kjv_dismay:psv:neg:fu",
+        "lack:adj be:neg:fu"
+      ],
+      "23:5": [
+        "kjv_righteous branch:a",
+        "king rule:fu",
+        "judgment:a and justice:a"
+      ],
+      "23:6": [
+        "his/name",
+        "kjv_lord ourone/kjv_righteousness"
+      ],
+      "23:7": [
+        "no more say:fu",
+        "out of land of egypt"
+      ],
+      "23:8": [
+        "ipl they:a drive:pp",
+        "their/own land"
+      ],
+      "23:9": [
+        "my/heart within i",
+        "all my/bone:pl shake:pr",
+        "wine overcome:perf"
+      ],
+      "23:10": [
+        "because of swear:ev",
+        "their/force fitting be:neg:pr"
+      ],
+      "23:11": [
+        "both kjv_prophet and priest",
+        "mypl/house ipl",
+        "wicked:ev:a find:perf"
+      ],
+      "23:12": [
+        "kjv_slippery way:pl",
+        "year of their/visit:ev"
+      ],
+      "23:13": [
+        "kjv_samaria",
+        "in kjv_baal",
+        "mypl/people:a kjv_israel err:caus:pa"
+      ],
+      "23:14": [
+        "hand:pl:a of evil do:ag:pl strengthen:pr",
+        "no human",
+        "kjv_sodom",
+        "kjv_gomorrah"
+      ],
+      "23:15": [
+        "kjv_wormwood",
+        "kjv_gall_bitter drink:caus:fu"
+      ],
+      "23:16": [
+        "vision:a of their/own heart",
+        "not out of mouth of kjv_lord"
+      ],
+      "23:17": [
+        "who ipl:a despise:pr",
+        "you peace:a have:fu",
+        "no evil upon you"
+      ],
+      "23:18": [
+        "counsel of kjv_lord",
+        "perceive:perf and hear:perf",
+        "mark:perf"
+      ],
+      "23:19": [
+        "kjv_whirlwind",
+        "head of wicked human:pl"
+      ],
+      "23:20": [
+        "return:neg:fu",
+        "thought:pl:a of his/heart",
+        "later day:pl"
+      ],
+      "23:21": [
+        "send:neg:perf yet they run:pa",
+        "speak:neg:perf yet they kjv_prophesy:pa"
+      ],
+      "23:22": [
+        "stand:pp",
+        "hear:caus:pp",
+        "turn:pp:should"
+      ],
+      "23:23": [
+        "ipl god at hand",
+        "not god far off"
+      ],
+      "23:24": [
+        "secret place:pl hide:can",
+        "ipl he:a see:neg:fu",
+        "heaven:a and earth:a fill:neg:pr"
+      ],
+      "23:25": [
+        "ipl that:a hear:perf",
+        "i dream:perf i dream:perf"
+      ],
+      "23:26": [
+        "how long",
+        "deceit of their/own heart"
+      ],
+      "23:27": [
+        "mypl/name:a forget:caus:inf",
+        "mypl/name:a for kjv_baal forget:perf"
+      ],
+      "23:28": [
+        "he dream:a tell:opt",
+        "mypl/word:a faithfully speak:opt",
+        "kjv_chaff to wheat"
+      ],
+      "23:29": [
+        "mypl/word like fire",
+        "kjv_hammer"
+      ],
+      "23:30": [
+        "mypl/word:pl:a each human from his/neighbour steal:pr"
+      ],
+      "23:31": [
+        "their/tongue:pl:a",
+        "say:pr he say:pr"
+      ],
+      "23:32": [
+        "their/lightweight:ev",
+        "send:neg:pa",
+        "command:neg:pa",
+        "benefit:neg:fu"
+      ],
+      "23:33": [
+        "what kjv_burden_oracle",
+        "ipl even you:a forsake:fu"
+      ],
+      "23:34": [
+        "kjv_burden_oracle",
+        "that human:a and his/house:a"
+      ],
+      "23:35": [
+        "each to his/neighbour",
+        "each to his/brother",
+        "kjv_lord answer:perf"
+      ],
+      "23:36": [
+        "kjv_burden_oracle:a",
+        "every human/word his/burden",
+        "ourone/god twist:perf"
+      ],
+      "23:37": [
+        "thou to kjv_prophet",
+        "thee:a answer:perf"
+      ],
+      "23:38": [
+        "you kjv_burden_oracle of kjv_lord say:neg:fu"
+      ],
+      "23:39": [
+        "ipl even ipl",
+        "to full forget:fu",
+        "mypl/presence"
+      ],
+      "23:40": [
+        "eternal kjv_reproach:a",
+        "perpetual shame:a",
+        "forget:psv:neg:fu"
+      ],
+      "24:1": [
+        "two kjv_basket:pl",
+        "kjv_jeconiah:a son of kjv_jehoiakim",
+        "carpenter:pl and kjv_smith:pl"
+      ],
+      "24:2": [
+        "one_num kjv_basket",
+        "first ripe",
+        "other kjv_basket",
+        "eat:psv:neg:can"
+      ],
+      "24:3": [
+        "then kjv_lord to i",
+        "and i say:pa",
+        "so evil be:pr"
+      ],
+      "24:4": [
+        "word of kjv_lord to i"
+      ],
+      "24:5": [
+        "for their/good send:perf",
+        "acknowledge:fu"
+      ],
+      "24:6": [
+        "mypl/eye:pl:a",
+        "pull:neg:fu",
+        "pluck:neg:fu"
+      ],
+      "24:7": [
+        "heart:a give:fu to ipl:a know:inf",
+        "they mypl/people",
+        "ipl their/god"
+      ],
+      "24:8": [
+        "kjv_zedekiah_king:a",
+        "in this land remain:pr",
+        "land of egypt dwell:pr"
+      ],
+      "24:9": [
+        "all kingdom:pl of earth",
+        "kjv_reproach and proverb and taunt and curse"
+      ],
+      "24:10": [
+        "sword:a kjv_famine:a and kjv_pestilence:a",
+        "consume:psv:pr"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "21:2",
+        "22:14",
+        "23:25",
+        "23:9",
+        "24:1",
+        "24:3",
+        "24:4"
+      ],
+      "ipl": [
+        "21:10",
+        "21:13",
+        "21:14",
+        "21:4",
+        "21:5",
+        "21:6",
+        "21:7",
+        "21:8",
+        "22:16",
+        "22:21",
+        "22:24",
+        "22:25",
+        "22:26",
+        "22:5",
+        "22:6",
+        "22:7",
+        "23:11",
+        "23:12",
+        "23:13",
+        "23:14",
+        "23:15",
+        "23:17",
+        "23:2",
+        "23:21",
+        "23:23",
+        "23:24",
+        "23:25",
+        "23:3",
+        "23:30",
+        "23:31",
+        "23:32",
+        "23:33",
+        "23:34",
+        "23:38",
+        "23:39",
+        "23:4",
+        "23:40",
+        "23:5",
+        "23:8",
+        "24:10",
+        "24:5",
+        "24:6",
+        "24:7",
+        "24:8",
+        "24:9"
+      ],
+      "wesg": [
+        "21:13",
+        "21:2"
+      ],
+      "wepl": [],
+      "mypl": [
+        "21:10",
+        "21:12",
+        "22:21",
+        "22:24",
+        "23:1",
+        "23:11",
+        "23:13",
+        "23:2",
+        "23:22",
+        "23:25",
+        "23:27",
+        "23:28",
+        "23:29",
+        "23:3",
+        "23:30",
+        "23:32",
+        "23:39",
+        "24:6",
+        "24:7"
+      ],
+      "ourone": [
+        "21:13",
+        "23:36",
+        "23:6"
+      ],
+      "iplself": [
+        "21:5",
+        "22:5"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [
+        "22:26"
+      ]
+    },
+    "physicalDualReferences": [
+      "Jeremiah22:26: explicitly named son and mother"
+    ],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Two baskets24:1;one basket and first-ripe24:2.",
+      "Repeated earth,I and burden formulas remain repetitions,not added numeral counts."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah21–24 adds94 verses,total588;whole Bible incomplete.",
+      "Personal dream claim,divine self-oath,civic refusal and communal title remain distinct.",
+      "Civic quoted-I22:21 has a documented individual-ruler alternative.",
+      "Two common senses and six contextual names added;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 472,
+    "spreads": 236,
+    "units": 588,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "3a0932f4ec6dd53e5ac372eba68a269e6d865aef730ec59402a8a2400ea4a353",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 236,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.945,
+    "modules": [
+      "tests.test_kjv_jeremiah_burden_wordplay",
+      "tests.test_kjv_jeremiah_clay_protest",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    471,
+    472
+  ],
+  "status": "incomplete Bible;Jeremiah1–24 section checkpoint verified"
+}

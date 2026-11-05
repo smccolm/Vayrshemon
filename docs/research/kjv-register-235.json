@@ -1,0 +1,757 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.235",
+    "parentVersion": "0.10-kjv.234",
+    "parentHead": "f77b8a7c6ddedb5a73b4e4d3873ec6d6019196d5fcb8598b8300a9c3f7123e65",
+    "head": "1abad43b870356e6afbbb5d28f4d0c0210236a3010fd94e288d73a3d5b30c833",
+    "newLexicalEntries": 14,
+    "newProperEntries": 4,
+    "newCommonEntries": 10,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 97,
+    "exactCompilerCases": 97,
+    "newAuthoredVerses": 97,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 258,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2913,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newRomansVerses": 97,
+    "romansVerses": 258,
+    "authoredVerses": 28189,
+    "remainingVerses": 2913,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Romans 9:10",
+        "source": "And not only this; but when Rebecca also had conceived by one, even by our father Isaac;",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Romans 9:21",
+        "source": "Hath not the potter power over the clay, of the same lump to make one vessel unto honour, and another unto dishonour?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "7:1": [
+        "i to they who law know",
+        "as long as he live",
+        "kjv_dominion"
+      ],
+      "7:2": [
+        "as long as he live",
+        "if husband dead",
+        "from law of her/husband loose"
+      ],
+      "7:3": [
+        "while her/husband live",
+        "kjv_adulteress call",
+        "from that law free",
+        "though to another man marry"
+      ],
+      "7:4": [
+        "by body of kjv_christ_title dead",
+        "from dead:pl raise",
+        "wesg to god fruit produce"
+      ],
+      "7:5": [
+        "wesg in flesh",
+        "kjv_motion_passion_romans:pl",
+        "ourone/kjv_member_body_romans:pl",
+        "to death fruit"
+      ],
+      "7:6": [
+        "that dead be:cv wherein wesg hold",
+        "new:ev of spirit",
+        "not in old:ev of kjv_letter_law_romans"
+      ],
+      "7:7": [
+        "god forbid:opt:excl",
+        "i lust know:neg:pp",
+        "thou kjv_covet:neg:fu"
+      ],
+      "7:8": [
+        "sin by command occasion",
+        "all kind of kjv_concupiscence_romans",
+        "without law sin dead"
+      ],
+      "7:9": [
+        "i in former time without law alive",
+        "sin revive:pa and i die"
+      ],
+      "7:10": [
+        "command which to life kjv_ordain",
+        "i to death be:inf find"
+      ],
+      "7:11": [
+        "sin by command occasion",
+        "i:a deceive:pa",
+        "by it i:a slay"
+      ],
+      "7:12": [
+        "law holy",
+        "command holy and kjv_righteous and good"
+      ],
+      "7:13": [
+        "good to i death make:psv:pa:q",
+        "god forbid:opt:excl",
+        "very sinful become"
+      ],
+      "7:14": [
+        "wesg that law spirit:adj",
+        "ipl flesh:adj",
+        "under sin sell"
+      ],
+      "7:15": [
+        "ipl approve:neg:pr",
+        "what ipl will:pr that ipl do:neg",
+        "what ipl hate:pr that ipl do:pr"
+      ],
+      "7:16": [
+        "ipl will:neg:pr do:pr",
+        "to law consent give"
+      ],
+      "7:17": [
+        "no longer ipl that it do",
+        "sin which in ipl dwell"
+      ],
+      "7:18": [
+        "namely in mypl/flesh",
+        "no good thing dwell",
+        "to will present with ipl",
+        "ipl find:neg"
+      ],
+      "7:19": [
+        "good which ipl will:pr ipl do:neg",
+        "evil which ipl will:neg:pr that ipl do:pr"
+      ],
+      "7:20": [
+        "if ipl that which ipl will:neg:pr do:pr",
+        "no longer ipl",
+        "sin which in ipl dwell"
+      ],
+      "7:21": [
+        "when ipl good do:inf will",
+        "evil with ipl present"
+      ],
+      "7:22": [
+        "ipl in law of god",
+        "man within delight"
+      ],
+      "7:23": [
+        "mypl/kjv_member_body_romans:pl",
+        "law of mypl/mind",
+        "into kjv_captivity"
+      ],
+      "7:24": [
+        "wretched man that ipl be:pr:excl",
+        "from body of this death deliver:fu:q"
+      ],
+      "7:25": [
+        "i god through",
+        "ourone/lord thank",
+        "with mind ipl iplself",
+        "with flesh law of sin"
+      ],
+      "8:1": [
+        "no condemn:ev",
+        "who not according_to flesh but according_to spirit walk"
+      ],
+      "8:2": [
+        "i:a from law of sin and death free make"
+      ],
+      "8:3": [
+        "his/own son in likeness of sinful flesh and for sin",
+        "sin in flesh condemn"
+      ],
+      "8:4": [
+        "kjv_righteousness of law in wesg",
+        "not according_to flesh but according_to spirit"
+      ],
+      "8:5": [
+        "thing:pl of flesh kjv_mind_attention_romans",
+        "thing:pl of spirit"
+      ],
+      "8:6": [
+        "flesh:adj mind have:inf death",
+        "spirit:adj mind have:inf life and peace"
+      ],
+      "8:7": [
+        "enmity against god",
+        "kjv_subject_authority_romans:neg:psv:pr",
+        "kjv_subject_authority_romans:psv:neg:can"
+      ],
+      "8:8": [
+        "god:a kjv_please_satisfy:neg:can"
+      ],
+      "8:9": [
+        "spirit of god in you dwell",
+        "spirit of kjv_christ_title have:neg",
+        "he of he be:neg"
+      ],
+      "8:10": [
+        "body because of sin dead",
+        "spirit because of kjv_righteousness life"
+      ],
+      "8:11": [
+        "kjv_jesus_matthew from dead:pl",
+        "kjv_christ_title from dead:pl",
+        "your/mortal body:pl",
+        "his/spirit"
+      ],
+      "8:12": [
+        "wesg owe:ag:pl",
+        "not to flesh"
+      ],
+      "8:13": [
+        "through spirit deed:pl of body to death put",
+        "you live:fu"
+      ],
+      "8:14": [
+        "by spirit of god lead",
+        "son:pl of god"
+      ],
+      "8:15": [
+        "spirit of bondage again to fear receive:neg",
+        "spirit of adoption receive",
+        "wesg cry:pr kjv_abba_quoted father"
+      ],
+      "8:16": [
+        "spirit itself with ourone/spirit",
+        "wesg child:pl of god"
+      ],
+      "8:17": [
+        "together heir:pl with kjv_christ_title",
+        "if indeed wesg with he suffer",
+        "together glorify"
+      ],
+      "8:18": [
+        "i kjv_impute",
+        "glory which in wesg reveal",
+        "worthy be:neg"
+      ],
+      "8:19": [
+        "kjv_creation_collective_romans",
+        "manifestation of son:pl of god"
+      ],
+      "8:20": [
+        "not willingly",
+        "same in hope kjv_subject_authority_romans"
+      ],
+      "8:21": [
+        "kjv_creation_collective_romans itself",
+        "bondage of kjv_corrupt_decay:ev",
+        "glorious kjv_freedom_status"
+      ],
+      "8:22": [
+        "wesg know",
+        "whole kjv_creation_collective_romans",
+        "in pain kjv_travail",
+        "until now"
+      ],
+      "8:23": [
+        "wesg ourselves",
+        "kjv_firstfruits of spirit",
+        "adoption wait",
+        "redeem:ev of ourone/body"
+      ],
+      "8:24": [
+        "wesg by hope save",
+        "hope which see:psv:pr hope be:neg",
+        "why he yet hope:pr:q"
+      ],
+      "8:25": [
+        "wesg see:neg:pr hope",
+        "with patience"
+      ],
+      "8:26": [
+        "ourone/weak:ev:pl",
+        "wesg what wesg as fitting pray",
+        "spirit itself for wesg",
+        "utter:psv:neg:can kjv_intercede_romans"
+      ],
+      "8:27": [
+        "he who heart:pl search",
+        "mind of spirit",
+        "according_to will of god kjv_intercede_romans"
+      ],
+      "8:28": [
+        "all thing:pl together for good work",
+        "they who god love",
+        "according_to his/purpose"
+      ],
+      "8:29": [
+        "kjv_foreknow_romans",
+        "kjv_predestinate_romans",
+        "like image of his/son",
+        "among many brother:pl kjv_firstborn_human"
+      ],
+      "8:30": [
+        "kjv_predestinate_romans:pa",
+        "call:pa",
+        "kjv_justify:pa",
+        "glorify:pa"
+      ],
+      "8:31": [
+        "what wesg",
+        "if god for wesg",
+        "against wesg be:can:q"
+      ],
+      "8:32": [
+        "his/own son spare:neg",
+        "for all wesg",
+        "all thing:pl to wesg kjv_freely_gift_romans"
+      ],
+      "8:33": [
+        "choose:psv:adj:pl of god accuse",
+        "god that kjv_justify"
+      ],
+      "8:34": [
+        "kjv_christ_title that die",
+        "again rise:perf",
+        "kjv_right_side hand",
+        "for wesg kjv_intercede_romans"
+      ],
+      "8:35": [
+        "kjv_tribulation or distress or persecute:ev or kjv_famine or kjv_nakedness or peril or sword"
+      ],
+      "8:36": [
+        "for thy/sake wesg all day long kill",
+        "sheep for kjv_slaughter kjv_impute"
+      ],
+      "8:37": [
+        "wesg more than conqueror:pl",
+        "he who wesg:a love"
+      ],
+      "8:38": [
+        "i persuade",
+        "neither death nor life nor angel:pl nor authority:pl nor power:pl",
+        "present nor thing:pl to come"
+      ],
+      "8:39": [
+        "nor height nor kjv_depth nor any other creature",
+        "ourone/lord",
+        "able be:neg:fu"
+      ],
+      "9:1": [
+        "i truth",
+        "i kjv_lie_false:neg",
+        "my/conscience",
+        "holy spirit"
+      ],
+      "9:2": [
+        "sorrow without cease:ev",
+        "my/heart"
+      ],
+      "9:3": [
+        "i myself from kjv_christ_title cursed be:opt wish:can",
+        "my/kinsman:pl according_to flesh"
+      ],
+      "9:4": [
+        "kjv_israelite:pl",
+        "adoption and glory and kjv_covenant:pl and law give:ev and service of god and promise:pl"
+      ],
+      "9:5": [
+        "of whom about flesh kjv_christ_title come",
+        "who over all god bless:psv:pr forever"
+      ],
+      "9:6": [
+        "word of god no effect",
+        "all kjv_israel be:neg:pr who of kjv_israel"
+      ],
+      "9:7": [
+        "kjv_seedline of kjv_abraham",
+        "in kjv_isaac thy/kjv_seedline call"
+      ],
+      "9:8": [
+        "child:pl of flesh",
+        "child:pl of god be:neg",
+        "child:pl of promise for kjv_seedline kjv_impute"
+      ],
+      "9:9": [
+        "at this time ipl come:fu",
+        "kjv_sarah son"
+      ],
+      "9:10": [
+        "kjv_rebecca_romans",
+        "by one_num",
+        "ourone/father kjv_isaac"
+      ],
+      "9:11": [
+        "yet birth:psv:neg:pr",
+        "neither any good nor evil",
+        "kjv_election_romans",
+        "not of work:pl but of he who call"
+      ],
+      "9:12": [
+        "kjv_elder_sibling younger serve:fu"
+      ],
+      "9:13": [
+        "kjv_jacob ipl love:perf",
+        "kjv_esau ipl hate:perf"
+      ],
+      "9:14": [
+        "what wesg",
+        "kjv_unrighteousness",
+        "god forbid:opt:excl"
+      ],
+      "9:15": [
+        "on whom ipl mercy have:fu ipl mercy have:fu",
+        "on whom ipl kjv_compassion have:fu ipl kjv_compassion have:fu"
+      ],
+      "9:16": [
+        "not of he who will",
+        "nor of he who run",
+        "god who mercy show"
+      ],
+      "9:17": [
+        "kjv_pharaoh",
+        "ipl thou:a up raise",
+        "mypl/power in thou",
+        "mypl/name in all earth"
+      ],
+      "9:18": [
+        "on whom he mercy have:inf will",
+        "whom he will:pr hard make"
+      ],
+      "9:19": [
+        "thou to i",
+        "why he yet fault find",
+        "his/will resistance give"
+      ],
+      "9:20": [
+        "against god answer",
+        "why thou i:a thus make:perf:q"
+      ],
+      "9:21": [
+        "kjv_potter over kjv_clay_material",
+        "same lump one_num vessel",
+        "honour and another to dishonour"
+      ],
+      "9:22": [
+        "much kjv_longsuffering",
+        "vessel:pl of wrath to destroy:ev fit:psv:adj"
+      ],
+      "9:23": [
+        "vessel:pl of mercy",
+        "he before to glory prepare:pp"
+      ],
+      "9:24": [
+        "wesg whom he call",
+        "not only of jew:pl but also of kjv_gentile:pl"
+      ],
+      "9:25": [
+        "kjv_osee_romans",
+        "ipl they:a mypl/people call",
+        "who mypl/people be:neg",
+        "she:a beloved who beloved be:neg"
+      ],
+      "9:26": [
+        "you mypl/people be:neg",
+        "child:pl of alive god"
+      ],
+      "9:27": [
+        "kjv_esaias",
+        "kjv_number:ev of child:pl of kjv_israel as sand",
+        "remainder save"
+      ],
+      "9:28": [
+        "work finish:fu",
+        "in kjv_righteousness it:a short cut",
+        "short work kjv_lord"
+      ],
+      "9:29": [
+        "kjv_lord of kjv_sabaoth_romans",
+        "to wesg kjv_seedline leave",
+        "wesg as kjv_sodoma_romans",
+        "kjv_gomorrha_matthew"
+      ],
+      "9:30": [
+        "wesg say",
+        "kjv_gentile:pl who after kjv_righteousness follow:neg",
+        "kjv_righteousness reach:perf",
+        "of faith"
+      ],
+      "9:31": [
+        "after law of kjv_righteousness follow",
+        "law of kjv_righteousness reach:neg"
+      ],
+      "9:32": [
+        "not by faith but as by work:pl of law",
+        "kjv_stumble:ev stone kjv_stumble"
+      ],
+      "9:33": [
+        "ipl in kjv_sion_psalm",
+        "rock of kjv_offence_stumbling_romans",
+        "whoever on he believe:pr ashamed be:neg"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "7:1",
+        "7:10",
+        "7:11",
+        "7:13",
+        "7:25",
+        "7:7",
+        "7:8",
+        "7:9",
+        "8:18",
+        "8:2",
+        "8:38",
+        "9:1",
+        "9:19",
+        "9:2",
+        "9:20",
+        "9:3"
+      ],
+      "ipl": [
+        "7:14",
+        "7:15",
+        "7:16",
+        "7:17",
+        "7:18",
+        "7:19",
+        "7:20",
+        "7:21",
+        "7:22",
+        "7:23",
+        "7:24",
+        "7:25",
+        "9:13",
+        "9:15",
+        "9:17",
+        "9:25",
+        "9:33",
+        "9:9"
+      ],
+      "wesg": [
+        "7:14",
+        "7:4",
+        "7:5",
+        "7:6",
+        "7:7",
+        "8:12",
+        "8:15",
+        "8:16",
+        "8:17",
+        "8:18",
+        "8:22",
+        "8:23",
+        "8:24",
+        "8:25",
+        "8:26",
+        "8:28",
+        "8:31",
+        "8:32",
+        "8:34",
+        "8:35",
+        "8:36",
+        "8:37",
+        "8:39",
+        "8:4",
+        "9:14",
+        "9:24",
+        "9:29",
+        "9:30"
+      ],
+      "wepl": [],
+      "mypl": [
+        "7:18",
+        "7:23",
+        "9:17",
+        "9:25",
+        "9:26"
+      ],
+      "ourone": [
+        "7:25",
+        "7:5",
+        "8:16",
+        "8:23",
+        "8:26",
+        "8:39",
+        "9:10"
+      ],
+      "iplself": [
+        "7:25"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "dividedHumanSelfReferences": [
+      "Romans7:14",
+      "Romans7:15",
+      "Romans7:16",
+      "Romans7:17",
+      "Romans7:18",
+      "Romans7:19",
+      "Romans7:20",
+      "Romans7:21",
+      "Romans7:22",
+      "Romans7:23",
+      "Romans7:24",
+      "Romans7:25"
+    ],
+    "quantityInterpretation": [
+      "One father and one vessel remain explicit;once in7:9 means formerly,not an exact occurrence count.",
+      "Divided human plural-self in7:14–25 is scoped to explicit willing/acting/indwelling-sin contrasts,not distress alone,a medical diagnosis or multiple literal people.",
+      "Divine quoted plural-self and communal singular-whole remain distinct;Spirit itself,our-one spirit and our-one body preserve supplied pronoun and number."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "97new verses;258Romans;whole Bible incomplete.",
+      "Full KJV walk-not clause,Spirit-is-life,unutterable groans,foreknow/predestinate chain,fitted/prepared distinction and complete quoted wording retained.",
+      "Ten common entries and four source-form proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Romans — incomplete Bible working text",
+    "pages": 146,
+    "spreads": 73,
+    "units": 258,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "603567055eec5c8af0833534d44cf85622bf2babfc44a9897f88331a95cb0438",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 73,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.309,
+    "modules": [
+      "tests.test_kjv_romans_divided_self",
+      "tests.test_kjv_romans_shared_life",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    145,
+    146
+  ],
+  "status": "incomplete Bible;Romans1–9 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 145,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv235\\preflight-romans\\Proofs\\page-145.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv235\\composed-romans\\Proofs\\page-145.png",
+        "sha256": "85a03d39af6f262029d2f3f5f498ba992ba4455f70a3826cfd75b522710dcf34",
+        "bytesIdentical": true
+      },
+      {
+        "page": 146,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv235\\preflight-romans\\Proofs\\page-146.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv235\\composed-romans\\Proofs\\page-146.png",
+        "sha256": "1cfe47524c3f1474268bc514274ea25cf74b5764afb2197c0e934b876734ed30",
+        "bytesIdentical": true
+      }
+    ]
+  },
+  "identityPassageProofReview": {
+    "references": [
+      "Romans 7:15",
+      "Romans 7:25",
+      "Romans 8:16"
+    ],
+    "pagesViewed": [
+      101,
+      102,
+      105,
+      106,
+      115,
+      116
+    ],
+    "nativeSha256": "806e27a9b82764c87b541e70890de252592852aaf39cbc14baaa43fbac76d083",
+    "findings": "All four paragraph starts align; Maxima and approved type sizes preserved; plural-I, personal-I and singular-whole we visible in source-order gloss; no visible clipping or folio collision. Measured native file unchanged by proof rendering.",
+    "proofSha256": {
+      "101": "6a2fb8de6b204121649601662e409394108ff2c62e09c1f90c00277c7d53d993",
+      "102": "9c9419c45d9f55fce32d3c84ee84d177aeb62ebbc9dacb6a5fa0cf3890b54120",
+      "105": "36bef42d027d1044a1c26474b43c074aaf14b80e28d76e599a7c2f08bb5569a1",
+      "106": "db2f4238b0cc7dc6bc9b2b0b7331457368ae0a4f6df1b9cac639bd2438e02b4a",
+      "115": "86f7aa37274412800ae9e0aa6f7a230cff586664cdbeef62d8aa7dbd119bc37a",
+      "116": "90887f268169742fefae74afe4985a46df2bace338f0753279ba3ff51a4448bd"
+    }
+  }
+}

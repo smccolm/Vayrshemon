@@ -1,0 +1,722 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.237",
+    "parentVersion": "0.10-kjv.236",
+    "parentHead": "65b25a7cf454a0ad9bb5af1fc67e250839583e64eada82575cc3df6ec757cc53",
+    "head": "916459434dc089f60535b07945029b38ee5d9234546cc41872fa563a4b3b750a",
+    "newLexicalEntries": 41,
+    "newProperEntries": 34,
+    "newCommonEntries": 7,
+    "newSurfaceForms": 32,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 97,
+    "exactCompilerCases": 97,
+    "newAuthoredVerses": 97,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2738,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newRomansVerses": 97,
+    "romansVerses": 433,
+    "authoredVerses": 28364,
+    "remainingVerses": 2738,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "Romans 14:5",
+        "source": "One man esteemeth one day above another: another esteemeth every day alike. Let every man be fully persuaded in his own mind.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Romans 15:6",
+        "source": "That ye may with one mind and one mouth glorify God, even the Father of our Lord Jesus Christ.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Romans 15:24",
+        "source": "Whensoever I take my journey into Spain, I will come to you: for I trust to see you in my journey, and to be brought on my way thitherward by you, if first I be somewhat filled with your company.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "each soul to higher authority:pl",
+        "no authority except of god",
+        "of god kjv_ordain"
+      ],
+      "13:2": [
+        "kjv_ordinance of god resistance",
+        "kjv_damnation_judgment_romans receive"
+      ],
+      "13:3": [
+        "terror to good work:pl be:neg",
+        "but to evil",
+        "of same praise"
+      ],
+      "13:4": [
+        "kjv_minister of god",
+        "sword in vain carry:neg",
+        "kjv_avenger",
+        "wrath upon he who evil"
+      ],
+      "13:5": [
+        "kjv_subject_authority_romans:psv:must",
+        "not only for wrath but also for conscience"
+      ],
+      "13:6": [
+        "you kjv_tribute also pay",
+        "kjv_minister:pl of god",
+        "without cease:ev attend"
+      ],
+      "13:7": [
+        "their/due:pl",
+        "kjv_tribute to whom kjv_tribute",
+        "kjv_custom_duty to whom kjv_custom_duty",
+        "fear to whom fear honour to whom honour"
+      ],
+      "13:8": [
+        "no man any thing owe",
+        "each other love",
+        "another love:pr law fulfil"
+      ],
+      "13:9": [
+        "kjv_adultery do:neg",
+        "kill:neg",
+        "steal:neg",
+        "false witness give:neg",
+        "kjv_covet:neg",
+        "thy/neighbour as thyself love"
+      ],
+      "13:10": [
+        "his/neighbour no ill",
+        "love fulfil:ev of law"
+      ],
+      "13:11": [
+        "ourone/salvation nearer",
+        "when wesg believe"
+      ],
+      "13:12": [
+        "night far spend",
+        "day near",
+        "wesg work:pl of darkness off cast",
+        "wesg kjv_armour of light"
+      ],
+      "13:13": [
+        "wesg honestly",
+        "kjv_rioting_revel_romans and drunken:ev",
+        "kjv_chambering_romans and wanton:ev",
+        "strife and kjv_envy:ev"
+      ],
+      "13:14": [
+        "kjv_lord kjv_jesus_matthew kjv_christ_title on put",
+        "for flesh prepare:neg",
+        "its/lust:pl fulfil"
+      ],
+      "14:1": [
+        "in faith weak",
+        "receive:imp but not to doubt:adj argument:pl"
+      ],
+      "14:2": [
+        "person believe",
+        "all thing:pl eat:may",
+        "another who weak",
+        "herb:pl eat"
+      ],
+      "14:3": [
+        "eat:neg:pr despise:neg",
+        "eat:pr judge:neg",
+        "god he:a receive"
+      ],
+      "14:4": [
+        "servant of another man",
+        "his/own master",
+        "god he:a stand:inf make:inf able"
+      ],
+      "14:5": [
+        "person one_num day above another",
+        "another each day same",
+        "his/own mind fully persuade"
+      ],
+      "14:6": [
+        "day regard:neg:pr to kjv_lord it regard:neg",
+        "eat:neg:pr to kjv_lord eat:neg",
+        "to god thanks give"
+      ],
+      "14:7": [
+        "none of wesg to himself live",
+        "no man to himself die"
+      ],
+      "14:8": [
+        "whether wesg live:pr wesg to kjv_lord live",
+        "whether wesg die:pr wesg to kjv_lord die",
+        "wesg of kjv_lord"
+      ],
+      "14:9": [
+        "die:pa and rise:pa and revive:pa",
+        "lord both of dead:pl and alive:pl"
+      ],
+      "14:10": [
+        "why thou thy/brother judge",
+        "at nothing set",
+        "wesg all before judgment seat of kjv_christ_title"
+      ],
+      "14:11": [
+        "as ipl live",
+        "each knee to ipl bow",
+        "each tongue to god confess"
+      ],
+      "14:12": [
+        "each person of wesg of himself account",
+        "to god"
+      ],
+      "14:13": [
+        "wesg each other any more judge:neg",
+        "no man kjv_stumblingblock or occasion to fall",
+        "his/brother way"
+      ],
+      "14:14": [
+        "i know",
+        "nothing of itself kjv_unclean_ritual",
+        "to he who any thing kjv_unclean_ritual esteem",
+        "to he it kjv_unclean_ritual"
+      ],
+      "14:15": [
+        "thy/food sorrow make",
+        "with love walk:neg",
+        "he for whom kjv_christ_title die",
+        "destroy:neg"
+      ],
+      "14:16": [
+        "your/good evil speak:psv:neg"
+      ],
+      "14:17": [
+        "kingdom of god food and drink be:neg",
+        "kjv_righteousness and peace and joy in holy spirit"
+      ],
+      "14:18": [
+        "kjv_christ_title serve",
+        "acceptable to god",
+        "by man:pl approve"
+      ],
+      "14:19": [
+        "wesg",
+        "for peace",
+        "person another kjv_edify_romans"
+      ],
+      "14:20": [
+        "for food work of god destroy:neg",
+        "all thing:pl indeed pure",
+        "with kjv_offence_stumbling_romans eat"
+      ],
+      "14:21": [
+        "neither flesh eat",
+        "nor wine drink",
+        "kjv_stumble:pr or kjv_offend_stumbling_romans:psv:pr or weak make"
+      ],
+      "14:22": [
+        "to thyself before god",
+        "which he approve:pr condemn:neg"
+      ],
+      "14:23": [
+        "if he eat:pr condemn:psv",
+        "not of faith eat",
+        "whatever not of faith be:pr sin"
+      ],
+      "15:1": [
+        "wesg who strong",
+        "weak:ev:pl of weak:pl carry",
+        "ourselves kjv_please_satisfy:neg"
+      ],
+      "15:2": [
+        "each person of wesg",
+        "his/good to kjv_edify_romans:ev"
+      ],
+      "15:3": [
+        "kjv_christ_title himself kjv_please_satisfy:neg",
+        "kjv_reproach:pl",
+        "upon i fall"
+      ],
+      "15:4": [
+        "for ourone/learn:ev",
+        "wesg through patience and comfort of holy writing:pl"
+      ],
+      "15:5": [
+        "god of patience and comfort:ev",
+        "same mind",
+        "according_to kjv_christ_title kjv_jesus_matthew"
+      ],
+      "15:6": [
+        "one_num mind and one_num mouth",
+        "father of ourone/lord"
+      ],
+      "15:7": [
+        "each other receive",
+        "kjv_christ_title also wesg:a"
+      ],
+      "15:8": [
+        "i say",
+        "kjv_minister of kjv_circumcise:ev",
+        "truth of god",
+        "promise:pl make:psv:adj confirm"
+      ],
+      "15:9": [
+        "kjv_gentile:pl god for his/mercy",
+        "i to thou among kjv_gentile:pl confess",
+        "thy/name sing"
+      ],
+      "15:10": [
+        "kjv_gentile:pl with his/people rejoice"
+      ],
+      "15:11": [
+        "all you kjv_gentile:pl",
+        "all you people:pl"
+      ],
+      "15:12": [
+        "kjv_esaias",
+        "root of kjv_jesse",
+        "over kjv_gentile:pl rule",
+        "kjv_gentile:pl trust"
+      ],
+      "15:13": [
+        "all joy and peace in believe:ev",
+        "power of holy spirit",
+        "hope abound"
+      ],
+      "15:14": [
+        "i myself",
+        "full of goodness",
+        "all knowledge",
+        "each other advise:inf able"
+      ],
+      "15:15": [
+        "more with bold:ev",
+        "you:a remember:inf make",
+        "grace which to i of god give"
+      ],
+      "15:16": [
+        "i kjv_minister",
+        "kjv_gospel of god serve",
+        "offer:ev up of kjv_gentile:pl",
+        "holy spirit sanctify"
+      ],
+      "15:17": [
+        "i through kjv_jesus_matthew kjv_christ_title",
+        "to god belong",
+        "boast:may"
+      ],
+      "15:18": [
+        "kjv_christ_title by i work:neg",
+        "speak:inf dare:neg",
+        "by word and deed"
+      ],
+      "15:19": [
+        "sign:pl and wonder:pl",
+        "spirit of god",
+        "kjv_illyricum_romans",
+        "kjv_gospel of kjv_christ_title fully proclaim"
+      ],
+      "15:20": [
+        "not where kjv_christ_title name",
+        "lest i upon kjv_foundation of another man build"
+      ],
+      "15:21": [
+        "speak:psv:neg:pa they see",
+        "hear:neg:perf understand"
+      ],
+      "15:22": [
+        "from to you come:ev much hinder"
+      ],
+      "15:23": [
+        "these part:pl no more place",
+        "these many year:pl"
+      ],
+      "15:24": [
+        "kjv_spain_romans",
+        "i to you come:fu",
+        "by you on my/way",
+        "if first i somewhat with your/company"
+      ],
+      "15:25": [
+        "i to kjv_jerusalem to saint:pl serve"
+      ],
+      "15:26": [
+        "kjv_macedonia_acts and kjv_achaia_acts",
+        "gift for poor saint:pl",
+        "kjv_jerusalem"
+      ],
+      "15:27": [
+        "their/owe:ag:pl",
+        "their/spirit:adj thing:pl share:ag:pl",
+        "flesh:adj thing:pl"
+      ],
+      "15:28": [
+        "to they this fruit seal",
+        "i by you into kjv_spain_romans"
+      ],
+      "15:29": [
+        "full:ev of blessing of kjv_gospel of kjv_christ_title"
+      ],
+      "15:30": [
+        "for love of spirit",
+        "together with i",
+        "prayer:pl to god for i"
+      ],
+      "15:31": [
+        "believe:neg:pr in kjv_judaea",
+        "my/service which i for kjv_jerusalem",
+        "by saint:pl accept"
+      ],
+      "15:32": [
+        "by will of god with joy",
+        "with you kjv_refresh"
+      ],
+      "15:33": [
+        "god of peace with you all"
+      ],
+      "16:1": [
+        "kjv_phebe_romans ourone/sister",
+        "servant of kjv_church_assembly",
+        "kjv_cenchrea_acts"
+      ],
+      "16:2": [
+        "as to saint:pl fitting",
+        "she of you need",
+        "help:ag of many and of myself"
+      ],
+      "16:3": [
+        "kjv_priscilla_acts and kjv_aquila_acts",
+        "my/help:ag:pl"
+      ],
+      "16:4": [
+        "they:du for my/life",
+        "their/own neck:pl",
+        "not only i",
+        "all kjv_church_assembly:pl of kjv_gentile:pl"
+      ],
+      "16:5": [
+        "house of they:du",
+        "kjv_epaenetus_romans",
+        "kjv_firstfruits of kjv_achaia_acts"
+      ],
+      "16:6": [
+        "kjv_mary_romans",
+        "much labour upon wesg"
+      ],
+      "16:7": [
+        "kjv_andronicus_romans and kjv_junia_romans",
+        "my/fellow kjv_prisoner:pl",
+        "they:du among kjv_apostle:pl notable",
+        "they:du also before i"
+      ],
+      "16:8": [
+        "kjv_amplias_romans my/beloved"
+      ],
+      "16:9": [
+        "kjv_urbane_romans ourone/help:ag",
+        "kjv_stachys_romans my/beloved"
+      ],
+      "16:10": [
+        "kjv_apelles_romans",
+        "kjv_christ_title approve",
+        "kjv_household of kjv_aristobulus_romans"
+      ],
+      "16:11": [
+        "kjv_herodion_romans my/kinsman",
+        "kjv_narcissus_romans",
+        "who in kjv_lord"
+      ],
+      "16:12": [
+        "kjv_tryphena_romans and kjv_tryphosa_romans",
+        "they:du in kjv_lord labour:pr",
+        "kjv_persis_romans",
+        "much labour:pa"
+      ],
+      "16:13": [
+        "kjv_rufus_romans",
+        "his/mother and of i"
+      ],
+      "16:14": [
+        "kjv_asyncritus_romans kjv_phlegon_romans kjv_hermas_romans kjv_patrobas_romans kjv_hermes_romans"
+      ],
+      "16:15": [
+        "kjv_philologus_romans and kjv_julia_romans kjv_nereus_romans and his/sister and kjv_olympas_romans",
+        "all saint:pl"
+      ],
+      "16:16": [
+        "holy kiss each other",
+        "kjv_church_assembly:pl of kjv_christ_title"
+      ],
+      "16:17": [
+        "division:pl and kjv_offence_stumbling_romans:pl",
+        "contrary to doctrine",
+        "notice:imp",
+        "avoid:imp"
+      ],
+      "16:18": [
+        "ourone/lord kjv_jesus_matthew kjv_christ_title serve:neg",
+        "their/own belly",
+        "kjv_simple_inexperienced:pl"
+      ],
+      "16:19": [
+        "your/obedience out to all man:pl",
+        "i on your/behalf glad",
+        "evil kjv_simple_guileless_romans"
+      ],
+      "16:20": [
+        "god of peace kjv_satan_temptation under your/foot:pl",
+        "kjv_bruise:fu",
+        "ourone/lord"
+      ],
+      "16:21": [
+        "kjv_timotheus_acts",
+        "kjv_lucius_romans",
+        "kjv_jason_romans",
+        "kjv_sosipater_romans"
+      ],
+      "16:22": [
+        "i kjv_tertius_romans who this letter write:pa"
+      ],
+      "16:23": [
+        "kjv_gaius_romans my/host",
+        "whole kjv_church_assembly",
+        "kjv_erastus_romans kjv_chamberlain_city_romans",
+        "kjv_quartus_romans"
+      ],
+      "16:24": [
+        "grace of ourone/lord",
+        "with you all"
+      ],
+      "16:25": [
+        "according_to my/kjv_gospel",
+        "proclaim:ev of kjv_jesus_matthew",
+        "mystery which since world begin"
+      ],
+      "16:26": [
+        "now manifest",
+        "holy writing:pl of prophet:pl",
+        "command of eternal god",
+        "all nation:pl for obedience of faith"
+      ],
+      "16:27": [
+        "god only wise",
+        "through kjv_jesus_matthew kjv_christ_title forever"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "14:14",
+        "15:14",
+        "15:15",
+        "15:16",
+        "15:17",
+        "15:18",
+        "15:19",
+        "15:20",
+        "15:22",
+        "15:24",
+        "15:25",
+        "15:28",
+        "15:29",
+        "15:3",
+        "15:30",
+        "15:31",
+        "15:32",
+        "15:8",
+        "15:9",
+        "16:1",
+        "16:13",
+        "16:17",
+        "16:19",
+        "16:22",
+        "16:4",
+        "16:7"
+      ],
+      "ipl": [
+        "14:11"
+      ],
+      "wesg": [
+        "13:11",
+        "13:12",
+        "13:13",
+        "14:10",
+        "14:12",
+        "14:13",
+        "14:19",
+        "14:7",
+        "14:8",
+        "15:1",
+        "15:2",
+        "15:4",
+        "15:7",
+        "16:6"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "13:11",
+        "15:4",
+        "15:6",
+        "16:1",
+        "16:18",
+        "16:20",
+        "16:24",
+        "16:9"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "16:12",
+        "16:4",
+        "16:5",
+        "16:7"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Romans16:4",
+      "Romans16:5",
+      "Romans16:7",
+      "Romans16:12"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "One day and one mind/one mouth retain their source numerical roles;indefinite one and reciprocal one another are not cardinals.",
+      "Named greeting pairs use genuine physical dual,distinct from divine plural-self in14:11 and communal singular-whole.",
+      "Quoted psalm-I stays personal;Tertius names a new personal-I speaker in16:22."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "97new verses;all433Romans;whole Bible incomplete.",
+      "Full KJV food/day clauses,Christ judgment seat,us-reception,Achaia-firstfruits,Junia among-apostles and closing blessing retained.",
+      "Seven common entries and34contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Romans — incomplete Bible working text",
+    "pages": 248,
+    "spreads": 124,
+    "units": 433,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "614498fd1f75972fa64b50853448e38453fb437427504698c17356f468a2e0d6",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 124,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.721,
+    "modules": [
+      "tests.test_kjv_romans_conscience_greetings",
+      "tests.test_kjv_romans_many_one_body",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    247,
+    248
+  ],
+  "status": "incomplete Bible;Romans1–16 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 247,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv237\\preflight-romans\\Proofs\\page-247.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv237\\composed-romans\\Proofs\\page-247.png",
+        "sha256": "2828436777ac11282b83276d25cdd590b44e9e5cd6b53c48592330a71a0aaec0",
+        "bytesIdentical": true
+      },
+      {
+        "page": 248,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv237\\preflight-romans\\Proofs\\page-248.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv237\\composed-romans\\Proofs\\page-248.png",
+        "sha256": "b97400f39a9e31e5e25b347795f759219131583f75b4d4a340f40d4aa8271b64",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

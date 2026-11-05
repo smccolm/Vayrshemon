@@ -1,0 +1,648 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.213",
+    "parentVersion": "0.10-kjv.212",
+    "parentHead": "e45e0e14ed2f7457d2f6b30186f0d89bd24610873940af1f4597fa45d456b5f1",
+    "head": "dd4ff3350da1951775d3072b8edeb6aa9f2a66d456cadbda53a1499d24c673c2",
+    "newLexicalEntries": 10,
+    "newProperEntries": 8,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 8,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 76,
+    "exactCompilerCases": 76,
+    "newAuthoredVerses": 76,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 76,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4981,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJohnVerses": 76,
+    "johnVerses": 76,
+    "authoredVerses": 26121,
+    "remainingVerses": 4981,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "John 1:35",
+        "source": "Again the next day after John stood, and two of his disciples;",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "John 1:37",
+        "source": "And the two disciples heard him speak, and they followed Jesus.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "John 1:39",
+        "source": "He saith unto them, Come and see. They came and saw where he dwelt, and abode with him that day: for it was about the tenth hour.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "John 1:40",
+        "source": "One of the two which heard John speak, and followed him, was Andrew, Simon Peter’s brother.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "John 1:41",
+        "source": "He first findeth his own brother Simon, and saith unto him, We have found the Messias, which is, being interpreted, the Christ.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 2:1",
+        "source": "And the third day there was a marriage in Cana of Galilee; and the mother of Jesus was there:",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "John 2:6",
+        "source": "And there were set there six waterpots of stone, after the manner of the purifying of the Jews, containing two or three firkins apiece.",
+        "expectedDecimalQuantities": [
+          6,
+          2,
+          3
+        ],
+        "targetQuantities": [
+          6,
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "John 2:19",
+        "source": "Jesus answered and said unto them, Destroy this temple, and in three days I will raise it up.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "John 2:20",
+        "source": "Then said the Jews, Forty and six years was this temple in building, and wilt thou rear it up in three days?",
+        "expectedDecimalQuantities": [
+          46,
+          3
+        ],
+        "targetQuantities": [
+          46,
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_word_john be:pa",
+        "kjv_word_john with god",
+        "kjv_word_john god be:pa"
+      ],
+      "1:2": [
+        "same in beginning with god"
+      ],
+      "1:3": [
+        "all thing:pl by he",
+        "without he",
+        "make:psv:neg:pa"
+      ],
+      "1:4": [
+        "in he life",
+        "life light of man:pl"
+      ],
+      "1:5": [
+        "light in darkness shine:pr",
+        "darkness it:a comprehend:neg:pa"
+      ],
+      "1:6": [
+        "from god send:psv:adj",
+        "kjv_john_baptist"
+      ],
+      "1:7": [
+        "for witness",
+        "of kjv_light_john testify:inf",
+        "all man:pl through he"
+      ],
+      "1:8": [
+        "that kjv_light_john be:neg:pa",
+        "testify:inf send:psv:pa"
+      ],
+      "1:9": [
+        "true kjv_light_john",
+        "every man who into world come:pr light:caus:pr"
+      ],
+      "1:10": [
+        "world by he make:psv:pa",
+        "world he:a know:neg:pa"
+      ],
+      "1:11": [
+        "to his/own",
+        "his/own he:a receive:neg:pa"
+      ],
+      "1:12": [
+        "receive:pa",
+        "son:pl of god become:inf power",
+        "his/name believe:pr"
+      ],
+      "1:13": [
+        "not of blood",
+        "nor of will of flesh",
+        "nor of will of man",
+        "of god bear:psv:pa"
+      ],
+      "1:14": [
+        "kjv_word_john flesh make:psv:pa",
+        "among wesg",
+        "wesg his/glory",
+        "only beget:psv:adj of father",
+        "grace and truth"
+      ],
+      "1:15": [
+        "i speak:pa",
+        "after i come:pr before i prefer:psv:pr",
+        "for before i be:pa"
+      ],
+      "1:16": [
+        "his/full:ev all wesg receive:perf",
+        "grace for grace"
+      ],
+      "1:17": [
+        "law by kjv_moses",
+        "grace and truth",
+        "kjv_jesus_matthew kjv_christ_title"
+      ],
+      "1:18": [
+        "no man at any time",
+        "only beget:psv:adj son",
+        "bosom of father",
+        "declare:perf"
+      ],
+      "1:19": [
+        "kjv_record_witness",
+        "priest:pl and kjv_levite:pl",
+        "kjv_jerusalem",
+        "thou who"
+      ],
+      "1:20": [
+        "confess:pa and deny:neg:pa but confess:pa",
+        "i kjv_christ_title be:neg:pr"
+      ],
+      "1:21": [
+        "kjv_elias_matthew",
+        "i be:neg:pr",
+        "that prophet",
+        "answer:pa no"
+      ],
+      "1:22": [
+        "wesg:a send:pa",
+        "answer give:may",
+        "thyself"
+      ],
+      "1:23": [
+        "i voice of person",
+        "kjv_wilderness",
+        "kjv_lord straight make:imp",
+        "kjv_esaias"
+      ],
+      "1:24": [
+        "send:psv:pa of kjv_pharisee:pl"
+      ],
+      "1:25": [
+        "kjv_baptize:pr",
+        "kjv_christ_title nor kjv_elias_matthew neither that prophet"
+      ],
+      "1:26": [
+        "i with water kjv_baptize:pr",
+        "among you person whom know:neg:pr"
+      ],
+      "1:27": [
+        "after i",
+        "before i",
+        "kjv_shoelatchet loose:inf",
+        "i worthy be:neg:pr"
+      ],
+      "1:28": [
+        "kjv_bethabara_john beyond kjv_jordan",
+        "kjv_baptize:pprog"
+      ],
+      "1:29": [
+        "next day",
+        "kjv_lamb of god",
+        "sin of world away take:pr"
+      ],
+      "1:30": [
+        "i say:pa",
+        "after i man",
+        "before i prefer:psv:pr",
+        "before i be:pa"
+      ],
+      "1:31": [
+        "i he:a know:neg:pa",
+        "kjv_israel manifest:psv:may",
+        "water kjv_baptize:cv"
+      ],
+      "1:32": [
+        "i spirit from heaven as dove",
+        "upon he remain:pa"
+      ],
+      "1:33": [
+        "i he:a know:neg:pa",
+        "he who i:a",
+        "to i say:pa",
+        "spirit descend:cv and on he remain:cv",
+        "holy spirit"
+      ],
+      "1:34": [
+        "i see:pa and testify:pa",
+        "son of god"
+      ],
+      "1:35": [
+        "next day",
+        "two of his/disciple:pl"
+      ],
+      "1:36": [
+        "kjv_lamb of god behold:imp:excl"
+      ],
+      "1:37": [
+        "two disciple:pl",
+        "they:du kjv_jesus_matthew follow:pa"
+      ],
+      "1:38": [
+        "they:du follow:cv",
+        "what you:du seek:pr:q",
+        "kjv_rabbi",
+        "interpret:psv:cv master",
+        "where thou dwell:pr"
+      ],
+      "1:39": [
+        "they:du",
+        "come:imp and see:imp",
+        "about ten:ord hour"
+      ],
+      "1:40": [
+        "one_num of two",
+        "kjv_andrew_disciple",
+        "kjv_simon_peter kjv_peter_disciple"
+      ],
+      "1:41": [
+        "first",
+        "his/own brother",
+        "we:du kjv_messias_john",
+        "interpret:psv:cv kjv_christ_title"
+      ],
+      "1:42": [
+        "son of kjv_jona_simon_father",
+        "kjv_cephas_john",
+        "interpret:ev stone"
+      ],
+      "1:43": [
+        "kjv_galilee",
+        "kjv_philip_apostle",
+        "ipl:a follow:imp"
+      ],
+      "1:44": [
+        "kjv_bethsaida",
+        "kjv_andrew_disciple and kjv_peter_disciple"
+      ],
+      "1:45": [
+        "kjv_nathanael_john",
+        "wesg",
+        "kjv_moses in law and prophet:pl",
+        "kjv_nazareth son of kjv_joseph_mary"
+      ],
+      "1:46": [
+        "kjv_nazareth any good thing come:can:q",
+        "come:imp and see:imp"
+      ],
+      "1:47": [
+        "kjv_israelite",
+        "no kjv_guile",
+        "behold:imp:excl"
+      ],
+      "1:48": [
+        "i:a know:pr:q",
+        "before kjv_philip_apostle",
+        "under fig kjv_tree",
+        "ipl thee:a see:pa"
+      ],
+      "1:49": [
+        "kjv_rabbi",
+        "son of god",
+        "king of kjv_israel"
+      ],
+      "1:50": [
+        "ipl to thee say:pa ipl thee:a",
+        "believe:pr:q",
+        "greater thing:pl"
+      ],
+      "1:51": [
+        "truly truly ipl to you",
+        "heaven open:adj",
+        "upon son of man up go:cv and descend:cv"
+      ],
+      "2:1": [
+        "third day",
+        "kjv_cana_john of kjv_galilee",
+        "mother"
+      ],
+      "2:2": [
+        "kjv_jesus_matthew and his/disciple:pl",
+        "marriage call:psv:pa"
+      ],
+      "2:3": [
+        "wine lack:pa",
+        "wine have:neg:pr"
+      ],
+      "2:4": [
+        "woman what ipl with thee",
+        "mypl/hour yet come:neg:perf"
+      ],
+      "2:5": [
+        "to servant:pl",
+        "whatever",
+        "it:a do:imp"
+      ],
+      "2:6": [
+        "six kjv_waterpot_john:pl of stone",
+        "purify:ev of kjv_jew:pl",
+        "each two or three kjv_firkin_source:pl"
+      ],
+      "2:7": [
+        "with water fill:imp",
+        "to brim"
+      ],
+      "2:8": [
+        "out draw:imp",
+        "ruler of feast carry:imp",
+        "carry:pa"
+      ],
+      "2:9": [
+        "water which wine make:psv:pp",
+        "know:neg:pa",
+        "servant:pl who water draw:pa know:pa",
+        "kjv_bridegroom"
+      ],
+      "2:10": [
+        "beginning good wine",
+        "well drink:perf then worse",
+        "until now keep:perf"
+      ],
+      "2:11": [
+        "beginning of miracle:pl",
+        "kjv_cana_john",
+        "glory manifest:pa",
+        "disciple:pl on he believe:pa"
+      ],
+      "2:12": [
+        "kjv_capernaum",
+        "his/mother and his/brother:pl and his/disciple:pl",
+        "not many day:pl"
+      ],
+      "2:13": [
+        "kjv_passover",
+        "kjv_jerusalem up go:pa"
+      ],
+      "2:14": [
+        "ox:pl and sheep and dove:pl",
+        "money exchange:ag:pl sit:cv"
+      ],
+      "2:15": [
+        "small kjv_cord:pl kjv_scourge_lash",
+        "all they out of kjv_temple",
+        "sheep and ox:pl",
+        "money out pour:pa",
+        "kjv_table_furniture:pl kjv_overthrow:pa"
+      ],
+      "2:16": [
+        "dove:pl sell:pa",
+        "house of mypl/father",
+        "house of trade:ev make:neg:imp"
+      ],
+      "2:17": [
+        "disciple:pl remember:pa",
+        "write:psv:pp kjv_zeal of thine/house i:a up eat:perf"
+      ],
+      "2:18": [
+        "what sign to wesg",
+        "these thing:pl do:pr:q"
+      ],
+      "2:19": [
+        "kjv_temple destroy:imp",
+        "three day:pl ipl it:a up raise:fu"
+      ],
+      "2:20": [
+        "three+twelve and ten year:pl",
+        "build:psv:pprog",
+        "three day:pl"
+      ],
+      "2:21": [
+        "kjv_temple of his/body"
+      ],
+      "2:22": [
+        "from dead person:pl rise:pp",
+        "remember:pa",
+        "writing and word",
+        "believe:pa"
+      ],
+      "2:23": [
+        "kjv_jerusalem at kjv_passover",
+        "many on his/name",
+        "miracle:pl"
+      ],
+      "2:24": [
+        "himself to they entrust:neg:pa",
+        "all man:pl know:pa"
+      ],
+      "2:25": [
+        "testify:should need:neg:pa",
+        "what in man be:pa know:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:15",
+        "1:20",
+        "1:21",
+        "1:23",
+        "1:26",
+        "1:27",
+        "1:30",
+        "1:31",
+        "1:32",
+        "1:33",
+        "1:34",
+        "1:48",
+        "2:17"
+      ],
+      "ipl": [
+        "1:43",
+        "1:48",
+        "1:50",
+        "1:51",
+        "2:19",
+        "2:4"
+      ],
+      "wesg": [
+        "1:14",
+        "1:16",
+        "1:22",
+        "1:45",
+        "2:18"
+      ],
+      "wepl": [],
+      "mypl": [
+        "2:16",
+        "2:4"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [
+        "1:41"
+      ],
+      "they:du": [
+        "1:37",
+        "1:38",
+        "1:39"
+      ],
+      "you:du": [
+        "1:38"
+      ]
+    },
+    "physicalDualReferences": [
+      "1:37",
+      "1:38",
+      "1:39",
+      "1:41"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Two following disciples,tenth hour and first finding retained.",
+      "Third day,six pots each two OR three firkins,three days versus46years retained."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "76John verses;whole Bible incomplete.",
+      "Word-with-God and Word-God retained without numerical theology.",
+      "Two common and eight contextual title/proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "John — incomplete Bible working text",
+    "pages": 40,
+    "spreads": 20,
+    "units": 76,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "9308704295b4973bd397cd2ddc190e326907edba7283a2146c1915dfc0d24b16",
+    "maxBaselineErrorPt": 0.00781250000001421,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 20,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.411,
+    "modules": [
+      "tests.test_kjv_john_word_witness",
+      "tests.test_kjv_luke_embodied_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    39,
+    40
+  ],
+  "status": "incomplete Bible;John1–2 section checkpoint verified"
+}

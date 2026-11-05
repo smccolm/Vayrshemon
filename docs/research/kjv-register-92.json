@@ -1,0 +1,790 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.92",
+    "parentVersion": "0.10-kjv.91",
+    "parentHead": "801a43c89bd64dee4be7653e91f0e0a51de95604d903eee70ad5501042cde579",
+    "head": "f9eaf6cae55a3a35282410a9ea09f1751756f2d7c7d455800b2d3a6437a7924c",
+    "newLexicalEntries": 26,
+    "newProperEntries": 26,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 12,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 87,
+    "exactCompilerCases": 87,
+    "newAuthoredVerses": 87,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 597,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19262,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 87,
+    "chronicles2Verses": 597,
+    "authoredVerses": 11840,
+    "remainingVerses": 19262,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 24,
+    "quantityChecks": [
+      {
+        "reference": "2 Chronicles 25:1",
+        "source": "Amaziah was twenty and five years old when he began to reign, and he reigned twenty and nine years in Jerusalem. And his mother’s name was Jehoaddan of Jerusalem.",
+        "expectedDecimalQuantities": [
+          25,
+          29
+        ],
+        "targetQuantities": [
+          25,
+          29
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:5",
+        "source": "Moreover Amaziah gathered Judah together, and made them captains over thousands, and captains over hundreds, according to the houses of their fathers, throughout all Judah and Benjamin: and he numbered them from twenty years old and above, and found them three hundred thousand choice men, able to go forth to war, that could handle spear and shield.",
+        "expectedDecimalQuantities": [
+          1000,
+          100,
+          20,
+          300000
+        ],
+        "targetQuantities": [
+          1000,
+          100,
+          20,
+          300000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:6",
+        "source": "He hired also an hundred thousand mighty men of valour out of Israel for an hundred talents of silver.",
+        "expectedDecimalQuantities": [
+          100000,
+          100
+        ],
+        "targetQuantities": [
+          100000,
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:9",
+        "source": "And Amaziah said to the man of God, But what shall we do for the hundred talents which I have given to the army of Israel? And the man of God answered, The LORD is able to give thee much more than this.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:11",
+        "source": "And Amaziah strengthened himself, and led forth his people, and went to the valley of salt, and smote of the children of Seir ten thousand.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:12",
+        "source": "And other ten thousand left alive did the children of Judah carry away captive, and brought them unto the top of the rock, and cast them down from the top of the rock, that they all were broken in pieces.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:13",
+        "source": "But the soldiers of the army which Amaziah sent back, that they should not go with him to battle, fell upon the cities of Judah, from Samaria even unto Bethhoron, and smote three thousand of them, and took much spoil.",
+        "expectedDecimalQuantities": [
+          3000
+        ],
+        "targetQuantities": [
+          3000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:23",
+        "source": "And Joash the king of Israel took Amaziah king of Judah, the son of Joash, the son of Jehoahaz, at Bethshemesh, and brought him to Jerusalem, and brake down the wall of Jerusalem from the gate of Ephraim to the corner gate, four hundred cubits.",
+        "expectedDecimalQuantities": [
+          400
+        ],
+        "targetQuantities": [
+          400
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:25",
+        "source": "And Amaziah the son of Joash king of Judah lived after the death of Joash son of Jehoahaz king of Israel fifteen years.",
+        "expectedDecimalQuantities": [
+          15
+        ],
+        "targetQuantities": [
+          15
+        ]
+      },
+      {
+        "reference": "2 Chronicles 25:26",
+        "source": "Now the rest of the acts of Amaziah, first and last, behold, are they not written in the book of the kings of Judah and Israel?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 26:1",
+        "source": "Then all the people of Judah took Uzziah, who was sixteen years old, and made him king in the room of his father Amaziah.",
+        "expectedDecimalQuantities": [
+          16
+        ],
+        "targetQuantities": [
+          16
+        ]
+      },
+      {
+        "reference": "2 Chronicles 26:3",
+        "source": "Sixteen years old was Uzziah when he began to reign, and he reigned fifty and two years in Jerusalem. His mother’s name also was Jecoliah of Jerusalem.",
+        "expectedDecimalQuantities": [
+          16,
+          52
+        ],
+        "targetQuantities": [
+          16,
+          52
+        ]
+      },
+      {
+        "reference": "2 Chronicles 26:11",
+        "source": "Moreover Uzziah had an host of fighting men, that went out to war by bands, according to the number of their account by the hand of Jeiel the scribe and Maaseiah the ruler, under the hand of Hananiah, one of the king’s captains.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 26:12",
+        "source": "The whole number of the chief of the fathers of the mighty men of valour were two thousand and six hundred.",
+        "expectedDecimalQuantities": [
+          2600
+        ],
+        "targetQuantities": [
+          2600
+        ]
+      },
+      {
+        "reference": "2 Chronicles 26:13",
+        "source": "And under their hand was an army, three hundred thousand and seven thousand and five hundred, that made war with mighty power, to help the king against the enemy.",
+        "expectedDecimalQuantities": [
+          307500
+        ],
+        "targetQuantities": [
+          307500
+        ]
+      },
+      {
+        "reference": "2 Chronicles 26:17",
+        "source": "And Azariah the priest went in after him, and with him fourscore priests of the LORD, that were valiant men:",
+        "expectedDecimalQuantities": [
+          80
+        ],
+        "targetQuantities": [
+          80
+        ]
+      },
+      {
+        "reference": "2 Chronicles 26:22",
+        "source": "Now the rest of the acts of Uzziah, first and last, did Isaiah the prophet, the son of Amoz, write.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 27:1",
+        "source": "Jotham was twenty and five years old when he began to reign, and he reigned sixteen years in Jerusalem. His mother’s name also was Jerushah, the daughter of Zadok.",
+        "expectedDecimalQuantities": [
+          25,
+          16
+        ],
+        "targetQuantities": [
+          25,
+          16
+        ]
+      },
+      {
+        "reference": "2 Chronicles 27:5",
+        "source": "He fought also with the king of the Ammonites, and prevailed against them. And the children of Ammon gave him the same year an hundred talents of silver, and ten thousand measures of wheat, and ten thousand of barley. So much did the children of Ammon pay unto him, both the second year, and the third.",
+        "expectedDecimalQuantities": [
+          100,
+          10000,
+          10000,
+          2,
+          3
+        ],
+        "targetQuantities": [
+          100,
+          10000,
+          10000,
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 27:8",
+        "source": "He was five and twenty years old when he began to reign, and reigned sixteen years in Jerusalem.",
+        "expectedDecimalQuantities": [
+          25,
+          16
+        ],
+        "targetQuantities": [
+          25,
+          16
+        ]
+      },
+      {
+        "reference": "2 Chronicles 28:1",
+        "source": "Ahaz was twenty years old when he began to reign, and he reigned sixteen years in Jerusalem: but he did not that which was right in the sight of the LORD, like David his father:",
+        "expectedDecimalQuantities": [
+          20,
+          16
+        ],
+        "targetQuantities": [
+          20,
+          16
+        ]
+      },
+      {
+        "reference": "2 Chronicles 28:6",
+        "source": "For Pekah the son of Remaliah slew in Judah an hundred and twenty thousand in one day, which were all valiant men; because they had forsaken the LORD God of their fathers.",
+        "expectedDecimalQuantities": [
+          120000,
+          1
+        ],
+        "targetQuantities": [
+          120000,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 28:8",
+        "source": "And the children of Israel carried away captive of their brethren two hundred thousand, women, sons, and daughters, and took also away much spoil from them, and brought the spoil to Samaria.",
+        "expectedDecimalQuantities": [
+          200000
+        ],
+        "targetQuantities": [
+          200000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 28:26",
+        "source": "Now the rest of his acts and of all his ways, first and last, behold, they are written in the book of the kings of Judah and Israel.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "25:1": [
+        "twenty and five",
+        "twenty and nine",
+        "kjv_jehoaddan"
+      ],
+      "25:2": [
+        "kjv_right_conduct",
+        "not with perfect heart"
+      ],
+      "25:3": [
+        "kingdom to he kjv_establish:psv:pp",
+        "his/servant:pl"
+      ],
+      "25:4": [
+        "their/child:pl:a slay:neg:pa",
+        "neither child:pl",
+        "each man for his/own sin"
+      ],
+      "25:5": [
+        "captain:pl over thousand:pl",
+        "captain:pl over hundred:pl",
+        "twenty year:pl old and above",
+        "kjv_three+hundred+thousand"
+      ],
+      "25:6": [
+        "hundred+thousand",
+        "hundred kjv_talent_weight:pl of silver"
+      ],
+      "25:7": [
+        "kjv_vocative king",
+        "army of kjv_israel",
+        "all child:pl of kjv_ephraim"
+      ],
+      "25:8": [
+        "if thou go:inf will:pr",
+        "fall:caus:fu",
+        "to down cast:inf"
+      ],
+      "25:9": [
+        "wesg do:fu",
+        "hundred kjv_talent_weight:pl",
+        "ipl to army",
+        "much more"
+      ],
+      "25:10": [
+        "to home again go:inf",
+        "their/anger",
+        "great anger"
+      ],
+      "25:11": [
+        "valley of salt",
+        "ten+thousand"
+      ],
+      "25:12": [
+        "other ten+thousand alive",
+        "top of rock",
+        "all in piece:pl"
+      ],
+      "25:13": [
+        "from kjv_samaria",
+        "kjv_bethhoron",
+        "kjv_three+thousand"
+      ],
+      "25:14": [
+        "god:pl of child:pl of kjv_seir",
+        "as his/god:pl",
+        "kjv_incense"
+      ],
+      "25:15": [
+        "their/own people",
+        "deliver:neg:pa:can"
+      ],
+      "25:16": [
+        "of counsel of king",
+        "why thou strike:psv:should",
+        "i know:pr",
+        "my/counsel"
+      ],
+      "25:17": [
+        "kjv_joash_jehoahaz son of kjv_jehoahaz_jehu",
+        "we:du each_other:a"
+      ],
+      "25:18": [
+        "thistle",
+        "kjv_cedar",
+        "my/son",
+        "wild beast",
+        "tread:pa down"
+      ],
+      "25:19": [
+        "thy/heart thee:a up lift:pr",
+        "kjv_judah with thee"
+      ],
+      "25:20": [
+        "hear:inf will:neg:pa",
+        "it of god come:pa",
+        "god:pl of kjv_edom"
+      ],
+      "25:21": [
+        "they:du each_other:a",
+        "kjv_bethshemesh"
+      ],
+      "25:22": [
+        "defeat:psv:pa",
+        "each man to his/tent"
+      ],
+      "25:23": [
+        "kjv_joash_ahaziah son of kjv_jehoahaz_jehoram",
+        "four+hundred kjv_cubit:pl"
+      ],
+      "25:24": [
+        "with kjv_obededom",
+        "kjv_hostage:pl"
+      ],
+      "25:25": [
+        "kjv_joash_jehoahaz son of kjv_jehoahaz_jehu",
+        "fifteen year:pl"
+      ],
+      "25:26": [
+        "first and last",
+        "write:psv:neg:pr"
+      ],
+      "25:27": [
+        "kjv_lachish",
+        "there slay:pa"
+      ],
+      "25:28": [
+        "upon horse:pl",
+        "city of kjv_judah"
+      ],
+      "26:1": [
+        "kjv_uzziah_amaziah",
+        "sixteen year:pl"
+      ],
+      "26:2": [
+        "kjv_eloth",
+        "after king"
+      ],
+      "26:3": [
+        "sixteen year:pl",
+        "fifty and two",
+        "kjv_jecoliah"
+      ],
+      "26:4": [
+        "kjv_right_conduct",
+        "kjv_amaziah_joash"
+      ],
+      "26:5": [
+        "kjv_zechariah_uzziah",
+        "vision:pl",
+        "prosper:caus:pa"
+      ],
+      "26:6": [
+        "wall of kjv_gath",
+        "wall of kjv_jabneh",
+        "wall of kjv_ashdod"
+      ],
+      "26:7": [
+        "kjv_gurbaal",
+        "kjv_mehunim"
+      ],
+      "26:8": [
+        "kjv_ammonite:pl gift:pl",
+        "kjv_entryway of egypt"
+      ],
+      "26:9": [
+        "corner gate",
+        "valley gate",
+        "turn:ev of wall"
+      ],
+      "26:10": [
+        "many well:pl",
+        "flat land:pl",
+        "kjv_vinedresser:pl",
+        "field+work:ev"
+      ],
+      "26:11": [
+        "army of fight:cv man:pl",
+        "kjv_jeiel_scribe kjv_scribe",
+        "kjv_maaseiah_ruler",
+        "kjv_hananiah_captain one_num"
+      ],
+      "26:12": [
+        "two+thousand and six+hundred"
+      ],
+      "26:13": [
+        "kjv_three+hundred+thousand and seven+thousand and five+hundred"
+      ],
+      "26:14": [
+        "kjv_habergeon:pl",
+        "kjv_sling_tool:pl"
+      ],
+      "26:15": [
+        "engine:pl",
+        "skill:adj man:pl",
+        "fortify:psv wall:pl",
+        "great stone:pl"
+      ],
+      "26:16": [
+        "his/heart to his/destroy:ev",
+        "kjv_incense"
+      ],
+      "26:17": [
+        "kjv_azariah_uzziah_priest",
+        "four+twenty priest:pl"
+      ],
+      "26:18": [
+        "against kjv_uzziah_amaziah king stand:pa",
+        "son:pl of kjv_aaron",
+        "belong:neg:pr",
+        "neither it"
+      ],
+      "26:19": [
+        "kjv_censer",
+        "kjv_leprosy in his/forehead"
+      ],
+      "26:20": [
+        "out thrust:pa",
+        "himself also",
+        "kjv_lord he:a strike:pp"
+      ],
+      "26:21": [
+        "separate:psv house",
+        "kjv_jotham_azariah",
+        "judge:cv"
+      ],
+      "26:22": [
+        "rest of act:pl:a",
+        "kjv_isaiah prophet son of kjv_amoz write:pa"
+      ],
+      "26:23": [
+        "field of burial",
+        "kjv_leprous person"
+      ],
+      "27:1": [
+        "twenty and five",
+        "sixteen year:pl",
+        "kjv_jerushah daughter of kjv_zadok_jerusha"
+      ],
+      "27:2": [
+        "enter:neg:pa",
+        "people yet corrupt:adv"
+      ],
+      "27:3": [
+        "high gate",
+        "wall of kjv_ophel"
+      ],
+      "27:4": [
+        "forest:pl",
+        "kjv_stronghold:pl"
+      ],
+      "27:5": [
+        "hundred kjv_talent_weight:pl",
+        "ten+thousand kjv_measure_portion:pl of wheat",
+        "ten+thousand of kjv_barley",
+        "second year and third"
+      ],
+      "27:6": [
+        "his/way:pl:a",
+        "prepare:pa"
+      ],
+      "27:7": [
+        "all his/war:pl",
+        "kjv_israel and kjv_judah"
+      ],
+      "27:8": [
+        "five and twenty",
+        "sixteen year:pl"
+      ],
+      "27:9": [
+        "kjv_ahaz_jotham his/son"
+      ],
+      "28:1": [
+        "twenty year:pl",
+        "sixteen year:pl",
+        "do:neg:pa"
+      ],
+      "28:2": [
+        "melt:psv image:pl",
+        "kjv_baalim"
+      ],
+      "28:3": [
+        "son of kjv_hinnom",
+        "his/child:pl:a in fire burn:pa"
+      ],
+      "28:4": [
+        "under each green kjv_tree"
+      ],
+      "28:5": [
+        "great kjv_multitude",
+        "kjv_damascus",
+        "also into hand of king of kjv_israel"
+      ],
+      "28:6": [
+        "hundred+thousand and twenty+thousand",
+        "one_num day",
+        "all valiant"
+      ],
+      "28:7": [
+        "kjv_zichri_ephraim",
+        "kjv_maaseiah_ahaz",
+        "kjv_azrikam_palace",
+        "kjv_elkanah_deputy"
+      ],
+      "28:8": [
+        "two+hundred+thousand",
+        "woman:pl son:pl and daughter:pl"
+      ],
+      "28:9": [
+        "kjv_oded_samaria",
+        "before army",
+        "rage",
+        "up to heaven"
+      ],
+      "28:10": [
+        "slave man:pl and slave woman:pl",
+        "even with you:pl"
+      ],
+      "28:11": [
+        "i:a hear:imp",
+        "your/brother:pl"
+      ],
+      "28:12": [
+        "kjv_azariah_johanan_head",
+        "kjv_berechiah_meshillemoth",
+        "kjv_jehizkiah_shallum",
+        "kjv_amasa_hadlai"
+      ],
+      "28:13": [
+        "wesg",
+        "ourone/sin:pl",
+        "ourone/kjv_trespass",
+        "against kjv_israel"
+      ],
+      "28:14": [
+        "arm:psv man:pl",
+        "all kjv_congregation"
+      ],
+      "28:15": [
+        "shoe:pa",
+        "eat:inf and drink:inf",
+        "anoint:pa",
+        "feeble",
+        "kjv_palm_tree:pl"
+      ],
+      "28:16": [
+        "king:pl of kjv_assyria"
+      ],
+      "28:17": [
+        "again kjv_edomite:pl"
+      ],
+      "28:18": [
+        "kjv_gederoth",
+        "kjv_shocho",
+        "kjv_gimzo",
+        "there dwell:pa"
+      ],
+      "28:19": [
+        "king of kjv_israel",
+        "kjv_uncoveredness"
+      ],
+      "28:20": [
+        "kjv_tilgathpilneser",
+        "strengthen:neg:pa"
+      ],
+      "28:21": [
+        "house of kjv_lord",
+        "house of king",
+        "of prince:pl",
+        "help:neg:pa"
+      ],
+      "28:22": [
+        "yet more",
+        "this that king"
+      ],
+      "28:23": [
+        "god:pl of kjv_damascus",
+        "ipl to they",
+        "ipl:a help:may",
+        "of all kjv_israel"
+      ],
+      "28:24": [
+        "in piece:pl cut:pa",
+        "door:pl",
+        "each corner"
+      ],
+      "28:25": [
+        "each separate:adj city",
+        "other god:pl"
+      ],
+      "28:26": [
+        "first and last",
+        "kjv_judah and kjv_israel"
+      ],
+      "28:27": [
+        "king:pl of kjv_israel",
+        "kjv_hezekiah_ahaz"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "25:16",
+        "28:11"
+      ],
+      "ipl": [
+        "25:9",
+        "28:23"
+      ],
+      "mypl": [],
+      "iplself": [],
+      "wesg": [
+        "25:9",
+        "28:13"
+      ],
+      "wepl": [],
+      "ourone": [
+        "28:13"
+      ],
+      "we:du": [
+        "25:17"
+      ],
+      "they:du": [
+        "25:21"
+      ]
+    },
+    "quantityInterpretation": [
+      "Age25/reign29;captains-of-thousands/hundreds ranks;minimum age20;300000men;100000mercenaries/100talents;10000killed plus10000living captives;3000raided;400cubits;15survival years;Uzziah16/reign52;one captain;2600chiefs/307500troops;80priests;Jotham25/reign16;100talents/10000wheat measures/10000barley repeated years2and3;Ahaz20/reign16;120000slain in one day;200000captives;first/last record formulas."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Royal plural-I and common-expedition singular-we25:9;actual dual opponents25:17/21;prophets personal-I;shared Israelite-liability singular-we28:13;royal cult-policy plural-I28:23. No invented Trinity count.",
+      "Source Jehoahaz genealogy,city of Judah,Jecoliah/Jerushah/Shocho variants,plural kings of Assyria and Ahaz/royal-tombs Israel titles retained. Leprosy not identified with one modern disease.",
+      "All prior targets and seals unchanged, including the seven90host corrections. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Chronicles — incomplete Bible working text",
+    "pages": 484,
+    "spreads": 242,
+    "units": 597,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "00dbcf01984886a2f6066de179837fa00685f35b24c5f9daa590091ee8353698",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 242,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.536,
+    "modules": [
+      "tests.test_kjv_chronicles_paid_armies",
+      "tests.test_kjv_chronicles_royal_child",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    483,
+    484
+  ],
+  "status": "incomplete Bible; section checkpoint verified"
+}

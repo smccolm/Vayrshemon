@@ -33,6 +33,8 @@ DEFAULT=dict(LEGACY_DEFAULT,lightingModel='individual-glyphs-1',referenceGradien
     shadowRadius=.001667,shadowX=.0025,shadowY=.00433,shadowOpacity=.75,gradient=0.)
 MAX_TILE_PIXELS=6_000_000
 CACHE_BYTES=96*1024*1024
+GEOMETRY_BYTES=16*1024*1024
+GEOMETRY_ENTRIES=4096
 
 
 def initial(): return dict(version=VERSION,recipe=deepcopy(DEFAULT),bindings=[],background='#FFFFFFFF',rasterDpi=300)
@@ -133,7 +135,31 @@ def derived_paths(raw,gid):
 
 
 class Renderer:
-    def __init__(self,book): self.book=book; self.cache=OrderedDict(); self.bytes=0
+    def __init__(self,book):
+        self.book=book; self.cache=OrderedDict(); self.bytes=0
+        self.geometry_cache=OrderedDict();self.geometry_bytes=0
+        self.geometry_hits=0;self.geometry_misses=0;self.geometry_evictions=0
+
+    def geometry_info(self):
+        return dict(entries=len(self.geometry_cache),estimatedBytes=self.geometry_bytes,
+                    hits=self.geometry_hits,misses=self.geometry_misses,evictions=self.geometry_evictions,
+                    limits=dict(entries=GEOMETRY_ENTRIES,estimatedBytes=GEOMETRY_BYTES))
+
+    def geometry_get(self,key):
+        entry=self.geometry_cache.get(key)
+        if entry is None:self.geometry_misses+=1;return None
+        self.geometry_hits+=1;self.geometry_cache.move_to_end(key)
+        return entry[0]
+
+    def geometry_remember(self,key,value,cost):
+        # Paths account for native elements plus overhead; metadata uses its
+        # serialized size with room for Python objects. Both budgets are bounded.
+        while self.geometry_cache and (self.geometry_bytes+cost>GEOMETRY_BYTES or len(self.geometry_cache)>=GEOMETRY_ENTRIES):
+            _,(_,old_cost)=self.geometry_cache.popitem(last=False)
+            self.geometry_bytes-=old_cost;self.geometry_evictions+=1
+        if cost<=GEOMETRY_BYTES:
+            self.geometry_cache[key]=(value,cost);self.geometry_bytes+=cost
+        return value
 
     def binding(self,font_id):
         return next((b for b in self.book.state['paint']['bindings'] if b['fontId']==font_id and b['enabled']),None)
@@ -155,6 +181,16 @@ class Renderer:
             source=entry['source'],sourceSha256=entry['sha256'])
 
     def paths(self,binding,gid,em):
+        key=('paths',binding['fontId'],binding['kind'],binding.get('glowFontId'),binding.get('interiorFontId'),gid,em)
+        value=self.geometry_get(key)
+        if value is None:
+            value=self._paths(binding,gid,em)
+            self.geometry_remember(key,value,1024+sum(p.elementCount()*32 for p in value))
+        # Qt copies share native storage until changed; callers cannot mutate
+        # the cached outlines. All layers retain their exact master origins.
+        return tuple(QPainterPath(p) for p in value)
+
+    def _paths(self,binding,gid,em):
         fonts=self.book.fonts; raw=fonts.raw(binding['fontId'],em)
         if not 0<=gid<len(fonts.resolve(binding['fontId']).glyph_order): raise ValueError('GLYPH_ID_OUT_OF_RANGE')
         if binding['kind']=='layered':
@@ -165,6 +201,14 @@ class Renderer:
         return derived_paths(raw,gid)
 
     def bounds(self,binding,gid,em):
+        key=('bounds',signature(binding),signature(self.profile(binding)),gid,em)
+        value=self.geometry_get(key)
+        if value is None:
+            value=self._bounds(binding,gid,em)
+            self.geometry_remember(key,value,512)
+        return QRectF(value)
+
+    def _bounds(self,binding,gid,em):
         paths=self.paths(binding,gid,em); area=QRectF()
         for path in paths:
             if not path.isEmpty(): area=area.united(path.boundingRect())
@@ -177,6 +221,18 @@ class Renderer:
 
     def registration(self,binding,gid,em,origin=(0.,0.)):
         """Inspect layer coordinates without independently centering any layer."""
+        key=('registration',signature(binding),signature(self.book.state['paint']['recipe']),signature(self.profile(binding)),gid,em)
+        value=self.geometry_get(key)
+        if value is None:
+            value=self._registration(binding,gid,em)
+            self.geometry_remember(key,value,1024+4*len(json.dumps(value)))
+        result=deepcopy(value)
+        for layer in result['layers']:
+            layer.update(origin=list(origin),transform=[1,0,0,1,*origin])
+        return result
+
+    def _registration(self,binding,gid,em):
+        origin=(0.,0.)
         master=self.book.fonts.resolve(binding['fontId']);name=master.glyph_order[gid]
         paths=self.paths(binding,gid,em)
         fields=(('outline','fontId',0),('interior','interiorFontId',2),('glow','glowFontId',1))

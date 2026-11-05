@@ -1,0 +1,613 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.219",
+    "parentVersion": "0.10-kjv.218",
+    "parentHead": "7d0fc9ba47f96a4aaffa711da36bc413ff3045efe768df01461dd864a7663efe",
+    "head": "4bbd34ce8142f58dfd2df92e18899f9bdcaa11f8e9ca2743f883c721b3000d2a",
+    "newLexicalEntries": 4,
+    "newProperEntries": 1,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 69,
+    "exactCompilerCases": 69,
+    "newAuthoredVerses": 69,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 655,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4402,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJohnVerses": 69,
+    "johnVerses": 655,
+    "authoredVerses": 26700,
+    "remainingVerses": 4402,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "John 13:21",
+        "source": "When Jesus had thus said, he was troubled in spirit, and testified, and said, Verily, verily, I say unto you, that one of you shall betray me.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 13:23",
+        "source": "Now there was leaning on Jesus’ bosom one of his disciples, whom Jesus loved.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 13:38",
+        "source": "Jesus answered him, Wilt thou lay down thy life for my sake? Verily, verily, I say unto thee, The cock shall not crow, till thou hast denied me thrice.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "before feast of kjv_passover",
+        "his/hour come:pp",
+        "to father depart:should",
+        "they:a to end love:pa"
+      ],
+      "13:2": [
+        "supper end:psv:cv",
+        "devil",
+        "kjv_simon_judas_father",
+        "betray:inf put:pp"
+      ],
+      "13:3": [
+        "father all thing:pl into his/hand:pl give:pp",
+        "from god come:pp and to god go:pa"
+      ],
+      "13:4": [
+        "from supper rise:pr",
+        "garment:pl aside lay:pa",
+        "kjv_towel_john",
+        "himself kjv_gird:pa"
+      ],
+      "13:5": [
+        "water into kjv_basin",
+        "foot:pl of disciple:pl",
+        "kjv_towel_john",
+        "kjv_gird:psv:pa",
+        "kjv_wipe:inf"
+      ],
+      "13:6": [
+        "kjv_simon_peter kjv_peter_disciple",
+        "thou my/foot:pl wash:pr:q"
+      ],
+      "13:7": [
+        "what ipl do:pr thou now know:neg:pr",
+        "afterward know:fu"
+      ],
+      "13:8": [
+        "my/foot:pl never wash:fu",
+        "if ipl thee wash:neg:pr",
+        "thou no part with ipl"
+      ],
+      "13:9": [
+        "not my/foot:pl only",
+        "my/hand:pl and my/head"
+      ],
+      "13:10": [
+        "except his/foot:pl",
+        "entirely clean",
+        "you clean be:pr but not all"
+      ],
+      "13:11": [
+        "betray:should know:pa",
+        "you not all clean"
+      ],
+      "13:12": [
+        "foot:pl wash:pp",
+        "garment:pl take:pp",
+        "again down sit:pp",
+        "what ipl to you do:perf"
+      ],
+      "13:13": [
+        "master and kjv_lord",
+        "well say:pr",
+        "so ipl be:pr"
+      ],
+      "13:14": [
+        "if ipl then",
+        "wash:perf",
+        "foot:pl of each other wash:should"
+      ],
+      "13:15": [
+        "example give:perf",
+        "as ipl to you do:perf do:should"
+      ],
+      "13:16": [
+        "truly truly ipl",
+        "servant greater than his/lord be:neg:pr",
+        "send:psv:pr",
+        "send:pa be:neg:pr"
+      ],
+      "13:17": [
+        "know:pr happy be:pr if they:a do:pr"
+      ],
+      "13:18": [
+        "ipl of you all speak:neg:pr",
+        "ipl choose:perf",
+        "writing fulfil:psv:may",
+        "bread with i eat:pr",
+        "heel against i"
+      ],
+      "13:19": [
+        "before it come:pr",
+        "when happen:perf",
+        "ipl he be:pr believe:may"
+      ],
+      "13:20": [
+        "whoever ipl send:pr",
+        "ipl:a receive:pr",
+        "he who ipl:a send:pa"
+      ],
+      "13:21": [
+        "in spirit in kjv_trouble",
+        "testify:pa",
+        "one_num of you ipl:a betray:fu"
+      ],
+      "13:22": [
+        "each other look:pa",
+        "doubt:cv"
+      ],
+      "13:23": [
+        "bosom of kjv_jesus_matthew kjv_lean_body:cv",
+        "one_num of his/disciple:pl",
+        "love:pa"
+      ],
+      "13:24": [
+        "kjv_peter_disciple",
+        "signal:pa",
+        "ask:should"
+      ],
+      "13:25": [
+        "breast of kjv_jesus_matthew lie:cv",
+        "kjv_lord who it be:pr:q"
+      ],
+      "13:26": [
+        "ipl kjv_sop_john",
+        "ipl it dip:perf give:fu",
+        "kjv_judas_iscariot kjv_iscariot_luke son of kjv_simon_judas_father"
+      ],
+      "13:27": [
+        "after kjv_sop_john satan into he enter:pa",
+        "quickly do:imp"
+      ],
+      "13:28": [
+        "no man at kjv_table_furniture",
+        "what purpose",
+        "know:pa"
+      ],
+      "13:29": [
+        "bag have:pa",
+        "wesg for feast need:pr buy:imp",
+        "or that something to poor give:should"
+      ],
+      "13:30": [
+        "immediately out go:pa",
+        "night be:pa"
+      ],
+      "13:31": [
+        "son of man glorify:psv:pr",
+        "god in he glorify:psv:pr"
+      ],
+      "13:32": [
+        "if god in he",
+        "god also he:a in himself",
+        "immediately he:a glorify:fu"
+      ],
+      "13:33": [
+        "small child:pl",
+        "little time ipl with you",
+        "as ipl to kjv_jew:pl",
+        "you come:neg:can",
+        "now ipl to you"
+      ],
+      "13:34": [
+        "new command",
+        "each other love:pr",
+        "as ipl you:a love:perf"
+      ],
+      "13:35": [
+        "mypl/disciple:pl",
+        "if love to each other have:pr"
+      ],
+      "13:36": [
+        "where go:pr:q",
+        "thou now ipl:a follow:neg:can",
+        "afterward ipl:a follow:fu"
+      ],
+      "13:37": [
+        "i thee now follow:neg:can:q",
+        "i my/life for thy/sake down lay:fu"
+      ],
+      "13:38": [
+        "thy/life for mypl/sake",
+        "cock kjv_cock_crow:neg:fu",
+        "thou ipl:a three time:pl deny:perf"
+      ],
+      "14:1": [
+        "your/heart in kjv_trouble be:neg:imp",
+        "in god believe:pr",
+        "in ipl believe:imp"
+      ],
+      "14:2": [
+        "mypl/father/house many dwelling:pl",
+        "if not so",
+        "place for you prepare:inf"
+      ],
+      "14:3": [
+        "ipl again come:fu",
+        "you:a to iplself receive:fu",
+        "where ipl be:pr there you also"
+      ],
+      "14:4": [
+        "where ipl go:pr know:pr",
+        "way know:pr"
+      ],
+      "14:5": [
+        "kjv_thomas_apostle",
+        "wesg where thou go:pr know:neg:pr",
+        "wesg way know:can:q"
+      ],
+      "14:6": [
+        "ipl way and truth and life",
+        "no man to father",
+        "but by ipl"
+      ],
+      "14:7": [
+        "if you ipl:a know:pp",
+        "mypl/father also",
+        "from now",
+        "he:a see:perf"
+      ],
+      "14:8": [
+        "kjv_philip_apostle",
+        "to wesg father show:imp",
+        "for wesg suffice:pr"
+      ],
+      "14:9": [
+        "with you be:perf",
+        "thou ipl:a know:neg:perf",
+        "see:perf father see:perf",
+        "thou to wesg father show:imp"
+      ],
+      "14:10": [
+        "thou that ipl in father",
+        "father in ipl",
+        "ipl of iplself speak:neg:pr",
+        "father who in ipl dwell:pr he work:pl do:pr"
+      ],
+      "14:11": [
+        "ipl in father",
+        "father in ipl",
+        "or else for very work:pl sake"
+      ],
+      "14:12": [
+        "truly truly ipl",
+        "greater work:pl than these",
+        "ipl to mypl/father go:pr"
+      ],
+      "14:13": [
+        "in mypl/name",
+        "ipl do:fu",
+        "father in son glorify:psv:may"
+      ],
+      "14:14": [
+        "anything in mypl/name",
+        "ipl it do:fu"
+      ],
+      "14:15": [
+        "if ipl:a love:pr",
+        "mypl/command:pl keep:imp"
+      ],
+      "14:16": [
+        "ipl father:a pray:fu",
+        "he to you another kjv_comforter_john give:fu",
+        "for ever remain:may"
+      ],
+      "14:17": [
+        "spirit of truth",
+        "world receive:neg:can",
+        "see:neg:pr nor he:a know:neg:pr",
+        "with you dwell:pr and in you be:fu"
+      ],
+      "14:18": [
+        "without comfort leave:neg:fu",
+        "ipl to you come:fu"
+      ],
+      "14:19": [
+        "world ipl:a more see:neg:pr",
+        "you ipl:a see:pr",
+        "ipl live:pr you also live:fu"
+      ],
+      "14:20": [
+        "ipl in mypl/father",
+        "you in ipl",
+        "ipl in you"
+      ],
+      "14:21": [
+        "mypl/command:pl",
+        "of mypl/father love:psv:fu",
+        "iplself manifest:fu"
+      ],
+      "14:22": [
+        "kjv_judas_not_iscariot_john not kjv_iscariot_luke",
+        "thyself to wesg",
+        "not to world"
+      ],
+      "14:23": [
+        "mypl/father he:a love:fu",
+        "wesg to he come:fu",
+        "ourone/dwelling with he make:fu"
+      ],
+      "14:24": [
+        "ipl:a love:neg:pr",
+        "mypl/say:ev:pl keep:neg:pr",
+        "of ipl be:neg:pr",
+        "father who ipl:a send:pa"
+      ],
+      "14:25": [
+        "ipl speak:perf",
+        "with you present be:cv"
+      ],
+      "14:26": [
+        "kjv_comforter_john who holy spirit",
+        "father in mypl/name send:fu",
+        "all thing:pl to you teach:fu",
+        "your/remembrance bring:fu"
+      ],
+      "14:27": [
+        "peace with you ipl leave:pr",
+        "mypl/peace",
+        "not as world",
+        "in kjv_trouble be:neg:imp nor afraid be:neg:imp"
+      ],
+      "14:28": [
+        "ipl away go:pr",
+        "again to you come:pr",
+        "if ipl:a love:pa rejoice:should",
+        "mypl/father greater than ipl"
+      ],
+      "14:29": [
+        "before it happen:pr",
+        "when happen:perf believe:may"
+      ],
+      "14:30": [
+        "ipl much with you talk:neg:fu",
+        "prince of this world",
+        "nothing in ipl"
+      ],
+      "14:31": [
+        "ipl father:a love:pr",
+        "father to ipl command give:pa",
+        "so ipl do:pr",
+        "rise:imp wesg hence go:opt"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "13:18",
+        "13:37"
+      ],
+      "ipl": [
+        "13:12",
+        "13:13",
+        "13:14",
+        "13:15",
+        "13:16",
+        "13:18",
+        "13:19",
+        "13:20",
+        "13:21",
+        "13:26",
+        "13:33",
+        "13:34",
+        "13:36",
+        "13:38",
+        "13:7",
+        "13:8",
+        "14:1",
+        "14:10",
+        "14:11",
+        "14:12",
+        "14:13",
+        "14:14",
+        "14:15",
+        "14:16",
+        "14:18",
+        "14:19",
+        "14:2",
+        "14:20",
+        "14:21",
+        "14:23",
+        "14:24",
+        "14:25",
+        "14:26",
+        "14:27",
+        "14:28",
+        "14:29",
+        "14:3",
+        "14:30",
+        "14:31",
+        "14:4",
+        "14:6",
+        "14:7",
+        "14:9"
+      ],
+      "wesg": [
+        "13:29",
+        "14:22",
+        "14:23",
+        "14:31",
+        "14:5",
+        "14:8",
+        "14:9"
+      ],
+      "wepl": [],
+      "mypl": [
+        "13:35",
+        "13:38",
+        "14:12",
+        "14:13",
+        "14:14",
+        "14:15",
+        "14:2",
+        "14:20",
+        "14:21",
+        "14:23",
+        "14:24",
+        "14:26",
+        "14:27",
+        "14:28",
+        "14:7"
+      ],
+      "ourone": [
+        "14:23"
+      ],
+      "iplself": [
+        "14:10",
+        "14:21",
+        "14:3"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "One betrayer,one unnamed beloved disciple,three denials;reciprocals are not cardinal counts.",
+      "Quoted psalm and Peter retain personal-I. Father/speaker communal-we and travelling-company communal-we have distinct scopes."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "69new verses;655John;whole Bible incomplete.",
+      "Another Comforter,distinct sender,indwelling and Father-greater-than-I remain without numerical theology or diagnosis.",
+      "Three common and one contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "John — incomplete Bible working text",
+    "pages": 346,
+    "spreads": 173,
+    "units": 655,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "29ff5454e1f0465ec4eb1c11c0882b5bd79a2d410db56f32e0ae1258cbd0d92e",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 173,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.088,
+    "modules": [
+      "tests.test_kjv_john_indwelling",
+      "tests.test_kjv_john_weeping_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    345,
+    346
+  ],
+  "status": "incomplete Bible;John1–14 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 345,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv219\\preflight-john\\Proofs\\page-345.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv219\\composed-john\\Proofs\\page-345.png",
+        "sha256": "5c1d9e236a2d023643a34d35414c33a8d9b8156a7cfb5d2388812246b2b343be",
+        "bytesIdentical": true
+      },
+      {
+        "page": 346,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv219\\preflight-john\\Proofs\\page-346.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv219\\composed-john\\Proofs\\page-346.png",
+        "sha256": "00f8a2854a84c13f59088ad30dd1c1ce37071ba7961742b796a3bad79c1fc0e9",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

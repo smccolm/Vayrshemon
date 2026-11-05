@@ -1,0 +1,448 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.77",
+    "parentVersion": "0.10-kjv.76",
+    "parentHead": "bb3a52ed1266acdb6842041a0f88861f3052c721eae343f6b8424f6671b9034e",
+    "head": "1ca227ca06db71f48001714f3f0ebcc6a9bda1a962d80e225e1fc204d22209ab",
+    "newLexicalEntries": 123,
+    "newProperEntries": 123,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 67,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 55,
+    "exactCompilerCases": 55,
+    "newAuthoredVerses": 55,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 109,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20692,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 55,
+    "chronicles1Verses": 109,
+    "authoredVerses": 10410,
+    "remainingVerses": 20692,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 12,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 2:3",
+        "source": "The sons of Judah; Er, and Onan, and Shelah: which three were born unto him of the daughter of Shua the Canaanitess. And Er, the firstborn of Judah, was evil in the sight of the LORD; and he slew him.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:4",
+        "source": "And Tamar his daughter in law bore him Pharez and Zerah. All the sons of Judah were five.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:6",
+        "source": "And the sons of Zerah; Zimri, and Ethan, and Heman, and Calcol, and Dara: five of them in all.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:13",
+        "source": "And Jesse begat his firstborn Eliab, and Abinadab the second, and Shimma the third,",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:14",
+        "source": "Nethaneel the fourth, Raddai the fifth,",
+        "expectedDecimalQuantities": [
+          4,
+          5
+        ],
+        "targetQuantities": [
+          4,
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:15",
+        "source": "Ozem the sixth, David the seventh:",
+        "expectedDecimalQuantities": [
+          6,
+          7
+        ],
+        "targetQuantities": [
+          6,
+          7
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:16",
+        "source": "Whose sisters were Zeruiah, and Abigail. And the sons of Zeruiah; Abishai, and Joab, and Asahel, three.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:21",
+        "source": "And afterward Hezron went in to the daughter of Machir the father of Gilead, whom he married when he was threescore years old; and she bare him Segub.",
+        "expectedDecimalQuantities": [
+          60
+        ],
+        "targetQuantities": [
+          60
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:22",
+        "source": "And Segub begat Jair, who had three and twenty cities in the land of Gilead.",
+        "expectedDecimalQuantities": [
+          23
+        ],
+        "targetQuantities": [
+          23
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:23",
+        "source": "And he took Geshur, and Aram, with the towns of Jair, from them, with Kenath, and the towns thereof, even threescore cities. All these belonged to the sons of Machir the father of Gilead.",
+        "expectedDecimalQuantities": [
+          60
+        ],
+        "targetQuantities": [
+          60
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:52",
+        "source": "And Shobal the father of Kirjathjearim had sons; Haroeh, and half of the Manahethites.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 2:54",
+        "source": "The sons of Salma; Bethlehem, and the Netophathites, Ataroth, the house of Joab, and half of the Manahethites, the Zorites.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "2:1": [
+        "kjv_reuben kjv_simeon kjv_levi and kjv_judah kjv_issachar and kjv_zebulun"
+      ],
+      "2:2": [
+        "kjv_dan kjv_joseph and kjv_benjamin kjv_naphtali kjv_gad and kjv_asher"
+      ],
+      "2:3": [
+        "kjv_three",
+        "daughter of kjv_shua_father kjv_canaanite woman",
+        "he he:a slay:pa"
+      ],
+      "2:4": [
+        "kjv_tamar wife of his/son",
+        "kjv_zerah_judah",
+        "five be:pa"
+      ],
+      "2:5": [
+        "kjv_hezron and kjv_hamul"
+      ],
+      "2:6": [
+        "kjv_zimri_zerah",
+        "kjv_ethan_zerah",
+        "kjv_heman_zerah",
+        "kjv_calcol and kjv_dara",
+        "five of they"
+      ],
+      "2:7": [
+        "kjv_achar kjv_ail:ag",
+        "kjv_accursed_devoted thing"
+      ],
+      "2:8": [
+        "kjv_azariah_ethan"
+      ],
+      "2:9": [
+        "kjv_jerahmeel_hezron",
+        "kjv_ram_person",
+        "kjv_chelubai"
+      ],
+      "2:10": [
+        "kjv_ram_person kjv_amminadab",
+        "kjv_nahshon prince"
+      ],
+      "2:11": [
+        "kjv_salma_nahshon",
+        "kjv_boaz"
+      ],
+      "2:12": [
+        "kjv_boaz kjv_obed",
+        "kjv_obed kjv_jesse"
+      ],
+      "2:13": [
+        "kjv_eliab_jesse",
+        "kjv_abinadab_jesse two:ord",
+        "kjv_shimma kjv_three:ord"
+      ],
+      "2:14": [
+        "kjv_nethaneel_jesse four:ord",
+        "kjv_raddai five:ord"
+      ],
+      "2:15": [
+        "kjv_ozem_jesse six:ord",
+        "kjv_david seven:ord"
+      ],
+      "2:16": [
+        "kjv_abigail_nahash",
+        "kjv_abishai and kjv_joab and kjv_asahel kjv_three"
+      ],
+      "2:17": [
+        "kjv_jether_amasa kjv_ishmeelite"
+      ],
+      "2:18": [
+        "kjv_caleb_hezron son of kjv_hezron",
+        "kjv_azubah_caleb his/wife and of kjv_jerioth",
+        "her/son:pl"
+      ],
+      "2:19": [
+        "kjv_ephrath_woman",
+        "kjv_hur_caleb"
+      ],
+      "2:20": [
+        "kjv_hur_caleb kjv_uri",
+        "kjv_uri kjv_bezaleel"
+      ],
+      "2:21": [
+        "daughter of kjv_machir father of kjv_gilead_machir",
+        "he kjv_three+twenty year:pl old",
+        "kjv_segub_hezron"
+      ],
+      "2:22": [
+        "kjv_three and twenty city:pl",
+        "land of kjv_gilead"
+      ],
+      "2:23": [
+        "he kjv_geshur and kjv_aram_land",
+        "from they take:pa",
+        "kjv_three+twenty city:pl"
+      ],
+      "2:24": [
+        "kjv_calebephratah",
+        "then kjv_abiah_hezron wife of kjv_hezron",
+        "kjv_ashur_tekoa father of kjv_tekoa"
+      ],
+      "2:25": [
+        "kjv_jerahmeel_hezron first+born of kjv_hezron",
+        "kjv_ram_jerahmeel first+born",
+        "kjv_ahijah_jerahmeel"
+      ],
+      "2:26": [
+        "another wife",
+        "kjv_atarah",
+        "mother of kjv_onam_atarah"
+      ],
+      "2:27": [
+        "kjv_maaz and kjv_jamin_ram and kjv_eker"
+      ],
+      "2:28": [
+        "kjv_shammai_onam and kjv_jada_onam",
+        "kjv_nadab_shammai and kjv_abishur"
+      ],
+      "2:29": [
+        "kjv_abihail_abishur",
+        "kjv_ahban and kjv_molid"
+      ],
+      "2:30": [
+        "kjv_seled without child:pl die:pa"
+      ],
+      "2:31": [
+        "child:pl of kjv_sheshan kjv_ahlai"
+      ],
+      "2:32": [
+        "kjv_jada_onam brother of kjv_shammai_onam",
+        "kjv_jether_jada without child:pl"
+      ],
+      "2:33": [
+        "kjv_peleth_jonathan and kjv_zaza",
+        "son:pl of kjv_jerahmeel_hezron"
+      ],
+      "2:34": [
+        "no son:pl but daughter:pl",
+        "kjv_egyptian",
+        "kjv_jarha"
+      ],
+      "2:35": [
+        "his/daughter:a to kjv_jarha his/servant for wife",
+        "kjv_attai_jarha"
+      ],
+      "2:36": [
+        "kjv_nathan_attai",
+        "kjv_zabad_nathan"
+      ],
+      "2:37": [
+        "kjv_ephlal",
+        "kjv_obed_ephlal"
+      ],
+      "2:38": [
+        "kjv_jehu_obed",
+        "kjv_azariah_jehu"
+      ],
+      "2:39": [
+        "kjv_helez_azariah",
+        "kjv_eleasah"
+      ],
+      "2:40": [
+        "kjv_sisamai",
+        "kjv_shallum_sisamai"
+      ],
+      "2:41": [
+        "kjv_jekamiah",
+        "kjv_elishama_jekamiah"
+      ],
+      "2:42": [
+        "kjv_mesha_caleb his/first+born",
+        "son:pl of kjv_mareshah_line father of kjv_hebron_line"
+      ],
+      "2:43": [
+        "kjv_korah_hebron and kjv_tappuah_hebron and kjv_rekem_hebron and kjv_shema_hebron"
+      ],
+      "2:44": [
+        "kjv_raham father of kjv_jorkoam",
+        "kjv_shammai_rekem"
+      ],
+      "2:45": [
+        "kjv_maon_line father of kjv_bethzur"
+      ],
+      "2:46": [
+        "kjv_ephah_caleb kjv_concubine",
+        "kjv_gazez_caleb",
+        "kjv_haran_ephah kjv_gazez_haran"
+      ],
+      "2:47": [
+        "kjv_regem and kjv_jotham_jahdai and kjv_gesham and kjv_pelet and kjv_ephah_jahdai and kjv_shaaph_jahdai"
+      ],
+      "2:48": [
+        "kjv_maachah_caleb kjv_concubine",
+        "kjv_sheber and kjv_tirhanah"
+      ],
+      "2:49": [
+        "kjv_shaaph_maachah father of kjv_madmannah",
+        "kjv_sheva_caleb father of kjv_machbenah and father of kjv_gibea",
+        "daughter of kjv_caleb_hezron kjv_achsa"
+      ],
+      "2:50": [
+        "kjv_caleb_hur son of kjv_hur_caleb first+born of kjv_ephratah_woman",
+        "kjv_shobal_hur"
+      ],
+      "2:51": [
+        "kjv_salma_bethlehem father of kjv_bethlehem",
+        "kjv_hareph father of kjv_bethgader"
+      ],
+      "2:52": [
+        "kjv_haroeh and half of kjv_manahethite:pl"
+      ],
+      "2:53": [
+        "kjv_ithrite:pl and kjv_puhite:pl and kjv_shumathite:pl and kjv_mishraite:pl",
+        "kjv_zareathite:pl and kjv_eshtaulite:pl"
+      ],
+      "2:54": [
+        "kjv_ataroth house of kjv_joab",
+        "half of kjv_manahethite:pl kjv_zorite:pl"
+      ],
+      "2:55": [
+        "kjv_family:pl of kjv_scribe:pl",
+        "kjv_jabez",
+        "kjv_tirathite:pl kjv_shimeathite:pl and kjv_suchathite:pl",
+        "kjv_hemath_rechab father of house of kjv_rechab_house"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Birth ranks2–7, counted groups3/5, Hezrons60years, Jairs23cities versus60later cities and two half-group references remain distinct. Firstborn compounds add no independent count."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Genealogical source variants and unresolved relationships retained; no first-person forms added to narration.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 42,
+    "spreads": 21,
+    "units": 109,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "265ac6492272d725ca27f953c4e1d2c6d105193806d1ebd80fa7a99a72374dc2",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 21,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.797,
+    "modules": [
+      "tests.test_kjv_chronicles_households",
+      "tests.test_kjv_chronicles_genealogy",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    41,
+    42
+  ],
+  "status": "incomplete Bible; checkpoint verified"
+}

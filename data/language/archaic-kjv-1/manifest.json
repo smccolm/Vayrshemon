@@ -1,0 +1,27 @@
+{
+  "version": "0.10-kjv.1",
+  "policy": "never-modernize",
+  "status": "authored historical register; first complete book Jonah",
+  "basePackage": "data/language/consolidated-0.10",
+  "baseManifestSha256": "08e8799b69c8dbfc3e50015feb8cc115429d05385cc533a17b331f8e76b4509f",
+  "baseForgeHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+  "forgeHead": "72b5746f19b9c753c51f1aed35cfe943fbe4790de8406c36414ac3301e1d985c",
+  "compilerPath": "data/language/archaic-kjv-1/compiler.py",
+  "compilerSha256": "fce3a11a2eed028ea8e7d4cdb4d22984075cb5cdacb2d3ede8be0aaefdca3bde",
+  "compilerOrigin": "tools/editorial_language.py",
+  "compilerOriginSha256": "4e3efbb650c366d8d6a6ab66265dd991612f02db74305eec17dc986884c0d312",
+  "compilerChange": "Historical named possessors use their human glossary label; target strings and morphology unchanged.",
+  "files": {
+    "additions.json": "2176ac4873165b135bb1c2c980f9d85daf101d89fa466d71931a8c42b7261ee6",
+    "compiler.py": "fce3a11a2eed028ea8e7d4cdb4d22984075cb5cdacb2d3ede8be0aaefdca3bde",
+    "decisions.json": "e77aaa17c23a7614df269ef67dd8263023f1878702d8821f4188ca9c98e4e73d",
+    "grammar.md": "2ba822e2dbcbea89729bc52fcc252eba0bdda0a004b4e1fa85a8d9442f45cf75",
+    "historical-cases.json": "e3739d352d7db05020274e88f800e2a6ea561442d35681d85ee03812afb69ebc",
+    "inherited-grammar.md": "bd15af84f2db9de872808c8efd49178dada5dc98cc9afdf5826cde4b98eea116",
+    "lexicon.json": "94c39dddef90cdd75f0f99941c4707859c830b656fe09b82986d9081388ab715",
+    "morphology.json": "02deedb39f90c06f8e8cce7e8aa8823299d581cf249fbebe9ef3de18672bbc89",
+    "orthography.json": "032da7c5ffd64f327a4237762bcf00dcaf990cff660c142a037600f7ac464591",
+    "parent.json": "4793da1606d6828d9418261f2ad8f76e8419a8bf5b7109aaba7ae56e61ba7b98",
+    "regression-cases.json": "0afcbcc75fc4cf998565088d8352e7b31737d5169ce38b00d89203b67b94a8a8"
+  }
+}

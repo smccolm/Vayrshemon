@@ -8,6 +8,7 @@ from pathlib import Path
 import re
 
 from jsonschema import Draft202012Validator
+from .schema_validation import validate as validate_schema
 from .authoring import digest, identity, stamp
 from .language_contracts import DATA, RECORDS, COLLECTIONS, PACKAGE, LANGUAGE
 from .session import checked_text, scalar_offset, utf16_length
@@ -30,12 +31,13 @@ def dataset(state, revision_id=None):
 
 
 def validate_data(data):
-    Draft202012Validator(DATA).validate(data)
+    validate_schema(DATA,data)
     ids = {}
     for key, records in data.items():
         ids[key] = {r['id'] for r in records}
         if len(ids[key]) != len(records): raise ValueError('DUPLICATE_LANGUAGE_RECORD: ' + key)
     senses = {s['id'] for r in data['lexicon'] for s in r['senses']}
+    senses_by_entry = {r['id']:{s['id'] for s in r['senses']} for r in data['lexicon']}
     if len(senses) != sum(len(r['senses']) for r in data['lexicon']): raise ValueError('DUPLICATE_SENSE_ID')
     def reference(key, values):
         if not set(values) <= ids[key]: raise ValueError('LANGUAGE_REFERENCE_MISSING: ' + key)
@@ -73,7 +75,7 @@ def validate_data(data):
             if r['text'][token['start']:token['end']] != token['surface']: raise ValueError('CORPUS_TOKEN_TEXT_MISMATCH')
             if len(token['morphemes']) != len(token['glosses']): raise ValueError('INTERLINEAR_SEGMENT_COUNT')
             reference('lexicon', token['entryIds']); reference('morphology', token['morphologyIds'])
-            allowed_senses = {s['id'] for entry in data['lexicon'] if entry['id'] in token['entryIds'] for s in entry['senses']}
+            allowed_senses = {sense for eid in token['entryIds'] for sense in senses_by_entry[eid]}
             if not set(token['senseIds']) <= allowed_senses: raise ValueError('CORPUS_SENSE_ENTRY_MISMATCH')
             end = token['end']
     for r in data['numberConventions']:
@@ -102,21 +104,27 @@ def initial():
 
 
 def validate_state(state):
-    Draft202012Validator(LANGUAGE).validate(state)
+    validate_schema(LANGUAGE,state)
     seen = set()
     for h, r in state['objects'].items():
         if digest(r) != h: raise ValueError('LANGUAGE_OBJECT_HASH_MISMATCH')
+    corpus_ids = {}
     for rev in state['revisions']:
         if rev['id'] in seen or (rev['parentId'] is not None and rev['parentId'] not in seen): raise ValueError('LANGUAGE_REVISION_GRAPH_INVALID')
         seen.add(rev['id'])
         if digest(rev['collections']) != rev['sha256']: raise ValueError('LANGUAGE_REVISION_HASH_MISMATCH')
-        validate_data(dataset(state, rev['id']))
+        # Validation never edits records. Do not clone the entire dictionary
+        # and corpus just to inspect them, or scan them again for every link.
+        data = {key:[state['objects'][h] for h in rev['collections'][key]] for key in COLLECTIONS}
+        validate_data(data)
+        corpus_ids[rev['id']] = {r['id'] for r in data['corpus']}
     revision(state)
     link_ids = set()
     for link in state['links']:
         if link['id'] in link_ids: raise ValueError('DUPLICATE_CORPUS_LINK')
         link_ids.add(link['id'])
-        if link['corpusId'] not in {r['id'] for r in dataset(state, link['revisionId'])['corpus']}: raise ValueError('LINK_CORPUS_MISSING')
+        if link['revisionId'] not in corpus_ids: revision(state,link['revisionId'])
+        if link['corpusId'] not in corpus_ids[link['revisionId']]: raise ValueError('LINK_CORPUS_MISSING')
         for anchor in (link['source'], link['translation']):
             if anchor['end'] - anchor['start'] != utf16_length(anchor['text']): raise ValueError('LINK_RANGE_INVALID')
 

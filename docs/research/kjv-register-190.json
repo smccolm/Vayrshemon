@@ -1,0 +1,1024 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.190",
+    "parentVersion": "0.10-kjv.189",
+    "parentHead": "db312d58ba7e50cd7e12fabe7a6fe43fec1661d240847f5233ae272238de56f0",
+    "head": "9030d5a877b5734d697a83426bf6ef1e06202c1f687d05e0722bbb68bb31a6ae",
+    "newLexicalEntries": 11,
+    "newProperEntries": 8,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 138,
+    "exactCompilerCases": 138,
+    "newAuthoredVerses": 138,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 453,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 7504,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newMatthewVerses": 138,
+    "matthewVerses": 453,
+    "authoredVerses": 23598,
+    "remainingVerses": 7504,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 11,
+    "quantityChecks": [
+      {
+        "reference": "Matthew 11:1",
+        "source": "And it came to pass, when Jesus had made an end of commanding his twelve disciples, he departed thence to teach and to preach in their cities.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Matthew 11:2",
+        "source": "Now when John had heard in the prison the works of Christ, he sent two of his disciples,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 12:11",
+        "source": "And he said unto them, What man shall there be among you, that shall have one sheep, and if it fall into a pit on the sabbath day, will he not lay hold on it, and lift it out?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 12:29",
+        "source": "Or else how can one enter into a strong man’s house, and spoil his goods, except he first bind the strong man? and then he will spoil his house.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 12:40",
+        "source": "For as Jonas was three days and three nights in the whale’s belly; so shall the Son of man be three days and three nights in the heart of the earth.",
+        "expectedDecimalQuantities": [
+          3,
+          3,
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "Matthew 12:45",
+        "source": "Then goeth he, and taketh with himself seven other spirits more wicked than himself, and they enter in and dwell there: and the last state of that man is worse than the first. Even so shall it be also unto this wicked generation.",
+        "expectedDecimalQuantities": [
+          7,
+          1
+        ],
+        "targetQuantities": [
+          7,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 13:8",
+        "source": "But other fell into good ground, and brought forth fruit, some an hundredfold, some sixtyfold, some thirtyfold.",
+        "expectedDecimalQuantities": [
+          100,
+          60,
+          30
+        ],
+        "targetQuantities": [
+          100,
+          60,
+          30
+        ]
+      },
+      {
+        "reference": "Matthew 13:23",
+        "source": "But he that received seed into the good ground is he that heareth the word, and understandeth it; which also beareth fruit, and bringeth forth, some an hundredfold, some sixty, some thirty.",
+        "expectedDecimalQuantities": [
+          100,
+          60,
+          30
+        ],
+        "targetQuantities": [
+          100,
+          60,
+          30
+        ]
+      },
+      {
+        "reference": "Matthew 13:30",
+        "source": "Let both grow together until the harvest: and in the time of harvest I will say to the reapers, Gather ye together first the tares, and bind them in bundles to burn them: but gather the wheat into my barn.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 13:33",
+        "source": "Another parable spake he unto them; The kingdom of heaven is like unto leaven, which a woman took, and hid in three measures of meal, till the whole was leavened.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Matthew 13:46",
+        "source": "Who, when he had found one pearl of great price, went and sold all that he had, and bought it.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "11:1": [
+        "his/twelve disciple:pl",
+        "their/city:pl teach:inf and proclaim"
+      ],
+      "11:2": [
+        "in prison",
+        "kjv_christ_title",
+        "two of his/disciple:pl"
+      ],
+      "11:3": [
+        "thou he that come:should",
+        "wesg for another"
+      ],
+      "11:4": [
+        "to they:du",
+        "kjv_john_baptist",
+        "you:du hear:pr and see"
+      ],
+      "11:5": [
+        "blind person:pl their/sight",
+        "kjv_lame person:pl walk",
+        "kjv_leprosy clean",
+        "kjv_deaf person:pl hear",
+        "dead person:pl up raise",
+        "poor person:pl kjv_gospel"
+      ],
+      "11:6": [
+        "in ipl kjv_stumble:caus:psv:neg",
+        "bless:psv"
+      ],
+      "11:7": [
+        "they:du depart",
+        "kjv_multitude:pl about kjv_john_baptist",
+        "reed with wind shake"
+      ],
+      "11:8": [
+        "soft clothing",
+        "house:pl of king:pl"
+      ],
+      "11:9": [
+        "prophet",
+        "ipl to you",
+        "more than prophet"
+      ],
+      "11:10": [
+        "ipl mypl/messenger before thy/face",
+        "thy/way before thou"
+      ],
+      "11:11": [
+        "woman:pl bear:psv",
+        "greater than kjv_john_baptist",
+        "least be:pr greater than he"
+      ],
+      "11:12": [
+        "from day:pl of kjv_john_baptist",
+        "kjv_violence suffer",
+        "violent person:pl",
+        "by force"
+      ],
+      "11:13": [
+        "all prophet:pl and law",
+        "until kjv_john_baptist"
+      ],
+      "11:14": [
+        "if you it:a receive:inf willing",
+        "kjv_elias_matthew"
+      ],
+      "11:15": [
+        "ear:pl hear:inf",
+        "hear:opt"
+      ],
+      "11:16": [
+        "ipl this generation compare",
+        "child:pl in market:pl",
+        "their/fellow:pl"
+      ],
+      "11:17": [
+        "wesg to you pipe",
+        "dance:neg",
+        "wesg to you mourn",
+        "lament:neg"
+      ],
+      "11:18": [
+        "neither eat:cv nor drink",
+        "they he devil have:pr say"
+      ],
+      "11:19": [
+        "eat:cv and drink:cv",
+        "kjv_glutton",
+        "kjv_winebibber",
+        "kjv_publican:pl and sin:ag:pl",
+        "wisdom of her/child:pl kjv_justify"
+      ],
+      "11:20": [
+        "most of his/mighty work:pl",
+        "because they repent:neg"
+      ],
+      "11:21": [
+        "kjv_chorazin be:excl",
+        "kjv_bethsaida be:excl",
+        "kjv_tyre and kjv_sidon",
+        "kjv_sackcloth and kjv_ashes",
+        "repent:pp:should"
+      ],
+      "11:22": [
+        "kjv_tyre and kjv_sidon",
+        "more tolerable than for you"
+      ],
+      "11:23": [
+        "kjv_capernaum",
+        "to heaven kjv_exalt",
+        "kjv_hell_depth down",
+        "in kjv_sodom",
+        "remain:pp:should"
+      ],
+      "11:24": [
+        "land of kjv_sodom",
+        "more tolerable than for thou"
+      ],
+      "11:25": [
+        "ipl thou:a thank",
+        "father lord of heaven and earth",
+        "from wise and understand:ag:pl hide",
+        "to kjv_infant:pl"
+      ],
+      "11:26": [
+        "father",
+        "in thy/sight good seem"
+      ],
+      "11:27": [
+        "to ipl by mypl/father",
+        "son know:pr except father",
+        "father know:pr except son",
+        "he to whoever son he:a reveal"
+      ],
+      "11:28": [
+        "to ipl come",
+        "labour",
+        "heavy:adv kjv_load",
+        "ipl to you rest"
+      ],
+      "11:29": [
+        "mypl/yoke",
+        "of ipl learn",
+        "ipl kjv_meek_disposition and lowly in heart",
+        "rest to your/soul:pl"
+      ],
+      "11:30": [
+        "mypl/yoke easy",
+        "mypl/burden lightweight"
+      ],
+      "12:1": [
+        "kjv_sabbath day through corn",
+        "hungry",
+        "kjv_grain_ear:pl pluck"
+      ],
+      "12:2": [
+        "kjv_pharisee:pl",
+        "on kjv_sabbath day",
+        "lawful be:neg"
+      ],
+      "12:3": [
+        "kjv_david",
+        "hungry",
+        "they that with he"
+      ],
+      "12:4": [
+        "house of god",
+        "kjv_shewbread",
+        "lawful be:neg",
+        "neither for they",
+        "only for priest:pl"
+      ],
+      "12:5": [
+        "priest:pl in kjv_temple",
+        "kjv_sabbath kjv_profane",
+        "blameless"
+      ],
+      "12:6": [
+        "ipl to you",
+        "person greater than kjv_temple"
+      ],
+      "12:7": [
+        "if you",
+        "ipl mercy desire",
+        "not kjv_sacrifice",
+        "innocent person:pl condemn:neg:pp:should"
+      ],
+      "12:8": [
+        "son of man",
+        "kjv_sabbath day lord"
+      ],
+      "12:9": [
+        "their/kjv_synagogue"
+      ],
+      "12:10": [
+        "hand wither",
+        "heal:inf lawful",
+        "that they he:a accuse"
+      ],
+      "12:11": [
+        "one_num sheep",
+        "kjv_pit on kjv_sabbath",
+        "hold:inf take:neg",
+        "out lift"
+      ],
+      "12:12": [
+        "man better than sheep",
+        "well do:inf lawful"
+      ],
+      "12:13": [
+        "thy/hand forth stretch",
+        "healthy restore",
+        "like other"
+      ],
+      "12:14": [
+        "council hold",
+        "he:a destroy:may"
+      ],
+      "12:15": [
+        "himself from there withdraw",
+        "great kjv_multitude:pl",
+        "they:a all heal"
+      ],
+      "12:16": [
+        "he:a known make:neg:should"
+      ],
+      "12:17": [
+        "kjv_esaias prophet",
+        "fulfil:psv:may"
+      ],
+      "12:18": [
+        "mypl/servant whom ipl choose",
+        "mypl/love:psv",
+        "mypl/soul",
+        "ipl mypl/spirit upon he",
+        "judgment to kjv_gentile:pl"
+      ],
+      "12:19": [
+        "strive:neg:fu nor cry",
+        "neither any man",
+        "his/voice in street:pl"
+      ],
+      "12:20": [
+        "kjv_bruise:psv:adj reed",
+        "break:neg",
+        "smoke:cv kjv_flax",
+        "extinguish:neg",
+        "judgment to prevail:ev"
+      ],
+      "12:21": [
+        "his/name kjv_gentile:pl trust"
+      ],
+      "12:22": [
+        "person with devil",
+        "blind and dumb",
+        "both speak:pa and see"
+      ],
+      "12:23": [
+        "all people amaze",
+        "son of kjv_david be:neg:q"
+      ],
+      "12:24": [
+        "kjv_pharisee:pl",
+        "out cast:neg:pr except by kjv_beelzebub"
+      ],
+      "12:25": [
+        "kingdom against itself",
+        "to kjv_desolate:ev",
+        "every city or house",
+        "stand:neg"
+      ],
+      "12:26": [
+        "kjv_satan_temptation kjv_satan_temptation",
+        "against himself",
+        "his/kingdom stand"
+      ],
+      "12:27": [
+        "if ipl by kjv_beelzebub",
+        "by whom your/child:pl",
+        "your/judge:pl"
+      ],
+      "12:28": [
+        "if ipl devil:pl by spirit of god",
+        "kingdom of god to you come:perf"
+      ],
+      "12:29": [
+        "person into house of strong man",
+        "his/kjv_goods plunder",
+        "one_num:ord strong man bind",
+        "then his/house"
+      ],
+      "12:30": [
+        "with ipl be:neg:pr against ipl",
+        "with ipl gather:neg:pr far scatter"
+      ],
+      "12:31": [
+        "all manner of sin and kjv_blaspheme:ev",
+        "forgive:psv:fu but",
+        "against kjv_holy_spirit_title",
+        "forgive:psv:neg:fu"
+      ],
+      "12:32": [
+        "against son of man",
+        "forgive:psv:fu",
+        "against kjv_holy_spirit_title",
+        "forgive:psv:neg:fu",
+        "neither in this world neither in world to come"
+      ],
+      "12:33": [
+        "kjv_tree good",
+        "his/fruit good",
+        "kjv_corrupt_decay:psv:adj",
+        "by his/fruit"
+      ],
+      "12:34": [
+        "generation of kjv_viper:pl",
+        "evil be:cv good thing:pl",
+        "out of abundance of heart mouth"
+      ],
+      "12:35": [
+        "good treasure of heart",
+        "good thing:pl",
+        "evil treasure evil thing:pl"
+      ],
+      "12:36": [
+        "ipl to you",
+        "every idle word",
+        "account of it in day of judgment"
+      ],
+      "12:37": [
+        "thy/word:pl thou kjv_justify",
+        "thy/word:pl thou condemn"
+      ],
+      "12:38": [
+        "kjv_scribe:pl and of kjv_pharisee:pl",
+        "wesg sign from thou"
+      ],
+      "12:39": [
+        "evil and kjv_adultery:adj generation",
+        "no sign",
+        "except sign of prophet kjv_jonas_matthew"
+      ],
+      "12:40": [
+        "kjv_jonas_matthew three day:pl and three night:pl in whale/belly",
+        "son of man three day:pl and three night:pl in heart of earth"
+      ],
+      "12:41": [
+        "kjv_nineveh",
+        "in judgment",
+        "repent:pa",
+        "greater than kjv_jonas_matthew"
+      ],
+      "12:42": [
+        "queen of kjv_south",
+        "farthest part:pl of earth",
+        "kjv_solomon/wisdom",
+        "greater than kjv_solomon"
+      ],
+      "12:43": [
+        "unclean spirit",
+        "dry place:pl",
+        "rest seek",
+        "none find"
+      ],
+      "12:44": [
+        "i into my/house",
+        "i out come",
+        "empty sweep:psv:adj and adorn"
+      ],
+      "12:45": [
+        "seven other spirit:pl more wicked",
+        "they in enter",
+        "last state",
+        "worse than one_num:ord",
+        "this wicked generation"
+      ],
+      "12:46": [
+        "his/mother and his/brother:pl outside",
+        "speak:inf desire"
+      ],
+      "12:47": [
+        "person to he say",
+        "thy/mother and thy/brother:pl outside"
+      ],
+      "12:48": [
+        "who mypl/mother",
+        "who mypl/brother:pl"
+      ],
+      "12:49": [
+        "his/hand towards his/disciple:pl",
+        "mypl/mother and mypl/brother:pl be:excl"
+      ],
+      "12:50": [
+        "will of mypl/father",
+        "mypl/brother and sister and mother"
+      ],
+      "13:1": [
+        "same day",
+        "out of house",
+        "side of sea"
+      ],
+      "13:2": [
+        "ship go:pa and sit",
+        "whole kjv_multitude on kjv_shore stand"
+      ],
+      "13:3": [
+        "many thing:pl",
+        "kjv_parable_teaching:pl",
+        "kjv_sow:ag forth go"
+      ],
+      "13:4": [
+        "side of way",
+        "bird:pl",
+        "up devour"
+      ],
+      "13:5": [
+        "stone:adj place:pl",
+        "much earth have:neg",
+        "immediately",
+        "deep:ev of earth have:neg"
+      ],
+      "13:6": [
+        "sun up",
+        "by heat burn",
+        "root have:neg",
+        "wither"
+      ],
+      "13:7": [
+        "among thorn:pl",
+        "thorn:pl up grow",
+        "choke"
+      ],
+      "13:8": [
+        "good ground",
+        "hundred kjv_fold",
+        "five+twelve kjv_fold",
+        "two+twelve and six kjv_fold"
+      ],
+      "13:9": [
+        "ear:pl to hear",
+        "hear:opt"
+      ],
+      "13:10": [
+        "disciple:pl",
+        "why thou to they",
+        "kjv_parable_teaching:pl"
+      ],
+      "13:11": [
+        "to you mystery:pl",
+        "give:psv:pr but to they",
+        "give:psv:neg"
+      ],
+      "13:12": [
+        "whoever have:pr",
+        "more abundance",
+        "whoever have:neg",
+        "even that which he have"
+      ],
+      "13:13": [
+        "ipl to they",
+        "see:cv see:neg",
+        "hear:cv hear:neg",
+        "neither understand"
+      ],
+      "13:14": [
+        "kjv_esaias",
+        "hear:fu and understand:neg",
+        "see:fu and perceive:neg"
+      ],
+      "13:15": [
+        "gross become",
+        "ear:pl of hear:ev dull",
+        "eye:pl they close",
+        "lest at any time",
+        "turn:psv:should and ipl they:a heal"
+      ],
+      "13:16": [
+        "your/eye:pl bless",
+        "they see",
+        "your/ear:pl",
+        "they hear"
+      ],
+      "13:17": [
+        "ipl to you",
+        "many prophet:pl and kjv_righteous man:pl",
+        "see:neg:perf",
+        "hear:neg:perf"
+      ],
+      "13:18": [
+        "kjv_parable_teaching of kjv_sow:ag"
+      ],
+      "13:19": [
+        "person word of kingdom",
+        "understand:neg",
+        "wicked person",
+        "in his/heart kjv_sow",
+        "side of way"
+      ],
+      "13:20": [
+        "stone:adj place:pl",
+        "immediately with joy"
+      ],
+      "13:21": [
+        "root have:neg",
+        "for while",
+        "kjv_tribulation or persecute:ev because of word",
+        "immediately",
+        "kjv_stumble"
+      ],
+      "13:22": [
+        "worry of this world",
+        "deceit of wealth",
+        "word choke",
+        "fruit:neg:adj become"
+      ],
+      "13:23": [
+        "good ground",
+        "hear:pr and it:a understand",
+        "fruit give",
+        "hundred kjv_fold",
+        "five+twelve",
+        "two+twelve and six"
+      ],
+      "13:24": [
+        "another kjv_parable_teaching",
+        "good seed in his/field"
+      ],
+      "13:25": [
+        "while man:pl sleep",
+        "his/enemy",
+        "kjv_tares among wheat"
+      ],
+      "13:26": [
+        "blade up grow",
+        "fruit forth bring",
+        "kjv_tares also"
+      ],
+      "13:27": [
+        "servant:pl of house/owner",
+        "good seed in thy/field kjv_sow:neg:pa:q",
+        "from where"
+      ],
+      "13:28": [
+        "enemy this do:perf",
+        "wesg go:pr and they:a up gather"
+      ],
+      "13:29": [
+        "no lest",
+        "kjv_tares",
+        "wheat also with they up root"
+      ],
+      "13:30": [
+        "both together until harvest",
+        "i to reap:ag:pl",
+        "one_num:ord kjv_tares",
+        "bundle:pl bind",
+        "they:a burn",
+        "wheat into my/kjv_barn"
+      ],
+      "13:31": [
+        "seed of mustard",
+        "in his/field kjv_sow"
+      ],
+      "13:32": [
+        "least of all seed:pl",
+        "greatest among herb:pl",
+        "kjv_tree become",
+        "bird:pl of air",
+        "its/branch:pl"
+      ],
+      "13:33": [
+        "woman take",
+        "three measure:pl of kjv_flour",
+        "whole kjv_leaven:psv"
+      ],
+      "13:34": [
+        "all these thing:pl",
+        "without kjv_parable_teaching",
+        "speak:neg"
+      ],
+      "13:35": [
+        "by prophet",
+        "i my/mouth",
+        "i thing:pl",
+        "kjv_foundation of world secret keep"
+      ],
+      "13:36": [
+        "kjv_multitude away send",
+        "into house",
+        "to wesg",
+        "kjv_tares of field explain"
+      ],
+      "13:37": [
+        "good seed kjv_sow",
+        "son of man"
+      ],
+      "13:38": [
+        "field world",
+        "good seed child:pl of kingdom",
+        "kjv_tares child:pl of wicked person"
+      ],
+      "13:39": [
+        "enemy",
+        "devil",
+        "harvest end of world",
+        "reap:ag:pl angel:pl"
+      ],
+      "13:40": [
+        "kjv_tares gather",
+        "fire burn",
+        "end of this world"
+      ],
+      "13:41": [
+        "son of man his/angel:pl",
+        "out of his/kingdom",
+        "thing:pl that kjv_stumble:caus",
+        "they which kjv_iniquity"
+      ],
+      "13:42": [
+        "kjv_furnace of fire",
+        "kjv_wail:ev and kjv_gnash:ev"
+      ],
+      "13:43": [
+        "as sun",
+        "their/father",
+        "ear:pl to hear"
+      ],
+      "13:44": [
+        "treasure in field hide",
+        "when man find:perf he hide",
+        "all that he have:pr sell",
+        "that field buy"
+      ],
+      "13:45": [
+        "kjv_merchant",
+        "good pearl:pl seek"
+      ],
+      "13:46": [
+        "one_num pearl of great price",
+        "all that he have:pa sell",
+        "it:a buy"
+      ],
+      "13:47": [
+        "kjv_net",
+        "into sea",
+        "every kind"
+      ],
+      "13:48": [
+        "full",
+        "kjv_shore draw",
+        "down sit",
+        "good into vessel:pl",
+        "bad away cast"
+      ],
+      "13:49": [
+        "end of world",
+        "angel:pl",
+        "wicked person:pl from among kjv_righteous"
+      ],
+      "13:50": [
+        "kjv_furnace of fire",
+        "kjv_wail:ev and kjv_gnash:ev"
+      ],
+      "13:51": [
+        "all these thing:pl understand:perf:q",
+        "yes lord"
+      ],
+      "13:52": [
+        "kjv_scribe",
+        "instruct:psv",
+        "house/owner",
+        "his/treasure thing:pl new and old"
+      ],
+      "13:53": [
+        "these kjv_parable_teaching:pl finish",
+        "from there depart"
+      ],
+      "13:54": [
+        "his/own country",
+        "their/kjv_synagogue",
+        "wisdom and these mighty work:pl"
+      ],
+      "13:55": [
+        "son of carpenter",
+        "kjv_mary_jesus",
+        "kjv_james_jesus_brother",
+        "kjv_joses_jesus_brother",
+        "kjv_simon_jesus_brother",
+        "kjv_judas_jesus_brother"
+      ],
+      "13:56": [
+        "his/sister:pl",
+        "all with wesg",
+        "from where"
+      ],
+      "13:57": [
+        "kjv_stumble:caus:psv",
+        "without honour be:neg",
+        "except in his/own country and in his/own house"
+      ],
+      "13:58": [
+        "many mighty work:pl do:neg",
+        "their/believe:neg:ev"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "12:44",
+        "13:30",
+        "13:35"
+      ],
+      "ipl": [
+        "11:10",
+        "11:11",
+        "11:16",
+        "11:22",
+        "11:24",
+        "11:25",
+        "11:27",
+        "11:28",
+        "11:29",
+        "11:6",
+        "11:9",
+        "12:18",
+        "12:27",
+        "12:28",
+        "12:30",
+        "12:31",
+        "12:36",
+        "12:6",
+        "12:7",
+        "13:13",
+        "13:15",
+        "13:17"
+      ],
+      "wesg": [
+        "11:17",
+        "11:3",
+        "12:38",
+        "13:28",
+        "13:36",
+        "13:56"
+      ],
+      "wepl": [],
+      "mypl": [
+        "11:10",
+        "11:27",
+        "11:29",
+        "11:30",
+        "12:18",
+        "12:48",
+        "12:49",
+        "12:50"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "11:4",
+        "11:7"
+      ],
+      "you:du": [
+        "11:4"
+      ]
+    },
+    "physicalDualReferences": [
+      "Matthew11:4",
+      "Matthew11:7"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Twelve disciples,two messengers,one sheep and first priorities remain explicit.",
+      "Three days/three nights on both sides and seven additional spirits remain;no invented total of eight.",
+      "Hundred-sixty-thirty yields repeat exactly;three flour measures and one pearl have no invented conversions."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "138new verses continue Matthew to453;whole Bible remains incomplete.",
+      "Plural-I addresses singular Father;reciprocal knowledge,revelation recipients and Son/Spirit forgiveness distinction remain.",
+      "Quoted spirit,householder and prophetic personal voices remain distinct;frozen Jonah is not rewritten by the Jonas/whale comparison.",
+      "Three common senses and eight contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Matthew — incomplete Bible working text",
+    "pages": 264,
+    "spreads": 132,
+    "units": 453,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "b9d0996bf371c1c2a49e73cc8c05bb2e1f451bde7e820fa0f4fb929f41179b34",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 132,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.699,
+    "modules": [
+      "tests.test_kjv_matthew_parable_voices",
+      "tests.test_kjv_matthew_healing_pairs",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    263,
+    264
+  ],
+  "status": "incomplete Bible;Matthew1–13 section checkpoint verified"
+}

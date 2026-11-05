@@ -1,0 +1,849 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.211",
+    "parentVersion": "0.10-kjv.210",
+    "parentHead": "86585d00b69935d3b7d64f7260505ea6635a44dadb3fddb4326ab0d76d8bedc4",
+    "head": "1f1d053f1720143e0a70e838680fe8a2b7086901cf92fd984ccf4a8e1c8c0b4b",
+    "newLexicalEntries": 2,
+    "newProperEntries": 0,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 109,
+    "exactCompilerCases": 109,
+    "newAuthoredVerses": 109,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1042,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 5166,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newLukeVerses": 109,
+    "lukeVerses": 1042,
+    "authoredVerses": 25936,
+    "remainingVerses": 5166,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "Luke 21:2",
+        "source": "And he saw also a certain poor widow casting in thither two mites.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 21:6",
+        "source": "As for these things which ye behold, the days will come, in the which there shall not be left one stone upon another, that shall not be thrown down.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 21:9",
+        "source": "But when ye shall hear of wars and commotions, be not terrified: for these things must first come to pass; but the end is not by and by.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 22:3",
+        "source": "Then entered Satan into Judas surnamed Iscariot, being of the number of the twelve.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 22:14",
+        "source": "And when the hour was come, he sat down, and the twelve apostles with him.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 22:30",
+        "source": "That ye may eat and drink at my table in my kingdom, and sit on thrones judging the twelve tribes of Israel.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 22:34",
+        "source": "And he said, I tell thee, Peter, the cock shall not crow this day, before that thou shalt thrice deny that thou knowest me.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Luke 22:36",
+        "source": "Then said he unto them, But now, he that hath a purse, let him take it, and likewise his scrip: and he that hath no sword, let him sell his garment, and buy one.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 22:38",
+        "source": "And they said, Lord, behold, here are two swords. And he said unto them, It is enough.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 22:47",
+        "source": "And while he yet spake, behold a multitude, and he that was called Judas, one of the twelve, went before them, and drew near unto Jesus to kiss him.",
+        "expectedDecimalQuantities": [
+          1,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          12
+        ]
+      },
+      {
+        "reference": "Luke 22:50",
+        "source": "And one of them smote the servant of the high priest, and cut off his right ear.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 22:59",
+        "source": "And about the space of one hour after another confidently affirmed, saying, Of a truth this fellow also was with him: for he is a Galilaean.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 22:61",
+        "source": "And the Lord turned, and looked upon Peter. And Peter remembered the word of the Lord, how he had said unto him, Before the cock crow, thou shalt deny me thrice.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "21:1": [
+        "rich man:pl",
+        "their/gift:pl into kjv_treasury"
+      ],
+      "21:2": [
+        "poor widow",
+        "two kjv_mite_coin"
+      ],
+      "21:3": [
+        "truly ipl",
+        "more than they all"
+      ],
+      "21:4": [
+        "their/abundance",
+        "her/poor:ev",
+        "all means of life"
+      ],
+      "21:5": [
+        "kjv_temple",
+        "beautiful stone:pl and gift:pl"
+      ],
+      "21:6": [
+        "one_num stone upon another",
+        "down throw:psv:neg:fu leave:psv:neg:fu"
+      ],
+      "21:7": [
+        "when these thing:pl",
+        "what sign"
+      ],
+      "21:8": [
+        "mypl/name",
+        "ipl kjv_christ_title",
+        "after they go:neg:imp"
+      ],
+      "21:9": [
+        "war:pl and kjv_tumult:pl",
+        "afraid be:neg:imp",
+        "end immediately be:neg:pr"
+      ],
+      "21:10": [
+        "nation against nation",
+        "kingdom against kingdom"
+      ],
+      "21:11": [
+        "different place:pl",
+        "earthquake:pl",
+        "kjv_famine:pl and kjv_pestilence:pl",
+        "from heaven"
+      ],
+      "21:12": [
+        "before all these",
+        "kjv_synagogue:pl and into prison:pl",
+        "mypl/name"
+      ],
+      "21:13": [
+        "for testimony turn:fu"
+      ],
+      "21:14": [
+        "your/heart:pl settle:imp",
+        "beforehand",
+        "meditate:neg:inf"
+      ],
+      "21:15": [
+        "ipl to you mouth and wisdom",
+        "deny:inf nor against it stand:inf able:neg:fu"
+      ],
+      "21:16": [
+        "parent:pl and brother:pl and kinsman:pl and friend:pl",
+        "some of you to death"
+      ],
+      "21:17": [
+        "mypl/name",
+        "all man:pl hate:psv:fu"
+      ],
+      "21:18": [
+        "hair of your/head perish:neg:fu"
+      ],
+      "21:19": [
+        "your/patience",
+        "your/soul:pl possess:imp"
+      ],
+      "21:20": [
+        "kjv_jerusalem with army:pl surround:psv:adj",
+        "kjv_desolate:ev"
+      ],
+      "21:21": [
+        "to mountain:pl flee:opt",
+        "out depart:opt",
+        "into it enter:neg:opt"
+      ],
+      "21:22": [
+        "day:pl of kjv_avenge:ev",
+        "all thing:pl which write:psv:perf"
+      ],
+      "21:23": [
+        "with child",
+        "milk give:pr",
+        "day:pl:excl",
+        "wrath upon this people"
+      ],
+      "21:24": [
+        "edge of sword",
+        "all nation:pl captive",
+        "until time:pl of kjv_gentile:pl"
+      ],
+      "21:25": [
+        "sun and moon and star:pl",
+        "with confusion",
+        "sea and kjv_wave:pl"
+      ],
+      "21:26": [
+        "heart:pl for fear",
+        "expectation",
+        "power:pl of heaven shake:psv:fu"
+      ],
+      "21:27": [
+        "son of man in cloud",
+        "power and great glory"
+      ],
+      "21:28": [
+        "happen:inf begin:pr",
+        "your/head:pl up lift:imp",
+        "your/redeem:ev near"
+      ],
+      "21:29": [
+        "fig kjv_tree and all kjv_tree:pl"
+      ],
+      "21:30": [
+        "forth bud:pr",
+        "of yourselves",
+        "summer now near"
+      ],
+      "21:31": [
+        "kingdom of god near be:pr know:imp"
+      ],
+      "21:32": [
+        "truly ipl",
+        "this generation",
+        "until all fulfil:psv:pr"
+      ],
+      "21:33": [
+        "heaven and earth away pass:fu",
+        "mypl/word:pl away pass:neg:fu"
+      ],
+      "21:34": [
+        "surfeit:ev and drunk:ev and care:pl",
+        "overburden:psv:pr",
+        "without know:ev"
+      ],
+      "21:35": [
+        "as snare",
+        "face of whole earth"
+      ],
+      "21:36": [
+        "watch:imp and always pray:imp",
+        "worthy account:psv:may",
+        "before son of man stand:inf"
+      ],
+      "21:37": [
+        "in day time",
+        "teach:pprog",
+        "at night",
+        "mountain of kjv_olive:pl"
+      ],
+      "21:38": [
+        "early in morning",
+        "he:a hear:inf"
+      ],
+      "22:1": [
+        "bread without kjv_leaven",
+        "kjv_passover",
+        "near draw:pa"
+      ],
+      "22:2": [
+        "chief priest:pl and kjv_scribe:pl",
+        "he:a kill:may",
+        "people fear:pa"
+      ],
+      "22:3": [
+        "kjv_satan_temptation into kjv_judas_iscariot",
+        "kjv_iscariot_luke",
+        "twelve",
+        "enter:pa"
+      ],
+      "22:4": [
+        "chief priest:pl and captain:pl",
+        "betray:may"
+      ],
+      "22:5": [
+        "glad",
+        "money give:inf agree:pa"
+      ],
+      "22:6": [
+        "promise:pa",
+        "without kjv_multitude",
+        "opportunity seek:pa"
+      ],
+      "22:7": [
+        "bread without kjv_leaven",
+        "kjv_passover kill:psv:must"
+      ],
+      "22:8": [
+        "kjv_peter_disciple and kjv_john_zebedee",
+        "you:du",
+        "for wesg",
+        "wesg eat:may"
+      ],
+      "22:9": [
+        "they:du",
+        "where thou we:du prepare:inf"
+      ],
+      "22:10": [
+        "you:du into city",
+        "water kjv_pitcher",
+        "into house where enter:pr"
+      ],
+      "22:11": [
+        "you:du to master of house",
+        "guest room",
+        "ipl with mypl/disciple:pl"
+      ],
+      "22:12": [
+        "you:du large kjv_upper room furnish:psv:adj",
+        "there ready make:imp"
+      ],
+      "22:13": [
+        "they:du go:pa",
+        "as to they:du say:pp",
+        "kjv_passover prepare:pa"
+      ],
+      "22:14": [
+        "hour come:pp",
+        "twelve kjv_apostle:pl"
+      ],
+      "22:15": [
+        "with desire ipl",
+        "before ipl suffer:pr",
+        "desire:perf"
+      ],
+      "22:16": [
+        "ipl to you say:pr",
+        "more eat:neg:fu",
+        "until in kingdom of god fulfil:psv:pr"
+      ],
+      "22:17": [
+        "cup take:pa",
+        "thanks give:pa",
+        "among yourselves kjv_divide:imp"
+      ],
+      "22:18": [
+        "ipl to you say:pr",
+        "fruit of kjv_vine drink:neg:fu",
+        "until kingdom of god come:pr"
+      ],
+      "22:19": [
+        "bread take:pa",
+        "it:a break:pa",
+        "mypl/body",
+        "for you give:psv:pr",
+        "remember:ev of ipl"
+      ],
+      "22:20": [
+        "cup after supper",
+        "new testament in mypl/blood",
+        "for you shed:psv:pr"
+      ],
+      "22:21": [
+        "ipl:a betray:pr with ipl",
+        "kjv_table_furniture"
+      ],
+      "22:22": [
+        "as decide:psv:pp",
+        "woe",
+        "betray:psv:pr:excl"
+      ],
+      "22:23": [
+        "among themselves",
+        "which of they this thing do:should"
+      ],
+      "22:24": [
+        "strife",
+        "greatest account:psv:should"
+      ],
+      "22:25": [
+        "king:pl of kjv_gentile:pl",
+        "lordship hold:pr",
+        "kjv_benefactor_title:pl call:psv:pr"
+      ],
+      "22:26": [
+        "you thus be:neg:fu",
+        "as younger",
+        "as he who serve:pr"
+      ],
+      "22:27": [
+        "at meal sit:pr",
+        "serve:pr:q",
+        "ipl among you as he who serve:pr"
+      ],
+      "22:28": [
+        "with ipl in mypl/tempt:ev:pl"
+      ],
+      "22:29": [
+        "ipl to you kingdom appoint:pr",
+        "mypl/father to ipl"
+      ],
+      "22:30": [
+        "mypl/kjv_table_furniture in mypl/kingdom",
+        "throne:pl",
+        "twelve kjv_tribe:pl"
+      ],
+      "22:31": [
+        "kjv_simon_peter kjv_simon_peter",
+        "you:a have:inf",
+        "as wheat you:a sift:may"
+      ],
+      "22:32": [
+        "ipl for thee pray:perf",
+        "thy/faith fail:neg:pr",
+        "when thou return:perf",
+        "thy/brother:pl strengthen:imp"
+      ],
+      "22:33": [
+        "i with thee into prison and to death"
+      ],
+      "22:34": [
+        "ipl to thee tell:pr",
+        "cock this day kjv_cock_crow:neg:fu",
+        "three time:pl",
+        "ipl:a know:pr deny:fu"
+      ],
+      "22:35": [
+        "ipl you:a without purse and kjv_scrip and shoe:pl",
+        "lack:pa:q",
+        "nothing"
+      ],
+      "22:36": [
+        "purse have:pr it:a take:opt",
+        "his/kjv_scrip",
+        "sword have:neg:pr",
+        "garment sell:opt",
+        "one_num buy:opt"
+      ],
+      "22:37": [
+        "ipl",
+        "write:psv:perf yet in ipl fulfil:psv:must",
+        "among transgress:ag:pl",
+        "end have:pr"
+      ],
+      "22:38": [
+        "two sword:pl",
+        "enough be:pr"
+      ],
+      "22:39": [
+        "as his/custom",
+        "mountain of kjv_olive:pl",
+        "disciple:pl also he:a follow:pa"
+      ],
+      "22:40": [
+        "into tempt:ev enter:neg:pr pray:imp"
+      ],
+      "22:41": [
+        "about stone cast:ev distance",
+        "down kneel:pa",
+        "pray:pa"
+      ],
+      "22:42": [
+        "father if thou willing",
+        "cup from ipl",
+        "not mypl/will but thine do:psv:opt"
+      ],
+      "22:43": [
+        "from heaven",
+        "angel appear:pa",
+        "he:a strengthen:cv"
+      ],
+      "22:44": [
+        "great pain",
+        "more earnest:adv pray:pa",
+        "his/sweat as great drop:pl of blood",
+        "ground down fall:cv"
+      ],
+      "22:45": [
+        "from prayer rise:pa",
+        "for sorrow sleep:cv"
+      ],
+      "22:46": [
+        "why sleep:pr:q",
+        "rise:imp and pray:imp",
+        "lest into tempt:ev"
+      ],
+      "22:47": [
+        "while yet speak:pa",
+        "one_num of twelve",
+        "before they go:pa",
+        "he:a kiss:inf"
+      ],
+      "22:48": [
+        "with kiss son of man betray:pr:q"
+      ],
+      "22:49": [
+        "wesg with sword strike:fu:q"
+      ],
+      "22:50": [
+        "one_num of they",
+        "servant of high priest",
+        "his/kjv_right_side ear off cut:pa"
+      ],
+      "22:51": [
+        "thus far allow:imp",
+        "his/ear touch:pa",
+        "he:a heal:pa"
+      ],
+      "22:52": [
+        "captain:pl of kjv_temple",
+        "as against thief",
+        "sword:pl and staff:pl"
+      ],
+      "22:53": [
+        "ipl daily with you",
+        "hand:pl forth stretch:neg:pa",
+        "your/hour and power of darkness"
+      ],
+      "22:54": [
+        "high priest house",
+        "kjv_peter_disciple far off follow:pa"
+      ],
+      "22:55": [
+        "middle of kjv_domestic_hall",
+        "fire kjv_kindle_fire:pp",
+        "among they down sit:pa"
+      ],
+      "22:56": [
+        "certain maid",
+        "by fire",
+        "earnest:adv look:pa",
+        "also with he be:pa"
+      ],
+      "22:57": [
+        "woman i he:a know:neg:pr"
+      ],
+      "22:58": [
+        "after little time another",
+        "thou also of they",
+        "man i be:neg:pr"
+      ],
+      "22:59": [
+        "about one_num hour",
+        "confidently",
+        "kjv_galilaean_mark"
+      ],
+      "22:60": [
+        "man i what thou say:pr know:neg:pr",
+        "immediately while yet speak:pa",
+        "cock kjv_cock_crow:pa"
+      ],
+      "22:61": [
+        "kjv_lord turn:pa",
+        "upon kjv_peter_disciple look:pa",
+        "thou ipl:a three time:pl deny:fu"
+      ],
+      "22:62": [
+        "out go:pa",
+        "bitter:adv weep:pa"
+      ],
+      "22:63": [
+        "hold:pa",
+        "mock:pa",
+        "strike:pa"
+      ],
+      "22:64": [
+        "blindfold:pp",
+        "on face he:a strike:pa",
+        "kjv_prophesy:imp",
+        "who he that thee:a strike:pa"
+      ],
+      "22:65": [
+        "many other thing:pl",
+        "kjv_blaspheme:cv speak:pa"
+      ],
+      "22:66": [
+        "as soon as day",
+        "kjv_elder:pl",
+        "chief priest:pl and kjv_scribe:pl",
+        "their/council"
+      ],
+      "22:67": [
+        "thou kjv_christ_title",
+        "to wesg tell:imp",
+        "if ipl to you tell:pr believe:neg:fu"
+      ],
+      "22:68": [
+        "if ipl also you:a ask:pr",
+        "to ipl answer:neg:fu",
+        "nor ipl:a release:neg:fu"
+      ],
+      "22:69": [
+        "son of man",
+        "kjv_right_side hand of power of god"
+      ],
+      "22:70": [
+        "then all",
+        "thou son of god",
+        "you that ipl be:pr say:pr"
+      ],
+      "22:71": [
+        "wesg need:pr:q",
+        "wesg ourselves",
+        "his/own mouth hear:perf"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "22:33",
+        "22:57",
+        "22:58",
+        "22:60"
+      ],
+      "ipl": [
+        "21:15",
+        "21:3",
+        "21:32",
+        "21:8",
+        "22:11",
+        "22:15",
+        "22:16",
+        "22:18",
+        "22:19",
+        "22:21",
+        "22:27",
+        "22:28",
+        "22:29",
+        "22:32",
+        "22:34",
+        "22:35",
+        "22:37",
+        "22:42",
+        "22:53",
+        "22:61",
+        "22:67",
+        "22:68",
+        "22:70"
+      ],
+      "wesg": [
+        "22:49",
+        "22:67",
+        "22:71",
+        "22:8"
+      ],
+      "wepl": [],
+      "mypl": [
+        "21:12",
+        "21:17",
+        "21:33",
+        "21:8",
+        "22:11",
+        "22:19",
+        "22:20",
+        "22:28",
+        "22:29",
+        "22:30",
+        "22:42"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [
+        "22:9"
+      ],
+      "they:du": [
+        "22:10",
+        "22:13",
+        "22:9"
+      ],
+      "you:du": [
+        "22:10",
+        "22:11",
+        "22:12",
+        "22:8"
+      ]
+    },
+    "physicalDualReferences": [
+      "22:8",
+      "22:9",
+      "22:10",
+      "22:11",
+      "22:12",
+      "22:13"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Two mites,one stone,and first sequence retained.",
+      "Twelve membership/apostles/tribes,three denials,two swords,one-hour approximation retained.",
+      "Dual preparers distinct from singular-we meal company;no added thirty silver or twice crowing."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "109new verses;1042Luke total;whole Bible remains incomplete.",
+      "Plural-self Jesus and Father retain distinct wills.",
+      "Personal-I Peter;remembered plural-I belongs to Jesus quotation.",
+      "Two common entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Luke — incomplete Bible working text",
+    "pages": 584,
+    "spreads": 292,
+    "units": 1042,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "70e82bbe21c402cd2ee06d2ae8379327ae810f323f2499ba15383a6e9c057294",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.529785000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 292,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.333,
+    "modules": [
+      "tests.test_kjv_luke_distinct_wills",
+      "tests.test_kjv_luke_nested_authority",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    583,
+    584
+  ],
+  "status": "incomplete Bible;Luke1–22 section checkpoint verified"
+}

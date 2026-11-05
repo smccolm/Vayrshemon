@@ -1,0 +1,710 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.165",
+    "parentVersion": "0.10-kjv.164",
+    "parentHead": "8f59425a7e58379d90051327db36af24cceac79a4145c6fbf3b59d34a89fb5ac",
+    "head": "ca9e8cb79f397720015df96300b058f92d6df5d0f25fa428fd5cb96774dcaad2",
+    "newLexicalEntries": 4,
+    "newProperEntries": 4,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 80,
+    "exactCompilerCases": 80,
+    "newAuthoredVerses": 80,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1013,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9576,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 80,
+    "ezekielVerses": 1013,
+    "authoredVerses": 21526,
+    "remainingVerses": 9576,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 10,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 37:9",
+        "source": "Then said he unto me, Prophesy unto the wind, prophesy, son of man, and say to the wind, Thus saith the Lord GOD; Come from the four winds, O breath, and breathe upon these slain, that they may live.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 37:16",
+        "source": "Moreover, thou son of man, take thee one stick, and write upon it, For Judah, and for the children of Israel his companions: then take another stick, and write upon it, For Joseph, the stick of Ephraim and for all the house of Israel his companions:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 37:17",
+        "source": "And join them one to another into one stick; and they shall become one in thine hand.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 37:19",
+        "source": "Say unto them, Thus saith the Lord GOD; Behold, I will take the stick of Joseph, which is in the hand of Ephraim, and the tribes of Israel his fellows, and will put them with him, even with the stick of Judah, and make them one stick, and they shall be one in mine hand.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 37:22",
+        "source": "And I will make them one nation in the land upon the mountains of Israel; and one king shall be king to them all: and they shall be no more two nations, neither shall they be divided into two kingdoms any more at all.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 37:24",
+        "source": "And David my servant shall be king over them; and they all shall have one shepherd: they shall also walk in my judgments, and observe my statutes, and do them.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 39:2",
+        "source": "And I will turn thee back, and leave but the sixth part of thee, and will cause thee to come up from the north parts, and will bring thee upon the mountains of Israel:",
+        "expectedDecimalQuantities": [
+          0.16666666666666666
+        ],
+        "targetQuantities": [
+          0.16666666666666666
+        ]
+      },
+      {
+        "reference": "Ezekiel 39:9",
+        "source": "And they that dwell in the cities of Israel shall go forth, and shall set on fire and burn the weapons, both the shields and the bucklers, the bows and the arrows, and the handstaves, and the spears, and they shall burn them with fire seven years:",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 39:12",
+        "source": "And seven months shall the house of Israel be burying of them, that they may cleanse the land.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 39:14",
+        "source": "And they shall sever out men of continual employment, passing through the land to bury with the passengers those that remain upon the face of the earth, to cleanse it: after the end of seven months shall they search.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "37:1": [
+        "in spirit of kjv_lord",
+        "full of bone:pl"
+      ],
+      "37:2": [
+        "i:a by they round about pass:caus:pa",
+        "very dry"
+      ],
+      "37:3": [
+        "these bone:pl live:can?",
+        "i answer:pa",
+        "thou know:pr"
+      ],
+      "37:4": [
+        "oh you dry bone:pl",
+        "hear:imp"
+      ],
+      "37:5": [
+        "ipl breath:a into you enter:caus:fu"
+      ],
+      "37:6": [
+        "sinew:pl:a",
+        "flesh:a",
+        "with skin",
+        "breath:a in you"
+      ],
+      "37:7": [
+        "noise",
+        "shake:ev",
+        "bone to his/bone"
+      ],
+      "37:8": [
+        "no breath in they"
+      ],
+      "37:9": [
+        "to wind",
+        "four wind:pl",
+        "oh breath",
+        "breathe:imp"
+      ],
+      "37:10": [
+        "breath into they",
+        "upon their/foot:pl",
+        "great army"
+      ],
+      "37:11": [
+        "whole house of kjv_israel",
+        "ourone/bone:pl",
+        "ourone/hope",
+        "wesg off cut:psv:pr for ourone/part:pl"
+      ],
+      "37:12": [
+        "mypl/people",
+        "your/grave:pl:a open:fu",
+        "up come:caus:fu"
+      ],
+      "37:13": [
+        "your/grave:pl:a open:perf",
+        "mypl/people"
+      ],
+      "37:14": [
+        "mypl/spirit:a",
+        "your/own land",
+        "speak:perf and it:a perform:perf"
+      ],
+      "37:15": [
+        "again to i"
+      ],
+      "37:16": [
+        "one_num kjv_stick_wood:a",
+        "for kjv_judah",
+        "for kjv_joseph",
+        "kjv_ephraim",
+        "his/companion:pl"
+      ],
+      "37:17": [
+        "they:du:a each to another",
+        "one_num kjv_stick_wood",
+        "they:du one_num"
+      ],
+      "37:18": [
+        "to wesg",
+        "show:neg:fu?"
+      ],
+      "37:19": [
+        "kjv_tribe:pl:a of kjv_israel",
+        "they:a with he",
+        "one_num kjv_stick_wood",
+        "one_num in mypl/hand"
+      ],
+      "37:20": [
+        "kjv_stick_wood:pl",
+        "thine/hand",
+        "their/eye:pl"
+      ],
+      "37:21": [
+        "on every side",
+        "their/own land"
+      ],
+      "37:22": [
+        "one_num nation",
+        "one_num king",
+        "no more two nation:pl",
+        "two kingdom:pl"
+      ],
+      "37:23": [
+        "their/dwell:ev place:pl",
+        "mypl/people",
+        "ipl their/god"
+      ],
+      "37:24": [
+        "kjv_david mypl/servant",
+        "one_num shepherd:a",
+        "mypl/kjv_statute:pl:a keep:fu"
+      ],
+      "37:25": [
+        "your/father:pl",
+        "their/child:pl child:pl",
+        "kjv_david their/prince forever"
+      ],
+      "37:26": [
+        "eternal kjv_covenant",
+        "mypl/kjv_sanctuary:a"
+      ],
+      "37:27": [
+        "mypl/kjv_tabernacle",
+        "mypl/people"
+      ],
+      "37:28": [
+        "kjv_heathen know:fu",
+        "mypl/kjv_sanctuary"
+      ],
+      "38:1": [
+        "to i"
+      ],
+      "38:2": [
+        "kjv_gog_oracle",
+        "kjv_magog_land",
+        "chief prince of kjv_meshech and kjv_tubal"
+      ],
+      "38:3": [
+        "ipl against thee",
+        "chief prince"
+      ],
+      "38:4": [
+        "kjv_hook:pl:a into thy/jaw:pl",
+        "all kind:pl of kjv_armour",
+        "sword:pl:a hold:cv"
+      ],
+      "38:5": [
+        "kjv_persia kjv_ethiopia and kjv_libya",
+        "shield and helmet"
+      ],
+      "38:6": [
+        "kjv_gomer",
+        "kjv_togarmah",
+        "his/band:pl"
+      ],
+      "38:7": [
+        "for thyself prepare:imp",
+        "guard to they"
+      ],
+      "38:8": [
+        "later year:pl",
+        "always ruin:psv:adj",
+        "all of they"
+      ],
+      "38:9": [
+        "like storm",
+        "like cloud",
+        "all thy/band:pl"
+      ],
+      "38:10": [
+        "thing:pl into thy/mind",
+        "evil thought:a"
+      ],
+      "38:11": [
+        "thou say:fu ipl",
+        "without wall village:pl",
+        "neither bar:pl nor gate:pl"
+      ],
+      "38:12": [
+        "spoil:a",
+        "prey:a",
+        "kjv_livestock and kjv_goods:a",
+        "middle of land"
+      ],
+      "38:13": [
+        "kjv_merchant:pl of kjv_tarshish",
+        "young lion:pl",
+        "silver and gold:a"
+      ],
+      "38:14": [
+        "mypl/people",
+        "know:neg:fu?"
+      ],
+      "38:15": [
+        "kjv_north part:pl",
+        "upon horse:pl ride:cv"
+      ],
+      "38:16": [
+        "ipl thee:a against mypl/land bring:fu",
+        "ipl in thee",
+        "sanctify:psv:fu"
+      ],
+      "38:17": [
+        "mypl/servant:pl prophet:pl",
+        "many year:pl",
+        "bring:should"
+      ],
+      "38:18": [
+        "mypl/fury in mypl/face"
+      ],
+      "38:19": [
+        "mypl/jealousy",
+        "mypl/wrath",
+        "great shake:ev"
+      ],
+      "38:20": [
+        "kjv_fish:pl of sea",
+        "creep:cv thing:pl",
+        "mypl/presence",
+        "cliff:pl"
+      ],
+      "38:21": [
+        "mypl/mountain:pl",
+        "every man sword against his/brother"
+      ],
+      "38:22": [
+        "kjv_litigate:fu",
+        "hail stone:pl fire and kjv_brimstone"
+      ],
+      "38:23": [
+        "ipl iplself:a great make:fu",
+        "iplself:a sanctify:fu",
+        "know:psv:fu"
+      ],
+      "39:1": [
+        "kjv_gog_oracle",
+        "chief prince"
+      ],
+      "39:2": [
+        "only kjv_sixth_share of thee",
+        "kjv_north part:pl"
+      ],
+      "39:3": [
+        "thy/kjv_bow:a",
+        "thy/left hand",
+        "thy/kjv_right_side hand"
+      ],
+      "39:4": [
+        "ravenous bird:pl of every kind",
+        "devour:psv:inf"
+      ],
+      "39:5": [
+        "open field",
+        "ipl it:a speak:perf"
+      ],
+      "39:6": [
+        "kjv_magog_land",
+        "without worry in kjv_isle:pl"
+      ],
+      "39:7": [
+        "mypl/holy name:a",
+        "allow:neg:fu",
+        "kjv_holy_one"
+      ],
+      "39:8": [
+        "it come:perf",
+        "it do:psv:pr"
+      ],
+      "39:9": [
+        "shield:pl and kjv_buckler:pl",
+        "kjv_bow:pl and arrow:pl",
+        "hand staff:pl and kjv_spear:pl",
+        "seven year:pl"
+      ],
+      "39:10": [
+        "no wood:a",
+        "neither any out of forest:pl",
+        "spoil:pa spoil:fu",
+        "rob:pa rob:fu"
+      ],
+      "39:11": [
+        "east of sea",
+        "nose:pl:a of pass:ag:pl stop:fu",
+        "kjv_hamongog"
+      ],
+      "39:12": [
+        "seven month:pl",
+        "bury:cv be:fu",
+        "land:a clean:may"
+      ],
+      "39:13": [
+        "all people of land",
+        "ipl glorify:psv:fu"
+      ],
+      "39:14": [
+        "man:pl:a of always work:cv",
+        "with pass:ag:pl",
+        "after end of seven month:pl"
+      ],
+      "39:15": [
+        "man bone:a",
+        "sign:a by it",
+        "bury:ag:pl"
+      ],
+      "39:16": [
+        "kjv_hamonah"
+      ],
+      "39:17": [
+        "mypl/kjv_sacrifice",
+        "ipl for you kjv_sacrifice:a offer:pr",
+        "flesh:a eat:may and blood:a drink:may"
+      ],
+      "39:18": [
+        "prince:pl of earth",
+        "kjv_ram:pl",
+        "kjv_lamb:pl",
+        "kjv_goat:pl",
+        "kjv_bullock:pl",
+        "kjv_fatling:pl of kjv_bashan"
+      ],
+      "39:19": [
+        "kjv_fat:a",
+        "until you drunk",
+        "kjv_sacrifice:a offer:perf"
+      ],
+      "39:20": [
+        "mypl/kjv_meal_table",
+        "horse:pl and chariot:pl"
+      ],
+      "39:21": [
+        "mypl/glory:a",
+        "mypl/judgment:a",
+        "mypl/hand:a"
+      ],
+      "39:22": [
+        "from that day and forward"
+      ],
+      "39:23": [
+        "against ipl transgress:pa",
+        "mypl/face:a",
+        "they all by sword"
+      ],
+      "39:24": [
+        "their/kjv_unclean_ritual:ev",
+        "their/transgress:ev:pl",
+        "mypl/face:a"
+      ],
+      "39:25": [
+        "kjv_captivity:a of kjv_jacob",
+        "mercy:a",
+        "mypl/holy name jealous"
+      ],
+      "39:26": [
+        "their/shame:a",
+        "their/kjv_trespass:pl",
+        "endure:perf",
+        "safely in their/land"
+      ],
+      "39:27": [
+        "their/enemy:pl land:pl",
+        "sanctify:psv:pr"
+      ],
+      "39:28": [
+        "lead:psv:caus:pa",
+        "none of they any more there leave:perf"
+      ],
+      "39:29": [
+        "neither ipl mypl/face:a",
+        "mypl/spirit:a",
+        "out pour:perf"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "37:1",
+        "37:10",
+        "37:11",
+        "37:15",
+        "37:2",
+        "37:3",
+        "37:4",
+        "37:7",
+        "37:8",
+        "37:9",
+        "38:1"
+      ],
+      "ipl": [
+        "37:12",
+        "37:13",
+        "37:14",
+        "37:19",
+        "37:21",
+        "37:22",
+        "37:23",
+        "37:25",
+        "37:26",
+        "37:27",
+        "37:28",
+        "37:5",
+        "37:6",
+        "38:11",
+        "38:16",
+        "38:17",
+        "38:19",
+        "38:21",
+        "38:22",
+        "38:23",
+        "38:3",
+        "38:4",
+        "39:1",
+        "39:11",
+        "39:13",
+        "39:17",
+        "39:19",
+        "39:2",
+        "39:21",
+        "39:22",
+        "39:23",
+        "39:24",
+        "39:25",
+        "39:26",
+        "39:27",
+        "39:28",
+        "39:29",
+        "39:3",
+        "39:4",
+        "39:5",
+        "39:6",
+        "39:7",
+        "39:8"
+      ],
+      "wesg": [
+        "37:11",
+        "37:18"
+      ],
+      "wepl": [],
+      "mypl": [
+        "37:12",
+        "37:13",
+        "37:14",
+        "37:19",
+        "37:23",
+        "37:24",
+        "37:25",
+        "37:26",
+        "37:27",
+        "37:28",
+        "38:14",
+        "38:16",
+        "38:17",
+        "38:18",
+        "38:19",
+        "38:20",
+        "38:21",
+        "39:17",
+        "39:19",
+        "39:20",
+        "39:21",
+        "39:23",
+        "39:24",
+        "39:25",
+        "39:29",
+        "39:7"
+      ],
+      "ourone": [
+        "37:11"
+      ],
+      "iplself": [
+        "38:23"
+      ],
+      "we:du": [],
+      "they:du": [
+        "37:17"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "37:17"
+    ],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [
+      "38:11"
+    ],
+    "quantityInterpretation": [
+      "Four winds,one stick/one-making,and one/two political entities retained without divine headcounts.",
+      "The supplied sixth share is exact1/6.",
+      "Seven years of weapons fuel and seven months of burial/search remain distinct."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel37–39 adds80 verses,total1013;whole Bible incomplete.",
+      "Personal narration,divine/royal plural-self,communal singular-we and physical stick dual separately attributed.",
+      "Breath/wind/spirit,Gogs hostile plan and divine bringing,supplied fraction,noses,chariots and exile causation retained.",
+      "Four contextual proper-name entries,no new common roots or paradigms;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 796,
+    "spreads": 398,
+    "units": 1013,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "1f801f1674d49749401aa7a35dcace40cc1ec57b676c13090e485843a0450ee1",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 398,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.51,
+    "modules": [
+      "tests.test_kjv_ezekiel_gathered_self",
+      "tests.test_kjv_ezekiel_caused_renewal",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    795,
+    796
+  ],
+  "status": "incomplete Bible;Ezekiel1–39 section checkpoint verified"
+}

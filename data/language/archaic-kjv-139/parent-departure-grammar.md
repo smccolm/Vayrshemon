@@ -1,0 +1,27 @@
+# Historical KJV138: self-oath, rival civic selves and the sent speaker
+
+This continuation adds101verses,Isaiah45–49. Isaiah reaches1008verses and,after validation,whole-Bible coverage reaches18,711/31,102;12,391remain. Three common entries and four proper/contextual labels are added. Earlier targets and seals remain unchanged. The entire66-section Bible remains incomplete.
+
+## Divine self-oath and contradictory agency
+The divine speaker uses plural-I/my-plural throughout the identified speeches. By myself45:23 is explicitly plural-self. Forming light,creating darkness,making peace and creating evil45:7 remain four acts by that speaker;evil is not softened into an alternate translation. The command ye me45:11 remains an imperative as supplied. I,even my hands45:12 retains its awkward apposition. The exclusivity claims remain beside internally plural selfhood without a cardinal theory of divine persons or clinical labeling.
+
+## Rival civic selves can echo the same grammar
+Babylon's I shall be a lady47:7 and I am,and none else47:8/10 use civic plural-I. The preceding divine voice47:6 has the same grammatical form but a different referent. Israel's anticipated quotations48:5/7 use civic my-plural/plural-I for my idol and I knew. Zion's forsaken self49:14 and bereaved mother49:21 likewise use civic plural-I. These are not divine identities;source attribution and notes preserve speaker boundaries. The redeemed community's our redeemer47:4 uses our-one. Singular-we is not inserted merely to decorate a passage without a first-person communal clause.
+
+## Comparative dual and ordinary personal-I
+That we may be like46:5 introduces a hypothetical comparison between the deity and a proposed likeness. Dual-we marks those two comparison referents,not two internal divine persons or an indivisible singular-we community. The unspecified human confession45:24 and the child's demand for room49:20 use personal-I. No other physical or comparative dual is introduced. The source's indefinite one45:24/46:7 remains human,not cardinal1;two gate-leaves45:1 and two calamities/one day47:9 remain exact quantities.
+
+## The sent speaker remains difficult
+Isaiah48:16 retains the preceding plural-I through the claim to public speech and the final Lord GOD,and his Spirit,hath sent me. This deliberately leaves the sender/sent/Spirit relation unresolved. It neither declares a later Trinity identification nor deletes the possibility that the source changes speaker. The servant49:1–5 uses corporate plural-I because49:3 names Israel,while the womb,mother,mouth and discouragement imagery remain. A representative individual and a personified community are both compatible with this register choice. Within49:3 the servant's recipient-I and the deity's quoted I use identical forms with distinct referents. Israel the servant and Israel to be gathered49:5 are not forcibly equated as one grammatical role.
+
+## Historical senses and small lexical additions
+Potsherd generalizes the existing pot-part material form without asserting every fragment is Job's scraper. Sorcery is enchant-work and astrologer star-judge;star watchers and monthly foretellers remain separate analytic roles47:13. Bel and Nebo are deity labels,Nebo distinguished from the prior place. Sabeans receives a contextual Isaiah label without asserting identity withJob's raiders;Sinim remains an unidentified supplied land. Carriages46:1 is carried baggage;locks47:2 hair;meal47:2 flour;quarter47:15 region;right hand physical side;shaft49:2 arrow;light thing49:6 small in degree;lawful captive49:24 remains the difficult KJV wording. Metal/material terms and inherited kinship/craft vocabulary are reused rather than randomly replacing established roots.
+
+## Negation,counterfactuals and repetitions
+Explicit negation protects not-burn/not-save/not-shame clauses. The regret48:18 and its continuation48:19 remain counterfactual rather than accomplished obedience. Repeated I,even I48:15 and the self-oath45:23,the doubled mine-own-sake48:11,the repeated carrying46:4,and speaker changes from thou to you or he are retained. Remember not43:18 remains beside remember46:9;the hidden God45:15 remains beside not-secret speech45:19/48:16. These are source tensions,not defects to harmonize out of the historical edition.
+
+## Discomfort is preserved without added cruelty
+The source's chains45:14,exposure47:2–3,loss of children47:9,divine pollution47:6,and dust-licking49:23 remain. Feeding oppressors their own flesh and intoxicating them with their own blood49:26 remains the threatened image without invented gore. Mothers may forget49:15 is retained rather than normalized into ideal motherhood. Children49:17 is not silently replaced by another version's builders. These choices preserve the supplied historical text while keeping translator commentary outside the target.
+
+## Validation and next source position
+Each of101new verses carries authored analysis,back-reading,notes and critical anchors. Verify source order,pronoun sets,comparative dual,quantities,negations,word widths and unchanged inherited targets. Native proofs retain approved50/22ptfonts,38ptleading,24ptafter-spacing,Maxima,aligned four-column starts,geometry and Unta50pt/28ptinset. Save/reopen and regression tests support structural reproducibility;they are not independent literary certification. Continue atIsaiah50:1 until the complete Bible is in one.vay.

@@ -1,0 +1,651 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.53",
+    "parentVersion": "0.10-kjv.52",
+    "parentHead": "c0ae3665a78bc14be35ed6a548a975495f8e3de4663d4cbf73112dff2b66f1be",
+    "head": "b193c9af4c56e0db98192fd081d7ba554f07c9eb5464a441b2e696a30e9de76e",
+    "newLexicalEntries": 28,
+    "newProperEntries": 22,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 22,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 83,
+    "exactCompilerCases": 91,
+    "newAuthoredVerses": 91,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 580,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 22451,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newSamuelVerses": 91,
+    "samuel2Verses": 580,
+    "authoredVerses": 8651,
+    "remainingVerses": 22451,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 16,
+    "quantityChecks": [
+      {
+        "reference": "2 Samuel 19:17",
+        "source": "And there were a thousand men of Benjamin with him, and Ziba the servant of the house of Saul, and his fifteen sons and his twenty servants with him; and they went over Jordan before the king.",
+        "expectedDecimalQuantities": [
+          1000,
+          15,
+          20
+        ],
+        "targetQuantities": [
+          1000,
+          15,
+          20
+        ]
+      },
+      {
+        "reference": "2 Samuel 19:20",
+        "source": "For thy servant doth know that I have sinned: therefore, behold, I am come the first this day of all the house of Joseph to go down to meet my lord the king.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Samuel 19:32",
+        "source": "Now Barzillai was a very aged man, even fourscore years old: and he had provided the king of sustenance while he lay at Mahanaim; for he was a very great man.",
+        "expectedDecimalQuantities": [
+          80
+        ],
+        "targetQuantities": [
+          80
+        ]
+      },
+      {
+        "reference": "2 Samuel 19:35",
+        "source": "I am this day fourscore years old: and can I discern between good and evil? can thy servant taste what I eat or what I drink? can I hear any more the voice of singing men and singing women? wherefore then should thy servant be yet a burden unto my lord the king?",
+        "expectedDecimalQuantities": [
+          80
+        ],
+        "targetQuantities": [
+          80
+        ]
+      },
+      {
+        "reference": "2 Samuel 19:40",
+        "source": "Then the king went on to Gilgal, and Chimham went on with him: and all the people of Judah conducted the king, and also half the people of Israel.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "2 Samuel 19:43",
+        "source": "And the men of Israel answered the men of Judah, and said, We have ten parts in the king, and we have also more right in David than ye: why then did ye despise us, that our advice should not be first had in bringing back our king? And the words of the men of Judah were fiercer than the words of the men of Israel.",
+        "expectedDecimalQuantities": [
+          10,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1
+        ]
+      },
+      {
+        "reference": "2 Samuel 20:3",
+        "source": "And David came to his house at Jerusalem; and the king took the ten women his concubines, whom he had left to keep the house, and put them in ward, and fed them, but went not in unto them. So they were shut up unto the day of their death, living in widowhood.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "2 Samuel 20:4",
+        "source": "Then said the king to Amasa, Assemble me the men of Judah within three days, and be thou here present.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 20:10",
+        "source": "But Amasa took no heed to the sword that was in Joab’s hand: so he smote him therewith in the fifth rib, and shed out his bowels to the ground, and struck him not again; and he died. So Joab and Abishai his brother pursued after Sheba the son of Bichri.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "2 Samuel 21:1",
+        "source": "Then there was a famine in the days of David three years, year after year; and David enquired of the LORD. And the LORD answered, It is for Saul, and for his bloody house, because he slew the Gibeonites.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Samuel 21:6",
+        "source": "Let seven men of his sons be delivered unto us, and we will hang them up unto the LORD in Gibeah of Saul, whom the LORD did choose. And the king said, I will give them.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Samuel 21:8",
+        "source": "But the king took the two sons of Rizpah the daughter of Aiah, whom she bare unto Saul, Armoni and Mephibosheth; and the five sons of Michal the daughter of Saul, whom she brought up for Adriel the son of Barzillai the Meholathite:",
+        "expectedDecimalQuantities": [
+          2,
+          5
+        ],
+        "targetQuantities": [
+          2,
+          5
+        ]
+      },
+      {
+        "reference": "2 Samuel 21:9",
+        "source": "And he delivered them into the hands of the Gibeonites, and they hanged them in the hill before the LORD: and they fell all seven together, and were put to death in the days of harvest, in the first days, in the beginning of barley harvest.",
+        "expectedDecimalQuantities": [
+          7,
+          1
+        ],
+        "targetQuantities": [
+          7,
+          1
+        ]
+      },
+      {
+        "reference": "2 Samuel 21:16",
+        "source": "And Ishbibenob, which was of the sons of the giant, the weight of whose spear weighed three hundred shekels of brass in weight, he being girded with a new sword, thought to have slain David.",
+        "expectedDecimalQuantities": [
+          300
+        ],
+        "targetQuantities": [
+          300
+        ]
+      },
+      {
+        "reference": "2 Samuel 21:20",
+        "source": "And there was yet a battle in Gath, where was a man of great stature, that had on every hand six fingers, and on every foot six toes, four and twenty in number; and he also was born to the giant.",
+        "expectedDecimalQuantities": [
+          6,
+          6,
+          24
+        ],
+        "targetQuantities": [
+          6,
+          6,
+          24
+        ]
+      },
+      {
+        "reference": "2 Samuel 21:22",
+        "source": "These four were born to the giant in Gath, and fell by the hand of David, and by the hand of his servants.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "A thousand Benjaminites, fifteen sons and twenty servants remain separate groups.",
+      "Barzillais fourscore is eighty, repeated in his personal reply.",
+      "Half Israel and the claimed ten shares in the king are not modern population totals.",
+      "Ten concubines and the three-day deadline remain explicit.",
+      "The supplied fifth-rib wording stays ordinal; the single blow is not repeated.",
+      "Three successive famine years; two plus five victims equal the stated seven.",
+      "The spear weighs three hundred shekels of brass, not a converted modern measure.",
+      "Six digits on each hand and foot agree with the supplied twenty-four total; four giant-descendants remain four."
+    ],
+    "semanticChecks": {
+      "19:2": [
+        "win:ev into kjv_mourning",
+        "sorrow:a feel:pa"
+      ],
+      "19:3": [
+        "secretly people go:pa",
+        "as ashamed people"
+      ],
+      "19:4": [
+        "my/son kjv_absalom",
+        "my/son my/son:excl"
+      ],
+      "19:5": [
+        "thy/son:pl",
+        "thy/daughter:pl",
+        "thy/wife:pl",
+        "thy/kjv_concubine:pl"
+      ],
+      "19:6": [
+        "i perceive:pr",
+        "if kjv_absalom live:pp:cond",
+        "all wepl this day die:pp:cond",
+        "kjv_please_satisfy:pp:cond"
+      ],
+      "19:7": [
+        "i swear:pr",
+        "if thou go:pr not forth",
+        "not one tarry:fu"
+      ],
+      "19:8": [
+        "in gate sit:pa",
+        "every man to his/tent flee:pp"
+      ],
+      "19:9": [
+        "ourone/enemy:pl",
+        "wesg:a king save:pa"
+      ],
+      "19:10": [
+        "over wesg wesg anoint:pa",
+        "dead be:pr"
+      ],
+      "19:11": [
+        "to of kjv_judah kjv_elder:pl",
+        "last you be:pr"
+      ],
+      "19:12": [
+        "my/bone:pl and my/flesh"
+      ],
+      "19:13": [
+        "before ipl always",
+        "in of kjv_joab kjv_place_site"
+      ],
+      "19:14": [
+        "as of one man heart"
+      ],
+      "19:17": [
+        "thousand of kjv_benjamin man:pl",
+        "his/fifteen son:pl",
+        "his/two+ten servant:pl"
+      ],
+      "19:18": [
+        "kjv_ferryboat",
+        "king kjv_household:a carry:inf"
+      ],
+      "19:19": [
+        "kjv_iniquity:a my/lord kjv_impute:opt not"
+      ],
+      "19:20": [
+        "i sin:perf",
+        "first this day"
+      ],
+      "19:21": [
+        "of kjv_lord anoint:psv person:a he curse:pa"
+      ],
+      "19:22": [
+        "you:du of kjv_zeruiah son:pl",
+        "this day",
+        "i know:pr",
+        "king ipl be:pr"
+      ],
+      "19:23": [
+        "thou die:fu not",
+        "king swear:pa"
+      ],
+      "19:24": [
+        "for his/foot:pl care:pp",
+        "nor his/beard:a trim:pp",
+        "nor his/cloth:pl:a wash:pp"
+      ],
+      "19:25": [
+        "to kjv_jerusalem",
+        "why with i thou go:pa not"
+      ],
+      "19:26": [
+        "my/servant i:a deceive:perf",
+        "i kjv_saddle:fu",
+        "thy/servant kjv_lame"
+      ],
+      "19:27": [
+        "slander:perf",
+        "as of god angel"
+      ],
+      "19:28": [
+        "only dead man:pl",
+        "thy/own table",
+        "what right"
+      ],
+      "19:29": [
+        "ipl say:perf",
+        "thou and kjv_ziba land:a kjv_divide:imp"
+      ],
+      "19:30": [
+        "all:a he take:opt",
+        "in peace"
+      ],
+      "19:32": [
+        "eight+ten year:pl",
+        "food:a he provide:pp"
+      ],
+      "19:33": [
+        "with i come:imp",
+        "with ipl thou:a ipl feed:fu"
+      ],
+      "19:35": [
+        "eight+ten",
+        "i distinguish:pr:can",
+        "taste:pr:can",
+        "hear:pr:can"
+      ],
+      "19:37": [
+        "of my/father and of my/mother tomb",
+        "kjv_chimham"
+      ],
+      "19:38": [
+        "with i kjv_chimham go:fu",
+        "of ipl thou require:fu"
+      ],
+      "19:39": [
+        "king kiss:pa",
+        "own kjv_place_site"
+      ],
+      "19:40": [
+        "all of kjv_judah people",
+        "half of kjv_israel people"
+      ],
+      "19:41": [
+        "of wepl brother:pl",
+        "thou:a steal:perf away"
+      ],
+      "19:42": [
+        "to wesg king near kin",
+        "king cost",
+        "any gift"
+      ],
+      "19:43": [
+        "ten part:pl:a wesg have:pr",
+        "ourone/advice:a first",
+        "more fierce"
+      ],
+      "20:1": [
+        "kjv_sheba_bichri of kjv_bichri son",
+        "no part:a wesg",
+        "neither",
+        "kjv_israel:excl"
+      ],
+      "20:2": [
+        "kjv_sheba_bichri",
+        "kjv_cleave_adhere:pa"
+      ],
+      "20:3": [
+        "ten woman:pl",
+        "kjv_custody",
+        "go:pa not in",
+        "until of their/death day",
+        "kjv_widowhood"
+      ],
+      "20:4": [
+        "within kjv_three day:pl",
+        "for ipl assemble:imp"
+      ],
+      "20:5": [
+        "longer than set:psv time"
+      ],
+      "20:6": [
+        "more harm than kjv_absalom",
+        "to wesg",
+        "fortify:psv city:pl"
+      ],
+      "20:7": [
+        "of kjv_joab man:pl",
+        "kjv_cherethite:pl",
+        "kjv_pelethite:pl"
+      ],
+      "20:8": [
+        "kjv_gibeon",
+        "kjv_gird:psv:pa",
+        "its/kjv_sheath",
+        "it fall:pa out"
+      ],
+      "20:9": [
+        "in health thou be:pr",
+        "kjv_right_side hand by beard"
+      ],
+      "20:10": [
+        "five:ord kjv_rib",
+        "again he:a strike:pa not",
+        "he die:pa"
+      ],
+      "20:11": [
+        "for kjv_david",
+        "after kjv_joab he go:opt"
+      ],
+      "20:12": [
+        "all people:a still stand:cv",
+        "into field",
+        "cloth:a cast:pa"
+      ],
+      "20:14": [
+        "kjv_abel_city",
+        "kjv_bethmaachah",
+        "kjv_berites"
+      ],
+      "20:15": [
+        "kjv_siege_mound",
+        "kjv_trench_siege",
+        "repeatedly strike:pa"
+      ],
+      "20:16": [
+        "hear:imp hear:imp",
+        "you:a i pray:pr",
+        "with thou i speak:pr:may"
+      ],
+      "20:17": [
+        "he i be:pr",
+        "thy/kjv_handmaid",
+        "i hear:pr"
+      ],
+      "20:18": [
+        "in old time",
+        "at kjv_abel_city counsel:a"
+      ],
+      "20:19": [
+        "one i be:pr",
+        "city and mother",
+        "kjv_lord inheritance"
+      ],
+      "20:20": [
+        "from ipl far be:opt far be:opt"
+      ],
+      "20:21": [
+        "only he:a deliver:imp",
+        "from city ipl depart:fu",
+        "his/head throw:psv:fu"
+      ],
+      "20:22": [
+        "his/tent",
+        "kjv_joab return:pa"
+      ],
+      "20:23": [
+        "over all of kjv_israel army kjv_joab"
+      ],
+      "20:24": [
+        "kjv_adoram over kjv_tribute",
+        "kjv_record_keeper"
+      ],
+      "20:25": [
+        "kjv_sheva_scribe kjv_scribe",
+        "kjv_zadok and kjv_abiathar"
+      ],
+      "20:26": [
+        "kjv_ira kjv_jairite",
+        "chief ruler"
+      ],
+      "21:1": [
+        "kjv_famine kjv_three year:pl",
+        "year after year",
+        "kjv_lord answer:pa",
+        "kjv_gibeonite:pl:a he slay:pa"
+      ],
+      "21:2": [
+        "kjv_amorite:pl remainder",
+        "swear:pp",
+        "his/kjv_zeal"
+      ],
+      "21:3": [
+        "for you ipl do:fu",
+        "kjv_atonement:a ipl make:fu"
+      ],
+      "21:4": [
+        "no silver nor gold",
+        "neither for wesg any man",
+        "for you ipl do:fu"
+      ],
+      "21:5": [
+        "wesg:a consume:pa",
+        "wesg destroy:psv:pr:should"
+      ],
+      "21:6": [
+        "seven man:pl",
+        "they:a wesg hang:fu",
+        "they:a ipl give:fu"
+      ],
+      "21:7": [
+        "kjv_mephibosheth of kjv_jonathan",
+        "spare:pa",
+        "between they:du"
+      ],
+      "21:8": [
+        "two son:pl",
+        "kjv_armoni and kjv_mephibosheth_rizpah",
+        "kjv_michal",
+        "five son:pl",
+        "kjv_barzillai_meholath",
+        "she bring:pa up"
+      ],
+      "21:9": [
+        "together all seven",
+        "first day:pl",
+        "kjv_barley harvest beginning"
+      ],
+      "21:10": [
+        "until out of heaven upon they water drop:pa",
+        "by day rest:inf allow:pa nor",
+        "by night"
+      ],
+      "21:12": [
+        "kjv_bethshan street",
+        "kjv_philistine:pl they:a hang:pp",
+        "kjv_gilboa"
+      ],
+      "21:13": [
+        "of they who hang:psv:pp bone:pl"
+      ],
+      "21:14": [
+        "kjv_zelah",
+        "kjv_kish his/father tomb",
+        "after that for land god entreat:psv:pa"
+      ],
+      "21:15": [
+        "kjv_david faint become:pa"
+      ],
+      "21:16": [
+        "kjv_ishbibenob",
+        "kjv_three+hundred kjv_shekel:pl of kjv_brass",
+        "new sword"
+      ],
+      "21:17": [
+        "kjv_abishai",
+        "with wesg to battle no more",
+        "of kjv_israel light:a thou extinguish:pr not"
+      ],
+      "21:18": [
+        "kjv_gob",
+        "kjv_sibbechai kjv_hushathite kjv_saph"
+      ],
+      "21:19": [
+        "kjv_elhanan of kjv_jaareoregim",
+        "of kjv_goliath kjv_gittite brother:a",
+        "weave:ag beam"
+      ],
+      "21:20": [
+        "every hand six finger:pl",
+        "every foot six kjv_toe:pl",
+        "two+ten and four"
+      ],
+      "21:21": [
+        "kjv_jonathan_shimeah of kjv_shimeah"
+      ],
+      "21:22": [
+        "these four",
+        "of kjv_david hand and by of his/servant:pl hand"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Accusations, promises, kinship appeals and political claims remain attributed to their speakers.",
+      "The supplied Michal/brought-up wording, street/hanging retrospective and brother-of-Goliath wording are retained without harmonizing alternative witnesses.",
+      "The broad refusal of killing and subsequent specific demand remain unreconciled within the Gibeonite dialogue.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "nativeValidation": {
+    "book": "2 Samuel — incomplete Bible working text",
+    "pages": 456,
+    "spreads": 228,
+    "units": 580,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "59988134db9c5d518959b5505025efdf3ca51cc8685452e574142bf4018d5b15",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 228,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "visualReview": {
+    "pages": [
+      455,
+      456
+    ],
+    "observed": "Approved four-column paragraph starts, Maxima, black-on-white treatment and outside Unta folios preserved; final giant roster and explicit finger/toe counts checked.",
+    "kind": "translator self-review, not independent literary certification"
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 12.334,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_samuel2_return",
+      "tests.test_kjv_samuel2_rebellion",
+      "tests.test_parallel_translation"
+    ]
+  }
+}

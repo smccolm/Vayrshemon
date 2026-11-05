@@ -1,0 +1,2424 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.85",
+    "parentVersion": "0.10-kjv.84",
+    "parentHead": "969b038434dabd40c8923c13dd9264fc3bd0af952924e9b0f941979f136c9906",
+    "head": "db39ca4aa909cf41b14075dac667212a71fe45ffa0be38df962c684b171a7959",
+    "newLexicalEntries": 202,
+    "newProperEntries": 196,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 104,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 211,
+    "exactCompilerCases": 211,
+    "newAuthoredVerses": 211,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19859,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 211,
+    "chronicles1Verses": 942,
+    "authoredVerses": 11243,
+    "remainingVerses": 19859,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 95,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 23:3",
+        "source": "Now the Levites were numbered from the age of thirty years and upward: and their number by their polls, man by man, was thirty and eight thousand.",
+        "expectedDecimalQuantities": [
+          30,
+          38000
+        ],
+        "targetQuantities": [
+          30,
+          38000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:4",
+        "source": "Of which, twenty and four thousand were to set forward the work of the house of the LORD; and six thousand were officers and judges:",
+        "expectedDecimalQuantities": [
+          24000,
+          6000
+        ],
+        "targetQuantities": [
+          24000,
+          6000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:5",
+        "source": "Moreover four thousand were porters; and four thousand praised the LORD with the instruments which I made, said David, to praise therewith.",
+        "expectedDecimalQuantities": [
+          4000,
+          4000
+        ],
+        "targetQuantities": [
+          4000,
+          4000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:8",
+        "source": "The sons of Laadan; the chief was Jehiel, and Zetham, and Joel, three.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:9",
+        "source": "The sons of Shimei; Shelomith, and Haziel, and Haran, three. These were the chief of the fathers of Laadan.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:10",
+        "source": "And the sons of Shimei were, Jahath, Zina, and Jeush, and Beriah. These four were the sons of Shimei.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:11",
+        "source": "And Jahath was the chief, and Zizah the second: but Jeush and Beriah had not many sons; therefore they were in one reckoning, according to their father’s house.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:12",
+        "source": "The sons of Kohath; Amram, Izhar, Hebron, and Uzziel, four.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:19",
+        "source": "Of the sons of Hebron; Jeriah the first, Amariah the second, Jahaziel the third, and Jekameam the fourth.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:20",
+        "source": "Of the sons of Uzziel; Micah the first and Jesiah the second.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:23",
+        "source": "The sons of Mushi; Mahli, and Eder, and Jeremoth, three.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:24",
+        "source": "These were the sons of Levi after the house of their fathers; even the chief of the fathers, as they were counted by number of names by their polls, that did the work for the service of the house of the LORD, from the age of twenty years and upward.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "1 Chronicles 23:27",
+        "source": "For by the last words of David the Levites were numbered from twenty years old and above:",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:4",
+        "source": "And there were more chief men found of the sons of Eleazar than of the sons of Ithamar, and thus were they divided. Among the sons of Eleazar there were sixteen chief men of the house of their fathers, and eight among the sons of Ithamar according to the house of their fathers.",
+        "expectedDecimalQuantities": [
+          16,
+          8
+        ],
+        "targetQuantities": [
+          16,
+          8
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:5",
+        "source": "Thus were they divided by lot, one sort with another; for the governors of the sanctuary, and governors of the house of God, were of the sons of Eleazar, and of the sons of Ithamar.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:6",
+        "source": "And Shemaiah the son of Nethaneel the scribe, one of the Levites, wrote them before the king, and the princes, and Zadok the priest, and Ahimelech the son of Abiathar, and before the chief of the fathers of the priests and Levites: one principal household being taken for Eleazar, and one taken for Ithamar.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:21",
+        "source": "Concerning Rehabiah: of the sons of Rehabiah, the first was Isshiah.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:23",
+        "source": "And the sons of Hebron; Jeriah the first, Amariah the second, Jahaziel the third, Jekameam the fourth.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:3",
+        "source": "Of Jeduthun: the sons of Jeduthun; Gedaliah, and Zeri, and Jeshaiah, Hashabiah, and Mattithiah, six, under the hands of their father Jeduthun, who prophesied with a harp, to give thanks and to praise the LORD.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:5",
+        "source": "All these were the sons of Heman the king’s seer in the words of God, to lift up the horn. And God gave to Heman fourteen sons and three daughters.",
+        "expectedDecimalQuantities": [
+          14,
+          3
+        ],
+        "targetQuantities": [
+          14,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:7",
+        "source": "So the number of them, with their brethren that were instructed in the songs of the LORD, even all that were cunning, was two hundred fourscore and eight.",
+        "expectedDecimalQuantities": [
+          288
+        ],
+        "targetQuantities": [
+          288
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:9",
+        "source": "Now the first lot came forth for Asaph to Joseph: the second to Gedaliah, who with his brethren and sons were twelve:",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:2",
+        "source": "And the sons of Meshelemiah were, Zechariah the firstborn, Jediael the second, Zebadiah the third, Jathniel the fourth,",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          4
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:3",
+        "source": "Elam the fifth, Jehohanan the sixth, Elioenai the seventh.",
+        "expectedDecimalQuantities": [
+          5,
+          6,
+          7
+        ],
+        "targetQuantities": [
+          5,
+          6,
+          7
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:4",
+        "source": "Moreover the sons of Obededom were, Shemaiah the firstborn, Jehozabad the second, Joah the third, and Sacar the fourth, and Nethaneel the fifth.",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:5",
+        "source": "Ammiel the sixth, Issachar the seventh, Peulthai the eighth: for God blessed him.",
+        "expectedDecimalQuantities": [
+          6,
+          7,
+          8
+        ],
+        "targetQuantities": [
+          6,
+          7,
+          8
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:8",
+        "source": "All these of the sons of Obededom: they and their sons and their brethren, able men for strength for the service, were threescore and two of Obededom.",
+        "expectedDecimalQuantities": [
+          62
+        ],
+        "targetQuantities": [
+          62
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:9",
+        "source": "And Meshelemiah had sons and brethren, strong men, eighteen.",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:11",
+        "source": "Hilkiah the second, Tebaliah the third, Zechariah the fourth: all the sons and brethren of Hosah were thirteen.",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          4,
+          13
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          4,
+          13
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:17",
+        "source": "Eastward were six Levites, northward four a day, southward four a day, and toward Asuppim two and two.",
+        "expectedDecimalQuantities": [
+          6,
+          4,
+          4,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          6,
+          4,
+          4,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:18",
+        "source": "At Parbar westward, four at the causeway, and two at Parbar.",
+        "expectedDecimalQuantities": [
+          4,
+          2
+        ],
+        "targetQuantities": [
+          4,
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:26",
+        "source": "Which Shelomith and his brethren were over all the treasures of the dedicated things, which David the king, and the chief fathers, the captains over thousands and hundreds, and the captains of the host, had dedicated.",
+        "expectedDecimalQuantities": [
+          1000,
+          100
+        ],
+        "targetQuantities": [
+          1000,
+          100
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:30",
+        "source": "And of the Hebronites, Hashabiah and his brethren, men of valour, a thousand and seven hundred, were officers among them of Israel on this side Jordan westward in all the business of the LORD, and in the service of the king.",
+        "expectedDecimalQuantities": [
+          1700
+        ],
+        "targetQuantities": [
+          1700
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:31",
+        "source": "Among the Hebronites was Jerijah the chief, even among the Hebronites, according to the generations of his fathers. In the fortieth year of the reign of David they were sought for, and there were found among them mighty men of valour at Jazer of Gilead.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "1 Chronicles 26:32",
+        "source": "And his brethren, men of valour, were two thousand and seven hundred chief fathers, whom king David made rulers over the Reubenites, the Gadites, and the half tribe of Manasseh, for every matter pertaining to God, and affairs of the king.",
+        "expectedDecimalQuantities": [
+          2700,
+          0.5
+        ],
+        "targetQuantities": [
+          2700,
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:1",
+        "source": "Now the children of Israel after their number, to wit, the chief fathers and captains of thousands and hundreds, and their officers that served the king in any matter of the courses, which came in and went out month by month throughout all the months of the year, of every course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          1000,
+          100,
+          24000
+        ],
+        "targetQuantities": [
+          1000,
+          100,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:2",
+        "source": "Over the first course for the first month was Jashobeam the son of Zabdiel: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          24000
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:3",
+        "source": "Of the children of Perez was the chief of all the captains of the host for the first month.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:4",
+        "source": "And over the course of the second month was Dodai an Ahohite, and of his course was Mikloth also the ruler: in his course likewise were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          2,
+          24000
+        ],
+        "targetQuantities": [
+          2,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:5",
+        "source": "The third captain of the host for the third month was Benaiah the son of Jehoiada, a chief priest: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          3,
+          3,
+          24000
+        ],
+        "targetQuantities": [
+          3,
+          3,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:6",
+        "source": "This is that Benaiah, who was mighty among the thirty, and above the thirty: and in his course was Ammizabad his son.",
+        "expectedDecimalQuantities": [
+          30,
+          30
+        ],
+        "targetQuantities": [
+          30,
+          30
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:7",
+        "source": "The fourth captain for the fourth month was Asahel the brother of Joab, and Zebadiah his son after him: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          4,
+          4,
+          24000
+        ],
+        "targetQuantities": [
+          4,
+          4,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:20",
+        "source": "Of the children of Ephraim, Hoshea the son of Azaziah: of the half tribe of Manasseh, Joel the son of Pedaiah:",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:21",
+        "source": "Of the half tribe of Manasseh in Gilead, Iddo the son of Zechariah: of Benjamin, Jaasiel the son of Abner:",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:23",
+        "source": "But David took not the number of them from twenty years old and under: because the LORD had said he would increase Israel like to the stars of the heavens.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "1 Chronicles 28:1",
+        "source": "And David assembled all the princes of Israel, the princes of the tribes, and the captains of the companies that ministered to the king by course, and the captains over the thousands, and captains over the hundreds, and the stewards over all the substance and possession of the king, and of his sons, with the officers, and with the mighty men, and with all the valiant men, unto Jerusalem.",
+        "expectedDecimalQuantities": [
+          1000,
+          100
+        ],
+        "targetQuantities": [
+          1000,
+          100
+        ]
+      },
+      {
+        "reference": "1 Chronicles 29:4",
+        "source": "Even three thousand talents of gold, of the gold of Ophir, and seven thousand talents of refined silver, to overlay the walls of the houses withal:",
+        "expectedDecimalQuantities": [
+          3000,
+          7000
+        ],
+        "targetQuantities": [
+          3000,
+          7000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 29:6",
+        "source": "Then the chief of the fathers and princes of the tribes of Israel and the captains of thousands and of hundreds, with the rulers of the king’s work, offered willingly,",
+        "expectedDecimalQuantities": [
+          1000,
+          100
+        ],
+        "targetQuantities": [
+          1000,
+          100
+        ]
+      },
+      {
+        "reference": "1 Chronicles 29:7",
+        "source": "And gave for the service of the house of God of gold five thousand talents and ten thousand drams, and of silver ten thousand talents, and of brass eighteen thousand talents, and one hundred thousand talents of iron.",
+        "expectedDecimalQuantities": [
+          5000,
+          10000,
+          10000,
+          18000,
+          100000
+        ],
+        "targetQuantities": [
+          5000,
+          10000,
+          10000,
+          18000,
+          100000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 29:21",
+        "source": "And they sacrificed sacrifices unto the LORD, and offered burnt offerings unto the LORD, on the morrow after that day, even a thousand bullocks, a thousand rams, and a thousand lambs, with their drink offerings, and sacrifices in abundance for all Israel:",
+        "expectedDecimalQuantities": [
+          1000,
+          1000,
+          1000
+        ],
+        "targetQuantities": [
+          1000,
+          1000,
+          1000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 29:22",
+        "source": "And did eat and drink before the LORD on that day with great gladness. And they made Solomon the son of David king the second time, and anointed him unto the LORD to be the chief governor, and Zadok to be priest.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 29:27",
+        "source": "And the time that he reigned over Israel was forty years; seven years reigned he in Hebron, and thirty and three years reigned he in Jerusalem.",
+        "expectedDecimalQuantities": [
+          40,
+          7,
+          33
+        ],
+        "targetQuantities": [
+          40,
+          7,
+          33
+        ]
+      },
+      {
+        "reference": "1 Chronicles 29:29",
+        "source": "Now the acts of David the king, first and last, behold, they are written in the book of Samuel the seer, and in the book of Nathan the prophet, and in the book of Gad the seer,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:7",
+        "source": "Now the first lot came forth to Jehoiarib, the second to Jedaiah,",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:8",
+        "source": "The third to Harim, the fourth to Seorim,",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:9",
+        "source": "The fifth to Malchijah, the sixth to Mijamin,",
+        "expectedDecimalQuantities": [
+          5,
+          6
+        ],
+        "targetQuantities": [
+          5,
+          6
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:10",
+        "source": "The seventh to Hakkoz, the eighth to Abijah,",
+        "expectedDecimalQuantities": [
+          7,
+          8
+        ],
+        "targetQuantities": [
+          7,
+          8
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:11",
+        "source": "The ninth to Jeshuah, the tenth to Shecaniah,",
+        "expectedDecimalQuantities": [
+          9,
+          10
+        ],
+        "targetQuantities": [
+          9,
+          10
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:12",
+        "source": "The eleventh to Eliashib, the twelfth to Jakim,",
+        "expectedDecimalQuantities": [
+          11,
+          12
+        ],
+        "targetQuantities": [
+          11,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:13",
+        "source": "The thirteenth to Huppah, the fourteenth to Jeshebeab,",
+        "expectedDecimalQuantities": [
+          13,
+          14
+        ],
+        "targetQuantities": [
+          13,
+          14
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:14",
+        "source": "The fifteenth to Bilgah, the sixteenth to Immer,",
+        "expectedDecimalQuantities": [
+          15,
+          16
+        ],
+        "targetQuantities": [
+          15,
+          16
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:15",
+        "source": "The seventeenth to Hezir, the eighteenth to Aphses,",
+        "expectedDecimalQuantities": [
+          17,
+          18
+        ],
+        "targetQuantities": [
+          17,
+          18
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:16",
+        "source": "The nineteenth to Pethahiah, the twentieth to Jehezekel,",
+        "expectedDecimalQuantities": [
+          19,
+          20
+        ],
+        "targetQuantities": [
+          19,
+          20
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:17",
+        "source": "The one and twentieth to Jachin, the two and twentieth to Gamul,",
+        "expectedDecimalQuantities": [
+          21,
+          22
+        ],
+        "targetQuantities": [
+          21,
+          22
+        ]
+      },
+      {
+        "reference": "1 Chronicles 24:18",
+        "source": "The three and twentieth to Delaiah, the four and twentieth to Maaziah.",
+        "expectedDecimalQuantities": [
+          23,
+          24
+        ],
+        "targetQuantities": [
+          23,
+          24
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:10",
+        "source": "The third to Zaccur, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          3,
+          12
+        ],
+        "targetQuantities": [
+          3,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:11",
+        "source": "The fourth to Izri, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          4,
+          12
+        ],
+        "targetQuantities": [
+          4,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:12",
+        "source": "The fifth to Nethaniah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          5,
+          12
+        ],
+        "targetQuantities": [
+          5,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:13",
+        "source": "The sixth to Bukkiah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          6,
+          12
+        ],
+        "targetQuantities": [
+          6,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:14",
+        "source": "The seventh to Jesharelah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          7,
+          12
+        ],
+        "targetQuantities": [
+          7,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:15",
+        "source": "The eighth to Jeshaiah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          8,
+          12
+        ],
+        "targetQuantities": [
+          8,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:16",
+        "source": "The ninth to Mattaniah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          9,
+          12
+        ],
+        "targetQuantities": [
+          9,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:17",
+        "source": "The tenth to Shimei, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          10,
+          12
+        ],
+        "targetQuantities": [
+          10,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:18",
+        "source": "The eleventh to Azareel, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          11,
+          12
+        ],
+        "targetQuantities": [
+          11,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:19",
+        "source": "The twelfth to Hashabiah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          12,
+          12
+        ],
+        "targetQuantities": [
+          12,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:20",
+        "source": "The thirteenth to Shubael, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          13,
+          12
+        ],
+        "targetQuantities": [
+          13,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:21",
+        "source": "The fourteenth to Mattithiah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          14,
+          12
+        ],
+        "targetQuantities": [
+          14,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:22",
+        "source": "The fifteenth to Jeremoth, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          15,
+          12
+        ],
+        "targetQuantities": [
+          15,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:23",
+        "source": "The sixteenth to Hananiah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          16,
+          12
+        ],
+        "targetQuantities": [
+          16,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:24",
+        "source": "The seventeenth to Joshbekashah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          17,
+          12
+        ],
+        "targetQuantities": [
+          17,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:25",
+        "source": "The eighteenth to Hanani, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          18,
+          12
+        ],
+        "targetQuantities": [
+          18,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:26",
+        "source": "The nineteenth to Mallothi, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          19,
+          12
+        ],
+        "targetQuantities": [
+          19,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:27",
+        "source": "The twentieth to Eliathah, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          20,
+          12
+        ],
+        "targetQuantities": [
+          20,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:28",
+        "source": "The one and twentieth to Hothir, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          21,
+          12
+        ],
+        "targetQuantities": [
+          21,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:29",
+        "source": "The two and twentieth to Giddalti, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          22,
+          12
+        ],
+        "targetQuantities": [
+          22,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:30",
+        "source": "The three and twentieth to Mahazioth, he, his sons, and his brethren, were twelve:",
+        "expectedDecimalQuantities": [
+          23,
+          12
+        ],
+        "targetQuantities": [
+          23,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 25:31",
+        "source": "The four and twentieth to Romamtiezer, he, his sons, and his brethren, were twelve.",
+        "expectedDecimalQuantities": [
+          24,
+          12
+        ],
+        "targetQuantities": [
+          24,
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:8",
+        "source": "The fifth captain for the fifth month was Shamhuth the Izrahite: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          5,
+          5,
+          24000
+        ],
+        "targetQuantities": [
+          5,
+          5,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:9",
+        "source": "The sixth captain for the sixth month was Ira the son of Ikkesh the Tekoite: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          6,
+          6,
+          24000
+        ],
+        "targetQuantities": [
+          6,
+          6,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:10",
+        "source": "The seventh captain for the seventh month was Helez the Pelonite, of the children of Ephraim: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          24000
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:11",
+        "source": "The eighth captain for the eighth month was Sibbecai the Hushathite, of the Zarhites: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          8,
+          8,
+          24000
+        ],
+        "targetQuantities": [
+          8,
+          8,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:12",
+        "source": "The ninth captain for the ninth month was Abiezer the Anetothite, of the Benjamites: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          9,
+          9,
+          24000
+        ],
+        "targetQuantities": [
+          9,
+          9,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:13",
+        "source": "The tenth captain for the tenth month was Maharai the Netophathite, of the Zarhites: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          10,
+          10,
+          24000
+        ],
+        "targetQuantities": [
+          10,
+          10,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:14",
+        "source": "The eleventh captain for the eleventh month was Benaiah the Pirathonite, of the children of Ephraim: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          11,
+          11,
+          24000
+        ],
+        "targetQuantities": [
+          11,
+          11,
+          24000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 27:15",
+        "source": "The twelfth captain for the twelfth month was Heldai the Netophathite, of Othniel: and in his course were twenty and four thousand.",
+        "expectedDecimalQuantities": [
+          12,
+          12,
+          24000
+        ],
+        "targetQuantities": [
+          12,
+          12,
+          24000
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "23:1": [
+        "old and full of day:pl",
+        "kjv_solomon his/son:a king"
+      ],
+      "23:2": [
+        "prince:pl",
+        "priest:pl and kjv_levite:pl"
+      ],
+      "23:3": [
+        "thirty year:pl",
+        "their/head:pl man by man",
+        "thirty+thousand and eight+thousand"
+      ],
+      "23:4": [
+        "twenty+thousand and four+thousand",
+        "six+thousand officer:pl and judge:ag:pl"
+      ],
+      "23:5": [
+        "four+thousand gate+keep:ag:pl",
+        "which i make:pa"
+      ],
+      "23:6": [
+        "kjv_service_order:pl",
+        "kjv_gershon kjv_kohath and kjv_merari"
+      ],
+      "23:7": [
+        "kjv_laadan_gershon and kjv_shimei"
+      ],
+      "23:8": [
+        "kjv_jehiel_laadan",
+        "kjv_zetham and kjv_joel_laadan kjv_three"
+      ],
+      "23:9": [
+        "kjv_shelomith_shimei",
+        "kjv_haziel",
+        "kjv_haran_shimei",
+        "father:pl of kjv_laadan_gershon"
+      ],
+      "23:10": [
+        "kjv_zina",
+        "kjv_jeush_shimei",
+        "kjv_beriah_shimei",
+        "these four"
+      ],
+      "23:11": [
+        "kjv_zizah second",
+        "many son:pl:a have:neg:pa",
+        "one_num reckon:ev"
+      ],
+      "23:12": [
+        "kjv_amram kjv_izhar kjv_hebron_kohath and kjv_uzziel four"
+      ],
+      "23:13": [
+        "kjv_aaron and kjv_moses",
+        "most holy thing:pl",
+        "kjv_incense",
+        "forever"
+      ],
+      "23:14": [
+        "kjv_moses man of god",
+        "kjv_tribe of kjv_levi"
+      ],
+      "23:15": [
+        "kjv_gershom and kjv_eliezer_moses"
+      ],
+      "23:16": [
+        "kjv_shebuel_gershom chief"
+      ],
+      "23:17": [
+        "other son:pl:a have:neg:pa",
+        "son:pl of kjv_rehabiah very many"
+      ],
+      "23:18": [
+        "kjv_shelomith_izhar chief"
+      ],
+      "23:19": [
+        "kjv_jeriah first",
+        "kjv_amariah_hebron second",
+        "kjv_jahaziel_hebron third",
+        "kjv_jekameam fourth"
+      ],
+      "23:20": [
+        "kjv_micah_uzziel first",
+        "kjv_jesiah_uzziel second"
+      ],
+      "23:21": [
+        "kjv_mahli and kjv_mushi",
+        "kjv_eleazar_mahli and kjv_kish_mahli"
+      ],
+      "23:22": [
+        "son:pl:a have:neg:pa but daughter:pl",
+        "son:pl of kjv_kish_mahli they:a take:pa"
+      ],
+      "23:23": [
+        "kjv_mahli_mushi",
+        "kjv_eder_mushi",
+        "kjv_jeremoth_mushi kjv_three"
+      ],
+      "23:24": [
+        "by their/head:pl",
+        "twenty year:pl"
+      ],
+      "23:25": [
+        "rest:a give:perf",
+        "kjv_jerusalem forever dwell"
+      ],
+      "23:26": [
+        "carry:neg:fu again",
+        "kjv_tabernacle",
+        "its/vessel:pl"
+      ],
+      "23:27": [
+        "last word:pl of kjv_david",
+        "twenty year:pl"
+      ],
+      "23:28": [
+        "kjv_court_enclosure:pl",
+        "purify:ev of all holy thing:pl"
+      ],
+      "23:29": [
+        "kjv_shewbread",
+        "fine kjv_flour",
+        "without kjv_leaven",
+        "kjv_pan_cooking",
+        "kjv_fry_food"
+      ],
+      "23:30": [
+        "each morning",
+        "likewise at evening"
+      ],
+      "23:31": [
+        "kjv_sabbath:pl",
+        "new moon:pl",
+        "set:psv feast:pl"
+      ],
+      "23:32": [
+        "charge of kjv_tabernacle",
+        "charge of holy place",
+        "charge of son:pl of kjv_aaron"
+      ],
+      "24:1": [
+        "kjv_nadab kjv_abihu kjv_eleazar and kjv_ithamar"
+      ],
+      "24:2": [
+        "child:pl:a have:neg:pa",
+        "kjv_eleazar and kjv_ithamar"
+      ],
+      "24:3": [
+        "kjv_zadok of son:pl of kjv_eleazar",
+        "kjv_ahimelech_abiathar of son:pl of kjv_ithamar"
+      ],
+      "24:4": [
+        "sixteen chief man:pl",
+        "eight among"
+      ],
+      "24:5": [
+        "by kjv_lot one_num kind with another"
+      ],
+      "24:6": [
+        "kjv_shemaiah_scribe son of kjv_nethaneel_scribe",
+        "kjv_ahimelech_abiathar son of kjv_abiathar",
+        "one_num chief house for kjv_eleazar",
+        "one_num for kjv_ithamar"
+      ],
+      "24:19": [
+        "under kjv_aaron their/father"
+      ],
+      "24:20": [
+        "kjv_shubael_amram",
+        "kjv_jehdeiah_shubael"
+      ],
+      "24:21": [
+        "kjv_rehabiah first kjv_isshiah_rehabiah"
+      ],
+      "24:22": [
+        "kjv_shelomoth",
+        "kjv_jahath_shelomoth"
+      ],
+      "24:23": [
+        "kjv_jeriah first",
+        "kjv_jekameam fourth"
+      ],
+      "24:24": [
+        "kjv_michah_uzziel",
+        "kjv_shamir_michah"
+      ],
+      "24:25": [
+        "kjv_isshiah_uzziel",
+        "kjv_zechariah_isshiah"
+      ],
+      "24:26": [
+        "son:pl of kjv_jaaziah kjv_beno"
+      ],
+      "24:27": [
+        "kjv_beno and kjv_shoham and kjv_zaccur_jaaziah and kjv_ibri"
+      ],
+      "24:28": [
+        "kjv_eleazar_mahli",
+        "son:pl:a have:neg:pa"
+      ],
+      "24:29": [
+        "kjv_jerahmeel_kish"
+      ],
+      "24:30": [
+        "kjv_mahli_mushi",
+        "kjv_eder_mushi",
+        "kjv_jerimoth_mushi"
+      ],
+      "24:31": [
+        "kjv_lot:pl:a",
+        "chief father:pl against their/younger brother:pl"
+      ],
+      "25:1": [
+        "kjv_asaph_singer",
+        "kjv_heman_singer",
+        "kjv_jeduthun",
+        "kjv_prophesy"
+      ],
+      "25:2": [
+        "kjv_zaccur_asaph",
+        "kjv_joseph_asaph",
+        "kjv_nethaniah_asaph",
+        "kjv_asarelah"
+      ],
+      "25:3": [
+        "kjv_gedaliah_jeduthun",
+        "kjv_zeri",
+        "kjv_jeshaiah_jeduthun",
+        "kjv_hashabiah_jeduthun",
+        "kjv_mattithiah_jeduthun six"
+      ],
+      "25:4": [
+        "kjv_uzziel_heman",
+        "kjv_shebuel_heman",
+        "kjv_jerimoth_heman",
+        "kjv_romamtiezer",
+        "kjv_mahazioth"
+      ],
+      "25:5": [
+        "horn:a lift:inf",
+        "ten and four son:pl and kjv_three daughter:pl"
+      ],
+      "25:6": [
+        "under hand:pl of their/father",
+        "kjv_asaph_singer kjv_jeduthun and kjv_heman_singer"
+      ],
+      "25:7": [
+        "skilled",
+        "two+hundred and four+twenty and eight"
+      ],
+      "25:8": [
+        "kjv_duty_watch against kjv_duty_watch",
+        "teach:ag as well as learn:ag"
+      ],
+      "25:9": [
+        "first kjv_lot",
+        "kjv_joseph_asaph",
+        "second to kjv_gedaliah_jeduthun",
+        "twelve"
+      ],
+      "26:1": [
+        "kjv_kore_asaph",
+        "kjv_asaph_kore"
+      ],
+      "26:2": [
+        "kjv_zechariah_porter first+born",
+        "kjv_jediael_meshelemiah",
+        "kjv_jathniel"
+      ],
+      "26:3": [
+        "kjv_elam_meshelemiah",
+        "kjv_jehohanan_meshelemiah",
+        "kjv_elioenai_meshelemiah"
+      ],
+      "26:4": [
+        "kjv_shemaiah_obededom first+born",
+        "kjv_nethaneel_obededom"
+      ],
+      "26:5": [
+        "kjv_ammiel_obededom",
+        "kjv_issachar_obededom",
+        "kjv_peulthai",
+        "god he:a bless:pa"
+      ],
+      "26:6": [
+        "throughout house of their/father rule:pa"
+      ],
+      "26:7": [
+        "kjv_othni",
+        "kjv_rephael",
+        "kjv_obed_shemaiah",
+        "kjv_elzabad_shemaiah",
+        "kjv_elihu_shemaiah",
+        "kjv_semachiah"
+      ],
+      "26:8": [
+        "kjv_three+twenty and two"
+      ],
+      "26:9": [
+        "ten and eight"
+      ],
+      "26:10": [
+        "kjv_simri_hosah",
+        "first+born be:neg:pa",
+        "his/father he:a chief make:pa"
+      ],
+      "26:11": [
+        "kjv_hilkiah_hosah",
+        "kjv_tebaliah",
+        "kjv_zechariah_hosah",
+        "ten and kjv_three"
+      ],
+      "26:12": [
+        "kjv_duty_watch:pl against each other"
+      ],
+      "26:13": [
+        "small as well as great",
+        "each gate"
+      ],
+      "26:14": [
+        "to east",
+        "kjv_shelemiah",
+        "wise counsel:ag",
+        "to kjv_north"
+      ],
+      "26:15": [
+        "kjv_obededom to kjv_south",
+        "house of kjv_asuppim"
+      ],
+      "26:16": [
+        "kjv_shuppim_porter",
+        "kjv_hosah_porter",
+        "to west",
+        "kjv_shallecheth",
+        "kjv_causeway"
+      ],
+      "26:17": [
+        "six kjv_levite:pl",
+        "four each day",
+        "two, and two"
+      ],
+      "26:18": [
+        "four at kjv_causeway",
+        "two at kjv_parbar"
+      ],
+      "26:19": [
+        "son:pl of kjv_kore_asaph",
+        "son:pl of kjv_merari"
+      ],
+      "26:20": [
+        "kjv_ahijah_treasury",
+        "treasure:pl of kjv_dedicate:psv thing:pl"
+      ],
+      "26:21": [
+        "kjv_laadan_gershon",
+        "kjv_jehieli"
+      ],
+      "26:22": [
+        "kjv_zetham and kjv_joel_laadan his/brother"
+      ],
+      "26:23": [
+        "kjv_amram",
+        "kjv_izhar",
+        "kjv_hebron_kohath",
+        "kjv_uzziel"
+      ],
+      "26:24": [
+        "kjv_shebuel_gershom son of kjv_gershom son of kjv_moses"
+      ],
+      "26:25": [
+        "kjv_rehabiah his/son",
+        "kjv_jeshaiah_rehabiah his/son",
+        "kjv_joram_jeshaiah his/son",
+        "kjv_zichri_joram his/son",
+        "kjv_shelomith_treasury his/son"
+      ],
+      "26:26": [
+        "kjv_shelomith_treasury",
+        "captain:pl over thousand:pl, and hundred:pl"
+      ],
+      "26:27": [
+        "spoil:pl in battle:pl win:psv",
+        "house of kjv_lord:a sustain:inf"
+      ],
+      "26:28": [
+        "kjv_samuel",
+        "kjv_saul_israel son of kjv_kish",
+        "kjv_abner son of kjv_ner",
+        "kjv_joab son of kjv_zeruiah"
+      ],
+      "26:29": [
+        "kjv_chenaniah_officer",
+        "outside business",
+        "officer:pl and judge:ag:pl"
+      ],
+      "26:30": [
+        "kjv_hashabiah_hebron",
+        "thousand and seven+hundred",
+        "this side kjv_jordan to west"
+      ],
+      "26:31": [
+        "kjv_jerijah",
+        "forty:ord year",
+        "kjv_jazer of kjv_gilead"
+      ],
+      "26:32": [
+        "two+thousand and seven+hundred",
+        "kjv_reuben",
+        "kjv_gad",
+        "half kjv_tribe of kjv_manasseh"
+      ],
+      "27:1": [
+        "month by month",
+        "twenty+thousand and four+thousand"
+      ],
+      "27:2": [
+        "kjv_jashobeam_zabdiel son of kjv_zabdiel"
+      ],
+      "27:3": [
+        "kjv_perez",
+        "first month"
+      ],
+      "27:4": [
+        "kjv_dodai",
+        "kjv_mikloth_commander"
+      ],
+      "27:5": [
+        "kjv_benaiah son of kjv_jehoiada chief priest"
+      ],
+      "27:6": [
+        "among thirty and above thirty",
+        "kjv_ammizabad"
+      ],
+      "27:7": [
+        "kjv_asahel brother of kjv_joab",
+        "kjv_zebadiah_asahel his/son after he"
+      ],
+      "27:8": [
+        "kjv_shamhuth kjv_izrahite"
+      ],
+      "27:9": [
+        "kjv_ira_ikkesh son of kjv_ikkesh kjv_tekoite"
+      ],
+      "27:10": [
+        "kjv_helez kjv_pelonite",
+        "kjv_ephraim"
+      ],
+      "27:11": [
+        "kjv_sibbecai kjv_hushathite",
+        "kjv_zerah"
+      ],
+      "27:12": [
+        "kjv_abiezer_anethothite kjv_anetothite",
+        "kjv_benjamin"
+      ],
+      "27:13": [
+        "kjv_maharai kjv_netophathite",
+        "kjv_zerah"
+      ],
+      "27:14": [
+        "kjv_benaiah_pirathonite",
+        "kjv_ephraim"
+      ],
+      "27:15": [
+        "kjv_heldai kjv_netophathite of kjv_othniel"
+      ],
+      "27:16": [
+        "kjv_eliezer_zichri son of kjv_zichri_eliezer",
+        "kjv_shephatiah_maachah son of kjv_maachah_shephatiah"
+      ],
+      "27:17": [
+        "kjv_hashabiah_kemuel son of kjv_kemuel_hashabiah",
+        "kjv_aaron kjv_zadok"
+      ],
+      "27:18": [
+        "kjv_elihu_david",
+        "brother:pl of kjv_david",
+        "kjv_omri_michael son of kjv_michael_omri"
+      ],
+      "27:19": [
+        "kjv_ishmaiah_obadiah son of kjv_obadiah_ishmaiah",
+        "kjv_jerimoth_azriel son of kjv_azriel_jerimoth"
+      ],
+      "27:20": [
+        "kjv_hoshea_azaziah son of kjv_azaziah_hoshea",
+        "kjv_joel_pedaiah son of kjv_pedaiah_joel"
+      ],
+      "27:21": [
+        "kjv_iddo_zechariah son of kjv_zechariah_iddo",
+        "kjv_jaasiel_abner son of kjv_abner"
+      ],
+      "27:22": [
+        "kjv_azareel_jeroham son of kjv_jeroham_azareel"
+      ],
+      "27:23": [
+        "twenty year:pl old and under",
+        "take:neg:pa",
+        "star:pl of heaven:pl"
+      ],
+      "27:24": [
+        "finish:neg:pa",
+        "wrath",
+        "neither kjv_number:ev",
+        "put:psv:pa"
+      ],
+      "27:25": [
+        "kjv_azmaveth_adiel son of kjv_adiel_azmaveth",
+        "kjv_jehonathan_uzziah son of kjv_uzziah_jehonathan"
+      ],
+      "27:26": [
+        "plough:ev",
+        "kjv_ezri son of kjv_chelub_ezri"
+      ],
+      "27:27": [
+        "kjv_shimei_ramathite",
+        "kjv_zabdi_shiphmite",
+        "wine kjv_cellar:pl"
+      ],
+      "27:28": [
+        "kjv_baalhanan_gederite",
+        "kjv_sycomore",
+        "kjv_joash_oil"
+      ],
+      "27:29": [
+        "kjv_shitrai",
+        "kjv_shaphat_adlai son of kjv_adlai"
+      ],
+      "27:30": [
+        "kjv_obil",
+        "kjv_jehdeiah_meronothite"
+      ],
+      "27:31": [
+        "kjv_jaziz kjv_hagerite"
+      ],
+      "27:32": [
+        "kjv_jonathan_uncle uncle of kjv_david",
+        "kjv_jehiel_hachmoni son of kjv_hachmoni"
+      ],
+      "27:33": [
+        "kjv_ahithophel",
+        "kjv_hushai kjv_archite"
+      ],
+      "27:34": [
+        "kjv_jehoiada_benaiah son of kjv_benaiah",
+        "kjv_abiathar",
+        "kjv_joab"
+      ],
+      "28:1": [
+        "steward:pl",
+        "of his/son:pl",
+        "kjv_jerusalem"
+      ],
+      "28:2": [
+        "i in my/heart",
+        "kjv_footstool of ourone/god"
+      ],
+      "28:3": [
+        "mypl/name build:neg:fu",
+        "blood:a shed:perf"
+      ],
+      "28:4": [
+        "my/father",
+        "kjv_judah",
+        "i:a king over all kjv_israel"
+      ],
+      "28:5": [
+        "many son:pl",
+        "kjv_solomon",
+        "throne of kingdom of kjv_lord"
+      ],
+      "28:6": [
+        "ipl he:a to mypl/son",
+        "ipl his/father"
+      ],
+      "28:7": [
+        "ipl his/kingdom",
+        "if he",
+        "mypl/command:pl",
+        "endure:pr"
+      ],
+      "28:8": [
+        "hear:ev of ourone/god",
+        "your/child:pl"
+      ],
+      "28:9": [
+        "all heart:pl:a search:pr",
+        "if thou he:a seek:pr",
+        "if thou he:a forsake:pr"
+      ],
+      "28:10": [
+        "kjv_sanctuary",
+        "strong be:imp"
+      ],
+      "28:11": [
+        "kjv_building_pattern",
+        "kjv_upper chamber:pl",
+        "kjv_inner chamber:pl",
+        "kjv_mercyseat"
+      ],
+      "28:12": [
+        "by spirit",
+        "kjv_treasury:pl of kjv_dedicate:psv thing:pl"
+      ],
+      "28:13": [
+        "kjv_service_order:pl of priest:pl and kjv_levite:pl",
+        "vessel:pl of service"
+      ],
+      "28:14": [
+        "gold by weight",
+        "silver",
+        "each kind of service"
+      ],
+      "28:15": [
+        "kjv_candlestick:pl of gold",
+        "kjv_candlestick:pl of silver",
+        "its/lamp:pl"
+      ],
+      "28:16": [
+        "table:pl of kjv_shewbread",
+        "table:pl of silver"
+      ],
+      "28:17": [
+        "kjv_fleshhook:pl",
+        "bowl:pl and cup:pl",
+        "each kjv_basin of silver"
+      ],
+      "28:18": [
+        "chariot of kjv_cherub:pl",
+        "their/wing:pl",
+        "kjv_ark_chest"
+      ],
+      "28:19": [
+        "i:a understand:caus:pa",
+        "his/hand upon i"
+      ],
+      "28:20": [
+        "fear:neg:imp",
+        "my/god",
+        "forsake:neg:fu",
+        "until"
+      ],
+      "28:21": [
+        "willing skilled man",
+        "prince:pl and all people"
+      ],
+      "29:1": [
+        "young and tender",
+        "palace for man be:neg:pr"
+      ],
+      "29:2": [
+        "i with all my/might",
+        "kjv_onyx",
+        "kjv_marble"
+      ],
+      "29:3": [
+        "my/own kjv_possession",
+        "above all"
+      ],
+      "29:4": [
+        "kjv_three+thousand",
+        "kjv_ophir",
+        "seven+thousand"
+      ],
+      "29:5": [
+        "hand:pl of craft:ag:pl",
+        "who then willing"
+      ],
+      "29:6": [
+        "captain:pl of thousand:pl and of hundred:pl",
+        "willingly offer:pa"
+      ],
+      "29:7": [
+        "five+thousand kjv_talent_weight:pl",
+        "ten+thousand kjv_dram_treasure:pl",
+        "ten+thousand and eight+thousand",
+        "hundred+thousand kjv_talent_weight:pl of iron"
+      ],
+      "29:8": [
+        "kjv_jehiel_laadan of kjv_gershon"
+      ],
+      "29:9": [
+        "perfect heart",
+        "kjv_david king also"
+      ],
+      "29:10": [
+        "kjv_israel ourone/father",
+        "forever and forever"
+      ],
+      "29:11": [
+        "thine kingdom",
+        "head above all"
+      ],
+      "29:12": [
+        "thy/hand power and might",
+        "strength:a to all"
+      ],
+      "29:13": [
+        "ourone/god wesg",
+        "glorious thy/name:a"
+      ],
+      "29:14": [
+        "who i be:pr",
+        "my/people",
+        "wesg",
+        "of thine own"
+      ],
+      "29:15": [
+        "wepl stranger:pl",
+        "father:pl of wepl",
+        "day:pl of wepl",
+        "like shadow"
+      ],
+      "29:16": [
+        "ourone/god",
+        "wesg",
+        "from thy/hand",
+        "all thine own"
+      ],
+      "29:17": [
+        "i also know:pr",
+        "kjv_uprightness of my/heart",
+        "i with joy"
+      ],
+      "29:18": [
+        "kjv_abraham kjv_isaac",
+        "kjv_israel ourone/father:pl",
+        "their/heart:a"
+      ],
+      "29:19": [
+        "kjv_solomon my/son",
+        "thy/testimony:pl",
+        "thy/kjv_statute:pl",
+        "i prepare:ev:a"
+      ],
+      "29:20": [
+        "kjv_lord and king:a worship:pa"
+      ],
+      "29:21": [
+        "thousand kjv_bullock:pl",
+        "thousand kjv_ram:pl",
+        "thousand kjv_lamb:pl"
+      ],
+      "29:22": [
+        "king second time",
+        "kjv_zadok to priest"
+      ],
+      "29:23": [
+        "throne of kjv_lord",
+        "all kjv_israel he:a obey:pa"
+      ],
+      "29:24": [
+        "all son:pl likewise",
+        "submit:refl:pa"
+      ],
+      "29:25": [
+        "royal majesty",
+        "any king before he"
+      ],
+      "29:26": [
+        "kjv_david son of kjv_jesse"
+      ],
+      "29:27": [
+        "forty year:pl",
+        "seven year:pl",
+        "thirty and kjv_three year:pl"
+      ],
+      "29:28": [
+        "good old age",
+        "kjv_solomon his/son"
+      ],
+      "29:29": [
+        "kjv_samuel kjv_seer",
+        "kjv_nathan_prophet prophet",
+        "kjv_gad_prophet kjv_seer"
+      ],
+      "29:30": [
+        "all his/rule",
+        "over all kingdom:pl of country:pl"
+      ],
+      "24:7": [
+        "kjv_jehoiarib_course",
+        "kjv_jedaiah_course"
+      ],
+      "24:8": [
+        "kjv_harim_course",
+        "kjv_seorim"
+      ],
+      "24:9": [
+        "kjv_malchijah_course",
+        "kjv_mijamin"
+      ],
+      "24:10": [
+        "kjv_hakkoz",
+        "kjv_abijah_course"
+      ],
+      "24:11": [
+        "kjv_jeshuah",
+        "kjv_shecaniah_course"
+      ],
+      "24:12": [
+        "kjv_eliashib_course",
+        "kjv_jakim_course"
+      ],
+      "24:13": [
+        "kjv_huppah",
+        "kjv_jeshebeab"
+      ],
+      "24:14": [
+        "kjv_bilgah",
+        "kjv_immer_course"
+      ],
+      "24:15": [
+        "kjv_hezir",
+        "kjv_aphses"
+      ],
+      "24:16": [
+        "kjv_pethahiah",
+        "kjv_jehezekel"
+      ],
+      "24:17": [
+        "kjv_jachin_course",
+        "kjv_gamul"
+      ],
+      "24:18": [
+        "kjv_delaiah_course",
+        "kjv_maaziah"
+      ],
+      "25:10": [
+        "kjv_zaccur_asaph",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:11": [
+        "kjv_izri",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:12": [
+        "kjv_nethaniah_asaph",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:13": [
+        "kjv_bukkiah",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:14": [
+        "kjv_jesharelah",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:15": [
+        "kjv_jeshaiah_jeduthun",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:16": [
+        "kjv_mattaniah_heman",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:17": [
+        "kjv_shimei_musician",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:18": [
+        "kjv_azareel_musician",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:19": [
+        "kjv_hashabiah_jeduthun",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:20": [
+        "kjv_shubael_heman",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:21": [
+        "kjv_mattithiah_jeduthun",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:22": [
+        "kjv_jeremoth_heman",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:23": [
+        "kjv_hananiah_heman",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:24": [
+        "kjv_joshbekashah",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:25": [
+        "kjv_hanani_heman",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:26": [
+        "kjv_mallothi",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:27": [
+        "kjv_eliathah",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:28": [
+        "kjv_hothir",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:29": [
+        "kjv_giddalti",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:30": [
+        "kjv_mahazioth",
+        "his/son:pl and his/brother:pl twelve"
+      ],
+      "25:31": [
+        "kjv_romamtiezer",
+        "his/son:pl and his/brother:pl twelve"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "23:5",
+        "28:19",
+        "28:2",
+        "28:3",
+        "28:4",
+        "28:5",
+        "28:6",
+        "29:14",
+        "29:17",
+        "29:19",
+        "29:2",
+        "29:3"
+      ],
+      "ipl": [
+        "28:6",
+        "28:7"
+      ],
+      "wesg": [
+        "29:13",
+        "29:14",
+        "29:16"
+      ],
+      "wepl": [
+        "29:15"
+      ],
+      "ourone": [
+        "28:2",
+        "28:8",
+        "29:10",
+        "29:13",
+        "29:16",
+        "29:18"
+      ],
+      "mypl": [
+        "28:3",
+        "28:6",
+        "28:7"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Service ages30and20 retained; lot ranks1–24,288singers, roster family totals, guard distribution2-and-2, monthly24000, gold talents and drams, all donor metals and40/7/33 reign checked independently. Office unit labels are not population totals; first-and-last is an ordering formula."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Divine plural-self remains in singular father/son relation. Personal David, singular-whole thanking/giving/preparing community and plural mortal strangers remain distinct. No divine person-count supplied.",
+      "Source name variants and five printed names called six remain. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 524,
+    "spreads": 262,
+    "units": 942,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "8ad84f2960297c463c1310307034f869a8dba1fcb90b614d0b18188f87d5764a",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 262,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.87,
+    "modules": [
+      "tests.test_kjv_chronicles_service_farewell",
+      "tests.test_kjv_chronicles_census_house",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    523,
+    524
+  ],
+  "status": "incomplete Bible; section checkpoint verified",
+  "metadataErratum": "Sealed85manifest compilerChange retained an obsolete87-verse/exultation description. Actual85delta and fixtures record202entries and211new1Chronicles23–29verses. Sealed manifest left unchanged; correction documented in86manifest and here.",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "81750c7fad1483b7aab31760eba3c56dee5bed6740e93c05abc0541567d86aaa",
+    "pages": 8048,
+    "spreads": 4024,
+    "authoredVerses": 11243,
+    "missingVerses": 19859,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 16096,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Genesis.vay",
+        "sha256": "176c6ce22a02915258a01cabf94ff6688153e0a72f8bdb47c4bdc5c56bc5c2b8",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Exodus.vay",
+        "sha256": "36e827d8ff72e89213baacb89ed73052ee85a6654c80e92fe0043744f0b38ae0",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Leviticus.vay",
+        "sha256": "198ef8a0fc381e208b99e9dd83e0fe76549d174630b386872d2bcf5f3e5d696c",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Numbers.vay",
+        "sha256": "cc1236e5d8a51c3992f07702750cf1f8a22af52a8e5c87ab142d7114faaf941c",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Deuteronomy.vay",
+        "sha256": "224062c8d24fed83fc8c60cf21550b0c369977ea7fba6317f56a15bdaf9d7785",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Joshua.vay",
+        "sha256": "fa516f69c091de5aa989df2afa75fbd5572f8551e11a594dbfc6f4900fffc02e",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Judges.vay",
+        "sha256": "cbc266175edd9d15970ccd139431b4dfbf1c560c1427afd8a104b70d56d06f3f",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Ruth.vay",
+        "sha256": "046b105cf141f3dc107655da136a60ff151c7c2ff9ec92e2ec70b16b38641688",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Chronicles.vay",
+        "sha256": "8ad84f2960297c463c1310307034f869a8dba1fcb90b614d0b18188f87d5764a",
+        "firstPage": 7483,
+        "lastPage": 8006
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.85\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 8007,
+        "lastPage": 8048
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.75",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.26",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.19",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.75",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.31",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.35",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "working"
+      },
+      {
+        "section": "1 Chronicles",
+        "version": "0.10-kjv.85",
+        "firstPage": 7483,
+        "lastPage": 8006,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 8007,
+        "lastPage": 8048,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    7792,
+    7994,
+    7996,
+    8000,
+    8005
+  ],
+  "referenceLinksChecked": true
+}

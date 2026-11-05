@@ -1,0 +1,1090 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.93",
+    "parentVersion": "0.10-kjv.92",
+    "parentHead": "f9eaf6cae55a3a35282410a9ea09f1751756f2d7c7d455800b2d3a6437a7924c",
+    "head": "2bcb1765f8f6b360cbabfe67463bdc45b1270e19073d6888833cffd324863a04",
+    "newLexicalEntries": 43,
+    "newProperEntries": 43,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 137,
+    "exactCompilerCases": 137,
+    "newAuthoredVerses": 117,
+    "revisedPreviousTargetVerses": 20,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 714,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19145,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 117,
+    "chronicles2Verses": 714,
+    "authoredVerses": 11957,
+    "remainingVerses": 19145,
+    "originalSourceHashUnchanged": true,
+    "allUnrepairedPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 20,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 18,
+    "quantityChecks": [
+      {
+        "reference": "2 Chronicles 29:1",
+        "source": "Hezekiah began to reign when he was five and twenty years old, and he reigned nine and twenty years in Jerusalem. And his mother’s name was Abijah, the daughter of Zechariah.",
+        "expectedDecimalQuantities": [
+          25,
+          29
+        ],
+        "targetQuantities": [
+          25,
+          29
+        ]
+      },
+      {
+        "reference": "2 Chronicles 29:3",
+        "source": "He in the first year of his reign, in the first month, opened the doors of the house of the LORD, and repaired them.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 29:17",
+        "source": "Now they began on the first day of the first month to sanctify, and on the eighth day of the month came they to the porch of the LORD: so they sanctified the house of the LORD in eight days; and in the sixteenth day of the first month they made an end.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          8,
+          8,
+          16,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          8,
+          8,
+          16,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 29:21",
+        "source": "And they brought seven bullocks, and seven rams, and seven lambs, and seven he goats, for a sin offering for the kingdom, and for the sanctuary, and for Judah. And he commanded the priests the sons of Aaron to offer them on the altar of the LORD.",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 29:32",
+        "source": "And the number of the burnt offerings, which the congregation brought, was threescore and ten bullocks, an hundred rams, and two hundred lambs: all these were for a burnt offering to the LORD.",
+        "expectedDecimalQuantities": [
+          70,
+          100,
+          200
+        ],
+        "targetQuantities": [
+          70,
+          100,
+          200
+        ]
+      },
+      {
+        "reference": "2 Chronicles 29:33",
+        "source": "And the consecrated things were six hundred oxen and three thousand sheep.",
+        "expectedDecimalQuantities": [
+          600,
+          3000
+        ],
+        "targetQuantities": [
+          600,
+          3000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 30:2",
+        "source": "For the king had taken counsel, and his princes, and all the congregation in Jerusalem, to keep the passover in the second month.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 30:12",
+        "source": "Also in Judah the hand of God was to give them one heart to do the commandment of the king and of the princes, by the word of the LORD.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 30:13",
+        "source": "And there assembled at Jerusalem much people to keep the feast of unleavened bread in the second month, a very great congregation.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 30:15",
+        "source": "Then they killed the passover on the fourteenth day of the second month: and the priests and the Levites were ashamed, and sanctified themselves, and brought in the burnt offerings into the house of the LORD.",
+        "expectedDecimalQuantities": [
+          14,
+          2
+        ],
+        "targetQuantities": [
+          14,
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 30:21",
+        "source": "And the children of Israel that were present at Jerusalem kept the feast of unleavened bread seven days with great gladness: and the Levites and the priests praised the LORD day by day, singing with loud instruments unto the LORD.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 30:22",
+        "source": "And Hezekiah spake comfortably unto all the Levites that taught the good knowledge of the LORD: and they did eat throughout the feast seven days, offering peace offerings, and making confession to the LORD God of their fathers.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 30:23",
+        "source": "And the whole assembly took counsel to keep other seven days: and they kept other seven days with gladness.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 30:24",
+        "source": "For Hezekiah king of Judah did give to the congregation a thousand bullocks and seven thousand sheep; and the princes gave to the congregation a thousand bullocks and ten thousand sheep: and a great number of priests sanctified themselves.",
+        "expectedDecimalQuantities": [
+          1000,
+          7000,
+          1000,
+          10000
+        ],
+        "targetQuantities": [
+          1000,
+          7000,
+          1000,
+          10000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 31:7",
+        "source": "In the third month they began to lay the foundation of the heaps, and finished them in the seventh month.",
+        "expectedDecimalQuantities": [
+          3,
+          7
+        ],
+        "targetQuantities": [
+          3,
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 31:16",
+        "source": "Beside their genealogy of males, from three years old and upward, even unto every one that entereth into the house of the LORD, his daily portion for their service in their charges according to their courses;",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 31:17",
+        "source": "Both to the genealogy of the priests by the house of their fathers, and the Levites from twenty years old and upward, in their charges by their courses;",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "2 Chronicles 32:12",
+        "source": "Hath not the same Hezekiah taken away his high places and his altars, and commanded Judah and Jerusalem, saying, Ye shall worship before one altar, and burn incense upon it?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "29:1": [
+        "five and twenty",
+        "nine and twenty",
+        "kjv_abijah_hezekiah_mother",
+        "kjv_zechariah_abijah"
+      ],
+      "29:2": [
+        "kjv_right_conduct",
+        "kjv_david his/father"
+      ],
+      "29:3": [
+        "first year",
+        "first month",
+        "door:pl",
+        "repair:pa"
+      ],
+      "29:4": [
+        "priest:pl and kjv_levite:pl",
+        "east street"
+      ],
+      "29:5": [
+        "i:a hear:imp",
+        "yourselves:a kjv_hallow:imp",
+        "filthy:ev:a"
+      ],
+      "29:6": [
+        "ourone/father:pl",
+        "ourone/god",
+        "their/face:pl",
+        "their/back:pl"
+      ],
+      "29:7": [
+        "kjv_porch",
+        "extinguish:perf",
+        "burn:neg:perf nor"
+      ],
+      "29:8": [
+        "kjv_trouble",
+        "astonish:ev",
+        "kjv_hiss:ev",
+        "your/eye:pl"
+      ],
+      "29:9": [
+        "ourone/son:pl",
+        "ourone/daughter:pl",
+        "ourone/wife:pl",
+        "kjv_captivity"
+      ],
+      "29:10": [
+        "my/heart",
+        "kjv_covenant",
+        "away from wesg:a"
+      ],
+      "29:11": [
+        "mypl/son:pl",
+        "neglect:adj be:neg:imp",
+        "attend:should"
+      ],
+      "29:12": [
+        "kjv_mahath_amasai son of kjv_amasai_mahath",
+        "kjv_joel_azariah_cleanser son of kjv_azariah_joel_cleanser",
+        "kjv_kish_abdi son of kjv_abdi_kish",
+        "kjv_azariah_jehalelel son of kjv_jehalelel",
+        "kjv_joah_zimmah_cleanser son of kjv_zimmah_joah_cleanser",
+        "kjv_eden_joah son of kjv_joah_eden"
+      ],
+      "29:13": [
+        "kjv_elizaphan",
+        "kjv_shimri_cleanser",
+        "kjv_jeiel_cleanser",
+        "kjv_zechariah_asaph_cleanser",
+        "kjv_mattaniah_cleanser"
+      ],
+      "29:14": [
+        "kjv_heman_singer",
+        "kjv_jehiel_heman_cleanser",
+        "kjv_shimei_heman_cleanser",
+        "kjv_jeduthun",
+        "kjv_shemaiah_jeduthun_cleanser",
+        "kjv_uzziel_jeduthun_cleanser"
+      ],
+      "29:15": [
+        "their/brother:pl",
+        "command of king",
+        "word:pl of kjv_lord"
+      ],
+      "29:16": [
+        "kjv_impurity_ritual",
+        "kjv_court_enclosure",
+        "brook kjv_kidron"
+      ],
+      "29:17": [
+        "first day of first month",
+        "eight:ord day",
+        "in eight day:pl",
+        "sixteen:ord day of first month"
+      ],
+      "29:18": [
+        "wesg",
+        "kjv_shewbread kjv_table_furniture",
+        "all its/vessel:pl"
+      ],
+      "29:19": [
+        "all vessel:pl:a",
+        "kjv_ahaz_jotham",
+        "wesg prepare:perf and kjv_hallow:perf"
+      ],
+      "29:20": [
+        "early rise:pa",
+        "ruler:pl of city"
+      ],
+      "29:21": [
+        "seven kjv_bullock:pl and seven kjv_ram:pl and seven kjv_lamb:pl and seven he kjv_goat:pl",
+        "kingdom",
+        "kjv_sanctuary",
+        "son:pl of kjv_aaron"
+      ],
+      "29:22": [
+        "kjv_bullock:pl:a kill:pa",
+        "kjv_ram:pl:a kill:pp",
+        "kjv_lamb:pl:a kill:pa",
+        "kjv_sprinkle:pa"
+      ],
+      "29:23": [
+        "king and kjv_congregation",
+        "their/hand:pl:a upon they lay:pa"
+      ],
+      "29:24": [
+        "kjv_reconcile_ritual:ev",
+        "kjv_atonement",
+        "for all kjv_israel",
+        "make:psv:should"
+      ],
+      "29:25": [
+        "kjv_cymbal:pl",
+        "kjv_psaltery:pl",
+        "kjv_gad_prophet kjv_seer",
+        "kjv_nathan_prophet"
+      ],
+      "29:26": [
+        "instrument:pl of kjv_david",
+        "priest:pl with trumpet:pl"
+      ],
+      "29:27": [
+        "when burn:psv kjv_offering begin:pa",
+        "song of kjv_lord also",
+        "kjv_ordain:psv"
+      ],
+      "29:28": [
+        "all kjv_congregation worship:pa",
+        "singer:pl sing:pa",
+        "trumpet:ag:pl sound:pa",
+        "until"
+      ],
+      "29:29": [
+        "end of offer:ev",
+        "all who with he present",
+        "bow:pa and worship:pa"
+      ],
+      "29:30": [
+        "word:pl of kjv_david",
+        "kjv_asaph_singer kjv_seer",
+        "with glad:ev"
+      ],
+      "29:31": [
+        "thank kjv_offering:pl",
+        "as many as of free heart"
+      ],
+      "29:32": [
+        "kjv_three+twenty and ten kjv_bullock:pl",
+        "hundred kjv_ram:pl",
+        "two+hundred kjv_lamb:pl"
+      ],
+      "29:33": [
+        "six+hundred ox:pl",
+        "kjv_three+thousand sheep"
+      ],
+      "29:34": [
+        "too few",
+        "kjv_flay:neg:pa:can",
+        "more kjv_uprightness:adj",
+        "than priest:pl"
+      ],
+      "29:35": [
+        "kjv_fat",
+        "drink kjv_offering:pl for each",
+        "in order set:psv:pa"
+      ],
+      "29:36": [
+        "god people:a prepare:pp",
+        "suddenly do:psv:pa"
+      ],
+      "30:1": [
+        "all kjv_israel and kjv_judah",
+        "kjv_ephraim and kjv_manasseh",
+        "kjv_passover"
+      ],
+      "30:2": [
+        "king and his/prince:pl and all kjv_congregation",
+        "second month"
+      ],
+      "30:3": [
+        "keep:neg:pa:can",
+        "enough kjv_hallow:neg:pp",
+        "neither people"
+      ],
+      "30:4": [
+        "king and all kjv_congregation:a glad:caus:pa"
+      ],
+      "30:5": [
+        "kjv_beersheba even to kjv_dan",
+        "of long time",
+        "do:neg:pp"
+      ],
+      "30:6": [
+        "messenger:pl with letter:pl",
+        "kjv_abraham kjv_isaac and kjv_israel",
+        "remain:cv part",
+        "king:pl of kjv_assyria"
+      ],
+      "30:7": [
+        "your/father:pl",
+        "your/brother:pl",
+        "kjv_desolate:ev"
+      ],
+      "30:8": [
+        "kjv_stiffnecked be:neg:imp",
+        "yourselves:a to kjv_lord yield:imp",
+        "forever kjv_hallow:perf"
+      ],
+      "30:9": [
+        "if you:pl",
+        "your/brother:pl and your/child:pl",
+        "captive lead:pr",
+        "his/face:a",
+        "turn:neg:fu"
+      ],
+      "30:10": [
+        "from city to city",
+        "kjv_zebulun",
+        "to scorn laugh:pa",
+        "mock:pa"
+      ],
+      "30:11": [
+        "some of kjv_asher and kjv_manasseh",
+        "kjv_zebulun",
+        "humble:pa"
+      ],
+      "30:12": [
+        "one_num heart:a",
+        "king and of prince:pl",
+        "word of kjv_lord"
+      ],
+      "30:13": [
+        "without kjv_leaven bread",
+        "second month",
+        "very great"
+      ],
+      "30:14": [
+        "all altar:pl for kjv_incense",
+        "brook kjv_kidron"
+      ],
+      "30:15": [
+        "fourteen:ord day of second month",
+        "ashamed",
+        "kjv_hallow:pa"
+      ],
+      "30:16": [
+        "law of kjv_moses",
+        "priest:pl blood:a kjv_sprinkle:pa",
+        "hand of kjv_levite:pl"
+      ],
+      "30:17": [
+        "kjv_hallow:psv:neg:pa",
+        "kjv_passover:pl",
+        "each person who kjv_clean_ritual be:neg:pa"
+      ],
+      "30:18": [
+        "kjv_ephraim and kjv_manasseh kjv_issachar and kjv_zebulun",
+        "otherwise than",
+        "each person:a pardon:opt"
+      ],
+      "30:19": [
+        "who his/heart:a prepare:pr",
+        "though",
+        "kjv_sanctuary",
+        "purify:psv:neg:pr"
+      ],
+      "30:20": [
+        "heed:pa",
+        "people:a heal:pa"
+      ],
+      "30:21": [
+        "present be:pa",
+        "seven day:pl",
+        "day by day",
+        "loud instrument:pl"
+      ],
+      "30:22": [
+        "comfort:cv",
+        "good knowledge",
+        "seven day:pl",
+        "confession:a"
+      ],
+      "30:23": [
+        "other seven day:pl keep:inf",
+        "other seven day:pl with glad:ev keep:pa"
+      ],
+      "30:24": [
+        "thousand kjv_bullock:pl and seven+thousand sheep",
+        "thousand kjv_bullock:pl and ten+thousand sheep",
+        "great kjv_number"
+      ],
+      "30:25": [
+        "kjv_congregation of kjv_judah",
+        "out of kjv_israel",
+        "stranger:pl",
+        "in kjv_judah dwell:pa"
+      ],
+      "30:26": [
+        "since time of kjv_solomon",
+        "not like this"
+      ],
+      "30:27": [
+        "priest:pl kjv_levite:pl",
+        "their/voice hear:psv:pa",
+        "their/prayer",
+        "even to heaven"
+      ],
+      "31:1": [
+        "all kjv_israel who present",
+        "kjv_grove_cult:pl",
+        "kjv_ephraim and kjv_manasseh",
+        "entirely destroy:pp",
+        "each man to his/kjv_possession"
+      ],
+      "31:2": [
+        "kjv_service_order:pl",
+        "each man",
+        "gate:pl of tent:pl"
+      ],
+      "31:3": [
+        "king:poss kjv_portion_share of his/kjv_goods",
+        "morning and evening",
+        "kjv_sabbath:pl",
+        "new moon:pl",
+        "set:psv feast:pl"
+      ],
+      "31:4": [
+        "kjv_portion_share of priest:pl and kjv_levite:pl",
+        "encourage:psv:may"
+      ],
+      "31:5": [
+        "first+fruit:pl of corn wine and oil and honey",
+        "tithe of all thing:pl"
+      ],
+      "31:6": [
+        "tithe of ox:pl and sheep",
+        "tithe of holy thing:pl",
+        "kjv_heap:pl"
+      ],
+      "31:7": [
+        "third month",
+        "seven:ord month"
+      ],
+      "31:8": [
+        "kjv_heap:pl:a see:pa",
+        "kjv_lord and his/people kjv_israel:a bless:pa"
+      ],
+      "31:9": [
+        "about kjv_heap:pl question:pa"
+      ],
+      "31:10": [
+        "kjv_azariah_hezekiah_priest",
+        "kjv_zadok",
+        "wepl enough:a to eat:inf",
+        "this great store"
+      ],
+      "31:11": [
+        "chamber:pl:a",
+        "prepare:inf command:pa",
+        "prepare:pa"
+      ],
+      "31:12": [
+        "faithfully",
+        "kjv_cononiah",
+        "kjv_shimei_cononiah his/brother next"
+      ],
+      "31:13": [
+        "kjv_jehiel_store",
+        "kjv_azaziah_store",
+        "kjv_nahath_store",
+        "kjv_asahel_store",
+        "kjv_jerimoth_store",
+        "kjv_jozabad_store",
+        "kjv_eliel_store",
+        "kjv_ismachiah",
+        "kjv_mahath_store",
+        "kjv_benaiah_store",
+        "kjv_azariah_hezekiah_priest"
+      ],
+      "31:14": [
+        "kjv_kore_imnah son of kjv_imnah_kore",
+        "kjv_gatekeeper towards east",
+        "willing kjv_offering:pl",
+        "most holy"
+      ],
+      "31:15": [
+        "kjv_eden_distributor",
+        "kjv_miniamin",
+        "kjv_jeshua_distributor",
+        "kjv_shemaiah_distributor",
+        "kjv_amariah_distributor",
+        "kjv_shecaniah_distributor",
+        "to great as to small"
+      ],
+      "31:16": [
+        "kjv_male:pl from kjv_three year:pl old and above",
+        "his/daily kjv_portion_share"
+      ],
+      "31:17": [
+        "kjv_levite:pl from twenty year:pl old and above",
+        "their/kjv_service_order:pl"
+      ],
+      "31:18": [
+        "little child:pl",
+        "their/wife:pl",
+        "their/son:pl",
+        "their/daughter:pl",
+        "in holy:ev"
+      ],
+      "31:19": [
+        "kjv_suburbs_field:pl",
+        "each separate:adj city",
+        "by name express:psv:pa",
+        "kjv_genealogy:pl"
+      ],
+      "31:20": [
+        "good and kjv_right_conduct and truth"
+      ],
+      "31:21": [
+        "service of house of god",
+        "law and in command:pl",
+        "all his/heart",
+        "prosper:pa"
+      ],
+      "32:1": [
+        "after these thing:pl",
+        "kjv_sennacherib",
+        "for himself win:inf"
+      ],
+      "32:2": [
+        "against kjv_jerusalem fight:inf intend:pp"
+      ],
+      "32:3": [
+        "water:pl of fountain:pl:a stop:inf",
+        "outside city",
+        "help:pa"
+      ],
+      "32:4": [
+        "all fountain:pl and brook",
+        "king:pl of kjv_assyria",
+        "much water"
+      ],
+      "32:5": [
+        "another wall outside",
+        "kjv_millo_jerusalem",
+        "kjv_dart:pl and shield:pl"
+      ],
+      "32:6": [
+        "captain:pl of war",
+        "street of gate",
+        "comfort:cv"
+      ],
+      "32:7": [
+        "afraid nor kjv_dismay:psv be:neg:imp",
+        "more with wesg",
+        "than with he"
+      ],
+      "32:8": [
+        "arm of flesh",
+        "with wesg",
+        "ourone/god",
+        "ourone/battle:pl",
+        "rest:pa"
+      ],
+      "32:9": [
+        "kjv_lachish siege",
+        "all his/power",
+        "all kjv_judah"
+      ],
+      "32:10": [
+        "upon what you:pl trust:pr",
+        "in siege"
+      ],
+      "32:11": [
+        "kjv_famine and by thirst",
+        "ourone/god wesg:a",
+        "deliver:fu?"
+      ],
+      "32:12": [
+        "take:neg:perf away",
+        "one_num altar",
+        "burn:fu?"
+      ],
+      "32:13": [
+        "ipl and mypl/father:pl",
+        "out of mypl/hand",
+        "deliver:pa:can?"
+      ],
+      "32:14": [
+        "mypl/father:pl entirely destroy:pa",
+        "deliver:inf able be:should?"
+      ],
+      "32:15": [
+        "deceive:neg:opt nor",
+        "neither yet he:a believe:imp",
+        "no god of any nation",
+        "mypl/father:pl",
+        "how much less"
+      ],
+      "32:16": [
+        "yet more against",
+        "his/servant kjv_hezekiah_ahaz"
+      ],
+      "32:17": [
+        "letter:pl:a write:pa",
+        "rail:inf",
+        "mypl/hand",
+        "deliver:neg:perf",
+        "deliver:neg:fu"
+      ],
+      "32:18": [
+        "speech of kjv_jew:pl",
+        "frighten:inf",
+        "distress:inf",
+        "city:a take:may"
+      ],
+      "32:19": [
+        "god of kjv_jerusalem",
+        "as against god:pl",
+        "work of hand:pl of man"
+      ],
+      "32:20": [
+        "kjv_isaiah son of kjv_amoz",
+        "pray:pa and to heaven cry:pa"
+      ],
+      "32:21": [
+        "angel:a",
+        "lead:ag:pl and captain:pl",
+        "shame of face",
+        "his/own kjv_bowels",
+        "there with sword slay:pa"
+      ],
+      "32:22": [
+        "hand of all other",
+        "on each side guide:pa"
+      ],
+      "32:23": [
+        "gift:pl:a to kjv_lord",
+        "gift:pl:a to kjv_hezekiah_ahaz",
+        "kjv_exalt:psv:pa"
+      ],
+      "32:24": [
+        "sick to death",
+        "pray:pa",
+        "sign:a give:pa"
+      ],
+      "32:25": [
+        "benefit to he do:psv again give:neg:pa",
+        "his/heart up lift:psv:pa",
+        "upon kjv_judah and kjv_jerusalem"
+      ],
+      "32:26": [
+        "both he and inhabit:ag:pl",
+        "in day:pl of kjv_hezekiah_ahaz come:neg:pa"
+      ],
+      "32:27": [
+        "kjv_treasury:pl",
+        "spice:pl",
+        "shield:pl",
+        "delight:adj jewel:pl"
+      ],
+      "32:28": [
+        "corn and wine and oil",
+        "stall:pl",
+        "enclosure:pl"
+      ],
+      "32:29": [
+        "city:pl",
+        "flock:pl and herd:pl",
+        "kjv_goods"
+      ],
+      "32:30": [
+        "kjv_upper water+path of kjv_gihon_accession",
+        "west side",
+        "all his/work:pl"
+      ],
+      "32:31": [
+        "kjv_ambassador:pl of prince:pl of kjv_babylon",
+        "god he:a leave:pa to he:a try:inf",
+        "all:a which in his/heart be:pa know:may"
+      ],
+      "32:32": [
+        "remain:cv part of act:pl",
+        "vision of kjv_isaiah",
+        "book of king:pl"
+      ],
+      "32:33": [
+        "most chief of tomb:pl",
+        "son:pl of kjv_david",
+        "at his/death",
+        "kjv_manasseh_hezekiah"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "29:5"
+      ],
+      "ipl": [
+        "32:13"
+      ],
+      "mypl": [
+        "29:11",
+        "32:13",
+        "32:14",
+        "32:15",
+        "32:17"
+      ],
+      "iplself": [],
+      "wesg": [
+        "29:10",
+        "29:18",
+        "29:19",
+        "32:11",
+        "32:7",
+        "32:8"
+      ],
+      "wepl": [
+        "31:10"
+      ],
+      "ourone": [
+        "29:6",
+        "29:9",
+        "32:11",
+        "32:8"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Age25/reign29;firstyear/firstmonth;day1/month1,day8,eightdays,day16/month1;four groups of seven;70/100/200 offerings;600oxen/3000sheep;month2/day14;seven original days plus seven added days;two donors1000/7000 and1000/10000;month3/month7;male-age3/Levite-age20;oneheart/onealtar. Tithe retains inherited tenth-share lexeme; no185000death count or15years imported."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Service-body singular-we versus plural fed people; imperial plural-I and embedded quotation of defensive singular-we. No invented Trinity count.",
+      "Twenty contextual remainder-sense repairs in new copies of seven ledgers; all other inherited targets exact. Earlier seals and frozen Jonah remain unchanged.",
+      "Source awkward testing-to-know purpose, cult terminology, family rosters and chronology retained. Entire Bible incomplete."
+    ]
+  },
+  "nativeLayouts": {
+    "chronicles2": {
+      "book": "2 Chronicles — incomplete Bible working text",
+      "pages": 592,
+      "spreads": 296,
+      "units": 714,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "3827edfaeb58179939a6c2dac04d46fc81d6eb4d8a44d6b86edbc6e412212a96",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 296,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "chronicles1": {
+      "book": "1 Chronicles — incomplete Bible working text",
+      "pages": 524,
+      "spreads": 262,
+      "units": 942,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "d95465cafe4db78a757f2a5c3b4cbaf94b44f5101c865c07adaaa9387d5bf906",
+      "maxBaselineErrorPt": 0.011718749999957367,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 262,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "numbers": {
+      "book": "Numbers — incomplete Bible working text",
+      "pages": 830,
+      "spreads": 415,
+      "units": 1288,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "b2edc7791a7e89e92c9cab6759c24d76b7fa7b3a9a290a352201d624f6174199",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 415,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "exodus": {
+      "book": "Exodus — incomplete Bible working text",
+      "pages": 856,
+      "spreads": 428,
+      "units": 1213,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "5d69c5730d924959e1019809b8c2f7738161ffb011e144f6d1c9d57dc5957fe7",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 428,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "leviticus": {
+      "book": "Leviticus — incomplete Bible working text",
+      "pages": 638,
+      "spreads": 319,
+      "units": 859,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "acece7c9de894107116d7e27cab2a67fa2300ea2b37ae14e30523e109024b27b",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.514160000000004,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 319,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "deuteronomy": {
+      "book": "Deuteronomy — incomplete Bible working text",
+      "pages": 732,
+      "spreads": 366,
+      "units": 959,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "e71f451a8ae07c3d5a3604d569192d12864ed9887d48ebc7e684b13e54c3dad2",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 366,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "joshua": {
+      "book": "Joshua — incomplete Bible working text",
+      "pages": 484,
+      "spreads": 242,
+      "units": 658,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "04524ad57a4e8bfbc78fb5c8384faae56437b88c67cc4fd9e13819b1766efae3",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 242,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    }
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.266,
+    "modules": [
+      "tests.test_kjv_chronicles_service_body",
+      "tests.test_kjv_chronicles_paid_armies",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": {
+    "chronicles2": [
+      591,
+      592
+    ]
+  },
+  "status": "incomplete Bible;117newverses and20contextualremainder repairs verified in neweditions;oldsealsunchanged"
+}

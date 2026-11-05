@@ -1,0 +1,27 @@
+# Historical KJV 136: answering plural selves, mortal lament and communal song
+
+This continuation adds99 verses,Isaiah37–40. Isaiah reaches797 verses and whole-Bible coverage reaches18,500/31,102 after validation;12,602 remain. Three common entries and two proper written variants are added. Earlier seals,all inherited targets,the corrected Proverbs copy and frozen Jonah remain unchanged. The whole Bible remains incomplete.
+
+## Imperial and divine plural-I can answer one another
+The LORD's plural-I is explicit in37:6–7 and resumes in37:21. The imperial boast quoted in37:24–25 also uses plural-I with my-plural chariots and feet. Verse26 changes the referent back to the deity while preserving the same pronoun form; the source's unmarked boundary remains unlabelled in the running text but is documented here. Divine plural-I continues through37:28–29/35 and38:5–6/8. This shared grammatical form is not a claim that king and deity are the same entity. The distinction is carried by discourse and attribution rather than arbitrary changes of pronoun inventory.
+
+## Personal mortality, public royalty and the community
+Hezekiah's prayer38:3 and illness poem38:10–19 use personal-I for pain,loss,pleading and threatened death. The poem's own I/he/thou shifts38:12–13 remain. In38:20 the personal saved singer's my songs become the singular-we community's performance for our-one lifetime. The rescue prayer37:20 likewise speaks singular-we. Public reception and royal holdings39:3–4 use institutional plural-I/my-plural,while my days39:8 returns to the individual's lifetime. Jacob/Israel's complaint40:27 uses corporate my-plural for the named community; the speaking Holy One40:25 uses divine plural-I. These selves are related by grammatical categories without being conflated philosophically.
+
+## Parallel texts retain their own words
+Isaiah37–39 was compared with2Kings19–20. Ten supplied source verses are exact matches; nine reuse their checked analyses,while37:23 now uses the explicit Holy-One lexical title instead of a bare one token in this new copy only. The earlier sealed text is untouched. Distinct Isaiah readings remain: servants and border-height37:24,water without foreign37:25,then without that-night37:36,the shortened prayer37:20 and reply37:21,the15-year promise without a third-day temple visit38:5,the final subject sun38:8,glad rather than listened39:2,and a statement rather than a question39:8. The larger illness poem has no equivalent inserted from the parallel.
+
+## Historical vocabulary is contextual
+Crane-bird distinguishes the creature38:14 from machinery; swallow uses the already-established swallow-bird sense,not ingestion. Poultice distinguishes the medicinal plaister38:21 from building plaster and reuses the existing boil-lesion sense. Plant-stock40:24 distinguishes rooted vegetation from inventory or financial shares. Telassar and Merodachbaladan preserve Isaiah's written forms beside the earlier Thelasar and Berodachbaladan forms; their supplied contextual identities are documented without inventing extra places or people. The same dictionary supplies the restraint hook37:29,shadow-degrees38:8,span40:12 and bucket40:15.
+
+## Awkward theology stays unresolved
+Thou alone37:16 and thou only37:20 remain exclusivity claims beside a deity who elsewhere speaks as plural-I. Death and not-life38:1 are announced without an inserted condition,then the narrative grants added years. The grave cannot praise and pit-goers cannot hope38:18 remain beside the archive's other,conflicting death language. The speaker says he has cut off his life like a weaver38:12 yet also accuses he/thou of ending him. Double for sins40:2 and nations less than nothing40:17 remain troubling source claims. Notes carry interpretation; the target does not repair these statements into a comfortable theology.
+
+## Numbers, limits and generic one
+The explicit quantities are second/third years37:30,185000struck37:36,fifteen added years38:5,two occurrences of ten shadow-degrees38:8,double repayment40:2 and not one failing40:26. This year is not an extra stated numeral. Holy One is a lexical title,not a count. Every/everywhere and repeated roles do not manufacture cardinal totals. Preserve the source's plural shields37:33 and the inherited Unta numerical system; never insert an unsupported exclamation glyph for vocatives or emphasis.
+
+## Repetition and source order remain purposeful
+Both day-to-night clauses38:12–13 are identical. The living,the living38:19,comfort comfort40:1,grass-withers/flower-fades40:7–8,and the four questions40:21 remain explicit repetitions. The voice's personal-I question40:6 is not assigned an invented named herald. Zion and Jerusalem are the tidings bringers in40:9 as supplied,not silently changed to recipients. Circle of the earth40:22 remains the text's image without a modern cosmological conclusion. The actual four-column paragraph starts continue to align without flattening these rhetorical structures.
+
+## Validation and onward work
+Every new source unit has analysis,back-reading,notes and critical anchors. Check exact parallel-account reuse,deliberate new-copy changes,numbers,pronoun reference sets,new senses and unchanged inherited targets. Native composition retains the approved geometry,50/22ptfonts,38ptleading,24ptafter-spacing,Maxima,aligned starts and Unta50pt/28ptinset. Save/reopen and regression tests establish structural reproducibility,not independent literary certification. Continue atIsaiah41:1 toward the entire66-section Bible in one.vay.

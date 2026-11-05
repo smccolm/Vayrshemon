@@ -1,0 +1,2462 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.34",
+    "parentVersion": "0.10-kjv.33",
+    "parentHead": "9db5431949fb7bda4e291b90bc1bec0da0d64c0703f132789b4ee564894b8028",
+    "head": "acaa0599d0e0a89a1c3ac8ffe5a61565720ae899a4006fc71d9d7c4997e6a91d",
+    "newLexicalEntries": 189,
+    "newProperEntries": 183,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 172,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 85,
+    "exactCompilerCases": 167,
+    "newAuthoredVerses": 167,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 470,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 24732,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJoshuaVerses": 167,
+    "revisedPreviousTargetVerses": 0,
+    "authoredVerses": 6370,
+    "remainingVerses": 24732,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 109,
+    "quantityChecks": [
+      {
+        "reference": "Joshua 1:11",
+        "source": "Pass through the host, and command the people, saying, Prepare you victuals; for within three days ye shall pass over this Jordan, to go in to possess the land, which the LORD your God giveth you to possess it.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 1:12",
+        "source": "And to the Reubenites, and to the Gadites, and to half the tribe of Manasseh, spake Joshua, saying,",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 2:1",
+        "source": "And Joshua the son of Nun sent out of Shittim two men to spy secretly, saying, Go view the land, even Jericho. And they went, and came into an harlot’s house, named Rahab, and lodged there.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 2:4",
+        "source": "And the woman took the two men, and hid them, and said thus, There came men unto me, but I wist not whence they were:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 2:10",
+        "source": "For we have heard how the LORD dried up the water of the Red sea for you, when ye came out of Egypt; and what ye did unto the two kings of the Amorites, that were on the other side Jordan, Sihon and Og, whom ye utterly destroyed.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 2:16",
+        "source": "And she said unto them, Get you to the mountain, lest the pursuers meet you; and hide yourselves there three days, until the pursuers be returned: and afterward may ye go your way.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 2:22",
+        "source": "And they went, and came unto the mountain, and abode there three days, until the pursuers were returned: and the pursuers sought them throughout all the way, but found them not.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 2:23",
+        "source": "So the two men returned, and descended from the mountain, and passed over, and came to Joshua the son of Nun, and told him all things that befell them:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 3:2",
+        "source": "And it came to pass after three days, that the officers went through the host;",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 3:4",
+        "source": "Yet there shall be a space between you and it, about two thousand cubits by measure: come not near unto it, that ye may know the way by which ye must go: for ye have not passed this way heretofore.",
+        "expectedDecimalQuantities": [
+          2000
+        ],
+        "targetQuantities": [
+          2000
+        ]
+      },
+      {
+        "reference": "Joshua 3:12",
+        "source": "Now therefore take you twelve men out of the tribes of Israel, out of every tribe a man.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:2",
+        "source": "Take you twelve men out of the people, out of every tribe a man,",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:3",
+        "source": "And command ye them, saying, Take you hence out of the midst of Jordan, out of the place where the priests’ feet stood firm, twelve stones, and ye shall carry them over with you, and leave them in the lodging place, where ye shall lodge this night.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:4",
+        "source": "Then Joshua called the twelve men, whom he had prepared of the children of Israel, out of every tribe a man:",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:8",
+        "source": "And the children of Israel did so as Joshua commanded, and took up twelve stones out of the midst of Jordan, as the LORD spake unto Joshua, according to the number of the tribes of the children of Israel, and carried them over with them unto the place where they lodged, and laid them down there.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:9",
+        "source": "And Joshua set up twelve stones in the midst of Jordan, in the place where the feet of the priests which bare the ark of the covenant stood: and they are there unto this day.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 4:12",
+        "source": "And the children of Reuben, and the children of Gad, and half the tribe of Manasseh, passed over armed before the children of Israel, as Moses spake unto them:",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 4:13",
+        "source": "About forty thousand prepared for war passed over before the LORD unto battle, to the plains of Jericho.",
+        "expectedDecimalQuantities": [
+          40000
+        ],
+        "targetQuantities": [
+          40000
+        ]
+      },
+      {
+        "reference": "Joshua 4:19",
+        "source": "And the people came up out of Jordan on the tenth day of the first month, and encamped in Gilgal, in the east border of Jericho.",
+        "expectedDecimalQuantities": [
+          10,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 4:20",
+        "source": "And those twelve stones, which they took out of Jordan, did Joshua pitch in Gilgal.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 5:2",
+        "source": "At that time the LORD said unto Joshua, Make thee sharp knives, and circumcise again the children of Israel the second time.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 5:6",
+        "source": "For the children of Israel walked forty years in the wilderness, till all the people that were men of war, which came out of Egypt, were consumed, because they obeyed not the voice of the LORD: unto whom the LORD sware that he would not shew them the land, which the LORD sware unto their fathers that he would give us, a land that floweth with milk and honey.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Joshua 5:10",
+        "source": "And the children of Israel encamped in Gilgal, and kept the passover on the fourteenth day of the month at even in the plains of Jericho.",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      },
+      {
+        "reference": "Joshua 6:3",
+        "source": "And ye shall compass the city, all ye men of war, and go round about the city once. Thus shalt thou do six days.",
+        "expectedDecimalQuantities": [
+          1,
+          6
+        ],
+        "targetQuantities": [
+          1,
+          6
+        ]
+      },
+      {
+        "reference": "Joshua 6:4",
+        "source": "And seven priests shall bear before the ark seven trumpets of rams’ horns: and the seventh day ye shall compass the city seven times, and the priests shall blow with the trumpets.",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:6",
+        "source": "And Joshua the son of Nun called the priests, and said unto them, Take up the ark of the covenant, and let seven priests bear seven trumpets of rams’ horns before the ark of the LORD.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:8",
+        "source": "And it came to pass, when Joshua had spoken unto the people, that the seven priests bearing the seven trumpets of rams’ horns passed on before the LORD, and blew with the trumpets: and the ark of the covenant of the LORD followed them.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:11",
+        "source": "So the ark of the LORD compassed the city, going about it once: and they came into the camp, and lodged in the camp.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 6:13",
+        "source": "And seven priests bearing seven trumpets of rams’ horns before the ark of the LORD went on continually, and blew with the trumpets: and the armed men went before them; but the rereward came after the ark of the LORD, the priests going on, and blowing with the trumpets.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:14",
+        "source": "And the second day they compassed the city once, and returned into the camp: so they did six days.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          6
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          6
+        ]
+      },
+      {
+        "reference": "Joshua 6:15",
+        "source": "And it came to pass on the seventh day, that they rose early about the dawning of the day, and compassed the city after the same manner seven times: only on that day they compassed the city seven times.",
+        "expectedDecimalQuantities": [
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:16",
+        "source": "And it came to pass at the seventh time, when the priests blew with the trumpets, Joshua said unto the people, Shout; for the LORD hath given you the city.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 6:22",
+        "source": "But Joshua had said unto the two men that had spied out the country, Go into the harlot’s house, and bring out thence the woman, and all that she hath, as ye sware unto her.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 7:3",
+        "source": "And they returned to Joshua, and said unto him, Let not all the people go up; but let about two or three thousand men go up and smite Ai; and make not all the people to labour thither; for they are but few.",
+        "expectedDecimalQuantities": [
+          2000,
+          3000
+        ],
+        "targetQuantities": [
+          2000,
+          3000
+        ]
+      },
+      {
+        "reference": "Joshua 7:4",
+        "source": "So there went up thither of the people about three thousand men: and they fled before the men of Ai.",
+        "expectedDecimalQuantities": [
+          3000
+        ],
+        "targetQuantities": [
+          3000
+        ]
+      },
+      {
+        "reference": "Joshua 7:5",
+        "source": "And the men of Ai smote of them about thirty and six men: for they chased them from before the gate even unto Shebarim, and smote them in the going down: wherefore the hearts of the people melted, and became as water.",
+        "expectedDecimalQuantities": [
+          36
+        ],
+        "targetQuantities": [
+          36
+        ]
+      },
+      {
+        "reference": "Joshua 7:21",
+        "source": "When I saw among the spoils a goodly Babylonish garment, and two hundred shekels of silver, and a wedge of gold of fifty shekels weight, then I coveted them, and took them; and, behold, they are hid in the earth in the midst of my tent, and the silver under it.",
+        "expectedDecimalQuantities": [
+          200,
+          50
+        ],
+        "targetQuantities": [
+          200,
+          50
+        ]
+      },
+      {
+        "reference": "Joshua 8:3",
+        "source": "So Joshua arose, and all the people of war, to go up against Ai: and Joshua chose out thirty thousand mighty men of valour, and sent them away by night.",
+        "expectedDecimalQuantities": [
+          30000
+        ],
+        "targetQuantities": [
+          30000
+        ]
+      },
+      {
+        "reference": "Joshua 8:5",
+        "source": "And I, and all the people that are with me, will approach unto the city: and it shall come to pass, when they come out against us, as at the first, that we will flee before them,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 8:6",
+        "source": "(For they will come out after us) till we have drawn them from the city; for they will say, They flee before us, as at the first: therefore we will flee before them.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 8:12",
+        "source": "And he took about five thousand men, and set them to lie in ambush between Bethel and Ai, on the west side of the city.",
+        "expectedDecimalQuantities": [
+          5000
+        ],
+        "targetQuantities": [
+          5000
+        ]
+      },
+      {
+        "reference": "Joshua 8:25",
+        "source": "And so it was, that all that fell that day, both of men and women, were twelve thousand, even all the men of Ai.",
+        "expectedDecimalQuantities": [
+          12000
+        ],
+        "targetQuantities": [
+          12000
+        ]
+      },
+      {
+        "reference": "Joshua 8:33",
+        "source": "And all Israel, and their elders, and officers, and their judges, stood on this side the ark and on that side before the priests the Levites, which bare the ark of the covenant of the LORD, as well the stranger, as he that was born among them; half of them over against mount Gerizim, and half of them over against mount Ebal; as Moses the servant of the LORD had commanded before, that they should bless the people of Israel.",
+        "expectedDecimalQuantities": [
+          0.5,
+          0.5
+        ],
+        "targetQuantities": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 9:2",
+        "source": "That they gathered themselves together, to fight with Joshua and with Israel, with one accord.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 9:10",
+        "source": "And all that he did to the two kings of the Amorites, that were beyond Jordan, to Sihon king of Heshbon, and to Og king of Bashan, which was at Ashtaroth.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 9:16",
+        "source": "And it came to pass at the end of three days after they had made a league with them, that they heard that they were their neighbours, and that they dwelt among them.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 9:17",
+        "source": "And the children of Israel journeyed, and came unto their cities on the third day. Now their cities were Gibeon, and Chephirah, and Beeroth, and Kirjathjearim.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 10:2",
+        "source": "That they feared greatly, because Gibeon was a great city, as one of the royal cities, and because it was greater than Ai, and all the men thereof were mighty.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 10:5",
+        "source": "Therefore the five kings of the Amorites, the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, the king of Eglon, gathered themselves together, and went up, they and all their hosts, and encamped before Gibeon, and made war against it.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Joshua 10:16",
+        "source": "But these five kings fled, and hid themselves in a cave at Makkedah.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Joshua 10:17",
+        "source": "And it was told Joshua, saying, The five kings are found hid in a cave at Makkedah.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Joshua 10:22",
+        "source": "Then said Joshua, Open the mouth of the cave, and bring out those five kings unto me out of the cave.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Joshua 10:23",
+        "source": "And they did so, and brought forth those five kings unto him out of the cave, the king of Jerusalem, the king of Hebron, the king of Jarmuth, the king of Lachish, and the king of Eglon.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Joshua 10:26",
+        "source": "And afterward Joshua smote them, and slew them, and hanged them on five trees: and they were hanging upon the trees until the evening.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Joshua 10:32",
+        "source": "And the LORD delivered Lachish into the hand of Israel, which took it on the second day, and smote it with the edge of the sword, and all the souls that were therein, according to all that he had done to Libnah.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 10:42",
+        "source": "And all these kings and their land did Joshua take at one time, because the LORD God of Israel fought for Israel.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:2",
+        "source": "Sihon king of the Amorites, who dwelt in Heshbon, and ruled from Aroer, which is upon the bank of the river Arnon, and from the middle of the river, and from half Gilead, even unto the river Jabbok, which is the border of the children of Ammon;",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 12:5",
+        "source": "And reigned in mount Hermon, and in Salcah, and in all Bashan, unto the border of the Geshurites and the Maachathites, and half Gilead, the border of Sihon king of Heshbon.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 12:6",
+        "source": "Them did Moses the servant of the LORD and the children of Israel smite: and Moses the servant of the LORD gave it for a possession unto the Reubenites, and the Gadites, and the half tribe of Manasseh.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 12:9",
+        "source": "The king of Jericho, one; the king of Ai, which is beside Bethel, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:10",
+        "source": "The king of Jerusalem, one; the king of Hebron, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:11",
+        "source": "The king of Jarmuth, one; the king of Lachish, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:12",
+        "source": "The king of Eglon, one; the king of Gezer, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:13",
+        "source": "The king of Debir, one; the king of Geder, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:14",
+        "source": "The king of Hormah, one; the king of Arad, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:15",
+        "source": "The king of Libnah, one; the king of Adullam, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:16",
+        "source": "The king of Makkedah, one; the king of Bethel, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:17",
+        "source": "The king of Tappuah, one; the king of Hepher, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:18",
+        "source": "The king of Aphek, one; the king of Lasharon, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:19",
+        "source": "The king of Madon, one; the king of Hazor, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:20",
+        "source": "The king of Shimronmeron, one; the king of Achshaph, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:21",
+        "source": "The king of Taanach, one; the king of Megiddo, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:22",
+        "source": "The king of Kedesh, one; the king of Jokneam of Carmel, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:23",
+        "source": "The king of Dor in the coast of Dor, one; the king of the nations of Gilgal, one;",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 12:24",
+        "source": "The king of Tirzah, one: all the kings thirty and one.",
+        "expectedDecimalQuantities": [
+          1,
+          31
+        ],
+        "targetQuantities": [
+          1,
+          31
+        ]
+      },
+      {
+        "reference": "Joshua 13:3",
+        "source": "From Sihor, which is before Egypt, even unto the borders of Ekron northward, which is counted to the Canaanite: five lords of the Philistines; the Gazathites, and the Ashdothites, the Eshkalonites, the Gittites, and the Ekronites; also the Avites:",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Joshua 13:7",
+        "source": "Now therefore divide this land for an inheritance unto the nine tribes, and the half tribe of Manasseh,",
+        "expectedDecimalQuantities": [
+          9,
+          0.5
+        ],
+        "targetQuantities": [
+          9,
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 13:25",
+        "source": "And their coast was Jazer, and all the cities of Gilead, and half the land of the children of Ammon, unto Aroer that is before Rabbah;",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 13:29",
+        "source": "And Moses gave inheritance unto the half tribe of Manasseh: and this was the possession of the half tribe of the children of Manasseh by their families.",
+        "expectedDecimalQuantities": [
+          0.5,
+          0.5
+        ],
+        "targetQuantities": [
+          0.5,
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 13:30",
+        "source": "And their coast was from Mahanaim, all Bashan, all the kingdom of Og king of Bashan, and all the towns of Jair, which are in Bashan, threescore cities:",
+        "expectedDecimalQuantities": [
+          60
+        ],
+        "targetQuantities": [
+          60
+        ]
+      },
+      {
+        "reference": "Joshua 13:31",
+        "source": "And half Gilead, and Ashtaroth, and Edrei, cities of the kingdom of Og in Bashan, were pertaining unto the children of Machir the son of Manasseh, even to the one half of the children of Machir by their families.",
+        "expectedDecimalQuantities": [
+          0.5,
+          1,
+          0.5
+        ],
+        "targetQuantities": [
+          0.5,
+          1,
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 14:2",
+        "source": "By lot was their inheritance, as the LORD commanded by the hand of Moses, for the nine tribes, and for the half tribe.",
+        "expectedDecimalQuantities": [
+          9,
+          0.5
+        ],
+        "targetQuantities": [
+          9,
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 14:3",
+        "source": "For Moses had given the inheritance of two tribes and an half tribe on the other side Jordan: but unto the Levites he gave none inheritance among them.",
+        "expectedDecimalQuantities": [
+          2,
+          0.5
+        ],
+        "targetQuantities": [
+          2,
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 14:4",
+        "source": "For the children of Joseph were two tribes, Manasseh and Ephraim: therefore they gave no part unto the Levites in the land, save cities to dwell in, with their suburbs for their cattle and for their substance.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 14:7",
+        "source": "Forty years old was I when Moses the servant of the LORD sent me from Kadeshbarnea to espy out the land; and I brought him word again as it was in mine heart.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Joshua 14:10",
+        "source": "And now, behold, the LORD hath kept me alive, as he said, these forty and five years, even since the LORD spake this word unto Moses, while the children of Israel wandered in the wilderness: and now, lo, I am this day fourscore and five years old.",
+        "expectedDecimalQuantities": [
+          45,
+          85
+        ],
+        "targetQuantities": [
+          45,
+          85
+        ]
+      },
+      {
+        "reference": "Joshua 15:14",
+        "source": "And Caleb drove thence the three sons of Anak, Sheshai, and Ahiman, and Talmai, the children of Anak.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 15:32",
+        "source": "And Lebaoth, and Shilhim, and Ain, and Rimmon: all the cities are twenty and nine, with their villages:",
+        "expectedDecimalQuantities": [
+          29
+        ],
+        "targetQuantities": [
+          29
+        ]
+      },
+      {
+        "reference": "Joshua 15:36",
+        "source": "And Sharaim, and Adithaim, and Gederah, and Gederothaim; fourteen cities with their villages:",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      },
+      {
+        "reference": "Joshua 15:41",
+        "source": "And Gederoth, Bethdagon, and Naamah, and Makkedah; sixteen cities with their villages:",
+        "expectedDecimalQuantities": [
+          16
+        ],
+        "targetQuantities": [
+          16
+        ]
+      },
+      {
+        "reference": "Joshua 15:44",
+        "source": "And Keilah, and Achzib, and Mareshah; nine cities with their villages:",
+        "expectedDecimalQuantities": [
+          9
+        ],
+        "targetQuantities": [
+          9
+        ]
+      },
+      {
+        "reference": "Joshua 15:51",
+        "source": "And Goshen, and Holon, and Giloh; eleven cities with their villages:",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "Joshua 15:54",
+        "source": "And Humtah, and Kirjatharba, which is Hebron, and Zior; nine cities with their villages:",
+        "expectedDecimalQuantities": [
+          9
+        ],
+        "targetQuantities": [
+          9
+        ]
+      },
+      {
+        "reference": "Joshua 15:57",
+        "source": "Cain, Gibeah, and Timnah; ten cities with their villages:",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Joshua 15:59",
+        "source": "And Maarath, and Bethanoth, and Eltekon; six cities with their villages:",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "Joshua 15:60",
+        "source": "Kirjathbaal, which is Kirjathjearim, and Rabbah; two cities with their villages:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Joshua 15:62",
+        "source": "And Nibshan, and the city of Salt, and Engedi; six cities with their villages.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "Joshua 17:5",
+        "source": "And there fell ten portions to Manasseh, beside the land of Gilead and Bashan, which were on the other side Jordan;",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Joshua 17:11",
+        "source": "And Manasseh had in Issachar and in Asher Bethshean and her towns, and Ibleam and her towns, and the inhabitants of Dor and her towns, and the inhabitants of Endor and her towns, and the inhabitants of Taanach and her towns, and the inhabitants of Megiddo and her towns, even three countries.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 17:14",
+        "source": "And the children of Joseph spake unto Joshua, saying, Why hast thou given me but one lot and one portion to inherit, seeing I am a great people, forasmuch as the LORD hath blessed me hitherto?",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 17:17",
+        "source": "And Joshua spake unto the house of Joseph, even to Ephraim and to Manasseh, saying, Thou art a great people, and hast great power: thou shalt not have one lot only:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Joshua 18:2",
+        "source": "And there remained among the children of Israel seven tribes, which had not yet received their inheritance.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 18:4",
+        "source": "Give out from among you three men for each tribe: and I will send them, and they shall rise, and go through the land, and describe it according to the inheritance of them; and they shall come again to me.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Joshua 18:5",
+        "source": "And they shall divide it into seven parts: Judah shall abide in their coast on the south, and the house of Joseph shall abide in their coasts on the north.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 18:6",
+        "source": "Ye shall therefore describe the land into seven parts, and bring the description hither to me, that I may cast lots for you here before the LORD our God.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 18:7",
+        "source": "But the Levites have no part among you; for the priesthood of the LORD is their inheritance: and Gad, and Reuben, and half the tribe of Manasseh, have received their inheritance beyond Jordan on the east, which Moses the servant of the LORD gave them.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "Joshua 18:9",
+        "source": "And the men went and passed through the land, and described it by cities into seven parts in a book, and came again to Joshua to the host at Shiloh.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Joshua 18:24",
+        "source": "And Chepharhaammonai, and Ophni, and Gaba; twelve cities with their villages:",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Joshua 18:28",
+        "source": "And Zelah, Eleph, and Jebusi, which is Jerusalem, Gibeath, and Kirjath; fourteen cities with their villages. This is the inheritance of the children of Benjamin according to their families.",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      }
+    ],
+    "quantityInterpretation": [
+      "One half in 13:31 has explicit one modifier on half, not 1.5; the lexical quantity trace records its two words separately.",
+      "Nine and half tribes versus two and half eastern tribes remain separate scopes.",
+      "Caleb 40 plus 45 elapsed years equals current 85; three quantities not confused.",
+      "Judah supplied totals 29 and 14 retained alongside every listed name; no deletion or silent total correction.",
+      "Three men per tribe is a rate, not a supplied total twenty-one.",
+      "Source three countries retained alongside six named Manasseh centers; no forced identity inference."
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "yet very much land to possess:psv:inf"
+      ],
+      "13:3": [
+        "five of kjv_philistine:pl lord:pl",
+        "also kjv_avite:pl"
+      ],
+      "13:6": [
+        "ipl drive:fu out",
+        "by kjv_lot",
+        "ipl command:perf"
+      ],
+      "13:7": [
+        "nine kjv_tribe:pl",
+        "half of kjv_manasseh"
+      ],
+      "13:12": [
+        "remain:pr part remain:pa"
+      ],
+      "13:13": [
+        "drive:pa not out",
+        "to this day dwell:pr"
+      ],
+      "13:14": [
+        "of kjv_levi kjv_tribe:pl",
+        "kjv_sacrifice:pl their/inherit:ev"
+      ],
+      "13:17": [
+        "her/city:pl",
+        "kjv_bamothbaal",
+        "kjv_bethbaalmeon"
+      ],
+      "13:18": [
+        "kjv_jahaza",
+        "kjv_mephaath"
+      ],
+      "13:19": [
+        "kjv_zarethshahar",
+        "of valley mountain"
+      ],
+      "13:21": [
+        "kjv_evi",
+        "kjv_rekem",
+        "kjv_zur",
+        "kjv_hur_midian",
+        "kjv_reba",
+        "of kjv_sihon duke:pl"
+      ],
+      "13:22": [
+        "kjv_balaam",
+        "kjv_divine:ag"
+      ],
+      "13:25": [
+        "half of of kjv_ammon child:pl land",
+        "before kjv_rabbah"
+      ],
+      "13:26": [
+        "kjv_debir_boundary"
+      ],
+      "13:27": [
+        "kjv_chinnereth",
+        "his/boundary"
+      ],
+      "13:29": [
+        "half of kjv_manasseh",
+        "half of of kjv_manasseh"
+      ],
+      "13:30": [
+        "six+ten city:pl"
+      ],
+      "13:31": [
+        "one_num half of of kjv_machir child:pl"
+      ],
+      "13:33": [
+        "kjv_lord of kjv_israel god their/inherit:ev"
+      ],
+      "14:1": [
+        "kjv_eleazar priest",
+        "kjv_joshua of kjv_nun son",
+        "father:pl head:pl"
+      ],
+      "14:3": [
+        "two kjv_tribe:pl and half"
+      ],
+      "14:4": [
+        "kjv_suburb_land",
+        "kjv_substance_estate",
+        "except city:pl"
+      ],
+      "14:6": [
+        "about i and thou"
+      ],
+      "14:7": [
+        "forty year:pl old i",
+        "in my/heart"
+      ],
+      "14:8": [
+        "heart:a melt:inf make:pa",
+        "completely i follow:pa"
+      ],
+      "14:9": [
+        "kjv_moses on that day swear:pa",
+        "kjv_lord my/god"
+      ],
+      "14:10": [
+        "forty and five",
+        "eight+ten and five"
+      ],
+      "14:12": [
+        "if so kjv_lord with i be:fu",
+        "i be:fu:can"
+      ],
+      "14:15": [
+        "kjv_arba",
+        "land from war rest:pa"
+      ],
+      "15:1": [
+        "kjv_lot_portion",
+        "kjv_zin"
+      ],
+      "15:2": [
+        "kjv_bay_water"
+      ],
+      "15:3": [
+        "round to kjv_karkaa turn:pa"
+      ],
+      "15:4": [
+        "your/kjv_south boundary"
+      ],
+      "15:7": [
+        "kjv_debir_achor",
+        "kjv_adummim",
+        "kjv_enshemesh",
+        "kjv_enrogel"
+      ],
+      "15:8": [
+        "of kjv_hinnom son valley",
+        "same kjv_jerusalem"
+      ],
+      "15:9": [
+        "kjv_ephron_mountain",
+        "kjv_baalah_place",
+        "which kjv_kirjathjearim"
+      ],
+      "15:10": [
+        "mountain kjv_jearim",
+        "kjv_chesalon"
+      ],
+      "15:13": [
+        "kjv_arba of kjv_anak father"
+      ],
+      "15:14": [
+        "kjv_three son:pl",
+        "kjv_sheshai",
+        "kjv_ahiman",
+        "kjv_talmai"
+      ],
+      "15:16": [
+        "kjv_achsah my/daughter",
+        "i give:fu"
+      ],
+      "15:17": [
+        "of kjv_kenaz son of kjv_caleb brother"
+      ],
+      "15:18": [
+        "she urge:pa",
+        "her/ass she descend:pa",
+        "what thou desire:pr"
+      ],
+      "15:19": [
+        "to i blessing",
+        "kjv_upper spring:pl and kjv_lower spring:pl"
+      ],
+      "15:25": [
+        "kjv_hazor, kjv_hadattah",
+        "kjv_hezron_place which kjv_hazor"
+      ],
+      "15:32": [
+        "twenty and nine"
+      ],
+      "15:36": [
+        "kjv_gederah and kjv_gederothaim",
+        "fourteen city:pl"
+      ],
+      "15:41": [
+        "sixteen city:pl"
+      ],
+      "15:49": [
+        "kjv_kirjathsannah which kjv_debir_city"
+      ],
+      "15:54": [
+        "kjv_kirjatharba which kjv_hebron"
+      ],
+      "15:57": [
+        "kjv_cain_city"
+      ],
+      "15:60": [
+        "kjv_kirjathbaal which kjv_kirjathjearim",
+        "kjv_rabbah_judah"
+      ],
+      "15:63": [
+        "be:pa:can not",
+        "at kjv_jerusalem to this day"
+      ],
+      "16:3": [
+        "kjv_lower kjv_bethhoron"
+      ],
+      "16:5": [
+        "kjv_upper kjv_bethhoron"
+      ],
+      "16:9": [
+        "separate city:pl",
+        "among of of kjv_manasseh"
+      ],
+      "16:10": [
+        "drive:pa not out",
+        "under kjv_tribute serve:pr"
+      ],
+      "17:1": [
+        "first+born",
+        "of war man"
+      ],
+      "17:2": [
+        "kjv_shechem_person",
+        "kjv_male child:pl"
+      ],
+      "17:3": [
+        "no son:pl but daughter:pl",
+        "kjv_noah_daughter",
+        "kjv_tirzah"
+      ],
+      "17:4": [
+        "to wepl inherit:ev",
+        "of wepl brother:pl",
+        "of their/father brother:pl"
+      ],
+      "17:5": [
+        "ten kjv_portion_share:pl",
+        "besides"
+      ],
+      "17:7": [
+        "kjv_right_side hand"
+      ],
+      "17:8": [
+        "of kjv_tappuah_city land",
+        "kjv_tappuah_city on of kjv_manasseh boundary",
+        "kjv_ephraim"
+      ],
+      "17:11": [
+        "kjv_bethshean",
+        "kjv_ibleam",
+        "kjv_dor",
+        "kjv_endor",
+        "kjv_taanach",
+        "kjv_megiddo",
+        "kjv_three country:pl"
+      ],
+      "17:12": [
+        "be:pa:can not",
+        "dwell:inf will:pa"
+      ],
+      "17:13": [
+        "kjv_tribute",
+        "completely they:a drive:pa not out"
+      ],
+      "17:14": [
+        "to ipl only one_num kjv_lot_portion and one_num kjv_portion_share",
+        "great people ipl be:pr",
+        "ipl:a until now bless:perf"
+      ],
+      "17:15": [
+        "great people thou be:pr",
+        "for thyself"
+      ],
+      "17:16": [
+        "hill for wesg enough be:pr not",
+        "of iron chariot:pl"
+      ],
+      "17:17": [
+        "to kjv_ephraim and to kjv_manasseh",
+        "great people thou be:pr"
+      ],
+      "17:18": [
+        "though of iron chariot:pl",
+        "though strong"
+      ],
+      "18:1": [
+        "kjv_tabernacle",
+        "land before they subdue:psv:pa"
+      ],
+      "18:4": [
+        "kjv_three man:pl for each kjv_tribe",
+        "they:a i send:fu"
+      ],
+      "18:6": [
+        "before kjv_lord ourone/god",
+        "kjv_lot:pl:a i cast:pr:may"
+      ],
+      "18:7": [
+        "kjv_priesthood their/inherit:ev",
+        "half of kjv_manasseh"
+      ],
+      "18:9": [
+        "seven part:pl in book",
+        "army at kjv_shiloh"
+      ],
+      "18:11": [
+        "kjv_benjamin",
+        "between of kjv_judah child:pl and of kjv_joseph"
+      ],
+      "18:13": [
+        "kjv_atarothadar",
+        "kjv_lower kjv_bethhoron"
+      ],
+      "18:14": [
+        "of sea corner",
+        "kjv_direction_quarter"
+      ],
+      "18:17": [
+        "kjv_geliloth",
+        "kjv_bohan"
+      ],
+      "18:19": [
+        "kjv_bethhoglah",
+        "kjv_north kjv_bay_water",
+        "kjv_south end"
+      ],
+      "18:24": [
+        "kjv_chepharhaammonai",
+        "twelve city:pl"
+      ],
+      "18:26": [
+        "kjv_mizpeh_benjamin"
+      ],
+      "18:27": [
+        "kjv_rekem_city"
+      ],
+      "18:28": [
+        "kjv_jebusi which kjv_jerusalem",
+        "kjv_gibeath",
+        "kjv_kirjath",
+        "fourteen city:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Compilation/layout do not prove semantic equivalence.",
+      "Whole Bible incomplete."
+    ]
+  },
+  "layout": {
+    "book": "Joshua — incomplete Bible working text",
+    "pages": 346,
+    "spreads": 173,
+    "units": 470,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "5324cb7154ad3fa914fce32ecce2714ed69179ac8231002ae3d51572271528dc",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "checks": [
+      {
+        "leftPage": 1,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 3,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 5,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 7,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 9,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 11,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 13,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 15,
+        "maxBaselineErrorPt": 0.0039062499998578915,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 17,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 19,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 21,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 23,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 25,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 27,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 29,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 31,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 33,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 35,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 37,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 39,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 41,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 43,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 45,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 47,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 49,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 51,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 53,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 55,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 57,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 59,
+        "maxBaselineErrorPt": 0.00781250000001421,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 61,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 63,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 65,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 67,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 69,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 71,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 73,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 75,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 77,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 79,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 81,
+        "maxBaselineErrorPt": 0.003906250000113687,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 83,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 85,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 87,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 89,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 91,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 93,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 95,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 97,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 99,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 101,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 103,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 105,
+        "maxBaselineErrorPt": 1.7053025658242404e-13,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 107,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 109,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 111,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 113,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 115,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 117,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 119,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 121,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 123,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 125,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 127,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 129,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 131,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 133,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 135,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 137,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 139,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 141,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 143,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 145,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 147,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 149,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 151,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 153,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 155,
+        "maxBaselineErrorPt": 0.01171874999982947,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 157,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 159,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 161,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 163,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 165,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 167,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 169,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 171,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 173,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 175,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 177,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 179,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 181,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 183,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 185,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 187,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 189,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 191,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 193,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 195,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 197,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 199,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 201,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 203,
+        "maxBaselineErrorPt": 1.7053025658242404e-13,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 205,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 207,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 209,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 211,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 213,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 215,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 217,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 219,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 221,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 223,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 225,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 227,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 229,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 231,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 233,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 235,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 237,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 239,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 241,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 243,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 245,
+        "maxBaselineErrorPt": 0.011718749999914735,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 247,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 249,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 251,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 253,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 255,
+        "maxBaselineErrorPt": 0.00781250000001421,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 257,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 259,
+        "maxBaselineErrorPt": 0.01171874999982947,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 261,
+        "maxBaselineErrorPt": 0.007812499999886313,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 263,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 265,
+        "maxBaselineErrorPt": 0.0039062499999431566,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 267,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 269,
+        "maxBaselineErrorPt": 8.526512829121202e-14,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 271,
+        "maxBaselineErrorPt": 0.003906249999985789,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 273,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 275,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 277,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 279,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 281,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 283,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 285,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 287,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 289,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 291,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 293,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 295,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 297,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 299,
+        "maxBaselineErrorPt": 0.01171874999982947,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 301,
+        "maxBaselineErrorPt": 0.007812500000056843,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 303,
+        "maxBaselineErrorPt": 0.00781250000001421,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 305,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 307,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 309,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 311,
+        "maxBaselineErrorPt": 0.003906250000028422,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 313,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 315,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 317,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 319,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 321,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 323,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 325,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 327,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 329,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 331,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 333,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 335,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 337,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 339,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 341,
+        "maxBaselineErrorPt": 0.0,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 343,
+        "maxBaselineErrorPt": 0.007812499999971578,
+        "maxHorizontalBearingExcessPx": 0.0
+      },
+      {
+        "leftPage": 345,
+        "maxBaselineErrorPt": 0.00781250000001421,
+        "maxHorizontalBearingExcessPx": 0.0
+      }
+    ],
+    "reusedMeasuredSpreads": 173,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "targetedTests": 5,
+  "visualProofsInspected": [
+    "Joshua17:13–14, pages321–322; aligned baselines, Maxima, legible four-column spread and Unta."
+  ],
+  "status": "whole Bible incomplete"
+}

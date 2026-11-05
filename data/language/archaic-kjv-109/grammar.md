@@ -1,0 +1,35 @@
+# KJV historical register 0.10-kjv.109 — Psalms 13–24
+
+This continues the exact sealed 0.10-kjv.108 head. It adds 177 authored verses, bringing Psalms to 312 verses through Psalm 24. It does not complete the Bible. Previous targets, frozen Jonah and every earlier seal remain unchanged. The historical edition remains permanently excluded from modernization and consolidation.
+
+## Personal sufferers and the royal composite self
+
+Personal petitioners retain `i`, including the sufferer in Psalm 22. Later quotation or theological identification is not inserted into the earlier source. Psalm 18 varies by discourse role, following the distinction established in its Samuel counterpart: the loving, rescued and thankful individual uses personal-I; the public royal battle voice in 18:37–40, 42–44 and 47 uses `ipl` and, where needed, `mypl`. In 18:43 the unknown people's relation to the sovereign is plural-self, but the relative clause about personal acquaintance retains ordinary-I. This is contextual variation, not conversion of every royal first person to one prefix. Second-person descriptions of divine action remain second-person.
+
+## Singular-we, plural walkers and reported claims
+
+The common confession in 18:31 and the singing or banner-raising congregation in 20:5, 20:7 and 21:13 use singular-we or its possessive. The endangered walkers in 17:11 and the physically risen people in 20:8 use ordinary plural-we. In 20:9 the king is asked to hear distinct people as they make one shared call. The personal lament in 22:4 claims communal ancestry with `ourone/father:pl`; the ancestors remain plural actors. The quoted enemy in 13:4 is ordinary-I, not the petitioner or a divine composite self. The unmarked my-people clause in 14:4 retains its supplied ambiguity rather than receiving a fabricated speaker label.
+
+## Parallel passages remain distinct witnesses
+
+Psalm 18 was compared verse by verse with 2 Samuel 22. It retains sorrows rather than waves of death; foundations of hills rather than heaven; repeated flying rather than was-seen; the secret place and singular pavilion; repeated hailstones and coals; waters rather than sea channels; and direct address at the rebuke. It also retains put-away statutes, the explicitly named clean hands, froward rather than unsavoury, high looks, lighting a candle rather than being a lamp, and the right-hand clause absent from Samuel. The royal section keeps overtaking, crying rather than looking, wind-dust and casting street-dirt, made-head rather than kept-head, and its own order of submission. Its final great deliverance is not replaced with Samuel's tower of salvation. Repetition within the Psalm is preserved where deliberate, and the exact English columns remain independently sourced.
+
+## KJV readings are not silently harmonized
+
+Psalm 16 keeps my-goodness-does-not-extend-to-you and its continuation to saints; the kidneys instruct at night. Psalm 17 retains the wicked which-is-your-sword and men which-are-your-hand, rather than silently choosing a by-your-sword reading. Psalm 19 keeps line, universal audibility and the historical celestial circuit. Psalm 22 keeps pierced hands and feet, the cherished darling, hearing from unicorn horns and the unexplained turn from lament to confidence. Psalm 24 retains O Jacob and the two different gate refrains. These awkward constructions belong to this edition. No later identity, reconstructed event or theological solution is inserted to make the source easier to accept.
+
+## Sense distinctions and ten lexical additions
+
+The ten common entries cover backbiting, lovingkindness, footsteps, bridegroom, running-race, water-channel, fixed staring, founding on a base, burnt sacrifice and the simple-as-inexperienced category. The water-channel and simple entries deliberately record contextual senses of inherited forms; they are not claimed as ten wholly new surface forms. There are no new pronoun paradigms or inflectional endings. Prevented uses came-before or met-beforehand; stay is support; remainder is not repose; want is lack; tell-bones is count; cleaving tongue is adhering rather than splitting; ravening is not the raven bird; hosts are armies or companies, not hospitality providers. Right-hand is directional, right-as-cause is a claim, and equitable things are morally fair. Crown in Psalm 21 is regalia; the eye's apple remains the inherited protected-central-part idiom. Candle-lighting uses fire-kindling, avoiding a bare noun-light being mistaken for the intended causative action.
+
+## Poetic syntax, negatives and grammatical exclamation
+
+The opening questions of Psalm 13 retain their uncomfortable for-ever alternative. Psalm 15's three negative conduct clauses remain separately negative. Future, completed and present clauses retain their distinctions; the tests specifically preserve present lifting in 18:48 and the perfect hearing in 22:21. The sequence from third-person shepherd to addressed thou in Psalm 23 is retained. Gates are personified plural addressees in Psalm 24: the first refrain asks them to be lifted; the second asks them to lift their heads. Exclamatory morphology replaces unsupported exclamation punctuation. Existing past-perfect `pp` is not repurposed as a generic participle. The construction column exposes the decisions rather than pretending that the English and Vayrshemon align word for word without accommodation.
+
+## Numbers, negative universals and identities
+
+The only explicit cardinal expression in these new verses is not-one in 14:3: it is a negative universal over people, not a positive headcount. Holy One in 16:10 is not converted into a numerical count. All bones in 22:17 licenses enumeration but gives no total, so none is invented. Many, every, all, none, fullness, length of days and for-ever claims do not acquire fabricated measurements. The composite royal self is not a clinical diagnosis and does not establish a number of divine persons. Future Trinitarian passages will require their own source-specific voice analysis.
+
+## Coverage and the approved reading artifact
+
+After publication and native verification, this checkpoint advances exact coverage from 14,123 to 14,300 of 31,102 verses; 16,802 remain. It is a working checkpoint, not a completed Bible or a completed Psalms section. The final deliverable remains one `.vay` containing all 66 major sections. Every authored verse retains the supplied source string, identifier and offsets. The four-column format preserves 50 pt Thimfora, 22 pt reading columns, 38 pt leading, 24 pt after-spacing, matching paragraph starts, Maxima and the approved geometry and paint. Unta folios remain 50 pt with preferred 28 pt inset. Validation includes inherited-text equality, semantic and pronoun anchors, quantities, word widths, actual native layout, save/reopen equality, source-column comparison and viewed proofs. These are translator self-review and structural checks, not independent literary certification or a claim of universally zero decorative collisions.

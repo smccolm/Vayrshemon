@@ -1,0 +1,453 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.246",
+    "parentVersion": "0.10-kjv.245",
+    "parentHead": "28854fc1acfc9fd91a71f17bd4099ced9e4ed560f40254e3bd912742dd4ce334",
+    "head": "aeda4ad3f7e5d505bf1d022317304be02d0828f54d700764c6ab9c5abecee4a4",
+    "newLexicalEntries": 5,
+    "newProperEntries": 0,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 35,
+    "exactCompilerCases": 35,
+    "newAuthoredVerses": 35,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2044,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newCorinthians2Verses": 35,
+    "corinthians2Verses": 257,
+    "authoredVerses": 29058,
+    "remainingVerses": 2044,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "2 Corinthians 12:2",
+        "source": "I knew a man in Christ above fourteen years ago, (whether in the body, I cannot tell; or whether out of the body, I cannot tell: God knoweth;) such an one caught up to the third heaven.",
+        "expectedDecimalQuantities": [
+          14,
+          3
+        ],
+        "targetQuantities": [
+          14,
+          3
+        ]
+      },
+      {
+        "reference": "2 Corinthians 12:8",
+        "source": "For this thing I besought the Lord thrice, that it might depart from me.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Corinthians 12:14",
+        "source": "Behold, the third time I am ready to come to you; and I will not be burdensome to you: for I seek not yours but you: for the children ought not to lay up for the parents, but the parents for the children.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Corinthians 13:1",
+        "source": "This is the third time I am coming to you. In the mouth of two or three witnesses shall every word be established.",
+        "expectedDecimalQuantities": [
+          3,
+          2,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "2 Corinthians 13:2",
+        "source": "I told you before, and foretell you, as if I were present, the second time; and being absent now I write to them which heretofore have sinned, and to all other, that, if I come again, I will not spare:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Corinthians 13:11",
+        "source": "Finally, brethren, farewell. Be perfect, be of good comfort, be of one mind, live in peace; and the God of love and peace shall be with you.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "12:1": [
+        "certainly glory:inf profitable be:neg:pr",
+        "vision:pl and reveal:ev:pl"
+      ],
+      "12:2": [
+        "above twelve and two year:pl ago",
+        "whether in body i tell:neg:can",
+        "whether out of body i tell:neg:can",
+        "third heaven"
+      ],
+      "12:3": [
+        "whether in body or out of body",
+        "i tell:neg:can god know:pr"
+      ],
+      "12:4": [
+        "into paradise",
+        "speak:neg:can:adj word:pl",
+        "utter:inf lawful be:neg:pr"
+      ],
+      "12:5": [
+        "of such person",
+        "of myself glory:neg:fu",
+        "my/infirmity:pl"
+      ],
+      "12:6": [
+        "i truth say:fu",
+        "now i kjv_forbear:pr",
+        "above what he i:a be:inf see:pr",
+        "what of i hear:pr"
+      ],
+      "12:7": [
+        "reveal:ev:pl abundance",
+        "thorn in flesh",
+        "kjv_satan_temptation messenger",
+        "kjv_buffet_corinthians:inf"
+      ],
+      "12:8": [
+        "three time:pl",
+        "it from i depart:may"
+      ],
+      "12:9": [
+        "mypl/grace for thee enough",
+        "mypl/strength in weak:ev",
+        "i rather in my/infirmity:pl",
+        "kjv_christ_title power upon i dwell:may"
+      ],
+      "12:10": [
+        "infirmity:pl",
+        "kjv_reproach:pl",
+        "necessity:pl",
+        "persecute:ev:pl",
+        "distress:pl",
+        "when i weak be:pr then i strong"
+      ],
+      "12:11": [
+        "in glory:ev fool become:perf",
+        "you i:a compel:perf",
+        "though i nothing"
+      ],
+      "12:12": [
+        "in all patience",
+        "sign:pl and wonder:pl and strong deed:pl"
+      ],
+      "12:13": [
+        "inferior be:pa:q",
+        "burden be:neg:pa",
+        "this wrong to i forgive:imp"
+      ],
+      "12:14": [
+        "third time",
+        "what you possess:pr seek:neg:pr but you:a",
+        "child:pl for parent:pl lay up:neg:should",
+        "parent:pl for child:pl"
+      ],
+      "12:15": [
+        "spend:fu and spend:psv:fu",
+        "more abundance:adv i you:a love:pr less i love:psv:pr"
+      ],
+      "12:16": [
+        "i you:a burden:neg:pa",
+        "with kjv_guile catch:pa"
+      ],
+      "12:17": [
+        "any of they whom i to you send:pa",
+        "gain make:pa:q"
+      ],
+      "12:18": [
+        "with he brother send:pa",
+        "kjv_titus_second_corinthians from you gain",
+        "we:du in same spirit",
+        "we:du in same step:pl"
+      ],
+      "12:19": [
+        "again you",
+        "wesg to you ourselves kjv_defend_argument_corinthians:pr",
+        "before god in kjv_christ_title",
+        "all thing:pl for your/kjv_edify_romans:ev"
+      ],
+      "12:20": [
+        "such as i wish:pr find:neg:fu",
+        "such as you wish:neg:pr find:psv:fu",
+        "quarrel:ev:pl",
+        "kjv_envy:ev:pl",
+        "wrath:pl",
+        "strife:pl",
+        "kjv_backbite:ev:pl",
+        "kjv_whispering_gossip_corinthians:pl",
+        "kjv_swell_pride_corinthians:pl",
+        "kjv_tumult:pl"
+      ],
+      "12:21": [
+        "my/god among you i:a humble:caus:fu",
+        "already sin:perf",
+        "unclean:ev and kjv_fornication and lascivious:ev",
+        "repent:neg:perf"
+      ],
+      "13:1": [
+        "third time",
+        "two or three witness:pl",
+        "each word kjv_establish:psv:fu"
+      ],
+      "13:2": [
+        "before to you tell:pa and before tell:pr",
+        "second time present",
+        "if i again come:pr i spare:neg:fu"
+      ],
+      "13:3": [
+        "kjv_christ_title in i speak:cv",
+        "towards you weak be:neg:pr",
+        "in you strong"
+      ],
+      "13:4": [
+        "through weak:ev kjv_crucify:psv:pa",
+        "wesg also in he weak",
+        "wesg with he by god power towards you live:fu"
+      ],
+      "13:5": [
+        "yourselves whether in faith",
+        "yourselves test:imp",
+        "kjv_jesus_matthew kjv_christ_title in you",
+        "except you kjv_reprobate_test_corinthians"
+      ],
+      "13:6": [
+        "i trust:pr",
+        "wesg kjv_reprobate_test_corinthians be:neg:pr"
+      ],
+      "13:7": [
+        "i to god pray:pr",
+        "not that wesg approve:psv:adj appear:should but that you honest thing",
+        "as kjv_reprobate_test_corinthians"
+      ],
+      "13:8": [
+        "against truth nothing do:can but for truth"
+      ],
+      "13:9": [
+        "when wesg weak and you strong",
+        "your/perfection"
+      ],
+      "13:10": [
+        "absence be:cv write:pr",
+        "sharpness use:should",
+        "for kjv_edify_romans:ev and not for destroy:ev"
+      ],
+      "13:11": [
+        "farewell",
+        "perfect be:imp",
+        "good comfort:ev have:imp",
+        "one_num mind",
+        "in peace live:imp",
+        "god of love and peace"
+      ],
+      "13:12": [
+        "each other with holy kiss"
+      ],
+      "13:13": [
+        "all saint:pl"
+      ],
+      "13:14": [
+        "kjv_christ_title grace and god love",
+        "holy spirit kjv_communion_spirit_corinthians",
+        "with you all be:opt amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "12:1",
+        "12:10",
+        "12:11",
+        "12:13",
+        "12:14",
+        "12:15",
+        "12:16",
+        "12:17",
+        "12:18",
+        "12:2",
+        "12:20",
+        "12:21",
+        "12:3",
+        "12:5",
+        "12:6",
+        "12:7",
+        "12:8",
+        "12:9",
+        "13:1",
+        "13:10",
+        "13:2",
+        "13:3",
+        "13:6",
+        "13:7"
+      ],
+      "ipl": [],
+      "wesg": [
+        "12:19",
+        "13:4",
+        "13:6",
+        "13:7",
+        "13:8",
+        "13:9"
+      ],
+      "wepl": [],
+      "mypl": [
+        "12:9"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [
+        "12:18"
+      ],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "2Corinthians12:18"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Above14years retains its bound;third heaven,third coming and second presence are ordinal.",
+      "Three appeals and two-or-three witnesses retain their counts;one mind is the source unity expression.",
+      "The same-spirit/same-steps pair is author and Titus,not automatically the unnamed accompanying brother."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "35new verses;all2572Corinthians;whole Bible incomplete.",
+      "Quoted Lords plural-self possessives and personal author reply remain distinct;no diagnosis identifies the thorn or body uncertainty.",
+      "Five common entries and no proper names;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Corinthians — incomplete Bible working text",
+    "pages": 170,
+    "spreads": 85,
+    "units": 257,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d712a9d785d6a6e7b53439db07d21852e8192accba53893f39c2df78d10a26ad",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 85,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.798,
+    "modules": [
+      "tests.test_kjv_corinthians_thorn_communion",
+      "tests.test_kjv_corinthians_gifts_boasting",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    169,
+    170
+  ],
+  "status": "incomplete Bible;2 Corinthians1–13 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 169,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv246\\preflight-corinthians2\\Proofs\\page-169.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv246\\composed-corinthians2\\Proofs\\page-169.png",
+        "sha256": "5e68b2df8b72c8ad55f35e131e27a4c2331a2eb83782bc624820d5d831ec3fee",
+        "bytesIdentical": true
+      },
+      {
+        "page": 170,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv246\\preflight-corinthians2\\Proofs\\page-170.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv246\\composed-corinthians2\\Proofs\\page-170.png",
+        "sha256": "c9c8cc014b534e0b37ccaeb920f7fe4420a437804379063c42ca10d3e2856f23",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

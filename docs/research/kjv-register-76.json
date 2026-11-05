@@ -1,0 +1,309 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.76",
+    "parentVersion": "0.10-kjv.75",
+    "parentHead": "a2370d5cdf4e0b1db4c15292110215fbf0a41aa86ef5f338ca4947d8f8b5e9fb",
+    "head": "bb3a52ed1266acdb6842041a0f88861f3052c721eae343f6b8424f6671b9034e",
+    "newLexicalEntries": 32,
+    "newProperEntries": 32,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 18,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 54,
+    "exactCompilerCases": 54,
+    "newAuthoredVerses": 54,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 54,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20747,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 54,
+    "chronicles1Verses": 54,
+    "authoredVerses": 10355,
+    "remainingVerses": 20747,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 1,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 1:19",
+        "source": "And unto Eber were born two sons: the name of the one was Peleg; because in his days the earth was divided: and his brother’s name was Joktan.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_adam kjv_sheth_adam kjv_enosh"
+      ],
+      "1:2": [
+        "kjv_kenan kjv_mahalaleel kjv_jered"
+      ],
+      "1:3": [
+        "kjv_henoch_line kjv_methuselah kjv_lamech"
+      ],
+      "1:4": [
+        "kjv_noah kjv_shem kjv_ham and kjv_japheth"
+      ],
+      "1:5": [
+        "son:pl of kjv_japheth",
+        "kjv_meshech and kjv_tiras"
+      ],
+      "1:6": [
+        "kjv_ashchenaz and kjv_riphath and kjv_togarmah"
+      ],
+      "1:7": [
+        "kjv_tarshish_person",
+        "kjv_kittim and kjv_dodanim"
+      ],
+      "1:8": [
+        "kjv_put_person"
+      ],
+      "1:9": [
+        "kjv_havilah_person",
+        "kjv_sabta",
+        "kjv_sabtecha",
+        "son:pl of kjv_raamah"
+      ],
+      "1:10": [
+        "kjv_nimrod:a beget:pa",
+        "mighty upon earth"
+      ],
+      "1:11": [
+        "kjv_ludim and kjv_anamim and kjv_lehabim and kjv_naphtuhim"
+      ],
+      "1:12": [
+        "kjv_casluhim:a [of whom kjv_philistine:pl come:pa]",
+        "kjv_caphthorim"
+      ],
+      "1:13": [
+        "kjv_zidon his/first+born"
+      ],
+      "1:14": [
+        "kjv_jebusite:a",
+        "kjv_amorite:a",
+        "kjv_girgashite:a"
+      ],
+      "1:15": [
+        "kjv_hivite:a",
+        "kjv_arkite:a",
+        "kjv_sinite:a"
+      ],
+      "1:16": [
+        "kjv_arvadite:a",
+        "kjv_zemarite:a",
+        "kjv_hamathite:a"
+      ],
+      "1:17": [
+        "kjv_aram and kjv_uz and kjv_hul and kjv_gether and kjv_meshech_shem"
+      ],
+      "1:18": [
+        "kjv_arphaxad kjv_shelah_arphaxad:a",
+        "kjv_shelah_arphaxad kjv_eber:a"
+      ],
+      "1:19": [
+        "two son:pl",
+        "name of one_num",
+        "earth kjv_divide:psv:pa",
+        "his/brother kjv_joktan"
+      ],
+      "1:20": [
+        "kjv_almodad and kjv_sheleph and kjv_hazarmaveth and kjv_jerah"
+      ],
+      "1:21": [
+        "kjv_hadoram:a",
+        "kjv_uzal:a",
+        "kjv_diklah:a"
+      ],
+      "1:22": [
+        "kjv_ebal_joktan:a",
+        "kjv_abimael:a",
+        "kjv_sheba:a"
+      ],
+      "1:23": [
+        "kjv_ophir:a",
+        "kjv_havilah_person:a",
+        "kjv_jobab:a",
+        "son:pl of kjv_joktan"
+      ],
+      "1:24": [
+        "kjv_shem kjv_arphaxad kjv_shelah_arphaxad"
+      ],
+      "1:25": [
+        "kjv_eber kjv_peleg kjv_reu"
+      ],
+      "1:26": [
+        "kjv_serug kjv_nahor kjv_terah"
+      ],
+      "1:27": [
+        "kjv_abram same kjv_abraham be:pr"
+      ],
+      "1:28": [
+        "kjv_isaac and kjv_ishmael"
+      ],
+      "1:29": [
+        "first+born of kjv_ishmael kjv_nebaioth",
+        "kjv_kedar and kjv_adbeel and kjv_mibsam"
+      ],
+      "1:30": [
+        "kjv_mishma",
+        "kjv_dumah",
+        "kjv_massa",
+        "kjv_hadad_ishmael",
+        "kjv_tema"
+      ],
+      "1:31": [
+        "kjv_jetur kjv_naphish and kjv_kedemah"
+      ],
+      "1:32": [
+        "kjv_concubine",
+        "kjv_medan and kjv_midian",
+        "son:pl of kjv_jokshan"
+      ],
+      "1:33": [
+        "kjv_henoch_midian",
+        "kjv_abida",
+        "son:pl of kjv_keturah"
+      ],
+      "1:34": [
+        "kjv_abraham kjv_isaac:a",
+        "kjv_esau and kjv_israel"
+      ],
+      "1:35": [
+        "kjv_eliphaz kjv_reuel and kjv_jeush and kjv_jaalam and kjv_korah"
+      ],
+      "1:36": [
+        "kjv_zephi",
+        "kjv_timna and kjv_amalek"
+      ],
+      "1:37": [
+        "kjv_nahath kjv_zerah kjv_shammah and kjv_mizzah"
+      ],
+      "1:38": [
+        "kjv_dishon and kjv_ezar and kjv_dishan"
+      ],
+      "1:39": [
+        "kjv_homam",
+        "kjv_timna sister of kjv_lotan"
+      ],
+      "1:40": [
+        "kjv_alian",
+        "kjv_shephi",
+        "kjv_aiah_zibeon"
+      ],
+      "1:41": [
+        "kjv_amram_dishon",
+        "kjv_eshban and kjv_ithran and kjv_cheran"
+      ],
+      "1:42": [
+        "kjv_ezer",
+        "kjv_zavan and kjv_jakan",
+        "kjv_dishan kjv_uz and kjv_aran"
+      ],
+      "1:43": [
+        "before any king over child:pl of kjv_israel",
+        "kjv_bela_king son of kjv_beor",
+        "kjv_dinhabah"
+      ],
+      "1:44": [
+        "kjv_jobab_king son of kjv_zerah of kjv_bozrah"
+      ],
+      "1:45": [
+        "kjv_temanite:pl"
+      ],
+      "1:46": [
+        "kjv_hadad son of kjv_bedad",
+        "kjv_midian:a in field of kjv_moab",
+        "kjv_avith"
+      ],
+      "1:47": [
+        "kjv_samlah of kjv_masrekah"
+      ],
+      "1:48": [
+        "kjv_shaul_edom of kjv_rehoboth_river by river"
+      ],
+      "1:49": [
+        "kjv_baalhanan son of kjv_achbor"
+      ],
+      "1:50": [
+        "kjv_hadad_pai",
+        "kjv_pai",
+        "kjv_mehetabel daughter of kjv_matred daughter of kjv_mezahab"
+      ],
+      "1:51": [
+        "kjv_hadad_pai also die:pa",
+        "kjv_duke kjv_aliah"
+      ],
+      "1:52": [
+        "kjv_duke kjv_aholibamah kjv_duke kjv_elah kjv_duke kjv_pinon"
+      ],
+      "1:53": [
+        "kjv_duke kjv_kenaz kjv_duke kjv_teman kjv_duke kjv_mibzar"
+      ],
+      "1:54": [
+        "kjv_duke kjv_magdiel kjv_duke kjv_iram"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Two sons and one of the pair are cardinal; firstborn compounds do not add independent numeric entities."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Genealogical source variants and unresolved relationships retained; no first-person forms added to narration.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 18,
+    "spreads": 9,
+    "units": 54,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "e760a8a0cbebec7ac9791494b411b6e317d3e79c45c65edee5eb3b5bf2eabd7a",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 9,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": "Four tests passed9.488s: Chronicles genealogy, Kings exile and approved parallel translation.",
+  "proofsViewed": [
+    17,
+    18
+  ],
+  "status": "incomplete Bible; current continuation through1Chronicles1"
+}

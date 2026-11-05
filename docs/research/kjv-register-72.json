@@ -1,0 +1,580 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.72",
+    "parentVersion": "0.10-kjv.71",
+    "parentHead": "a5c9fc5491c6c0a3810b535d6a42cbd549471877a3855a2ca4f2243c5f018c92",
+    "head": "fbbde70d3e89010cc1fee1ea4db793eff7b907e457e0d7feb3a9973c34b5c5c4",
+    "newLexicalEntries": 32,
+    "newProperEntries": 26,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 27,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 74,
+    "exactCompilerCases": 74,
+    "newAuthoredVerses": 74,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 565,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20955,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 74,
+    "kings2Verses": 565,
+    "authoredVerses": 10147,
+    "remainingVerses": 20955,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 10,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 18:1",
+        "source": "Now it came to pass in the third year of Hoshea son of Elah king of Israel, that Hezekiah the son of Ahaz king of Judah began to reign.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 18:2",
+        "source": "Twenty and five years old was he when he began to reign; and he reigned twenty and nine years in Jerusalem. His mother’s name also was Abi, the daughter of Zachariah.",
+        "expectedDecimalQuantities": [
+          25,
+          29
+        ],
+        "targetQuantities": [
+          25,
+          29
+        ]
+      },
+      {
+        "reference": "2 Kings 18:9",
+        "source": "And it came to pass in the fourth year of king Hezekiah, which was the seventh year of Hoshea son of Elah king of Israel, that Shalmaneser king of Assyria came up against Samaria, and besieged it.",
+        "expectedDecimalQuantities": [
+          4,
+          7
+        ],
+        "targetQuantities": [
+          4,
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 18:10",
+        "source": "And at the end of three years they took it: even in the sixth year of Hezekiah, that is in the ninth year of Hoshea king of Israel, Samaria was taken.",
+        "expectedDecimalQuantities": [
+          3,
+          6,
+          9
+        ],
+        "targetQuantities": [
+          3,
+          6,
+          9
+        ]
+      },
+      {
+        "reference": "2 Kings 18:13",
+        "source": "Now in the fourteenth year of king Hezekiah did Sennacherib king of Assyria come up against all the fenced cities of Judah, and took them.",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      },
+      {
+        "reference": "2 Kings 18:14",
+        "source": "And Hezekiah king of Judah sent to the king of Assyria to Lachish, saying, I have offended; return from me: that which thou puttest on me will I bear. And the king of Assyria appointed unto Hezekiah king of Judah three hundred talents of silver and thirty talents of gold.",
+        "expectedDecimalQuantities": [
+          300,
+          30
+        ],
+        "targetQuantities": [
+          300,
+          30
+        ]
+      },
+      {
+        "reference": "2 Kings 18:23",
+        "source": "Now therefore, I pray thee, give pledges to my lord the king of Assyria, and I will deliver thee two thousand horses, if thou be able on thy part to set riders upon them.",
+        "expectedDecimalQuantities": [
+          2000
+        ],
+        "targetQuantities": [
+          2000
+        ]
+      },
+      {
+        "reference": "2 Kings 18:24",
+        "source": "How then wilt thou turn away the face of one captain of the least of my master’s servants, and put thy trust on Egypt for chariots and for horsemen?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 19:29",
+        "source": "And this shall be a sign unto thee, Ye shall eat this year such things as grow of themselves, and in the second year that which springeth of the same; and in the third year sow ye, and reap, and plant vineyards, and eat the fruits thereof.",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 19:35",
+        "source": "And it came to pass that night, that the angel of the LORD went out, and smote in the camp of the Assyrians an hundred fourscore and five thousand: and when they arose early in the morning, behold, they were all dead corpses.",
+        "expectedDecimalQuantities": [
+          185000
+        ],
+        "targetQuantities": [
+          185000
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "18:1": [
+        "kjv_three:ord year",
+        "kjv_hoshea_elah son of kjv_elah_hoshea",
+        "kjv_hezekiah_ahaz son of kjv_ahaz_jotham"
+      ],
+      "18:2": [
+        "twenty and five",
+        "twenty and nine",
+        "kjv_abi daughter of kjv_zachariah_abi"
+      ],
+      "18:3": [
+        "right be:pa",
+        "his/father kjv_david"
+      ],
+      "18:4": [
+        "of kjv_brass serpent:a",
+        "kjv_moses make:pp",
+        "it:a kjv_nehushtan"
+      ],
+      "18:5": [
+        "after he",
+        "nor any before he"
+      ],
+      "18:6": [
+        "kjv_cleave_adhere:pa",
+        "depart:pa not"
+      ],
+      "18:7": [
+        "prosper:pa",
+        "rebel:pa",
+        "serve:pa not"
+      ],
+      "18:8": [
+        "kjv_gaza",
+        "kjv_tower to fortify:psv city"
+      ],
+      "18:9": [
+        "four:ord year",
+        "seven:ord year",
+        "kjv_shalmaneser"
+      ],
+      "18:10": [
+        "end of kjv_three year:pl",
+        "six:ord year",
+        "nine:ord year"
+      ],
+      "18:11": [
+        "kjv_halah",
+        "kjv_habor by river of kjv_gozan",
+        "kjv_mede:pl"
+      ],
+      "18:12": [
+        "obey:pa not",
+        "transgress:pa",
+        "will:pa not"
+      ],
+      "18:13": [
+        "fourteen:ord year",
+        "kjv_sennacherib",
+        "all fortify:psv city:pl"
+      ],
+      "18:14": [
+        "ipl transgress:perf",
+        "ipl carry:fu",
+        "kjv_three+hundred kjv_talent_weight:pl of silver",
+        "kjv_three+ten kjv_talent_weight:pl of gold"
+      ],
+      "18:15": [
+        "all silver:a",
+        "house of kjv_lord",
+        "treasure:pl of king house"
+      ],
+      "18:16": [
+        "door:pl of temple",
+        "kjv_pillar:pl gold:a",
+        "with gold cover:pp"
+      ],
+      "18:17": [
+        "kjv_tartan and kjv_rabsaris and kjv_rabshakeh",
+        "with great army",
+        "kjv_conduit of kjv_upper kjv_pool",
+        "kjv_fuller field"
+      ],
+      "18:18": [
+        "kjv_eliakim_hilkiah son of kjv_hilkiah_eliakim",
+        "kjv_shebna kjv_scribe",
+        "kjv_joah_asaph son of kjv_asaph_joah kjv_record_keeper"
+      ],
+      "18:19": [
+        "thus great king king of kjv_assyria say:pr",
+        "what confidence"
+      ],
+      "18:20": [
+        "(but they only vain word:pl be:pr)",
+        "ipl have:pr",
+        "against ipl thou rebel:pr"
+      ],
+      "18:21": [
+        "kjv_bruise:psv reed",
+        "kjv_lean_body:pr",
+        "his/hand",
+        "pierce:fu"
+      ],
+      "18:22": [
+        "to ipl",
+        "ourone/god wesg trust:pr",
+        "high place:pl",
+        "before this altar"
+      ],
+      "18:23": [
+        "my/lord king of kjv_assyria",
+        "two+thousand horse:pl",
+        "ride:ag:pl"
+      ],
+      "18:24": [
+        "one_num captain",
+        "my/master servant:pl",
+        "kjv_horseman:pl"
+      ],
+      "18:25": [
+        "i now without kjv_lord",
+        "to i kjv_lord say:pa",
+        "destroy:imp"
+      ],
+      "18:26": [
+        "kjv_syrian language",
+        "wepl understand:pr",
+        "with wepl",
+        "kjv_jew:pl language"
+      ],
+      "18:27": [
+        "my/master i:a send:perf",
+        "their/own kjv_dung:a",
+        "their/own kjv_urine:a"
+      ],
+      "18:28": [
+        "loud voice",
+        "kjv_jew:pl language",
+        "word:a hear:imp"
+      ],
+      "18:29": [
+        "deceive:opt not",
+        "out of his/hand",
+        "able be:fu not"
+      ],
+      "18:30": [
+        "neither",
+        "wesg:a kjv_lord surely deliver:fu",
+        "deliver:psv:fu not"
+      ],
+      "18:31": [
+        "with ipl agree:ev:a by gift",
+        "each man",
+        "his/kjv_cistern"
+      ],
+      "18:32": [
+        "ipl come:pr",
+        "you:a take:pr away",
+        "land of corn and wine",
+        "kjv_olive oil",
+        "wesg:a kjv_lord deliver:fu"
+      ],
+      "18:33": [
+        "any of god:pl of nation:pl",
+        "at all deliver:perf"
+      ],
+      "18:34": [
+        "kjv_hamath",
+        "kjv_arpad",
+        "kjv_sepharvaim kjv_hena and kjv_ivah",
+        "mypl/hand"
+      ],
+      "18:35": [
+        "their/country:a",
+        "mypl/hand",
+        "kjv_lord deliver:pr:should"
+      ],
+      "18:36": [
+        "people silent remain:pa",
+        "no word:a",
+        "answer:imp not"
+      ],
+      "18:37": [
+        "kjv_record_keeper",
+        "their/clothing kjv_rend:psv",
+        "word:pl:a to he tell:pa"
+      ],
+      "19:1": [
+        "his/clothing:a he kjv_rend:pa",
+        "himself:a with kjv_sackcloth"
+      ],
+      "19:2": [
+        "kjv_elder:pl of priest:pl",
+        "kjv_isaiah prophet son of kjv_amoz"
+      ],
+      "19:3": [
+        "kjv_blaspheme:ev",
+        "child:pl to birth come:perf",
+        "strength bear:inf be:pr not"
+      ],
+      "19:4": [
+        "it may be:pr",
+        "kjv_reproach:inf",
+        "remainder who remain:pr"
+      ],
+      "19:5": [
+        "servant:pl of king kjv_hezekiah_ahaz to kjv_isaiah"
+      ],
+      "19:6": [
+        "thus kjv_lord say:pr",
+        "ipl:a kjv_blaspheme:perf"
+      ],
+      "19:7": [
+        "kjv_blast:a ipl send:fu",
+        "rumour:a",
+        "in his/own land by sword"
+      ],
+      "19:8": [
+        "against kjv_libnah war:cv",
+        "from kjv_lachish"
+      ],
+      "19:9": [
+        "kjv_tirhakah king of kjv_ethiopia",
+        "messenger:pl:a again"
+      ],
+      "19:10": [
+        "thy/god in whom thou trust:pr",
+        "deceive:opt not",
+        "deliver:psv:fu not"
+      ],
+      "19:11": [
+        "completely destroy:ev",
+        "thou deliver:psv:fu?"
+      ],
+      "19:12": [
+        "mypl/father:pl",
+        "kjv_haran_place",
+        "kjv_eden_thelasar",
+        "kjv_thelasar"
+      ],
+      "19:13": [
+        "king of kjv_hamath",
+        "king of kjv_arpad",
+        "city of kjv_sepharvaim"
+      ],
+      "19:14": [
+        "letter:a",
+        "read:pa",
+        "it:a spread:pa"
+      ],
+      "19:15": [
+        "kjv_vocative kjv_lord",
+        "between kjv_cherub:pl",
+        "thou alone",
+        "heaven and earth:a"
+      ],
+      "19:16": [
+        "thy/ear:a bow:imp",
+        "thy/eye:pl:a open:imp",
+        "who he:a send:perf"
+      ],
+      "19:17": [
+        "of truth",
+        "nation:pl and their/land:pl:a destroy:perf"
+      ],
+      "19:18": [
+        "they no god:pl be:pa",
+        "men hand:pl work wood and stone"
+      ],
+      "19:19": [
+        "ourone/god i thou:a beseech:pr",
+        "wesg:a",
+        "thou only"
+      ],
+      "19:20": [
+        "to ipl",
+        "ipl hear:perf"
+      ],
+      "19:21": [
+        "virgin daughter of kjv_zion",
+        "to scorn laugh:perf",
+        "her/head:a"
+      ],
+      "19:22": [
+        "kjv_blaspheme:perf",
+        "holy one of kjv_israel"
+      ],
+      "19:23": [
+        "mypl/chariot:pl",
+        "ipl come:perf up",
+        "kjv_lodging_place:pl",
+        "his/kjv_carmel"
+      ],
+      "19:24": [
+        "foreign water:pl",
+        "kjv_sole of mypl/foot:pl",
+        "river:pl of besiege:psv kjv_place_site:pl"
+      ],
+      "19:25": [
+        "ancient time:pl",
+        "ipl form:perf",
+        "ipl happen:caus:perf",
+        "kjv_desolate:caus:inf"
+      ],
+      "19:26": [
+        "of small power",
+        "grass on house top:pl",
+        "corn by kjv_blasting strike:psv"
+      ],
+      "19:27": [
+        "thy/dwell:ev",
+        "thy/go:ev out",
+        "thy/come:ev in",
+        "ipl know:pr"
+      ],
+      "19:28": [
+        "mypl/ear:pl",
+        "mypl/kjv_restraint_hook:a in thy/nose",
+        "mypl/bridle in thy/lip:pl",
+        "ipl turn:fu back"
+      ],
+      "19:29": [
+        "this year",
+        "two:ord year",
+        "kjv_three:ord year",
+        "reap:imp"
+      ],
+      "19:30": [
+        "root:a down take:fu",
+        "fruit:a up bear:fu"
+      ],
+      "19:31": [
+        "out of kjv_jerusalem remainder",
+        "mountain kjv_zion",
+        "kjv_zeal of kjv_lord of army:pl"
+      ],
+      "19:32": [
+        "come:fu not nor arrow:a",
+        "nor kjv_siege_mound:a"
+      ],
+      "19:33": [
+        "by same he return:fu",
+        "come:fu not"
+      ],
+      "19:34": [
+        "ipl defence:fu",
+        "mypl/own sake",
+        "mypl/servant kjv_david"
+      ],
+      "19:35": [
+        "hundred+thousand and eight+ten+thousand and five+thousand:a",
+        "dead kjv_corpse:pl"
+      ],
+      "19:36": [
+        "kjv_sennacherib",
+        "at kjv_nineveh dwell:pa"
+      ],
+      "19:37": [
+        "kjv_nisroch",
+        "kjv_adrammelech_sennacherib and kjv_sharezer",
+        "kjv_armenia",
+        "kjv_esarhaddon"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Synchronisms,age25/reign29,siege3years and paired regnal years remain separately anchored.",
+      "Silver300talents andgold30talents are distinct assessments;2000horses is a conditional offer,onecaptain a counted challenge.",
+      "Second and third sign-years remain separate;185000struck is checked in exact target arithmetic."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Nested royal and divine plural-I are distinguished by reporting frames; personal envoy and petitioner,I-plural ruler,and singular-we community have separately reviewed referents.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 460,
+    "spreads": 230,
+    "units": 565,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "f2637081551cab79c62be3c774a9d9eb9b350ff0c438d5e7e41374371f634866",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 230,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 920,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 13.053,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_siege_voices",
+      "tests.test_kjv_kings_exile",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      459,
+      460
+    ],
+    "observations": "Viewed final siege-voices spread; matching paragraph starts, approved Maxima and four column styles, margins and outside Unta retained."
+  },
+  "status": "incomplete whole Bible",
+  "editorialErratum": "Recorded newGrammarSections is7; the sealed grammar prose says8. The next wiki copy corrects the prose only; sealed72 remains untouched."
+}

@@ -1,0 +1,717 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.135",
+    "parentVersion": "0.10-kjv.134",
+    "parentHead": "f4e34fdaa03688797c17c58238d13b228ab3da7b102823958b1ce4d76c19da36",
+    "head": "3429e544f686cbb88e166611569c41026214a1c105a421e675ca77dff4c6f66c",
+    "newLexicalEntries": 8,
+    "newProperEntries": 2,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 8,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 93,
+    "exactCompilerCases": 93,
+    "newAuthoredVerses": 93,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 698,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 12701,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 93,
+    "isaiahVerses": 698,
+    "authoredVerses": 18401,
+    "remainingVerses": 12701,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 33:20",
+        "source": "Look upon Zion, the city of our solemnities: thine eyes shall see Jerusalem a quiet habitation, a tabernacle that shall not be taken down; not one of the stakes thereof shall ever be removed, neither shall any of the cords thereof be broken.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 34:16",
+        "source": "Seek ye out of the book of the LORD, and read: no one of these shall fail, none shall want her mate: for my mouth it hath commanded, and his spirit it hath gathered them.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 36:1",
+        "source": "Now it came to pass in the fourteenth year of king Hezekiah, that Sennacherib king of Assyria came up against all the defenced cities of Judah, and took them.",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      },
+      {
+        "reference": "Isaiah 36:8",
+        "source": "Now therefore give pledges, I pray thee, to my master the king of Assyria, and I will give thee two thousand horses, if thou be able on thy part to set riders upon them.",
+        "expectedDecimalQuantities": [
+          2000
+        ],
+        "targetQuantities": [
+          2000
+        ]
+      },
+      {
+        "reference": "Isaiah 36:9",
+        "source": "How then wilt thou turn away the face of one captain of the least of my master’s servants, and put thy trust on Egypt for chariots and for horsemen?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "32:1": [
+        "king in kjv_righteous:ev rule:fu",
+        "prince:pl in judgment"
+      ],
+      "32:2": [
+        "hide:ev place from wind",
+        "cover:ev from tempest",
+        "river:pl of water",
+        "shadow of great rock"
+      ],
+      "32:3": [
+        "eye:pl",
+        "dim be:neg:fu",
+        "ear:pl",
+        "listen:fu"
+      ],
+      "32:4": [
+        "heart of rash",
+        "they who kjv_stammer:pr",
+        "clearly speak:inf"
+      ],
+      "32:5": [
+        "vile human",
+        "generous call:psv:fu",
+        "kjv_churl_niggardly"
+      ],
+      "32:6": [
+        "kjv_hypocrite:ev",
+        "against kjv_lord",
+        "soul:a of hunger:adj",
+        "drink:a of thirst:adj"
+      ],
+      "32:7": [
+        "kjv_churl_niggardly",
+        "false:adj word:pl",
+        "kjv_needy kjv_right_conduct:a"
+      ],
+      "32:8": [
+        "generous human",
+        "generous thing:pl:a",
+        "by generous thing:pl"
+      ],
+      "32:9": [
+        "my/voice",
+        "my/speech",
+        "care:neg:adj daughter:pl"
+      ],
+      "32:10": [
+        "many day:pl and year:pl",
+        "kjv_vintage fail:fu",
+        "gather:ev come:neg:fu"
+      ],
+      "32:11": [
+        "yourselves:a strip:imp",
+        "yourselves:a bare make:imp",
+        "kjv_sackcloth",
+        "kjv_loins"
+      ],
+      "32:12": [
+        "kjv_teat:pl",
+        "delight:adj field:pl",
+        "fruit:adj kjv_vine"
+      ],
+      "32:13": [
+        "my/people",
+        "thorn:pl and briar:pl",
+        "house:pl of joy"
+      ],
+      "32:14": [
+        "kjv_stronghold:pl",
+        "kjv_tower:pl",
+        "forever",
+        "wild ass:pl"
+      ],
+      "32:15": [
+        "until spirit upon wesg",
+        "fruit:adj field",
+        "forest consider:psv:pr"
+      ],
+      "32:16": [
+        "judgment",
+        "kjv_righteous:ev",
+        "fruit:adj field"
+      ],
+      "32:17": [
+        "work of kjv_righteous:ev",
+        "effect of kjv_righteous:ev",
+        "assurance forever"
+      ],
+      "32:18": [
+        "mypl/people",
+        "peace:adj",
+        "sure dwelling:pl",
+        "quiet rest:ev"
+      ],
+      "32:19": [
+        "hail:fu",
+        "upon forest",
+        "low in low place"
+      ],
+      "32:20": [
+        "all water:pl kjv_sow:pr",
+        "foot:pl:a of ox and ass"
+      ],
+      "33:1": [
+        "spoil:psv:neg:pa",
+        "betray:neg:pa",
+        "spoil:psv:fu",
+        "betray:fu"
+      ],
+      "33:2": [
+        "to wesg",
+        "wesg for thee",
+        "their/arm",
+        "ourone/salvation"
+      ],
+      "33:3": [
+        "kjv_tumult",
+        "lift:ev of thyself",
+        "nation:pl scatter"
+      ],
+      "33:4": [
+        "kjv_caterpiller",
+        "back and forth",
+        "kjv_locust:pl"
+      ],
+      "33:5": [
+        "kjv_exalt:psv:pr",
+        "kjv_zion",
+        "judgment and kjv_righteous:ev"
+      ],
+      "33:6": [
+        "wisdom and knowledge",
+        "stable:ev",
+        "fear of kjv_lord his/treasure"
+      ],
+      "33:7": [
+        "outside cry:fu",
+        "kjv_ambassador:pl",
+        "bitter:ev"
+      ],
+      "33:8": [
+        "kjv_covenant:a break:perf",
+        "city:pl:a despise:perf",
+        "no human"
+      ],
+      "33:9": [
+        "kjv_lebanon",
+        "kjv_sharon",
+        "kjv_bashan",
+        "kjv_carmel"
+      ],
+      "33:10": [
+        "now ipl rise:fu",
+        "now ipl kjv_exalt:psv:fu",
+        "ipl iplself:a up lift:fu"
+      ],
+      "33:11": [
+        "kjv_chaff:a conceive:fu",
+        "kjv_stubble:a forth bring:fu",
+        "your/breath"
+      ],
+      "33:12": [
+        "burn:ev:pl of lime",
+        "thorn:pl up cut:psv:adj"
+      ],
+      "33:13": [
+        "what ipl do:perf",
+        "mypl/might"
+      ],
+      "33:14": [
+        "kjv_hypocrite:pl",
+        "among wesg",
+        "devour:adj fire",
+        "eternal burn:ev:pl"
+      ],
+      "33:15": [
+        "kjv_righteous:adj walk:pr",
+        "kjv_upright:adj speak:pr",
+        "kjv_bribe:pl",
+        "hear:ev of blood",
+        "see:ev of evil"
+      ],
+      "33:16": [
+        "fortify:ev:pl of rock:pl",
+        "bread",
+        "his/water:pl sure"
+      ],
+      "33:17": [
+        "king:a in his/beauty",
+        "land:a that very far off"
+      ],
+      "33:18": [
+        "kjv_scribe",
+        "receive:ag",
+        "kjv_tower:pl:a kjv_number:pa"
+      ],
+      "33:19": [
+        "more deep speech",
+        "kjv_stammer:adj tongue",
+        "understand:neg:can"
+      ],
+      "33:20": [
+        "ourone/solemnity:pl",
+        "not one_num",
+        "kjv_pin:pl",
+        "kjv_cord:pl"
+      ],
+      "33:21": [
+        "to wesg",
+        "kjv_galley with kjv_oar:pl",
+        "gallant ship"
+      ],
+      "33:22": [
+        "ourone/judge",
+        "ourone/law+give:ag",
+        "ourone/king",
+        "wesg:a save:fu"
+      ],
+      "33:23": [
+        "kjv_rigging",
+        "kjv_mast",
+        "sail",
+        "kjv_lame prey:a"
+      ],
+      "33:24": [
+        "i sick be:pr",
+        "kjv_iniquity:a forgive:psv:fu"
+      ],
+      "34:1": [
+        "you nation:pl",
+        "earth hear:imp",
+        "all thing:pl"
+      ],
+      "34:2": [
+        "all nation:pl",
+        "all their/army:pl",
+        "destroy:perf",
+        "kjv_slaughter deliver:perf"
+      ],
+      "34:3": [
+        "their/kjv_corpse:pl",
+        "mountain:pl with their/blood melt"
+      ],
+      "34:4": [
+        "army of heaven",
+        "scroll",
+        "leaf from kjv_vine",
+        "fig kjv_tree"
+      ],
+      "34:5": [
+        "mypl/sword",
+        "kjv_idumea",
+        "mypl/curse"
+      ],
+      "34:6": [
+        "kjv_lamb:pl",
+        "kjv_goat:pl",
+        "kjv_kidney:pl of kjv_ram:pl",
+        "kjv_bozrah"
+      ],
+      "34:7": [
+        "kjv_unicorn:pl",
+        "kjv_bullock:pl",
+        "bull:pl",
+        "with blood soak:psv:fu"
+      ],
+      "34:8": [
+        "kjv_lord/kjv_avenge:ev",
+        "recompense:pl",
+        "contend:ev of kjv_zion"
+      ],
+      "34:9": [
+        "stream:pl into pitch",
+        "dust into kjv_brimstone",
+        "burn:adj pitch"
+      ],
+      "34:10": [
+        "extinguish:psv:neg:fu",
+        "generation to generation",
+        "forever and forever"
+      ],
+      "34:11": [
+        "kjv_cormorant",
+        "kjv_bittern",
+        "owl and raven",
+        "line:a of confuse:ev",
+        "stone:pl:a of empty:ev"
+      ],
+      "34:12": [
+        "noble:pl:a to kingdom",
+        "none there",
+        "her/prince:pl nothing"
+      ],
+      "34:13": [
+        "kjv_nettle:pl",
+        "kjv_bramble:pl",
+        "kjv_dragon_creature:pl",
+        "kjv_court_enclosure"
+      ],
+      "34:14": [
+        "desert",
+        "kjv_isle",
+        "kjv_satyr",
+        "screech:adj owl",
+        "herself"
+      ],
+      "34:15": [
+        "great owl",
+        "her/nest",
+        "kjv_hatch:fu",
+        "kjv_vulture:pl",
+        "each with her/companion"
+      ],
+      "34:16": [
+        "not one_num",
+        "none her/companion:a lack:fu",
+        "mypl/mouth",
+        "his/spirit"
+      ],
+      "34:17": [
+        "kjv_lot",
+        "by line kjv_divide:perf",
+        "generation to generation"
+      ],
+      "35:1": [
+        "alone place",
+        "kjv_rose_flower"
+      ],
+      "35:2": [
+        "kjv_lebanon",
+        "kjv_carmel",
+        "kjv_sharon",
+        "ourone/god"
+      ],
+      "35:3": [
+        "weak hand:pl",
+        "feeble knee:pl"
+      ],
+      "35:4": [
+        "fear:neg:imp",
+        "kjv_avenge:ev",
+        "recompense",
+        "save:fu"
+      ],
+      "35:5": [
+        "eye:pl of blind",
+        "ear:pl of kjv_deaf"
+      ],
+      "35:6": [
+        "kjv_lame",
+        "kjv_hart",
+        "kjv_mute",
+        "water:pl out break:fu"
+      ],
+      "35:7": [
+        "dry ground kjv_pool",
+        "kjv_dragon_creature:pl",
+        "reed:pl and kjv_bulrush:pl"
+      ],
+      "35:8": [
+        "way of holy:ev",
+        "unclean",
+        "for those",
+        "though fool:pl"
+      ],
+      "35:9": [
+        "no lion",
+        "ravenous beast",
+        "redeem:psv:adj human:pl"
+      ],
+      "35:10": [
+        "ransom:psv:adj human:pl",
+        "kjv_zion",
+        "eternal joy",
+        "sorrow and sigh:ev"
+      ],
+      "36:1": [
+        "fourteen:ord year",
+        "kjv_sennacherib",
+        "all fortify:psv:adj city:pl"
+      ],
+      "36:2": [
+        "kjv_rabshakeh:a",
+        "he by kjv_conduit",
+        "kjv_fuller/field"
+      ],
+      "36:3": [
+        "kjv_eliakim_hilkiah",
+        "kjv_hilkiah_eliakim",
+        "kjv_shebna",
+        "kjv_joah_asaph",
+        "kjv_asaph_joah"
+      ],
+      "36:4": [
+        "great king king of kjv_assyria",
+        "what confidence"
+      ],
+      "36:5": [
+        "i say:pr thou say:pr",
+        "i counsel:a",
+        "against ipl"
+      ],
+      "36:6": [
+        "break:psv:adj reed",
+        "himself:a support:pr",
+        "his/hand",
+        "kjv_pharaoh"
+      ],
+      "36:7": [
+        "thou to ipl",
+        "wesg",
+        "ourone/god",
+        "before this altar worship:fu"
+      ],
+      "36:8": [
+        "my/master",
+        "please",
+        "i two+thousand horse:pl:a",
+        "ride:ag:pl"
+      ],
+      "36:9": [
+        "one_num captain",
+        "my/master",
+        "kjv_horseman:pl"
+      ],
+      "36:10": [
+        "i now without kjv_lord",
+        "this land",
+        "kjv_lord to i"
+      ],
+      "36:11": [
+        "please",
+        "wepl it:a understand:pr",
+        "to wepl",
+        "kjv_syrian",
+        "kjv_jew:pl"
+      ],
+      "36:12": [
+        "my/master",
+        "i:a send:perf?",
+        "i:a to human:pl",
+        "kjv_dung:a",
+        "kjv_urine:a"
+      ],
+      "36:13": [
+        "in kjv_jew:pl language",
+        "great king"
+      ],
+      "36:14": [
+        "deceive:neg:imp",
+        "deliver:neg:can:fu"
+      ],
+      "36:15": [
+        "wesg:a surely deliver:fu",
+        "deliver:psv:neg:fu"
+      ],
+      "36:16": [
+        "with ipl",
+        "to ipl",
+        "each of his/kjv_vine",
+        "his/own kjv_cistern"
+      ],
+      "36:17": [
+        "until ipl",
+        "land of corn and wine",
+        "land of bread and kjv_vineyard:pl"
+      ],
+      "36:18": [
+        "beware:imp",
+        "wesg:a deliver:fu",
+        "god:pl of nation:pl"
+      ],
+      "36:19": [
+        "kjv_arphad",
+        "kjv_sepharvaim",
+        "kjv_samaria",
+        "mypl/hand"
+      ],
+      "36:20": [
+        "these land:pl",
+        "mypl/hand",
+        "deliver:should"
+      ],
+      "36:21": [
+        "they silent remain:pa",
+        "king/command",
+        "answer:neg:imp"
+      ],
+      "36:22": [
+        "kjv_household",
+        "kjv_record_keeper",
+        "their/clothing kjv_rend:psv:adj"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "33:24",
+        "36:10",
+        "36:12",
+        "36:5",
+        "36:8"
+      ],
+      "ipl": [
+        "33:10",
+        "33:13",
+        "36:16",
+        "36:17",
+        "36:5",
+        "36:7"
+      ],
+      "wesg": [
+        "32:15",
+        "33:14",
+        "33:2",
+        "33:21",
+        "33:22",
+        "36:15",
+        "36:18",
+        "36:7"
+      ],
+      "wepl": [
+        "36:11"
+      ],
+      "mypl": [
+        "32:18",
+        "33:13",
+        "34:16",
+        "34:5",
+        "36:19",
+        "36:20"
+      ],
+      "ourone": [
+        "33:2",
+        "33:20",
+        "33:22",
+        "35:2",
+        "36:7"
+      ],
+      "iplself": [
+        "33:10"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "physicalPluralReferences": [
+      "Isaiah36:11"
+    ],
+    "parallelAccountReview": {
+      "verses": 22,
+      "exactSourceAndAnalysisReuse": [
+        "Isaiah36:9"
+      ],
+      "otherVersesIndividuallyAuthored": true
+    },
+    "quantityInterpretation": [
+      "One stake33:20,not one creature34:16,fourteenth year36:1,two thousand horses36:8,one captain36:9.",
+      "Generic each,three repeated divine functions and plural-self are not added cardinal counts."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah32–36 adds93 verses,total698;whole Bible incomplete.",
+      "Divine and royal plural-I,personal herald/inhabitant,communal singular-we and physically plural officials remain distinct.",
+      "Six common senses,two proper labels;no inherited targets changed.",
+      "Source account differences,awkward possessive shifts and difficult historical creatures retained."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 486,
+    "spreads": 243,
+    "units": 698,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "97829ebf51b133e67bc8537cae48288973d8a19f66a45396d0787240c2296090",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 243,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.652,
+    "modules": [
+      "tests.test_kjv_isaiah_plural_self",
+      "tests.test_kjv_isaiah_vineyards_and_sieges",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    485,
+    486
+  ],
+  "status": "incomplete Bible;Isaiah1–36 section checkpoint verified"
+}

@@ -1,0 +1,785 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.169",
+    "parentVersion": "0.10-kjv.168",
+    "parentHead": "b8578f1124f9c888a8943cca8fe302b4bec55da1e5ae7adcae067550ce8ce20e",
+    "head": "9a2624a7b68e3666f63e613f8fc9305fe2aabe52d66af2ab680b1573411f7bc4",
+    "newLexicalEntries": 18,
+    "newProperEntries": 13,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 12,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 100,
+    "exactCompilerCases": 100,
+    "newAuthoredVerses": 100,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 100,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9216,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newDanielVerses": 100,
+    "danielVerses": 100,
+    "authoredVerses": 21886,
+    "remainingVerses": 9216,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 17,
+    "quantityChecks": [
+      {
+        "reference": "Daniel 1:1",
+        "source": "In the third year of the reign of Jehoiakim king of Judah came Nebuchadnezzar king of Babylon unto Jerusalem, and besieged it.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 1:5",
+        "source": "And the king appointed them a daily provision of the king’s meat, and of the wine which he drank: so nourishing them three years, that at the end thereof they might stand before the king.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 1:12",
+        "source": "Prove thy servants, I beseech thee, ten days; and let them give us pulse to eat, and water to drink.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Daniel 1:14",
+        "source": "So he consented to them in this matter, and proved them ten days.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Daniel 1:15",
+        "source": "And at the end of ten days their countenances appeared fairer and fatter in flesh than all the children which did eat the portion of the king’s meat.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Daniel 1:17",
+        "source": "As for these four children, God gave them knowledge and skill in all learning and wisdom: and Daniel had understanding in all visions and dreams.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 1:20",
+        "source": "And in all matters of wisdom and understanding, that the king enquired of them, he found them ten times better than all the magicians and astrologers that were in all his realm.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Daniel 1:21",
+        "source": "And Daniel continued even unto the first year of king Cyrus.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 2:1",
+        "source": "And in the second year of the reign of Nebuchadnezzar Nebuchadnezzar dreamed dreams, wherewith his spirit was troubled, and his sleep brake from him.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Daniel 2:9",
+        "source": "But if ye will not make known unto me the dream, there is but one decree for you: for ye have prepared lying and corrupt words to speak before me, till the time be changed: therefore tell me the dream, and I shall know that ye can shew me the interpretation thereof.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 2:39",
+        "source": "And after thee shall arise another kingdom inferior to thee, and another third kingdom of brass, which shall bear rule over all the earth.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 2:40",
+        "source": "And the fourth kingdom shall be strong as iron: forasmuch as iron breaketh in pieces and subdueth all things: and as iron that breaketh all these, shall it break in pieces and bruise.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Daniel 3:1",
+        "source": "Nebuchadnezzar the king made an image of gold, whose height was threescore cubits, and the breadth thereof six cubits: he set it up in the plain of Dura, in the province of Babylon.",
+        "expectedDecimalQuantities": [
+          60,
+          6
+        ],
+        "targetQuantities": [
+          60,
+          6
+        ]
+      },
+      {
+        "reference": "Daniel 3:19",
+        "source": "Then was Nebuchadnezzar full of fury, and the form of his visage was changed against Shadrach, Meshach, and Abednego: therefore he spake, and commanded that they should heat the furnace one seven times more than it was wont to be heated.",
+        "expectedDecimalQuantities": [
+          1,
+          7
+        ],
+        "targetQuantities": [
+          1,
+          7
+        ]
+      },
+      {
+        "reference": "Daniel 3:23",
+        "source": "And these three men, Shadrach, Meshach, and Abednego, fell down bound into the midst of the burning fiery furnace.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 3:24",
+        "source": "Then Nebuchadnezzar the king was astonied, and rose up in haste, and spake, and said unto his counsellors, Did not we cast three men bound into the midst of the fire? They answered and said unto the king, True, O king.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 3:25",
+        "source": "He answered and said, Lo, I see four men loose, walking in the midst of the fire, and they have no hurt; and the form of the fourth is like the Son of God.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "three:ord year",
+        "kjv_jehoiakim",
+        "nebuchadnezzar",
+        "besiege:pa"
+      ],
+      "1:2": [
+        "kjv_lord",
+        "into his/hand give:pa",
+        "his/god",
+        "treasure house"
+      ],
+      "1:3": [
+        "kjv_ashpenaz",
+        "king/seed",
+        "prince:pl"
+      ],
+      "1:4": [
+        "kjv_blemish be:pa:neg",
+        "knowledge understand:cv",
+        "tongue of kjv_chaldean:pl"
+      ],
+      "1:5": [
+        "king/food",
+        "three year:pl",
+        "kjv_nourish:cv"
+      ],
+      "1:6": [
+        "kjv_daniel_captive kjv_hananiah_captive kjv_mishael_captive and kjv_azariah_captive"
+      ],
+      "1:7": [
+        "kjv_daniel_captive name of kjv_belteshazzar",
+        "kjv_hananiah_captive of kjv_shadrach",
+        "kjv_mishael_captive of kjv_meshach",
+        "kjv_azariah_captive of kjv_abednego"
+      ],
+      "1:8": [
+        "himself:a",
+        "defile:fu:neg",
+        "defile:pa:neg:may"
+      ],
+      "1:9": [
+        "god kjv_daniel_captive",
+        "tender love"
+      ],
+      "1:10": [
+        "i my/lord king fear:pr",
+        "your/face:pl worse in flesh",
+        "my/head"
+      ],
+      "1:11": [
+        "kjv_melzar",
+        "kjv_daniel_captive kjv_hananiah_captive kjv_mishael_captive and kjv_azariah_captive"
+      ],
+      "1:12": [
+        "i thou:a beseech:pr ten day:pl",
+        "wesg:a kjv_pulse_food",
+        "water to drink"
+      ],
+      "1:13": [
+        "ourone/face:pl",
+        "and face of child:pl",
+        "thy/servant:pl deal"
+      ],
+      "1:14": [
+        "consent:pa",
+        "ten day:pl test:pa"
+      ],
+      "1:15": [
+        "ten day:pl",
+        "more handsome and more fat in flesh"
+      ],
+      "1:16": [
+        "away take:pa",
+        "kjv_pulse_food give:pa"
+      ],
+      "1:17": [
+        "four child:pl",
+        "all vision:pl and dream:ev:pl"
+      ],
+      "1:18": [
+        "day:pl",
+        "prince of eunuch:pl",
+        "before nebuchadnezzar"
+      ],
+      "1:19": [
+        "kjv_commune:pa",
+        "none like kjv_daniel_captive",
+        "before king stand:pa"
+      ],
+      "1:20": [
+        "ten time:pl more good",
+        "kjv_magician:pl and kjv_astrologer:pl"
+      ],
+      "1:21": [
+        "one_num:ord year of king kjv_cyrus"
+      ],
+      "2:1": [
+        "two:ord year",
+        "nebuchadnezzar nebuchadnezzar",
+        "his/sleep from he break:pa"
+      ],
+      "2:2": [
+        "kjv_magician:pl and kjv_astrologer:pl and kjv_sorcerer:pl and kjv_chaldean:pl"
+      ],
+      "2:3": [
+        "ipl dream:ev dream:perf",
+        "mypl/spirit"
+      ],
+      "2:4": [
+        "in kjv_syriack",
+        "wesg interpret:ev show:fu"
+      ],
+      "2:5": [
+        "thing from ipl go:perf",
+        "in piece:pl cut:psv:fu",
+        "kjv_dunghill make:psv:fu"
+      ],
+      "2:6": [
+        "of ipl gift:pl and reward:pl and great honour",
+        "its/interpret:ev show"
+      ],
+      "2:7": [
+        "king his/servant:pl dream:ev tell:pr:opt",
+        "wesg"
+      ],
+      "2:8": [
+        "time gain:pr:should",
+        "thing from ipl go:perf"
+      ],
+      "2:9": [
+        "one_num decree",
+        "false and corrupt:adj word:pl",
+        "time change:psv:pr"
+      ],
+      "2:10": [
+        "king/affair show:pr:can be:pr:neg",
+        "king lord nor rule:ag"
+      ],
+      "2:11": [
+        "except god:pl whose dwell:ev with flesh be:pr:neg"
+      ],
+      "2:12": [
+        "very with fury",
+        "all wise man:pl"
+      ],
+      "2:13": [
+        "slay:psv:pa:should",
+        "his/companion:pl to slay:psv"
+      ],
+      "2:14": [
+        "kjv_arioch_guard captain of king/guard",
+        "counsel and wisdom"
+      ],
+      "2:15": [
+        "why decree from king so with haste",
+        "know:caus:pa"
+      ],
+      "2:16": [
+        "time give:pa:should",
+        "interpret:ev show:pa:should"
+      ],
+      "2:17": [
+        "kjv_hananiah_captive kjv_mishael_captive and kjv_azariah_captive"
+      ],
+      "2:18": [
+        "mercy:pl of god of heaven",
+        "perish:pa:neg:should"
+      ],
+      "2:19": [
+        "in night vision reveal:psv:pa",
+        "god of heaven bless:pa"
+      ],
+      "2:20": [
+        "forever and forever",
+        "wisdom and might of he"
+      ],
+      "2:21": [
+        "king:pl remove:pr",
+        "king:pl up set:pr",
+        "knowledge"
+      ],
+      "2:22": [
+        "deep and secret thing:pl",
+        "light with he dwell:pr"
+      ],
+      "2:23": [
+        "i thou:a thank:pr",
+        "my/father:pl",
+        "wesg of thou desire:pa",
+        "to wesg king/affair"
+      ],
+      "2:24": [
+        "destroy:neg",
+        "i:a before king in bring",
+        "i to king interpret:ev"
+      ],
+      "2:25": [
+        "i man of captive:pl of kjv_judah find:perf"
+      ],
+      "2:26": [
+        "whose name kjv_belteshazzar",
+        "to ipl dream:ev which ipl see:perf"
+      ],
+      "2:27": [
+        "kjv_soothsayer:pl",
+        "show:pr:neg:can"
+      ],
+      "2:28": [
+        "in heaven god",
+        "in later day:pl",
+        "thy/head upon thy/bed"
+      ],
+      "2:29": [
+        "thy/thought:pl into thy/mind",
+        "what after this happen:pa:should"
+      ],
+      "2:30": [
+        "i more than any live:cv",
+        "reveal:psv:pr:neg",
+        "for sake of they",
+        "thought:pl of thy/heart"
+      ],
+      "2:31": [
+        "whose bright:ev excellent",
+        "its/form terrible"
+      ],
+      "2:32": [
+        "his/breast and his/arm:pl of silver",
+        "his/belly and his/thigh:pl of kjv_brass"
+      ],
+      "2:33": [
+        "his/leg:pl of iron",
+        "part of iron and part of kjv_clay_material"
+      ],
+      "2:34": [
+        "without hand:pl",
+        "his/foot:pl",
+        "in piece:pl break:pa"
+      ],
+      "2:35": [
+        "iron kjv_clay_material kjv_brass silver and gold",
+        "place for they find:psv:pa:neg",
+        "whole earth fill:pa"
+      ],
+      "2:36": [
+        "wesg its/interpret:ev before king tell:fu"
+      ],
+      "2:37": [
+        "king of king:pl",
+        "kingdom power and strength and glory"
+      ],
+      "2:38": [
+        "beast:pl of field and bird:pl of heaven",
+        "thou this head of gold"
+      ],
+      "2:39": [
+        "another kingdom inferior to thou",
+        "three:ord kingdom of kjv_brass",
+        "authority over all earth hold:fu"
+      ],
+      "2:40": [
+        "four:ord kingdom",
+        "subdue:pr",
+        "kjv_bruise:fu"
+      ],
+      "2:41": [
+        "kjv_potter:pl/kjv_clay_material",
+        "kjv_divide:psv:fu",
+        "strength of iron"
+      ],
+      "2:42": [
+        "in part strong and in part break:psv:adj"
+      ],
+      "2:43": [
+        "they themselves:a with seed of man:pl mix:fu",
+        "each to other stick:fu:neg"
+      ],
+      "2:44": [
+        "never destroy:psv:fu",
+        "to other people leave:psv:fu:neg",
+        "consume:fu"
+      ],
+      "2:45": [
+        "iron kjv_brass kjv_clay_material silver and gold",
+        "dream:ev certain",
+        "interpret:ev sure"
+      ],
+      "2:46": [
+        "kjv_daniel_captive:a kjv_worship:pa",
+        "kjv_offering and sweet smell:ev:pl to he"
+      ],
+      "2:47": [
+        "god of god:pl and lord of king:pl",
+        "reveal:ag of secret:pl"
+      ],
+      "2:48": [
+        "kjv_province of kjv_babylon",
+        "chief of kjv_governor:pl"
+      ],
+      "2:49": [
+        "kjv_shadrach kjv_meshach and kjv_abednego",
+        "kjv_daniel_captive in gate of king"
+      ],
+      "3:1": [
+        "five+twelve kjv_cubit:pl",
+        "six kjv_cubit:pl",
+        "kjv_dura"
+      ],
+      "3:2": [
+        "judge:ag:pl treasure keep:ag:pl counsellor:pl sheriff:pl",
+        "kjv_dedicate:ev"
+      ],
+      "3:3": [
+        "judge:ag:pl treasure keep:ag:pl counsellor:pl sheriff:pl",
+        "before image"
+      ],
+      "3:4": [
+        "herald loud:adv cry:pa",
+        "people nation:pl and language:pl"
+      ],
+      "3:5": [
+        "cornet kjv_flute kjv_harp kjv_sackbut kjv_psaltery kjv_dulcimer",
+        "kjv_worship"
+      ],
+      "3:6": [
+        "fall:pr:neg and kjv_worship:pr:neg",
+        "same hour",
+        "fire:adj kjv_furnace"
+      ],
+      "3:7": [
+        "cornet kjv_flute kjv_harp kjv_sackbut kjv_psaltery and all",
+        "all people nation:pl and language:pl"
+      ],
+      "3:8": [
+        "some kjv_chaldean:pl",
+        "kjv_jew:pl accuse:pa"
+      ],
+      "3:9": [
+        "king nebuchadnezzar",
+        "forever live"
+      ],
+      "3:10": [
+        "kjv_sackbut kjv_psaltery and kjv_dulcimer",
+        "kjv_worship:fu"
+      ],
+      "3:11": [
+        "fall:pr:neg and kjv_worship:pr:neg",
+        "cast:psv:pa:should"
+      ],
+      "3:12": [
+        "regard:perf:neg",
+        "thy/god:pl serve:pr:neg"
+      ],
+      "3:13": [
+        "his/rage and fury",
+        "these man:pl before king"
+      ],
+      "3:14": [
+        "mypl/god:pl",
+        "which ipl up set:perf"
+      ],
+      "3:15": [
+        "kjv_dulcimer",
+        "if you kjv_worship:pr:neg",
+        "who thatone god",
+        "mypl/hand:pl"
+      ],
+      "3:16": [
+        "wesg",
+        "answer worry:cv be:pr:neg"
+      ],
+      "3:17": [
+        "ourone/god whom wesg serve:pr",
+        "deliver:pr:can",
+        "he wesg:a out of thy/hand deliver:fu"
+      ],
+      "3:18": [
+        "but if not",
+        "wesg thy/god:pl serve:fu:neg"
+      ],
+      "3:19": [
+        "one_num seven time:pl more",
+        "kjv_accustomed be:pa"
+      ],
+      "3:20": [
+        "most mighty man:pl",
+        "kjv_shadrach kjv_meshach and kjv_abednego bind"
+      ],
+      "3:21": [
+        "their/coat:pl their/kjv_hosen and their/hat:pl",
+        "bind:psv:pa"
+      ],
+      "3:22": [
+        "flame:pl of fire those man:pl",
+        "slay:pa"
+      ],
+      "3:23": [
+        "these three man:pl",
+        "bind:psv:adj"
+      ],
+      "3:24": [
+        "wesg three man:pl",
+        "cast:pa:neg?"
+      ],
+      "3:25": [
+        "ipl four man:pl",
+        "hurt:ev have:pr:neg",
+        "four:ord like son of god"
+      ],
+      "3:26": [
+        "servant:pl of highest god",
+        "kjv_abednego out of middle of fire come:pa"
+      ],
+      "3:27": [
+        "power have:pa:neg",
+        "hair of their/head burn:psv:pa",
+        "nor smell of fire"
+      ],
+      "3:28": [
+        "his/angel send:perf",
+        "they king/word change:perf",
+        "their/body:pl yield:perf",
+        "except their/own god"
+      ],
+      "3:29": [
+        "ipl decree make:pr",
+        "in piece:pl cut:psv:fu",
+        "kjv_dunghill make:psv:fu"
+      ],
+      "3:30": [
+        "kjv_province of kjv_babylon up raise:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:10",
+        "1:12",
+        "2:23",
+        "2:24",
+        "2:25",
+        "2:30"
+      ],
+      "ipl": [
+        "2:26",
+        "2:3",
+        "2:5",
+        "2:6",
+        "2:8",
+        "2:9",
+        "3:14",
+        "3:15",
+        "3:25",
+        "3:29"
+      ],
+      "wesg": [
+        "1:12",
+        "2:23",
+        "2:36",
+        "2:4",
+        "2:7",
+        "3:16",
+        "3:17",
+        "3:18",
+        "3:24"
+      ],
+      "wepl": [],
+      "mypl": [
+        "2:3",
+        "3:14",
+        "3:15"
+      ],
+      "ourone": [
+        "1:13",
+        "3:17"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [
+      "2:26",
+      "2:3",
+      "2:5",
+      "2:6",
+      "2:8",
+      "2:9",
+      "3:14",
+      "3:15",
+      "3:25",
+      "3:29"
+    ],
+    "quantityInterpretation": [
+      "Regnal years,training years,ten-day trial,four youths and tenfold comparison preserved without chronology repair.",
+      "Third/fourth kingdoms,sixty-by-six image,and supplied one seven times more retained without modern conversions.",
+      "Three bound men,four loose men,fourth form retained;no invented Trinity count."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Daniel1–3 adds100 verses;whole Bible incomplete.",
+      "Personal,royal plural-self and communal singular-we distinguished by speaker,not blanket replacement.",
+      "Five common senses and thirteen contextual names;no paradigms or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Daniel — incomplete Bible working text",
+    "pages": 74,
+    "spreads": 37,
+    "units": 100,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "dedc68151e15ef75fbedd63dc2cf82d9deb477f2542b158b3185474f23c392da",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 37,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 16.17,
+    "modules": [
+      "tests.test_kjv_daniel_court_self",
+      "tests.test_kjv_ezekiel_shared_inheritance",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    73,
+    74
+  ],
+  "status": "incomplete Bible;Daniel1–3 section checkpoint verified"
+}

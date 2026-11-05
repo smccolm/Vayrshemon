@@ -1,0 +1,584 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.249",
+    "parentVersion": "0.10-kjv.248",
+    "parentHead": "9a923e8ecc5f95aa418f76e977c852b3a949ffba88f175eaed2c2a3cc8742e27",
+    "head": "9b91a3b99be4c43dfbd024bf06a82082b92f29100be34c0759f094310de1b287",
+    "newLexicalEntries": 9,
+    "newProperEntries": 0,
+    "newCommonEntries": 9,
+    "newSurfaceForms": 7,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 66,
+    "exactCompilerCases": 66,
+    "newAuthoredVerses": 66,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 66,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 1829,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEphesiansVerses": 66,
+    "ephesiansVerses": 66,
+    "authoredVerses": 29273,
+    "remainingVerses": 1829,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Ephesians 1:10",
+        "source": "That in the dispensation of the fulness of times he might gather together in one all things in Christ, both which are in heaven, and which are on earth; even in him:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ephesians 1:12",
+        "source": "That we should be to the praise of his glory, who first trusted in Christ.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ephesians 2:14",
+        "source": "For he is our peace, who hath made both one, and hath broken down the middle wall of partition between us;",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Ephesians 2:15",
+        "source": "Having abolished in his flesh the enmity, even the law of commandments contained in ordinances; for to make in himself of twain one new man, so making peace;",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Ephesians 2:16",
+        "source": "And that he might reconcile both unto God in one body by the cross, having slain the enmity thereby:",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Ephesians 2:18",
+        "source": "For through him we both have access by one Spirit unto the Father.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_paul_acts",
+        "at kjv_ephesus_acts",
+        "faithful:pl in kjv_christ_title"
+      ],
+      "1:2": [
+        "god ourone/father",
+        "kjv_lord kjv_jesus_matthew kjv_christ_title"
+      ],
+      "1:3": [
+        "god and father of ourone/kjv_lord",
+        "wesg:a with all spirit:adj blessing:pl",
+        "heavenly place:pl"
+      ],
+      "1:4": [
+        "before world kjv_foundation",
+        "holy and without blame",
+        "in love"
+      ],
+      "1:5": [
+        "child:pl adoption",
+        "to himself kjv_predestinate_romans:perf",
+        "his/will"
+      ],
+      "1:6": [
+        "his/grace glory",
+        "in beloved",
+        "accept:psv:adj make:perf"
+      ],
+      "1:7": [
+        "redeem:ev through his/blood",
+        "forgive:ev of sin:pl",
+        "his/grace wealth"
+      ],
+      "1:8": [
+        "towards wesg",
+        "all wisdom and kjv_prudence"
+      ],
+      "1:9": [
+        "mystery of his/will",
+        "he in himself purpose:perf"
+      ],
+      "1:10": [
+        "kjv_dispensation_order_ephesians",
+        "time:pl full:ev",
+        "in one_num gather:may",
+        "which in heaven and which on earth"
+      ],
+      "1:11": [
+        "inheritance obtain:perf",
+        "all thing:pl",
+        "counsel of his/own will"
+      ],
+      "1:12": [
+        "wesg who first",
+        "his/glory praise"
+      ],
+      "1:13": [
+        "after you truth word",
+        "after you believe:pa",
+        "holy spirit of promise seal:psv:pa"
+      ],
+      "1:14": [
+        "ourone/inheritance kjv_earnest_pledge_corinthians",
+        "buy:psv:adj kjv_possession redeem:ev"
+      ],
+      "1:15": [
+        "i also after i",
+        "your/faith in kjv_lord",
+        "all saint:pl"
+      ],
+      "1:16": [
+        "thanks give:inf cease:neg:pr",
+        "my/pray:ev:pl",
+        "kjv_mention:cv"
+      ],
+      "1:17": [
+        "god of ourone/kjv_lord",
+        "glory father",
+        "wisdom and reveal:ev spirit"
+      ],
+      "1:18": [
+        "your/understand:ev eye:pl",
+        "his/call:ev hope",
+        "his/inheritance glory wealth"
+      ],
+      "1:19": [
+        "towards wesg who believe:pr",
+        "his/mighty power work:ev"
+      ],
+      "1:20": [
+        "from dead:adj:pl raise:pa",
+        "his/own kjv_right_side hand"
+      ],
+      "1:21": [
+        "kjv_principality_ephesians and power and might and kjv_dominion",
+        "not only in this world"
+      ],
+      "1:22": [
+        "under his/foot:pl",
+        "head to kjv_church_assembly"
+      ],
+      "1:23": [
+        "his/body full:ev",
+        "all in all fill:pr"
+      ],
+      "2:1": [
+        "transgress:ev:pl and sin:pl",
+        "he quicken:perf"
+      ],
+      "2:2": [
+        "this world course",
+        "prince of air power",
+        "disobedience child:pl"
+      ],
+      "2:3": [
+        "wesg all",
+        "kjv_conversation_conduct_corinthians",
+        "flesh and mind",
+        "by nature wrath child:pl"
+      ],
+      "2:4": [
+        "god who in mercy rich",
+        "he wesg:a love:pa"
+      ],
+      "2:5": [
+        "wesg:a together with kjv_christ_title",
+        "by grace you save:psv:pr"
+      ],
+      "2:6": [
+        "wesg:a up together raise:perf",
+        "heavenly place:pl",
+        "together sit:caus:perf"
+      ],
+      "2:7": [
+        "age:pl to come:inf",
+        "his/grace exceed:cv wealth",
+        "his/kjv_kindness"
+      ],
+      "2:8": [
+        "by grace you through faith",
+        "not of yourselves",
+        "god gift"
+      ],
+      "2:9": [
+        "not of work:pl",
+        "lest any man boast:should"
+      ],
+      "2:10": [
+        "his/kjv_workmanship_ephesians",
+        "good work:pl",
+        "before kjv_ordain:perf",
+        "wesg in they walk:should"
+      ],
+      "2:11": [
+        "kjv_circumcise:neg:ev call:psv:pr",
+        "by hand:pl make:psv:adj kjv_circumcise:ev"
+      ],
+      "2:12": [
+        "without kjv_christ_title",
+        "kjv_commonwealth_ephesians",
+        "promise kjv_covenant:pl",
+        "no hope",
+        "without god"
+      ],
+      "2:13": [
+        "former:adv far away",
+        "by blood of kjv_christ_title near"
+      ],
+      "2:14": [
+        "ourone/peace",
+        "two group:pl one_num",
+        "middle wall of partition",
+        "between wesg"
+      ],
+      "2:15": [
+        "his/flesh enmity",
+        "law of command:pl in kjv_ordinance:pl",
+        "from two one_num new man"
+      ],
+      "2:16": [
+        "two group:pl to god in one_num body",
+        "kjv_cross_instrument",
+        "enmity thereby slay:perf"
+      ],
+      "2:17": [
+        "peace to you who far away",
+        "to they who near"
+      ],
+      "2:18": [
+        "wesg of two group:pl",
+        "by one_num spirit to father",
+        "kjv_access_romans"
+      ],
+      "2:19": [
+        "no more stranger:pl",
+        "fellow citizen:pl",
+        "of god kjv_household"
+      ],
+      "2:20": [
+        "kjv_apostle:pl and prophet:pl kjv_foundation",
+        "himself chief kjv_cornerstone_ephesians"
+      ],
+      "2:21": [
+        "all kjv_building_corinthians",
+        "together join:psv:adj",
+        "holy kjv_temple"
+      ],
+      "2:22": [
+        "you also together",
+        "god dwelling through spirit"
+      ],
+      "3:1": [
+        "i kjv_paul_acts kjv_prisoner",
+        "for you kjv_gentile:pl"
+      ],
+      "3:2": [
+        "god grace kjv_dispensation_order_ephesians",
+        "to i for you give:psv:pr"
+      ],
+      "3:3": [
+        "by reveal:ev",
+        "mystery to i",
+        "before in few word:pl"
+      ],
+      "3:4": [
+        "when you read:pr",
+        "my/know:ev",
+        "understand:pr:may"
+      ],
+      "3:5": [
+        "other age:pl",
+        "as now",
+        "his/holy kjv_apostle:pl and prophet:pl"
+      ],
+      "3:6": [
+        "kjv_fellowheir_ephesians:pl",
+        "of same body",
+        "his/promise in kjv_christ_title by kjv_gospel"
+      ],
+      "3:7": [
+        "i servant make:psv:pa",
+        "kjv_effectual_ephesians work:ev of his/power"
+      ],
+      "3:8": [
+        "less than least of all saint:pl",
+        "kjv_unsearchable_ephesians wealth"
+      ],
+      "3:9": [
+        "kjv_fellowship_mystery_ephesians",
+        "from world beginning",
+        "all thing:pl by kjv_jesus_matthew kjv_christ_title create:pa"
+      ],
+      "3:10": [
+        "kjv_principality_ephesians:pl and power:pl",
+        "by kjv_church_assembly",
+        "many form:adj wisdom"
+      ],
+      "3:11": [
+        "eternal purpose",
+        "ourone/kjv_lord"
+      ],
+      "3:12": [
+        "wesg bold:ev",
+        "confidence by faith of he"
+      ],
+      "3:13": [
+        "i desire:pr",
+        "my/kjv_tribulation:pl for you",
+        "your/glory"
+      ],
+      "3:14": [
+        "i my/knee:pl",
+        "father of ourone/kjv_lord kjv_jesus_matthew kjv_christ_title"
+      ],
+      "3:15": [
+        "whole kjv_family in heaven and earth"
+      ],
+      "3:16": [
+        "his/glory wealth",
+        "kjv_inner man by his/spirit",
+        "strengthen:psv:inf"
+      ],
+      "3:17": [
+        "your/heart:pl by faith dwell:may",
+        "in love root:psv:adj and ground:psv:adj"
+      ],
+      "3:18": [
+        "with all saint:pl",
+        "breadth and length and deep:ev and height"
+      ],
+      "3:19": [
+        "love of kjv_christ_title",
+        "know:ev exceed:pr",
+        "all full:ev of god"
+      ],
+      "3:20": [
+        "wesg ask:pr or think:pr",
+        "exceed:adv abundance:adv",
+        "power which in wesg work:pr"
+      ],
+      "3:21": [
+        "glory in kjv_church_assembly",
+        "through all age:pl",
+        "world without end",
+        "amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:15",
+        "3:1",
+        "3:13",
+        "3:14",
+        "3:2",
+        "3:3",
+        "3:7",
+        "3:8"
+      ],
+      "ipl": [],
+      "wesg": [
+        "1:11",
+        "1:12",
+        "1:19",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:7",
+        "1:8",
+        "1:9",
+        "2:10",
+        "2:14",
+        "2:18",
+        "2:3",
+        "2:4",
+        "2:5",
+        "2:6",
+        "2:7",
+        "3:12",
+        "3:20"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "1:14",
+        "1:17",
+        "1:2",
+        "1:3",
+        "2:14",
+        "2:3",
+        "3:11",
+        "3:14"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "One gathering and first trust retain source ordinal/unity expressions.",
+      "Two groups and one body/new man/Spirit retain their different referents;singular-we contains two peoples without counting two bodies.",
+      "Personal author-I and communal singular-we remain;indwelling is not an automatic plural-I trigger."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "66new Ephesians verses;whole Bible incomplete.",
+      "Supplied at Ephesus,understanding eyes,fellowship,creation by Jesus Christ,full Father phrase and whole family retained.",
+      "Nine common entries,no new names or paradigms;earlier targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ephesians — incomplete Bible working text",
+    "pages": 34,
+    "spreads": 17,
+    "units": 66,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "149757ca357af9587e63be41099d8be3705628b7957700095a1d42dea19fb8d8",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 17,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 16.008,
+    "modules": [
+      "tests.test_kjv_ephesians_body_access",
+      "tests.test_kjv_galatians_freedom_burdens",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    33,
+    34
+  ],
+  "status": "incomplete Bible;Ephesians1–3 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 33,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv249\\preflight-ephesians\\Proofs\\page-033.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv249\\composed-ephesians\\Proofs\\page-033.png",
+        "sha256": "584b3e84b1fb7ac6a44e905b1c701598476c3c77659739e3440ab3b4f2d96d17",
+        "bytesIdentical": true
+      },
+      {
+        "page": 34,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv249\\preflight-ephesians\\Proofs\\page-034.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv249\\composed-ephesians\\Proofs\\page-034.png",
+        "sha256": "340c8bfbdab02a4d0b1f48b55ce0241604611cfa4fa7af0a629f30aff523feae",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

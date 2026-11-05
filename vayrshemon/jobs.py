@@ -2,6 +2,7 @@
 from copy import deepcopy
 import json
 import os
+import re
 from pathlib import Path
 import subprocess
 import sys
@@ -17,6 +18,9 @@ class JobManager:
 
     def start(self,**params):
         from .pages import target
+        from .page_numbering import page_mode
+        params.setdefault('page_mode',params.get('pdf_view') or ('two' if params.get('page_ids') else page_mode(self.book)))
+        if params['page_mode'] not in ('one','two') or (params.get('pdf_view') and params['pdf_view']!=params['page_mode']):raise ValueError('PAGE_NUMBERING_VIEW_MISMATCH')
         if params.get('pdf_view') is not None and (params['format']!='pdf' or params['pdf_view'] not in ('one','two')):
             raise ValueError('INVALID_PDF_VIEW_PARAMS')
         self.poll()
@@ -46,9 +50,12 @@ class JobManager:
         state=self.book.capture();self.book.validate(state)
         jid='job.'+uuid.uuid4().hex;folder=self.book.root/'.local/jobs'/jid;folder.mkdir(parents=True)
         snapshot=dict(format='vayrshemon.document',formatVersion=self.book.file_version,state=state,history=[],engine=self.book.fingerprint())
-        write_json(folder/'snapshot.vay.json',snapshot)
+        from .native_storage import storage_payload
+        from .json_stream import write_atomic
+        write_atomic(folder/'snapshot.vay.json',storage_payload(snapshot),limit=self.book.max_file_bytes)
         request=dict(root=str(self.book.root),params=dict(params,path=str(folder/('proof.'+params['format']))))
         if outputs:request=dict(root=str(self.book.root),outputs=[dict(params,page_id=o['pageId'],path=str(folder/f"proof-{i}.{params['format']}")) for i,o in enumerate(outputs)])
+        request['nativeStateVersion']=self.book.file_version
         write_json(folder/'request.json',request)
         log_path=folder/'worker.log'
         env=dict(os.environ,PYTHONUTF8='1',PYTHONUNBUFFERED='1')
@@ -116,6 +123,7 @@ class JobManager:
                     self.book.log.emit('jobs','PROGRESS_READ_BUSY',level='debug',jobId=job['jobId'],path=str(progress))
                 job['_progressBusy']=True
             result['progress']=deepcopy(job.get('_progress',dict(phase='starting')))
+            if job['status']=='completed':result['progress'].update(stage='completed',percent=100,phase='completed')
             return result
         if job_id:
             if job_id not in self.jobs: raise ValueError('JOB_NOT_FOUND')
@@ -139,11 +147,26 @@ class JobManager:
             if job['status']=='running': self.cancel(jid)
 
 
-def progress(folder,phase):
+def pdf_progress(phase,page_count,streaming=False):
+    total=2*page_count+3;completed=0;stage='opening';page=None
+    match=re.fullmatch(r'(checking page|writing PDF page) (\d+) of (\d+)',phase)
+    if match:
+        page=int(match[2]);stage='checking' if match[1]=='checking page' else 'writing'
+        if streaming:completed=2*(page-1)+(stage=='writing')
+        else:completed=page-1+(page_count if stage=='writing' else 0)
+    elif phase=='finishing PDF page data':stage='finalizing';completed=2*page_count
+    elif phase=='finishing PDF numbering and reading view':stage='finalizing';completed=2*page_count+1
+    elif phase=='verifying output':stage='verifying';completed=2*page_count+2
+    elif phase=='ready to publish':stage='publishing';completed=total
+    return dict(stage=stage,page=page,pageCount=page_count,completedUnits=completed,totalUnits=total,
+                percent=min(99,int(100*completed/total)))
+
+
+def progress(folder,phase,**details):
     # Windows may briefly deny atomic replacement while the UI reads progress.
     # A progress label must never turn an otherwise successful proof into failure.
     for attempt in range(4):
-        try:write_json(folder/'progress.json',dict(phase=phase));return
+        try:write_json(folder/'progress.json',dict(phase=phase,**details));return
         except PermissionError:
             if attempt<3:time.sleep(.02*(attempt+1))
             else:print('PROGRESS_UPDATE_BUSY: '+phase,file=sys.stderr,flush=True)
@@ -158,17 +181,32 @@ def worker(folder):
     from .file_api import FileSession
     from . import publication
     app=QApplication.instance() or QApplication([])
-    session=(FileSession if load_json(folder/'snapshot.vay.json')['formatVersion']=='0.6.0' else ReliabilitySession)(request['root'],source_fonts=False,recovery=False)
+    version=request.get('nativeStateVersion')
+    if version is None:version=load_json(folder/'snapshot.vay.json')['formatVersion']
+    session=(FileSession if version=='0.6.0' else ReliabilitySession)(request['root'],source_fonts=False,recovery=False)
     qInstallMessageHandler(lambda kind,context,message:print(str(kind)+': '+message,file=sys.stderr,flush=True))
     try:
         session.open(folder/'snapshot.vay.json')
         results=[];outputs=request.get('outputs',[request.get('params')])
         for i,params in enumerate(outputs):
-            progress(folder,f'rendering page {i+1} of {len(outputs)}')
-            result=publication.export(session,**params)
+            if params['format']=='pdf':
+                count=1 if params.get('page_id') else len(session.state['pages'])
+                streaming=params['mode']=='mono'
+                def report(phase):
+                    nonlocal streaming
+                    from PySide6.QtCore import QCoreApplication,QEvent
+                    if phase=='checking and writing PDF pages':streaming=True
+                    progress(folder,phase,**pdf_progress(phase,count,streaming))
+                    QCoreApplication.sendPostedEvents(None,QEvent.Type.DeferredDelete)
+                result=publication.export(session,**params,progress_callback=report)
+            else:
+                progress(folder,f'rendering page {i+1} of {len(outputs)}')
+                result=publication.export(session,**params)
             path=Path(result['path']);result['sha256']=sha(path.read_bytes());results.append(result)
         result=dict(outputs=results) if 'outputs' in request else results[0]
-        write_json(folder/'result.json',result);progress(folder,'ready to publish')
+        write_json(folder/'result.json',result)
+        if params['format']=='pdf':report('ready to publish')
+        else:progress(folder,'ready to publish')
     finally: session.finish()
 
 

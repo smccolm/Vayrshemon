@@ -1,0 +1,716 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.99",
+    "parentVersion": "0.10-kjv.98",
+    "parentHead": "8993c78777597d421c59e35ce2cc3224ad4858bdc6d11a27861f237cfe96ce72",
+    "head": "1adb01bec847769b9eb904c6352bc26af81ab28f28302745f6acf0d020f26c3e",
+    "newLexicalEntries": 112,
+    "newProperEntries": 109,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 24,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 95,
+    "exactCompilerCases": 95,
+    "newAuthoredVerses": 95,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 292,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 18465,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newNehemiahVerses": 95,
+    "nehemiahVerses": 292,
+    "authoredVerses": 12637,
+    "remainingVerses": 18465,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 12,
+    "quantityChecks": [
+      {
+        "reference": "Nehemiah 8:1",
+        "source": "And all the people gathered themselves together as one man into the street that was before the water gate; and they spake unto Ezra the scribe to bring the book of the law of Moses, which the LORD had commanded to Israel.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Nehemiah 8:2",
+        "source": "And Ezra the priest brought the law before the congregation both of men and women, and all that could hear with understanding, upon the first day of the seventh month.",
+        "expectedDecimalQuantities": [
+          1,
+          7
+        ],
+        "targetQuantities": [
+          1,
+          7
+        ]
+      },
+      {
+        "reference": "Nehemiah 8:13",
+        "source": "And on the second day were gathered together the chief of the fathers of all the people, the priests, and the Levites, unto Ezra the scribe, even to understand the words of the law.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Nehemiah 8:14",
+        "source": "And they found written in the law which the LORD had commanded by Moses, that the children of Israel should dwell in booths in the feast of the seventh month:",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Nehemiah 8:18",
+        "source": "Also day by day, from the first day unto the last day, he read in the book of the law of God. And they kept the feast seven days; and on the eighth day was a solemn assembly, according unto the manner.",
+        "expectedDecimalQuantities": [
+          1,
+          7,
+          8
+        ],
+        "targetQuantities": [
+          1,
+          7,
+          8
+        ]
+      },
+      {
+        "reference": "Nehemiah 9:1",
+        "source": "Now in the twenty and fourth day of this month the children of Israel were assembled with fasting, and with sackclothes, and earth upon them.",
+        "expectedDecimalQuantities": [
+          24
+        ],
+        "targetQuantities": [
+          24
+        ]
+      },
+      {
+        "reference": "Nehemiah 9:3",
+        "source": "And they stood up in their place, and read in the book of the law of the LORD their God one fourth part of the day; and another fourth part they confessed, and worshipped the LORD their God.",
+        "expectedDecimalQuantities": [
+          1,
+          4,
+          4
+        ],
+        "targetQuantities": [
+          1,
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Nehemiah 9:21",
+        "source": "Yea, forty years didst thou sustain them in the wilderness, so that they lacked nothing; their clothes waxed not old, and their feet swelled not.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Nehemiah 10:31",
+        "source": "And if the people of the land bring ware or any victuals on the sabbath day to sell, that we would not buy it of them on the sabbath, or on the holy day: and that we would leave the seventh year, and the exaction of every debt.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Nehemiah 10:32",
+        "source": "Also we made ordinances for us, to charge ourselves yearly with the third part of a shekel for the service of the house of our God;",
+        "expectedDecimalQuantities": [
+          0.3333333333333333
+        ],
+        "targetQuantities": [
+          0.3333333333333333
+        ]
+      },
+      {
+        "reference": "Nehemiah 10:35",
+        "source": "And to bring the firstfruits of our ground, and the firstfruits of all fruit of all trees, year by year, unto the house of the LORD:",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Nehemiah 10:37",
+        "source": "And that we should bring the firstfruits of our dough, and our offerings, and the fruit of all manner of trees, of wine and of oil, unto the priests, to the chambers of the house of our God; and the tithes of our ground unto the Levites, that the same Levites might have the tithes in all the cities of our tillage.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "8:1": [
+        "all people",
+        "as one_num man",
+        "before water gate",
+        "kjv_ezra_scribe"
+      ],
+      "8:2": [
+        "both of man:pl and woman:pl",
+        "with understanding",
+        "first day of seven:ord month"
+      ],
+      "8:3": [
+        "from morning until middle of day",
+        "ear:pl of all people"
+      ],
+      "8:4": [
+        "kjv_scaffold of wood",
+        "his/kjv_right_side hand",
+        "his/left hand",
+        "kjv_hashbadana"
+      ],
+      "8:5": [
+        "above all people",
+        "all people up stand:pa"
+      ],
+      "8:6": [
+        "amen amen",
+        "their/hand:pl",
+        "their/head:pl",
+        "their/face:pl to ground"
+      ],
+      "8:7": [
+        "kjv_jeshua_teacher",
+        "kjv_pelaiah_teacher",
+        "understand:caus:pa"
+      ],
+      "8:8": [
+        "clear:adv read:pa",
+        "meaning:a give:pa",
+        "read:ev:a understand:caus:pa"
+      ],
+      "8:9": [
+        "kjv_tirshatha",
+        "mourn:neg:imp nor weep:imp",
+        "for all people weep:pa"
+      ],
+      "8:10": [
+        "kjv_fat:a eat:imp",
+        "for whom nothing prepare:psv:pr",
+        "joy of kjv_lord your/strength"
+      ],
+      "8:11": [
+        "quiet:caus:pa",
+        "sorrow:caus:psv:imp"
+      ],
+      "8:12": [
+        "kjv_portion_share:pl:a send:inf",
+        "because they word:pl:a understand:pp"
+      ],
+      "8:13": [
+        "second day",
+        "chief of father:pl",
+        "to word:pl of law:a understand:inf"
+      ],
+      "8:14": [
+        "kjv_booth:pl",
+        "seven:ord month"
+      ],
+      "8:15": [
+        "kjv_olive branch:pl",
+        "kjv_pine_tree branch:pl",
+        "kjv_myrtle_tree branch:pl",
+        "kjv_palm_tree branch:pl",
+        "thick kjv_tree:pl"
+      ],
+      "8:16": [
+        "roof of his/house",
+        "court:pl of house of god",
+        "water gate",
+        "gate of kjv_ephraim"
+      ],
+      "8:17": [
+        "since day:pl of kjv_jeshua_nun son of kjv_nun",
+        "so do:neg:pp"
+      ],
+      "8:18": [
+        "from first day to last day",
+        "seven day:pl",
+        "eight:ord day"
+      ],
+      "9:1": [
+        "twenty and four:ord",
+        "kjv_fast:ev",
+        "kjv_sackcloth:pl",
+        "earth upon they"
+      ],
+      "9:2": [
+        "from all stranger:pl",
+        "their/sin:pl and kjv_iniquity:pl of their/father:pl"
+      ],
+      "9:3": [
+        "one_num fourth part of day",
+        "another fourth part"
+      ],
+      "9:4": [
+        "kjv_stair:pl of kjv_levite:pl",
+        "kjv_bunni_prayer",
+        "kjv_chenani",
+        "loud voice"
+      ],
+      "9:5": [
+        "kjv_hashabniah_prayer",
+        "kjv_pethahiah_prayer",
+        "forever and forever"
+      ],
+      "9:6": [
+        "thou even thou kjv_lord alone",
+        "kjv_heaven of kjv_heaven:pl",
+        "their/kjv_multitude",
+        "kjv_multitude of kjv_heaven"
+      ],
+      "9:7": [
+        "kjv_abram:a choose:pa",
+        "kjv_ur of kjv_chaldees",
+        "name of kjv_abraham"
+      ],
+      "9:8": [
+        "kjv_canaanite:pl kjv_hittite:pl kjv_amorite:pl",
+        "kjv_perizzite:pl",
+        "kjv_jebusite:pl",
+        "kjv_girgashite:pl",
+        "i say:pr"
+      ],
+      "9:9": [
+        "ourone/father:pl",
+        "egypt",
+        "kjv_red_sea"
+      ],
+      "9:10": [
+        "kjv_pharaoh",
+        "they proud:adv against they deal:pa",
+        "for thee name:a"
+      ],
+      "9:11": [
+        "on dry land",
+        "their/persecute:ag:pl",
+        "as stone"
+      ],
+      "9:12": [
+        "in day by cloud:adj kjv_pillar",
+        "in night by kjv_pillar of fire"
+      ],
+      "9:13": [
+        "mountain kjv_sinai",
+        "from kjv_heaven speak:pa",
+        "kjv_right_conduct judgment:pl",
+        "true law:pl"
+      ],
+      "9:14": [
+        "thy/holy kjv_sabbath",
+        "kjv_precept:pl kjv_statute:pl and law:pl",
+        "hand of kjv_moses"
+      ],
+      "9:15": [
+        "bread:a from kjv_heaven",
+        "water:a for they out of rock",
+        "thou to they give:inf swear:pp"
+      ],
+      "9:16": [
+        "they and ourone/father:pl",
+        "their/neck:pl:a hard:caus:pa",
+        "listen:neg:pa"
+      ],
+      "9:17": [
+        "captain:a appoint:pa",
+        "to their/bondage return:inf",
+        "gracious and merciful",
+        "they:a forsake:neg:pa"
+      ],
+      "9:18": [
+        "kjv_cast_metal:psv:pp kjv_calf",
+        "this thy/god be:pr",
+        "great kjv_provoke:ev:pl"
+      ],
+      "9:19": [
+        "many kind:pl of thy/mercy:pl",
+        "forsake:neg:pa",
+        "neither kjv_pillar of fire"
+      ],
+      "9:20": [
+        "thy/good spirit",
+        "thy/kjv_manna:a",
+        "their/thirst"
+      ],
+      "9:21": [
+        "forty year:pl",
+        "nothing:a lack:pa",
+        "clothing old become:neg:pa",
+        "foot:pl swell:neg:pa"
+      ],
+      "9:22": [
+        "into corner:pl",
+        "kjv_sihon",
+        "king of kjv_heshbon",
+        "kjv_og king of kjv_bashan"
+      ],
+      "9:23": [
+        "as star:pl of kjv_heaven",
+        "to their/father:pl promise:pp"
+      ],
+      "9:24": [
+        "kjv_canaanite:pl:a subdue:pa",
+        "as they will:pa do:may"
+      ],
+      "9:25": [
+        "fat land",
+        "kjv_well:pl kjv_dig:psv:pr",
+        "kjv_oliveyard:pl",
+        "fat become:pa"
+      ],
+      "9:26": [
+        "thy/law:a behind their/back:pl cast:pa",
+        "thy/prophet:pl:a slay:pa"
+      ],
+      "9:27": [
+        "their/enemy:pl",
+        "save:ag:pl:a give:pa",
+        "many kind:pl of thy/mercy:pl"
+      ],
+      "9:28": [
+        "after they rest:a have:pa",
+        "evil:a again",
+        "many time:pl"
+      ],
+      "9:29": [
+        "if man do:pr he in they live:fu",
+        "kjv_shoulder:a withdraw:pa",
+        "hear:neg:pa"
+      ],
+      "9:30": [
+        "many year:pl",
+        "patient:adv endure:pa",
+        "thy/spirit in thy/prophet:pl",
+        "people of land:pl"
+      ],
+      "9:31": [
+        "entirely consume:neg:pa nor forsake:pa",
+        "gracious and merciful god"
+      ],
+      "9:32": [
+        "ourone/god:excl",
+        "upon wesg",
+        "ourone/king:pl",
+        "ourone/prince:pl",
+        "ourone/priest:pl",
+        "ourone/prophet:pl",
+        "ourone/father:pl",
+        "king:pl of kjv_assyria"
+      ],
+      "9:33": [
+        "kjv_right_conduct:a do:perf",
+        "wesg wicked:adv do:perf"
+      ],
+      "9:34": [
+        "neither ourone/king:pl",
+        "nor ourone/father:pl",
+        "keep:perf nor",
+        "listen:perf"
+      ],
+      "9:35": [
+        "their/kingdom serve:neg:perf",
+        "large and fat land",
+        "neither from their/wicked work:pl"
+      ],
+      "9:36": [
+        "wesg servant:pl this day",
+        "ourone/father:pl",
+        "wesg servant:pl in it"
+      ],
+      "9:37": [
+        "because of ourone/sin:pl",
+        "our/body:pl",
+        "our/kjv_livestock",
+        "at their/pleasure"
+      ],
+      "9:38": [
+        "wesg sure kjv_covenant:a make:pr",
+        "it:a write:pr",
+        "to it seal:pr"
+      ],
+      "10:1": [
+        "kjv_nehemiah_hachaliah kjv_tirshatha son of kjv_hachaliah",
+        "kjv_zidkijah"
+      ],
+      "10:9": [
+        "kjv_jeshua_azaniah son of kjv_azaniah",
+        "kjv_binnui_henadad of son:pl of kjv_henadad",
+        "kjv_kadmiel"
+      ],
+      "10:28": [
+        "remain:cv part",
+        "their/wife:pl their/son:pl and their/daughter:pl",
+        "knowledge:a have:cv and understanding:a have:cv"
+      ],
+      "10:29": [
+        "kjv_cling:pa",
+        "into curse and into oath",
+        "kjv_lord ourone/lord",
+        "his/judgment:pl and his/kjv_statute:pl"
+      ],
+      "10:30": [
+        "wesg our/daughter:pl",
+        "nor their/daughter:pl:a for our/son:pl"
+      ],
+      "10:31": [
+        "kjv_sabbath or on holy day",
+        "seven:ord year",
+        "demand:ev of each debt"
+      ],
+      "10:32": [
+        "wesg kjv_ordinance:pl",
+        "each year",
+        "kjv_third_share of kjv_shekel"
+      ],
+      "10:33": [
+        "kjv_shewbread",
+        "kjv_continual_rite kjv_meat_offering",
+        "kjv_continual_rite burn:pp kjv_offering",
+        "sin kjv_offering:pl",
+        "kjv_atonement"
+      ],
+      "10:34": [
+        "wesg kjv_lot:pl",
+        "wood kjv_offering",
+        "year by year",
+        "upon altar"
+      ],
+      "10:35": [
+        "first fruit:pl of our/ground",
+        "all fruit of all kjv_tree:pl",
+        "year by year"
+      ],
+      "10:36": [
+        "first+born of our/son:pl",
+        "our/kjv_livestock",
+        "our/herd:pl",
+        "our/flock:pl"
+      ],
+      "10:37": [
+        "first fruit:pl of our/dough",
+        "to priest:pl",
+        "tithe:pl of our/ground:a to kjv_levite:pl",
+        "our/land work:ev"
+      ],
+      "10:38": [
+        "priest son of kjv_aaron",
+        "tithe of tithe:pl",
+        "chamber:pl into treasure house"
+      ],
+      "10:39": [
+        "corn of new wine and oil",
+        "kjv_gatekeeper:pl and sing:ag:pl",
+        "wesg house of ourone/god:a forsake:neg:fu"
+      ],
+      "10:2": [
+        "kjv_seraiah_signer_priest kjv_azariah_signer_priest kjv_jeremiah_signer_priest"
+      ],
+      "10:3": [
+        "kjv_pashur_signer_priest kjv_amariah_signer_priest kjv_malchijah_signer_priest"
+      ],
+      "10:4": [
+        "kjv_hattush_signer_priest kjv_shebaniah_signer_priest kjv_malluch_signer_priest"
+      ],
+      "10:5": [
+        "kjv_harim_signer_priest kjv_meremoth_signer_priest kjv_obadiah_signer_priest"
+      ],
+      "10:6": [
+        "kjv_daniel_signer_priest kjv_ginnethon_signer_priest kjv_baruch_signer_priest"
+      ],
+      "10:7": [
+        "kjv_meshullam_signer_priest kjv_abijah_signer_priest kjv_mijamin_signer_priest"
+      ],
+      "10:8": [
+        "kjv_maaziah_signer_priest kjv_bilgai_signer_priest kjv_shemaiah_signer_priest"
+      ],
+      "10:10": [
+        "kjv_shebaniah_signer_levite kjv_hodijah_signer_levite kjv_kelita_signer_levite kjv_pelaiah_signer_levite kjv_hanan_signer_levite"
+      ],
+      "10:11": [
+        "kjv_micha_signer_levite kjv_rehob_signer_levite kjv_hashabiah_signer_levite"
+      ],
+      "10:12": [
+        "kjv_zaccur_signer_levite kjv_sherebiah_signer_levite kjv_shebaniah_signer_levite"
+      ],
+      "10:13": [
+        "kjv_hodijah_signer_levite kjv_bani_signer_levite kjv_beninu_signer_levite"
+      ],
+      "10:14": [
+        "kjv_parosh_signer_chief kjv_pahathmoab_signer_chief kjv_elam_signer_chief kjv_zatthu_signer_chief kjv_bani_signer_chief"
+      ],
+      "10:15": [
+        "kjv_bunni_signer_chief kjv_azgad_signer_chief kjv_bebai_signer_chief"
+      ],
+      "10:16": [
+        "kjv_adonijah_signer_chief kjv_bigvai_signer_chief kjv_adin_signer_chief"
+      ],
+      "10:17": [
+        "kjv_ater_signer_chief kjv_hizkijah_signer_chief kjv_azzur_signer_chief"
+      ],
+      "10:18": [
+        "kjv_hodijah_signer_chief kjv_hashum_signer_chief kjv_bezai_signer_chief"
+      ],
+      "10:19": [
+        "kjv_hariph_signer_chief kjv_anathoth_signer_chief kjv_nebai_signer_chief"
+      ],
+      "10:20": [
+        "kjv_magpiash_signer_chief kjv_meshullam_signer_chief kjv_hezir_signer_chief"
+      ],
+      "10:21": [
+        "kjv_meshezabeel_signer_chief kjv_zadok_signer_chief kjv_jaddua_signer_chief"
+      ],
+      "10:22": [
+        "kjv_pelatiah_signer_chief kjv_hanan_signer_chief kjv_anaiah_signer_chief"
+      ],
+      "10:23": [
+        "kjv_hoshea_signer_chief kjv_hananiah_signer_chief kjv_hashub_signer_chief"
+      ],
+      "10:24": [
+        "kjv_hallohesh_signer_chief kjv_pileha_signer_chief kjv_shobek_signer_chief"
+      ],
+      "10:25": [
+        "kjv_rehum_signer_chief kjv_hashabnah_signer_chief kjv_maaseiah_signer_chief"
+      ],
+      "10:26": [
+        "kjv_ahijah_signer_chief kjv_hanan_signer_chief kjv_anan_signer_chief"
+      ],
+      "10:27": [
+        "kjv_malluch_signer_chief kjv_harim_signer_chief kjv_baanah_signer_chief"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "9:8"
+      ],
+      "ipl": [],
+      "mypl": [],
+      "iplself": [],
+      "wepl": [],
+      "we:du": [],
+      "they:du": [],
+      "wesg": [
+        "10:30",
+        "10:31",
+        "10:32",
+        "10:34",
+        "10:37",
+        "10:39",
+        "9:32",
+        "9:33",
+        "9:36",
+        "9:37",
+        "9:38"
+      ],
+      "ourone": [
+        "10:29",
+        "10:32",
+        "10:33",
+        "10:34",
+        "10:36",
+        "10:37",
+        "10:38",
+        "10:39",
+        "8:10",
+        "9:16",
+        "9:32",
+        "9:34",
+        "9:36",
+        "9:37",
+        "9:38",
+        "9:9"
+      ]
+    },
+    "quantityInterpretation": [
+      "As-one-man is the explicit unity simile;day1/month7,day2,seven-day feast andeighthdayassembly remain distinct.",
+      "Day24andtwoquarter-dayintervals:one fourth part plus another fourth part. Tokens1/4/4 express fractions1/4and1/4,notnine days.",
+      "Fortywildernessyears;seventhyearrelease;third-shekelannuallevy explicitly1/3,not1/2.",
+      "Firstfruits andfirstborn are precedence categories,notinvented quantities. Titheoftithes remainsnested,notanextra equal levy."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Second-personsingular divineaddress remains;no plural-I isinserted whereGoddoesnotspeak. Corporate singular-we cancontainpluralservantsandbodies.",
+      "Sourceexclusion,coercion,unharmonizedhistoricalclaims androsterrepetitions retained.",
+      "Inheritedtargets andoldseals unchanged;wholeBibleincomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Nehemiah — incomplete Bible working text",
+    "pages": 208,
+    "spreads": 104,
+    "units": 292,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "3eb55d7e0ac4787ba41ba7b279c38f1ff4f85ef1e7eab203776aa0f5ab47b3d3",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 104,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.573,
+    "modules": [
+      "tests.test_kjv_nehemiah_hearing_covenant",
+      "tests.test_kjv_nehemiah_debt_registers",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    207,
+    208
+  ],
+  "status": "incompleteBible;Nehemiah1–10sectioncheckpointverified"
+}

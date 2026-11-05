@@ -1,0 +1,25 @@
+{
+  "policy": "never-modernize",
+  "parent": {
+    "version": "0.10",
+    "package": "data/language/consolidated-0.10",
+    "manifestSha256": "08e8799b69c8dbfc3e50015feb8cc115429d05385cc533a17b331f8e76b4509f",
+    "forgeHead": "c5fa1161b15094f3b57b4042963e5ba82ea7dfbf3142f88ad557d524573b5fef",
+    "forgeProject": "Saves/Language Consolidation 0.10/Vayrshemon 0.10.vayforge",
+    "historyBundle": "Saves/Language Consolidation 0.10/Vayrshemon 0.10 history.vayforge.json",
+    "guide": "docs/CURRENT_LANGUAGE.md"
+  },
+  "forgeHead": "72b5746f19b9c753c51f1aed35cfe943fbe4790de8406c36414ac3301e1d985c",
+  "choices": [
+    "Scope: all 66 books of the supplied KJV, working book by book.\nThe source index accounts for all 31,102 verses. Only Jonah (48 verses) has been translated at this checkpoint. The other 65 books are pending. Source indexing does not mean translated.\n\nThe first book tests commands, prayer, protest, calamity, mercy and narrative agency. It is complete in source order; canonical book order remains in the catalogue.\n\nEach completed book is frozen under its own language-versioned folder, with hashes. Never include it in modern consolidation. Extend new books in a new historical register version if additions are necessary; do not migrate existing books.\n\nModern current.json remains 0.10. Existing plays and the parent Forge database are untouched.",
+    "No promotion to the modern language pointer.",
+    "No modern form may replace a frozen historical form.",
+    "Retain exact source; document contextual readings separately."
+  ],
+  "literaryLimitations": [
+    "Authored self-review, not independent literary review.",
+    "Jonah 2:8 possessive and reference remain ambiguous.",
+    "No modern botanical identification of the gourd.",
+    "Fictional register age is authored, not historical evidence."
+  ]
+}

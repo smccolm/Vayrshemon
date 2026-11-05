@@ -1,0 +1,702 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.224",
+    "parentVersion": "0.10-kjv.223",
+    "parentHead": "53a9bb9d09c30640103a52e84e2be8f8dfda4a488390be20228759512d2a7e9f",
+    "head": "0df2c915fb28eba846765ef3282c501bf4506a8a863225a74227627650847c7e",
+    "newLexicalEntries": 25,
+    "newProperEntries": 23,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 19,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 94,
+    "exactCompilerCases": 94,
+    "newAuthoredVerses": 94,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 193,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 3985,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newActsVerses": 94,
+    "actsVerses": 193,
+    "authoredVerses": 27117,
+    "remainingVerses": 3985,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "Acts 4:4",
+        "source": "Howbeit many of them which heard the word believed; and the number of the men was about five thousand.",
+        "expectedDecimalQuantities": [
+          5000
+        ],
+        "targetQuantities": [
+          5000
+        ]
+      },
+      {
+        "reference": "Acts 4:22",
+        "source": "For the man was above forty years old, on whom this miracle of healing was shewed.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Acts 4:24",
+        "source": "And when they heard that, they lifted up their voice to God with one accord, and said, Lord, thou art God, which hast made heaven, and earth, and the sea, and all that in them is:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 4:32",
+        "source": "And the multitude of them that believed were of one heart and of one soul: neither said any of them that ought of the things which he possessed was his own; but they had all things common.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Acts 5:7",
+        "source": "And it was about the space of three hours after, when his wife, not knowing what was done, came in.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 5:12",
+        "source": "And by the hands of the apostles were many signs and wonders wrought among the people; (and they were all with one accord in Solomon’s porch.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 5:36",
+        "source": "For before these days rose up Theudas, boasting himself to be somebody; to whom a number of men, about four hundred, joined themselves: who was slain; and all, as many as obeyed him, were scattered, and brought to nought.",
+        "expectedDecimalQuantities": [
+          400
+        ],
+        "targetQuantities": [
+          400
+        ]
+      },
+      {
+        "reference": "Acts 6:2",
+        "source": "Then the twelve called the multitude of the disciples unto them, and said, It is not reason that we should leave the word of God, and serve tables.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Acts 6:3",
+        "source": "Wherefore, brethren, look ye out among you seven men of honest report, full of the Holy Ghost and wisdom, whom we may appoint over this business.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "4:1": [
+        "they:du to people speak:pa",
+        "captain of kjv_temple",
+        "kjv_sadducee:pl"
+      ],
+      "4:2": [
+        "through kjv_jesus_matthew kjv_resurrection from dead:pl",
+        "grief have:cv"
+      ],
+      "4:3": [
+        "on they:du hand:pl lay:pa",
+        "until next day",
+        "evening"
+      ],
+      "4:4": [
+        "about five+thousand"
+      ],
+      "4:5": [
+        "next day their/ruler:pl and kjv_elder:pl and kjv_scribe:pl"
+      ],
+      "4:6": [
+        "kjv_annas_luke high priest",
+        "kjv_john_priest_acts and kjv_alexander_priest_acts",
+        "kjv_family of high priest"
+      ],
+      "4:7": [
+        "by what power or by what name you:du"
+      ],
+      "4:8": [
+        "kjv_peter_disciple with holy spirit fill:psv:cv"
+      ],
+      "4:9": [
+        "we:du this day",
+        "good deed to weak man",
+        "healthy make:psv:pr"
+      ],
+      "4:10": [
+        "whom you kjv_crucify:pa whom god from dead:pl raise:pa",
+        "healthy stand:pr"
+      ],
+      "4:11": [
+        "by you build:ag:pl as nothing",
+        "head of corner"
+      ],
+      "4:12": [
+        "salvation be:neg:pr",
+        "no other name",
+        "wesg save:psv:must"
+      ],
+      "4:13": [
+        "boldness of kjv_peter_disciple and kjv_john_zebedee",
+        "they:du unlearned",
+        "they:du with kjv_jesus_matthew"
+      ],
+      "4:14": [
+        "with they:du stand:cv",
+        "nothing say:can:pa"
+      ],
+      "4:15": [
+        "out of council aside",
+        "among themselves confer:pa"
+      ],
+      "4:16": [
+        "what wesg to these man:pl do:fu:q",
+        "wesg it deny:neg:can"
+      ],
+      "4:17": [
+        "no further spread:may",
+        "wesg they:a kjv_strict:adv threaten:opt",
+        "to no man speak:may"
+      ],
+      "4:18": [
+        "at all speak:neg:inf nor teach:neg:inf"
+      ],
+      "4:19": [
+        "to you more than to god listen:inf",
+        "kjv_righteous"
+      ],
+      "4:20": [
+        "we:du",
+        "see:perf and hear:perf speak:neg:inf able:neg:pr"
+      ],
+      "4:21": [
+        "how punish:may nothing find:cv",
+        "because of people"
+      ],
+      "4:22": [
+        "above three+twelve and four year:pl"
+      ],
+      "4:23": [
+        "they:du to own company",
+        "to they:du say:pp report:pa"
+      ],
+      "4:24": [
+        "one_num agree:ev",
+        "thou god be:pr",
+        "heaven and earth and sea"
+      ],
+      "4:25": [
+        "thy/servant kjv_david",
+        "kjv_heathen:pl rage:pa",
+        "vain thing:pl"
+      ],
+      "4:26": [
+        "against kjv_lord and against his/kjv_christ_title"
+      ],
+      "4:27": [
+        "thy/holy child kjv_jesus_matthew",
+        "kjv_herod_tetrarch and kjv_pontius kjv_pilate",
+        "kjv_gentile:pl"
+      ],
+      "4:28": [
+        "thy/hand and thy/counsel beforehand"
+      ],
+      "4:29": [
+        "their/threat:pl",
+        "thy/servant:pl",
+        "all boldness thy/word"
+      ],
+      "4:30": [
+        "thine/hand to heal:inf",
+        "thy/holy child kjv_jesus_matthew"
+      ],
+      "4:31": [
+        "place where together assemble:psv:pa shake:psv:pa",
+        "all with holy spirit"
+      ],
+      "4:32": [
+        "one_num heart and of one_num soul",
+        "his/own be:pr say:pa",
+        "all thing:pl common"
+      ],
+      "4:33": [
+        "witness of kjv_resurrection",
+        "great grace upon they all"
+      ],
+      "4:34": [
+        "any who lack:pa",
+        "land:pl or house:pl",
+        "price:pl"
+      ],
+      "4:35": [
+        "kjv_apostle:pl/foot:pl",
+        "each man kjv_according need"
+      ],
+      "4:36": [
+        "kjv_joses_barnabas_acts",
+        "kjv_barnabas_acts",
+        "son of comfort:ev",
+        "kjv_cyprus_acts"
+      ],
+      "4:37": [
+        "land have:cv it sell:pa",
+        "money bring:pa"
+      ],
+      "5:1": [
+        "kjv_ananias_property_acts",
+        "kjv_sapphira_acts his/wife",
+        "kjv_holdings_acts"
+      ],
+      "5:2": [
+        "part of price back keep:pa",
+        "his/wife also it know:cv"
+      ],
+      "5:3": [
+        "satan thine/heart",
+        "to holy spirit kjv_lie_false:inf",
+        "price of land back keep:inf"
+      ],
+      "5:4": [
+        "thine/own be:neg:pa:q",
+        "thine/own power be:neg:pa:q",
+        "to man:pl kjv_lie_false:neg:perf but to god"
+      ],
+      "5:5": [
+        "down fall:pa and spirit up give:pa",
+        "great fear"
+      ],
+      "5:6": [
+        "he:a wrap:pa",
+        "out carry:pa and bury:pa"
+      ],
+      "5:7": [
+        "about three hour:pl",
+        "what do:psv:pp know:neg:cv"
+      ],
+      "5:8": [
+        "to i",
+        "you:du land for so much",
+        "yes for so much"
+      ],
+      "5:9": [
+        "you:du together spirit of kjv_lord tempt:inf agree:perf",
+        "thy/husband bury:perf",
+        "thee out carry:fu"
+      ],
+      "5:10": [
+        "spirit up give:pa",
+        "she:a dead find:pa",
+        "by her/husband bury:pa"
+      ],
+      "5:11": [
+        "great fear upon all kjv_church_assembly"
+      ],
+      "5:12": [
+        "one_num agree:ev in kjv_solomon/kjv_porch"
+      ],
+      "5:13": [
+        "no man himself to they join:inf dare:pa",
+        "people they:a great esteem:pa"
+      ],
+      "5:14": [
+        "both of man:pl and woman:pl"
+      ],
+      "5:15": [
+        "bed:pl and kjv_couch_job:pl",
+        "shadow of kjv_peter_disciple",
+        "some of they cover:may"
+      ],
+      "5:16": [
+        "unclean spirit:pl vex:psv:adj",
+        "each heal:psv:pa"
+      ],
+      "5:17": [
+        "kjv_sect_acts of kjv_sadducee:pl",
+        "indignation"
+      ],
+      "5:18": [
+        "public prison"
+      ],
+      "5:19": [
+        "angel of kjv_lord by night",
+        "prison/door:pl open:pa"
+      ],
+      "5:20": [
+        "all word:pl of this life"
+      ],
+      "5:21": [
+        "early in morning",
+        "all kjv_senate_acts of child:pl of kjv_israel"
+      ],
+      "5:22": [
+        "in prison find:neg:pa",
+        "return:pa and tell:pa"
+      ],
+      "5:23": [
+        "wesg with all safety shut:psv:adj",
+        "guard:pl outside",
+        "within no man"
+      ],
+      "5:24": [
+        "to what this grow:fu doubt:pa"
+      ],
+      "5:25": [
+        "person come:pa",
+        "in kjv_temple stand:pr and people teach:pr"
+      ],
+      "5:26": [
+        "without kjv_violence",
+        "lest stone:psv:should"
+      ],
+      "5:27": [
+        "before council set:pa",
+        "high priest"
+      ],
+      "5:28": [
+        "wesg kjv_strict:adv",
+        "teach:neg:should",
+        "command:neg:pa:q",
+        "blood upon wesg"
+      ],
+      "5:29": [
+        "wesg god rather than man:pl obey:should"
+      ],
+      "5:30": [
+        "god of ourone/father:pl",
+        "kill:pa and on kjv_tree hang:pa"
+      ],
+      "5:31": [
+        "his/kjv_right_side hand prince and save:ag",
+        "repent:ev and forgive:ev"
+      ],
+      "5:32": [
+        "wesg his/witness:pl",
+        "also holy spirit",
+        "they who he:a obey:pr"
+      ],
+      "5:33": [
+        "to heart cut:psv:pa",
+        "kill:inf counsel"
+      ],
+      "5:34": [
+        "kjv_gamaliel_teacher_acts",
+        "teach:ag of law",
+        "little space"
+      ],
+      "5:35": [
+        "what intend:pr do:inf to yourselves heed"
+      ],
+      "5:36": [
+        "kjv_theudas_acts",
+        "about two+twelve+twelve and nine+twelve and four",
+        "to nothing bring:psv:pa"
+      ],
+      "5:37": [
+        "after this man kjv_judas_galilee_acts",
+        "day:pl of tax:ev",
+        "he also perish:pa"
+      ],
+      "5:38": [
+        "i to you say:pr",
+        "if this counsel or this work of man:pl"
+      ],
+      "5:39": [
+        "if of god be:pr",
+        "kjv_overthrow:neg:can",
+        "lest perhaps"
+      ],
+      "5:40": [
+        "beat:pp",
+        "speak:neg:inf",
+        "go:inf allow:pa"
+      ],
+      "5:41": [
+        "shame suffer:inf worthy reckon:psv:pa rejoice:cv"
+      ],
+      "5:42": [
+        "daily in kjv_temple and in each house",
+        "cease:neg:pa"
+      ],
+      "6:1": [
+        "kjv_grecians_acts:pl against kjv_hebrew:pl",
+        "their/widow:pl in daily service neglect:psv:pa"
+      ],
+      "6:2": [
+        "twelve",
+        "wesg word of god leave:should",
+        "kjv_table_furniture:pl",
+        "fitting be:neg:pr"
+      ],
+      "6:3": [
+        "seven man:pl of good reputation",
+        "holy spirit and wisdom",
+        "wesg over this business"
+      ],
+      "6:4": [
+        "wesg to prayer and to service of word",
+        "always give:fu"
+      ],
+      "6:5": [
+        "kjv_stephen_acts",
+        "kjv_philip_seven_acts",
+        "kjv_prochorus_acts",
+        "kjv_nicanor_acts",
+        "kjv_timon_acts",
+        "kjv_parmenas_acts",
+        "kjv_nicolas_acts kjv_proselyte of kjv_antioch_acts"
+      ],
+      "6:6": [
+        "before kjv_apostle:pl",
+        "pray:pp",
+        "hand:pl on they"
+      ],
+      "6:7": [
+        "great company of priest:pl to faith obedient"
+      ],
+      "6:8": [
+        "full of faith and power"
+      ],
+      "6:9": [
+        "kjv_libertines_acts:pl",
+        "kjv_cyrenian_acts:pl",
+        "kjv_alexandrian_acts:pl",
+        "kjv_cilicia_acts",
+        "kjv_asia_acts",
+        "contend:cv"
+      ],
+      "6:10": [
+        "wisdom and spirit",
+        "against stand:inf able:neg:pa"
+      ],
+      "6:11": [
+        "secretly man:pl persuade:pa",
+        "wesg he:a against kjv_moses and against god"
+      ],
+      "6:12": [
+        "people and kjv_elder:pl and kjv_scribe:pl stir:pa",
+        "to council bring:pa"
+      ],
+      "6:13": [
+        "false witness:pl",
+        "this holy place and law",
+        "cease:neg:pr"
+      ],
+      "6:14": [
+        "wesg he:a",
+        "this place destroy:fu",
+        "custom:pl which kjv_moses to wesg"
+      ],
+      "6:15": [
+        "his/face as face of angel"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "5:38",
+        "5:8"
+      ],
+      "ipl": [],
+      "wesg": [
+        "4:12",
+        "4:16",
+        "4:17",
+        "5:23",
+        "5:28",
+        "5:29",
+        "5:32",
+        "6:11",
+        "6:14",
+        "6:2",
+        "6:3",
+        "6:4"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "5:30"
+      ],
+      "iplself": [],
+      "we:du": [
+        "4:20",
+        "4:9"
+      ],
+      "they:du": [
+        "4:1",
+        "4:13",
+        "4:14",
+        "4:2",
+        "4:23",
+        "4:3",
+        "4:7"
+      ],
+      "you:du": [
+        "4:7",
+        "5:8",
+        "5:9"
+      ]
+    },
+    "physicalDualReferences": [
+      "4:1",
+      "4:2",
+      "4:3",
+      "4:7",
+      "4:9",
+      "4:13",
+      "4:14",
+      "4:20",
+      "4:23",
+      "5:8",
+      "5:9"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Approximately5000men,above40years,one accord/heart/soul,approximately3hours and400followers,twelve and seven retained.",
+      "Peter/John and husband/wife duals differ from the councils,officers,apostles and witnesses communal singular-we."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "94new verses;193Acts;whole Bible incomplete.",
+      "Ownership/control and later condemnation,conditional Gamaliel counsel and explicitly false accusations retained without harmonization.",
+      "Two common and twenty-three contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Acts — incomplete Bible working text",
+    "pages": 114,
+    "spreads": 57,
+    "units": 193,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "367596d36ddaf189e36a8fcb89b6e0f40c995221f304c03c9c08eb68b8251f47",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 57,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.456,
+    "modules": [
+      "tests.test_kjv_acts_community_disputes",
+      "tests.test_kjv_acts_many_tongues",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    113,
+    114
+  ],
+  "status": "incomplete Bible;Acts1–6 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 113,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv224\\preflight-acts\\Proofs\\page-113.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv224\\composed-acts\\Proofs\\page-113.png",
+        "sha256": "a32ce2d4e010abcf862ff6cd901ab10a573c69bcfd2cce5ab6d9114f0835ba87",
+        "bytesIdentical": true
+      },
+      {
+        "page": 114,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv224\\preflight-acts\\Proofs\\page-114.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv224\\composed-acts\\Proofs\\page-114.png",
+        "sha256": "7145e7a9ce17b53b3860c25dd7d94e0c5a6745e490537653ed4bfb4a5bb1b4c5",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

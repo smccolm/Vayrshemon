@@ -1,0 +1,939 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.232",
+    "parentVersion": "0.10-kjv.231",
+    "parentHead": "68ea382ec99ff0d7f7f62d530635ffae4bdaba2e47950d0aedd4a35d151dafea",
+    "head": "50eaa05d2f2551a3960165c6898cf20c4cad465667ea681032b91746c5ebdcbf",
+    "newLexicalEntries": 34,
+    "newProperEntries": 23,
+    "newCommonEntries": 11,
+    "newSurfaceForms": 30,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 107,
+    "exactCompilerCases": 107,
+    "newAuthoredVerses": 107,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 3171,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newActsVerses": 107,
+    "actsVerses": 1007,
+    "authoredVerses": 27931,
+    "remainingVerses": 3171,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 19,
+    "quantityChecks": [
+      {
+        "reference": "Acts 26:7",
+        "source": "Unto which promise our twelve tribes, instantly serving God day and night, hope to come. For which hope’s sake, king Agrippa, I am accused of the Jews.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Acts 26:20",
+        "source": "But shewed first unto them of Damascus, and at Jerusalem, and throughout all the coasts of Judaea, and then to the Gentiles, that they should repent and turn to God, and do works meet for repentance.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 26:23",
+        "source": "That Christ should suffer, and that he should be the first that should rise from the dead, and should shew light unto the people, and to the Gentiles.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 27:19",
+        "source": "And the third day we cast out with our own hands the tackling of the ship.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 27:27",
+        "source": "But when the fourteenth night was come, as we were driven up and down in Adria, about midnight the shipmen deemed that they drew near to some country;",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      },
+      {
+        "reference": "Acts 27:28",
+        "source": "And sounded, and found it twenty fathoms: and when they had gone a little further, they sounded again, and found it fifteen fathoms.",
+        "expectedDecimalQuantities": [
+          20,
+          15
+        ],
+        "targetQuantities": [
+          20,
+          15
+        ]
+      },
+      {
+        "reference": "Acts 27:29",
+        "source": "Then fearing lest we should have fallen upon rocks, they cast four anchors out of the stern, and wished for the day.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Acts 27:33",
+        "source": "And while the day was coming on, Paul besought them all to take meat, saying, This day is the fourteenth day that ye have tarried and continued fasting, having taken nothing.",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      },
+      {
+        "reference": "Acts 27:37",
+        "source": "And we were in all in the ship two hundred threescore and sixteen souls.",
+        "expectedDecimalQuantities": [
+          276
+        ],
+        "targetQuantities": [
+          276
+        ]
+      },
+      {
+        "reference": "Acts 27:41",
+        "source": "And falling into a place where two seas met, they ran the ship aground; and the forepart stuck fast, and remained unmoveable, but the hinder part was broken with the violence of the waves.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Acts 27:43",
+        "source": "But the centurion, willing to save Paul, kept them from their purpose; and commanded that they which could swim should cast themselves first into the sea, and get to land:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 28:7",
+        "source": "In the same quarters were possessions of the chief man of the island, whose name was Publius; who received us, and lodged us three days courteously.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 28:11",
+        "source": "And after three months we departed in a ship of Alexandria, which had wintered in the isle, whose sign was Castor and Pollux.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 28:12",
+        "source": "And landing at Syracuse, we tarried there three days.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 28:13",
+        "source": "And from thence we fetched a compass, and came to Rhegium: and after one day the south wind blew, and we came the next day to Puteoli:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 28:14",
+        "source": "Where we found brethren, and were desired to tarry with them seven days: and so we went toward Rome.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Acts 28:17",
+        "source": "And it came to pass, that after three days Paul called the chief of the Jews together: and when they were come together, he said unto them, Men and brethren, though I have committed nothing against the people, or customs of our fathers, yet was I delivered prisoner from Jerusalem into the hands of the Romans.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 28:25",
+        "source": "And when they agreed not among themselves, they departed, after that Paul had spoken one word, Well spake the Holy Ghost by Esaias the prophet unto our fathers,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 28:30",
+        "source": "And Paul dwelt two whole years in his own hired house, and received all that came in unto him,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "26:1": [
+        "for thyself speak:inf permit",
+        "hand forth stretch"
+      ],
+      "26:2": [
+        "i myself happy",
+        "i this day before thou"
+      ],
+      "26:3": [
+        "i thou:a",
+        "skilled know",
+        "patient:adv hear"
+      ],
+      "26:4": [
+        "my/manner of life from my/youth",
+        "my/own nation at kjv_jerusalem"
+      ],
+      "26:5": [
+        "if testify:inf will",
+        "most kjv_strict kjv_sect_acts of ourone/religion",
+        "i kjv_pharisee"
+      ],
+      "26:6": [
+        "i stand:pr",
+        "promise by god to ourone/father:pl"
+      ],
+      "26:7": [
+        "ourone/kjv_tribe:pl twelve",
+        "day and night earnest:adv",
+        "i by kjv_jew:pl"
+      ],
+      "26:8": [
+        "god dead:pl raise:should",
+        "impossible to believe:inf"
+      ],
+      "26:9": [
+        "i truly with myself",
+        "contrary to name of kjv_jesus_matthew of kjv_nazareth"
+      ],
+      "26:10": [
+        "many saint:pl i in prison",
+        "authority from chief priest:pl",
+        "my/voice against"
+      ],
+      "26:11": [
+        "kjv_blaspheme:inf compel",
+        "greatly mad",
+        "foreign city:pl"
+      ],
+      "26:12": [
+        "i to kjv_damascus",
+        "authority and commission"
+      ],
+      "26:13": [
+        "at noon",
+        "above bright:ev of sun",
+        "round about i"
+      ],
+      "26:14": [
+        "wesg all to earth fall",
+        "i voice",
+        "kjv_hebrew tongue",
+        "ipl:a persecute",
+        "kjv_goad:pl"
+      ],
+      "26:15": [
+        "i say:pa",
+        "ipl kjv_jesus_matthew"
+      ],
+      "26:16": [
+        "ipl to thou for this purpose appear:perf",
+        "kjv_minister and witness",
+        "ipl to thou appear:fu"
+      ],
+      "26:17": [
+        "from people and from kjv_gentile:pl",
+        "now ipl thou:a send:pr"
+      ],
+      "26:18": [
+        "from darkness to light",
+        "from power of kjv_satan_temptation to god",
+        "faith which in ipl"
+      ],
+      "26:19": [
+        "i to heavenly vision kjv_disobedient be:neg:pa"
+      ],
+      "26:20": [
+        "first to they of kjv_damascus",
+        "kjv_jerusalem",
+        "kjv_judaea",
+        "then to kjv_gentile:pl",
+        "deed:pl fit for repent:ev"
+      ],
+      "26:21": [
+        "i:a in kjv_temple",
+        "i:a kill:inf seek"
+      ],
+      "26:22": [
+        "help of god",
+        "i until this day",
+        "small and great",
+        "prophet:pl and kjv_moses"
+      ],
+      "26:23": [
+        "kjv_christ_title suffer:should",
+        "one_num:ord",
+        "people and to kjv_gentile:pl light"
+      ],
+      "26:24": [
+        "kjv_festus_acts with loud voice",
+        "outside thyself",
+        "learn:ev thou:a mad make:pr:excl"
+      ],
+      "26:25": [
+        "i mad be:neg:pr",
+        "noble kjv_festus_acts",
+        "truth and kjv_soberness_acts"
+      ],
+      "26:26": [
+        "i free:adv speak",
+        "none of these thing:pl",
+        "in corner do:psv:neg:pa"
+      ],
+      "26:27": [
+        "thou prophet:pl believe:pr:q",
+        "i know:pr"
+      ],
+      "26:28": [
+        "almost thou i:a kjv_christian_name_acts"
+      ],
+      "26:29": [
+        "i to god desire",
+        "not only thou but also all",
+        "almost and entirely",
+        "except these kjv_binding_band:pl"
+      ],
+      "26:30": [
+        "king rise",
+        "kjv_governor and kjv_bernice_acts",
+        "they who with they sit"
+      ],
+      "26:31": [
+        "nothing worthy of death or kjv_binding_band:pl"
+      ],
+      "26:32": [
+        "free set:psv:may:pp if",
+        "kjv_appeal_judicial_acts:neg:pp"
+      ],
+      "27:1": [
+        "wesg into italy",
+        "kjv_julius_acts",
+        "band of kjv_augustus_band_acts"
+      ],
+      "27:2": [
+        "kjv_adramyttium_acts",
+        "kjv_aristarchus_acts of kjv_macedonia_acts of kjv_thessalonica_acts",
+        "with wesg"
+      ],
+      "27:3": [
+        "kjv_sidon",
+        "courteous:adv treat",
+        "his/friend:pl",
+        "kjv_refresh:inf free:ev"
+      ],
+      "27:4": [
+        "in kjv_lee_acts of kjv_cyprus_acts",
+        "wind:pl contrary"
+      ],
+      "27:5": [
+        "sea of kjv_cilicia_acts and kjv_pamphylia_acts",
+        "kjv_myra_acts city of kjv_lycia_acts"
+      ],
+      "27:6": [
+        "ship of kjv_alexandria_acts",
+        "italy",
+        "wesg:a in it"
+      ],
+      "27:7": [
+        "slowly many day:pl",
+        "opposite kjv_cnidus_acts",
+        "allow:neg:cv",
+        "kjv_crete_island_acts opposite kjv_salmone_acts"
+      ],
+      "27:8": [
+        "with difficulty",
+        "kjv_fair_havens_acts",
+        "kjv_lasea_acts"
+      ],
+      "27:9": [
+        "sail:ev dangerous",
+        "kjv_fast already past",
+        "kjv_warn_solemn"
+      ],
+      "27:10": [
+        "i perceive",
+        "not only of cargo and ship but also of ourone/life:pl"
+      ],
+      "27:11": [
+        "master and owner",
+        "more than",
+        "by kjv_paul_acts"
+      ],
+      "27:12": [
+        "winter:inf fit be:neg:pa",
+        "greater part",
+        "kjv_phenice_haven_acts",
+        "kjv_south west and kjv_north west"
+      ],
+      "27:13": [
+        "kjv_south wind soft:adv",
+        "suppose:cv",
+        "close by kjv_crete_island_acts"
+      ],
+      "27:14": [
+        "tempest:adj wind",
+        "kjv_euroclydon_acts"
+      ],
+      "27:15": [
+        "into wind up hold:neg:can",
+        "wesg it drive:psv:inf allow"
+      ],
+      "27:16": [
+        "kjv_clauda_acts",
+        "wesg kjv_ship_boat_acts hold:inf much work"
+      ],
+      "27:17": [
+        "ship under bind",
+        "kjv_quicksand_acts:pl",
+        "sail lower:pa"
+      ],
+      "27:18": [
+        "wesg greatly by tempest",
+        "next day ship kjv_lighten"
+      ],
+      "27:19": [
+        "three:ord day wesg",
+        "ourone/own hand:pl",
+        "kjv_rigging"
+      ],
+      "27:20": [
+        "neither sun nor star:pl",
+        "appear:neg:pa",
+        "all hope that wesg save:psv:should"
+      ],
+      "27:21": [
+        "long kjv_abstinence_food_acts",
+        "to i heed:perf:should",
+        "loose:neg:perf:should",
+        "loss gain:neg:perf:should"
+      ],
+      "27:22": [
+        "i you:a",
+        "no loss of life of any man",
+        "but of ship"
+      ],
+      "27:23": [
+        "angel of god whose i be:pr and whom i serve:pr"
+      ],
+      "27:24": [
+        "fear:neg:imp",
+        "before kjv_caesar_ruler bring:psv:must",
+        "god to thou all they"
+      ],
+      "27:25": [
+        "i god believe:pr",
+        "as to i tell"
+      ],
+      "27:26": [
+        "wesg upon certain kjv_isle cast:psv:must"
+      ],
+      "27:27": [
+        "twelve and two:ord night",
+        "kjv_adria_acts",
+        "about midnight"
+      ],
+      "27:28": [
+        "kjv_sound_depth_acts:pa",
+        "twelve and eight fathom:pl",
+        "again kjv_sound_depth_acts:pa",
+        "twelve and three fathom:pl"
+      ],
+      "27:29": [
+        "lest wesg upon rock:pl",
+        "from kjv_ship_stern four kjv_anchor_acts:pl"
+      ],
+      "27:30": [
+        "flee:inf about",
+        "kjv_ship_boat_acts",
+        "under pretend:ev as though",
+        "front part of ship"
+      ],
+      "27:31": [
+        "unless these in ship stay:pr you save:psv:neg:can"
+      ],
+      "27:32": [
+        "kjv_cord:pl of kjv_ship_boat_acts off cut",
+        "away fall"
+      ],
+      "27:33": [
+        "twelve and two:ord day",
+        "kjv_abstinence_food_acts continue:perf nothing take:perf"
+      ],
+      "27:34": [
+        "i you:a some food",
+        "for your/health",
+        "hair from head of any of you fall:neg:fu"
+      ],
+      "27:35": [
+        "before they all to god thanks",
+        "it break:pp eat:inf"
+      ],
+      "27:36": [
+        "all of good cheer",
+        "some food"
+      ],
+      "27:37": [
+        "wesg all in ship one_num+twelve+twelve and eleven+twelve kjv_soul:pl"
+      ],
+      "27:38": [
+        "enough eat",
+        "wheat into sea"
+      ],
+      "27:39": [
+        "land know:neg:pa",
+        "kjv_creek_inlet_acts with kjv_shore",
+        "if possible"
+      ],
+      "27:40": [
+        "kjv_anchor_acts:pl up take",
+        "themselves to sea entrust",
+        "kjv_binding_band:pl of kjv_rudder_acts",
+        "chief sail"
+      ],
+      "27:41": [
+        "two sea:pl meet",
+        "kjv_firmly stick",
+        "move:neg:adj remain",
+        "kjv_ship_stern",
+        "kjv_wave:pl"
+      ],
+      "27:42": [
+        "kjv_prisoner:pl kill:inf",
+        "lest any of they out swim"
+      ],
+      "27:43": [
+        "kjv_paul_acts save:inf",
+        "from purpose they:a keep",
+        "swim:can first"
+      ],
+      "27:44": [
+        "kjv_board:pl",
+        "broken piece:pl of ship",
+        "all in safety"
+      ],
+      "28:1": [
+        "kjv_isle kjv_melita_acts",
+        "know:pa"
+      ],
+      "28:2": [
+        "kjv_barbarian_acts people",
+        "no little kjv_kindness",
+        "fire kjv_kindle_fire",
+        "wesg:a each",
+        "rain",
+        "cold"
+      ],
+      "28:3": [
+        "kjv_stick_wood:pl",
+        "out of heat kjv_viper",
+        "on his/hand kjv_fasten"
+      ],
+      "28:4": [
+        "kjv_barbarian_acts:pl",
+        "murderer",
+        "kjv_avenge:ev live:inf allow:neg:pr"
+      ],
+      "28:5": [
+        "into fire off shake",
+        "no harm feel"
+      ],
+      "28:6": [
+        "swell:should or suddenly dead",
+        "no harm",
+        "their/mind:pl change",
+        "he god be:pa say"
+      ],
+      "28:7": [
+        "kjv_holdings_acts:pl",
+        "kjv_publius_acts",
+        "three day:pl courteous:adv wesg:a lodge"
+      ],
+      "28:8": [
+        "father of kjv_publius_acts",
+        "kjv_fever and blood:adj kjv_flux_bowel_acts",
+        "pray:pa",
+        "his/hand:pl on he:a lay",
+        "heal:pa"
+      ],
+      "28:9": [
+        "other:pl",
+        "sickness:pl",
+        "heal:psv:pa"
+      ],
+      "28:10": [
+        "many honour:pl wesg:a",
+        "necessary",
+        "wesg:a kjv_load"
+      ],
+      "28:11": [
+        "three month:pl",
+        "kjv_alexandria_acts",
+        "winter:pp",
+        "sign kjv_castor_sign_acts and kjv_pollux_sign_acts"
+      ],
+      "28:12": [
+        "kjv_syracuse_acts",
+        "three day:pl"
+      ],
+      "28:13": [
+        "round course",
+        "kjv_rhegium_acts",
+        "one_num day",
+        "kjv_south wind",
+        "kjv_puteoli_acts"
+      ],
+      "28:14": [
+        "seven day:pl",
+        "wesg to kjv_rome_acts"
+      ],
+      "28:15": [
+        "kjv_appii_forum_acts and kjv_three_taverns_acts",
+        "god thank",
+        "courage"
+      ],
+      "28:16": [
+        "kjv_centurion kjv_prisoner:pl to captain of guard deliver",
+        "by himself with soldier"
+      ],
+      "28:17": [
+        "three day:pl",
+        "i nothing",
+        "ourone/father:pl",
+        "i kjv_prisoner",
+        "kjv_roman_john:pl"
+      ],
+      "28:18": [
+        "i:a examine",
+        "no cause of death in i"
+      ],
+      "28:19": [
+        "i to kjv_caesar_ruler kjv_appeal_judicial_acts:inf compel:psv:pa",
+        "not that i anything my/nation accuse"
+      ],
+      "28:20": [
+        "i for you call",
+        "hope of kjv_israel",
+        "i with this chain"
+      ],
+      "28:21": [
+        "wesg neither letter:pl",
+        "receive:neg:perf",
+        "neither any of brother:pl",
+        "show:neg:pa or speak:neg:pa"
+      ],
+      "28:22": [
+        "wesg from thou",
+        "wesg know",
+        "everywhere against speak"
+      ],
+      "28:23": [
+        "day appoint",
+        "kingdom of god",
+        "kjv_moses and also from prophet:pl",
+        "morning until evening"
+      ],
+      "28:24": [
+        "some",
+        "believe:pa and some believe:neg:pa"
+      ],
+      "28:25": [
+        "agree:neg:pa",
+        "one_num word",
+        "holy spirit by kjv_esaias prophet to ourone/father:pl"
+      ],
+      "28:26": [
+        "hear:cv hear:fu and understand:neg:fu",
+        "see:cv see:fu and perceive:neg:fu"
+      ],
+      "28:27": [
+        "their/eye:pl they close:perf",
+        "turn:psv:should and ipl they:a heal:should"
+      ],
+      "28:28": [
+        "salvation of god to kjv_gentile:pl",
+        "they it hear:fu"
+      ],
+      "28:29": [
+        "kjv_jew:pl depart",
+        "great think:ev and speak:ev"
+      ],
+      "28:30": [
+        "two whole year:pl",
+        "his/own kjv_lease_property:psv:adj house",
+        "all who"
+      ],
+      "28:31": [
+        "kingdom of god proclaim",
+        "kjv_lord kjv_jesus_matthew kjv_christ_title",
+        "all confidence no man he:a forbid"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "26:10",
+        "26:11",
+        "26:12",
+        "26:13",
+        "26:14",
+        "26:15",
+        "26:19",
+        "26:2",
+        "26:21",
+        "26:22",
+        "26:25",
+        "26:26",
+        "26:27",
+        "26:28",
+        "26:29",
+        "26:3",
+        "26:5",
+        "26:6",
+        "26:7",
+        "26:9",
+        "27:10",
+        "27:21",
+        "27:22",
+        "27:23",
+        "27:25",
+        "27:34",
+        "28:17",
+        "28:18",
+        "28:19",
+        "28:20"
+      ],
+      "ipl": [
+        "26:14",
+        "26:15",
+        "26:16",
+        "26:17",
+        "26:18",
+        "28:27"
+      ],
+      "wesg": [
+        "26:14",
+        "27:1",
+        "27:15",
+        "27:16",
+        "27:18",
+        "27:19",
+        "27:2",
+        "27:20",
+        "27:26",
+        "27:27",
+        "27:29",
+        "27:37",
+        "27:4",
+        "27:5",
+        "27:6",
+        "27:7",
+        "28:10",
+        "28:11",
+        "28:12",
+        "28:13",
+        "28:14",
+        "28:15",
+        "28:16",
+        "28:2",
+        "28:21",
+        "28:22",
+        "28:7"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "26:5",
+        "26:6",
+        "26:7",
+        "27:10",
+        "27:19",
+        "28:17",
+        "28:25"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Twelve tribes; first ordinals; third day; fourteenth night/day; twenty and fifteen fathoms; four anchors; 276 souls; two seas; three days and three months; seven days; one day and one word; two whole years.",
+      "Three Taverns is a supplied place label,not a separate asserted building count. Travelling and local-hearing singular-we differ;Paul and Agrippa personal-I differ from Jesus and quoted divine plural-self."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "107new verses;all1007Acts;whole Bible incomplete.",
+      "Full supplied all-fallen,almost,anchors-up,mainsail,prison-transfer and28:29 retained without harmonization.",
+      "Eleven common and twenty-three proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Acts — incomplete Bible working text",
+    "pages": 616,
+    "spreads": 308,
+    "units": 1007,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "1c9f7b7e3f0b9d6f6cc4bf374f5b435dd35c87ffead63f3a741fdb384856d8eb",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 308,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.542,
+    "modules": [
+      "tests.test_kjv_acts_shipwreck",
+      "tests.test_kjv_acts_judicial_voices",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    615,
+    616
+  ],
+  "status": "incomplete Bible;Acts1–28 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 615,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv232\\preflight-acts\\Proofs\\page-615.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv232\\composed-acts\\Proofs\\page-615.png",
+        "sha256": "4e9df0115361409cbaaa3476951246e0b18283051dd7073a8d7c43e433a5f7d0",
+        "bytesIdentical": true
+      },
+      {
+        "page": 616,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv232\\preflight-acts\\Proofs\\page-616.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv232\\composed-acts\\Proofs\\page-616.png",
+        "sha256": "45f051c904cbf174b7454f4b8aae3379fd58c37d8adc00bbdcc907982d1ead37",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

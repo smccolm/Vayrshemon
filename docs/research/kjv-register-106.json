@@ -1,0 +1,1145 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.106",
+    "parentVersion": "0.10-kjv.105",
+    "parentHead": "4949f82d7b3a99c32ada79e60f00d73b91f666ecee430dd5188812c3c2bd9456",
+    "head": "f53b88862e0ddc55a468864b2472d1a99dbdb627286bbc09f154c3b0cae853ba",
+    "newLexicalEntries": 16,
+    "newProperEntries": 4,
+    "newCommonEntries": 12,
+    "newSurfaceForms": 12,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 204,
+    "exactCompilerCases": 204,
+    "newAuthoredVerses": 204,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 867,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 17317,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJobVerses": 204,
+    "jobVerses": 867,
+    "authoredVerses": 13785,
+    "remainingVerses": 17317,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Job 31:15",
+        "source": "Did not he that made me in the womb make him? and did not one fashion us in the womb?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Job 32:1",
+        "source": "So these three men ceased to answer Job, because he was righteous in his own eyes.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Job 32:3",
+        "source": "Also against his three friends was his wrath kindled, because they had found no answer, and yet had condemned Job.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Job 32:5",
+        "source": "When Elihu saw that there was no answer in the mouth of these three men, then his wrath was kindled.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Job 33:14",
+        "source": "For God speaketh once, yea twice, yet man perceiveth it not.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "Job 33:23",
+        "source": "If there be a messenger with him, an interpreter, one among a thousand, to shew unto man his uprightness:",
+        "expectedDecimalQuantities": [
+          1,
+          1000
+        ],
+        "targetQuantities": [
+          1,
+          1000
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "29:1": [
+        "kjv_job_sufferer",
+        "kjv_parable_oracle"
+      ],
+      "29:2": [
+        "month:pl past",
+        "preserve:pa"
+      ],
+      "29:3": [
+        "candle upon my/head",
+        "through darkness"
+      ],
+      "29:4": [
+        "my/youth",
+        "secret of god upon my/tent"
+      ],
+      "29:5": [
+        "kjv_almighty yet with i",
+        "child:pl about i"
+      ],
+      "29:6": [
+        "my/step:pl:a with butter",
+        "rock river:pl of oil"
+      ],
+      "29:7": [
+        "through city",
+        "seat:a in street",
+        "prepare:pa:excl"
+      ],
+      "29:8": [
+        "young man:pl",
+        "hide:pa",
+        "old person:pl rise:pa"
+      ],
+      "29:9": [
+        "talk:inf cease:pa",
+        "hand:a on their/mouth"
+      ],
+      "29:10": [
+        "their/kjv_mouth_roof kjv_cling"
+      ],
+      "29:11": [
+        "ear i:a hear:pa",
+        "eye i:a see:pa"
+      ],
+      "29:12": [
+        "poor:a who cry",
+        "kjv_fatherless",
+        "none to he:a help"
+      ],
+      "29:13": [
+        "perish:inf ready",
+        "widow:poss heart:a for joy"
+      ],
+      "29:14": [
+        "kjv_righteousness",
+        "my/judgment as kjv_robe and kjv_diadem"
+      ],
+      "29:15": [
+        "eye:pl to blind",
+        "foot:pl to kjv_lame"
+      ],
+      "29:16": [
+        "father to poor",
+        "kjv_case_plea:a",
+        "out search:pa"
+      ],
+      "29:17": [
+        "jaw:pl of wicked",
+        "thing:a which plunder:psv:pp",
+        "out of his/tooth:pl"
+      ],
+      "29:18": [
+        "in my/nest die:fu",
+        "as sand"
+      ],
+      "29:19": [
+        "root by water:pl",
+        "dew all night"
+      ],
+      "29:20": [
+        "glory fresh",
+        "my/bow in my/hand renew"
+      ],
+      "29:21": [
+        "ear:a give:pa",
+        "counsel silence"
+      ],
+      "29:22": [
+        "again speak:neg:pa",
+        "speech upon they drop"
+      ],
+      "29:23": [
+        "for rain wait",
+        "kjv_latter_rain"
+      ],
+      "29:24": [
+        "laugh:pa",
+        "believe:neg:pa",
+        "down cast:neg:pa"
+      ],
+      "29:25": [
+        "as king in army",
+        "person who mourn:ag:pl:a comfort"
+      ],
+      "30:1": [
+        "more young than i",
+        "dog:pl of my/flock",
+        "disdain:cond"
+      ],
+      "30:2": [
+        "strength of their/hand:pl",
+        "old age perish"
+      ],
+      "30:3": [
+        "lack and kjv_famine",
+        "former time",
+        "flee:cv"
+      ],
+      "30:4": [
+        "kjv_mallows",
+        "kjv_juniper root:pl:a for their/food"
+      ],
+      "30:5": [
+        "from among person:pl",
+        "after thief"
+      ],
+      "30:6": [
+        "cliff:pl of valley:pl",
+        "kjv_cave:pl of earth"
+      ],
+      "30:7": [
+        "kjv_bray:pa",
+        "under kjv_nettle:pl"
+      ],
+      "30:8": [
+        "child:pl of fool:pl",
+        "more vile than earth"
+      ],
+      "30:9": [
+        "their/song",
+        "their/kjv_byword"
+      ],
+      "30:10": [
+        "kjv_abhor:pr",
+        "in my/face kjv_spit:inf spare:neg"
+      ],
+      "30:11": [
+        "he my/kjv_cord",
+        "they also bridle"
+      ],
+      "30:12": [
+        "my/kjv_right_side",
+        "foot:pl:a away push"
+      ],
+      "30:13": [
+        "my/path:a mar",
+        "no help:ag"
+      ],
+      "30:14": [
+        "water:pl",
+        "upon i roll"
+      ],
+      "30:15": [
+        "terror:pl",
+        "soul:a as wind",
+        "welfare as cloud"
+      ],
+      "30:16": [
+        "soul upon i out pour",
+        "afflict:ev i:a seize"
+      ],
+      "30:17": [
+        "bone:pl in i in night",
+        "sinew:pl no rest"
+      ],
+      "30:18": [
+        "my/garment change",
+        "kjv_garment_collar of my/coat"
+      ],
+      "30:19": [
+        "into mud cast",
+        "dust and kjv_ashes"
+      ],
+      "30:20": [
+        "hear:neg:pr",
+        "regard:neg:pr"
+      ],
+      "30:21": [
+        "cruel to i",
+        "thyself:a against i"
+      ],
+      "30:22": [
+        "upon it ride:caus",
+        "my/substance:a dissolve"
+      ],
+      "30:23": [
+        "to death bring",
+        "house for all live:pp"
+      ],
+      "30:24": [
+        "grave stretch:neg:fu",
+        "they in his/destroy:ev cry"
+      ],
+      "30:25": [
+        "weep:neg:pa",
+        "poor with grief be:neg"
+      ],
+      "30:26": [
+        "for good look",
+        "evil to i come",
+        "darkness come"
+      ],
+      "30:27": [
+        "kjv_bowels boil",
+        "before meet:pa"
+      ],
+      "30:28": [
+        "without sun",
+        "kjv_congregation_general"
+      ],
+      "30:29": [
+        "kjv_dragon_source:pl",
+        "owl:pl"
+      ],
+      "30:30": [
+        "skin black",
+        "bone:pl with heat"
+      ],
+      "30:31": [
+        "harp",
+        "kjv_pipe",
+        "those who weep"
+      ],
+      "31:1": [
+        "kjv_covenant:a with my/eye:pl",
+        "maid think:should"
+      ],
+      "31:2": [
+        "kjv_portion_share",
+        "inheritance of kjv_almighty"
+      ],
+      "31:3": [
+        "strange kjv_punishment",
+        "work:ag:pl of kjv_iniquity"
+      ],
+      "31:4": [
+        "see:neg:pr",
+        "step:pl:a kjv_number"
+      ],
+      "31:5": [
+        "if i with vanity",
+        "foot to deceit"
+      ],
+      "31:6": [
+        "even balance weigh:psv:opt",
+        "my/integrity"
+      ],
+      "31:7": [
+        "if my/step",
+        "heart after my/eye",
+        "blot to my/hand"
+      ],
+      "31:8": [
+        "kjv_sow:opt",
+        "another eat:opt",
+        "offspring out root"
+      ],
+      "31:9": [
+        "if my/heart",
+        "neighbour:poss door"
+      ],
+      "31:10": [
+        "my/wife to another kjv_grind:opt",
+        "other:pl upon she"
+      ],
+      "31:11": [
+        "evil crime",
+        "by judge:pl punish"
+      ],
+      "31:12": [
+        "fire which",
+        "kjv_consume",
+        "increase:a out root"
+      ],
+      "31:13": [
+        "my/kjv_male servant",
+        "my/female servant",
+        "with i contend"
+      ],
+      "31:14": [
+        "god up rise",
+        "he visit"
+      ],
+      "31:15": [
+        "one_num we:du:a in womb",
+        "shape:neg:pa"
+      ],
+      "31:16": [
+        "poor:a from their/desire",
+        "widow:a fail:caus"
+      ],
+      "31:17": [
+        "my/kjv_morsel",
+        "alone eat",
+        "kjv_fatherless"
+      ],
+      "31:18": [
+        "he with i",
+        "i she:a from my/mother:poss womb"
+      ],
+      "31:19": [
+        "lack of clothing",
+        "poor without cover"
+      ],
+      "31:20": [
+        "kjv_loins:pl",
+        "kjv_fleece of my/sheep"
+      ],
+      "31:21": [
+        "against kjv_fatherless",
+        "help:a in gate"
+      ],
+      "31:22": [
+        "kjv_shoulder_blade",
+        "from bone break:psv:opt"
+      ],
+      "31:23": [
+        "destroy:ev from god",
+        "endure:neg:pa:can"
+      ],
+      "31:24": [
+        "gold:a my/hope",
+        "pure gold",
+        "thou my/confidence"
+      ],
+      "31:25": [
+        "wealth great",
+        "hand much:a obtain"
+      ],
+      "31:26": [
+        "sun:a when it shine",
+        "moon:a in bright:ev"
+      ],
+      "31:27": [
+        "heart secretly entice",
+        "mouth my/hand:a kiss"
+      ],
+      "31:28": [
+        "punish:psv:inf be:cond",
+        "god:a who above",
+        "deny:should"
+      ],
+      "31:29": [
+        "if i at destroy",
+        "when evil he:a find"
+      ],
+      "31:30": [
+        "mouth:a sin:inf permit:perf",
+        "curse:a to his/soul"
+      ],
+      "31:31": [
+        "wesg of his/flesh",
+        "wepl satisfy:psv:neg"
+      ],
+      "31:32": [
+        "stranger in street lodge:neg",
+        "door:pl:a to travel:ag"
+      ],
+      "31:33": [
+        "as kjv_adam",
+        "iniquity:a in my/bosom"
+      ],
+      "31:34": [
+        "contempt of kjv_family:pl",
+        "out of door go:neg"
+      ],
+      "31:35": [
+        "person i:a hear:cond:excl",
+        "my/kjv_adversary book:a write:perf:opt"
+      ],
+      "31:36": [
+        "upon my/kjv_shoulder",
+        "as crown"
+      ],
+      "31:37": [
+        "kjv_number:ev of my/step:pl",
+        "as prince"
+      ],
+      "31:38": [
+        "land against i cry",
+        "kjv_furrow:pl"
+      ],
+      "31:39": [
+        "without money",
+        "life:a lose:caus"
+      ],
+      "31:40": [
+        "thistle:pl in kjv_place_site of wheat",
+        "kjv_cockle",
+        "word:pl of kjv_job_sufferer end"
+      ],
+      "32:1": [
+        "three man:pl",
+        "in his/own eye:pl"
+      ],
+      "32:2": [
+        "kjv_elihu_job son of kjv_barachel kjv_buzite of kin of kjv_ram_job",
+        "rather than god"
+      ],
+      "32:3": [
+        "three friend:pl",
+        "yet kjv_job_sufferer:a condemn"
+      ],
+      "32:4": [
+        "wait:perf",
+        "more old than he"
+      ],
+      "32:5": [
+        "these three man:pl",
+        "wrath fire:caus"
+      ],
+      "32:6": [
+        "i young",
+        "my/opinion:a",
+        "dare:neg:pa"
+      ],
+      "32:7": [
+        "day:pl speak:should",
+        "year:pl wisdom:a teach"
+      ],
+      "32:8": [
+        "spirit in person",
+        "kjv_inspiration_breath of kjv_almighty"
+      ],
+      "32:9": [
+        "always wise be:neg",
+        "old person:pl judgment"
+      ],
+      "32:10": [
+        "to i listen:imp",
+        "i also my/opinion"
+      ],
+      "32:11": [
+        "for your/word:pl",
+        "ear:a give:pa"
+      ],
+      "32:12": [
+        "kjv_convince_reprove",
+        "his/word:pl:a answer"
+      ],
+      "32:13": [
+        "wesg wisdom:a out find",
+        "god he:a down thrust",
+        "not person"
+      ],
+      "32:14": [
+        "against i direct:neg",
+        "with your/speech:pl"
+      ],
+      "32:15": [
+        "they amaze:psv",
+        "they speak:inf cease"
+      ],
+      "32:16": [
+        "i wait:perf",
+        "they speak:neg:pa"
+      ],
+      "32:17": [
+        "my/part:a",
+        "my/opinion:a"
+      ],
+      "32:18": [
+        "full of word:pl",
+        "spirit within i i:a compel"
+      ],
+      "32:19": [
+        "no open:ev",
+        "new kjv_bottle:pl"
+      ],
+      "32:20": [
+        "kjv_refresh:psv:may",
+        "lip:pl:a open"
+      ],
+      "32:21": [
+        "face:a accept:neg:opt please",
+        "kjv_flatter:adj title:pl"
+      ],
+      "32:22": [
+        "my/make:ag",
+        "away take:cond"
+      ],
+      "33:1": [
+        "please my/speech:pl",
+        "kjv_job_sufferer:excl"
+      ],
+      "33:2": [
+        "i my/mouth:a open:perf",
+        "my/tongue in my/mouth"
+      ],
+      "33:3": [
+        "kjv_uprightness of my/heart",
+        "knowledge:a clear:adv"
+      ],
+      "33:4": [
+        "spirit of god",
+        "breath of kjv_almighty"
+      ],
+      "33:5": [
+        "if thou i:a answer:pr:can",
+        "in order set:imp"
+      ],
+      "33:6": [
+        "in kjv_place_site of god",
+        "out of kjv_clay_material"
+      ],
+      "33:7": [
+        "afraid make:neg:fu",
+        "hand upon thee heavy"
+      ],
+      "33:8": [
+        "my/hear:ev",
+        "say:cv"
+      ],
+      "33:9": [
+        "i without transgress:ev clean",
+        "nor kjv_iniquity"
+      ],
+      "33:10": [
+        "occasion:pl",
+        "as his/enemy regard"
+      ],
+      "33:11": [
+        "kjv_stocks_feet",
+        "path:pl:a observe"
+      ],
+      "33:12": [
+        "kjv_just_fair be:neg:pr",
+        "god greater than man"
+      ],
+      "33:13": [
+        "account:a of any his/affair:pl give:neg"
+      ],
+      "33:14": [
+        "one_num time",
+        "two time:pl",
+        "perceive:neg"
+      ],
+      "33:15": [
+        "dream",
+        "vision of night",
+        "deep sleep"
+      ],
+      "33:16": [
+        "ear:pl:a of man:pl",
+        "instruction:a seal"
+      ],
+      "33:17": [
+        "from his/purpose withdraw",
+        "pride:a from man hide"
+      ],
+      "33:18": [
+        "soul:a back from kjv_pit",
+        "by sword perish"
+      ],
+      "33:19": [
+        "pain upon his/bed",
+        "multitude of his/bone:pl"
+      ],
+      "33:20": [
+        "life bread:a kjv_abhor",
+        "soul dainty food"
+      ],
+      "33:21": [
+        "flesh away kjv_consume",
+        "bone:pl which see:psv:neg:pa out extend"
+      ],
+      "33:22": [
+        "soul near to grave",
+        "life to destroy:ag:pl"
+      ],
+      "33:23": [
+        "interpreter one_num among thousand",
+        "his/kjv_uprightness"
+      ],
+      "33:24": [
+        "he to he gracious",
+        "ipl ransom:a find:perf"
+      ],
+      "33:25": [
+        "more fresh than child:poss",
+        "day:pl of his/youth"
+      ],
+      "33:26": [
+        "favour:a show",
+        "kjv_righteousness:a give"
+      ],
+      "33:27": [
+        "i sin:perf",
+        "which kjv_just_fair",
+        "kjv_pervert_judgment",
+        "gain:ev:a bring:neg"
+      ],
+      "33:28": [
+        "from into kjv_pit go",
+        "life light:a see"
+      ],
+      "33:29": [
+        "god often with man"
+      ],
+      "33:30": [
+        "back from kjv_pit",
+        "light:caus:psv:inf"
+      ],
+      "33:31": [
+        "well attend:imp",
+        "peace:a hold:imp",
+        "i speak:fu"
+      ],
+      "33:32": [
+        "if thou anything",
+        "kjv_righteous declare:inf desire"
+      ],
+      "33:33": [
+        "if not",
+        "wisdom:a teach"
+      ],
+      "34:1": [
+        "kjv_elihu_job answer"
+      ],
+      "34:2": [
+        "you:pl wise man:pl:excl",
+        "ear:a give"
+      ],
+      "34:3": [
+        "ear word:pl:a test",
+        "mouth food:a taste"
+      ],
+      "34:4": [
+        "wesg judgment:a for wesg",
+        "wepl among ourselves"
+      ],
+      "34:5": [
+        "kjv_job_sufferer say:perf i",
+        "my/judgment:a away take"
+      ],
+      "34:6": [
+        "my/right",
+        "cure:psv:neg:pr:can"
+      ],
+      "34:7": [
+        "mock:ev:a like water"
+      ],
+      "34:8": [
+        "company with work:ag:pl",
+        "wicked man:pl"
+      ],
+      "34:9": [
+        "nothing:a gain:caus",
+        "himself:a with god delight"
+      ],
+      "34:10": [
+        "far it from god",
+        "iniquity:a commit"
+      ],
+      "34:11": [
+        "work:a of man",
+        "recompense:fu",
+        "according_to his/way:pl"
+      ],
+      "34:12": [
+        "wicked:adv do:neg",
+        "judgment:a kjv_pervert_judgment"
+      ],
+      "34:13": [
+        "over earth charge",
+        "whole world:a arrange"
+      ],
+      "34:14": [
+        "his/heart:a upon man",
+        "his/spirit:a and his/breath:a"
+      ],
+      "34:15": [
+        "all flesh together",
+        "again to dust"
+      ],
+      "34:16": [
+        "thou understand:ev:a",
+        "voice of my/word:pl"
+      ],
+      "34:17": [
+        "justice:a hate",
+        "most kjv_just_fair"
+      ],
+      "34:18": [
+        "to king",
+        "to prince:pl",
+        "kjv_ungodly"
+      ],
+      "34:19": [
+        "face:pl:a of prince:pl accept:neg",
+        "rich:a more than poor"
+      ],
+      "34:20": [
+        "at midnight",
+        "without hand"
+      ],
+      "34:21": [
+        "eye:pl upon way:pl",
+        "all his/go:ev:pl"
+      ],
+      "34:22": [
+        "no darkness",
+        "shadow of death",
+        "themselves:a hide"
+      ],
+      "34:23": [
+        "more than kjv_just_fair lay:neg",
+        "with god enter"
+      ],
+      "34:24": [
+        "without kjv_number:ev",
+        "their/kjv_place_site"
+      ],
+      "34:25": [
+        "their/work:pl:a know",
+        "in night over turn"
+      ],
+      "34:26": [
+        "as wicked man:pl",
+        "open sight"
+      ],
+      "34:27": [
+        "back turn:pa",
+        "consider:neg:cond"
+      ],
+      "34:28": [
+        "cry:a of poor",
+        "kjv_afflict:psv:ag:pl"
+      ],
+      "34:29": [
+        "quiet:ev:a give",
+        "his/face:a hide",
+        "nation",
+        "man only"
+      ],
+      "34:30": [
+        "kjv_hypocrite rule:neg",
+        "people snare"
+      ],
+      "34:31": [
+        "i kjv_chastise:ev:a bear",
+        "offend:neg:fu"
+      ],
+      "34:32": [
+        "i see:neg:pr",
+        "if i kjv_iniquity",
+        "no more do"
+      ],
+      "34:33": [
+        "whether thou refuse",
+        "whether thou choose",
+        "not i"
+      ],
+      "34:34": [
+        "man:pl of understand",
+        "wise man to i"
+      ],
+      "34:35": [
+        "without knowledge",
+        "without wisdom"
+      ],
+      "34:36": [
+        "my/desire",
+        "until end test:psv",
+        "for wicked man:pl"
+      ],
+      "34:37": [
+        "rebellion:a to his/sin",
+        "hand:pl:a together among wepl strike"
+      ],
+      "35:1": [
+        "kjv_elihu_job further speak"
+      ],
+      "35:2": [
+        "my/kjv_righteousness more than god:poss"
+      ],
+      "35:3": [
+        "advantage to thee",
+        "gain:a i have",
+        "from my/sin clean"
+      ],
+      "35:4": [
+        "i thee:a answer",
+        "thy/companion:pl"
+      ],
+      "35:5": [
+        "to heaven:pl",
+        "cloud:pl:a which higher"
+      ],
+      "35:6": [
+        "if thou sin",
+        "transgress:ev:pl many become"
+      ],
+      "35:7": [
+        "what thou to he give",
+        "from thy/hand receive"
+      ],
+      "35:8": [
+        "wickedness man:a",
+        "son of man gain:ev:a bring"
+      ],
+      "35:9": [
+        "kjv_multitude of oppress:ev:pl",
+        "arm of mighty:pl"
+      ],
+      "35:10": [
+        "where god my/make:ag",
+        "song:pl:a in night"
+      ],
+      "35:11": [
+        "wesg:a more than beast:pl",
+        "wesg:a more wise than bird:pl"
+      ],
+      "35:12": [
+        "none answer:a give",
+        "pride of evil man:pl"
+      ],
+      "35:13": [
+        "vanity:a hear:neg",
+        "nor kjv_almighty"
+      ],
+      "35:14": [
+        "see:neg:fu",
+        "judgment before he",
+        "trust:imp"
+      ],
+      "35:15": [
+        "because it so be:neg",
+        "in his/anger visit:perf",
+        "know:neg:pr"
+      ],
+      "35:16": [
+        "mouth:a in vain",
+        "without knowledge many make"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "29:11",
+        "29:12",
+        "29:13",
+        "29:14",
+        "29:15",
+        "29:16",
+        "29:17",
+        "29:18",
+        "29:2",
+        "29:20",
+        "29:21",
+        "29:23",
+        "29:24",
+        "29:25",
+        "29:3",
+        "29:4",
+        "29:5",
+        "29:6",
+        "29:7",
+        "29:8",
+        "30:1",
+        "30:10",
+        "30:11",
+        "30:12",
+        "30:14",
+        "30:15",
+        "30:16",
+        "30:17",
+        "30:18",
+        "30:19",
+        "30:2",
+        "30:20",
+        "30:21",
+        "30:22",
+        "30:23",
+        "30:25",
+        "30:26",
+        "30:27",
+        "30:28",
+        "30:29",
+        "30:30",
+        "30:9",
+        "31:1",
+        "31:13",
+        "31:14",
+        "31:15",
+        "31:16",
+        "31:17",
+        "31:18",
+        "31:19",
+        "31:20",
+        "31:21",
+        "31:23",
+        "31:24",
+        "31:25",
+        "31:26",
+        "31:28",
+        "31:29",
+        "31:30",
+        "31:32",
+        "31:33",
+        "31:34",
+        "31:35",
+        "31:36",
+        "31:37",
+        "31:38",
+        "31:39",
+        "31:5",
+        "31:6",
+        "31:8",
+        "31:9",
+        "32:10",
+        "32:11",
+        "32:12",
+        "32:14",
+        "32:16",
+        "32:17",
+        "32:18",
+        "32:20",
+        "32:21",
+        "32:22",
+        "32:6",
+        "32:7",
+        "33:10",
+        "33:12",
+        "33:2",
+        "33:27",
+        "33:31",
+        "33:32",
+        "33:33",
+        "33:4",
+        "33:5",
+        "33:6",
+        "33:8",
+        "33:9",
+        "34:10",
+        "34:2",
+        "34:31",
+        "34:32",
+        "34:33",
+        "34:34",
+        "34:5",
+        "34:6",
+        "35:3",
+        "35:4"
+      ],
+      "ipl": [
+        "33:24"
+      ],
+      "wesg": [
+        "31:31",
+        "32:13",
+        "34:4",
+        "35:11"
+      ],
+      "wepl": [
+        "31:31",
+        "34:37",
+        "34:4"
+      ],
+      "mypl": [],
+      "iplself": [],
+      "ourone": [],
+      "we:du": [
+        "31:15"
+      ],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "One common maker31:15,the three advisers32:1/3/5,once/twice33:14,and one among thousand33:23 retain their values.",
+      "Indefinite person31:35 and often33:29 are not fabricated cardinal quantities."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Plural-I33:24 reads the unnamed gracious rescuer as divine;the antecedent remains disputed and no named mediator or Trinity count is imposed.",
+      "Singular-we marks shared wish,verdict and learning kind;plural-we marks beneficiaries and actual listeners. Explicit dual31:15 links Job and servant.",
+      "KJV difficult readings and speaker accusations stay unharmonized. Conditional oaths do not narrate fulfillment.",
+      "All inherited targets and old seals unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Job — incomplete Bible working text",
+    "pages": 414,
+    "spreads": 207,
+    "units": 867,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "0964d6609b12e44d8dee6bc771557d3fc8176e80aa852a7bb7ca855116bf0f6d",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 207,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.449,
+    "modules": [
+      "tests.test_kjv_job_oath_new_speaker",
+      "tests.test_kjv_job_hidden_wisdom",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    413,
+    414
+  ],
+  "status": "incompleteBible;Job1to35sectioncheckpointverified"
+}

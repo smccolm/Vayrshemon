@@ -1,0 +1,28 @@
+{
+  "version": "0.10-kjv.2",
+  "policy": "never-modernize",
+  "status": "working historical continuation; WHOLE BIBLE INCOMPLETE",
+  "basePackage": "data/language/archaic-kjv-1",
+  "baseManifestSha256": "0944ab07a11c8eb01845823aecaf9deca9ea1e3aabe0d5bacdc2de0cd2f22a37",
+  "baseForgeHead": "72b5746f19b9c753c51f1aed35cfe943fbe4790de8406c36414ac3301e1d985c",
+  "forgeHead": "0cca3ec046b553a2d846a7983d91ed47a7e0c8cb242ee990921c8ce2111a0f7d",
+  "compilerPath": "data/language/archaic-kjv-2/compiler.py",
+  "compilerSha256": "fce3a11a2eed028ea8e7d4cdb4d22984075cb5cdacb2d3ede8be0aaefdca3bde",
+  "compilerChange": "Identical compiler and inflectional endings; explicit added lexical senses and authored analyses.",
+  "delivery": "One complete Bible .vay is required. Present coverage is a working excerpt, not completion.",
+  "files": {
+    "additions.json": "e3145405ec34b030db42177b21fd1fd2f12e8131791e9e0c9f65e6146a5dac57",
+    "compiler.py": "fce3a11a2eed028ea8e7d4cdb4d22984075cb5cdacb2d3ede8be0aaefdca3bde",
+    "continuation-cases.json": "12e7140213bbc262a9d72e37de8d8bee3e8c3cdc9471c75c629d4fe30dd66330",
+    "coverage-summary.json": "a6633e975542404cade212d6e120c159cb8abccd46b63b1d78d9fc4264e016ec",
+    "grammar.md": "0065b4a05a1e7c8dd152900a2ea45d1ce14570d651f0eaedb3d5ea8b5bfde078",
+    "historical-cases.json": "e3739d352d7db05020274e88f800e2a6ea561442d35681d85ee03812afb69ebc",
+    "inherited-grammar.md": "bd15af84f2db9de872808c8efd49178dada5dc98cc9afdf5826cde4b98eea116",
+    "lexicon.json": "ce5e20429e4d8c68e9582690edbcc24792122083596bdaba44ca1d4b8e10fd74",
+    "morphology.json": "b75753f2258ac5b194c6899045487e25ac2b0296e88352ea89445369395dc335",
+    "orthography.json": "032da7c5ffd64f327a4237762bcf00dcaf990cff660c142a037600f7ac464591",
+    "parent-historical-grammar.md": "2ba822e2dbcbea89729bc52fcc252eba0bdda0a004b4e1fa85a8d9442f45cf75",
+    "regression-cases.json": "0afcbcc75fc4cf998565088d8352e7b31737d5169ce38b00d89203b67b94a8a8",
+    "working-provenance.json": "6d657d9e10e7ca25cd595b9e5dfd2d659b9cd545caec520bee541ac54cde8c5f"
+  }
+}

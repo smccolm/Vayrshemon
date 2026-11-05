@@ -1,0 +1,771 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.78",
+    "parentVersion": "0.10-kjv.77",
+    "parentHead": "1ca227ca06db71f48001714f3f0ebcc6a9bda1a962d80e225e1fc204d22209ab",
+    "head": "351778b8ccc130aacf8c2606604b0d2aefbdd4f5b5a5ebfd601eab631c0cabab",
+    "newLexicalEntries": 232,
+    "newProperEntries": 231,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 150,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 93,
+    "exactCompilerCases": 93,
+    "newAuthoredVerses": 93,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 202,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20599,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 93,
+    "chronicles1Verses": 202,
+    "authoredVerses": 10503,
+    "remainingVerses": 20599,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 20,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 3:1",
+        "source": "Now these were the sons of David, which were born unto him in Hebron; the firstborn Amnon, of Ahinoam the Jezreelitess; the second Daniel, of Abigail the Carmelitess:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:2",
+        "source": "The third, Absalom the son of Maachah the daughter of Talmai king of Geshur: the fourth, Adonijah the son of Haggith:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:3",
+        "source": "The fifth, Shephatiah of Abital: the sixth, Ithream by Eglah his wife.",
+        "expectedDecimalQuantities": [
+          5,
+          6
+        ],
+        "targetQuantities": [
+          5,
+          6
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:4",
+        "source": "These six were born unto him in Hebron; and there he reigned seven years and six months: and in Jerusalem he reigned thirty and three years.",
+        "expectedDecimalQuantities": [
+          6,
+          7,
+          6,
+          33
+        ],
+        "targetQuantities": [
+          6,
+          7,
+          6,
+          33
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:5",
+        "source": "And these were born unto him in Jerusalem; Shimea, and Shobab, and Nathan, and Solomon, four, of Bathshua the daughter of Ammiel:",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:8",
+        "source": "And Elishama, and Eliada, and Eliphelet, nine.",
+        "expectedDecimalQuantities": [
+          9
+        ],
+        "targetQuantities": [
+          9
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:15",
+        "source": "And the sons of Josiah were, the firstborn Johanan, the second Jehoiakim, the third Zedekiah, the fourth Shallum.",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          4
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:20",
+        "source": "And Hashubah, and Ohel, and Berechiah, and Hasadiah, Jushabhesed, five.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:22",
+        "source": "And the sons of Shechaniah; Shemaiah: and the sons of Shemaiah; Hattush, and Igeal, and Bariah, and Neariah, and Shaphat, six.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:23",
+        "source": "And the sons of Neariah; Elioenai, and Hezekiah, and Azrikam, three.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 3:24",
+        "source": "And the sons of Elioenai were, Hodaiah, and Eliashib, and Pelaiah, and Akkub, and Johanan, and Dalaiah, and Anani, seven.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "1 Chronicles 4:5",
+        "source": "And Ashur the father of Tekoa had two wives, Helah and Naarah.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "1 Chronicles 4:27",
+        "source": "And Shimei had sixteen sons and six daughters: but his brethren had not many children, neither did all their family multiply, like to the children of Judah.",
+        "expectedDecimalQuantities": [
+          16,
+          6
+        ],
+        "targetQuantities": [
+          16,
+          6
+        ]
+      },
+      {
+        "reference": "1 Chronicles 4:32",
+        "source": "And their villages were, Etam, and Ain, Rimmon, and Tochen, and Ashan, five cities:",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 4:42",
+        "source": "And some of them, even of the sons of Simeon, five hundred men, went to mount Seir, having for their captains Pelatiah, and Neariah, and Rephaiah, and Uzziel, the sons of Ishi.",
+        "expectedDecimalQuantities": [
+          500
+        ],
+        "targetQuantities": [
+          500
+        ]
+      },
+      {
+        "reference": "1 Chronicles 5:13",
+        "source": "And their brethren of the house of their fathers were, Michael, and Meshullam, and Sheba, and Jorai, and Jachan, and Zia, and Heber, seven.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "1 Chronicles 5:18",
+        "source": "The sons of Reuben, and the Gadites, and half the tribe of Manasseh, of valiant men, men able to bear buckler and sword, and to shoot with bow, and skilful in war, were four and forty thousand seven hundred and threescore, that went out to the war.",
+        "expectedDecimalQuantities": [
+          0.5,
+          44760
+        ],
+        "targetQuantities": [
+          0.5,
+          44760
+        ]
+      },
+      {
+        "reference": "1 Chronicles 5:21",
+        "source": "And they took away their cattle; of their camels fifty thousand, and of sheep two hundred and fifty thousand, and of asses two thousand, and of men an hundred thousand.",
+        "expectedDecimalQuantities": [
+          50000,
+          250000,
+          2000,
+          100000
+        ],
+        "targetQuantities": [
+          50000,
+          250000,
+          2000,
+          100000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 5:23",
+        "source": "And the children of the half tribe of Manasseh dwelt in the land: they increased from Bashan unto Baalhermon and Senir, and unto mount Hermon.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 5:26",
+        "source": "And the God of Israel stirred up the spirit of Pul king of Assyria, and the spirit of Tilgathpilneser king of Assyria, and he carried them away, even the Reubenites, and the Gadites, and the half tribe of Manasseh, and brought them unto Halah, and Habor, and Hara, and to the river Gozan, unto this day.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "3:1": [
+        "kjv_daniel_david",
+        "kjv_ahinoam_jezreel",
+        "two:ord"
+      ],
+      "3:2": [
+        "kjv_maachah_david daughter of kjv_talmai_geshur",
+        "four:ord"
+      ],
+      "3:3": [
+        "five:ord",
+        "six:ord",
+        "kjv_eglah his/wife"
+      ],
+      "3:4": [
+        "six to he",
+        "seven year:pl and six month:pl",
+        "thirty and kjv_three year:pl"
+      ],
+      "3:5": [
+        "kjv_shimea_david",
+        "kjv_nathan_david",
+        "four of kjv_bathshua daughter of kjv_ammiel_bathshua"
+      ],
+      "3:6": [
+        "kjv_elishama_david and kjv_eliphelet_david"
+      ],
+      "3:7": [
+        "kjv_nogah and kjv_nepheg_david and kjv_japhia_david"
+      ],
+      "3:8": [
+        "kjv_elishama_david and kjv_eliada and kjv_eliphelet_david nine"
+      ],
+      "3:9": [
+        "besides son:pl of kjv_concubine:pl",
+        "kjv_tamar_david their/sister"
+      ],
+      "3:10": [
+        "kjv_abia_rehoboam his/son kjv_asa his/son kjv_jehoshaphat_asa"
+      ],
+      "3:11": [
+        "kjv_joram_judah",
+        "kjv_ahaziah_jehoram",
+        "kjv_joash_ahaziah"
+      ],
+      "3:12": [
+        "kjv_amaziah_joash",
+        "kjv_azariah_amaziah",
+        "kjv_jotham_azariah"
+      ],
+      "3:13": [
+        "kjv_ahaz_jotham",
+        "kjv_hezekiah_ahaz",
+        "kjv_manasseh_hezekiah"
+      ],
+      "3:14": [
+        "kjv_amon_manasseh his/son kjv_josiah his/son"
+      ],
+      "3:15": [
+        "first+born kjv_johanan_josiah",
+        "two:ord kjv_jehoiakim",
+        "kjv_three:ord kjv_zedekiah_king",
+        "four:ord kjv_shallum_josiah"
+      ],
+      "3:16": [
+        "kjv_jeconiah his/son kjv_zedekiah_jeconiah his/son"
+      ],
+      "3:17": [
+        "kjv_assir_jeconiah kjv_salathiel his/son"
+      ],
+      "3:18": [
+        "kjv_malchiram",
+        "kjv_pedaiah_jeconiah",
+        "kjv_shenazar kjv_jecamiah kjv_hoshama and kjv_nedabiah"
+      ],
+      "3:19": [
+        "son:pl of kjv_pedaiah_jeconiah kjv_zerubbabel",
+        "kjv_shelomith_zerubbabel their/sister"
+      ],
+      "3:20": [
+        "kjv_hashubah",
+        "kjv_ohel",
+        "kjv_berechiah",
+        "kjv_hasadiah kjv_jushabhesed five"
+      ],
+      "3:21": [
+        "son:pl of kjv_rephaiah_line son:pl of kjv_arnan son:pl of kjv_obadiah_line son:pl of kjv_shechaniah"
+      ],
+      "3:22": [
+        "kjv_hattush and kjv_igeal and kjv_bariah and kjv_neariah_shemaiah and kjv_shaphat_shemaiah six"
+      ],
+      "3:23": [
+        "kjv_elioenai_neariah and kjv_hezekiah_neariah and kjv_azrikam kjv_three"
+      ],
+      "3:24": [
+        "kjv_hodaiah",
+        "kjv_eliashib",
+        "kjv_pelaiah",
+        "kjv_akkub",
+        "kjv_johanan_elioenai",
+        "kjv_dalaiah and kjv_anani seven"
+      ],
+      "4:1": [
+        "kjv_hezron_pharez and kjv_carmi_judah",
+        "kjv_hur_caleb and kjv_shobal_hur"
+      ],
+      "4:2": [
+        "kjv_reaiah_shobal son of kjv_shobal_hur kjv_jahath_shobal:a beget:pa",
+        "kjv_zorathite:pl"
+      ],
+      "4:3": [
+        "of father of kjv_etam",
+        "kjv_jezreel_etam",
+        "their/sister kjv_hazelelponi"
+      ],
+      "4:4": [
+        "kjv_penuel_gedor father of kjv_gedor",
+        "kjv_ezer_hushah father of kjv_hushah",
+        "first+born of kjv_ephratah_woman"
+      ],
+      "4:5": [
+        "two wife:pl kjv_helah and kjv_naarah"
+      ],
+      "4:6": [
+        "kjv_ahuzam",
+        "kjv_hepher_naarah",
+        "kjv_temeni",
+        "kjv_haahashtari",
+        "son:pl of kjv_naarah"
+      ],
+      "4:7": [
+        "son:pl of kjv_helah",
+        "kjv_zereth and kjv_jezoar and kjv_ethnan"
+      ],
+      "4:8": [
+        "kjv_coz",
+        "kjv_anub and kjv_zobebah",
+        "kjv_family:pl of kjv_aharhel son of kjv_harum"
+      ],
+      "4:9": [
+        "kjv_jabez_person more honourable than his/brother:pl",
+        "because i with sorrow he:a born:pa"
+      ],
+      "4:10": [
+        "to god of kjv_israel",
+        "thou i:a indeed bless:opt",
+        "my/kjv_coast_region:a wide:caus:opt",
+        "thy/hand with i be:opt",
+        "from evil keep:opt",
+        "sorrow:neg:caus:may:excl",
+        "god to he that which he request:pa grant:pa"
+      ],
+      "4:11": [
+        "kjv_chelub_shuah brother of kjv_shuah_chelub",
+        "kjv_mehir",
+        "father of kjv_eshton"
+      ],
+      "4:12": [
+        "kjv_bethrapha and kjv_paseah and kjv_tehinnah father of kjv_irnahash",
+        "man:pl of kjv_rechah"
+      ],
+      "4:13": [
+        "kjv_kenaz_othniel kjv_othniel and kjv_seraiah_kenaz",
+        "son:pl of kjv_othniel kjv_hathath"
+      ],
+      "4:14": [
+        "kjv_meonothai kjv_ophrah_meonothai:a beget:pa",
+        "kjv_joab_seraiah",
+        "valley of kjv_charashim",
+        "they artisan:pl"
+      ],
+      "4:15": [
+        "kjv_caleb son of kjv_jephunneh",
+        "kjv_iru kjv_elah_caleb and kjv_naam",
+        "son:pl of kjv_elah_caleb even kjv_kenaz_elah"
+      ],
+      "4:16": [
+        "kjv_jehaleleel",
+        "kjv_ziph_jehaleleel and kjv_ziphah kjv_tiria and kjv_asareel"
+      ],
+      "4:17": [
+        "kjv_ezra_line",
+        "kjv_jether_ezra and kjv_mered and kjv_epher_ezra and kjv_jalon",
+        "and she kjv_miriam_line",
+        "kjv_ishbah father of kjv_eshtemoa"
+      ],
+      "4:18": [
+        "his/wife kjv_jehudijah",
+        "kjv_jered_jehudijah",
+        "kjv_heber_jehudijah father of kjv_socho",
+        "kjv_jekuthiel father of kjv_zanoah",
+        "kjv_bithiah daughter of kjv_pharaoh whom kjv_mered take:pa"
+      ],
+      "4:19": [
+        "his/wife kjv_hodiah_wife sister of kjv_naham",
+        "kjv_keilah kjv_garmite",
+        "kjv_eshtemoa kjv_maachathite"
+      ],
+      "4:20": [
+        "kjv_shimon kjv_amnon_shimon",
+        "kjv_rinnah kjv_benhanan and kjv_tilon",
+        "kjv_ishi_zoheth kjv_zoheth and kjv_benzoheth"
+      ],
+      "4:21": [
+        "kjv_shelah son of kjv_judah",
+        "kjv_er_shelah father of kjv_lecah",
+        "kjv_laadah father of kjv_mareshah",
+        "fine linen:a work:pa",
+        "house of kjv_ashbea"
+      ],
+      "4:22": [
+        "kjv_jokim",
+        "kjv_chozeba",
+        "kjv_joash_moab and kjv_saraph",
+        "in kjv_moab rule:a have:pa",
+        "kjv_jashubilehem",
+        "these ancient thing:pl"
+      ],
+      "4:23": [
+        "kjv_pot:ag:pl",
+        "among plant:pl and hedge:pl",
+        "with king for his/work"
+      ],
+      "4:24": [
+        "kjv_nemuel_simeon and kjv_jamin kjv_jarib_simeon kjv_zerah_simeon and kjv_shaul"
+      ],
+      "4:25": [
+        "kjv_shallum_simeon his/son kjv_mibsam_simeon his/son kjv_mishma_simeon his/son"
+      ],
+      "4:26": [
+        "kjv_hamuel his/son kjv_zacchur his/son kjv_shimei_simeon his/son"
+      ],
+      "4:27": [
+        "sixteen son:pl and six daughter:pl",
+        "his/brother:pl many child:pl:a have:neg:pa",
+        "neither all their/kjv_family increase:pa"
+      ],
+      "4:28": [
+        "kjv_beersheba and kjv_moladah and kjv_hazarshual"
+      ],
+      "4:29": [
+        "kjv_bilhah_place",
+        "kjv_ezem",
+        "kjv_tolad"
+      ],
+      "4:30": [
+        "kjv_bethuel_place",
+        "kjv_hormah",
+        "kjv_ziklag"
+      ],
+      "4:31": [
+        "kjv_bethmarcaboth",
+        "kjv_hazarsusim",
+        "kjv_bethbirei",
+        "kjv_shaaraim",
+        "until rule of kjv_david"
+      ],
+      "4:32": [
+        "their/village:pl",
+        "kjv_etam and kjv_ain kjv_rimmon and kjv_tochen and kjv_ashan five city:pl"
+      ],
+      "4:33": [
+        "round about same city:pl",
+        "until kjv_baal_place",
+        "their/kjv_genealogy"
+      ],
+      "4:34": [
+        "kjv_meshobab and kjv_jamlech",
+        "kjv_joshah son of kjv_amaziah_joshah"
+      ],
+      "4:35": [
+        "kjv_joel_simeon",
+        "kjv_jehu_josibiah son of kjv_josibiah son of kjv_seraiah_asiel son of kjv_asiel"
+      ],
+      "4:36": [
+        "kjv_elioenai_simeon",
+        "kjv_jaakobah",
+        "kjv_jeshohaiah",
+        "kjv_asaiah_simeon",
+        "kjv_adiel",
+        "kjv_jesimiel",
+        "kjv_benaiah_simeon"
+      ],
+      "4:37": [
+        "kjv_ziza son of kjv_shiphi son of kjv_allon son of kjv_jedaiah son of kjv_shimri son of kjv_shemaiah_simeon"
+      ],
+      "4:38": [
+        "by their/name:pl call:psv:pa",
+        "in their/kjv_family:pl prince:pl",
+        "house of their/father:pl greatly increase:pa"
+      ],
+      "4:39": [
+        "kjv_entryway of kjv_gedor",
+        "east side of valley",
+        "for their/flock:pl kjv_pasture:a seek:cv"
+      ],
+      "4:40": [
+        "fruitful kjv_pasture and good",
+        "land wide and quiet and with peace",
+        "they of kjv_ham there of old dwell:pp"
+      ],
+      "4:41": [
+        "day:pl of kjv_hezekiah_ahaz",
+        "their/tent:pl",
+        "dwelling:pl:a which there find:psv:pa",
+        "they:a completely destroy:pa until this day",
+        "in their/place:pl dwell:pa"
+      ],
+      "4:42": [
+        "five+hundred man:pl",
+        "mountain of kjv_seir",
+        "kjv_pelatiah_ishi and kjv_neariah_ishi and kjv_rephaiah_ishi and kjv_uzziel_ishi son:pl of kjv_ishi_captains"
+      ],
+      "4:43": [
+        "remainder:a of kjv_amalekites who escape:pp",
+        "strike:pa",
+        "until this day dwell:pa"
+      ],
+      "5:1": [
+        "his/father:a defile:pa",
+        "his/birthright to son:pl of kjv_joseph",
+        "kjv_genealogy after birthright reckon:neg:psv:pr"
+      ],
+      "5:2": [
+        "kjv_judah above his/brother:pl prevail:pa",
+        "chief ruler come:pa",
+        "birthright of kjv_joseph"
+      ],
+      "5:3": [
+        "i say:pr",
+        "kjv_hanoch_reuben and kjv_pallu kjv_hezron and kjv_carmi"
+      ],
+      "5:4": [
+        "kjv_joel_reuben",
+        "kjv_shemaiah_joel his/son kjv_gog his/son kjv_shimei_reuben his/son"
+      ],
+      "5:5": [
+        "kjv_micah_reuben his/son kjv_reaia his/son kjv_baal_person his/son"
+      ],
+      "5:6": [
+        "kjv_beerah",
+        "kjv_tilgathpilneser king of kjv_assyria captive carry:pa away",
+        "prince of kjv_reubenite:pl"
+      ],
+      "5:7": [
+        "kjv_genealogy of their/generation:pl reckon:psv:pa",
+        "chief kjv_jeiel_reuben and kjv_zechariah_reuben"
+      ],
+      "5:8": [
+        "kjv_bela_azaz son of kjv_azaz son of kjv_shema_joel son of kjv_joel_reuben",
+        "kjv_aroer even until kjv_nebo and kjv_baalmeon"
+      ],
+      "5:9": [
+        "to east",
+        "kjv_entryway of kjv_wilderness from river kjv_euphrates",
+        "their/kjv_livestock in land of kjv_gilead increase:psv:pa"
+      ],
+      "5:10": [
+        "day:pl of kjv_saul_israel",
+        "kjv_hagarite:pl",
+        "by their/hand fall:pa",
+        "in their/tent:pl they dwell:pa"
+      ],
+      "5:11": [
+        "child:pl of kjv_gad opposite they",
+        "kjv_bashan until kjv_salcah"
+      ],
+      "5:12": [
+        "kjv_joel_gad chief",
+        "kjv_shapham next",
+        "kjv_jaanai and kjv_shaphat_gad"
+      ],
+      "5:13": [
+        "kjv_michael_gad and kjv_meshullam_gad and kjv_sheba_gad and kjv_jorai and kjv_jachan and kjv_zia and kjv_heber_gad seven"
+      ],
+      "5:14": [
+        "kjv_abihail_gad son of kjv_huri son of kjv_jaroah son of kjv_gilead_gad son of kjv_michael_gilead son of kjv_jeshishai son of kjv_jahdo son of kjv_buz_gad"
+      ],
+      "5:15": [
+        "kjv_ahi son of kjv_abdiel son of kjv_guni_gad",
+        "chief of house of their/father:pl"
+      ],
+      "5:16": [
+        "kjv_suburbs_field of kjv_sharon",
+        "upon their/boundary:pl"
+      ],
+      "5:17": [
+        "by kjv_genealogy:pl",
+        "kjv_jotham_azariah king of kjv_judah",
+        "kjv_jeroboam_joash king of kjv_israel"
+      ],
+      "5:18": [
+        "half kjv_tribe of kjv_manasseh",
+        "kjv_shield_armour and sword:a carry:inf",
+        "with kjv_bow shoot:inf",
+        "forty+thousand and four+thousand and seven+hundred and six+ten"
+      ],
+      "5:19": [
+        "kjv_hagarite:pl",
+        "kjv_jetur and kjv_nephish and kjv_nodab"
+      ],
+      "5:20": [
+        "into their/hand deliver:psv:pa",
+        "in battle cry:pa",
+        "he their/request:a grant:pa",
+        "in he their/trust:a put:pa"
+      ],
+      "5:21": [
+        "fifty+thousand",
+        "two+hundred+thousand and fifty+thousand",
+        "ass:pl two+thousand",
+        "man:pl hundred+thousand"
+      ],
+      "5:22": [
+        "many slain fall:pa",
+        "war of god",
+        "in their/place:pl until kjv_captivity"
+      ],
+      "5:23": [
+        "half kjv_tribe of kjv_manasseh",
+        "kjv_baalhermon and kjv_senir",
+        "mountain kjv_hermon"
+      ],
+      "5:24": [
+        "kjv_epher_manasseh",
+        "kjv_ishi_manasseh",
+        "kjv_eliel",
+        "kjv_azriel",
+        "kjv_jeremiah_manasseh",
+        "kjv_hodaviah",
+        "kjv_jahdiel",
+        "famous man:pl"
+      ],
+      "5:25": [
+        "god of their/father:pl transgress:pa",
+        "god:pl of people of land",
+        "kjv_whoring:pa"
+      ],
+      "5:26": [
+        "spirit of kjv_pul",
+        "spirit of kjv_tilgathpilneser",
+        "kjv_reubenite:pl and kjv_gadite:pl and half kjv_tribe of kjv_manasseh",
+        "kjv_halah and kjv_habor and kjv_hara",
+        "river kjv_gozan",
+        "until this day"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Ranks, birth groups, years/months, half-tribe fractions,44760warriors and four distinct seizure quantities independently checked. The printed3:22six is retained despite five listed names."
+    ],
+    "personalIReferences": [
+      "4:10",
+      "4:9",
+      "5:3"
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Personal maternal, petitionary and narrator I retained. Genealogical variants and unresolved relationships are not silently harmonized.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 88,
+    "spreads": 44,
+    "units": 202,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "565a2907c862cf8d4e436e2c314e7d451c8a20ed79da17a9b7b60a1bdd2e97af",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 44,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.675,
+    "modules": [
+      "tests.test_kjv_chronicles_descent",
+      "tests.test_kjv_chronicles_households",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    87,
+    88
+  ],
+  "status": "incomplete Bible; checkpoint verified"
+}

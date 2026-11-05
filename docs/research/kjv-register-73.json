@@ -1,0 +1,415 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.73",
+    "parentVersion": "0.10-kjv.72",
+    "parentHead": "fbbde70d3e89010cc1fee1ea4db793eff7b907e457e0d7feb3a9973c34b5c5c4",
+    "head": "178c5f284b0607c1e68c92740d67607cc46aff06ed5edb7f55e7aedad5fd6934",
+    "newLexicalEntries": 13,
+    "newProperEntries": 10,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 9,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 47,
+    "exactCompilerCases": 47,
+    "newAuthoredVerses": 47,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 612,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20908,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 47,
+    "kings2Verses": 612,
+    "authoredVerses": 10194,
+    "remainingVerses": 20908,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 10,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 20:5",
+        "source": "Turn again, and tell Hezekiah the captain of my people, Thus saith the LORD, the God of David thy father, I have heard thy prayer, I have seen thy tears: behold, I will heal thee: on the third day thou shalt go up unto the house of the LORD.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 20:6",
+        "source": "And I will add unto thy days fifteen years; and I will deliver thee and this city out of the hand of the king of Assyria; and I will defend this city for mine own sake, and for my servant David’s sake.",
+        "expectedDecimalQuantities": [
+          15
+        ],
+        "targetQuantities": [
+          15
+        ]
+      },
+      {
+        "reference": "2 Kings 20:8",
+        "source": "And Hezekiah said unto Isaiah, What shall be the sign that the LORD will heal me, and that I shall go up into the house of the LORD the third day?",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 20:9",
+        "source": "And Isaiah said, This sign shalt thou have of the LORD, that the LORD will do the thing that he hath spoken: shall the shadow go forward ten degrees, or go back ten degrees?",
+        "expectedDecimalQuantities": [
+          10,
+          10
+        ],
+        "targetQuantities": [
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "2 Kings 20:10",
+        "source": "And Hezekiah answered, It is a light thing for the shadow to go down ten degrees: nay, but let the shadow return backward ten degrees.",
+        "expectedDecimalQuantities": [
+          10,
+          10
+        ],
+        "targetQuantities": [
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "2 Kings 20:11",
+        "source": "And Isaiah the prophet cried unto the LORD: and he brought the shadow ten degrees backward, by which it had gone down in the dial of Ahaz.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "2 Kings 21:1",
+        "source": "Manasseh was twelve years old when he began to reign, and reigned fifty and five years in Jerusalem. And his mother’s name was Hephzibah.",
+        "expectedDecimalQuantities": [
+          12,
+          55
+        ],
+        "targetQuantities": [
+          12,
+          55
+        ]
+      },
+      {
+        "reference": "2 Kings 21:5",
+        "source": "And he built altars for all the host of heaven in the two courts of the house of the LORD.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 21:16",
+        "source": "Moreover Manasseh shed innocent blood very much, till he had filled Jerusalem from one end to another; beside his sin wherewith he made Judah to sin, in doing that which was evil in the sight of the LORD.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 21:19",
+        "source": "Amon was twenty and two years old when he began to reign, and he reigned two years in Jerusalem. And his mother’s name was Meshullemeth, the daughter of Haruz of Jotbah.",
+        "expectedDecimalQuantities": [
+          22,
+          2
+        ],
+        "targetQuantities": [
+          22,
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "20:1": [
+        "sick to death",
+        "thy/house:a in order set:imp",
+        "die:fu and live:fu not"
+      ],
+      "20:2": [
+        "his/face:a to wall",
+        "to kjv_lord pray:pa"
+      ],
+      "20:3": [
+        "i thou:a beseech:pr",
+        "perfect heart i walk:perf",
+        "greatly weep:pa"
+      ],
+      "20:4": [
+        "before kjv_isaiah",
+        "middle kjv_court_enclosure"
+      ],
+      "20:5": [
+        "captain of mypl/people",
+        "ipl hear:perf",
+        "thy/tear:pl:a ipl see:perf",
+        "kjv_three:ord day"
+      ],
+      "20:6": [
+        "fifteen year:pl:a",
+        "ipl defence:fu",
+        "mypl/servant kjv_david"
+      ],
+      "20:7": [
+        "lump of fig:pl",
+        "kjv_boil_lesion",
+        "he recover:pa"
+      ],
+      "20:8": [
+        "i:a kjv_lord heal:fu",
+        "kjv_three:ord day i go:fu"
+      ],
+      "20:9": [
+        "ten kjv_shadow_degree:pl go:fu forward",
+        "or ten kjv_shadow_degree:pl go:fu back"
+      ],
+      "20:10": [
+        "easy thing",
+        "ten kjv_shadow_degree:pl backward"
+      ],
+      "20:11": [
+        "ten kjv_shadow_degree:pl backward",
+        "dial of kjv_ahaz_jotham"
+      ],
+      "20:12": [
+        "kjv_berodachbaladan son of kjv_baladan",
+        "letter:pl and gift:a"
+      ],
+      "20:13": [
+        "precious kjv_ointment",
+        "house of his/kjv_armour",
+        "nothing in his/house"
+      ],
+      "20:14": [
+        "what:a these men say:pa",
+        "from far country even from kjv_babylon"
+      ],
+      "20:15": [
+        "mypl/house",
+        "mypl/treasure:pl",
+        "ipl show:perf not"
+      ],
+      "20:16": [
+        "word of kjv_lord:a hear:imp"
+      ],
+      "20:17": [
+        "thy/father:pl in store",
+        "into kjv_babylon carry:psv:fu",
+        "nothing remain:fu"
+      ],
+      "20:18": [
+        "thy/son:pl",
+        "whom thou beget:fu",
+        "eunuch:pl"
+      ],
+      "20:19": [
+        "good be:pr",
+        "peace and truth in my/day:pl"
+      ],
+      "20:20": [
+        "kjv_pool and kjv_conduit",
+        "water:a into city"
+      ],
+      "20:21": [
+        "his/son kjv_manasseh_hezekiah"
+      ],
+      "21:1": [
+        "twelve year:pl",
+        "fifty and five year:pl",
+        "kjv_hephzibah"
+      ],
+      "21:2": [
+        "kjv_abomination:pl of kjv_heathen"
+      ],
+      "21:3": [
+        "again he build:pa",
+        "his/father kjv_hezekiah_ahaz",
+        "all army of heaven"
+      ],
+      "21:4": [
+        "mypl/name:a ipl put:fu"
+      ],
+      "21:5": [
+        "two kjv_court_enclosure:pl"
+      ],
+      "21:6": [
+        "his/son:a through fire",
+        "kjv_observe_times:pa",
+        "kjv_familiar_spirit:pl and kjv_wizard:pl"
+      ],
+      "21:7": [
+        "kjv_graven image of grove",
+        "ipl choose:perf",
+        "mypl/name:a ipl put:fu forever"
+      ],
+      "21:8": [
+        "foot:pl of kjv_israel:a",
+        "ipl move:caus:fu",
+        "only if",
+        "mypl/servant kjv_moses"
+      ],
+      "21:9": [
+        "more evil:a do:inf",
+        "kjv_manasseh_hezekiah they:a seduce:pa"
+      ],
+      "21:10": [
+        "by his/servant:pl prophet:pl"
+      ],
+      "21:11": [
+        "kjv_amorite:pl",
+        "kjv_judah:a with his/idol:pl sin:caus:perf"
+      ],
+      "21:12": [
+        "ipl bring:cv be:pr",
+        "both his/ear:pl kjv_tingle:fu"
+      ],
+      "21:13": [
+        "line of kjv_samaria",
+        "kjv_plummet of house of kjv_ahab",
+        "kjv_dish:a kjv_wipe:pr",
+        "with its/top down"
+      ],
+      "21:14": [
+        "remainder of mypl/inheritance:a",
+        "prey and spoil"
+      ],
+      "21:15": [
+        "mypl/sight",
+        "ipl:a to anger",
+        "out of egypt"
+      ],
+      "21:16": [
+        "innocent blood:a",
+        "from one_num end to another",
+        "kjv_judah:a sin:caus:pa"
+      ],
+      "21:17": [
+        "his/sin that he sin:pa",
+        "chronicle:pl"
+      ],
+      "21:18": [
+        "kjv_garden of his/own house",
+        "kjv_uzza_garden",
+        "kjv_amon_manasseh"
+      ],
+      "21:19": [
+        "twenty and two year:pl",
+        "two year:pl he rule:pa",
+        "kjv_meshullemeth daughter of kjv_haruz of kjv_jotbah"
+      ],
+      "21:20": [
+        "his/father kjv_manasseh_hezekiah"
+      ],
+      "21:21": [
+        "his/father serve:pa",
+        "they:a worship:pa"
+      ],
+      "21:22": [
+        "god of his/father:pl",
+        "walk:pa not"
+      ],
+      "21:23": [
+        "servant:pl of kjv_amon_manasseh",
+        "his/own house slay:pa"
+      ],
+      "21:24": [
+        "people of land all they:a slay:pa",
+        "his/son kjv_josiah_amon:a king"
+      ],
+      "21:25": [
+        "act:pl of kjv_amon_manasseh"
+      ],
+      "21:26": [
+        "his/tomb",
+        "kjv_garden of kjv_uzza_garden",
+        "kjv_josiah_amon"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Third-day ascent and fifteen-year addition are distinct.",
+      "Each ten-division shadow movement remains exact without angular or time-unit assumptions.",
+      "Age12/reign55,age22/reign2,two physical courts and one end have independent referents."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Personal sickbed prayer, representative royal possession and divine plural-I remain distinct; death prediction/reversal, conditional land promise and bodily measurement metaphors stay unharmonized.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 496,
+    "spreads": 248,
+    "units": 612,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "fbef399e49931c88eb5c6e7bd7756d7bab9f82561c3743d4437d2b43f233faf6",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 248,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 992,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 13.286,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_illness_inheritance",
+      "tests.test_kjv_kings_siege_voices",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      495,
+      496
+    ],
+    "observations": "Viewed final illness/inheritance spread; corresponding paragraph starts, approved Maxima and four column styles, margins and Unta retained."
+  },
+  "status": "incomplete whole Bible"
+}

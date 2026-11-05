@@ -1,0 +1,719 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.145",
+    "parentVersion": "0.10-kjv.144",
+    "parentHead": "4109013a84ff14b14c038b6a06bf78bc4102164c1f61a7ff1a049011d911704d",
+    "head": "661303e535643fd3266ba7df2283603b744e0a70634ae3ce0be9a0d719a40060",
+    "newLexicalEntries": 1,
+    "newProperEntries": 0,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 1,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 91,
+    "exactCompilerCases": 91,
+    "newAuthoredVerses": 91,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 411,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 11696,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 91,
+    "jeremiahVerses": 411,
+    "authoredVerses": 19406,
+    "remainingVerses": 11696,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 13:3",
+        "source": "And the word of the LORD came unto me the second time, saying,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 13:27",
+        "source": "I have seen thine adulteries, and thy neighings, the lewdness of thy whoredom, and thine abominations on the hills in the fields. Woe unto thee, O Jerusalem! wilt thou not be made clean? when shall it once be?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 15:3",
+        "source": "And I will appoint over them four kinds, saith the LORD: the sword to slay, and the dogs to tear, and the fowls of the heaven, and the beasts of the earth, to devour and destroy.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Jeremiah 15:9",
+        "source": "She that hath borne seven languisheth: she hath given up the ghost; her sun is gone down while it was yet day: she hath been ashamed and confounded: and the residue of them will I deliver to the sword before their enemies, saith the LORD.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Jeremiah 16:18",
+        "source": "And first I will recompense their iniquity and their sin double; because they have defiled my land, they have filled mine inheritance with the carcases of their detestable and abominable things.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 16:21",
+        "source": "Therefore, behold, I will this once cause them to know, I will cause them to know mine hand and my might; and they shall know that my name is The LORD.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "linen kjv_girdle:a",
+        "upon thy/kjv_loins",
+        "in water put:neg:imp"
+      ],
+      "13:2": [
+        "i kjv_girdle:a",
+        "on my/kjv_loins put:pa"
+      ],
+      "13:3": [
+        "second time"
+      ],
+      "13:4": [
+        "kjv_euphrates",
+        "in hole of rock hide:imp"
+      ],
+      "13:5": [
+        "i go:pa",
+        "by kjv_euphrates hide:pa"
+      ],
+      "13:6": [
+        "after many day:pl",
+        "ipl thee:a there hide:inf command:pa"
+      ],
+      "13:7": [
+        "kjv_dig:pa",
+        "kjv_girdle mar:psv:pa",
+        "for nothing profitable"
+      ],
+      "13:8": [
+        "word of kjv_lord to i"
+      ],
+      "13:9": [
+        "ipl pride:a of kjv_judah",
+        "great pride:a of kjv_jerusalem"
+      ],
+      "13:10": [
+        "mypl/word:pl:a hear:inf refuse:pr",
+        "imagination of their/heart",
+        "good be:pr"
+      ],
+      "13:11": [
+        "kjv_cleave_adhere:caus:perf",
+        "for people and for name and for praise and for glory",
+        "hear:neg:pa"
+      ],
+      "13:12": [
+        "every kjv_bottle",
+        "wesg surely",
+        "know:neg:pr"
+      ],
+      "13:13": [
+        "kjv_david/throne",
+        "priest:pl:a and kjv_prophet:pl:a",
+        "with drunkenness fill:fu"
+      ],
+      "13:14": [
+        "each against other",
+        "father:pl and son:pl together",
+        "pity:a have:neg:fu",
+        "spare:neg:fu",
+        "mercy:a have:neg:fu"
+      ],
+      "13:15": [
+        "ear:a give:imp",
+        "proud be:neg:imp"
+      ],
+      "13:16": [
+        "dark mountain:pl",
+        "shadow of death",
+        "gross darkness"
+      ],
+      "13:17": [
+        "my/soul",
+        "my/eye",
+        "with tear:pl",
+        "away captive carry:psv:pr"
+      ],
+      "13:18": [
+        "king and to queen",
+        "your/principal authority:pl",
+        "crown of your/glory"
+      ],
+      "13:19": [
+        "city:pl of kjv_south",
+        "no human",
+        "entirely away captive"
+      ],
+      "13:20": [
+        "your/eye:pl",
+        "from kjv_north",
+        "thy/beautiful flock"
+      ],
+      "13:21": [
+        "captain:pl and as chief over thee",
+        "woman in kjv_travail"
+      ],
+      "13:22": [
+        "upon ipl",
+        "thy/kjv_skirt_garment:pl kjv_uncover:psv:pr",
+        "thy/heel:pl bare"
+      ],
+      "13:23": [
+        "kjv_ethiopian his/skin:a",
+        "leopard his/spot:pl",
+        "evil:a do:inf kjv_accustomed"
+      ],
+      "13:24": [
+        "ipl they:a scatter:fu",
+        "kjv_stubble",
+        "wind of kjv_wilderness"
+      ],
+      "13:25": [
+        "thy/kjv_lot_portion",
+        "kjv_portion_share of thy/measure:pl",
+        "ipl:a forget:perf"
+      ],
+      "13:26": [
+        "upon thy/face kjv_uncover:fu",
+        "thy/shame appear:may"
+      ],
+      "13:27": [
+        "thy/neigh:ev:pl:a",
+        "kjv_lewdness",
+        "when it once be:fu"
+      ],
+      "14:1": [
+        "kjv_jeremiah_prophet",
+        "kjv_dearth"
+      ],
+      "14:2": [
+        "its/gate:pl languish:pr",
+        "black to ground",
+        "cry of kjv_jerusalem"
+      ],
+      "14:3": [
+        "their/little human:pl:a",
+        "no water:a",
+        "vessel:pl empty",
+        "head:pl:a cover:pa"
+      ],
+      "14:4": [
+        "ground crack:psv:pr",
+        "no rain",
+        "plough:ag human:pl"
+      ],
+      "14:5": [
+        "hind",
+        "child:a bear:pa",
+        "it:a forsake:pa",
+        "no grass"
+      ],
+      "14:6": [
+        "wild ass:pl",
+        "wind:a smell:pa",
+        "kjv_dragon_creature:pl",
+        "eye:pl fail:pa"
+      ],
+      "14:7": [
+        "ourone/kjv_iniquity:pl against wesg",
+        "ourone/kjv_backslide:ev:pl many",
+        "wesg against thee sin:perf"
+      ],
+      "14:8": [
+        "as stranger in land",
+        "travel:ag human",
+        "for night tarry:inf"
+      ],
+      "14:9": [
+        "save:neg:can",
+        "middle of wesg",
+        "wesg:a leave:neg:imp"
+      ],
+      "14:10": [
+        "wander:inf love:perf",
+        "foot:pl:a restrain:neg:perf",
+        "accept:neg:pr"
+      ],
+      "14:11": [
+        "for their/good pray:neg:imp"
+      ],
+      "14:12": [
+        "cry:a hear:neg:fu",
+        "kjv_burnt_sacrifice:a",
+        "accept:neg:fu",
+        "kjv_pestilence consume:fu"
+      ],
+      "14:13": [
+        "then i say:pa",
+        "kjv_prophet:pl to they say:pr",
+        "ipl to you assure:psv:adj peace:a give:fu"
+      ],
+      "14:14": [
+        "in mypl/name",
+        "send:neg:pa",
+        "command:neg:perf",
+        "speak:neg:pa",
+        "kjv_divine:ev:a"
+      ],
+      "14:15": [
+        "sword and kjv_famine in this land be:neg:fu",
+        "by sword and kjv_famine those kjv_prophet:pl consume:psv:fu"
+      ],
+      "14:16": [
+        "no human:a to they:a bury:inf",
+        "their/wife:pl nor their/son:pl nor their/daughter:pl",
+        "their/wicked:ev:a upon they pour:fu"
+      ],
+      "14:17": [
+        "my/eye:pl with tear:pl",
+        "cease:neg:opt",
+        "virgin daughter of my/people"
+      ],
+      "14:18": [
+        "if i into field",
+        "both kjv_prophet and priest",
+        "they know:neg:pr"
+      ],
+      "14:19": [
+        "thy/soul kjv_zion:a loathe:perf",
+        "thou wesg:a strike:perf",
+        "no heal:ev for wesg",
+        "behold distress:excl"
+      ],
+      "14:20": [
+        "ourone/wicked:ev:a",
+        "ourone/father:pl",
+        "wesg against thee sin:perf"
+      ],
+      "14:21": [
+        "kjv_abhor:neg:imp",
+        "disgrace:neg:imp",
+        "thy/kjv_covenant:a with wesg break:neg:imp"
+      ],
+      "14:22": [
+        "vanity:pl of kjv_gentile:pl",
+        "ourone/god",
+        "wesg upon thee wait:fu"
+      ],
+      "15:1": [
+        "kjv_moses and kjv_samuel before ipl",
+        "mypl/mind",
+        "be:neg:can",
+        "mypl/sight"
+      ],
+      "15:2": [
+        "where wesg forth go:fu",
+        "to death",
+        "to sword",
+        "to kjv_famine",
+        "to captive:ev"
+      ],
+      "15:3": [
+        "four kind:pl:a",
+        "dog:pl to rend:inf",
+        "bird:pl of heaven and beast:pl of earth"
+      ],
+      "15:4": [
+        "kjv_manasseh_hezekiah son of kjv_hezekiah_ahaz",
+        "remove:psv:caus:fu"
+      ],
+      "15:5": [
+        "who upon thee pity:a",
+        "who thee:a lament:fu",
+        "how thou do:pr"
+      ],
+      "15:6": [
+        "ipl mypl/hand:a",
+        "ipl with repent:ev weary"
+      ],
+      "15:7": [
+        "with kjv_winnowing_fan",
+        "of child:pl kjv_bereave:fu",
+        "return:neg:pr"
+      ],
+      "15:8": [
+        "against mother of young man:pl",
+        "at noon",
+        "upon it suddenly fall:caus:perf"
+      ],
+      "15:9": [
+        "seven:a bear:perf",
+        "spirit:a up give:perf",
+        "while it still day",
+        "ipl to sword"
+      ],
+      "15:10": [
+        "my/mother",
+        "on kjv_usury lend:neg:perf",
+        "each of they i:a curse:pr"
+      ],
+      "15:11": [
+        "thy/remain:adj part",
+        "enemy:a thee:a well entreat:inf cause:fu"
+      ],
+      "15:12": [
+        "iron kjv_north:adj iron:a and steel:a"
+      ],
+      "15:13": [
+        "without price",
+        "all thy/sin:pl",
+        "all thy/boundary:pl"
+      ],
+      "15:14": [
+        "with thy/enemy:pl",
+        "mypl/anger kjv_kindle_fire:psv:pr",
+        "upon you burn:fu"
+      ],
+      "15:15": [
+        "my/persecute:ag:pl",
+        "thy/kjv_longsuffering",
+        "rebuke:a suffer:perf"
+      ],
+      "15:16": [
+        "i they:a eat:pa",
+        "rejoice:ev of my/heart",
+        "god of army:pl"
+      ],
+      "15:17": [
+        "sit:neg:pa nor rejoice:neg:pa",
+        "i alone sit:pa",
+        "with indignation"
+      ],
+      "15:18": [
+        "my/wound incurable",
+        "as kjv_lie_false:ag",
+        "as water:pl which fail:pr"
+      ],
+      "15:19": [
+        "precious:a from vile",
+        "as mypl/mouth",
+        "they to thee return:opt",
+        "thou to they return:neg:imp"
+      ],
+      "15:20": [
+        "fortify:psv:adj kjv_brass wall",
+        "prevail:neg:fu",
+        "ipl with thee"
+      ],
+      "15:21": [
+        "wicked human:pl",
+        "terrible human:pl redeem:fu"
+      ],
+      "16:1": [
+        "word of kjv_lord also to i"
+      ],
+      "16:2": [
+        "wife:a take:neg:fu",
+        "in this place have:neg:fu"
+      ],
+      "16:3": [
+        "bear:psv:pr",
+        "mother:pl who they:a bear:pa",
+        "father:pl who they:a beget:pa"
+      ],
+      "16:4": [
+        "lament:psv:neg:fu",
+        "bury:psv:neg:fu",
+        "as kjv_dung",
+        "carcass:pl food"
+      ],
+      "16:5": [
+        "enter:neg:imp",
+        "go:neg:imp",
+        "mypl/peace:a",
+        "kjv_lovingkindness and mercy:pl"
+      ],
+      "16:6": [
+        "great and small",
+        "bury:psv:neg:fu",
+        "cut:neg:fu",
+        "kjv_bald make:neg:fu"
+      ],
+      "16:7": [
+        "themselves:a for they in mourn:ev rend:neg:fu",
+        "cup:a of comfort:ev",
+        "their/father or for their/mother"
+      ],
+      "16:8": [
+        "house of feast:ev go:neg:fu",
+        "eat:inf and drink:inf"
+      ],
+      "16:9": [
+        "in your/eye:pl and in your/day:pl",
+        "voice:a of kjv_bridegroom",
+        "cease:caus:fu"
+      ],
+      "16:10": [
+        "against wesg",
+        "ourone/kjv_iniquity",
+        "ourone/god commit:perf"
+      ],
+      "16:11": [
+        "ipl:a forsake:perf",
+        "mypl/law:a keep:neg:perf"
+      ],
+      "16:12": [
+        "each after imagination of his/evil heart",
+        "they to ipl listen:neg:may"
+      ],
+      "16:13": [
+        "other god:pl:a day and night serve:fu",
+        "favour show:neg:fu"
+      ],
+      "16:14": [
+        "no more say:psv:fu",
+        "out of land of egypt"
+      ],
+      "16:15": [
+        "from land of kjv_north",
+        "he they:a drive:pp",
+        "ipl they:a again"
+      ],
+      "16:16": [
+        "fish:ag:pl",
+        "they they:a fish:fu",
+        "hunter:pl",
+        "hole:pl of rock:pl"
+      ],
+      "16:17": [
+        "mypl/eye:pl",
+        "mypl/face hide:psv:neg:pr",
+        "mypl/eye:pl hide:psv:neg:pr"
+      ],
+      "16:18": [
+        "first ipl",
+        "double recompense:fu",
+        "mypl/inheritance:a with carcass:pl"
+      ],
+      "16:19": [
+        "my/kjv_refuge",
+        "ourone/father:pl",
+        "kjv_lie_false:ev:pl:a vanity:a",
+        "no benefit"
+      ],
+      "16:20": [
+        "human for himself god:pl:a",
+        "god:pl be:neg:pr"
+      ],
+      "16:21": [
+        "at this once",
+        "mypl/hand:a and mypl/might:a",
+        "mypl/name kjv_lord"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "13:1",
+        "13:2",
+        "13:3",
+        "13:5",
+        "13:6",
+        "13:7",
+        "13:8",
+        "14:11",
+        "14:13",
+        "14:14",
+        "14:18",
+        "15:1",
+        "15:10",
+        "15:15",
+        "15:16",
+        "15:17",
+        "15:18",
+        "16:1"
+      ],
+      "ipl": [
+        "13:11",
+        "13:13",
+        "13:14",
+        "13:22",
+        "13:24",
+        "13:25",
+        "13:26",
+        "13:27",
+        "13:6",
+        "13:9",
+        "14:12",
+        "14:13",
+        "14:14",
+        "14:15",
+        "14:16",
+        "15:1",
+        "15:11",
+        "15:13",
+        "15:14",
+        "15:19",
+        "15:20",
+        "15:21",
+        "15:3",
+        "15:4",
+        "15:6",
+        "15:7",
+        "15:8",
+        "15:9",
+        "16:11",
+        "16:12",
+        "16:13",
+        "16:15",
+        "16:16",
+        "16:18",
+        "16:21",
+        "16:5",
+        "16:9"
+      ],
+      "wesg": [
+        "13:12",
+        "14:19",
+        "14:20",
+        "14:21",
+        "14:22",
+        "14:7",
+        "14:9",
+        "15:2",
+        "16:10"
+      ],
+      "wepl": [],
+      "mypl": [
+        "13:10",
+        "14:14",
+        "14:15",
+        "15:1",
+        "15:14",
+        "15:19",
+        "15:6",
+        "15:7",
+        "16:11",
+        "16:17",
+        "16:18",
+        "16:21",
+        "16:5"
+      ],
+      "ourone": [
+        "14:20",
+        "14:22",
+        "14:7",
+        "16:10",
+        "16:19"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Second13:3,once13:27,four15:3,seven15:9,first/double16:18 and once16:21 retained.",
+      "Each,reciprocal each-against-other and both offices do not invent cardinal counts."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah13–16 adds91 verses,total411;whole Bible incomplete.",
+      "Personal messenger,civic self,quoted divine claims and communal confessions distinguished.",
+      "Commissioned lament14:17 has a documented alternative speaker reading.",
+      "One common sense added;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 324,
+    "spreads": 162,
+    "units": 411,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "93a349fdbef4f9c329a3479991865c134109b09b94bea340795794734af24cea",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 162,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.418,
+    "modules": [
+      "tests.test_kjv_jeremiah_contested_promises",
+      "tests.test_kjv_jeremiah_lamenting_selves",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    323,
+    324
+  ],
+  "status": "incomplete Bible;Jeremiah1–16 section checkpoint verified"
+}

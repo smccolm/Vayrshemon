@@ -1,0 +1,698 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.242",
+    "parentVersion": "0.10-kjv.241",
+    "parentHead": "03a5d6c68d703f336003bab7bcebe9f6852c23c23c96bac79603fdef37a69f72",
+    "head": "31bd7ac0fc3ac24418587a7d0ba7a697036006672be1ba91da15201c831adf3c",
+    "newLexicalEntries": 8,
+    "newProperEntries": 3,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 82,
+    "exactCompilerCases": 82,
+    "newAuthoredVerses": 82,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2301,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newCorinthians1Verses": 82,
+    "corinthians1Verses": 437,
+    "authoredVerses": 28801,
+    "remainingVerses": 2301,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 8,
+    "quantityChecks": [
+      {
+        "reference": "1 Corinthians 15:3",
+        "source": "For I delivered unto you first of all that which I also received, how that Christ died for our sins according to the scriptures;",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 15:4",
+        "source": "And that he was buried, and that he rose again the third day according to the scriptures:",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "1 Corinthians 15:5",
+        "source": "And that he was seen of Cephas, then of the twelve:",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "1 Corinthians 15:6",
+        "source": "After that, he was seen of above five hundred brethren at once; of whom the greater part remain unto this present, but some are fallen asleep.",
+        "expectedDecimalQuantities": [
+          500
+        ],
+        "targetQuantities": [
+          500
+        ]
+      },
+      {
+        "reference": "1 Corinthians 15:45",
+        "source": "And so it is written, The first man Adam was made a living soul; the last Adam was made a quickening spirit.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 15:46",
+        "source": "Howbeit that was not first which is spiritual, but that which is natural; and afterward that which is spiritual.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 15:47",
+        "source": "The first man is of the earth, earthy; the second man is the Lord from heaven.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "1 Corinthians 16:2",
+        "source": "Upon the first day of the week let every one of you lay by him in store, as God hath prospered him, that there be no gatherings when I come.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "15:1": [
+        "kjv_gospel which i to you proclaim",
+        "you receive:perf",
+        "in which you stand"
+      ],
+      "15:2": [
+        "save:psv:pr if",
+        "in memory keep",
+        "unless you in vain believe"
+      ],
+      "15:3": [
+        "first of all",
+        "i also receive",
+        "for ourone/sin:pl die",
+        "according_to sacred writing:pl"
+      ],
+      "15:4": [
+        "bury:psv",
+        "third day again rise",
+        "according_to sacred writing:pl"
+      ],
+      "15:5": [
+        "by kjv_cephas_john",
+        "then by twelve"
+      ],
+      "15:6": [
+        "above three+twelve+twelve and five+twelve and eight",
+        "together",
+        "greater part",
+        "some asleep fall"
+      ],
+      "15:7": [
+        "by kjv_james_resurrection_corinthians",
+        "all kjv_apostle:pl"
+      ],
+      "15:8": [
+        "last of all",
+        "by i also",
+        "kjv_birth_out_due_corinthians"
+      ],
+      "15:9": [
+        "least of kjv_apostle:pl",
+        "fit be:neg",
+        "kjv_church_assembly of god persecute"
+      ],
+      "15:10": [
+        "by grace of god i what i be:pr",
+        "vain be:neg",
+        "than they all",
+        "yet not i",
+        "grace of god which with i"
+      ],
+      "15:11": [
+        "whether i or they",
+        "wesg proclaim",
+        "you believe"
+      ],
+      "15:12": [
+        "from dead:pl rise",
+        "some among you",
+        "no kjv_resurrection of dead:pl"
+      ],
+      "15:13": [
+        "if no kjv_resurrection",
+        "kjv_christ_title rise:neg"
+      ],
+      "15:14": [
+        "if kjv_christ_title rise:neg",
+        "ourone/proclaim:ev vain",
+        "your/faith also vain"
+      ],
+      "15:15": [
+        "wesg false witness",
+        "wesg of god",
+        "kjv_christ_title raise:pa",
+        "he raise:neg:pa if",
+        "dead:pl rise:neg"
+      ],
+      "15:16": [
+        "if dead:pl rise:neg",
+        "kjv_christ_title raise:psv:neg"
+      ],
+      "15:17": [
+        "if kjv_christ_title raise:psv:neg",
+        "your/faith vain",
+        "yet in your/sin:pl"
+      ],
+      "15:18": [
+        "then",
+        "in kjv_christ_title asleep",
+        "perish:perf"
+      ],
+      "15:19": [
+        "if in this life only",
+        "wesg in kjv_christ_title hope",
+        "most miserable"
+      ],
+      "15:20": [
+        "but now",
+        "from dead:pl rise:perf",
+        "kjv_firstfruits"
+      ],
+      "15:21": [
+        "by man death",
+        "by man also kjv_resurrection"
+      ],
+      "15:22": [
+        "in kjv_adam all die",
+        "in kjv_christ_title all alive make:psv"
+      ],
+      "15:23": [
+        "each man in his/own arrange:ev",
+        "kjv_firstfruits afterward",
+        "at his/come:ev"
+      ],
+      "15:24": [
+        "kingdom to god even father",
+        "all rule:ev and all authority and power"
+      ],
+      "15:25": [
+        "rule:must until",
+        "all enemy:pl under his/foot:pl"
+      ],
+      "15:26": [
+        "last enemy",
+        "death be:pr"
+      ],
+      "15:27": [
+        "all thing:pl under his/foot:pl",
+        "he who all thing:pl under he put:pa except:psv"
+      ],
+      "15:28": [
+        "son also himself",
+        "kjv_subject_authority_romans:psv:fu",
+        "god all in all be:may"
+      ],
+      "15:29": [
+        "for dead:pl kjv_baptize",
+        "dead:pl at all rise:neg",
+        "why then for dead:pl"
+      ],
+      "15:30": [
+        "wesg every hour in danger"
+      ],
+      "15:31": [
+        "by your/rejoice:ev",
+        "ourone/lord",
+        "kjv_protest_affirm_corinthians",
+        "i daily die"
+      ],
+      "15:32": [
+        "manner of man:pl",
+        "with beast:pl at kjv_ephesus_acts",
+        "if dead:pl rise:neg",
+        "wesg eat:opt and drink:opt",
+        "tomorrow wesg die"
+      ],
+      "15:33": [
+        "deceive:psv:neg",
+        "kjv_communications_corinthians:pl",
+        "good behaviour:pl corrupt"
+      ],
+      "15:34": [
+        "kjv_righteousness awake",
+        "sin:neg",
+        "some knowledge of god have:neg",
+        "i this to your/shame"
+      ],
+      "15:35": [
+        "how dead:pl raise",
+        "with what body"
+      ],
+      "15:36": [
+        "thou fool be:pr:excl",
+        "quicken:psv:neg",
+        "except it die"
+      ],
+      "15:37": [
+        "body which be:fu kjv_sow:neg",
+        "bare corn",
+        "wheat or of some other corn"
+      ],
+      "15:38": [
+        "god to it body give",
+        "as to he pleasing",
+        "each seed its/own body"
+      ],
+      "15:39": [
+        "all flesh same flesh be:neg",
+        "man:pl",
+        "beast:pl",
+        "fish:pl",
+        "bird:pl"
+      ],
+      "15:40": [
+        "heavenly body:pl and earth:adj body:pl",
+        "glory of heavenly different",
+        "glory of earth:adj another"
+      ],
+      "15:41": [
+        "sun glory different",
+        "moon glory another",
+        "star:pl glory another",
+        "star from another star in glory different"
+      ],
+      "15:42": [
+        "kjv_corrupt_decay:ev kjv_sow:psv",
+        "kjv_corrupt_decay:neg:ev raise:psv"
+      ],
+      "15:43": [
+        "dishonour kjv_sow",
+        "glory raise",
+        "weakness kjv_sow",
+        "power raise"
+      ],
+      "15:44": [
+        "natural body kjv_sow",
+        "spirit:adj body raise",
+        "natural body be",
+        "spirit:adj body be"
+      ],
+      "15:45": [
+        "first man kjv_adam live:cv kjv_soul",
+        "last kjv_adam quicken:cv spirit"
+      ],
+      "15:46": [
+        "first be:neg",
+        "natural",
+        "afterward that which spirit:adj"
+      ],
+      "15:47": [
+        "first man of earth earth:adj",
+        "second man kjv_lord from heaven"
+      ],
+      "15:48": [
+        "they who earth:adj",
+        "they who heavenly"
+      ],
+      "15:49": [
+        "wesg image of earth:adj carry:perf",
+        "image of heavenly carry:fu"
+      ],
+      "15:50": [
+        "flesh and blood",
+        "inherit:neg:can",
+        "neither kjv_corrupt_decay:ev kjv_corrupt_decay:neg:ev"
+      ],
+      "15:51": [
+        "i to you mystery",
+        "not all of wesg sleep:fu",
+        "all of wesg change:psv:fu"
+      ],
+      "15:52": [
+        "eye blink:ev",
+        "last trumpet",
+        "trumpet sound:fu",
+        "kjv_corrupt_decay:neg:can:adj",
+        "wesg change:psv"
+      ],
+      "15:53": [
+        "kjv_corrupt_decay:can:adj kjv_corrupt_decay:neg:ev",
+        "mortal immortal:ev",
+        "put:must"
+      ],
+      "15:54": [
+        "kjv_corrupt_decay:neg:ev on put:fp",
+        "mortal immortal:ev on put:fp",
+        "death in win:ev kjv_swallow:psv"
+      ],
+      "15:55": [
+        "oh death thy/sting",
+        "oh grave thy/win:ev"
+      ],
+      "15:56": [
+        "death sting sin",
+        "sin strength law"
+      ],
+      "15:57": [
+        "god",
+        "to wesg win:ev",
+        "through ourone/lord kjv_jesus_matthew kjv_christ_title"
+      ],
+      "15:58": [
+        "kjv_steadfast move:psv:neg:can:adj",
+        "always",
+        "your/labour:ev in kjv_lord vain be:neg"
+      ],
+      "16:1": [
+        "collect:ev for saint:pl",
+        "kjv_galatia_acts command give",
+        "so you do"
+      ],
+      "16:2": [
+        "first day of week",
+        "each of you by himself in store",
+        "as god he:a prosper",
+        "no gather:ev:pl"
+      ],
+      "16:3": [
+        "by your/letter:pl approve",
+        "they:a i send",
+        "your/generosity to kjv_jerusalem"
+      ],
+      "16:4": [
+        "if i also go:inf fit",
+        "they with i"
+      ],
+      "16:5": [
+        "when i through kjv_macedonia_acts pass:fu",
+        "for i through kjv_macedonia_acts pass:pr"
+      ],
+      "16:6": [
+        "perhaps",
+        "winter with you spend",
+        "wherever i go"
+      ],
+      "16:7": [
+        "see:neg:fu",
+        "some time remain",
+        "if kjv_lord permit"
+      ],
+      "16:8": [
+        "kjv_ephesus_acts until kjv_pentecost_acts"
+      ],
+      "16:9": [
+        "great and effect:adj door",
+        "many kjv_adversary:pl"
+      ],
+      "16:10": [
+        "if kjv_timotheus_acts",
+        "without fear",
+        "as i also do"
+      ],
+      "16:11": [
+        "no person he:a despise",
+        "forth in peace lead",
+        "with brother:pl he:a expect"
+      ],
+      "16:12": [
+        "ourone/brother kjv_apollos_acts",
+        "his/will",
+        "at all be:neg",
+        "convenient time"
+      ],
+      "16:13": [
+        "watch:imp",
+        "faith kjv_steadfast:adv stand",
+        "as man:pl act:imp",
+        "strong be:imp"
+      ],
+      "16:14": [
+        "all your/thing:pl",
+        "kjv_charity_love_corinthians"
+      ],
+      "16:15": [
+        "house of kjv_stephanas_corinthians",
+        "kjv_firstfruits of kjv_achaia_acts",
+        "they themselves to saint:pl service give"
+      ],
+      "16:16": [
+        "yourselves to such",
+        "each person who with wesg help",
+        "labour"
+      ],
+      "16:17": [
+        "kjv_stephanas_corinthians and kjv_fortunatus_corinthians and kjv_achaicus_corinthians",
+        "on your/part lack",
+        "they provide"
+      ],
+      "16:18": [
+        "my/spirit and yours kjv_refresh",
+        "acknowledge"
+      ],
+      "16:19": [
+        "kjv_asia_acts",
+        "kjv_aquila_acts and kjv_priscilla_acts they:du",
+        "house of they:du",
+        "with kjv_church_assembly"
+      ],
+      "16:20": [
+        "all brother:pl",
+        "holy kiss each other"
+      ],
+      "16:21": [
+        "i kjv_paul_acts",
+        "my/own hand"
+      ],
+      "16:22": [
+        "love:neg",
+        "kjv_anathema_formula_corinthians kjv_maranatha_formula_corinthians"
+      ],
+      "16:23": [
+        "ourone/lord kjv_jesus_matthew kjv_christ_title",
+        "with you be:opt"
+      ],
+      "16:24": [
+        "my/love with you all",
+        "kjv_christ_title kjv_jesus_matthew",
+        "amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "15:1",
+        "15:10",
+        "15:11",
+        "15:2",
+        "15:3",
+        "15:31",
+        "15:32",
+        "15:34",
+        "15:50",
+        "15:51",
+        "15:8",
+        "15:9",
+        "16:1",
+        "16:10",
+        "16:11",
+        "16:12",
+        "16:15",
+        "16:17",
+        "16:2",
+        "16:21",
+        "16:3",
+        "16:4",
+        "16:5",
+        "16:6",
+        "16:7",
+        "16:8",
+        "16:9"
+      ],
+      "ipl": [],
+      "wesg": [
+        "15:11",
+        "15:15",
+        "15:19",
+        "15:30",
+        "15:32",
+        "15:49",
+        "15:51",
+        "15:52",
+        "15:57",
+        "16:16"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "15:14",
+        "15:3",
+        "15:31",
+        "15:57",
+        "16:12",
+        "16:23"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "16:19"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "1Corinthians16:19"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Above500witnesses retains its lower bound and twelve remains the source designation.",
+      "Third day,first/second man and first weekday are ordinal;one-kind/another and one born are distribution/indefinite descriptions.",
+      "Named Aquila/Priscilla pair and their house use physical dual;the accompanying assembly is outside that pair."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "82new verses;all4371Corinthians;whole Bible incomplete.",
+      "Personal author-I,shared singular-whole we,not-all sleep/all changed and the exception to all-subjected remain explicit.",
+      "Five common entries and three contextual names;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Corinthians — incomplete Bible working text",
+    "pages": 248,
+    "spreads": 124,
+    "units": 437,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "efe641e6208c76b0fe4458d674b4213131cbf6463bc5b488aff6d8878c3f8a0f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 124,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.852,
+    "modules": [
+      "tests.test_kjv_corinthians_resurrection_parting",
+      "tests.test_kjv_corinthians_members_love_speech",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    247,
+    248
+  ],
+  "status": "incomplete Bible;1 Corinthians1–16 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 247,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv242\\preflight-corinthians1\\Proofs\\page-247.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv242\\composed-corinthians1\\Proofs\\page-247.png",
+        "sha256": "573a52a2d5edeff57746cdd2ef5c9fc9cf33c7c4d2db11a450fd5f499688c5e5",
+        "bytesIdentical": true
+      },
+      {
+        "page": 248,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv242\\preflight-corinthians1\\Proofs\\page-248.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv242\\composed-corinthians1\\Proofs\\page-248.png",
+        "sha256": "1afd93421bb9279414d084ed086f712a5d08d7f637f5885ddf2cb8acef8e91a5",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

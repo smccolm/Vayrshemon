@@ -1,0 +1,604 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.245",
+    "parentVersion": "0.10-kjv.244",
+    "parentHead": "f315ad31cc8bc1dca9ff43cfc4e0ae750f0496c08be895f7a5dfec6e8d844c5c",
+    "head": "28854fc1acfc9fd91a71f17bd4099ced9e4ed560f40254e3bd912742dd4ce334",
+    "newLexicalEntries": 6,
+    "newProperEntries": 1,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 66,
+    "exactCompilerCases": 66,
+    "newAuthoredVerses": 66,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 222,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2079,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newCorinthians2Verses": 66,
+    "corinthians2Verses": 222,
+    "authoredVerses": 29023,
+    "remainingVerses": 2079,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "2 Corinthians 11:2",
+        "source": "For I am jealous over you with godly jealousy: for I have espoused you to one husband, that I may present you as a chaste virgin to Christ.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Corinthians 11:24",
+        "source": "Of the Jews five times received I forty stripes save one.",
+        "expectedDecimalQuantities": [
+          5,
+          40,
+          1
+        ],
+        "targetQuantities": [
+          5,
+          40,
+          1
+        ]
+      },
+      {
+        "reference": "2 Corinthians 11:25",
+        "source": "Thrice was I beaten with rods, once was I stoned, thrice I suffered shipwreck, a night and a day I have been in the deep;",
+        "expectedDecimalQuantities": [
+          3,
+          1,
+          3,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          3,
+          1,
+          3,
+          1,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "9:1": [
+        "saint:pl serve:ev",
+        "more than need"
+      ],
+      "9:2": [
+        "kjv_forward_eager_corinthians:ev",
+        "kjv_achaia_acts year ago ready",
+        "your/kjv_zeal very many"
+      ],
+      "9:3": [
+        "i brother:pl send:perf",
+        "ourone/boast:ev of you",
+        "as i say:pa you ready"
+      ],
+      "9:4": [
+        "if kjv_macedonia_acts person:pl with i",
+        "wesg that wesg you say:neg:pr",
+        "shame:adj be:should"
+      ],
+      "9:5": [
+        "before to you go:should",
+        "of which you before inform:psv:pa",
+        "as kjv_bounty and not as kjv_covetousness"
+      ],
+      "9:6": [
+        "little:adv kjv_sow:pr",
+        "little:adv reap:fu",
+        "generous:adv kjv_sow:pr",
+        "generous:adv reap:fu"
+      ],
+      "9:7": [
+        "each man",
+        "his/heart purpose:pr",
+        "not unwillingly nor of necessity",
+        "cheer:adj give:ag"
+      ],
+      "9:8": [
+        "all grace",
+        "always all enough:ev in all thing:pl",
+        "each good work"
+      ],
+      "9:9": [
+        "wide:adv disperse:perf",
+        "to poor:pl give:perf",
+        "his/kjv_righteousness for ever"
+      ],
+      "9:10": [
+        "seed to kjv_sow:ag",
+        "bread provide:opt",
+        "seed kjv_multiply:caus:opt",
+        "kjv_righteousness fruit:pl increase:opt"
+      ],
+      "9:11": [
+        "all generous:ev",
+        "through wesg thanks give:ev"
+      ],
+      "9:12": [
+        "not only saint:pl lack",
+        "many thanks give:ev:pl to god"
+      ],
+      "9:13": [
+        "this service proof",
+        "profess:psv:adj kjv_subject_authority_romans:psv:ev",
+        "to they and to all man:pl"
+      ],
+      "9:14": [
+        "their/prayer for you",
+        "exceed:cv grace of god in you"
+      ],
+      "9:15": [
+        "his/gift which speak:neg:can"
+      ],
+      "10:1": [
+        "i kjv_paul_acts myself",
+        "kjv_meek_disposition:ev and gentleness",
+        "presence among you base",
+        "absence be:cv towards you bold"
+      ],
+      "10:2": [
+        "some who of wesg as if according_to flesh walk:pr",
+        "bold be:neg:may"
+      ],
+      "10:3": [
+        "in flesh walk:pr",
+        "according_to flesh war:neg:pr"
+      ],
+      "10:4": [
+        "ourone/war:ev weapon:pl",
+        "flesh:adj be:neg:pr",
+        "through god strong",
+        "kjv_stronghold:pl down pull:ev"
+      ],
+      "10:5": [
+        "kjv_imaginations_argument_corinthians:pl",
+        "each high thing",
+        "each thought",
+        "into kjv_captivity"
+      ],
+      "10:6": [
+        "when your/obedience complete:psv:pr",
+        "all disobey:ev revenge:inf"
+      ],
+      "10:7": [
+        "look:pr:q",
+        "as he of kjv_christ_title",
+        "wesg of kjv_christ_title"
+      ],
+      "10:8": [
+        "ourone/authority",
+        "for kjv_edify_romans:ev and not for your/destroy:ev",
+        "i shame:adj be:neg:should"
+      ],
+      "10:9": [
+        "as if i by letter:pl",
+        "seem:neg:may"
+      ],
+      "10:10": [
+        "they say:pr",
+        "his/body:adj presence weak",
+        "his/speech contemptible"
+      ],
+      "10:11": [
+        "when absence",
+        "in deed when present",
+        "be:fu"
+      ],
+      "10:12": [
+        "ourselves into group",
+        "dare:neg:pr",
+        "themselves by themselves measure:cv",
+        "wise be:neg:pr"
+      ],
+      "10:13": [
+        "beyond ourone/measure boast:neg:fu",
+        "kjv_rule_scope_corinthians",
+        "god to wesg distribute:perf",
+        "even to you reach:inf"
+      ],
+      "10:14": [
+        "beyond ourone/measure ourselves stretch:neg:pr",
+        "as though to you reach:neg:pa",
+        "even as far as to you come:perf"
+      ],
+      "10:15": [
+        "other man:pl labour:pl",
+        "when your/faith increase:psv:pr",
+        "ourone/kjv_rule_scope_corinthians"
+      ],
+      "10:16": [
+        "region:pl beyond you",
+        "another man kjv_line_sphere_corinthians",
+        "ourone/hand ready"
+      ],
+      "10:17": [
+        "in kjv_lord glory:opt"
+      ],
+      "10:18": [
+        "not he who himself commend:pr",
+        "whom kjv_lord commend:pr"
+      ],
+      "11:1": [
+        "god grant:opt",
+        "my/folly little endure:can",
+        "with i endure:imp"
+      ],
+      "11:2": [
+        "god:adj jealous:ev",
+        "one_num husband",
+        "chaste virgin to kjv_christ_title"
+      ],
+      "11:3": [
+        "serpent kjv_eve:a",
+        "your/mind:pl",
+        "kjv_simplicity_integrity_corinthians"
+      ],
+      "11:4": [
+        "another kjv_jesus_matthew",
+        "another spirit",
+        "another kjv_gospel",
+        "with he well endure:may"
+      ],
+      "11:5": [
+        "very most chief kjv_apostle:pl",
+        "at all be:neg:pa"
+      ],
+      "11:6": [
+        "in speech kjv_rude_speech_corinthians",
+        "in knowledge not so",
+        "wesg among you in all thing:pl"
+      ],
+      "11:7": [
+        "myself lower:cv",
+        "you kjv_exalt:psv:may",
+        "kjv_freely_gift_romans"
+      ],
+      "11:8": [
+        "other kjv_church_assembly:pl rob:pa",
+        "kjv_wages:pl",
+        "to you service"
+      ],
+      "11:9": [
+        "and lack:pa",
+        "no man burden",
+        "from kjv_macedonia_acts",
+        "keep:perf",
+        "keep:fu"
+      ],
+      "11:10": [
+        "no man in kjv_achaia_acts region:pl",
+        "i:a stop:fu"
+      ],
+      "11:11": [
+        "why:q",
+        "love:neg:pr:q",
+        "god know:pr"
+      ],
+      "11:12": [
+        "what i do:pr that i do:fu",
+        "occasion cut:inf",
+        "even as wesg"
+      ],
+      "11:13": [
+        "false kjv_apostle:pl",
+        "deceive:adj work:ag:pl",
+        "themselves into kjv_christ_title kjv_apostle:pl transform:cv"
+      ],
+      "11:14": [
+        "kjv_satan_temptation himself",
+        "light angel transform:psv:pr"
+      ],
+      "11:15": [
+        "if his/serve:ag:pl",
+        "as kjv_righteousness serve:ag:pl",
+        "end according_to their/work:pl"
+      ],
+      "11:16": [
+        "let no man i:a fool think:opt",
+        "if otherwise yet as fool",
+        "little boast:may"
+      ],
+      "11:17": [
+        "not according_to kjv_lord",
+        "as it be:pa fool:adv",
+        "confidence of boast:ev"
+      ],
+      "11:18": [
+        "many according_to flesh glory:pr",
+        "i also glory:fu"
+      ],
+      "11:19": [
+        "fool:pl gladly endure:pr",
+        "you yourselves wise"
+      ],
+      "11:20": [
+        "into bondage",
+        "devour:pr",
+        "from you take:pr",
+        "himself kjv_exalt:pr",
+        "on face you:a strike:pr"
+      ],
+      "11:21": [
+        "as though wesg weak be:pp",
+        "i fool:adv speak:pr",
+        "i also bold"
+      ],
+      "11:22": [
+        "kjv_hebrew:pl",
+        "kjv_israel person:pl",
+        "kjv_abraham kjv_seedline"
+      ],
+      "11:23": [
+        "i as fool speak:pr",
+        "labour:pl",
+        "kjv_stripe_blow:pl above measure",
+        "prison:pl more often",
+        "death:pl often"
+      ],
+      "11:24": [
+        "five time:pl",
+        "three+twelve and four kjv_stripe_blow:pl except one_num"
+      ],
+      "11:25": [
+        "three time:pl i with rod:pl",
+        "one_num time i stone:psv:pa",
+        "three time:pl i kjv_shipwreck_corinthians",
+        "one_num night and one_num day"
+      ],
+      "11:26": [
+        "water:pl",
+        "rob:ag:pl",
+        "my/own country person:pl",
+        "kjv_gentile:pl",
+        "in city",
+        "kjv_wilderness",
+        "in sea",
+        "false brother:pl"
+      ],
+      "11:27": [
+        "weary:ev and pain:ev",
+        "watch:ev:pl often",
+        "hunger and thirst",
+        "kjv_fast:pl often",
+        "cold and kjv_nakedness"
+      ],
+      "11:28": [
+        "besides those thing:pl",
+        "daily",
+        "all kjv_church_assembly:pl kjv_care_concern_corinthians"
+      ],
+      "11:29": [
+        "i weak be:neg:pr:q",
+        "kjv_stumble:caus:psv:pr",
+        "i burn:neg:pr:q"
+      ],
+      "11:30": [
+        "if i glory:must",
+        "my/infirmity:pl",
+        "glory:fu"
+      ],
+      "11:31": [
+        "father of ourone/lord",
+        "for ever bless:psv:adj",
+        "i false speak:neg:pr"
+      ],
+      "11:32": [
+        "under kjv_aretas_corinthians king",
+        "with kjv_garrison",
+        "i:a seize:inf"
+      ],
+      "11:33": [
+        "through window in kjv_basket by wall",
+        "i lower:psv:pa",
+        "his/hand:pl escape:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:1",
+        "10:2",
+        "10:8",
+        "10:9",
+        "11:1",
+        "11:10",
+        "11:11",
+        "11:12",
+        "11:16",
+        "11:17",
+        "11:18",
+        "11:2",
+        "11:21",
+        "11:22",
+        "11:23",
+        "11:24",
+        "11:25",
+        "11:28",
+        "11:29",
+        "11:3",
+        "11:30",
+        "11:31",
+        "11:32",
+        "11:33",
+        "11:5",
+        "11:6",
+        "11:7",
+        "11:8",
+        "11:9",
+        "9:1",
+        "9:2",
+        "9:3",
+        "9:4",
+        "9:5",
+        "9:6"
+      ],
+      "ipl": [],
+      "wesg": [
+        "10:11",
+        "10:12",
+        "10:13",
+        "10:14",
+        "10:15",
+        "10:2",
+        "10:3",
+        "10:7",
+        "10:8",
+        "11:12",
+        "11:21",
+        "11:4",
+        "11:6",
+        "9:11",
+        "9:4"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "10:13",
+        "10:14",
+        "10:15",
+        "10:16",
+        "10:4",
+        "10:8",
+        "11:31",
+        "9:3"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "One husband is cardinal despite the collective bridal addressees.",
+      "Five occasions of forty stripes except one retain all terms,not a silently collapsed39.",
+      "Three rod beatings,one stoning,three shipwrecks,one night and one day retain exact counts and units."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "66new verses;2222Corinthians;whole Bible incomplete.",
+      "All first-person singular here is personal-I;shared singular-we remains in ministry,boasting and comparison. No quotation is automatically made divine plural-self.",
+      "Five common entries and one contextual name;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Corinthians — incomplete Bible working text",
+    "pages": 146,
+    "spreads": 73,
+    "units": 222,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "60b6e6f0d13b41b9b881894ccbe9ea30cf7392cf5cc02287d29abdabd547aad7",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 73,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.274,
+    "modules": [
+      "tests.test_kjv_corinthians_gifts_boasting",
+      "tests.test_kjv_corinthians_reconciliation_giving",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    145,
+    146
+  ],
+  "status": "incomplete Bible;2 Corinthians1–11 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 145,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv245\\preflight-corinthians2\\Proofs\\page-145.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv245\\composed-corinthians2\\Proofs\\page-145.png",
+        "sha256": "08871d4846e4b3818c4f23537eb7f7c839b42c3c0fd341943a977153c1747622",
+        "bytesIdentical": true
+      },
+      {
+        "page": 146,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv245\\preflight-corinthians2\\Proofs\\page-146.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv245\\composed-corinthians2\\Proofs\\page-146.png",
+        "sha256": "cf3c57f1a954324d970247a23328f893d7d629223b825f6da9c3a5de45992898",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

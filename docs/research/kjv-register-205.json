@@ -1,0 +1,1015 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.205",
+    "parentVersion": "0.10-kjv.204",
+    "parentHead": "2dfbdd6031c413ea862a59a0e305aaef3c5f5e396d00c7cbdba6611cdf18039c",
+    "head": "b94382a40f00b45dc6de2573cfb5dafc237e511602c6b92e25ff07df81a5e0b2",
+    "newLexicalEntries": 3,
+    "newProperEntries": 2,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 104,
+    "exactCompilerCases": 104,
+    "newAuthoredVerses": 104,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 512,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 5696,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newLukeVerses": 104,
+    "lukeVerses": 512,
+    "authoredVerses": 25406,
+    "remainingVerses": 5696,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 23,
+    "quantityChecks": [
+      {
+        "reference": "Luke 9:1",
+        "source": "Then he called his twelve disciples together, and gave them power and authority over all devils, and to cure diseases.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 9:3",
+        "source": "And he said unto them, Take nothing for your journey, neither staves, nor scrip, neither bread, neither money; neither have two coats apiece.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 9:8",
+        "source": "And of some, that Elias had appeared; and of others, that one of the old prophets was risen again.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 9:12",
+        "source": "And when the day began to wear away, then came the twelve, and said unto him, Send the multitude away, that they may go into the towns and country round about, and lodge, and get victuals: for we are here in a desert place.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 9:13",
+        "source": "But he said unto them, Give ye them to eat. And they said, We have no more but five loaves and two fishes; except we should go and buy meat for all this people.",
+        "expectedDecimalQuantities": [
+          5,
+          2
+        ],
+        "targetQuantities": [
+          5,
+          2
+        ]
+      },
+      {
+        "reference": "Luke 9:14",
+        "source": "For they were about five thousand men. And he said to his disciples, Make them sit down by fifties in a company.",
+        "expectedDecimalQuantities": [
+          5000,
+          50
+        ],
+        "targetQuantities": [
+          5000,
+          50
+        ]
+      },
+      {
+        "reference": "Luke 9:16",
+        "source": "Then he took the five loaves and the two fishes, and looking up to heaven, he blessed them, and brake, and gave to the disciples to set before the multitude.",
+        "expectedDecimalQuantities": [
+          5,
+          2
+        ],
+        "targetQuantities": [
+          5,
+          2
+        ]
+      },
+      {
+        "reference": "Luke 9:17",
+        "source": "And they did eat, and were all filled: and there was taken up of fragments that remained to them twelve baskets.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 9:19",
+        "source": "They answering said, John the Baptist; but some say, Elias; and others say, that one of the old prophets is risen again.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 9:22",
+        "source": "Saying, The Son of man must suffer many things, and be rejected of the elders and chief priests and scribes, and be slain, and be raised the third day.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Luke 9:28",
+        "source": "And it came to pass about an eight days after these sayings, he took Peter and John and James, and went up into a mountain to pray.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "Luke 9:30",
+        "source": "And, behold, there talked with him two men, which were Moses and Elias:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 9:32",
+        "source": "But Peter and they that were with him were heavy with sleep: and when they were awake, they saw his glory, and the two men that stood with him.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 9:33",
+        "source": "And it came to pass, as they departed from him, Peter said unto Jesus, Master, it is good for us to be here: and let us make three tabernacles; one for thee, and one for Moses, and one for Elias: not knowing what he said.",
+        "expectedDecimalQuantities": [
+          3,
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          3,
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 9:59",
+        "source": "And he said unto another, Follow me. But he said, Lord, suffer me first to go and bury my father.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 9:61",
+        "source": "And another also said, Lord, I will follow thee; but let me first go bid them farewell, which are at home at my house.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 10:1",
+        "source": "After these things the LORD appointed other seventy also, and sent them two and two before his face into every city and place, whither he himself would come.",
+        "expectedDecimalQuantities": [
+          70,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          70,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Luke 10:5",
+        "source": "And into whatsoever house ye enter, first say, Peace be to this house.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 10:17",
+        "source": "And the seventy returned again with joy, saying, Lord, even the devils are subject unto us through thy name.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Luke 10:35",
+        "source": "And on the morrow when he departed, he took out two pence, and gave them to the host, and said unto him, Take care of him; and whatsoever thou spendest more, when I come again, I will repay thee.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 10:36",
+        "source": "Which now of these three, thinkest thou, was neighbour unto him that fell among the thieves?",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Luke 10:42",
+        "source": "But one thing is needful: and Mary hath chosen that good part, which shall not be taken away from her.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 10:30",
+        "source": "And Jesus answering said, A certain man went down from Jerusalem to Jericho, and fell among thieves, which stripped him of his raiment, and wounded him, and departed, leaving him half dead.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "9:1": [
+        "his/twelve disciple:pl",
+        "power and authority",
+        "all devil:pl",
+        "illness:pl heal"
+      ],
+      "9:2": [
+        "kingdom of god proclaim",
+        "sick person:pl heal"
+      ],
+      "9:3": [
+        "nothing take",
+        "neither staff:pl",
+        "kjv_scrip",
+        "neither bread",
+        "neither money",
+        "two coat:pl each"
+      ],
+      "9:4": [
+        "whatever house",
+        "there remain",
+        "from there depart"
+      ],
+      "9:5": [
+        "receive:neg",
+        "very dust",
+        "your/foot:pl",
+        "testimony against"
+      ],
+      "9:6": [
+        "through town:pl",
+        "kjv_gospel proclaim",
+        "everywhere heal"
+      ],
+      "9:7": [
+        "kjv_herod_tetrarch",
+        "confound",
+        "by some",
+        "kjv_john_baptist from dead"
+      ],
+      "9:8": [
+        "kjv_elias_matthew appear",
+        "one_num of old prophet:pl"
+      ],
+      "9:9": [
+        "head of kjv_john_baptist i off cut",
+        "of whom i",
+        "see:inf desire"
+      ],
+      "9:10": [
+        "kjv_apostle:pl",
+        "all that do",
+        "private:adv",
+        "kjv_wilderness place",
+        "kjv_bethsaida"
+      ],
+      "9:11": [
+        "they:a receive",
+        "kingdom of god",
+        "heal:ev need"
+      ],
+      "9:12": [
+        "day away pass",
+        "twelve come",
+        "lodge",
+        "food obtain",
+        "wesg here in kjv_wilderness"
+      ],
+      "9:13": [
+        "eat:inf give",
+        "wesg no more",
+        "five kjv_loaf:pl and two kjv_fish:pl",
+        "wesg go:should",
+        "food buy"
+      ],
+      "9:14": [
+        "about five+thousand",
+        "company:pl of four+twelve and two"
+      ],
+      "9:15": [
+        "all down sit:caus"
+      ],
+      "9:16": [
+        "five kjv_loaf:pl and two kjv_fish:pl",
+        "heaven up look",
+        "bless",
+        "break",
+        "disciple:pl"
+      ],
+      "9:17": [
+        "all fill:psv",
+        "broken part:pl",
+        "twelve kjv_basket:pl"
+      ],
+      "9:18": [
+        "alone pray",
+        "his/disciple:pl with he",
+        "who ipl be"
+      ],
+      "9:19": [
+        "kjv_john_baptist",
+        "kjv_elias_matthew",
+        "one_num of old prophet:pl"
+      ],
+      "9:20": [
+        "who ipl be",
+        "kjv_peter_disciple",
+        "kjv_christ_title of god"
+      ],
+      "9:21": [
+        "kjv_strict:adv",
+        "no man"
+      ],
+      "9:22": [
+        "son of man",
+        "kjv_elder:pl and chief priest:pl and kjv_scribe:pl",
+        "kill:psv",
+        "third day raise"
+      ],
+      "9:23": [
+        "after ipl",
+        "himself deny",
+        "daily his/kjv_cross_instrument",
+        "ipl:a follow"
+      ],
+      "9:24": [
+        "his/life save",
+        "lose",
+        "mypl/sake"
+      ],
+      "9:25": [
+        "whole world gain",
+        "himself lose",
+        "or away cast"
+      ],
+      "9:26": [
+        "of ipl and of mypl/word:pl",
+        "his/own glory",
+        "glory of his/father",
+        "holy angel:pl"
+      ],
+      "9:27": [
+        "ipl truly",
+        "some here stand",
+        "death taste:neg",
+        "kingdom of god"
+      ],
+      "9:28": [
+        "about eight day:pl",
+        "kjv_peter_disciple and kjv_john_zebedee and kjv_james_zebedee",
+        "to pray"
+      ],
+      "9:29": [
+        "as pray",
+        "appearance of his/face",
+        "change:psv",
+        "white and shine"
+      ],
+      "9:30": [
+        "two man:pl",
+        "kjv_moses and kjv_elias_matthew"
+      ],
+      "9:31": [
+        "they:du",
+        "in glory",
+        "his/death",
+        "at kjv_jerusalem accomplish"
+      ],
+      "9:32": [
+        "with sleep heavy",
+        "when awake",
+        "his/glory",
+        "two man:pl"
+      ],
+      "9:33": [
+        "they:du from he depart",
+        "for wesg here",
+        "wesg three kjv_tabernacle:pl",
+        "one_num for thou",
+        "one_num for kjv_moses",
+        "one_num for kjv_elias_matthew",
+        "know:neg"
+      ],
+      "9:34": [
+        "cloud",
+        "shadow:caus",
+        "into cloud enter",
+        "fear"
+      ],
+      "9:35": [
+        "voice out of cloud",
+        "mypl/beloved son",
+        "he:a hear"
+      ],
+      "9:36": [
+        "kjv_jesus_matthew alone",
+        "secret keep",
+        "in those day:pl",
+        "to no man"
+      ],
+      "9:37": [
+        "next day",
+        "hill down come",
+        "much people"
+      ],
+      "9:38": [
+        "i thou:a beseech",
+        "my/son",
+        "my/only child"
+      ],
+      "9:39": [
+        "spirit he:a take",
+        "suddenly",
+        "kjv_rend_convulsive",
+        "kjv_foam_bodily",
+        "kjv_bruise",
+        "difficulty"
+      ],
+      "9:40": [
+        "i thy/disciple:pl",
+        "they able:neg"
+      ],
+      "9:41": [
+        "faithless and kjv_perverse_way",
+        "ipl with you",
+        "endure",
+        "thy/son here"
+      ],
+      "9:42": [
+        "devil he:a down throw",
+        "kjv_rend_convulsive",
+        "unclean spirit rebuke",
+        "child heal",
+        "his/father"
+      ],
+      "9:43": [
+        "mighty power of god",
+        "all thing:pl which kjv_jesus_matthew",
+        "his/disciple:pl"
+      ],
+      "9:44": [
+        "into your/ear:pl sink",
+        "son of man",
+        "hand:pl of man:pl"
+      ],
+      "9:45": [
+        "understand:neg",
+        "from they hide",
+        "perceive:neg",
+        "ask:inf fear"
+      ],
+      "9:46": [
+        "among they think:ev",
+        "greatest"
+      ],
+      "9:47": [
+        "thought of their/heart",
+        "child take",
+        "by himself"
+      ],
+      "9:48": [
+        "this child in mypl/name",
+        "ipl:a receive",
+        "he who ipl:a send",
+        "least among all",
+        "great"
+      ],
+      "9:49": [
+        "wesg person",
+        "thy/name",
+        "wesg he:a forbid",
+        "with wesg follow:neg"
+      ],
+      "9:50": [
+        "forbid:neg",
+        "against wesg be:neg",
+        "for wesg"
+      ],
+      "9:51": [
+        "up receive:psv",
+        "kjv_steadfast:adv his/face",
+        "kjv_jerusalem"
+      ],
+      "9:52": [
+        "messenger:pl before his/face",
+        "village of kjv_samaritan:pl"
+      ],
+      "9:53": [
+        "receive:neg",
+        "because his/face",
+        "kjv_jerusalem"
+      ],
+      "9:54": [
+        "kjv_james_zebedee and kjv_john_zebedee",
+        "they:du",
+        "we:du fire",
+        "kjv_consume",
+        "as kjv_elias_matthew"
+      ],
+      "9:55": [
+        "they:du:a rebuke",
+        "you:du what kind of spirit",
+        "know:neg"
+      ],
+      "9:56": [
+        "life:pl destroy:inf come:neg",
+        "they:a save",
+        "another village"
+      ],
+      "9:57": [
+        "i thou:a wherever",
+        "follow:fu"
+      ],
+      "9:58": [
+        "fox:pl hole:pl",
+        "bird:pl of air nest:pl",
+        "his/head lay:inf have:neg"
+      ],
+      "9:59": [
+        "ipl:a follow",
+        "i:a first my/father bury"
+      ],
+      "9:60": [
+        "dead person:pl their/dead person:pl bury",
+        "thou go",
+        "kingdom of god"
+      ],
+      "9:61": [
+        "i thou:a follow",
+        "i:a first",
+        "my/house",
+        "farewell"
+      ],
+      "9:62": [
+        "his/hand to plough",
+        "back look",
+        "fit"
+      ],
+      "10:1": [
+        "other five+twelve and ten",
+        "two by two",
+        "before his/face",
+        "himself come"
+      ],
+      "10:2": [
+        "harvest truly great",
+        "work:ag:pl few",
+        "lord of harvest",
+        "his/harvest"
+      ],
+      "10:3": [
+        "ipl you:a as kjv_lamb:pl among wolf:pl"
+      ],
+      "10:4": [
+        "neither purse nor kjv_scrip nor shoe:pl",
+        "no man greet"
+      ],
+      "10:5": [
+        "first say",
+        "peace to this house"
+      ],
+      "10:6": [
+        "son of peace",
+        "your/peace",
+        "rest:fu",
+        "again turn"
+      ],
+      "10:7": [
+        "same house",
+        "eat:cv and drink:cv",
+        "his/pay:ev worthy",
+        "house to house go:neg"
+      ],
+      "10:8": [
+        "city enter",
+        "receive",
+        "before you set"
+      ],
+      "10:9": [
+        "sick person:pl",
+        "kingdom of god near"
+      ],
+      "10:10": [
+        "receive:neg",
+        "street:pl"
+      ],
+      "10:11": [
+        "on we:du kjv_cling",
+        "we:du against you",
+        "kjv_wipe",
+        "kingdom of god near"
+      ],
+      "10:12": [
+        "ipl to you",
+        "that day",
+        "kjv_sodom",
+        "more tolerable"
+      ],
+      "10:13": [
+        "kjv_chorazin:excl",
+        "kjv_bethsaida:excl",
+        "kjv_tyre and kjv_sidon",
+        "kjv_sackcloth and kjv_ashes",
+        "repent:pp:should"
+      ],
+      "10:14": [
+        "at judgment",
+        "kjv_tyre and kjv_sidon",
+        "more tolerable"
+      ],
+      "10:15": [
+        "kjv_capernaum",
+        "heaven kjv_exalt",
+        "kjv_hell_depth down thrust"
+      ],
+      "10:16": [
+        "you:a hear:pr ipl:a hear",
+        "you:a despise:pr ipl:a despise",
+        "he who ipl:a send"
+      ],
+      "10:17": [
+        "five+twelve and ten",
+        "with joy",
+        "through thy/name to wesg submit"
+      ],
+      "10:18": [
+        "ipl kjv_satan_temptation",
+        "as lightning from heaven fall"
+      ],
+      "10:19": [
+        "ipl to you power",
+        "serpent:pl and kjv_scorpion:pl",
+        "all power of enemy",
+        "nothing by any means"
+      ],
+      "10:20": [
+        "rejoice:neg",
+        "spirit:pl to you submit",
+        "your/name:pl in heaven write"
+      ],
+      "10:21": [
+        "in that hour",
+        "in spirit rejoice",
+        "ipl thou:a thank",
+        "father lord of heaven and earth",
+        "wise and understand:ag:pl",
+        "kjv_infant:pl",
+        "thy/sight"
+      ],
+      "10:22": [
+        "all thing:pl to ipl by mypl/father",
+        "who son",
+        "except father",
+        "who father",
+        "except son",
+        "reveal:inf will"
+      ],
+      "10:23": [
+        "his/disciple:pl",
+        "private:adv",
+        "eye:pl"
+      ],
+      "10:24": [
+        "ipl to you",
+        "many prophet:pl and king:pl",
+        "see:neg:perf",
+        "hear:neg:perf"
+      ],
+      "10:25": [
+        "lawyer",
+        "tempt",
+        "what i do",
+        "eternal life inherit"
+      ],
+      "10:26": [
+        "in law write",
+        "how read"
+      ],
+      "10:27": [
+        "all thy/heart",
+        "all thy/soul",
+        "all thy/strength",
+        "all thy/mind",
+        "thy/neighbour as thyself"
+      ],
+      "10:28": [
+        "rightly answer",
+        "this do",
+        "live:fu"
+      ],
+      "10:29": [
+        "himself kjv_justify",
+        "who my/neighbour"
+      ],
+      "10:30": [
+        "kjv_jerusalem to kjv_jericho",
+        "thief:pl",
+        "strip",
+        "kjv_wound_inflict",
+        "half dead"
+      ],
+      "10:31": [
+        "by chance",
+        "priest",
+        "see",
+        "other side pass"
+      ],
+      "10:32": [
+        "kjv_levite",
+        "look",
+        "other side pass"
+      ],
+      "10:33": [
+        "kjv_samaritan",
+        "see",
+        "kjv_compassion"
+      ],
+      "10:34": [
+        "his/wound:pl bind",
+        "oil and wine",
+        "his/own beast",
+        "kjv_inn",
+        "attend"
+      ],
+      "10:35": [
+        "next day",
+        "two kjv_penny_source:pl",
+        "kjv_innkeeper_luke",
+        "whatever more spend",
+        "i again come",
+        "i to thou repay"
+      ],
+      "10:36": [
+        "these three",
+        "neighbour",
+        "thief:pl"
+      ],
+      "10:37": [
+        "mercy show",
+        "thou likewise do"
+      ],
+      "10:38": [
+        "certain village",
+        "kjv_martha_luke",
+        "her/house"
+      ],
+      "10:39": [
+        "sister",
+        "kjv_mary_martha_sister",
+        "foot:pl of kjv_jesus_matthew",
+        "his/word hear"
+      ],
+      "10:40": [
+        "much serve:ev overburden",
+        "my/sister i:a alone",
+        "care:neg:pr",
+        "i:a help"
+      ],
+      "10:41": [
+        "kjv_martha_luke kjv_martha_luke",
+        "many thing:pl worry",
+        "distress"
+      ],
+      "10:42": [
+        "one_num thing necessary",
+        "kjv_mary_martha_sister",
+        "good part choose",
+        "take:psv:neg"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:25",
+        "10:35",
+        "10:40",
+        "9:38",
+        "9:40",
+        "9:57",
+        "9:59",
+        "9:61",
+        "9:9"
+      ],
+      "ipl": [
+        "10:12",
+        "10:16",
+        "10:18",
+        "10:19",
+        "10:21",
+        "10:22",
+        "10:24",
+        "10:3",
+        "9:18",
+        "9:20",
+        "9:23",
+        "9:26",
+        "9:27",
+        "9:41",
+        "9:48",
+        "9:59"
+      ],
+      "wesg": [
+        "10:17",
+        "9:12",
+        "9:13",
+        "9:33",
+        "9:49",
+        "9:50"
+      ],
+      "wepl": [],
+      "mypl": [
+        "10:22",
+        "9:24",
+        "9:26",
+        "9:35",
+        "9:48"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [
+        "10:11",
+        "9:54"
+      ],
+      "they:du": [
+        "9:31",
+        "9:33",
+        "9:54",
+        "9:55"
+      ],
+      "you:du": [
+        "9:55"
+      ]
+    },
+    "physicalDualReferences": [
+      "Luke9:31",
+      "Luke9:33",
+      "Luke9:54",
+      "Luke9:55",
+      "Luke10:11"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Twelve commissioned;two coats prohibited;five loaves,two fish,about5000men,fifty per group,twelve baskets.",
+      "Third-day raising,about eight days,two mountain visitors,three shelters one each,seventy sent two by two,two source pence,three neighbours and one necessary thing retained.",
+      "No imported seventy-two reading,modern money conversion,swine count or exact Trinity arithmetic."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "104new verses;512Luke total;whole Bible remains incomplete.",
+      "Personal promises,community singular-we,commissioned dual and plural-self Son/Father relations remain distinct.",
+      "Source-specific full clauses and uncomfortable followership sayings retained.",
+      "One common and two proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Luke — incomplete Bible working text",
+    "pages": 298,
+    "spreads": 149,
+    "units": 512,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "baa3f317e6f720d2bbae364e1d20b2054813b37b2aa6a2d494b5614d995ab0a9",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.529785000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 149,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.34,
+    "modules": [
+      "tests.test_kjv_luke_commissioned_pairs",
+      "tests.test_kjv_luke_embodied_restoration",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    297,
+    298
+  ],
+  "status": "incomplete Bible;Luke1–10 section checkpoint verified"
+}

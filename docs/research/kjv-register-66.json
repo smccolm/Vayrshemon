@@ -1,0 +1,462 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.66",
+    "parentVersion": "0.10-kjv.65",
+    "parentHead": "b6c847588b2a9130014e20891f5325cf15c4c8143bb7070800fb71c1bca50086",
+    "head": "62300242169a2aa41df83980d1727a21df36730adeebdd1a9871ac6dae33bb29",
+    "newLexicalEntries": 2,
+    "newProperEntries": 0,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 53,
+    "exactCompilerCases": 53,
+    "newAuthoredVerses": 53,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 194,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21326,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 53,
+    "kings2Verses": 194,
+    "authoredVerses": 9776,
+    "remainingVerses": 21326,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 6:10",
+        "source": "And the king of Israel sent to the place which the man of God told him and warned him of, and saved himself there, not once nor twice.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 6:25",
+        "source": "And there was a great famine in Samaria: and, behold, they besieged it, until an ass’s head was sold for fourscore pieces of silver, and the fourth part of a cab of dove’s dung for five pieces of silver.",
+        "expectedDecimalQuantities": [
+          80,
+          0.25,
+          5
+        ],
+        "targetQuantities": [
+          80,
+          0.25,
+          5
+        ]
+      },
+      {
+        "reference": "2 Kings 7:1",
+        "source": "Then Elisha said, Hear ye the word of the LORD; Thus saith the LORD, To morrow about this time shall a measure of fine flour be sold for a shekel, and two measures of barley for a shekel, in the gate of Samaria.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 7:3",
+        "source": "And there were four leprous men at the entering in of the gate: and they said one to another, Why sit we here until we die?",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "2 Kings 7:8",
+        "source": "And when these lepers came to the uttermost part of the camp, they went into one tent, and did eat and drink, and carried thence silver, and gold, and raiment, and went and hid it; and came again, and entered into another tent, and carried thence also, and went and hid it.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 7:13",
+        "source": "And one of his servants answered and said, Let some take, I pray thee, five of the horses that remain, which are left in the city, (behold, they are as all the multitude of Israel that are left in it: behold, I say, they are even as all the multitude of the Israelites that are consumed:) and let us send and see.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "2 Kings 7:14",
+        "source": "They took therefore two chariot horses; and the king sent after the host of the Syrians, saying, Go and see.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 7:16",
+        "source": "And the people went out, and spoiled the tents of the Syrians. So a measure of fine flour was sold for a shekel, and two measures of barley for a shekel, according to the word of the LORD.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 7:18",
+        "source": "And it came to pass as the man of God had spoken to the king, saying, Two measures of barley for a shekel, and a measure of fine flour for a shekel, shall be to morrow about this time in the gate of Samaria:",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "6:1": [
+        "where with thou wesg dwell:pr",
+        "too narrow"
+      ],
+      "6:2": [
+        "wesg pray:pr thou",
+        "each man beam:a",
+        "for wesg kjv_place_site:a wesg make:opt"
+      ],
+      "6:3": [
+        "one say:pa",
+        "i pray:pr thou",
+        "i go:fu"
+      ],
+      "6:4": [
+        "with they he go:pa",
+        "wood:a cut:pa down"
+      ],
+      "6:5": [
+        "one beam:a fall:caus:pa",
+        "kjv_axe head into water fall:pa",
+        "master:excl",
+        "borrow:psv:pa"
+      ],
+      "6:6": [
+        "stick:a he cut:pa down",
+        "kjv_iron swim:pa"
+      ],
+      "6:7": [
+        "his/hand:a he put:pa out",
+        "it:a take:pa"
+      ],
+      "6:8": [
+        "with his/servant:pl counsel:a",
+        "mypl/camp"
+      ],
+      "6:9": [
+        "beware:imp",
+        "kjv_syrian:pl come:perf down"
+      ],
+      "6:10": [
+        "warning:a give:pa",
+        "not one_num time nor two time:pl"
+      ],
+      "6:11": [
+        "great:adv vex:psv:pa",
+        "which of wepl"
+      ],
+      "6:12": [
+        "one of his/servant:pl",
+        "king:excl",
+        "thy/bed+chamber"
+      ],
+      "6:13": [
+        "ipl send:pr:may",
+        "in kjv_dothan"
+      ],
+      "6:14": [
+        "by night",
+        "city:a surround:pa"
+      ],
+      "6:15": [
+        "my/master:excl",
+        "we:du do:fu"
+      ],
+      "6:16": [
+        "with we:du",
+        "more than"
+      ],
+      "6:17": [
+        "i pray:pr thou",
+        "of young man eye:pl:a",
+        "chariot:pl of fire"
+      ],
+      "6:18": [
+        "this people:a with kjv_blindness",
+        "i pray:pr thou",
+        "they:a he strike:pa"
+      ],
+      "6:19": [
+        "this way be:pr not",
+        "i:a follow:imp",
+        "to kjv_samaria they:a he lead:pa"
+      ],
+      "6:20": [
+        "of these man:pl eye:pl:a",
+        "middle of kjv_samaria"
+      ],
+      "6:21": [
+        "my/father",
+        "they:a ipl strike:fu ? they:a ipl strike:fu"
+      ],
+      "6:22": [
+        "they:a thou strike:fu not",
+        "with thy/sword and with thy/bow captive",
+        "to their/master go:pr"
+      ],
+      "6:23": [
+        "great food:a",
+        "they:a he send:pa away",
+        "band:pl of kjv_syria no more"
+      ],
+      "6:24": [
+        "after this",
+        "kjv_benhadad_siege",
+        "kjv_samaria:a besiege:pa"
+      ],
+      "6:25": [
+        "four+twenty",
+        "kjv_fourth_share of kjv_cab_measure",
+        "of dove kjv_dung",
+        "five piece:pl"
+      ],
+      "6:26": [
+        "woman to he cry:pa",
+        "help:imp my/lord king:excl"
+      ],
+      "6:27": [
+        "from where thou:a i help:fu",
+        "kjv_threshfloor",
+        "kjv_winepress"
+      ],
+      "6:28": [
+        "this woman to i say:pa",
+        "today he:a we:du eat:pr:may",
+        "tomorrow my/son:a"
+      ],
+      "6:29": [
+        "my/son:a we:du boil:pa",
+        "her/son:a she hide:perf"
+      ],
+      "6:30": [
+        "his/clothing:a kjv_rend:pa",
+        "within upon his/flesh kjv_sackcloth"
+      ],
+      "6:31": [
+        "to i thus and more also god do:opt",
+        "kjv_shaphat_elisha",
+        "head on he this day"
+      ],
+      "6:32": [
+        "kjv_elder:pl",
+        "of murderer son",
+        "my/head:a",
+        "at door kjv_firmly he:a hold:imp"
+      ],
+      "6:33": [
+        "messenger to he come:pa down and he say:pa",
+        "evil of kjv_lord",
+        "i wait:pr:should"
+      ],
+      "7:1": [
+        "of fine kjv_flour kjv_measure_portion for one_num kjv_shekel",
+        "two kjv_measure_portion:pl of kjv_barley"
+      ],
+      "7:2": [
+        "on whose hand king kjv_lean_body:pa",
+        "window:pl:a",
+        "but of it eat:fu not"
+      ],
+      "7:3": [
+        "four of kjv_leprosy man:pl",
+        "wepl sit:pr until wepl die:pr"
+      ],
+      "7:4": [
+        "wesg fall:opt",
+        "wepl:a alive they save:pr",
+        "wepl:a they kill:pr"
+      ],
+      "7:5": [
+        "in kjv_twilight",
+        "utmost part",
+        "no man"
+      ],
+      "7:6": [
+        "kjv_lord hear:caus:pp",
+        "they say:pa",
+        "king:pl of kjv_hittites",
+        "upon wesg come:inf"
+      ],
+      "7:7": [
+        "in kjv_twilight",
+        "even camp:a as it be:pa",
+        "for their/life flee:pa"
+      ],
+      "7:8": [
+        "into one_num tent",
+        "it:a hide:pa",
+        "another tent"
+      ],
+      "7:9": [
+        "wesg do:pr not well",
+        "ourone/peace:a wesg hold:pr",
+        "of king kjv_household"
+      ],
+      "7:10": [
+        "kjv_gatekeeper:a",
+        "wesg come:pa",
+        "horse:pl bind:psv:pa"
+      ],
+      "7:11": [
+        "kjv_gatekeeper:pl:a",
+        "of king house within"
+      ],
+      "7:12": [
+        "ipl show:fu",
+        "hungry wesg be:pr",
+        "say:cv when",
+        "alive they:a wesg catch:fu"
+      ],
+      "7:13": [
+        "five of horse:pl:a",
+        "i pray:pr thou",
+        "who consume:psv:perf",
+        "wesg send:opt"
+      ],
+      "7:14": [
+        "two chariot horse:pl:a",
+        "go:imp and see:imp"
+      ],
+      "7:15": [
+        "to kjv_jordan",
+        "in their/haste",
+        "messenger:pl return:pa"
+      ],
+      "7:16": [
+        "tent:pl:a spoil:pa",
+        "one_num kjv_shekel",
+        "kjv_according to of kjv_lord word"
+      ],
+      "7:17": [
+        "of gate responsibility:a have:inf",
+        "upon he people tread:pa",
+        "he die:pa",
+        "when king to he come:pa down"
+      ],
+      "7:18": [
+        "two kjv_measure_portion:pl of kjv_barley for one_num kjv_shekel and of fine kjv_flour",
+        "tomorrow about this time"
+      ],
+      "7:19": [
+        "kjv_lord make:pr:should",
+        "thing be:pr:may",
+        "eat:fu not"
+      ],
+      "7:20": [
+        "upon he people tread:pa",
+        "he die:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Not once nor twice is idiomatic recurrence, not exactly three events.",
+      "80silver pieces for the ass-head;5for a quarter-cab of dove dung; no plant substitution or modern conversion.",
+      "Flour measure/one shekel and two barley measures/one shekel retain their order in each recurrence.",
+      "Four afflicted men, one tent followed by another, five proposed scout horses and two narrated chariot horses retain distinct scopes."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Royal agency, personal distress, actual pairs, plural individual survival and singular collective purpose/testimony remain distinct. Ambiguous speaker6:33 stays he. No invented Trinity count.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 164,
+    "spreads": 82,
+    "units": 194,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "527038144e9b526dc71aac13c020aecee2b8f52bce8c14d84067584cd46d1cbc",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 82,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 328,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 13.28,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_siege",
+      "tests.test_kjv_kings_healing",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      163,
+      164
+    ],
+    "observations": "Final siege spread viewed. Matching paragraph starts, approved Maxima and all four column styles, margins and Unta preserved."
+  },
+  "status": "incomplete whole Bible"
+}

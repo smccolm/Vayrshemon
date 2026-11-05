@@ -1,0 +1,791 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.127",
+    "parentVersion": "0.10-kjv.126",
+    "parentHead": "522cf4ff9b3906c3a56978c2100c1b94c3bcdf83654f9395c279c58af4ec8e52",
+    "head": "04743298a129b987cc2b8220c2b305d82ac5643639e1150e54135f03e428c447",
+    "newLexicalEntries": 3,
+    "newProperEntries": 0,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 114,
+    "exactCompilerCases": 114,
+    "newAuthoredVerses": 114,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 114,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 13624,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEcclesiastesVerses": 114,
+    "ecclesiastesVerses": 114,
+    "authoredVerses": 17478,
+    "remainingVerses": 13624,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 11,
+    "quantityChecks": [
+      {
+        "reference": "Ecclesiastes 2:14",
+        "source": "The wise man’s eyes are in his head; but the fool walketh in darkness: and I myself perceived also that one event happeneth to them all.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 3:19",
+        "source": "For that which befalleth the sons of men befalleth beasts; even one thing befalleth them: as the one dieth, so dieth the other; yea, they have all one breath; so that a man hath no preeminence above a beast: for all is vanity.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 3:20",
+        "source": "All go unto one place; all are of the dust, and all turn to dust again.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 4:8",
+        "source": "There is one alone, and there is not a second; yea, he hath neither child nor brother: yet is there no end of all his labour; neither is his eye satisfied with riches; neither saith he, For whom do I labour, and bereave my soul of good? This is also vanity, yea, it is a sore travail.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 4:9",
+        "source": "Two are better than one; because they have a good reward for their labour.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 4:10",
+        "source": "For if they fall, the one will lift up his fellow: but woe to him that is alone when he falleth; for he hath not another to help him up.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 4:11",
+        "source": "Again, if two lie together, then they have heat: but how can one be warm alone?",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 4:12",
+        "source": "And if one prevail against him, two shall withstand him; and a threefold cord is not quickly broken.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          3
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 4:15",
+        "source": "I considered all the living which walk under the sun, with the second child that shall stand up in his stead.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 6:3",
+        "source": "If a man beget an hundred children, and live many years, so that the days of his years be many, and his soul be not filled with good, and also that he have no burial; I say, that an untimely birth is better than he.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Ecclesiastes 6:6",
+        "source": "Yea, though he live a thousand years twice told, yet hath he seen no good: do not all go to one place?",
+        "expectedDecimalQuantities": [
+          2000,
+          1
+        ],
+        "targetQuantities": [
+          2000,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_preacher son of kjv_david",
+        "king in kjv_jerusalem"
+      ],
+      "1:2": [
+        "vanity of vanity:pl kjv_preacher say:pr",
+        "vanity of vanity:pl all vanity"
+      ],
+      "1:3": [
+        "what benefit:a",
+        "under sun take:pr"
+      ],
+      "1:4": [
+        "generation away pass:pr",
+        "another generation",
+        "earth for ever remain:pr"
+      ],
+      "1:5": [
+        "sun down go:pr",
+        "his/place where he rise:pa"
+      ],
+      "1:6": [
+        "to kjv_south",
+        "to kjv_north around turn:pr",
+        "his/kjv_circuit:pl"
+      ],
+      "1:7": [
+        "sea full be:neg:pr",
+        "there they again return:pr"
+      ],
+      "1:8": [
+        "human it:a utter:neg:can",
+        "eye with see:ev",
+        "nor ear with hear:ev"
+      ],
+      "1:9": [
+        "be:perf",
+        "do:psv:fu",
+        "no new thing"
+      ],
+      "1:10": [
+        "this new be:pr?",
+        "before wesg"
+      ],
+      "1:11": [
+        "former thing:pl",
+        "they who after come:fu"
+      ],
+      "1:12": [
+        "i kjv_preacher king",
+        "be:pa"
+      ],
+      "1:13": [
+        "by wisdom seek:inf",
+        "kjv_grievous kjv_toil",
+        "with it busy:caus:psv:inf"
+      ],
+      "1:14": [
+        "all work:pl",
+        "vexation of spirit"
+      ],
+      "1:15": [
+        "straight:caus:psv:neg:can",
+        "lack:pr kjv_number:psv:neg:can"
+      ],
+      "1:16": [
+        "mine/own heart kjv_commune:pa",
+        "great estate",
+        "great experience"
+      ],
+      "1:17": [
+        "madness and folly",
+        "vexation of spirit"
+      ],
+      "1:18": [
+        "much wisdom much grief",
+        "knowledge:a increase:pr sorrow:a increase:pr"
+      ],
+      "2:1": [
+        "with mirth test:fu",
+        "pleasure:a kjv_enjoy:imp"
+      ],
+      "2:2": [
+        "of laughter",
+        "what it do:pr?"
+      ],
+      "2:3": [
+        "myself:a to wine",
+        "yet mine/heart:a with wisdom",
+        "they under heaven"
+      ],
+      "2:4": [
+        "for i great work:pl",
+        "house:pl",
+        "kjv_vineyard:pl"
+      ],
+      "2:5": [
+        "kjv_garden:pl:a and kjv_orchard:pl:a",
+        "all kind of fruit:pl"
+      ],
+      "2:6": [
+        "kjv_pool:pl",
+        "forest:a which kjv_tree:pl"
+      ],
+      "2:7": [
+        "born:psv:adj in my/house",
+        "great and small kjv_livestock"
+      ],
+      "2:8": [
+        "special treasure",
+        "kjv_male sing:ag:pl",
+        "woman sing:ag:pl",
+        "musical instrument:pl"
+      ],
+      "2:9": [
+        "my/wisdom with i remain:pa",
+        "more than all"
+      ],
+      "2:10": [
+        "from they keep:neg:pa",
+        "my/heart:a from any joy withhold:neg:pa"
+      ],
+      "2:11": [
+        "my/hand:pl work:pa",
+        "no benefit under sun"
+      ],
+      "2:12": [
+        "after king come:pr do:can?",
+        "already do:psv:perf"
+      ],
+      "2:13": [
+        "wisdom folly:a exceed:pr",
+        "light darkness:a exceed:pr"
+      ],
+      "2:14": [
+        "one_num event to all",
+        "i myself"
+      ],
+      "2:15": [
+        "why i then more wise be:pa?",
+        "then i in my/heart say:pa"
+      ],
+      "2:16": [
+        "all forget:psv:fu",
+        "how wise human die:pr? as fool"
+      ],
+      "2:17": [
+        "i life:a hate:pa",
+        "to i kjv_grievous"
+      ],
+      "2:18": [
+        "all my/labour:ev",
+        "after i be:fu leave:should"
+      ],
+      "2:19": [
+        "whether he wise human or fool",
+        "i myself:a wise"
+      ],
+      "2:20": [
+        "my/heart:a",
+        "despair:caus:inf turn:pa"
+      ],
+      "2:21": [
+        "kjv_equity",
+        "in it labour:neg:perf",
+        "his/share:ev"
+      ],
+      "2:22": [
+        "vexation of his/heart",
+        "under sun labour:perf"
+      ],
+      "2:23": [
+        "his/kjv_toil grief",
+        "his/heart in night rest:neg:pr"
+      ],
+      "2:24": [
+        "eat:should and drink:should",
+        "kjv_enjoy:caus:should",
+        "from hand of god"
+      ],
+      "2:25": [
+        "who else to this more than i hasten:can?"
+      ],
+      "2:26": [
+        "to sin:ag kjv_toil",
+        "kjv_heap:caus:inf",
+        "vexation of spirit"
+      ],
+      "3:1": [
+        "every thing season",
+        "every purpose"
+      ],
+      "3:2": [
+        "born:psv:inf",
+        "die:inf",
+        "plant:inf",
+        "up pluck:inf"
+      ],
+      "3:3": [
+        "kill:inf",
+        "heal:inf",
+        "down break:inf",
+        "up build:inf"
+      ],
+      "3:4": [
+        "weep:inf",
+        "laugh:inf",
+        "mourn:inf",
+        "dance:inf"
+      ],
+      "3:5": [
+        "stone:pl:a away cast:inf",
+        "stone:pl:a together gather:inf",
+        "kjv_forbear:inf"
+      ],
+      "3:6": [
+        "get:inf",
+        "lose:inf",
+        "keep:inf",
+        "away cast:inf"
+      ],
+      "3:7": [
+        "rend:inf",
+        "kjv_sew:inf",
+        "silence:a keep:inf",
+        "speak:inf"
+      ],
+      "3:8": [
+        "love:inf",
+        "hate:inf",
+        "time of war and time of peace"
+      ],
+      "3:9": [
+        "what benefit:a",
+        "he labour:pr"
+      ],
+      "3:10": [
+        "kjv_toil:a",
+        "busy:caus:psv:inf"
+      ],
+      "3:11": [
+        "world:a in their/heart",
+        "no human work:a",
+        "from beginning to end"
+      ],
+      "3:12": [
+        "no good in they",
+        "good:a in his/life do:inf"
+      ],
+      "3:13": [
+        "every human eat:should",
+        "gift of god"
+      ],
+      "3:14": [
+        "nothing to it put:psv:can",
+        "nor any thing from it take:psv:can",
+        "fear:should"
+      ],
+      "3:15": [
+        "already be:perf",
+        "god that which past be:pr require:pr"
+      ],
+      "3:16": [
+        "place of judgment:a",
+        "wicked:ev there",
+        "kjv_iniquity there"
+      ],
+      "3:17": [
+        "god kjv_righteous:a and wicked:a judge:fu",
+        "every purpose"
+      ],
+      "3:18": [
+        "estate of son:pl of human",
+        "they themselves beast:pl"
+      ],
+      "3:19": [
+        "one_num thing",
+        "one_num breath",
+        "no advantage above beast"
+      ],
+      "3:20": [
+        "one_num place",
+        "all to dust again"
+      ],
+      "3:21": [
+        "who spirit:a",
+        "up go:pr",
+        "down to earth go:pr",
+        "know:pr?"
+      ],
+      "3:22": [
+        "his/own work:pl rejoice:should",
+        "what after he be:fu"
+      ],
+      "4:1": [
+        "no comfort:ag:a have:pa",
+        "their/oppress:ag:pl power"
+      ],
+      "4:2": [
+        "dead who already dead",
+        "living who yet alive"
+      ],
+      "4:3": [
+        "both of they",
+        "yet be:neg:perf"
+      ],
+      "4:4": [
+        "every skilled work:a",
+        "by his/neighbour kjv_envy:psv:pr"
+      ],
+      "4:5": [
+        "kjv_fold_limb:pr",
+        "his/own flesh:a eat:pr"
+      ],
+      "4:6": [
+        "handful with quiet:ev",
+        "both hand:pl full"
+      ],
+      "4:7": [
+        "i return:pa and i vanity:a"
+      ],
+      "4:8": [
+        "one_num alone",
+        "second be:neg:pr",
+        "good:a from my/soul withhold:pr?"
+      ],
+      "4:9": [
+        "two better than one_num",
+        "they:du good reward"
+      ],
+      "4:10": [
+        "they:du fall:pr",
+        "one_num his/fellow:a up lift:fu"
+      ],
+      "4:11": [
+        "two together lie:pr",
+        "they:du heat",
+        "one_num alone warm"
+      ],
+      "4:12": [
+        "one_num against he prevail:pr",
+        "two against he stand:fu",
+        "three kjv_fold kjv_cord"
+      ],
+      "4:13": [
+        "poor and wise child",
+        "instruction:a no more receive:fu"
+      ],
+      "4:14": [
+        "out of prison",
+        "his/kingdom born:psv:pr poor become:pr"
+      ],
+      "4:15": [
+        "second child",
+        "in his/place up stand:fu"
+      ],
+      "4:16": [
+        "who after come:pr",
+        "in he rejoice:neg:fu"
+      ],
+      "5:1": [
+        "thy/foot:a keep:imp",
+        "more ready to hear:inf",
+        "kjv_sacrifice of fool:pl"
+      ],
+      "5:2": [
+        "rash be:neg:imp",
+        "haste:adj be:neg:imp",
+        "thy/word:pl few be:imp"
+      ],
+      "5:3": [
+        "kjv_multitude of business",
+        "kjv_multitude of word:pl"
+      ],
+      "5:4": [
+        "pay:inf defer:neg:imp",
+        "that which thou vow:perf pay:imp"
+      ],
+      "5:5": [
+        "vow:neg:should",
+        "pay:neg:should"
+      ],
+      "5:6": [
+        "sin:caus:inf allow:neg:imp",
+        "before angel",
+        "it error be:pa"
+      ],
+      "5:7": [
+        "different vanity:pl",
+        "god:a fear:imp"
+      ],
+      "5:8": [
+        "violent crooked:caus:ev",
+        "higher than highest",
+        "higher than they"
+      ],
+      "5:9": [
+        "king himself by field serve:psv:pr"
+      ],
+      "5:10": [
+        "with silver satisfy:psv:neg:fu",
+        "abundance:a love:pr"
+      ],
+      "5:11": [
+        "kjv_goods increase:pr",
+        "except they:a with their/eye:pl"
+      ],
+      "5:12": [
+        "whether he little or much",
+        "sleep:inf allow:neg:fu"
+      ],
+      "5:13": [
+        "i under sun see:perf",
+        "to their/hurt:ev keep:psv:adj"
+      ],
+      "5:14": [
+        "by evil kjv_toil perish:pr",
+        "nothing in his/hand"
+      ],
+      "5:15": [
+        "bare he",
+        "nothing of his/labour:ev"
+      ],
+      "5:16": [
+        "for wind labour:perf",
+        "what benefit"
+      ],
+      "5:17": [
+        "in darkness eat:pr",
+        "sorrow and wrath:a with his/sickness"
+      ],
+      "5:18": [
+        "i see:perf",
+        "his/life which god to he give:pr",
+        "his/share:ev"
+      ],
+      "5:19": [
+        "power:a to of it eat:inf",
+        "gift of god"
+      ],
+      "5:20": [
+        "much remember:neg:fu",
+        "god he:a in joy of his/heart answer:pr"
+      ],
+      "6:1": [
+        "i under sun see:perf",
+        "among human:pl common"
+      ],
+      "6:2": [
+        "yet god to he power:a",
+        "give:neg:pr but stranger",
+        "evil sickness"
+      ],
+      "6:3": [
+        "hundred child:pl",
+        "no burial",
+        "kjv_untimely_birth"
+      ],
+      "6:4": [
+        "his/name with darkness cover:psv:fu"
+      ],
+      "6:5": [
+        "sun:a see:neg:perf",
+        "more rest than other"
+      ],
+      "6:6": [
+        "two+thousand year:pl",
+        "all to one_num place go:neg:pr?"
+      ],
+      "6:7": [
+        "for his/mouth",
+        "appetite fill:psv:neg:pr"
+      ],
+      "6:8": [
+        "what wise more than fool",
+        "before living walk:inf"
+      ],
+      "6:9": [
+        "sight of eye:pl",
+        "wander:ev of desire"
+      ],
+      "6:10": [
+        "already name:psv:pr",
+        "it human be:pr",
+        "more mighty than he"
+      ],
+      "6:11": [
+        "many thing:pl",
+        "vanity:a increase:pr"
+      ],
+      "6:12": [
+        "as shadow spend:pr?",
+        "what after he under sun"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:12",
+        "1:13",
+        "1:14",
+        "1:16",
+        "1:17",
+        "2:1",
+        "2:10",
+        "2:11",
+        "2:12",
+        "2:13",
+        "2:14",
+        "2:15",
+        "2:17",
+        "2:18",
+        "2:19",
+        "2:2",
+        "2:20",
+        "2:24",
+        "2:25",
+        "2:3",
+        "2:4",
+        "2:5",
+        "2:6",
+        "2:7",
+        "2:8",
+        "2:9",
+        "3:10",
+        "3:12",
+        "3:14",
+        "3:16",
+        "3:17",
+        "3:18",
+        "3:22",
+        "4:1",
+        "4:15",
+        "4:2",
+        "4:4",
+        "4:7",
+        "4:8",
+        "5:13",
+        "5:18",
+        "6:1",
+        "6:3"
+      ],
+      "ipl": [],
+      "wesg": [
+        "1:10"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "4:10",
+        "4:11",
+        "4:9"
+      ],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Shared one fate/breath/place2:14,3:19–20retain rhetorical quantities without deity counts.",
+      "Solitary one/no second4:8,pairs4:9–12,threefold cord4:12and ordinal second successor4:15retain distinctions. Physical dual refers to the helping/warming pair.",
+      "Hundred children6:3is hypothetical;thousand years twice told6:6is exactly2000,followed by one shared destination. Indefinite generation1:4and person5:18remain uncounted."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ecclesiastes1–6adds114of222verses;wholeBibleincomplete.",
+      "Personal-I remains the Preachers experiment and embedded solitary question;singular-we1:10is shared present humanity;physical dual4:9–11is a human pair;no new divine plural-I.",
+      "Source choices retained:musical instruments2:8,more than I2:25,world3:11,interrogative human/beast spirits3:21,envied passive4:4,God answers5:20and stranger enjoys6:2.",
+      "Three common labels distinguish Preacher role,burdensome occupational travail and orchard;no new proper names.",
+      "Inward dialogue,despair,shared mortality and conflicting wealth/wisdom claims remain unharmonized;no compiler/paradigm changes or inherited target repairs."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ecclesiastes — incomplete Bible working text",
+    "pages": 72,
+    "spreads": 36,
+    "units": 114,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "9a495ac6afdf059af665e4559b0189dfff91494af6320b560d914dd7037aa391",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 36,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.621,
+    "modules": [
+      "tests.test_kjv_ecclesiastes_inquiry",
+      "tests.test_kjv_proverb_agur_lists",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    71,
+    72
+  ],
+  "status": "incompleteBible;Ecclesiastes1–6sectioncheckpointverified"
+}

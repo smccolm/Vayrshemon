@@ -1,0 +1,1463 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.155",
+    "parentVersion": "0.10-kjv.154",
+    "parentHead": "3a95f3159d9f653d3da18c27c13936516dd800f151144013df4cdedb1e7e24fc",
+    "head": "bd0bb52545d065788c36d638ce57edf5f2f896393d97ed503b119224866578a4",
+    "newLexicalEntries": 9,
+    "newProperEntries": 8,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 144,
+    "exactCompilerCases": 144,
+    "newAuthoredVerses": 144,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 10743,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 144,
+    "jeremiahVerses": 1364,
+    "authoredVerses": 20359,
+    "remainingVerses": 10743,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 20,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 50:17",
+        "source": "Israel is a scattered sheep; the lions have driven him away: first the king of Assyria hath devoured him; and last this Nebuchadrezzar king of Babylon hath broken his bones.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 51:31",
+        "source": "One post shall run to meet another, and one messenger to meet another, to shew the king of Babylon that his city is taken at one end,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 51:46",
+        "source": "And lest your heart faint, and ye fear for the rumour that shall be heard in the land; a rumour shall both come one year, and after that in another year shall come a rumour, and violence in the land, ruler against ruler.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 51:59",
+        "source": "The word which Jeremiah the prophet commanded Seraiah the son of Neriah, the son of Maaseiah, when he went with Zedekiah the king of Judah into Babylon in the fourth year of his reign. And this Seraiah was a quiet prince.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:1",
+        "source": "Zedekiah was one and twenty years old when he began to reign, and he reigned eleven years in Jerusalem. And his mother’s name was Hamutal the daughter of Jeremiah of Libnah.",
+        "expectedDecimalQuantities": [
+          21,
+          11
+        ],
+        "targetQuantities": [
+          21,
+          11
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:4",
+        "source": "And it came to pass in the ninth year of his reign, in the tenth month, in the tenth day of the month, that Nebuchadrezzar king of Babylon came, he and all his army, against Jerusalem, and pitched against it, and built forts against it round about.",
+        "expectedDecimalQuantities": [
+          9,
+          10,
+          10
+        ],
+        "targetQuantities": [
+          9,
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:5",
+        "source": "So the city was besieged unto the eleventh year of king Zedekiah.",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:6",
+        "source": "And in the fourth month, in the ninth day of the month, the famine was sore in the city, so that there was no bread for the people of the land.",
+        "expectedDecimalQuantities": [
+          4,
+          9
+        ],
+        "targetQuantities": [
+          4,
+          9
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:7",
+        "source": "Then the city was broken up, and all the men of war fled, and went forth out of the city by night by the way of the gate between the two walls, which was by the king’s garden; (now the Chaldeans were by the city round about:) and they went by the way of the plain.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:12",
+        "source": "Now in the fifth month, in the tenth day of the month, which was the nineteenth year of Nebuchadrezzar king of Babylon, came Nebuzaradan, captain of the guard, which served the king of Babylon, into Jerusalem,",
+        "expectedDecimalQuantities": [
+          5,
+          10,
+          19
+        ],
+        "targetQuantities": [
+          5,
+          10,
+          19
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:20",
+        "source": "The two pillars, one sea, and twelve brasen bulls that were under the bases, which king Solomon had made in the house of the LORD: the brass of all these vessels was without weight.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          12
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          12
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:21",
+        "source": "And concerning the pillars, the height of one pillar was eighteen cubits; and a fillet of twelve cubits did compass it; and the thickness thereof was four fingers: it was hollow.",
+        "expectedDecimalQuantities": [
+          1,
+          18,
+          12,
+          4
+        ],
+        "targetQuantities": [
+          1,
+          18,
+          12,
+          4
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:22",
+        "source": "And a chapiter of brass was upon it; and the height of one chapiter was five cubits, with network and pomegranates upon the chapiters round about, all of brass. The second pillar also and the pomegranates were like unto these.",
+        "expectedDecimalQuantities": [
+          1,
+          5,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          5,
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:23",
+        "source": "And there were ninety and six pomegranates on a side; and all the pomegranates upon the network were an hundred round about.",
+        "expectedDecimalQuantities": [
+          96,
+          100
+        ],
+        "targetQuantities": [
+          96,
+          100
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:24",
+        "source": "And the captain of the guard took Seraiah the chief priest, and Zephaniah the second priest, and the three keepers of the door:",
+        "expectedDecimalQuantities": [
+          2,
+          3
+        ],
+        "targetQuantities": [
+          2,
+          3
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:25",
+        "source": "He took also out of the city an eunuch, which had the charge of the men of war; and seven men of them that were near the king’s person, which were found in the city; and the principal scribe of the host, who mustered the people of the land; and threescore men of the people of the land, that were found in the midst of the city.",
+        "expectedDecimalQuantities": [
+          7,
+          60
+        ],
+        "targetQuantities": [
+          7,
+          60
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:28",
+        "source": "This is the people whom Nebuchadrezzar carried away captive: in the seventh year three thousand Jews and three and twenty:",
+        "expectedDecimalQuantities": [
+          7,
+          3023
+        ],
+        "targetQuantities": [
+          7,
+          3023
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:29",
+        "source": "In the eighteenth year of Nebuchadrezzar he carried away captive from Jerusalem eight hundred thirty and two persons:",
+        "expectedDecimalQuantities": [
+          18,
+          832
+        ],
+        "targetQuantities": [
+          18,
+          832
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:30",
+        "source": "In the three and twentieth year of Nebuchadrezzar Nebuzaradan the captain of the guard carried away captive of the Jews seven hundred forty and five persons: all the persons were four thousand and six hundred.",
+        "expectedDecimalQuantities": [
+          23,
+          745,
+          4600
+        ],
+        "targetQuantities": [
+          23,
+          745,
+          4600
+        ]
+      },
+      {
+        "reference": "Jeremiah 52:31",
+        "source": "And it came to pass in the seven and thirtieth year of the captivity of Jehoiachin king of Judah, in the twelfth month, in the five and twentieth day of the month, that Evilmerodach king of Babylon in the first year of his reign lifted up the head of Jehoiachin king of Judah, and brought him forth out of prison.",
+        "expectedDecimalQuantities": [
+          37,
+          12,
+          25,
+          1
+        ],
+        "targetQuantities": [
+          37,
+          12,
+          25,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "50:1": [
+        "against kjv_babylon",
+        "by kjv_jeremiah_prophet kjv_prophet"
+      ],
+      "50:2": [
+        "banner:a up set:imp",
+        "conceal:neg:imp",
+        "kjv_bel",
+        "kjv_merodach"
+      ],
+      "50:3": [
+        "out of kjv_north",
+        "none in it dwell:fu",
+        "both man and beast"
+      ],
+      "50:4": [
+        "child:pl of kjv_israel",
+        "child:pl of kjv_judah together",
+        "go:cv and weep:cv"
+      ],
+      "50:5": [
+        "wesg ourselves:a",
+        "perpetual kjv_covenant",
+        "forget:psv:neg:fu"
+      ],
+      "50:6": [
+        "mypl/people lost sheep",
+        "astray go:caus:perf",
+        "their/rest:ev place:a forget:perf"
+      ],
+      "50:7": [
+        "their/kjv_adversary:pl say:pa wesg offend:neg:pr",
+        "dwell:ev of justice"
+      ],
+      "50:8": [
+        "kjv_male kjv_goat:pl before flock:pl"
+      ],
+      "50:9": [
+        "ipl kjv_assembly:a",
+        "their/arrow:pl",
+        "none in vain return:fu"
+      ],
+      "50:10": [
+        "kjv_chaldea spoil",
+        "satisfy:psv:fu"
+      ],
+      "50:11": [
+        "destroy:ag:pl of mypl/heritage",
+        "kjv_heifer at grass",
+        "bull:pl kjv_low_cattle:pr"
+      ],
+      "50:12": [
+        "she who you:a bear:pa",
+        "kjv_wilderness and dry land and barren land"
+      ],
+      "50:13": [
+        "inhabit:psv:neg:fu",
+        "every human",
+        "kjv_hiss:fu"
+      ],
+      "50:14": [
+        "kjv_bow:a bend:pr",
+        "no arrow:pl:a spare:imp"
+      ],
+      "50:15": [
+        "her/hand:a give:perf",
+        "her/kjv_foundation:pl fall:perf",
+        "as she do:perf to she do:imp"
+      ],
+      "50:16": [
+        "kjv_sow:ag:a",
+        "kjv_sickle:a",
+        "each to his/own land"
+      ],
+      "50:17": [
+        "first king of kjv_assyria",
+        "last this kjv_nebuchadrezzar",
+        "his/bone:pl:a break:perf"
+      ],
+      "50:18": [
+        "ipl king:a of kjv_babylon",
+        "as ipl king:a of kjv_assyria"
+      ],
+      "50:19": [
+        "kjv_carmel and kjv_bashan",
+        "kjv_ephraim and kjv_gilead"
+      ],
+      "50:20": [
+        "none be:fu",
+        "find:psv:neg:fu",
+        "ipl those:a whom ipl keep:pr pardon:fu"
+      ],
+      "50:21": [
+        "kjv_merathaim",
+        "kjv_pekod",
+        "after they",
+        "all that ipl thee:a command:perf"
+      ],
+      "50:22": [
+        "sound of battle",
+        "great destroy:ev"
+      ],
+      "50:23": [
+        "kjv_hammer of whole earth",
+        "break:psv:pr:excl",
+        "become:perf:excl"
+      ],
+      "50:24": [
+        "ipl snare:a for thee lay:perf",
+        "thou know:neg:pa",
+        "strive:perf"
+      ],
+      "50:25": [
+        "his/kjv_armoury:a open:perf",
+        "weapon:pl:a of his/indignation"
+      ],
+      "50:26": [
+        "her/kjv_storehouse:pl:a",
+        "nothing of she leave:psv:opt"
+      ],
+      "50:27": [
+        "her/kjv_bullock:pl:a slay:imp",
+        "woe to they:excl"
+      ],
+      "50:28": [
+        "kjv_lord ourone/god",
+        "kjv_avenge:ev:a of his/temple"
+      ],
+      "50:29": [
+        "none of it escape:opt",
+        "kjv_holy_one of kjv_israel"
+      ],
+      "50:30": [
+        "her/young man:pl",
+        "all her/man:pl of war"
+      ],
+      "50:31": [
+        "ipl against thee",
+        "most proud",
+        "ipl thee:a visit:fu"
+      ],
+      "50:32": [
+        "none he:a up raise:fu",
+        "ipl fire:a",
+        "kjv_kindle_fire:fu"
+      ],
+      "50:33": [
+        "together oppress:psv:pa",
+        "kjv_firmly hold:pa",
+        "go:caus:inf refuse:pa"
+      ],
+      "50:34": [
+        "their/redeem:ag",
+        "their/cause:a whole:adv kjv_litigate:fu",
+        "rest:a to land",
+        "disturb:may"
+      ],
+      "50:35": [
+        "upon kjv_chaldean:pl",
+        "her/prince:pl",
+        "her/wise man:pl"
+      ],
+      "50:36": [
+        "kjv_lie_false:ag:pl",
+        "foolish become:fu",
+        "kjv_dismay:psv:fu"
+      ],
+      "50:37": [
+        "mix:psv:adj people",
+        "as woman:pl become:fu",
+        "her/treasure:pl"
+      ],
+      "50:38": [
+        "kjv_drought upon her/water:pl",
+        "kjv_graven image:pl",
+        "mad upon their/idol:pl"
+      ],
+      "50:39": [
+        "wild beast:pl of dry land",
+        "wild beast:pl of kjv_isle:pl",
+        "owl:pl",
+        "no more forever",
+        "neither it from generation"
+      ],
+      "50:40": [
+        "kjv_overthrow:pa",
+        "no man there dwell:fu",
+        "neither any son of man"
+      ],
+      "50:41": [
+        "many king:pl",
+        "kjv_coast_region:pl"
+      ],
+      "50:42": [
+        "kjv_lance:a",
+        "mercy:a show:neg:fu",
+        "each in battle order"
+      ],
+      "50:43": [
+        "his/hand:pl feeble",
+        "woman in kjv_travail:ev"
+      ],
+      "50:44": [
+        "ipl they:a suddenly away from she run:caus:fu",
+        "who to ipl time:a appoint:fu"
+      ],
+      "50:45": [
+        "least of flock they:a out draw:fu",
+        "place:a of their/dwell:ev"
+      ],
+      "50:46": [
+        "take:ev of kjv_babylon",
+        "cry:ev among nation:pl"
+      ],
+      "51:1": [
+        "those who in middle of those who against ipl up rise:pr",
+        "destroy:cv wind:a"
+      ],
+      "51:2": [
+        "kjv_winnow:ag:pl:a",
+        "she:a kjv_winnow:fu",
+        "her/land:a empty:caus:fu"
+      ],
+      "51:3": [
+        "his/kjv_brigandine",
+        "spare:neg:imp",
+        "all her/army:a destroy:imp"
+      ],
+      "51:4": [
+        "through pierce:psv:pr",
+        "in her/street:pl"
+      ],
+      "51:5": [
+        "forsake:psv:neg:perf",
+        "though their/land",
+        "kjv_holy_one"
+      ],
+      "51:6": [
+        "each man his/soul:a",
+        "off cut:psv:neg:imp"
+      ],
+      "51:7": [
+        "gold cup in hand of kjv_lord",
+        "all earth:a drunk make:pa",
+        "nation:pl mad"
+      ],
+      "51:8": [
+        "kjv_balm:a for her/pain",
+        "if so she heal:psv:may"
+      ],
+      "51:9": [
+        "wesg kjv_babylon:a heal:pp:should",
+        "heal:psv:neg:pr",
+        "wesg each into his/own country"
+      ],
+      "51:10": [
+        "ourone/kjv_righteousness:a",
+        "wesg in kjv_zion",
+        "ourone/god"
+      ],
+      "51:11": [
+        "kjv_shield_armour:pl:a",
+        "king:pl of kjv_mede:pl",
+        "his/plan",
+        "his/temple"
+      ],
+      "51:12": [
+        "watch:ev:a strong",
+        "watch:ag:pl:a",
+        "both plan:perf and do:perf"
+      ],
+      "51:13": [
+        "many water:pl",
+        "measure of thy/kjv_covet:ev"
+      ],
+      "51:14": [
+        "by himself swear:perf",
+        "ipl thee:a",
+        "kjv_caterpiller:pl"
+      ],
+      "51:15": [
+        "his/power",
+        "his/wisdom",
+        "his/understand:ev"
+      ],
+      "51:16": [
+        "kjv_vapour:pl:a",
+        "up rise:caus:pr",
+        "lightning:pl:a with rain",
+        "wind:a out of his/treasure:pl"
+      ],
+      "51:17": [
+        "by his/knowledge kjv_brutish",
+        "kjv_founder_metal",
+        "his/melt:psv:adj image",
+        "no breath"
+      ],
+      "51:18": [
+        "work of error:pl",
+        "they perish:fu"
+      ],
+      "51:19": [
+        "kjv_portion_share of kjv_jacob",
+        "form:ag of all thing:pl",
+        "rod of his/inheritance"
+      ],
+      "51:20": [
+        "mypl/battle kjv_axe",
+        "with thee ipl nation:pl:a",
+        "kingdom:pl:a destroy:fu"
+      ],
+      "51:21": [
+        "horse:a and his/ride:ag:a",
+        "chariot:a and his/ride:ag:a"
+      ],
+      "51:22": [
+        "man:a and woman:a",
+        "old:pl:a and young:pl:a",
+        "young man:a and maid:a"
+      ],
+      "51:23": [
+        "shepherd:a and his/flock:a",
+        "kjv_till_land:ag:a and his/yoke:a of ox:pl",
+        "captain:pl:a and rule:ag:pl:a"
+      ],
+      "51:24": [
+        "all their/evil:a",
+        "in kjv_zion in your/sight"
+      ],
+      "51:25": [
+        "destroy:cv mountain",
+        "mypl/hand:a",
+        "down from rock:pl roll:fu",
+        "burn:psv:adj mountain"
+      ],
+      "51:26": [
+        "stone:a for corner take:neg:fu",
+        "nor stone:a for kjv_foundation:pl"
+      ],
+      "51:27": [
+        "kjv_ararat kjv_minni and kjv_ashchenaz",
+        "rough kjv_caterpiller:pl"
+      ],
+      "51:28": [
+        "king:pl of kjv_mede:pl",
+        "all land of his/kjv_dominion"
+      ],
+      "51:29": [
+        "every purpose",
+        "without inhabit:ag"
+      ],
+      "51:30": [
+        "to fight:inf kjv_forbear:perf",
+        "as woman:pl",
+        "her/bar:pl break:psv:pr"
+      ],
+      "51:31": [
+        "messenger to other meet:inf",
+        "one_num end"
+      ],
+      "51:32": [
+        "kjv_passage_route:pl",
+        "reed:pl:a",
+        "frighten:psv:pr"
+      ],
+      "51:33": [
+        "kjv_threshfloor",
+        "time to she:a kjv_thresh:inf",
+        "time of her/harvest"
+      ],
+      "51:34": [
+        "ipl:a devour:perf",
+        "ipl:a empty vessel",
+        "kjv_dragon_source",
+        "mypl/delicate food:pl"
+      ],
+      "51:35": [
+        "to ipl and to mypl/flesh",
+        "inhabit:ag of kjv_zion say:fu",
+        "mypl/blood",
+        "kjv_jerusalem say:fu"
+      ],
+      "51:36": [
+        "ipl thy/cause:a kjv_litigate:fu",
+        "her/sea:a up dry:fu",
+        "her/spring:pl:a"
+      ],
+      "51:37": [
+        "kjv_dragon_creature:pl",
+        "kjv_hiss:ev",
+        "without inhabit:ag"
+      ],
+      "51:38": [
+        "like lion:pl roar:fu",
+        "lion:pl kjv_whelp:pl loud cry:fu"
+      ],
+      "51:39": [
+        "in their/heat",
+        "perpetual sleep:a sleep:may",
+        "wake:neg:may"
+      ],
+      "51:40": [
+        "kjv_lamb:pl to kjv_slaughter",
+        "kjv_ram:pl with kjv_male kjv_goat:pl"
+      ],
+      "51:41": [
+        "kjv_sheshach",
+        "suddenly take:psv:pr:excl",
+        "become:perf:excl"
+      ],
+      "51:42": [
+        "sea upon kjv_babylon",
+        "its/kjv_wave:pl"
+      ],
+      "51:43": [
+        "no man dwell:pr",
+        "neither any son of man by it pass:pr"
+      ],
+      "51:44": [
+        "ipl kjv_bel:a",
+        "his/mouth",
+        "no more together to he flow:fu"
+      ],
+      "51:45": [
+        "mypl/people",
+        "each man his/soul:a"
+      ],
+      "51:46": [
+        "one_num year",
+        "other year",
+        "kjv_violence in land",
+        "rule:ag against rule:ag"
+      ],
+      "51:47": [
+        "ipl judgment:a",
+        "her/whole land",
+        "all her/slay:psv:adj:pl"
+      ],
+      "51:48": [
+        "for kjv_babylon sing:fu",
+        "from kjv_north"
+      ],
+      "51:49": [
+        "slay:psv:adj:pl:a of kjv_israel fall:caus:perf",
+        "slay:psv:adj:pl of all earth"
+      ],
+      "51:50": [
+        "still stand:neg:imp",
+        "far off remember:imp",
+        "your/mind come:opt"
+      ],
+      "51:51": [
+        "wesg confound:psv:pr",
+        "wesg kjv_reproach:a hear:perf",
+        "ourone/face:pl:a"
+      ],
+      "51:52": [
+        "her/kjv_graven image:pl",
+        "kjv_wound_inflict:psv:adj:pl groan:fu"
+      ],
+      "51:53": [
+        "up to heaven go:should",
+        "from ipl spoil:ag:pl"
+      ],
+      "51:54": [
+        "sound of cry:ev",
+        "land of kjv_chaldean:pl"
+      ],
+      "51:55": [
+        "great voice:a destroy:perf",
+        "her/kjv_wave:pl",
+        "noise of their/voice"
+      ],
+      "51:56": [
+        "each of their/kjv_bow:pl",
+        "god of recompense:ev:pl"
+      ],
+      "51:57": [
+        "her/prince:pl:a",
+        "her/wise man:pl:a",
+        "her/captain:pl:a",
+        "her/rule:ag:pl:a",
+        "her/mighty man:pl:a",
+        "wake:neg:fu"
+      ],
+      "51:58": [
+        "broad wall:pl",
+        "high gate:pl",
+        "people in fire",
+        "weary:psv:fu"
+      ],
+      "51:59": [
+        "kjv_seraiah_neriah son of kjv_neriah_seraiah son of kjv_maaseiah_seraiah",
+        "four:ord year",
+        "quiet prince"
+      ],
+      "51:60": [
+        "in book all evil:a",
+        "all these word:pl"
+      ],
+      "51:61": [
+        "see:fu",
+        "read:fu"
+      ],
+      "51:62": [
+        "none in it remain:fu neither man nor beast"
+      ],
+      "51:63": [
+        "stone:a to it bind:fu",
+        "middle of kjv_euphrates"
+      ],
+      "51:64": [
+        "sink:fu",
+        "ipl upon she bring:fu rise:neg:fu",
+        "thus far word:pl of kjv_jeremiah_prophet"
+      ],
+      "52:1": [
+        "twenty and one_num year:pl",
+        "eleven year:pl",
+        "kjv_hamutal daughter of kjv_jeremiah_hamutal of kjv_libnah_city"
+      ],
+      "52:2": [
+        "evil in eye:pl of kjv_lord",
+        "kjv_jehoiakim"
+      ],
+      "52:3": [
+        "through anger of kjv_lord",
+        "kjv_zedekiah_king against king of kjv_babylon rebel:pa"
+      ],
+      "52:4": [
+        "nine:ord year",
+        "ten:ord month",
+        "ten:ord day",
+        "camp:pa",
+        "kjv_siege_fort:pl:a"
+      ],
+      "52:5": [
+        "eleven:ord year"
+      ],
+      "52:6": [
+        "four:ord month",
+        "nine:ord day",
+        "no bread"
+      ],
+      "52:7": [
+        "between two wall:pl",
+        "king kjv_garden",
+        "(now kjv_chaldean:pl"
+      ],
+      "52:8": [
+        "plain:pl of kjv_jericho",
+        "all his/army from he scatter:psv:pa"
+      ],
+      "52:9": [
+        "kjv_riblah_hamath in land of kjv_hamath",
+        "judgment:a give:pa"
+      ],
+      "52:10": [
+        "son:pl:a of kjv_zedekiah_king before his/eye:pl",
+        "all prince:pl:a"
+      ],
+      "52:11": [
+        "eye:pl:a",
+        "out put:pa",
+        "in prison until day of his/death"
+      ],
+      "52:12": [
+        "five:ord month",
+        "ten:ord day",
+        "twelve and seven:ord year"
+      ],
+      "52:13": [
+        "house:a of kjv_lord",
+        "king house:a",
+        "all house:pl of kjv_jerusalem"
+      ],
+      "52:14": [
+        "all wall:pl:a",
+        "round about down break:pa"
+      ],
+      "52:15": [
+        "some:a of poor",
+        "who to king of kjv_babylon fall:pa"
+      ],
+      "52:16": [
+        "some:a of poor",
+        "kjv_vinedresser:pl",
+        "kjv_till_land:ag:pl"
+      ],
+      "52:17": [
+        "kjv_brass kjv_sea_basin",
+        "all their/kjv_brass:a"
+      ],
+      "52:18": [
+        "kjv_caldron:pl",
+        "kjv_shovel:pl",
+        "kjv_snuffer:pl",
+        "bowl:pl",
+        "kjv_spoon:pl"
+      ],
+      "52:19": [
+        "kjv_basin:pl",
+        "kjv_firepan:pl",
+        "kjv_candlestick:pl",
+        "cup:pl",
+        "of gold in gold",
+        "of silver in silver"
+      ],
+      "52:20": [
+        "two kjv_pillar:pl one_num kjv_sea_basin and twelve kjv_brass bull:pl",
+        "under base:pl",
+        "without weight"
+      ],
+      "52:21": [
+        "one_num kjv_pillar twelve and six kjv_cubit:pl",
+        "kjv_fillet_band of twelve kjv_cubit:pl",
+        "four finger:pl",
+        "within empty"
+      ],
+      "52:22": [
+        "one_num kjv_chapiter five kjv_cubit:pl",
+        "second kjv_pillar",
+        "kjv_net work"
+      ],
+      "52:23": [
+        "eight+twelve pomegranate:pl",
+        "hundred round about"
+      ],
+      "52:24": [
+        "kjv_seraiah_priest",
+        "kjv_zephaniah_priest second priest:a",
+        "three door keep:ag:pl:a"
+      ],
+      "52:25": [
+        "eunuch:a",
+        "seven man:pl",
+        "chief kjv_scribe",
+        "five+twelve man:pl"
+      ],
+      "52:26": [
+        "kjv_nebuzaradan",
+        "kjv_riblah_hamath"
+      ],
+      "52:27": [
+        "to death put:pa",
+        "his/own land"
+      ],
+      "52:28": [
+        "seven:ord year three+thousand and twenty and three jew:pl"
+      ],
+      "52:29": [
+        "twelve and six:ord year",
+        "eight+hundred and thirty and two person:pl"
+      ],
+      "52:30": [
+        "twenty and three:ord year",
+        "seven+hundred and forty and five person:pl",
+        "four+thousand and six+hundred"
+      ],
+      "52:31": [
+        "thirty and seven:ord year",
+        "twelve:ord month",
+        "twenty and five:ord day",
+        "first year",
+        "out of prison"
+      ],
+      "52:32": [
+        "kindly",
+        "above throne of king:pl"
+      ],
+      "52:33": [
+        "his/prison clothing:a",
+        "all day:pl of his/life"
+      ],
+      "52:34": [
+        "continue:adj kjv_allowance",
+        "every day kjv_foodportion",
+        "until day of his/death",
+        "all day:pl of his/life"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [],
+      "ipl": [
+        "50:18",
+        "50:19",
+        "50:20",
+        "50:21",
+        "50:24",
+        "50:31",
+        "50:32",
+        "50:44",
+        "50:9",
+        "51:1",
+        "51:14",
+        "51:20",
+        "51:21",
+        "51:22",
+        "51:23",
+        "51:24",
+        "51:25",
+        "51:34",
+        "51:35",
+        "51:36",
+        "51:39",
+        "51:40",
+        "51:44",
+        "51:47",
+        "51:52",
+        "51:53",
+        "51:57",
+        "51:64"
+      ],
+      "wesg": [
+        "50:5",
+        "50:7",
+        "51:10",
+        "51:51",
+        "51:9"
+      ],
+      "wepl": [],
+      "mypl": [
+        "50:11",
+        "50:6",
+        "51:20",
+        "51:25",
+        "51:34",
+        "51:35",
+        "51:45"
+      ],
+      "ourone": [
+        "50:28",
+        "51:10",
+        "51:51"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Exact source chronology,temple measures and counts retained beside differing Kings parallels.",
+      "3023+832+745=4600;no invented missing subgroup or normalization to other deportation accounts.",
+      "Relayed messengers,every bow and each fleeing person are distributive;one end and one year remain cardinal."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah50–52 adds144 verses,total1364 and complete Jeremiah;whole Bible incomplete.",
+      "Divine and civic plural-I,opposed communal singular-we,and nested quoted divine threat retained.",
+      "Awkward metaphors,gendered source rhetoric and conflicting source-parallel details remain attributed.",
+      "One common sense and8 contextual names added;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 1114,
+    "spreads": 557,
+    "units": 1364,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c5e45e99fe92f1485a308d6c9c18816def72ea8e9a98be4b90677dca4930d38e",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 557,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.416,
+    "modules": [
+      "tests.test_kjv_jeremiah_exile_appendix",
+      "tests.test_kjv_jeremiah_nations_lamented",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    1113,
+    1114
+  ],
+  "status": "incomplete Bible;Jeremiah1–52 section checkpoint verified",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "d4e9273c753e6a4971239bd2664fb31e2e939621666ef5098c9129fa60f4a66b",
+    "pages": 13786,
+    "spreads": 6893,
+    "authoredVerses": 20359,
+    "missingVerses": 10743,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 27572,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Genesis.vay",
+        "sha256": "bbf6c7a92ef956364ece52877f1998be0b02ddfb7e33f2563afb529b41cb79dd",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Exodus.vay",
+        "sha256": "5d69c5730d924959e1019809b8c2f7738161ffb011e144f6d1c9d57dc5957fe7",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Leviticus.vay",
+        "sha256": "acece7c9de894107116d7e27cab2a67fa2300ea2b37ae14e30523e109024b27b",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Numbers.vay",
+        "sha256": "b2edc7791a7e89e92c9cab6759c24d76b7fa7b3a9a290a352201d624f6174199",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Deuteronomy.vay",
+        "sha256": "e71f451a8ae07c3d5a3604d569192d12864ed9887d48ebc7e684b13e54c3dad2",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Joshua.vay",
+        "sha256": "04524ad57a4e8bfbc78fb5c8384faae56437b88c67cc4fd9e13819b1766efae3",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Judges.vay",
+        "sha256": "ccccb1c5b09c54b80866e25aae8a49ccf20a53ec278b844860e9fd9553932c01",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Ruth.vay",
+        "sha256": "8ad1ca7778bd9763a56e5efb28291827eb797fc2eacfc18ff4b1e7d6fece4033",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Chronicles.vay",
+        "sha256": "d95465cafe4db78a757f2a5c3b4cbaf94b44f5101c865c07adaaa9387d5bf906",
+        "firstPage": 7483,
+        "lastPage": 8006
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Chronicles2.vay",
+        "sha256": "77a0caef2309273bcc99db7c88022f1cbe154df236ff4153fda036b34e8f9a8b",
+        "firstPage": 8007,
+        "lastPage": 8692
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Ezra.vay",
+        "sha256": "35cdd43f50d0192404e588ea0656e33744e23846a5ca5345b01a89c595ff157c",
+        "firstPage": 8693,
+        "lastPage": 8882
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Nehemiah.vay",
+        "sha256": "b5abc4ad65f8fa51146ab7cb9c3b7a0f3938a7ab8f3b9cb3d0d52957b40d442d",
+        "firstPage": 8883,
+        "lastPage": 9160
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Esther.vay",
+        "sha256": "e6ff324bc045bea6f1fa34c5dcbc14de09a25b295ca75f76ccc318f011605ddb",
+        "firstPage": 9161,
+        "lastPage": 9300
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Job.vay",
+        "sha256": "2bcc3eea6400ebf96761b4f3cfe2e5da61758d7a9799e36b031f8bbe2820c4dc",
+        "firstPage": 9301,
+        "lastPage": 9806
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Psalms.vay",
+        "sha256": "6b1d4269d4f51e4168bb6dfdb366c202f023daba3fecad530460c25e5a0d1816",
+        "firstPage": 9807,
+        "lastPage": 11050
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Proverbs.vay",
+        "sha256": "5648490204035d240dc63199dc7a6905a5c7ca490a51eeb225c810db1167c5a9",
+        "firstPage": 11051,
+        "lastPage": 11458
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Ecclesiastes.vay",
+        "sha256": "d420d4c11a9fa5925ffa91a9d6beec1ac0cb8e5477df6c7d30907ccea2876b70",
+        "firstPage": 11459,
+        "lastPage": 11598
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Song of Solomon.vay",
+        "sha256": "2a7ad490d41aed88ca6818783739b200cf6b35e3b8d75c8fe3f050cfd19581e4",
+        "firstPage": 11599,
+        "lastPage": 11670
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Isaiah.vay",
+        "sha256": "fb00f8ac6c07250bdcb761e28b18716ef78f9275537fc42bd6f244d5f136cd6d",
+        "firstPage": 11671,
+        "lastPage": 12630
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Jeremiah.vay",
+        "sha256": "c5e45e99fe92f1485a308d6c9c18816def72ea8e9a98be4b90677dca4930d38e",
+        "firstPage": 12631,
+        "lastPage": 13744
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.155\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 13745,
+        "lastPage": 13786
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.90",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.93",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.93",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.93",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "working"
+      },
+      {
+        "section": "1 Chronicles",
+        "version": "0.10-kjv.93",
+        "firstPage": 7483,
+        "lastPage": 8006,
+        "status": "working"
+      },
+      {
+        "section": "2 Chronicles",
+        "version": "0.10-kjv.94",
+        "firstPage": 8007,
+        "lastPage": 8692,
+        "status": "working"
+      },
+      {
+        "section": "Ezra",
+        "version": "0.10-kjv.96",
+        "firstPage": 8693,
+        "lastPage": 8882,
+        "status": "working"
+      },
+      {
+        "section": "Nehemiah",
+        "version": "0.10-kjv.100",
+        "firstPage": 8883,
+        "lastPage": 9160,
+        "status": "working"
+      },
+      {
+        "section": "Esther",
+        "version": "0.10-kjv.101",
+        "firstPage": 9161,
+        "lastPage": 9300,
+        "status": "working"
+      },
+      {
+        "section": "Job",
+        "version": "0.10-kjv.107",
+        "firstPage": 9301,
+        "lastPage": 9806,
+        "status": "working"
+      },
+      {
+        "section": "Psalms 1–150",
+        "version": "0.10-kjv.120",
+        "firstPage": 9807,
+        "lastPage": 11050,
+        "status": "working"
+      },
+      {
+        "section": "Proverbs",
+        "version": "0.10-kjv.132",
+        "firstPage": 11051,
+        "lastPage": 11458,
+        "status": "working"
+      },
+      {
+        "section": "Ecclesiastes",
+        "version": "0.10-kjv.128",
+        "firstPage": 11459,
+        "lastPage": 11598,
+        "status": "working"
+      },
+      {
+        "section": "Song of Solomon",
+        "version": "0.10-kjv.129",
+        "firstPage": 11599,
+        "lastPage": 11670,
+        "status": "working"
+      },
+      {
+        "section": "Isaiah",
+        "version": "0.10-kjv.141",
+        "firstPage": 11671,
+        "lastPage": 12630,
+        "status": "working"
+      },
+      {
+        "section": "Jeremiah",
+        "version": "0.10-kjv.155",
+        "firstPage": 12631,
+        "lastPage": 13744,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 13745,
+        "lastPage": 13786,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    11379,
+    11380,
+    13077,
+    13078,
+    13259,
+    13260,
+    13635,
+    13636,
+    13699,
+    13700,
+    13701,
+    13702,
+    13743,
+    13744
+  ],
+  "referenceLinksChecked": true,
+  "combinedInheritedCorrection": {
+    "reference": "Proverbs 26:2",
+    "finding": "Corrected132copy inherited unchanged;earlier126seal preserved"
+  }
+}

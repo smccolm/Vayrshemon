@@ -1,0 +1,870 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.86",
+    "parentVersion": "0.10-kjv.85",
+    "parentHead": "db39ca4aa909cf41b14075dac667212a71fe45ffa0be38df962c684b171a7959",
+    "head": "d518be57e047c170481bd1d702681c291864a3ee664fc102db3f04c3972328fb",
+    "newLexicalEntries": 8,
+    "newProperEntries": 4,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 74,
+    "exactCompilerCases": 74,
+    "newAuthoredVerses": 74,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 74,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19785,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 74,
+    "chronicles2Verses": 74,
+    "authoredVerses": 11317,
+    "remainingVerses": 19785,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 31,
+    "quantityChecks": [
+      {
+        "reference": "2 Chronicles 1:2",
+        "source": "Then Solomon spake unto all Israel, to the captains of thousands and of hundreds, and to the judges, and to every governor in all Israel, the chief of the fathers.",
+        "expectedDecimalQuantities": [
+          1000,
+          100
+        ],
+        "targetQuantities": [
+          1000,
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 1:6",
+        "source": "And Solomon went up thither to the brasen altar before the LORD, which was at the tabernacle of the congregation, and offered a thousand burnt offerings upon it.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 1:14",
+        "source": "And Solomon gathered chariots and horsemen: and he had a thousand and four hundred chariots, and twelve thousand horsemen, which he placed in the chariot cities, and with the king at Jerusalem.",
+        "expectedDecimalQuantities": [
+          1400,
+          12000
+        ],
+        "targetQuantities": [
+          1400,
+          12000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 1:17",
+        "source": "And they fetched up, and brought forth out of Egypt a chariot for six hundred shekels of silver, and an horse for an hundred and fifty: and so brought they out horses for all the kings of the Hittites, and for the kings of Syria, by their means.",
+        "expectedDecimalQuantities": [
+          600,
+          150
+        ],
+        "targetQuantities": [
+          600,
+          150
+        ]
+      },
+      {
+        "reference": "2 Chronicles 2:2",
+        "source": "And Solomon told out threescore and ten thousand men to bear burdens, and fourscore thousand to hew in the mountain, and three thousand and six hundred to oversee them.",
+        "expectedDecimalQuantities": [
+          70000,
+          80000,
+          3600
+        ],
+        "targetQuantities": [
+          70000,
+          80000,
+          3600
+        ]
+      },
+      {
+        "reference": "2 Chronicles 2:10",
+        "source": "And, behold, I will give to thy servants, the hewers that cut timber, twenty thousand measures of beaten wheat, and twenty thousand measures of barley, and twenty thousand baths of wine, and twenty thousand baths of oil.",
+        "expectedDecimalQuantities": [
+          20000,
+          20000,
+          20000,
+          20000
+        ],
+        "targetQuantities": [
+          20000,
+          20000,
+          20000,
+          20000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 2:17",
+        "source": "And Solomon numbered all the strangers that were in the land of Israel, after the numbering wherewith David his father had numbered them; and they were found an hundred and fifty thousand and three thousand and six hundred.",
+        "expectedDecimalQuantities": [
+          153600
+        ],
+        "targetQuantities": [
+          153600
+        ]
+      },
+      {
+        "reference": "2 Chronicles 2:18",
+        "source": "And he set threescore and ten thousand of them to be bearers of burdens, and fourscore thousand to be hewers in the mountain, and three thousand and six hundred overseers to set the people a work.",
+        "expectedDecimalQuantities": [
+          70000,
+          80000,
+          3600
+        ],
+        "targetQuantities": [
+          70000,
+          80000,
+          3600
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:2",
+        "source": "And he began to build in the second day of the second month, in the fourth year of his reign.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          4
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          4
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:3",
+        "source": "Now these are the things wherein Solomon was instructed for the building of the house of God. The length by cubits after the first measure was threescore cubits, and the breadth twenty cubits.",
+        "expectedDecimalQuantities": [
+          1,
+          60,
+          20
+        ],
+        "targetQuantities": [
+          1,
+          60,
+          20
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:4",
+        "source": "And the porch that was in the front of the house, the length of it was according to the breadth of the house, twenty cubits, and the height was an hundred and twenty: and he overlaid it within with pure gold.",
+        "expectedDecimalQuantities": [
+          20,
+          120
+        ],
+        "targetQuantities": [
+          20,
+          120
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:8",
+        "source": "And he made the most holy house, the length whereof was according to the breadth of the house, twenty cubits, and the breadth thereof twenty cubits: and he overlaid it with fine gold, amounting to six hundred talents.",
+        "expectedDecimalQuantities": [
+          20,
+          20,
+          600
+        ],
+        "targetQuantities": [
+          20,
+          20,
+          600
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:9",
+        "source": "And the weight of the nails was fifty shekels of gold. And he overlaid the upper chambers with gold.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:10",
+        "source": "And in the most holy house he made two cherubims of image work, and overlaid them with gold.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:11",
+        "source": "And the wings of the cherubims were twenty cubits long: one wing of the one cherub was five cubits, reaching to the wall of the house: and the other wing was likewise five cubits, reaching to the wing of the other cherub.",
+        "expectedDecimalQuantities": [
+          20,
+          1,
+          1,
+          5,
+          5
+        ],
+        "targetQuantities": [
+          20,
+          1,
+          1,
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:12",
+        "source": "And one wing of the other cherub was five cubits, reaching to the wall of the house: and the other wing was five cubits also, joining to the wing of the other cherub.",
+        "expectedDecimalQuantities": [
+          1,
+          5,
+          5
+        ],
+        "targetQuantities": [
+          1,
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:13",
+        "source": "The wings of these cherubims spread themselves forth twenty cubits: and they stood on their feet, and their faces were inward.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:15",
+        "source": "Also he made before the house two pillars of thirty and five cubits high, and the chapiter that was on the top of each of them was five cubits.",
+        "expectedDecimalQuantities": [
+          2,
+          35,
+          5
+        ],
+        "targetQuantities": [
+          2,
+          35,
+          5
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:16",
+        "source": "And he made chains, as in the oracle, and put them on the heads of the pillars; and made an hundred pomegranates, and put them on the chains.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 3:17",
+        "source": "And he reared up the pillars before the temple, one on the right hand, and the other on the left; and called the name of that on the right hand Jachin, and the name of that on the left Boaz.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:1",
+        "source": "Moreover he made an altar of brass, twenty cubits the length thereof, and twenty cubits the breadth thereof, and ten cubits the height thereof.",
+        "expectedDecimalQuantities": [
+          20,
+          20,
+          10
+        ],
+        "targetQuantities": [
+          20,
+          20,
+          10
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:2",
+        "source": "Also he made a molten sea of ten cubits from brim to brim, round in compass, and five cubits the height thereof; and a line of thirty cubits did compass it round about.",
+        "expectedDecimalQuantities": [
+          10,
+          5,
+          30
+        ],
+        "targetQuantities": [
+          10,
+          5,
+          30
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:3",
+        "source": "And under it was the similitude of oxen, which did compass it round about: ten in a cubit, compassing the sea round about. Two rows of oxen were cast, when it was cast.",
+        "expectedDecimalQuantities": [
+          10,
+          2
+        ],
+        "targetQuantities": [
+          10,
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:4",
+        "source": "It stood upon twelve oxen, three looking toward the north, and three looking toward the west, and three looking toward the south, and three looking toward the east: and the sea was set above upon them, and all their hinder parts were inward.",
+        "expectedDecimalQuantities": [
+          12,
+          3,
+          3,
+          3,
+          3
+        ],
+        "targetQuantities": [
+          12,
+          3,
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:5",
+        "source": "And the thickness of it was an handbreadth, and the brim of it like the work of the brim of a cup, with flowers of lilies; and it received and held three thousand baths.",
+        "expectedDecimalQuantities": [
+          3000
+        ],
+        "targetQuantities": [
+          3000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:6",
+        "source": "He made also ten lavers, and put five on the right hand, and five on the left, to wash in them: such things as they offered for the burnt offering they washed in them; but the sea was for the priests to wash in.",
+        "expectedDecimalQuantities": [
+          10,
+          5,
+          5
+        ],
+        "targetQuantities": [
+          10,
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:7",
+        "source": "And he made ten candlesticks of gold according to their form, and set them in the temple, five on the right hand, and five on the left.",
+        "expectedDecimalQuantities": [
+          10,
+          5,
+          5
+        ],
+        "targetQuantities": [
+          10,
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:8",
+        "source": "He made also ten tables, and placed them in the temple, five on the right side, and five on the left. And he made an hundred basons of gold.",
+        "expectedDecimalQuantities": [
+          10,
+          5,
+          5,
+          100
+        ],
+        "targetQuantities": [
+          10,
+          5,
+          5,
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:12",
+        "source": "To wit, the two pillars, and the pommels, and the chapiters which were on the top of the two pillars, and the two wreaths to cover the two pommels of the chapiters which were on the top of the pillars;",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:13",
+        "source": "And four hundred pomegranates on the two wreaths; two rows of pomegranates on each wreath, to cover the two pommels of the chapiters which were upon the pillars.",
+        "expectedDecimalQuantities": [
+          400,
+          2,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          400,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 4:15",
+        "source": "One sea, and twelve oxen under it.",
+        "expectedDecimalQuantities": [
+          1,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          12
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_solomon son of kjv_david",
+        "strengthen:psv:pa"
+      ],
+      "1:2": [
+        "captain:pl of thousand:pl and of hundred:pl",
+        "judge:ag:pl"
+      ],
+      "1:3": [
+        "kjv_gibeon",
+        "kjv_tabernacle",
+        "kjv_moses",
+        "kjv_wilderness"
+      ],
+      "1:4": [
+        "kjv_kirjathjearim",
+        "tent:a for it at kjv_jerusalem"
+      ],
+      "1:5": [
+        "kjv_bezaleel son of kjv_uri son of kjv_hur",
+        "kjv_brass"
+      ],
+      "1:6": [
+        "thousand burn:psv kjv_offering:pl"
+      ],
+      "1:7": [
+        "what ipl to thou give:fu"
+      ],
+      "1:8": [
+        "kjv_david my/father",
+        "i:a in his/place rule:caus:perf"
+      ],
+      "1:9": [
+        "thy/promise",
+        "like dust of earth"
+      ],
+      "1:10": [
+        "to i now wisdom and knowledge",
+        "i before this people",
+        "judge:pr:can"
+      ],
+      "1:11": [
+        "mypl/people",
+        "ipl thou:a king",
+        "thy/enemy:pl",
+        "long life"
+      ],
+      "1:12": [
+        "ipl to thou",
+        "none of king:pl",
+        "neither any after thou"
+      ],
+      "1:13": [
+        "kjv_gibeon",
+        "to kjv_jerusalem"
+      ],
+      "1:14": [
+        "thousand and four+hundred chariot:pl",
+        "twelve+thousand kjv_horseman:pl"
+      ],
+      "1:15": [
+        "silver and gold",
+        "kjv_cedar",
+        "kjv_sycomore"
+      ],
+      "1:16": [
+        "egypt",
+        "linen yarn",
+        "kjv_merchant:pl"
+      ],
+      "1:17": [
+        "six+hundred kjv_shekel:pl",
+        "hundred and fifty",
+        "kjv_hittite:pl",
+        "kjv_syria"
+      ],
+      "2:1": [
+        "house:a for name of kjv_lord",
+        "house:a for his/kingdom"
+      ],
+      "2:2": [
+        "seven+ten+thousand",
+        "four+twenty+thousand",
+        "kjv_three+thousand and six+hundred"
+      ],
+      "2:3": [
+        "kjv_huram_king",
+        "my/father",
+        "with i deal:imp"
+      ],
+      "2:4": [
+        "i house:a",
+        "kjv_continual_rite kjv_shewbread",
+        "ourone/god",
+        "forever to kjv_israel"
+      ],
+      "2:5": [
+        "ourone/god above all god:pl"
+      ],
+      "2:6": [
+        "heaven and heaven of heaven:pl",
+        "contain:neg:pr:can",
+        "who i",
+        "except only"
+      ],
+      "2:7": [
+        "crimson and blue",
+        "kjv_engrave",
+        "kjv_david my/father"
+      ],
+      "2:8": [
+        "kjv_algum",
+        "my/servant:pl with thy/servant:pl"
+      ],
+      "2:9": [
+        "for i wood:a in abundance",
+        "which i about to build:inf"
+      ],
+      "2:10": [
+        "beat:psv wheat",
+        "kjv_barley",
+        "kjv_bath_measure:pl of wine",
+        "kjv_bath_measure:pl of oil"
+      ],
+      "2:11": [
+        "kjv_huram_king",
+        "in write:ev",
+        "his/people:a love:perf"
+      ],
+      "2:12": [
+        "kjv_prudence and understanding",
+        "house:a for kjv_lord",
+        "house:a for his/kingdom"
+      ],
+      "2:13": [
+        "i skilled man",
+        "kjv_huram_craftsman my/father"
+      ],
+      "2:14": [
+        "daughter:pl of kjv_dan",
+        "his/father man of kjv_tyre",
+        "my/lord kjv_david thy/father"
+      ],
+      "2:15": [
+        "wheat and kjv_barley oil and wine",
+        "he to his/servant:pl send:opt"
+      ],
+      "2:16": [
+        "wesg wood:a",
+        "kjv_raft:pl by sea to kjv_joppa",
+        "thou it:a up to kjv_jerusalem"
+      ],
+      "2:17": [
+        "all stranger:pl:a",
+        "kjv_david his/father",
+        "hundred+thousand and fifty+thousand and kjv_three+thousand and six+hundred"
+      ],
+      "2:18": [
+        "seven+ten+thousand",
+        "four+twenty+thousand",
+        "kjv_three+thousand and six+hundred",
+        "work:caus:inf"
+      ],
+      "3:1": [
+        "kjv_moriah",
+        "kjv_threshfloor of kjv_ornan kjv_jebusite"
+      ],
+      "3:2": [
+        "second day of second month",
+        "fourth year"
+      ],
+      "3:3": [
+        "first measure",
+        "kjv_three+twenty kjv_cubit:pl",
+        "breadth twenty"
+      ],
+      "3:4": [
+        "height hundred and twenty",
+        "within with pure gold"
+      ],
+      "3:5": [
+        "within with kjv_fir",
+        "kjv_palm_tree:pl and chain:pl"
+      ],
+      "3:6": [
+        "kjv_parvaim",
+        "precious stone:pl"
+      ],
+      "3:7": [
+        "beam:pl post:pl",
+        "kjv_cherub:pl:a on wall:pl kjv_engrave"
+      ],
+      "3:8": [
+        "most holy house",
+        "six+hundred kjv_talent_weight:pl"
+      ],
+      "3:9": [
+        "fifty kjv_shekel:pl",
+        "kjv_upper chamber:pl"
+      ],
+      "3:10": [
+        "two kjv_cherub:pl of image work"
+      ],
+      "3:11": [
+        "one_num wing of one_num kjv_cherub",
+        "to wall of house",
+        "to wing of other kjv_cherub"
+      ],
+      "3:12": [
+        "one_num wing of other kjv_cherub",
+        "other wing five kjv_cubit:pl"
+      ],
+      "3:13": [
+        "twenty kjv_cubit:pl",
+        "their/face:pl inside"
+      ],
+      "3:14": [
+        "blue and purple and crimson and fine linen"
+      ],
+      "3:15": [
+        "two kjv_pillar:pl of thirty and five",
+        "kjv_chapiter",
+        "five kjv_cubit:pl"
+      ],
+      "3:16": [
+        "kjv_oracle_chamber",
+        "hundred pomegranate:pl"
+      ],
+      "3:17": [
+        "kjv_right_side",
+        "kjv_jachin_pillar",
+        "kjv_boaz_pillar"
+      ],
+      "4:1": [
+        "twenty kjv_cubit:pl its/length",
+        "twenty kjv_cubit:pl its/breadth",
+        "ten kjv_cubit:pl its/height"
+      ],
+      "4:2": [
+        "ten kjv_cubit:pl from brim to brim",
+        "five kjv_cubit:pl its/height",
+        "thirty kjv_cubit:pl"
+      ],
+      "4:3": [
+        "likeness of ox:pl",
+        "ten in kjv_cubit",
+        "two row:pl of ox:pl"
+      ],
+      "4:4": [
+        "twelve ox:pl",
+        "kjv_north",
+        "west",
+        "kjv_south",
+        "east",
+        "their/hinder part:pl inside"
+      ],
+      "4:5": [
+        "kjv_thickness",
+        "kjv_handbreadth",
+        "kjv_three+thousand kjv_bath_measure:pl"
+      ],
+      "4:6": [
+        "ten kjv_laver:pl",
+        "five on kjv_right_side and five on left",
+        "but kjv_sea_basin for priest:pl"
+      ],
+      "4:7": [
+        "ten kjv_candlestick:pl",
+        "five on kjv_right_side and five on left"
+      ],
+      "4:8": [
+        "ten table:pl",
+        "hundred kjv_basin:pl"
+      ],
+      "4:9": [
+        "kjv_court_enclosure of priest:pl",
+        "great kjv_court_enclosure",
+        "with kjv_brass"
+      ],
+      "4:10": [
+        "kjv_right_side of east end opposite kjv_south"
+      ],
+      "4:11": [
+        "kjv_huram_craftsman",
+        "kjv_pot_altar:pl",
+        "kjv_shovel:pl and kjv_basin:pl"
+      ],
+      "4:12": [
+        "two kjv_pillar:pl",
+        "kjv_pommel:pl",
+        "two kjv_wreathe:ev:pl"
+      ],
+      "4:13": [
+        "four+hundred pomegranate:pl",
+        "two row:pl",
+        "two kjv_pommel:pl"
+      ],
+      "4:14": [
+        "base:pl",
+        "kjv_laver:pl"
+      ],
+      "4:15": [
+        "one_num kjv_sea_basin and twelve ox:pl"
+      ],
+      "4:16": [
+        "kjv_huram_craftsman his/father",
+        "bright kjv_brass"
+      ],
+      "4:17": [
+        "kjv_clay_material ground",
+        "kjv_succoth and kjv_zeredathah"
+      ],
+      "4:18": [
+        "weight of kjv_brass find:psv:neg:pa:can"
+      ],
+      "4:19": [
+        "altar of gold",
+        "kjv_shewbread"
+      ],
+      "4:20": [
+        "before kjv_oracle_chamber",
+        "pure gold"
+      ],
+      "4:21": [
+        "flower:pl and lamp:pl and tongs",
+        "perfect gold"
+      ],
+      "4:22": [
+        "kjv_snuffer:pl",
+        "kjv_spoon:pl and kjv_censer:pl",
+        "kjv_inner door:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:10",
+        "1:8",
+        "1:9",
+        "2:10",
+        "2:13",
+        "2:3",
+        "2:4",
+        "2:5",
+        "2:6",
+        "2:7",
+        "2:8",
+        "2:9"
+      ],
+      "ipl": [
+        "1:11",
+        "1:12",
+        "1:7"
+      ],
+      "mypl": [
+        "1:11"
+      ],
+      "wesg": [
+        "2:16"
+      ],
+      "wepl": [],
+      "ourone": [
+        "2:4",
+        "2:5"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "1400chariots/12000horsemen; prices600/150;70000+80000+3600=153600workers; four20000allocations; date2/2/year4; all building dimensions,120porch,35pillars,3000baths, supporting oxen and pomegranate counts preserved without parallel-account harmonization."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Divine plural-I, personal Solomon, personal Huram and singular-whole Tyrian supply undertaking are contextually separate. No divine person-count supplied.",
+      "Supplied Danite mother, Huram father wording, inward faces and older measure retained. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Chronicles — incomplete Bible working text",
+    "pages": 58,
+    "spreads": 29,
+    "units": 74,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "ccc126eaf011c1f6d41058c68a81f71110abf753396f1ab4312efafadbd60263",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 29,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.43,
+    "modules": [
+      "tests.test_kjv_chronicles_temple_inventory",
+      "tests.test_kjv_chronicles_service_farewell",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    57,
+    58
+  ],
+  "status": "incomplete Bible; section checkpoint verified",
+  "pendingCorrection": "New working87corrects physical furniture-table lexical senses in4:8and4:19. This86seal remains unchanged; structural validation is not exhaustive semantic certification."
+}

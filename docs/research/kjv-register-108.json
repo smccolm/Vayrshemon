@@ -1,0 +1,737 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.108",
+    "parentVersion": "0.10-kjv.107",
+    "parentHead": "bd7187107a9bfdd829e902a5024d703ca55ea7391d40c289178c65b22b4fe9b3",
+    "head": "419283a93391d363cabd3d815955e66148e22e07a7d4a874a0ff0f0c179fa06c",
+    "newLexicalEntries": 16,
+    "newProperEntries": 0,
+    "newCommonEntries": 16,
+    "newSurfaceForms": 13,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 135,
+    "exactCompilerCases": 135,
+    "newAuthoredVerses": 135,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 135,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 16979,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 135,
+    "psalmsVerses": 135,
+    "authoredVerses": 14123,
+    "remainingVerses": 16979,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "Psalms 3:6",
+        "source": "I will not be afraid of ten thousands of people, that have set themselves against me round about.",
+        "expectedDecimalQuantities": [
+          10000
+        ],
+        "targetQuantities": [
+          10000
+        ]
+      },
+      {
+        "reference": "Psalms 12:2",
+        "source": "They speak vanity every one with his neighbour: with flattering lips and with a double heart do they speak.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Psalms 12:6",
+        "source": "The words of the LORD are pure words: as silver tried in a furnace of earth, purified seven times.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "walk:neg:pr",
+        "stand:neg:pr",
+        "sit:neg:pr"
+      ],
+      "1:2": [
+        "his/law",
+        "day and night meditate"
+      ],
+      "1:3": [
+        "plant:psv:pr",
+        "his/leaf",
+        "wither:neg:fu"
+      ],
+      "1:4": [
+        "kjv_chaff",
+        "wind away drive"
+      ],
+      "1:5": [
+        "judgment stand:neg:fu",
+        "kjv_congregation_general"
+      ],
+      "1:6": [
+        "way of kjv_ungodly perish:fu"
+      ],
+      "2:1": [
+        "kjv_heathen rage",
+        "vain thing:a imagine"
+      ],
+      "2:2": [
+        "his/anoint:psv:ag",
+        "say:cv"
+      ],
+      "2:3": [
+        "wesg their/kjv_binding_band",
+        "their/kjv_cord"
+      ],
+      "2:4": [
+        "heaven:pl sit",
+        "derision"
+      ],
+      "2:5": [
+        "his/great displeasure"
+      ],
+      "2:6": [
+        "ipl mypl/king",
+        "mypl/holy hill"
+      ],
+      "2:7": [
+        "kjv_lord to ipl say:perf",
+        "thou mypl/son",
+        "this day ipl thee:a beget"
+      ],
+      "2:8": [
+        "of ipl ask",
+        "thy/kjv_possession"
+      ],
+      "2:9": [
+        "rod of iron",
+        "kjv_potter:poss",
+        "kjv_dash_break"
+      ],
+      "2:10": [
+        "you:pl king:pl",
+        "instruct:psv:imp"
+      ],
+      "2:11": [
+        "with fear serve",
+        "with tremble:ev rejoice"
+      ],
+      "2:12": [
+        "son:a kiss",
+        "little fire:caus:psv:pr"
+      ],
+      "3:1": [
+        "i:a kjv_afflict",
+        "increase:perf:excl"
+      ],
+      "3:2": [
+        "no help for he",
+        "kjv_selah_marker"
+      ],
+      "3:3": [
+        "my/glory",
+        "lift:ag of my/head"
+      ],
+      "3:4": [
+        "i with my/voice",
+        "his/holy hill"
+      ],
+      "3:5": [
+        "sleep:pa",
+        "awake:pa",
+        "sustain:pa"
+      ],
+      "3:6": [
+        "ten+thousand:pl",
+        "afraid be:neg:fu"
+      ],
+      "3:7": [
+        "kjv_cheekbone",
+        "tooth:pl"
+      ],
+      "3:8": [
+        "salvation to kjv_lord belong",
+        "thy/people"
+      ],
+      "4:1": [
+        "to i",
+        "kjv_enlargement_relief:a give:perf"
+      ],
+      "4:2": [
+        "kjv_lie_false:ev",
+        "how long"
+      ],
+      "4:3": [
+        "who kjv_godly",
+        "for himself apart"
+      ],
+      "4:4": [
+        "kjv_awe",
+        "kjv_commune:imp"
+      ],
+      "4:5": [
+        "kjv_sacrifice:pl",
+        "your/trust"
+      ],
+      "4:6": [
+        "to wepl",
+        "upon wesg"
+      ],
+      "4:7": [
+        "more than",
+        "their/corn",
+        "their/wine"
+      ],
+      "4:8": [
+        "i both myself",
+        "only i:a in safety"
+      ],
+      "5:1": [
+        "ear:a give",
+        "my/meditation"
+      ],
+      "5:2": [
+        "my/king and my/god",
+        "i pray:fu"
+      ],
+      "5:3": [
+        "in morning",
+        "my/prayer:a to thee direct",
+        "up look"
+      ],
+      "5:4": [
+        "pleasure:a in wickedness",
+        "be:neg:pr"
+      ],
+      "5:5": [
+        "stand:neg:fu",
+        "all work:ag:pl of kjv_iniquity:a hate"
+      ],
+      "5:6": [
+        "kjv_lie_false:ev",
+        "bloody and deceitful"
+      ],
+      "5:7": [
+        "kjv_multitude of thy/mercy",
+        "towards thy/holy temple"
+      ],
+      "5:8": [
+        "thy/way:a",
+        "my/face straight"
+      ],
+      "5:9": [
+        "no faithful:ev",
+        "their/kjv_throat"
+      ],
+      "5:10": [
+        "their/own counsel:pl",
+        "rebel:perf"
+      ],
+      "5:11": [
+        "ever for joy shout",
+        "shield:pr"
+      ],
+      "5:12": [
+        "with favour",
+        "as with shield"
+      ],
+      "6:1": [
+        "rebuke:neg:imp",
+        "kjv_chasten:neg:imp"
+      ],
+      "6:2": [
+        "i weak",
+        "my/bone:pl vex"
+      ],
+      "6:3": [
+        "my/soul also",
+        "how long"
+      ],
+      "6:4": [
+        "thy/mercy:pl:poss sake"
+      ],
+      "6:5": [
+        "in death no remembrance",
+        "in grave who"
+      ],
+      "6:6": [
+        "my/bed:a swim:caus",
+        "my/kjv_couch_job",
+        "my/tear:pl water"
+      ],
+      "6:7": [
+        "my/eye",
+        "it old become"
+      ],
+      "6:8": [
+        "voice:a of my/weep:ev"
+      ],
+      "6:9": [
+        "my/kjv_supplication:a hear:perf",
+        "my/prayer:a receive:fu"
+      ],
+      "6:10": [
+        "they return:opt",
+        "suddenly ashamed"
+      ],
+      "7:1": [
+        "i my/trust",
+        "all they who i:a persecute"
+      ],
+      "7:2": [
+        "like lion",
+        "none to deliver"
+      ],
+      "7:3": [
+        "if i this:a do:perf",
+        "if kjv_iniquity"
+      ],
+      "7:4": [
+        "if i evil",
+        "without cause my/enemy",
+        "deliver:perf"
+      ],
+      "7:5": [
+        "my/honour:a in dust",
+        "take:opt"
+      ],
+      "7:6": [
+        "judgment which thou command:perf"
+      ],
+      "7:7": [
+        "kjv_congregation_general",
+        "for their/sake"
+      ],
+      "7:8": [
+        "my/integrity which in i"
+      ],
+      "7:9": [
+        "kjv_just_fair",
+        "heart:pl and kjv_kidney:pl"
+      ],
+      "7:10": [
+        "kjv_upright in heart"
+      ],
+      "7:11": [
+        "kjv_righteous:a judge",
+        "every day angry"
+      ],
+      "7:12": [
+        "if he turn:neg",
+        "kjv_whet",
+        "his/bow:a bend"
+      ],
+      "7:13": [
+        "instrument:pl of death",
+        "persecute:ag:pl"
+      ],
+      "7:14": [
+        "kjv_travail",
+        "kjv_mischief:a conceive",
+        "kjv_lie_false:ev"
+      ],
+      "7:15": [
+        "kjv_ditch_job which he make"
+      ],
+      "7:16": [
+        "top of his/own head"
+      ],
+      "7:17": [
+        "kjv_according to his/kjv_righteousness",
+        "most high"
+      ],
+      "8:1": [
+        "ourone/lord",
+        "above heaven:pl"
+      ],
+      "8:2": [
+        "kjv_infant:pl",
+        "strength:a kjv_ordain",
+        "still:caus"
+      ],
+      "8:3": [
+        "when i",
+        "thy/finger:pl",
+        "moon and star:pl"
+      ],
+      "8:4": [
+        "son of man",
+        "he:a remember",
+        "visit:pr"
+      ],
+      "8:5": [
+        "little lower than angel:pl",
+        "glory and honour"
+      ],
+      "8:6": [
+        "kjv_dominion",
+        "under his/foot:pl"
+      ],
+      "8:7": [
+        "sheep and ox:pl"
+      ],
+      "8:8": [
+        "bird of air",
+        "path:pl of sea:pl"
+      ],
+      "8:9": [
+        "ourone/lord",
+        "be:pr:excl"
+      ],
+      "9:1": [
+        "my/whole heart",
+        "marvellous work:pl"
+      ],
+      "9:2": [
+        "i glad",
+        "most high"
+      ],
+      "9:3": [
+        "when my/enemy:pl",
+        "at thy/presence"
+      ],
+      "9:4": [
+        "my/right and my/cause",
+        "kjv_just_fair judge"
+      ],
+      "9:5": [
+        "their/name:a",
+        "for ever and ever"
+      ],
+      "9:6": [
+        "thou enemy",
+        "perpetual end",
+        "their/kjv_memorial"
+      ],
+      "9:7": [
+        "his/throne:a for judgment"
+      ],
+      "9:8": [
+        "world:a in kjv_righteousness",
+        "kjv_uprightness give"
+      ],
+      "9:9": [
+        "kjv_refuge for oppress:psv:ag"
+      ],
+      "9:10": [
+        "forsake:neg:perf"
+      ],
+      "9:11": [
+        "in kjv_zion dwell",
+        "his/do:ev:pl"
+      ],
+      "9:12": [
+        "for blood examine:ev",
+        "cry:a of humble"
+      ],
+      "9:13": [
+        "from gate:pl of death"
+      ],
+      "9:14": [
+        "daughter of kjv_zion",
+        "salvation"
+      ],
+      "9:15": [
+        "kjv_pit which they make",
+        "their/own foot"
+      ],
+      "9:16": [
+        "kjv_higgaion_marker",
+        "kjv_selah_marker"
+      ],
+      "9:17": [
+        "into hell",
+        "all nation:pl"
+      ],
+      "9:18": [
+        "always forget:psv:neg:fu",
+        "for ever perish:neg:fu"
+      ],
+      "9:19": [
+        "man prevail:neg:opt",
+        "judge:psv:opt"
+      ],
+      "9:20": [
+        "themselves:a but man:pl"
+      ],
+      "10:1": [
+        "thyself:a",
+        "time:pl of kjv_trouble"
+      ],
+      "10:2": [
+        "his/pride",
+        "they in device:pl"
+      ],
+      "10:3": [
+        "kjv_covet:ag:a bless",
+        "kjv_abhor"
+      ],
+      "10:4": [
+        "seek:neg:fu",
+        "thought:pl be:neg:pr"
+      ],
+      "10:5": [
+        "kjv_grievous",
+        "kjv_puff_at"
+      ],
+      "10:6": [
+        "i move:psv:neg:fu",
+        "i never in kjv_adversity"
+      ],
+      "10:7": [
+        "kjv_defraud:ev",
+        "under his/tongue"
+      ],
+      "10:8": [
+        "village:pl",
+        "innocent:a murder"
+      ],
+      "10:9": [
+        "in wait lie:pr",
+        "his/kjv_den",
+        "his/kjv_net"
+      ],
+      "10:10": [
+        "his/strong person:pl"
+      ],
+      "10:11": [
+        "god forget:perf",
+        "he it:a never see"
+      ],
+      "10:12": [
+        "humble:a forget:neg:imp"
+      ],
+      "10:13": [
+        "thou it:a require:neg:fu"
+      ],
+      "10:14": [
+        "kjv_mischief and spite",
+        "help:ag of kjv_fatherless"
+      ],
+      "10:15": [
+        "arm:a",
+        "until thou none find"
+      ],
+      "10:16": [
+        "king for ever and ever"
+      ],
+      "10:17": [
+        "thy/ear:a hear:caus:fu"
+      ],
+      "10:18": [
+        "kjv_fatherless and oppress:psv:ag",
+        "no more oppress"
+      ],
+      "11:1": [
+        "i my/trust",
+        "you:pl to my/soul"
+      ],
+      "11:2": [
+        "upon string",
+        "secretly",
+        "kjv_upright"
+      ],
+      "11:3": [
+        "if kjv_foundation:pl",
+        "do:can"
+      ],
+      "11:4": [
+        "his/eyelid:pl",
+        "test:pr"
+      ],
+      "11:5": [
+        "his/soul hate"
+      ],
+      "11:6": [
+        "snare:pl and fire and kjv_brimstone",
+        "fear:a cause",
+        "their/cup"
+      ],
+      "11:7": [
+        "his/face kjv_upright:a behold"
+      ],
+      "12:1": [
+        "kjv_godly man cease",
+        "faithful",
+        "fail"
+      ],
+      "12:2": [
+        "each person",
+        "two heart"
+      ],
+      "12:3": [
+        "off cut:fu",
+        "proud thing:pl"
+      ],
+      "12:4": [
+        "ourone/tongue wesg",
+        "ourone/lip:pl",
+        "over wesg"
+      ],
+      "12:5": [
+        "now ipl rise",
+        "kjv_lord say",
+        "ipl he:a",
+        "kjv_puff_at"
+      ],
+      "12:6": [
+        "furnace of earth",
+        "seven time:pl"
+      ],
+      "12:7": [
+        "they:a keep",
+        "they:a from this generation"
+      ],
+      "12:8": [
+        "most vile man:pl kjv_exalt"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:6",
+        "11:1",
+        "3:1",
+        "3:3",
+        "3:4",
+        "3:5",
+        "3:6",
+        "3:7",
+        "4:1",
+        "4:3",
+        "4:8",
+        "5:2",
+        "5:3",
+        "5:7",
+        "5:8",
+        "6:1",
+        "6:2",
+        "6:4",
+        "6:6",
+        "6:8",
+        "7:1",
+        "7:17",
+        "7:3",
+        "7:4",
+        "7:6",
+        "7:8",
+        "8:3",
+        "9:1",
+        "9:13",
+        "9:14",
+        "9:2"
+      ],
+      "ipl": [
+        "12:5",
+        "2:6",
+        "2:7",
+        "2:8"
+      ],
+      "wesg": [
+        "12:4",
+        "2:3",
+        "4:6"
+      ],
+      "wepl": [
+        "4:6"
+      ],
+      "ourone": [
+        "12:4",
+        "8:1",
+        "8:9"
+      ],
+      "mypl": [
+        "2:6",
+        "2:7"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Psalm3:6 ten-thousands is an explicitly plural repeated unit:10000 is the lexical unit,NOT an exact total of enemies. No exact headcount is asserted.",
+      "Psalm12:2 double heart is figurative duplicity,NOT a count of literal organs or divine persons.",
+      "Psalm12:6 seven purifications preserves the explicit repetition count."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Royal declarer and explicitly attributed divine speech use contextual plural-I;ordinary petitioners and the wicked boaster remain personal-I. Congregation and coalitions use singular-we by discourse role.",
+      "OpaqueSelah/Higgaion remain unexpanded;KJV difficult readings and contradictory voices are not harmonized.",
+      "No prior targets or old seals changed. WholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 74,
+    "spreads": 37,
+    "units": 135,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "3c327be76fe55a7c1e2e2a520e3205eab7c6d0e817ff3fdb6e4dc5572ab902e6",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 37,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.031,
+    "modules": [
+      "tests.test_kjv_psalm_voices_petitions",
+      "tests.test_kjv_job_whirlwind_restoration",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    73,
+    74
+  ],
+  "status": "incompleteBible;Psalms1to12sectioncheckpointverified"
+}

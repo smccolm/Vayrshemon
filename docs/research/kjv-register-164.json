@@ -1,0 +1,829 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.164",
+    "parentVersion": "0.10-kjv.163",
+    "parentHead": "17d2fbcbe79b154f2fee4ea639cc999a9848b6d05347177baf502a16df49724a",
+    "head": "8f59425a7e58379d90051327db36af24cceac79a4145c6fbf3b59d34a89fb5ac",
+    "newLexicalEntries": 1,
+    "newProperEntries": 0,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 1,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 117,
+    "exactCompilerCases": 117,
+    "newAuthoredVerses": 117,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 933,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9656,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 117,
+    "ezekielVerses": 933,
+    "authoredVerses": 21446,
+    "remainingVerses": 9656,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 4,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 33:21",
+        "source": "And it came to pass in the twelfth year of our captivity, in the tenth month, in the fifth day of the month, that one that had escaped out of Jerusalem came unto me, saying, The city is smitten.",
+        "expectedDecimalQuantities": [
+          12,
+          10,
+          5
+        ],
+        "targetQuantities": [
+          12,
+          10,
+          5
+        ]
+      },
+      {
+        "reference": "Ezekiel 33:24",
+        "source": "Son of man, they that inhabit those wastes of the land of Israel speak, saying, Abraham was one, and he inherited the land: but we are many; the land is given us for inheritance.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 34:23",
+        "source": "And I will set up one shepherd over them, and he shall feed them, even my servant David; he shall feed them, and he shall be their shepherd.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 35:10",
+        "source": "Because thou hast said, These two nations and these two countries shall be mine, and we will possess it; whereas the LORD was there:",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "33:1": [
+        "again word",
+        "to i"
+      ],
+      "33:2": [
+        "ipl sword:a",
+        "their/kjv_coast_region:pl",
+        "their/watch:ag"
+      ],
+      "33:3": [
+        "trumpet:a blow:pr",
+        "people:a kjv_warn_solemn:pr"
+      ],
+      "33:4": [
+        "warning:a take:neg:pr",
+        "his/own head"
+      ],
+      "33:5": [
+        "warning:a take:neg:pa",
+        "but he who warning:a take:pr"
+      ],
+      "33:6": [
+        "blow:neg:pr",
+        "kjv_warn_solemn:psv:neg:pr",
+        "in his/kjv_iniquity",
+        "ipl at watch:ag hand"
+      ],
+      "33:7": [
+        "mypl/mouth",
+        "from ipl kjv_warn_solemn:fu"
+      ],
+      "33:8": [
+        "thou surely die:fu",
+        "speak:neg:pr",
+        "at thine/hand"
+      ],
+      "33:9": [
+        "turn:neg:pr",
+        "thou thy/soul:a deliver:perf"
+      ],
+      "33:10": [
+        "ourone/transgress:ev:pl",
+        "ourone/sin:pl upon wesg",
+        "how wesg then live:should?"
+      ],
+      "33:11": [
+        "ipl no pleasure:a",
+        "you turn:imp you",
+        "why you die:fu"
+      ],
+      "33:12": [
+        "deliver:neg:fu",
+        "fall:neg:fu",
+        "neither kjv_righteous",
+        "in day when he sin:pr"
+      ],
+      "33:13": [
+        "his/kjv_righteousness:pl remember:psv:neg:fu"
+      ],
+      "33:14": [
+        "from his/sin turn:pr",
+        "lawful and fitting"
+      ],
+      "33:15": [
+        "pledge:a restore:pr",
+        "rob:pp again give:pr",
+        "kjv_statute:pl of life",
+        "die:neg:fu"
+      ],
+      "33:16": [
+        "none of his/sin:pl",
+        "kjv_mention:psv:fu"
+      ],
+      "33:17": [
+        "way of lord equal be:neg:pr",
+        "their/way equal be:neg:pr"
+      ],
+      "33:18": [
+        "from his/kjv_righteousness turn:pr",
+        "die:fu"
+      ],
+      "33:19": [
+        "from his/wickedness turn:pr",
+        "live:fu"
+      ],
+      "33:20": [
+        "ipl you:a each after his/way:pl"
+      ],
+      "33:21": [
+        "twelve:ord year of ourone/kjv_captivity",
+        "ten:ord month",
+        "five:ord day",
+        "person who",
+        "to i"
+      ],
+      "33:22": [
+        "in evening before",
+        "my/mouth:a open:pp",
+        "to i in morning",
+        "i no more dumb"
+      ],
+      "33:23": [
+        "to i"
+      ],
+      "33:24": [
+        "kjv_abraham one_num",
+        "wesg many be:pr",
+        "to wesg for inheritance"
+      ],
+      "33:25": [
+        "with blood eat:pr",
+        "your/eye:pl:a",
+        "possess:fu?"
+      ],
+      "33:26": [
+        "upon your/sword",
+        "each his/neighbour wife:a",
+        "possess:fu?"
+      ],
+      "33:27": [
+        "as ipl live:pr",
+        "open field",
+        "kjv_stronghold:pl and in kjv_cave:pl",
+        "kjv_pestilence"
+      ],
+      "33:28": [
+        "none through pass:fu"
+      ],
+      "33:29": [
+        "because of all their/kjv_abomination:pl"
+      ],
+      "33:30": [
+        "against thee by wall:pl",
+        "each to his/brother",
+        "i you:a pray:pr"
+      ],
+      "33:31": [
+        "as mypl/people",
+        "do:neg:fu",
+        "much love:a show:pr",
+        "their/kjv_covet:ev"
+      ],
+      "33:32": [
+        "lovely song of person",
+        "on instrument play:can",
+        "do:neg:pr"
+      ],
+      "33:33": [
+        "behold it come:fu",
+        "prophet among they be:perf"
+      ],
+      "34:1": [
+        "to i"
+      ],
+      "34:2": [
+        "kjv_prophesy:imp kjv_prophesy:imp",
+        "woe:excl",
+        "feed:neg:should?"
+      ],
+      "34:3": [
+        "kjv_fat:a",
+        "kjv_wool",
+        "feed:psv:pr kill:pr",
+        "feed:neg:pr"
+      ],
+      "34:4": [
+        "strong make:neg:perf",
+        "neither",
+        "with force and with cruelty"
+      ],
+      "34:5": [
+        "no shepherd",
+        "food to all beast:pl"
+      ],
+      "34:6": [
+        "mypl/sheep",
+        "mypl/flock",
+        "none after they"
+      ],
+      "34:7": [
+        "you shepherd:pl",
+        "word:a of kjv_lord"
+      ],
+      "34:8": [
+        "as ipl live:pr",
+        "no shepherd",
+        "mypl/shepherd:pl",
+        "themselves:a feed:pa",
+        "mypl/flock:a feed:neg:pa"
+      ],
+      "34:9": [
+        "oh you shepherd:pl"
+      ],
+      "34:10": [
+        "at their/hand require:fu",
+        "cease:caus:fu",
+        "from their/mouth",
+        "food for they be:neg:may"
+      ],
+      "34:11": [
+        "ipl even ipl",
+        "mypl/sheep:a seek:fu",
+        "they:a out seek:fu"
+      ],
+      "34:12": [
+        "cloud:adj and dark day",
+        "all place:pl"
+      ],
+      "34:13": [
+        "their/own land",
+        "by river:pl",
+        "all inhabit:psv:adj place:pl"
+      ],
+      "34:14": [
+        "their/sheepfold",
+        "good sheepfold",
+        "fat kjv_pasture"
+      ],
+      "34:15": [
+        "they:a down lie:caus:fu"
+      ],
+      "34:16": [
+        "lose:psv:pa",
+        "fat and strong:a destroy:fu",
+        "with judgment feed:fu"
+      ],
+      "34:17": [
+        "between kjv_livestock and kjv_livestock",
+        "kjv_ram:pl and kjv_male kjv_goat:pl"
+      ],
+      "34:18": [
+        "remainder:a of your/kjv_pasture:pl",
+        "deep water:pl",
+        "foul make:must?"
+      ],
+      "34:19": [
+        "mypl/flock",
+        "tread:perf eat:pr",
+        "foul make:perf drink:pr"
+      ],
+      "34:20": [
+        "ipl even ipl",
+        "fat kjv_livestock",
+        "thin kjv_livestock"
+      ],
+      "34:21": [
+        "side and with kjv_shoulder",
+        "your/horn:pl",
+        "far scatter:perf"
+      ],
+      "34:22": [
+        "no more prey",
+        "between kjv_livestock and kjv_livestock"
+      ],
+      "34:23": [
+        "one_num shepherd:a",
+        "mypl/servant kjv_david",
+        "their/shepherd"
+      ],
+      "34:24": [
+        "ipl kjv_lord their/god",
+        "mypl/servant kjv_david prince"
+      ],
+      "34:25": [
+        "kjv_covenant:a of peace",
+        "evil beast:pl:a",
+        "kjv_wilderness",
+        "wood:pl sleep:fu"
+      ],
+      "34:26": [
+        "mypl/hill",
+        "shower:a in his/season",
+        "shower:pl of blessing"
+      ],
+      "34:27": [
+        "her/fruit:a",
+        "her/increase:a",
+        "kjv_yoke_band:pl:a",
+        "themselves:a of they serve:pa"
+      ],
+      "34:28": [
+        "no more prey",
+        "neither beast",
+        "none they:a afraid"
+      ],
+      "34:29": [
+        "plant:a of renown",
+        "with hunger",
+        "shame:a of kjv_heathen any more endure:fu"
+      ],
+      "34:30": [
+        "house of kjv_israel mypl/people"
+      ],
+      "34:31": [
+        "flock of mypl/kjv_pasture man:pl",
+        "ipl your/god"
+      ],
+      "35:1": [
+        "to i"
+      ],
+      "35:2": [
+        "mountain kjv_seir"
+      ],
+      "35:3": [
+        "mypl/hand:a",
+        "most kjv_desolate"
+      ],
+      "35:4": [
+        "thy/city:pl:a",
+        "ipl kjv_lord"
+      ],
+      "35:5": [
+        "perpetual hate:ev:a",
+        "their/kjv_iniquity end:a have:pa"
+      ],
+      "35:6": [
+        "blood:a hate:neg:perf",
+        "blood thee:a pursue:fu"
+      ],
+      "35:7": [
+        "he who out pass:pr",
+        "he who return:pr"
+      ],
+      "35:8": [
+        "his/mountain:pl:a",
+        "thy/hill:pl",
+        "thy/valley:pl",
+        "thy/river:pl"
+      ],
+      "35:9": [
+        "thy/city:pl return:neg:fu",
+        "you know:fu"
+      ],
+      "35:10": [
+        "two nation:pl",
+        "two country:pl of ipl",
+        "wesg it:a possess:fu",
+        "although kjv_lord there"
+      ],
+      "35:11": [
+        "against they:du",
+        "ipl iplself:a among they:du"
+      ],
+      "35:12": [
+        "they to wesg to consume:inf"
+      ],
+      "35:13": [
+        "your/mouth",
+        "your/word:pl:a against ipl"
+      ],
+      "35:14": [
+        "whole earth rejoice:pr",
+        "thee:a kjv_desolate"
+      ],
+      "35:15": [
+        "all kjv_idumea even all of it"
+      ],
+      "36:1": [
+        "you mountain:pl of kjv_israel"
+      ],
+      "36:2": [
+        "kjv_gloat_aha:excl",
+        "of wesg in kjv_possession"
+      ],
+      "36:3": [
+        "up kjv_swallow:perf",
+        "lip:pl of talk:ag:pl",
+        "kjv_infamy"
+      ],
+      "36:4": [
+        "mountain:pl and to hill:pl to river:pl and to valley:pl",
+        "city:pl which forsake:psv:pr"
+      ],
+      "36:5": [
+        "mypl/jealousy",
+        "all kjv_idumea",
+        "mypl/land:a",
+        "contempt:adj mind:pl"
+      ],
+      "36:6": [
+        "mypl/jealousy and in mypl/fury",
+        "shame:a of kjv_heathen endure:perf"
+      ],
+      "36:7": [
+        "mypl/hand:a up lift:perf",
+        "their/shame:a endure:fu"
+      ],
+      "36:8": [
+        "your/branch:pl:a forth grow:caus:fu",
+        "mypl/people",
+        "near to come:inf"
+      ],
+      "36:9": [
+        "ipl for you",
+        "kjv_till_land:psv:fu",
+        "kjv_sow:psv:fu"
+      ],
+      "36:10": [
+        "all house of kjv_israel even all of it",
+        "city:pl inhabit:psv:fu"
+      ],
+      "36:11": [
+        "man and beast:a",
+        "your/old state:pl",
+        "better than at your/begin:ev:pl"
+      ],
+      "36:12": [
+        "mypl/people kjv_israel",
+        "they thee:a possess:fu",
+        "no more henceforth"
+      ],
+      "36:13": [
+        "thou land man:pl:a up devour:pr",
+        "thy/nation:pl:a kjv_bereave:perf"
+      ],
+      "36:14": [
+        "no more devour:fu",
+        "neither thy/nation:pl:a"
+      ],
+      "36:15": [
+        "hear:caus:fu",
+        "endure:fu",
+        "fall:caus:fu"
+      ],
+      "36:16": [
+        "to i"
+      ],
+      "36:17": [
+        "before ipl",
+        "kjv_unclean_ritual:ev of kjv_menstrual_flow woman"
+      ],
+      "36:18": [
+        "mypl/fury:a",
+        "blood which",
+        "their/idol:pl"
+      ],
+      "36:19": [
+        "scatter:pa",
+        "disperse:psv:pa",
+        "their/do:ev:pl"
+      ],
+      "36:20": [
+        "they to they say:pa",
+        "out of his/land"
+      ],
+      "36:21": [
+        "pity:a for mypl/holy name"
+      ],
+      "36:22": [
+        "for your/sake:pl do:neg:pr",
+        "but for mypl/holy name sake"
+      ],
+      "36:23": [
+        "mypl/great name:a",
+        "ipl in you before their/eye:pl sanctify:psv:fu"
+      ],
+      "36:24": [
+        "out of all country:pl",
+        "your/own land"
+      ],
+      "36:25": [
+        "kjv_clean_ritual water:a",
+        "kjv_sprinkle:fu",
+        "from all your/filthy:ev",
+        "your/idol:pl"
+      ],
+      "36:26": [
+        "new heart",
+        "new spirit:a",
+        "stone:adj heart:a",
+        "heart of flesh"
+      ],
+      "36:27": [
+        "mypl/spirit:a within you",
+        "mypl/kjv_statute:pl walk:caus:fu",
+        "mypl/judgment:pl:a"
+      ],
+      "36:28": [
+        "mypl/people",
+        "ipl your/god"
+      ],
+      "36:29": [
+        "for corn",
+        "increase:caus:fu",
+        "no kjv_famine:a"
+      ],
+      "36:30": [
+        "fruit:a of kjv_tree",
+        "increase:a of field",
+        "no more kjv_reproach:a"
+      ],
+      "36:31": [
+        "good be:neg:pa",
+        "yourselves:a in your/own sight",
+        "loathe:fu"
+      ],
+      "36:32": [
+        "not for your/sake:pl",
+        "know:psv:imp",
+        "confound:psv:imp"
+      ],
+      "36:33": [
+        "clean:fp",
+        "dwell:caus:fu",
+        "build:psv:fu"
+      ],
+      "36:34": [
+        "kjv_till_land:psv:fu",
+        "all who by pass:pa"
+      ],
+      "36:35": [
+        "like kjv_garden of kjv_eden",
+        "fortify:psv:perf"
+      ],
+      "36:36": [
+        "kjv_heathen who round about you leave:psv:pr",
+        "build:pr",
+        "plant:pr"
+      ],
+      "36:37": [
+        "by house of kjv_israel",
+        "kjv_consult:psv:fu",
+        "with man:pl like flock"
+      ],
+      "36:38": [
+        "her/solemn feast:pl",
+        "flock:pl of man:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "33:1",
+        "33:21",
+        "33:22",
+        "33:23",
+        "33:30",
+        "34:1",
+        "35:1",
+        "36:16"
+      ],
+      "ipl": [
+        "33:11",
+        "33:13",
+        "33:14",
+        "33:2",
+        "33:20",
+        "33:27",
+        "33:28",
+        "33:29",
+        "33:6",
+        "33:7",
+        "33:8",
+        "34:10",
+        "34:11",
+        "34:12",
+        "34:13",
+        "34:14",
+        "34:15",
+        "34:16",
+        "34:17",
+        "34:20",
+        "34:22",
+        "34:23",
+        "34:24",
+        "34:25",
+        "34:26",
+        "34:27",
+        "34:29",
+        "34:30",
+        "34:31",
+        "34:8",
+        "35:10",
+        "35:11",
+        "35:12",
+        "35:13",
+        "35:14",
+        "35:15",
+        "35:3",
+        "35:4",
+        "35:6",
+        "35:7",
+        "35:8",
+        "35:9",
+        "36:10",
+        "36:11",
+        "36:12",
+        "36:15",
+        "36:17",
+        "36:18",
+        "36:19",
+        "36:21",
+        "36:22",
+        "36:23",
+        "36:24",
+        "36:25",
+        "36:26",
+        "36:27",
+        "36:28",
+        "36:29",
+        "36:30",
+        "36:32",
+        "36:33",
+        "36:36",
+        "36:37",
+        "36:38",
+        "36:5",
+        "36:6",
+        "36:7",
+        "36:9"
+      ],
+      "wesg": [
+        "33:10",
+        "33:24",
+        "35:10",
+        "35:12",
+        "36:2"
+      ],
+      "wepl": [],
+      "mypl": [
+        "33:31",
+        "33:7",
+        "34:10",
+        "34:11",
+        "34:12",
+        "34:15",
+        "34:17",
+        "34:19",
+        "34:22",
+        "34:23",
+        "34:24",
+        "34:26",
+        "34:30",
+        "34:31",
+        "34:6",
+        "34:8",
+        "35:3",
+        "36:12",
+        "36:18",
+        "36:20",
+        "36:21",
+        "36:22",
+        "36:23",
+        "36:27",
+        "36:28",
+        "36:5",
+        "36:6",
+        "36:7",
+        "36:8"
+      ],
+      "ourone": [
+        "33:10",
+        "33:21"
+      ],
+      "iplself": [
+        "35:11"
+      ],
+      "we:du": [],
+      "they:du": [
+        "35:11"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "35:11"
+    ],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [
+      "35:10"
+    ],
+    "quantityInterpretation": [
+      "Printed date33:21 retained without chronological harmonization.",
+      "Abraham one and one shepherd remain explicit cardinals.",
+      "Two nations and two countries repeat the paired political claim,not four entities."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel33–36 adds117 verses,total933;whole Bible incomplete.",
+      "Personal narration,divine and civic plural-self,communal singular-we and actual political dual separately attributed.",
+      "Warning duties,shepherd care and judgment,divine name-motive,indwelling and caused renewal retain difficult source predicates.",
+      "One common semantic compound,no proper-name or paradigm additions;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 730,
+    "spreads": 365,
+    "units": 933,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "eae76d351dd9058fa1d5514974e1e38a349769a7a8bea00516365df93f80424e",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 365,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.248,
+    "modules": [
+      "tests.test_kjv_ezekiel_caused_renewal",
+      "tests.test_kjv_ezekiel_pharaoh_underworld",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    729,
+    730
+  ],
+  "status": "incomplete Bible;Ezekiel1–36 section checkpoint verified"
+}

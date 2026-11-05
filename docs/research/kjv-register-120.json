@@ -1,0 +1,1533 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.120",
+    "parentVersion": "0.10-kjv.119",
+    "parentHead": "5ca29e639b9740c4bd4294b33699c947a92466dec2563dcbbfd83c7a2bc6b482",
+    "head": "37cc1b2b899f0909af41280cf11e306841e8663680dde941ce066f2c89cfc97d",
+    "newLexicalEntries": 2,
+    "newProperEntries": 1,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 225,
+    "exactCompilerCases": 225,
+    "newAuthoredVerses": 225,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 14653,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 225,
+    "psalmsVerses": 2461,
+    "authoredVerses": 16449,
+    "remainingVerses": 14653,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Psalms 135:8",
+        "source": "Who smote the firstborn of Egypt, both of man and beast.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 136:10",
+        "source": "To him that smote Egypt in their firstborn: for his mercy endureth for ever:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 137:3",
+        "source": "For there they that carried us away captive required of us a song; and they that wasted us required of us mirth, saying, Sing us one of the songs of Zion.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 144:9",
+        "source": "I will sing a new song unto thee, O God: upon a psaltery and an instrument of ten strings will I sing praises unto thee.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Psalms 144:13",
+        "source": "That our garners may be full, affording all manner of store: that our sheep may bring forth thousands and ten thousands in our streets:",
+        "expectedDecimalQuantities": [
+          1000,
+          10000
+        ],
+        "targetQuantities": [
+          1000,
+          10000
+        ]
+      },
+      {
+        "reference": "Psalms 149:6",
+        "source": "Let the high praises of God be in their mouth, and a two-edged sword in their hand;",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "135:1": [
+        "name of kjv_lord:a",
+        "servant:pl"
+      ],
+      "135:2": [
+        "court:pl",
+        "ourone/god"
+      ],
+      "135:3": [
+        "good be:pr",
+        "his/name",
+        "pleasing"
+      ],
+      "135:4": [
+        "kjv_jacob:a",
+        "his/special treasure"
+      ],
+      "135:5": [
+        "i know:pr",
+        "ourone/lord above all god:pl"
+      ],
+      "135:6": [
+        "whatever kjv_lord desire:pa",
+        "deep place:pl"
+      ],
+      "135:7": [
+        "kjv_vapour:pl:a",
+        "rise:caus:pr",
+        "his/kjv_treasury:pl"
+      ],
+      "135:8": [
+        "first born:psv:adj:a",
+        "both of human and beast"
+      ],
+      "135:9": [
+        "sign:pl:a and wonder:pl:a",
+        "kjv_pharaoh"
+      ],
+      "135:10": [
+        "nation:pl:a strike:pa",
+        "king:pl:a slay:pa"
+      ],
+      "135:11": [
+        "kjv_sihon",
+        "kjv_og",
+        "kjv_canaan_land"
+      ],
+      "135:12": [
+        "their/land:a",
+        "inheritance to kjv_israel"
+      ],
+      "135:13": [
+        "thy/name",
+        "thy/kjv_memorial",
+        "all generation:pl"
+      ],
+      "135:14": [
+        "judge:fu",
+        "relent:fu"
+      ],
+      "135:15": [
+        "idol:pl",
+        "silver and gold",
+        "human:pl/hand:pl"
+      ],
+      "135:16": [
+        "mouth:pl:a",
+        "speak:neg:pr",
+        "see:neg:pr"
+      ],
+      "135:17": [
+        "hear:neg:pr",
+        "neither any breath"
+      ],
+      "135:18": [
+        "make:pr",
+        "every one",
+        "trust:pr"
+      ],
+      "135:19": [
+        "house of kjv_israel",
+        "house of kjv_aaron"
+      ],
+      "135:20": [
+        "house of kjv_levi",
+        "fear:pr"
+      ],
+      "135:21": [
+        "kjv_zion",
+        "kjv_jerusalem dwell:pr"
+      ],
+      "136:1": [
+        "he good",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:2": [
+        "god of god:pl",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:3": [
+        "lord of lord:pl",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:4": [
+        "alone great wonder:pl:a",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:5": [
+        "by wisdom heaven:pl:a",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:6": [
+        "earth:a above water:pl",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:7": [
+        "great light:pl:a",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:8": [
+        "sun by day rule:inf",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:9": [
+        "moon and star:pl",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:10": [
+        "their/first born:psv:adj",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:11": [
+        "kjv_israel:a out",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:12": [
+        "strong hand",
+        "out stretch:psv:adj arm",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:13": [
+        "kjv_red_sea:a into part:pl",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:14": [
+        "pass:inf make:pa",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:15": [
+        "his/army:a",
+        "kjv_overthrow:pa",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:16": [
+        "kjv_wilderness",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:17": [
+        "great king:pl:a strike:pa",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:18": [
+        "famous king:pl:a slay:pa",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:19": [
+        "kjv_sihon king of kjv_amorite:pl",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:20": [
+        "kjv_og king of kjv_bashan",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:21": [
+        "their/land:a for inheritance",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:22": [
+        "kjv_israel his/servant",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:23": [
+        "wesg:a",
+        "ourone/low estate",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:24": [
+        "wesg:a",
+        "ourone/enemy:pl",
+        "redeem:perf",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:25": [
+        "food:a to all flesh",
+        "for his/mercy for ever endure:pr"
+      ],
+      "136:26": [
+        "god of heaven",
+        "for his/mercy for ever endure:pr"
+      ],
+      "137:1": [
+        "wepl down sit:pa",
+        "wepl weep:pa",
+        "wesg kjv_zion:a remember:pa"
+      ],
+      "137:2": [
+        "wepl our/kjv_harp:pl:a",
+        "kjv_willow:pl"
+      ],
+      "137:3": [
+        "captive carry:pa",
+        "mirth:a",
+        "one_num",
+        "to wepl sing:imp"
+      ],
+      "137:4": [
+        "how wesg",
+        "strange land"
+      ],
+      "137:5": [
+        "if i",
+        "kjv_right_side hand her/skill:a forget:opt"
+      ],
+      "137:6": [
+        "remember:neg:pr",
+        "kjv_mouth_roof",
+        "kjv_cleave_adhere:opt",
+        "prefer:neg:pr"
+      ],
+      "137:7": [
+        "kjv_edom",
+        "destroy:imp it:a down destroy:imp",
+        "kjv_foundation"
+      ],
+      "137:8": [
+        "destroy:psv:fu",
+        "wepl:a treat:perf reward:pr"
+      ],
+      "137:9": [
+        "little child:pl:a",
+        "stone:pl kjv_dash_impact:pr"
+      ],
+      "138:1": [
+        "before god:pl",
+        "whole heart"
+      ],
+      "138:2": [
+        "towards thy/holy temple",
+        "above all thy/name great:caus:perf"
+      ],
+      "138:3": [
+        "cry:pa",
+        "strength in my/soul strong:caus:pa"
+      ],
+      "138:4": [
+        "all king:pl",
+        "mouth hear:pr"
+      ],
+      "138:5": [
+        "way:pl of kjv_lord",
+        "great glory"
+      ],
+      "138:6": [
+        "high",
+        "lowly",
+        "proud he far know:pr"
+      ],
+      "138:7": [
+        "kjv_trouble",
+        "revive:fu",
+        "kjv_right_side hand"
+      ],
+      "138:8": [
+        "perfect:fu",
+        "forsake:neg:imp"
+      ],
+      "139:1": [
+        "lord:excl",
+        "search:perf",
+        "know:perf"
+      ],
+      "139:2": [
+        "my/down sit:ev:a",
+        "mine up rise:ev:a",
+        "thought:a"
+      ],
+      "139:3": [
+        "my/down lie:ev:a",
+        "acquainted"
+      ],
+      "139:4": [
+        "word in my/tongue be:neg:pr",
+        "completely know:pr"
+      ],
+      "139:5": [
+        "behind and before surround:perf",
+        "hand:a upon i"
+      ],
+      "139:6": [
+        "too wonder:adj",
+        "reach:neg:can"
+      ],
+      "139:7": [
+        "thy/spirit",
+        "thy/presence flee:fu"
+      ],
+      "139:8": [
+        "heaven",
+        "my/bed:a in kjv_hell",
+        "thou there"
+      ],
+      "139:9": [
+        "wing:pl of morning",
+        "most far part:pl of sea"
+      ],
+      "139:10": [
+        "lead:fu",
+        "kjv_right_side hand",
+        "hold:fu"
+      ],
+      "139:11": [
+        "darkness i:a cover:fu",
+        "night light"
+      ],
+      "139:12": [
+        "hide:neg:pr",
+        "night as day shine:pr",
+        "both same"
+      ],
+      "139:13": [
+        "kjv_kidney:pl:a",
+        "my/mother/womb"
+      ],
+      "139:14": [
+        "fear:adv and wonder:adv",
+        "very well know:pr"
+      ],
+      "139:15": [
+        "substance",
+        "skill:adv work:psv:pa",
+        "most low part:pl of earth"
+      ],
+      "139:16": [
+        "perfect:neg:adj",
+        "all my/body part:pl write:psv:pa",
+        "none of they"
+      ],
+      "139:17": [
+        "thy/thought:pl",
+        "sum of they",
+        "be:pr:excl"
+      ],
+      "139:18": [
+        "kjv_number:should",
+        "more in kjv_number:ev than sand"
+      ],
+      "139:19": [
+        "wicked:a slay:fu",
+        "you:pl bloody human:pl"
+      ],
+      "139:20": [
+        "wicked:adv speak:pr",
+        "thy/name:a in vain"
+      ],
+      "139:21": [
+        "they:a who thee:a hate:pr",
+        "hate:neg:pr",
+        "sorrow:neg:pr"
+      ],
+      "139:22": [
+        "perfect hate:ev",
+        "reckon:pr"
+      ],
+      "139:23": [
+        "search:imp",
+        "my/heart:a",
+        "my/thought:pl:a"
+      ],
+      "139:24": [
+        "if any wicked way in i",
+        "lead:imp"
+      ],
+      "140:1": [
+        "evil man",
+        "violent man"
+      ],
+      "140:2": [
+        "kjv_mischief:pl:a",
+        "together for war"
+      ],
+      "140:3": [
+        "tongue:pl:a",
+        "adder:pl/poison",
+        "kjv_selah_marker"
+      ],
+      "140:4": [
+        "my/go:ev:pl:a kjv_overthrow:inf",
+        "purpose:perf"
+      ],
+      "140:5": [
+        "snare:a",
+        "kjv_cord:pl",
+        "kjv_net:a",
+        "trap:pl:a"
+      ],
+      "140:6": [
+        "thou my/god",
+        "kjv_supplication:pl"
+      ],
+      "140:7": [
+        "kjv_lord lord:excl",
+        "head:a in day of battle"
+      ],
+      "140:8": [
+        "grant:neg:imp",
+        "advance:neg:imp",
+        "they themselves:a"
+      ],
+      "140:9": [
+        "head of they",
+        "their/own lip:pl"
+      ],
+      "140:10": [
+        "kjv_charcoal:pl",
+        "deep kjv_pit:pl",
+        "rise:neg:pr"
+      ],
+      "140:11": [
+        "kjv_establish:psv:neg:opt",
+        "evil violent man:a hunt:fu"
+      ],
+      "140:12": [
+        "sustain:fu",
+        "right of poor"
+      ],
+      "140:13": [
+        "kjv_righteous",
+        "kjv_upright"
+      ],
+      "141:1": [
+        "haste:a",
+        "when i to thee cry:pr"
+      ],
+      "141:2": [
+        "prayer",
+        "kjv_incense",
+        "evening kjv_sacrifice"
+      ],
+      "141:3": [
+        "watch:a",
+        "door of my/lip:pl"
+      ],
+      "141:4": [
+        "bend:neg:imp",
+        "dainty food:pl",
+        "allow:neg:imp"
+      ],
+      "141:5": [
+        "strike:opt",
+        "kjv_kindness",
+        "excellent oil",
+        "break:neg:fu",
+        "kjv_calamity:pl"
+      ],
+      "141:6": [
+        "judge:ag:pl",
+        "stone:adj place:pl",
+        "sweet"
+      ],
+      "141:7": [
+        "our/bone:pl",
+        "grave/mouth",
+        "cut:pr and split:pr"
+      ],
+      "141:8": [
+        "kjv_lord lord:excl",
+        "lack:adj leave:neg:imp"
+      ],
+      "141:9": [
+        "snare:pl",
+        "trap:pl"
+      ],
+      "141:10": [
+        "their/own kjv_net:pl",
+        "while i escape:pr"
+      ],
+      "142:1": [
+        "with my/voice",
+        "my/kjv_supplication:a"
+      ],
+      "142:2": [
+        "complaint:a",
+        "kjv_trouble:a"
+      ],
+      "142:3": [
+        "overwhelm:psv:pa",
+        "secret:adv snare:a"
+      ],
+      "142:4": [
+        "kjv_right_side",
+        "kjv_refuge",
+        "no human for my/soul care:pa"
+      ],
+      "142:5": [
+        "my/kjv_refuge and my/part",
+        "land of living"
+      ],
+      "142:6": [
+        "very low",
+        "more strong than i"
+      ],
+      "142:7": [
+        "out of prison",
+        "praise:may",
+        "generous:adv"
+      ],
+      "143:1": [
+        "faithful:ev",
+        "kjv_righteousness"
+      ],
+      "143:2": [
+        "judge:ev",
+        "no living human kjv_justify:psv:fu"
+      ],
+      "143:3": [
+        "my/life:a down to ground",
+        "long dead"
+      ],
+      "143:4": [
+        "spirit",
+        "kjv_desolate"
+      ],
+      "143:5": [
+        "day:pl of old",
+        "meditate:pr",
+        "think:pr"
+      ],
+      "143:6": [
+        "soul after thee thirst:pr",
+        "thirst:adj land",
+        "kjv_selah_marker"
+      ],
+      "143:7": [
+        "speedily",
+        "fail:pr",
+        "hide:neg:imp",
+        "kjv_pit"
+      ],
+      "143:8": [
+        "hear:caus:imp",
+        "way:a in which i walk:should know:caus:imp"
+      ],
+      "143:9": [
+        "flee:pr",
+        "hide:inf"
+      ],
+      "143:10": [
+        "thy/will:a",
+        "spirit good",
+        "kjv_uprightness"
+      ],
+      "143:11": [
+        "quicken:imp",
+        "out of kjv_trouble"
+      ],
+      "143:12": [
+        "thy/mercy",
+        "all they:a who my/soul:a kjv_afflict:pr",
+        "destroy:imp"
+      ],
+      "144:1": [
+        "hand:pl:a war:inf",
+        "finger:pl:a fight:inf"
+      ],
+      "144:2": [
+        "kjv_tower",
+        "kjv_shield_armour",
+        "my/people:a under i subdue:pr"
+      ],
+      "144:3": [
+        "what human",
+        "son of human",
+        "make:pr:excl"
+      ],
+      "144:4": [
+        "vanity",
+        "shadow"
+      ],
+      "144:5": [
+        "heaven:pl:a bow:imp",
+        "smoke:fu"
+      ],
+      "144:6": [
+        "lightning:a",
+        "arrow:pl:a"
+      ],
+      "144:7": [
+        "from above",
+        "great water:pl",
+        "strange child:pl"
+      ],
+      "144:8": [
+        "mouth vanity:a",
+        "kjv_right_side hand of false:ev"
+      ],
+      "144:9": [
+        "new song:a",
+        "kjv_psaltery",
+        "ten string:pl"
+      ],
+      "144:10": [
+        "salvation:a to king:pl",
+        "kjv_david his/servant:a"
+      ],
+      "144:11": [
+        "free:imp",
+        "strange child:pl",
+        "kjv_right_side hand of false:ev"
+      ],
+      "144:12": [
+        "our/son:pl",
+        "our/daughter:pl",
+        "corner stone:pl",
+        "smooth:caus:psv:adj"
+      ],
+      "144:13": [
+        "kjv_storehouse:pl",
+        "thousand:pl:a and ten+thousand:pl:a"
+      ],
+      "144:14": [
+        "ox:pl strong to labour:inf",
+        "no in break:ev",
+        "no complaint"
+      ],
+      "144:15": [
+        "happy that people",
+        "whose god kjv_lord"
+      ],
+      "145:1": [
+        "kjv_exalt:fu",
+        "my/god king:excl"
+      ],
+      "145:2": [
+        "every day",
+        "for ever and ever"
+      ],
+      "145:3": [
+        "search:psv:neg:can"
+      ],
+      "145:4": [
+        "one generation",
+        "to another",
+        "declare:fu"
+      ],
+      "145:5": [
+        "glory:adj honour",
+        "wonder:adj work:pl"
+      ],
+      "145:6": [
+        "fear:adj work:pl",
+        "great:ev:a declare:fu"
+      ],
+      "145:7": [
+        "memory",
+        "abundance:adv utter:fu"
+      ],
+      "145:8": [
+        "kjv_compassion",
+        "slow to anger"
+      ],
+      "145:9": [
+        "good to all",
+        "tender mercy:pl"
+      ],
+      "145:10": [
+        "all thy/work:pl",
+        "thy/saint:pl"
+      ],
+      "145:11": [
+        "thy/kingdom",
+        "thy/power"
+      ],
+      "145:12": [
+        "son:pl of human:pl",
+        "know:caus:inf",
+        "his/kingdom"
+      ],
+      "145:13": [
+        "kingdom for ever",
+        "kjv_dominion"
+      ],
+      "145:14": [
+        "who fall:pr sustain:pr",
+        "down bow:psv:pr"
+      ],
+      "145:15": [
+        "their/food:a",
+        "due season"
+      ],
+      "145:16": [
+        "thine hand:a open:pr",
+        "every living thing:a"
+      ],
+      "145:17": [
+        "kjv_righteous",
+        "holy"
+      ],
+      "145:18": [
+        "near to all",
+        "in truth call:pr"
+      ],
+      "145:19": [
+        "desire:a of they",
+        "fulfil:fu",
+        "save:fu"
+      ],
+      "145:20": [
+        "preserve:pr",
+        "wicked:a he destroy:fu"
+      ],
+      "145:21": [
+        "my/mouth",
+        "all flesh",
+        "bless:opt"
+      ],
+      "146:1": [
+        "you:pl",
+        "my/soul:excl"
+      ],
+      "146:2": [
+        "while i live:pr",
+        "any be:ev"
+      ],
+      "146:3": [
+        "prince:pl",
+        "son of human",
+        "no help"
+      ],
+      "146:4": [
+        "his/breath",
+        "his/earth",
+        "thought:pl perish:pr"
+      ],
+      "146:5": [
+        "god of kjv_jacob",
+        "his/help",
+        "hope"
+      ],
+      "146:6": [
+        "heaven:a and earth:a",
+        "truth:a for ever"
+      ],
+      "146:7": [
+        "judge:ev:a for oppress:psv:adj",
+        "kjv_prisoner:pl:a"
+      ],
+      "146:8": [
+        "blind:a open:pr",
+        "raise:pr",
+        "love:pr"
+      ],
+      "146:9": [
+        "stranger:pl",
+        "kjv_fatherless",
+        "widow",
+        "up to down"
+      ],
+      "146:10": [
+        "rule:fu",
+        "kjv_zion:excl",
+        "all generation:pl"
+      ],
+      "147:1": [
+        "ourone/god",
+        "praise beautiful"
+      ],
+      "147:2": [
+        "kjv_jerusalem:a",
+        "out cast:psv:adj of kjv_israel"
+      ],
+      "147:3": [
+        "heart break:psv:adj",
+        "wound:pl:a"
+      ],
+      "147:4": [
+        "star:pl:a kjv_number:pr",
+        "their/name:pl"
+      ],
+      "147:5": [
+        "ourone/lord",
+        "understanding infinite"
+      ],
+      "147:6": [
+        "humble:a",
+        "wicked:a down"
+      ],
+      "147:7": [
+        "kjv_harp",
+        "ourone/god"
+      ],
+      "147:8": [
+        "cloud:pl",
+        "rain:a",
+        "grow:caus:pr"
+      ],
+      "147:9": [
+        "beast his/food:a",
+        "young raven:pl"
+      ],
+      "147:10": [
+        "strength of horse",
+        "leg:pl of man"
+      ],
+      "147:11": [
+        "fear:pr",
+        "mercy hope:pr"
+      ],
+      "147:12": [
+        "kjv_jerusalem:excl",
+        "kjv_zion:excl"
+      ],
+      "147:13": [
+        "bar:pl of thy/gate:pl:a",
+        "child:pl:a"
+      ],
+      "147:14": [
+        "thy/boundary:pl",
+        "most fine of wheat"
+      ],
+      "147:15": [
+        "his/command:a",
+        "very swift:adv"
+      ],
+      "147:16": [
+        "snow:a like kjv_wool",
+        "kjv_hoarfrost:a like kjv_ashes:pl"
+      ],
+      "147:17": [
+        "ice:a like kjv_morsel:pl",
+        "cold stand:can"
+      ],
+      "147:18": [
+        "they:a melt:pr",
+        "blow:caus:pr",
+        "water:pl flow:pr"
+      ],
+      "147:19": [
+        "word:a to kjv_jacob",
+        "kjv_statute:pl:a",
+        "judge:ev:pl:a"
+      ],
+      "147:20": [
+        "any nation deal:neg:perf",
+        "know:neg:perf"
+      ],
+      "148:1": [
+        "heaven:pl",
+        "height:pl"
+      ],
+      "148:2": [
+        "angel:pl",
+        "army:pl"
+      ],
+      "148:3": [
+        "sun and moon",
+        "star:pl of light"
+      ],
+      "148:4": [
+        "heaven:pl of heaven:pl",
+        "water:pl who above"
+      ],
+      "148:5": [
+        "command:pa",
+        "create:psv:pa"
+      ],
+      "148:6": [
+        "kjv_establish:perf",
+        "decree:a",
+        "pass:neg:fu"
+      ],
+      "148:7": [
+        "kjv_dragon_source:pl",
+        "kjv_depth:pl"
+      ],
+      "148:8": [
+        "hail",
+        "kjv_vapour:pl",
+        "storm:adj wind"
+      ],
+      "148:9": [
+        "fruit:adj kjv_tree:pl",
+        "kjv_cedar:pl"
+      ],
+      "148:10": [
+        "kjv_livestock",
+        "creep:cv:adj",
+        "fly:cv:adj"
+      ],
+      "148:11": [
+        "king:pl",
+        "prince:pl",
+        "judge:ag:pl"
+      ],
+      "148:12": [
+        "young man:pl",
+        "maiden:pl",
+        "old man:pl",
+        "child:pl"
+      ],
+      "148:13": [
+        "name alone excellent",
+        "above earth and heaven"
+      ],
+      "148:14": [
+        "horn of his/people:a",
+        "people near to he"
+      ],
+      "149:1": [
+        "new song:a",
+        "kjv_congregation of saint:pl"
+      ],
+      "149:2": [
+        "kjv_israel",
+        "their/king joy:adj"
+      ],
+      "149:3": [
+        "dance",
+        "kjv_timbrel and kjv_harp"
+      ],
+      "149:4": [
+        "humble:a with salvation beautiful:caus:fu"
+      ],
+      "149:5": [
+        "glory joy:adj",
+        "loud:adv upon their/bed:pl"
+      ],
+      "149:6": [
+        "high praise:pl",
+        "sword of two edge:pl"
+      ],
+      "149:7": [
+        "kjv_avenge:ev:a",
+        "punish:ev:pl:a"
+      ],
+      "149:8": [
+        "king:pl:a with chain:pl",
+        "fetter:pl of iron"
+      ],
+      "149:9": [
+        "judge:ev write:psv:adj:a",
+        "all his/saint:pl"
+      ],
+      "150:1": [
+        "kjv_sanctuary",
+        "kjv_firmament"
+      ],
+      "150:2": [
+        "mighty work:pl",
+        "kjv_according"
+      ],
+      "150:3": [
+        "sound of trumpet",
+        "kjv_psaltery and kjv_harp"
+      ],
+      "150:4": [
+        "kjv_timbrel",
+        "string:adj instrument:pl",
+        "kjv_pipe:pl"
+      ],
+      "150:5": [
+        "loud kjv_cymbal:pl",
+        "high sound:adj kjv_cymbal:pl"
+      ],
+      "150:6": [
+        "every thing which breath:a have:pr",
+        "praise:opt"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "135:5",
+        "137:5",
+        "137:6",
+        "138:1",
+        "138:2",
+        "138:3",
+        "138:7",
+        "138:8",
+        "139:1",
+        "139:10",
+        "139:11",
+        "139:13",
+        "139:14",
+        "139:15",
+        "139:17",
+        "139:18",
+        "139:19",
+        "139:21",
+        "139:22",
+        "139:23",
+        "139:24",
+        "139:5",
+        "139:6",
+        "139:7",
+        "139:8",
+        "139:9",
+        "140:1",
+        "140:12",
+        "140:4",
+        "140:5",
+        "140:6",
+        "140:9",
+        "141:1",
+        "141:10",
+        "141:4",
+        "141:5",
+        "141:9",
+        "142:1",
+        "142:2",
+        "142:3",
+        "142:4",
+        "142:5",
+        "142:6",
+        "142:7",
+        "143:1",
+        "143:10",
+        "143:11",
+        "143:12",
+        "143:3",
+        "143:4",
+        "143:5",
+        "143:6",
+        "143:7",
+        "143:8",
+        "143:9",
+        "144:11",
+        "144:2",
+        "144:7",
+        "144:9",
+        "145:1",
+        "145:2",
+        "145:5",
+        "145:6",
+        "146:2"
+      ],
+      "ipl": [],
+      "wesg": [
+        "136:23",
+        "136:24",
+        "137:1",
+        "137:4"
+      ],
+      "wepl": [
+        "137:1",
+        "137:2",
+        "137:3",
+        "137:8"
+      ],
+      "mypl": [],
+      "ourone": [
+        "135:2",
+        "135:5",
+        "136:23",
+        "136:24",
+        "147:1",
+        "147:5",
+        "147:7"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "135:8and136:10firstborn use ordinal1as birth rank,not a victim total.",
+      "137:3one song,144:9ten strings and149:6two edges preserve explicit1,10,2.",
+      "144:13plural thousands and ten-thousands retain counting units1000and10000,separated by plural-unit morphology rather than summed to11000;ten+thousand is the existing multiplicative numeral form.",
+      "Generic one135:18/141:7/145:4,star counts,sand comparisons,infinity and generations do not introduce explicit totals."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Psalms135–150completes the supplied2461Psalms verses,not the entire Bible.No explicit divine first-person speech is invented in these psalms.",
+      "Psalm136retains all26identical mercy refrains,including beside lethal historical claims and land appropriation.",
+      "Psalm137distinguishes captors quoted us from exiles;its violent closing wish and149martial praise remain source rhetoric without added injury detail or endorsement.",
+      "139retains womb versus lowest-earth imagery,members rather than alternate days reading,and perfect hatred beside self-examination.",
+      "Contextual right,lie,raven,bow,sound and archaic organs retain their appropriate senses;source-local contrasts are not harmonized.",
+      "All prior targets and old seals remain unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 1244,
+    "spreads": 622,
+    "units": 2461,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "6b1d4269d4f51e4168bb6dfdb366c202f023daba3fecad530460c25e5a0d1816",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 622,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.391,
+    "modules": [
+      "tests.test_kjv_psalm_final_praise",
+      "tests.test_kjv_psalm_ascent_identity",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    1243,
+    1244
+  ],
+  "status": "incompleteBible;allPsalmssectioncheckpointverified",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "105927432d6981765f4027cb09210ea4a6d0fc3d5d3e5a19aa59768ad39e76d7",
+    "pages": 11092,
+    "spreads": 5546,
+    "authoredVerses": 16449,
+    "missingVerses": 14653,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 22184,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Genesis.vay",
+        "sha256": "bbf6c7a92ef956364ece52877f1998be0b02ddfb7e33f2563afb529b41cb79dd",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Exodus.vay",
+        "sha256": "5d69c5730d924959e1019809b8c2f7738161ffb011e144f6d1c9d57dc5957fe7",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Leviticus.vay",
+        "sha256": "acece7c9de894107116d7e27cab2a67fa2300ea2b37ae14e30523e109024b27b",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Numbers.vay",
+        "sha256": "b2edc7791a7e89e92c9cab6759c24d76b7fa7b3a9a290a352201d624f6174199",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Deuteronomy.vay",
+        "sha256": "e71f451a8ae07c3d5a3604d569192d12864ed9887d48ebc7e684b13e54c3dad2",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Joshua.vay",
+        "sha256": "04524ad57a4e8bfbc78fb5c8384faae56437b88c67cc4fd9e13819b1766efae3",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Judges.vay",
+        "sha256": "ccccb1c5b09c54b80866e25aae8a49ccf20a53ec278b844860e9fd9553932c01",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Ruth.vay",
+        "sha256": "8ad1ca7778bd9763a56e5efb28291827eb797fc2eacfc18ff4b1e7d6fece4033",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Chronicles.vay",
+        "sha256": "d95465cafe4db78a757f2a5c3b4cbaf94b44f5101c865c07adaaa9387d5bf906",
+        "firstPage": 7483,
+        "lastPage": 8006
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Chronicles2.vay",
+        "sha256": "77a0caef2309273bcc99db7c88022f1cbe154df236ff4153fda036b34e8f9a8b",
+        "firstPage": 8007,
+        "lastPage": 8692
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Ezra.vay",
+        "sha256": "35cdd43f50d0192404e588ea0656e33744e23846a5ca5345b01a89c595ff157c",
+        "firstPage": 8693,
+        "lastPage": 8882
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Nehemiah.vay",
+        "sha256": "b5abc4ad65f8fa51146ab7cb9c3b7a0f3938a7ab8f3b9cb3d0d52957b40d442d",
+        "firstPage": 8883,
+        "lastPage": 9160
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Esther.vay",
+        "sha256": "e6ff324bc045bea6f1fa34c5dcbc14de09a25b295ca75f76ccc318f011605ddb",
+        "firstPage": 9161,
+        "lastPage": 9300
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Job.vay",
+        "sha256": "2bcc3eea6400ebf96761b4f3cfe2e5da61758d7a9799e36b031f8bbe2820c4dc",
+        "firstPage": 9301,
+        "lastPage": 9806
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Psalms.vay",
+        "sha256": "6b1d4269d4f51e4168bb6dfdb366c202f023daba3fecad530460c25e5a0d1816",
+        "firstPage": 9807,
+        "lastPage": 11050
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.120\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 11051,
+        "lastPage": 11092
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.90",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.93",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.93",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.93",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "working"
+      },
+      {
+        "section": "1 Chronicles",
+        "version": "0.10-kjv.93",
+        "firstPage": 7483,
+        "lastPage": 8006,
+        "status": "working"
+      },
+      {
+        "section": "2 Chronicles",
+        "version": "0.10-kjv.94",
+        "firstPage": 8007,
+        "lastPage": 8692,
+        "status": "working"
+      },
+      {
+        "section": "Ezra",
+        "version": "0.10-kjv.96",
+        "firstPage": 8693,
+        "lastPage": 8882,
+        "status": "working"
+      },
+      {
+        "section": "Nehemiah",
+        "version": "0.10-kjv.100",
+        "firstPage": 8883,
+        "lastPage": 9160,
+        "status": "working"
+      },
+      {
+        "section": "Esther",
+        "version": "0.10-kjv.101",
+        "firstPage": 9161,
+        "lastPage": 9300,
+        "status": "working"
+      },
+      {
+        "section": "Job",
+        "version": "0.10-kjv.107",
+        "firstPage": 9301,
+        "lastPage": 9806,
+        "status": "working"
+      },
+      {
+        "section": "Psalms 1–150",
+        "version": "0.10-kjv.120",
+        "firstPage": 9807,
+        "lastPage": 11050,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 11051,
+        "lastPage": 11092,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    10755,
+    10756,
+    10961,
+    10962,
+    11049,
+    11050,
+    11091,
+    11092
+  ],
+  "referenceLinksChecked": true
+}

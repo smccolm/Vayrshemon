@@ -3,13 +3,13 @@ from pathlib import Path
 from tools.m0.common import write_json
 from vayrshemon.api import obj
 from vayrshemon.file_api import METHODS,FileAPI
-from vayrshemon.file_contracts import DOCUMENT
+from vayrshemon.file_contracts import FILE_DOCUMENT
 from vayrshemon.mcp import tools
 
 
 def generate(root):
     root=Path(root);variants=[]
-    write_json(root/'schemas/file-document.schema.json',DOCUMENT)
+    write_json(root/'schemas/file-document.schema.json',FILE_DOCUMENT)
     for method,(description,mutation,params) in METHODS.items():
         fields=dict(apiVersion={'const':FileAPI.version},method={'const':method},params=params);required=['apiVersion','method','params']
         if mutation:

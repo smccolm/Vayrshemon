@@ -1,0 +1,22 @@
+{
+  "version": "0.10-kjv.279",
+  "policy": "never-modernize",
+  "status": "Frozen native-vocabulary correction; complete 31,102-verse target ledger. Native pagination is validated separately.",
+  "basePackage": "data/language/archaic-kjv-278",
+  "baseManifestSha256": "b75385769bc4a4aa026852ca0c75a1c66b785e78bae527f396f882b85b9b0f4a",
+  "baseForgeHead": "87b5358cf77e81e6148c528d0f4e13195a25f6088be6c180aa80c6be5952906b",
+  "forgeHead": "db17b88fc4c48492f5b24d30deaee3ef7cb07adc4022853f53a006aff543471d",
+  "compilerPath": "data/language/archaic-kjv-279/compiler.py",
+  "compilerSha256": "c13064f6c2b119ec743c3fd9544526a0297f5bcee5458298c60c288aeff38bcb",
+  "compilerChange": "No compiler or paradigm change. Correct non-name borrowings and their documented derivatives, 38 marriage-verb misanalyses, contextual assent and quoted language. Original 278 edition remains immutable. Archaic grammar, plural-I/singular-we and exact source quantities retained.",
+  "files": {
+    "compiler.py": "c13064f6c2b119ec743c3fd9544526a0297f5bcee5458298c60c288aeff38bcb",
+    "coverage-summary.json": "4df6c024de06227958e3db06c4a29d0168c121e1d390a67363833de377212d66",
+    "grammar.md": "6959902806dd5b5bf914a67e69293fce1adcb204d84d2d809ed176976c33546f",
+    "lexicon.json": "5d3ee40d7e1d50621bad113ee2e3402b61bab87bded71b2c0547736397eda4e4",
+    "morphology.json": "e6c442af14857717ea8929ad749b710bffce7811b4ed95e1f7207b8f739f4b7d",
+    "native-correction-cases.json": "21e132aa246a50e296b766e00d0395349494a0b626ebe44df7960640d700db69",
+    "native-corrections.json": "db781394dd84fd63070d50a89237960bfff4f9c5d696320916256edd0bbe16e1",
+    "orthography.json": "032da7c5ffd64f327a4237762bcf00dcaf990cff660c142a037600f7ac464591"
+  }
+}

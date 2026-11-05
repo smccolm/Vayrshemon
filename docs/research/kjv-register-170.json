@@ -1,0 +1,802 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.170",
+    "parentVersion": "0.10-kjv.169",
+    "parentHead": "9a2624a7b68e3666f63e613f8fc9305fe2aabe52d66af2ab680b1573411f7bc4",
+    "head": "ae09b51a202450999d4a49fc8d812461fc9f25c99c0836725731a5ce38bd776b",
+    "newLexicalEntries": 9,
+    "newProperEntries": 3,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 7,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 96,
+    "exactCompilerCases": 96,
+    "newAuthoredVerses": 96,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 196,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9120,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newDanielVerses": 96,
+    "danielVerses": 196,
+    "authoredVerses": 21982,
+    "remainingVerses": 9120,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 17,
+    "quantityChecks": [
+      {
+        "reference": "Daniel 4:16",
+        "source": "Let his heart be changed from man’s, and let a beast’s heart be given unto him; and let seven times pass over him.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Daniel 4:19",
+        "source": "Then Daniel, whose name was Belteshazzar, was astonied for one hour, and his thoughts troubled him. The king spake, and said, Belteshazzar, let not the dream, or the interpretation thereof, trouble thee. Belteshazzar answered and said, My lord, the dream be to them that hate thee, and the interpretation thereof to thine enemies.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 4:23",
+        "source": "And whereas the king saw a watcher and an holy one coming down from heaven, and saying, Hew the tree down, and destroy it; yet leave the stump of the roots thereof in the earth, even with a band of iron and brass, in the tender grass of the field; and let it be wet with the dew of heaven, and let his portion be with the beasts of the field, till seven times pass over him;",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Daniel 4:25",
+        "source": "That they shall drive thee from men, and thy dwelling shall be with the beasts of the field, and they shall make thee to eat grass as oxen, and they shall wet thee with the dew of heaven, and seven times shall pass over thee, till thou know that the most High ruleth in the kingdom of men, and giveth it to whomsoever he will.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Daniel 4:29",
+        "source": "At the end of twelve months he walked in the palace of the kingdom of Babylon.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Daniel 4:32",
+        "source": "And they shall drive thee from men, and thy dwelling shall be with the beasts of the field: they shall make thee to eat grass as oxen, and seven times shall pass over thee, until thou know that the most High ruleth in the kingdom of men, and giveth it to whomsoever he will.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Daniel 5:1",
+        "source": "Belshazzar the king made a great feast to a thousand of his lords, and drank wine before the thousand.",
+        "expectedDecimalQuantities": [
+          1000,
+          1000
+        ],
+        "targetQuantities": [
+          1000,
+          1000
+        ]
+      },
+      {
+        "reference": "Daniel 5:7",
+        "source": "The king cried aloud to bring in the astrologers, the Chaldeans, and the soothsayers. And the king spake, and said to the wise men of Babylon, Whosoever shall read this writing, and shew me the interpretation thereof, shall be clothed with scarlet, and have a chain of gold about his neck, and shall be the third ruler in the kingdom.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 5:16",
+        "source": "And I have heard of thee, that thou canst make interpretations, and dissolve doubts: now if thou canst read the writing, and make known to me the interpretation thereof, thou shalt be clothed with scarlet, and have a chain of gold about thy neck, and shalt be the third ruler in the kingdom.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 5:29",
+        "source": "Then commanded Belshazzar, and they clothed Daniel with scarlet, and put a chain of gold about his neck, and made a proclamation concerning him, that he should be the third ruler in the kingdom.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 5:31",
+        "source": "And Darius the Median took the kingdom, being about threescore and two years old.",
+        "expectedDecimalQuantities": [
+          62
+        ],
+        "targetQuantities": [
+          62
+        ]
+      },
+      {
+        "reference": "Daniel 6:1",
+        "source": "It pleased Darius to set over the kingdom an hundred and twenty princes, which should be over the whole kingdom;",
+        "expectedDecimalQuantities": [
+          120
+        ],
+        "targetQuantities": [
+          120
+        ]
+      },
+      {
+        "reference": "Daniel 6:2",
+        "source": "And over these three presidents; of whom Daniel was first: that the princes might give accounts unto them, and the king should have no damage.",
+        "expectedDecimalQuantities": [
+          3,
+          1
+        ],
+        "targetQuantities": [
+          3,
+          1
+        ]
+      },
+      {
+        "reference": "Daniel 6:7",
+        "source": "All the presidents of the kingdom, the governors, and the princes, the counsellors, and the captains, have consulted together to establish a royal statute, and to make a firm decree, that whosoever shall ask a petition of any God or man for thirty days, save of thee, O king, he shall be cast into the den of lions.",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      },
+      {
+        "reference": "Daniel 6:10",
+        "source": "Now when Daniel knew that the writing was signed, he went into his house; and his windows being open in his chamber toward Jerusalem, he kneeled upon his knees three times a day, and prayed, and gave thanks before his God, as he did aforetime.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Daniel 6:12",
+        "source": "Then they came near, and spake before the king concerning the king’s decree; Hast thou not signed a decree, that every man that shall ask a petition of any God or man within thirty days, save of thee, O king, shall be cast into the den of lions? The king answered and said, The thing is true, according to the law of the Medes and Persians, which altereth not.",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      },
+      {
+        "reference": "Daniel 6:13",
+        "source": "Then answered they and said before the king, That Daniel, which is of the children of the captivity of Judah, regardeth not thee, O king, nor the decree that thou hast signed, but maketh his petition three times a day.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "4:1": [
+        "people nation:pl and language:pl",
+        "peace to you kjv_multiply:psv:pr:opt"
+      ],
+      "4:2": [
+        "ipl it good think:pa",
+        "high god towards ipl"
+      ],
+      "4:3": [
+        "great:excl",
+        "mighty:excl",
+        "generation to generation"
+      ],
+      "4:4": [
+        "ipl nebuchadnezzar",
+        "mypl/palace prosper:cv"
+      ],
+      "4:5": [
+        "ipl:a afraid make:pa",
+        "mypl/head ipl:a distress:pa"
+      ],
+      "4:6": [
+        "ipl all wise man:pl",
+        "interpret:ev of dream:ev"
+      ],
+      "4:7": [
+        "kjv_soothsayer:pl",
+        "ipl dream:ev before they tell:pa",
+        "know:caus:pa:neg"
+      ],
+      "4:8": [
+        "name of mypl/god",
+        "spirit of holy god:pl",
+        "ipl dream:ev tell:pa"
+      ],
+      "4:9": [
+        "master of kjv_magician:pl",
+        "no secret thou:a distress:pr",
+        "mypl/dream:ev"
+      ],
+      "4:10": [
+        "ipl see:pa",
+        "kjv_tree in middle of earth"
+      ],
+      "4:11": [
+        "its/height to heaven reach:pa",
+        "end of all earth"
+      ],
+      "4:12": [
+        "its/leaf:pl beautiful",
+        "food for all",
+        "all flesh of it feed:psv:pa"
+      ],
+      "4:13": [
+        "watch:ag and kjv_holy_being",
+        "from heaven down come:pa"
+      ],
+      "4:14": [
+        "his/leaf:pl off shake",
+        "his/fruit scatter",
+        "beast:pl from under it"
+      ],
+      "4:15": [
+        "kjv_stump of his/root:pl",
+        "kjv_binding_band of iron and kjv_brass",
+        "dew of heaven"
+      ],
+      "4:16": [
+        "from man/heart change:psv:pr:opt",
+        "beast/heart",
+        "seven time:pl"
+      ],
+      "4:17": [
+        "decree of watch:ag:pl",
+        "word of kjv_holy_being:pl",
+        "lowest of man:pl"
+      ],
+      "4:18": [
+        "ipl king nebuchadnezzar",
+        "know:caus:pr:neg:can",
+        "holy god:pl"
+      ],
+      "4:19": [
+        "one_num hour",
+        "distress:pr:neg:opt",
+        "my/lord",
+        "thy/enemy:pl"
+      ],
+      "4:20": [
+        "kjv_tree that thou see:pa",
+        "its/sight to all earth"
+      ],
+      "4:21": [
+        "leaf:pl beautiful",
+        "food for all",
+        "their/dwell:ev"
+      ],
+      "4:22": [
+        "it thou be:pr oh king",
+        "thy/kjv_dominion"
+      ],
+      "4:23": [
+        "watch:ag and kjv_holy_being",
+        "it:a destroy yet",
+        "seven time:pl"
+      ],
+      "4:24": [
+        "decree of most high",
+        "my/lord king"
+      ],
+      "4:25": [
+        "they thou:a from man:pl drive:fu",
+        "eat:caus:fu",
+        "wet:caus:fu",
+        "seven time:pl"
+      ],
+      "4:26": [
+        "kjv_stump",
+        "kingdom to thou sure",
+        "heaven:pl rule:pr"
+      ],
+      "4:27": [
+        "my/counsel",
+        "by kjv_righteousness",
+        "mercy to poor",
+        "be:pr:may"
+      ],
+      "4:28": [
+        "all this upon king nebuchadnezzar"
+      ],
+      "4:29": [
+        "twelve month:pl",
+        "in palace"
+      ],
+      "4:30": [
+        "ipl for house of kingdom",
+        "mypl/power",
+        "mypl/majesty",
+        "be:pr:neg?"
+      ],
+      "4:31": [
+        "voice from heaven fall:pa",
+        "kingdom from thou depart:perf"
+      ],
+      "4:32": [
+        "grass as ox:pl eat:caus:fu",
+        "seven time:pl",
+        "whoever he will:pr"
+      ],
+      "4:33": [
+        "same hour",
+        "kjv_eagle:pl/feather:pl",
+        "his/nail:pl like bird:pl/claw:pl"
+      ],
+      "4:34": [
+        "i nebuchadnezzar my/eye:pl",
+        "my/understand:ev to i return:pa",
+        "eternal kjv_dominion"
+      ],
+      "4:35": [
+        "as nothing reckon:psv:pr",
+        "army of heaven",
+        "his/hand restrain:pr:can"
+      ],
+      "4:36": [
+        "mypl/understand:ev to ipl",
+        "mypl/honour and mypl/bright:ev",
+        "ipl in mypl/kingdom kjv_establish:psv:pa"
+      ],
+      "4:37": [
+        "ipl nebuchadnezzar",
+        "kjv_exalt:pr",
+        "down bring:pr:can"
+      ],
+      "5:1": [
+        "thousand of his/lord:pl",
+        "before thousand"
+      ],
+      "5:2": [
+        "his/father nebuchadnezzar",
+        "gold:adj and silver",
+        "his/wife:pl and his/kjv_concubine:pl"
+      ],
+      "5:3": [
+        "gold:adj vessel:pl",
+        "kjv_temple of house of god"
+      ],
+      "5:4": [
+        "gold and of silver of kjv_brass of iron of wood and of stone"
+      ],
+      "5:5": [
+        "finger:pl of man/hand",
+        "plaster",
+        "part of hand"
+      ],
+      "5:6": [
+        "kjv_joint:pl of his/kjv_loins",
+        "his/knee:pl each against other"
+      ],
+      "5:7": [
+        "to ipl its/interpret:ev",
+        "kjv_scarlet",
+        "three:ord rule:ag"
+      ],
+      "5:8": [
+        "read:pa:neg:can",
+        "interpret:ev know:caus:pa"
+      ],
+      "5:9": [
+        "his/face in he",
+        "his/lord:pl astonish:psv:pa"
+      ],
+      "5:10": [
+        "queen",
+        "distress:pr:neg:opt",
+        "nor thy/face"
+      ],
+      "5:11": [
+        "spirit of holy god:pl",
+        "king i say thy/father",
+        "kjv_soothsayer:pl"
+      ],
+      "5:12": [
+        "hard sentence:pl",
+        "doubt:ev:pl dissolve:ev",
+        "kjv_belteshazzar"
+      ],
+      "5:13": [
+        "child:pl of kjv_captivity",
+        "mypl/father",
+        "kjv_jewry"
+      ],
+      "5:14": [
+        "ipl even of thou hear:perf",
+        "spirit of god:pl"
+      ],
+      "5:15": [
+        "before ipl",
+        "interpret:ev of thing show:pa:neg:can"
+      ],
+      "5:16": [
+        "ipl of thou hear:perf",
+        "doubt:ev:pl dissolve",
+        "three:ord rule:ag"
+      ],
+      "5:17": [
+        "thy/gift:pl to thyself",
+        "thy/reward:pl to another",
+        "i write:ev to king read:fu"
+      ],
+      "5:18": [
+        "nebuchadnezzar thy/father",
+        "kingdom and majesty and glory and honour"
+      ],
+      "5:19": [
+        "he slay:pa",
+        "he alive keep:pa",
+        "he up set:pa",
+        "he down put:pa"
+      ],
+      "5:20": [
+        "his/mind in pride hard:caus:psv:pa",
+        "his/king:adj throne remove:psv:pa"
+      ],
+      "5:21": [
+        "wild ass:pl",
+        "grass like ox:pl",
+        "highest god"
+      ],
+      "5:22": [
+        "thou his/son",
+        "humble:caus:perf:neg",
+        "though thou all this know:pa"
+      ],
+      "5:23": [
+        "silver and gold of kjv_brass iron wood and stone",
+        "thy/breath",
+        "glorify:perf:neg"
+      ],
+      "5:24": [
+        "part of hand from he",
+        "this write:ev write:psv:pa"
+      ],
+      "5:25": [
+        "kjv_mene_word kjv_mene_word kjv_tekel_word kjv_upharsin_word"
+      ],
+      "5:26": [
+        "kjv_mene_word",
+        "kjv_number:perf and it:a finish:perf"
+      ],
+      "5:27": [
+        "kjv_tekel_word",
+        "balance:pl weigh:psv:pr",
+        "lack:cv"
+      ],
+      "5:28": [
+        "kjv_peres_word",
+        "kjv_divide:psv:pr",
+        "kjv_mede:pl and man:pl of kjv_persia"
+      ],
+      "5:29": [
+        "kjv_scarlet",
+        "chain of gold",
+        "three:ord rule:ag"
+      ],
+      "5:30": [
+        "in thatone night",
+        "slay:psv:pa"
+      ],
+      "5:31": [
+        "kjv_darius_median kjv_mede",
+        "about five+twelve and two year:pl"
+      ],
+      "6:1": [
+        "ten+twelve prince:pl",
+        "whole kingdom"
+      ],
+      "6:2": [
+        "three kjv_president_officer:pl",
+        "kjv_daniel_captive one_num:ord",
+        "damage have:pa:neg:should"
+      ],
+      "6:3": [
+        "prefer:psv:pa",
+        "king he:a over whole kingdom set think:pa"
+      ],
+      "6:4": [
+        "no occasion nor fault",
+        "faithful",
+        "neither error or fault"
+      ],
+      "6:5": [
+        "wesg any occasion",
+        "except wesg",
+        "law of his/god"
+      ],
+      "6:6": [
+        "kjv_president_officer:pl and prince:pl",
+        "kjv_darius_median forever live"
+      ],
+      "6:7": [
+        "all kjv_president_officer:pl",
+        "two+twelve and six day:pl",
+        "except of thou",
+        "kjv_den of lion:pl"
+      ],
+      "6:8": [
+        "write:ev sign",
+        "change:psv:pr:neg",
+        "law of kjv_mede:pl and man:pl of kjv_persia"
+      ],
+      "6:9": [
+        "write:ev and decree sign:pa"
+      ],
+      "6:10": [
+        "his/window:pl",
+        "towards kjv_jerusalem open",
+        "three time:pl each day",
+        "as he before do:pa"
+      ],
+      "6:11": [
+        "pray:cv and kjv_supplication",
+        "find:pa"
+      ],
+      "6:12": [
+        "two+twelve and six day:pl",
+        "sign:perf:neg?",
+        "which change:pr:neg"
+      ],
+      "6:13": [
+        "kjv_captivity of kjv_judah",
+        "three time:pl each day"
+      ],
+      "6:14": [
+        "very with himself displease:psv:pa",
+        "until down go:ev of sun"
+      ],
+      "6:15": [
+        "no decree nor kjv_statute",
+        "change:psv:pr:may"
+      ],
+      "6:16": [
+        "kjv_den of lion:pl cast:pa",
+        "he thou:a deliver:fu"
+      ],
+      "6:17": [
+        "his/own kjv_signet",
+        "kjv_signet of his/lord:pl",
+        "change:psv:pa:neg:may"
+      ],
+      "6:18": [
+        "night in kjv_fast",
+        "neither instrument:pl of music",
+        "sleep from he go:pa"
+      ],
+      "6:19": [
+        "very early in morning",
+        "in haste"
+      ],
+      "6:20": [
+        "lament:adj voice",
+        "live:cv god",
+        "deliver:pr:can?"
+      ],
+      "6:21": [
+        "oh king forever live"
+      ],
+      "6:22": [
+        "my/god his/angel",
+        "they i:a hurt:perf:neg",
+        "innocent:ev in i",
+        "i hurt:ev do:perf:neg"
+      ],
+      "6:23": [
+        "no kind of hurt:ev",
+        "because he in his/god believe:pa"
+      ],
+      "6:24": [
+        "their/child:pl and their/wife:pl",
+        "all their/bone:pl",
+        "before ever they to bottom"
+      ],
+      "6:25": [
+        "people nation:pl and language:pl",
+        "peace to you"
+      ],
+      "6:26": [
+        "ipl decree make:pr",
+        "mypl/kingdom",
+        "tremble:pr:opt and fear:pr:opt",
+        "destroy:psv:fu:neg"
+      ],
+      "6:27": [
+        "he deliver:pr and rescue:pr",
+        "power of lion:pl"
+      ],
+      "6:28": [
+        "kjv_darius_median",
+        "kjv_cyrus man of kjv_persia"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "4:34",
+        "5:11",
+        "5:17",
+        "6:22"
+      ],
+      "ipl": [
+        "4:10",
+        "4:13",
+        "4:18",
+        "4:2",
+        "4:30",
+        "4:36",
+        "4:37",
+        "4:4",
+        "4:5",
+        "4:6",
+        "4:7",
+        "4:8",
+        "4:9",
+        "5:14",
+        "5:15",
+        "5:16",
+        "5:7",
+        "6:26"
+      ],
+      "wesg": [
+        "6:5"
+      ],
+      "wepl": [],
+      "mypl": [
+        "4:10",
+        "4:13",
+        "4:18",
+        "4:30",
+        "4:36",
+        "4:4",
+        "4:5",
+        "4:8",
+        "4:9",
+        "5:13",
+        "6:26"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [
+      "4:10",
+      "4:13",
+      "4:18",
+      "4:2",
+      "4:30",
+      "4:36",
+      "4:37",
+      "4:4",
+      "4:5",
+      "4:6",
+      "4:7",
+      "4:8",
+      "4:9",
+      "5:14",
+      "5:15",
+      "5:16",
+      "5:7",
+      "6:26"
+    ],
+    "quantityInterpretation": [
+      "Seven times remains unit-unspecified;one hour and twelve months retained separately.",
+      "Two thousand mentions,third rulerships and approximate62-year age retained.",
+      "120princes,three presidents,Daniel first,thirty-day ban and three daily prayers preserved."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Daniel4–6 adds96 verses;196Danielverses;whole Bible incomplete.",
+      "Royal plural-self,personal embodied recovery and communal accusers distinguished.",
+      "Foreign inscription tokens,source relationships and collective punishment retained without harmonization.",
+      "Six common senses and three contextual names;no paradigms or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Daniel — incomplete Bible working text",
+    "pages": 152,
+    "spreads": 76,
+    "units": 196,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "be24bfe4478e0986cd85a3ca1b1fd0f25702c49219e269975b04391be5ad038f",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 76,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 16.21,
+    "modules": [
+      "tests.test_kjv_daniel_exposed_kings",
+      "tests.test_kjv_daniel_court_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    151,
+    152
+  ],
+  "status": "incomplete Bible;Daniel1–6 section checkpoint verified"
+}

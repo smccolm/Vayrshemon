@@ -1,0 +1,335 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.63",
+    "parentVersion": "0.10-kjv.62",
+    "parentHead": "2e47d4585a5b44ae216e3f7d66f63b986862848e550c44aa41fc251593f34192",
+    "head": "f0412bdc2bd180b8b1a88c74a6e678d9314bf516d4dfdea84b7f81d1666173ad",
+    "newLexicalEntries": 0,
+    "newProperEntries": 0,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 3,
+    "newForgeFixtures": 203,
+    "exactCompilerCases": 203,
+    "newAuthoredVerses": 0,
+    "revisedPreviousTargetVerses": 47,
+    "phraseCorrections": 49,
+    "reviewedVerses": 203,
+    "retainedReviewedVerses": 156,
+    "correctionsBySection": {
+      "genesis": 14,
+      "numbers": 7,
+      "samuel1": 10,
+      "samuel2": 16
+    },
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21520,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "authoredVerses": 9582,
+    "remainingVerses": 21520,
+    "reviewedCases": 203,
+    "revisedVerses": 47,
+    "retainedCases": 156,
+    "phraseCorrections": 49,
+    "exactCompilationVerified": true,
+    "unrevisedUnitsUnchanged": true,
+    "allSourceReferencesAndOffsetsUnchanged": true,
+    "originalSourceHashUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "independentLiteraryCertification": false
+  },
+  "nativeParts": {
+    "genesis": {
+      "book": "Genesis — incomplete Bible working text",
+      "pages": 1022,
+      "spreads": 511,
+      "units": 1533,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "57702a28d98deb0f5fb3e8b4c52059485a6846f15159e9005eef54aec2950382",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 511,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "numbers": {
+      "book": "Numbers — incomplete Bible working text",
+      "pages": 830,
+      "spreads": 415,
+      "units": 1288,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "c706fa72009d36f1720c66c777dbe7f860a11c53788e7548e5d158387e3fd471",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 415,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "samuel1": {
+      "book": "1 Samuel — incomplete Bible working text",
+      "pages": 666,
+      "spreads": 333,
+      "units": 810,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 333,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    },
+    "samuel2": {
+      "book": "2 Samuel — incomplete Bible working text",
+      "pages": 526,
+      "spreads": 263,
+      "units": 695,
+      "allFourColumnsMatchLedger": true,
+      "saveReopenIdentical": true,
+      "templateUnchanged": true,
+      "geometryAndPaintPreserved": true,
+      "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+      "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+      "maxBaselineErrorPt": 0.011718749999914735,
+      "maxHorizontalBearingExcessPx": 0.0,
+      "horizontalBearingTolerancePx": 1.0,
+      "missingGlyphs": 0,
+      "verticalOverset": 0,
+      "numberingCheckedInBothModes": true,
+      "reusedMeasuredSpreads": 263,
+      "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+    }
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 12.963,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_human_one_context",
+      "tests.test_kjv_kings_fall",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "status": "incomplete whole Bible; combined validation running",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "a5f35709cc2a3bb1bbfe83a9e89c24d16cb2d18879e9b008783e61f1ad28b352",
+    "pages": 6938,
+    "spreads": 3469,
+    "authoredVerses": 9582,
+    "missingVerses": 21520,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 13876,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Genesis.vay",
+        "sha256": "57702a28d98deb0f5fb3e8b4c52059485a6846f15159e9005eef54aec2950382",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Exodus.vay",
+        "sha256": "36e827d8ff72e89213baacb89ed73052ee85a6654c80e92fe0043744f0b38ae0",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Leviticus.vay",
+        "sha256": "198ef8a0fc381e208b99e9dd83e0fe76549d174630b386872d2bcf5f3e5d696c",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Numbers.vay",
+        "sha256": "c706fa72009d36f1720c66c777dbe7f860a11c53788e7548e5d158387e3fd471",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Deuteronomy.vay",
+        "sha256": "224062c8d24fed83fc8c60cf21550b0c369977ea7fba6317f56a15bdaf9d7785",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Joshua.vay",
+        "sha256": "fa516f69c091de5aa989df2afa75fbd5572f8551e11a594dbfc6f4900fffc02e",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Judges.vay",
+        "sha256": "cbc266175edd9d15970ccd139431b4dfbf1c560c1427afd8a104b70d56d06f3f",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Ruth.vay",
+        "sha256": "046b105cf141f3dc107655da136a60ff151c7c2ff9ec92e2ec70b16b38641688",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.63\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 6897,
+        "lastPage": 6938
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.63",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.26",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.19",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.63",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.31",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.35",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 6897,
+        "lastPage": 6938,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedVisualReview": {
+    "pages": [
+      307,
+      2724,
+      5364,
+      6170
+    ],
+    "observations": "Viewed four corrected-passage proofs; matching paragraph starts, Maxima, reading/gloss styles, body geometry and Unta remain intact. Full native save/reopen, four-column and numbering checks also passed."
+  },
+  "referenceGuidePublished": true
+}

@@ -1,0 +1,31 @@
+{
+  "version": "0.10-kjv.4",
+  "policy": "never-modernize",
+  "status": "working historical continuation; WHOLE BIBLE INCOMPLETE",
+  "basePackage": "data/language/archaic-kjv-3",
+  "baseManifestSha256": "5e44f27305829cfb2d9b7fed342c91e2b5b576742b746112004728d705cf2d74",
+  "baseForgeHead": "6ea3d263412ca6ddf004421edb6be1ea3d869187ea02b3dc698aa25b11f8712b",
+  "forgeHead": "736c0c04e338d70924fecbe35db968d640f3f134a34b3c3daa865859a71d3c02",
+  "compilerPath": "data/language/archaic-kjv-4/compiler.py",
+  "compilerSha256": "fce3a11a2eed028ea8e7d4cdb4d22984075cb5cdacb2d3ede8be0aaefdca3bde",
+  "compilerChange": "Compiler and paradigms unchanged; explicit lexical senses and source-bound discourse choices through Genesis 20.",
+  "files": {
+    "additions.json": "ca6e9fb64c91d0570e0ff02f95979c159ff55184cab5a1b740f69a6a8395f7cf",
+    "compiler.py": "fce3a11a2eed028ea8e7d4cdb4d22984075cb5cdacb2d3ede8be0aaefdca3bde",
+    "continuation-cases.json": "12e7140213bbc262a9d72e37de8d8bee3e8c3cdc9471c75c629d4fe30dd66330",
+    "covenant-cases.json": "fd89f4c158aaa44a099aee59b30e43a187ee4918a102124192a7c93b96a36980",
+    "coverage-summary.json": "d84929f4cb34110fedd9900581f817494bcad860e00f71f8d4abdcb20b89eb2f",
+    "grammar.md": "aaf919c6938c1ddec28bd97249a3419944fe2dcfe59c25504c5a82a1df933d36",
+    "historical-cases.json": "e3739d352d7db05020274e88f800e2a6ea561442d35681d85ee03812afb69ebc",
+    "identity-cases.json": "284042d82ac9a657509d080ed8c3417c954310e34ecf1080a9e7b61bd1086c1c",
+    "inherited-grammar.md": "bd15af84f2db9de872808c8efd49178dada5dc98cc9afdf5826cde4b98eea116",
+    "lexicon.json": "2d1aede3481a8c84135395a38b2a82432699999abe37c7b8d5997986a68a672a",
+    "morphology.json": "58a1ea004d2d9136d261b7927407ac4c700c3b4db31eb877756c94492cc4e87a",
+    "orthography.json": "032da7c5ffd64f327a4237762bcf00dcaf990cff660c142a037600f7ac464591",
+    "parent-continuation-grammar.md": "0065b4a05a1e7c8dd152900a2ea45d1ce14570d651f0eaedb3d5ea8b5bfde078",
+    "parent-historical-grammar.md": "2ba822e2dbcbea89729bc52fcc252eba0bdda0a004b4e1fa85a8d9442f45cf75",
+    "parent-identity-grammar.md": "fd0cd1f7cfe67070d6325836fa9498a5b802b723371d09f5d5e3232a1dc6a4fd",
+    "regression-cases.json": "0afcbcc75fc4cf998565088d8352e7b31737d5169ce38b00d89203b67b94a8a8",
+    "working-provenance.json": "746908708a8400866f138c2b464799b7d73cd4d54c33916a031a27c5ca8396bf"
+  }
+}

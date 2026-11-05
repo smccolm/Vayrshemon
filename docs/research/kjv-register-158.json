@@ -1,0 +1,806 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.158",
+    "parentVersion": "0.10-kjv.157",
+    "parentHead": "2b4cc60914c915e2fa9e79143822c0a0c3b5e16d4a0de26304116017e619a640",
+    "head": "989ada1cfc99042959c3c39b81ff12fc12c92442696e4f7833cf20b068a0e81a",
+    "newLexicalEntries": 8,
+    "newProperEntries": 7,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 104,
+    "exactCompilerCases": 104,
+    "newAuthoredVerses": 104,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 244,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 10345,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 104,
+    "ezekielVerses": 244,
+    "authoredVerses": 20757,
+    "remainingVerses": 10345,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 8:1",
+        "source": "And it came to pass in the sixth year, in the sixth month, in the fifth day of the month, as I sat in mine house, and the elders of Judah sat before me, that the hand of the Lord GOD fell there upon me.",
+        "expectedDecimalQuantities": [
+          6,
+          6,
+          5
+        ],
+        "targetQuantities": [
+          6,
+          6,
+          5
+        ]
+      },
+      {
+        "reference": "Ezekiel 8:11",
+        "source": "And there stood before them seventy men of the ancients of the house of Israel, and in the midst of them stood Jaazaniah the son of Shaphan, with every man his censer in his hand; and a thick cloud of incense went up.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Ezekiel 8:16",
+        "source": "And he brought me into the inner court of the LORD’s house, and, behold, at the door of the temple of the LORD, between the porch and the altar, were about five and twenty men, with their backs toward the temple of the LORD, and their faces toward the east; and they worshipped the sun toward the east.",
+        "expectedDecimalQuantities": [
+          25
+        ],
+        "targetQuantities": [
+          25
+        ]
+      },
+      {
+        "reference": "Ezekiel 9:2",
+        "source": "And, behold, six men came from the way of the higher gate, which lieth toward the north, and every man a slaughter weapon in his hand; and one man among them was clothed with linen, with a writer’s inkhorn by his side: and they went in, and stood beside the brasen altar.",
+        "expectedDecimalQuantities": [
+          6,
+          1
+        ],
+        "targetQuantities": [
+          6,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 10:7",
+        "source": "And one cherub stretched forth his hand from between the cherubims unto the fire that was between the cherubims, and took thereof, and put it into the hands of him that was clothed with linen: who took it, and went out.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 10:9",
+        "source": "And when I looked, behold the four wheels by the cherubims, one wheel by one cherub, and another wheel by another cherub: and the appearance of the wheels was as the colour of a beryl stone.",
+        "expectedDecimalQuantities": [
+          4,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          4,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 10:10",
+        "source": "And as for their appearances, they four had one likeness, as if a wheel had been in the midst of a wheel.",
+        "expectedDecimalQuantities": [
+          4,
+          1
+        ],
+        "targetQuantities": [
+          4,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 10:11",
+        "source": "When they went, they went upon their four sides; they turned not as they went, but to the place whither the head looked they followed it; they turned not as they went.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 10:12",
+        "source": "And their whole body, and their backs, and their hands, and their wings, and the wheels, were full of eyes round about, even the wheels that they four had.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 10:14",
+        "source": "And every one had four faces: the first face was the face of a cherub, and the second face was the face of a man, and the third the face of a lion, and the fourth the face of an eagle.",
+        "expectedDecimalQuantities": [
+          4,
+          1,
+          2,
+          3,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 10:21",
+        "source": "Every one had four faces apiece, and every one four wings; and the likeness of the hands of a man was under their wings.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 11:1",
+        "source": "Moreover the spirit lifted me up, and brought me unto the east gate of the LORD’s house, which looketh eastward: and behold at the door of the gate five and twenty men; among whom I saw Jaazaniah the son of Azur, and Pelatiah the son of Benaiah, princes of the people.",
+        "expectedDecimalQuantities": [
+          25
+        ],
+        "targetQuantities": [
+          25
+        ]
+      },
+      {
+        "reference": "Ezekiel 11:19",
+        "source": "And I will give them one heart, and I will put a new spirit within you; and I will take the stony heart out of their flesh, and will give them an heart of flesh:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "8:1": [
+        "six:ord year",
+        "six:ord month",
+        "five:ord day",
+        "kjv_elder:pl of kjv_judah"
+      ],
+      "8:2": [
+        "likeness as appear:ev of fire",
+        "kjv_amber_vision"
+      ],
+      "8:3": [
+        "kjv_hair_lock",
+        "in vision:pl of god",
+        "image of jealousy"
+      ],
+      "8:4": [
+        "i in kjv_plain_land see:pa"
+      ],
+      "8:5": [
+        "my/eye:pl:a way towards kjv_north",
+        "gate of altar"
+      ],
+      "8:6": [
+        "ipl far off from mypl/kjv_sanctuary go:should?"
+      ],
+      "8:7": [
+        "kjv_court_enclosure",
+        "hole in wall"
+      ],
+      "8:8": [
+        "i in wall kjv_dig:pp"
+      ],
+      "8:9": [
+        "wicked kjv_abomination:pl:a"
+      ],
+      "8:10": [
+        "every form of creep:cv thing:pl",
+        "upon wall round about portray:psv:adj"
+      ],
+      "8:11": [
+        "five+twelve and ten man:pl",
+        "kjv_jaazaniah_shaphan",
+        "kjv_shaphan_jaazaniah",
+        "his/kjv_censer"
+      ],
+      "8:12": [
+        "kjv_lord wesg:a see:neg:pr",
+        "earth:a forsake:perf"
+      ],
+      "8:13": [
+        "yet again turn:imp",
+        "greater kjv_abomination:pl:a"
+      ],
+      "8:14": [
+        "woman:pl for kjv_tammuz weep:cv"
+      ],
+      "8:15": [
+        "greater kjv_abomination:pl:a than these"
+      ],
+      "8:16": [
+        "about twenty and five man:pl",
+        "their/back:pl towards temple",
+        "sun:a towards east kjv_worship:pa"
+      ],
+      "8:17": [
+        "lightweight thing",
+        "land:a with kjv_violence",
+        "branch:a to their/nose"
+      ],
+      "8:18": [
+        "mypl/eye spare:neg:fu",
+        "mypl/ear:pl",
+        "hear:neg:fu"
+      ],
+      "9:1": [
+        "authority:a over city",
+        "destroy:cv weapon"
+      ],
+      "9:2": [
+        "six man:pl",
+        "one_num man among they",
+        "kjv_inkhorn of write:ag",
+        "kjv_brass altar"
+      ],
+      "9:3": [
+        "from kjv_cherub",
+        "kjv_threshold",
+        "kjv_inkhorn:a"
+      ],
+      "9:4": [
+        "mark:a upon forehead:pl",
+        "who sigh:pr",
+        "who for all kjv_abomination:pl"
+      ],
+      "9:5": [
+        "your/eye spare:neg:opt",
+        "neither you pity:a"
+      ],
+      "9:6": [
+        "little child:pl and woman:pl:a",
+        "come:neg:imp",
+        "mypl/kjv_sanctuary begin:imp"
+      ],
+      "9:7": [
+        "house:a defile:imp",
+        "with slay:psv:adj:pl fill:imp"
+      ],
+      "9:8": [
+        "i leave:psv:pa",
+        "ah lord god:excl",
+        "destroy:fu?"
+      ],
+      "9:9": [
+        "kjv_lord earth:a forsake:perf",
+        "kjv_lord see:neg:pr"
+      ],
+      "9:10": [
+        "as for ipl",
+        "mypl/eye spare:neg:fu",
+        "their/head recompense:fu"
+      ],
+      "9:11": [
+        "i as thou i:a command:perf do:perf"
+      ],
+      "10:1": [
+        "kjv_sapphire stone",
+        "appear:ev of likeness of throne"
+      ],
+      "10:2": [
+        "under kjv_cherub",
+        "from between kjv_cherub:pl",
+        "over city scatter:imp"
+      ],
+      "10:3": [
+        "kjv_right_side",
+        "kjv_inner kjv_court_enclosure"
+      ],
+      "10:4": [
+        "glory of kjv_lord from kjv_cherub",
+        "over kjv_threshold"
+      ],
+      "10:5": [
+        "outside kjv_court_enclosure",
+        "as voice of kjv_almighty god"
+      ],
+      "10:6": [
+        "from between wheel:pl from between kjv_cherub:pl"
+      ],
+      "10:7": [
+        "one_num kjv_cherub",
+        "hand:pl of he who with linen"
+      ],
+      "10:8": [
+        "form of hand of man under their/wing:pl"
+      ],
+      "10:9": [
+        "four wheel:pl",
+        "one_num wheel by one_num kjv_cherub",
+        "kjv_beryl"
+      ],
+      "10:10": [
+        "they four one_num likeness:a",
+        "wheel in middle of wheel"
+      ],
+      "10:11": [
+        "their/four side:pl",
+        "head look:pa",
+        "turn:neg:pa"
+      ],
+      "10:12": [
+        "their/whole body",
+        "their/back:pl",
+        "their/hand:pl",
+        "their/wing:pl",
+        "full of eye:pl"
+      ],
+      "10:13": [
+        "oh wheel"
+      ],
+      "10:14": [
+        "first face face of kjv_cherub",
+        "second face face of man",
+        "third face of lion",
+        "fourth face of kjv_eagle"
+      ],
+      "10:15": [
+        "this living creature",
+        "i by river of kjv_chebar"
+      ],
+      "10:16": [
+        "from earth up rise:inf",
+        "from by they turn:neg:pa"
+      ],
+      "10:17": [
+        "these themselves:a",
+        "spirit of living creature"
+      ],
+      "10:18": [
+        "from off kjv_threshold",
+        "over kjv_cherub:pl"
+      ],
+      "10:19": [
+        "in my/sight",
+        "east gate",
+        "glory of god"
+      ],
+      "10:20": [
+        "under god of kjv_israel",
+        "i know:pa that they kjv_cherub:pl"
+      ],
+      "10:21": [
+        "each four face:pl:a",
+        "each four wing:pl:a"
+      ],
+      "10:22": [
+        "same face:pl",
+        "their/appear:ev:pl and themselves"
+      ],
+      "11:1": [
+        "twenty and five man:pl",
+        "kjv_jaazaniah_azur",
+        "kjv_pelatiah_benaiah"
+      ],
+      "11:2": [
+        "kjv_mischief:a plan:pr",
+        "wicked counsel:a"
+      ],
+      "11:3": [
+        "it near be:neg:pr",
+        "wesg house:pl:a build:opt",
+        "wesg flesh"
+      ],
+      "11:4": [
+        "kjv_prophesy:imp kjv_prophesy:imp"
+      ],
+      "11:5": [
+        "spirit of kjv_lord upon i",
+        "ipl thing:pl:a",
+        "each of they know:pr"
+      ],
+      "11:6": [
+        "your/slay:psv:adj:pl:a",
+        "street:pl:a of it"
+      ],
+      "11:7": [
+        "your/slay:psv:adj:pl",
+        "they flesh be:pr",
+        "ipl you:a forth"
+      ],
+      "11:8": [
+        "you sword:a fear:perf",
+        "ipl sword:a upon you"
+      ],
+      "11:9": [
+        "hand:pl of stranger:pl",
+        "judgment:pl:a among you"
+      ],
+      "11:10": [
+        "boundary of kjv_israel",
+        "ipl kjv_lord"
+      ],
+      "11:11": [
+        "your/kjv_caldron be:neg:fu",
+        "neither you flesh",
+        "boundary"
+      ],
+      "11:12": [
+        "mypl/kjv_statute:pl walk:neg:perf",
+        "manner:pl of kjv_heathen"
+      ],
+      "11:13": [
+        "when i kjv_prophesy:pa",
+        "kjv_pelatiah_benaiah",
+        "full end:a of remain:ag:pl"
+      ],
+      "11:14": [
+        "to i come:pa"
+      ],
+      "11:15": [
+        "thy/brother:pl even thy/brother:pl",
+        "far from kjv_lord",
+        "to wesg this land"
+      ],
+      "11:16": [
+        "although ipl they:a",
+        "as little kjv_sanctuary"
+      ],
+      "11:17": [
+        "ipl even you:a from people gather:fu",
+        "land:a of kjv_israel"
+      ],
+      "11:18": [
+        "all kjv_abhor:psv:adj thing:pl:a",
+        "all kjv_abomination:pl:a"
+      ],
+      "11:19": [
+        "they:a one_num heart:a",
+        "new spirit:a within you",
+        "stone:adj heart:a",
+        "heart:a of flesh"
+      ],
+      "11:20": [
+        "mypl/kjv_ordinance:pl:a",
+        "they mypl/people",
+        "ipl their/god"
+      ],
+      "11:21": [
+        "after heart of their/kjv_abhor:psv:adj thing:pl",
+        "their/own head:pl"
+      ],
+      "11:22": [
+        "kjv_cherub:pl their/wing:pl:a",
+        "wheel:pl by they"
+      ],
+      "11:23": [
+        "from middle of city",
+        "mountain which on east side"
+      ],
+      "11:24": [
+        "in vision by spirit of god",
+        "kjv_chaldea",
+        "from i up go:pa"
+      ],
+      "11:25": [
+        "all thing:pl:a which kjv_lord i:a show:pp"
+      ],
+      "12:1": [
+        "to i come:pa"
+      ],
+      "12:2": [
+        "eye:pl:a to see:inf",
+        "see:neg:pr",
+        "ear:pl:a to hear:inf",
+        "hear:neg:pr"
+      ],
+      "12:3": [
+        "kjv_baggage:a for move:ev",
+        "it be:may they consider:fu"
+      ],
+      "12:4": [
+        "by day",
+        "at evening",
+        "as they who forth into kjv_captivity"
+      ],
+      "12:5": [
+        "through wall",
+        "by there out carry:imp"
+      ],
+      "12:6": [
+        "thy/kjv_shoulder:pl",
+        "ground:a see:neg:pr",
+        "ipl thee:a for sign"
+      ],
+      "12:7": [
+        "with my/hand kjv_dig:pa",
+        "my/kjv_shoulder in their/sight"
+      ],
+      "12:8": [
+        "in morning",
+        "to i"
+      ],
+      "12:9": [
+        "say:neg:perf",
+        "thou what:a do:pr?"
+      ],
+      "12:10": [
+        "kjv_burden_oracle",
+        "prince:a in kjv_jerusalem"
+      ],
+      "12:11": [
+        "say:imp i your/sign be:pr",
+        "as i do:perf",
+        "they move:fu"
+      ],
+      "12:12": [
+        "his/kjv_shoulder",
+        "they through wall",
+        "ground:a with his/eye:pl see:neg:pr"
+      ],
+      "12:13": [
+        "mypl/kjv_net:a",
+        "kjv_babylon",
+        "it:a see:neg:fu though he there die:fu"
+      ],
+      "12:14": [
+        "his/band:pl:a",
+        "every wind",
+        "sword:a after they"
+      ],
+      "12:15": [
+        "among nation:pl scatter:fu",
+        "in country:pl disperse:fu"
+      ],
+      "12:16": [
+        "few man:pl:a",
+        "kjv_pestilence",
+        "their/kjv_abomination:pl:a"
+      ],
+      "12:17": [
+        "to i come:pa"
+      ],
+      "12:18": [
+        "with shake:ev",
+        "with tremble:ev and with worry"
+      ],
+      "12:19": [
+        "with worry",
+        "her/land",
+        "kjv_violence"
+      ],
+      "12:20": [
+        "inhabit:psv:pr",
+        "you know:fu that ipl"
+      ],
+      "12:21": [
+        "to i come:pa"
+      ],
+      "12:22": [
+        "day:pl delay:psv:pr",
+        "every vision fail:pr?"
+      ],
+      "12:23": [
+        "ipl this proverb:a cease:caus:fu",
+        "effect of every vision"
+      ],
+      "12:24": [
+        "kjv_flatter:cv kjv_divine:ev",
+        "be:neg:fu"
+      ],
+      "12:25": [
+        "more delay:psv:neg:fu",
+        "in your/day:pl",
+        "it:a perform:fu"
+      ],
+      "12:26": [
+        "to i come:pa"
+      ],
+      "12:27": [
+        "they of house of kjv_israel say:pr",
+        "many day:pl",
+        "far off"
+      ],
+      "12:28": [
+        "none of mypl/word:pl",
+        "delay:psv:fu",
+        "word which ipl speak:perf"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:1",
+        "10:15",
+        "10:20",
+        "10:22",
+        "10:9",
+        "11:1",
+        "11:13",
+        "11:14",
+        "11:2",
+        "11:24",
+        "11:25",
+        "11:5",
+        "12:1",
+        "12:11",
+        "12:17",
+        "12:21",
+        "12:26",
+        "12:7",
+        "12:8",
+        "8:1",
+        "8:10",
+        "8:12",
+        "8:13",
+        "8:14",
+        "8:15",
+        "8:16",
+        "8:17",
+        "8:2",
+        "8:3",
+        "8:4",
+        "8:5",
+        "8:6",
+        "8:7",
+        "8:8",
+        "8:9",
+        "9:11",
+        "9:8",
+        "9:9"
+      ],
+      "ipl": [
+        "11:10",
+        "11:11",
+        "11:12",
+        "11:16",
+        "11:17",
+        "11:19",
+        "11:20",
+        "11:21",
+        "11:5",
+        "11:7",
+        "11:8",
+        "11:9",
+        "12:13",
+        "12:14",
+        "12:15",
+        "12:16",
+        "12:20",
+        "12:23",
+        "12:25",
+        "12:28",
+        "12:6",
+        "8:17",
+        "8:18",
+        "8:6",
+        "9:10"
+      ],
+      "wesg": [
+        "11:15",
+        "11:3",
+        "8:12"
+      ],
+      "wepl": [],
+      "mypl": [
+        "11:12",
+        "11:20",
+        "12:13",
+        "12:28",
+        "8:18",
+        "8:6",
+        "9:10",
+        "9:6"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Six men with one among them is not silently made seven.",
+      "About25 and unqualified25 retained separately;70 includes the named elder.",
+      "Creature faces and relational wheel counts remain as printed without harmonization."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel8–12 adds104 verses,total244;whole Bible incomplete.",
+      "Personal narrator and linen messenger,divine plural-I,and communal singular-we in quoted claims distinguished.",
+      "Vision bounds,ambiguous pronouns and gestures,little sanctuary and delayed-prophecy dispute preserved.",
+      "One common semantic entry,seven contextual names;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 184,
+    "spreads": 92,
+    "units": 244,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c41838aac8d55819e60398595debe7c095ea086a80c09e62b726cfafa933b622",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 92,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.426,
+    "modules": [
+      "tests.test_kjv_ezekiel_nested_speakers",
+      "tests.test_kjv_ezekiel_visionary_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    183,
+    184
+  ],
+  "status": "incomplete Bible;Ezekiel1–12 section checkpoint verified"
+}

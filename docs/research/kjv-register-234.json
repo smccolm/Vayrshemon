@@ -1,0 +1,612 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.234",
+    "parentVersion": "0.10-kjv.233",
+    "parentHead": "6bac4a64e1791c9042b76432410a086db7f752fc55653b86885fa7fc34ff8809",
+    "head": "f77b8a7c6ddedb5a73b4e4d3873ec6d6019196d5fcb8598b8300a9c3f7123e65",
+    "newLexicalEntries": 6,
+    "newProperEntries": 0,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 69,
+    "exactCompilerCases": 69,
+    "newAuthoredVerses": 69,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 161,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 3010,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newRomansVerses": 69,
+    "romansVerses": 161,
+    "authoredVerses": 28092,
+    "remainingVerses": 3010,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 8,
+    "quantityChecks": [
+      {
+        "reference": "Romans 4:19",
+        "source": "And being not weak in faith, he considered not his own body now dead, when he was about an hundred years old, neither yet the deadness of Sarah’s womb:",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Romans 5:12",
+        "source": "Wherefore, as by one man sin entered into the world, and death by sin; and so death passed upon all men, for that all have sinned:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Romans 5:15",
+        "source": "But not as the offence, so also is the free gift. For if through the offence of one many be dead, much more the grace of God, and the gift by grace, which is by one man, Jesus Christ, hath abounded unto many.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Romans 5:16",
+        "source": "And not as it was by one that sinned, so is the gift: for the judgment was by one to condemnation, but the free gift is of many offences unto justification.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Romans 5:17",
+        "source": "For if by one man’s offence death reigned by one; much more they which receive abundance of grace and of the gift of righteousness shall reign in life by one, Jesus Christ.)",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Romans 5:18",
+        "source": "Therefore as by the offence of one judgment came upon all men to condemnation; even so by the righteousness of one the free gift came upon all men unto justification of life.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Romans 5:19",
+        "source": "For as by one man’s disobedience many were made sinners, so by the obedience of one shall many be made righteous.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Romans 6:10",
+        "source": "For in that he died, he died unto sin once: but in that he liveth, he liveth unto God.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "4:1": [
+        "what wesg",
+        "kjv_abraham ourone/father as to flesh"
+      ],
+      "4:2": [
+        "if kjv_abraham by work:pl kjv_justify",
+        "but not before god"
+      ],
+      "4:3": [
+        "kjv_abraham god believe:pa",
+        "for kjv_righteousness kjv_impute"
+      ],
+      "4:4": [
+        "reward not of grace but of debt"
+      ],
+      "4:5": [
+        "work:neg:pr",
+        "kjv_ungodly:pl kjv_justify",
+        "his/faith for kjv_righteousness"
+      ],
+      "4:6": [
+        "kjv_david",
+        "kjv_righteousness without work:pl kjv_impute"
+      ],
+      "4:7": [
+        "kjv_iniquity:pl forgive:psv",
+        "sin:pl cover:psv"
+      ],
+      "4:8": [
+        "kjv_lord sin kjv_impute:neg:fu"
+      ],
+      "4:9": [
+        "only upon kjv_circumcise:ev",
+        "kjv_circumcise:neg:ev also",
+        "wesg that faith"
+      ],
+      "4:10": [
+        "not in kjv_circumcise:ev but in kjv_circumcise:neg:ev"
+      ],
+      "4:11": [
+        "sign of kjv_circumcise:ev seal",
+        "yet kjv_circumcise:neg:psv:cv",
+        "though kjv_circumcise:neg:psv:pr",
+        "to they also kjv_impute"
+      ],
+      "4:12": [
+        "not only of kjv_circumcise:ev",
+        "step:pl of that faith of ourone/father kjv_abraham",
+        "yet kjv_circumcise:neg:psv:cv"
+      ],
+      "4:13": [
+        "heir of world",
+        "his/kjv_seedline not through law but through kjv_righteousness of faith"
+      ],
+      "4:14": [
+        "if they who of law",
+        "faith void",
+        "promise without effect"
+      ],
+      "4:15": [
+        "law wrath work",
+        "where no law",
+        "transgress:ev be:neg"
+      ],
+      "4:16": [
+        "of faith",
+        "by grace",
+        "promise to all kjv_seedline",
+        "father of wesg all"
+      ],
+      "4:17": [
+        "ipl thou:a father of many nation:pl make:perf",
+        "dead:pl quicken",
+        "which be:neg:pr as though be:pa"
+      ],
+      "4:18": [
+        "against hope in hope",
+        "thy/kjv_seedline be:fu"
+      ],
+      "4:19": [
+        "in faith weak be:neg",
+        "his/own body now dead consider:neg",
+        "about eight+twelve and four year:pl",
+        "neither yet dead:ev of womb of kjv_sarah"
+      ],
+      "4:20": [
+        "through believe:neg:ev stagger:neg",
+        "in faith strong",
+        "glory to god give"
+      ],
+      "4:21": [
+        "fully persuade:psv",
+        "what promise:pp also perform:inf able"
+      ],
+      "4:22": [
+        "for kjv_righteousness kjv_impute"
+      ],
+      "4:23": [
+        "not for his/sake alone"
+      ],
+      "4:24": [
+        "for wesg also",
+        "if wesg",
+        "kjv_jesus_matthew ourone/lord from dead:pl"
+      ],
+      "4:25": [
+        "for ourone/offence:pl deliver",
+        "for ourone/kjv_justify:ev again raise"
+      ],
+      "5:1": [
+        "wesg with god peace have:pr",
+        "ourone/lord kjv_jesus_matthew kjv_christ_title"
+      ],
+      "5:2": [
+        "wesg by faith into this grace",
+        "wesg stand",
+        "kjv_access_romans",
+        "hope of glory of god"
+      ],
+      "5:3": [
+        "wesg in kjv_tribulation:pl also boast",
+        "kjv_tribulation patience work"
+      ],
+      "5:4": [
+        "patience kjv_experience_proven_romans",
+        "kjv_experience_proven_romans hope"
+      ],
+      "5:5": [
+        "hope ashamed make:neg",
+        "ourone/heart:pl out pour",
+        "holy spirit which to wesg give"
+      ],
+      "5:6": [
+        "wesg yet without strength",
+        "in due time",
+        "kjv_christ_title for kjv_ungodly:pl die"
+      ],
+      "5:7": [
+        "scarcely for kjv_righteous man person",
+        "perhaps for good man some",
+        "die:inf dare"
+      ],
+      "5:8": [
+        "his/love towards wesg",
+        "wesg yet sin:ag:pl",
+        "kjv_christ_title for wesg die"
+      ],
+      "5:9": [
+        "now by his/blood kjv_justify",
+        "wesg from wrath through he save:psv:fu"
+      ],
+      "5:10": [
+        "wesg enemy:pl",
+        "death of his/son kjv_reconcile_relation",
+        "wesg by his/life save"
+      ],
+      "5:11": [
+        "wesg also in god",
+        "ourone/lord",
+        "wesg now kjv_atonement_received_romans receive"
+      ],
+      "5:12": [
+        "by one_num man sin into world",
+        "death by sin",
+        "death upon all man:pl",
+        "because all sin:perf"
+      ],
+      "5:13": [
+        "until law sin in world",
+        "when no law be:pr kjv_impute:psv:neg"
+      ],
+      "5:14": [
+        "from kjv_adam to kjv_moses",
+        "sin:neg:pp",
+        "kjv_figure_pattern_romans of he who to come:inf be:pa"
+      ],
+      "5:15": [
+        "not as offence so also kjv_free_gift_romans",
+        "offence of one_num many dead",
+        "by one_num man kjv_jesus_matthew kjv_christ_title",
+        "to many abound"
+      ],
+      "5:16": [
+        "by one_num who sin",
+        "judgment by one_num to condemn",
+        "kjv_free_gift_romans of many offence:pl to kjv_justify"
+      ],
+      "5:17": [
+        "offence of one_num man death by one_num",
+        "they who abundance of grace",
+        "gift of kjv_righteousness",
+        "life by one_num kjv_jesus_matthew"
+      ],
+      "5:18": [
+        "offence of one_num judgment upon all man:pl",
+        "kjv_righteousness of one_num kjv_free_gift_romans upon all man:pl"
+      ],
+      "5:19": [
+        "disobedience of one_num man many sin:ag:pl make:psv:pa",
+        "obedience of one_num many kjv_righteous make:psv:fu"
+      ],
+      "5:20": [
+        "law enter:pa that offence abound:may",
+        "sin abound:pa grace much more abound"
+      ],
+      "5:21": [
+        "sin to death rule:perf",
+        "grace through kjv_righteousness to eternal life",
+        "ourone/lord rule:may"
+      ],
+      "6:1": [
+        "what wesg say:fu:q",
+        "wesg in sin continue:fu:q",
+        "grace abound:may"
+      ],
+      "6:2": [
+        "god forbid:opt:excl",
+        "wesg who to sin dead",
+        "any longer in it live:fu:q"
+      ],
+      "6:3": [
+        "as many of wesg",
+        "into kjv_jesus_matthew kjv_christ_title kjv_baptize",
+        "into his/death kjv_baptize"
+      ],
+      "6:4": [
+        "wesg with he by kjv_baptize:ev into death bury",
+        "by glory of father",
+        "wesg also in new:ev of life walk"
+      ],
+      "6:5": [
+        "wesg together in likeness of his/death plant",
+        "his/kjv_resurrection be:fu"
+      ],
+      "6:6": [
+        "ourone/old man with he kjv_crucify",
+        "body of sin destroy",
+        "wesg sin serve:neg"
+      ],
+      "6:7": [
+        "dead be:pr from sin free make:psv"
+      ],
+      "6:8": [
+        "if wesg with kjv_christ_title dead",
+        "wesg that wesg with he also live:fu believe"
+      ],
+      "6:9": [
+        "no more die:pr",
+        "death over he no more kjv_dominion"
+      ],
+      "6:10": [
+        "to sin once die:pa",
+        "to god live:pr"
+      ],
+      "6:11": [
+        "yourselves indeed to sin dead",
+        "to god through kjv_jesus_matthew kjv_christ_title ourone/lord alive"
+      ],
+      "6:12": [
+        "your/mortal body rule:neg:opt",
+        "its/lust:pl it obey"
+      ],
+      "6:13": [
+        "your/kjv_member_body_romans:pl",
+        "instrument:pl of kjv_unrighteousness to sin yield:neg",
+        "yourselves to god",
+        "instrument:pl of kjv_righteousness to god"
+      ],
+      "6:14": [
+        "sin over you kjv_dominion have:neg:fu",
+        "not under law but under grace"
+      ],
+      "6:15": [
+        "wesg sin:fu:q",
+        "wesg not under law but under grace",
+        "god forbid:opt:excl"
+      ],
+      "6:16": [
+        "yourselves servant:pl to obey",
+        "his/servant:pl",
+        "sin to death or of obedience to kjv_righteousness"
+      ],
+      "6:17": [
+        "god thank:psv:opt",
+        "servant:pl of sin be:pa",
+        "from heart",
+        "doctrine which to you deliver:psv:pa"
+      ],
+      "6:18": [
+        "from sin free make:psv",
+        "servant:pl of kjv_righteousness become"
+      ],
+      "6:19": [
+        "i after manner of man:pl",
+        "infirmity of your/flesh",
+        "to kjv_iniquity to kjv_iniquity",
+        "to kjv_righteousness to holy:ev yield"
+      ],
+      "6:20": [
+        "servant:pl of sin",
+        "from kjv_righteousness free"
+      ],
+      "6:21": [
+        "what fruit",
+        "now ashamed",
+        "end of those thing:pl death"
+      ],
+      "6:22": [
+        "from sin free make:psv",
+        "to god servant:pl",
+        "your/fruit to holy:ev",
+        "end eternal life"
+      ],
+      "6:23": [
+        "kjv_wages of sin death",
+        "gift of god eternal life",
+        "kjv_jesus_matthew kjv_christ_title ourone/lord"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "6:19"
+      ],
+      "ipl": [
+        "4:17"
+      ],
+      "wesg": [
+        "4:1",
+        "4:16",
+        "4:24",
+        "4:9",
+        "5:1",
+        "5:10",
+        "5:11",
+        "5:2",
+        "5:3",
+        "5:5",
+        "5:6",
+        "5:8",
+        "5:9",
+        "6:1",
+        "6:15",
+        "6:2",
+        "6:3",
+        "6:4",
+        "6:5",
+        "6:6",
+        "6:8"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "4:1",
+        "4:12",
+        "4:24",
+        "4:25",
+        "5:1",
+        "5:11",
+        "5:21",
+        "5:5",
+        "6:11",
+        "6:23",
+        "6:6"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "About100years,explicit one-man/one-offence comparisons and once-died remain distinct;many is not assigned a numeric total.",
+      "Quoted divine plural-self in4:17 differs from argument singular-we and the personal human-analogy I in6:19. The shared old-man/body remains grammatically singular."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "69new verses;161Romans;whole Bible incomplete.",
+      "Considered-not,by-faith access,all/many contrasts,received atonement and freedom/service reversals retained without harmonization.",
+      "Six common entries;no new proper names,paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Romans — incomplete Bible working text",
+    "pages": 92,
+    "spreads": 46,
+    "units": 161,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d74c2ec94fad020b426ccf2a8899955a5d6db04247cadc7548e8afdedec6db73",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 46,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.008,
+    "modules": [
+      "tests.test_kjv_romans_shared_life",
+      "tests.test_kjv_romans_argument",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    91,
+    92
+  ],
+  "status": "incomplete Bible;Romans1–6 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 91,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv234\\preflight-romans\\Proofs\\page-091.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv234\\composed-romans\\Proofs\\page-091.png",
+        "sha256": "e720970a2a7c721404784ddb4b5452e1b006a9359a7b13a2ed45a3cfd751e8e1",
+        "bytesIdentical": true
+      },
+      {
+        "page": 92,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv234\\preflight-romans\\Proofs\\page-092.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv234\\composed-romans\\Proofs\\page-092.png",
+        "sha256": "d9ed4e8bb1c627593ec98ff97b062c05bb599662fc623fa0a6c153a2863f8917",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

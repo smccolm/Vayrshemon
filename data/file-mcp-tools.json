@@ -479,6 +479,12 @@
             "type": "string",
             "pattern": "^[A-Za-z][A-Za-z0-9._:-]{0,127}$"
           },
+          "page_mode": {
+            "enum": [
+              "one",
+              "two"
+            ]
+          },
           "expectedRevision": {
             "type": "integer",
             "minimum": 0
@@ -1572,6 +1578,12 @@
               "color"
             ]
           },
+          "page_mode": {
+            "enum": [
+              "one",
+              "two"
+            ]
+          },
           "expectedRevision": {
             "type": "integer",
             "minimum": 0
@@ -2524,6 +2536,12 @@
           },
           "page_id": {
             "type": "string"
+          },
+          "page_mode": {
+            "enum": [
+              "one",
+              "two"
+            ]
           }
         },
         "required": [],
@@ -2565,6 +2583,12 @@
           },
           "page_id": {
             "type": "string"
+          },
+          "page_mode": {
+            "enum": [
+              "one",
+              "two"
+            ]
           },
           "pdf_view": {
             "enum": [
@@ -4773,7 +4797,7 @@
     },
     {
       "name": "view_inspect",
-      "description": "Read the active navigation tool, page origin, viewport and zoom.",
+      "description": "Read tool, origin, viewport, effective zoom, fitMode, pageNumber, pageCount, visiblePageNumbers and previous/next availability.",
       "inputSchema": {
         "type": "object",
         "properties": {},
@@ -4933,6 +4957,12 @@
             "minItems": 1,
             "maxItems": 2
           },
+          "page_mode": {
+            "enum": [
+              "one",
+              "two"
+            ]
+          },
           "pdf_view": {
             "enum": [
               "one",
@@ -4967,7 +4997,7 @@
     },
     {
       "name": "jobs_status",
-      "description": "Inspect proof job state, phase, revision, staleness, output and full worker log path.",
+      "description": "Inspect proof job state, revision, staleness, output and worker log. PDF progress includes stage, physical page, pageCount, completedUnits, totalUnits and percent; 100 means successfully published.",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -6481,7 +6511,7 @@
     },
     {
       "name": "view_pages",
-      "description": "Show one current page or a facing pair. Workspace preference only; preserves document content, page geometry, zoom and undo history. Inspect page offsets with view.inspect.",
+      "description": "Show the selected single page or its facing pair. Retain an explicit right-page target, manual zoom or automatic fit choice; preserve content and Undo history.",
       "inputSchema": {
         "type": "object",
         "properties": {
@@ -6681,6 +6711,196 @@
       }
     },
     {
+      "name": "publication_edition_inspect",
+      "description": "Inspect native fixed print edition provenance, complete verse/section counts, section page references and current page side/folio. Frozen text stays searchable and copyable; text/layout edits require a new generated edition.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "page_id": {
+            "type": "string"
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "document_close",
+      "description": "Close the current document and return to a clean Untitled page, keeping the application session open. Reject unsaved changes unless discardUnsaved is explicit; save first to retain them.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "discardUnsaved": {
+            "type": "boolean"
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "page_numbering_read",
+      "description": "Read saved Unta page-number settings. New documents number multiple pages at 50 pt and 28 pt edge inset; older documents without settings remain hidden.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {},
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "page_numbering_configure",
+      "description": "Set Unta numbering visibility, margin position, size, edge inset and minimumPages (1 or 2) in one undo step. Keep body frames and typography unchanged; unsafe numbers are withheld and block export.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "enabled": {
+            "type": "boolean"
+          },
+          "sizePt": {
+            "type": "number",
+            "minimum": 8,
+            "maximum": 150
+          },
+          "edgeInsetPt": {
+            "type": "number",
+            "minimum": 2,
+            "maximum": 144
+          },
+          "single": {
+            "type": "object",
+            "properties": {
+              "visible": {
+                "type": "boolean"
+              },
+              "vertical": {
+                "enum": [
+                  "top",
+                  "bottom"
+                ]
+              },
+              "horizontal": {
+                "enum": [
+                  "left",
+                  "right"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "left": {
+            "type": "object",
+            "properties": {
+              "visible": {
+                "type": "boolean"
+              },
+              "vertical": {
+                "enum": [
+                  "top",
+                  "bottom"
+                ]
+              },
+              "horizontal": {
+                "enum": [
+                  "left",
+                  "right"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "right": {
+            "type": "object",
+            "properties": {
+              "visible": {
+                "type": "boolean"
+              },
+              "vertical": {
+                "enum": [
+                  "top",
+                  "bottom"
+                ]
+              },
+              "horizontal": {
+                "enum": [
+                  "left",
+                  "right"
+                ]
+              }
+            },
+            "required": [],
+            "additionalProperties": false
+          },
+          "minimumPages": {
+            "type": "integer",
+            "enum": [
+              1,
+              2
+            ]
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false
+      }
+    },
+    {
+      "name": "page_numbering_inspect",
+      "description": "Inspect actual base-12 glyphs, physical page numbers and collision-safe placements for the visible pages, one page, or all pages.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "page_id": {
+            "type": "string"
+          },
+          "all_pages": {
+            "type": "boolean"
+          },
+          "page_mode": {
+            "enum": [
+              "one",
+              "two"
+            ]
+          }
+        },
+        "required": [],
+        "additionalProperties": false
+      }
+    },
+    {
       "name": "document_saved_preview",
       "description": "Inspect embedded preview metadata from the saved file (never unsaved state). No rendering or external fonts required.",
       "inputSchema": {
@@ -6702,6 +6922,65 @@
         "properties": {},
         "required": [],
         "additionalProperties": false
+      }
+    },
+    {
+      "name": "view_page",
+      "description": "Go to a 1-based page or the previous/next visible page pair. Direct right-page targets retain their number. Viewing preserves text, formatting, dirty state and Undo history; selection advances the revision guard.",
+      "inputSchema": {
+        "type": "object",
+        "properties": {
+          "page": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "direction": {
+            "enum": [
+              "previous",
+              "next"
+            ]
+          },
+          "expectedRevision": {
+            "type": "integer",
+            "minimum": 0
+          },
+          "idempotencyKey": {
+            "type": "string",
+            "minLength": 1,
+            "maxLength": 128
+          },
+          "documentId": {
+            "type": "string"
+          }
+        },
+        "required": [
+          "expectedRevision",
+          "idempotencyKey",
+          "documentId"
+        ],
+        "additionalProperties": false,
+        "oneOf": [
+          {
+            "required": [
+              "page"
+            ],
+            "not": {
+              "required": [
+                "direction"
+              ]
+            }
+          },
+          {
+            "required": [
+              "direction"
+            ],
+            "not": {
+              "required": [
+                "page"
+              ]
+            }
+          }
+        ]
       }
     },
     {

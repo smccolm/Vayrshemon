@@ -13,12 +13,15 @@ from jsonschema import Draft202012Validator
 from PySide6.QtCore import QObject, Signal, QLockFile
 from PySide6.QtGui import QTextCursor, QTextDocumentFragment
 
-from tools.m0.common import load_json, write_json, json_text
+from tools.m0.common import load_json, write_json, json_text, file_hash
 from tools.m0.synthetic import document, unicode_run
 from .diagnostics import Diagnostics
 from .fonts import FontRegistry
 from .frame import FrameSession
+from .book_frames import BookFrames, loaded_items, loaded_values
 from .session import Session, checked_text, micro_points, scalar_offset, utf16_length, SCALE, STYLE
+from .json_stream import canonical_digest, byte_count, write_atomic
+from .native_storage import storage_payload
 from .editor_contracts import EDITOR_DOCUMENT, PACKAGE, STATE, FONT_SOURCE
 from tools.m0.contracts import validators,validate_document_semantics
 
@@ -29,7 +32,7 @@ HISTORY_BYTES = 64*1024*1024
 
 def identity(prefix): return prefix+'.'+uuid.uuid4().hex
 def stamp(): return datetime.now(timezone.utc).isoformat()
-def digest(value): return hashlib.sha256(json.dumps(value,sort_keys=True,ensure_ascii=True,allow_nan=False).encode()).hexdigest()
+def digest(value): return canonical_digest(value)
 def point(value): return int(value)/1_000_000
 def nonnegative(value):
     if value == 0: return '0'
@@ -50,6 +53,11 @@ class AuthoringSession(QObject):
     document_schema=EDITOR_DOCUMENT
     file_version='0.2.0'
     application_version='0.3.0'
+    max_state_bytes=8*1024*1024
+    max_file_bytes=16*1024*1024
+    max_frames=128
+    max_document_scalars=200_000
+    lazy_book_frames=False
 
     def __init__(self,root,*,source_fonts=True,recovery=True):
         super().__init__()
@@ -111,7 +119,7 @@ class AuthoringSession(QObject):
     @property
     def editor(self): return self._editor
     @property
-    def composing(self): return any(frame.composing for frame in self.frames.values())
+    def composing(self): return any(frame.composing for frame in loaded_values(self.frames))
     @property
     def dirty(self): return self._saved_digest != self.content_digest(self.capture())
 
@@ -153,10 +161,11 @@ class AuthoringSession(QObject):
         # Runtime font caches may retain undo/deleted fonts, but files contain
         # only the catalog owned by this document revision.
         result['fontSources']=[dict(source,path=str(self.fonts.faces[source['fontId']].path)) for source in self.state['fontSources']]
+        loaded=dict(loaded_items(self.frames))
         for page in result['pages']:
             for frame in page['frames']:
-                if frame['frameId'] in self.frames:
-                    frame['content']=self.frames[frame['frameId']].package()
+                if frame['frameId'] in loaded:
+                    frame['content']=loaded[frame['frameId']].package()
                     frame['content']['document']['documentId']=result['documentId']
                     frame['content']['document']['revision']=0  # Global revision is the sole writer clock.
         required={f['fontId'] for p in result['pages'] for frame in p['frames'] for f in frame['content']['document']['fonts']}
@@ -169,14 +178,18 @@ class AuthoringSession(QObject):
 
     @staticmethod
     def content_digest(state):
-        value=deepcopy(state)
-        value.pop('revision',None)
-        value.pop('activeFrameId',None)
+        # Only omit top-level viewing clocks; hashing never mutates descendants.
+        # A deep copy here doubles a large book solely to remove two fields.
+        value={key:item for key,item in state.items() if key not in ('revision','activeFrameId')}
         return digest(value)
 
     def validate(self,state):
-        if len(json_text(state).encode('utf-8'))>8*1024*1024: raise ValueError('DOCUMENT_STATE_LIMIT: 8 MiB')
-        Draft202012Validator(self.state_schema).validate(state)
+        try: byte_count(state, limit=self.max_state_bytes)
+        except ValueError as error:
+            if str(error) == 'JSON_BYTE_LIMIT': raise ValueError('DOCUMENT_STATE_LIMIT') from error
+            raise
+        from .schema_validation import validate
+        validate(self.state_schema,state)
         ids=set(); frame_ids=set()
         total=0
         count=0
@@ -214,7 +227,7 @@ class AuthoringSession(QObject):
                 for char in content['characters']:
                     if char['start']<previous_end or char['end']<char['start']: raise ValueError('OVERLAPPING_CHARACTER_ATTRIBUTES')
                     scalar_offset(text,char['start']); scalar_offset(text,char['end']); previous_end=char['end']
-        if count>128 or total>200_000: raise ValueError('DOCUMENT_LIMIT: 128 frames and 200,000 total scalars')
+        if count>self.max_frames or total>self.max_document_scalars: raise ValueError(f'DOCUMENT_LIMIT: {self.max_frames} frames and {self.max_document_scalars} total scalars')
         if state['activeFrameId'] not in frame_ids: raise ValueError('ACTIVE_FRAME_MISSING')
         if len({s['name'].casefold() for s in state['styles']})!=len(state['styles']): raise ValueError('DUPLICATE_STYLE_NAME')
         declared={f['fontId'] for f in state['fontSources']}
@@ -224,9 +237,20 @@ class AuthoringSession(QObject):
             required.add(state['recipe']['master']); required.update(layer['fontId'] for layer in state['recipe']['layers'])
         if not required<=declared: raise ValueError('FONT_SOURCE_MISSING')
 
-    def _restore(self,state):
+    def _restore(self,state,*,take_ownership=False):
         self.validate(state)
         previous=self.frames
+        if self.lazy_book_frames and len(state['pages'])>100:
+            self._restoring=True
+            try:
+                self.state=state if take_ownership else deepcopy(state)
+                self.fonts.recipe=deepcopy(state['recipe'])
+                self.frames=BookFrames(self,self.state)
+                self.bind_editor()
+                for old in loaded_values(previous):
+                    old.editor=None; old.deleteLater()
+            finally: self._restoring=False
+            return
         prepared={}
         try:
             for page in state['pages']:
@@ -244,14 +268,14 @@ class AuthoringSession(QObject):
             self.frames=prepared
             for frame in self.frames.values(): frame.changed.connect(self.frame_changed)
             self.bind_editor()
-            for old in previous.values():
+            for old in loaded_values(previous):
                 old.editor=None
                 old.deleteLater()
         finally: self._restoring=False
 
     def bind_editor(self):
         if self._editor:
-            for frame in self.frames.values(): frame.editor=None
+            for frame in loaded_values(self.frames): frame.editor=None
             self._editor.session=self.active
             self._editor.setDocument(self.active.doc)
             self.active.editor=self._editor
@@ -289,7 +313,9 @@ class AuthoringSession(QObject):
         if current==self._state: return
         self._undo.append(deepcopy(self._state))
         self._redo.clear()
-        while len(self._undo)>HISTORY_LIMIT or sum(len(json.dumps(s)) for s in self._undo)>HISTORY_BYTES:
+        # Retain at least the immediately preceding edit even when one book
+        # exceeds the ordinary history byte budget.
+        while len(self._undo)>1 and (len(self._undo)>HISTORY_LIMIT or sum(byte_count(s) for s in self._undo)>HISTORY_BYTES):
             self._undo.pop(0)
         self.revision+=1
         current['revision']=self.revision
@@ -326,15 +352,15 @@ class AuthoringSession(QObject):
             end=min(value['end'],utf16_length(self.text()))
             self.editor.setTextCursor(self.active.range_cursor(min(value['start'],end),end,grapheme=False))
 
-    def checkpoint(self,*,closed=False):
+    def checkpoint(self,*,closed=False,snapshot=None):
         if not self.recovery_enabled: return
-        state=self.capture()
+        state=self.capture() if snapshot is None else snapshot
         entry=dict(recoveryVersion='0.1.0',sessionId=self.session_id,timestamp=stamp(),closed=closed,
                    state=state,sha256=digest(state),history=self.history[-256:],
                    savedPath=str(self.saved_path) if self.saved_path else None,savedHash=self.saved_hash,
                    savedDigest=self._saved_digest,migratedFrom=self.migrated_from)
         try:
-            write_json(self.recovery_path,entry)
+            write_atomic(self.recovery_path,storage_payload(entry),limit=self.max_file_bytes)
             self.durable_revision=self.revision
             self.recovery_error=None
         except Exception as error:
@@ -349,7 +375,7 @@ class AuthoringSession(QObject):
             if not lock.tryLock(0): continue
             lock.unlock()
             try:
-                if path.stat().st_size>16*1024*1024: raise ValueError('RECOVERY_TOO_LARGE')
+                if path.stat().st_size>self.max_file_bytes: raise ValueError('RECOVERY_TOO_LARGE')
                 value=load_json(path)
                 if value.get('recoveryVersion')!='0.1.0': raise ValueError('UNSUPPORTED_RECOVERY_VERSION')
                 if value.get('closed'): continue
@@ -366,7 +392,7 @@ class AuthoringSession(QObject):
         lock=QLockFile(str(path.with_suffix('.lock'))); lock.setStaleLockTime(0)
         if not lock.tryLock(0): raise ValueError('RECOVERY_SESSION_STILL_RUNNING')
         try:
-            if path.stat().st_size>16*1024*1024: raise ValueError('RECOVERY_TOO_LARGE')
+            if path.stat().st_size>self.max_file_bytes: raise ValueError('RECOVERY_TOO_LARGE')
             entry=load_json(path)
             if entry.get('recoveryVersion')!='0.1.0': raise ValueError('UNSUPPORTED_RECOVERY_VERSION')
             if digest(entry['state'])!=entry['sha256']: raise ValueError('RECOVERY_HASH_MISMATCH')
@@ -381,7 +407,7 @@ class AuthoringSession(QObject):
             self.checkpoint()
             if self.recovery_error: raise OSError(self.recovery_error)
             entry['closed']=True
-            write_json(path,entry)
+            write_atomic(path,storage_payload(entry),limit=self.max_file_bytes)
             self.changed.emit()
             return dict(recoveredRevision=state['revision'],revision=self.revision,savedPath=str(self.saved_path) if self.saved_path else None)
         finally: lock.unlock()
@@ -402,26 +428,36 @@ class AuthoringSession(QObject):
         if self.migrated_from and path==Path(self.migrated_from): raise ValueError('MIGRATION_REQUIRES_NEW_PATH: retain the original file')
         if path.exists():
             if path!=self.saved_path: raise ValueError('SAVE_AS_TARGET_EXISTS')
-            if hashlib.sha256(path.read_bytes()).hexdigest()!=self.saved_hash: raise ValueError('DOCUMENT_CHANGED_ON_DISK')
+            if file_hash(path)!=self.saved_hash: raise ValueError('DOCUMENT_CHANGED_ON_DISK')
         state=self.capture(); self.validate(state)
         self.resolve_fonts(state)
         payload=dict(format='vayrshemon.document',formatVersion=self.file_version,state=state,history=self.history[-256:],engine=self.fingerprint())
         payload=self.prepare_save_payload(payload)
         Draft202012Validator(self.document_schema).validate(payload)
-        if len(json_text(payload).encode('utf-8'))>16*1024*1024: raise ValueError('DOCUMENT_TOO_LARGE')
+        stored=storage_payload(payload)
         # Preview preparation may take time. Recheck the destination before
         # publishing; a save failure must preserve externally edited files.
-        if replacing and (not path.is_file() or hashlib.sha256(path.read_bytes()).hexdigest()!=self.saved_hash):raise ValueError('DOCUMENT_CHANGED_ON_DISK')
+        if replacing and (not path.is_file() or file_hash(path)!=self.saved_hash):raise ValueError('DOCUMENT_CHANGED_ON_DISK')
         if not replacing and path.exists():raise ValueError('SAVE_AS_TARGET_EXISTS')
         if path.exists():
-            prior=load_json(path)
             backup=self.root/'.local/history'/self.state['documentId']/(self.saved_hash+'.vay.json')
-            if not backup.exists(): write_json(backup,prior)
-        if replacing:write_json(path,payload)
-        else:
-            from tools.recovery import exclusive_write
-            exclusive_write(path,json_text(payload).encode('utf-8'))
-        self.saved_path=path; self.saved_hash=hashlib.sha256(path.read_bytes()).hexdigest()
+            if not backup.exists():
+                # Preserve the exact prior wire bytes, without decompressing
+                # and serializing the old book a second time.
+                import shutil, tempfile
+                backup.parent.mkdir(parents=True,exist_ok=True)
+                fd,name=tempfile.mkstemp(prefix='.prior-',dir=backup.parent);os.close(fd)
+                temporary=Path(name)
+                try:
+                    shutil.copyfile(path,temporary)
+                    if file_hash(temporary)!=self.saved_hash:raise ValueError('DOCUMENT_CHANGED_ON_DISK')
+                    from tools.recovery import publish_new
+                    try:publish_new(temporary,backup)
+                    except FileExistsError:pass
+                finally:temporary.unlink(missing_ok=True)
+        write_atomic(path,stored,replace=replacing,limit=self.max_file_bytes)
+        self.saved_path=path; self.saved_hash=file_hash(path)
+        self._last_saved_preview=payload.get('shellPreview')
         self.saved_revision=self.revision; self._saved_digest=self.content_digest(state)
         self.checkpoint(); self.remember(path); self.changed.emit()
         self.log.emit('persistence','DOCUMENT_SAVED',path=str(path),revision=self.revision,sha256=self.saved_hash)
@@ -459,7 +495,7 @@ class AuthoringSession(QObject):
 
     def read_file(self,path):
         path=Path(path).resolve(strict=True)
-        if path.stat().st_size>16*1024*1024: raise ValueError('DOCUMENT_TOO_LARGE')
+        if path.stat().st_size>self.max_file_bytes: raise ValueError('DOCUMENT_TOO_LARGE')
         payload=load_json(path)
         state,migrated=self.migrate(payload,path)
         self.validate(state)
@@ -475,8 +511,8 @@ class AuthoringSession(QObject):
             if not found: missing.append(source)
         return dict(path=str(path),migrationRequired=migrated,missingFonts=missing,title=state['title'],pages=len(state['pages']))
 
-    def resolve_fonts(self,state,font_paths=None):
-        state=deepcopy(state)
+    def resolve_fonts(self,state,font_paths=None,*,copy_state=True):
+        if copy_state: state=deepcopy(state)
         self.validate(state)
         missing=[]
         for source in state['fontSources']:
@@ -486,9 +522,11 @@ class AuthoringSession(QObject):
             try: self.fonts.register(source['path'],source['sha256'])
             except (OSError,ValueError) as error: missing.append(dict(**source,reason=str(error)))
         if missing: raise ValueError('MISSING_FONTS: '+json.dumps(missing))
-        for page in state['pages']:
-            for frame in page['frames']:
-                for font in frame['content']['document']['fonts']: self.fonts.resolve(font['fontId'])
+        # resolve verifies the complete font file's hash. Verify each distinct
+        # font once, rather than rereading it for every frame in a large book.
+        required_fonts={font['fontId'] for page in state['pages'] for frame in page['frames']
+                        for font in frame['content']['document']['fonts']}
+        for font_id in sorted(required_fonts):self.fonts.resolve(font_id)
         recipe=state['recipe']
         if recipe:
             expected=self.fonts.recipe_for(self.fonts.resolve(recipe['master']),[self.fonts.resolve(layer['fontId']) for layer in recipe['layers']])
@@ -496,19 +534,32 @@ class AuthoringSession(QObject):
         return state
 
     def open(self,path,*,font_paths=None,advance_revision=True):
+        self.report_open('Reading and checking document',5)
         path,payload,state,migrated=self.read_file(path)
-        state=self.resolve_fonts(state,font_paths)
-        self._restore(state)
+        self.report_open('Resolving exact fonts',55)
+        state=self.resolve_fonts(state,font_paths,copy_state=False)
+        self.report_open('Preparing the visible page',65)
+        self._restore(state,take_ownership=True)
         self.revision=max(self.revision,state['revision'])+1 if advance_revision else state['revision']
         self.saved_path=None if migrated else path
-        self.saved_hash=None if migrated else hashlib.sha256(path.read_bytes()).hexdigest()
+        self.saved_hash=None if migrated else file_hash(path)
         self.saved_revision=None if migrated else self.revision
         self.migrated_from=str(path) if migrated else None
-        self._saved_digest=None if migrated else self.content_digest(self.capture())
+        self.report_open('Preparing editing history',75)
+        self._state=self.capture()
+        self._saved_digest=None if migrated else self.content_digest(self._state)
         self._undo=[]; self._redo=[]; self.history=payload.get('history',[])[-256:]
-        self._state=self.capture(); self.checkpoint(); self.remember(path); self.changed.emit()
+        self.report_open('Writing recovery checkpoint',90)
+        self.checkpoint(snapshot=self._state); self.remember(path); self.changed.emit()
+        self._last_opened_preview=payload.get('shellPreview')
         self.log.emit('persistence','DOCUMENT_OPENED',path=str(path),revision=self.revision,migrated=migrated)
+        self.report_open('Document ready',100)
         return dict(path=str(path),revision=self.revision,migrated=migrated)
+
+    def report_open(self,stage,progress):
+        self.log.emit('persistence','DOCUMENT_OPEN_PROGRESS',stage=stage,progress=progress)
+        callback=self.__dict__.get('loading_reporter')
+        if callback: callback(stage,progress)
 
     def new(self,title='Untitled',width=612,height=792):
         self._restore(self.new_state(title,width,height))

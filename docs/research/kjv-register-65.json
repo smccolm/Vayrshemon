@@ -1,0 +1,555 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.65",
+    "parentVersion": "0.10-kjv.64",
+    "parentHead": "e17522877682f4d24d3e6a91738534241a9f5482fa66286403686ab6098dc92f",
+    "head": "b6c847588b2a9130014e20891f5325cf15c4c8143bb7070800fb71c1bca50086",
+    "newLexicalEntries": 8,
+    "newProperEntries": 6,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 71,
+    "exactCompilerCases": 71,
+    "newAuthoredVerses": 71,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 141,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21379,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 71,
+    "kings2Verses": 141,
+    "authoredVerses": 9723,
+    "remainingVerses": 21379,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 11,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 4:1",
+        "source": "Now there cried a certain woman of the wives of the sons of the prophets unto Elisha, saying, Thy servant my husband is dead; and thou knowest that thy servant did fear the LORD: and the creditor is come to take unto him my two sons to be bondmen.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 4:22",
+        "source": "And she called unto her husband, and said, Send me, I pray thee, one of the young men, and one of the asses, that I may run to the man of God, and come again.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 4:35",
+        "source": "Then he returned, and walked in the house to and fro; and went up, and stretched himself upon him: and the child sneezed seven times, and the child opened his eyes.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 4:42",
+        "source": "And there came a man from Baalshalisha, and brought the man of God bread of the firstfruits, twenty loaves of barley, and full ears of corn in the husk thereof. And he said, Give unto the people, that they may eat.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "2 Kings 4:43",
+        "source": "And his servitor said, What, should I set this before an hundred men? He said again, Give the people, that they may eat: for thus saith the LORD, They shall eat, and shall leave thereof.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Kings 5:5",
+        "source": "And the king of Syria said, Go to, go, and I will send a letter unto the king of Israel. And he departed, and took with him ten talents of silver, and six thousand pieces of gold, and ten changes of raiment.",
+        "expectedDecimalQuantities": [
+          10,
+          6000,
+          10
+        ],
+        "targetQuantities": [
+          10,
+          6000,
+          10
+        ]
+      },
+      {
+        "reference": "2 Kings 5:10",
+        "source": "And Elisha sent a messenger unto him, saying, Go and wash in Jordan seven times, and thy flesh shall come again to thee, and thou shalt be clean.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 5:14",
+        "source": "Then went he down, and dipped himself seven times in Jordan, according to the saying of the man of God: and his flesh came again like unto the flesh of a little child, and he was clean.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Kings 5:17",
+        "source": "And Naaman said, Shall there not then, I pray thee, be given to thy servant two mules’ burden of earth? for thy servant will henceforth offer neither burnt offering nor sacrifice unto other gods, but unto the LORD.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 5:22",
+        "source": "And he said, All is well. My master hath sent me, saying, Behold, even now there be come to me from mount Ephraim two young men of the sons of the prophets: give them, I pray thee, a talent of silver, and two changes of garments.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 5:23",
+        "source": "And Naaman said, Be content, take two talents. And he urged him, and bound two talents of silver in two bags, with two changes of garments, and laid them upon two of his servants; and they bare them before him.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "4:1": [
+        "my/husband dead be:pr",
+        "my/two son:pl:a",
+        "slave:pl be:inf"
+      ],
+      "4:2": [
+        "for thou what:a i do:fu",
+        "thy/kjv_handmaid",
+        "except of oil kjv_pot"
+      ],
+      "4:3": [
+        "empty vessel:pl",
+        "few:a borrow:imp not"
+      ],
+      "4:4": [
+        "upon thou and upon thy/son:pl",
+        "that which full be:pr aside"
+      ],
+      "4:5": [
+        "who vessel:pl:a to she bring:pa",
+        "she pour:pa out"
+      ],
+      "4:6": [
+        "to her/son",
+        "vessel more be:pr not",
+        "oil stop:pa"
+      ],
+      "4:7": [
+        "thy/debt:a pay:imp",
+        "of remainder live:imp"
+      ],
+      "4:8": [
+        "great woman",
+        "he:a she urge:pa",
+        "as often as"
+      ],
+      "4:9": [
+        "i perceive:pr",
+        "by we:du"
+      ],
+      "4:10": [
+        "we:du make:opt",
+        "i pray:pr thou",
+        "bed and table and stool and kjv_candlestick"
+      ],
+      "4:11": [
+        "on some day",
+        "there lie:pa"
+      ],
+      "4:12": [
+        "kjv_gehazi",
+        "this kjv_shunammite:a call:imp"
+      ],
+      "4:13": [
+        "for we:du careful thou be:perf",
+        "captain of army",
+        "among my/own people i dwell:pr"
+      ],
+      "4:14": [
+        "child:a she have:pr not",
+        "her/husband old"
+      ],
+      "4:15": [
+        "she:a call:imp",
+        "in door she stand:pa"
+      ],
+      "4:16": [
+        "kjv_according to of life time",
+        "son:a thou embrace:fu",
+        "kjv_lie_false:imp not"
+      ],
+      "4:17": [
+        "woman conceive:pa",
+        "son:a bear:pa",
+        "of life time"
+      ],
+      "4:18": [
+        "child grow:pp",
+        "to reap:ag:pl"
+      ],
+      "4:19": [
+        "my/head:excl my/head:excl",
+        "to his/mother carry:imp"
+      ],
+      "4:20": [
+        "until noon child sit:pa",
+        "then die:pa"
+      ],
+      "4:21": [
+        "bed of of god man",
+        "upon he door:a shut:pa"
+      ],
+      "4:22": [
+        "one of young man:pl",
+        "one_num of ass:pl:a",
+        "i run:pr:may"
+      ],
+      "4:23": [
+        "neither new moon nor kjv_sabbath",
+        "well it be:fu"
+      ],
+      "4:24": [
+        "thy/ride:ev:a kjv_slack:imp not",
+        "except thou:a i bid:pr"
+      ],
+      "4:25": [
+        "kjv_carmel mountain",
+        "she:a far off see:pa"
+      ],
+      "4:26": [
+        "with thy/husband",
+        "with child",
+        "she answer:pa"
+      ],
+      "4:27": [
+        "by foot:pl he:a catch:pa",
+        "she:a thrust:inf away",
+        "from i it:a kjv_lord hide:perf"
+      ],
+      "4:28": [
+        "son:a i desire:pa",
+        "i:a deceive:imp not"
+      ],
+      "4:29": [
+        "my/staff:a",
+        "he:a greet:imp not",
+        "he:a answer:imp not"
+      ],
+      "4:30": [
+        "as thy/soul live:pr",
+        "thou:a i leave:fu not",
+        "she:a follow:pa"
+      ],
+      "4:31": [
+        "before they:du",
+        "neither voice nor hear:ev",
+        "child awake:perf not"
+      ],
+      "4:32": [
+        "child dead be:pa",
+        "upon his/bed lay:psv:pa"
+      ],
+      "4:33": [
+        "upon they:du door:a shut:pa",
+        "to kjv_lord pray:pa"
+      ],
+      "4:34": [
+        "his/mouth upon of child mouth",
+        "his/eye:pl upon of child eye:pl",
+        "of child flesh warm become:pa"
+      ],
+      "4:35": [
+        "forward and back",
+        "seven time:pl sneeze:pa",
+        "child open:pa"
+      ],
+      "4:36": [
+        "this kjv_shunammite:a call:imp",
+        "thy/son:a take:imp up"
+      ],
+      "4:37": [
+        "herself:a to ground bow:pa",
+        "her/son:a take:pa up"
+      ],
+      "4:38": [
+        "in land kjv_famine",
+        "kjv_pottage:a boil:imp"
+      ],
+      "4:39": [
+        "one into field",
+        "kjv_wild_vine",
+        "kjv_wild_gourd:pl",
+        "into small piece:pl cut:pa",
+        "they:a they know:pa not"
+      ],
+      "4:40": [
+        "thou of god man:excl",
+        "in kjv_pot death",
+        "eat:inf can:pa not"
+      ],
+      "4:41": [
+        "kjv_flour:a bring:imp",
+        "in kjv_pot harm be:pa not"
+      ],
+      "4:42": [
+        "kjv_baalshalisha",
+        "twenty kjv_loaf:pl of kjv_barley",
+        "kjv_grain_ear:pl in their/kjv_husk"
+      ],
+      "4:43": [
+        "hundred man:pl i set:pr:should",
+        "thus kjv_lord say:pr",
+        "remainder:a leave:fu"
+      ],
+      "4:44": [
+        "they eat:pa",
+        "remainder:a leave:pa"
+      ],
+      "5:1": [
+        "by he to kjv_syria kjv_lord deliver:ev:a give:pp",
+        "of kjv_leprosy man"
+      ],
+      "5:2": [
+        "little maiden:a captive",
+        "on of kjv_naaman_syria wife she attend:pa"
+      ],
+      "5:3": [
+        "my/lord be:opt:excl",
+        "recover:caus:pr:cond"
+      ],
+      "5:4": [
+        "one go:pa in",
+        "thus and thus"
+      ],
+      "5:5": [
+        "ipl send:fu",
+        "ten kjv_talent_weight:pl",
+        "six+thousand",
+        "ten change:pl"
+      ],
+      "5:6": [
+        "mypl/servant:a to thou ipl send:perf",
+        "thou recover:caus:pr:may"
+      ],
+      "5:7": [
+        "god i be:pr kill:inf and live:caus:inf",
+        "against i quarrel:ev:a he seek:pr"
+      ],
+      "5:8": [
+        "why thy/clothing:a",
+        "to i he come:opt",
+        "prophet in kjv_israel"
+      ],
+      "5:9": [
+        "with his/horse:pl",
+        "at door of of kjv_elisha house"
+      ],
+      "5:10": [
+        "seven time:pl wash:imp",
+        "kjv_clean_ritual thou be:fu"
+      ],
+      "5:11": [
+        "i think:pa",
+        "his/hand:a over kjv_place_site strike:fu"
+      ],
+      "5:12": [
+        "kjv_abana and kjv_pharpar",
+        "i wash:pr:may not",
+        "in rage"
+      ],
+      "5:13": [
+        "my/father",
+        "bid:pp",
+        "do:perf:cond not",
+        "kjv_clean_ritual be:imp"
+      ],
+      "5:14": [
+        "seven time:pl in kjv_jordan plunge:pa",
+        "of little child flesh"
+      ],
+      "5:15": [
+        "i know:pr",
+        "no god be:pr except in kjv_israel",
+        "blessing:a of thy/servant"
+      ],
+      "5:16": [
+        "none:a i receive:fu",
+        "kjv_naaman_syria urge:pa",
+        "kjv_elisha refuse:pa"
+      ],
+      "5:17": [
+        "two mule:pl burden of earth",
+        "neither burn:pp kjv_offering nor kjv_sacrifice",
+        "but to kjv_lord"
+      ],
+      "5:18": [
+        "house of kjv_rimmon_deity",
+        "on my/hand he kjv_lean_body:pr",
+        "myself:a i bow:pr",
+        "pardon:opt"
+      ],
+      "5:19": [
+        "in peace go:imp",
+        "little way"
+      ],
+      "5:20": [
+        "in from his/hand:pl",
+        "after he i run:fu",
+        "some thing:a take:fu"
+      ],
+      "5:21": [
+        "from chariot down descend:pa",
+        "all well be:pr"
+      ],
+      "5:22": [
+        "my/master i:a send:perf say:cv",
+        "to i from kjv_ephraim mountain two young man:pl",
+        "two change:pl"
+      ],
+      "5:23": [
+        "two kjv_talent_weight:pl",
+        "in two bag:pl",
+        "two of his/servant:pl",
+        "they:du they:a carry:pa"
+      ],
+      "5:24": [
+        "to kjv_tower",
+        "in house they:a bestow:pa",
+        "they:du depart:pa"
+      ],
+      "5:25": [
+        "from where thou come:pr",
+        "thy/servant anywhere go:pa not"
+      ],
+      "5:26": [
+        "my/heart go:pa not",
+        "kjv_oliveyard:pl and kjv_vineyard:pl",
+        "kjv_male servant:pl and female servant:pl"
+      ],
+      "5:27": [
+        "to thy/descendant:pl for ever kjv_cleave_adhere:fu",
+        "white as snow"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "One generic human attendant and one cardinal donkey remain distinct in4:22.",
+      "Seven sneezes, seven commanded washings and seven performed washings retain separate references.",
+      "Twenty barley loaves and a hundred eaters; ten silver talents,6000gold pieces and ten clothing changes retain their categories.",
+      "Gehazi requests one talent for two alleged visitors; Naaman gives two talents, with repeated mentions of the same two bags, garment changes and carriers.",
+      "Two mule burdens denote the requested earth load, not two units of soil."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Royal dispatch plural-self, personal distress and desire, actual contextual duals and fabricated quoted voices remain distinct. No forced singular-we or invented Trinity count.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 118,
+    "spreads": 59,
+    "units": 141,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "957f5dedd106f5f0cde10e5b5e33cbea548bca5a61d1307f34af134b377a712c",
+    "maxBaselineErrorPt": 0.007812500000056843,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 59,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 236,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 11.834,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_healing",
+      "tests.test_kjv_kings_succession",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      117,
+      118
+    ],
+    "observations": "Final Gehazi spread viewed: paragraph first baselines align across all four columns; Maxima, approved type sizes, leading and Unta preserved. No missing glyphs or vertical overset."
+  },
+  "status": "incomplete whole Bible"
+}

@@ -1,0 +1,709 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.151",
+    "parentVersion": "0.10-kjv.150",
+    "parentHead": "71cea9dc658799bafa870d5c855a667b0695a716fbbc2acd75ecc6d7659f1cb1",
+    "head": "30e64a70ab7586eba0b533c1e5f800347bff5a0711da308d026ef0df8cf2ea1d",
+    "newLexicalEntries": 44,
+    "newProperEntries": 41,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 13,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 100,
+    "exactCompilerCases": 100,
+    "newAuthoredVerses": 100,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 977,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 11130,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 100,
+    "jeremiahVerses": 977,
+    "authoredVerses": 19972,
+    "remainingVerses": 11130,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 9,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 35:2",
+        "source": "Go unto the house of the Rechabites, and speak unto them, and bring them into the house of the LORD, into one of the chambers, and give them wine to drink.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 36:1",
+        "source": "And it came to pass in the fourth year of Jehoiakim the son of Josiah king of Judah, that this word came unto Jeremiah from the LORD, saying,",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Jeremiah 36:9",
+        "source": "And it came to pass in the fifth year of Jehoiakim the son of Josiah king of Judah, in the ninth month, that they proclaimed a fast before the LORD to all the people in Jerusalem, and to all the people that came from the cities of Judah unto Jerusalem.",
+        "expectedDecimalQuantities": [
+          5,
+          9
+        ],
+        "targetQuantities": [
+          5,
+          9
+        ]
+      },
+      {
+        "reference": "Jeremiah 36:22",
+        "source": "Now the king sat in the winterhouse in the ninth month: and there was a fire on the hearth burning before him.",
+        "expectedDecimalQuantities": [
+          9
+        ],
+        "targetQuantities": [
+          9
+        ]
+      },
+      {
+        "reference": "Jeremiah 36:23",
+        "source": "And it came to pass, that when Jehudi had read three or four leaves, he cut it with the penknife, and cast it into the fire that was on the hearth, until all the roll was consumed in the fire that was on the hearth.",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Jeremiah 36:28",
+        "source": "Take thee again another roll, and write in it all the former words that were in the first roll, which Jehoiakim the king of Judah hath burned.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 38:7",
+        "source": "Now when Ebedmelech the Ethiopian, one of the eunuchs which was in the king’s house, heard that they had put Jeremiah in the dungeon; the king then sitting in the gate of Benjamin;",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 38:10",
+        "source": "Then the king commanded Ebedmelech the Ethiopian, saying, Take from hence thirty men with thee, and take up Jeremiah the prophet out of the dungeon, before he die.",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      },
+      {
+        "reference": "Jeremiah 38:14",
+        "source": "Then Zedekiah the king sent, and took Jeremiah the prophet unto him into the third entry that is in the house of the LORD: and the king said unto Jeremiah, I will ask thee a thing; hide nothing from me.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "35:1": [
+        "kjv_jehoiakim son of kjv_josiah_amon"
+      ],
+      "35:2": [
+        "one_num of chamber:pl",
+        "wine:a to they drink:inf"
+      ],
+      "35:3": [
+        "i kjv_jaazaniah_jeremiah son of kjv_jeremiah_habaziniah son of kjv_habaziniah:a"
+      ],
+      "35:4": [
+        "kjv_hanan_igdaliah son of kjv_igdaliah",
+        "above chamber",
+        "kjv_maaseiah_shallum"
+      ],
+      "35:5": [
+        "kjv_pot:pl:a full of wine and cup:pl:a",
+        "you wine:a drink:imp"
+      ],
+      "35:6": [
+        "wesg wine:a drink:neg:fu",
+        "ourone/father",
+        "neither you nor your/son:pl forever"
+      ],
+      "35:7": [
+        "house:a build:fu",
+        "nor seed:a kjv_sow:fu",
+        "nor any:a have:fu",
+        "in tent:pl dwell:fu"
+      ],
+      "35:8": [
+        "wesg voice:a",
+        "ourone/wife:pl ourone/son:pl nor ourone/daughter:pl"
+      ],
+      "35:9": [
+        "nor for wesg house:pl:a",
+        "neither wesg kjv_vineyard:a nor field:a nor seed:a"
+      ],
+      "35:10": [
+        "wesg in tent:pl dwell:perf",
+        "ourone/father"
+      ],
+      "35:11": [
+        "for fear of army of kjv_chaldean:pl",
+        "for fear of army of kjv_syrian:pl",
+        "so wesg at kjv_jerusalem dwell:pr"
+      ],
+      "35:12": [
+        "word of kjv_lord to kjv_jeremiah_prophet"
+      ],
+      "35:13": [
+        "mypl/word:pl:a hear:inf receive:neg:fu?"
+      ],
+      "35:14": [
+        "they none:a drink:pr",
+        "ipl to you speak:perf",
+        "listen:neg:pa"
+      ],
+      "35:15": [
+        "all mypl/servant:pl kjv_prophet:pl:a",
+        "each human from his/evil way",
+        "bend:neg:perf",
+        "listen:neg:perf"
+      ],
+      "35:16": [
+        "their/father",
+        "this people to ipl listen:neg:perf"
+      ],
+      "35:17": [
+        "they hear:neg:perf",
+        "they answer:neg:perf"
+      ],
+      "35:18": [
+        "your/father",
+        "all his/kjv_precept:pl:a"
+      ],
+      "35:19": [
+        "man:a before ipl forever stand:inf lack:neg:fu"
+      ],
+      "36:1": [
+        "four:ord year"
+      ],
+      "36:2": [
+        "scroll:a of book",
+        "all word:pl:a",
+        "against all nation:pl",
+        "from day:pl of kjv_josiah_amon"
+      ],
+      "36:3": [
+        "perhaps",
+        "each human from his/evil way return:may",
+        "forgive:may"
+      ],
+      "36:4": [
+        "from mouth of kjv_jeremiah_prophet",
+        "upon scroll of book"
+      ],
+      "36:5": [
+        "i shut:psv:pr",
+        "go:neg:can"
+      ],
+      "36:6": [
+        "from my/mouth",
+        "upon fast:ev day",
+        "out of their/city:pl"
+      ],
+      "36:7": [
+        "perhaps",
+        "their/kjv_supplication:a before kjv_lord set:fu"
+      ],
+      "36:8": [
+        "kjv_according to all",
+        "in book in house of kjv_lord read:cv"
+      ],
+      "36:9": [
+        "five:ord year",
+        "nine:ord month"
+      ],
+      "36:10": [
+        "kjv_gemariah_shaphan son of kjv_shaphan",
+        "higher kjv_court_enclosure",
+        "at enter:ev of new gate"
+      ],
+      "36:11": [
+        "kjv_michaiah_gemariah son of kjv_gemariah_shaphan son of kjv_shaphan"
+      ],
+      "36:12": [
+        "kjv_delaiah_shemaiah_official son of kjv_shemaiah_delaiah_official",
+        "kjv_zedekiah_hananiah son of kjv_hananiah_zedekiah"
+      ],
+      "36:13": [
+        "which he hear:pp",
+        "in ear:pl of people read:pa"
+      ],
+      "36:14": [
+        "kjv_jehudi_nethaniah son of kjv_nethaniah_jehudi son of kjv_shelemiah_cushi son of kjv_cushi_shelemiah:a"
+      ],
+      "36:15": [
+        "ourone/ear:pl",
+        "their/ear:pl"
+      ],
+      "36:16": [
+        "they each fear:pa",
+        "wesg surely king:a"
+      ],
+      "36:17": [
+        "wesg:a tell:imp",
+        "at his/mouth write:pa?"
+      ],
+      "36:18": [
+        "to i with his/mouth",
+        "with kjv_ink in book"
+      ],
+      "36:19": [
+        "thou and kjv_jeremiah_prophet",
+        "where you:du be:pr"
+      ],
+      "36:20": [
+        "into kjv_court_enclosure",
+        "scroll:a in chamber of kjv_elishama_scribe"
+      ],
+      "36:21": [
+        "kjv_jehudi_nethaniah",
+        "by king stand:pa"
+      ],
+      "36:22": [
+        "winter house",
+        "nine:ord month",
+        "fire on kjv_hearth"
+      ],
+      "36:23": [
+        "three or four kjv_scroll_leaf:pl:a",
+        "with kjv_penknife",
+        "until all scroll"
+      ],
+      "36:24": [
+        "fear:neg:pa",
+        "rend:neg:pa",
+        "neither king nor any"
+      ],
+      "36:25": [
+        "plead:pp",
+        "burn:neg:should",
+        "hear:neg:pa"
+      ],
+      "36:26": [
+        "kjv_jerahmeel_hammelech",
+        "kjv_seraiah_azriel",
+        "kjv_shelemiah_abdeel",
+        "kjv_lord they:du:a hide:pa"
+      ],
+      "36:27": [
+        "king scroll:a and word:pl:a",
+        "burn:pp"
+      ],
+      "36:28": [
+        "all former word:pl:a",
+        "first scroll"
+      ],
+      "36:29": [
+        "say:cv why thou in it write:perf say:cv",
+        "human and beast cease:caus:fu?"
+      ],
+      "36:30": [
+        "none:a upon throne of kjv_david",
+        "in day to heat and in night to frost"
+      ],
+      "36:31": [
+        "ipl he:a and his/seed:a and his/servant:pl:a",
+        "they listen:neg:pa"
+      ],
+      "36:32": [
+        "all word:pl:a of book",
+        "besides many like word:pl",
+        "add:psv:pa"
+      ],
+      "37:1": [
+        "in place of kjv_coniah_jehoiakim",
+        "kjv_nebuchadrezzar"
+      ],
+      "37:2": [
+        "neither he nor his/servant:pl nor people",
+        "listen:neg:pa"
+      ],
+      "37:3": [
+        "kjv_jehucal_shelemiah",
+        "kjv_zephaniah_maaseiah",
+        "ourone/god for wesg pray:imp"
+      ],
+      "37:4": [
+        "in come:pa and out go:pa",
+        "put:neg:pp"
+      ],
+      "37:5": [
+        "kjv_pharaoh/army out of egypt",
+        "they from kjv_jerusalem depart:pa"
+      ],
+      "37:6": [
+        "word of kjv_lord to kjv_prophet"
+      ],
+      "37:7": [
+        "to ipl of ipl ask:inf",
+        "into their/own land return:fu"
+      ],
+      "37:8": [
+        "again come:fu",
+        "take:fu",
+        "burn:fu"
+      ],
+      "37:9": [
+        "yourselves:a deceive:neg:imp",
+        "from wesg depart:fu",
+        "depart:neg:fu"
+      ],
+      "37:10": [
+        "though you whole army:a",
+        "only kjv_wound_inflict:psv:adj man:pl",
+        "up rise:should"
+      ],
+      "37:11": [
+        "for fear of kjv_pharaoh/army",
+        "up break:psv:pa"
+      ],
+      "37:12": [
+        "land of kjv_benjamin",
+        "himself:a from there in middle of people separate:inf"
+      ],
+      "37:13": [
+        "kjv_irijah_shelemiah son of kjv_shelemiah_hananiah_guard son of kjv_hananiah_irijah",
+        "thou to kjv_chaldean:pl away fall:pr"
+      ],
+      "37:14": [
+        "false be:pr",
+        "i to kjv_chaldean:pl away fall:neg:pr"
+      ],
+      "37:15": [
+        "he:a strike:pa",
+        "house of kjv_jonathan_scribe",
+        "they it:a prison make:pp"
+      ],
+      "37:16": [
+        "dungeon and into small chamber:pl",
+        "many day:pl"
+      ],
+      "37:17": [
+        "secretly",
+        "any word from kjv_lord",
+        "deliver:psv:fu"
+      ],
+      "37:18": [
+        "what i against thee",
+        "that you i:a in prison"
+      ],
+      "37:19": [
+        "your/kjv_prophet:pl",
+        "come:neg:fu nor against this land"
+      ],
+      "37:20": [
+        "i thee:a pray:pr",
+        "return:caus:neg:may",
+        "lest i there die:pr"
+      ],
+      "37:21": [
+        "each day piece:a of bread",
+        "street of bake:ag:pl",
+        "until all bread in city spend:psv:pa"
+      ],
+      "38:1": [
+        "kjv_shephatiah_mattan",
+        "kjv_gedaliah_pashur",
+        "kjv_jucal_shelemiah",
+        "kjv_pashur_malchiah son of kjv_malchiah_pashur"
+      ],
+      "38:2": [
+        "his/life:a for prey have:fu",
+        "and live:fu"
+      ],
+      "38:3": [
+        "surely into hand of army",
+        "which it:a take:fu"
+      ],
+      "38:4": [
+        "wesg thee:a beseech:pr",
+        "hand:pl:a of man:pl of war",
+        "weak:caus:pr",
+        "kjv_welfare:a",
+        "but hurt:ev:a"
+      ],
+      "38:5": [
+        "he in your/hand",
+        "king he who anything:a against you do:can be:neg:pr"
+      ],
+      "38:6": [
+        "kjv_malchiah_hammelech son of kjv_hammelech",
+        "water be:neg:pa but mud",
+        "in mud sink:pa"
+      ],
+      "38:7": [
+        "kjv_ebedmelech kjv_ethiopian one_num of eunuch:pl",
+        "king then in gate"
+      ],
+      "38:8": [
+        "out of king/house",
+        "to king speak:pa"
+      ],
+      "38:9": [
+        "likely for hunger",
+        "no more bread in city"
+      ],
+      "38:10": [
+        "two+twelve and six man:pl:a",
+        "before he die:pr"
+      ],
+      "38:11": [
+        "under kjv_treasury",
+        "old discard:psv:adj cloth:a",
+        "old rotten kjv_rag:pl:a"
+      ],
+      "38:12": [
+        "under kjv_hollow:pl of thy/arm:pl under kjv_cord:pl"
+      ],
+      "38:13": [
+        "out of dungeon up take:pa",
+        "in kjv_court_enclosure of prison remain:pa"
+      ],
+      "38:14": [
+        "three:ord enter:ev",
+        "i thee:a thing:a ask:fu",
+        "nothing:a from i hide:imp"
+      ],
+      "38:15": [
+        "put:neg:fu?",
+        "listen:neg:fu?"
+      ],
+      "38:16": [
+        "who for wesg this soul:a make:pa",
+        "i thee:a to death put:neg:fu",
+        "give:neg:fu"
+      ],
+      "38:17": [
+        "if thou",
+        "burn:psv:neg:fu",
+        "and thy/house"
+      ],
+      "38:18": [
+        "forth go:neg:fu",
+        "escape:neg:fu"
+      ],
+      "38:19": [
+        "i kjv_jew:pl",
+        "lest they i:a into their/hand",
+        "mock:pr"
+      ],
+      "38:20": [
+        "deliver:neg:fu",
+        "which i to thee speak:pr",
+        "thy/soul live:fu"
+      ],
+      "38:21": [
+        "if thou forth go:inf refuse:pr",
+        "to i show:perf"
+      ],
+      "38:22": [
+        "those woman:pl say:fu",
+        "thy/friend:pl thee:a urge:perf",
+        "thy/foot:pl in mud sink:perf"
+      ],
+      "38:23": [
+        "all thy/wife:pl:a and thy/child:pl:a",
+        "burn:psv:caus:fu"
+      ],
+      "38:24": [
+        "no human these word:pl:a know:opt",
+        "die:neg:fu"
+      ],
+      "38:25": [
+        "i with thee speak:perf",
+        "from wesg hide:neg:imp",
+        "wesg thee:a to death put:neg:fu"
+      ],
+      "38:26": [
+        "i my/kjv_supplication:a before king set:pa",
+        "return:caus:neg:should"
+      ],
+      "38:27": [
+        "kjv_according to all these word:pl",
+        "matter perceive:psv:neg:pa"
+      ],
+      "38:28": [
+        "until day when kjv_jerusalem take:psv:pa",
+        "he there be:pa when kjv_jerusalem take:psv:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "35:3",
+        "35:4",
+        "35:5",
+        "36:18",
+        "36:5",
+        "37:14",
+        "37:18",
+        "37:20",
+        "38:14",
+        "38:15",
+        "38:16",
+        "38:19",
+        "38:20",
+        "38:21",
+        "38:25",
+        "38:26"
+      ],
+      "ipl": [
+        "35:14",
+        "35:15",
+        "35:16",
+        "35:17",
+        "35:19",
+        "36:2",
+        "36:3",
+        "36:31",
+        "37:7"
+      ],
+      "wesg": [
+        "35:10",
+        "35:11",
+        "35:6",
+        "35:8",
+        "35:9",
+        "36:16",
+        "36:17",
+        "37:3",
+        "37:9",
+        "38:16",
+        "38:25",
+        "38:4"
+      ],
+      "wepl": [],
+      "mypl": [
+        "35:13",
+        "35:15"
+      ],
+      "ourone": [
+        "35:10",
+        "35:6",
+        "35:8",
+        "36:15",
+        "37:3"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "36:26"
+      ],
+      "you:du": [
+        "36:19"
+      ]
+    },
+    "physicalDualReferences": [
+      "36:19",
+      "36:26"
+    ],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "One chamber and eunuch;fourth/fifth years,ninth month;three or four roll portions remain alternative quantities.",
+      "First roll and third entrance are ordinals;thirty rescuers retained as supplied.",
+      "Both one and other36:16 is distributive fear,not reciprocal fear or an explicit pair;duals name Baruch and Jeremiah."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah35–38 adds100 verses,total977;whole Bible incomplete.",
+      "Household/council singular-we and singular shared soul38:16 remain distinct from personal oaths and divine plural-I.",
+      "Source ambiguity,nested voices,concealed counsel and added scroll words are preserved.",
+      "Three common senses and41 contextual names added;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 804,
+    "spreads": 402,
+    "units": 977,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "db7f17eb7ca3c912d37efe65f3932d350b2d5ae78e69199acf536322439f64c4",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 402,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.785,
+    "modules": [
+      "tests.test_kjv_jeremiah_threatened_writing",
+      "tests.test_kjv_jeremiah_deeds_liberty",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    803,
+    804
+  ],
+  "status": "incomplete Bible;Jeremiah1–38 section checkpoint verified"
+}

@@ -10,6 +10,7 @@ from PySide6.QtSvg import QSvgGenerator
 from . import layout
 from .monochrome import palette
 from .session import SCALE
+from . import page_numbering
 
 
 def selected_page(book,page_id=None):
@@ -75,10 +76,13 @@ def outline_paint(native,painter,mode,clip,monochrome_ink=None):
                 painter.drawPath(path.translated(origin).intersected(clip_path))
 
 
+@page_numbering.render_context
 def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=False,outlines=False):
     page=selected_page(book,page_id); boundary=page_rect(page)
     if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
-        return book.composition(mode,page_id=page['pageId']).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
+        book.composition(mode,page_id=page['pageId']).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
+        page_numbering.paint(book,painter,page,mode,clip,outlines)
+        return
     mode=mode or book.view['mode']; overlays=overlays or {}
     paper,mono_ink=palette(paper=book.view.get('monochromePaper','auto')) if mode=='mono' else (QColor('white'),None)
     painter.save()
@@ -116,9 +120,11 @@ def target(book,path):
     return path
 
 
+@page_numbering.render_context
 def render(book,path=None,*,page_id=None,mode='color',dpi=96,region=None,overlays=None):
     if not math.isfinite(dpi) or not 24<=dpi<=1200 or mode not in ('mono','color'): raise ValueError('INVALID_RENDER_SETTINGS')
     page=selected_page(book,page_id); boundary=page_rect(page)
+    if path:page_numbering.require_space(book,page,mode)
     area=QRectF(*region) if region else boundary
     if not all(math.isfinite(v) for v in layout.rectangle(area)) or area.width()<=0 or area.height()<=0 or not boundary.contains(area): raise ValueError('INVALID_RENDER_REGION')
     scale=dpi/96; width,height=math.ceil(area.width()*scale),math.ceil(area.height()*scale)
@@ -140,8 +146,10 @@ def render(book,path=None,*,page_id=None,mode='color',dpi=96,region=None,overlay
     return image,report
 
 
+@page_numbering.render_context
 def export_svg(book,path,*,page_id=None,mode='color'):
     path=target(book,path); page=selected_page(book,page_id); boundary=page_rect(page)
+    page_numbering.require_space(book,page,mode)
     data=QByteArray(); buffer=QBuffer(data); buffer.open(QIODevice.OpenModeFlag.WriteOnly)
     generator=QSvgGenerator(); generator.setOutputDevice(buffer); generator.setResolution(96)
     generator.setSize(QSize(math.ceil(boundary.width()),math.ceil(boundary.height()))); generator.setViewBox(boundary)
@@ -150,12 +158,13 @@ def export_svg(book,path,*,page_id=None,mode='color'):
     try: paint(book,painter,page_id=page['pageId'],mode=mode,outlines=True)
     finally: painter.end(); buffer.close()
     root=ET.fromstring(bytes(data))
-    if any(e.tag.split('}')[-1] in ('text','image') for e in root.iter()): raise ValueError('SVG_NOT_PURE_OUTLINES')
+    forbidden=('text',) if book.state.get('printEdition') else ('text','image')
+    if any(e.tag.split('}')[-1] in forbidden for e in root.iter()): raise ValueError('SVG_NOT_PURE_OUTLINES')
     root.set('width',str(int(page['width'])/1e6)+'pt'); root.set('height',str(int(page['height'])/1e6)+'pt')
     payload=ET.tostring(root,encoding='utf-8',xml_declaration=True)
     output=QSaveFile(str(path))
     if not output.open(QIODevice.OpenModeFlag.WriteOnly) or output.write(payload)!=len(payload) or not output.commit(): raise OSError('SVG_SAVE_FAILED')
-    result=dict(path=str(path),pageId=page['pageId'],kind='outline-svg',searchableText=False,sha256=hashlib.sha256(payload).hexdigest())
+    result=dict(path=str(path),pageId=page['pageId'],kind='outlined-text-with-artwork-svg' if book.state.get('printEdition') else 'outline-svg',searchableText=False,sha256=hashlib.sha256(payload).hexdigest())
     book.log.emit('renderer','SVG_EXPORTED',**result)
     return result
 

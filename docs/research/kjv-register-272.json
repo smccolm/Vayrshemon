@@ -1,0 +1,687 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.272",
+    "parentVersion": "0.10-kjv.271",
+    "parentHead": "b898f67c90ad8caec235305495ab003a8fd5ffdfe9758adbbc18a282d079078c",
+    "head": "b90494e61df4e9df618a2ccdb91ed4fa5050022396c0c445a7997864d144ff30",
+    "newLexicalEntries": 8,
+    "newProperEntries": 0,
+    "newCommonEntries": 8,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 42,
+    "exactCompilerCases": 42,
+    "newAuthoredVerses": 42,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 303,
+    "jamesVerses": 108,
+    "peter1Verses": 105,
+    "peter2Verses": 61,
+    "john1Verses": 105,
+    "john2Verses": 13,
+    "john3Verses": 14,
+    "judeVerses": 25,
+    "revelationVerses": 113,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 291,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newRevelationVerses": 42,
+    "revelationVerses": 113,
+    "authoredVerses": 30811,
+    "remainingVerses": 291,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 22,
+    "quantityChecks": [
+      {
+        "reference": "Revelation 4:1",
+        "source": "After this I looked, and, behold, a door was opened in heaven: and the first voice which I heard was as it were of a trumpet talking with me; which said, Come up hither, and I will shew thee things which must be hereafter.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 4:2",
+        "source": "And immediately I was in the spirit: and, behold, a throne was set in heaven, and one sat on the throne.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 4:4",
+        "source": "And round about the throne were four and twenty seats: and upon the seats I saw four and twenty elders sitting, clothed in white raiment; and they had on their heads crowns of gold.",
+        "expectedDecimalQuantities": [
+          24,
+          24
+        ],
+        "targetQuantities": [
+          24,
+          24
+        ]
+      },
+      {
+        "reference": "Revelation 4:5",
+        "source": "And out of the throne proceeded lightnings and thunderings and voices: and there were seven lamps of fire burning before the throne, which are the seven Spirits of God.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 4:6",
+        "source": "And before the throne there was a sea of glass like unto crystal: and in the midst of the throne, and round about the throne, were four beasts full of eyes before and behind.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Revelation 4:7",
+        "source": "And the first beast was like a lion, and the second beast like a calf, and the third beast had a face as a man, and the fourth beast was like a flying eagle.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Revelation 4:8",
+        "source": "And the four beasts had each of them six wings about him; and they were full of eyes within: and they rest not day and night, saying, Holy, holy, holy, LORD God Almighty, which was, and is, and is to come.",
+        "expectedDecimalQuantities": [
+          4,
+          6
+        ],
+        "targetQuantities": [
+          4,
+          6
+        ]
+      },
+      {
+        "reference": "Revelation 4:10",
+        "source": "The four and twenty elders fall down before him that sat on the throne, and worship him that liveth for ever and ever, and cast their crowns before the throne, saying,",
+        "expectedDecimalQuantities": [
+          24
+        ],
+        "targetQuantities": [
+          24
+        ]
+      },
+      {
+        "reference": "Revelation 5:1",
+        "source": "And I saw in the right hand of him that sat on the throne a book written within and on the backside, sealed with seven seals.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 5:5",
+        "source": "And one of the elders saith unto me, Weep not: behold, the Lion of the tribe of Juda, the Root of David, hath prevailed to open the book, and to loose the seven seals thereof.",
+        "expectedDecimalQuantities": [
+          1,
+          7
+        ],
+        "targetQuantities": [
+          1,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 5:6",
+        "source": "And I beheld, and, lo, in the midst of the throne and of the four beasts, and in the midst of the elders, stood a Lamb as it had been slain, having seven horns and seven eyes, which are the seven Spirits of God sent forth into all the earth.",
+        "expectedDecimalQuantities": [
+          4,
+          7,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          4,
+          7,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 5:8",
+        "source": "And when he had taken the book, the four beasts and four and twenty elders fell down before the Lamb, having every one of them harps, and golden vials full of odours, which are the prayers of saints.",
+        "expectedDecimalQuantities": [
+          4,
+          24
+        ],
+        "targetQuantities": [
+          4,
+          24
+        ]
+      },
+      {
+        "reference": "Revelation 5:11",
+        "source": "And I beheld, and I heard the voice of many angels round about the throne and the beasts and the elders: and the number of them was ten thousand times ten thousand, and thousands of thousands;",
+        "expectedDecimalQuantities": [
+          100000000,
+          1000,
+          1000
+        ],
+        "targetQuantities": [
+          100000000,
+          1000,
+          1000
+        ]
+      },
+      {
+        "reference": "Revelation 5:14",
+        "source": "And the four beasts said, Amen. And the four and twenty elders fell down and worshipped him that liveth for ever and ever.",
+        "expectedDecimalQuantities": [
+          4,
+          24
+        ],
+        "targetQuantities": [
+          4,
+          24
+        ]
+      },
+      {
+        "reference": "Revelation 6:1",
+        "source": "And I saw when the Lamb opened one of the seals, and I heard, as it were the noise of thunder, one of the four beasts saying, Come and see.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          4
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          4
+        ]
+      },
+      {
+        "reference": "Revelation 6:3",
+        "source": "And when he had opened the second seal, I heard the second beast say, Come and see.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Revelation 6:5",
+        "source": "And when he had opened the third seal, I heard the third beast say, Come and see. And I beheld, and lo a black horse; and he that sat on him had a pair of balances in his hand.",
+        "expectedDecimalQuantities": [
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "Revelation 6:6",
+        "source": "And I heard a voice in the midst of the four beasts say, A measure of wheat for a penny, and three measures of barley for a penny; and see thou hurt not the oil and the wine.",
+        "expectedDecimalQuantities": [
+          4,
+          1,
+          1,
+          3,
+          1
+        ],
+        "targetQuantities": [
+          4,
+          1,
+          1,
+          3,
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 6:7",
+        "source": "And when he had opened the fourth seal, I heard the voice of the fourth beast say, Come and see.",
+        "expectedDecimalQuantities": [
+          4,
+          4
+        ],
+        "targetQuantities": [
+          4,
+          4
+        ]
+      },
+      {
+        "reference": "Revelation 6:8",
+        "source": "And I looked, and behold a pale horse: and his name that sat on him was Death, and Hell followed with him. And power was given unto them over the fourth part of the earth, to kill with sword, and with hunger, and with death, and with the beasts of the earth.",
+        "expectedDecimalQuantities": [
+          0.25
+        ],
+        "targetQuantities": [
+          0.25
+        ]
+      },
+      {
+        "reference": "Revelation 6:9",
+        "source": "And when he had opened the fifth seal, I saw under the altar the souls of them that were slain for the word of God, and for the testimony which they held:",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Revelation 6:12",
+        "source": "And I beheld when he had opened the sixth seal, and, lo, there was a great earthquake; and the sun became black as sackcloth of hair, and the moon became as blood;",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "4:1": [
+        "i look:pa",
+        "first voice",
+        "ipl to thee",
+        "after this be:must"
+      ],
+      "4:2": [
+        "i in spirit",
+        "one_num upon throne"
+      ],
+      "4:3": [
+        "kjv_jasper and kjv_sardine_stone_revelation",
+        "kjv_rainbow_revelation",
+        "like kjv_emerald"
+      ],
+      "4:4": [
+        "two+twelve seat:pl",
+        "two+twelve kjv_elder:pl",
+        "their/head:pl gold crown:pl"
+      ],
+      "4:5": [
+        "lightning:pl and thunder:ev:pl and voice:pl",
+        "seven fire lamp:pl",
+        "god seven spirit:pl"
+      ],
+      "4:6": [
+        "glass sea like crystal",
+        "four beast:pl",
+        "before and behind eye:pl"
+      ],
+      "4:7": [
+        "first beast like lion",
+        "second beast like kjv_calf",
+        "third beast face as man",
+        "fourth beast like fly:cv kjv_eagle"
+      ],
+      "4:8": [
+        "four beast:pl each six wing:pl",
+        "day and night rest:neg:pr",
+        "holy holy holy",
+        "who be:pa and be:pr and come:fu"
+      ],
+      "4:9": [
+        "glory and honour and thanks",
+        "forever and forever live:pr"
+      ],
+      "4:10": [
+        "two+twelve kjv_elder:pl",
+        "their/crown:pl before throne cast:pr"
+      ],
+      "4:11": [
+        "thy/pleasure",
+        "they be:pr and create:psv:pa"
+      ],
+      "5:1": [
+        "kjv_right_side hand book",
+        "within and on back side",
+        "seven seal:pl"
+      ],
+      "5:2": [
+        "strong angel",
+        "book open:inf and its/seal:pl loose:inf:q"
+      ],
+      "5:3": [
+        "in heaven nor in earth neither under earth",
+        "neither upon it look:inf"
+      ],
+      "5:4": [
+        "i much weep:pa",
+        "book open:inf and read:inf"
+      ],
+      "5:5": [
+        "one_num of kjv_elder:pl",
+        "kjv_juda_hebrews kjv_tribe lion kjv_david root",
+        "its/seven seal:pl"
+      ],
+      "5:6": [
+        "four beast:pl",
+        "as slay:psv:perf stand:pa",
+        "seven horn:pl and seven eye:pl",
+        "god seven spirit:pl"
+      ],
+      "5:7": [
+        "he come:pa",
+        "kjv_right_side hand book take:pa"
+      ],
+      "5:8": [
+        "four beast:pl and two+twelve kjv_elder:pl",
+        "kjv_vial_fragrance_revelation:pl odour:pl full",
+        "holy person:pl prayer:pl"
+      ],
+      "5:9": [
+        "wesg:a to god by thy/blood",
+        "every kjv_family and tongue and people and nation"
+      ],
+      "5:10": [
+        "wesg:a to ourone/god king:pl and priest:pl",
+        "wesg upon earth rule:fu"
+      ],
+      "5:11": [
+        "their/kjv_number:ev ten+thousand+ten+thousand",
+        "thousand:pl of thousand:pl"
+      ],
+      "5:12": [
+        "power and wealth and wisdom and strength and honour and glory and blessing"
+      ],
+      "5:13": [
+        "in heaven and upon earth and under earth",
+        "in sea",
+        "to he who upon throne sit:pr and to kjv_lamb"
+      ],
+      "5:14": [
+        "four beast:pl amen",
+        "two+twelve kjv_elder:pl",
+        "he who forever and forever live:pr kjv_worship:pa"
+      ],
+      "6:1": [
+        "one_num of seal:pl",
+        "one_num of four beast:pl come:imp and see:imp"
+      ],
+      "6:2": [
+        "white horse",
+        "kjv_bow have:pa",
+        "crown give:psv:pa",
+        "conquer:cv and to conquer:inf"
+      ],
+      "6:3": [
+        "second seal",
+        "second beast come:imp and see:imp"
+      ],
+      "6:4": [
+        "other horse which red",
+        "from earth peace take:inf",
+        "they each other kill:should",
+        "great sword"
+      ],
+      "6:5": [
+        "third seal",
+        "third beast come:imp and see:imp",
+        "black horse",
+        "kjv_balances_revelation"
+      ],
+      "6:6": [
+        "four beast:pl",
+        "one_num kjv_measure_portion wheat for one_num kjv_penny_source",
+        "three kjv_measure_portion:pl kjv_barley for one_num kjv_penny_source",
+        "oil and wine hurt:neg:imp"
+      ],
+      "6:7": [
+        "fourth seal",
+        "fourth beast voice come:imp and see:imp"
+      ],
+      "6:8": [
+        "kjv_death_rider_revelation",
+        "kjv_hell_follower_revelation",
+        "earth kjv_fourth_share",
+        "with sword and with hunger and with death and with earth beast:pl"
+      ],
+      "6:9": [
+        "five:ord seal",
+        "under altar",
+        "god word and for testimony"
+      ],
+      "6:10": [
+        "how long",
+        "ourone/blood judge:neg:pr and kjv_avenge:neg:pr:q"
+      ],
+      "6:11": [
+        "kjv_robe:pl to each",
+        "little season rest:should",
+        "their/kjv_fellowservant_revelation:pl also and their/brother:pl",
+        "fulfil:psv:may"
+      ],
+      "6:12": [
+        "six:ord seal",
+        "earthquake",
+        "hair kjv_sackcloth",
+        "moon as blood"
+      ],
+      "6:13": [
+        "heaven star:pl to earth",
+        "her/kjv_untimely_fig_revelation fig:pl",
+        "mighty wind"
+      ],
+      "6:14": [
+        "heaven as scroll",
+        "every mountain and kjv_isle"
+      ],
+      "6:15": [
+        "king:pl and great man:pl and rich man:pl and chief captain:pl and mighty man:pl and every slave and every free man",
+        "kjv_den:pl"
+      ],
+      "6:16": [
+        "upon wesg fall:imp",
+        "wesg:a",
+        "from kjv_lamb wrath"
+      ],
+      "6:17": [
+        "his/wrath great day",
+        "who stand:inf able be:fu:q"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "4:1",
+        "4:2",
+        "4:4",
+        "5:1",
+        "5:11",
+        "5:13",
+        "5:2",
+        "5:4",
+        "5:5",
+        "5:6",
+        "6:1",
+        "6:12",
+        "6:2",
+        "6:3",
+        "6:5",
+        "6:6",
+        "6:7",
+        "6:8",
+        "6:9"
+      ],
+      "ipl": [
+        "4:1"
+      ],
+      "wesg": [
+        "5:10",
+        "5:9",
+        "6:16"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "5:10",
+        "6:10"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [],
+    "divineQuotedSelfReferences": [
+      "4:1"
+    ],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "24,all sevens,four beasts,six wings,ordinals,prices and one-quarter retained.",
+      "5:11 has exact100million product and plural thousand-group labels,not an invented exact second million or total.",
+      "Pair of balances names one apparatus;communal us preserves plural kings and priests."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "42new;Revelation1–6cumulative113;whole Bible incomplete;291versesremain.",
+      "Keep are-and-were-created,read,us/kings/our/we,full final worship clause,all Come-and-see calls and his-wrath.",
+      "Eight common entries,no names or paradigms;earlier71Revelation targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Revelation — incomplete Bible working text",
+    "pages": 84,
+    "spreads": 42,
+    "units": 113,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "ec7c0d4a222fd9d28746b04d31769bbb8c9ef087c0f50cb03dd0b79a3fc8aaf1",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 42,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.785,
+    "modules": [
+      "tests.test_kjv_revelation_throne_and_seals",
+      "tests.test_kjv_revelation_seven_voices",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    83,
+    84
+  ],
+  "status": "incomplete Bible;Revelation1–6 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 83,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv272\\preflight-revelation\\Proofs\\page-083.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv272\\composed-revelation\\Proofs\\page-083.png",
+        "sha256": "fe044a3ef5d882d480ff487bf8eda0b3066083fcb5cb1bfca88cca87f43fd140",
+        "bytesIdentical": true
+      },
+      {
+        "page": 84,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv272\\preflight-revelation\\Proofs\\page-084.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv272\\composed-revelation\\Proofs\\page-084.png",
+        "sha256": "398aeb4195e055693d6ef189ec32cccba910b59b884e59f8149753ea30beac4f",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

@@ -1,0 +1,610 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.91",
+    "parentVersion": "0.10-kjv.90",
+    "parentHead": "c4314b5173ce3b1e12cb3865063d04d7d34989fdc9ff75dc639213763fdf8551",
+    "head": "801a43c89bd64dee4be7653e91f0e0a51de95604d903eee70ad5501042cde579",
+    "newLexicalEntries": 24,
+    "newProperEntries": 24,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 80,
+    "exactCompilerCases": 80,
+    "newAuthoredVerses": 80,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 510,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19349,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 80,
+    "chronicles2Verses": 510,
+    "authoredVerses": 11753,
+    "remainingVerses": 19349,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 14,
+    "quantityChecks": [
+      {
+        "reference": "2 Chronicles 21:5",
+        "source": "Jehoram was thirty and two years old when he began to reign, and he reigned eight years in Jerusalem.",
+        "expectedDecimalQuantities": [
+          32,
+          8
+        ],
+        "targetQuantities": [
+          32,
+          8
+        ]
+      },
+      {
+        "reference": "2 Chronicles 21:19",
+        "source": "And it came to pass, that in process of time, after the end of two years, his bowels fell out by reason of his sickness: so he died of sore diseases. And his people made no burning for him, like the burning of his fathers.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 21:20",
+        "source": "Thirty and two years old was he when he began to reign, and he reigned in Jerusalem eight years, and departed without being desired. Howbeit they buried him in the city of David, but not in the sepulchres of the kings.",
+        "expectedDecimalQuantities": [
+          32,
+          8
+        ],
+        "targetQuantities": [
+          32,
+          8
+        ]
+      },
+      {
+        "reference": "2 Chronicles 22:2",
+        "source": "Forty and two years old was Ahaziah when he began to reign, and he reigned one year in Jerusalem. His mother’s name also was Athaliah the daughter of Omri.",
+        "expectedDecimalQuantities": [
+          42,
+          1
+        ],
+        "targetQuantities": [
+          42,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 22:12",
+        "source": "And he was with them hid in the house of God six years: and Athaliah reigned over the land.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "2 Chronicles 23:1",
+        "source": "And in the seventh year Jehoiada strengthened himself, and took the captains of hundreds, Azariah the son of Jeroham, and Ishmael the son of Jehohanan, and Azariah the son of Obed, and Maaseiah the son of Adaiah, and Elishaphat the son of Zichri, into covenant with him.",
+        "expectedDecimalQuantities": [
+          7,
+          100
+        ],
+        "targetQuantities": [
+          7,
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 23:4",
+        "source": "This is the thing that ye shall do; A third part of you entering on the sabbath, of the priests and of the Levites, shall be porters of the doors;",
+        "expectedDecimalQuantities": [
+          0.3333333333333333
+        ],
+        "targetQuantities": [
+          0.3333333333333333
+        ]
+      },
+      {
+        "reference": "2 Chronicles 23:5",
+        "source": "And a third part shall be at the king’s house; and a third part at the gate of the foundation: and all the people shall be in the courts of the house of the LORD.",
+        "expectedDecimalQuantities": [
+          0.3333333333333333,
+          0.3333333333333333
+        ],
+        "targetQuantities": [
+          0.3333333333333333,
+          0.3333333333333333
+        ]
+      },
+      {
+        "reference": "2 Chronicles 23:9",
+        "source": "Moreover Jehoiada the priest delivered to the captains of hundreds spears, and bucklers, and shields, that had been king David’s, which were in the house of God.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 23:14",
+        "source": "Then Jehoiada the priest brought out the captains of hundreds that were set over the host, and said unto them, Have her forth of the ranges: and whoso followeth her, let him be slain with the sword. For the priest said, Slay her not in the house of the LORD.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 23:20",
+        "source": "And he took the captains of hundreds, and the nobles, and the governors of the people, and all the people of the land, and brought down the king from the house of the LORD: and they came through the high gate into the king’s house, and set the king upon the throne of the kingdom.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "2 Chronicles 24:1",
+        "source": "Joash was seven years old when he began to reign, and he reigned forty years in Jerusalem. His mother’s name also was Zibiah of Beersheba.",
+        "expectedDecimalQuantities": [
+          7,
+          40
+        ],
+        "targetQuantities": [
+          7,
+          40
+        ]
+      },
+      {
+        "reference": "2 Chronicles 24:3",
+        "source": "And Jehoiada took for him two wives; and he begat sons and daughters.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 24:15",
+        "source": "But Jehoiada waxed old, and was full of days when he died; an hundred and thirty years old was he when he died.",
+        "expectedDecimalQuantities": [
+          130
+        ],
+        "targetQuantities": [
+          130
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "21:1": [
+        "kjv_jehoshaphat_asa with his/father:pl sleep:pa",
+        "kjv_jehoram_jehoshaphat"
+      ],
+      "21:2": [
+        "kjv_azariah_jehoshaphat_first",
+        "kjv_azariah_jehoshaphat_second",
+        "king of kjv_israel"
+      ],
+      "21:3": [
+        "fortify:psv city:pl",
+        "because he eldest"
+      ],
+      "21:4": [
+        "all his/brother:pl:a",
+        "some of prince:pl"
+      ],
+      "21:5": [
+        "thirty and two",
+        "eight year:pl"
+      ],
+      "21:6": [
+        "daughter of kjv_ahab",
+        "evil in eye:pl"
+      ],
+      "21:7": [
+        "destroy:inf will:neg:pa",
+        "light:a forever"
+      ],
+      "21:8": [
+        "from under rule:ev",
+        "for themselves king:a"
+      ],
+      "21:9": [
+        "by night",
+        "captain:pl of chariot:pl"
+      ],
+      "21:10": [
+        "until this day",
+        "kjv_libnah",
+        "forsake:pp"
+      ],
+      "21:11": [
+        "kjv_whoring:caus:pa",
+        "compel:pa"
+      ],
+      "21:12": [
+        "write:ev from kjv_elijah",
+        "nor in way:pl of kjv_asa"
+      ],
+      "21:13": [
+        "kjv_whoring:caus:perf",
+        "kjv_whoredom:pl",
+        "better than thyself"
+      ],
+      "21:14": [
+        "thy/people and thy/child:pl and thy/wife:pl",
+        "thy/kjv_goods"
+      ],
+      "21:15": [
+        "thy/kjv_bowels out fall:pr",
+        "day by day"
+      ],
+      "21:16": [
+        "spirit of kjv_philistine:pl",
+        "near kjv_ethiopian:pl"
+      ],
+      "21:17": [
+        "all kjv_goods:a",
+        "except kjv_jehoahaz_jehoram kjv_youngest"
+      ],
+      "21:18": [
+        "heal:inf impossible sickness"
+      ],
+      "21:19": [
+        "two year:pl",
+        "no burn:ev"
+      ],
+      "21:20": [
+        "thirty and two",
+        "eight year:pl",
+        "without desire:psv:ev",
+        "not in tomb:pl"
+      ],
+      "22:1": [
+        "kjv_ahaziah_jehoram",
+        "all eldest:a slay:pp"
+      ],
+      "22:2": [
+        "forty and two",
+        "one_num year",
+        "kjv_athaliah daughter of kjv_omri"
+      ],
+      "22:3": [
+        "his/mother his/counsellor"
+      ],
+      "22:4": [
+        "after death of his/father",
+        "to his/destroy:ev"
+      ],
+      "22:5": [
+        "kjv_jehoram_ahab",
+        "kjv_joram_ahab"
+      ],
+      "22:6": [
+        "at kjv_ramah",
+        "kjv_azariah_jehoram",
+        "at kjv_jezreel"
+      ],
+      "22:7": [
+        "of god",
+        "kjv_jehu_nimshi son of kjv_nimshi"
+      ],
+      "22:8": [
+        "son:pl of brother:pl",
+        "he they:a slay:pa"
+      ],
+      "22:9": [
+        "in kjv_samaria hide:psv:pa",
+        "son of kjv_jehoshaphat_asa",
+        "no power"
+      ],
+      "22:10": [
+        "all royal seed",
+        "destroy:pa"
+      ],
+      "22:11": [
+        "kjv_jehoshabeath",
+        "his/kjv_nurse",
+        "wife of kjv_jehoiada_priest",
+        "sister of kjv_ahaziah_jehoram"
+      ],
+      "22:12": [
+        "six year:pl",
+        "kjv_athaliah over land"
+      ],
+      "23:1": [
+        "seven:ord year",
+        "captain:pl of hundred:pl",
+        "kjv_azariah_jeroham_captain",
+        "kjv_azariah_obed",
+        "kjv_elishaphat_zichri"
+      ],
+      "23:2": [
+        "all city:pl of kjv_judah",
+        "chief of father:pl"
+      ],
+      "23:3": [
+        "all kjv_congregation with king",
+        "son:pl of kjv_david"
+      ],
+      "23:4": [
+        "kjv_third_share",
+        "on kjv_sabbath",
+        "kjv_gatekeeper:pl of door:pl"
+      ],
+      "23:5": [
+        "kjv_third_share at house of king",
+        "kjv_third_share at gate",
+        "kjv_court_enclosure:pl"
+      ],
+      "23:6": [
+        "except priest:pl",
+        "all people watch:ev"
+      ],
+      "23:7": [
+        "each man with his/weapon:pl",
+        "to death put:psv:fu",
+        "when he out go:pr"
+      ],
+      "23:8": [
+        "with they who on kjv_sabbath out",
+        "kjv_service_order:pl:a dismiss:neg:pa"
+      ],
+      "23:9": [
+        "kjv_spear:pl and kjv_buckler:pl and shield:pl",
+        "kjv_david:poss"
+      ],
+      "23:10": [
+        "kjv_right_side of temple",
+        "left side of temple"
+      ],
+      "23:11": [
+        "testimony:a give:pa",
+        "his/son:pl",
+        "god king:a save:opt"
+      ],
+      "23:12": [
+        "run:cv and king:a praise:cv",
+        "hear:pa"
+      ],
+      "23:13": [
+        "his/kjv_pillar",
+        "to praise:a sing:inf teach:pa",
+        "treason:excl treason:excl"
+      ],
+      "23:14": [
+        "over army",
+        "kjv_guard_rank:pl",
+        "in house of kjv_lord slay:neg:imp"
+      ],
+      "23:15": [
+        "horse gate",
+        "there slay:pa"
+      ],
+      "23:16": [
+        "between he and between all people and between king"
+      ],
+      "23:17": [
+        "in piece:pl",
+        "kjv_mattan_priest",
+        "before altar:pl slay:pa"
+      ],
+      "23:18": [
+        "priest:pl kjv_levite:pl",
+        "law of kjv_moses",
+        "by kjv_david kjv_ordain:psv:pp"
+      ],
+      "23:19": [
+        "unclean",
+        "in enter:should"
+      ],
+      "23:20": [
+        "kjv_governor:pl",
+        "through high gate",
+        "throne of kingdom"
+      ],
+      "23:21": [
+        "quiet be:pa after",
+        "with sword slay:pp"
+      ],
+      "24:1": [
+        "seven year:pl old",
+        "forty year:pl",
+        "kjv_zibiah"
+      ],
+      "24:2": [
+        "kjv_right_conduct",
+        "all day:pl of kjv_jehoiada_priest"
+      ],
+      "24:3": [
+        "two wife:pl",
+        "son:pl and daughter:pl"
+      ],
+      "24:4": [
+        "repair:inf intend:pa"
+      ],
+      "24:5": [
+        "from year to year",
+        "business:a hasten:pr",
+        "hasten:neg:pa"
+      ],
+      "24:6": [
+        "tax:a",
+        "kjv_tabernacle of testimony"
+      ],
+      "24:7": [
+        "son:pl of kjv_athaliah",
+        "kjv_dedicate:psv thing:pl",
+        "upon kjv_baalim"
+      ],
+      "24:8": [
+        "chest:a make:pa",
+        "outside at gate"
+      ],
+      "24:9": [
+        "tax:a",
+        "in kjv_wilderness"
+      ],
+      "24:10": [
+        "until they end:a make:pp"
+      ],
+      "24:11": [
+        "kjv_scribe of king and officer of high priest",
+        "day by day"
+      ],
+      "24:12": [
+        "kjv_mason:pl and carpenter:pl:a kjv_hire:pa",
+        "iron and kjv_brass"
+      ],
+      "24:13": [
+        "perfect:psv:pa",
+        "in its/state",
+        "strengthen:pa"
+      ],
+      "24:14": [
+        "rest of money",
+        "kjv_spoon:pl",
+        "all day:pl of kjv_jehoiada_priest"
+      ],
+      "24:15": [
+        "hundred and thirty year:pl"
+      ],
+      "24:16": [
+        "among king:pl",
+        "towards god and towards his/house"
+      ],
+      "24:17": [
+        "after death of kjv_jehoiada_priest",
+        "kjv_obeisance"
+      ],
+      "24:18": [
+        "kjv_grove_cult:pl and idol:pl",
+        "their/kjv_trespass"
+      ],
+      "24:19": [
+        "testify:pa",
+        "ear:a give:inf will:neg:pa"
+      ],
+      "24:20": [
+        "spirit of god",
+        "kjv_zechariah_jehoiada",
+        "prosper:neg:can",
+        "he also you:pl:a forsake:perf"
+      ],
+      "24:21": [
+        "with stone:pl stone:pa",
+        "kjv_court_enclosure"
+      ],
+      "24:22": [
+        "kjv_kindness:a remember:neg:pa",
+        "look:opt",
+        "require:opt"
+      ],
+      "24:23": [
+        "army of kjv_syria",
+        "all prince:pl",
+        "king of kjv_damascus"
+      ],
+      "24:24": [
+        "small company",
+        "very great army",
+        "judgment:a"
+      ],
+      "24:25": [
+        "blood of son:pl of kjv_jehoiada_priest",
+        "on his/bed",
+        "not in tomb:pl"
+      ],
+      "24:26": [
+        "kjv_zabad_shimeath",
+        "kjv_shimeath_ammonitess kjv_ammonitess",
+        "kjv_shimrith_moabitess kjv_moabitess"
+      ],
+      "24:27": [
+        "greatness of burden:pl",
+        "story of book of king:pl",
+        "kjv_amaziah_joash"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [],
+      "ipl": [],
+      "mypl": [],
+      "iplself": [],
+      "wesg": [],
+      "wepl": [],
+      "ourone": [],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Age32/reign8 repeated;two disease years;Ahaziah42/reign1 preserved against parallel22;hidden6years then seventh-year covenant;captains-of-hundreds rank;three one-third shares;Joash age7/reign40;two wives;Jehoiada130. No extra totals inferred."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "No first-person source in this batch; no plural-I or singular-we invented to satisfy a quota. Divine spirit and third-person agency stay as supplied.",
+      "Duplicated Azariah,Israel title,Jehoahaz/Ahaziah/Azariah,42-year accession,Ramah,Elijah writing,son-Nimshi and plural sons-Jehoiada remain source variants.",
+      "All prior targets and seals unchanged, including the seven90host corrections. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Chronicles — incomplete Bible working text",
+    "pages": 410,
+    "spreads": 205,
+    "units": 510,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "5b40c60045a29e3f2e97cf6e0dde4263ee9175f619a43105613eab0b04108202",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 205,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.901,
+    "modules": [
+      "tests.test_kjv_chronicles_royal_child",
+      "tests.test_kjv_chronicles_council_host",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    409,
+    410
+  ],
+  "status": "incomplete Bible; section checkpoint verified"
+}

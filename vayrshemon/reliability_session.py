@@ -13,9 +13,9 @@ class ReliabilitySession(LanguageSession):
         from .jobs import JobManager
         self.jobs=JobManager(self)
 
-    def _restore(self,state):
+    def _restore(self,state,**kwargs):
         self.story_cache.clear()
-        super()._restore(state)
+        super()._restore(state,**kwargs)
 
     def invalidate_composition(self): self._composition_cache=OrderedDict()
 

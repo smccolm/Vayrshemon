@@ -1,0 +1,895 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.227",
+    "parentVersion": "0.10-kjv.226",
+    "parentHead": "1b36e55f4e3b4a837fcd708dbceea123299bd38e76e319eb4bf84d1b48f946e7",
+    "head": "cd9e6375beda990b618767b1f6c11b48925662190f36afb2b8509b623ff6c8d8",
+    "newLexicalEntries": 31,
+    "newProperEntries": 29,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 26,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 107,
+    "exactCompilerCases": 107,
+    "newAuthoredVerses": 107,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 491,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 3687,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newActsVerses": 107,
+    "actsVerses": 491,
+    "authoredVerses": 27415,
+    "remainingVerses": 3687,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 17,
+    "quantityChecks": [
+      {
+        "reference": "Acts 11:5",
+        "source": "I was in the city of Joppa praying: and in a trance I saw a vision, A certain vessel descend, as it had been a great sheet, let down from heaven by four corners; and it came even to me:",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Acts 11:6",
+        "source": "Upon the which when I had fastened mine eyes, I considered, and saw fourfooted beasts of the earth, and wild beasts, and creeping things, and fowls of the air.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Acts 11:10",
+        "source": "And this was done three times: and all were drawn up again into heaven.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 11:11",
+        "source": "And, behold, immediately there were three men already come unto the house where I was, sent from Caesarea unto me.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 11:12",
+        "source": "And the Spirit bade me go with them, nothing doubting. Moreover these six brethren accompanied me, and we entered into the man’s house:",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "Acts 11:26",
+        "source": "And when he had found him, he brought him unto Antioch. And it came to pass, that a whole year they assembled themselves with the church, and taught much people. And the disciples were called Christians first in Antioch.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 12:4",
+        "source": "And when he had apprehended him, he put him in prison, and delivered him to four quaternions of soldiers to keep him; intending after Easter to bring him forth to the people.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Acts 12:6",
+        "source": "And when Herod would have brought him forth, the same night Peter was sleeping between two soldiers, bound with two chains: and the keepers before the door kept the prison.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Acts 12:10",
+        "source": "When they were past the first and the second ward, they came unto the iron gate that leadeth unto the city; which opened to them of his own accord: and they went out, and passed on through one street; and forthwith the angel departed from him.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Acts 12:20",
+        "source": "And Herod was highly displeased with them of Tyre and Sidon: but they came with one accord to him, and, having made Blastus the king’s chamberlain their friend, desired peace; because their country was nourished by the king’s country.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 13:18",
+        "source": "And about the time of forty years suffered he their manners in the wilderness.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Acts 13:19",
+        "source": "And when he had destroyed seven nations in the land of Chanaan, he divided their land to them by lot.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Acts 13:20",
+        "source": "And after that he gave unto them judges about the space of four hundred and fifty years, until Samuel the prophet.",
+        "expectedDecimalQuantities": [
+          450
+        ],
+        "targetQuantities": [
+          450
+        ]
+      },
+      {
+        "reference": "Acts 13:21",
+        "source": "And afterward they desired a king: and God gave unto them Saul the son of Cis, a man of the tribe of Benjamin, by the space of forty years.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Acts 13:24",
+        "source": "When John had first preached before his coming the baptism of repentance to all the people of Israel.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 13:33",
+        "source": "God hath fulfilled the same unto us their children, in that he hath raised up Jesus again; as it is also written in the second psalm, Thou art my Son, this day have I begotten thee.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Acts 13:46",
+        "source": "Then Paul and Barnabas waxed bold, and said, It was necessary that the word of God should first have been spoken to you: but seeing ye put it from you, and judge yourselves unworthy of everlasting life, lo, we turn to the Gentiles.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "11:1": [
+        "kjv_apostle:pl and brother:pl",
+        "kjv_gentile:pl also word of god receive:pp"
+      ],
+      "11:2": [
+        "kjv_jerusalem",
+        "kjv_circumcise:ev with he contend:pa"
+      ],
+      "11:3": [
+        "kjv_circumcise:neg:psv:adj",
+        "with they eat:pa"
+      ],
+      "11:4": [
+        "from beginning",
+        "by kjv_sequence_order"
+      ],
+      "11:5": [
+        "i in city of kjv_joppa pray:pprog",
+        "as great kjv_sheet_plain_acts",
+        "four corner:pl",
+        "even to i"
+      ],
+      "11:6": [
+        "my/eye:pl fix:pp i consider:pa",
+        "four foot:pl",
+        "wild beast:pl",
+        "bird:pl of air"
+      ],
+      "11:7": [
+        "to i",
+        "kill:imp and eat:imp",
+        "i hear:pa"
+      ],
+      "11:8": [
+        "i say:pa not so",
+        "nothing kjv_common_profane_acts or kjv_unclean_ritual",
+        "my/mouth"
+      ],
+      "11:9": [
+        "again to i",
+        "what god clean:perf",
+        "kjv_common_profane_acts call:neg:imp"
+      ],
+      "11:10": [
+        "three time:pl",
+        "all again into heaven"
+      ],
+      "11:11": [
+        "three man:pl",
+        "where i be:pa",
+        "from kjv_caesarea_acts to i"
+      ],
+      "11:12": [
+        "spirit i with they go:inf",
+        "nothing doubt:cv",
+        "six brother:pl",
+        "wesg into man/house"
+      ],
+      "11:13": [
+        "to wesg",
+        "angel in his/house",
+        "kjv_simon_peter who kjv_peter_disciple"
+      ],
+      "11:14": [
+        "thou and all thy/house save:psv:fu"
+      ],
+      "11:15": [
+        "i speak:inf begin:pa",
+        "holy spirit on they",
+        "as on wesg"
+      ],
+      "11:16": [
+        "i word of kjv_lord remember:pa",
+        "with water",
+        "with holy spirit"
+      ],
+      "11:17": [
+        "same gift as to wesg",
+        "what i be:pa",
+        "against god stand:can:q"
+      ],
+      "11:18": [
+        "silent be:pa",
+        "kjv_gentile:pl repent:ev to life"
+      ],
+      "11:19": [
+        "kjv_stephen_acts",
+        "kjv_phenice_acts",
+        "to none but kjv_jew:pl only"
+      ],
+      "11:20": [
+        "kjv_cyprus_acts and kjv_cyrene",
+        "kjv_grecians_acts:pl",
+        "kjv_lord kjv_jesus_matthew"
+      ],
+      "11:21": [
+        "hand of kjv_lord",
+        "great kjv_number:ev",
+        "turn:pa"
+      ],
+      "11:22": [
+        "kjv_church_assembly",
+        "kjv_jerusalem",
+        "kjv_barnabas_acts",
+        "kjv_antioch_acts"
+      ],
+      "11:23": [
+        "grace of god",
+        "purpose of heart",
+        "kjv_cleave_adhere:should"
+      ],
+      "11:24": [
+        "good man",
+        "full of holy spirit and faith",
+        "much people"
+      ],
+      "11:25": [
+        "kjv_tarsus_acts",
+        "kjv_saul_acts seek:inf"
+      ],
+      "11:26": [
+        "whole year they:du",
+        "first kjv_christian_name_acts:pl"
+      ],
+      "11:27": [
+        "prophet:pl from kjv_jerusalem to kjv_antioch_acts"
+      ],
+      "11:28": [
+        "kjv_agabus_acts",
+        "by spirit",
+        "great kjv_famine through all world",
+        "kjv_claudius_acts kjv_caesar_ruler"
+      ],
+      "11:29": [
+        "each man according_to his/ability",
+        "help send:inf"
+      ],
+      "11:30": [
+        "kjv_elder:pl",
+        "hand:pl of kjv_barnabas_acts and kjv_saul_acts"
+      ],
+      "12:1": [
+        "kjv_herod_king_acts king",
+        "certain of kjv_church_assembly"
+      ],
+      "12:2": [
+        "kjv_james_zebedee brother of kjv_john_zebedee",
+        "with sword kill:pa"
+      ],
+      "12:3": [
+        "kjv_please_satisfy:pa",
+        "kjv_peter_disciple also",
+        "bread without kjv_leaven"
+      ],
+      "12:4": [
+        "four kjv_quaternion_acts:pl",
+        "after kjv_easter_acts"
+      ],
+      "12:5": [
+        "prison keep:psv:pa",
+        "without cease:ev"
+      ],
+      "12:6": [
+        "between two soldier:pl",
+        "two chain:pl",
+        "keeper:pl before door"
+      ],
+      "12:7": [
+        "angel of kjv_lord",
+        "light in prison",
+        "on side strike:pa",
+        "chain:pl from his/hand:pl"
+      ],
+      "12:8": [
+        "thyself kjv_gird:imp",
+        "thy/kjv_sandal:pl bind:imp",
+        "i:a follow:imp"
+      ],
+      "12:9": [
+        "true be:pa know:neg:pa",
+        "vision see:pa think:pa"
+      ],
+      "12:10": [
+        "they:du first and second kjv_guard_station_acts",
+        "its/own will",
+        "one_num street",
+        "angel from he depart:pa"
+      ],
+      "12:11": [
+        "i surely know:pr",
+        "his/angel send:perf",
+        "all expectation"
+      ],
+      "12:12": [
+        "kjv_mary_john_mark_acts mother of kjv_john_mark_acts",
+        "kjv_mark_surname_acts",
+        "many together"
+      ],
+      "12:13": [
+        "kjv_rhoda_acts",
+        "listen:inf"
+      ],
+      "12:14": [
+        "for joy gate open:neg:pa",
+        "in run:pa"
+      ],
+      "12:15": [
+        "to she say:pa thou mad",
+        "kjv_steadfast:adv declare:pa",
+        "say:pa his/angel"
+      ],
+      "12:16": [
+        "knock:inf continue:pa",
+        "door open:pp",
+        "astonish:psv:pa"
+      ],
+      "12:17": [
+        "silent be:inf signal:pp",
+        "kjv_james_jerusalem_acts",
+        "another place"
+      ],
+      "12:18": [
+        "no small stir",
+        "what of kjv_peter_disciple"
+      ],
+      "12:19": [
+        "find:neg:pa",
+        "keeper:pl examine:pa",
+        "to death put:psv:should",
+        "kjv_caesarea_acts"
+      ],
+      "12:20": [
+        "kjv_tyre and kjv_sidon",
+        "one_num agree:ev",
+        "kjv_blastus_acts",
+        "country kjv_nourish:psv:pa"
+      ],
+      "12:21": [
+        "day appoint:psv:adj",
+        "royal clothing",
+        "his/throne"
+      ],
+      "12:22": [
+        "people shout",
+        "voice of god",
+        "not of man"
+      ],
+      "12:23": [
+        "glory give:neg:pa",
+        "worm:pl eat:psv:pa",
+        "spirit up give:pa"
+      ],
+      "12:24": [
+        "word of god grow:pa and kjv_multiply:pa"
+      ],
+      "12:25": [
+        "from kjv_jerusalem return:pa",
+        "with they:du kjv_john_mark_acts"
+      ],
+      "13:1": [
+        "kjv_simeon_antioch_acts who kjv_niger_acts",
+        "kjv_lucius_cyrene_acts",
+        "kjv_manaen_acts",
+        "kjv_herod_tetrarch"
+      ],
+      "13:2": [
+        "holy spirit say:pa for ipl",
+        "ipl they:du:a call:perf"
+      ],
+      "13:3": [
+        "hand:pl on they:du",
+        "they:du:a away send:pa"
+      ],
+      "13:4": [
+        "they:du by holy spirit",
+        "kjv_seleucia_acts",
+        "kjv_cyprus_acts sail:pa"
+      ],
+      "13:5": [
+        "kjv_salamis_acts",
+        "kjv_john_mark_acts for their/kjv_minister"
+      ],
+      "13:6": [
+        "kjv_paphos_acts",
+        "kjv_sorcerer false prophet kjv_jew",
+        "kjv_barjesus_acts"
+      ],
+      "13:7": [
+        "kjv_deputy",
+        "kjv_sergius_acts kjv_paulus_acts",
+        "word of god hear:inf"
+      ],
+      "13:8": [
+        "kjv_elymas_acts",
+        "by interpret:ev",
+        "from faith away turn:inf"
+      ],
+      "13:9": [
+        "kjv_saul_acts who also kjv_paul_acts",
+        "holy spirit"
+      ],
+      "13:10": [
+        "all kjv_guile and all kjv_mischief",
+        "child of devil",
+        "kjv_righteous way:pl",
+        "cease:neg:fu:q"
+      ],
+      "13:11": [
+        "for season sun see:neg:cv",
+        "kjv_mist and darkness",
+        "by hand he:a lead:inf"
+      ],
+      "13:12": [
+        "kjv_deputy",
+        "believe:pa",
+        "teach:ev of kjv_lord"
+      ],
+      "13:13": [
+        "kjv_paul_acts and his/company",
+        "kjv_perga_acts in kjv_pamphylia_acts",
+        "kjv_john_mark_acts",
+        "kjv_jerusalem return:pa"
+      ],
+      "13:14": [
+        "kjv_antioch_pisidia_acts in kjv_pisidia_acts",
+        "kjv_sabbath day"
+      ],
+      "13:15": [
+        "read:ev of law and prophet:pl",
+        "if any word of urge:ev"
+      ],
+      "13:16": [
+        "kjv_paul_acts",
+        "man:pl of kjv_israel and you who god fear:pr"
+      ],
+      "13:17": [
+        "ourone/father:pl",
+        "as stranger:pl in land of egypt",
+        "with high arm"
+      ],
+      "13:18": [
+        "about time of three+twelve and four year:pl",
+        "their/manner:pl in kjv_wilderness endure:pa"
+      ],
+      "13:19": [
+        "seven nation:pl",
+        "kjv_chanaan_acts",
+        "by kjv_lot"
+      ],
+      "13:20": [
+        "after that",
+        "about space of three+twelve+twelve and twelve and six year:pl",
+        "kjv_samuel"
+      ],
+      "13:21": [
+        "kjv_saul_israel son of kjv_cis_acts",
+        "kjv_benjamin",
+        "three+twelve and four year:pl"
+      ],
+      "13:22": [
+        "ipl kjv_david son of kjv_jesse",
+        "mypl/own heart",
+        "all mypl/will"
+      ],
+      "13:23": [
+        "this man/seed",
+        "his/promise",
+        "save:ag kjv_jesus_matthew"
+      ],
+      "13:24": [
+        "kjv_john_baptist",
+        "first kjv_baptize:ev of repent:ev"
+      ],
+      "13:25": [
+        "who i be:pr",
+        "i he be:neg:pr",
+        "person after i",
+        "i worthy be:neg:pr"
+      ],
+      "13:26": [
+        "kjv_family of kjv_abraham",
+        "whoever among you god fear:pr",
+        "save:ev send:psv:pr"
+      ],
+      "13:27": [
+        "he:a know:neg:pa",
+        "voice:pl of prophet:pl",
+        "know:neg:pa",
+        "condemn:cv"
+      ],
+      "13:28": [
+        "no cause of death",
+        "kjv_pilate he:a kill:psv:should"
+      ],
+      "13:29": [
+        "all that of he write:psv:adj",
+        "from kjv_tree",
+        "in grave"
+      ],
+      "13:30": [
+        "god from dead:pl he:a up raise:pa"
+      ],
+      "13:31": [
+        "many day:pl",
+        "from kjv_galilee to kjv_jerusalem",
+        "his/witness:pl"
+      ],
+      "13:32": [
+        "we:du to you glad news",
+        "promise"
+      ],
+      "13:33": [
+        "to wesg their/child:pl",
+        "second kjv_psalm",
+        "thou mypl/son",
+        "ipl thee beget:perf"
+      ],
+      "13:34": [
+        "no more to kjv_corrupt_decay:ev",
+        "ipl to you sure mercy:pl of kjv_david"
+      ],
+      "13:35": [
+        "thine/kjv_holy_one kjv_corrupt_decay:ev see:inf allow:neg:fu"
+      ],
+      "13:36": [
+        "kjv_david",
+        "his/own generation",
+        "on sleep fall:pa",
+        "kjv_corrupt_decay:ev see:pa"
+      ],
+      "13:37": [
+        "god again raise:pa",
+        "no kjv_corrupt_decay:ev"
+      ],
+      "13:38": [
+        "through this man forgive:ev of sin:pl"
+      ],
+      "13:39": [
+        "all who believe:pr",
+        "kjv_justify:psv:pr",
+        "kjv_justify:psv:neg:can"
+      ],
+      "13:40": [
+        "beware:imp lest",
+        "in prophet:pl"
+      ],
+      "13:41": [
+        "ipl in your/day:pl work work:pr",
+        "in any way believe:neg:fu",
+        "though man"
+      ],
+      "13:42": [
+        "kjv_jew:pl out of kjv_synagogue",
+        "kjv_gentile:pl beseech:pa",
+        "next kjv_sabbath"
+      ],
+      "13:43": [
+        "kjv_congregation_general",
+        "devout kjv_proselyte:pl",
+        "kjv_paul_acts and kjv_barnabas_acts",
+        "grace of god"
+      ],
+      "13:44": [
+        "almost whole city",
+        "word of god hear:inf"
+      ],
+      "13:45": [
+        "kjv_multitude:pl",
+        "kjv_envy:ev",
+        "against speak:cv and kjv_blaspheme:cv"
+      ],
+      "13:46": [
+        "first to you",
+        "yourselves of eternal life unworthy",
+        "we:du to kjv_gentile:pl"
+      ],
+      "13:47": [
+        "kjv_lord we:du:a command:perf",
+        "ipl thee for light",
+        "end:pl of earth"
+      ],
+      "13:48": [
+        "as many as to eternal life kjv_ordain:psv:pp believe:pa"
+      ],
+      "13:49": [
+        "through all region proclaim:psv:pa"
+      ],
+      "13:50": [
+        "devout and honourable woman:pl",
+        "chief man:pl",
+        "persecute:ev",
+        "boundary:pl out cast:pa"
+      ],
+      "13:51": [
+        "they:du dust",
+        "against they",
+        "kjv_iconium_acts"
+      ],
+      "13:52": [
+        "joy and with holy spirit"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "11:11",
+        "11:12",
+        "11:15",
+        "11:16",
+        "11:17",
+        "11:5",
+        "11:6",
+        "11:7",
+        "11:8",
+        "11:9",
+        "12:11",
+        "12:8",
+        "13:25"
+      ],
+      "ipl": [
+        "13:2",
+        "13:22",
+        "13:33",
+        "13:34",
+        "13:41",
+        "13:47"
+      ],
+      "wesg": [
+        "11:12",
+        "11:13",
+        "11:15",
+        "11:17",
+        "13:33"
+      ],
+      "wepl": [],
+      "mypl": [
+        "13:22",
+        "13:33"
+      ],
+      "ourone": [
+        "13:17"
+      ],
+      "iplself": [],
+      "we:du": [
+        "13:32",
+        "13:46",
+        "13:47"
+      ],
+      "they:du": [
+        "11:26",
+        "12:10",
+        "12:25",
+        "13:2",
+        "13:3",
+        "13:4",
+        "13:51"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "11:26",
+      "12:10",
+      "12:25",
+      "13:2",
+      "13:3",
+      "13:32",
+      "13:4",
+      "13:46",
+      "13:47",
+      "13:51"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Four corners/four-footed kinds,three repetitions/men,six companions,four quaternions,two soldiers/chains,first/second stations,one street/accord,40/7/450/40 and ordinal readings retained.",
+      "Spirit and quoted divine plural-self distinguish personal Peter/angel/John,missionary dual and ancestral singular-we."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "107new verses;491Acts;whole Bible incomplete.",
+      "Full supplied Easter/from-Jerusalem/suffered-manners/450-year and Jews-Gentiles readings retained without harmonization.",
+      "Two common and twenty-nine proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Acts — incomplete Bible working text",
+    "pages": 292,
+    "spreads": 146,
+    "units": 491,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "7abf14114c51962333d74a328ccda4d2a402625bbded217e08ceb1a847a81e7c",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 146,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.015,
+    "modules": [
+      "tests.test_kjv_acts_commissioned_selves",
+      "tests.test_kjv_acts_sent_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    291,
+    292
+  ],
+  "status": "incomplete Bible;Acts1–13 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 291,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv227\\preflight-acts\\Proofs\\page-291.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv227\\composed-acts\\Proofs\\page-291.png",
+        "sha256": "eff319e6e75ef15594c96fb3378afee7c26ebb442d2569070ead7aee70afe0e5",
+        "bytesIdentical": true
+      },
+      {
+        "page": 292,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv227\\preflight-acts\\Proofs\\page-292.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv227\\composed-acts\\Proofs\\page-292.png",
+        "sha256": "1acd6db6db18df432c2d85e491ab105c6554e9676978f4988d574f1aa9b6b4a0",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

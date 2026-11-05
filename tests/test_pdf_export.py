@@ -25,6 +25,9 @@ class PDFExportTests(unittest.TestCase):
         self.root=ROOT/'.local/test-pdf-export'/uuid.uuid4().hex
         shutil.copytree(ROOT/'schemas',self.root/'schemas');shutil.copytree(ROOT/'data',self.root/'data')
         self.book=FileSession(self.root,source_fonts=False,recovery=False);self.api=FileAPI(self.book)
+        # Preserve the original tiny-margin, unnumbered export fixture.
+        # Numbering/export integration is exercised in test_page_numbering.
+        self.call('page.numbering.configure',enabled=False)
         font=self.root/'synthetic.ttf';make_font(font)
         self.fid=self.call('fonts.load',path=str(font))['fontId']
         self.sizes=[(200.25,240.375),(220.498700,1120.057141),(240.25,280.375)]
@@ -119,6 +122,126 @@ class PDFExportTests(unittest.TestCase):
         self.assertEqual(path.read_bytes(),b'newer external file')
         with patch('PySide6.QtWidgets.QMessageBox.question',return_value=QMessageBox.StandardButton.Yes):self.export(path)
         self.assertEqual(self.wait()['status'],'completed');self.assertEqual(len(PdfReader(path).pages),3)
+
+    def test_progress_tracks_physical_pages_and_keeps_reading_ui_informed(self):
+        before=self.book.capture();phases=[]
+        path=self.root/'progress.pdf'
+        from vayrshemon.studio_typesetting import StudioComposition
+        from vayrshemon.jobs import pdf_progress
+        original=StudioComposition.__init__;built=[]
+        def construct(comp,*args,**kwargs):
+            built.append(1);original(comp,*args,**kwargs)
+        self.book.invalidate_composition()
+        with patch.object(StudioComposition,'__init__',new=construct):
+            publication.export(self.book,path,format='pdf',mode='mono',dpi=72,raster_policy='raster',pdf_view='two',progress_callback=phases.append)
+        self.assertEqual(len(built),3,'Each physical page must be composed only once for monochrome PDF')
+        self.assertEqual([p for p in phases if p.startswith('checking page ')],[f'checking page {i} of 3' for i in range(1,4)])
+        self.assertEqual([p for p in phases if p.startswith('writing PDF page ')],[f'writing PDF page {i} of 3' for i in range(1,4)])
+        self.assertIn('finishing PDF numbering and reading view',phases)
+        self.assertEqual(phases[-1],'verifying output')
+        percentages=[pdf_progress(phase,3,True)['percent'] for phase in phases]
+        self.assertEqual(percentages,sorted(percentages));self.assertLess(max(percentages),100)
+        self.assertEqual(len(PdfReader(path).pages),3);self.assertEqual(self.book.capture(),before)
+
+        # Exercise worker-to-window progress with controls collapsed: page
+        # counts must remain visible in the reading UI.
+        self.w.sidebar_dock.configure(expanded=False)
+        self.w.prepare_export_progress();self.w.poll_jobs()
+        self.assertFalse(self.w.export_progress_bar.isHidden())
+        self.assertEqual(self.w.export_progress_bar.maximum(),0)
+        self.assertFalse(self.w.export_cancel.isEnabled())
+        self.w._preparing_export=False
+        self.export();deadline=time.monotonic()+45;saw_bar=False
+        while time.monotonic()<deadline:
+            self.w.poll_jobs();job=self.book.jobs.status()['jobs'][-1]
+            if job['status']!='running':break
+            self.assertFalse(self.w.export_progress.isHidden())
+            self.assertFalse(self.w.export_progress_bar.isHidden())
+            self.assertFalse(self.w.export_cancel.isHidden())
+            self.assertIn('elapsed',self.w.export_progress.text())
+            if self.w.export_progress_bar.maximum()==100:
+                saw_bar=True;self.assertLess(self.w.export_progress_bar.value(),100)
+            QTest.qWait(10)
+        self.assertEqual(job['status'],'completed',job)
+        self.assertTrue(saw_bar);self.assertEqual(job['progress']['percent'],100)
+        self.w.poll_jobs();self.assertTrue(self.w.export_progress.isHidden())
+        self.assertTrue(self.w.export_progress_bar.isHidden());self.assertTrue(self.w.export_cancel.isHidden())
+        self.assertIn('completed',self.w.statusBar().currentMessage())
+
+    def test_late_preflight_failure_does_not_publish_partially_written_pdf(self):
+        from vayrshemon.studio_typesetting import StudioComposition
+        original=StudioComposition.report;phases=[];last=self.book.state['pages'][-1]['pageId']
+        def report(comp,page_id,*args,**kwargs):
+            result=original(comp,page_id,*args,**kwargs)
+            if page_id==last:result['glyphs'][0]['missingGlyph']=True
+            return result
+        for mode in ('mono','color'):
+            phases.clear();target=self.root/f'late-failure-{mode}.pdf'
+            with patch.object(StudioComposition,'report',new=report):
+                with self.assertRaisesRegex(ValueError,'PUBLICATION_PREFLIGHT_FAILED'):
+                    publication.export(self.book,target,format='pdf',mode=mode,dpi=72,raster_policy='raster',
+                                       pdf_view='two',progress_callback=phases.append)
+            self.assertIn('writing PDF page 2 of 3',phases)
+            self.assertFalse(target.exists());self.assertFalse(list(self.root.glob('.vayrshemon-pdf-*')))
+
+    def test_visible_cancel_button_keeps_existing_document_and_files(self):
+        before=self.book.capture();path=self.export();self.w.poll_jobs()
+        self.assertFalse(self.w.export_cancel.isHidden());self.w.export_cancel.click()
+        job=self.book.jobs.status()['jobs'][-1]
+        self.assertEqual(job['status'],'cancelled');self.assertFalse(path.exists())
+        self.assertTrue(self.w.export_progress_bar.isHidden());self.assertEqual(self.book.capture(),before)
+
+    def test_color_single_pass_keeps_mixed_page_raster_policy_and_pixels(self):
+        from vayrshemon.studio_typesetting import StudioComposition
+        from PIL import Image
+        other=self.root/'undecorated.ttf';make_font(other,advance=700)
+        plain=self.call('fonts.load',path=str(other))['fontId']
+        original=StudioComposition.__init__
+        for first_decorated in (True,False):
+            for index,page in enumerate(self.book.state['pages']):
+                self.call('frame.select',frame_id=page['frames'][0]['frameId'])
+                decorated=index==(0 if first_decorated else 1)
+                self.call('document.format',start=0,end=index+1,font_id=self.fid if decorated else plain)
+            before=self.book.capture();built=[];phases=[]
+            def construct(comp,*args,**kwargs):
+                built.append(1);original(comp,*args,**kwargs)
+            self.book.invalidate_composition();target=self.root/f'mixed-{first_decorated}.pdf'
+            with patch.object(StudioComposition,'__init__',new=construct):
+                result=publication.export(self.book,target,format='pdf',mode='color',dpi=96,
+                    raster_policy='raster',pdf_view='two',progress_callback=phases.append)
+            self.assertTrue(result['preflight']['rasterFallback'])
+            if first_decorated:
+                self.assertEqual(len(built),3)
+                self.assertIn('checking and writing PDF pages',phases)
+            else:self.assertNotIn('checking and writing PDF pages',phases)
+            reader=PdfReader(target)
+            for index,page in enumerate(self.book.state['pages']):
+                expected=publication.raster(self.book,page,'color',96)
+                reference=Image.open(BytesIO(publication.png_bytes(expected))).convert('RGB')
+                self.assertEqual(reader.pages[index].images[0].image.convert('RGB').tobytes(),reference.tobytes())
+            self.assertEqual(self.book.capture(),before)
+
+    def test_metadata_preserves_compressed_artwork_and_exact_rendering(self):
+        from pypdf import Transformation
+        from pypdf.generic import EncodedStreamObject
+        from vayrshemon.pdf_view import with_view
+        raw=self.root/'raw.pdf'
+        publication.write_pdf_pages(self.book,raw,self.book.state['pages'],'mono',96,False,expand_bounds=True)
+        # The large-book failure was caused by decoding/parsing every glyph's
+        # drawing operations during a simple page-origin adjustment.
+        with patch.object(EncodedStreamObject,'get_data',side_effect=AssertionError('Artwork must stay compressed')):
+            fast=with_view(raw,'two',self.sizes)
+        def legacy(writer,page,offset):page.add_transformation(Transformation().translate(0,offset))
+        with patch('vayrshemon.pdf_view._translate_contents',side_effect=legacy):
+            reference=with_view(raw,'two',self.sizes)
+        original=PdfReader(raw);updated=PdfReader(BytesIO(fast))
+        for old,new in zip(original.pages,updated.pages):
+            self.assertEqual(old['/Contents']._data,new['/Contents'][1].get_object()._data)
+        with closing(pdfium.PdfDocument(fast)) as actual,closing(pdfium.PdfDocument(reference)) as expected:
+            for i in range(3):
+                with closing(actual[i]) as a,closing(expected[i]) as b:
+                    with closing(a.render(scale=2)) as ap,closing(b.render(scale=2)) as bp:
+                        self.assertEqual(ap.to_pil().tobytes(),bp.to_pil().tobytes())
 
     def test_metadata_failure_publishes_nothing_and_non_pdf_option_is_rejected(self):
         path=self.root/'failed.pdf';before=self.book.capture()

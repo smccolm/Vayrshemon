@@ -1067,7 +1067,7 @@
               "additionalProperties": {
                 "type": "object"
               },
-              "maxProperties": 10000
+              "maxProperties": 20000
             },
             "revisions": {
               "type": "array",
@@ -1137,7 +1137,7 @@
                           "type": "string",
                           "pattern": "^[0-9a-f]{64}$"
                         },
-                        "maxItems": 2000
+                        "maxItems": 10000
                       },
                       "morphology": {
                         "type": "array",
@@ -1153,7 +1153,7 @@
                           "type": "string",
                           "pattern": "^[0-9a-f]{64}$"
                         },
-                        "maxItems": 2000
+                        "maxItems": 10000
                       },
                       "corpus": {
                         "type": "array",

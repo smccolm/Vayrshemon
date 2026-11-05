@@ -1,0 +1,779 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.223",
+    "parentVersion": "0.10-kjv.222",
+    "parentHead": "d93788f054269d9654f1da3132c53d75ab836c23f58bafe7d4f07f83b62808d1",
+    "head": "53a9bb9d09c30640103a52e84e2be8f8dfda4a488390be20228759512d2a7e9f",
+    "newLexicalEntries": 18,
+    "newProperEntries": 15,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 16,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 99,
+    "exactCompilerCases": 99,
+    "newAuthoredVerses": 99,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 99,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4079,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newActsVerses": 99,
+    "actsVerses": 99,
+    "authoredVerses": 27023,
+    "remainingVerses": 4079,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 15,
+    "quantityChecks": [
+      {
+        "reference": "Acts 1:3",
+        "source": "To whom also he shewed himself alive after his passion by many infallible proofs, being seen of them forty days, and speaking of the things pertaining to the kingdom of God:",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Acts 1:10",
+        "source": "And while they looked stedfastly toward heaven as he went up, behold, two men stood by them in white apparel;",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Acts 1:14",
+        "source": "These all continued with one accord in prayer and supplication, with the women, and Mary the mother of Jesus, and with his brethren.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 1:15",
+        "source": "And in those days Peter stood up in the midst of the disciples, and said, (the number of names together were about an hundred and twenty,)",
+        "expectedDecimalQuantities": [
+          120
+        ],
+        "targetQuantities": [
+          120
+        ]
+      },
+      {
+        "reference": "Acts 1:22",
+        "source": "Beginning from the baptism of John, unto that same day that he was taken up from us, must one be ordained to be a witness with us of his resurrection.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 1:23",
+        "source": "And they appointed two, Joseph called Barsabas, who was surnamed Justus, and Matthias.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Acts 1:24",
+        "source": "And they prayed, and said, Thou, Lord, which knowest the hearts of all men, shew whether of these two thou hast chosen,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Acts 1:26",
+        "source": "And they gave forth their lots; and the lot fell upon Matthias; and he was numbered with the eleven apostles.",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "Acts 2:1",
+        "source": "And when the day of Pentecost was fully come, they were all with one accord in one place.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Acts 2:14",
+        "source": "But Peter, standing up with the eleven, lifted up his voice, and said unto them, Ye men of Judaea, and all ye that dwell at Jerusalem, be this known unto you, and hearken to my words:",
+        "expectedDecimalQuantities": [
+          11
+        ],
+        "targetQuantities": [
+          11
+        ]
+      },
+      {
+        "reference": "Acts 2:15",
+        "source": "For these are not drunken, as ye suppose, seeing it is but the third hour of the day.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Acts 2:41",
+        "source": "Then they that gladly received his word were baptized: and the same day there were added unto them about three thousand souls.",
+        "expectedDecimalQuantities": [
+          3000
+        ],
+        "targetQuantities": [
+          3000
+        ]
+      },
+      {
+        "reference": "Acts 2:46",
+        "source": "And they, continuing daily with one accord in the temple, and breaking bread from house to house, did eat their meat with gladness and singleness of heart,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Acts 3:1",
+        "source": "Now Peter and John went up together into the temple at the hour of prayer, being the ninth hour.",
+        "expectedDecimalQuantities": [
+          9
+        ],
+        "targetQuantities": [
+          9
+        ]
+      },
+      {
+        "reference": "Acts 3:26",
+        "source": "Unto you first God, having raised up his Son Jesus, sent him to bless you, in turning away every one of you from his iniquities.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "former account i make:perf",
+        "both do:inf and teach:inf"
+      ],
+      "1:2": [
+        "through holy spirit",
+        "whom choose:pp command:pl give:pp"
+      ],
+      "1:3": [
+        "after his/suffer:ev",
+        "proof:pl that err:neg:can",
+        "three+twelve and four day:pl"
+      ],
+      "1:4": [
+        "depart:neg:should",
+        "promise of father",
+        "of ipl hear:perf"
+      ],
+      "1:5": [
+        "with water kjv_baptize:pa",
+        "with holy spirit not many day:pl hence"
+      ],
+      "1:6": [
+        "at this time kingdom to kjv_israel again restore:fu:q"
+      ],
+      "1:7": [
+        "time:pl or season:pl",
+        "father in his/own power",
+        "know:inf be:neg:pr"
+      ],
+      "1:8": [
+        "holy spirit upon you come:perf",
+        "to ipl witness:pl",
+        "farthest part of earth"
+      ],
+      "1:9": [
+        "while behold:pa up take:psv:pa",
+        "cloud he:a out of their/sight receive:pa"
+      ],
+      "1:10": [
+        "two man:pl in white clothing"
+      ],
+      "1:11": [
+        "this same kjv_jesus_matthew",
+        "so in like manner"
+      ],
+      "1:12": [
+        "kjv_olivet",
+        "kjv_sabbath day/journey"
+      ],
+      "1:13": [
+        "kjv_upper room",
+        "kjv_matthew_disciple",
+        "kjv_judas_james_brother brother of kjv_james_judas_brother"
+      ],
+      "1:14": [
+        "one_num agree:ev",
+        "kjv_mary_jesus mother",
+        "his/brother:pl"
+      ],
+      "1:15": [
+        "kjv_number:ev of name:pl together about ten+twelve"
+      ],
+      "1:16": [
+        "holy spirit by mouth of kjv_david",
+        "kjv_judas_iscariot who guide"
+      ],
+      "1:17": [
+        "with wesg kjv_number:psv:pa",
+        "part of this service"
+      ],
+      "1:18": [
+        "field buy:pa",
+        "head down fall:cv",
+        "all his/kjv_bowels:pl out pour:pa"
+      ],
+      "1:19": [
+        "their/own tongue kjv_aceldama_acts",
+        "field of blood"
+      ],
+      "1:20": [
+        "no man in it dwell:opt",
+        "his/kjv_bishoprick_acts another take:opt"
+      ],
+      "1:21": [
+        "with wesg all time",
+        "among wesg in and out go:pa"
+      ],
+      "1:22": [
+        "from kjv_baptize:ev of kjv_john_baptist",
+        "one_num with wesg witness of his/kjv_resurrection"
+      ],
+      "1:23": [
+        "two appoint:pa",
+        "kjv_joseph_barsabas_acts",
+        "kjv_justus_barsabas_acts",
+        "kjv_matthias_acts"
+      ],
+      "1:24": [
+        "heart:pl of all man:pl know:pr",
+        "which of these two"
+      ],
+      "1:25": [
+        "by transgress:ev fall:pa",
+        "his/own place go:may"
+      ],
+      "1:26": [
+        "kjv_lot upon kjv_matthias_acts",
+        "with eleven kjv_apostle:pl"
+      ],
+      "2:1": [
+        "kjv_pentecost_acts",
+        "one_num agree:ev in one_num place"
+      ],
+      "2:2": [
+        "sound from heaven as of mighty wind",
+        "all house"
+      ],
+      "2:3": [
+        "tongue:pl split:psv:adj as of fire",
+        "it on each of they sit:pa"
+      ],
+      "2:4": [
+        "with holy spirit fill:psv:pa",
+        "other tongue:pl",
+        "spirit to they utter:ev"
+      ],
+      "2:5": [
+        "devout man:pl",
+        "each nation under heaven"
+      ],
+      "2:6": [
+        "this out spread:psv:pa",
+        "each man they:a in his/own language"
+      ],
+      "2:7": [
+        "kjv_galilaean_mark:pl be:neg:pr:q"
+      ],
+      "2:8": [
+        "wepl each man in own tongue of each of wepl",
+        "wepl bear:psv:pa"
+      ],
+      "2:9": [
+        "kjv_parthian_acts:pl and kjv_mede:pl and kjv_elamite:pl",
+        "kjv_cappadocia_acts",
+        "kjv_asia_acts"
+      ],
+      "2:10": [
+        "kjv_phrygia_acts and kjv_pamphylia_acts",
+        "kjv_libya about kjv_cyrene",
+        "kjv_rome_acts",
+        "kjv_proselyte:pl"
+      ],
+      "2:11": [
+        "kjv_crete_people_acts:pl and kjv_arabian:pl",
+        "tongue:pl of wepl"
+      ],
+      "2:12": [
+        "in doubt be:pa",
+        "what this mean:pr:q"
+      ],
+      "2:13": [
+        "mock:cv",
+        "new wine full"
+      ],
+      "2:14": [
+        "with eleven",
+        "my/word:pl listen:imp"
+      ],
+      "2:15": [
+        "drunken be:neg:pr",
+        "only third hour"
+      ],
+      "2:16": [
+        "prophet kjv_joel_prophet"
+      ],
+      "2:17": [
+        "ipl of mypl/spirit",
+        "your/son:pl and your/daughter:pl",
+        "old man:pl dream:pl dream:fu"
+      ],
+      "2:18": [
+        "mypl/servant:pl",
+        "mypl/kjv_handmaid:pl",
+        "mypl/spirit ipl out pour:fu"
+      ],
+      "2:19": [
+        "ipl in heaven above",
+        "earth beneath",
+        "blood and fire and kjv_vapour of smoke"
+      ],
+      "2:20": [
+        "sun into darkness and moon into blood",
+        "before great and notable day"
+      ],
+      "2:21": [
+        "whoever on name of kjv_lord call:fu save:psv:fu"
+      ],
+      "2:22": [
+        "man of god among you approve:psv:adj",
+        "which god by he in your/middle do:pa"
+      ],
+      "2:23": [
+        "counsel decide:psv:adj and before know:ev of god",
+        "wicked hand:pl kjv_crucify:perf and kill:perf"
+      ],
+      "2:24": [
+        "pain:pl of death loose:pp",
+        "possible be:neg:pa"
+      ],
+      "2:25": [
+        "kjv_david of he speak:pr i",
+        "my/kjv_right_side",
+        "i move:psv:neg:should"
+      ],
+      "2:26": [
+        "my/tongue glad",
+        "my/flesh in hope rest:fu"
+      ],
+      "2:27": [
+        "my/soul in kjv_hell leave:neg:fu",
+        "kjv_corrupt_decay:ev see:inf allow:neg:fu"
+      ],
+      "2:28": [
+        "to i way:pl of life",
+        "with thy/face i"
+      ],
+      "2:29": [
+        "i freely to you",
+        "kjv_patriarch_acts kjv_david",
+        "his/grave with wesg"
+      ],
+      "2:30": [
+        "with oath to he swear:pp",
+        "fruit of his/kjv_loins",
+        "kjv_christ_title"
+      ],
+      "2:31": [
+        "his/soul in kjv_hell leave:psv:neg:pa",
+        "his/flesh kjv_corrupt_decay:ev see:neg:pa"
+      ],
+      "2:32": [
+        "god up raise:perf",
+        "wesg all witness:pl"
+      ],
+      "2:33": [
+        "by kjv_right_side hand of god",
+        "father promise of holy spirit receive:pp",
+        "see:pr and hear:pr forth pour:perf"
+      ],
+      "2:34": [
+        "kjv_david into heaven:pl up go:neg:perf",
+        "my/kjv_lord",
+        "mypl/kjv_right_side"
+      ],
+      "2:35": [
+        "until ipl thy/enemy:pl thy/kjv_footstool"
+      ],
+      "2:36": [
+        "whom you kjv_crucify:perf",
+        "both kjv_lord and kjv_christ_title"
+      ],
+      "2:37": [
+        "their/heart prick:psv:pa",
+        "what wesg do:fu:q"
+      ],
+      "2:38": [
+        "each of you",
+        "for forgive:ev of sin:pl",
+        "gift of holy spirit"
+      ],
+      "2:39": [
+        "your/child:pl",
+        "all far off",
+        "kjv_lord ourone/god"
+      ],
+      "2:40": [
+        "yourselves from this kjv_perverse_way generation save:imp"
+      ],
+      "2:41": [
+        "gladly receive:pa",
+        "same day about three+thousand soul:pl"
+      ],
+      "2:42": [
+        "doctrine and fellowship",
+        "break:ev of bread",
+        "prayer:pl"
+      ],
+      "2:43": [
+        "fear upon each soul",
+        "by kjv_apostle:pl do:psv:pa"
+      ],
+      "2:44": [
+        "all thing:pl common have:pa"
+      ],
+      "2:45": [
+        "kjv_holdings_acts:pl and kjv_goods sell:pa",
+        "each man need"
+      ],
+      "2:46": [
+        "one_num agree:ev",
+        "house to house",
+        "heart kjv_divide:psv:neg:adj",
+        "their/food eat:pa"
+      ],
+      "2:47": [
+        "kjv_church_assembly daily",
+        "save:psv:should"
+      ],
+      "3:1": [
+        "kjv_peter_disciple and kjv_john_zebedee",
+        "nine:ord hour"
+      ],
+      "3:2": [
+        "from his/mother/womb kjv_lame",
+        "kjv_beautiful_gate_acts",
+        "kjv_alms ask:inf"
+      ],
+      "3:3": [
+        "into kjv_temple go:inf about",
+        "kjv_alms ask:pa"
+      ],
+      "3:4": [
+        "on we:du look:imp"
+      ],
+      "3:5": [
+        "to they:du heed",
+        "of they:du receive:inf"
+      ],
+      "3:6": [
+        "silver and gold i none",
+        "to thee i give:pr",
+        "kjv_christ_title of kjv_nazareth"
+      ],
+      "3:7": [
+        "kjv_right_side hand",
+        "his/foot:pl and kjv_ankle bone:pl"
+      ],
+      "3:8": [
+        "up leap:cv",
+        "with they:du",
+        "god praise:cv"
+      ],
+      "3:9": [
+        "walk:cv and god praise:cv"
+      ],
+      "3:10": [
+        "kjv_alms at kjv_beautiful_gate_acts",
+        "wonder:ev and amaze:ev"
+      ],
+      "3:11": [
+        "kjv_peter_disciple and kjv_john_zebedee hold:pa",
+        "of kjv_solomon"
+      ],
+      "3:12": [
+        "on we:du",
+        "own power or holy:ev of we:du",
+        "we:du this man walk:caus:pp"
+      ],
+      "3:13": [
+        "god of ourone/father:pl",
+        "his/son kjv_jesus_matthew",
+        "he:a go:inf allow:inf decide:pp"
+      ],
+      "3:14": [
+        "kjv_holy_one and kjv_righteous",
+        "murderer"
+      ],
+      "3:15": [
+        "prince of life kill:pa",
+        "we:du witness:pl"
+      ],
+      "3:16": [
+        "faith in his/name",
+        "perfect health",
+        "presence of you all"
+      ],
+      "3:17": [
+        "i that through ignorance",
+        "your/ruler:pl"
+      ],
+      "3:18": [
+        "all his/prophet:pl",
+        "kjv_christ_title suffer:should"
+      ],
+      "3:19": [
+        "kjv_convert:psv:imp",
+        "when time:pl of kjv_refresh:ev"
+      ],
+      "3:20": [
+        "before to you proclaim:psv:pa"
+      ],
+      "3:21": [
+        "restore:ev of all thing:pl",
+        "since world begin:pa"
+      ],
+      "3:22": [
+        "kjv_moses",
+        "like i up raise:fu",
+        "whatever to you say:fu hear:fu"
+      ],
+      "3:23": [
+        "hear:inf will:neg:pr",
+        "from among people destroy:psv:fu"
+      ],
+      "3:24": [
+        "from kjv_samuel",
+        "as many as speak:perf"
+      ],
+      "3:25": [
+        "ourone/father:pl",
+        "thy/seed all kjv_family:pl of earth"
+      ],
+      "3:26": [
+        "to you first",
+        "his/son kjv_jesus_matthew",
+        "each of you from his/kjv_iniquity:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:1",
+        "2:25",
+        "2:28",
+        "2:29",
+        "3:17",
+        "3:22",
+        "3:6"
+      ],
+      "ipl": [
+        "1:4",
+        "1:8",
+        "2:17",
+        "2:18",
+        "2:19",
+        "2:35"
+      ],
+      "wesg": [
+        "1:17",
+        "1:21",
+        "1:22",
+        "2:29",
+        "2:32",
+        "2:37"
+      ],
+      "wepl": [
+        "2:11",
+        "2:8"
+      ],
+      "mypl": [
+        "2:17",
+        "2:18",
+        "2:34"
+      ],
+      "ourone": [
+        "2:39",
+        "3:13",
+        "3:25"
+      ],
+      "iplself": [],
+      "we:du": [
+        "3:12",
+        "3:15",
+        "3:4"
+      ],
+      "they:du": [
+        "3:5",
+        "3:8"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "3:4",
+      "3:5",
+      "3:8",
+      "3:12",
+      "3:15"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Forty days,approximately120names,two candidates and eleven apostles,one accord/place,third/ninth hours and approximately3000souls retained.",
+      "Distributed multilingual plural-we differs from communal apostolic singular-we;Peter/John dual differs from shared ancestral singular-we."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "99Acts verses;whole Bible incomplete.",
+      "Source differences in Judas death and Psalm citations are retained without earlier-target revision.",
+      "Three common and fifteen contextual proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Acts — incomplete Bible working text",
+    "pages": 60,
+    "spreads": 30,
+    "units": 99,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "5fe538b9a28d3df67ea839f9969042269cf6ee404f829e65d1190e09fcfc62a6",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 30,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.476,
+    "modules": [
+      "tests.test_kjv_acts_many_tongues",
+      "tests.test_kjv_john_final_witness",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    59,
+    60
+  ],
+  "status": "incomplete Bible;Acts1–3 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 59,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv223\\preflight-acts\\Proofs\\page-059.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv223\\composed-acts\\Proofs\\page-059.png",
+        "sha256": "824005ba9295161551768bc98c89947478a0fc6e1cc3a5f8f9dbbb61df5bbbd0",
+        "bytesIdentical": true
+      },
+      {
+        "page": 60,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv223\\preflight-acts\\Proofs\\page-060.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv223\\composed-acts\\Proofs\\page-060.png",
+        "sha256": "b81ca3364f46659e393ee8de3bc63be81423a30b8b991543b34af84f44ee4b0b",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

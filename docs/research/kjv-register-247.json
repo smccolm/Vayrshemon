@@ -1,0 +1,639 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.247",
+    "parentVersion": "0.10-kjv.246",
+    "parentHead": "aeda4ad3f7e5d505bf1d022317304be02d0828f54d700764c6ab9c5abecee4a4",
+    "head": "5997ec46b0135922877cb58ae1dea319616f2c6a980a2213a37f27b8a9c5681b",
+    "newLexicalEntries": 6,
+    "newProperEntries": 2,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 74,
+    "exactCompilerCases": 74,
+    "newAuthoredVerses": 74,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 74,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 1970,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newGalatiansVerses": 74,
+    "galatiansVerses": 74,
+    "authoredVerses": 29132,
+    "remainingVerses": 1970,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Galatians 1:18",
+        "source": "Then after three years I went up to Jerusalem to see Peter, and abode with him fifteen days.",
+        "expectedDecimalQuantities": [
+          3,
+          15
+        ],
+        "targetQuantities": [
+          3,
+          15
+        ]
+      },
+      {
+        "reference": "Galatians 2:1",
+        "source": "Then fourteen years after I went up again to Jerusalem with Barnabas, and took Titus with me also.",
+        "expectedDecimalQuantities": [
+          14
+        ],
+        "targetQuantities": [
+          14
+        ]
+      },
+      {
+        "reference": "Galatians 3:16",
+        "source": "Now to Abraham and his seed were the promises made. He saith not, And to seeds, as of many; but as of one, And to thy seed, which is Christ.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Galatians 3:17",
+        "source": "And this I say, that the covenant, that was confirmed before of God in Christ, the law, which was four hundred and thirty years after, cannot disannul, that it should make the promise of none effect.",
+        "expectedDecimalQuantities": [
+          430
+        ],
+        "targetQuantities": [
+          430
+        ]
+      },
+      {
+        "reference": "Galatians 3:20",
+        "source": "Now a mediator is not a mediator of one, but God is one.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Galatians 3:28",
+        "source": "There is neither Jew nor Greek, there is neither bond nor free, there is neither male nor female: for ye are all one in Christ Jesus.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "not of man:pl neither by man but by",
+        "god father who he:a from dead:adj:pl raise:pa"
+      ],
+      "1:2": [
+        "all brother:pl who with i",
+        "kjv_galatia_acts kjv_church_assembly:pl"
+      ],
+      "1:3": [
+        "grace to you and peace",
+        "ourone/kjv_lord"
+      ],
+      "1:4": [
+        "himself for ourone/sin:pl",
+        "wesg:a from this present evil world",
+        "god and ourone/father"
+      ],
+      "1:5": [
+        "glory forever and forever",
+        "amen"
+      ],
+      "1:6": [
+        "i marvel:pr",
+        "so soon from he",
+        "to another kjv_gospel"
+      ],
+      "1:7": [
+        "which another be:neg:pr",
+        "kjv_gospel corrupt:inf desire:pr"
+      ],
+      "1:8": [
+        "though wesg or angel from heaven",
+        "than that which wesg to you proclaim:perf",
+        "he cursed be:opt"
+      ],
+      "1:9": [
+        "as wesg before say:pa so i",
+        "than that you receive:perf"
+      ],
+      "1:10": [
+        "man:pl or god persuade:pr:q",
+        "kjv_please_satisfy:inf seek:pr:q",
+        "servant be:neg:should"
+      ],
+      "1:11": [
+        "i you know:caus:pr",
+        "according_to man be:neg:pr"
+      ],
+      "1:12": [
+        "neither it from man receive:pa neither it teach:psv:pa",
+        "by reveal:ev of kjv_jesus_matthew kjv_christ_title"
+      ],
+      "1:13": [
+        "my/kjv_conversation_conduct_corinthians",
+        "beyond measure",
+        "persecute:pa and it destroy:pa"
+      ],
+      "1:14": [
+        "above many my/equal:pl",
+        "advance:pa",
+        "my/father:pl kjv_tradition:pl"
+      ],
+      "1:15": [
+        "from my/mother womb separate:pa",
+        "by his/grace call:pa"
+      ],
+      "1:16": [
+        "his/son in i reveal:inf",
+        "among kjv_gentile:pl",
+        "with flesh and blood confer:neg:pa"
+      ],
+      "1:17": [
+        "neither i to kjv_jerusalem",
+        "into kjv_arabia",
+        "again to kjv_damascus return:pa"
+      ],
+      "1:18": [
+        "after three year:pl",
+        "kjv_peter_disciple see:inf",
+        "twelve and three day:pl"
+      ],
+      "1:19": [
+        "none see:pa except kjv_james_jesus_brother kjv_lord brother"
+      ],
+      "1:20": [
+        "before god i kjv_lie_false:neg:pr"
+      ],
+      "1:21": [
+        "region:pl of kjv_syria and kjv_cilicia_acts"
+      ],
+      "1:22": [
+        "by face",
+        "kjv_judaea",
+        "know:neg:psv:pa"
+      ],
+      "1:23": [
+        "wesg:a in past time persecute:pa",
+        "now faith",
+        "in former time he destroy:pa"
+      ],
+      "1:24": [
+        "they god in i glorify:pa"
+      ],
+      "2:1": [
+        "twelve and two year:pl",
+        "with kjv_barnabas_acts",
+        "kjv_titus_second_corinthians with i also take:pa"
+      ],
+      "2:2": [
+        "by reveal:ev",
+        "in private to they",
+        "run:should or run:pp in vain"
+      ],
+      "2:3": [
+        "kjv_titus_second_corinthians",
+        "greek be:cv",
+        "kjv_circumcise:psv:inf compel:psv:pa"
+      ],
+      "2:4": [
+        "false brother:pl",
+        "ourone/kjv_freedom_status",
+        "spy:inf",
+        "wesg:a into bondage"
+      ],
+      "2:5": [
+        "kjv_subject_authority_romans:ev",
+        "no not for hour",
+        "truth of kjv_gospel"
+      ],
+      "2:6": [
+        "whatever they be:pa",
+        "no difference",
+        "god no man person accept:pr",
+        "nothing add:pa"
+      ],
+      "2:7": [
+        "kjv_circumcise:neg:ev to i",
+        "kjv_circumcise:ev to kjv_peter_disciple"
+      ],
+      "2:8": [
+        "in kjv_peter_disciple",
+        "same in i towards kjv_gentile:pl"
+      ],
+      "2:9": [
+        "kjv_james_pillar_galatians kjv_cephas_john and kjv_john_pillar_galatians",
+        "fellowship kjv_right_side hand:pl",
+        "we:du to kjv_gentile:pl",
+        "they to kjv_circumcise:ev"
+      ],
+      "2:10": [
+        "we:du poor:pl remember:should",
+        "i also kjv_forward_eager_corinthians"
+      ],
+      "2:11": [
+        "kjv_antioch_acts",
+        "i against he to face stand:pa",
+        "blame:psv:inf"
+      ],
+      "2:12": [
+        "before certain person:pl from kjv_james_pillar_galatians",
+        "with kjv_gentile:pl eat:pa",
+        "withdraw:pa and himself separate:pa",
+        "fear:cv"
+      ],
+      "2:13": [
+        "other kjv_jew:pl",
+        "kjv_barnabas_acts also",
+        "their/kjv_hypocrisy away carry:psv:pa"
+      ],
+      "2:14": [
+        "before they all",
+        "thou kjv_jew be:cv",
+        "not as kjv_jew:pl do:pr",
+        "why thou kjv_gentile:pl"
+      ],
+      "2:15": [
+        "wesg who by nature kjv_jew:pl",
+        "not of kjv_gentile:pl sinful person:pl"
+      ],
+      "2:16": [
+        "by faith of kjv_jesus_matthew kjv_christ_title",
+        "wesg in kjv_jesus_matthew kjv_christ_title believe:perf",
+        "by faith of kjv_christ_title",
+        "by law work:pl no flesh"
+      ],
+      "2:17": [
+        "wesg ourselves also sinful person:pl",
+        "sin kjv_minister be:pr:q",
+        "god forbid:opt"
+      ],
+      "2:18": [
+        "things which i destroy:pa again build:pr",
+        "myself transgress:adj person"
+      ],
+      "2:19": [
+        "through law to law dead",
+        "to god live:may"
+      ],
+      "2:20": [
+        "i with kjv_christ_title kjv_crucify:psv:perf",
+        "nevertheless ipl live:pr yet not i",
+        "kjv_christ_title in i live:pr",
+        "ipl by faith of god son",
+        "who i:a love:pa and himself for i give:pa"
+      ],
+      "2:21": [
+        "god grace kjv_nullify_effect_galatians:neg:pr",
+        "if kjv_righteousness by law",
+        "in vain dead"
+      ],
+      "3:1": [
+        "kjv_vocative foolish kjv_galatian_person:pl:excl",
+        "truth obey:neg:should",
+        "among you kjv_crucify:psv:adj"
+      ],
+      "3:2": [
+        "by law work:pl or by faith hear:ev"
+      ],
+      "3:3": [
+        "in spirit begin:cv",
+        "now by flesh perfect make:psv:pr:q"
+      ],
+      "3:4": [
+        "so many thing:pl in vain suffer:perf:q",
+        "if yet in vain"
+      ],
+      "3:5": [
+        "spirit provide:pr",
+        "miracle:pl work:pr",
+        "by law work:pl or by faith hear:ev"
+      ],
+      "3:6": [
+        "kjv_abraham god believe:pa",
+        "for kjv_righteousness reckon:psv:pa"
+      ],
+      "3:7": [
+        "they who of faith",
+        "kjv_abraham child:pl"
+      ],
+      "3:8": [
+        "holy written before see:cv",
+        "kjv_justify:fu",
+        "in thou all nation:pl bless:psv:fu"
+      ],
+      "3:9": [
+        "with faithful kjv_abraham"
+      ],
+      "3:10": [
+        "under curse",
+        "cursed each person",
+        "all thing:pl",
+        "to they:a do:inf continue:neg:pr"
+      ],
+      "3:11": [
+        "no man by law in god sight",
+        "kjv_righteous person by faith live:fu"
+      ],
+      "3:12": [
+        "law of faith be:neg:pr",
+        "in they live:fu"
+      ],
+      "3:13": [
+        "wesg:a from law curse redeem:perf",
+        "for wesg curse make:psv:cv",
+        "on kjv_tree hang:pr"
+      ],
+      "3:14": [
+        "kjv_abraham blessing upon kjv_gentile:pl",
+        "wesg through faith spirit promise receive:may"
+      ],
+      "3:15": [
+        "only man kjv_covenant",
+        "if confirm:psv:pr",
+        "no man kjv_annul:pr or to it add:pr"
+      ],
+      "3:16": [
+        "to kjv_seedline:pl as of many",
+        "as of one_num",
+        "to thy/kjv_seedline which kjv_christ_title"
+      ],
+      "3:17": [
+        "by god in kjv_christ_title confirm:psv:pp",
+        "two+twelve+twelve and eleven+twelve and ten year:pl",
+        "kjv_annul:neg:can",
+        "promise kjv_nullify_effect_galatians:should"
+      ],
+      "3:18": [
+        "no more of promise",
+        "god it to kjv_abraham by promise give:pa"
+      ],
+      "3:19": [
+        "because of transgress:ev:pl",
+        "until kjv_seedline",
+        "by angel:pl in hand of kjv_mediator_galatians"
+      ],
+      "3:20": [
+        "of one_num kjv_mediator_galatians be:neg:pr",
+        "god one_num be:pr"
+      ],
+      "3:21": [
+        "against god promise:pl",
+        "god forbid:opt",
+        "if law give:psv:pp which life give:can",
+        "kjv_righteousness by law be:pp"
+      ],
+      "3:22": [
+        "holy written all under sin shut:perf",
+        "faith of kjv_jesus_matthew kjv_christ_title",
+        "to they who believe:pr"
+      ],
+      "3:23": [
+        "wesg under law keep:psv:pa",
+        "shut:psv:adj to faith",
+        "afterward reveal:psv:should"
+      ],
+      "3:24": [
+        "ourone/kjv_schoolmaster_guardian_galatians",
+        "wesg:a to kjv_christ_title",
+        "wesg by faith kjv_justify:psv:may"
+      ],
+      "3:25": [
+        "after faith come:perf",
+        "wesg no longer under kjv_schoolmaster_guardian_galatians"
+      ],
+      "3:26": [
+        "you all god child:pl",
+        "faith in kjv_christ_title kjv_jesus_matthew"
+      ],
+      "3:27": [
+        "into kjv_christ_title kjv_baptize:psv:perf",
+        "kjv_christ_title wear:perf"
+      ],
+      "3:28": [
+        "neither kjv_jew nor greek",
+        "neither slave nor free",
+        "neither kjv_male nor female",
+        "you all in kjv_christ_title kjv_jesus_matthew one_num"
+      ],
+      "3:29": [
+        "if you of kjv_christ_title",
+        "kjv_abraham kjv_seedline",
+        "according_to promise heir:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:10",
+        "1:11",
+        "1:12",
+        "1:13",
+        "1:15",
+        "1:16",
+        "1:17",
+        "1:18",
+        "1:19",
+        "1:2",
+        "1:20",
+        "1:21",
+        "1:24",
+        "1:6",
+        "1:9",
+        "2:1",
+        "2:10",
+        "2:11",
+        "2:14",
+        "2:18",
+        "2:19",
+        "2:2",
+        "2:20",
+        "2:21",
+        "2:3",
+        "2:6",
+        "2:7",
+        "2:8",
+        "2:9",
+        "3:15",
+        "3:17",
+        "3:2"
+      ],
+      "ipl": [
+        "2:20"
+      ],
+      "wesg": [
+        "1:23",
+        "1:4",
+        "1:8",
+        "1:9",
+        "2:15",
+        "2:16",
+        "2:17",
+        "2:4",
+        "2:5",
+        "3:13",
+        "3:14",
+        "3:23",
+        "3:24",
+        "3:25"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "1:3",
+        "1:4",
+        "2:4",
+        "3:24"
+      ],
+      "iplself": [],
+      "we:du": [
+        "2:10",
+        "2:9"
+      ],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Galatians2:9",
+      "Galatians2:10"
+    ],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [
+      "Galatians2:20"
+    ],
+    "quantityInterpretation": [
+      "Three years,fifteen days,fourteen years and430years retain durations;one seed,both mediator ones and one-in-Christ retain source unity expressions.",
+      "Author and Barnabas are the explicit physical pair;the three pillars remain they.",
+      "Plural-I marks the nevertheless living subject in the Christ-in-me contrast;personal-I remains the denied sole actor and loved recipient,without a diagnosis or numerical theology."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "74new Galatians verses;whole Bible incomplete.",
+      "Faith-of and believing-in,seed/seeds,source KJV expansions and counterfactual law argument remain without silent harmonization.",
+      "Four common entries and two local names;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Galatians — incomplete Bible working text",
+    "pages": 44,
+    "spreads": 22,
+    "units": 74,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d267f7f4b8a4c581fa745c55da3a31e166bc27be8018004201b5ca739164a731",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 22,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.047,
+    "modules": [
+      "tests.test_kjv_galatians_shared_life",
+      "tests.test_kjv_corinthians_thorn_communion",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    43,
+    44
+  ],
+  "status": "incomplete Bible;Galatians1–3 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 43,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv247\\preflight-galatians\\Proofs\\page-043.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv247\\composed-galatians\\Proofs\\page-043.png",
+        "sha256": "fefd0ef1ba2744239dee59eb20dff25af52189658317ff68ac2a7d6da8aa1e03",
+        "bytesIdentical": true
+      },
+      {
+        "page": 44,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv247\\preflight-galatians\\Proofs\\page-044.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv247\\composed-galatians\\Proofs\\page-044.png",
+        "sha256": "7f5760a49aa2590a5b4d077371d99723bf4d029b9648fca06bdcc5f1a875ae96",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

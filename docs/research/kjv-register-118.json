@@ -1,0 +1,1271 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.118",
+    "parentVersion": "0.10-kjv.117",
+    "parentHead": "3965303a28b5b6a341d7353c35773b19ba5350ba721702fb8037741f6e4db41f",
+    "head": "db4e5a09d319af9463569fbbaf9fd03a84b2cb9bb84a2b6c79fe690d5075c809",
+    "newLexicalEntries": 2,
+    "newProperEntries": 0,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 226,
+    "exactCompilerCases": 226,
+    "newAuthoredVerses": 226,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2135,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 14979,
+    "status": "incomplete",
+    "metadataCorrections": [
+      {
+        "field": "Exodus subtotal in project scope and exodusVerses",
+        "old": 1197,
+        "new": 1213,
+        "reason": "Prior117 broad digit substitution left1197 despite an intended correction. Source ledger, native pages and coverage already contain1213. No target or coverage change."
+      }
+    ]
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 226,
+    "psalmsVerses": 2135,
+    "authoredVerses": 16123,
+    "remainingVerses": 14979,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Psalms 119:72",
+        "source": "The law of thy mouth is better unto me than thousands of gold and silver.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Psalms 119:164",
+        "source": "Seven times a day do I praise thee because of thy righteous judgments.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "116:1": [
+        "my/voice:a",
+        "my/kjv_supplication:pl:a"
+      ],
+      "116:2": [
+        "his/ear:a",
+        "as long as i live:pr"
+      ],
+      "116:3": [
+        "sorrow:pl of death",
+        "pain:pl of kjv_hell"
+      ],
+      "116:4": [
+        "name of kjv_lord",
+        "my/soul:a deliver:imp"
+      ],
+      "116:5": [
+        "ourone/god",
+        "mercy:adj"
+      ],
+      "116:6": [
+        "simple:a preserve:pr",
+        "low bring:psv:pa"
+      ],
+      "116:7": [
+        "my/soul:excl",
+        "generous:adv"
+      ],
+      "116:8": [
+        "from death",
+        "from tear:pl",
+        "from fall:ev"
+      ],
+      "116:9": [
+        "land of living",
+        "walk:fu"
+      ],
+      "116:10": [
+        "believe:pa",
+        "speak:perf",
+        "kjv_afflict:psv:pa"
+      ],
+      "116:11": [
+        "my/haste",
+        "all human:pl kjv_lie_false:ag:pl"
+      ],
+      "116:12": [
+        "what i",
+        "his/benefit:pl",
+        "give:fu"
+      ],
+      "116:13": [
+        "cup:a of salvation",
+        "call:fu"
+      ],
+      "116:14": [
+        "my/vow:ev:pl:a",
+        "all his/people pay:fu"
+      ],
+      "116:15": [
+        "precious",
+        "death of his/saint:pl"
+      ],
+      "116:16": [
+        "son of thine kjv_handmaid",
+        "kjv_binding_band:pl:a loose:perf"
+      ],
+      "116:17": [
+        "kjv_sacrifice:a of thanks",
+        "offer:fu"
+      ],
+      "116:18": [
+        "my/vow:ev:pl:a",
+        "all his/people pay:fu"
+      ],
+      "116:19": [
+        "court:pl",
+        "kjv_jerusalem:excl",
+        "you:pl"
+      ],
+      "117:1": [
+        "all you:pl nation:pl",
+        "all you:pl people"
+      ],
+      "117:2": [
+        "kjv_kindness",
+        "wesg",
+        "for ever endure:pr"
+      ],
+      "118:1": [
+        "give:imp:excl",
+        "his/mercy for ever endure:pr"
+      ],
+      "118:2": [
+        "kjv_israel",
+        "now say:inf allow:imp"
+      ],
+      "118:3": [
+        "house of kjv_aaron",
+        "say:inf allow:imp"
+      ],
+      "118:4": [
+        "fear:pr",
+        "his/mercy"
+      ],
+      "118:5": [
+        "distress",
+        "large place"
+      ],
+      "118:6": [
+        "my/side",
+        "fear:neg:fu",
+        "human"
+      ],
+      "118:7": [
+        "my/part:a",
+        "my/desire:a"
+      ],
+      "118:8": [
+        "trust:inf better",
+        "confidence:a in human"
+      ],
+      "118:9": [
+        "confidence:a in prince:pl"
+      ],
+      "118:10": [
+        "all nation:pl",
+        "destroy:fu"
+      ],
+      "118:11": [
+        "yes they i:a around surround:pa",
+        "destroy:fu"
+      ],
+      "118:12": [
+        "kjv_bee:pl",
+        "fire of thorn:pl",
+        "extinguish:psv:pr"
+      ],
+      "118:13": [
+        "thou hard",
+        "fall:may",
+        "but kjv_lord"
+      ],
+      "118:14": [
+        "my/strength and song",
+        "my/salvation"
+      ],
+      "118:15": [
+        "tent:pl of kjv_righteous",
+        "kjv_right_side"
+      ],
+      "118:16": [
+        "kjv_exalt:psv:pr",
+        "with courage"
+      ],
+      "118:17": [
+        "die:neg:fu",
+        "live:fu",
+        "declare:fu"
+      ],
+      "118:18": [
+        "kjv_chasten:perf",
+        "death give:neg:perf"
+      ],
+      "118:19": [
+        "gate:pl:a",
+        "i into they go:fu"
+      ],
+      "118:20": [
+        "this gate",
+        "kjv_righteous enter:fu"
+      ],
+      "118:21": [
+        "hear:perf",
+        "salvation become:perf"
+      ],
+      "118:22": [
+        "build:ag:pl refuse:pa",
+        "head stone of corner"
+      ],
+      "118:23": [
+        "our/eye:pl",
+        "marvel:adj"
+      ],
+      "118:24": [
+        "wesg",
+        "rejoice:fu"
+      ],
+      "118:25": [
+        "save:imp",
+        "prosperity:a send:imp"
+      ],
+      "118:26": [
+        "wesg you:pl:a",
+        "bless:perf"
+      ],
+      "118:27": [
+        "wesg light:a",
+        "kjv_cord:pl",
+        "horn:pl of altar"
+      ],
+      "118:28": [
+        "my/god",
+        "kjv_exalt:fu"
+      ],
+      "118:29": [
+        "give:imp:excl",
+        "his/mercy for ever endure:pr"
+      ],
+      "119:1": [
+        "defile:psv:neg:adj",
+        "law of kjv_lord"
+      ],
+      "119:2": [
+        "his/testimony:pl:a",
+        "whole heart"
+      ],
+      "119:3": [
+        "no kjv_iniquity:a",
+        "his/way:pl"
+      ],
+      "119:4": [
+        "wesg:a",
+        "careful:adv",
+        "command:perf"
+      ],
+      "119:5": [
+        "guide:psv:opt:excl"
+      ],
+      "119:6": [
+        "shame:psv:neg:fu",
+        "all thy/command:pl"
+      ],
+      "119:7": [
+        "kjv_uprightness",
+        "learn:fp"
+      ],
+      "119:8": [
+        "completely forsake:neg:imp:excl"
+      ],
+      "119:9": [
+        "young man",
+        "heed:ev:a",
+        "kjv_according"
+      ],
+      "119:10": [
+        "whole heart",
+        "wander:inf allow:neg:imp:excl"
+      ],
+      "119:11": [
+        "mine heart hide:perf",
+        "sin:neg:may"
+      ],
+      "119:12": [
+        "kjv_statute:pl:a teach:imp"
+      ],
+      "119:13": [
+        "my/lip:pl",
+        "thy/mouth declare:perf"
+      ],
+      "119:14": [
+        "rejoice:perf",
+        "rich:ev"
+      ],
+      "119:15": [
+        "meditate:fu",
+        "respect:a"
+      ],
+      "119:16": [
+        "myself:a",
+        "forget:neg:fu"
+      ],
+      "119:17": [
+        "generous:adv",
+        "live:may",
+        "keep:may"
+      ],
+      "119:18": [
+        "eye:pl:a open:imp",
+        "wonder:adj"
+      ],
+      "119:19": [
+        "stranger in earth",
+        "hide:neg:imp"
+      ],
+      "119:20": [
+        "kjv_yearn:ev",
+        "break:pr"
+      ],
+      "119:21": [
+        "curse:psv:pr",
+        "err:pr"
+      ],
+      "119:22": [
+        "kjv_reproach:a and contempt:a",
+        "keep:perf"
+      ],
+      "119:23": [
+        "prince:pl",
+        "meditate:pa"
+      ],
+      "119:24": [
+        "my/delight and my/counsellor:pl"
+      ],
+      "119:25": [
+        "dust kjv_cleave_adhere:pr",
+        "quicken:imp"
+      ],
+      "119:26": [
+        "declare:perf",
+        "hear:pa",
+        "teach:imp"
+      ],
+      "119:27": [
+        "understand:inf make:imp",
+        "talk:fu"
+      ],
+      "119:28": [
+        "heaviness melt:pr",
+        "strong:caus:imp"
+      ],
+      "119:29": [
+        "kjv_lie_false",
+        "gracious:adv grant:imp"
+      ],
+      "119:30": [
+        "truth choose:perf",
+        "before i:a lay:perf"
+      ],
+      "119:31": [
+        "kjv_cleave_adhere:perf",
+        "shame put:neg:imp"
+      ],
+      "119:32": [
+        "run:fu",
+        "heart:a large:caus:fu"
+      ],
+      "119:33": [
+        "teach:imp",
+        "to end keep:fu"
+      ],
+      "119:34": [
+        "understand:ev:a",
+        "whole heart observe:fu"
+      ],
+      "119:35": [
+        "go:inf make:imp",
+        "delight:pr"
+      ],
+      "119:36": [
+        "bend:imp",
+        "not to kjv_covetousness"
+      ],
+      "119:37": [
+        "vanity:a behold:inf",
+        "quicken:imp"
+      ],
+      "119:38": [
+        "kjv_establish:imp",
+        "fear devoted"
+      ],
+      "119:39": [
+        "which i fear:pr",
+        "judge:ev:pl good"
+      ],
+      "119:40": [
+        "kjv_yearn:perf",
+        "kjv_righteousness quicken:imp"
+      ],
+      "119:41": [
+        "mercy:pl",
+        "salvation kjv_according"
+      ],
+      "119:42": [
+        "answer:inf have:fu",
+        "trust:pr"
+      ],
+      "119:43": [
+        "completely out of my/mouth",
+        "take:neg:imp"
+      ],
+      "119:44": [
+        "always for ever and ever"
+      ],
+      "119:45": [
+        "free:ev walk:fu",
+        "seek:pr"
+      ],
+      "119:46": [
+        "king:pl speak:fu",
+        "shame:psv:neg:fu"
+      ],
+      "119:47": [
+        "myself:a",
+        "which i love:perf"
+      ],
+      "119:48": [
+        "hand:pl:a",
+        "lift:fu",
+        "meditate:fu"
+      ],
+      "119:49": [
+        "remember:imp",
+        "hope:caus:perf"
+      ],
+      "119:50": [
+        "comfort:ev",
+        "quicken:perf"
+      ],
+      "119:51": [
+        "derision",
+        "turn:neg:perf"
+      ],
+      "119:52": [
+        "of old remember:pa",
+        "myself:a comfort:perf"
+      ],
+      "119:53": [
+        "terror",
+        "forsake:pr"
+      ],
+      "119:54": [
+        "my/song:pl",
+        "my/pilgrimage"
+      ],
+      "119:55": [
+        "in night",
+        "keep:perf"
+      ],
+      "119:56": [
+        "this i have:pa",
+        "keep:pa"
+      ],
+      "119:57": [
+        "my/part",
+        "keep:should"
+      ],
+      "119:58": [
+        "whole heart entreat:pa",
+        "mercy:adj"
+      ],
+      "119:59": [
+        "think:pa",
+        "foot:pl:a",
+        "turn:pa"
+      ],
+      "119:60": [
+        "haste:a",
+        "delay:neg:pa"
+      ],
+      "119:61": [
+        "band:pl of wicked",
+        "rob:perf",
+        "forget:neg:perf"
+      ],
+      "119:62": [
+        "midnight",
+        "thanks:a"
+      ],
+      "119:63": [
+        "companion of all",
+        "fear:pr"
+      ],
+      "119:64": [
+        "earth",
+        "full of thy/mercy"
+      ],
+      "119:65": [
+        "well with thy/servant",
+        "kjv_according to thy/word"
+      ],
+      "119:66": [
+        "judge:ev:a and knowledge:a",
+        "believe:perf"
+      ],
+      "119:67": [
+        "before i kjv_afflict:psv:pa",
+        "now i thy/word:a keep:perf"
+      ],
+      "119:68": [
+        "good be:pr and good:a do:pr"
+      ],
+      "119:69": [
+        "kjv_lie_false:a forge:perf",
+        "whole heart"
+      ],
+      "119:70": [
+        "fat as kjv_grease",
+        "delight:pr"
+      ],
+      "119:71": [
+        "kjv_afflict:psv:perf",
+        "learn:may"
+      ],
+      "119:72": [
+        "better",
+        "thousand:pl of gold and silver"
+      ],
+      "119:73": [
+        "hand:pl",
+        "shape:perf",
+        "learn:may"
+      ],
+      "119:74": [
+        "glad be:fu",
+        "hope:perf"
+      ],
+      "119:75": [
+        "kjv_just_fair",
+        "faithful:ev",
+        "kjv_afflict:perf"
+      ],
+      "119:76": [
+        "kjv_kindness",
+        "comfort:ev be:opt"
+      ],
+      "119:77": [
+        "tender mercy:pl",
+        "live:may"
+      ],
+      "119:78": [
+        "kjv_froward:adv",
+        "without cause",
+        "meditate:fu"
+      ],
+      "119:79": [
+        "fear:pr",
+        "testimony:pl:a know:perf"
+      ],
+      "119:80": [
+        "heart whole",
+        "shame:psv:neg:pr"
+      ],
+      "119:81": [
+        "soul",
+        "faint:pr",
+        "hope:pr"
+      ],
+      "119:82": [
+        "eye:pl",
+        "when thou i:a comfort:fu"
+      ],
+      "119:83": [
+        "kjv_bottle in smoke",
+        "forget:neg:pr"
+      ],
+      "119:84": [
+        "how many",
+        "judge:ev:a upon they"
+      ],
+      "119:85": [
+        "kjv_pit:pl:a",
+        "kjv_dig:perf",
+        "be:neg:pr"
+      ],
+      "119:86": [
+        "faithful",
+        "wrong:adv persecute:pr"
+      ],
+      "119:87": [
+        "almost",
+        "devour:pp",
+        "forsake:neg:pa"
+      ],
+      "119:88": [
+        "kjv_lovingkindness quicken:imp",
+        "mouth:a keep:fu"
+      ],
+      "119:89": [
+        "for ever",
+        "heaven settle:psv:pr"
+      ],
+      "119:90": [
+        "all generation:pl",
+        "kjv_establish:perf"
+      ],
+      "119:91": [
+        "this day",
+        "kjv_ordinance:pl",
+        "servant:pl"
+      ],
+      "119:92": [
+        "unless",
+        "be:pp",
+        "perish:perf:should"
+      ],
+      "119:93": [
+        "never forget:fu",
+        "quicken:perf"
+      ],
+      "119:94": [
+        "of thee be:pr",
+        "save:imp",
+        "seek:perf"
+      ],
+      "119:95": [
+        "wait:perf",
+        "destroy:inf",
+        "consider:fu"
+      ],
+      "119:96": [
+        "end of all perfection",
+        "very:adv broad"
+      ],
+      "119:97": [
+        "love:pr:excl",
+        "meditate:ev all day"
+      ],
+      "119:98": [
+        "more wise",
+        "ever with i"
+      ],
+      "119:99": [
+        "more understanding",
+        "all my/teach:ag:pl"
+      ],
+      "119:100": [
+        "more than ancient:pl",
+        "keep:pr"
+      ],
+      "119:101": [
+        "foot:pl:a",
+        "restrain:perf",
+        "keep:may"
+      ],
+      "119:102": [
+        "depart:neg:perf",
+        "teach:perf"
+      ],
+      "119:103": [
+        "taste:ev",
+        "honey",
+        "be:pr:excl"
+      ],
+      "119:104": [
+        "understanding:a get:pr",
+        "false way:a hate:pr"
+      ],
+      "119:105": [
+        "lamp",
+        "light",
+        "my/path"
+      ],
+      "119:106": [
+        "swear:perf",
+        "perform:fu",
+        "keep:fu"
+      ],
+      "119:107": [
+        "kjv_afflict:psv:pr",
+        "quicken:imp"
+      ],
+      "119:108": [
+        "free willing kjv_offering:pl:a of my/mouth",
+        "teach:imp"
+      ],
+      "119:109": [
+        "soul always in my/hand",
+        "forget:neg:pr"
+      ],
+      "119:110": [
+        "snare:a",
+        "err:neg:pa"
+      ],
+      "119:111": [
+        "inheritance for ever",
+        "rejoice:ev"
+      ],
+      "119:112": [
+        "heart:a",
+        "bend:perf",
+        "even to end"
+      ],
+      "119:113": [
+        "vain thought:pl:a",
+        "law:a love:pr"
+      ],
+      "119:114": [
+        "hide:ev place",
+        "kjv_shield_armour"
+      ],
+      "119:115": [
+        "you:pl who evil:a do:pr",
+        "my/god"
+      ],
+      "119:116": [
+        "sustain:imp",
+        "shame:psv:inf allow:neg:imp"
+      ],
+      "119:117": [
+        "up hold:imp",
+        "safety",
+        "always"
+      ],
+      "119:118": [
+        "down tread:perf",
+        "deceit false:ev"
+      ],
+      "119:119": [
+        "kjv_dross",
+        "away put:pr"
+      ],
+      "119:120": [
+        "flesh",
+        "tremble:pr",
+        "afraid"
+      ],
+      "119:121": [
+        "judge:ev:a and justice:a",
+        "leave:neg:imp"
+      ],
+      "119:122": [
+        "surety",
+        "oppress:inf allow:neg:imp"
+      ],
+      "119:123": [
+        "eye:pl",
+        "kjv_righteousness"
+      ],
+      "119:124": [
+        "thy/mercy deal:imp",
+        "teach:imp"
+      ],
+      "119:125": [
+        "thy/servant",
+        "understanding:a",
+        "know:may"
+      ],
+      "119:126": [
+        "time",
+        "work:inf",
+        "void make:perf"
+      ],
+      "119:127": [
+        "above gold",
+        "above fine gold"
+      ],
+      "119:128": [
+        "about all thing:pl kjv_just_fair",
+        "false way:a hate:pr"
+      ],
+      "119:129": [
+        "wonder:adj",
+        "soul they:a keep:pr"
+      ],
+      "119:130": [
+        "enter:ev",
+        "light:a give:pr",
+        "simple"
+      ],
+      "119:131": [
+        "mouth:a open:pa",
+        "kjv_pant:pa",
+        "kjv_yearn:pa"
+      ],
+      "119:132": [
+        "by habit",
+        "name:a love:pr"
+      ],
+      "119:133": [
+        "arrange:imp",
+        "kjv_dominion:a have:inf allow:neg:imp"
+      ],
+      "119:134": [
+        "oppress:ev of human",
+        "deliver:imp"
+      ],
+      "119:135": [
+        "face:a",
+        "shine:caus:imp"
+      ],
+      "119:136": [
+        "river:pl of water:pl",
+        "eye:pl run:pr",
+        "keep:neg:pr"
+      ],
+      "119:137": [
+        "kjv_righteous thou",
+        "kjv_upright thy/judge:ev:pl"
+      ],
+      "119:138": [
+        "command:perf",
+        "very faithful"
+      ],
+      "119:139": [
+        "kjv_zeal i:a devour:perf",
+        "enemy:pl"
+      ],
+      "119:140": [
+        "very pure",
+        "servant it:a love:pr"
+      ],
+      "119:141": [
+        "small and despise:psv:adj",
+        "forget:neg:pr"
+      ],
+      "119:142": [
+        "kjv_righteousness for ever",
+        "law truth"
+      ],
+      "119:143": [
+        "kjv_trouble and anguish",
+        "delight:pl"
+      ],
+      "119:144": [
+        "testimony:pl for ever",
+        "live:fu"
+      ],
+      "119:145": [
+        "whole heart cry:pa",
+        "keep:fu"
+      ],
+      "119:146": [
+        "to thee cry:pa",
+        "save:imp"
+      ],
+      "119:147": [
+        "before kjv_dawn of morning come:pa",
+        "hope:pa"
+      ],
+      "119:148": [
+        "eye:pl before night kjv_watch_period:pl",
+        "meditate:may"
+      ],
+      "119:149": [
+        "kjv_lovingkindness",
+        "thy/judge:ev quicken:imp"
+      ],
+      "119:150": [
+        "near draw:pr",
+        "kjv_mischief",
+        "far"
+      ],
+      "119:151": [
+        "near",
+        "all thy/command:pl truth"
+      ],
+      "119:152": [
+        "of old know:perf",
+        "kjv_found_base:perf"
+      ],
+      "119:153": [
+        "kjv_afflict:ev:a consider:imp",
+        "forget:neg:pr"
+      ],
+      "119:154": [
+        "my/cause:a plead:imp",
+        "quicken:imp"
+      ],
+      "119:155": [
+        "far from wicked",
+        "seek:neg:pr"
+      ],
+      "119:156": [
+        "tender mercy:pl",
+        "judge:ev:pl quicken:imp"
+      ],
+      "119:157": [
+        "many",
+        "turn:neg:pr"
+      ],
+      "119:158": [
+        "transgress:ag:pl",
+        "sorrow:pa",
+        "keep:neg:pa"
+      ],
+      "119:159": [
+        "love:pr consider:imp",
+        "kjv_lovingkindness"
+      ],
+      "119:160": [
+        "from beginning",
+        "every one",
+        "endure:pr"
+      ],
+      "119:161": [
+        "prince:pl",
+        "without cause",
+        "kjv_awe"
+      ],
+      "119:162": [
+        "as one",
+        "great spoil:a"
+      ],
+      "119:163": [
+        "kjv_lie_false:ev:a",
+        "kjv_abhor:pr"
+      ],
+      "119:164": [
+        "seven time:pl day",
+        "praise:pr"
+      ],
+      "119:165": [
+        "great peace:a",
+        "nothing they:a kjv_stumble:caus:fu"
+      ],
+      "119:166": [
+        "hope:perf",
+        "do:perf"
+      ],
+      "119:167": [
+        "soul thy/testimony:pl:a keep:perf",
+        "very love:pr"
+      ],
+      "119:168": [
+        "kjv_precept:pl:a and thy/testimony:pl:a",
+        "all my/way:pl"
+      ],
+      "119:169": [
+        "cry:ev",
+        "come:opt",
+        "understanding:a"
+      ],
+      "119:170": [
+        "kjv_supplication",
+        "deliver:imp"
+      ],
+      "119:171": [
+        "lip:pl",
+        "utter:fu",
+        "teach:perf"
+      ],
+      "119:172": [
+        "tongue",
+        "kjv_righteousness"
+      ],
+      "119:173": [
+        "thine hand",
+        "choose:perf"
+      ],
+      "119:174": [
+        "kjv_yearn:perf",
+        "delight"
+      ],
+      "119:175": [
+        "soul live:opt",
+        "praise:fu",
+        "help:opt"
+      ],
+      "119:176": [
+        "astray like lost sheep",
+        "seek:imp",
+        "forget:neg:pr"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "116:1",
+        "116:10",
+        "116:11",
+        "116:12",
+        "116:13",
+        "116:14",
+        "116:16",
+        "116:17",
+        "116:18",
+        "116:2",
+        "116:3",
+        "116:4",
+        "116:6",
+        "116:9",
+        "118:10",
+        "118:11",
+        "118:12",
+        "118:13",
+        "118:17",
+        "118:18",
+        "118:19",
+        "118:21",
+        "118:25",
+        "118:28",
+        "118:5",
+        "118:6",
+        "118:7",
+        "119:10",
+        "119:100",
+        "119:101",
+        "119:102",
+        "119:104",
+        "119:106",
+        "119:107",
+        "119:108",
+        "119:109",
+        "119:11",
+        "119:110",
+        "119:111",
+        "119:112",
+        "119:113",
+        "119:114",
+        "119:115",
+        "119:116",
+        "119:117",
+        "119:119",
+        "119:12",
+        "119:120",
+        "119:121",
+        "119:122",
+        "119:124",
+        "119:125",
+        "119:127",
+        "119:128",
+        "119:13",
+        "119:131",
+        "119:132",
+        "119:133",
+        "119:134",
+        "119:135",
+        "119:139",
+        "119:14",
+        "119:141",
+        "119:143",
+        "119:144",
+        "119:145",
+        "119:146",
+        "119:147",
+        "119:148",
+        "119:149",
+        "119:15",
+        "119:152",
+        "119:153",
+        "119:154",
+        "119:156",
+        "119:157",
+        "119:158",
+        "119:159",
+        "119:16",
+        "119:161",
+        "119:162",
+        "119:163",
+        "119:164",
+        "119:166",
+        "119:167",
+        "119:168",
+        "119:169",
+        "119:17",
+        "119:170",
+        "119:171",
+        "119:173",
+        "119:174",
+        "119:175",
+        "119:176",
+        "119:18",
+        "119:19",
+        "119:22",
+        "119:23",
+        "119:25",
+        "119:26",
+        "119:27",
+        "119:28",
+        "119:29",
+        "119:30",
+        "119:31",
+        "119:32",
+        "119:33",
+        "119:34",
+        "119:35",
+        "119:37",
+        "119:39",
+        "119:40",
+        "119:41",
+        "119:42",
+        "119:43",
+        "119:44",
+        "119:45",
+        "119:46",
+        "119:47",
+        "119:48",
+        "119:49",
+        "119:50",
+        "119:51",
+        "119:52",
+        "119:53",
+        "119:55",
+        "119:56",
+        "119:57",
+        "119:58",
+        "119:59",
+        "119:6",
+        "119:60",
+        "119:61",
+        "119:62",
+        "119:63",
+        "119:64",
+        "119:66",
+        "119:67",
+        "119:68",
+        "119:69",
+        "119:7",
+        "119:70",
+        "119:71",
+        "119:72",
+        "119:73",
+        "119:74",
+        "119:75",
+        "119:76",
+        "119:77",
+        "119:78",
+        "119:79",
+        "119:8",
+        "119:80",
+        "119:81",
+        "119:82",
+        "119:83",
+        "119:84",
+        "119:85",
+        "119:86",
+        "119:87",
+        "119:88",
+        "119:92",
+        "119:93",
+        "119:94",
+        "119:95",
+        "119:96",
+        "119:97",
+        "119:98",
+        "119:99"
+      ],
+      "ipl": [],
+      "wesg": [
+        "117:2",
+        "118:24",
+        "118:26",
+        "118:27",
+        "119:4"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "116:5"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Psalm119:72thousand:pl preserves indefinite thousands;1000is the lexical counting unit,not a claimed total or currency denomination.",
+      "Psalm119:164seven times per day preserves explicit7;midnight and watch periods add no clock numbers.",
+      "Every one119:160and as one119:162are distributive/generic,not supplied totals."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Personal distress and royal gratitude remain ordinary-I;communal gratitude117:2,118:24/26/27and collective obligation119:4use singular-we.No divine plural-I speech is invented in this section.",
+      "Deliberate refrain repetition116:14/18and118:1/29remains;119legal vocabulary and repeated life requests are not collapsed to generic law/prayer.",
+      "119retains grease,dross,smoky bottle,life in hand and lost sheep images.The final lostness is not harmonized away.",
+      "119:92counterfactual,119:147/148historical prevent=precede,and119:165stumbling sense are explicitly documented.",
+      "Source index contains verse text but not acrostic alphabet headings;translation claims cover the supplied verses,not reproduction of a Hebrew acrostic.",
+      "All prior targets and old seals remain unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 1074,
+    "spreads": 537,
+    "units": 2135,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "ccd93dcddc1c31b6f0247c4cc2fe268345f3fdf1b1c91171520388de01f92f0f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 537,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.531,
+    "modules": [
+      "tests.test_kjv_psalm_law_life_petition",
+      "tests.test_kjv_psalm_refrain_curse_royal",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    1073,
+    1074
+  ],
+  "status": "incompleteBible;Psalms1to119sectioncheckpointverified"
+}

@@ -1,0 +1,27 @@
+# Historical KJV137: the plural self alone, the singular court and human makers
+
+This continuation adds110 verses,Isaiah41–44. Isaiah reaches907 verses;after validation the whole Bible reaches18,610/31,102 with12,492 remaining. Ten common lexical entries and one written proper variant are added. No inherited target or seal is changed. The entire66-section Bible remains incomplete.
+
+## Plural-I and plural-self under exclusive claims
+The deity speaks plural-I and my-plural throughout the named divine speeches. The source's I am he41:4/43:10/13 remains a deliberately awkward plural-I/he equation. Repeated I,even I43:11/25 remains emphatic,not a count of speakers. Reflexive plural-self appears in the restrained self42:14,the people made for myself43:21,and the earth spread by myself44:24. Alone in44:24 and no-other-god claims43:10–13/44:6–8 remain alongside this internally plural selfhood. This follows the historical pronoun chart without imposing a fixed number of persons,identifying every title as a separate being,or medicalizing the language.
+
+## Singular-we constitutes a court,not a species
+Let us approach judgment41:1,show us41:22–23/26,the assembled witnesses43:9,and let us plead43:26 use singular-we for a constituted deliberative body. Divine and human participants are not thereby asserted to be one substance. Communal confession42:24 also uses singular-we,then returns to the source's they. The image-worshipping group's our gods42:17 uses our-one:communal grammar is available to speakers regardless of the narrator's theological approval. No physical dual or arbitrary fixed numerical plurality is introduced.
+
+## Human personal-I and grammatical shifts remain distinct
+The person claiming the LORD44:5,the warmed craftsperson44:16,the worshipper's deliver me44:17,and the unasked self-questions44:19 use personal-I. Divine plural-I is not imposed on these quotations. The source's thou/he shift42:20,he/him/it difficulty42:25,and unlabelled he shutting eyes44:18 remain; notes record uncertainty without rewriting it. Third-person himself44:23 stays a third-person reflexive even though the same deity uses plural-self in direct first-person speech.
+
+## Craft and tree vocabulary is concrete
+Anvil is metal-hold;solder is metal-join;measuring-rule is measure-line;plane-tool is wood-smooth;drawing-compass is circle-mark. These distinguish forging and carpentry from political rule,aircraft,navigation and mere nail-fastening. Sweet-cane is sweet-reed as an aromatic offering material,without an exact botanical equation. Box-tree,cypress and ash-tree retain KJV tree labels;ash-tree is distinct from burnt ashes44:20. Pine and myrtle reuse earlier vocabulary. Shittah is represented by the established shittim timber label plus tree;oil tree is not silently narrowed to olive. Jesurun preserves this written variant beside Jeshurun. Surname is name-add,not a modern legal family-name system.
+
+## Source tensions remain uncomfortable
+The warrior42:13 becomes a childbirth-crier42:14. Water-giving41:18 and43:19–20 remains beside desiccation42:15/44:27. The deity exchanges other peoples for the addressee43:3–4,denies imposing ritual service43:23,yet says sins have made the deity serve43:24,and erases transgressions for mine own sake43:25. These statements are not repaired into a comfortable unified doctrine. The unnamed servant42:1 is not assigned a later identity;Cyrus is named only when the supplied source names him44:28.
+
+## Archaic senses,negation and source numbers
+Let in43:13 means hinder. Cause41:21 is a legal case. Incensed41:11 is anger,whereas incense43:23 is aromatic material. Fan41:16 is agricultural winnowing;right hand is physical side;lie44:20 is falsehood;diviners44:25 are ritual practitioners rather than divine beings. Metal casting40:19/44:10 differs from cast-away rejection41:9. Coordinated prohibitions and future negatives are individually marked where needed so neither/nor cannot accidentally become positive. Indefinite one41:25/27 and44:5 is human;every one41:6/43:7 is each. Temporal first/last and at-once together42:14 do not create cardinal totals. The four first-position ordinals41:4/27,43:27/44:6 are checked as ordinal1;there are no explicit cardinal totals in this batch.
+
+## Repetition and alien category crossings
+All four verbs see/know/consider/understand41:20,the repeated nothing/nought judgments,the two behold commands41:27,the duplicated servant clause44:21,and roast roast44:16 remain. Molten images are called wind and confusion41:29;the servant is given as covenant and light42:6;the material which warms and cooks becomes a deity44:15–19. These constructions are intentionally not flattened into idiomatic explanatory English. Exclamations use the inherited form rather than a nonexistent Thimfora exclamation glyph.
+
+## Verification and continuity
+Every source verse has an authored analysis,back-reading,note and critical anchors. Tests check pronoun reference sets,reflexives,source contradictions,negation,concrete senses and unchanged inherited material. Native preflight and save/reopen preserve geometry,Maxima,50/22pttype,38ptleading,24ptafter-spacing,aligned four-column paragraph starts and Unta50pt/28ptinset. These are structural and translator self-review checks,not independent literary certification. Continue atIsaiah45:1 toward one complete Bible in one.vay;this checkpoint is not a completed delivery.

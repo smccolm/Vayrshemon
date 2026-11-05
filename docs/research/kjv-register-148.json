@@ -1,0 +1,683 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.148",
+    "parentVersion": "0.10-kjv.147",
+    "parentHead": "971c0bf1e7c409d6cfc3d590f13ea7d85e269b508e08425748339f4ca823ad88",
+    "head": "59acd09d8b95a4ee9ac4e9e407a3b3f9897613d2286c93b3e0418ea6f4d5265d",
+    "newLexicalEntries": 17,
+    "newProperEntries": 14,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 101,
+    "exactCompilerCases": 101,
+    "newAuthoredVerses": 101,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 689,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 11418,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 101,
+    "jeremiahVerses": 689,
+    "authoredVerses": 19684,
+    "remainingVerses": 11418,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 8,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 25:1",
+        "source": "The word that came to Jeremiah concerning all the people of Judah in the fourth year of Jehoiakim the son of Josiah king of Judah, that was the first year of Nebuchadrezzar king of Babylon;",
+        "expectedDecimalQuantities": [
+          4,
+          1
+        ],
+        "targetQuantities": [
+          4,
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 25:3",
+        "source": "From the thirteenth year of Josiah the son of Amon king of Judah, even unto this day, that is the three and twentieth year, the word of the LORD hath come unto me, and I have spoken unto you, rising early and speaking; but ye have not hearkened.",
+        "expectedDecimalQuantities": [
+          13,
+          23
+        ],
+        "targetQuantities": [
+          13,
+          23
+        ]
+      },
+      {
+        "reference": "Jeremiah 25:11",
+        "source": "And this whole land shall be a desolation, and an astonishment; and these nations shall serve the king of Babylon seventy years.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Jeremiah 25:12",
+        "source": "And it shall come to pass, when seventy years are accomplished, that I will punish the king of Babylon, and that nation, saith the LORD, for their iniquity, and the land of the Chaldeans, and will make it perpetual desolations.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "Jeremiah 28:1",
+        "source": "And it came to pass the same year, in the beginning of the reign of Zedekiah king of Judah, in the fourth year, and in the fifth month, that Hananiah the son of Azur the prophet, which was of Gibeon, spake unto me in the house of the LORD, in the presence of the priests and of all the people, saying,",
+        "expectedDecimalQuantities": [
+          4,
+          5
+        ],
+        "targetQuantities": [
+          4,
+          5
+        ]
+      },
+      {
+        "reference": "Jeremiah 28:3",
+        "source": "Within two full years will I bring again into this place all the vessels of the LORD’s house, that Nebuchadnezzar king of Babylon took away from this place, and carried them to Babylon:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 28:11",
+        "source": "And Hananiah spake in the presence of all the people, saying, Thus saith the LORD; Even so will I break the yoke of Nebuchadnezzar king of Babylon from the neck of all nations within the space of two full years. And the prophet Jeremiah went his way.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 28:17",
+        "source": "So Hananiah the prophet died the same year in the seventh month.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "25:1": [
+        "four:ord year",
+        "first year",
+        "kjv_nebuchadrezzar"
+      ],
+      "25:2": [
+        "all people of kjv_judah",
+        "all inhabit:ag:pl"
+      ],
+      "25:3": [
+        "twelve and one_num:ord",
+        "twelve and eleven:ord",
+        "i to you speak:perf",
+        "listen:neg:perf"
+      ],
+      "25:4": [
+        "nor your/ear:a bend:neg:perf"
+      ],
+      "25:5": [
+        "each now from his/evil way",
+        "forever and forever"
+      ],
+      "25:6": [
+        "go:neg:imp",
+        "kjv_provoke:neg:imp",
+        "no hurt"
+      ],
+      "25:7": [
+        "to your/own hurt"
+      ],
+      "25:8": [
+        "mypl/word:pl:a hear:neg:perf"
+      ],
+      "25:9": [
+        "mypl/servant",
+        "all kjv_family:pl:a of kjv_north",
+        "perpetual"
+      ],
+      "25:10": [
+        "kjv_millstone:pl",
+        "light:a of candle"
+      ],
+      "25:11": [
+        "five+twelve and ten year:pl"
+      ],
+      "25:12": [
+        "five+twelve and ten year:pl",
+        "king:a of kjv_babylon",
+        "land:a of kjv_chaldean:pl"
+      ],
+      "25:13": [
+        "all which in this book write:psv:pr"
+      ],
+      "25:14": [
+        "they:a also for themselves serve:caus:fu"
+      ],
+      "25:15": [
+        "to i say:pr",
+        "at mypl/hand",
+        "drink:caus:imp"
+      ],
+      "25:16": [
+        "move:psv:fu",
+        "mad be:fu"
+      ],
+      "25:17": [
+        "i cup:a at kjv_lord/hand take:pa",
+        "drink:caus:pa"
+      ],
+      "25:18": [
+        "as it this day be:pr"
+      ],
+      "25:19": [
+        "kjv_pharaoh king of egypt"
+      ],
+      "25:20": [
+        "mix:psv:adj people",
+        "kjv_uz_job_land",
+        "remain:adj part of kjv_ashdod"
+      ],
+      "25:21": [
+        "kjv_edom and kjv_moab",
+        "child:pl of kjv_ammon"
+      ],
+      "25:22": [
+        "kjv_tyrus",
+        "kjv_zidon",
+        "beyond sea"
+      ],
+      "25:23": [
+        "kjv_dedan_people",
+        "kjv_tema_people",
+        "kjv_buz_people",
+        "most far corner:pl"
+      ],
+      "25:24": [
+        "mix:psv:adj people",
+        "dry land"
+      ],
+      "25:25": [
+        "kjv_zimri_region",
+        "kjv_elam",
+        "kjv_mede:pl"
+      ],
+      "25:26": [
+        "each with other",
+        "kjv_sheshach after they drink:fu"
+      ],
+      "25:27": [
+        "kjv_vomit:imp",
+        "no more rise:imp"
+      ],
+      "25:28": [
+        "refuse:pr",
+        "surely drink:fu"
+      ],
+      "25:29": [
+        "punish:psv:neg:should?",
+        "without punish:ev be:neg:fu"
+      ],
+      "25:30": [
+        "from on high roar:fu",
+        "with might",
+        "grape:pl:a tread:pr"
+      ],
+      "25:31": [
+        "kjv_litigate:ev:a",
+        "with all flesh kjv_litigate:fu"
+      ],
+      "25:32": [
+        "from nation to nation",
+        "boundary:pl of earth"
+      ],
+      "25:33": [
+        "other end of earth",
+        "lament:psv:neg:fu",
+        "gather:psv:neg:fu",
+        "bury:psv:neg:fu"
+      ],
+      "25:34": [
+        "yourselves:a in kjv_ashes roll:imp",
+        "principal human:pl",
+        "pleasing vessel"
+      ],
+      "25:35": [
+        "no way:a to flee:inf",
+        "nor principal human:pl"
+      ],
+      "25:36": [
+        "their/kjv_pasture:a spoil:perf"
+      ],
+      "25:37": [
+        "peace:adj dwell:ev place:pl"
+      ],
+      "25:38": [
+        "his/kjv_den_shelter:a",
+        "fierce:ev of oppress:ag"
+      ],
+      "26:1": [
+        "kjv_jehoiakim son of kjv_josiah_amon"
+      ],
+      "26:2": [
+        "kjv_court_enclosure",
+        "word:a diminish:neg:imp"
+      ],
+      "26:3": [
+        "ipl of evil repent:may",
+        "ipl to they do:inf purpose:pr"
+      ],
+      "26:4": [
+        "mypl/law",
+        "ipl before you set:perf"
+      ],
+      "26:5": [
+        "early up rise:cv",
+        "listen:neg:perf"
+      ],
+      "26:6": [
+        "like kjv_shiloh",
+        "curse to all nation:pl"
+      ],
+      "26:7": [
+        "priest:pl and kjv_prophet:pl and all people"
+      ],
+      "26:8": [
+        "thou surely die:fu"
+      ],
+      "26:9": [
+        "without inhabit:ag",
+        "against kjv_jeremiah_prophet"
+      ],
+      "26:10": [
+        "new gate"
+      ],
+      "26:11": [
+        "worthy be:pr to die:inf"
+      ],
+      "26:12": [
+        "kjv_lord i:a send:pa"
+      ],
+      "26:13": [
+        "amend:imp",
+        "kjv_lord of evil repent:fu"
+      ],
+      "26:14": [
+        "i in your/hand",
+        "good and fitting"
+      ],
+      "26:15": [
+        "if you i:a to death put:pr",
+        "innocent blood:a"
+      ],
+      "26:16": [
+        "worthy be:neg:pr",
+        "to wesg",
+        "ourone/god"
+      ],
+      "26:17": [
+        "some of kjv_elder:pl"
+      ],
+      "26:18": [
+        "kjv_micah_morasthite kjv_morasthite",
+        "plough:psv:fu",
+        "kjv_heap:pl"
+      ],
+      "26:19": [
+        "he:a at all to death put:pa?",
+        "fear:neg:pa",
+        "wesg great evil:a against ourone/soul:pl"
+      ],
+      "26:20": [
+        "kjv_urijah_shemaiah son of kjv_shemaiah_urijah",
+        "kjv_kirjathjearim"
+      ],
+      "26:21": [
+        "afraid be:pa",
+        "into egypt go:pa"
+      ],
+      "26:22": [
+        "kjv_elnathan_achbor son of kjv_achbor_elnathan"
+      ],
+      "26:23": [
+        "with sword slay:pa",
+        "grave:pl of common people"
+      ],
+      "26:24": [
+        "kjv_ahikam son of kjv_shaphan",
+        "give:neg:should"
+      ],
+      "27:1": [
+        "kjv_jehoiakim",
+        "kjv_josiah_amon"
+      ],
+      "27:2": [
+        "to i",
+        "kjv_binding_restraint:pl:a and yoke:pl:a",
+        "upon thy/neck"
+      ],
+      "27:3": [
+        "kjv_zedekiah_king",
+        "by hand of messenger:pl"
+      ],
+      "27:4": [
+        "to their/master:pl",
+        "to your/master:pl"
+      ],
+      "27:5": [
+        "mypl/great power",
+        "mypl/out stretch:psv:adj arm",
+        "fitting seem:pa"
+      ],
+      "27:6": [
+        "nebuchadnezzar",
+        "mypl/servant",
+        "beast:pl:a of field"
+      ],
+      "27:7": [
+        "his/son/son:a",
+        "he:a for themselves serve:caus:fu"
+      ],
+      "27:8": [
+        "serve:neg:fu",
+        "put:neg:fu",
+        "by his/hand consume:perf"
+      ],
+      "27:9": [
+        "your/kjv_divine:ag:pl:a",
+        "your/enchant:ag:pl:a",
+        "serve:neg:fu"
+      ],
+      "27:10": [
+        "far from your/land remove:inf"
+      ],
+      "27:11": [
+        "remain:inf allow:fu",
+        "it:a kjv_till_land:fu"
+      ],
+      "27:12": [
+        "i also to kjv_zedekiah_king",
+        "your/neck:pl:a"
+      ],
+      "27:13": [
+        "thou and thy/people",
+        "serve:neg:fu"
+      ],
+      "27:14": [
+        "hear:neg:imp",
+        "kjv_lie_false:a kjv_prophesy:pr"
+      ],
+      "27:15": [
+        "ipl they:a send:neg:perf",
+        "mypl/name",
+        "you and kjv_prophet:pl"
+      ],
+      "27:16": [
+        "also i",
+        "now soon",
+        "from kjv_babylon again bring:psv:fu"
+      ],
+      "27:17": [
+        "kjv_desolate make:psv:should"
+      ],
+      "27:18": [
+        "if they kjv_prophet:pl",
+        "if word of kjv_lord",
+        "go:neg:opt"
+      ],
+      "27:19": [
+        "kjv_pillar:pl",
+        "kjv_sea_basin",
+        "base:pl"
+      ],
+      "27:20": [
+        "take:neg:pa",
+        "kjv_jeconiah:a son of kjv_jehoiakim"
+      ],
+      "27:21": [
+        "remain:pr"
+      ],
+      "27:22": [
+        "until day that ipl they:a visit:pr",
+        "to this place restore:fu"
+      ],
+      "28:1": [
+        "four:ord year",
+        "five:ord month",
+        "kjv_hananiah_azur son of kjv_azur_hananiah",
+        "kjv_gibeon"
+      ],
+      "28:2": [
+        "ipl yoke:a of king of kjv_babylon break:perf"
+      ],
+      "28:3": [
+        "within two full year:pl",
+        "all vessel:pl:a"
+      ],
+      "28:4": [
+        "kjv_jeconiah:a son of kjv_jehoiakim",
+        "ipl yoke:a"
+      ],
+      "28:5": [
+        "kjv_prophet kjv_hananiah_azur",
+        "all people"
+      ],
+      "28:6": [
+        "amen",
+        "so do:opt",
+        "thy/word:pl:a perform:opt"
+      ],
+      "28:7": [
+        "i in thy/ear:pl"
+      ],
+      "28:8": [
+        "before i and before thee",
+        "war and of evil and of kjv_pestilence"
+      ],
+      "28:9": [
+        "when word of kjv_prophet come:fu to be",
+        "truly he:a send:perf"
+      ],
+      "28:10": [
+        "from off kjv_prophet kjv_jeremiah_prophet/neck",
+        "it:a break:pa"
+      ],
+      "28:11": [
+        "within space of two full year:pl",
+        "kjv_jeremiah_prophet his/way go:pa"
+      ],
+      "28:12": [
+        "after that kjv_hananiah_azur"
+      ],
+      "28:13": [
+        "thou yoke:pl:a of wood break:perf",
+        "thou for they yoke:pl:a of iron make:fu"
+      ],
+      "28:14": [
+        "ipl yoke:a of iron",
+        "they he:a serve:fu",
+        "beast:pl:a of field"
+      ],
+      "28:15": [
+        "kjv_lord thee:a send:neg:perf",
+        "in kjv_lie_false trust:caus:pr"
+      ],
+      "28:16": [
+        "this year thou die:fu",
+        "rebellion:a teach:perf"
+      ],
+      "28:17": [
+        "same year in seven:ord month die:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "25:15",
+        "25:17",
+        "25:3",
+        "26:12",
+        "26:14",
+        "26:15",
+        "27:12",
+        "27:16",
+        "27:2",
+        "28:1",
+        "28:7",
+        "28:8"
+      ],
+      "ipl": [
+        "25:10",
+        "25:12",
+        "25:13",
+        "25:14",
+        "25:15",
+        "25:16",
+        "25:27",
+        "25:29",
+        "25:6",
+        "25:7",
+        "25:9",
+        "26:2",
+        "26:3",
+        "26:4",
+        "26:5",
+        "26:6",
+        "27:10",
+        "27:11",
+        "27:15",
+        "27:22",
+        "27:5",
+        "27:6",
+        "27:8",
+        "28:11",
+        "28:14",
+        "28:16",
+        "28:2",
+        "28:3",
+        "28:4"
+      ],
+      "wesg": [
+        "26:16",
+        "26:19"
+      ],
+      "wepl": [],
+      "mypl": [
+        "25:13",
+        "25:15",
+        "25:29",
+        "25:8",
+        "25:9",
+        "26:4",
+        "26:5",
+        "27:15",
+        "27:5",
+        "27:6"
+      ],
+      "ourone": [
+        "26:16",
+        "26:19"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Seventy years25:11/12 equals five twelves plus ten.",
+      "Jehoiakim/Zedekiah headings retained without harmonization;two full years remain the disputed claim.",
+      "No inferred interval or count of divine persons."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah25–28 adds101 verses,total689;whole Bible incomplete.",
+      "Claimed divine plural-I does not certify Hananiahs commission;personal messenger and communal judging voices remain distinct.",
+      "Three common senses and fourteen contextual names added;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 560,
+    "spreads": 280,
+    "units": 689,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "4aa96272983a1252b5ab7b1cd2a46934ff01b358cc0d03db4842657a84af21e6",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 280,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.81,
+    "modules": [
+      "tests.test_kjv_jeremiah_contested_commissions",
+      "tests.test_kjv_jeremiah_burden_wordplay",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    559,
+    560
+  ],
+  "status": "incomplete Bible;Jeremiah1–28 section checkpoint verified"
+}

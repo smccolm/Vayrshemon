@@ -1,0 +1,838 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.210",
+    "parentVersion": "0.10-kjv.209",
+    "parentHead": "58a521b37d81f7e4e163838fd89dd4b8da2fc2cf13349c4552745adfb3e632da",
+    "head": "86585d00b69935d3b7d64f7260505ea6635a44dadb3fddb4326ab0d76d8bedc4",
+    "newLexicalEntries": 4,
+    "newProperEntries": 1,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 95,
+    "exactCompilerCases": 95,
+    "newAuthoredVerses": 95,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 933,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 5275,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newLukeVerses": 95,
+    "lukeVerses": 933,
+    "authoredVerses": 25827,
+    "remainingVerses": 5275,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 17,
+    "quantityChecks": [
+      {
+        "reference": "Luke 19:8",
+        "source": "And Zacchaeus stood, and said unto the Lord: Behold, Lord, the half of my goods I give to the poor; and if I have taken any thing from any man by false accusation, I restore him fourfold.",
+        "expectedDecimalQuantities": [
+          0.5,
+          4
+        ],
+        "targetQuantities": [
+          0.5,
+          4
+        ]
+      },
+      {
+        "reference": "Luke 19:13",
+        "source": "And he called his ten servants, and delivered them ten pounds, and said unto them, Occupy till I come.",
+        "expectedDecimalQuantities": [
+          10,
+          10
+        ],
+        "targetQuantities": [
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "Luke 19:16",
+        "source": "Then came the first, saying, Lord, thy pound hath gained ten pounds.",
+        "expectedDecimalQuantities": [
+          1,
+          10
+        ],
+        "targetQuantities": [
+          1,
+          10
+        ]
+      },
+      {
+        "reference": "Luke 19:17",
+        "source": "And he said unto him, Well, thou good servant: because thou hast been faithful in a very little, have thou authority over ten cities.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Luke 19:18",
+        "source": "And the second came, saying, Lord, thy pound hath gained five pounds.",
+        "expectedDecimalQuantities": [
+          2,
+          5
+        ],
+        "targetQuantities": [
+          2,
+          5
+        ]
+      },
+      {
+        "reference": "Luke 19:19",
+        "source": "And he said likewise to him, Be thou also over five cities.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Luke 19:24",
+        "source": "And he said unto them that stood by, Take from him the pound, and give it to him that hath ten pounds.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Luke 19:25",
+        "source": "(And they said unto him, Lord, he hath ten pounds.)",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Luke 19:29",
+        "source": "And it came to pass, when he was come nigh to Bethphage and Bethany, at the mount called the mount of Olives, he sent two of his disciples,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 19:44",
+        "source": "And shall lay thee even with the ground, and thy children within thee; and they shall not leave in thee one stone upon another; because thou knewest not the time of thy visitation.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 20:1",
+        "source": "And it came to pass, that on one of those days, as he taught the people in the temple, and preached the gospel, the chief priests and the scribes came upon him with the elders,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 20:3",
+        "source": "And he answered and said unto them, I will also ask you one thing; and answer me:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 20:12",
+        "source": "And again he sent a third: and they wounded him also, and cast him out.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Luke 20:29",
+        "source": "There were therefore seven brethren: and the first took a wife, and died without children.",
+        "expectedDecimalQuantities": [
+          7,
+          1
+        ],
+        "targetQuantities": [
+          7,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 20:30",
+        "source": "And the second took her to wife, and he died childless.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 20:31",
+        "source": "And the third took her; and in like manner the seven also: and they left no children, and died.",
+        "expectedDecimalQuantities": [
+          3,
+          7
+        ],
+        "targetQuantities": [
+          3,
+          7
+        ]
+      },
+      {
+        "reference": "Luke 20:33",
+        "source": "Therefore in the resurrection whose wife of them is she? for seven had her to wife.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "19:1": [
+        "into kjv_jericho enter:pa",
+        "through pass:pa"
+      ],
+      "19:2": [
+        "kjv_zacchaeus_luke",
+        "among kjv_publican:pl chief",
+        "rich"
+      ],
+      "19:3": [
+        "who be:pa see:inf seek:pa",
+        "kjv_multitude",
+        "in stature little"
+      ],
+      "19:4": [
+        "before run:pa",
+        "kjv_sycomore kjv_tree up climb:pa",
+        "that way pass"
+      ],
+      "19:5": [
+        "up look:pa",
+        "kjv_zacchaeus_luke haste",
+        "today ipl at thy/house stay:must"
+      ],
+      "19:6": [
+        "haste make:pa",
+        "down come:pa",
+        "joy:adv receive:pa"
+      ],
+      "19:7": [
+        "they all kjv_murmur:pa",
+        "sin:ag",
+        "guest be:inf"
+      ],
+      "19:8": [
+        "half of my/kjv_goods",
+        "i to poor person:pl give:pr",
+        "if",
+        "false accusation",
+        "four kjv_fold restore:pr"
+      ],
+      "19:9": [
+        "this day to this house salvation",
+        "he also son of kjv_abraham"
+      ],
+      "19:10": [
+        "son of man",
+        "lose:psv:pa seek:inf and save:inf"
+      ],
+      "19:11": [
+        "near kjv_jerusalem",
+        "kingdom of god immediately appear:should think:pa"
+      ],
+      "19:12": [
+        "certain nobleman",
+        "far country",
+        "for himself kingdom receive:inf and return:inf"
+      ],
+      "19:13": [
+        "his/ten servant:pl",
+        "ten kjv_pound_money",
+        "until i come:pr trade:imp"
+      ],
+      "19:14": [
+        "citizen:pl he:a hate:pa",
+        "kjv_message",
+        "wesg this man over wesg rule:inf will:neg:pr"
+      ],
+      "19:15": [
+        "return:pp kingdom receive:perf",
+        "money give:pp",
+        "each man by trade:ev gain:pp"
+      ],
+      "19:16": [
+        "first",
+        "thy/kjv_pound_money ten kjv_pound_money:pl gain:perf"
+      ],
+      "19:17": [
+        "faithful",
+        "very little",
+        "over ten city:pl authority"
+      ],
+      "19:18": [
+        "second",
+        "thy/kjv_pound_money five kjv_pound_money:pl"
+      ],
+      "19:19": [
+        "over five city:pl"
+      ],
+      "19:20": [
+        "another",
+        "thy/kjv_pound_money",
+        "i in kjv_napkin_cloth",
+        "keep:perf"
+      ],
+      "19:21": [
+        "i thou:a fear:pa",
+        "austere",
+        "down lay:neg:pa up take:pr",
+        "kjv_sow:neg:pa reap:pr"
+      ],
+      "19:22": [
+        "from thine/own mouth i thou:a judge:fu",
+        "wicked servant",
+        "i austere",
+        "i down lay:neg:pa",
+        "i kjv_sow:neg:pa"
+      ],
+      "19:23": [
+        "my/money into kjv_bank_financial",
+        "my/come:ev",
+        "i mine/own with kjv_usury require:may"
+      ],
+      "19:24": [
+        "from he kjv_pound_money take:imp",
+        "ten kjv_pound_money:pl"
+      ],
+      "19:25": [
+        "lord he ten kjv_pound_money:pl"
+      ],
+      "19:26": [
+        "for i to you say:pr",
+        "every person who have:pr",
+        "even that which have:pr",
+        "away take:psv:fu"
+      ],
+      "19:27": [
+        "mine/enemy:pl",
+        "i over they rule:should",
+        "before i they:a slay:imp"
+      ],
+      "19:28": [
+        "when thus speak:pp",
+        "before go:pa",
+        "kjv_jerusalem"
+      ],
+      "19:29": [
+        "kjv_bethphage and kjv_bethany",
+        "mountain of kjv_olive:pl",
+        "two of his/disciple:pl"
+      ],
+      "19:30": [
+        "opposite you:du",
+        "enter:ev of you:du",
+        "tied kjv_colt_source",
+        "yet never man sit:perf",
+        "loose:imp"
+      ],
+      "19:31": [
+        "any man you:du:a ask:pr",
+        "why you:du",
+        "because lord he:a need:pr"
+      ],
+      "19:32": [
+        "they:du who send:psv:pa",
+        "as to they:du say:pp find:pa"
+      ],
+      "19:33": [
+        "they:du kjv_colt_source",
+        "owner:pl",
+        "to they:du",
+        "why you:du"
+      ],
+      "19:34": [
+        "they:du say:pa",
+        "lord he:a need:pr"
+      ],
+      "19:35": [
+        "they:du to kjv_jesus_matthew",
+        "garment:pl upon kjv_colt_source",
+        "kjv_jesus_matthew on it set:pa"
+      ],
+      "19:36": [
+        "their/clothes in way spread:pa"
+      ],
+      "19:37": [
+        "down go:ev of mountain of kjv_olive:pl",
+        "whole kjv_multitude of disciple:pl",
+        "loud voice",
+        "all mighty work:pl that see:pp"
+      ],
+      "19:38": [
+        "king who in name of lord come:pr",
+        "peace in heaven",
+        "glory in highest"
+      ],
+      "19:39": [
+        "some kjv_pharisee:pl",
+        "thy/disciple:pl rebuke:imp"
+      ],
+      "19:40": [
+        "ipl to you tell:pr",
+        "if these silent",
+        "stone:pl immediately out cry:should"
+      ],
+      "19:41": [
+        "city behold:pa",
+        "over it weep:pa"
+      ],
+      "19:42": [
+        "if thou know:pp",
+        "thy/peace belong:pr:excl",
+        "from thine/eye:pl hide:psv:pr"
+      ],
+      "19:43": [
+        "thine/enemy:pl",
+        "kjv_trench_siege",
+        "round surround:fu",
+        "every side"
+      ],
+      "19:44": [
+        "thy/child:pl within thou",
+        "with ground even lay:fu",
+        "one_num stone upon another leave:neg:fu",
+        "thy/visit:ev know:neg:pa"
+      ],
+      "19:45": [
+        "into kjv_temple",
+        "sell:pa",
+        "buy:pa",
+        "out cast:inf"
+      ],
+      "19:46": [
+        "write:psv:perf mypl/house",
+        "house of prayer",
+        "kjv_den_shelter of thief:pl"
+      ],
+      "19:47": [
+        "daily in kjv_temple teach:pa",
+        "chief priest:pl",
+        "kjv_scribe:pl",
+        "chief of people",
+        "destroy:inf seek:pa"
+      ],
+      "19:48": [
+        "find:inf able:neg:pa",
+        "all people he:a hear:inf very attend:adj"
+      ],
+      "20:1": [
+        "one_num of those day:pl",
+        "kjv_temple",
+        "kjv_gospel proclaim:pa",
+        "chief priest:pl and kjv_scribe:pl with kjv_elder:pl"
+      ],
+      "20:2": [
+        "to wesg tell:imp",
+        "by what authority",
+        "who this authority to thou give:pa:q"
+      ],
+      "20:3": [
+        "ipl also one_num thing",
+        "ipl:a answer:imp"
+      ],
+      "20:4": [
+        "kjv_baptize:ev of kjv_john_baptist",
+        "from heaven or of man:pl"
+      ],
+      "20:5": [
+        "among themselves think:pa",
+        "wesg from heaven",
+        "believe:neg:pa"
+      ],
+      "20:6": [
+        "wesg of man:pl",
+        "all people with stone:pl wesg:a kill:fu",
+        "kjv_john_baptist prophet"
+      ],
+      "20:7": [
+        "from where",
+        "tell:inf able:neg:pa"
+      ],
+      "20:8": [
+        "neither ipl",
+        "what authority",
+        "ipl do:pr"
+      ],
+      "20:9": [
+        "kjv_vineyard plant:pa",
+        "kjv_husbandman:pl kjv_lease_property:pa",
+        "far country for long time"
+      ],
+      "20:10": [
+        "at season",
+        "fruit of kjv_vineyard",
+        "beat:pa",
+        "empty away send:pa"
+      ],
+      "20:11": [
+        "another servant",
+        "beat:pa",
+        "shame:adv treat:pa",
+        "empty away send:pa"
+      ],
+      "20:12": [
+        "third",
+        "wound:pa",
+        "out cast:pa"
+      ],
+      "20:13": [
+        "what i do:fu:q",
+        "i my/beloved son send:fu",
+        "perhaps",
+        "kjv_revere:fu"
+      ],
+      "20:14": [
+        "this heir",
+        "wesg he:a kill:opt",
+        "inheritance of wesg"
+      ],
+      "20:15": [
+        "out of kjv_vineyard he:a cast:pa and he:a kill:pa",
+        "what therefore"
+      ],
+      "20:16": [
+        "destroy:fu",
+        "kjv_vineyard to other person:pl",
+        "god forbid:opt"
+      ],
+      "20:17": [
+        "stone which build:ag:pl reject:pa",
+        "head of corner become:perf"
+      ],
+      "20:18": [
+        "upon that stone fall:fu break:psv:fu",
+        "on whoever it fall:fu",
+        "to kjv_powder kjv_grind:fu"
+      ],
+      "20:19": [
+        "same hour",
+        "hand:pl lay:inf",
+        "people fear:pa",
+        "against they"
+      ],
+      "20:20": [
+        "spy:pl",
+        "kjv_righteous man:pl feign:should",
+        "power and authority of kjv_governor"
+      ],
+      "20:21": [
+        "wesg know:pr",
+        "rightly",
+        "neither person of any accept:pr",
+        "way of god truly"
+      ],
+      "20:22": [
+        "for wesg",
+        "kjv_caesar_ruler kjv_tribute",
+        "lawful",
+        "or no:q"
+      ],
+      "20:23": [
+        "their/kjv_guile",
+        "why ipl:a tempt:pr:q"
+      ],
+      "20:24": [
+        "to ipl kjv_penny_source",
+        "image and kjv_inscription_mark",
+        "of kjv_caesar_ruler"
+      ],
+      "20:25": [
+        "to kjv_caesar_ruler",
+        "to god",
+        "render:imp"
+      ],
+      "20:26": [
+        "before people",
+        "hold:inf able:neg:pa",
+        "marvel:pa",
+        "silent be:pa"
+      ],
+      "20:27": [
+        "certain kjv_sadducee:pl",
+        "kjv_resurrection",
+        "deny:pr"
+      ],
+      "20:28": [
+        "kjv_moses to wesg",
+        "his/brother his/wife take:should",
+        "to his/brother seed up raise:should"
+      ],
+      "20:29": [
+        "seven brother:pl",
+        "first wife take:pa",
+        "without child:pl die:pa"
+      ],
+      "20:30": [
+        "second she:a for wife take:pa",
+        "without child:pl die:pa"
+      ],
+      "20:31": [
+        "third",
+        "seven also",
+        "no child:pl leave:pa"
+      ],
+      "20:32": [
+        "last of all woman also die:pa"
+      ],
+      "20:33": [
+        "in kjv_resurrection",
+        "wife of whom",
+        "seven"
+      ],
+      "20:34": [
+        "child:pl of this world",
+        "marry:pr and in marriage give:psv:pr"
+      ],
+      "20:35": [
+        "worthy account:psv:fu",
+        "neither marry:pr nor in marriage give:psv:pr"
+      ],
+      "20:36": [
+        "neither any more die:inf able:pr",
+        "equal to angel:pl",
+        "child:pl of god",
+        "child:pl of kjv_resurrection"
+      ],
+      "20:37": [
+        "kjv_moses at bush",
+        "god of kjv_abraham",
+        "god of kjv_isaac",
+        "god of kjv_jacob"
+      ],
+      "20:38": [
+        "god of dead person:pl be:neg:pr",
+        "person:pl who live:pr",
+        "all to he live:pr"
+      ],
+      "20:39": [
+        "certain kjv_scribe:pl",
+        "well say:perf"
+      ],
+      "20:40": [
+        "any question at all",
+        "ask:inf dare:neg:pa"
+      ],
+      "20:41": [
+        "kjv_christ_title son of kjv_david",
+        "say:pr:q"
+      ],
+      "20:42": [
+        "book of kjv_psalm:pl",
+        "kjv_lord to my/lord",
+        "mypl/kjv_right_side hand"
+      ],
+      "20:43": [
+        "until ipl thine/enemy:pl thy/kjv_footstool"
+      ],
+      "20:44": [
+        "kjv_david he:a lord call:pr",
+        "his/son be:pr:q"
+      ],
+      "20:45": [
+        "in hearing of all people",
+        "to his/disciple:pl"
+      ],
+      "20:46": [
+        "long kjv_robe:pl",
+        "greeting:pl in market:pl",
+        "highest seat:pl in kjv_synagogue:pl",
+        "chief place:pl at feast:pl"
+      ],
+      "20:47": [
+        "widow:pl house:pl devour:pr",
+        "for show long prayer:pl",
+        "greater condemn:ev"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "19:13",
+        "19:20",
+        "19:21",
+        "19:22",
+        "19:23",
+        "19:26",
+        "19:27",
+        "19:8",
+        "20:13"
+      ],
+      "ipl": [
+        "19:40",
+        "19:5",
+        "20:23",
+        "20:24",
+        "20:3",
+        "20:43",
+        "20:8"
+      ],
+      "wesg": [
+        "19:14",
+        "20:14",
+        "20:2",
+        "20:21",
+        "20:22",
+        "20:28",
+        "20:5",
+        "20:6"
+      ],
+      "wepl": [],
+      "mypl": [
+        "19:46",
+        "20:42"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "19:32",
+        "19:33",
+        "19:34",
+        "19:35"
+      ],
+      "you:du": [
+        "19:30",
+        "19:31",
+        "19:33"
+      ]
+    },
+    "physicalDualReferences": [
+      "19:30",
+      "19:31",
+      "19:32",
+      "19:33",
+      "19:34",
+      "19:35"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Half goods and fourfold conditional restitution retained.",
+      "Ten servants/ten pounds,first gain10and10cities,second gain5and5cities kept distinct from talents.",
+      "Two commissioned disciples and seven-brother hypothetical retain source counts and ordinals."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "95new verses;933Luke total;whole Bible remains incomplete.",
+      "Parable ruler personal-I retained through19:26with framing ambiguity documented.",
+      "Nested David-my/LORD-my-plural/I-plural voices kept separate.",
+      "Three common and one proper entry;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Luke — incomplete Bible working text",
+    "pages": 530,
+    "spreads": 265,
+    "units": 933,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c215a9ed3eaee8dc26462edafc7f56a26b540cf56bde0f934d55e71b7d23b91f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.529785000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 265,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.407,
+    "modules": [
+      "tests.test_kjv_luke_nested_authority",
+      "tests.test_kjv_luke_shared_obligation",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    529,
+    530
+  ],
+  "status": "incomplete Bible;Luke1–20 section checkpoint verified"
+}

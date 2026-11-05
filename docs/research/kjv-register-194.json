@@ -1,0 +1,1096 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.194",
+    "parentVersion": "0.10-kjv.193",
+    "parentHead": "fd9bfb7605e564f6c901f3d832eeebc270ec8c9200ea8b9f6acd6136367d11c6",
+    "head": "2fbd4c7ebf18171b8fde4ae33a970f560d7078baedf6f10a87b3b8404e2fca85",
+    "newLexicalEntries": 11,
+    "newProperEntries": 3,
+    "newCommonEntries": 8,
+    "newSurfaceForms": 9,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 136,
+    "exactCompilerCases": 136,
+    "newAuthoredVerses": 136,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 910,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 7047,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newMatthewVerses": 136,
+    "matthewVerses": 910,
+    "authoredVerses": 24055,
+    "remainingVerses": 7047,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 22,
+    "quantityChecks": [
+      {
+        "reference": "Matthew 23:4",
+        "source": "For they bind heavy burdens and grievous to be borne, and lay them on men’s shoulders; but they themselves will not move them with one of their fingers.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 23:8",
+        "source": "But be not ye called Rabbi: for one is your Master, even Christ; and all ye are brethren.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 23:9",
+        "source": "And call no man your father upon the earth: for one is your Father, which is in heaven.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 23:10",
+        "source": "Neither be ye called masters: for one is your Master, even Christ.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 23:15",
+        "source": "Woe unto you, scribes and Pharisees, hypocrites! for ye compass sea and land to make one proselyte, and when he is made, ye make him twofold more the child of hell than yourselves.",
+        "expectedDecimalQuantities": [
+          1,
+          2
+        ],
+        "targetQuantities": [
+          1,
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 23:26",
+        "source": "Thou blind Pharisee, cleanse first that which is within the cup and platter, that the outside of them may be clean also.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 24:2",
+        "source": "And Jesus said unto them, See ye not all these things? verily I say unto you, There shall not be left here one stone upon another, that shall not be thrown down.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 24:31",
+        "source": "And he shall send his angels with a great sound of a trumpet, and they shall gather together his elect from the four winds, from one end of heaven to the other.",
+        "expectedDecimalQuantities": [
+          4,
+          1
+        ],
+        "targetQuantities": [
+          4,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 24:40",
+        "source": "Then shall two be in the field; the one shall be taken, and the other left.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 24:41",
+        "source": "Two women shall be grinding at the mill; the one shall be taken, and the other left.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 25:1",
+        "source": "Then shall the kingdom of heaven be likened unto ten virgins, which took their lamps, and went forth to meet the bridegroom.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Matthew 25:2",
+        "source": "And five of them were wise, and five were foolish.",
+        "expectedDecimalQuantities": [
+          5,
+          5
+        ],
+        "targetQuantities": [
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "Matthew 25:15",
+        "source": "And unto one he gave five talents, to another two, and to another one; to every man according to his several ability; and straightway took his journey.",
+        "expectedDecimalQuantities": [
+          1,
+          5,
+          2,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          5,
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 25:16",
+        "source": "Then he that had received the five talents went and traded with the same, and made them other five talents.",
+        "expectedDecimalQuantities": [
+          5,
+          5
+        ],
+        "targetQuantities": [
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "Matthew 25:17",
+        "source": "And likewise he that had received two, he also gained other two.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 25:18",
+        "source": "But he that had received one went and digged in the earth, and hid his lord’s money.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 25:20",
+        "source": "And so he that had received five talents came and brought other five talents, saying, Lord, thou deliveredst unto me five talents: behold, I have gained beside them five talents more.",
+        "expectedDecimalQuantities": [
+          5,
+          5,
+          5,
+          5
+        ],
+        "targetQuantities": [
+          5,
+          5,
+          5,
+          5
+        ]
+      },
+      {
+        "reference": "Matthew 25:22",
+        "source": "He also that had received two talents came and said, Lord, thou deliveredst unto me two talents: behold, I have gained two other talents beside them.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Matthew 25:24",
+        "source": "Then he which had received the one talent came and said, Lord, I knew thee that thou art an hard man, reaping where thou hast not sown, and gathering where thou hast not strawed:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 25:28",
+        "source": "Take therefore the talent from him, and give it unto him which hath ten talents.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Matthew 25:40",
+        "source": "And the King shall answer and say unto them, Verily I say unto you, Inasmuch as ye have done it unto one of the least of these my brethren, ye have done it unto me.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Matthew 25:45",
+        "source": "Then shall he answer them, saying, Verily I say unto you, Inasmuch as ye did it not to one of the least of these, ye did it not to me.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "23:1": [
+        "to kjv_multitude",
+        "his/disciple:pl"
+      ],
+      "23:2": [
+        "in seat of kjv_moses sit"
+      ],
+      "23:3": [
+        "keep:imp and do:imp",
+        "after their/work:pl do:neg",
+        "say:pr and do:neg"
+      ],
+      "23:4": [
+        "on kjv_shoulder:pl",
+        "one_num of their/finger:pl",
+        "willing:neg"
+      ],
+      "23:5": [
+        "by man:pl see:psv",
+        "kjv_phylactery:pl broad:caus",
+        "kjv_border:pl"
+      ],
+      "23:6": [
+        "highest place:pl at feast:pl",
+        "chief seat:pl in kjv_synagogue:pl"
+      ],
+      "23:7": [
+        "in market:pl",
+        "kjv_rabbi kjv_rabbi"
+      ],
+      "23:8": [
+        "one_num your/master",
+        "kjv_christ_title",
+        "all you brother:pl"
+      ],
+      "23:9": [
+        "on earth no man",
+        "one_num your/father",
+        "in heaven"
+      ],
+      "23:10": [
+        "master:pl call:psv",
+        "one_num your/master",
+        "kjv_christ_title"
+      ],
+      "23:11": [
+        "greatest",
+        "your/servant be:fu"
+      ],
+      "23:12": [
+        "himself kjv_exalt:fu lower:psv",
+        "himself humble:fu kjv_exalt:psv"
+      ],
+      "23:13": [
+        "woe:excl",
+        "neither yourselves in go",
+        "neither they that enter"
+      ],
+      "23:14": [
+        "house:pl of widow:pl devour",
+        "for pretend:ev long prayer",
+        "greater damn:ev"
+      ],
+      "23:15": [
+        "sea and land",
+        "one_num kjv_proselyte",
+        "two kjv_fold more child of hell"
+      ],
+      "23:16": [
+        "blind guide:pl",
+        "by kjv_temple",
+        "by gold of kjv_temple",
+        "debt have:pr"
+      ],
+      "23:17": [
+        "gold or kjv_temple",
+        "gold:a sanctify:pr"
+      ],
+      "23:18": [
+        "by altar",
+        "by gift",
+        "he guilty"
+      ],
+      "23:19": [
+        "gift or altar",
+        "gift:a sanctify:pr"
+      ],
+      "23:20": [
+        "by it and by all thing:pl there upon"
+      ],
+      "23:21": [
+        "by he that in it dwell:pr"
+      ],
+      "23:22": [
+        "throne of god",
+        "he that there upon sit:pr"
+      ],
+      "23:23": [
+        "kjv_mint_herb and kjv_anise and kjv_cummin",
+        "judgment mercy and faith",
+        "other do:psv:neg:adj leave:neg:pp:should"
+      ],
+      "23:24": [
+        "at kjv_gnat kjv_strain_filter",
+        "kjv_camel:a kjv_swallow"
+      ],
+      "23:25": [
+        "outside of cup",
+        "kjv_charger_dish",
+        "within",
+        "extort:ev and excess"
+      ],
+      "23:26": [
+        "thou blind kjv_pharisee first",
+        "within cup",
+        "clean:imp",
+        "outside of they clean:adj"
+      ],
+      "23:27": [
+        "white:caus:psv:adj tomb:pl",
+        "bone:pl of dead man:pl",
+        "all unclean:ev"
+      ],
+      "23:28": [
+        "kjv_righteous appear",
+        "within full of kjv_hypocrisy and kjv_iniquity"
+      ],
+      "23:29": [
+        "tomb:pl of prophet:pl build",
+        "tomb:pl of kjv_righteous person:pl decorate"
+      ],
+      "23:30": [
+        "wesg in day:pl of ourone/father:pl",
+        "part have:neg:pp:should"
+      ],
+      "23:31": [
+        "to yourselves witness:pl",
+        "child:pl of they which prophet:pl kill"
+      ],
+      "23:32": [
+        "measure of your/father:pl up fill:imp"
+      ],
+      "23:33": [
+        "serpent:pl",
+        "kjv_viper:pl",
+        "damn:ev of hell escape:can:q"
+      ],
+      "23:34": [
+        "ipl to you prophet:pl and wise man:pl and kjv_scribe:pl send:pr",
+        "kill:fu and kjv_crucify",
+        "your/kjv_synagogue:pl",
+        "city to city"
+      ],
+      "23:35": [
+        "kjv_abel",
+        "kjv_zacharias_barachias son of kjv_barachias",
+        "between kjv_temple and altar"
+      ],
+      "23:36": [
+        "ipl to you",
+        "all these thing:pl upon this generation"
+      ],
+      "23:37": [
+        "kjv_jerusalem kjv_jerusalem thou",
+        "ipl thy/child:pl together gather:inf willing be:pa",
+        "hen her/young offspring:pl",
+        "you willing:neg:pa:excl"
+      ],
+      "23:38": [
+        "your/house",
+        "kjv_desolate leave:psv"
+      ],
+      "23:39": [
+        "you ipl:a henceforth see:neg:fu until",
+        "in name of lord"
+      ],
+      "24:1": [
+        "from kjv_temple depart",
+        "build:ev:pl of kjv_temple"
+      ],
+      "24:2": [
+        "ipl to you",
+        "one_num stone upon another",
+        "leave:psv:neg:fu",
+        "down throw:psv:neg:fu"
+      ],
+      "24:3": [
+        "mountain of kjv_olive:pl",
+        "to wesg tell",
+        "sign of thy/come:ev",
+        "end of world"
+      ],
+      "24:4": [
+        "heed:imp",
+        "no man you deceive"
+      ],
+      "24:5": [
+        "in mypl/name",
+        "say:cv ipl kjv_christ_title be:pr",
+        "many deceive"
+      ],
+      "24:6": [
+        "war:pl and rumour:pl of war:pl",
+        "end not yet"
+      ],
+      "24:7": [
+        "nation against nation",
+        "kingdom against kingdom",
+        "kjv_famine:pl and kjv_pestilence:pl and earthquake:pl"
+      ],
+      "24:8": [
+        "beginning of sorrow:pl"
+      ],
+      "24:9": [
+        "kjv_afflict:psv",
+        "kill:fu",
+        "all nation:pl",
+        "mypl/name"
+      ],
+      "24:10": [
+        "many offend:psv",
+        "each other betray",
+        "each other hate"
+      ],
+      "24:11": [
+        "many false prophet:pl",
+        "many deceive"
+      ],
+      "24:12": [
+        "kjv_iniquity abound",
+        "love of many cold become"
+      ],
+      "24:13": [
+        "until end endure",
+        "same save:psv"
+      ],
+      "24:14": [
+        "kjv_gospel of kingdom",
+        "all world",
+        "all nation:pl",
+        "then end come"
+      ],
+      "24:15": [
+        "kjv_abomination of kjv_desolate:ev",
+        "kjv_daniel_captive prophet",
+        "holy place",
+        "whoever read:pr he understand:imp"
+      ],
+      "24:16": [
+        "in kjv_judaea",
+        "into mountain:pl flee"
+      ],
+      "24:17": [
+        "upon house roof",
+        "down come:neg",
+        "anything out of his/house"
+      ],
+      "24:18": [
+        "in field",
+        "back return",
+        "his/clothing"
+      ],
+      "24:19": [
+        "pregnant",
+        "kjv_nurse_feed",
+        "woe:excl"
+      ],
+      "24:20": [
+        "your/flight in winter",
+        "neither on kjv_sabbath day"
+      ],
+      "24:21": [
+        "great kjv_tribulation",
+        "beginning of world",
+        "neither ever"
+      ],
+      "24:22": [
+        "except those day:pl shorten:psv:should",
+        "no flesh save:psv:should",
+        "choose:psv:adj person:pl sake",
+        "shorten:psv:fu"
+      ],
+      "24:23": [
+        "here kjv_christ_title",
+        "or there",
+        "believe:neg:imp"
+      ],
+      "24:24": [
+        "false kjv_christ_title:pl",
+        "false prophet:pl",
+        "sign:pl and wonder:pl",
+        "if it possible",
+        "even choose:psv:adj"
+      ],
+      "24:25": [
+        "ipl to you beforehand tell:perf"
+      ],
+      "24:26": [
+        "kjv_wilderness",
+        "forth go:neg",
+        "secret chamber:pl",
+        "believe:neg"
+      ],
+      "24:27": [
+        "lightning out of east",
+        "until west",
+        "come:ev of son of man"
+      ],
+      "24:28": [
+        "carcass",
+        "kjv_eagle:pl together gather"
+      ],
+      "24:29": [
+        "immediately after kjv_tribulation",
+        "moon her/light give:neg",
+        "star:pl from heaven fall",
+        "power:pl of heaven:pl shake"
+      ],
+      "24:30": [
+        "sign of son of man",
+        "all kjv_tribe:pl of earth mourn",
+        "cloud:pl of heaven",
+        "power and great glory"
+      ],
+      "24:31": [
+        "his/angel:pl",
+        "sound of trumpet",
+        "four wind:pl",
+        "one_num end of heaven"
+      ],
+      "24:32": [
+        "fig kjv_tree",
+        "his/branch yet tender",
+        "leaf:pl",
+        "summer near"
+      ],
+      "24:33": [
+        "all these thing:pl",
+        "it near",
+        "at door:pl"
+      ],
+      "24:34": [
+        "ipl to you",
+        "this generation pass:neg:fu until all these thing:pl fulfil"
+      ],
+      "24:35": [
+        "heaven and earth away pass:fu",
+        "mypl/word:pl away pass:neg"
+      ],
+      "24:36": [
+        "day and hour no man know",
+        "not angel:pl of heaven",
+        "mypl/father only"
+      ],
+      "24:37": [
+        "day:pl of kjv_noe_matthew",
+        "come:ev of son of man"
+      ],
+      "24:38": [
+        "eat:pprog and drink:pprog",
+        "marry:cv and in marriage give:cv",
+        "kjv_flood_ark"
+      ],
+      "24:39": [
+        "know:neg:pa until flood",
+        "all away take"
+      ],
+      "24:40": [
+        "two in field",
+        "they:du one_num take:psv",
+        "other leave:psv"
+      ],
+      "24:41": [
+        "two woman:pl at kjv_mill kjv_grind",
+        "they:du one_num take:psv",
+        "other leave:psv"
+      ],
+      "24:42": [
+        "what hour your/lord",
+        "know:neg"
+      ],
+      "24:43": [
+        "kjv_watch_period thief",
+        "know:pp",
+        "watch:pp:should",
+        "permit:neg:pp:should"
+      ],
+      "24:44": [
+        "ready be:imp",
+        "hour as you think:neg",
+        "son of man come"
+      ],
+      "24:45": [
+        "faithful and wise servant",
+        "over his/kjv_household ruler",
+        "fitting season food"
+      ],
+      "24:46": [
+        "when come:pr so do:cv find"
+      ],
+      "24:47": [
+        "ipl to you",
+        "over all his/kjv_goods ruler"
+      ],
+      "24:48": [
+        "in his/heart my/lord his/come:ev delay"
+      ],
+      "24:49": [
+        "his/fellow servant:pl strike",
+        "drunk:adj person:pl eat:inf and drink:inf"
+      ],
+      "24:50": [
+        "day when he for he look:neg",
+        "hour that he know:neg"
+      ],
+      "24:51": [
+        "apart cut",
+        "with kjv_hypocrite:pl",
+        "weep:ev and kjv_gnash:ev"
+      ],
+      "25:1": [
+        "ten virgin:pl",
+        "their/lamp:pl",
+        "kjv_bridegroom:a meet"
+      ],
+      "25:2": [
+        "five of they wise",
+        "five foolish"
+      ],
+      "25:3": [
+        "their/lamp:pl",
+        "no oil with they"
+      ],
+      "25:4": [
+        "oil in their/vessel:pl with their/lamp:pl"
+      ],
+      "25:5": [
+        "kjv_bridegroom tarry",
+        "they all slumber:pa and sleep:pa"
+      ],
+      "25:6": [
+        "at midnight",
+        "kjv_bridegroom come",
+        "out go:imp"
+      ],
+      "25:7": [
+        "all those virgin:pl rise",
+        "their/lamp:pl trim"
+      ],
+      "25:8": [
+        "to wesg of your/oil",
+        "ourone/lamp:pl out go:perf"
+      ],
+      "25:9": [
+        "for wesg and you enough be:neg",
+        "they that sell",
+        "for yourselves buy"
+      ],
+      "25:10": [
+        "while they buy:inf",
+        "they that ready",
+        "door shut"
+      ],
+      "25:11": [
+        "other virgin:pl",
+        "lord lord to wesg open"
+      ],
+      "25:12": [
+        "i to you say:pr i you know:neg"
+      ],
+      "25:13": [
+        "neither day nor hour",
+        "son of man come"
+      ],
+      "25:14": [
+        "far country",
+        "his/own servant:pl",
+        "his/kjv_goods deliver"
+      ],
+      "25:15": [
+        "one_num five kjv_talent_money:pl",
+        "another two",
+        "another one_num",
+        "his/separate ability"
+      ],
+      "25:16": [
+        "five kjv_talent_money:pl receive",
+        "with same trade",
+        "other five kjv_talent_money:pl"
+      ],
+      "25:17": [
+        "two receive",
+        "other two gain"
+      ],
+      "25:18": [
+        "one_num receive",
+        "in earth kjv_dig",
+        "money of his/lord hide"
+      ],
+      "25:19": [
+        "after long time",
+        "with they reckon:pr"
+      ],
+      "25:20": [
+        "other five kjv_talent_money:pl bring",
+        "to i:a five",
+        "i besides they five"
+      ],
+      "25:21": [
+        "over few thing:pl faithful",
+        "i thou over many thing:pl ruler",
+        "joy of thy/lord"
+      ],
+      "25:22": [
+        "two kjv_talent_money:pl receive",
+        "to i:a two",
+        "i two other"
+      ],
+      "25:23": [
+        "over few thing:pl faithful",
+        "i thou over many thing:pl ruler",
+        "joy of thy/lord"
+      ],
+      "25:24": [
+        "one_num kjv_talent_money",
+        "i thou that thou hard man",
+        "kjv_sow:neg:perf reap",
+        "scatter:neg:perf gather"
+      ],
+      "25:25": [
+        "i afraid",
+        "thy/kjv_talent_money in earth hide",
+        "thine"
+      ],
+      "25:26": [
+        "wicked and lazy",
+        "i where i kjv_sow:neg:pa reap:pr",
+        "i scatter:neg:perf gather"
+      ],
+      "25:27": [
+        "my/money to kjv_moneychanger:pl",
+        "put:pp:should",
+        "i my/own with kjv_usury receive:pp:should"
+      ],
+      "25:28": [
+        "kjv_talent_money take",
+        "ten kjv_talent_money:pl"
+      ],
+      "25:29": [
+        "every person that have:pr",
+        "abundance",
+        "he that have:neg:pr even that which he have:pr"
+      ],
+      "25:30": [
+        "gain give:neg",
+        "outside:adj darkness",
+        "weep:ev and kjv_gnash:ev"
+      ],
+      "25:31": [
+        "son of man in his/glory",
+        "all holy angel:pl",
+        "throne of his/glory"
+      ],
+      "25:32": [
+        "all nation:pl",
+        "shepherd",
+        "sheep:pl from kjv_goat:pl"
+      ],
+      "25:33": [
+        "sheep:pl on his/kjv_right_side",
+        "kjv_goat:pl on left"
+      ],
+      "25:34": [
+        "king",
+        "mypl/father",
+        "from kjv_foundation of world",
+        "inherit"
+      ],
+      "25:35": [
+        "ipl hungry",
+        "ipl thirst",
+        "ipl stranger",
+        "in take"
+      ],
+      "25:36": [
+        "without clothing",
+        "ipl:a clothe",
+        "ipl sick",
+        "ipl in prison"
+      ],
+      "25:37": [
+        "kjv_righteous person:pl",
+        "wesg",
+        "hungry",
+        "feed",
+        "thirst",
+        "drink"
+      ],
+      "25:38": [
+        "wesg",
+        "stranger",
+        "in take",
+        "without clothing",
+        "clothe"
+      ],
+      "25:39": [
+        "wesg",
+        "sick or in prison",
+        "to thou come"
+      ],
+      "25:40": [
+        "king",
+        "ipl to you",
+        "one_num of least of these mypl/brother:pl",
+        "to ipl do:perf"
+      ],
+      "25:41": [
+        "from ipl depart",
+        "eternal fire",
+        "for devil and his/angel:pl"
+      ],
+      "25:42": [
+        "ipl hungry",
+        "no food",
+        "ipl thirst",
+        "no drink"
+      ],
+      "25:43": [
+        "ipl stranger",
+        "in take:neg",
+        "without clothing",
+        "clothe:neg",
+        "sick and in prison",
+        "visit:neg"
+      ],
+      "25:44": [
+        "wesg",
+        "hungry or thirst",
+        "stranger or without clothing or sick or in prison",
+        "serve:neg"
+      ],
+      "25:45": [
+        "ipl to you",
+        "one_num of least of these do:neg",
+        "to ipl do:neg"
+      ],
+      "25:46": [
+        "eternal punish:ev",
+        "kjv_righteous person:pl into eternal life"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "25:12",
+        "25:20",
+        "25:21",
+        "25:22",
+        "25:23",
+        "25:24",
+        "25:25",
+        "25:26",
+        "25:27"
+      ],
+      "ipl": [
+        "23:34",
+        "23:36",
+        "23:37",
+        "23:39",
+        "24:2",
+        "24:25",
+        "24:34",
+        "24:47",
+        "24:5",
+        "25:35",
+        "25:36",
+        "25:40",
+        "25:41",
+        "25:42",
+        "25:43",
+        "25:45"
+      ],
+      "wesg": [
+        "23:30",
+        "24:3",
+        "25:11",
+        "25:37",
+        "25:38",
+        "25:39",
+        "25:44",
+        "25:8",
+        "25:9"
+      ],
+      "wepl": [],
+      "mypl": [
+        "24:35",
+        "24:36",
+        "24:5",
+        "24:9",
+        "25:34",
+        "25:40"
+      ],
+      "ourone": [
+        "23:30",
+        "25:8"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "24:40",
+        "24:41"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "Matthew24:40",
+      "Matthew24:41"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "One-finger,one-Master/Father,one-proselyte and twofold contrast remain.",
+      "Four winds,one heaven-end,two field workers and two women with one taken in each pair remain.",
+      "Ten virgins,five and five,one recipient with five talents,two and one allocations and repeated reports remain.",
+      "Final ten talents and one least person remain;no unstated totals or coin conversions."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "136new verses continue Matthew to910;whole Bible remains incomplete.",
+      "False claimants appropriate plural-self;the explicitly identified Son/King uses plural-self while unnamed parable speakers keep personal-I.",
+      "Father-only knowledge,unresolved time,hen lament,violent parables and eternal punishment/life parallel remain.",
+      "Eight common senses and three proper entries;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Matthew — incomplete Bible working text",
+    "pages": 524,
+    "spreads": 262,
+    "units": 910,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "33016439323b21041101d46a59eaf690df359467586360bbdb95eb71a3b60811",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 262,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.657,
+    "modules": [
+      "tests.test_kjv_matthew_judging_self",
+      "tests.test_kjv_matthew_nested_authority",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    523,
+    524
+  ],
+  "status": "incomplete Bible;Matthew1–25 section checkpoint verified"
+}

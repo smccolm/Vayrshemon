@@ -1,0 +1,647 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.243",
+    "parentVersion": "0.10-kjv.242",
+    "parentHead": "31bd7ac0fc3ac24418587a7d0ba7a697036006672be1ba91da15201c831adf3c",
+    "head": "96c1d7c90c711b8ebaa793c8a6e02b0a1c61ece46f7e329653f366abcf0cc27d",
+    "newLexicalEntries": 9,
+    "newProperEntries": 3,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 77,
+    "exactCompilerCases": 77,
+    "newAuthoredVerses": 77,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 77,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2224,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newCorinthians2Verses": 77,
+    "corinthians2Verses": 77,
+    "authoredVerses": 28878,
+    "remainingVerses": 2224,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 1,
+    "quantityChecks": [
+      {
+        "reference": "2 Corinthians 1:15",
+        "source": "And in this confidence I was minded to come unto you before, that ye might have a second benefit;",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_paul_acts",
+        "kjv_timothy_second_corinthians",
+        "ourone/brother",
+        "all saint:pl who in all kjv_achaia_acts"
+      ],
+      "1:2": [
+        "ourone/father",
+        "from kjv_lord kjv_jesus_matthew kjv_christ_title"
+      ],
+      "1:3": [
+        "father of ourone/lord",
+        "father of mercy:pl",
+        "all comfort:ev"
+      ],
+      "1:4": [
+        "all ourone/kjv_tribulation",
+        "any kjv_trouble",
+        "wesg ourselves by god comfort"
+      ],
+      "1:5": [
+        "suffer:ev:pl in wesg",
+        "ourone/comfort:ev also by kjv_christ_title"
+      ],
+      "1:6": [
+        "whether wesg kjv_afflict:psv",
+        "your/comfort:ev and salvation",
+        "same suffer:ev:pl",
+        "whether wesg comfort:psv"
+      ],
+      "1:7": [
+        "ourone/hope",
+        "kjv_steadfast",
+        "suffer:ev:pl share:ag:pl",
+        "of comfort:ev be:fu"
+      ],
+      "1:8": [
+        "ourone/kjv_trouble",
+        "kjv_asia_acts",
+        "beyond measure above strength",
+        "even of life despair"
+      ],
+      "1:9": [
+        "sentence of death in ourselves",
+        "ourselves trust:neg",
+        "god who dead:pl raise"
+      ],
+      "1:10": [
+        "deliver:pa and deliver:pr",
+        "he yet wesg:a deliver:fu"
+      ],
+      "1:11": [
+        "by prayer for wesg",
+        "many person:pl",
+        "thanks by many",
+        "ourone/behalf"
+      ],
+      "1:12": [
+        "kjv_simplicity_integrity_corinthians",
+        "god:adj sincere:ev",
+        "not with flesh:adj wisdom",
+        "by grace of god",
+        "ourone/kjv_conversation_conduct_corinthians"
+      ],
+      "1:13": [
+        "wesg to you no other thing:pl",
+        "you read:pr or acknowledge",
+        "i trust:pr"
+      ],
+      "1:14": [
+        "wesg:a in part",
+        "wesg your/rejoice:ev",
+        "you also ourone/rejoice:ev"
+      ],
+      "1:15": [
+        "i before to you come:inf intend",
+        "second benefit"
+      ],
+      "1:16": [
+        "into kjv_macedonia_acts",
+        "out of kjv_macedonia_acts",
+        "towards kjv_judaea"
+      ],
+      "1:17": [
+        "kjv_lightness_fickle_corinthians use:pa:q",
+        "according_to flesh purpose",
+        "yes yes and no no"
+      ],
+      "1:18": [
+        "god true",
+        "ourone/word",
+        "yes and no be:neg"
+      ],
+      "1:19": [
+        "son of god kjv_jesus_matthew kjv_christ_title",
+        "by wesg even by i and kjv_silvanus_second_corinthians and kjv_timotheus_acts",
+        "in he yes"
+      ],
+      "1:20": [
+        "all promise:pl of god",
+        "in he yes and in he amen",
+        "by wesg"
+      ],
+      "1:21": [
+        "wesg with you",
+        "kjv_establish",
+        "wesg:a anoint"
+      ],
+      "1:22": [
+        "wesg:a seal",
+        "spirit kjv_earnest_pledge_corinthians",
+        "ourone/heart:pl"
+      ],
+      "1:23": [
+        "god as witness upon my/kjv_soul",
+        "you:a spare",
+        "come:neg"
+      ],
+      "1:24": [
+        "not that wesg over your/faith rule",
+        "your/joy help:ag:pl",
+        "by faith you stand"
+      ],
+      "2:1": [
+        "i this with myself decide",
+        "in sorrow come:neg"
+      ],
+      "2:2": [
+        "if i you:a sorrow make",
+        "who then i:a glad make",
+        "same who by i sorrow"
+      ],
+      "2:3": [
+        "lest when i come",
+        "i rejoice:should",
+        "confidence in you all",
+        "my/joy joy of you all"
+      ],
+      "2:4": [
+        "anguish of heart",
+        "many tear:pl",
+        "not that you sorrow feel",
+        "love which i more abundance:adv"
+      ],
+      "2:5": [
+        "if any person grief cause",
+        "i:a sorrow make:neg",
+        "but in part",
+        "you all excess burden:neg"
+      ],
+      "2:6": [
+        "kjv_punishment",
+        "by many impose",
+        "enough"
+      ],
+      "2:7": [
+        "forgive:should",
+        "comfort:should",
+        "excess sorrow kjv_swallow:psv"
+      ],
+      "2:8": [
+        "your/love confirm"
+      ],
+      "2:9": [
+        "your/proof know",
+        "in all thing:pl obedient"
+      ],
+      "2:10": [
+        "you any thing forgive",
+        "i also forgive",
+        "if i any thing forgive",
+        "in person of kjv_christ_title"
+      ],
+      "2:11": [
+        "kjv_satan_temptation",
+        "advantage gain",
+        "know:neg:adj be:neg"
+      ],
+      "2:12": [
+        "kjv_troas_acts",
+        "kjv_christ_title kjv_gospel",
+        "door by kjv_lord"
+      ],
+      "2:13": [
+        "my/spirit no rest",
+        "kjv_titus_second_corinthians my/brother find:neg",
+        "into kjv_macedonia_acts go"
+      ],
+      "2:14": [
+        "always wesg:a",
+        "triumph:caus",
+        "his/knowledge smell:ev",
+        "every place:ev"
+      ],
+      "2:15": [
+        "sweet smell:ev",
+        "save:psv:pr",
+        "perish:pr"
+      ],
+      "2:16": [
+        "death to death smell:ev",
+        "life to life smell:ev",
+        "who for these thing:pl enough"
+      ],
+      "2:17": [
+        "as many who god word corrupt:pr be:neg",
+        "sincere:ev",
+        "as of god in sight of god",
+        "in kjv_christ_title speak"
+      ],
+      "3:1": [
+        "ourselves commend:inf begin:pr:q",
+        "to you commendation letter:pl",
+        "from you commendation letter:pl"
+      ],
+      "3:2": [
+        "you ourone/letter",
+        "ourone/heart:pl",
+        "all man:pl know:psv:adj and read"
+      ],
+      "3:3": [
+        "kjv_christ_title letter by wesg",
+        "not with kjv_ink",
+        "spirit of live:cv god",
+        "not in stone table:pl",
+        "flesh:adj table:pl of heart"
+      ],
+      "3:4": [
+        "wesg through kjv_christ_title towards god"
+      ],
+      "3:5": [
+        "not that wesg of ourselves",
+        "ourone/enough:ev of god"
+      ],
+      "3:6": [
+        "new kjv_testament_covenant able serve:ag:pl",
+        "not of kjv_letter_law_romans",
+        "kjv_letter_law_romans kill",
+        "spirit life give"
+      ],
+      "3:7": [
+        "death kjv_administration_service_corinthians",
+        "kjv_engrave:psv",
+        "face because of his/face glory",
+        "which glory away do"
+      ],
+      "3:8": [
+        "spirit kjv_administration_service_corinthians",
+        "glory:adj be:neg:fu:q"
+      ],
+      "3:9": [
+        "condemn:ev kjv_administration_service_corinthians",
+        "kjv_righteousness kjv_administration_service_corinthians",
+        "exceed"
+      ],
+      "3:10": [
+        "in this respect no glory",
+        "glory which kjv_excel"
+      ],
+      "3:11": [
+        "away do:psv:pr",
+        "remain:pr",
+        "much more"
+      ],
+      "3:12": [
+        "wesg such hope",
+        "great clear:ev of speech"
+      ],
+      "3:13": [
+        "kjv_moses",
+        "kjv_veil over his/face",
+        "end of that which away do",
+        "look:neg:can"
+      ],
+      "3:14": [
+        "their/mind:pl blind",
+        "until this day",
+        "old kjv_testament_covenant",
+        "same kjv_veil",
+        "in kjv_christ_title away do"
+      ],
+      "3:15": [
+        "when kjv_moses read",
+        "kjv_veil upon their/heart"
+      ],
+      "3:16": [
+        "when it to kjv_lord turn",
+        "kjv_veil away take"
+      ],
+      "3:17": [
+        "kjv_lord that spirit be:pr",
+        "where spirit of kjv_lord",
+        "free:ev"
+      ],
+      "3:18": [
+        "wesg all",
+        "cover:psv:neg:adj face",
+        "kjv_mirror",
+        "from glory to glory",
+        "by spirit of kjv_lord"
+      ],
+      "4:1": [
+        "wesg this service",
+        "mercy receive",
+        "faint become:neg"
+      ],
+      "4:2": [
+        "honesty:neg:ev hide",
+        "renounce",
+        "in deceive:ev walk:neg",
+        "nor god word deceitful:adv use",
+        "each man conscience"
+      ],
+      "4:3": [
+        "if ourone/kjv_gospel hide",
+        "to they who lose:psv"
+      ],
+      "4:4": [
+        "god of this world",
+        "mind:pl of they who believe:neg",
+        "image of god",
+        "light to they shine"
+      ],
+      "4:5": [
+        "wesg ourselves proclaim:neg",
+        "kjv_christ_title kjv_jesus_matthew kjv_lord",
+        "your/servant:pl"
+      ],
+      "4:6": [
+        "light out of darkness",
+        "ourone/heart:pl",
+        "knowledge of glory of god",
+        "face of kjv_jesus_matthew kjv_christ_title"
+      ],
+      "4:7": [
+        "treasure in earth:adj vessel:pl",
+        "power excellent:ev of god and not of wesg"
+      ],
+      "4:8": [
+        "every side kjv_afflict:psv",
+        "distress:psv:neg",
+        "kjv_perplexed_corinthians",
+        "despair be:neg"
+      ],
+      "4:9": [
+        "persecute:psv:pr but forsake:psv:neg",
+        "down cast:psv:pr but destroy:psv:neg"
+      ],
+      "4:10": [
+        "kjv_lord kjv_jesus_matthew die:ev",
+        "around carry",
+        "ourone/body"
+      ],
+      "4:11": [
+        "wesg who live",
+        "to death deliver:psv",
+        "ourone/mortal flesh"
+      ],
+      "4:12": [
+        "death in wesg",
+        "life in you"
+      ],
+      "4:13": [
+        "same spirit of faith",
+        "i believe:pa and therefore i speak:perf",
+        "wesg also believe"
+      ],
+      "4:14": [
+        "kjv_lord kjv_jesus_matthew raise:pa",
+        "wesg also by kjv_jesus_matthew",
+        "wesg with you present"
+      ],
+      "4:15": [
+        "all thing:pl for your/sake",
+        "thanks give:ev of many",
+        "to glory of god increase"
+      ],
+      "4:16": [
+        "faint become:neg",
+        "ourone/outside:adj man perish",
+        "inside:adj man day by day renew"
+      ],
+      "4:17": [
+        "ourone/lightweight kjv_afflict:ev",
+        "only for moment",
+        "eternal weight of glory"
+      ],
+      "4:18": [
+        "see:psv:pr look:neg",
+        "see:psv:neg:pr",
+        "kjv_temporal_corinthians",
+        "eternal"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:13",
+        "1:15",
+        "1:17",
+        "1:19",
+        "1:23",
+        "2:1",
+        "2:10",
+        "2:12",
+        "2:13",
+        "2:2",
+        "2:3",
+        "2:4",
+        "2:5",
+        "2:8",
+        "2:9",
+        "4:13"
+      ],
+      "ipl": [],
+      "wesg": [
+        "1:10",
+        "1:11",
+        "1:12",
+        "1:13",
+        "1:14",
+        "1:19",
+        "1:20",
+        "1:21",
+        "1:22",
+        "1:24",
+        "1:4",
+        "1:5",
+        "1:6",
+        "1:8",
+        "1:9",
+        "2:11",
+        "2:14",
+        "2:15",
+        "2:16",
+        "2:17",
+        "3:1",
+        "3:12",
+        "3:18",
+        "3:3",
+        "3:4",
+        "3:5",
+        "3:6",
+        "4:1",
+        "4:11",
+        "4:12",
+        "4:13",
+        "4:14",
+        "4:16",
+        "4:17",
+        "4:18",
+        "4:5",
+        "4:7",
+        "4:8"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "1:1",
+        "1:11",
+        "1:12",
+        "1:14",
+        "1:18",
+        "1:2",
+        "1:22",
+        "1:3",
+        "1:4",
+        "1:5",
+        "1:7",
+        "1:8",
+        "3:2",
+        "3:5",
+        "4:10",
+        "4:11",
+        "4:16",
+        "4:17",
+        "4:3",
+        "4:6"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Second benefit is ordinal;one recipient/another marks classes rather than two individuals.",
+      "Three named proclamation workers share singular-whole we without physical dual.",
+      "Quoted human I believed remains personal;shared suffering,hearts and body do not license plural-I or a diagnosis."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "77new verses;whole Bible incomplete.",
+      "Source above-strength despair,our-hearts letter,beholding mirror,by-Jesus resurrection and Lord-that-Spirit retained without silent harmonization.",
+      "Six common entries and three contextual names;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Corinthians — incomplete Bible working text",
+    "pages": 50,
+    "spreads": 25,
+    "units": 77,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "c4f4da7046b82e9e4903fc6e92c3964288b4984c40ad74e8c06a60ad3ca47537",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 25,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.111,
+    "modules": [
+      "tests.test_kjv_corinthians_comfort_veil",
+      "tests.test_kjv_corinthians_resurrection_parting",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    49,
+    50
+  ],
+  "status": "incomplete Bible;2 Corinthians1–4 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 49,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv243\\preflight-corinthians2\\Proofs\\page-049.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv243\\composed-corinthians2\\Proofs\\page-049.png",
+        "sha256": "8d848bd09537875deb0c797131ac6b038cdee5b994065e3824a7643fbf05bf59",
+        "bytesIdentical": true
+      },
+      {
+        "page": 50,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv243\\preflight-corinthians2\\Proofs\\page-050.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv243\\composed-corinthians2\\Proofs\\page-050.png",
+        "sha256": "c6a22a0f50a124e86c7c38756889b5d3b793d6ced44366665ff0733f4dbf251a",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

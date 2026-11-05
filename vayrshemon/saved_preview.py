@@ -21,7 +21,8 @@ MODES=('color','mono-black','mono-white')
 
 
 def state_hash(state):
-    return hashlib.sha256(json.dumps(state,sort_keys=True,separators=(',',':'),ensure_ascii=True,allow_nan=False).encode()).hexdigest()
+    from .json_stream import compact_digest
+    return compact_digest(state)
 
 
 def color_mode(state):
@@ -42,7 +43,7 @@ def create(book,state,mode):
         painter.scale(scale,scale)
         for page,rect in arranged:
             painter.save();painter.translate(rect.topLeft())
-            pages.paint(book,painter,page_id=page['pageId'],mode=state['view']['mode'],guides=False,overlays={})
+            pages.paint(book,painter,page_id=page['pageId'],mode=state['view']['mode'],guides=False,overlays={},page_mode=mode)
             painter.restore()
     finally:painter.end()
     data=QByteArray();buffer=QBuffer(data);buffer.open(QIODevice.OpenModeFlag.WriteOnly)

@@ -1,0 +1,1129 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.94",
+    "parentVersion": "0.10-kjv.93",
+    "parentHead": "2bcb1765f8f6b360cbabfe67463bdc45b1270e19073d6888833cffd324863a04",
+    "head": "719d6c1dbae4d89a9021c363540ec42a160a9d28020fcc2cd9c353582e7288a9",
+    "newLexicalEntries": 25,
+    "newProperEntries": 25,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 8,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 108,
+    "exactCompilerCases": 108,
+    "newAuthoredVerses": 108,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 19037,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 108,
+    "chronicles2Verses": 822,
+    "authoredVerses": 12065,
+    "remainingVerses": 19037,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 21,
+    "quantityChecks": [
+      {
+        "reference": "2 Chronicles 33:1",
+        "source": "Manasseh was twelve years old when he began to reign, and he reigned fifty and five years in Jerusalem:",
+        "expectedDecimalQuantities": [
+          12,
+          55
+        ],
+        "targetQuantities": [
+          12,
+          55
+        ]
+      },
+      {
+        "reference": "2 Chronicles 33:5",
+        "source": "And he built altars for all the host of heaven in the two courts of the house of the LORD.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 33:21",
+        "source": "Amon was two and twenty years old when he began to reign, and reigned two years in Jerusalem.",
+        "expectedDecimalQuantities": [
+          22,
+          2
+        ],
+        "targetQuantities": [
+          22,
+          2
+        ]
+      },
+      {
+        "reference": "2 Chronicles 34:1",
+        "source": "Josiah was eight years old when he began to reign, and he reigned in Jerusalem one and thirty years.",
+        "expectedDecimalQuantities": [
+          8,
+          31
+        ],
+        "targetQuantities": [
+          8,
+          31
+        ]
+      },
+      {
+        "reference": "2 Chronicles 34:3",
+        "source": "For in the eighth year of his reign, while he was yet young, he began to seek after the God of David his father: and in the twelfth year he began to purge Judah and Jerusalem from the high places, and the groves, and the carved images, and the molten images.",
+        "expectedDecimalQuantities": [
+          8,
+          12
+        ],
+        "targetQuantities": [
+          8,
+          12
+        ]
+      },
+      {
+        "reference": "2 Chronicles 34:8",
+        "source": "Now in the eighteenth year of his reign, when he had purged the land, and the house, he sent Shaphan the son of Azaliah, and Maaseiah the governor of the city, and Joah the son of Joahaz the recorder, to repair the house of the LORD his God.",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "2 Chronicles 35:1",
+        "source": "Moreover Josiah kept a passover unto the LORD in Jerusalem: and they killed the passover on the fourteenth day of the first month.",
+        "expectedDecimalQuantities": [
+          14,
+          1
+        ],
+        "targetQuantities": [
+          14,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 35:7",
+        "source": "And Josiah gave to the people, of the flock, lambs and kids, all for the passover offerings, for all that were present, to the number of thirty thousand, and three thousand bullocks: these were of the king’s substance.",
+        "expectedDecimalQuantities": [
+          30000,
+          3000
+        ],
+        "targetQuantities": [
+          30000,
+          3000
+        ]
+      },
+      {
+        "reference": "2 Chronicles 35:8",
+        "source": "And his princes gave willingly unto the people, to the priests, and to the Levites: Hilkiah and Zechariah and Jehiel, rulers of the house of God, gave unto the priests for the passover offerings two thousand and six hundred small cattle and three hundred oxen.",
+        "expectedDecimalQuantities": [
+          2600,
+          300
+        ],
+        "targetQuantities": [
+          2600,
+          300
+        ]
+      },
+      {
+        "reference": "2 Chronicles 35:9",
+        "source": "Conaniah also, and Shemaiah and Nethaneel, his brethren, and Hashabiah and Jeiel and Jozabad, chief of the Levites, gave unto the Levites for passover offerings five thousand small cattle, and five hundred oxen.",
+        "expectedDecimalQuantities": [
+          5000,
+          500
+        ],
+        "targetQuantities": [
+          5000,
+          500
+        ]
+      },
+      {
+        "reference": "2 Chronicles 35:17",
+        "source": "And the children of Israel that were present kept the passover at that time, and the feast of unleavened bread seven days.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "2 Chronicles 35:19",
+        "source": "In the eighteenth year of the reign of Josiah was this passover kept.",
+        "expectedDecimalQuantities": [
+          18
+        ],
+        "targetQuantities": [
+          18
+        ]
+      },
+      {
+        "reference": "2 Chronicles 35:24",
+        "source": "His servants therefore took him out of that chariot, and put him in the second chariot that he had; and they brought him to Jerusalem, and he died, and was buried in one of the sepulchres of his fathers. And all Judah and Jerusalem mourned for Josiah.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 35:27",
+        "source": "And his deeds, first and last, behold, they are written in the book of the kings of Israel and Judah.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 36:2",
+        "source": "Jehoahaz was twenty and three years old when he began to reign, and he reigned three months in Jerusalem.",
+        "expectedDecimalQuantities": [
+          23,
+          3
+        ],
+        "targetQuantities": [
+          23,
+          3
+        ]
+      },
+      {
+        "reference": "2 Chronicles 36:3",
+        "source": "And the king of Egypt put him down at Jerusalem, and condemned the land in an hundred talents of silver and a talent of gold.",
+        "expectedDecimalQuantities": [
+          100,
+          1
+        ],
+        "targetQuantities": [
+          100,
+          1
+        ]
+      },
+      {
+        "reference": "2 Chronicles 36:5",
+        "source": "Jehoiakim was twenty and five years old when he began to reign, and he reigned eleven years in Jerusalem: and he did that which was evil in the sight of the LORD his God.",
+        "expectedDecimalQuantities": [
+          25,
+          11
+        ],
+        "targetQuantities": [
+          25,
+          11
+        ]
+      },
+      {
+        "reference": "2 Chronicles 36:9",
+        "source": "Jehoiachin was eight years old when he began to reign, and he reigned three months and ten days in Jerusalem: and he did that which was evil in the sight of the LORD.",
+        "expectedDecimalQuantities": [
+          8,
+          3,
+          10
+        ],
+        "targetQuantities": [
+          8,
+          3,
+          10
+        ]
+      },
+      {
+        "reference": "2 Chronicles 36:11",
+        "source": "Zedekiah was one and twenty years old when he began to reign, and reigned eleven years in Jerusalem.",
+        "expectedDecimalQuantities": [
+          21,
+          11
+        ],
+        "targetQuantities": [
+          21,
+          11
+        ]
+      },
+      {
+        "reference": "2 Chronicles 36:21",
+        "source": "To fulfil the word of the LORD by the mouth of Jeremiah, until the land had enjoyed her sabbaths: for as long as she lay desolate she kept sabbath, to fulfil threescore and ten years.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      },
+      {
+        "reference": "2 Chronicles 36:22",
+        "source": "Now in the first year of Cyrus king of Persia, that the word of the LORD spoken by the mouth of Jeremiah might be accomplished, the LORD stirred up the spirit of Cyrus king of Persia, that he made a proclamation throughout all his kingdom, and put it also in writing, saying,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "33:1": [
+        "twelve year:pl",
+        "fifty and five"
+      ],
+      "33:2": [
+        "kjv_abomination:pl of kjv_heathen",
+        "out cast:pp"
+      ],
+      "33:3": [
+        "again high kjv_place_site:pl",
+        "kjv_baalim",
+        "kjv_multitude of heaven"
+      ],
+      "33:4": [
+        "mypl/name forever be:fu"
+      ],
+      "33:5": [
+        "two kjv_court_enclosure:pl"
+      ],
+      "33:6": [
+        "his/child:pl:a",
+        "son of kjv_hinnom",
+        "kjv_observe_times",
+        "kjv_witchcraft",
+        "kjv_familiar_spirit",
+        "kjv_wizard:pl"
+      ],
+      "33:7": [
+        "kjv_graven image idol:a",
+        "ipl before all kjv_tribe:pl",
+        "ipl mypl/name:a forever"
+      ],
+      "33:8": [
+        "neither ipl any more foot",
+        "your/father:pl",
+        "so that they heed",
+        "whole law",
+        "hand of kjv_moses"
+      ],
+      "33:9": [
+        "err:caus:pa",
+        "worse than kjv_heathen"
+      ],
+      "33:10": [
+        "to his/people",
+        "heed:inf will:neg:pa"
+      ],
+      "33:11": [
+        "captain:pl of army",
+        "among thorn:pl",
+        "fetter:pl",
+        "kjv_babylon"
+      ],
+      "33:12": [
+        "suffer:ev",
+        "himself:a greatly",
+        "god of his/father:pl"
+      ],
+      "33:13": [
+        "entreat:psv:pa",
+        "his/kjv_supplication",
+        "into his/kingdom",
+        "then kjv_manasseh_hezekiah know:pa"
+      ],
+      "33:14": [
+        "outside city",
+        "west side of kjv_gihon_accession",
+        "fish gate",
+        "kjv_ophel",
+        "very great height"
+      ],
+      "33:15": [
+        "foreign god:pl",
+        "mountain of house",
+        "out of city cast:pa"
+      ],
+      "33:16": [
+        "peace kjv_offering:pl and thank kjv_offering:pl",
+        "kjv_judah:a command:pa"
+      ],
+      "33:17": [
+        "still in high",
+        "their/god only"
+      ],
+      "33:18": [
+        "remain:cv part",
+        "his/prayer",
+        "word:pl of kjv_seer:pl",
+        "king:pl of kjv_israel"
+      ],
+      "33:19": [
+        "before he humble:psv:pa",
+        "say:ev:pl of kjv_seer:pl"
+      ],
+      "33:20": [
+        "his/own house bury:pa",
+        "kjv_amon_manasseh"
+      ],
+      "33:21": [
+        "two and twenty",
+        "two year:pl"
+      ],
+      "33:22": [
+        "kjv_graven image:pl",
+        "his/father make:pp",
+        "serve:pa"
+      ],
+      "33:23": [
+        "humble:neg:pa",
+        "more and more kjv_trespass:pa"
+      ],
+      "33:24": [
+        "his/servant:pl",
+        "his/own house"
+      ],
+      "33:25": [
+        "people of land all:a slay:pa",
+        "kjv_josiah_amon his/son:a king"
+      ],
+      "34:1": [
+        "eight year:pl",
+        "one_num and thirty"
+      ],
+      "34:2": [
+        "kjv_right_conduct",
+        "to kjv_right_side nor to left"
+      ],
+      "34:3": [
+        "eight:ord year",
+        "yet young",
+        "twelve:ord year",
+        "melt:psv image:pl"
+      ],
+      "34:4": [
+        "high above",
+        "dust:a of they",
+        "grave:pl of they",
+        "kjv_sacrifice:pp"
+      ],
+      "34:5": [
+        "bone:pl of priest:pl:a upon their/altar:pl burn:pa"
+      ],
+      "34:6": [
+        "kjv_manasseh and kjv_ephraim and kjv_simeon",
+        "kjv_naphtali",
+        "their/kjv_mattock:pl"
+      ],
+      "34:7": [
+        "into kjv_powder",
+        "all land of kjv_israel",
+        "return:pa"
+      ],
+      "34:8": [
+        "eight and ten:ord year",
+        "kjv_shaphan son of kjv_azaliah",
+        "kjv_maaseiah_governor kjv_governor",
+        "kjv_joah_recorder son of kjv_joahaz kjv_record_keeper"
+      ],
+      "34:9": [
+        "kjv_hilkiah_priest high priest",
+        "remain:cv part of kjv_israel",
+        "all kjv_judah and kjv_benjamin",
+        "they to kjv_jerusalem return:pa"
+      ],
+      "34:10": [
+        "kjv_oversight",
+        "to work:ag:pl give:pa",
+        "repair:inf and amend:inf"
+      ],
+      "34:11": [
+        "craft:ag:pl and build:ag:pl",
+        "kjv_hew:psv stone",
+        "wood for join:ev:pl",
+        "with floor cover:inf"
+      ],
+      "34:12": [
+        "faithfully",
+        "kjv_jahath_repair",
+        "kjv_obadiah_repair",
+        "kjv_zechariah_repair",
+        "kjv_meshullam_repair",
+        "instrument:pl of music skill:a have:pa"
+      ],
+      "34:13": [
+        "bear:ag:pl of burden:pl",
+        "kjv_scribe:pl and officer:pl and kjv_gatekeeper:pl"
+      ],
+      "34:14": [
+        "kjv_hilkiah_priest priest",
+        "law of kjv_lord by kjv_moses give:psv:a"
+      ],
+      "34:15": [
+        "i book of law:a",
+        "find:perf",
+        "to kjv_shaphan deliver:pa"
+      ],
+      "34:16": [
+        "entrust:psv:pa",
+        "they it:a do:pr"
+      ],
+      "34:17": [
+        "money:a together gather:perf",
+        "kjv_overseer:pl",
+        "work:ag:pl"
+      ],
+      "34:18": [
+        "priest to i book:a give:perf",
+        "before king read:pa"
+      ],
+      "34:19": [
+        "word:pl of law:a hear:pp",
+        "his/clothing:a kjv_rend:pa"
+      ],
+      "34:20": [
+        "kjv_ahikam son of kjv_shaphan",
+        "kjv_abdon_micah son of kjv_micah_abdon",
+        "kjv_asaiah_josiah"
+      ],
+      "34:21": [
+        "for ipl",
+        "those who in kjv_israel and in kjv_judah leave:psv:pr",
+        "upon wesg",
+        "ourone/father:pl"
+      ],
+      "34:22": [
+        "kjv_huldah woman prophet",
+        "kjv_shallum_huldah son of kjv_tikvath son of kjv_hasrah",
+        "kjv_wardrobe_store",
+        "kjv_college_locality"
+      ],
+      "34:23": [
+        "she they:a answer:pa",
+        "to i send:pa"
+      ],
+      "34:24": [
+        "ipl evil:a",
+        "all curse:pl",
+        "read:perf"
+      ],
+      "34:25": [
+        "they ipl:a forsake:perf",
+        "mypl/wrath",
+        "pour:psv:fu",
+        "extinguish:psv:neg:fu"
+      ],
+      "34:26": [
+        "king of kjv_judah",
+        "word:pl which thou hear:perf"
+      ],
+      "34:27": [
+        "thy/heart tender",
+        "his/word:pl",
+        "before ipl",
+        "ipl also even thee:a hear:perf"
+      ],
+      "34:28": [
+        "thy/grave in peace",
+        "neither thy/eye:pl",
+        "ipl upon this",
+        "word:a to king again"
+      ],
+      "34:29": [
+        "all kjv_elder:pl"
+      ],
+      "34:30": [
+        "priest:pl and kjv_levite:pl",
+        "great and small",
+        "their/ear:pl all word:pl"
+      ],
+      "34:31": [
+        "his/command:pl and his/testimony:pl and his/kjv_statute:pl",
+        "all his/heart",
+        "all his/soul"
+      ],
+      "34:32": [
+        "kjv_jerusalem and kjv_benjamin",
+        "to it stand:caus:pa"
+      ],
+      "34:33": [
+        "all country:pl",
+        "serve:caus:pa",
+        "all his/day:pl",
+        "depart:neg:pa"
+      ],
+      "35:1": [
+        "fourteen:ord day of first month"
+      ],
+      "35:2": [
+        "their/kjv_entrustedcharge:pl",
+        "encourage:pa"
+      ],
+      "35:3": [
+        "all kjv_israel:a teach:pa",
+        "kjv_ark_chest",
+        "your/kjv_shoulder:pl",
+        "burden",
+        "be:neg:fu"
+      ],
+      "35:4": [
+        "your/kjv_service_order:pl",
+        "writing of kjv_david",
+        "writing of kjv_solomon"
+      ],
+      "35:5": [
+        "division:pl of kjv_family:pl",
+        "your/brother:pl people",
+        "division of kjv_family:pl of kjv_levite:pl"
+      ],
+      "35:6": [
+        "kill:imp",
+        "yourselves:a kjv_hallow:imp",
+        "your/brother:pl:a prepare:imp"
+      ],
+      "35:7": [
+        "kjv_lamb:pl and kjv_kid:pl",
+        "thirty+thousand",
+        "kjv_three+thousand kjv_bullock:pl",
+        "king:poss kjv_goods"
+      ],
+      "35:8": [
+        "kjv_hilkiah_priest and kjv_zechariah_passover_ruler and kjv_jehiel_passover_ruler",
+        "two+thousand and six+hundred",
+        "kjv_three+hundred ox:pl"
+      ],
+      "35:9": [
+        "kjv_conaniah",
+        "kjv_shemaiah_conaniah and kjv_nethaneel_conaniah his/brother:pl",
+        "kjv_hashabiah_passover and kjv_jeiel_passover and kjv_jozabad_passover",
+        "five+thousand",
+        "five+hundred ox:pl"
+      ],
+      "35:10": [
+        "kjv_service_order:pl",
+        "king:poss command"
+      ],
+      "35:11": [
+        "from their/hand:pl kjv_sprinkle:pa",
+        "kjv_levite:pl they:a kjv_flay:pa"
+      ],
+      "35:12": [
+        "division:pl of kjv_family:pl",
+        "so they with ox:pl do:pa"
+      ],
+      "35:13": [
+        "roast:pa",
+        "boil:pa",
+        "kjv_pot:pl",
+        "kjv_caldron:pl",
+        "kjv_pan_cooking:pl",
+        "quickly"
+      ],
+      "35:14": [
+        "kjv_fat",
+        "until night",
+        "for themselves and for priest:pl"
+      ],
+      "35:15": [
+        "kjv_jeduthun king:poss kjv_seer",
+        "kjv_gatekeeper:pl",
+        "depart:neg:may"
+      ],
+      "35:16": [
+        "same day",
+        "kjv_passover",
+        "burn:psv kjv_offering:pl"
+      ],
+      "35:17": [
+        "who present be:pa",
+        "without kjv_leaven bread",
+        "seven day:pl"
+      ],
+      "35:18": [
+        "from day:pl of kjv_samuel prophet",
+        "neither all king:pl",
+        "who present be:pa"
+      ],
+      "35:19": [
+        "eight and ten:ord year"
+      ],
+      "35:20": [
+        "kjv_necho",
+        "kjv_charchemish by kjv_euphrates",
+        "out against he"
+      ],
+      "35:21": [
+        "ipl against thee this day come:neg:pr",
+        "house with which ipl war:a have:pr",
+        "god ipl:a haste:a make:inf command:perf",
+        "destroy:neg:may"
+      ],
+      "35:22": [
+        "disguise:pa",
+        "word:pl of kjv_necho from mouth of god",
+        "kjv_megiddo"
+      ],
+      "35:23": [
+        "kjv_archer:pl",
+        "i:a away take:imp",
+        "i kjv_grievous:adv wound:psv:pr"
+      ],
+      "35:24": [
+        "second chariot",
+        "kjv_jerusalem bring:pa and he die:pa",
+        "one_num of tomb:pl"
+      ],
+      "35:25": [
+        "kjv_jeremiah_prophet",
+        "sing:cv man:pl and sing:cv woman:pl",
+        "to this day",
+        "kjv_ordinance"
+      ],
+      "35:26": [
+        "remain:cv part",
+        "kjv_josiah_amon",
+        "law of kjv_lord"
+      ],
+      "35:27": [
+        "first and last",
+        "kjv_israel and kjv_judah"
+      ],
+      "36:1": [
+        "people of land",
+        "kjv_jehoahaz_josiah son of kjv_josiah_amon"
+      ],
+      "36:2": [
+        "twenty and kjv_three year:pl",
+        "kjv_three month:pl"
+      ],
+      "36:3": [
+        "at kjv_jerusalem",
+        "hundred kjv_talent_weight:pl of silver",
+        "one_num kjv_talent_weight of gold"
+      ],
+      "36:4": [
+        "kjv_eliakim_josiah his/brother",
+        "his/name:a to kjv_jehoiakim",
+        "kjv_necho kjv_jehoahaz_josiah"
+      ],
+      "36:5": [
+        "twenty and five",
+        "eleven year:pl",
+        "kjv_lord his/god"
+      ],
+      "36:6": [
+        "nebuchadnezzar",
+        "fetter:pl",
+        "to he:a to kjv_babylon carry:inf"
+      ],
+      "36:7": [
+        "of vessel:pl",
+        "his/temple at kjv_babylon"
+      ],
+      "36:8": [
+        "remain:cv part",
+        "that which in he find:psv:pa",
+        "kjv_jehoiachin his/son"
+      ],
+      "36:9": [
+        "eight year:pl old",
+        "kjv_three month:pl and ten day:pl"
+      ],
+      "36:10": [
+        "year finish:pp",
+        "kjv_goodly vessel:pl",
+        "kjv_zedekiah_king his/brother"
+      ],
+      "36:11": [
+        "one_num and twenty",
+        "eleven year:pl"
+      ],
+      "36:12": [
+        "kjv_jeremiah_prophet prophet",
+        "mouth of kjv_lord",
+        "humble:neg:pa"
+      ],
+      "36:13": [
+        "by god swear:caus:pp",
+        "his/neck:a hard:caus:pa",
+        "his/heart:a hard:caus:pa"
+      ],
+      "36:14": [
+        "all chief of priest:pl and people",
+        "kjv_pollute_sacred:pa"
+      ],
+      "36:15": [
+        "early rise:cv and send:cv",
+        "kjv_compassion",
+        "his/dwell:ev kjv_place_site"
+      ],
+      "36:16": [
+        "mock:pa",
+        "despise:pa",
+        "abuse:pa",
+        "no remedy"
+      ],
+      "36:17": [
+        "king of kjv_chaldees",
+        "house of their/kjv_sanctuary",
+        "no kjv_compassion",
+        "young man or maiden old man",
+        "for age bend:cv"
+      ],
+      "36:18": [
+        "all vessel:pl",
+        "great and small",
+        "treasure:pl of king",
+        "his/prince:pl"
+      ],
+      "36:19": [
+        "house of god:a burn:pa",
+        "wall of kjv_jerusalem:a down break:pa",
+        "all its/palace:pl",
+        "all its/kjv_goodly vessel:pl"
+      ],
+      "36:20": [
+        "those:a who from sword escape:pp",
+        "servant:pl to he and his/son:pl",
+        "until",
+        "kingdom of kjv_persia"
+      ],
+      "36:21": [
+        "kjv_jeremiah_prophet",
+        "her/kjv_sabbath:pl:a kjv_enjoy_rest:pp",
+        "she kjv_desolate lie:pa",
+        "kjv_three+twenty and ten year:pl"
+      ],
+      "36:22": [
+        "first year of kjv_cyrus",
+        "spirit of kjv_cyrus",
+        "also in writing"
+      ],
+      "36:23": [
+        "all kingdom:pl of earth",
+        "to ipl give:perf",
+        "he ipl:a charge:perf",
+        "with he be:opt and he up go:opt"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "34:15",
+        "34:18",
+        "34:23",
+        "35:23"
+      ],
+      "ipl": [
+        "33:7",
+        "33:8",
+        "34:21",
+        "34:24",
+        "34:25",
+        "34:27",
+        "34:28",
+        "35:21",
+        "36:23"
+      ],
+      "mypl": [
+        "33:4",
+        "33:7",
+        "34:25"
+      ],
+      "iplself": [],
+      "wesg": [
+        "34:21"
+      ],
+      "wepl": [],
+      "ourone": [
+        "34:21"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Manasseh age12/reign55;two courts;Amon age22/reign2;Josiah age8/reign31,years8/12/18;Passoverday14month1;30000lambs-and-kids together plus3000bullocks;2600small cattle/300oxen and5000/500;seven feast days;second chariot/one tomb;Jehoahazage23/three months;100silver talents/one gold;Jehoiakimage25/reign11;JehoiachinAGE EIGHT,three months ten days;Zedekiahage21/reign11;seventy years;Cyrusyear1."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Divine and imperial plural-I,shared-liability singular-we,personal discoverer/reader/prophet and wounded-king I remain contextual. No invented Trinity count.",
+      "Source thorns,mattocks,Asaiah/Abdon/Tikvath/Hasrah variants,God-attributed foreign speech,in-peace promise beside violent death,Jehoiachin age8 and Zedekiah brother wording retained without harmonization.",
+      "All inherited targets exact,including90host and93remainder repairs. Historical register never modernized. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Chronicles — incomplete Bible working text",
+    "pages": 686,
+    "spreads": 343,
+    "units": 822,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "77a0caef2309273bcc99db7c88022f1cbe154df236ff4153fda036b34e8f9a8b",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 343,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.249,
+    "modules": [
+      "tests.test_kjv_chronicles_closing_oracles",
+      "tests.test_kjv_chronicles_service_body",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    685,
+    686
+  ],
+  "status": "incomplete Bible;all2Chronicles section checkpoint verified",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "0b4cd36de74d2b72b0f1ecde7865b082ef857919e503edcafdefac0270243382",
+    "pages": 8734,
+    "spreads": 4367,
+    "authoredVerses": 12065,
+    "missingVerses": 19037,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 17468,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Genesis.vay",
+        "sha256": "bbf6c7a92ef956364ece52877f1998be0b02ddfb7e33f2563afb529b41cb79dd",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Exodus.vay",
+        "sha256": "5d69c5730d924959e1019809b8c2f7738161ffb011e144f6d1c9d57dc5957fe7",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Leviticus.vay",
+        "sha256": "acece7c9de894107116d7e27cab2a67fa2300ea2b37ae14e30523e109024b27b",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Numbers.vay",
+        "sha256": "b2edc7791a7e89e92c9cab6759c24d76b7fa7b3a9a290a352201d624f6174199",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Deuteronomy.vay",
+        "sha256": "e71f451a8ae07c3d5a3604d569192d12864ed9887d48ebc7e684b13e54c3dad2",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Joshua.vay",
+        "sha256": "04524ad57a4e8bfbc78fb5c8384faae56437b88c67cc4fd9e13819b1766efae3",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Judges.vay",
+        "sha256": "ccccb1c5b09c54b80866e25aae8a49ccf20a53ec278b844860e9fd9553932c01",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Ruth.vay",
+        "sha256": "8ad1ca7778bd9763a56e5efb28291827eb797fc2eacfc18ff4b1e7d6fece4033",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Chronicles.vay",
+        "sha256": "d95465cafe4db78a757f2a5c3b4cbaf94b44f5101c865c07adaaa9387d5bf906",
+        "firstPage": 7483,
+        "lastPage": 8006
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Chronicles2.vay",
+        "sha256": "77a0caef2309273bcc99db7c88022f1cbe154df236ff4153fda036b34e8f9a8b",
+        "firstPage": 8007,
+        "lastPage": 8692
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.94\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 8693,
+        "lastPage": 8734
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.90",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.93",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.93",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.93",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "working"
+      },
+      {
+        "section": "1 Chronicles",
+        "version": "0.10-kjv.93",
+        "firstPage": 7483,
+        "lastPage": 8006,
+        "status": "working"
+      },
+      {
+        "section": "2 Chronicles",
+        "version": "0.10-kjv.94",
+        "firstPage": 8007,
+        "lastPage": 8692,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 8693,
+        "lastPage": 8734,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    8602,
+    8642,
+    8680,
+    8691,
+    8692
+  ],
+  "referenceLinksChecked": true
+}

@@ -1,0 +1,761 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.220",
+    "parentVersion": "0.10-kjv.219",
+    "parentHead": "4bbd34ce8142f58dfd2df92e18899f9bdcaa11f8e9ca2743f883c721b3000d2a",
+    "head": "d5300ae1db1c0c76bbbb9d4c7334cc35b5d406a2985e9205c30feda85087ba65",
+    "newLexicalEntries": 1,
+    "newProperEntries": 0,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 3,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 86,
+    "exactCompilerCases": 86,
+    "newAuthoredVerses": 86,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 741,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4316,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJohnVerses": 86,
+    "johnVerses": 741,
+    "authoredVerses": 26786,
+    "remainingVerses": 4316,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 4,
+    "quantityChecks": [
+      {
+        "reference": "John 17:11",
+        "source": "And now I am no more in the world, but these are in the world, and I come to thee. Holy Father, keep through thine own name those whom thou hast given me, that they may be one, as we are.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 17:21",
+        "source": "That they all may be one; as thou, Father, art in me, and I in thee, that they also may be one in us: that the world may believe that thou hast sent me.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "John 17:22",
+        "source": "And the glory which thou gavest me I have given them; that they may be one, even as we are one:",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "John 17:23",
+        "source": "I in them, and thou in me, that they may be made perfect in one; and that the world may know that thou hast sent me, and hast loved them, as thou hast loved me.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "15:1": [
+        "ipl true kjv_vine",
+        "mypl/father kjv_husbandman"
+      ],
+      "15:2": [
+        "fruit produce:neg:pr",
+        "away take:pr",
+        "it purge:pr",
+        "more fruit produce:may"
+      ],
+      "15:3": [
+        "word which ipl to you speak:perf",
+        "clean be:pr"
+      ],
+      "15:4": [
+        "in ipl remain:imp and ipl in you",
+        "of itself fruit produce:neg:can",
+        "except in kjv_vine",
+        "except in ipl"
+      ],
+      "15:5": [
+        "ipl kjv_vine",
+        "you branch:pl",
+        "ipl in he",
+        "without ipl you nothing do:can"
+      ],
+      "15:6": [
+        "in ipl remain:neg:pr",
+        "as branch out cast:psv:pr",
+        "wither:pr",
+        "into fire",
+        "burn:psv:pr"
+      ],
+      "15:7": [
+        "mypl/word:pl in you remain:pr",
+        "what will:pr ask:fu",
+        "do:psv:fu"
+      ],
+      "15:8": [
+        "mypl/father glorify:psv:pr",
+        "much fruit produce:pr",
+        "mypl/disciple:pl"
+      ],
+      "15:9": [
+        "father ipl:a love:perf",
+        "ipl you:a love:perf",
+        "mypl/love continue:imp"
+      ],
+      "15:10": [
+        "mypl/command:pl keep:pr",
+        "mypl/love remain:fu",
+        "mypl/father/command:pl keep:perf",
+        "his/love remain:pr"
+      ],
+      "15:11": [
+        "mypl/joy in you remain:may",
+        "your/joy full be:may"
+      ],
+      "15:12": [
+        "mypl/command",
+        "each other love:pr",
+        "ipl you:a love:perf"
+      ],
+      "15:13": [
+        "greater love",
+        "no man have:pr",
+        "life for his/friend:pl down lay:pr"
+      ],
+      "15:14": [
+        "mypl/friend:pl",
+        "if whatever ipl to you command:pr do:pr"
+      ],
+      "15:15": [
+        "servant:pl call:neg:pr",
+        "servant what his/lord do:pr know:neg:pr",
+        "friend:pl call:perf",
+        "mypl/father hear:perf",
+        "know:caus:perf"
+      ],
+      "15:16": [
+        "you ipl:a choose:neg:perf",
+        "ipl you:a choose:perf",
+        "kjv_ordain:perf",
+        "your/fruit remain:should",
+        "father in mypl/name"
+      ],
+      "15:17": [
+        "ipl to you command:pr",
+        "each other love:pr"
+      ],
+      "15:18": [
+        "world you:a hate:pr",
+        "before you:a hate:pa ipl:a hate:pa"
+      ],
+      "15:19": [
+        "world his/own love:should",
+        "of world be:neg:pr",
+        "ipl you:a out of world choose:perf",
+        "world you:a hate:pr"
+      ],
+      "15:20": [
+        "servant greater than his/lord be:neg:pr",
+        "ipl:a persecute:perf",
+        "you:a also persecute:fu",
+        "mypl/say:ev keep:perf yours also keep:fu"
+      ],
+      "15:21": [
+        "mypl/name sake",
+        "he who ipl:a send:pa know:neg:pr"
+      ],
+      "15:22": [
+        "ipl come:neg:pp and to they speak:neg:pp",
+        "sin have:neg:should",
+        "no kjv_cloak"
+      ],
+      "15:23": [
+        "ipl:a hate:pr",
+        "mypl/father also hate:pr"
+      ],
+      "15:24": [
+        "which no other man do:pa",
+        "do:neg:pp",
+        "sin have:neg:should",
+        "both see:perf and hate:perf both ipl:a and mypl/father"
+      ],
+      "15:25": [
+        "their/law write:psv:pr",
+        "they i:a without cause hate:pa",
+        "fulfil:psv:may"
+      ],
+      "15:26": [
+        "kjv_comforter_john",
+        "ipl to you from father send:fu",
+        "spirit of truth",
+        "from father proceed:pr",
+        "of ipl testify:fu"
+      ],
+      "15:27": [
+        "you also testify:fu",
+        "with ipl from beginning be:perf"
+      ],
+      "16:1": [
+        "ipl to you speak:perf",
+        "kjv_stumble:neg:should"
+      ],
+      "16:2": [
+        "out of kjv_synagogue:pl",
+        "whoever you:a kill:pr",
+        "to god service do:pr think:fu"
+      ],
+      "16:3": [
+        "father know:neg:perf nor ipl:a know:neg:perf"
+      ],
+      "16:4": [
+        "when time come:fu",
+        "remember:may",
+        "at beginning to you ipl say:neg:pa",
+        "ipl with you be:pa"
+      ],
+      "16:5": [
+        "ipl mypl/way",
+        "he who ipl:a send:pa",
+        "none of you",
+        "where thou go:pr:q"
+      ],
+      "16:6": [
+        "ipl these thing:pl to you say:perf",
+        "sorrow your/heart fill:perf"
+      ],
+      "16:7": [
+        "ipl to you truth tell:pr",
+        "profitable",
+        "ipl away go:neg:pr",
+        "kjv_comforter_john to you come:neg:fu",
+        "if ipl depart:pr he:a to you send:fu"
+      ],
+      "16:8": [
+        "of sin",
+        "of kjv_righteousness",
+        "of judgment",
+        "kjv_convince_reprove:fu"
+      ],
+      "16:9": [
+        "of sin",
+        "on ipl believe:neg:pr"
+      ],
+      "16:10": [
+        "of kjv_righteousness",
+        "ipl to mypl/father go:pr",
+        "ipl:a more see:neg:pr"
+      ],
+      "16:11": [
+        "prince of this world judge:psv:perf"
+      ],
+      "16:12": [
+        "many thing:pl",
+        "now they:a endure:neg:can"
+      ],
+      "16:13": [
+        "spirit of truth",
+        "all truth you:a guide:fu",
+        "of himself speak:neg:fu",
+        "whatever hear:fu that speak:fu",
+        "thing:pl to come:inf"
+      ],
+      "16:14": [
+        "he ipl:a glorify:fu",
+        "of ipl receive:fu",
+        "to you show:fu"
+      ],
+      "16:15": [
+        "all thing:pl which father have:pr of ipl",
+        "of ipl take:fu",
+        "to you show:fu"
+      ],
+      "16:16": [
+        "little time and you ipl:a see:neg:fu",
+        "again little time and you ipl:a see:fu",
+        "ipl to father go:pr"
+      ],
+      "16:17": [
+        "some of his/disciple:pl",
+        "to wesg",
+        "ipl:a see:neg:fu",
+        "ipl:a see:fu",
+        "because ipl to father go:pr"
+      ],
+      "16:18": [
+        "little time",
+        "wesg what say:pr tell:neg:can"
+      ],
+      "16:19": [
+        "ask:inf desire:pa know:pa",
+        "among yourselves",
+        "ipl:a see:neg:fu",
+        "ipl:a see:fu",
+        "ask:pr:q"
+      ],
+      "16:20": [
+        "truly truly ipl",
+        "weep:fu and lament:fu",
+        "world rejoice:fu",
+        "your/sorrow into joy turn:psv:fu"
+      ],
+      "16:21": [
+        "woman when kjv_travail:pr",
+        "her/hour come:perf",
+        "child bear:perf",
+        "anguish more remember:neg:pr",
+        "man into world bear:psv:perf"
+      ],
+      "16:22": [
+        "ipl you:a again see:fu",
+        "your/heart rejoice:fu",
+        "your/joy no man from you take:pr"
+      ],
+      "16:23": [
+        "ipl:a nothing ask:fu",
+        "truly truly ipl",
+        "father in mypl/name",
+        "he it to you give:fu"
+      ],
+      "16:24": [
+        "until now in mypl/name nothing ask:perf",
+        "ask:imp and receive:fu",
+        "your/joy full"
+      ],
+      "16:25": [
+        "kjv_veiled_saying_john:pl",
+        "more to you speak:neg:fu",
+        "of father plainly to you show:fu"
+      ],
+      "16:26": [
+        "in mypl/name ask:fu",
+        "ipl for you father:a pray:fu say:neg:pr"
+      ],
+      "16:27": [
+        "father himself you:a love:pr",
+        "ipl:a love:perf",
+        "ipl out from god come:pa believe:perf"
+      ],
+      "16:28": [
+        "ipl from father forth come:pa",
+        "into world come:perf",
+        "ipl world leave:pr and to father go:pr"
+      ],
+      "16:29": [
+        "his/disciple:pl",
+        "now plainly speak:pr",
+        "no kjv_veiled_saying_john"
+      ],
+      "16:30": [
+        "wesg",
+        "all thing:pl know:pr",
+        "ask:should need:neg:pr",
+        "from god forth come:pa believe:pr"
+      ],
+      "16:31": [
+        "kjv_jesus_matthew to they answer:pa now believe:pr:q"
+      ],
+      "16:32": [
+        "now come:perf",
+        "scatter:psv:fu each man to his/own",
+        "ipl:a alone leave:fu",
+        "ipl alone be:neg:pr",
+        "father with ipl"
+      ],
+      "16:33": [
+        "in ipl peace have:may",
+        "in world kjv_tribulation have:fu",
+        "good cheer be:imp",
+        "ipl world overcome:perf"
+      ],
+      "17:1": [
+        "eye:pl to heaven",
+        "father hour come:perf",
+        "thy/son glorify:imp",
+        "thy/son also thee glorify:may"
+      ],
+      "17:2": [
+        "power over all flesh",
+        "as many as thou to he give:perf",
+        "eternal life"
+      ],
+      "17:3": [
+        "thee only true god",
+        "kjv_jesus_matthew kjv_christ_title",
+        "thou send:perf"
+      ],
+      "17:4": [
+        "ipl thee on earth glorify:perf",
+        "work which thou to ipl",
+        "finish:perf"
+      ],
+      "17:5": [
+        "oh father",
+        "with thy/own self",
+        "glory which ipl with thee before world be:pa"
+      ],
+      "17:6": [
+        "thy/name",
+        "out of world give:pa",
+        "of thee be:pa",
+        "thy/word keep:perf"
+      ],
+      "17:7": [
+        "all thing:pl whatever thou to ipl give:perf of thee"
+      ],
+      "17:8": [
+        "word:pl which thou to ipl give:pa",
+        "receive:perf",
+        "ipl from thee come:pa know:perf",
+        "thou ipl:a send:pa believe:perf"
+      ],
+      "17:9": [
+        "ipl for they pray:pr",
+        "ipl for world pray:neg:pr",
+        "for of thee be:pr"
+      ],
+      "17:10": [
+        "all of ipl of thee",
+        "of thee of ipl",
+        "ipl in they glorify:psv:pr"
+      ],
+      "17:11": [
+        "ipl more in world be:neg:pr",
+        "these in world be:pr",
+        "holy father",
+        "thy/own name",
+        "they one_num be:may as wesg"
+      ],
+      "17:12": [
+        "ipl with they in world",
+        "in thy/name keep:pa",
+        "none of they lose:psv:perf but son of destroy:ev",
+        "writing fulfil:psv:may"
+      ],
+      "17:13": [
+        "ipl to thee come:pr",
+        "mypl/joy in themselves fulfil:psv:may"
+      ],
+      "17:14": [
+        "thy/word give:perf",
+        "world they:a hate:perf",
+        "of world be:neg:pr even as ipl of world be:neg:pr"
+      ],
+      "17:15": [
+        "out of world take:should pray:neg:pr",
+        "from evil keep:should"
+      ],
+      "17:16": [
+        "of world be:neg:pr even as ipl of world be:neg:pr"
+      ],
+      "17:17": [
+        "thy/truth they:a sanctify:imp",
+        "thy/word truth be:pr"
+      ],
+      "17:18": [
+        "thou ipl:a into world send:perf",
+        "ipl they:a into world send:perf"
+      ],
+      "17:19": [
+        "their/sake:pl",
+        "ipl iplself sanctify:pr",
+        "through truth sanctify:psv:may"
+      ],
+      "17:20": [
+        "nor ipl for these alone pray:pr",
+        "through their/word on ipl believe:fu"
+      ],
+      "17:21": [
+        "all they one_num",
+        "thou father in ipl",
+        "ipl in thee",
+        "they also one_num in wesg",
+        "thou ipl:a send:perf"
+      ],
+      "17:22": [
+        "glory which thou to ipl give:pa",
+        "ipl to they give:perf",
+        "they one_num be:may even as wesg one_num"
+      ],
+      "17:23": [
+        "ipl in they and thou in ipl",
+        "perfect in one_num make:psv:may",
+        "they:a love:perf as thou ipl:a love:perf"
+      ],
+      "17:24": [
+        "with ipl where ipl be:pr",
+        "will:pr",
+        "mypl/glory",
+        "before kjv_foundation of world love:pa"
+      ],
+      "17:25": [
+        "oh kjv_righteous father",
+        "world thee know:neg:perf",
+        "ipl thee know:perf",
+        "these that thou ipl:a send:perf know:perf"
+      ],
+      "17:26": [
+        "thy/name declare:perf and declare:fu",
+        "love with which thou ipl:a love:perf",
+        "in they be:may and ipl in they"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "15:25"
+      ],
+      "ipl": [
+        "15:1",
+        "15:10",
+        "15:11",
+        "15:12",
+        "15:14",
+        "15:15",
+        "15:16",
+        "15:17",
+        "15:18",
+        "15:19",
+        "15:2",
+        "15:20",
+        "15:21",
+        "15:22",
+        "15:23",
+        "15:24",
+        "15:26",
+        "15:27",
+        "15:3",
+        "15:4",
+        "15:5",
+        "15:6",
+        "15:7",
+        "15:9",
+        "16:1",
+        "16:10",
+        "16:12",
+        "16:14",
+        "16:15",
+        "16:16",
+        "16:17",
+        "16:19",
+        "16:20",
+        "16:22",
+        "16:23",
+        "16:25",
+        "16:26",
+        "16:27",
+        "16:28",
+        "16:3",
+        "16:32",
+        "16:33",
+        "16:4",
+        "16:5",
+        "16:6",
+        "16:7",
+        "16:9",
+        "17:10",
+        "17:11",
+        "17:12",
+        "17:13",
+        "17:14",
+        "17:15",
+        "17:16",
+        "17:18",
+        "17:19",
+        "17:20",
+        "17:21",
+        "17:22",
+        "17:23",
+        "17:24",
+        "17:25",
+        "17:26",
+        "17:4",
+        "17:5",
+        "17:6",
+        "17:7",
+        "17:8",
+        "17:9"
+      ],
+      "wesg": [
+        "16:17",
+        "16:18",
+        "16:30",
+        "17:11",
+        "17:21",
+        "17:22"
+      ],
+      "wepl": [],
+      "mypl": [
+        "15:1",
+        "15:10",
+        "15:11",
+        "15:12",
+        "15:14",
+        "15:15",
+        "15:16",
+        "15:20",
+        "15:21",
+        "15:23",
+        "15:24",
+        "15:7",
+        "15:8",
+        "15:9",
+        "16:10",
+        "16:23",
+        "16:24",
+        "16:26",
+        "16:5",
+        "17:13",
+        "17:24"
+      ],
+      "ourone": [],
+      "iplself": [
+        "17:19"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Explicit one predicates in17:11,21,22,23retained alongside communal singular-we;no physical dual or Trinity headcount invented.",
+      "Quoted psalm personal-I,disciples communal-we and Father/speaker communal-we retain separate discourse scopes."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "86new verses;741John;whole Bible incomplete.",
+      "Distinct heard speech,received glory,indwelling and source tensions retained.",
+      "One common veiled-saying entry;no new proper names,paradigms or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "John — incomplete Bible working text",
+    "pages": 398,
+    "spreads": 199,
+    "units": 741,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d8875dffa67036d153453bebe05e8757d27c5f91628b7143938d4e36aa781787",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 199,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 12.679,
+    "modules": [
+      "tests.test_kjv_john_one_prayer",
+      "tests.test_kjv_john_indwelling",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    397,
+    398
+  ],
+  "status": "incomplete Bible;John1–17 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 397,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv220\\preflight-john\\Proofs\\page-397.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv220\\composed-john\\Proofs\\page-397.png",
+        "sha256": "67dad0efbe4c7ee73c4cc88dd71e02928c07e088dd0de7ffd20cfce59ec4141c",
+        "bytesIdentical": true
+      },
+      {
+        "page": 398,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv220\\preflight-john\\Proofs\\page-398.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv220\\composed-john\\Proofs\\page-398.png",
+        "sha256": "620aa75114119d977f8b08f1b879d78f9a3df9ff0fd859644c46fe0de194d5a8",
+        "bytesIdentical": true
+      }
+    ]
+  },
+  "identityProofReview": {
+    "reference": "John 17:21",
+    "preflightProofsViewed": [
+      393,
+      394
+    ],
+    "finding": "Personal singular addressee, plural-I speaker, plural they and singular-we indwelling remain distinct; both one predicates retained."
+  }
+}

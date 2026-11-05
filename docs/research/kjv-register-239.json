@@ -1,0 +1,676 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.239",
+    "parentVersion": "0.10-kjv.238",
+    "parentHead": "95c664ad4edd62f6cae0d66759d2794918f1f85da1f43d094d171d8152988cc8",
+    "head": "a6d9d504742b4fbbee3c6ff0751db53a688ddeb92e7c31a9251db980c18452a4",
+    "newLexicalEntries": 6,
+    "newProperEntries": 0,
+    "newCommonEntries": 6,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 86,
+    "exactCompilerCases": 86,
+    "newAuthoredVerses": 86,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 177,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2561,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newCorinthians1Verses": 86,
+    "corinthians1Verses": 177,
+    "authoredVerses": 28541,
+    "remainingVerses": 2561,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "1 Corinthians 6:5",
+        "source": "I speak to your shame. Is it so, that there is not a wise man among you? no, not one that shall be able to judge between his brethren?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 6:16",
+        "source": "What? know ye not that he which is joined to an harlot is one body? for two, saith he, shall be one flesh.",
+        "expectedDecimalQuantities": [
+          1,
+          2,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 6:17",
+        "source": "But he that is joined unto the Lord is one spirit.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 8:4",
+        "source": "As concerning therefore the eating of those things that are offered in sacrifice unto idols, we know that an idol is nothing in the world, and that there is none other God but one.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 8:6",
+        "source": "But to us there is but one God, the Father, of whom are all things, and we in him; and one Lord Jesus Christ, by whom are all things, and we by him.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "5:1": [
+        "even among kjv_gentile:pl name:psv:neg",
+        "his/father wife"
+      ],
+      "5:2": [
+        "proud become",
+        "rather mourn:neg",
+        "from among you away take"
+      ],
+      "5:3": [
+        "in body absent but in spirit present",
+        "already judge",
+        "as though i present"
+      ],
+      "5:4": [
+        "ourone/lord",
+        "you together gather",
+        "my/spirit"
+      ],
+      "5:5": [
+        "to kjv_satan_temptation",
+        "destroy:ev of flesh",
+        "spirit in day of kjv_lord kjv_jesus_matthew save:psv:may"
+      ],
+      "5:6": [
+        "your/boast:ev good be:neg",
+        "little kjv_leaven whole lump kjv_leaven_raise"
+      ],
+      "5:7": [
+        "old kjv_leaven out purge",
+        "new lump",
+        "without kjv_leaven",
+        "ourone/kjv_passover for wesg"
+      ],
+      "5:8": [
+        "wesg feast keep",
+        "malice and wicked:ev",
+        "bread of sincere:ev and truth"
+      ],
+      "5:9": [
+        "i to you in letter",
+        "company keep:neg:inf"
+      ],
+      "5:10": [
+        "not entirely",
+        "of this world",
+        "kjv_covet:ag:pl or extort:ag:pl or idolatry:ag:pl",
+        "out of world go:must"
+      ],
+      "5:11": [
+        "brother call:psv:adj",
+        "kjv_fornication:ag or kjv_covet:ag or idolatry:ag or insult:ag or kjv_drunkard or extort:ag",
+        "even eat:neg"
+      ],
+      "5:12": [
+        "they who outside",
+        "they who within"
+      ],
+      "5:13": [
+        "god judge",
+        "that wicked person away put"
+      ],
+      "6:1": [
+        "kjv_legal_case against another",
+        "before unjust:pl and not before saint:pl"
+      ],
+      "6:2": [
+        "saint:pl world judge",
+        "smallest kjv_legal_case:pl"
+      ],
+      "6:3": [
+        "wesg angel:pl judge",
+        "to this life belong"
+      ],
+      "6:4": [
+        "least esteem:psv",
+        "to judge:inf set:imp"
+      ],
+      "6:5": [
+        "i to your/shame",
+        "not one_num",
+        "between his/brother:pl judge"
+      ],
+      "6:6": [
+        "brother with brother kjv_litigate",
+        "before believe:neg:ag:pl"
+      ],
+      "6:7": [
+        "each other with kjv_litigate",
+        "wrong receive:neg",
+        "kjv_defraud:psv:inf permit:neg"
+      ],
+      "6:8": [
+        "wrong do",
+        "kjv_defraud",
+        "your/brother:pl"
+      ],
+      "6:9": [
+        "unjust:pl kingdom of god inherit:neg",
+        "kjv_fornication:ag:pl",
+        "idolatry:ag:pl",
+        "kjv_adultery:ag:pl",
+        "kjv_effeminate_label_corinthians:pl",
+        "kjv_male_abuse_label_corinthians:pl"
+      ],
+      "6:10": [
+        "nor thief:pl nor kjv_covet:ag:pl nor kjv_drunkard:pl nor insult:ag:pl nor extort:ag:pl"
+      ],
+      "6:11": [
+        "some of you be:pa",
+        "wash:psv",
+        "sanctify:psv",
+        "spirit of ourone/god kjv_justify"
+      ],
+      "6:12": [
+        "all thing:pl to i lawful",
+        "not all thing:pl profitable",
+        "all thing:pl for i lawful",
+        "under authority of any bring:psv:neg"
+      ],
+      "6:13": [
+        "food:pl for belly and belly for food:pl",
+        "both it and they:a destroy",
+        "body not for kjv_fornication",
+        "kjv_lord for body"
+      ],
+      "6:14": [
+        "kjv_lord up raise:perf",
+        "wesg:a also up raise:fu"
+      ],
+      "6:15": [
+        "your/body:pl kjv_member_body_romans:pl",
+        "kjv_member_body_romans:pl of kjv_harlot",
+        "god forbid:opt:excl"
+      ],
+      "6:16": [
+        "one_num body",
+        "two he say:pr one_num flesh"
+      ],
+      "6:17": [
+        "to kjv_lord join:psv:pr one_num spirit"
+      ],
+      "6:18": [
+        "each sin",
+        "outside body",
+        "against his/own body sin"
+      ],
+      "6:19": [
+        "your/body kjv_temple_sanctuary of holy spirit",
+        "which you of god have",
+        "you your/own be:neg"
+      ],
+      "6:20": [
+        "with price buy",
+        "in your/body and in your/spirit",
+        "which of god"
+      ],
+      "7:1": [
+        "you to i write",
+        "man woman touch:neg"
+      ],
+      "7:2": [
+        "each man his/own wife",
+        "each woman her/own husband"
+      ],
+      "7:3": [
+        "husband to wife due kjv_kindness",
+        "wife to husband"
+      ],
+      "7:4": [
+        "wife authority over her/own body have:neg",
+        "husband authority over his/own body have:neg",
+        "but wife"
+      ],
+      "7:5": [
+        "except with consent for time",
+        "kjv_fast and prayer",
+        "again together come",
+        "your/kjv_incontinency_corinthians"
+      ],
+      "7:6": [
+        "by permission and not of command"
+      ],
+      "7:7": [
+        "as i myself",
+        "his/own gift of god",
+        "this manner and another after that"
+      ],
+      "7:8": [
+        "wed:neg:adj:pl and widow:pl",
+        "if they even as i remain"
+      ],
+      "7:9": [
+        "themselves restrain:neg:can",
+        "wed:opt",
+        "better than to burn"
+      ],
+      "7:10": [
+        "i command:pr yet not i but kjv_lord",
+        "wife from her/husband depart:neg"
+      ],
+      "7:11": [
+        "if she depart",
+        "wed:neg:adj remain",
+        "kjv_reconcile_relation",
+        "husband his/wife away put:neg"
+      ],
+      "7:12": [
+        "i not kjv_lord speak",
+        "wife who believe:neg",
+        "she with he dwell",
+        "away put:neg"
+      ],
+      "7:13": [
+        "husband who believe:neg",
+        "he with she dwell",
+        "she he:a leave:neg"
+      ],
+      "7:14": [
+        "husband by wife sanctify",
+        "wife by husband sanctify",
+        "your/child:pl kjv_unclean_ritual",
+        "now they holy"
+      ],
+      "7:15": [
+        "if believe:neg:ag depart",
+        "he depart:opt",
+        "brother or sister",
+        "under bondage be:neg",
+        "wesg:a to peace"
+      ],
+      "7:16": [
+        "wife whether thou thy/husband save",
+        "man whether thou thy/wife save"
+      ],
+      "7:17": [
+        "god to each man distribute",
+        "kjv_lord each person call",
+        "all kjv_church_assembly:pl"
+      ],
+      "7:18": [
+        "without kjv_circumcise:ev become:neg",
+        "in without kjv_circumcise:ev",
+        "kjv_circumcise:psv:neg"
+      ],
+      "7:19": [
+        "kjv_circumcise:ev nothing",
+        "without kjv_circumcise:ev nothing",
+        "command:pl of god keep"
+      ],
+      "7:20": [
+        "same call:ev wherein he call"
+      ],
+      "7:21": [
+        "servant be:cv",
+        "free make:psv:may",
+        "it rather use:imp"
+      ],
+      "7:22": [
+        "free man of kjv_lord",
+        "servant of kjv_christ_title"
+      ],
+      "7:23": [
+        "with price buy",
+        "servant:pl of man:pl be:neg"
+      ],
+      "7:24": [
+        "wherein he call",
+        "with god remain"
+      ],
+      "7:25": [
+        "i no command of kjv_lord",
+        "i my/judgment",
+        "mercy obtain"
+      ],
+      "7:26": [
+        "for present distress",
+        "suppose:pr",
+        "good for man so be"
+      ],
+      "7:27": [
+        "to wife bind",
+        "loose:psv:inf seek:neg",
+        "from wife loose",
+        "wife seek:neg"
+      ],
+      "7:28": [
+        "thou sin:neg:perf",
+        "she sin:neg:perf",
+        "in flesh distress",
+        "i you:a spare"
+      ],
+      "7:29": [
+        "time short",
+        "wife:pl have",
+        "as though they none"
+      ],
+      "7:30": [
+        "weep:neg:pa",
+        "rejoice:neg:pa",
+        "possess:neg:pa"
+      ],
+      "7:31": [
+        "world use",
+        "kjv_use_excess_corinthians:neg",
+        "form of this world"
+      ],
+      "7:32": [
+        "without worry:ev",
+        "kjv_lord belong",
+        "kjv_lord kjv_please_satisfy"
+      ],
+      "7:33": [
+        "of world",
+        "his/wife kjv_please_satisfy"
+      ],
+      "7:34": [
+        "between wife and virgin difference",
+        "both in body and in spirit holy",
+        "her/husband kjv_please_satisfy"
+      ],
+      "7:35": [
+        "your/own benefit",
+        "not that i upon you snare",
+        "without kjv_distraction_corinthians"
+      ],
+      "7:36": [
+        "his/virgin",
+        "flower of her/age",
+        "need so require",
+        "he sin:neg",
+        "they wed:opt"
+      ],
+      "7:37": [
+        "necessity have:neg",
+        "his/own will authority",
+        "his/virgin keep",
+        "well do"
+      ],
+      "7:38": [
+        "in marriage give:pr well",
+        "in marriage give:neg:pr better"
+      ],
+      "7:39": [
+        "while her/husband live",
+        "her/husband dead",
+        "to whom she will",
+        "only in kjv_lord"
+      ],
+      "7:40": [
+        "according_to my/judgment",
+        "i also think",
+        "i spirit of god"
+      ],
+      "8:1": [
+        "wesg all knowledge",
+        "knowledge proud make",
+        "kjv_charity_love_corinthians kjv_edify_romans"
+      ],
+      "8:2": [
+        "he yet nothing as he know:should know"
+      ],
+      "8:3": [
+        "same person by he know:psv"
+      ],
+      "8:4": [
+        "wesg know",
+        "idol in world nothing",
+        "no other god except one_num"
+      ],
+      "8:5": [
+        "god:pl call:psv",
+        "heaven or in earth",
+        "many god:pl and many lord:pl"
+      ],
+      "8:6": [
+        "to wesg only one_num god father",
+        "of whom all thing:pl",
+        "wesg in he",
+        "one_num lord",
+        "by whom all thing:pl",
+        "wesg by he"
+      ],
+      "8:7": [
+        "not in each man",
+        "conscience of idol",
+        "their/conscience weak"
+      ],
+      "8:8": [
+        "food wesg:a to god commend:neg",
+        "neither if wesg eat:pr",
+        "neither if wesg eat:neg"
+      ],
+      "8:9": [
+        "your/free:ev",
+        "weak be:pr kjv_stumblingblock"
+      ],
+      "8:10": [
+        "kjv_temple_sanctuary of idol",
+        "at food",
+        "conscience",
+        "bold make:psv:neg:fu:q"
+      ],
+      "8:11": [
+        "through thy/knowledge",
+        "for whom kjv_christ_title die",
+        "perish:fu:q"
+      ],
+      "8:12": [
+        "their/weak conscience kjv_wound_inflict",
+        "against kjv_christ_title sin"
+      ],
+      "8:13": [
+        "if food my/brother",
+        "no flesh eat",
+        "lest i my/brother"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "5:11",
+        "5:12",
+        "5:3",
+        "5:9",
+        "6:12",
+        "6:15",
+        "6:5",
+        "7:1",
+        "7:10",
+        "7:12",
+        "7:17",
+        "7:25",
+        "7:26",
+        "7:28",
+        "7:29",
+        "7:32",
+        "7:35",
+        "7:40",
+        "7:6",
+        "7:7",
+        "7:8",
+        "8:13"
+      ],
+      "ipl": [],
+      "wesg": [
+        "5:7",
+        "5:8",
+        "6:14",
+        "6:3",
+        "7:15",
+        "8:1",
+        "8:4",
+        "8:6",
+        "8:8"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "5:4",
+        "5:7",
+        "6:11"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Explicit two and one flesh remain distinct from one spirit;singular body and plural bodies follow the supplied source.",
+      "One God Father and one Lord retain of/in/by relations;no unprinted Trinity arithmetic or physical-dual claim.",
+      "Personal author-I is not divine merely because a Lord-command is relayed;community singular-we remains contextual."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "86new verses;1771Corinthians;whole Bible incomplete.",
+      "Historic sexual labels,reciprocal marital clauses,permission/command contrasts,unresolved his-virgin relation and conscience/food distinctions retained.",
+      "Six common entries;no new proper names,paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Corinthians — incomplete Bible working text",
+    "pages": 108,
+    "spreads": 54,
+    "units": 177,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "3a9edc8b5b109111c82b3e58b8c028246f94da1563889ad83710ebe584cd1a04",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 54,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.896,
+    "modules": [
+      "tests.test_kjv_corinthians_union_conscience",
+      "tests.test_kjv_corinthians_shared_mind",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    107,
+    108
+  ],
+  "status": "incomplete Bible;1 Corinthians1–8 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 107,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv239\\preflight-corinthians1\\Proofs\\page-107.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv239\\composed-corinthians1\\Proofs\\page-107.png",
+        "sha256": "afe2b1794ae13a0c13c86ca4588f274b6058767bc8b83cb5376a954544e8de7f",
+        "bytesIdentical": true
+      },
+      {
+        "page": 108,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv239\\preflight-corinthians1\\Proofs\\page-108.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv239\\composed-corinthians1\\Proofs\\page-108.png",
+        "sha256": "fc7a0dd1d285dcfa523ef43313dfd422c1ac225a01dd7398f5675705c76e4df9",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

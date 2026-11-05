@@ -1,0 +1,1114 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.110",
+    "parentVersion": "0.10-kjv.109",
+    "parentHead": "d175aff895d8781234eec2e594bbdc22acd238440d01d7319745846e80805207",
+    "head": "90a4e9984e536a6efed5cd2d07fbf906ee3c6b4ce9f6b99fac9451a95a7be92d",
+    "newLexicalEntries": 4,
+    "newProperEntries": 0,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 199,
+    "exactCompilerCases": 199,
+    "newAuthoredVerses": 199,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 511,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 16603,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 199,
+    "psalmsVerses": 511,
+    "authoredVerses": 14499,
+    "remainingVerses": 16603,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 3,
+    "quantityChecks": [
+      {
+        "reference": "Psalms 27:4",
+        "source": "One thing have I desired of the LORD, that will I seek after; that I may dwell in the house of the LORD all the days of my life, to behold the beauty of the LORD, and to enquire in his temple.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 33:2",
+        "source": "Praise the LORD with harp: sing unto him with the psaltery and an instrument of ten strings.",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Psalms 34:20",
+        "source": "He keepeth all his bones: not one of them is broken.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "25:1": [
+        "my/soul:a up lift"
+      ],
+      "25:2": [
+        "ashamed be:neg",
+        "enemy:pl over i triumph:neg"
+      ],
+      "25:3": [
+        "none who on thee wait",
+        "without cause transgress"
+      ],
+      "25:4": [
+        "thy/way:pl",
+        "thy/path:pl"
+      ],
+      "25:5": [
+        "god of my/salvation",
+        "all day wait"
+      ],
+      "25:6": [
+        "tender mercy:pl",
+        "lovingkindness:pl",
+        "ever of old"
+      ],
+      "25:7": [
+        "youth nor",
+        "remember:neg:imp",
+        "thy/goodness:poss sake"
+      ],
+      "25:8": [
+        "good and kjv_upright",
+        "sin:ag:pl:a"
+      ],
+      "25:9": [
+        "in judgment guide",
+        "meek_disposition:a his/way"
+      ],
+      "25:10": [
+        "mercy and truth",
+        "his/kjv_covenant"
+      ],
+      "25:11": [
+        "pardon:imp for it great"
+      ],
+      "25:12": [
+        "he choose:fu teach:fu"
+      ],
+      "25:13": [
+        "at ease dwell",
+        "seed earth:a inherit"
+      ],
+      "25:14": [
+        "secret of kjv_lord",
+        "his/kjv_covenant:a show"
+      ],
+      "25:15": [
+        "eye:pl ever",
+        "foot:pl:a out of kjv_net"
+      ],
+      "25:16": [
+        "desolate_person be:pr and kjv_afflict:psv"
+      ],
+      "25:17": [
+        "heart grow:pr",
+        "out of my/distress"
+      ],
+      "25:18": [
+        "my/pain look",
+        "sin:pl:a forgive"
+      ],
+      "25:19": [
+        "many be:pr",
+        "cruel hate:ev hate"
+      ],
+      "25:20": [
+        "soul:a keep",
+        "ashamed be:neg"
+      ],
+      "25:21": [
+        "integrity and kjv_uprightness",
+        "on thee wait"
+      ],
+      "25:22": [
+        "israel:a redeem",
+        "his/kjv_trouble:pl"
+      ],
+      "26:1": [
+        "integrity walk:perf",
+        "slide:neg:fu"
+      ],
+      "26:2": [
+        "kidney:pl",
+        "heart:a test"
+      ],
+      "26:3": [
+        "lovingkindness before",
+        "truth walk:perf"
+      ],
+      "26:4": [
+        "sit:neg:perf",
+        "dissemble:ag:pl",
+        "go:neg:fu"
+      ],
+      "26:5": [
+        "hate:perf",
+        "sit:neg:fu"
+      ],
+      "26:6": [
+        "hand:pl:a in innocent:ev",
+        "altar:a surround"
+      ],
+      "26:7": [
+        "voice of thanks:ev publish:may",
+        "work:pl:a tell:may"
+      ],
+      "26:8": [
+        "dwelling:a of thy/house",
+        "honour dwell"
+      ],
+      "26:9": [
+        "gather:neg:imp nor",
+        "bloody man:pl"
+      ],
+      "26:10": [
+        "right_side hand",
+        "bribe:pl"
+      ],
+      "26:11": [
+        "integrity walk:fu",
+        "merciful be:imp"
+      ],
+      "26:12": [
+        "in level kjv_place_site",
+        "congregation_general:pl"
+      ],
+      "27:1": [
+        "whom i fear:fu",
+        "of whom i afraid"
+      ],
+      "27:2": [
+        "my/flesh:a up eat",
+        "stumble:pa and fall:pa"
+      ],
+      "27:3": [
+        "army against i",
+        "encamp:should",
+        "rise:should"
+      ],
+      "27:4": [
+        "one_num thing",
+        "beauty:a of kjv_lord",
+        "his/temple ask:inf"
+      ],
+      "27:5": [
+        "pavilion hide",
+        "tabernacle he i:a hide",
+        "upon rock"
+      ],
+      "27:6": [
+        "head above",
+        "joy offer",
+        "sing:fu indeed i praise"
+      ],
+      "27:7": [
+        "when i with my/voice",
+        "mercy:a also have"
+      ],
+      "27:8": [
+        "you:pl mypl/face:a seek:imp",
+        "my/heart",
+        "i seek:fu"
+      ],
+      "27:9": [
+        "hide:neg",
+        "put:neg",
+        "leave:neg",
+        "forsake:neg"
+      ],
+      "27:10": [
+        "father and my/mother",
+        "up take:fu"
+      ],
+      "27:11": [
+        "in level path",
+        "because of my/enemy"
+      ],
+      "27:12": [
+        "will of my/enemy",
+        "false witness",
+        "cruelty:a out breathe"
+      ],
+      "27:13": [
+        "i would faint be:pp unless",
+        "living see:inf believe:pp"
+      ],
+      "27:14": [
+        "wait:imp of good courage",
+        "wait:imp i say"
+      ],
+      "28:1": [
+        "silent be:neg",
+        "lest if",
+        "become:may"
+      ],
+      "28:2": [
+        "hand:pl:a towards thy/holy kjv_oracle_chamber"
+      ],
+      "28:3": [
+        "draw:neg",
+        "peace:a",
+        "mischief in their/heart"
+      ],
+      "28:4": [
+        "wickedness of their/endeavour",
+        "their/desert:a repay"
+      ],
+      "28:5": [
+        "perform:ev:a of his/hand",
+        "destroy:fu",
+        "build:neg:fu"
+      ],
+      "28:6": [
+        "bless:psv:opt",
+        "hear:perf"
+      ],
+      "28:7": [
+        "heart in he trust:pa",
+        "help:psv:pr",
+        "my/song"
+      ],
+      "28:8": [
+        "their/strength",
+        "his/anoint:psv:ag"
+      ],
+      "28:9": [
+        "inheritance:a bless",
+        "feed:imp",
+        "lift:imp for ever"
+      ],
+      "29:1": [
+        "you:pl mighty",
+        "glory and strength"
+      ],
+      "29:2": [
+        "due to his/name",
+        "beauty of holy:ev"
+      ],
+      "29:3": [
+        "god of glory thunder",
+        "many water:pl"
+      ],
+      "29:4": [
+        "powerful",
+        "full of majesty"
+      ],
+      "29:5": [
+        "cedar:pl:a break",
+        "of kjv_lebanon"
+      ],
+      "29:6": [
+        "like kjv_calf skip:caus",
+        "kjv_sirion",
+        "young kjv_unicorn"
+      ],
+      "29:7": [
+        "flame:pl:a of fire kjv_divide"
+      ],
+      "29:8": [
+        "wilderness:a shake",
+        "of kjv_kadesh"
+      ],
+      "29:9": [
+        "hind:pl:a born:caus",
+        "forest:pl:a kjv_uncover",
+        "everyone"
+      ],
+      "29:10": [
+        "upon flood sit",
+        "king for ever"
+      ],
+      "29:11": [
+        "his/people strength",
+        "with peace bless"
+      ],
+      "30:1": [
+        "up lift:perf",
+        "rejoice:caus:neg:perf"
+      ],
+      "30:2": [
+        "cry:pa",
+        "heal:perf"
+      ],
+      "30:3": [
+        "from grave bring",
+        "alive keep",
+        "go:neg:should"
+      ],
+      "30:4": [
+        "saint:pl",
+        "remembrance of his/holy:ev"
+      ],
+      "30:5": [
+        "but moment",
+        "weep:ev for night",
+        "joy in morning"
+      ],
+      "30:6": [
+        "in my/prosperity i say",
+        "never move:psv:fu"
+      ],
+      "30:7": [
+        "mountain:a strong stand:caus",
+        "face:a hide:pa",
+        "trouble:psv:pa"
+      ],
+      "30:8": [
+        "to thee cry",
+        "to kjv_lord i kjv_supplication"
+      ],
+      "30:9": [
+        "gain:ev in my/blood",
+        "dust thee:a praise",
+        "declare:fu"
+      ],
+      "30:10": [
+        "mercy:a have",
+        "my/help:ag"
+      ],
+      "30:11": [
+        "mourn:ev:a into dance:ev",
+        "sackcloth:a off",
+        "glad:ev kjv_gird"
+      ],
+      "30:12": [
+        "my/glory",
+        "silent be:neg:may",
+        "thanks:a give"
+      ],
+      "31:1": [
+        "never ashamed",
+        "thy/kjv_righteousness deliver"
+      ],
+      "31:2": [
+        "ear:a down",
+        "speedily",
+        "house of defence"
+      ],
+      "31:3": [
+        "rock and my/fortress",
+        "thy/name:poss sake"
+      ],
+      "31:4": [
+        "net which they secretly",
+        "my/strength"
+      ],
+      "31:5": [
+        "i my/spirit:a commit",
+        "god of truth"
+      ],
+      "31:6": [
+        "kjv_lie_false:ev vanity:pl",
+        "hate:perf"
+      ],
+      "31:7": [
+        "consider:perf",
+        "soul:a in kjv_adversity:pl"
+      ],
+      "31:8": [
+        "shut:neg:perf",
+        "foot:pl:a in large room"
+      ],
+      "31:9": [
+        "eye with grief waste:psv",
+        "soul and my/belly"
+      ],
+      "31:10": [
+        "year:pl with sigh",
+        "because of my/kjv_iniquity",
+        "bone:pl waste"
+      ],
+      "31:11": [
+        "especially among my/neighbour",
+        "outside see",
+        "flee:pa"
+      ],
+      "31:12": [
+        "dead man out of mind",
+        "break:psv:pa vessel"
+      ],
+      "31:13": [
+        "slander:a of many",
+        "counsel:a take",
+        "life:a away take"
+      ],
+      "31:14": [
+        "trust:pa",
+        "i say:pa thou my/god"
+      ],
+      "31:15": [
+        "my/time:pl in thy/hand",
+        "persecute"
+      ],
+      "31:16": [
+        "face:a upon thy/servant shine:caus",
+        "mercy:pl:poss"
+      ],
+      "31:17": [
+        "ashamed be:neg",
+        "wicked ashamed",
+        "in grave silent"
+      ],
+      "31:18": [
+        "lie_false:ev lip:pl",
+        "with pride and with contempt"
+      ],
+      "31:19": [
+        "great thy/goodness be:pr:excl",
+        "before son:pl of man"
+      ],
+      "31:20": [
+        "secret of thy/presence",
+        "pavilion from strife of tongue:pl"
+      ],
+      "31:21": [
+        "marvellous kjv_kindness",
+        "in strong city"
+      ],
+      "31:22": [
+        "in my/haste say",
+        "nevertheless",
+        "when i to thee cry"
+      ],
+      "31:23": [
+        "faithful:a preserve",
+        "proud do:ag:a in abundance reward"
+      ],
+      "31:24": [
+        "your/heart",
+        "all you:pl that in kjv_lord hope"
+      ],
+      "32:1": [
+        "transgress:ev forgive:psv",
+        "sin cover:psv"
+      ],
+      "32:2": [
+        "impute:neg",
+        "no kjv_guile"
+      ],
+      "32:3": [
+        "silence:a keep",
+        "bone:pl old grow",
+        "my/roar:ev"
+      ],
+      "32:4": [
+        "day and night",
+        "moist:ev into kjv_drought",
+        "kjv_selah"
+      ],
+      "32:5": [
+        "acknowledge:pr",
+        "hide:neg:perf",
+        "confess:fu",
+        "forgive:pa"
+      ],
+      "32:6": [
+        "find:psv:may",
+        "flood:pl of great water",
+        "come:neg:fu"
+      ],
+      "32:7": [
+        "my/hide:ev kjv_place_site",
+        "song:pl of deliver:ev"
+      ],
+      "32:8": [
+        "i thee:a instruct:fu",
+        "with my/eye guide"
+      ],
+      "32:9": [
+        "horse or like mule",
+        "kjv_horse_bit and bridle",
+        "lest they near to thee come"
+      ],
+      "32:10": [
+        "many sorrow:pl",
+        "mercy he:a about surround"
+      ],
+      "32:11": [
+        "you:pl kjv_righteous:excl",
+        "for joy shout"
+      ],
+      "33:1": [
+        "praise for kjv_upright fit"
+      ],
+      "33:2": [
+        "harp",
+        "kjv_psaltery",
+        "ten string:pl"
+      ],
+      "33:3": [
+        "new song",
+        "with skill with loud noise"
+      ],
+      "33:4": [
+        "word of kjv_lord kjv_just_fair",
+        "in truth do:psv"
+      ],
+      "33:5": [
+        "righteousness and judgment",
+        "full of goodness"
+      ],
+      "33:6": [
+        "word of kjv_lord heaven:pl",
+        "their/army",
+        "breath of his/mouth"
+      ],
+      "33:7": [
+        "sea together as kjv_heap",
+        "depth:a up in kjv_storehouse"
+      ],
+      "33:8": [
+        "all earth",
+        "inhabit:ag:pl",
+        "awe"
+      ],
+      "33:9": [
+        "speak:pa",
+        "command:pa",
+        "kjv_firmly stand"
+      ],
+      "33:10": [
+        "heathen to nothing",
+        "none effect"
+      ],
+      "33:11": [
+        "for ever",
+        "heart to all generation:pl"
+      ],
+      "33:12": [
+        "nation whose god",
+        "his/own inheritance"
+      ],
+      "33:13": [
+        "from heaven",
+        "son:pl:a of man"
+      ],
+      "33:14": [
+        "his/dwelling",
+        "all inhabit:ag:pl"
+      ],
+      "33:15": [
+        "heart:pl:a equally shape",
+        "work:pl:a consider"
+      ],
+      "33:16": [
+        "no king",
+        "multitude of army",
+        "deliver:psv:neg"
+      ],
+      "33:17": [
+        "horse vain thing",
+        "neither he",
+        "any:a deliver"
+      ],
+      "33:18": [
+        "eye of kjv_lord",
+        "mercy hope"
+      ],
+      "33:19": [
+        "their/soul:a from death",
+        "alive in kjv_famine"
+      ],
+      "33:20": [
+        "ourone/soul",
+        "ourone/help",
+        "ourone/kjv_shield_armour"
+      ],
+      "33:21": [
+        "ourone/heart",
+        "wesg in his/holy name trust"
+      ],
+      "33:22": [
+        "upon wesg be:opt",
+        "as wesg in thee hope"
+      ],
+      "34:1": [
+        "at all time:pl",
+        "always in my/mouth"
+      ],
+      "34:2": [
+        "my/soul",
+        "her/boast",
+        "humble hear"
+      ],
+      "34:3": [
+        "with i",
+        "wesg his/name:a together"
+      ],
+      "34:4": [
+        "seek:pa",
+        "all my/fear:pl"
+      ],
+      "34:5": [
+        "light:caus:psv:pa",
+        "face:pl ashamed be:neg"
+      ],
+      "34:6": [
+        "this poor man",
+        "all his/kjv_trouble:pl"
+      ],
+      "34:7": [
+        "angel",
+        "encamp:pr",
+        "deliver:pr"
+      ],
+      "34:8": [
+        "taste:imp and see",
+        "trust:pr blessed"
+      ],
+      "34:9": [
+        "no lack",
+        "fear:pr"
+      ],
+      "34:10": [
+        "young lion:pl lack",
+        "any good thing:a lack:neg"
+      ],
+      "34:11": [
+        "child:pl",
+        "i you:pl:a fear:a"
+      ],
+      "34:12": [
+        "many day:pl",
+        "good:a see:may"
+      ],
+      "34:13": [
+        "tongue:a from evil",
+        "lip:pl:a from kjv_guile"
+      ],
+      "34:14": [
+        "depart:imp",
+        "do:imp",
+        "seek:imp",
+        "pursue:imp"
+      ],
+      "34:15": [
+        "eye:pl",
+        "ear:pl open"
+      ],
+      "34:16": [
+        "against those who evil",
+        "remembrance:a of they"
+      ],
+      "34:17": [
+        "cry:pr",
+        "out of all their/kjv_trouble"
+      ],
+      "34:18": [
+        "break:psv:pa heart",
+        "kjv_contrite spirit"
+      ],
+      "34:19": [
+        "many kjv_afflict:ev:pl",
+        "he:a out of they all"
+      ],
+      "34:20": [
+        "all his/bone:pl",
+        "not one_num"
+      ],
+      "34:21": [
+        "evil wicked:a slay",
+        "desolate_person be:fu"
+      ],
+      "34:22": [
+        "soul:a of his/servant:pl",
+        "none of those"
+      ],
+      "35:1": [
+        "my/cause:a plead",
+        "fight:imp"
+      ],
+      "35:2": [
+        "shield_armour and kjv_buckler",
+        "for my/help"
+      ],
+      "35:3": [
+        "spear:a",
+        "way:a",
+        "say:imp ipl thy/salvation"
+      ],
+      "35:4": [
+        "confound:psv:opt",
+        "hurt:a plan",
+        "confusion bring"
+      ],
+      "35:5": [
+        "chaff before wind",
+        "angel of kjv_lord"
+      ],
+      "35:6": [
+        "dark and kjv_slippery",
+        "persecute:opt"
+      ],
+      "35:7": [
+        "without cause they for i",
+        "without cause they for my/soul"
+      ],
+      "35:8": [
+        "without know:ev",
+        "himself:a catch",
+        "very destroy:ev"
+      ],
+      "35:9": [
+        "my/soul",
+        "his/salvation rejoice"
+      ],
+      "35:10": [
+        "all my/bone:pl say",
+        "too strong",
+        "poor and kjv_needy"
+      ],
+      "35:11": [
+        "false witness",
+        "i know:neg:pa"
+      ],
+      "35:12": [
+        "evil for good",
+        "spoil:ev of my/soul"
+      ],
+      "35:13": [
+        "when they sick",
+        "with kjv_fast:ev",
+        "own bosom return"
+      ],
+      "35:14": [
+        "as though",
+        "friend or brother",
+        "for his/mother"
+      ],
+      "35:15": [
+        "kjv_abject:pl",
+        "i it:a know:neg",
+        "cease:neg"
+      ],
+      "35:16": [
+        "kjv_hypocrite",
+        "feast:pl",
+        "tooth:pl kjv_gnash"
+      ],
+      "35:17": [
+        "how long",
+        "my/darling:a from lion"
+      ],
+      "35:18": [
+        "great kjv_congregation_general",
+        "much people"
+      ],
+      "35:19": [
+        "unjustly my/enemy",
+        "rejoice:neg",
+        "neither",
+        "without cause"
+      ],
+      "35:20": [
+        "peace:a speak:neg",
+        "quiet in land"
+      ],
+      "35:21": [
+        "ah:excl ah:excl",
+        "ourone/eye it:a see"
+      ],
+      "35:22": [
+        "this thou see:perf",
+        "silence:a keep:neg",
+        "far from i be:neg"
+      ],
+      "35:23": [
+        "thyself:a up stir",
+        "my/judgment",
+        "my/cause"
+      ],
+      "35:24": [
+        "according to thy/kjv_righteousness",
+        "rejoice:neg:opt"
+      ],
+      "35:25": [
+        "say:neg:opt ah:excl",
+        "wesg it:a would have",
+        "wesg he:a up kjv_swallow"
+      ],
+      "35:26": [
+        "together to confusion",
+        "shame and dishonour",
+        "themselves:a against i"
+      ],
+      "35:27": [
+        "my/kjv_righteous cause",
+        "always say:opt",
+        "prosperity of his/servant"
+      ],
+      "35:28": [
+        "my/tongue",
+        "all day long"
+      ],
+      "36:1": [
+        "within my/heart say",
+        "before his/eye:pl"
+      ],
+      "36:2": [
+        "himself:a",
+        "until his/kjv_iniquity hateful"
+      ],
+      "36:3": [
+        "word:pl of his/mouth",
+        "wise be:inf and good:a do:inf off leave"
+      ],
+      "36:4": [
+        "upon his/bed plan",
+        "good be:neg",
+        "abhor:neg"
+      ],
+      "36:5": [
+        "in heaven:pl",
+        "faithful:ev to cloud:pl"
+      ],
+      "36:6": [
+        "great mountain:pl",
+        "great kjv_depth",
+        "man and beast"
+      ],
+      "36:7": [
+        "how excellent",
+        "god:excl",
+        "shadow of thy/wing:pl"
+      ],
+      "36:8": [
+        "fat:ev of thy/house",
+        "river of thy/pleasure:pl drink:caus"
+      ],
+      "36:9": [
+        "fountain of life",
+        "wesg light:a see"
+      ],
+      "36:10": [
+        "lovingkindness:a",
+        "righteousness:a",
+        "upright in heart"
+      ],
+      "36:11": [
+        "foot of pride",
+        "come:neg",
+        "hand of wicked",
+        "remove:neg"
+      ],
+      "36:12": [
+        "fall:perf",
+        "cast:psv:pr",
+        "rise:neg:can:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "25:1",
+        "25:16",
+        "25:17",
+        "25:19",
+        "25:2",
+        "25:20",
+        "25:21",
+        "25:4",
+        "25:5",
+        "25:7",
+        "26:1",
+        "26:11",
+        "26:12",
+        "26:2",
+        "26:3",
+        "26:4",
+        "26:5",
+        "26:6",
+        "26:7",
+        "26:8",
+        "27:1",
+        "27:10",
+        "27:11",
+        "27:12",
+        "27:13",
+        "27:14",
+        "27:2",
+        "27:3",
+        "27:4",
+        "27:5",
+        "27:6",
+        "27:7",
+        "27:8",
+        "27:9",
+        "28:1",
+        "28:2",
+        "28:3",
+        "28:7",
+        "30:1",
+        "30:10",
+        "30:11",
+        "30:12",
+        "30:2",
+        "30:3",
+        "30:6",
+        "30:7",
+        "30:8",
+        "30:9",
+        "31:1",
+        "31:11",
+        "31:12",
+        "31:13",
+        "31:14",
+        "31:15",
+        "31:16",
+        "31:17",
+        "31:2",
+        "31:21",
+        "31:22",
+        "31:3",
+        "31:4",
+        "31:5",
+        "31:6",
+        "31:7",
+        "31:8",
+        "31:9",
+        "32:3",
+        "32:4",
+        "32:5",
+        "32:7",
+        "32:8",
+        "34:1",
+        "34:11",
+        "34:3",
+        "34:4",
+        "35:1",
+        "35:11",
+        "35:12",
+        "35:13",
+        "35:14",
+        "35:15",
+        "35:16",
+        "35:18",
+        "35:19",
+        "35:21",
+        "35:22",
+        "35:24",
+        "35:26",
+        "35:3",
+        "35:7",
+        "36:11"
+      ],
+      "ipl": [
+        "35:3"
+      ],
+      "wesg": [
+        "33:21",
+        "33:22",
+        "34:3",
+        "35:25",
+        "36:9"
+      ],
+      "wepl": [],
+      "ourone": [
+        "33:20",
+        "33:21",
+        "35:21"
+      ],
+      "mypl": [
+        "27:8"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Psalm27:4 one desire,Psalm33:2 ten musical strings,andPsalm34:20 not-one bone broken retain distinct positive and negative quantity scopes.",
+      "Psalm35:14 one is a generic human mourner,not a newly enumerated individual.",
+      "All,many,and shared soul/heart/eye clauses acquire no invented totals."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Personal petitioner I remains distinct from collective worship singular-we,hostile chorus singular-we,and requested divine plural-I in35:3.",
+      "Unlabelled teaching I in32:8 remains unassigned rather than being forced into divine speech.",
+      "KJV difficult readings in28:8,32:9,35:13,and36:1 are retained without harmonization.",
+      "Counterfactual27:13 uses explicit would plus unless,not a bare assertion of past collapse.",
+      "All prior targets and old seals remain unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 280,
+    "spreads": 140,
+    "units": 511,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "3255fb9d549cb3e5aa4ae61077d6d63c64e3f524d5b6d5d29ba0835f053e0248",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 140,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.036,
+    "modules": [
+      "tests.test_kjv_psalm_chorus_identity",
+      "tests.test_kjv_psalm_parallels_voices",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    279,
+    280
+  ],
+  "status": "incompleteBible;Psalms1to36sectioncheckpointverified"
+}

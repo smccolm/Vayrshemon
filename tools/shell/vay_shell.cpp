@@ -23,7 +23,7 @@ using Microsoft::WRL::ComPtr;
 const CLSID CLSID_VayShell={0x7b6ea804,0x42e7,0x4bfc,{0xa5,0x62,0x42,0x95,0xcc,0xd2,0x7b,0x61}};
 static HMODULE module;
 static std::atomic<long> objects{0};
-static constexpr size_t MAX_FILE=16*1024*1024,MAX_PNG=3*1024*1024;
+static constexpr size_t MAX_FILE=384*1024*1024,MAX_HEADER=8*1024*1024,MAX_PNG=3*1024*1024;
 
 // Strict JSON token walker. Only root preview fields are retained. Bound every
 // input/allocation, recursion depth and token count before invoking WIC.
@@ -49,7 +49,7 @@ class Json {
         }throw std::runtime_error("string end");
     }
     void value(unsigned depth){
-        ws();if(depth>64||++tokens>400000||p>=s.size())throw std::runtime_error("limit");char c=s[p];
+        ws();if(depth>64||++tokens>4000000||p>=s.size())throw std::runtime_error("limit");char c=s[p];
         if(c=='{'){object(depth+1);return;}
         if(c=='['){++p;ws();if(p<s.size()&&s[p]==']'){++p;return;}do{value(depth+1);ws();if(p<s.size()&&s[p]==']'){++p;return;}expect(',');}while(true);}
         if(c=='"'){string();return;}
@@ -72,12 +72,24 @@ class Json {
 public:
     explicit Json(std::string_view text):s(text){}
     std::map<std::string,std::string_view> fields(){auto f=object(0);ws();if(p!=s.size())throw std::runtime_error("trailing");return f;}
+    std::map<std::string,std::string_view> preview_fields(){
+        // A thumbnail is a bounded saved header, not full document validation.
+        // Current native saves place preview/format/version before page data.
+        expect('{');std::map<std::string,std::string_view> fields;
+        do {
+            auto key=string();expect(':');ws();size_t start=p;
+            if((key=="state"||key=="stateEncoding")&&fields.count("shellPreview")&&fields.count("format")&&fields.count("formatVersion"))return fields;
+            value(0);
+            if(!fields.emplace(key,s.substr(start,p-start)).second||fields.size()>20000)throw std::runtime_error("duplicate or limit");
+            ws();if(p<s.size()&&s[p]=='}'){++p;ws();if(p!=s.size())throw std::runtime_error("trailing");return fields;}expect(',');
+        }while(true);
+    }
     std::string text(){auto t=string();ws();if(p!=s.size())throw std::runtime_error("trailing");return t;}
 };
 
 struct Preview {std::string mode="color";std::vector<BYTE> png;};
 static Preview parse(const std::string& raw){
-    auto root=Json(raw).fields();
+    auto root=Json(raw).preview_fields();
     if(Json(root.at("format")).text()!="vayrshemon.document")throw std::runtime_error("format");
     auto found=root.find("shellPreview");if(found==root.end())return {};
     auto fields=Json(found->second).fields();
@@ -101,7 +113,9 @@ static HRESULT read_stream(IStream* stream,Preview& preview){
         STATSTG st={};HRESULT hr=stream->Stat(&st,STATFLAG_NONAME);if(FAILED(hr))return hr;
         if(st.cbSize.QuadPart==0||st.cbSize.QuadPart>MAX_FILE)return HRESULT_FROM_WIN32(ERROR_FILE_TOO_LARGE);
         LARGE_INTEGER zero={};hr=stream->Seek(zero,STREAM_SEEK_SET,nullptr);if(FAILED(hr))return hr;
-        std::string data(size_t(st.cbSize.QuadPart),'\0');ULONG received=0;
+        // Never allocate/read the document body in Explorer. The embedded PNG
+        // remains usable even for a full book with compressed editable state.
+        std::string data(size_t(std::min<ULONGLONG>(st.cbSize.QuadPart,MAX_HEADER)),'\0');ULONG received=0;
         hr=stream->Read(data.data(),ULONG(data.size()),&received);if(FAILED(hr))return hr;
         if(received!=data.size())return STG_E_READFAULT;
         preview=parse(data);return S_OK;

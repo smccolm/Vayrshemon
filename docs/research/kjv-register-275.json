@@ -1,0 +1,591 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.275",
+    "parentVersion": "0.10-kjv.274",
+    "parentHead": "8c86340dde0ebd46c920df6816c3731897e79ce81d7af108f1c0cec60c5bade5",
+    "head": "60ca7411fb5f3be90bee4eac2900a3bbee352d8b9dac6391fbaf15a39511e094",
+    "newLexicalEntries": 3,
+    "newProperEntries": 2,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 0,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 46,
+    "exactCompilerCases": 46,
+    "newAuthoredVerses": 46,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 303,
+    "jamesVerses": 108,
+    "peter1Verses": 105,
+    "peter2Verses": 61,
+    "john1Verses": 105,
+    "john2Verses": 13,
+    "john3Verses": 14,
+    "judeVerses": 25,
+    "revelationVerses": 257,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 147,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newRevelationVerses": 46,
+    "revelationVerses": 257,
+    "authoredVerses": 30955,
+    "remainingVerses": 147,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 15,
+    "quantityChecks": [
+      {
+        "reference": "Revelation 13:1",
+        "source": "And I stood upon the sand of the sea, and saw a beast rise up out of the sea, having seven heads and ten horns, and upon his horns ten crowns, and upon his heads the name of blasphemy.",
+        "expectedDecimalQuantities": [
+          7,
+          10,
+          10
+        ],
+        "targetQuantities": [
+          7,
+          10,
+          10
+        ]
+      },
+      {
+        "reference": "Revelation 13:3",
+        "source": "And I saw one of his heads as it were wounded to death; and his deadly wound was healed: and all the world wondered after the beast.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 13:5",
+        "source": "And there was given unto him a mouth speaking great things and blasphemies; and power was given unto him to continue forty and two months.",
+        "expectedDecimalQuantities": [
+          42
+        ],
+        "targetQuantities": [
+          42
+        ]
+      },
+      {
+        "reference": "Revelation 13:11",
+        "source": "And I beheld another beast coming up out of the earth; and he had two horns like a lamb, and he spake as a dragon.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Revelation 13:12",
+        "source": "And he exerciseth all the power of the first beast before him, and causeth the earth and them which dwell therein to worship the first beast, whose deadly wound was healed.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 13:18",
+        "source": "Here is wisdom. Let him that hath understanding count the number of the beast: for it is the number of a man; and his number is Six hundred threescore and six.",
+        "expectedDecimalQuantities": [
+          666
+        ],
+        "targetQuantities": [
+          666
+        ]
+      },
+      {
+        "reference": "Revelation 14:1",
+        "source": "And I looked, and, lo, a Lamb stood on the mount Sion, and with him an hundred forty and four thousand, having his Father’s name written in their foreheads.",
+        "expectedDecimalQuantities": [
+          144000
+        ],
+        "targetQuantities": [
+          144000
+        ]
+      },
+      {
+        "reference": "Revelation 14:3",
+        "source": "And they sung as it were a new song before the throne, and before the four beasts, and the elders: and no man could learn that song but the hundred and forty and four thousand, which were redeemed from the earth.",
+        "expectedDecimalQuantities": [
+          4,
+          144000
+        ],
+        "targetQuantities": [
+          4,
+          144000
+        ]
+      },
+      {
+        "reference": "Revelation 14:9",
+        "source": "And the third angel followed them, saying with a loud voice, If any man worship the beast and his image, and receive his mark in his forehead, or in his hand,",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Revelation 14:14",
+        "source": "And I looked, and behold a white cloud, and upon the cloud one sat like unto the Son of man, having on his head a golden crown, and in his hand a sharp sickle.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Revelation 14:20",
+        "source": "And the winepress was trodden without the city, and blood came out of the winepress, even unto the horse bridles, by the space of a thousand and six hundred furlongs.",
+        "expectedDecimalQuantities": [
+          1600
+        ],
+        "targetQuantities": [
+          1600
+        ]
+      },
+      {
+        "reference": "Revelation 15:1",
+        "source": "And I saw another sign in heaven, great and marvellous, seven angels having the seven last plagues; for in them is filled up the wrath of God.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 15:6",
+        "source": "And the seven angels came out of the temple, having the seven plagues, clothed in pure and white linen, and having their breasts girded with golden girdles.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 15:7",
+        "source": "And one of the four beasts gave unto the seven angels seven golden vials full of the wrath of God, who liveth for ever and ever.",
+        "expectedDecimalQuantities": [
+          1,
+          4,
+          7,
+          7
+        ],
+        "targetQuantities": [
+          1,
+          4,
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Revelation 15:8",
+        "source": "And the temple was filled with smoke from the glory of God, and from his power; and no man was able to enter into the temple, till the seven plagues of the seven angels were fulfilled.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "i upon sea sand stand:pa",
+        "seven head:pl and ten horn:pl",
+        "his/horn:pl ten crown:pl",
+        "his/head:pl kjv_blaspheme:ev name"
+      ],
+      "13:2": [
+        "like leopard",
+        "bear_animal foot:pl",
+        "lion mouth",
+        "his/power and his/seat and great authority"
+      ],
+      "13:3": [
+        "one_num of his/head:pl as to death",
+        "deadly wound heal:psv:pa"
+      ],
+      "13:4": [
+        "kjv_dragon_revelation",
+        "beast kjv_worship:pa",
+        "who like beast be:pr:q",
+        "who with he war make:inf able be:pr:q"
+      ],
+      "13:5": [
+        "great thing:pl and kjv_blaspheme:ev:pl",
+        "forty and two month:pl continue:inf"
+      ],
+      "13:6": [
+        "his/name and his/kjv_tabernacle and they who in heaven"
+      ],
+      "13:7": [
+        "holy person:pl war",
+        "overcome:inf",
+        "all kjv_family:pl and tongue:pl and nation:pl"
+      ],
+      "13:8": [
+        "from world kjv_foundation slay:psv:pp kjv_lamb life book",
+        "write:psv:neg:pr"
+      ],
+      "13:9": [
+        "ear have:pr he hear:opt"
+      ],
+      "13:10": [
+        "into kjv_captivity lead:pr into kjv_captivity go:fu",
+        "with sword kill:pr with sword kill:psv:must",
+        "patience and faith"
+      ],
+      "13:11": [
+        "other beast out of earth",
+        "two horn:du like kjv_lamb",
+        "as kjv_dragon_revelation speak:pa"
+      ],
+      "13:12": [
+        "all first beast power",
+        "use:pr",
+        "first beast whose deadly wound"
+      ],
+      "13:13": [
+        "great kjv_wonder:pl",
+        "fire from heaven on earth in man:pl sight"
+      ],
+      "13:14": [
+        "miracle:pl",
+        "image make:should",
+        "by sword wound have:pa and live:pa"
+      ],
+      "13:15": [
+        "to beast image life give:inf",
+        "both speak:should",
+        "kill:psv:should"
+      ],
+      "13:16": [
+        "both small and great rich and poor free and bound",
+        "kjv_right_side hand or in their/forehead:pl mark"
+      ],
+      "13:17": [
+        "buy:may or sell:may",
+        "mark or beast name or his/name kjv_number:ev"
+      ],
+      "13:18": [
+        "beast kjv_number:ev kjv_number:opt",
+        "man kjv_number:ev",
+        "six+hundred and five+twelve and six"
+      ],
+      "14:1": [
+        "mountain kjv_sion_revelation",
+        "twelve+twelve+thousand his/father name"
+      ],
+      "14:2": [
+        "as many water:pl voice",
+        "as great thunder voice",
+        "harp:ag:pl with their/harp:pl harp:cv"
+      ],
+      "14:3": [
+        "as new song",
+        "four beast:pl",
+        "except twelve+twelve+thousand"
+      ],
+      "14:4": [
+        "with woman:pl defile:psv:neg:pa",
+        "virgin:pl",
+        "wherever kjv_lamb",
+        "to god and to kjv_lamb kjv_firstfruits"
+      ],
+      "14:5": [
+        "no kjv_guile",
+        "before god throne without fault"
+      ],
+      "14:6": [
+        "eternal kjv_gospel",
+        "every nation and kjv_family and tongue and people proclaim:inf"
+      ],
+      "14:7": [
+        "his/judge:ev hour",
+        "heaven and earth and sea and water:pl kjv_fountain:pl"
+      ],
+      "14:8": [
+        "kjv_babylon_revelation fall:perf fall:perf",
+        "that great city",
+        "her/kjv_fornication wrath wine"
+      ],
+      "14:9": [
+        "third angel",
+        "beast and his/image",
+        "his/forehead or in his/hand"
+      ],
+      "14:10": [
+        "without mix:ev",
+        "his/indignation cup",
+        "holy angel:pl presence and in kjv_lamb presence",
+        "fire and kjv_brimstone"
+      ],
+      "14:11": [
+        "forever and forever",
+        "day nor night no rest",
+        "his/name mark"
+      ],
+      "14:12": [
+        "god command:pl and kjv_jesus_matthew faith"
+      ],
+      "14:13": [
+        "from now in lord die:pr",
+        "yes spirit say:pr",
+        "rest:may and their/work:pl they:a follow:pr"
+      ],
+      "14:14": [
+        "white cloud",
+        "one_num like man son",
+        "gold:adj crown",
+        "sharp kjv_sickle"
+      ],
+      "14:15": [
+        "thy/kjv_sickle in thrust:imp and reap:imp",
+        "for thee reap:inf time",
+        "harvest ripe"
+      ],
+      "14:16": [
+        "his/kjv_sickle on earth",
+        "earth reap:psv:pa"
+      ],
+      "14:17": [
+        "other angel",
+        "he also sharp kjv_sickle"
+      ],
+      "14:18": [
+        "out of altar",
+        "over fire power",
+        "kjv_grape_cluster:pl",
+        "her/grape:pl fully ripe"
+      ],
+      "14:19": [
+        "earth kjv_vine",
+        "god wrath great kjv_winepress"
+      ],
+      "14:20": [
+        "outside city",
+        "blood",
+        "horse bridle:pl",
+        "thousand and six+hundred kjv_furlong_source:pl"
+      ],
+      "15:1": [
+        "seven angel:pl seven last plague:pl",
+        "god wrath up fill:psv:pr"
+      ],
+      "15:2": [
+        "as glass sea with fire",
+        "over beast and over his/image and over his/mark and over his/name kjv_number:ev",
+        "god harp:pl"
+      ],
+      "15:3": [
+        "kjv_moses song and kjv_lamb song",
+        "kjv_righteous and true",
+        "thou holy person:pl king"
+      ],
+      "15:4": [
+        "fear:neg:fu",
+        "glorify:neg:fu:q",
+        "thou only holy",
+        "thy/judge:ev:pl manifest"
+      ],
+      "15:5": [
+        "testimony kjv_tabernacle kjv_temple in heaven"
+      ],
+      "15:6": [
+        "seven angel:pl",
+        "seven plague:pl",
+        "pure and white linen",
+        "breast:pl with gold:adj kjv_girdle:pl kjv_gird:psv:pp"
+      ],
+      "15:7": [
+        "one_num of four beast:pl to seven angel:pl seven gold:adj kjv_vial_wrath_revelation:pl",
+        "forever and forever live:pr"
+      ],
+      "15:8": [
+        "from god glory and from his/power",
+        "no man",
+        "seven angel:pl seven plague:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "13:1",
+        "13:11",
+        "13:2",
+        "13:3",
+        "14:1",
+        "14:13",
+        "14:14",
+        "14:2",
+        "14:6",
+        "15:1",
+        "15:2",
+        "15:5"
+      ],
+      "ipl": [],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [
+      "13:11"
+    ],
+    "divineQuotedSelfReferences": [],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Seven heads,ten horns,ten crowns;one head;42months;two horns;first references;666;144000twice;third angel;one seated;1600furlongs;all sevens and four beasts retained.",
+      "Physical horn-pair dual does not introduce communal first-person speech absent from these chapters.",
+      "Exact666and source furlongs retained without identification or modern unit conversion."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "46new;Revelation1–15cumulative257;whole Bible incomplete;147versesremain.",
+      "Keep I-stood,crown locations,singular blasphemy-name,continue,slain-from-foundation,Fathers-name,no-guile,before-throne,fallen-fallen,great-city,and-works,his-mark,King-of-saints,white linen.",
+      "One common entry,two contextual names,no paradigms;earlier211Revelation targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Revelation — incomplete Bible working text",
+    "pages": 186,
+    "spreads": 93,
+    "units": 257,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "83c7ebb92c570b14fd25b86317137b8c104b487482ae159d1c47c3bb270e28ab",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 93,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.78,
+    "modules": [
+      "tests.test_kjv_revelation_beast_and_harvest",
+      "tests.test_kjv_revelation_witness_pair",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    185,
+    186
+  ],
+  "status": "incomplete Bible;Revelation1–15 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 185,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv275\\preflight-revelation\\Proofs\\page-185.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv275\\composed-revelation\\Proofs\\page-185.png",
+        "sha256": "65771e98caed7064221d33787d998acbf4d9d55f9dddc495f15682a2548af793",
+        "bytesIdentical": true
+      },
+      {
+        "page": 186,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv275\\preflight-revelation\\Proofs\\page-186.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv275\\composed-revelation\\Proofs\\page-186.png",
+        "sha256": "05dbccc1ebceec237364ec6696420052356bee1be05d15e5a175181bf44c94b9",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

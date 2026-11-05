@@ -1,0 +1,404 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.270",
+    "parentVersion": "0.10-kjv.269",
+    "parentHead": "caed82fec71e435cc30948a012739a5be3862185c277b7592cceb172d26ebe84",
+    "head": "34a90d8bdccd041d3265eea0c8d8baa38326896e519bcf07fe1a5cd2c9f0a02b",
+    "newLexicalEntries": 5,
+    "newProperEntries": 4,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 1,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 25,
+    "exactCompilerCases": 25,
+    "newAuthoredVerses": 25,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "ephesiansVerses": 155,
+    "philippiansVerses": 104,
+    "colossiansVerses": 95,
+    "thessalonians1Verses": 89,
+    "thessalonians2Verses": 47,
+    "timothy1Verses": 113,
+    "timothy2Verses": 83,
+    "titusVerses": 46,
+    "philemonVerses": 25,
+    "hebrewsVerses": 303,
+    "jamesVerses": 108,
+    "peter1Verses": 105,
+    "peter2Verses": 61,
+    "john1Verses": 105,
+    "john2Verses": 13,
+    "john3Verses": 14,
+    "judeVerses": 25,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 404,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJudeVerses": 25,
+    "judeVerses": 25,
+    "authoredVerses": 30698,
+    "remainingVerses": 404,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "Jude 1:3",
+        "source": "Beloved, when I gave all diligence to write unto you of the common salvation, it was needful for me to write unto you, and exhort you that ye should earnestly contend for the faith which was once delivered unto the saints.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jude 1:5",
+        "source": "I will therefore put you in remembrance, though ye once knew this, how that the Lord, having saved the people out of the land of Egypt, afterward destroyed them that believed not.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jude 1:6",
+        "source": "And the angels which kept not their first estate, but left their own habitation, he hath reserved in everlasting chains under darkness unto the judgment of the great day.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jude 1:12",
+        "source": "These are spots in your feasts of charity, when they feast with you, feeding themselves without fear: clouds they are without water, carried about of winds; trees whose fruit withereth, without fruit, twice dead, plucked up by the roots;",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jude 1:14",
+        "source": "And Enoch also, the seventh from Adam, prophesied of these, saying, Behold, the Lord cometh with ten thousands of his saints,",
+        "expectedDecimalQuantities": [
+          7,
+          10000
+        ],
+        "targetQuantities": [
+          7,
+          10000
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_jude_epistle",
+        "kjv_james_jude_brother brother",
+        "by god father sanctify",
+        "in kjv_jesus_matthew kjv_christ_title keep",
+        "call:psv"
+      ],
+      "1:2": [
+        "mercy",
+        "peace and love",
+        "increase:caus:psv"
+      ],
+      "1:3": [
+        "i all kjv_diligent:ev",
+        "common salvation",
+        "once to holy person:pl deliver",
+        "earnest:adv contend"
+      ],
+      "1:4": [
+        "without notice in creep",
+        "before of old",
+        "ourone/god grace",
+        "lascivious:ev",
+        "only lord god",
+        "ourone/lord kjv_jesus_matthew kjv_christ_title"
+      ],
+      "1:5": [
+        "i therefore",
+        "once this know",
+        "lord people out of egypt",
+        "afterward",
+        "believe:neg:pa person:pl destroy"
+      ],
+      "1:6": [
+        "their/first kjv_angel_estate_jude",
+        "their/own dwell:ev",
+        "eternal chain:pl",
+        "under darkness",
+        "great day judgment"
+      ],
+      "1:7": [
+        "kjv_sodom and kjv_gomorrha_matthew",
+        "city:pl around",
+        "kjv_fornication",
+        "strange flesh",
+        "eternal fire revenge"
+      ],
+      "1:8": [
+        "filthy dream:ag:pl",
+        "flesh defile",
+        "kjv_dominion despise",
+        "dignity:pl evil speak"
+      ],
+      "1:9": [
+        "kjv_michael_jude_archangel kjv_archangel_thessalonians",
+        "devil",
+        "kjv_moses body",
+        "dare:neg",
+        "lord thee:a rebuke:opt"
+      ],
+      "1:10": [
+        "know:neg:pr evil speak",
+        "natural:adv",
+        "reason:neg:adj beast:pl",
+        "themselves corrupt"
+      ],
+      "1:11": [
+        "to they woe:excl",
+        "kjv_cain way",
+        "kjv_balaam error for reward",
+        "kjv_core_jude kjv_gainsay_romans:ev"
+      ],
+      "1:12": [
+        "spot:pl",
+        "kjv_charity_love_corinthians feast:pl",
+        "themselves without fear feed",
+        "cloud:pl without water",
+        "fruit wither",
+        "twice dead",
+        "root:pl up pluck"
+      ],
+      "1:13": [
+        "sea rage:cv kjv_wave:pl",
+        "own shame",
+        "wander:cv star:pl",
+        "darkness black:ev forever"
+      ],
+      "1:14": [
+        "kjv_enoch",
+        "kjv_adam seven:ord",
+        "his/holy person:pl ten+thousand:pl"
+      ],
+      "1:15": [
+        "upon all judgment",
+        "all god:neg:adj person:pl",
+        "all their/god:neg:adj deed:pl",
+        "god:neg:adj:adv do",
+        "all their/hard speech:pl",
+        "kjv_convince_reprove"
+      ],
+      "1:16": [
+        "kjv_murmur:pr and complaint:ag:pl",
+        "their/own lust:pl",
+        "swell:cv word:pl",
+        "because advantage",
+        "admire:ev"
+      ],
+      "1:17": [
+        "ourone/lord kjv_jesus_matthew kjv_christ_title kjv_apostle:pl",
+        "before",
+        "remember:imp"
+      ],
+      "1:18": [
+        "last time mock:ag:pl",
+        "their/own god:neg:adj lust:pl"
+      ],
+      "1:19": [
+        "themselves separate",
+        "kjv_sensual_james",
+        "spirit have:neg"
+      ],
+      "1:20": [
+        "your/most holy faith",
+        "yourselves up build",
+        "in holy spirit pray"
+      ],
+      "1:21": [
+        "yourselves in god love",
+        "ourone/lord kjv_jesus_matthew kjv_christ_title mercy",
+        "eternal life"
+      ],
+      "1:22": [
+        "to some kjv_compassion",
+        "difference make"
+      ],
+      "1:23": [
+        "other person:pl with fear save",
+        "out of fire pull",
+        "garment by flesh spot",
+        "hate"
+      ],
+      "1:24": [
+        "you:a from fall:ev keep",
+        "his/glory presence",
+        "very great joy",
+        "fault:neg:adj present"
+      ],
+      "1:25": [
+        "only wise god ourone/save:ag",
+        "glory and majesty",
+        "kjv_dominion and power",
+        "both now and forever",
+        "amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "1:3",
+        "1:5"
+      ],
+      "ipl": [],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "1:17",
+        "1:21",
+        "1:25",
+        "1:4"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": [],
+      "those:du": []
+    },
+    "physicalDualReferences": [],
+    "divineQuotedSelfReferences": [],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "exclamatoryReferences": [
+      "1:11"
+    ],
+    "quantityInterpretation": [
+      "Once,first,twice and seventh retained;ten-thousand is a plural group unit,not an exact total multitude.",
+      "Personal author-I and communal possessives remain;no divine first-person or physical dual inserted."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "All25Judeverses;whole Bible incomplete;404Revelationversesremain.",
+      "Keep sanctified-by,only-Lord-God,Lord in1:5,first-estate,chains,Core,spots,fruit-withering,separate-themselves,making-a-difference,with-fear,you,only-wise,four praise terms and Amen.",
+      "One common entry,four contextual names,no paradigms;earlier targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jude — incomplete Bible working text",
+    "pages": 16,
+    "spreads": 8,
+    "units": 25,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "2036aaf040825a94f8d971990d84e175e319c31d303d6cef4efc2d091c9e865e",
+    "maxBaselineErrorPt": 0.007812500000056843,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 8,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.625,
+    "modules": [
+      "tests.test_kjv_jude_contested_holiness",
+      "tests.test_kjv_john_hospitality_witness",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    15,
+    16
+  ],
+  "status": "incomplete Bible;Jude1 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 15,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv270\\preflight-jude\\Proofs\\page-015.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv270\\composed-jude\\Proofs\\page-015.png",
+        "sha256": "9ad4d8319b983cacc5285c5a21e66990b41ca5253a5ed478424c21bffb3d7a9c",
+        "bytesIdentical": true
+      },
+      {
+        "page": 16,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv270\\preflight-jude\\Proofs\\page-016.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv270\\composed-jude\\Proofs\\page-016.png",
+        "sha256": "b473769829565a87a1a60542b18836c673965f1f22c8ccf10feeea438689717b",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

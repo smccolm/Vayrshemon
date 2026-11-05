@@ -1,0 +1,996 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.126",
+    "parentVersion": "0.10-kjv.125",
+    "parentHead": "258f6f74f478bb22b15091d5fd0f4b8e72b0040f073f32ff6652050011bb217a",
+    "head": "522cf4ff9b3906c3a56978c2100c1b94c3bcdf83654f9395c279c58af4ec8e52",
+    "newLexicalEntries": 10,
+    "newProperEntries": 5,
+    "newCommonEntries": 5,
+    "newSurfaceForms": 10,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 119,
+    "exactCompilerCases": 119,
+    "newAuthoredVerses": 119,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 13738,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newProverbsVerses": 119,
+    "proverbsVerses": 915,
+    "authoredVerses": 17364,
+    "remainingVerses": 13738,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Proverbs 30:7",
+        "source": "Two things have I required of thee; deny me them not before I die:",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Proverbs 30:15",
+        "source": "The horseleach hath two daughters, crying, Give, give. There are three things that are never satisfied, yea, four things say not, It is enough:",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          4
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Proverbs 30:18",
+        "source": "There be three things which are too wonderful for me, yea, four which I know not:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Proverbs 30:21",
+        "source": "For three things the earth is disquieted, and for four which it cannot bear:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      },
+      {
+        "reference": "Proverbs 30:24",
+        "source": "There be four things which are little upon the earth, but they are exceeding wise:",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Proverbs 30:29",
+        "source": "There be three things which go well, yea, four are comely in going:",
+        "expectedDecimalQuantities": [
+          3,
+          4
+        ],
+        "targetQuantities": [
+          3,
+          4
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "28:1": [
+        "no human pursue:pr",
+        "bold like lion"
+      ],
+      "28:2": [
+        "its/prince:pl many",
+        "its/state long:caus:psv:fu"
+      ],
+      "28:3": [
+        "poor human who poor:a oppress:pr",
+        "no food:a leave:pr"
+      ],
+      "28:4": [
+        "law:a forsake:pr",
+        "with they contend:pr"
+      ],
+      "28:5": [
+        "judgment:a understand:neg:pr",
+        "all thing:pl:a understand:pr"
+      ],
+      "28:6": [
+        "kjv_upright:ev walk:pr",
+        "though he rich be:pr"
+      ],
+      "28:7": [
+        "law:a keep:pr",
+        "excessive eat:ag:pl"
+      ],
+      "28:8": [
+        "kjv_usury and unjust gain",
+        "for he who poor:a pity:fu"
+      ],
+      "28:9": [
+        "from law:a hear:inf",
+        "even his/prayer kjv_abomination be:fu"
+      ],
+      "28:10": [
+        "astray go:caus:pr",
+        "he himself into his/own kjv_pit"
+      ],
+      "28:11": [
+        "in his/own thought",
+        "he:a out search:pr"
+      ],
+      "28:12": [
+        "great glory",
+        "human hide:psv:pr"
+      ],
+      "28:13": [
+        "confess:pr and forsake:pr",
+        "mercy:a have:fu"
+      ],
+      "28:14": [
+        "always fear:pr",
+        "his/heart:a hard:caus:pr"
+      ],
+      "28:15": [
+        "roar:adj lion",
+        "wandering bear_animal"
+      ],
+      "28:16": [
+        "understanding:a lack:pr",
+        "kjv_covetousness:a hate:pr"
+      ],
+      "28:17": [
+        "blood of any person",
+        "no human he:a hold:imp"
+      ],
+      "28:18": [
+        "save:psv:fu",
+        "suddenly fall:fu"
+      ],
+      "28:19": [
+        "his/land:a plough:pr",
+        "enough poor:ev:a"
+      ],
+      "28:20": [
+        "much blessing:pl",
+        "innocent be:neg:fu"
+      ],
+      "28:21": [
+        "person:pl:a favour:inf",
+        "piece of bread"
+      ],
+      "28:22": [
+        "evil eye",
+        "poor:ev upon he"
+      ],
+      "28:23": [
+        "rebuke:pr afterward more favour",
+        "with tongue kjv_flatter:pr"
+      ],
+      "28:24": [
+        "his/father:a or his/mother:a rob:pr",
+        "it transgress:ev be:neg:pr"
+      ],
+      "28:25": [
+        "strife:a stir:pr",
+        "fat:caus:psv:fu"
+      ],
+      "28:26": [
+        "in his/own heart trust:pr",
+        "wise:adv walk:pr"
+      ],
+      "28:27": [
+        "his/eye:pl:a hide:pr",
+        "many curse:pl"
+      ],
+      "28:28": [
+        "themselves:a hide:pr",
+        "when they perish:pr"
+      ],
+      "29:1": [
+        "often rebuke:psv:cv",
+        "without remedy"
+      ],
+      "29:2": [
+        "wicked rule:pr",
+        "people mourn:pr"
+      ],
+      "29:3": [
+        "wisdom:a love:pr",
+        "his/wealth:a spend:pr"
+      ],
+      "29:4": [
+        "by judgment land:a",
+        "gift:pl:a receive:pr"
+      ],
+      "29:5": [
+        "kjv_flatter:pr",
+        "kjv_net:a for his/foot:pl"
+      ],
+      "29:6": [
+        "snare",
+        "sing:pr and rejoice:pr"
+      ],
+      "29:7": [
+        "cause:a of poor",
+        "know:inf regard:neg:pr"
+      ],
+      "29:8": [
+        "city:a into snare",
+        "wrath:a away turn:pr"
+      ],
+      "29:9": [
+        "whether he rage:pr or laugh:pr",
+        "rest be:neg:pr"
+      ],
+      "29:10": [
+        "for blood thirst:pr",
+        "kjv_righteous his/soul:a seek:pr"
+      ],
+      "29:11": [
+        "all his/mind:a utter:pr",
+        "until afterward"
+      ],
+      "29:12": [
+        "false:ev:pl:a heed:pr",
+        "all his/servant:pl wicked"
+      ],
+      "29:13": [
+        "deceitful human together meet:pr",
+        "both their/eye:pl:a light:caus:pr"
+      ],
+      "29:14": [
+        "poor:a faithful:adv judge:pr",
+        "for ever kjv_establish:psv:fu"
+      ],
+      "29:15": [
+        "rod and rebuke:ev",
+        "child to himself leave:psv:adj"
+      ],
+      "29:16": [
+        "kjv_multiply:psv:pr",
+        "their/fall:ev:a see:fu"
+      ],
+      "29:17": [
+        "thy/son:a kjv_chasten:imp",
+        "to thy/soul delight:a"
+      ],
+      "29:18": [
+        "vision be:neg:pr",
+        "people perish:pr"
+      ],
+      "29:19": [
+        "kjv_chasten:psv:neg:fu",
+        "though he understand:pr he answer:neg:fu"
+      ],
+      "29:20": [
+        "human:a who",
+        "haste:adj be:pr see:pr?"
+      ],
+      "29:21": [
+        "from child delicate:adv rear:pr",
+        "his/son become:caus:fu"
+      ],
+      "29:22": [
+        "strife:a stir:pr",
+        "much transgress:ev"
+      ],
+      "29:23": [
+        "pride of human he:a low:caus:fu",
+        "honour humble:a in spirit support:fu"
+      ],
+      "29:24": [
+        "his/own soul:a hate:pr",
+        "it:a reveal:neg:pr"
+      ],
+      "29:25": [
+        "fear of human snare:a",
+        "in safety be:fu"
+      ],
+      "29:26": [
+        "favour:a of ruler",
+        "every human judgment from kjv_lord"
+      ],
+      "29:27": [
+        "to kjv_righteous kjv_abomination",
+        "to wicked kjv_abomination"
+      ],
+      "30:1": [
+        "kjv_agur son of kjv_jakeh",
+        "to kjv_ithiel_agur and kjv_ucal"
+      ],
+      "30:2": [
+        "i more kjv_brutish",
+        "understanding of human:a have:neg:pr"
+      ],
+      "30:3": [
+        "neither wisdom:a learn:pa",
+        "nor knowledge of holy:a"
+      ],
+      "30:4": [
+        "wind:a in his/fist:pl",
+        "water:pl:a in garment",
+        "what name of his/son"
+      ],
+      "30:5": [
+        "every word of god pure",
+        "shield to they"
+      ],
+      "30:6": [
+        "his/word:pl add:neg:imp",
+        "liar find:psv:pr"
+      ],
+      "30:7": [
+        "two thing:pl:a i",
+        "before i die:pr,"
+      ],
+      "30:8": [
+        "neither poor:ev:a nor rich:ev:a",
+        "food fitting for i"
+      ],
+      "30:9": [
+        "who kjv_lord be:pr?",
+        "name of my/god:a in vain"
+      ],
+      "30:10": [
+        "servant:a to his/master",
+        "guilty find:psv:pr"
+      ],
+      "30:11": [
+        "generation be:pr",
+        "their/mother:a bless:neg:pr"
+      ],
+      "30:12": [
+        "their/own eye:pl pure",
+        "from their/kjv_filth wash:psv:neg:pr"
+      ],
+      "30:13": [
+        "be:pr:excl",
+        "their/eyelid:pl lift:psv:pr"
+      ],
+      "30:14": [
+        "tooth:pl like sword:pl",
+        "kjv_needy:a from among human:pl"
+      ],
+      "30:15": [
+        "kjv_horseleech two daughter:pl",
+        "give:imp give:imp",
+        "three thing:pl",
+        "four thing:pl"
+      ],
+      "30:16": [
+        "grave and barren womb",
+        "fire who say:neg:pr"
+      ],
+      "30:17": [
+        "raven:pl of valley",
+        "young kjv_eagle:pl"
+      ],
+      "30:18": [
+        "three thing:pl",
+        "indeed four which i know:neg:pr"
+      ],
+      "30:19": [
+        "kjv_eagle in air",
+        "serpent upon rock",
+        "ship in middle of sea",
+        "human with maid"
+      ],
+      "30:20": [
+        "her/mouth:a kjv_wipe:pr",
+        "i wicked:ev:a do:neg:perf"
+      ],
+      "30:21": [
+        "three thing:pl",
+        "for four which it carry:neg:can"
+      ],
+      "30:22": [
+        "servant when he rule:pr",
+        "with food fill:psv:pr"
+      ],
+      "30:23": [
+        "odious woman when she marry:psv:pr",
+        "kjv_handmaid who heir"
+      ],
+      "30:24": [
+        "four thing:pl",
+        "very wise"
+      ],
+      "30:25": [
+        "kjv_ant:pl people strong:neg:adj",
+        "in summer prepare:pr"
+      ],
+      "30:26": [
+        "kjv_coney:pl weak people",
+        "in rock:pl make:pr"
+      ],
+      "30:27": [
+        "kjv_locust:pl no king",
+        "by band:pl forth"
+      ],
+      "30:28": [
+        "spider with her/hand:pl",
+        "palace:pl of king:pl"
+      ],
+      "30:29": [
+        "three thing:pl",
+        "four in go:ev beautiful"
+      ],
+      "30:30": [
+        "most strong",
+        "for any away turn:neg:pr"
+      ],
+      "30:31": [
+        "kjv_greyhound",
+        "kjv_male kjv_goat",
+        "against whom rise:ev be:neg:pr"
+      ],
+      "30:32": [
+        "thyself:a lift:inf",
+        "thine hand:a upon thy/mouth"
+      ],
+      "30:33": [
+        "churn:ev of milk butter",
+        "kjv_wring:ev of nose blood",
+        "force:ev of wrath strife"
+      ],
+      "31:1": [
+        "king kjv_lemuel",
+        "his/mother to he teach:pa"
+      ],
+      "31:2": [
+        "my/son?",
+        "my/womb?",
+        "my/vow:pl?"
+      ],
+      "31:3": [
+        "thy/strength:a to woman:pl give:neg:imp",
+        "that which king:pl:a destroy:pr"
+      ],
+      "31:4": [
+        "kjv_lemuel:excl",
+        "wine:a drink:inf",
+        "prince:pl strong drink"
+      ],
+      "31:5": [
+        "law:a forget:pr",
+        "judgment:a of any of kjv_afflict:psv:adj crooked:caus:pr"
+      ],
+      "31:6": [
+        "ready to perish:inf",
+        "heavy heart:pl"
+      ],
+      "31:7": [
+        "he drink:imp",
+        "his/misery:a no more remember:imp"
+      ],
+      "31:8": [
+        "for kjv_mute",
+        "to destroy:ev appoint:psv:pr"
+      ],
+      "31:9": [
+        "kjv_righteous:adv judge:imp",
+        "cause:a of poor and kjv_needy plead:imp"
+      ],
+      "31:10": [
+        "virtue:adj woman",
+        "far above ruby:pl"
+      ],
+      "31:11": [
+        "in safety in she trust:pr",
+        "spoil:a need:neg:fu"
+      ],
+      "31:12": [
+        "good:a do:fu and evil:a do:neg:fu",
+        "all day:pl of her/life"
+      ],
+      "31:13": [
+        "kjv_wool:a and kjv_flax:a",
+        "willingly with her/hand:pl"
+      ],
+      "31:14": [
+        "ship:pl of kjv_merchant:pl",
+        "her/food:a from far"
+      ],
+      "31:15": [
+        "yet night be:pr",
+        "her/kjv_household",
+        "share:ev:a to her/maid:pl"
+      ],
+      "31:16": [
+        "field:a consider:pr and it:a buy:pr",
+        "kjv_vineyard:a plant:pr"
+      ],
+      "31:17": [
+        "her/kjv_loins:a with strength",
+        "her/arm:pl:a strong:caus:pr"
+      ],
+      "31:18": [
+        "her/merchandise good",
+        "her/candle by night out go:neg:pr"
+      ],
+      "31:19": [
+        "to kjv_spindle lay:pr",
+        "kjv_distaff:a hold:pr"
+      ],
+      "31:20": [
+        "her/hand:a to poor",
+        "her/hand:pl:a to kjv_needy"
+      ],
+      "31:21": [
+        "snow for her/kjv_household",
+        "with kjv_scarlet clothe:psv:pr"
+      ],
+      "31:22": [
+        "kjv_tapestry",
+        "her/clothing silk and purple"
+      ],
+      "31:23": [
+        "in gate:pl know:psv:pr",
+        "among kjv_elder:pl"
+      ],
+      "31:24": [
+        "fine linen:a make:pr and sell:pr",
+        "kjv_girdle:pl:a to kjv_merchant"
+      ],
+      "31:25": [
+        "strength and honour her/clothing",
+        "rejoice:fu"
+      ],
+      "31:26": [
+        "her/mouth:a with wisdom",
+        "law of kjv_kindness"
+      ],
+      "31:27": [
+        "her/kjv_household",
+        "bread of idle:ev:a eat:neg:pr"
+      ],
+      "31:28": [
+        "her/child:pl rise:pr",
+        "she:a blessed call:pr"
+      ],
+      "31:29": [
+        "many daughter:pl",
+        "thou all of they:a exceed:pr"
+      ],
+      "31:30": [
+        "pleasing appearance deceitful",
+        "kjv_lord:a fear:pr"
+      ],
+      "31:31": [
+        "fruit of her/hand:pl:a give:imp",
+        "her/own work:pl she:a in gate:pl praise:imp"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "30:18",
+        "30:2",
+        "30:20",
+        "30:3",
+        "30:7",
+        "30:8",
+        "30:9"
+      ],
+      "ipl": [],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "The two requests30:7,two leech daughters30:15and three-to-four lists30:15/18/21/29are explicit rhetorical quantities,not divine-member counts.",
+      "Four small creatures30:24introduces its direct list;both29:13points to human parties and indefinite many/all/once remain uncounted."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Proverbs28–31adds119verses,completing all915Proverbsverses;wholeBibleincomplete.",
+      "Agur petitioner and quoted adulterous woman retain personal-I;mother personal possessives31:2and second-person praise31:29remain distinct;no new divine plural-I,communal-we or dual.",
+      "Son question30:4remains unanswered;no later named identity or Trinity enumeration is inserted.",
+      "Supplied readings retained:poor oppressor28:3,servant becomes son29:21,perish29:18,great historical animal labels horseleech/greyhound/spider,scarlet31:21and silk31:22.",
+      "Five common entries and five proper labels added;spindle/distaff remain distinct,with inherited wool/flax and material senses preserved.",
+      "No compiler/paradigm changes or inherited target repairs;all previous targets and seals remain unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Proverbs — incomplete Bible working text",
+    "pages": 408,
+    "spreads": 204,
+    "units": 915,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "26878a2909501220621bdb73dab01b99d708b453bb410686db49750859647d34",
+    "maxBaselineErrorPt": 0.01171875,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 204,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.905,
+    "modules": [
+      "tests.test_kjv_proverb_agur_lists",
+      "tests.test_kjv_proverb_communal_excuse",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    407,
+    408
+  ],
+  "status": "incompleteBible;Proverbs1–31sectioncheckpointverified",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "9856f23867fbe9f78851b16fcb43f3fc34d77e29241e1215a1918d4c0adda008",
+    "pages": 11500,
+    "spreads": 5750,
+    "authoredVerses": 17364,
+    "missingVerses": 13738,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 23000,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Genesis.vay",
+        "sha256": "bbf6c7a92ef956364ece52877f1998be0b02ddfb7e33f2563afb529b41cb79dd",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Exodus.vay",
+        "sha256": "5d69c5730d924959e1019809b8c2f7738161ffb011e144f6d1c9d57dc5957fe7",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Leviticus.vay",
+        "sha256": "acece7c9de894107116d7e27cab2a67fa2300ea2b37ae14e30523e109024b27b",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Numbers.vay",
+        "sha256": "b2edc7791a7e89e92c9cab6759c24d76b7fa7b3a9a290a352201d624f6174199",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Deuteronomy.vay",
+        "sha256": "e71f451a8ae07c3d5a3604d569192d12864ed9887d48ebc7e684b13e54c3dad2",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Joshua.vay",
+        "sha256": "04524ad57a4e8bfbc78fb5c8384faae56437b88c67cc4fd9e13819b1766efae3",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Judges.vay",
+        "sha256": "ccccb1c5b09c54b80866e25aae8a49ccf20a53ec278b844860e9fd9553932c01",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Ruth.vay",
+        "sha256": "8ad1ca7778bd9763a56e5efb28291827eb797fc2eacfc18ff4b1e7d6fece4033",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Chronicles.vay",
+        "sha256": "d95465cafe4db78a757f2a5c3b4cbaf94b44f5101c865c07adaaa9387d5bf906",
+        "firstPage": 7483,
+        "lastPage": 8006
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Chronicles2.vay",
+        "sha256": "77a0caef2309273bcc99db7c88022f1cbe154df236ff4153fda036b34e8f9a8b",
+        "firstPage": 8007,
+        "lastPage": 8692
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Ezra.vay",
+        "sha256": "35cdd43f50d0192404e588ea0656e33744e23846a5ca5345b01a89c595ff157c",
+        "firstPage": 8693,
+        "lastPage": 8882
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Nehemiah.vay",
+        "sha256": "b5abc4ad65f8fa51146ab7cb9c3b7a0f3938a7ab8f3b9cb3d0d52957b40d442d",
+        "firstPage": 8883,
+        "lastPage": 9160
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Esther.vay",
+        "sha256": "e6ff324bc045bea6f1fa34c5dcbc14de09a25b295ca75f76ccc318f011605ddb",
+        "firstPage": 9161,
+        "lastPage": 9300
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Job.vay",
+        "sha256": "2bcc3eea6400ebf96761b4f3cfe2e5da61758d7a9799e36b031f8bbe2820c4dc",
+        "firstPage": 9301,
+        "lastPage": 9806
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Psalms.vay",
+        "sha256": "6b1d4269d4f51e4168bb6dfdb366c202f023daba3fecad530460c25e5a0d1816",
+        "firstPage": 9807,
+        "lastPage": 11050
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Proverbs.vay",
+        "sha256": "26878a2909501220621bdb73dab01b99d708b453bb410686db49750859647d34",
+        "firstPage": 11051,
+        "lastPage": 11458
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.126\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 11459,
+        "lastPage": 11500
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.90",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.93",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.93",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.93",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "working"
+      },
+      {
+        "section": "1 Chronicles",
+        "version": "0.10-kjv.93",
+        "firstPage": 7483,
+        "lastPage": 8006,
+        "status": "working"
+      },
+      {
+        "section": "2 Chronicles",
+        "version": "0.10-kjv.94",
+        "firstPage": 8007,
+        "lastPage": 8692,
+        "status": "working"
+      },
+      {
+        "section": "Ezra",
+        "version": "0.10-kjv.96",
+        "firstPage": 8693,
+        "lastPage": 8882,
+        "status": "working"
+      },
+      {
+        "section": "Nehemiah",
+        "version": "0.10-kjv.100",
+        "firstPage": 8883,
+        "lastPage": 9160,
+        "status": "working"
+      },
+      {
+        "section": "Esther",
+        "version": "0.10-kjv.101",
+        "firstPage": 9161,
+        "lastPage": 9300,
+        "status": "working"
+      },
+      {
+        "section": "Job",
+        "version": "0.10-kjv.107",
+        "firstPage": 9301,
+        "lastPage": 9806,
+        "status": "working"
+      },
+      {
+        "section": "Psalms 1–150",
+        "version": "0.10-kjv.120",
+        "firstPage": 9807,
+        "lastPage": 11050,
+        "status": "working"
+      },
+      {
+        "section": "Proverbs",
+        "version": "0.10-kjv.126",
+        "firstPage": 11051,
+        "lastPage": 11458,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 11459,
+        "lastPage": 11500,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    11145,
+    11146,
+    11379,
+    11380,
+    11429,
+    11430,
+    11457,
+    11458,
+    11499,
+    11500
+  ],
+  "referenceLinksChecked": true,
+  "knownSemanticIssues": [
+    {
+      "reference": "Proverbs 26:2",
+      "finding": "kjv_swallow is ingestion; required kjv_swallow_bird already exists",
+      "disposition": "Explicit repair in new working132; sealed126 unchanged"
+    }
+  ]
+}

@@ -110,8 +110,10 @@ class Composition:
             return
         self.base_collisions,self.base_complete=self.collisions(self.base)
         self.final,self.lines=[dict(g) for g in self.base],deepcopy(self.base_lines)
+        self._collision_geometry=self.final
+        self._collision_result=(self.base_collisions,self.base_complete)
         self.solve()
-        self.final_collisions,self.complete=self.collisions(self.final)
+        self.final_collisions,self.complete=self.checked_collisions(self.final)
         self.elapsed_ms=(time.perf_counter()-started)*1000
         book.log.emit('typesetting','COMPOSITION_COMPLETED',revision=book.revision,glyphs=self.glyph_count,
                       collisions=len(self.final_collisions),complete=self.complete,elapsedMs=self.elapsed_ms)
@@ -332,18 +334,27 @@ class Composition:
     def collisions(self,glyphs):
         if not any(story['config'] for story in self.stories.values()): return [],True
         found=[]; comparisons=0; clusters=self.clusters(glyphs)
+        # Cache numeric rectangles and policies once per cluster. Preserve the
+        # exact sweep order, comparison budget and boundary arithmetic.
+        prepared={}
+        for cluster in clusters:
+            area=box(cluster['bounds']);config=self.stories[cluster['sourceFrameId']]['config']
+            prepared[id(cluster)]=(area.left(),area.top(),area.right(),area.bottom(),config,
+                                   config['collision']['clearance']*SCALE if config else None)
         for page_id in dict.fromkeys(c['pageId'] for c in clusters):
             active=[]
             for right in sorted((c for c in clusters if c['pageId']==page_id),key=lambda c:(c['bounds'][0],c['bounds'][1],c['sourceFrameId'],c['sourceUtf16'])):
-                rc=box(right['bounds']); active=[left for left in active if box(left['bounds']).right()+100*SCALE>=rc.left()]
+                rx,ry,rr,rb,right_config,right_clearance=prepared[id(right)]
+                active=[left for left in active if prepared[id(left)][2]+100*SCALE>=rx]
                 for left in active:
                     comparisons+=1
                     if comparisons>MAX_COMPARISONS: return found,False
-                    configs=[self.stories[c['sourceFrameId']]['config'] for c in (left,right)]
-                    if not any(configs): continue
-                    clearance=max(c['collision']['clearance']*SCALE for c in configs if c)
-                    lc=box(left['bounds']); xgap=max(lc.left(),rc.left())-min(lc.right(),rc.right()); ygap=max(lc.top(),rc.top())-min(lc.bottom(),rc.bottom())
+                    lx,ly,lr,lb,left_config,left_clearance=prepared[id(left)]
+                    if not left_config and not right_config: continue
+                    clearance=right_clearance if left_clearance is None else left_clearance if right_clearance is None else max(left_clearance,right_clearance)
+                    xgap=max(lx,rx)-min(lr,rr); ygap=max(ly,ry)-min(lb,rb)
                     if xgap>=clearance-EPS or ygap>=clearance-EPS: continue
+                    configs=(left_config,right_config)
                     same_line=left['sourceFrameId']==right['sourceFrameId'] and left['lineIndex']==right['lineIndex']
                     protected=same_line and (left['protected'] or right['protected']) and (left['sourceUtf16'][1]==right['sourceUtf16'][0] or right['sourceUtf16'][1]==left['sourceUtf16'][0])
                     direction='horizontal' if same_line else 'vertical' if left['sourceFrameId']==right['sourceFrameId'] and left['frameId']==right['frameId'] else 'cross-frame'
@@ -354,6 +365,14 @@ class Composition:
                 active.append(right)
         return found,True
 
+    def checked_collisions(self,glyphs):
+        # Solver placements replace the glyph list. Reuse a check only while
+        # that exact geometry is unchanged; a successful repair invalidates it.
+        if glyphs is not self._collision_geometry:
+            self._collision_geometry=glyphs
+            self._collision_result=self.collisions(glyphs)
+        return self._collision_result
+
     def overflowing(self,glyphs,lines,fid):
         for glyph in glyphs:
             if glyph['sourceFrameId']==fid and not box(glyph['inkBounds']).isEmpty() and not frame_rect(self.frames[glyph['frameId']][1]).adjusted(-EPS,-EPS,EPS,EPS).contains(box(glyph['inkBounds'])): return True
@@ -363,7 +382,7 @@ class Composition:
         gaps={}; blocked=set(); used={fid:0 for fid in self.stories}; rounds={fid:0 for fid in self.stories}
         self.placement_warnings=deepcopy(self.base_warnings)
         for iteration in range(16):
-            collisions,complete=self.collisions(self.final)
+            collisions,complete=self.checked_collisions(self.final)
             if not complete: self.solver.append(dict(code='ANALYSIS_LIMIT',iteration=iteration)); break
             requests={}
             for collision in collisions:

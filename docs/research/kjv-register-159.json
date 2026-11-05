@@ -1,0 +1,769 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.159",
+    "parentVersion": "0.10-kjv.158",
+    "parentHead": "989ada1cfc99042959c3c39b81ff12fc12c92442696e4f7833cf20b068a0e81a",
+    "head": "89ba10792b772d43ac3b179e9eb0c740b79a33d0691699cd039e8fa6c36122f7",
+    "newLexicalEntries": 8,
+    "newProperEntries": 1,
+    "newCommonEntries": 7,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 117,
+    "exactCompilerCases": 117,
+    "newAuthoredVerses": 117,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 361,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 10228,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 117,
+    "ezekielVerses": 361,
+    "authoredVerses": 20874,
+    "remainingVerses": 10228,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 14:14",
+        "source": "Though these three men, Noah, Daniel, and Job, were in it, they should deliver but their own souls by their righteousness, saith the Lord GOD.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Ezekiel 14:16",
+        "source": "Though these three men were in it, as I live, saith the Lord GOD, they shall deliver neither sons nor daughters; they only shall be delivered, but the land shall be desolate.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Ezekiel 14:18",
+        "source": "Though these three men were in it, as I live, saith the Lord GOD, they shall deliver neither sons nor daughters, but they only shall be delivered themselves.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Ezekiel 14:21",
+        "source": "For thus saith the Lord GOD; How much more when I send my four sore judgments upon Jerusalem, the sword, and the famine, and the noisome beast, and the pestilence, to cut off from it man and beast?",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 15:7",
+        "source": "And I will set my face against them; they shall go out from one fire, and another fire shall devour them; and ye shall know that I am the LORD, when I set my face against them.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 16:51",
+        "source": "Neither hath Samaria committed half of thy sins; but thou hast multiplied thine abominations more than they, and hast justified thy sisters in all thine abominations which thou hast done.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "to i come:pa"
+      ],
+      "13:2": [
+        "out of their/own heart:pl",
+        "word:a of kjv_lord hear:imp"
+      ],
+      "13:3": [
+        "their/own spirit:a",
+        "nothing:a see:perf",
+        "woe:excl"
+      ],
+      "13:4": [
+        "fox:pl in dry land:pl"
+      ],
+      "13:5": [
+        "into breach:pl up go:neg:perf",
+        "neither hedge:a"
+      ],
+      "13:6": [
+        "kjv_lord they:a send:neg:perf",
+        "other:pl:a hope:caus:perf"
+      ],
+      "13:7": [
+        "lie:cv kjv_divine:ev:a",
+        "ipl speak:neg:perf?"
+      ],
+      "13:8": [
+        "ipl against you be:pr"
+      ],
+      "13:9": [
+        "mypl/hand",
+        "kjv_assembly of mypl/people be:neg:fu",
+        "neither they in write:ev",
+        "neither they into land"
+      ],
+      "13:10": [
+        "because even because",
+        "peace there be:neg:pa",
+        "person wall:a",
+        "kjv_untempered_mortar"
+      ],
+      "13:11": [
+        "you oh great hail stone:pl",
+        "storm:adj wind it:a rend:fu"
+      ],
+      "13:12": [
+        "where kjv_daub:ev",
+        "kjv_daub:perf?"
+      ],
+      "13:13": [
+        "mypl/fury",
+        "mypl/anger",
+        "consume:inf"
+      ],
+      "13:14": [
+        "its/kjv_foundation kjv_uncover:psv:fu"
+      ],
+      "13:15": [
+        "wall no more be:pr",
+        "neither they"
+      ],
+      "13:16": [
+        "vision:pl:a of peace for she",
+        "peace there be:neg:pr"
+      ],
+      "13:17": [
+        "daughter:pl of thy/people",
+        "their/own heart"
+      ],
+      "13:18": [
+        "pillow:pl:a to all kjv_hollow:pl of arm",
+        "head of every stature",
+        "soul:pl:a of mypl/people hunt:fu"
+      ],
+      "13:19": [
+        "handful:pl of kjv_barley",
+        "piece:pl of bread",
+        "die:neg:should",
+        "live:neg:should"
+      ],
+      "13:20": [
+        "to fly:caus:inf hunt:pr",
+        "from your/arm:pl rend:fu",
+        "soul:pl:a go:caus:fu"
+      ],
+      "13:21": [
+        "your/kjv_kerchief:pl:a",
+        "mypl/people:a out of your/hand"
+      ],
+      "13:22": [
+        "whom ipl sad:caus:neg:perf",
+        "return:neg:should",
+        "life:a promise:cv"
+      ],
+      "13:23": [
+        "nor kjv_divine:ev:pl:a kjv_divine:fu"
+      ],
+      "14:1": [
+        "some of kjv_elder:pl",
+        "before i sit:pa"
+      ],
+      "14:2": [
+        "to i come:pa"
+      ],
+      "14:3": [
+        "kjv_stumblingblock:a",
+        "ipl by they at all ask:psv:should?"
+      ],
+      "14:4": [
+        "according_to kjv_multitude of his/idol:pl answer:fu"
+      ],
+      "14:5": [
+        "in their/own heart take:may",
+        "through their/idol:pl stranger:pl become:perf"
+      ],
+      "14:6": [
+        "yourselves:a from your/idol:pl",
+        "your/face:pl:a"
+      ],
+      "14:7": [
+        "stranger who in kjv_israel kjv_sojourn:pr",
+        "ipl kjv_lord he:a by iplself answer:fu"
+      ],
+      "14:8": [
+        "mypl/face:a",
+        "sign and proverb",
+        "mypl/people"
+      ],
+      "14:9": [
+        "ipl kjv_lord that prophet:a deceive:perf",
+        "mypl/hand:a"
+      ],
+      "14:10": [
+        "kjv_punishment:a of their/kjv_iniquity endure:fu",
+        "even as kjv_punishment"
+      ],
+      "14:11": [
+        "mypl/people be:may",
+        "ipl their/god be:may"
+      ],
+      "14:12": [
+        "again to i come:pa"
+      ],
+      "14:13": [
+        "kjv_grievous:adv transgress:cv",
+        "its/staff:a of bread",
+        "kjv_famine:a"
+      ],
+      "14:14": [
+        "three man:pl",
+        "kjv_daniel_ezekiel_exemplar",
+        "only their/own soul:pl:a"
+      ],
+      "14:15": [
+        "harm:cv beast:pl:a",
+        "no man because of beast:pl"
+      ],
+      "14:16": [
+        "three man:pl",
+        "neither son:pl nor daughter:pl:a",
+        "land kjv_desolate"
+      ],
+      "14:17": [
+        "sword through land go:imp"
+      ],
+      "14:18": [
+        "three man:pl",
+        "they only themselves deliver:psv:fu"
+      ],
+      "14:19": [
+        "mypl/fury:a upon it in blood"
+      ],
+      "14:20": [
+        "neither son nor daughter:a",
+        "their/own soul:pl:a by their/kjv_righteousness"
+      ],
+      "14:21": [
+        "mypl/four kjv_grievous judgment:pl:a",
+        "harm:cv beast:a",
+        "kjv_pestilence:a"
+      ],
+      "14:22": [
+        "both son:pl and daughter:pl",
+        "about evil which ipl",
+        "comfort:psv:fu"
+      ],
+      "14:23": [
+        "without cause all which ipl in it do:perf do:neg:perf"
+      ],
+      "15:1": [
+        "to i come:pa"
+      ],
+      "15:2": [
+        "kjv_vine kjv_tree",
+        "branch which among kjv_tree:pl"
+      ],
+      "15:3": [
+        "kjv_pin:a of it",
+        "vessel:a on it hang:inf"
+      ],
+      "15:4": [
+        "both end:pl:a",
+        "middle of it burn:psv:pr",
+        "fitting be:pr?"
+      ],
+      "15:5": [
+        "for no work fitting",
+        "how much less"
+      ],
+      "15:6": [
+        "ipl to fire for kjv_fuel give:perf",
+        "inhabit:ag:pl:a of kjv_jerusalem"
+      ],
+      "15:7": [
+        "one_num fire",
+        "another fire",
+        "mypl/face:a"
+      ],
+      "15:8": [
+        "kjv_trespass:a do:perf"
+      ],
+      "16:1": [
+        "to i come:pa"
+      ],
+      "16:2": [
+        "her/kjv_abomination:pl:a know:caus:imp"
+      ],
+      "16:3": [
+        "thy/birth and thy/kjv_nativity",
+        "kjv_canaan_land",
+        "kjv_amorite",
+        "kjv_hittite"
+      ],
+      "16:4": [
+        "thy/kjv_navel cut:psv:neg:pa",
+        "kjv_supple_wash:inf",
+        "salt:psv:neg:pa",
+        "nor at all in kjv_swaddlingband:pl"
+      ],
+      "16:5": [
+        "no eye thee:a pity:pa",
+        "open field out cast:psv:pa"
+      ],
+      "16:6": [
+        "thine/own blood defile:psv:adj",
+        "live:imp yes ipl",
+        "say:pa live:imp"
+      ],
+      "16:7": [
+        "as bud of field",
+        "thy/breast:pl form:psv:pr",
+        "clothe:neg:psv:adj and bare"
+      ],
+      "16:8": [
+        "mypl/kjv_skirt_garment:a",
+        "kjv_covenant with thee",
+        "thou of ipl become:pa"
+      ],
+      "16:9": [
+        "fully away wash:pa",
+        "with oil anoint:pa"
+      ],
+      "16:10": [
+        "shoe:pl:a of kjv_badger:pl skin",
+        "fine linen kjv_gird:pa",
+        "with silk cover:pa"
+      ],
+      "16:11": [
+        "bracelet:pl:a upon thy/hand:pl",
+        "chain:a on thy/neck"
+      ],
+      "16:12": [
+        "jewel:a on thy/forehead",
+        "kjv_earring:pl:a",
+        "beautiful crown:a"
+      ],
+      "16:13": [
+        "fine kjv_flour:a and honey:a and oil:a",
+        "into kingdom prosper:pa"
+      ],
+      "16:14": [
+        "through mypl/beauty",
+        "perfect be:pa"
+      ],
+      "16:15": [
+        "of he it be:pa"
+      ],
+      "16:16": [
+        "different colour:pl",
+        "like thing:pl come:neg:fu",
+        "neither it so be:fu"
+      ],
+      "16:17": [
+        "mypl/gold and of mypl/silver",
+        "image:pl:a of man:pl"
+      ],
+      "16:18": [
+        "mypl/oil:a and mypl/kjv_incense:a"
+      ],
+      "16:19": [
+        "mypl/food:a",
+        "fine kjv_flour:a and oil:a and honey:a",
+        "sweet smell:ev"
+      ],
+      "16:20": [
+        "whom thou to ipl bear:perf",
+        "to devour:psv:inf kjv_sacrifice:perf"
+      ],
+      "16:21": [
+        "mypl/child:pl:a slay:perf",
+        "through fire pass:caus:inf"
+      ],
+      "16:22": [
+        "remember:neg:perf",
+        "in thy/blood defile:psv:pa"
+      ],
+      "16:23": [
+        "woe:excl woe:excl"
+      ],
+      "16:24": [
+        "kjv_eminent_site:a",
+        "high kjv_place_site:a in every street"
+      ],
+      "16:25": [
+        "thy/foot:pl:a",
+        "each who by pass:pa"
+      ],
+      "16:26": [
+        "kjv_egyptian:pl thy/neighbour:pl great of flesh",
+        "ipl:a to anger kjv_provoke:inf"
+      ],
+      "16:27": [
+        "thine/ordinary food:a diminish:perf",
+        "daughter:pl of kjv_philistine:pl"
+      ],
+      "16:28": [
+        "satisfy:psv:neg:pa",
+        "satisfy:psv:pa:neg:can"
+      ],
+      "16:29": [
+        "kjv_canaan_land to kjv_chaldea",
+        "satisfy:psv:neg:pa"
+      ],
+      "16:30": [
+        "weak thy/heart",
+        "kjv_imperious kjv_whoredom:adj woman"
+      ],
+      "16:31": [
+        "as whore be:neg:perf",
+        "kjv_wages:a scorn:pr"
+      ],
+      "16:32": [
+        "kjv_adultery:a",
+        "stranger:pl:a in place of her/husband"
+      ],
+      "16:33": [
+        "thy/gift:pl:a to all thy/lover:pl",
+        "they:a kjv_hire:pr"
+      ],
+      "16:34": [
+        "none thee:a",
+        "thou reward:a give:pr",
+        "no reward to thee give:psv:pr"
+      ],
+      "16:35": [
+        "oh whore word:a of kjv_lord"
+      ],
+      "16:36": [
+        "thy/filthy:ev",
+        "blood of thy/child:pl"
+      ],
+      "16:37": [
+        "whom thou love:perf",
+        "whom thou hate:perf",
+        "thy/kjv_nakedness:a to they"
+      ],
+      "16:38": [
+        "marriage:a break:pr",
+        "blood:a shed:pr",
+        "blood:a in fury and jealousy"
+      ],
+      "16:39": [
+        "thine/kjv_eminent_site:a",
+        "thy/beautiful jewel:pl:a",
+        "clothe:neg:psv:adj and bare"
+      ],
+      "16:40": [
+        "with stone:pl kjv_stone_attack:fu",
+        "with their/sword:pl through thrust:fu"
+      ],
+      "16:41": [
+        "in sight of many woman:pl",
+        "any more no kjv_wages:a give:fu"
+      ],
+      "16:42": [
+        "mypl/fury:a towards thee rest:caus:fu",
+        "no more angry be:fu"
+      ],
+      "16:43": [
+        "ipl:a in all these thing:pl fret:perf",
+        "kjv_lewdness:a above all thine/kjv_abomination:pl do:neg:fu"
+      ],
+      "16:44": [
+        "as mother be:pr so her/daughter"
+      ],
+      "16:45": [
+        "thy/mother daughter",
+        "your/mother kjv_hittite",
+        "your/father kjv_amorite"
+      ],
+      "16:46": [
+        "kjv_samaria",
+        "thy/left hand",
+        "thy/kjv_right_side hand",
+        "kjv_sodom"
+      ],
+      "16:47": [
+        "walk:neg:perf nor",
+        "more than they",
+        "corrupt:psv:perf"
+      ],
+      "16:48": [
+        "as ipl live:pr",
+        "she nor her/daughter:pl",
+        "do:neg:perf"
+      ],
+      "16:49": [
+        "pride full:ev of bread",
+        "abundance of idle:ev",
+        "neither she hand:a of poor and kjv_needy"
+      ],
+      "16:50": [
+        "kjv_abomination:a do:pa",
+        "as ipl good see:pa"
+      ],
+      "16:51": [
+        "half:a of thy/sin:pl",
+        "thy/sister:pl:a",
+        "kjv_justify:perf"
+      ],
+      "16:52": [
+        "they more kjv_righteous than thou",
+        "thy/shame:a endure:imp"
+      ],
+      "16:53": [
+        "kjv_captivity:a of kjv_sodom",
+        "kjv_captivity:a of kjv_samaria",
+        "thy/captive:pl"
+      ],
+      "16:54": [
+        "thou comfort to they be:pr"
+      ],
+      "16:55": [
+        "their/former estate",
+        "your/former estate"
+      ],
+      "16:56": [
+        "thy/mouth in day of thy/pride kjv_mention:psv:neg:pa"
+      ],
+      "16:57": [
+        "daughter:pl of kjv_syria",
+        "daughter:pl of kjv_philistine:pl"
+      ],
+      "16:58": [
+        "thy/kjv_lewdness:a",
+        "endure:perf"
+      ],
+      "16:59": [
+        "oath:a in kjv_covenant:a break:cv despise:perf"
+      ],
+      "16:60": [
+        "nevertheless ipl",
+        "eternal kjv_covenant:a kjv_establish:fu"
+      ],
+      "16:61": [
+        "for daughter:pl give:fu but not by thy/kjv_covenant"
+      ],
+      "16:62": [
+        "mypl/kjv_covenant:a with thee kjv_establish:fu"
+      ],
+      "16:63": [
+        "never thy/mouth:a",
+        "ipl towards thee",
+        "kjv_appease:psv:pr"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "13:1",
+        "14:1",
+        "14:12",
+        "14:2",
+        "15:1",
+        "16:1"
+      ],
+      "ipl": [
+        "13:13",
+        "13:14",
+        "13:15",
+        "13:19",
+        "13:20",
+        "13:21",
+        "13:22",
+        "13:23",
+        "13:7",
+        "13:8",
+        "13:9",
+        "14:11",
+        "14:13",
+        "14:15",
+        "14:16",
+        "14:17",
+        "14:18",
+        "14:19",
+        "14:20",
+        "14:21",
+        "14:22",
+        "14:23",
+        "14:3",
+        "14:4",
+        "14:5",
+        "14:7",
+        "14:8",
+        "14:9",
+        "15:6",
+        "15:7",
+        "15:8",
+        "16:10",
+        "16:11",
+        "16:12",
+        "16:14",
+        "16:17",
+        "16:19",
+        "16:20",
+        "16:26",
+        "16:27",
+        "16:37",
+        "16:38",
+        "16:39",
+        "16:41",
+        "16:42",
+        "16:43",
+        "16:48",
+        "16:50",
+        "16:53",
+        "16:59",
+        "16:6",
+        "16:60",
+        "16:61",
+        "16:62",
+        "16:63",
+        "16:7",
+        "16:8",
+        "16:9"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "13:10",
+        "13:13",
+        "13:15",
+        "13:18",
+        "13:19",
+        "13:21",
+        "13:23",
+        "13:9",
+        "14:11",
+        "14:13",
+        "14:19",
+        "14:21",
+        "14:8",
+        "14:9",
+        "15:7",
+        "16:14",
+        "16:17",
+        "16:18",
+        "16:19",
+        "16:21",
+        "16:27",
+        "16:42",
+        "16:60",
+        "16:62",
+        "16:8"
+      ],
+      "ourone": [],
+      "iplself": [
+        "14:7"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Three exemplars,four judgments,one fire and half retained exactly.",
+      "Naming Noah,Daniel,Job in14:20 does not add an unprinted cardinal.",
+      "Both offspring categories and both object-ends are not dual-person pronouns;each is distributive."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel13–16 adds117 verses,total361;whole Bible incomplete.",
+      "Personal openings and divine plural-I including explicit plural-self reflexive distinguished;no communal first person inserted.",
+      "Rival revelation,active divine deception,hostile civic allegory,comparative sisters and unresolved covenant ending retained without harmonizing.",
+      "Seven common semantic entries,one contextual name;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 282,
+    "spreads": 141,
+    "units": 361,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "b7511a963361e5e985a47b83f626dc1befefed3d05ec196d021e3ef383904747",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 141,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.801,
+    "modules": [
+      "tests.test_kjv_ezekiel_covenant_shame",
+      "tests.test_kjv_ezekiel_nested_speakers",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    281,
+    282
+  ],
+  "status": "incomplete Bible;Ezekiel1–16 section checkpoint verified"
+}

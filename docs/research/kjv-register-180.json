@@ -1,0 +1,419 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.180",
+    "parentVersion": "0.10-kjv.179",
+    "parentHead": "01c0492bae6bb7fb432bb380992d35cf925bc1375ffccb6a30b8af491739a31d",
+    "head": "b1cae393d91e29e29d2157dd06d42783c8e39b053f751af8e5f9acc284912e76",
+    "newLexicalEntries": 4,
+    "newProperEntries": 4,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 47,
+    "exactCompilerCases": 47,
+    "newAuthoredVerses": 47,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 8370,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newNahumVerses": 47,
+    "nahumVerses": 47,
+    "authoredVerses": 22732,
+    "remainingVerses": 8370,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Nahum 1:9",
+        "source": "What do ye imagine against the LORD? he will make an utter end: affliction shall not rise up the second time.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Nahum 3:12",
+        "source": "All thy strong holds shall be like fig trees with the firstripe figs: if they be shaken, they shall even fall into the mouth of the eater.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "1:1": [
+        "kjv_burden_oracle",
+        "kjv_nahum_prophet kjv_elkoshite"
+      ],
+      "1:2": [
+        "kjv_lord revenge:pr kjv_lord revenge:pr",
+        "wrath for his/enemy:pl keep"
+      ],
+      "1:3": [
+        "acquit:neg:fu",
+        "kjv_whirlwind",
+        "cloud:pl dust of his/foot:pl"
+      ],
+      "1:4": [
+        "all river:pl",
+        "kjv_bashan",
+        "kjv_carmel",
+        "flower of kjv_lebanon"
+      ],
+      "1:5": [
+        "hill:pl melt",
+        "earth at his/presence burn:psv:pr",
+        "yes world"
+      ],
+      "1:6": [
+        "who before his/indignation",
+        "who in fierce:ev",
+        "out pour:psv",
+        "rock:pl"
+      ],
+      "1:7": [
+        "kjv_stronghold",
+        "they that in he trust"
+      ],
+      "1:8": [
+        "overflow:cv flood",
+        "place of it",
+        "darkness his/enemy:pl pursue"
+      ],
+      "1:9": [
+        "what you against kjv_lord",
+        "two:ord time up rise:neg"
+      ],
+      "1:10": [
+        "thorn:pl together entangle",
+        "kjv_drunkard:pl",
+        "kjv_stubble entirely dry"
+      ],
+      "1:11": [
+        "person out of thou",
+        "wicked counsellor"
+      ],
+      "1:12": [
+        "they quiet",
+        "likewise many",
+        "when he through pass",
+        "ipl thou:a kjv_afflict:perf",
+        "no more kjv_afflict"
+      ],
+      "1:13": [
+        "his/yoke from off thou",
+        "thy/kjv_binding_restraint:pl"
+      ],
+      "1:14": [
+        "thy/name kjv_sow:psv:opt",
+        "thy/god:pl",
+        "kjv_graven image",
+        "melt:psv:adj image",
+        "ipl thy/grave"
+      ],
+      "1:15": [
+        "peace publish:pr be:excl",
+        "thy/solemn feast:pl",
+        "thy/vow:pl",
+        "he entirely off cut"
+      ],
+      "2:1": [
+        "fortify:ev keep:imp",
+        "thy/kjv_loins",
+        "mighty:adv fortify"
+      ],
+      "2:2": [
+        "kjv_excellence of kjv_jacob away turn:perf",
+        "empty:caus:ag:pl",
+        "their/kjv_vine branch:pl"
+      ],
+      "2:3": [
+        "red make:psv",
+        "kjv_scarlet",
+        "flame:cv torch:pl",
+        "kjv_fir kjv_tree:pl terrible:adv shake"
+      ],
+      "2:4": [
+        "each against another",
+        "broad way:pl",
+        "torch:pl",
+        "lightning:pl"
+      ],
+      "2:5": [
+        "his/worthy person:pl recount",
+        "their/walk:ev kjv_stumble",
+        "defence prepare:psv"
+      ],
+      "2:6": [
+        "gate:pl of river:pl",
+        "palace dissolve:psv"
+      ],
+      "2:7": [
+        "kjv_huzzab",
+        "she up bring",
+        "her/maid:pl",
+        "voice of dove:pl",
+        "their/breast:pl drum"
+      ],
+      "2:8": [
+        "kjv_pool of water",
+        "stand:imp stand:imp",
+        "none back look"
+      ],
+      "2:9": [
+        "spoil of silver",
+        "spoil of gold",
+        "pleasing kjv_goods"
+      ],
+      "2:10": [
+        "she empty and void",
+        "knee:pl together strike",
+        "all kjv_loins",
+        "black:ev gather"
+      ],
+      "2:11": [
+        "young lion:pl",
+        "old lion",
+        "kjv_whelp",
+        "none they:a afraid"
+      ],
+      "2:12": [
+        "rend:pa",
+        "his/female lion:pl choke",
+        "seize:psv:adj prey"
+      ],
+      "2:13": [
+        "ipl against thou",
+        "her/chariot:pl",
+        "thy/young lion:pl",
+        "thy/messenger:pl no more hear"
+      ],
+      "3:1": [
+        "woe to bloody city be:excl",
+        "false word:pl and rob:ev",
+        "prey depart:neg"
+      ],
+      "3:2": [
+        "noise of whip",
+        "kjv_rattle:ev of wheel:pl",
+        "kjv_prance:cv horse:pl",
+        "jump:cv chariot:pl"
+      ],
+      "3:3": [
+        "both bright sword",
+        "glitter:cv kjv_spear",
+        "no end of their/kjv_corpse:pl",
+        "their/kjv_corpse:pl kjv_stumble"
+      ],
+      "3:4": [
+        "beautiful kjv_harlot",
+        "mistress of kjv_witchcraft:pl",
+        "nation:pl",
+        "kjv_family:pl"
+      ],
+      "3:5": [
+        "ipl against thou",
+        "thy/kjv_skirt_garment:pl upon thy/face",
+        "thy/bare:ev",
+        "kingdom:pl thy/shame"
+      ],
+      "3:6": [
+        "kjv_abomination:adj kjv_filth",
+        "vile make",
+        "gaze:psv:adj thing"
+      ],
+      "3:7": [
+        "kjv_nineveh kjv_desolate",
+        "who she:a mourn",
+        "where i comfort:ag:pl"
+      ],
+      "3:8": [
+        "people:adj kjv_no_egypt",
+        "among river:pl",
+        "kjv_rampart sea",
+        "her/wall from sea"
+      ],
+      "3:9": [
+        "kjv_ethiopia and egypt",
+        "her/strength",
+        "infinite",
+        "kjv_put_people and kjv_lubim thy/help:ag:pl"
+      ],
+      "3:10": [
+        "her/young child:pl",
+        "all street:pl in piece:pl",
+        "kjv_lot:pl",
+        "chain:pl bind"
+      ],
+      "3:11": [
+        "drunk be:fu",
+        "hide:psv:fu",
+        "strength because of enemy"
+      ],
+      "3:12": [
+        "one_num:ord ripe fig:pl",
+        "if they shake:psv",
+        "mouth of eat:ag"
+      ],
+      "3:13": [
+        "thy/people in middle of thou woman:pl",
+        "wide open",
+        "fire thy/bar:pl"
+      ],
+      "3:14": [
+        "water:pl for siege",
+        "kjv_mortar tread",
+        "kjv_brickkiln strong"
+      ],
+      "3:15": [
+        "kjv_cankerworm",
+        "thyself many as kjv_cankerworm make:imp",
+        "thyself many as kjv_locust:pl"
+      ],
+      "3:16": [
+        "kjv_merchant:pl above star:pl",
+        "kjv_cankerworm spoil:pr",
+        "away flee"
+      ],
+      "3:17": [
+        "thy/crown:psv:adj",
+        "kjv_grasshopper:pl",
+        "cold day",
+        "sun rise",
+        "place where they be:pr know:psv:neg"
+      ],
+      "3:18": [
+        "shepherd:pl slumber",
+        "king of kjv_assyria",
+        "noble:pl in dust",
+        "no man they:a gather"
+      ],
+      "3:19": [
+        "thy/kjv_bruise:ev",
+        "thy/wound kjv_grievous",
+        "report of thou",
+        "hand:pl over thou together strike",
+        "always pass:neg:perf?"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "3:7"
+      ],
+      "ipl": [
+        "1:12",
+        "1:13",
+        "1:14",
+        "2:13",
+        "3:5",
+        "3:6"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Second time1:9and first-ripe fruit3:12are ordinals.",
+      "Person1:11and reciprocal each2:4are not numeric one.",
+      "Both3:3coordinates two weapons,not a dual speaker."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "All47Nahum verses added;whole Bible incomplete.",
+      "Divine plural-I and the observing personal-I3:7distinguished;the latter is an explicit interpretation of an unlabelled transition.",
+      "Printed torches,fir trees,Huzzab,blackness,garment exposure,No and violence retained without harmonization.",
+      "Four contextual name entries;no common-root,paradigm or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Nahum — incomplete Bible working text",
+    "pages": 34,
+    "spreads": 17,
+    "units": 47,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "f903c53f0a8b0e7ce4d173d02167c8ddabb779d819fae52ee318dff748fa4b69",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 17,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.272,
+    "modules": [
+      "tests.test_kjv_nahum_observing_self",
+      "tests.test_kjv_micah_pleaded_cause",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    33,
+    34
+  ],
+  "status": "incomplete Bible;Nahum1–3 section checkpoint verified"
+}

@@ -168,7 +168,8 @@ def main():
         session.log.emit('desktop','APPLICATION_IDENTITY_READY',appUserModelId=APP_ID if sys.platform=='win32' else None,icon=str(args.root/'data/icons/memon-color.ico'))
     sys.excepthook = lambda kind, error, tb: session.log.emit('runtime', 'UNCAUGHT_EXCEPTION', level='error',
                                                              message=str(error), traceback=''.join(traceback.format_exception(kind,error,tb)))
-    if getattr(args, 'document', None):
+    deferred_file = args.document if args.command=='editor' and use_files else None
+    if getattr(args, 'document', None) and not deferred_file:
         session.open(args.document,advance_revision=False) if use_editor else session.open(args.document)
     if args.command=='editor':
         from .editor_window import EditorWindow
@@ -192,6 +193,9 @@ def main():
         server=LocalServer(api)
         app.aboutToQuit.connect(server.close)
         window.showMaximized()
+        if deferred_file:
+            from PySide6.QtCore import QTimer
+            QTimer.singleShot(0,lambda:window.open_path(str(deferred_file)))
         if use_studio and args.page_focus:
             api.call('ui.workspace',dict(source=False,diagnostics=False,guides=False,fit_page=True,panel='Paint'),expected_revision=session.revision,origin='desktop')
         return app.exec()

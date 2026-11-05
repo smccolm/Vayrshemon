@@ -1,0 +1,638 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.222",
+    "parentVersion": "0.10-kjv.221",
+    "parentHead": "d6df274bd1239dcaf3bd8cf3af020b0f6cff056f1113553b8866207165b50f1e",
+    "head": "d93788f054269d9654f1da3132c53d75ab836c23f58bafe7d4f07f83b62808d1",
+    "newLexicalEntries": 2,
+    "newProperEntries": 2,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 56,
+    "exactCompilerCases": 56,
+    "newAuthoredVerses": 56,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 4178,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJohnVerses": 56,
+    "johnVerses": 879,
+    "authoredVerses": 26924,
+    "remainingVerses": 4178,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "John 20:1",
+        "source": "The first day of the week cometh Mary Magdalene early, when it was yet dark, unto the sepulchre, and seeth the stone taken away from the sepulchre.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 20:4",
+        "source": "So they ran both together: and the other disciple did outrun Peter, and came first to the sepulchre.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 20:8",
+        "source": "Then went in also that other disciple, which came first to the sepulchre, and he saw, and believed.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 20:12",
+        "source": "And seeth two angels in white sitting, the one at the head, and the other at the feet, where the body of Jesus had lain.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "John 20:19",
+        "source": "Then the same day at evening, being the first day of the week, when the doors were shut where the disciples were assembled for fear of the Jews, came Jesus and stood in the midst, and saith unto them, Peace be unto you.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "John 20:24",
+        "source": "But Thomas, one of the twelve, called Didymus, was not with them when Jesus came.",
+        "expectedDecimalQuantities": [
+          1,
+          12
+        ],
+        "targetQuantities": [
+          1,
+          12
+        ]
+      },
+      {
+        "reference": "John 20:26",
+        "source": "And after eight days again his disciples were within, and Thomas with them: then came Jesus, the doors being shut, and stood in the midst, and said, Peace be unto you.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "John 21:2",
+        "source": "There were together Simon Peter, and Thomas called Didymus, and Nathanael of Cana in Galilee, and the sons of Zebedee, and two other of his disciples.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "John 21:8",
+        "source": "And the other disciples came in a little ship; (for they were not far from land, but as it were two hundred cubits,) dragging the net with fishes.",
+        "expectedDecimalQuantities": [
+          200
+        ],
+        "targetQuantities": [
+          200
+        ]
+      },
+      {
+        "reference": "John 21:11",
+        "source": "Simon Peter went up, and drew the net to land full of great fishes, an hundred and fifty and three: and for all there were so many, yet was not the net broken.",
+        "expectedDecimalQuantities": [
+          153
+        ],
+        "targetQuantities": [
+          153
+        ]
+      },
+      {
+        "reference": "John 21:14",
+        "source": "This is now the third time that Jesus shewed himself to his disciples, after that he was risen from the dead.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "John 21:16",
+        "source": "He saith to him again the second time, Simon, son of Jonas, lovest thou me? He saith unto him, Yea, Lord; thou knowest that I love thee. He saith unto him, Feed my sheep.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "John 21:17",
+        "source": "He saith unto him the third time, Simon, son of Jonas, lovest thou me? Peter was grieved because he said unto him the third time, Lovest thou me? And he said unto him, Lord, thou knowest all things; thou knowest that I love thee. Jesus saith unto him, Feed my sheep.",
+        "expectedDecimalQuantities": [
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "20:1": [
+        "first day of week",
+        "kjv_mary_magdalene early",
+        "yet dark",
+        "stone from grave away take:psv:adj"
+      ],
+      "20:2": [
+        "to they:du say:pr",
+        "kjv_lord out of grave away take:perf",
+        "wesg where he:a lay:perf know:neg:pr"
+      ],
+      "20:3": [
+        "kjv_peter_disciple",
+        "that other disciple",
+        "to grave come:pa"
+      ],
+      "20:4": [
+        "they:du together run:pa",
+        "faster than kjv_peter_disciple",
+        "first to grave come:pa"
+      ],
+      "20:5": [
+        "down bow:cv",
+        "linen cloth:pl lie:cv",
+        "in go:neg:pa"
+      ],
+      "20:6": [
+        "kjv_simon_peter kjv_peter_disciple",
+        "into grave go:pa",
+        "linen cloth:pl lie:cv"
+      ],
+      "20:7": [
+        "kjv_napkin_cloth",
+        "about his/head",
+        "not with linen cloth:pl lie:cv",
+        "together wrap:psv:cv in place by itself"
+      ],
+      "20:8": [
+        "first to grave come:pa",
+        "in go:pa",
+        "see:pa and believe:pa"
+      ],
+      "20:9": [
+        "they:du writing",
+        "from dead:pl rise:must know:neg:pa"
+      ],
+      "20:10": [
+        "disciple:du",
+        "own home of they:du"
+      ],
+      "20:11": [
+        "kjv_mary_magdalene_given",
+        "outside weep:cv",
+        "down bow:pa",
+        "into grave look:pa"
+      ],
+      "20:12": [
+        "two angel:pl in white",
+        "one_num at head and other at foot:pl",
+        "body of kjv_jesus_matthew lie:pp"
+      ],
+      "20:13": [
+        "they:du to she",
+        "my/kjv_lord",
+        "i where he:a lay:perf know:neg:pr"
+      ],
+      "20:14": [
+        "herself back turn:pa",
+        "kjv_jesus_matthew stand:cv",
+        "know:neg:pa"
+      ],
+      "20:15": [
+        "why thou weep:pr:q",
+        "whom thou seek:pr:q",
+        "kjv_garden:ag",
+        "thou he:a hence carry:perf",
+        "i he:a away take:fu"
+      ],
+      "20:16": [
+        "to she say:pr kjv_mary_magdalene_given",
+        "kjv_rabboni_john",
+        "master say:inf"
+      ],
+      "20:17": [
+        "ipl:a touch:neg:imp",
+        "mypl/father up go:neg:perf",
+        "mypl/brother:pl",
+        "mypl/father and your/father",
+        "mypl/god and your/god"
+      ],
+      "20:18": [
+        "kjv_mary_magdalene",
+        "kjv_lord see:pp",
+        "these thing:pl to she speak:pp"
+      ],
+      "20:19": [
+        "same day at evening",
+        "first day of week",
+        "for fear of kjv_jew:pl",
+        "shut:psv:pa",
+        "peace to you be:opt"
+      ],
+      "20:20": [
+        "his/hand:pl and his/side",
+        "disciple:pl",
+        "glad be:pa"
+      ],
+      "20:21": [
+        "peace to you be:opt",
+        "mypl/father ipl:a send:perf",
+        "ipl you:a send:pr"
+      ],
+      "20:22": [
+        "on they breathe:pa",
+        "holy spirit receive:imp"
+      ],
+      "20:23": [
+        "sin:pl forgive:pr to they forgive:psv:pr",
+        "sin:pl keep:pr keep:psv:pr"
+      ],
+      "20:24": [
+        "one_num of twelve",
+        "kjv_didymus_john",
+        "with they be:neg:pa"
+      ],
+      "20:25": [
+        "wesg kjv_lord see:perf",
+        "except i",
+        "mark of nail:pl",
+        "my/finger",
+        "my/hand into his/side thrust:pr",
+        "i believe:neg:fu"
+      ],
+      "20:26": [
+        "after eight day:pl",
+        "kjv_thomas_apostle with they",
+        "door:pl shut:psv:cv",
+        "peace to you be:opt"
+      ],
+      "20:27": [
+        "thy/finger",
+        "mypl/hand:pl",
+        "thy/hand",
+        "mypl/side",
+        "believe:neg:adj be:neg:imp but believe:adj be:imp"
+      ],
+      "20:28": [
+        "to he say:pa my/kjv_lord and my/god"
+      ],
+      "20:29": [
+        "thou ipl:a see:perf believe:perf",
+        "see:neg:perf and yet believe:perf"
+      ],
+      "20:30": [
+        "many other sign:pl",
+        "presence of his/disciple:pl",
+        "this book write:psv:neg:pr"
+      ],
+      "20:31": [
+        "kjv_jesus_matthew kjv_christ_title son of god",
+        "through his/name life have:may"
+      ],
+      "21:1": [
+        "himself to disciple:pl",
+        "sea of kjv_tiberias_john",
+        "on this manner"
+      ],
+      "21:2": [
+        "kjv_thomas_apostle kjv_didymus_john",
+        "kjv_nathanael_john of kjv_cana_john in kjv_galilee",
+        "son:pl of kjv_zebedee",
+        "two other"
+      ],
+      "21:3": [
+        "i fish:inf go:pr",
+        "wesg also with thee go:pr",
+        "immediately into ship",
+        "that night nothing catch:pa"
+      ],
+      "21:4": [
+        "morning",
+        "kjv_shore",
+        "know:neg:pa"
+      ],
+      "21:5": [
+        "child:pl any food have:pr:q",
+        "no answer:pa"
+      ],
+      "21:6": [
+        "kjv_net on kjv_right_side of ship",
+        "find:fu",
+        "kjv_multitude of kjv_fish:pl",
+        "able:neg:pa"
+      ],
+      "21:7": [
+        "disciple whom kjv_jesus_matthew love:pa",
+        "his/fish:ag/coat",
+        "kjv_nakedness:adj",
+        "himself into sea cast:pa"
+      ],
+      "21:8": [
+        "little ship",
+        "far be:neg:pa",
+        "about sixteen+twelve and eight kjv_cubit:pl",
+        "pull:cv"
+      ],
+      "21:9": [
+        "fire of kjv_charcoal",
+        "kjv_fish on it lay:psv:adj",
+        "bread"
+      ],
+      "21:10": [
+        "kjv_fish which now catch:perf bring:imp"
+      ],
+      "21:11": [
+        "great kjv_fish:pl twelve+twelve and nine",
+        "though so many",
+        "kjv_net break:psv:neg:pa"
+      ],
+      "21:12": [
+        "come:imp and dine:imp",
+        "none of disciple:pl",
+        "who thou be:pr:q ask:inf dare:pa",
+        "kjv_lord be:pr know:cv"
+      ],
+      "21:13": [
+        "bread take:pr and to they give:pr",
+        "kjv_fish likewise"
+      ],
+      "21:14": [
+        "third time",
+        "from dead:pl rise:pp",
+        "to his/disciple:pl show:pa"
+      ],
+      "21:15": [
+        "kjv_jonas_peter_father_john",
+        "ipl:a more than these love:pr:q",
+        "i thee love:pr",
+        "mypl/kjv_lamb:pl feed:imp"
+      ],
+      "21:16": [
+        "second time",
+        "kjv_jonas_peter_father_john",
+        "ipl:a love:pr:q",
+        "i thee love:pr",
+        "mypl/sheep feed:imp"
+      ],
+      "21:17": [
+        "third time to he",
+        "kjv_peter_disciple sorrowful be:pa",
+        "because third time",
+        "thou all thing:pl know:pr",
+        "i thee love:pr",
+        "mypl/sheep feed:imp"
+      ],
+      "21:18": [
+        "truly truly ipl",
+        "young be:pa",
+        "thyself kjv_gird:pa",
+        "old be:fu",
+        "another thee kjv_gird:fu",
+        "thou will:neg:pr carry:fu"
+      ],
+      "21:19": [
+        "by what death god glorify:should",
+        "ipl:a follow:imp"
+      ],
+      "21:20": [
+        "disciple whom kjv_jesus_matthew love:pa",
+        "at supper kjv_lean_body:pa",
+        "thee betray:pr"
+      ],
+      "21:21": [
+        "what this man do:fu:q"
+      ],
+      "21:22": [
+        "if ipl that he remain:pr until ipl come:pr will:pr",
+        "what that to thee",
+        "thou ipl:a follow:imp"
+      ],
+      "21:23": [
+        "among brother:pl spread:pa",
+        "disciple die:neg:should",
+        "he die:neg:fu say:neg:pa",
+        "if ipl that he remain:pr until ipl come:pr will:pr"
+      ],
+      "21:24": [
+        "disciple who of these thing:pl testify:pr",
+        "write:pa",
+        "wesg that his/testimony true"
+      ],
+      "21:25": [
+        "if each write:psv:should",
+        "i even world itself",
+        "contain:neg:can suppose:pr amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "20:13",
+        "20:15",
+        "20:25",
+        "21:15",
+        "21:16",
+        "21:17",
+        "21:25",
+        "21:3"
+      ],
+      "ipl": [
+        "20:17",
+        "20:21",
+        "20:29",
+        "21:15",
+        "21:16",
+        "21:17",
+        "21:18",
+        "21:19",
+        "21:22",
+        "21:23"
+      ],
+      "wesg": [
+        "20:2",
+        "20:25",
+        "21:24",
+        "21:3"
+      ],
+      "wepl": [],
+      "mypl": [
+        "20:17",
+        "20:21",
+        "20:27",
+        "21:15",
+        "21:16",
+        "21:17"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [
+        "20:10",
+        "20:13",
+        "20:2",
+        "20:4",
+        "20:9"
+      ],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "20:2",
+      "20:4",
+      "20:9",
+      "20:10",
+      "20:13"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "First weekday/arrival,two angels and one-position,one of twelve,eight days,two unnamed companions,approximately200cubits,153fish,third appearance,second and repeated third questions retained.",
+      "Two visitors and angel pair use true dual;Mary,disciples and editorial witnesses have source communal-we distinct from personal-I reports and final narrator I."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "56new verses;879John complete;whole Bible incomplete.",
+      "Distinct possessives my-Father/your-Father,my-God/your-God,embodied breathing and touch commands,conditional corrected rumour retained.",
+      "Two contextual proper entries;no new common roots,paradigms or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "John — incomplete Bible working text",
+    "pages": 486,
+    "spreads": 243,
+    "units": 879,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "ef5e2cef9f3ac90b7c5c170c3773b9242e0fd500f1c268063a98d20c697b0565",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 243,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.403,
+    "modules": [
+      "tests.test_kjv_john_final_witness",
+      "tests.test_kjv_john_burial_pair",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    485,
+    486
+  ],
+  "status": "incomplete Bible;John1–21 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 485,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv222\\preflight-john\\Proofs\\page-485.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv222\\composed-john\\Proofs\\page-485.png",
+        "sha256": "feed9b2e8fc80118ee6cdeb1a77cfeb84ef3c7094621a87cbe2b9bac1bf9d42e",
+        "bytesIdentical": true
+      },
+      {
+        "page": 486,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv222\\preflight-john\\Proofs\\page-486.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv222\\composed-john\\Proofs\\page-486.png",
+        "sha256": "96e875911f5582214851bd1454ad74bfbf951ea7e0da414e50a57d5dde8d3085",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

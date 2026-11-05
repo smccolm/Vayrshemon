@@ -1,0 +1,1374 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.166",
+    "parentVersion": "0.10-kjv.165",
+    "parentHead": "ca9e8cb79f397720015df96300b058f92d6df5d0f25fa428fd5cb96774dcaad2",
+    "head": "77dca381e4eb9953865427d120ea01da5095f08456128c287ef5b82e941c4578",
+    "newLexicalEntries": 3,
+    "newProperEntries": 0,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 95,
+    "exactCompilerCases": 95,
+    "newAuthoredVerses": 95,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1108,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 9481,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newEzekielVerses": 95,
+    "ezekielVerses": 1108,
+    "authoredVerses": 21621,
+    "remainingVerses": 9481,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 65,
+    "quantityChecks": [
+      {
+        "reference": "Ezekiel 40:1",
+        "source": "In the five and twentieth year of our captivity, in the beginning of the year, in the tenth day of the month, in the fourteenth year after that the city was smitten, in the selfsame day the hand of the LORD was upon me, and brought me thither.",
+        "expectedDecimalQuantities": [
+          25,
+          10,
+          14
+        ],
+        "targetQuantities": [
+          25,
+          10,
+          14
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:5",
+        "source": "And behold a wall on the outside of the house round about, and in the man’s hand a measuring reed of six cubits long by the cubit and an hand breadth: so he measured the breadth of the building, one reed; and the height, one reed.",
+        "expectedDecimalQuantities": [
+          6,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          6,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:6",
+        "source": "Then came he unto the gate which looketh toward the east, and went up the stairs thereof, and measured the threshold of the gate, which was one reed broad; and the other threshold of the gate, which was one reed broad.",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:7",
+        "source": "And every little chamber was one reed long, and one reed broad; and between the little chambers were five cubits; and the threshold of the gate by the porch of the gate within was one reed.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          5,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          5,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:8",
+        "source": "He measured also the porch of the gate within, one reed.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:9",
+        "source": "Then measured he the porch of the gate, eight cubits; and the posts thereof, two cubits; and the porch of the gate was inward.",
+        "expectedDecimalQuantities": [
+          8,
+          2
+        ],
+        "targetQuantities": [
+          8,
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:10",
+        "source": "And the little chambers of the gate eastward were three on this side, and three on that side; they three were of one measure: and the posts had one measure on this side and on that side.",
+        "expectedDecimalQuantities": [
+          3,
+          3,
+          3,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          3,
+          3,
+          3,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:11",
+        "source": "And he measured the breadth of the entry of the gate, ten cubits; and the length of the gate, thirteen cubits.",
+        "expectedDecimalQuantities": [
+          10,
+          13
+        ],
+        "targetQuantities": [
+          10,
+          13
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:12",
+        "source": "The space also before the little chambers was one cubit on this side, and the space was one cubit on that side: and the little chambers were six cubits on this side, and six cubits on that side.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          6,
+          6
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          6,
+          6
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:13",
+        "source": "He measured then the gate from the roof of one little chamber to the roof of another: the breadth was five and twenty cubits, door against door.",
+        "expectedDecimalQuantities": [
+          25
+        ],
+        "targetQuantities": [
+          25
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:14",
+        "source": "He made also posts of threescore cubits, even unto the post of the court round about the gate.",
+        "expectedDecimalQuantities": [
+          60
+        ],
+        "targetQuantities": [
+          60
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:15",
+        "source": "And from the face of the gate of the entrance unto the face of the porch of the inner gate were fifty cubits.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:17",
+        "source": "Then brought he me into the outward court, and, lo, there were chambers, and a pavement made for the court round about: thirty chambers were upon the pavement.",
+        "expectedDecimalQuantities": [
+          30
+        ],
+        "targetQuantities": [
+          30
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:19",
+        "source": "Then he measured the breadth from the forefront of the lower gate unto the forefront of the inner court without, an hundred cubits eastward and northward.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:21",
+        "source": "And the little chambers thereof were three on this side and three on that side; and the posts thereof and the arches thereof were after the measure of the first gate: the length thereof was fifty cubits, and the breadth five and twenty cubits.",
+        "expectedDecimalQuantities": [
+          3,
+          3,
+          1,
+          50,
+          25
+        ],
+        "targetQuantities": [
+          3,
+          3,
+          1,
+          50,
+          25
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:22",
+        "source": "And their windows, and their arches, and their palm trees, were after the measure of the gate that looketh toward the east; and they went up unto it by seven steps; and the arches thereof were before them.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:23",
+        "source": "And the gate of the inner court was over against the gate toward the north, and toward the east; and he measured from gate to gate an hundred cubits.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:25",
+        "source": "And there were windows in it and in the arches thereof round about, like those windows: the length was fifty cubits, and the breadth five and twenty cubits.",
+        "expectedDecimalQuantities": [
+          50,
+          25
+        ],
+        "targetQuantities": [
+          50,
+          25
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:26",
+        "source": "And there were seven steps to go up to it, and the arches thereof were before them: and it had palm trees, one on this side, and another on that side, upon the posts thereof.",
+        "expectedDecimalQuantities": [
+          7,
+          1
+        ],
+        "targetQuantities": [
+          7,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:27",
+        "source": "And there was a gate in the inner court toward the south: and he measured from gate to gate toward the south an hundred cubits.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:29",
+        "source": "And the little chambers thereof, and the posts thereof, and the arches thereof, according to these measures: and there were windows in it and in the arches thereof round about: it was fifty cubits long, and five and twenty cubits broad.",
+        "expectedDecimalQuantities": [
+          50,
+          25
+        ],
+        "targetQuantities": [
+          50,
+          25
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:30",
+        "source": "And the arches round about were five and twenty cubits long, and five cubits broad.",
+        "expectedDecimalQuantities": [
+          25,
+          5
+        ],
+        "targetQuantities": [
+          25,
+          5
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:31",
+        "source": "And the arches thereof were toward the utter court; and palm trees were upon the posts thereof: and the going up to it had eight steps.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:33",
+        "source": "And the little chambers thereof, and the posts thereof, and the arches thereof, were according to these measures: and there were windows therein and in the arches thereof round about: it was fifty cubits long, and five and twenty cubits broad.",
+        "expectedDecimalQuantities": [
+          50,
+          25
+        ],
+        "targetQuantities": [
+          50,
+          25
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:34",
+        "source": "And the arches thereof were toward the outward court; and palm trees were upon the posts thereof, on this side, and on that side: and the going up to it had eight steps.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:36",
+        "source": "The little chambers thereof, the posts thereof, and the arches thereof, and the windows to it round about: the length was fifty cubits, and the breadth five and twenty cubits.",
+        "expectedDecimalQuantities": [
+          50,
+          25
+        ],
+        "targetQuantities": [
+          50,
+          25
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:37",
+        "source": "And the posts thereof were toward the utter court; and palm trees were upon the posts thereof, on this side, and on that side: and the going up to it had eight steps.",
+        "expectedDecimalQuantities": [
+          8
+        ],
+        "targetQuantities": [
+          8
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:39",
+        "source": "And in the porch of the gate were two tables on this side, and two tables on that side, to slay thereon the burnt offering and the sin offering and the trespass offering.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:40",
+        "source": "And at the side without, as one goeth up to the entry of the north gate, were two tables; and on the other side, which was at the porch of the gate, were two tables.",
+        "expectedDecimalQuantities": [
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:41",
+        "source": "Four tables were on this side, and four tables on that side, by the side of the gate; eight tables, whereupon they slew their sacrifices.",
+        "expectedDecimalQuantities": [
+          4,
+          4,
+          8
+        ],
+        "targetQuantities": [
+          4,
+          4,
+          8
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:42",
+        "source": "And the four tables were of hewn stone for the burnt offering, of a cubit and an half long, and a cubit and an half broad, and one cubit high: whereupon also they laid the instruments wherewith they slew the burnt offering and the sacrifice.",
+        "expectedDecimalQuantities": [
+          4,
+          1.5,
+          1.5,
+          1
+        ],
+        "targetQuantities": [
+          4,
+          1.5,
+          1.5,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:44",
+        "source": "And without the inner gate were the chambers of the singers in the inner court, which was at the side of the north gate; and their prospect was toward the south: one at the side of the east gate having the prospect toward the north.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:47",
+        "source": "So he measured the court, an hundred cubits long, and an hundred cubits broad, foursquare; and the altar that was before the house.",
+        "expectedDecimalQuantities": [
+          100,
+          100
+        ],
+        "targetQuantities": [
+          100,
+          100
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:48",
+        "source": "And he brought me to the porch of the house, and measured each post of the porch, five cubits on this side, and five cubits on that side: and the breadth of the gate was three cubits on this side, and three cubits on that side.",
+        "expectedDecimalQuantities": [
+          5,
+          5,
+          3,
+          3
+        ],
+        "targetQuantities": [
+          5,
+          5,
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "Ezekiel 40:49",
+        "source": "The length of the porch was twenty cubits, and the breadth eleven cubits, and he brought me by the steps whereby they went up to it: and there were pillars by the posts, one on this side, and another on that side.",
+        "expectedDecimalQuantities": [
+          20,
+          11,
+          1
+        ],
+        "targetQuantities": [
+          20,
+          11,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:1",
+        "source": "Afterward he brought me to the temple, and measured the posts, six cubits broad on the one side, and six cubits broad on the other side, which was the breadth of the tabernacle.",
+        "expectedDecimalQuantities": [
+          6,
+          6
+        ],
+        "targetQuantities": [
+          6,
+          6
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:2",
+        "source": "And the breadth of the door was ten cubits; and the sides of the door were five cubits on the one side, and five cubits on the other side: and he measured the length thereof, forty cubits: and the breadth, twenty cubits.",
+        "expectedDecimalQuantities": [
+          10,
+          5,
+          5,
+          40,
+          20
+        ],
+        "targetQuantities": [
+          10,
+          5,
+          5,
+          40,
+          20
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:3",
+        "source": "Then went he inward, and measured the post of the door, two cubits; and the door, six cubits; and the breadth of the door, seven cubits.",
+        "expectedDecimalQuantities": [
+          2,
+          6,
+          7
+        ],
+        "targetQuantities": [
+          2,
+          6,
+          7
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:4",
+        "source": "So he measured the length thereof, twenty cubits; and the breadth, twenty cubits, before the temple: and he said unto me, This is the most holy place.",
+        "expectedDecimalQuantities": [
+          20,
+          20
+        ],
+        "targetQuantities": [
+          20,
+          20
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:5",
+        "source": "After he measured the wall of the house, six cubits; and the breadth of every side chamber, four cubits, round about the house on every side.",
+        "expectedDecimalQuantities": [
+          6,
+          4
+        ],
+        "targetQuantities": [
+          6,
+          4
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:6",
+        "source": "And the side chambers were three, one over another, and thirty in order; and they entered into the wall which was of the house for the side chambers round about, that they might have hold, but they had not hold in the wall of the house.",
+        "expectedDecimalQuantities": [
+          3,
+          30
+        ],
+        "targetQuantities": [
+          3,
+          30
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:8",
+        "source": "I saw also the height of the house round about: the foundations of the side chambers were a full reed of six great cubits.",
+        "expectedDecimalQuantities": [
+          6
+        ],
+        "targetQuantities": [
+          6
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:9",
+        "source": "The thickness of the wall, which was for the side chamber without, was five cubits: and that which was left was the place of the side chambers that were within.",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:10",
+        "source": "And between the chambers was the wideness of twenty cubits round about the house on every side.",
+        "expectedDecimalQuantities": [
+          20
+        ],
+        "targetQuantities": [
+          20
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:11",
+        "source": "And the doors of the side chambers were toward the place that was left, one door toward the north, and another door toward the south: and the breadth of the place that was left was five cubits round about.",
+        "expectedDecimalQuantities": [
+          1,
+          5
+        ],
+        "targetQuantities": [
+          1,
+          5
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:12",
+        "source": "Now the building that was before the separate place at the end toward the west was seventy cubits broad; and the wall of the building was five cubits thick round about, and the length thereof ninety cubits.",
+        "expectedDecimalQuantities": [
+          70,
+          5,
+          90
+        ],
+        "targetQuantities": [
+          70,
+          5,
+          90
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:13",
+        "source": "So he measured the house, an hundred cubits long; and the separate place, and the building, with the walls thereof, an hundred cubits long;",
+        "expectedDecimalQuantities": [
+          100,
+          100
+        ],
+        "targetQuantities": [
+          100,
+          100
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:14",
+        "source": "Also the breadth of the face of the house, and of the separate place toward the east, an hundred cubits.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:15",
+        "source": "And he measured the length of the building over against the separate place which was behind it, and the galleries thereof on the one side and on the other side, an hundred cubits, with the inner temple, and the porches of the court;",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:16",
+        "source": "The door posts, and the narrow windows, and the galleries round about on their three stories, over against the door, cieled with wood round about, and from the ground up to the windows, and the windows were covered;",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:18",
+        "source": "And it was made with cherubims and palm trees, so that a palm tree was between a cherub and a cherub; and every cherub had two faces;",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:22",
+        "source": "The altar of wood was three cubits high, and the length thereof two cubits; and the corners thereof, and the length thereof, and the walls thereof, were of wood: and he said unto me, This is the table that is before the LORD.",
+        "expectedDecimalQuantities": [
+          3,
+          2
+        ],
+        "targetQuantities": [
+          3,
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:23",
+        "source": "And the temple and the sanctuary had two doors.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 41:24",
+        "source": "And the doors had two leaves apiece, two turning leaves; two leaves for the one door, and two leaves for the other door.",
+        "expectedDecimalQuantities": [
+          2,
+          2,
+          2,
+          2
+        ],
+        "targetQuantities": [
+          2,
+          2,
+          2,
+          2
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:2",
+        "source": "Before the length of an hundred cubits was the north door, and the breadth was fifty cubits.",
+        "expectedDecimalQuantities": [
+          100,
+          50
+        ],
+        "targetQuantities": [
+          100,
+          50
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:3",
+        "source": "Over against the twenty cubits which were for the inner court, and over against the pavement which was for the utter court, was gallery against gallery in three stories.",
+        "expectedDecimalQuantities": [
+          20,
+          3
+        ],
+        "targetQuantities": [
+          20,
+          3
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:4",
+        "source": "And before the chambers was a walk to ten cubits breadth inward, a way of one cubit; and their doors toward the north.",
+        "expectedDecimalQuantities": [
+          10,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:6",
+        "source": "For they were in three stories, but had not pillars as the pillars of the courts: therefore the building was straitened more than the lowest and the middlemost from the ground.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:7",
+        "source": "And the wall that was without over against the chambers, toward the utter court on the forepart of the chambers, the length thereof was fifty cubits.",
+        "expectedDecimalQuantities": [
+          50
+        ],
+        "targetQuantities": [
+          50
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:8",
+        "source": "For the length of the chambers that were in the utter court was fifty cubits: and, lo, before the temple were an hundred cubits.",
+        "expectedDecimalQuantities": [
+          50,
+          100
+        ],
+        "targetQuantities": [
+          50,
+          100
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:16",
+        "source": "He measured the east side with the measuring reed, five hundred reeds, with the measuring reed round about.",
+        "expectedDecimalQuantities": [
+          500
+        ],
+        "targetQuantities": [
+          500
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:17",
+        "source": "He measured the north side, five hundred reeds, with the measuring reed round about.",
+        "expectedDecimalQuantities": [
+          500
+        ],
+        "targetQuantities": [
+          500
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:18",
+        "source": "He measured the south side, five hundred reeds, with the measuring reed.",
+        "expectedDecimalQuantities": [
+          500
+        ],
+        "targetQuantities": [
+          500
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:19",
+        "source": "He turned about to the west side, and measured five hundred reeds with the measuring reed.",
+        "expectedDecimalQuantities": [
+          500
+        ],
+        "targetQuantities": [
+          500
+        ]
+      },
+      {
+        "reference": "Ezekiel 42:20",
+        "source": "He measured it by the four sides: it had a wall round about, five hundred reeds long, and five hundred broad, to make a separation between the sanctuary and the profane place.",
+        "expectedDecimalQuantities": [
+          4,
+          500,
+          500
+        ],
+        "targetQuantities": [
+          4,
+          500,
+          500
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "40:1": [
+        "ourone/kjv_captivity",
+        "two+twelve and one_num:ord",
+        "ten:ord",
+        "twelve and two:ord",
+        "i:a there"
+      ],
+      "40:2": [
+        "vision:pl of god",
+        "as form of city",
+        "kjv_south"
+      ],
+      "40:3": [
+        "appearance of kjv_brass",
+        "line of kjv_flax",
+        "kjv_measuring_reed"
+      ],
+      "40:4": [
+        "man to i say:pa",
+        "i thee:a show:fu",
+        "i they:a to thee show:may",
+        "house of kjv_israel"
+      ],
+      "40:5": [
+        "six kjv_cubit:pl",
+        "by kjv_cubit and kjv_handbreadth",
+        "one_num kjv_measuring_reed"
+      ],
+      "40:6": [
+        "kjv_stair:pl",
+        "one_num kjv_measuring_reed broad",
+        "other kjv_threshold"
+      ],
+      "40:7": [
+        "between little chamber:pl five",
+        "kjv_threshold of gate",
+        "within one_num"
+      ],
+      "40:8": [
+        "kjv_porch:a of gate within one_num"
+      ],
+      "40:9": [
+        "eight kjv_cubit:pl",
+        "two kjv_cubit:pl",
+        "kjv_porch of gate within"
+      ],
+      "40:10": [
+        "three on this side and three",
+        "they three of one_num",
+        "kjv_structural_post:pl one_num"
+      ],
+      "40:11": [
+        "enter:ev of gate ten",
+        "twelve and one_num kjv_cubit:pl"
+      ],
+      "40:12": [
+        "one_num kjv_cubit on this",
+        "one_num kjv_cubit on that",
+        "six kjv_cubit:pl on this",
+        "six kjv_cubit:pl on that"
+      ],
+      "40:13": [
+        "roof of little chamber to roof of another",
+        "two+twelve and one_num",
+        "door against door"
+      ],
+      "40:14": [
+        "five+twelve kjv_cubit:pl make:pa",
+        "kjv_structural_post of kjv_court_enclosure"
+      ],
+      "40:15": [
+        "face of gate of enter:ev",
+        "face of kjv_porch",
+        "four+twelve and two"
+      ],
+      "40:16": [
+        "narrow window:pl",
+        "kjv_arch_structure:pl",
+        "each kjv_structural_post kjv_palm_tree:pl"
+      ],
+      "40:17": [
+        "outside kjv_court_enclosure",
+        "two+twelve and six chamber:pl"
+      ],
+      "40:18": [
+        "lower kjv_pavement"
+      ],
+      "40:19": [
+        "hundred kjv_cubit:pl",
+        "towards east and towards kjv_north"
+      ],
+      "40:20": [
+        "towards kjv_north look:pa",
+        "length:a of it and breadth:a"
+      ],
+      "40:21": [
+        "three on this side and three",
+        "one_num:ord gate",
+        "four+twelve and two",
+        "two+twelve and one_num"
+      ],
+      "40:22": [
+        "their/kjv_palm_tree:pl",
+        "seven step:pl",
+        "before they"
+      ],
+      "40:23": [
+        "towards kjv_north and towards east",
+        "hundred kjv_cubit:pl"
+      ],
+      "40:24": [
+        "i:a towards kjv_south",
+        "kjv_structural_post:pl:a",
+        "kjv_arch_structure:pl:a"
+      ],
+      "40:25": [
+        "window:pl in it",
+        "four+twelve and two",
+        "two+twelve and one_num"
+      ],
+      "40:26": [
+        "seven step:pl",
+        "one_num on this side and another"
+      ],
+      "40:27": [
+        "kjv_inner kjv_court_enclosure",
+        "towards kjv_south hundred"
+      ],
+      "40:28": [
+        "by kjv_south gate",
+        "kjv_inner kjv_court_enclosure"
+      ],
+      "40:29": [
+        "little chamber:pl",
+        "window:pl",
+        "four+twelve and two",
+        "two+twelve and one_num"
+      ],
+      "40:30": [
+        "two+twelve and one_num kjv_cubit:pl long",
+        "five kjv_cubit:pl broad"
+      ],
+      "40:31": [
+        "kjv_arch_structure:pl of it towards outside",
+        "eight step:pl"
+      ],
+      "40:32": [
+        "kjv_inner kjv_court_enclosure towards east"
+      ],
+      "40:33": [
+        "window:pl in it",
+        "four+twelve and two",
+        "two+twelve and one_num"
+      ],
+      "40:34": [
+        "kjv_arch_structure:pl of it towards outside",
+        "eight step:pl"
+      ],
+      "40:35": [
+        "kjv_north gate"
+      ],
+      "40:36": [
+        "kjv_structural_post:pl",
+        "four+twelve and two",
+        "two+twelve and one_num"
+      ],
+      "40:37": [
+        "kjv_structural_post:pl of it towards outside",
+        "eight step:pl"
+      ],
+      "40:38": [
+        "enter:ev:pl",
+        "burn:psv:adj kjv_offering:a wash:pa"
+      ],
+      "40:39": [
+        "two kjv_table_furniture:pl on this",
+        "two kjv_table_furniture:pl on that",
+        "sin kjv_offering:a",
+        "kjv_trespass kjv_offering:a"
+      ],
+      "40:40": [
+        "as person",
+        "two kjv_table_furniture:pl",
+        "other side"
+      ],
+      "40:41": [
+        "four kjv_table_furniture:pl on this",
+        "four kjv_table_furniture:pl on that",
+        "eight kjv_table_furniture:pl"
+      ],
+      "40:42": [
+        "four kjv_table_furniture:pl",
+        "kjv_hew:psv:adj stone",
+        "one_num and half kjv_cubit long",
+        "one_num and half kjv_cubit broad",
+        "one_num kjv_cubit high",
+        "instrument:pl:a"
+      ],
+      "40:43": [
+        "kjv_hook:pl kjv_handbreadth broad",
+        "kjv_fasten:psv:adj",
+        "flesh of kjv_offering"
+      ],
+      "40:44": [
+        "chamber:pl of sing:ag:pl",
+        "kjv_north gate",
+        "towards kjv_south",
+        "one_num at side of east gate",
+        "towards kjv_north"
+      ],
+      "40:45": [
+        "kjv_charge_custody of house"
+      ],
+      "40:46": [
+        "kjv_charge_custody of altar",
+        "son:pl of kjv_zadok",
+        "son:pl of kjv_levi",
+        "serve:ev"
+      ],
+      "40:47": [
+        "hundred kjv_cubit:pl long",
+        "hundred kjv_cubit:pl broad kjv_square"
+      ],
+      "40:48": [
+        "five kjv_cubit:pl on this",
+        "five kjv_cubit:pl on that",
+        "three kjv_cubit:pl on this",
+        "three kjv_cubit:pl on that"
+      ],
+      "40:49": [
+        "twelve and eight kjv_cubit:pl",
+        "eleven kjv_cubit:pl",
+        "kjv_pillar:pl",
+        "one_num on this side and another"
+      ],
+      "41:1": [
+        "six kjv_cubit:pl broad on this",
+        "six kjv_cubit:pl broad on other",
+        "kjv_tabernacle"
+      ],
+      "41:2": [
+        "ten kjv_cubit:pl",
+        "five kjv_cubit:pl on this",
+        "five kjv_cubit:pl on other",
+        "three+twelve and four",
+        "twelve and eight"
+      ],
+      "41:3": [
+        "he within go:pa",
+        "two kjv_cubit:pl",
+        "six kjv_cubit:pl",
+        "seven kjv_cubit:pl"
+      ],
+      "41:4": [
+        "twelve and eight kjv_cubit:pl",
+        "this most holy place"
+      ],
+      "41:5": [
+        "wall:a of house six",
+        "every side chamber four"
+      ],
+      "41:6": [
+        "three each above another",
+        "two+twelve and six in order",
+        "hold:ev:a have:may",
+        "hold:ev:a in wall of house have:neg:pa"
+      ],
+      "41:7": [
+        "kjv_winding round",
+        "lowest chamber to highest by middle"
+      ],
+      "41:8": [
+        "i also height:a",
+        "six great kjv_cubit:pl"
+      ],
+      "41:9": [
+        "kjv_thickness",
+        "five kjv_cubit:pl",
+        "leave:psv:pa"
+      ],
+      "41:10": [
+        "twelve and eight kjv_cubit:pl"
+      ],
+      "41:11": [
+        "one_num door towards kjv_north",
+        "another door towards kjv_south",
+        "five kjv_cubit:pl"
+      ],
+      "41:12": [
+        "towards west",
+        "five+twelve and ten",
+        "five kjv_cubit:pl thick",
+        "seven+twelve and six"
+      ],
+      "41:13": [
+        "house:a hundred",
+        "with wall:pl of it hundred"
+      ],
+      "41:14": [
+        "towards east hundred"
+      ],
+      "41:15": [
+        "behind it",
+        "kjv_gallery:pl:a",
+        "hundred kjv_cubit:pl",
+        "kjv_porch:pl"
+      ],
+      "41:16": [
+        "three kjv_storey:pl",
+        "with wood round about cover:psv:adj",
+        "window:pl cover:psv:pa"
+      ],
+      "41:17": [
+        "within and outside by measure"
+      ],
+      "41:18": [
+        "between kjv_cherub and kjv_cherub",
+        "every kjv_cherub two face:pl"
+      ],
+      "41:19": [
+        "face of man",
+        "face of young lion"
+      ],
+      "41:20": [
+        "from ground to above door",
+        "wall of temple"
+      ],
+      "41:21": [
+        "kjv_square",
+        "appearance of this as appearance of other"
+      ],
+      "41:22": [
+        "altar of wood three",
+        "length of it two",
+        "corner:pl of it and length of it and wall:pl",
+        "kjv_table_furniture that before kjv_lord"
+      ],
+      "41:23": [
+        "two door:pl"
+      ],
+      "41:24": [
+        "two kjv_door_leaf:pl each",
+        "two turn:cv kjv_door_leaf:pl",
+        "two kjv_door_leaf:pl for this",
+        "two kjv_door_leaf:pl for other"
+      ],
+      "41:25": [
+        "upon door:pl of temple",
+        "thick kjv_board:pl"
+      ],
+      "41:26": [
+        "side chamber:pl of house",
+        "thick kjv_board:pl"
+      ],
+      "42:1": [
+        "i:a forth into outside",
+        "opposite separate:psv:adj place",
+        "towards kjv_north"
+      ],
+      "42:2": [
+        "hundred kjv_cubit:pl",
+        "four+twelve and two"
+      ],
+      "42:3": [
+        "twelve and eight",
+        "kjv_gallery against kjv_gallery",
+        "three kjv_storey:pl"
+      ],
+      "42:4": [
+        "ten kjv_cubit:pl breadth within",
+        "one_num kjv_cubit",
+        "their/door:pl towards kjv_north"
+      ],
+      "42:5": [
+        "higher chamber:pl more short",
+        "kjv_gallery:pl higher"
+      ],
+      "42:6": [
+        "three kjv_storey:pl",
+        "have:neg:pa",
+        "narrow:caus:psv:pa"
+      ],
+      "42:7": [
+        "four+twelve and two kjv_cubit:pl"
+      ],
+      "42:8": [
+        "four+twelve and two",
+        "before temple hundred"
+      ],
+      "42:9": [
+        "from under these chamber:pl",
+        "as person"
+      ],
+      "42:10": [
+        "in kjv_thickness of wall",
+        "towards east"
+      ],
+      "42:11": [
+        "as long as they and as broad as they",
+        "their/form:pl",
+        "their/door:pl"
+      ],
+      "42:12": [
+        "towards kjv_south",
+        "head of way",
+        "straight before wall towards east",
+        "as person"
+      ],
+      "42:13": [
+        "most holy thing:pl:a eat:fu",
+        "kjv_meat_offering:a",
+        "sin kjv_offering:a",
+        "kjv_trespass kjv_offering:a"
+      ],
+      "42:14": [
+        "go:neg:fu",
+        "their/garment:pl:a",
+        "they holy be:pr",
+        "other garment:pl:a on put:fu"
+      ],
+      "42:15": [
+        "measure:ev of kjv_inner house:a end:perf",
+        "i:a forth",
+        "towards east"
+      ],
+      "42:16": [
+        "five+hundred kjv_measuring_reed:pl",
+        "with kjv_measuring_reed round about"
+      ],
+      "42:17": [
+        "kjv_north side:a five+hundred kjv_measuring_reed:pl"
+      ],
+      "42:18": [
+        "kjv_south side:a five+hundred kjv_measuring_reed:pl"
+      ],
+      "42:19": [
+        "west side turn:pa",
+        "five+hundred kjv_measuring_reed:pl"
+      ],
+      "42:20": [
+        "four side:pl",
+        "five+hundred kjv_measuring_reed:pl long",
+        "five+hundred broad",
+        "kjv_unholy_profane place"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "40:1",
+        "40:17",
+        "40:2",
+        "40:24",
+        "40:28",
+        "40:3",
+        "40:32",
+        "40:35",
+        "40:4",
+        "40:45",
+        "40:48",
+        "40:49",
+        "41:1",
+        "41:22",
+        "41:4",
+        "41:8",
+        "42:1",
+        "42:13",
+        "42:15"
+      ],
+      "ipl": [],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "40:1"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Long cubit and six-cubit reed convention retained without metric conversion.",
+      "All repeated dimensions and ordinals remain in source order;one-and-half cubits exact1.5.",
+      "Sixty-cubit posts,eleven-cubit porch,one-cubit way and five-hundred-REED boundary retained without harmonization."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Ezekiel40–42 adds95 verses,total1108;whole Bible incomplete.",
+      "Personal guide and narrator plus communal our-one captivity;no divine plural-I inserted into this architectural tour.",
+      "Three common compounds;no new names,paradigms or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Ezekiel — incomplete Bible working text",
+    "pages": 866,
+    "spreads": 433,
+    "units": 1108,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d98a692c5b772cce31b2a95a41601552034ed1a7e60eaeee3017e148012c3af7",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 433,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.378,
+    "modules": [
+      "tests.test_kjv_ezekiel_measured_vision",
+      "tests.test_kjv_ezekiel_gathered_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    865,
+    866
+  ],
+  "status": "incomplete Bible;Ezekiel1–42 section checkpoint verified"
+}

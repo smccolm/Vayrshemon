@@ -1,0 +1,566 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.248",
+    "parentVersion": "0.10-kjv.247",
+    "parentHead": "5997ec46b0135922877cb58ae1dea319616f2c6a980a2213a37f27b8a9c5681b",
+    "head": "9a923e8ecc5f95aa418f76e977c852b3a949ffba88f175eaed2c2a3cc8742e27",
+    "newLexicalEntries": 8,
+    "newProperEntries": 1,
+    "newCommonEntries": 7,
+    "newSurfaceForms": 5,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 5,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 75,
+    "exactCompilerCases": 75,
+    "newAuthoredVerses": 75,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 437,
+    "corinthians2Verses": 257,
+    "galatiansVerses": 149,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 1895,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newGalatiansVerses": 75,
+    "galatiansVerses": 149,
+    "authoredVerses": 29207,
+    "remainingVerses": 1895,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 4,
+    "quantityChecks": [
+      {
+        "reference": "Galatians 4:13",
+        "source": "Ye know how through infirmity of the flesh I preached the gospel unto you at the first.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Galatians 4:22",
+        "source": "For it is written, that Abraham had two sons, the one by a bondmaid, the other by a freewoman.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Galatians 4:24",
+        "source": "Which things are an allegory: for these are the two covenants; the one from the mount Sinai, which gendereth to bondage, which is Agar.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Galatians 5:14",
+        "source": "For all the law is fulfilled in one word, even in this; Thou shalt love thy neighbour as thyself.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "4:1": [
+        "as long as he child",
+        "from servant not different",
+        "though he all lord"
+      ],
+      "4:2": [
+        "kjv_tutor_guardian_galatians:pl and steward:pl",
+        "until father appointed time"
+      ],
+      "4:3": [
+        "wesg when wesg child:pl",
+        "kjv_elements_world_galatians in bondage"
+      ],
+      "4:4": [
+        "time full:ev",
+        "his/son forth send:pa",
+        "of woman make:psv:adj under law make:psv:adj"
+      ],
+      "4:5": [
+        "they who under law",
+        "wesg son:pl adoption receive:may"
+      ],
+      "4:6": [
+        "because you son:pl",
+        "his/son spirit into your/heart:pl",
+        "kjv_abba_quoted father"
+      ],
+      "4:7": [
+        "thou no more servant but son",
+        "god heir through kjv_christ_title"
+      ],
+      "4:8": [
+        "god know:neg:pa",
+        "by nature no god:pl"
+      ],
+      "4:9": [
+        "god know:perf or rather by god know:psv:pr",
+        "weak and beggar:adj",
+        "again in bondage"
+      ],
+      "4:10": [
+        "day:pl and month:pl and time:pl and year:pl keep:pr"
+      ],
+      "4:11": [
+        "i of you afraid",
+        "in vain labour:perf"
+      ],
+      "4:12": [
+        "as i be:pr be:imp for i as you",
+        "at all hurt:neg:perf"
+      ],
+      "4:13": [
+        "through flesh infirmity",
+        "at first",
+        "kjv_gospel proclaim:pa"
+      ],
+      "4:14": [
+        "my/trial which in my/flesh",
+        "despise:neg:pa nor reject:pa",
+        "as god angel even as kjv_christ_title"
+      ],
+      "4:15": [
+        "where then blessing:ev",
+        "if possible be:pp",
+        "your/own eye:pl out pluck:pp"
+      ],
+      "4:16": [
+        "your/enemy become:perf:q",
+        "truth to you tell:pr"
+      ],
+      "4:17": [
+        "kjv_affect_court_galatians:pr but not well",
+        "out shut:inf",
+        "they:a kjv_affect_court_galatians:may"
+      ],
+      "4:18": [
+        "always in good thing",
+        "not only when i with you present"
+      ],
+      "4:19": [
+        "my/little child:pl",
+        "again in birth kjv_travail:pr",
+        "until kjv_christ_title in you form:psv:pr"
+      ],
+      "4:20": [
+        "my/voice change:inf",
+        "i of you doubt:pr"
+      ],
+      "4:21": [
+        "under law be:inf desire:pr",
+        "law hear:neg:pr:q"
+      ],
+      "4:22": [
+        "kjv_abraham two son:pl",
+        "this by slave woman other by free woman"
+      ],
+      "4:23": [
+        "according_to flesh birth:psv:pa",
+        "free woman by promise"
+      ],
+      "4:24": [
+        "kjv_allegory_galatians",
+        "two kjv_covenant:pl",
+        "into bondage beget:pr",
+        "kjv_agar_galatians"
+      ],
+      "4:25": [
+        "mountain kjv_sinai in kjv_arabia",
+        "kjv_correspond_galatians:pr",
+        "with her/child:pl in bondage"
+      ],
+      "4:26": [
+        "kjv_jerusalem which above",
+        "mother of wesg all"
+      ],
+      "4:27": [
+        "thou barren who bear:neg:pr",
+        "thou who kjv_travail:neg:pr",
+        "many more child:pl than she who husband"
+      ],
+      "4:28": [
+        "wesg brother:pl as kjv_isaac",
+        "promise child:pl"
+      ],
+      "4:29": [
+        "according_to flesh birth:psv:pa",
+        "according_to spirit birth:psv:pa",
+        "even so now"
+      ],
+      "4:30": [
+        "what holy written",
+        "slave woman and her/son out cast:imp",
+        "heir be:neg:fu"
+      ],
+      "4:31": [
+        "wesg slave woman child:pl be:neg:pr but free woman"
+      ],
+      "5:1": [
+        "kjv_freedom_status",
+        "wesg:a free make:perf",
+        "kjv_firmly stand:imp",
+        "bondage yoke again entangle:neg:psv:imp"
+      ],
+      "5:2": [
+        "i kjv_paul_acts",
+        "if you kjv_circumcise:psv:pr",
+        "nothing benefit:fu"
+      ],
+      "5:3": [
+        "each man who kjv_circumcise:psv:pr",
+        "whole law do:inf debt person"
+      ],
+      "5:4": [
+        "of no effect become:perf",
+        "by law kjv_justify:psv:pr",
+        "from grace fall:perf"
+      ],
+      "5:5": [
+        "wesg through spirit by faith",
+        "hope of kjv_righteousness"
+      ],
+      "5:6": [
+        "neither kjv_circumcise:ev",
+        "nor kjv_circumcise:neg:ev",
+        "faith which by love work:pr"
+      ],
+      "5:7": [
+        "you well run:pa",
+        "truth obey:neg:should"
+      ],
+      "5:8": [
+        "persuade:ev from he who you call:pr come:neg:pr"
+      ],
+      "5:9": [
+        "little kjv_leaven whole lump kjv_leaven_raise:pr"
+      ],
+      "5:10": [
+        "i in you through kjv_lord confidence",
+        "no otherwise mind:adj",
+        "his/judgment carry:fu whoever"
+      ],
+      "5:11": [
+        "if i yet kjv_circumcise:ev proclaim:pr",
+        "why i yet persecute:ev",
+        "kjv_cross_instrument kjv_stumble:ev cease:perf"
+      ],
+      "5:12": [
+        "even cut off:psv:adj be:inf wish:pr"
+      ],
+      "5:13": [
+        "kjv_freedom_status for flesh occasion use:neg:imp",
+        "by love each other serve:imp"
+      ],
+      "5:14": [
+        "all law in one_num word",
+        "thy/neighbour as thyself love:fu"
+      ],
+      "5:15": [
+        "each other kjv_bite:pr and devour:pr",
+        "by each other kjv_consume:neg:psv:pr"
+      ],
+      "5:16": [
+        "in spirit walk:imp",
+        "flesh lust fulfil:neg:fu"
+      ],
+      "5:17": [
+        "flesh against spirit lust:pr and spirit against flesh",
+        "each to other contrary",
+        "do:neg:can"
+      ],
+      "5:18": [
+        "if you by spirit lead:psv:pr",
+        "under law be:neg:pr"
+      ],
+      "5:19": [
+        "kjv_adultery kjv_fornication unclean:ev lascivious:ev"
+      ],
+      "5:20": [
+        "idolatry kjv_witchcraft hate:ev discord",
+        "kjv_emulation_rivalry_galatians:pl",
+        "wrath strife division:pl kjv_sect_acts:pl"
+      ],
+      "5:21": [
+        "kjv_envy:ev:pl murder:ev:pl drunkenness kjv_rioting_revel_romans:pl",
+        "before tell:pr",
+        "in past time tell:perf",
+        "kingdom inherit:neg:fu"
+      ],
+      "5:22": [
+        "spirit fruit love joy peace kjv_longsuffering gentleness goodness faith"
+      ],
+      "5:23": [
+        "kjv_meek_disposition:ev kjv_temperance_acts",
+        "against such no law"
+      ],
+      "5:24": [
+        "flesh with affection:pl and lust:pl kjv_crucify:perf"
+      ],
+      "5:25": [
+        "if wesg in spirit live:pr",
+        "wesg also in spirit walk:opt"
+      ],
+      "5:26": [
+        "wesg vain glory desire:neg:opt",
+        "each other kjv_provoke:cv each other kjv_envy:cv"
+      ],
+      "6:1": [
+        "you who spirit:adj",
+        "kjv_meek_disposition:ev spirit restore:imp",
+        "thyself consider:cv lest thou"
+      ],
+      "6:2": [
+        "each other burden:pl carry:imp",
+        "kjv_christ_title law fulfil:imp"
+      ],
+      "6:3": [
+        "himself something think:pr when he nothing",
+        "himself deceive:pr"
+      ],
+      "6:4": [
+        "his/own work test:imp",
+        "in himself alone and not in another"
+      ],
+      "6:5": [
+        "each man his/own burden carry:fu"
+      ],
+      "6:6": [
+        "word teach:psv:pr",
+        "all good thing:pl share:opt"
+      ],
+      "6:7": [
+        "god mock:neg:psv:pr",
+        "whatever man kjv_sow:pr same also reap:fu"
+      ],
+      "6:8": [
+        "from flesh kjv_corrupt_decay:ev",
+        "from spirit eternal life"
+      ],
+      "6:9": [
+        "wesg in good do:ev weary become:neg:opt",
+        "due season wesg reap:fu if wesg faint be:neg:pr"
+      ],
+      "6:10": [
+        "wesg to all man:pl good do:opt",
+        "especially to they who faith kjv_household"
+      ],
+      "6:11": [
+        "large letter i with my/own hand"
+      ],
+      "6:12": [
+        "in flesh fair show",
+        "kjv_circumcise:psv:inf compel:pr",
+        "only lest",
+        "kjv_cross_instrument persecute:ev"
+      ],
+      "6:13": [
+        "neither they themselves",
+        "law keep:pr",
+        "in your/flesh glory:may"
+      ],
+      "6:14": [
+        "except in ourone/kjv_lord",
+        "world to i kjv_crucify:psv:perf and i to world"
+      ],
+      "6:15": [
+        "neither kjv_circumcise:ev",
+        "nor kjv_circumcise:neg:ev but new creature"
+      ],
+      "6:16": [
+        "according_to this kjv_rule_norm_galatians",
+        "peace upon they and mercy and upon kjv_israel of god"
+      ],
+      "6:17": [
+        "no man i:a distress:opt",
+        "in my/body kjv_lord kjv_jesus_matthew mark:pl carry:pr"
+      ],
+      "6:18": [
+        "ourone/kjv_lord",
+        "with your/spirit be:opt amen"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "4:1",
+        "4:11",
+        "4:12",
+        "4:13",
+        "4:14",
+        "4:15",
+        "4:16",
+        "4:18",
+        "4:19",
+        "4:20",
+        "4:21",
+        "5:10",
+        "5:11",
+        "5:12",
+        "5:16",
+        "5:2",
+        "5:21",
+        "5:3",
+        "6:11",
+        "6:14",
+        "6:17"
+      ],
+      "ipl": [],
+      "wesg": [
+        "4:26",
+        "4:28",
+        "4:3",
+        "4:31",
+        "4:5",
+        "5:1",
+        "5:25",
+        "5:26",
+        "5:5",
+        "6:10",
+        "6:9"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "6:14",
+        "6:18"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "sharedLivingPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "First proclamation is ordinal;two sons,two covenants and one-word norm retain source numbers.",
+      "One/other identifying the son or covenant is referential;each-other is reciprocal,not an added physical dual.",
+      "Shared singular-we and personal author-I remain;maternal travail,body trial and world-crucifixion do not automatically trigger plural-I."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "75new verses;all149Galatians;whole Bible incomplete.",
+      "Your hearts,Abba-Father,Agar allegory,full vice/fruit lists,mutual/own burdens and singular large letter retained without modernization.",
+      "Seven common entries and one local name-form;no paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Galatians — incomplete Bible working text",
+    "pages": 82,
+    "spreads": 41,
+    "units": 149,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "b40f5ba14e4b5e02ba192b759e51f4e40dccabef0fab767287b11f7be6527289",
+    "maxBaselineErrorPt": 0.01171874999982947,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 41,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 11.622,
+    "modules": [
+      "tests.test_kjv_galatians_freedom_burdens",
+      "tests.test_kjv_galatians_shared_life",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    81,
+    82
+  ],
+  "status": "incomplete Bible;Galatians1–6 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 81,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv248\\preflight-galatians\\Proofs\\page-081.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv248\\composed-galatians\\Proofs\\page-081.png",
+        "sha256": "20560dda44ab671434e9bed45fe927108004ca4c4e4f79f6dde42350e39aa04b",
+        "bytesIdentical": true
+      },
+      {
+        "page": 82,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv248\\preflight-galatians\\Proofs\\page-082.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv248\\composed-galatians\\Proofs\\page-082.png",
+        "sha256": "d1eb8ea94ee65fa4b69806586e5ea211055fe5dfa7c50297c134e560ff674a9a",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

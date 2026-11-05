@@ -1,0 +1,1168 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.116",
+    "parentVersion": "0.10-kjv.115",
+    "parentHead": "f3eab1a53675c232d158da47cf0af22a6bc4811d5eb7293a81c7f4738b25e49a",
+    "head": "bfb5e22d5eac52bef73d95e83d39e882d80a87d0886680a84f6ba3ba7a53583d",
+    "newLexicalEntries": 3,
+    "newProperEntries": 0,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 220,
+    "exactCompilerCases": 220,
+    "newAuthoredVerses": 220,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1220,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 1712,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 15402,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 220,
+    "psalmsVerses": 1712,
+    "authoredVerses": 15700,
+    "remainingVerses": 15402,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 4,
+    "quantityChecks": [
+      {
+        "reference": "Psalms 95:10",
+        "source": "Forty years long was I grieved with this generation, and said, It is a people that do err in their heart, and they have not known my ways:",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Psalms 105:8",
+        "source": "He hath remembered his covenant for ever, the word which he commanded to a thousand generations.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Psalms 105:36",
+        "source": "He smote also all the firstborn in their land, the chief of all their strength.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 105:37",
+        "source": "He brought them forth also with silver and gold: and there was not one feeble person among their tribes.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "94:1": [
+        "lord god:excl",
+        "to whom revenge belong:pr",
+        "thyself:a show:imp"
+      ],
+      "94:2": [
+        "judge of earth:excl",
+        "to proud reward:a give:imp"
+      ],
+      "94:3": [
+        "how long wicked triumph:fu how long wicked triumph:fu"
+      ],
+      "94:4": [
+        "hard thing:pl:a",
+        "work:ag:pl of kjv_iniquity",
+        "themselves:a boast:fu"
+      ],
+      "94:5": [
+        "thy/people:a in piece:pl",
+        "thine heritage:a kjv_afflict:pr"
+      ],
+      "94:6": [
+        "widow:a and stranger:a slay:pr",
+        "kjv_fatherless:a murder:pr"
+      ],
+      "94:7": [
+        "they say:pr",
+        "see:neg:fu",
+        "neither god of kjv_jacob"
+      ],
+      "94:8": [
+        "kjv_brutish among people",
+        "when you:pl wise be:fu"
+      ],
+      "94:9": [
+        "ear:a plant:pa",
+        "eye:a shape:pa",
+        "see:neg:fu"
+      ],
+      "94:10": [
+        "kjv_heathen:a kjv_chasten:pr",
+        "human:a knowledge:a teach:pr"
+      ],
+      "94:11": [
+        "thought:pl:a of human",
+        "they vanity be:pr"
+      ],
+      "94:12": [
+        "man whom thou kjv_chasten:pr",
+        "out of thy/law teach:pr"
+      ],
+      "94:13": [
+        "rest:a from day:pl of kjv_adversity",
+        "until kjv_pit for wicked kjv_dig:psv:pr"
+      ],
+      "94:14": [
+        "off cast:neg:fu",
+        "his/inheritance:a forsake:fu"
+      ],
+      "94:15": [
+        "judge:ev to kjv_righteousness return:fu",
+        "kjv_upright in heart"
+      ],
+      "94:16": [
+        "for i:a against evil work:ag:pl",
+        "against work:ag:pl of kjv_iniquity"
+      ],
+      "94:17": [
+        "if kjv_lord my/help be:neg:pp",
+        "almost in silence dwell:perf:should"
+      ],
+      "94:18": [
+        "my/foot kjv_slide:pr",
+        "i:a up hold:pa"
+      ],
+      "94:19": [
+        "kjv_multitude of my/thought:pl",
+        "thy/comfort:ev:pl my/soul:a delight:pr"
+      ],
+      "94:20": [
+        "throne of kjv_iniquity",
+        "kjv_mischief:a by law shape:pr",
+        "fellowship:a with thee"
+      ],
+      "94:21": [
+        "soul of kjv_righteous",
+        "innocent blood:a condemn:pr"
+      ],
+      "94:22": [
+        "my/defence",
+        "rock of my/kjv_refuge"
+      ],
+      "94:23": [
+        "their/own kjv_iniquity:a",
+        "their/own wicked:ev",
+        "ourone/god"
+      ],
+      "95:1": [
+        "wesg to kjv_lord sing:inf",
+        "ourone/salvation"
+      ],
+      "95:2": [
+        "wepl before his/presence",
+        "with kjv_psalm:pl"
+      ],
+      "95:3": [
+        "great king above all god:pl"
+      ],
+      "95:4": [
+        "deep place:pl of earth",
+        "strength of hill:pl"
+      ],
+      "95:5": [
+        "sea to he belong:pr",
+        "his/hand:pl dry land:a shape:pa"
+      ],
+      "95:6": [
+        "wesg worship:inf",
+        "wepl down bow:inf",
+        "wepl before kjv_lord ourone/make:ag kneel:inf"
+      ],
+      "95:7": [
+        "wesg people of his/kjv_pasture",
+        "today if you:pl his/voice:a hear:fu"
+      ],
+      "95:8": [
+        "hard:caus:neg:imp",
+        "kjv_provoke:ev",
+        "day of tempt:ev in kjv_wilderness"
+      ],
+      "95:9": [
+        "father:pl ipl:a tempt:pa ipl:a prove:pa",
+        "mypl/work:a"
+      ],
+      "95:10": [
+        "forty year:pl ipl",
+        "grief:caus:psv:pa",
+        "mypl/way:pl:a know:neg:perf"
+      ],
+      "95:11": [
+        "ipl in mypl/wrath swear:pa",
+        "mypl/rest enter:neg:should"
+      ],
+      "96:1": [
+        "new song:a sing:imp:excl",
+        "all earth:excl"
+      ],
+      "96:2": [
+        "his/name:a bless:imp",
+        "from day to day"
+      ],
+      "96:3": [
+        "glory:a among kjv_heathen",
+        "wonder:pl:a among all people"
+      ],
+      "96:4": [
+        "greatly praise:psv:inf",
+        "above all god:pl fear:psv:inf"
+      ],
+      "96:5": [
+        "all god:pl of nation:pl idol:pl",
+        "heaven:pl:a make:pa"
+      ],
+      "96:6": [
+        "honour and majesty",
+        "strength and beauty",
+        "his/kjv_sanctuary"
+      ],
+      "96:7": [
+        "kin:pl of people:excl",
+        "glory:a and strength:a"
+      ],
+      "96:8": [
+        "glory:a due to his/name",
+        "kjv_offering:a bring:imp",
+        "court:pl"
+      ],
+      "96:9": [
+        "beauty of holy:ev",
+        "all earth:excl"
+      ],
+      "96:10": [
+        "world also kjv_establish:psv:fu",
+        "move:psv:neg:fu",
+        "kjv_righteous:adv judge:fu"
+      ],
+      "96:11": [
+        "heaven:pl rejoice",
+        "earth glad",
+        "sea roar",
+        "its/full:ev"
+      ],
+      "96:12": [
+        "field joy:adj",
+        "all kjv_tree:pl of forest rejoice:fu"
+      ],
+      "96:13": [
+        "because he come:pr because he",
+        "with kjv_righteousness",
+        "with his/truth"
+      ],
+      "97:1": [
+        "kjv_multitude of kjv_isle:pl",
+        "glad be:inf"
+      ],
+      "97:2": [
+        "cloud:pl and darkness",
+        "dwell:ev of his/throne"
+      ],
+      "97:3": [
+        "fire before he go:pr",
+        "enemy:pl:a around up burn:pr"
+      ],
+      "97:4": [
+        "lightning:pl world:a light:caus:pa",
+        "earth see:pa and tremble:pa"
+      ],
+      "97:5": [
+        "like wax",
+        "presence of kjv_lord",
+        "presence of lord of whole earth"
+      ],
+      "97:6": [
+        "kjv_righteousness:a declare:pr",
+        "all people his/glory:a see:pr"
+      ],
+      "97:7": [
+        "kjv_engrave:psv:adj image:pl",
+        "confound:psv:opt",
+        "all you:pl god:pl:excl"
+      ],
+      "97:8": [
+        "kjv_zion hear:pa",
+        "daughter:pl of kjv_judah",
+        "thy/judge:ev:pl"
+      ],
+      "97:9": [
+        "high above all earth",
+        "far above all god:pl kjv_exalt:psv:pr"
+      ],
+      "97:10": [
+        "evil:a hate:imp",
+        "soul:pl:a of his/saint:pl",
+        "out of hand of wicked deliver:pr"
+      ],
+      "97:11": [
+        "light for kjv_righteous kjv_sow:psv:pr",
+        "kjv_upright in heart"
+      ],
+      "97:12": [
+        "remembrance of his/holy:ev",
+        "thanks:a give:imp"
+      ],
+      "98:1": [
+        "kjv_right_side hand",
+        "his/holy arm",
+        "win:ev:a get:perf"
+      ],
+      "98:2": [
+        "salvation:a know:caus:perf",
+        "open:adv in sight of kjv_heathen"
+      ],
+      "98:3": [
+        "mercy:a and his/truth:a",
+        "all end:pl of earth",
+        "ourone/god"
+      ],
+      "98:4": [
+        "joy:adj noise:a",
+        "loud noise:a",
+        "praise:a sing:imp"
+      ],
+      "98:5": [
+        "with harp",
+        "voice of kjv_psalm"
+      ],
+      "98:6": [
+        "trumpet:pl and sound of cornet",
+        "kjv_lord king"
+      ],
+      "98:7": [
+        "sea roar:inf",
+        "its/full:ev",
+        "they who within it dwell:pr"
+      ],
+      "98:8": [
+        "flood:pl their/hand:pl:a kjv_clap_hands:inf",
+        "hill:pl together"
+      ],
+      "98:9": [
+        "with kjv_righteousness",
+        "people:a with kjv_equity"
+      ],
+      "99:1": [
+        "between kjv_cherub:pl sit:pr",
+        "earth move:psv:inf"
+      ],
+      "99:2": [
+        "great in kjv_zion",
+        "high above all people"
+      ],
+      "99:3": [
+        "great and terrible name:a",
+        "it holy be:pr"
+      ],
+      "99:4": [
+        "king/strength also judge:ev:a love:pr",
+        "kjv_equity:a kjv_establish:pr",
+        "in kjv_jacob"
+      ],
+      "99:5": [
+        "ourone/god:a kjv_exalt:imp",
+        "his/kjv_footstool"
+      ],
+      "99:6": [
+        "kjv_moses and kjv_aaron",
+        "kjv_samuel",
+        "he they:a answer:pa"
+      ],
+      "99:7": [
+        "cloud:adj kjv_pillar",
+        "testimony:pl:a keep:pa",
+        "kjv_ordinance"
+      ],
+      "99:8": [
+        "ourone/god:excl",
+        "forgive:pa",
+        "though thou revenge:a of their/invention:pl take:pa"
+      ],
+      "99:9": [
+        "holy hill",
+        "ourone/god holy be:pr"
+      ],
+      "100:1": [
+        "all you:pl land:pl:excl"
+      ],
+      "100:2": [
+        "with glad:ev serve:imp",
+        "with sing:ev come:imp"
+      ],
+      "100:3": [
+        "wepl:a make:perf",
+        "not wepl ourselves:a",
+        "wesg his/people and sheep"
+      ],
+      "100:4": [
+        "gate:pl with thanks give:ev",
+        "court:pl with praise",
+        "name:a bless:imp"
+      ],
+      "100:5": [
+        "mercy for ever",
+        "truth to all generation:pl endure:pr"
+      ],
+      "101:1": [
+        "i of mercy and judge:ev sing:fu",
+        "kjv_lord:excl i sing:fu"
+      ],
+      "101:2": [
+        "i myself:a wise:adv",
+        "when thou to i:a come:fu:excl",
+        "my/house with perfect heart"
+      ],
+      "101:3": [
+        "no wicked thing:a",
+        "turn:pr hate:pr",
+        "kjv_cleave_adhere:neg:fu"
+      ],
+      "101:4": [
+        "kjv_froward heart",
+        "wicked person:a know:neg:fu"
+      ],
+      "101:5": [
+        "secret:adv his/neighbour:a slander:pr",
+        "high look:a and proud heart:a",
+        "allow:neg:fu"
+      ],
+      "101:6": [
+        "faithful of land",
+        "with i:a dwell:may",
+        "he i:a serve:fu"
+      ],
+      "101:7": [
+        "deceit:a work:pr",
+        "kjv_lie_false:pl:a tell:pr",
+        "tarry:neg:fu"
+      ],
+      "101:8": [
+        "early all wicked of land:a destroy:fu",
+        "city of kjv_lord off cut:may"
+      ],
+      "102:1": [
+        "my/pray:ev:a hear:imp",
+        "my/cry:ev to thee"
+      ],
+      "102:2": [
+        "face:a from i:a hide:neg:imp",
+        "thine ear:a to i:a bow:imp",
+        "quick:adv answer:imp"
+      ],
+      "102:3": [
+        "day:pl like smoke waste:psv:pr",
+        "bone:pl as kjv_hearth burn:psv:pr"
+      ],
+      "102:4": [
+        "heart strike:psv:pr",
+        "eat:inf forget:pr"
+      ],
+      "102:5": [
+        "voice of my/groan:ev",
+        "bone:pl to my/skin kjv_cleave_adhere:pr"
+      ],
+      "102:6": [
+        "kjv_pelican of kjv_wilderness",
+        "owl of dry land"
+      ],
+      "102:7": [
+        "i watch:pr",
+        "sparrow alone upon house top"
+      ],
+      "102:8": [
+        "kjv_reproach:pr all day",
+        "against i:a mad be:pr",
+        "swear:perf"
+      ],
+      "102:9": [
+        "kjv_ashes:a like bread eat:perf",
+        "drink:a with weep:ev mix:perf"
+      ],
+      "102:10": [
+        "indignation and thy/wrath",
+        "up lift:perf",
+        "down cast:perf"
+      ],
+      "102:11": [
+        "shadow which down go:pr",
+        "like grass wither:psv:pr"
+      ],
+      "102:12": [
+        "for ever endure:fu",
+        "remembrance to all generation:pl"
+      ],
+      "102:13": [
+        "mercy:a upon kjv_zion",
+        "time she:a favour:inf",
+        "set:psv:adj time"
+      ],
+      "102:14": [
+        "her/stone:pl",
+        "its/dust:a favour:pr"
+      ],
+      "102:15": [
+        "kjv_heathen name:a",
+        "king:pl of earth thy/glory:a"
+      ],
+      "102:16": [
+        "when kjv_lord kjv_zion:a up build:fu",
+        "in his/glory appear:fu"
+      ],
+      "102:17": [
+        "pray:ev:a of kjv_needy",
+        "despise:neg:fu"
+      ],
+      "102:18": [
+        "generation which come:fu",
+        "people which create:psv:fu"
+      ],
+      "102:19": [
+        "height of his/kjv_sanctuary",
+        "from heaven kjv_lord earth:a behold:pa"
+      ],
+      "102:20": [
+        "groan:ev:a of kjv_prisoner",
+        "to death appoint:psv:pr release:inf"
+      ],
+      "102:21": [
+        "in kjv_zion declare:inf",
+        "praise:a in kjv_jerusalem"
+      ],
+      "102:22": [
+        "people together gather:psv:pr",
+        "kingdom:pl kjv_lord:a serve:inf"
+      ],
+      "102:23": [
+        "strength:a in way weak:caus:pa",
+        "day:pl:a shorten:pa"
+      ],
+      "102:24": [
+        "i say:pa my/god:excl",
+        "middle of my/day:pl take:neg:imp",
+        "all generation:pl"
+      ],
+      "102:25": [
+        "of old thou kjv_foundation:a",
+        "heaven:pl work of thy/hand:pl"
+      ],
+      "102:26": [
+        "they perish:fu but thou endure:fu",
+        "old become:fu like garment",
+        "they change:psv:fu"
+      ],
+      "102:27": [
+        "thou same be:pr",
+        "year:pl no end:a"
+      ],
+      "102:28": [
+        "child:pl of thy/servant:pl",
+        "seed before thee kjv_establish:psv:fu"
+      ],
+      "103:1": [
+        "my/soul:excl",
+        "all that within i:a",
+        "holy name:a bless:imp"
+      ],
+      "103:2": [
+        "my/soul:excl",
+        "all his/benefit:pl:a forget:neg:imp"
+      ],
+      "103:3": [
+        "all thine kjv_iniquity:pl:a forgive:pr",
+        "all thy/sickness:pl:a heal:pr"
+      ],
+      "103:4": [
+        "life:a from destroy:ev redeem:pr",
+        "kjv_lovingkindness and tender mercy:pl crown:pr"
+      ],
+      "103:5": [
+        "thy/mouth:a",
+        "thy/youth",
+        "renew:psv:pr"
+      ],
+      "103:6": [
+        "kjv_righteousness:a and judge:ev:a",
+        "all who oppress:psv:pr"
+      ],
+      "103:7": [
+        "way:pl:a to kjv_moses",
+        "deed:pl:a to child:pl of kjv_israel"
+      ],
+      "103:8": [
+        "mercy:adj and gracious",
+        "slow to anger",
+        "full of mercy"
+      ],
+      "103:9": [
+        "always chide:neg:fu",
+        "anger:a for ever keep:fu"
+      ],
+      "103:10": [
+        "wesg kjv_according to ourone/sin:pl",
+        "wesg:a kjv_according to ourone/kjv_iniquity:pl"
+      ],
+      "103:11": [
+        "heaven high above earth",
+        "mercy to they who he:a fear:pr"
+      ],
+      "103:12": [
+        "east from west",
+        "ourone/transgress:ev:pl:a from wesg"
+      ],
+      "103:13": [
+        "father his/child:pl:a pity:pr",
+        "kjv_lord they who he:a fear:pr pity:pr"
+      ],
+      "103:14": [
+        "our/shape:ev:a know:pr",
+        "wepl dust be:pr"
+      ],
+      "103:15": [
+        "human his/day:pl as grass",
+        "flower of field",
+        "thrive:pr"
+      ],
+      "103:16": [
+        "wind over it pass:pr",
+        "its/place it:a no more know:fu"
+      ],
+      "103:17": [
+        "from for ever to for ever",
+        "child:pl of child:pl"
+      ],
+      "103:18": [
+        "covenant:a keep:pr",
+        "command:pl:a remember:pr they:a do:inf"
+      ],
+      "103:19": [
+        "throne:a in heaven:pl prepare:perf",
+        "kingdom over all rule:pr"
+      ],
+      "103:20": [
+        "angel:pl:excl",
+        "in strength kjv_excel:pr",
+        "voice of his/word listen:cv"
+      ],
+      "103:21": [
+        "army:pl:excl",
+        "kjv_minister:pl:excl",
+        "pleasure:a do:pr"
+      ],
+      "103:22": [
+        "work:pl in all place:pl of his/kjv_dominion:excl",
+        "my/soul:excl"
+      ],
+      "104:1": [
+        "my/soul:excl",
+        "my/god:excl",
+        "honour and majesty clothe:psv:pr"
+      ],
+      "104:2": [
+        "thyself:a with light",
+        "heaven:pl:a like kjv_curtain"
+      ],
+      "104:3": [
+        "beam:pl:a of his/chamber:pl in water:pl",
+        "cloud:pl:a his/chariot",
+        "wing:pl of wind"
+      ],
+      "104:4": [
+        "angel:pl:a spirit:pl",
+        "kjv_minister:pl:a flame:adj fire"
+      ],
+      "104:5": [
+        "kjv_foundation:pl:a of earth",
+        "remove:psv:neg:should"
+      ],
+      "104:6": [
+        "deep as with garment",
+        "water:pl above mountain:pl"
+      ],
+      "104:7": [
+        "rebuke:ev they flee:pa",
+        "voice of thy/thunder"
+      ],
+      "104:8": [
+        "up by mountain:pl",
+        "down by valley:pl",
+        "kjv_found_base:perf"
+      ],
+      "104:9": [
+        "boundary:a set:perf",
+        "over pass:neg:may",
+        "again earth:a cover:inf"
+      ],
+      "104:10": [
+        "spring:pl:a into valley:pl",
+        "among hill:pl run:pr"
+      ],
+      "104:11": [
+        "every beast of field",
+        "wild ass:pl their/thirst:a satisfy:pr"
+      ],
+      "104:12": [
+        "bird:pl of heaven",
+        "among branch:pl sing:pr"
+      ],
+      "104:13": [
+        "from his/chamber:pl water:pr",
+        "fruit of thy/work:pl"
+      ],
+      "104:14": [
+        "grass:a for kjv_livestock",
+        "herb:a for service of human",
+        "food:a out of earth"
+      ],
+      "104:15": [
+        "wine which heart:a of human glad:caus:pr",
+        "oil his/face:a shine:caus:inf",
+        "bread which human/heart:a strong:caus:pr"
+      ],
+      "104:16": [
+        "full of kjv_tree_sap",
+        "kjv_cedar:pl of kjv_lebanon"
+      ],
+      "104:17": [
+        "kjv_stork",
+        "kjv_fir kjv_tree:pl her/house"
+      ],
+      "104:18": [
+        "wild kjv_goat:pl",
+        "rock:pl for kjv_coney:pl"
+      ],
+      "104:19": [
+        "moon:a for season:pl",
+        "sun his/down go:ev:a know:pr"
+      ],
+      "104:20": [
+        "darkness:a make:pr",
+        "beast:pl of forest forth creep:pr"
+      ],
+      "104:21": [
+        "young lion:pl",
+        "prey roar:pr",
+        "food:a from god seek:pr"
+      ],
+      "104:22": [
+        "sun rise:pr",
+        "themselves:a down in their/kjv_den:pl lay:pr"
+      ],
+      "104:23": [
+        "his/work and to his/labour until evening"
+      ],
+      "104:24": [
+        "how many thy/work:pl be:pr:excl",
+        "in wisdom",
+        "full of thy/rich:ev"
+      ],
+      "104:25": [
+        "great and wide sea",
+        "without kjv_number:ev",
+        "small and great beast:pl"
+      ],
+      "104:26": [
+        "ship:pl",
+        "leviathan",
+        "in it play:inf make:perf"
+      ],
+      "104:27": [
+        "all these upon thee wait:pr",
+        "food:a to they in due season"
+      ],
+      "104:28": [
+        "give:pr they gather:pr",
+        "hand:a open:pr",
+        "with good fill:psv:pr"
+      ],
+      "104:29": [
+        "face:a hide:pr",
+        "breath:a away take:pr",
+        "die:pr",
+        "dust return:pr"
+      ],
+      "104:30": [
+        "spirit:a forth send:pr",
+        "create:psv:pr",
+        "face:a of earth renew:pr"
+      ],
+      "104:31": [
+        "glory of kjv_lord for ever",
+        "in his/work:pl rejoice:fu"
+      ],
+      "104:32": [
+        "earth look:pr",
+        "hill:pl:a touch:pr",
+        "they smoke:pr"
+      ],
+      "104:33": [
+        "i to kjv_lord as long as i live:pr",
+        "my/be:ev:a have:pr"
+      ],
+      "104:34": [
+        "my/meditate:ev",
+        "sweet be:fu",
+        "i glad"
+      ],
+      "104:35": [
+        "sin:ag:pl out of earth destroy:psv:inf",
+        "wicked no more",
+        "my/soul:excl"
+      ],
+      "105:1": [
+        "thanks:a",
+        "his/name",
+        "his/deed:pl:a among people"
+      ],
+      "105:2": [
+        "kjv_psalm:pl:a sing:imp",
+        "wonder:adj work:pl talk:imp"
+      ],
+      "105:3": [
+        "in his/holy name glory:imp",
+        "heart of they who kjv_lord:a seek:pr"
+      ],
+      "105:4": [
+        "his/strength:a",
+        "his/face:a for ever"
+      ],
+      "105:5": [
+        "marvel:adj work:pl:a",
+        "judge:ev:pl:a of his/mouth"
+      ],
+      "105:6": [
+        "seed of kjv_abraham",
+        "child:pl of kjv_jacob"
+      ],
+      "105:7": [
+        "ourone/god",
+        "all earth"
+      ],
+      "105:8": [
+        "covenant:a for ever",
+        "thousand generation:pl"
+      ],
+      "105:9": [
+        "with kjv_abraham",
+        "oath to kjv_isaac"
+      ],
+      "105:10": [
+        "to kjv_jacob for law",
+        "to kjv_israel for eternal kjv_covenant"
+      ],
+      "105:11": [
+        "to thee ipl land:a of kjv_canaan give:fu",
+        "your/inheritance"
+      ],
+      "105:12": [
+        "few man:pl",
+        "very few",
+        "stranger:pl in it"
+      ],
+      "105:13": [
+        "one nation to another",
+        "one kingdom to another people"
+      ],
+      "105:14": [
+        "wrong:inf allow:pa",
+        "king:pl:a for their/sake rebuke:pa"
+      ],
+      "105:15": [
+        "mypl/anoint:psv:adj:a touch:neg:imp",
+        "mypl/prophet:pl no harm:a do:imp"
+      ],
+      "105:16": [
+        "kjv_famine",
+        "whole staff:a of bread break:pa"
+      ],
+      "105:17": [
+        "kjv_joseph",
+        "for servant sell:psv:pa"
+      ],
+      "105:18": [
+        "foot:pl:a",
+        "fetter:pl hurt:pa",
+        "in iron lay:psv:pa"
+      ],
+      "105:19": [
+        "his/word come:pa",
+        "word of kjv_lord he:a test:pa"
+      ],
+      "105:20": [
+        "king send:pa",
+        "he:a release:pa",
+        "he free go:inf allow:pa"
+      ],
+      "105:21": [
+        "lord of his/house",
+        "all his/property"
+      ],
+      "105:22": [
+        "prince:pl:a at his/pleasure bind:inf",
+        "kjv_senator:pl:a wisdom:a teach:inf"
+      ],
+      "105:23": [
+        "kjv_israel also into egypt",
+        "kjv_jacob",
+        "land of kjv_ham"
+      ],
+      "105:24": [
+        "people:a greatly increase:pa",
+        "stronger than their/enemy:pl"
+      ],
+      "105:25": [
+        "their/heart:a his/people:a hate:inf turn:pa",
+        "subtle:adv deal:inf"
+      ],
+      "105:26": [
+        "kjv_moses his/servant:a",
+        "kjv_aaron whom he choose:pp"
+      ],
+      "105:27": [
+        "sign:pl:a among they",
+        "wonder:pl:a in land of kjv_ham"
+      ],
+      "105:28": [
+        "darkness:a send:pa",
+        "against his/word rebel:neg:pa"
+      ],
+      "105:29": [
+        "water:pl:a into blood",
+        "fish:a slay:pa"
+      ],
+      "105:30": [
+        "kjv_frog:pl:a in abundance",
+        "chamber:pl of their/king:pl"
+      ],
+      "105:31": [
+        "different kind:pl of fly:pl",
+        "louse:pl",
+        "kjv_coast_region:pl"
+      ],
+      "105:32": [
+        "hail:a for rain",
+        "flame:adj fire"
+      ],
+      "105:33": [
+        "kjv_vine:pl:a",
+        "fig kjv_tree:pl:a",
+        "kjv_coast_region:pl"
+      ],
+      "105:34": [
+        "kjv_locust:pl",
+        "kjv_caterpiller:pl",
+        "without kjv_number:ev"
+      ],
+      "105:35": [
+        "herb:pl:a",
+        "fruit:a of their/ground devour:pa"
+      ],
+      "105:36": [
+        "first born:psv:adj:a",
+        "chief of all their/strength"
+      ],
+      "105:37": [
+        "silver and gold",
+        "not one_num feeble person",
+        "kjv_tribe:pl"
+      ],
+      "105:38": [
+        "egypt glad",
+        "fear of they upon they fall:pa"
+      ],
+      "105:39": [
+        "cloud:a for cover:ev",
+        "fire light:a in night"
+      ],
+      "105:40": [
+        "kjv_quail:pl:a",
+        "bread of heaven satisfy:pa"
+      ],
+      "105:41": [
+        "rock:a open:pa",
+        "water:pl out flow:pa",
+        "dry place:pl like river"
+      ],
+      "105:42": [
+        "holy promise:a",
+        "kjv_abraham his/servant:a"
+      ],
+      "105:43": [
+        "people:a with joy",
+        "choose:psv:adj:a with glad:ev"
+      ],
+      "105:44": [
+        "land:pl:a of kjv_heathen",
+        "labour:a of people inherit:pa"
+      ],
+      "105:45": [
+        "kjv_statute:pl:a observe:may",
+        "law:pl:a keep:may",
+        "you:pl kjv_lord:a praise:imp"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "101:1",
+        "101:2",
+        "101:3",
+        "101:4",
+        "101:5",
+        "101:6",
+        "101:8",
+        "102:10",
+        "102:11",
+        "102:2",
+        "102:24",
+        "102:4",
+        "102:6",
+        "102:7",
+        "102:8",
+        "102:9",
+        "103:1",
+        "104:33",
+        "104:34",
+        "94:16",
+        "94:18",
+        "94:19"
+      ],
+      "ipl": [
+        "105:11",
+        "95:10",
+        "95:11",
+        "95:9"
+      ],
+      "wesg": [
+        "100:3",
+        "103:10",
+        "103:12",
+        "95:1",
+        "95:6",
+        "95:7"
+      ],
+      "wepl": [
+        "100:3",
+        "103:14",
+        "95:2",
+        "95:6"
+      ],
+      "mypl": [
+        "105:15",
+        "95:10",
+        "95:11",
+        "95:9"
+      ],
+      "ourone": [
+        "103:10",
+        "103:12",
+        "105:7",
+        "94:23",
+        "95:1",
+        "95:6",
+        "95:7",
+        "98:3",
+        "99:5",
+        "99:8",
+        "99:9"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Psalm95:10forty years remains40;105:8thousand generations remains1000without an invented chronology.",
+      "Psalm105:36firstborn is ordinal birth rank1,not a headcount;105:37not one feeble person retains its explicit1.",
+      "Psalm105:13one-to-another is distributive travel,not two countries;many,few,all and unnumbered do not create exact counts.",
+      "Plural gods,angels and divine plural-I do not receive an invented divine-person total."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Personal distress and royal commitments remain ordinary-I;the divine wilderness oath and covenant promises use plural-I.",
+      "Psalm100:3created us-many and denied self-creation precede we-one people;103shared guilt differs from physical mortality.",
+      "Gods in95–97,angels in103–104and spirits in104retain local source wording without harmonizing identities.",
+      "Psalm104retains the ambiguous water/mountain pronoun and the destructive final wish;105retains divine causation,negative rebelled-not,plural kings and historical senators.",
+      "All prior targets and old seals remain unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 884,
+    "spreads": 442,
+    "units": 1712,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "4c1994a371bcb2d41c69d799723307aeb633ad8e7c300674914f18f0f5c89d7b",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 442,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.589,
+    "modules": [
+      "tests.test_kjv_psalm_creation_justice_history",
+      "tests.test_kjv_psalm_nested_covenant_mortality",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    883,
+    884
+  ],
+  "status": "incompleteBible;Psalms1to105sectioncheckpointverified"
+}

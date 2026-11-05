@@ -2,6 +2,7 @@
 from copy import deepcopy
 from time import perf_counter
 from .paragraph_alignment import align,spread_frames
+from .book_frames import loaded_items
 
 
 def text_of(frame):
@@ -15,14 +16,18 @@ class AutomaticAlignment:
         self._aligning_text=False
         super().__init__(*args,**kwargs)
 
-    def _restore(self,state):
-        super()._restore(state)
+    def _restore(self,state,**kwargs):
+        super()._restore(state,**kwargs)
         self.automatic_alignment=dict(enabled=True,status='ready',message='Paragraph starts align automatically when text changes.')
-        for page in self.state['pages'][::2]:
-            try:ids=spread_frames(self,page['pageId'])
-            except ValueError:continue
-            columns=[self.frames[fid] for fid in ids]
-            if all(n.text().strip() for n in columns) and len({n.doc.blockCount() for n in columns})>1:
+        pages=self.state['pages']
+        for index in range(0,len(pages)-1,2):
+            pair=pages[index:index+2]
+            if any(len(p['frames'])!=2 for p in pair):continue
+            # We already have each page and frame. Searching the whole book
+            # again for every column makes opening quadratic in page count.
+            columns=[f for p in pair for f in sorted(p['frames'],key=lambda f:int(f['x']))]
+            ids=[f['frameId'] for f in columns]
+            if all(text_of(n).strip() for n in columns) and len({len(n['content']['document']['stories'][0]['blocks']) for n in columns})>1:
                 issues=[dict(frameIds=ids,reason='PARAGRAPH_ALIGNMENT_COUNT_MISMATCH')]
                 self.automatic_alignment=dict(enabled=True,status='paused',message=message(issues),issues=issues)
                 break
@@ -30,7 +35,7 @@ class AutomaticAlignment:
     def commit(self,label):
         if not self._aligning_text and not self._restoring and not self.composing:
             old={f['frameId']:text_of(f) for p in self._state['pages'] for f in p['frames']}
-            changed={fid for fid,n in self.frames.items() if fid in old and n.text()!=old[fid]}
+            changed={fid for fid,n in loaded_items(self.frames) if fid in old and n.text()!=old[fid]}
             groups=[]
             for p in self.state['pages']:
                 if not any(f['frameId'] in changed for f in p['frames']):continue

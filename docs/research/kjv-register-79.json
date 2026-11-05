@@ -1,0 +1,493 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.79",
+    "parentVersion": "0.10-kjv.78",
+    "parentHead": "351778b8ccc130aacf8c2606604b0d2aefbdd4f5b5a5ebfd601eab631c0cabab",
+    "head": "d87054db7f57c68d711469f1d4f2b001f8b4d5ba54e4a4535345a084c09edb59",
+    "newLexicalEntries": 86,
+    "newProperEntries": 85,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 40,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 81,
+    "exactCompilerCases": 81,
+    "newAuthoredVerses": 81,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 283,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20518,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 81,
+    "chronicles1Verses": 283,
+    "authoredVerses": 10584,
+    "remainingVerses": 20518,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 6:60",
+        "source": "And out of the tribe of Benjamin; Geba with her suburbs, and Alemeth with her suburbs, and Anathoth with her suburbs. All their cities throughout their families were thirteen cities.",
+        "expectedDecimalQuantities": [
+          13
+        ],
+        "targetQuantities": [
+          13
+        ]
+      },
+      {
+        "reference": "1 Chronicles 6:61",
+        "source": "And unto the sons of Kohath, which were left of the family of that tribe, were cities given out of the half tribe, namely, out of the half tribe of Manasseh, by lot, ten cities.",
+        "expectedDecimalQuantities": [
+          0.5,
+          0.5,
+          10
+        ],
+        "targetQuantities": [
+          0.5,
+          0.5,
+          10
+        ]
+      },
+      {
+        "reference": "1 Chronicles 6:62",
+        "source": "And to the sons of Gershom throughout their families out of the tribe of Issachar, and out of the tribe of Asher, and out of the tribe of Naphtali, and out of the tribe of Manasseh in Bashan, thirteen cities.",
+        "expectedDecimalQuantities": [
+          13
+        ],
+        "targetQuantities": [
+          13
+        ]
+      },
+      {
+        "reference": "1 Chronicles 6:63",
+        "source": "Unto the sons of Merari were given by lot, throughout their families, out of the tribe of Reuben, and out of the tribe of Gad, and out of the tribe of Zebulun, twelve cities.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "1 Chronicles 6:70",
+        "source": "And out of the half tribe of Manasseh; Aner with her suburbs, and Bileam with her suburbs, for the family of the remnant of the sons of Kohath.",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      },
+      {
+        "reference": "1 Chronicles 6:71",
+        "source": "Unto the sons of Gershom were given out of the family of the half tribe of Manasseh, Golan in Bashan with her suburbs, and Ashtaroth with her suburbs:",
+        "expectedDecimalQuantities": [
+          0.5
+        ],
+        "targetQuantities": [
+          0.5
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "6:1": [
+        "kjv_gershon kjv_kohath and kjv_merari"
+      ],
+      "6:2": [
+        "kjv_hebron_kohath"
+      ],
+      "6:3": [
+        "child:pl of kjv_amram",
+        "kjv_miriam",
+        "son:pl also of kjv_aaron",
+        "kjv_nadab and kjv_abihu kjv_eleazar and kjv_ithamar"
+      ],
+      "6:4": [
+        "kjv_eleazar kjv_phinehas:a beget:pa",
+        "kjv_phinehas kjv_abishua_priest:a beget:pa"
+      ],
+      "6:5": [
+        "kjv_abishua_priest kjv_bukki_priest:a beget:pa",
+        "kjv_bukki_priest kjv_uzzi_priest:a beget:pa"
+      ],
+      "6:6": [
+        "kjv_uzzi_priest kjv_zerahiah_priest:a beget:pa",
+        "kjv_zerahiah_priest kjv_meraioth_priest:a beget:pa"
+      ],
+      "6:7": [
+        "kjv_meraioth_priest kjv_amariah_meraioth:a beget:pa",
+        "kjv_amariah_meraioth kjv_ahitub_amariah:a beget:pa"
+      ],
+      "6:8": [
+        "kjv_ahitub_amariah kjv_zadok:a beget:pa",
+        "kjv_zadok kjv_ahimaaz_zadok:a beget:pa"
+      ],
+      "6:9": [
+        "kjv_ahimaaz_zadok kjv_azariah_ahimaaz:a beget:pa",
+        "kjv_azariah_ahimaaz kjv_johanan_azariah:a beget:pa"
+      ],
+      "6:10": [
+        "kjv_johanan_azariah kjv_azariah_johanan:a beget:pa",
+        "temple which kjv_solomon in kjv_jerusalem build:pa",
+        "office:a of priest perform:pa"
+      ],
+      "6:11": [
+        "kjv_azariah_johanan kjv_amariah_azariah:a beget:pa",
+        "kjv_amariah_azariah kjv_ahitub_later:a beget:pa"
+      ],
+      "6:12": [
+        "kjv_ahitub_later kjv_zadok_later:a beget:pa",
+        "kjv_zadok_later kjv_shallum_priest:a beget:pa"
+      ],
+      "6:13": [
+        "kjv_shallum_priest kjv_hilkiah_priest:a beget:pa",
+        "kjv_hilkiah_priest kjv_azariah_hilkiah:a beget:pa"
+      ],
+      "6:14": [
+        "kjv_azariah_hilkiah kjv_seraiah_priest:a beget:pa",
+        "kjv_seraiah_priest kjv_jehozadak:a beget:pa"
+      ],
+      "6:15": [
+        "kjv_jehozadak into kjv_captivity",
+        "kjv_lord kjv_judah and kjv_jerusalem:a by hand of nebuchadnezzar"
+      ],
+      "6:16": [
+        "kjv_gershom_levi kjv_kohath and kjv_merari"
+      ],
+      "6:17": [
+        "kjv_gershom_levi",
+        "kjv_libni and kjv_shimei"
+      ],
+      "6:18": [
+        "kjv_amram and kjv_izhar and kjv_hebron_kohath and kjv_uzziel"
+      ],
+      "6:19": [
+        "kjv_mahli and kjv_mushi",
+        "kjv_family:pl of kjv_levite:pl kjv_according their/father:pl"
+      ],
+      "6:20": [
+        "kjv_gershom_levi kjv_libni his/son kjv_jahath_libni his/son kjv_zimmah his/son"
+      ],
+      "6:21": [
+        "kjv_joah_zimmah his/son kjv_iddo_joah his/son kjv_zerah_gershom his/son kjv_jeaterai his/son"
+      ],
+      "6:22": [
+        "kjv_amminadab_kohath his/son kjv_korah_izhar his/son kjv_assir his/son"
+      ],
+      "6:23": [
+        "kjv_elkanah his/son and kjv_ebiasaph his/son and kjv_assir_later his/son"
+      ],
+      "6:24": [
+        "kjv_tahath_person his/son kjv_uriel_tahath his/son kjv_uzziah_uriel his/son and kjv_shaul_uzziah his/son"
+      ],
+      "6:25": [
+        "kjv_elkanah_amasai kjv_amasai_elkanah and kjv_ahimoth"
+      ],
+      "6:26": [
+        "as for kjv_elkanah_zophai",
+        "kjv_zophai his/son and kjv_nahath_zophai his/son"
+      ],
+      "6:27": [
+        "kjv_eliab_nahath his/son kjv_jeroham his/son kjv_elkanah_samuel his/son"
+      ],
+      "6:28": [
+        "first+born kjv_vashni and kjv_abiah"
+      ],
+      "6:29": [
+        "kjv_mahli kjv_libni_mahli his/son kjv_shimei_libni_mahli his/son kjv_uzza_merari his/son"
+      ],
+      "6:30": [
+        "kjv_shimea_uzza his/son kjv_haggiah his/son kjv_asaiah_merari his/son"
+      ],
+      "6:31": [
+        "service of song",
+        "after kjv_ark_chest rest:pp"
+      ],
+      "6:32": [
+        "kjv_tabernacle of kjv_congregation",
+        "with song serve:pa",
+        "until kjv_solomon",
+        "their/office:a attend:pa",
+        "kjv_service_order"
+      ],
+      "6:33": [
+        "kjv_heman_singer sing:ag son of kjv_joel son of kjv_shemuel_singer_line"
+      ],
+      "6:34": [
+        "kjv_elkanah_samuel son of kjv_jeroham son of kjv_eliel_jeroham son of kjv_toah"
+      ],
+      "6:35": [
+        "kjv_zuph son of kjv_elkanah_zuph son of kjv_mahath son of kjv_amasai_elkanah"
+      ],
+      "6:36": [
+        "kjv_elkanah_amasai son of kjv_joel_azariah son of kjv_azariah_zephaniah son of kjv_zephaniah_tahath"
+      ],
+      "6:37": [
+        "kjv_tahath_person son of kjv_assir_later son of kjv_ebiasaph son of kjv_korah_izhar"
+      ],
+      "6:38": [
+        "kjv_izhar son of kjv_kohath son of kjv_levi son of kjv_israel"
+      ],
+      "6:39": [
+        "kjv_asaph_singer",
+        "at kjv_right_side of he",
+        "kjv_berachiah_asaph son of kjv_shimea_asaph"
+      ],
+      "6:40": [
+        "kjv_michael_asaph son of kjv_baaseiah son of kjv_malchiah_asaph"
+      ],
+      "6:41": [
+        "kjv_ethni son of kjv_zerah_gershom son of kjv_adaiah_asaph"
+      ],
+      "6:42": [
+        "kjv_ethan_asaph son of kjv_zimmah son of kjv_shimei"
+      ],
+      "6:43": [
+        "kjv_jahath_gershom son of kjv_gershom_levi son of kjv_levi"
+      ],
+      "6:44": [
+        "at left side stand:pa",
+        "kjv_ethan_singer son of kjv_kishi son of kjv_abdi son of kjv_malluch"
+      ],
+      "6:45": [
+        "kjv_hashabiah son of kjv_amaziah_ethan son of kjv_hilkiah_ethan"
+      ],
+      "6:46": [
+        "kjv_amzi son of kjv_bani_ethan son of kjv_shamer"
+      ],
+      "6:47": [
+        "kjv_mahli_mushi son of kjv_mushi son of kjv_merari son of kjv_levi"
+      ],
+      "6:48": [
+        "all kind of service",
+        "appoint:psv:pa"
+      ],
+      "6:49": [
+        "altar of burn:psv kjv_offering",
+        "altar of kjv_incense",
+        "most holy place",
+        "kjv_atonement:a for kjv_israel",
+        "kjv_moses servant of god"
+      ],
+      "6:50": [
+        "kjv_eleazar his/son kjv_phinehas his/son kjv_abishua_priest his/son"
+      ],
+      "6:51": [
+        "kjv_bukki_priest his/son kjv_uzzi_priest his/son kjv_zerahiah_priest his/son"
+      ],
+      "6:52": [
+        "kjv_meraioth_priest his/son kjv_amariah_meraioth his/son kjv_ahitub_amariah his/son"
+      ],
+      "6:53": [
+        "kjv_zadok his/son kjv_ahimaaz_zadok his/son"
+      ],
+      "6:54": [
+        "their/fortress:pl in their/kjv_coast_region:pl",
+        "kjv_family:pl of kjv_kohathite:pl",
+        "kjv_lot of they"
+      ],
+      "6:55": [
+        "kjv_hebron in land of kjv_judah",
+        "kjv_suburbs_field of it round about it"
+      ],
+      "6:56": [
+        "field:pl of city and village:pl of it",
+        "kjv_caleb son of kjv_jephunneh"
+      ],
+      "6:57": [
+        "city:pl of kjv_judah",
+        "kjv_hebron city of kjv_refuge",
+        "kjv_libnah",
+        "kjv_jattir",
+        "kjv_eshtemoa"
+      ],
+      "6:58": [
+        "kjv_hilen",
+        "kjv_debir_city"
+      ],
+      "6:59": [
+        "kjv_ashan",
+        "kjv_bethshemesh"
+      ],
+      "6:60": [
+        "kjv_benjamin",
+        "kjv_geba",
+        "kjv_alemeth",
+        "kjv_anathoth",
+        "ten and kjv_three city:pl"
+      ],
+      "6:61": [
+        "out of half kjv_tribe namely out of half kjv_tribe of kjv_manasseh",
+        "ten city:pl"
+      ],
+      "6:62": [
+        "kjv_gershom_levi",
+        "kjv_issachar",
+        "kjv_asher",
+        "kjv_naphtali",
+        "kjv_manasseh in kjv_bashan",
+        "ten and kjv_three city:pl"
+      ],
+      "6:63": [
+        "kjv_merari",
+        "kjv_reuben",
+        "kjv_gad",
+        "kjv_zebulun",
+        "twelve city:pl"
+      ],
+      "6:64": [
+        "kjv_levite:pl these city:pl with their/kjv_suburbs_field"
+      ],
+      "6:65": [
+        "kjv_judah",
+        "kjv_simeon",
+        "kjv_benjamin",
+        "by their/name:pl call:psv:pr"
+      ],
+      "6:66": [
+        "remainder of kjv_family:pl",
+        "their/kjv_coast_region:pl",
+        "kjv_ephraim"
+      ],
+      "6:67": [
+        "kjv_shechem in mountain of kjv_ephraim",
+        "kjv_gezer"
+      ],
+      "6:68": [
+        "kjv_jokmeam",
+        "kjv_bethhoron"
+      ],
+      "6:69": [
+        "kjv_aijalon",
+        "kjv_gathrimmon"
+      ],
+      "6:70": [
+        "half kjv_tribe of kjv_manasseh",
+        "kjv_aner_city",
+        "kjv_bileam",
+        "remainder of son:pl of kjv_kohath"
+      ],
+      "6:71": [
+        "kjv_gershom_levi",
+        "half kjv_tribe of kjv_manasseh",
+        "kjv_golan in kjv_bashan",
+        "kjv_ashtaroth"
+      ],
+      "6:72": [
+        "kjv_issachar",
+        "kjv_kedesh",
+        "kjv_daberath"
+      ],
+      "6:73": [
+        "kjv_ramoth_issachar",
+        "kjv_anem"
+      ],
+      "6:74": [
+        "kjv_asher",
+        "kjv_mashal",
+        "kjv_abdon"
+      ],
+      "6:75": [
+        "kjv_hukok",
+        "kjv_rehob"
+      ],
+      "6:76": [
+        "kjv_naphtali",
+        "kjv_kedesh in kjv_galilee",
+        "kjv_hammon",
+        "kjv_kirjathaim"
+      ],
+      "6:77": [
+        "remainder of child:pl of kjv_merari",
+        "kjv_zebulun",
+        "kjv_rimmon",
+        "kjv_tabor"
+      ],
+      "6:78": [
+        "other side kjv_jordan by kjv_jericho",
+        "east side of kjv_jordan",
+        "kjv_reuben",
+        "kjv_bezer in kjv_wilderness",
+        "kjv_jahzah"
+      ],
+      "6:79": [
+        "kjv_kedemoth",
+        "kjv_mephaath"
+      ],
+      "6:80": [
+        "kjv_gad",
+        "kjv_ramoth_refuge in kjv_gilead",
+        "kjv_mahanaim"
+      ],
+      "6:81": [
+        "kjv_heshbon",
+        "kjv_jazer"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Thirteen/ten/thirteen/twelve city totals retained; repeated half-tribe restatement kept distinct from a second grant. Printed enumeration is not expanded to reconcile totals."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "No unprinted first-person speech. Supplied genealogy variants and city-list discrepancies retained without outside harmonization.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 122,
+    "spreads": 61,
+    "units": 283,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "2a81b6e6d6d9fd59981bfd653a3a8ed0481e0c2f769fc3bfe688566b61f1d0a0",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 61,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.783,
+    "modules": [
+      "tests.test_kjv_chronicles_sanctuary",
+      "tests.test_kjv_chronicles_descent",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    121,
+    122
+  ],
+  "status": "incomplete Bible; checkpoint verified"
+}

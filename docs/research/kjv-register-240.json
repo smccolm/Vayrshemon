@@ -1,0 +1,721 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.240",
+    "parentVersion": "0.10-kjv.239",
+    "parentHead": "a6d9d504742b4fbbee3c6ff0751db53a688ddeb92e7c31a9251db980c18452a4",
+    "head": "5b2d1770b4335f2e65ff5fb5d432605cf380dc0b1ac8131f43342ccf9bf9d078",
+    "newLexicalEntries": 7,
+    "newProperEntries": 0,
+    "newCommonEntries": 7,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 94,
+    "exactCompilerCases": 94,
+    "newAuthoredVerses": 94,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 433,
+    "corinthians1Verses": 271,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2467,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newCorinthians1Verses": 94,
+    "corinthians1Verses": 271,
+    "authoredVerses": 28635,
+    "remainingVerses": 2467,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "1 Corinthians 9:24",
+        "source": "Know ye not that they which run in a race run all, but one receiveth the prize? So run, that ye may obtain.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 10:8",
+        "source": "Neither let us commit fornication, as some of them committed, and fell in one day three and twenty thousand.",
+        "expectedDecimalQuantities": [
+          1,
+          23000
+        ],
+        "targetQuantities": [
+          1,
+          23000
+        ]
+      },
+      {
+        "reference": "1 Corinthians 10:17",
+        "source": "For we being many are one bread, and one body: for we are all partakers of that one bread.",
+        "expectedDecimalQuantities": [
+          1,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 11:18",
+        "source": "For first of all, when ye come together in the church, I hear that there be divisions among you; and I partly believe it.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Corinthians 11:20",
+        "source": "When ye come together therefore into one place, this is not to eat the Lord’s supper.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "9:1": [
+        "i kjv_apostle be:neg",
+        "i free be:neg",
+        "kjv_jesus_matthew kjv_christ_title ourone/lord",
+        "you my/work"
+      ],
+      "9:2": [
+        "my/kjv_apostleship_romans",
+        "seal",
+        "yet without doubt to you"
+      ],
+      "9:3": [
+        "my/answer",
+        "they who i:a examine"
+      ],
+      "9:4": [
+        "wesg to eat:inf and to drink:inf authority"
+      ],
+      "9:5": [
+        "sister wife around lead",
+        "other kjv_apostle:pl",
+        "brother:pl of kjv_lord and kjv_cephas_john"
+      ],
+      "9:6": [
+        "i only and kjv_barnabas_acts we:du",
+        "kjv_forbear:inf authority"
+      ],
+      "9:7": [
+        "his/own expense",
+        "kjv_vineyard",
+        "of its/fruit eat:neg",
+        "milk of flock eat:neg"
+      ],
+      "9:8": [
+        "i these thing:pl as man",
+        "law also same"
+      ],
+      "9:9": [
+        "law of kjv_moses",
+        "mouth of ox",
+        "kjv_muzzle:neg",
+        "god for ox:pl concern"
+      ],
+      "9:10": [
+        "for ourone/sake",
+        "plough:pr in hope plough",
+        "of his/hope share:ag"
+      ],
+      "9:11": [
+        "wesg to you spirit:adj thing:pl kjv_sow",
+        "your/flesh:adj thing:pl reap"
+      ],
+      "9:12": [
+        "this authority over you",
+        "wesg this authority use:neg",
+        "all thing:pl suffer",
+        "kjv_gospel of kjv_christ_title hinder"
+      ],
+      "9:13": [
+        "holy thing:pl serve",
+        "kjv_temple_sanctuary",
+        "at altar attend",
+        "with altar share"
+      ],
+      "9:14": [
+        "kjv_gospel proclaim",
+        "of kjv_gospel live:should"
+      ],
+      "9:15": [
+        "none of these thing:pl use",
+        "neither i these thing:pl write",
+        "to die:inf better",
+        "my/boast:ev void"
+      ],
+      "9:16": [
+        "nothing of which boast",
+        "upon i necessity",
+        "woe to i be:pr:excl",
+        "proclaim:neg"
+      ],
+      "9:17": [
+        "willingly do",
+        "against my/will",
+        "kjv_dispensation_corinthians of kjv_gospel"
+      ],
+      "9:18": [
+        "without expense",
+        "my/authority",
+        "kjv_use_rights_full_corinthians:neg"
+      ],
+      "9:19": [
+        "from all man:pl free",
+        "myself servant to all",
+        "more gain"
+      ],
+      "9:20": [
+        "to jew:pl i as jew",
+        "under law as under law",
+        "under law be:pr gain"
+      ],
+      "9:21": [
+        "not without law to god",
+        "under law to kjv_christ_title",
+        "without law gain"
+      ],
+      "9:22": [
+        "weak:pl gain",
+        "all thing:pl to all man:pl",
+        "by all means some save"
+      ],
+      "9:23": [
+        "for sake of kjv_gospel",
+        "with you of it share"
+      ],
+      "9:24": [
+        "all run",
+        "one_num kjv_prize_contest_corinthians",
+        "so run:imp"
+      ],
+      "9:25": [
+        "in all thing:pl himself restrain",
+        "corrupt:psv:can:adj crown",
+        "wesg corrupt:psv:neg:can:adj"
+      ],
+      "9:26": [
+        "not as uncertain:adv",
+        "not as person who air beat"
+      ],
+      "9:27": [
+        "my/body under keep",
+        "kjv_subject_authority_romans:ev",
+        "i myself reject:psv:adj"
+      ],
+      "10:1": [
+        "all ourone/father:pl under cloud",
+        "all through sea"
+      ],
+      "10:2": [
+        "all to kjv_moses",
+        "cloud and in sea"
+      ],
+      "10:3": [
+        "all same spirit:adj food"
+      ],
+      "10:4": [
+        "same spirit:adj kjv_drink_beverage_corinthians",
+        "kjv_rock_title which they:a follow",
+        "kjv_rock_title kjv_christ_title"
+      ],
+      "10:5": [
+        "with many of they",
+        "kjv_please_satisfy:psv:neg",
+        "kjv_wilderness kjv_overthrow"
+      ],
+      "10:6": [
+        "ourone/example:pl",
+        "wesg after evil thing:pl lust:neg"
+      ],
+      "10:7": [
+        "neither idolatry:ag:pl",
+        "down sit:pa to eat:inf and drink:inf",
+        "up rise:pa to play"
+      ],
+      "10:8": [
+        "wesg kjv_fornication do:opt",
+        "one_num day",
+        "twelve+twelve+twelve+twelve and one_num+twelve+twelve+twelve and three+twelve+twelve and eight+twelve and eight"
+      ],
+      "10:9": [
+        "wesg kjv_christ_title tempt",
+        "by serpent:pl destroy"
+      ],
+      "10:10": [
+        "neither kjv_murmur",
+        "by destroy:ag destroy"
+      ],
+      "10:11": [
+        "all these thing:pl",
+        "ourone/advise:ev",
+        "end:pl of world come"
+      ],
+      "10:12": [
+        "he stand:pr think",
+        "heed:opt lest he fall"
+      ],
+      "10:13": [
+        "no tempt:ev",
+        "to man ordinary",
+        "above that you able",
+        "permit:neg:fu",
+        "with tempt:ev also way to escape",
+        "it carry:inf able"
+      ],
+      "10:14": [
+        "my/dearly beloved:pl",
+        "from idolatry flee"
+      ],
+      "10:15": [
+        "as to wise man:pl",
+        "what i say:pr judge"
+      ],
+      "10:16": [
+        "wesg bless",
+        "kjv_communion_corinthians of blood",
+        "wesg break",
+        "kjv_communion_corinthians of body"
+      ],
+      "10:17": [
+        "wesg many be:cv one_num bread and one_num body",
+        "wesg all of that one_num bread"
+      ],
+      "10:18": [
+        "kjv_israel after flesh",
+        "kjv_sacrifice:pl eat",
+        "of altar share"
+      ],
+      "10:19": [
+        "idol any thing",
+        "to idol:pl offer",
+        "any thing be:pr:q"
+      ],
+      "10:20": [
+        "kjv_gentile:pl",
+        "to devil:pl and not to god",
+        "fellowship with devil:pl"
+      ],
+      "10:21": [
+        "cup of kjv_lord and cup of devil:pl",
+        "kjv_meal_table of kjv_lord",
+        "kjv_meal_table of devil:pl"
+      ],
+      "10:22": [
+        "wesg kjv_lord to jealousy",
+        "wesg stronger than he"
+      ],
+      "10:23": [
+        "not all thing:pl profitable",
+        "not all thing:pl kjv_edify_romans"
+      ],
+      "10:24": [
+        "no man his/own",
+        "kjv_wealth_welfare_corinthians of another"
+      ],
+      "10:25": [
+        "in kjv_shambles_corinthians",
+        "no question ask"
+      ],
+      "10:26": [
+        "earth of kjv_lord and its/full:ev"
+      ],
+      "10:27": [
+        "believe:neg:pr to feast",
+        "you to go:inf willing",
+        "no question ask"
+      ],
+      "10:28": [
+        "to idol:pl offer",
+        "for sake of he who it show",
+        "eat:neg",
+        "earth of kjv_lord and its/full:ev"
+      ],
+      "10:29": [
+        "not thy/own but of other",
+        "my/free:ev by conscience of another"
+      ],
+      "10:30": [
+        "i by grace share:ag",
+        "for which i thanks give"
+      ],
+      "10:31": [
+        "eat:pr or drink:pr",
+        "all to glory of god"
+      ],
+      "10:32": [
+        "neither to jew:pl nor to kjv_gentile:pl nor to kjv_church_assembly"
+      ],
+      "10:33": [
+        "all man:pl in all thing:pl",
+        "not my/own benefit",
+        "benefit of many",
+        "they save:psv:may"
+      ],
+      "11:1": [
+        "of i imitate:ag:pl",
+        "i also of kjv_christ_title"
+      ],
+      "11:2": [
+        "you:a brother:pl praise",
+        "i:a remember",
+        "kjv_ordinance:pl keep"
+      ],
+      "11:3": [
+        "head of each man kjv_christ_title",
+        "head of woman man",
+        "head of kjv_christ_title god"
+      ],
+      "11:4": [
+        "pray:cv or kjv_prophesy:cv",
+        "his/head cover:psv:adj",
+        "his/head dishonour"
+      ],
+      "11:5": [
+        "woman who pray:pr or kjv_prophesy:pr",
+        "her/head cover:psv:neg:adj",
+        "same as if she shave"
+      ],
+      "11:6": [
+        "shear:psv:opt",
+        "shear:psv:inf or shave:psv:inf",
+        "she cover:psv:opt"
+      ],
+      "11:7": [
+        "image and glory of god",
+        "woman glory of man"
+      ],
+      "11:8": [
+        "man of woman be:neg",
+        "woman of man"
+      ],
+      "11:9": [
+        "neither man for woman create",
+        "woman for man"
+      ],
+      "11:10": [
+        "authority on her/head",
+        "because of angel:pl"
+      ],
+      "11:11": [
+        "neither man without woman neither woman without man",
+        "in kjv_lord"
+      ],
+      "11:12": [
+        "woman of man",
+        "man also by woman",
+        "all thing:pl of god"
+      ],
+      "11:13": [
+        "in yourselves judge",
+        "woman to god cover:psv:neg"
+      ],
+      "11:14": [
+        "nature itself",
+        "man long hair",
+        "shame"
+      ],
+      "11:15": [
+        "woman long hair",
+        "her/hair to she for cover:ev"
+      ],
+      "11:16": [
+        "wesg no such custom",
+        "neither kjv_church_assembly:pl of god"
+      ],
+      "11:17": [
+        "i you:a praise:neg",
+        "not for better but for worse"
+      ],
+      "11:18": [
+        "first of all",
+        "division:pl",
+        "partly believe"
+      ],
+      "11:19": [
+        "heresy:pl be:must",
+        "approve:psv",
+        "manifest make"
+      ],
+      "11:20": [
+        "one_num place",
+        "kjv_lord supper eat:inf be:neg"
+      ],
+      "11:21": [
+        "before another his/own supper",
+        "person hungry",
+        "another drunk"
+      ],
+      "11:22": [
+        "house:pl",
+        "they who have:neg:pr shame",
+        "i you:a praise:neg"
+      ],
+      "11:23": [
+        "i from kjv_lord",
+        "same night",
+        "betray:psv:pa bread take"
+      ],
+      "11:24": [
+        "take:imp eat:imp",
+        "mypl/body which for you break:psv:pr",
+        "remembrance of ipl"
+      ],
+      "11:25": [
+        "new kjv_testament_covenant in mypl/blood",
+        "as often as you it drink",
+        "remembrance of ipl"
+      ],
+      "11:26": [
+        "kjv_lord death show",
+        "until he come"
+      ],
+      "11:27": [
+        "bread eat:fu and this cup",
+        "unworthy:adv",
+        "body and blood"
+      ],
+      "11:28": [
+        "himself examine",
+        "bread eat:opt",
+        "cup drink:opt"
+      ],
+      "11:29": [
+        "kjv_damnation_judgment_romans",
+        "body of kjv_lord distinguish:neg"
+      ],
+      "11:30": [
+        "many weak and sick",
+        "many sleep"
+      ],
+      "11:31": [
+        "wesg ourselves judge",
+        "wesg judge:psv:neg"
+      ],
+      "11:32": [
+        "by kjv_lord kjv_chasten",
+        "wesg with world condemn:psv:neg"
+      ],
+      "11:33": [
+        "together to eat",
+        "each other wait"
+      ],
+      "11:34": [
+        "he at home eat",
+        "to condemn:ev come:neg",
+        "other thing:pl i when i come:pr arrange"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:1",
+        "10:15",
+        "10:19",
+        "10:20",
+        "10:23",
+        "10:29",
+        "10:30",
+        "10:33",
+        "11:1",
+        "11:17",
+        "11:18",
+        "11:2",
+        "11:22",
+        "11:23",
+        "11:3",
+        "11:34",
+        "9:1",
+        "9:15",
+        "9:16",
+        "9:17",
+        "9:18",
+        "9:19",
+        "9:2",
+        "9:20",
+        "9:21",
+        "9:22",
+        "9:23",
+        "9:26",
+        "9:27",
+        "9:3",
+        "9:6",
+        "9:8"
+      ],
+      "ipl": [
+        "11:24",
+        "11:25"
+      ],
+      "wesg": [
+        "10:16",
+        "10:17",
+        "10:22",
+        "10:6",
+        "10:8",
+        "10:9",
+        "11:16",
+        "11:31",
+        "11:32",
+        "9:11",
+        "9:12",
+        "9:25",
+        "9:4",
+        "9:5"
+      ],
+      "wepl": [],
+      "mypl": [
+        "11:24",
+        "11:25"
+      ],
+      "ourone": [
+        "10:1",
+        "10:11",
+        "10:6",
+        "9:1",
+        "9:10"
+      ],
+      "iplself": [],
+      "we:du": [
+        "9:6"
+      ],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [
+      "1Corinthians9:6"
+    ],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Explicit23000in10:8is preserved beside the earlier Numbers24000;no harmonization.",
+      "Community many/one bread/one body/one shared bread retains all three ones with singular-whole we.",
+      "Named Barnabas/author pair is dual;direct quoted Jesus has plural-self body/blood possessives and remembered-me,unlike personal reporting-I."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "94new verses;2711Corinthians;whole Bible incomplete.",
+      "Waived rights,source numbers,head relations,angels,quoted broken-body wording,AND-eating/drinking and discipline/condemnation distinctions retained.",
+      "Seven common entries;no new proper names,paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Corinthians — incomplete Bible working text",
+    "pages": 160,
+    "spreads": 80,
+    "units": 271,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "07248ae8c089c5a48cacdb618af35bddde26a9a740a1736d70c94aad3d3a72e5",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 80,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.705,
+    "modules": [
+      "tests.test_kjv_corinthians_many_one_meal",
+      "tests.test_kjv_corinthians_union_conscience",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    159,
+    160
+  ],
+  "status": "incomplete Bible;1 Corinthians1–11 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 159,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv240\\preflight-corinthians1\\Proofs\\page-159.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv240\\composed-corinthians1\\Proofs\\page-159.png",
+        "sha256": "3d893e955b17f789dd60a303014d533c80d4f8da24248effa47c153261f9e139",
+        "bytesIdentical": true
+      },
+      {
+        "page": 160,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv240\\preflight-corinthians1\\Proofs\\page-160.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv240\\composed-corinthians1\\Proofs\\page-160.png",
+        "sha256": "098d64804e73db7695bc2ea3900733f0f585020478edd646be0081b26291d181",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

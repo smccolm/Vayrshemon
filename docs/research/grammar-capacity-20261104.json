@@ -1,0 +1,159 @@
+{
+  "reason": "1 Peter publication exceeded the former 2000 grammar-record ceiling before any checkpoint seal or Forge clone.",
+  "grammarLimitBefore": 2000,
+  "grammarLimitAfter": 10000,
+  "nativeEngineUnchanged": "0.15.31",
+  "layoutChanged": false,
+  "earlierHistoricalFilesChanged": false,
+  "tests": {
+    "passed": true,
+    "count": 6,
+    "seconds": 18.157,
+    "modules": [
+      "tests.test_language_grammar_capacity",
+      "tests.test_language_dictionary_capacity",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "contracts": [
+    {
+      "path": "schemas/file-document.schema.json",
+      "beforeSha256": "5389c0e4695aa1528cca938c447bace286ffa649ad49790600c37d2047570355",
+      "afterSha256": "7684731419a3b8f7043f3587c12d39569233aea03b3f840edd0129d1c53e9065",
+      "changedPaths": [
+        [
+          "oneOf",
+          0,
+          "properties",
+          "state",
+          "properties",
+          "language",
+          "properties",
+          "revisions",
+          "items",
+          "properties",
+          "collections",
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ]
+    },
+    {
+      "path": "schemas/language-document.schema.json",
+      "beforeSha256": "dad7822ef97902b3503f225db3df9f6b733b8f2e3777e8fa207f35bb2d5abf46",
+      "afterSha256": "fedc922b12e6c32f89d16022608e81cc7522a49b204c7034ccf79f59a118e954",
+      "changedPaths": [
+        [
+          "properties",
+          "state",
+          "properties",
+          "language",
+          "properties",
+          "revisions",
+          "items",
+          "properties",
+          "collections",
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ]
+    },
+    {
+      "path": "schemas/language-package.schema.json",
+      "beforeSha256": "6537e038641283993b5fc8fca31ffd8f493be91dbb6d875d060208a440e853b1",
+      "afterSha256": "a672403ad8c09d0394085785d654b0d91cbc83f1f8d731dd421050c28546ed49",
+      "changedPaths": [
+        [
+          "properties",
+          "data",
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ]
+    }
+  ],
+  "validationCacheMigration": {
+    "reason": "Only grammar maxItems relaxed from 2000 to 10000; every previously valid snapshot remains valid. Actual bytes are still rehashed on every export.",
+    "oldFingerprint": "b7a905413aa5d331303c3e13e1d436307167badaf0f50ca4be3f1371559254f0",
+    "newFingerprint": "7640e10bd3e00ce6069f5ea4f8af806f04de87af5ec85be94a9c2bc997b0195c",
+    "beforeCacheSha256": "bd57cf1efba19bba047cd5f33800d945de75e193d9c4a7b71f875584cc0fd343",
+    "afterCacheSha256": "43b45a7f14f3da0846b6ee03b3505a5c0686198e8410c432f43584e3005b19ed",
+    "beforeContractSha256": "63b12ed903fd098712593e8fe3978e33b9e3f112b819dfa4db89d01fcada6b29",
+    "afterContractSha256": "9f16b2d918c80baa069c71530ae8b12b153a0e14c9dea2d97d7a66ff9ec70d23",
+    "unchangedCommitReceipts": 307,
+    "unchangedSnapshotReceipts": 306,
+    "schemaRelaxationProof": {
+      "DATA": [
+        [
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ],
+      "REVISION": [
+        [
+          "properties",
+          "collections",
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ],
+      "LANGUAGE": [
+        [
+          "properties",
+          "revisions",
+          "items",
+          "properties",
+          "collections",
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ],
+      "PACKAGE": [
+        [
+          "properties",
+          "data",
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ],
+      "STATE": [
+        [
+          "properties",
+          "language",
+          "properties",
+          "revisions",
+          "items",
+          "properties",
+          "collections",
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ],
+      "DOCUMENT": [
+        [
+          "properties",
+          "state",
+          "properties",
+          "language",
+          "properties",
+          "revisions",
+          "items",
+          "properties",
+          "collections",
+          "properties",
+          "grammar",
+          "maxItems"
+        ]
+      ]
+    }
+  },
+  "firstPublishedGrammarCount": 2001
+}

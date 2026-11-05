@@ -1,0 +1,23 @@
+{
+  "version": "0.10-kjv.280",
+  "policy": "never-modernize",
+  "status": "Native-vocabulary correction with matrimonial alias repair; all source verses compiled; native verification recorded separately.",
+  "basePackage": "data/language/archaic-kjv-279",
+  "baseManifestSha256": "b58dcd98147df9f6695f19a6f04f43db76f713c2916c5652529dc3288e48f8d9",
+  "baseForgeHead": "db17b88fc4c48492f5b24d30deaee3ef7cb07adc4022853f53a006aff543471d",
+  "forgeHead": "da33601402a3abd548a0af36924599af837753740469d6b5c90dfdbbc687fa71",
+  "compilerPath": "data/language/archaic-kjv-280/compiler.py",
+  "compilerSha256": "c13064f6c2b119ec743c3fd9544526a0297f5bcee5458298c60c288aeff38bcb",
+  "compilerChange": "No compiler or paradigm change. Married and wedding derive from wed, not the inherited oath. Eight verse forms corrected on top of 279; the 278 and 279 language checkpoints remain unchanged.",
+  "files": {
+    "compiler.py": "c13064f6c2b119ec743c3fd9544526a0297f5bcee5458298c60c288aeff38bcb",
+    "coverage-summary.json": "4df6c024de06227958e3db06c4a29d0168c121e1d390a67363833de377212d66",
+    "grammar.md": "388ed7288c2cd421e4726ee2bd761971d4902726010267f6646f73f53e659c21",
+    "lexicon.json": "dbe8fdfde4dcc99ee9b2893a0e496f1a708b02243c9571549c9baab6a3e08656",
+    "matrimonial-corrections.json": "62544936f5840585c5d2150717c009fbb10009b51a2ac914176d047c869b0573",
+    "morphology.json": "e6c442af14857717ea8929ad749b710bffce7811b4ed95e1f7207b8f739f4b7d",
+    "native-correction-cases.json": "25716ebb4039573cc1ebbd7cfb989a737d57d0dde76dddbc1cd449b65b7a474d",
+    "native-corrections.json": "db781394dd84fd63070d50a89237960bfff4f9c5d696320916256edd0bbe16e1",
+    "orthography.json": "032da7c5ffd64f327a4237762bcf00dcaf990cff660c142a037600f7ac464591"
+  }
+}

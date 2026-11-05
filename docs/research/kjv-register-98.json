@@ -1,0 +1,1245 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.98",
+    "parentVersion": "0.10-kjv.97",
+    "parentHead": "e161ba884f6c4324a3d5fae8de89b1c1f0b4a143f32c8fca046b558c086827f5",
+    "head": "8993c78777597d421c59e35ce2cc3224ad4858bdc6d11a27861f237cfe96ce72",
+    "newLexicalEntries": 34,
+    "newProperEntries": 32,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 25,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 111,
+    "exactCompilerCases": 111,
+    "newAuthoredVerses": 111,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 197,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 18560,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newNehemiahVerses": 111,
+    "nehemiahVerses": 197,
+    "authoredVerses": 12542,
+    "remainingVerses": 18560,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 58,
+    "quantityChecks": [
+      {
+        "reference": "Nehemiah 5:11",
+        "source": "Restore, I pray you, to them, even this day, their lands, their vineyards, their oliveyards, and their houses, also the hundredth part of the money, and of the corn, the wine, and the oil, that ye exact of them.",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "Nehemiah 5:14",
+        "source": "Moreover from the time that I was appointed to be their governor in the land of Judah, from the twentieth year even unto the two and thirtieth year of Artaxerxes the king, that is, twelve years, I and my brethren have not eaten the bread of the governor.",
+        "expectedDecimalQuantities": [
+          20,
+          32,
+          12
+        ],
+        "targetQuantities": [
+          20,
+          32,
+          12
+        ]
+      },
+      {
+        "reference": "Nehemiah 5:15",
+        "source": "But the former governors that had been before me were chargeable unto the people, and had taken of them bread and wine, beside forty shekels of silver; yea, even their servants bare rule over the people: but so did not I, because of the fear of God.",
+        "expectedDecimalQuantities": [
+          40
+        ],
+        "targetQuantities": [
+          40
+        ]
+      },
+      {
+        "reference": "Nehemiah 5:17",
+        "source": "Moreover there were at my table an hundred and fifty of the Jews and rulers, beside those that came unto us from among the heathen that are about us.",
+        "expectedDecimalQuantities": [
+          150
+        ],
+        "targetQuantities": [
+          150
+        ]
+      },
+      {
+        "reference": "Nehemiah 5:18",
+        "source": "Now that which was prepared for me daily was one ox and six choice sheep; also fowls were prepared for me, and once in ten days store of all sorts of wine: yet for all this required not I the bread of the governor, because the bondage was heavy upon this people.",
+        "expectedDecimalQuantities": [
+          1,
+          6,
+          10
+        ],
+        "targetQuantities": [
+          1,
+          6,
+          10
+        ]
+      },
+      {
+        "reference": "Nehemiah 6:2",
+        "source": "That Sanballat and Geshem sent unto me, saying, Come, let us meet together in some one of the villages in the plain of Ono. But they thought to do me mischief.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Nehemiah 6:4",
+        "source": "Yet they sent unto me four times after this sort; and I answered them after the same manner.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "Nehemiah 6:5",
+        "source": "Then sent Sanballat his servant unto me in like manner the fifth time with an open letter in his hand;",
+        "expectedDecimalQuantities": [
+          5
+        ],
+        "targetQuantities": [
+          5
+        ]
+      },
+      {
+        "reference": "Nehemiah 6:15",
+        "source": "So the wall was finished in the twenty and fifth day of the month Elul, in fifty and two days.",
+        "expectedDecimalQuantities": [
+          25,
+          52
+        ],
+        "targetQuantities": [
+          25,
+          52
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:5",
+        "source": "And my God put into mine heart to gather together the nobles, and the rulers, and the people, that they might be reckoned by genealogy. And I found a register of the genealogy of them which came up at the first, and found written therein,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:8",
+        "source": "The children of Parosh, two thousand an hundred seventy and two.",
+        "expectedDecimalQuantities": [
+          2172
+        ],
+        "targetQuantities": [
+          2172
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:9",
+        "source": "The children of Shephatiah, three hundred seventy and two.",
+        "expectedDecimalQuantities": [
+          372
+        ],
+        "targetQuantities": [
+          372
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:10",
+        "source": "The children of Arah, six hundred fifty and two.",
+        "expectedDecimalQuantities": [
+          652
+        ],
+        "targetQuantities": [
+          652
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:11",
+        "source": "The children of Pahathmoab, of the children of Jeshua and Joab, two thousand and eight hundred and eighteen.",
+        "expectedDecimalQuantities": [
+          2818
+        ],
+        "targetQuantities": [
+          2818
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:12",
+        "source": "The children of Elam, a thousand two hundred fifty and four.",
+        "expectedDecimalQuantities": [
+          1254
+        ],
+        "targetQuantities": [
+          1254
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:13",
+        "source": "The children of Zattu, eight hundred forty and five.",
+        "expectedDecimalQuantities": [
+          845
+        ],
+        "targetQuantities": [
+          845
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:14",
+        "source": "The children of Zaccai, seven hundred and threescore.",
+        "expectedDecimalQuantities": [
+          760
+        ],
+        "targetQuantities": [
+          760
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:15",
+        "source": "The children of Binnui, six hundred forty and eight.",
+        "expectedDecimalQuantities": [
+          648
+        ],
+        "targetQuantities": [
+          648
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:16",
+        "source": "The children of Bebai, six hundred twenty and eight.",
+        "expectedDecimalQuantities": [
+          628
+        ],
+        "targetQuantities": [
+          628
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:17",
+        "source": "The children of Azgad, two thousand three hundred twenty and two.",
+        "expectedDecimalQuantities": [
+          2322
+        ],
+        "targetQuantities": [
+          2322
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:18",
+        "source": "The children of Adonikam, six hundred threescore and seven.",
+        "expectedDecimalQuantities": [
+          667
+        ],
+        "targetQuantities": [
+          667
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:19",
+        "source": "The children of Bigvai, two thousand threescore and seven.",
+        "expectedDecimalQuantities": [
+          2067
+        ],
+        "targetQuantities": [
+          2067
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:20",
+        "source": "The children of Adin, six hundred fifty and five.",
+        "expectedDecimalQuantities": [
+          655
+        ],
+        "targetQuantities": [
+          655
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:21",
+        "source": "The children of Ater of Hezekiah, ninety and eight.",
+        "expectedDecimalQuantities": [
+          98
+        ],
+        "targetQuantities": [
+          98
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:22",
+        "source": "The children of Hashum, three hundred twenty and eight.",
+        "expectedDecimalQuantities": [
+          328
+        ],
+        "targetQuantities": [
+          328
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:23",
+        "source": "The children of Bezai, three hundred twenty and four.",
+        "expectedDecimalQuantities": [
+          324
+        ],
+        "targetQuantities": [
+          324
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:24",
+        "source": "The children of Hariph, an hundred and twelve.",
+        "expectedDecimalQuantities": [
+          112
+        ],
+        "targetQuantities": [
+          112
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:25",
+        "source": "The children of Gibeon, ninety and five.",
+        "expectedDecimalQuantities": [
+          95
+        ],
+        "targetQuantities": [
+          95
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:26",
+        "source": "The men of Bethlehem and Netophah, an hundred fourscore and eight.",
+        "expectedDecimalQuantities": [
+          188
+        ],
+        "targetQuantities": [
+          188
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:27",
+        "source": "The men of Anathoth, an hundred twenty and eight.",
+        "expectedDecimalQuantities": [
+          128
+        ],
+        "targetQuantities": [
+          128
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:28",
+        "source": "The men of Bethazmaveth, forty and two.",
+        "expectedDecimalQuantities": [
+          42
+        ],
+        "targetQuantities": [
+          42
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:29",
+        "source": "The men of Kirjathjearim, Chephirah, and Beeroth, seven hundred forty and three.",
+        "expectedDecimalQuantities": [
+          743
+        ],
+        "targetQuantities": [
+          743
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:30",
+        "source": "The men of Ramah and Gaba, six hundred twenty and one.",
+        "expectedDecimalQuantities": [
+          621
+        ],
+        "targetQuantities": [
+          621
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:31",
+        "source": "The men of Michmas, an hundred and twenty and two.",
+        "expectedDecimalQuantities": [
+          122
+        ],
+        "targetQuantities": [
+          122
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:32",
+        "source": "The men of Bethel and Ai, an hundred twenty and three.",
+        "expectedDecimalQuantities": [
+          123
+        ],
+        "targetQuantities": [
+          123
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:33",
+        "source": "The men of the other Nebo, fifty and two.",
+        "expectedDecimalQuantities": [
+          52
+        ],
+        "targetQuantities": [
+          52
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:34",
+        "source": "The children of the other Elam, a thousand two hundred fifty and four.",
+        "expectedDecimalQuantities": [
+          1254
+        ],
+        "targetQuantities": [
+          1254
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:35",
+        "source": "The children of Harim, three hundred and twenty.",
+        "expectedDecimalQuantities": [
+          320
+        ],
+        "targetQuantities": [
+          320
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:36",
+        "source": "The children of Jericho, three hundred forty and five.",
+        "expectedDecimalQuantities": [
+          345
+        ],
+        "targetQuantities": [
+          345
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:37",
+        "source": "The children of Lod, Hadid, and Ono, seven hundred twenty and one.",
+        "expectedDecimalQuantities": [
+          721
+        ],
+        "targetQuantities": [
+          721
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:38",
+        "source": "The children of Senaah, three thousand nine hundred and thirty.",
+        "expectedDecimalQuantities": [
+          3930
+        ],
+        "targetQuantities": [
+          3930
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:39",
+        "source": "The priests: the children of Jedaiah, of the house of Jeshua, nine hundred seventy and three.",
+        "expectedDecimalQuantities": [
+          973
+        ],
+        "targetQuantities": [
+          973
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:40",
+        "source": "The children of Immer, a thousand fifty and two.",
+        "expectedDecimalQuantities": [
+          1052
+        ],
+        "targetQuantities": [
+          1052
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:41",
+        "source": "The children of Pashur, a thousand two hundred forty and seven.",
+        "expectedDecimalQuantities": [
+          1247
+        ],
+        "targetQuantities": [
+          1247
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:42",
+        "source": "The children of Harim, a thousand and seventeen.",
+        "expectedDecimalQuantities": [
+          1017
+        ],
+        "targetQuantities": [
+          1017
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:43",
+        "source": "The Levites: the children of Jeshua, of Kadmiel, and of the children of Hodevah, seventy and four.",
+        "expectedDecimalQuantities": [
+          74
+        ],
+        "targetQuantities": [
+          74
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:44",
+        "source": "The singers: the children of Asaph, an hundred forty and eight.",
+        "expectedDecimalQuantities": [
+          148
+        ],
+        "targetQuantities": [
+          148
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:45",
+        "source": "The porters: the children of Shallum, the children of Ater, the children of Talmon, the children of Akkub, the children of Hatita, the children of Shobai, an hundred thirty and eight.",
+        "expectedDecimalQuantities": [
+          138
+        ],
+        "targetQuantities": [
+          138
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:60",
+        "source": "All the Nethinims, and the children of Solomon’s servants, were three hundred ninety and two.",
+        "expectedDecimalQuantities": [
+          392
+        ],
+        "targetQuantities": [
+          392
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:62",
+        "source": "The children of Delaiah, the children of Tobiah, the children of Nekoda, six hundred forty and two.",
+        "expectedDecimalQuantities": [
+          642
+        ],
+        "targetQuantities": [
+          642
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:66",
+        "source": "The whole congregation together was forty and two thousand three hundred and threescore,",
+        "expectedDecimalQuantities": [
+          42360
+        ],
+        "targetQuantities": [
+          42360
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:67",
+        "source": "Beside their manservants and their maidservants, of whom there were seven thousand three hundred thirty and seven: and they had two hundred forty and five singing men and singing women.",
+        "expectedDecimalQuantities": [
+          7337,
+          245
+        ],
+        "targetQuantities": [
+          7337,
+          245
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:68",
+        "source": "Their horses, seven hundred thirty and six: their mules, two hundred forty and five:",
+        "expectedDecimalQuantities": [
+          736,
+          245
+        ],
+        "targetQuantities": [
+          736,
+          245
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:69",
+        "source": "Their camels, four hundred thirty and five: six thousand seven hundred and twenty asses.",
+        "expectedDecimalQuantities": [
+          435,
+          6720
+        ],
+        "targetQuantities": [
+          435,
+          6720
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:70",
+        "source": "And some of the chief of the fathers gave unto the work. The Tirshatha gave to the treasure a thousand drams of gold, fifty basons, five hundred and thirty priests’ garments.",
+        "expectedDecimalQuantities": [
+          1000,
+          50,
+          530
+        ],
+        "targetQuantities": [
+          1000,
+          50,
+          530
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:71",
+        "source": "And some of the chief of the fathers gave to the treasure of the work twenty thousand drams of gold, and two thousand and two hundred pound of silver.",
+        "expectedDecimalQuantities": [
+          20000,
+          2200
+        ],
+        "targetQuantities": [
+          20000,
+          2200
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:72",
+        "source": "And that which the rest of the people gave was twenty thousand drams of gold, and two thousand pound of silver, and threescore and seven priests’ garments.",
+        "expectedDecimalQuantities": [
+          20000,
+          2000,
+          67
+        ],
+        "targetQuantities": [
+          20000,
+          2000,
+          67
+        ]
+      },
+      {
+        "reference": "Nehemiah 7:73",
+        "source": "So the priests, and the Levites, and the porters, and the singers, and some of the people, and the Nethinims, and all Israel, dwelt in their cities; and when the seventh month came, the children of Israel were in their cities.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "5:1": [
+        "wife:pl against their/brother:pl kjv_jew:pl"
+      ],
+      "5:2": [
+        "wepl our/son:pl and our/daughter:pl many",
+        "wepl eat:may and live:may"
+      ],
+      "5:3": [
+        "our/land:pl kjv_vineyard:pl and house:pl:a kjv_mortgage:perf",
+        "kjv_famine"
+      ],
+      "5:4": [
+        "king:poss kjv_tribute",
+        "our/land:pl and kjv_vineyard:pl"
+      ],
+      "5:5": [
+        "our/flesh as flesh of our/brother:pl",
+        "our/son:pl and our/daughter:pl",
+        "already into kjv_bondservice",
+        "neither it in our/power",
+        "other man:pl"
+      ],
+      "5:6": [
+        "i very angry",
+        "i their/cry"
+      ],
+      "5:7": [
+        "with myself counsel:a take:pa",
+        "kjv_usury:a demand:pr",
+        "each of his/brother"
+      ],
+      "5:8": [
+        "wesg after ourone/ability",
+        "to wesg sell:psv:fu?",
+        "nothing:a to answer:inf"
+      ],
+      "5:9": [
+        "it good be:neg:pr",
+        "fear of ourone/god",
+        "walk:neg:should?"
+      ],
+      "5:10": [
+        "i likewise and my/brother:pl and my/servant:pl",
+        "wesg this kjv_usury:a"
+      ],
+      "5:11": [
+        "this day",
+        "their/kjv_oliveyard:pl",
+        "hundred:ord part",
+        "corn wine and oil"
+      ],
+      "5:12": [
+        "wesg they:a restore:fu",
+        "nothing of they require:fu",
+        "oath:a take:pa"
+      ],
+      "5:13": [
+        "my/kjv_garment_lap:a shake:pa",
+        "perform:neg:pr",
+        "amen",
+        "people kjv_according to this promise do:pa"
+      ],
+      "5:14": [
+        "twenty:ord year",
+        "thirty and two:ord year",
+        "twelve year:pl",
+        "eat:neg:perf"
+      ],
+      "5:15": [
+        "forty kjv_shekel:pl",
+        "their/servant:pl over people rule:pa",
+        "i so do:neg:pa"
+      ],
+      "5:16": [
+        "wepl any land:a buy:pa",
+        "all my/servant:pl"
+      ],
+      "5:17": [
+        "hundred and fifty",
+        "besides those who to wepl"
+      ],
+      "5:18": [
+        "one_num ox and six choice sheep",
+        "once in ten day:pl",
+        "require:neg:pa"
+      ],
+      "5:19": [
+        "my/god:excl",
+        "all that i for this people do:perf"
+      ],
+      "6:1": [
+        "remain:cv part of ourone/enemy:pl",
+        "no breach in it",
+        "door:pl:a upon gate:pl up set:neg:pp"
+      ],
+      "6:2": [
+        "wepl together in some one_num of village:pl",
+        "kjv_plain_land of kjv_ono",
+        "harm:a do:inf"
+      ],
+      "6:3": [
+        "i great work:a do:pr",
+        "why work cease:should"
+      ],
+      "6:4": [
+        "four time:pl",
+        "same manner"
+      ],
+      "6:5": [
+        "five:ord time",
+        "open letter in his/hand"
+      ],
+      "6:6": [
+        "kjv_gashmu",
+        "thou their/king be:may"
+      ],
+      "6:7": [
+        "prophet:pl:a appoint:perf",
+        "to king",
+        "wesg together counsel:a take:opt"
+      ],
+      "6:8": [
+        "no such thing:pl",
+        "thy/own heart feign:pr"
+      ],
+      "6:9": [
+        "wesg:a afraid",
+        "god:excl my/hand:pl:a strengthen:imp"
+      ],
+      "6:10": [
+        "kjv_shemaiah_delaiah son of kjv_delaiah_shemaiah son of kjv_mehetabeel",
+        "shut:psv:pr up",
+        "wepl door:pl",
+        "in night"
+      ],
+      "6:11": [
+        "such man as i flee:should?",
+        "i in go:neg:fu"
+      ],
+      "6:12": [
+        "god he:a send:neg:pp",
+        "kjv_prophesy:ev:a",
+        "kjv_tobiah_ammonite and kjv_sanballat he:a kjv_hire:pp"
+      ],
+      "6:13": [
+        "i afraid be:should and so do:should and sin:should",
+        "reason for evil report",
+        "kjv_reproach:a upon i"
+      ],
+      "6:14": [
+        "kjv_prophetess kjv_noadiah_prophetess",
+        "remain:cv part of prophet:pl"
+      ],
+      "6:15": [
+        "twenty and five:ord",
+        "kjv_elul",
+        "fifty and two day:pl"
+      ],
+      "6:16": [
+        "ourone/enemy:pl",
+        "their/own eye:pl",
+        "ourone/god"
+      ],
+      "6:17": [
+        "many letter:pl:a to kjv_tobiah_ammonite",
+        "letter:pl of kjv_tobiah_ammonite"
+      ],
+      "6:18": [
+        "kjv_shechaniah_arah son of kjv_arah_return",
+        "his/son kjv_johanan_tobiah",
+        "kjv_meshullam_wall son of kjv_berechiah_meshullam"
+      ],
+      "6:19": [
+        "his/good deed:pl",
+        "my/word:pl",
+        "to i:a in fear put:inf"
+      ],
+      "7:1": [
+        "i door:pl:a up set:pp",
+        "kjv_gatekeeper:pl and sing:ag:pl and kjv_levite:pl"
+      ],
+      "7:2": [
+        "my/brother kjv_hanani_nehemiah and kjv_hananiah_palace",
+        "he faithful man"
+      ],
+      "7:3": [
+        "until sun hot",
+        "while they by stand:pr",
+        "with bar:pl lock:opt",
+        "each opposite his/house"
+      ],
+      "7:4": [
+        "people in it few",
+        "house:pl build:psv:neg:pa"
+      ],
+      "7:5": [
+        "my/god in my/heart",
+        "by kjv_genealogy",
+        "i record:ev of kjv_genealogy"
+      ],
+      "7:6": [
+        "nebuchadnezzar king of kjv_babylon",
+        "each to his/city"
+      ],
+      "7:7": [
+        "kjv_azariah_return_roster kjv_raamiah kjv_nahamani",
+        "kjv_mispereth kjv_bigvai kjv_nehum",
+        "i say:pr"
+      ],
+      "7:60": [
+        "all kjv_nethinim:pl",
+        "servant:pl of kjv_solomon",
+        "kjv_three+hundred and nine+ten and two"
+      ],
+      "7:61": [
+        "kjv_telharesha",
+        "kjv_addon",
+        "show:neg:pa:can",
+        "whether they of kjv_israel"
+      ],
+      "7:63": [
+        "kjv_habaiah",
+        "kjv_koz_claimant",
+        "kjv_barzillai_claimant",
+        "after their/name"
+      ],
+      "7:64": [
+        "record:ev:a",
+        "find:psv:neg:pa",
+        "kjv_pollute_sacred:psv",
+        "kjv_priesthood"
+      ],
+      "7:65": [
+        "kjv_tirshatha",
+        "eat:neg:should",
+        "kjv_urim and kjv_thummim"
+      ],
+      "7:66": [
+        "forty+thousand and two+thousand and kjv_three+hundred and six+ten"
+      ],
+      "7:67": [
+        "their/servant:pl and their/maid:pl",
+        "seven+thousand and kjv_three+hundred and thirty and seven",
+        "two+hundred and forty and five"
+      ],
+      "7:68": [
+        "seven+hundred and thirty and six",
+        "two+hundred and forty and five"
+      ],
+      "7:69": [
+        "four+hundred and thirty and five",
+        "six+thousand and seven+hundred and twenty"
+      ],
+      "7:70": [
+        "kjv_tirshatha",
+        "thousand kjv_dram_treasure:pl",
+        "fifty kjv_basin:pl",
+        "five+hundred and thirty"
+      ],
+      "7:71": [
+        "twenty+thousand",
+        "two+thousand and two+hundred"
+      ],
+      "7:72": [
+        "remain:cv part",
+        "twenty+thousand",
+        "two+thousand",
+        "six+ten and seven"
+      ],
+      "7:73": [
+        "seven:ord month",
+        "in their/city:pl"
+      ],
+      "7:8": [
+        "child:pl of kjv_parosh"
+      ],
+      "7:9": [
+        "kjv_shephatiah_return"
+      ],
+      "7:10": [
+        "kjv_arah_return"
+      ],
+      "7:11": [
+        "kjv_pahathmoab of child:pl of kjv_jeshua_pahathmoab and kjv_joab_pahathmoab"
+      ],
+      "7:12": [
+        "kjv_elam_return"
+      ],
+      "7:13": [
+        "kjv_zattu"
+      ],
+      "7:14": [
+        "kjv_zaccai"
+      ],
+      "7:15": [
+        "kjv_binnui_return_family"
+      ],
+      "7:16": [
+        "kjv_bebai"
+      ],
+      "7:17": [
+        "kjv_azgad"
+      ],
+      "7:18": [
+        "kjv_adonikam"
+      ],
+      "7:19": [
+        "kjv_bigvai"
+      ],
+      "7:20": [
+        "kjv_adin"
+      ],
+      "7:21": [
+        "kjv_ater_hezekiah of kjv_hezekiah_ater"
+      ],
+      "7:22": [
+        "kjv_hashum"
+      ],
+      "7:23": [
+        "kjv_bezai"
+      ],
+      "7:24": [
+        "kjv_hariph"
+      ],
+      "7:25": [
+        "child:pl of kjv_gibeon"
+      ],
+      "7:26": [
+        "man:pl of kjv_bethlehem and kjv_netophah"
+      ],
+      "7:27": [
+        "man:pl of kjv_anathoth"
+      ],
+      "7:28": [
+        "kjv_bethazmaveth"
+      ],
+      "7:29": [
+        "kjv_kirjathjearim kjv_chephirah and kjv_beeroth"
+      ],
+      "7:30": [
+        "kjv_ramah and kjv_gaba"
+      ],
+      "7:31": [
+        "kjv_michmas"
+      ],
+      "7:32": [
+        "kjv_bethel and kjv_ai"
+      ],
+      "7:33": [
+        "other kjv_nebo_return"
+      ],
+      "7:34": [
+        "other kjv_elam_other"
+      ],
+      "7:35": [
+        "kjv_harim_return"
+      ],
+      "7:36": [
+        "child:pl of kjv_jericho"
+      ],
+      "7:37": [
+        "child:pl of kjv_lod kjv_hadid and kjv_ono"
+      ],
+      "7:38": [
+        "kjv_senaah"
+      ],
+      "7:39": [
+        "priest:pl",
+        "kjv_jedaiah_return_priest of house of kjv_jeshua_priest_house"
+      ],
+      "7:40": [
+        "kjv_immer_return_priest"
+      ],
+      "7:41": [
+        "kjv_pashur_return_priest"
+      ],
+      "7:42": [
+        "kjv_harim_return_priest"
+      ],
+      "7:43": [
+        "kjv_levite:pl",
+        "kjv_hodevah"
+      ],
+      "7:44": [
+        "sing:ag:pl",
+        "kjv_asaph_singer"
+      ],
+      "7:45": [
+        "kjv_gatekeeper:pl",
+        "kjv_shallum_porter_return",
+        "kjv_ater_porter",
+        "kjv_talmon_return",
+        "kjv_akkub_porter_return",
+        "kjv_hatita",
+        "kjv_shobai"
+      ],
+      "7:46": [
+        "kjv_nethinim:pl",
+        "kjv_ziha",
+        "kjv_hashupha",
+        "kjv_tabbaoth"
+      ],
+      "7:47": [
+        "kjv_keros",
+        "kjv_sia",
+        "kjv_padon"
+      ],
+      "7:48": [
+        "kjv_lebana",
+        "kjv_hagaba",
+        "kjv_shalmai"
+      ],
+      "7:49": [
+        "kjv_hanan_nethinim",
+        "kjv_giddel_nethinim",
+        "kjv_gahar"
+      ],
+      "7:50": [
+        "kjv_reaiah_nethinim",
+        "kjv_rezin_nethinim",
+        "kjv_nekoda_nethinim"
+      ],
+      "7:51": [
+        "kjv_gazzam",
+        "kjv_uzza_nethinim",
+        "kjv_phaseah"
+      ],
+      "7:52": [
+        "kjv_besai",
+        "kjv_meunim_return",
+        "kjv_nephishesim"
+      ],
+      "7:53": [
+        "kjv_bakbuk",
+        "kjv_hakupha",
+        "kjv_harhur"
+      ],
+      "7:54": [
+        "kjv_bazlith",
+        "kjv_mehida",
+        "kjv_harsha"
+      ],
+      "7:55": [
+        "kjv_barkos",
+        "kjv_sisera_nethinim",
+        "kjv_tamah"
+      ],
+      "7:56": [
+        "kjv_neziah",
+        "kjv_hatipha"
+      ],
+      "7:57": [
+        "servant:pl of kjv_solomon",
+        "kjv_sotai",
+        "kjv_sophereth",
+        "kjv_perida"
+      ],
+      "7:58": [
+        "kjv_jaala",
+        "kjv_darkon",
+        "kjv_giddel_solomon"
+      ],
+      "7:59": [
+        "kjv_shephatiah_solomon",
+        "kjv_hattil",
+        "kjv_pochereth of kjv_zebaim",
+        "kjv_amon_solomon_servants"
+      ],
+      "7:62": [
+        "kjv_delaiah_descent",
+        "kjv_tobiah_descent",
+        "kjv_nekoda_descent"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "5:10",
+        "5:11",
+        "5:12",
+        "5:13",
+        "5:14",
+        "5:15",
+        "5:16",
+        "5:18",
+        "5:19",
+        "5:6",
+        "5:7",
+        "5:8",
+        "5:9",
+        "6:1",
+        "6:10",
+        "6:11",
+        "6:12",
+        "6:13",
+        "6:14",
+        "6:19",
+        "6:2",
+        "6:3",
+        "6:4",
+        "6:5",
+        "6:8",
+        "7:1",
+        "7:2",
+        "7:3",
+        "7:5",
+        "7:7"
+      ],
+      "ipl": [],
+      "mypl": [],
+      "iplself": [],
+      "wesg": [
+        "5:10",
+        "5:12",
+        "5:8",
+        "6:16",
+        "6:7",
+        "6:9"
+      ],
+      "wepl": [
+        "5:16",
+        "5:17",
+        "5:2",
+        "5:3",
+        "5:4",
+        "5:5",
+        "6:10",
+        "6:2"
+      ],
+      "ourone": [
+        "5:8",
+        "5:9",
+        "6:1",
+        "6:16"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Hundredthpart expresses1/100byordinal100-plus-part;no paymentperiod invented. Years20to32explicitlytwelveyears;40shekels,150attable,1ox/6sheepdailyandwineoncein10days.",
+      "Onevillage,fourmessagesandfifthopenletter;Elulday25and52elapseddays are distinct.",
+      "EveryNehemiah7count independentlychecked againstthisregister,notcopiedfromEzra. Includes2818Pahathmoab,845Zattu,648Binnui,2322Azgad,148singers,138gatekeepers,642disputeddescent and245singingmen/women.",
+      "Grandtotal42360,servants7337,animals736/245/435/6720;donations1000gold/50basins/530garments,20000gold/2200silver,and20000gold/2000silver/67garments;month7."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Multiplefamilies andbodies useordinaryplural;commonredemption andpromises use singular-we;personalgovernor remains personal-I. No royalself inserted merely becauseheholdsoffice.",
+      "Internalenslavement,hostilecharges,kinshipties,recordvariants andunreconciledtotals remain explicit.",
+      "Inheritedtargets,priorseals andJonah unchanged;wholeBibleincomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Nehemiah — incomplete Bible working text",
+    "pages": 132,
+    "spreads": 66,
+    "units": 197,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "f37f1c9448680352784a747f670f6dd243e689b5512c3b63b09edf06f7b8a2cf",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 66,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.461,
+    "modules": [
+      "tests.test_kjv_nehemiah_debt_registers",
+      "tests.test_kjv_nehemiah_wall_body",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    131,
+    132
+  ],
+  "status": "incompleteBible;Nehemiah1–7sectioncheckpointverified"
+}

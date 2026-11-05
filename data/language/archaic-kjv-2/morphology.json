@@ -1,0 +1,462 @@
+{
+  "suffixes": {
+    "n": [
+      "lÉy",
+      "nom."
+    ],
+    "a": [
+      "get",
+      "acc."
+    ],
+    "d": [
+      "el",
+      "dat."
+    ],
+    "g": [
+      "’i",
+      "gen."
+    ],
+    "m": [
+      "’mç",
+      "mod."
+    ],
+    "adv": [
+      "’ëw",
+      "adv."
+    ],
+    "pr": [
+      "owya",
+      "prs."
+    ],
+    "pa": [
+      "izya",
+      "pst."
+    ],
+    "fu": [
+      "atya",
+      "fut."
+    ],
+    "perf": [
+      "owfu",
+      "prs.pf."
+    ],
+    "pp": [
+      "izfu",
+      "pst.pf."
+    ],
+    "fp": [
+      "atfu",
+      "fut.pf."
+    ],
+    "prog": [
+      "owam",
+      "prs.prog."
+    ],
+    "pprog": [
+      "izam",
+      "pst.prog."
+    ],
+    "imp": [
+      "e",
+      "imp."
+    ],
+    "inf": [
+      "’en",
+      "inf."
+    ],
+    "cv": [
+      "’es",
+      "cv."
+    ],
+    "psv": [
+      "im",
+      "pass."
+    ],
+    "caus": [
+      "ar",
+      "caus."
+    ],
+    "rec": [
+      "il",
+      "recp."
+    ],
+    "refl": [
+      "ir",
+      "refl."
+    ],
+    "opt": [
+      "’ne",
+      "opt."
+    ],
+    "cond": [
+      "’ve",
+      "irr."
+    ],
+    "abl": [
+      "’tha",
+      "abl."
+    ],
+    "loc": [
+      "’ni",
+      "loc."
+    ],
+    "all": [
+      "’ra",
+      "all."
+    ],
+    "ins": [
+      "’rin",
+      "ins."
+    ],
+    "pl": [
+      "un",
+      "pl."
+    ],
+    "du": [
+      "et",
+      "du."
+    ],
+    "dim": [
+      "in",
+      "dim."
+    ],
+    "aug": [
+      "or",
+      "aug."
+    ],
+    "ag": [
+      "sßlum",
+      "agt."
+    ],
+    "adj": [
+      "’na",
+      "adj."
+    ],
+    "ord": [
+      "’t",
+      "ord."
+    ],
+    "poss": [
+      "’i",
+      "poss."
+    ],
+    "may": [
+      "’lah",
+      "possib."
+    ],
+    "can": [
+      "’jwën",
+      "abil."
+    ],
+    "must": [
+      "’jor",
+      "necess."
+    ],
+    "should": [
+      "’jorin",
+      "expect."
+    ],
+    "gn": [
+      "ya",
+      "prs.simple."
+    ],
+    "cvds": [
+      "’esta",
+      "cv.ds."
+    ],
+    "juss": [
+      "’rai",
+      "rit.juss."
+    ],
+    "rep": [
+      "’vë",
+      "rep."
+    ],
+    "app": [
+      "’sëm",
+      "appr."
+    ],
+    "excl": [
+      "’hÅ",
+      "excl."
+    ]
+  },
+  "prefixes": {
+    "th": [
+      "gßÑet’",
+      "th."
+    ],
+    "ev": [
+      "ef’",
+      "nmlz."
+    ],
+    "q": [
+      "not’",
+      "qual."
+    ],
+    "neg": [
+      "ma’",
+      "neg."
+    ]
+  },
+  "possessors": {
+    "my": "i",
+    "your": "you",
+    "thy": "thou",
+    "his": "he",
+    "her": "she",
+    "our": "we",
+    "their": "they",
+    "its": "it"
+  },
+  "glosses": {
+    "i": "I(sg.)",
+    "we": "we(coll./royal)",
+    "wepl": "we(pl.)",
+    "you": "you(pol./pl.)",
+    "thou": "you(fam.sg.)",
+    "thee": "you(fam.sg.)",
+    "he": "he(sg.)",
+    "she": "she(sg.)",
+    "they": "they(pl.)",
+    "it": "it",
+    "one": "one(person)",
+    "one_num": "one",
+    "mortal_legacy": "mortal(legacy)",
+    "bar_obstruct": "bar(obstruct)",
+    "kjv_god": "god{above-owner}",
+    "kjv_lord": "LORD{name-lord}",
+    "kjv_favor": "gracious{gift-good}",
+    "kjv_mercy": "mercy{harm-back}",
+    "kjv_relent": "relent{intention-back-turn}",
+    "kjv_calamity": "calamity{bad-event}",
+    "kjv_soul": "soul{life-self}",
+    "kjv_hell": "hell{burial-inside}",
+    "kjv_pray": "pray{above-ask}",
+    "kjv_sacrifice": "sacrifice{cut-gift}",
+    "kjv_temple": "temple{apart-house}",
+    "kjv_false_vanity": "lying-vanity{false-empty}",
+    "kjv_three": "three",
+    "kjv_second": "second",
+    "kjv_fish": "fish",
+    "kjv_sailor": "mariner{sea-worker}",
+    "kjv_shipmaster": "ship-master",
+    "kjv_lot": "lot{chance-token}",
+    "kjv_fare": "fare{travel-pay}",
+    "kjv_swallow": "swallow{inside-eat}",
+    "kjv_vomit": "vomit{out-mouth-cast}",
+    "kjv_gourd": "gourd{shade-plant}",
+    "kjv_fast": "fast{not-eat}",
+    "kjv_sackcloth": "sackcloth{bag-cloth}",
+    "kjv_ashes": "ashes{fire-dust}",
+    "kjv_violence": "violence{force-harm}",
+    "kjv_row": "row{oar-draw}",
+    "kjv_calm": "calm{rage-cease}",
+    "kjv_wave": "wave{water-rise}",
+    "kjv_billow": "billow{great-wave}",
+    "kjv_seaweed": "weed{sea-plant}",
+    "kjv_right_side": "right-side",
+    "kjv_score": "score[20]",
+    "kjv_livestock": "cattle{house-beast}",
+    "kjv_booth": "booth{shade-house}",
+    "kjv_wither": "wither{dry-die}",
+    "kjv_lighten": "lighten{load-lessen}",
+    "kjv_kindness": "kindness{good-give}",
+    "kjv_overthrow": "overthrow{down-cast}",
+    "kjv_jonah": "Jonah",
+    "kjv_amittai": "Amittai",
+    "kjv_nineveh": "Nineveh",
+    "kjv_tarshish": "Tarshish",
+    "kjv_joppa": "Joppa",
+    "kjv_hebrew": "Hebrew",
+    "kjv_heaven": "heaven{above-region}",
+    "kjv_firmament": "firmament{fixed-stretch}",
+    "kjv_multiply": "multiply{many-become}",
+    "kjv_fruitful": "fruitful{fruit-bear}",
+    "kjv_mist": "mist{water-cloud}",
+    "kjv_nostril": "nostril{nose-hole}",
+    "kjv_rib": "rib{side-bone}",
+    "kjv_headwater": "river-head",
+    "kjv_bdellium": "bdellium",
+    "kjv_onyx": "onyx",
+    "kjv_cherub": "cherub",
+    "kjv_seedline": "seed{descendants}",
+    "kjv_bless": "bless{word-good-give}",
+    "kjv_hallow": "hallow{apart-reserve}",
+    "kjv_generations": "generations{origin-account}",
+    "kjv_sew": "sew{needle-join}",
+    "kjv_apron": "apron{front-cover}",
+    "kjv_enmity": "enmity{enemy-bond}",
+    "kjv_conception": "conception{womb-begin}",
+    "kjv_tree": "tree",
+    "kjv_male": "male",
+    "kjv_garden": "garden{grow-enclosure}",
+    "kjv_cling": "cleave{hold-near}",
+    "kjv_bruise": "bruise{hit-harm}",
+    "kjv_carnal_know": "know{flesh-know}",
+    "kjv_conceive": "conceive{womb-begin}",
+    "kjv_firstling": "firstling",
+    "kjv_harp": "harp{string-music}",
+    "kjv_pipe": "organ{breath-music}",
+    "kjv_bronze": "brass{yellow-metal}",
+    "kjv_iron": "iron",
+    "kjv_offering": "offering",
+    "kjv_punishment": "punishment",
+    "kjv_fat": "fat",
+    "kjv_regret_made": "regret{back-heart-pain}",
+    "kjv_flood_ark": "ark{chest-ship}",
+    "kjv_gopher": "gopher",
+    "kjv_cubit": "cubit",
+    "kjv_covenant": "covenant{bond-word}",
+    "kjv_fountain": "fountain{water-mouth}",
+    "kjv_storey": "storey",
+    "kjv_olive": "olive",
+    "kjv_sole": "sole{foot-bottom}",
+    "kjv_shoulder": "shoulder{arm-top}",
+    "kjv_vineyard": "vineyard{grape-field}",
+    "kjv_bow": "bow{arched-string}",
+    "kjv_altar": "altar{cut-gift-table}",
+    "kjv_ararat": "Ararat",
+    "kjv_canaan": "Canaan",
+    "kjv_isle": "isle{sea-land}",
+    "kjv_brick": "brick{earth-fire-stone}",
+    "kjv_bitumen": "slime{bitumen}",
+    "kjv_mortar": "mortar{stone-join}",
+    "kjv_barren": "barren{offspring-without}",
+    "kjv_family": "family{kin-group}",
+    "kjv_tower": "tower{high-house}",
+    "kjv_gomer": "Gomer",
+    "kjv_magog": "Magog",
+    "kjv_madai": "Madai",
+    "kjv_javan": "Javan",
+    "kjv_tubal": "Tubal",
+    "kjv_meshech": "Meshech",
+    "kjv_tiras": "Tiras",
+    "kjv_ashkenaz": "Ashkenaz",
+    "kjv_riphath": "Riphath",
+    "kjv_togarmah": "Togarmah",
+    "kjv_elishah": "Elishah",
+    "kjv_kittim": "Kittim",
+    "kjv_dodanim": "Dodanim",
+    "kjv_cush": "Cush",
+    "kjv_mizraim": "Mizraim",
+    "kjv_phut": "Phut",
+    "kjv_seba": "Seba",
+    "kjv_sabtah": "Sabtah",
+    "kjv_raamah": "Raamah",
+    "kjv_sabtechah": "Sabtechah",
+    "kjv_sheba": "Sheba",
+    "kjv_dedan": "Dedan",
+    "kjv_nimrod": "Nimrod",
+    "kjv_babel": "Babel",
+    "kjv_erech": "Erech",
+    "kjv_accad": "Accad",
+    "kjv_calneh": "Calneh",
+    "kjv_shinar": "Shinar",
+    "kjv_asshur": "Asshur",
+    "kjv_rehoboth": "Rehoboth",
+    "kjv_calah": "Calah",
+    "kjv_resen": "Resen",
+    "kjv_ludim": "Ludim",
+    "kjv_anamim": "Anamim",
+    "kjv_lehabim": "Lehabim",
+    "kjv_naphtuhim": "Naphtuhim",
+    "kjv_pathrusim": "Pathrusim",
+    "kjv_casluhim": "Casluhim",
+    "kjv_philistim": "Philistim",
+    "kjv_caphtorim": "Caphtorim",
+    "kjv_sidon": "Sidon",
+    "kjv_heth": "Heth",
+    "kjv_jebusite": "Jebusite",
+    "kjv_amorite": "Amorite",
+    "kjv_girgasite": "Girgasite",
+    "kjv_hivite": "Hivite",
+    "kjv_arkite": "Arkite",
+    "kjv_sinite": "Sinite",
+    "kjv_arvadite": "Arvadite",
+    "kjv_zemarite": "Zemarite",
+    "kjv_hamathite": "Hamathite",
+    "kjv_canaanite": "Canaanite",
+    "kjv_gerar": "Gerar",
+    "kjv_gaza": "Gaza",
+    "kjv_sodom": "Sodom",
+    "kjv_gomorrah": "Gomorrah",
+    "kjv_admah": "Admah",
+    "kjv_zeboim": "Zeboim",
+    "kjv_lasha": "Lasha",
+    "kjv_eber": "Eber",
+    "kjv_elam": "Elam",
+    "kjv_arphaxad": "Arphaxad",
+    "kjv_lud": "Lud",
+    "kjv_aram": "Aram",
+    "kjv_uz": "Uz",
+    "kjv_hul": "Hul",
+    "kjv_gether": "Gether",
+    "kjv_mash": "Mash",
+    "kjv_salah": "Salah",
+    "kjv_peleg": "Peleg",
+    "kjv_joktan": "Joktan",
+    "kjv_almodad": "Almodad",
+    "kjv_sheleph": "Sheleph",
+    "kjv_hazarmaveth": "Hazarmaveth",
+    "kjv_jerah": "Jerah",
+    "kjv_hadoram": "Hadoram",
+    "kjv_uzal": "Uzal",
+    "kjv_diklah": "Diklah",
+    "kjv_obal": "Obal",
+    "kjv_abimael": "Abimael",
+    "kjv_ophir": "Ophir",
+    "kjv_jobab": "Jobab",
+    "kjv_mesha": "Mesha",
+    "kjv_sephar": "Sephar",
+    "kjv_reu": "Reu",
+    "kjv_serug": "Serug",
+    "kjv_nahor": "Nahor",
+    "kjv_terah": "Terah",
+    "kjv_abram": "Abram",
+    "kjv_haran": "Haran",
+    "kjv_lot_person": "Lot",
+    "kjv_ur": "Ur",
+    "kjv_chaldees": "Chaldees",
+    "kjv_sarai": "Sarai",
+    "kjv_milcah": "Milcah",
+    "kjv_iscah": "Iscah",
+    "kjv_haran_place": "Haran[place]",
+    "kjv_havilah_person": "Havilah",
+    "kjv_tarshish_person": "Tarshish",
+    "kjv_cain": "Cain",
+    "kjv_abel": "Abel",
+    "kjv_nod": "Nod",
+    "kjv_enoch": "Enoch",
+    "kjv_irad": "Irad",
+    "kjv_mehujael": "Mehujael",
+    "kjv_methusael": "Methusael",
+    "kjv_lamech": "Lamech",
+    "kjv_adah": "Adah",
+    "kjv_zillah": "Zillah",
+    "kjv_jabal": "Jabal",
+    "kjv_jubal": "Jubal",
+    "kjv_tubalcain": "Tubalcain",
+    "kjv_naamah": "Naamah",
+    "kjv_seth": "Seth",
+    "kjv_enos": "Enos",
+    "kjv_cainan": "Cainan",
+    "kjv_mahalaleel": "Mahalaleel",
+    "kjv_jared": "Jared",
+    "kjv_methuselah": "Methuselah",
+    "kjv_noah": "Noah",
+    "kjv_shem": "Shem",
+    "kjv_ham": "Ham",
+    "kjv_japheth": "Japheth",
+    "kjv_adam": "Adam",
+    "kjv_eve": "Eve",
+    "kjv_eden": "Eden",
+    "kjv_pison": "Pison",
+    "kjv_havilah": "Havilah",
+    "kjv_gihon": "Gihon",
+    "kjv_ethiopia": "Ethiopia",
+    "kjv_hiddekel": "Hiddekel",
+    "kjv_assyria": "Assyria",
+    "kjv_euphrates": "Euphrates"
+  }
+}

@@ -1,0 +1,1296 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.132",
+    "parentVersion": "0.10-kjv.131",
+    "parentHead": "82965786cb71eb7288a9be8c264f69afd2e560080bd3d390773b7e8a299ec387",
+    "head": "884750e2ccf021df2a7d5e18c46c1d6b91de3f9ace5537d7e17a3f0eb85ff0ee",
+    "newLexicalEntries": 20,
+    "newProperEntries": 12,
+    "newCommonEntries": 8,
+    "newSurfaceForms": 17,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 124,
+    "exactCompilerCases": 124,
+    "newAuthoredVerses": 123,
+    "revisedPreviousTargetVerses": 1,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 375,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 13024,
+    "status": "incomplete",
+    "metadataCorrections": [],
+    "contextualRepairs": [
+      {
+        "reference": "Proverbs 26:2",
+        "book": "Proverbs",
+        "ref": "26:2",
+        "beforeAnalysis": "as bird by wander:ev as kjv_swallow by fly:ev thus curse without cause come:neg:fu.",
+        "afterAnalysis": "as bird by wander:ev as kjv_swallow_bird by fly:ev thus curse without cause come:neg:fu.",
+        "beforeText": "Kãm wil Ëers ef’mårmaser kãm niwem Ëers ef’vÝláw kom murenÉlmven marin hë ma’tçlatya.",
+        "afterText": "Kãm wil Ëers ef’mårmaser kãm swalow Ëers ef’vÝláw kom murenÉlmven marin hë ma’tçlatya.",
+        "beforeGloss": "as · bird · by · wander(nmlz.) · as · swallow{inside-eat} · by · fly(nmlz.) · thus · curse · without · cause · come(neg.,fut.).",
+        "afterGloss": "as · bird · by · wander(nmlz.) · as · swallow-bird · by · fly(nmlz.) · thus · curse · without · cause · come(neg.,fut.).",
+        "reason": "Source flying swallow is a bird; inherited lexical sense already available."
+      }
+    ]
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newIsaiahVerses": 123,
+    "isaiahVerses": 375,
+    "authoredVerses": 18078,
+    "remainingVerses": 13024,
+    "originalSourceHashUnchanged": true,
+    "allEarlierSealsUnchanged": true,
+    "allPreviousTargetsUnchanged": false,
+    "revisedPreviousTargetVerses": 1,
+    "contextualRepairs": [
+      {
+        "reference": "Proverbs 26:2",
+        "book": "Proverbs",
+        "ref": "26:2",
+        "beforeAnalysis": "as bird by wander:ev as kjv_swallow by fly:ev thus curse without cause come:neg:fu.",
+        "afterAnalysis": "as bird by wander:ev as kjv_swallow_bird by fly:ev thus curse without cause come:neg:fu.",
+        "beforeText": "Kãm wil Ëers ef’mårmaser kãm niwem Ëers ef’vÝláw kom murenÉlmven marin hë ma’tçlatya.",
+        "afterText": "Kãm wil Ëers ef’mårmaser kãm swalow Ëers ef’vÝláw kom murenÉlmven marin hë ma’tçlatya.",
+        "beforeGloss": "as · bird · by · wander(nmlz.) · as · swallow{inside-eat} · by · fly(nmlz.) · thus · curse · without · cause · come(neg.,fut.).",
+        "afterGloss": "as · bird · by · wander(nmlz.) · as · swallow-bird · by · fly(nmlz.) · thus · curse · without · cause · come(neg.,fut.).",
+        "reason": "Source flying swallow is a bird; inherited lexical sense already available."
+      }
+    ],
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "Isaiah 15:5",
+        "source": "My heart shall cry out for Moab; his fugitives shall flee unto Zoar, an heifer of three years old: for by the mounting up of Luhith with weeping shall they go it up; for in the way of Horonaim they shall raise up a cry of destruction.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Isaiah 16:14",
+        "source": "But now the LORD hath spoken, saying, Within three years, as the years of an hireling, and the glory of Moab shall be contemned, with all that great multitude; and the remnant shall be very small and feeble.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "Isaiah 17:6",
+        "source": "Yet gleaning grapes shall be left in it, as the shaking of an olive tree, two or three berries in the top of the uppermost bough, four or five in the outmost fruitful branches thereof, saith the LORD God of Israel.",
+        "expectedDecimalQuantities": [
+          2,
+          3,
+          4,
+          5
+        ],
+        "targetQuantities": [
+          2,
+          3,
+          4,
+          5
+        ]
+      },
+      {
+        "reference": "Isaiah 19:18",
+        "source": "In that day shall five cities in the land of Egypt speak the language of Canaan, and swear to the LORD of hosts; one shall be called, The city of destruction.",
+        "expectedDecimalQuantities": [
+          5,
+          1
+        ],
+        "targetQuantities": [
+          5,
+          1
+        ]
+      },
+      {
+        "reference": "Isaiah 19:24",
+        "source": "In that day shall Israel be the third with Egypt and with Assyria, even a blessing in the midst of the land:",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "13:1": [
+        "kjv_babylon",
+        "kjv_isaiah",
+        "kjv_amoz",
+        "see:pa"
+      ],
+      "13:2": [
+        "banner:a",
+        "voice:a",
+        "hand:a",
+        "gate:pl"
+      ],
+      "13:3": [
+        "ipl",
+        "mypl/sanctify:psv:adj",
+        "mypl/mighty",
+        "mypl/anger"
+      ],
+      "13:4": [
+        "kjv_tumult:adj",
+        "nation:pl",
+        "muster:pr"
+      ],
+      "13:5": [
+        "end of heaven",
+        "weapon:pl",
+        "whole land:a"
+      ],
+      "13:6": [
+        "howl:imp",
+        "near be:pr",
+        "kjv_almighty"
+      ],
+      "13:7": [
+        "all hand:pl",
+        "every human heart",
+        "melt:fu"
+      ],
+      "13:8": [
+        "kjv_travail:pr",
+        "each at another",
+        "flame:pl"
+      ],
+      "13:9": [
+        "cruel",
+        "wrath",
+        "sin:ag:pl:a",
+        "destroy:fu"
+      ],
+      "13:10": [
+        "kjv_constellation:pl",
+        "give:neg:fu",
+        "shine:caus:neg:fu"
+      ],
+      "13:11": [
+        "ipl world:a",
+        "their/evil",
+        "cease:caus:fu"
+      ],
+      "13:12": [
+        "precious",
+        "fine gold",
+        "kjv_wedge",
+        "kjv_ophir"
+      ],
+      "13:13": [
+        "ipl heaven:pl:a",
+        "her/place",
+        "his/fierce anger"
+      ],
+      "13:14": [
+        "kjv_roe",
+        "sheep",
+        "each human",
+        "his/own land"
+      ],
+      "13:15": [
+        "find:psv:pr",
+        "join:psv:pr",
+        "sword fall:fu"
+      ],
+      "13:16": [
+        "child:pl",
+        "kjv_dash_impact:psv:fu",
+        "rape:psv:fu"
+      ],
+      "13:17": [
+        "ipl kjv_mede:pl:a",
+        "silver:a regard:neg:fu",
+        "delight:neg:fu"
+      ],
+      "13:18": [
+        "bow:pl",
+        "fruit of womb",
+        "spare:neg:fu"
+      ],
+      "13:19": [
+        "kjv_babylon",
+        "kjv_sodom:a",
+        "kjv_gomorrah:a",
+        "kjv_overthrow:pa"
+      ],
+      "13:20": [
+        "never inhabit:psv:fu",
+        "kjv_arabian",
+        "sheepfold:a"
+      ],
+      "13:21": [
+        "mourn:adj creature:pl",
+        "owl:pl",
+        "kjv_satyr:pl",
+        "dance:fu"
+      ],
+      "13:22": [
+        "kjv_isle:pl",
+        "kjv_dragon_creature:pl",
+        "long make:psv:neg:fu"
+      ],
+      "14:1": [
+        "kjv_jacob",
+        "kjv_israel:a choose:fu",
+        "stranger:pl",
+        "kjv_cling:fu"
+      ],
+      "14:2": [
+        "servant:pl",
+        "kjv_handmaid:pl",
+        "whose captive:pl",
+        "oppress:ag:pl"
+      ],
+      "14:3": [
+        "thy/sorrow",
+        "thy/fear",
+        "serve:caus:psv:pa"
+      ],
+      "14:4": [
+        "king of kjv_babylon",
+        "proverb:a",
+        "cease:perf:excl"
+      ],
+      "14:5": [
+        "staff:a",
+        "sceptre:a",
+        "break:perf"
+      ],
+      "14:6": [
+        "continue:adj strike:ev",
+        "persecute:psv:pr",
+        "none hinder:pr"
+      ],
+      "14:7": [
+        "whole earth",
+        "quiet",
+        "sing:ev"
+      ],
+      "14:8": [
+        "kjv_fir",
+        "kjv_cedar:pl",
+        "fell:ag",
+        "against wesg"
+      ],
+      "14:9": [
+        "kjv_hell_depth",
+        "dead:a",
+        "chief human:pl",
+        "throne:pl"
+      ],
+      "14:10": [
+        "weak as wesg",
+        "like wesg",
+        "become:perf?"
+      ],
+      "14:11": [
+        "thy/pomp",
+        "kjv_viol:pl",
+        "worm under",
+        "worm:pl"
+      ],
+      "14:12": [
+        "kjv_lucifer",
+        "son of morning:excl",
+        "weak:caus:pa:excl"
+      ],
+      "14:13": [
+        "i into heaven",
+        "my/throne:a",
+        "kjv_congregation",
+        "kjv_north"
+      ],
+      "14:14": [
+        "i above",
+        "i like most high be:fu"
+      ],
+      "14:15": [
+        "kjv_hell_depth",
+        "kjv_pit",
+        "down bring:psv:fu"
+      ],
+      "14:16": [
+        "closely",
+        "this human",
+        "tremble:caus:pa",
+        "shake:pa"
+      ],
+      "14:17": [
+        "kjv_wilderness",
+        "city:pl:a destroy:pa",
+        "kjv_prisoner:pl open:neg:pa"
+      ],
+      "14:18": [
+        "even all of they",
+        "lie:pr",
+        "each in his/own house"
+      ],
+      "14:19": [
+        "kjv_abomination:adj branch",
+        "clothing of slain",
+        "kjv_corpse"
+      ],
+      "14:20": [
+        "burial join:psv:neg:fu",
+        "thy/land:a destroy:perf",
+        "never of renown"
+      ],
+      "14:21": [
+        "kjv_slaughter:a",
+        "their/father:pl",
+        "rise:neg:pr",
+        "nor land:a",
+        "nor face:a"
+      ],
+      "14:22": [
+        "ipl",
+        "kjv_nephew_descendant:a",
+        "kjv_lord say:pr"
+      ],
+      "14:23": [
+        "kjv_bittern",
+        "kjv_pool:pl",
+        "broom of destroy:ev"
+      ],
+      "14:24": [
+        "swear:perf",
+        "ipl think:perf",
+        "ipl purpose:perf"
+      ],
+      "14:25": [
+        "mypl/land",
+        "mypl/mountain:pl",
+        "his/yoke",
+        "kjv_shoulder:pl"
+      ],
+      "14:26": [
+        "whole earth",
+        "purpose:psv:pr",
+        "all nation:pl"
+      ],
+      "14:27": [
+        "who it:a kjv_annul:fu?",
+        "who it:a back turn:fu?"
+      ],
+      "14:28": [
+        "kjv_ahaz_jotham die:pa",
+        "burden be:pa"
+      ],
+      "14:29": [
+        "kjv_palestina",
+        "rejoice:neg:imp",
+        "kjv_cockatrice",
+        "fire:adj fly:adj serpent"
+      ],
+      "14:30": [
+        "kjv_firstborn_human",
+        "safety",
+        "ipl thy/root:a",
+        "he thy/remain:ev:a"
+      ],
+      "14:31": [
+        "gate:excl",
+        "city:excl",
+        "none",
+        "appoint:psv:adj time:pl"
+      ],
+      "14:32": [
+        "human to messenger:pl",
+        "kjv_zion:a kjv_establish:perf",
+        "trust:fu"
+      ],
+      "15:1": [
+        "in night kjv_ar",
+        "in night kjv_kir",
+        "to silence bring:psv:pr"
+      ],
+      "15:2": [
+        "kjv_bajith",
+        "kjv_dibon",
+        "kjv_nebo",
+        "kjv_medeba",
+        "every beard"
+      ],
+      "15:3": [
+        "kjv_sackcloth",
+        "top:pl",
+        "each howl:fu",
+        "much weep:cv"
+      ],
+      "15:4": [
+        "kjv_elealeh",
+        "kjv_jahaz",
+        "arm:psv:adj soldier:pl",
+        "his/life"
+      ],
+      "15:5": [
+        "my/heart",
+        "kjv_heifer of three year:pl",
+        "kjv_luhith",
+        "kjv_horonaim"
+      ],
+      "15:6": [
+        "kjv_nimrim",
+        "hay",
+        "grass",
+        "no green thing"
+      ],
+      "15:7": [
+        "obtain:perf",
+        "up lay:perf",
+        "brook of kjv_willow:pl"
+      ],
+      "15:8": [
+        "around boundary:pl",
+        "kjv_eglaim",
+        "kjv_beerelim"
+      ],
+      "15:9": [
+        "kjv_dimon full of blood",
+        "ipl more",
+        "lion:pl",
+        "escape:pr"
+      ],
+      "16:1": [
+        "kjv_lamb:a",
+        "kjv_sela",
+        "daughter of kjv_zion"
+      ],
+      "16:2": [
+        "wander:adj bird",
+        "out of nest",
+        "daughter:pl",
+        "kjv_ford:pl"
+      ],
+      "16:3": [
+        "night in middle of noon",
+        "hide:imp",
+        "he:a who wander:pr betray:neg:imp"
+      ],
+      "16:4": [
+        "my/human:pl who out cast:psv:pr",
+        "kjv_moab:excl",
+        "extort:ag",
+        "consume:psv:pr"
+      ],
+      "16:5": [
+        "in mercy throne",
+        "kjv_david",
+        "judge:cv",
+        "hasten:cv"
+      ],
+      "16:6": [
+        "wesg",
+        "very proud",
+        "false:ev:pl thus be:neg:fu"
+      ],
+      "16:7": [
+        "kjv_moab for kjv_moab",
+        "kjv_foundation:pl",
+        "kjv_kirhareseth"
+      ],
+      "16:8": [
+        "kjv_sibmah",
+        "principal kjv_plant_growth:pl:a",
+        "kjv_jazer",
+        "over sea"
+      ],
+      "16:9": [
+        "i with weep:ev",
+        "my/tear:pl",
+        "summer fruit:pl",
+        "shout:ev"
+      ],
+      "16:10": [
+        "no sing:ev",
+        "neither shout:ev",
+        "no wine:a",
+        "ipl",
+        "cease:caus:perf"
+      ],
+      "16:11": [
+        "my/kjv_bowels",
+        "harp",
+        "sound:fu",
+        "my/part:pl within",
+        "kjv_kirharesh"
+      ],
+      "16:12": [
+        "weary",
+        "kjv_sanctuary",
+        "pray:inf",
+        "prevail:neg:fu"
+      ],
+      "16:13": [
+        "kjv_lord",
+        "since that time",
+        "speak:perf"
+      ],
+      "16:14": [
+        "within three year:pl",
+        "kjv_hire:ag",
+        "despise:psv:fu",
+        "small and feeble"
+      ],
+      "17:1": [
+        "kjv_damascus",
+        "city be:ev",
+        "kjv_heap of ruin"
+      ],
+      "17:2": [
+        "kjv_aroer",
+        "flock:pl",
+        "none they:a afraid make:fu"
+      ],
+      "17:3": [
+        "kjv_ephraim",
+        "kjv_damascus",
+        "kjv_syria",
+        "glory of child:pl"
+      ],
+      "17:4": [
+        "glory of kjv_jacob",
+        "thin make:psv:fu",
+        "fat:ev"
+      ],
+      "17:5": [
+        "corn:a",
+        "kjv_grain_ear:pl:a",
+        "his/arm",
+        "kjv_rephaim"
+      ],
+      "17:6": [
+        "two or three",
+        "four or five",
+        "kjv_olive",
+        "grape:pl"
+      ],
+      "17:7": [
+        "human",
+        "his/make:ag",
+        "kjv_holy_one"
+      ],
+      "17:8": [
+        "look:neg:fu",
+        "neither",
+        "grove:pl",
+        "image:pl"
+      ],
+      "17:9": [
+        "forsake:psv:adj branch",
+        "most high branch",
+        "kjv_desolate:ev"
+      ],
+      "17:10": [
+        "forget:perf",
+        "remember:neg:perf",
+        "foreign kjv_plant_cutting:pl"
+      ],
+      "17:11": [
+        "grow:caus:fu",
+        "flourish:caus:fu",
+        "harvest",
+        "kjv_heap"
+      ],
+      "17:12": [
+        "woe",
+        "sea:pl",
+        "kjv_rush_motion:ev",
+        "mighty water:pl"
+      ],
+      "17:13": [
+        "god they:a rebuke:fu",
+        "kjv_chaff",
+        "roll:adj thing",
+        "kjv_whirlwind"
+      ],
+      "17:14": [
+        "evening",
+        "before morning he be:neg:pr",
+        "wesg:a spoil:pr",
+        "wesg:a rob:pr"
+      ],
+      "18:1": [
+        "wing:pl",
+        "beyond river:pl",
+        "kjv_ethiopia"
+      ],
+      "18:2": [
+        "kjv_bulrush",
+        "scatter:psv:adj",
+        "kjv_peel:psv:adj",
+        "measure:psv:adj"
+      ],
+      "18:3": [
+        "world",
+        "earth",
+        "see:imp",
+        "hear:imp"
+      ],
+      "18:4": [
+        "kjv_lord to i say:pa",
+        "ipl mypl/rest:a",
+        "clear heat",
+        "cloud of dew"
+      ],
+      "18:5": [
+        "bud perfect",
+        "sour grape",
+        "kjv_pruninghook:pl",
+        "branch:pl:a"
+      ],
+      "18:6": [
+        "together",
+        "summer:a spend:fu",
+        "winter:a spend:fu"
+      ],
+      "18:7": [
+        "gift",
+        "scatter:psv:adj",
+        "kjv_peel:psv:adj",
+        "mountain kjv_zion"
+      ],
+      "19:1": [
+        "swift cloud ride:pr",
+        "idol:pl",
+        "heart of egypt"
+      ],
+      "19:2": [
+        "ipl",
+        "each against his/brother",
+        "city against city",
+        "kingdom against kingdom"
+      ],
+      "19:3": [
+        "ipl its/counsel:a destroy:fu",
+        "charm:ag:pl",
+        "kjv_familiar_spirit:pl",
+        "kjv_wizard:pl"
+      ],
+      "19:4": [
+        "ipl egypt human:pl:a",
+        "cruel lord",
+        "fierce king",
+        "kjv_lord of army:pl"
+      ],
+      "19:5": [
+        "water:pl from sea",
+        "river waste:psv:fu",
+        "dry:psv:fu"
+      ],
+      "19:6": [
+        "far away turn:fu",
+        "brook:pl of defence",
+        "kjv_flag_plant:pl"
+      ],
+      "19:7": [
+        "paper reed:pl",
+        "mouth of brook:pl",
+        "no more be:fu"
+      ],
+      "19:8": [
+        "kjv_fishing_hook:a",
+        "kjv_net:pl:a",
+        "languish:fu"
+      ],
+      "19:9": [
+        "fine kjv_flax",
+        "kjv_net:pl:a weave:pr",
+        "confound:psv:fu"
+      ],
+      "19:10": [
+        "purpose:pl",
+        "kjv_sluice:pl:a",
+        "pond:pl:a for fish"
+      ],
+      "19:11": [
+        "kjv_zoan",
+        "kjv_brutish",
+        "i son of wise",
+        "ancient king:pl"
+      ],
+      "19:12": [
+        "where they",
+        "where thy/wise",
+        "tell:imp",
+        "know:imp"
+      ],
+      "19:13": [
+        "kjv_noph",
+        "mislead:perf",
+        "support:ev"
+      ],
+      "19:14": [
+        "kjv_perverse_way spirit:a",
+        "mix:perf",
+        "err:caus:perf",
+        "kjv_vomit:ev"
+      ],
+      "19:15": [
+        "head or tail",
+        "branch or kjv_rush_plant",
+        "do:may"
+      ],
+      "19:16": [
+        "like woman:pl",
+        "afraid be:fu",
+        "shake:ev of hand"
+      ],
+      "19:17": [
+        "terror to egypt",
+        "each",
+        "himself",
+        "against it appoint:perf"
+      ],
+      "19:18": [
+        "five city:pl",
+        "kjv_canaan",
+        "one_num city of destroy:ev"
+      ],
+      "19:19": [
+        "altar",
+        "middle of land",
+        "kjv_pillar at its/boundary"
+      ],
+      "19:20": [
+        "sign",
+        "witness",
+        "save:ag:a and great:a",
+        "deliver:fu"
+      ],
+      "19:21": [
+        "know:psv:fu",
+        "kjv_offering:a",
+        "vow:a",
+        "vow:fu",
+        "perform:fu"
+      ],
+      "19:22": [
+        "strike:fu",
+        "heal:fu",
+        "return:fu",
+        "entreat:psv:fu"
+      ],
+      "19:23": [
+        "highway",
+        "into egypt",
+        "into kjv_assyria",
+        "with human:pl of kjv_assyria serve:fu"
+      ],
+      "19:24": [
+        "kjv_israel third:ord",
+        "with egypt",
+        "with kjv_assyria",
+        "bless:ev"
+      ],
+      "19:25": [
+        "egypt mypl/people",
+        "kjv_assyria work of mypl/hand:pl",
+        "kjv_israel mypl/inheritance"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "14:13",
+        "14:14",
+        "16:9",
+        "18:4",
+        "19:11"
+      ],
+      "ipl": [
+        "13:11",
+        "13:12",
+        "13:13",
+        "13:17",
+        "13:3",
+        "14:22",
+        "14:23",
+        "14:24",
+        "14:25",
+        "14:30",
+        "15:9",
+        "16:10",
+        "18:4",
+        "19:2",
+        "19:3",
+        "19:4"
+      ],
+      "wesg": [
+        "14:10",
+        "14:8",
+        "16:6",
+        "17:14"
+      ],
+      "wepl": [],
+      "mypl": [
+        "13:3",
+        "14:25",
+        "18:4",
+        "19:25"
+      ],
+      "ourone": [],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Three-year heifer15:5and hired-service years16:14.",
+      "Alternatives2or3and4or5in17:6;five cities and one City of Destruction19:18;third19:24is association ordinal,not deity number."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Isaiah13–19adds123verses,total375;wholeBibleincomplete.",
+      "One contextual Proverbs26:2repair reuses existing swallow-bird;all other Proverbs units unchanged. Earlier seals are preserved.",
+      "Divine plural-I,personal imperial boast,grieving prophet and four communal singular-we contexts remain distinct;15:9and16:10voice boundaries are recorded interpretations.",
+      "Eight common senses,twelve proper labels;no compiler or inflection changes.",
+      "Printed difficult readings retained;Egypt-Assyria-Israel inclusion is not harmonized with the earlier threats."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Isaiah — incomplete Bible working text",
+    "pages": 252,
+    "spreads": 126,
+    "units": 375,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "a0d17c7695c6a7ba05c85c2e3455dbdf595743c6ed6ff7517c6219ffb48e74d0",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 126,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "correctedProverbsLayout": {
+    "book": "Proverbs — incomplete Bible working text",
+    "pages": 408,
+    "spreads": 204,
+    "units": 915,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "5648490204035d240dc63199dc7a6905a5c7ca490a51eeb225c810db1167c5a9",
+    "maxBaselineErrorPt": 0.01171875,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 204,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.554,
+    "modules": [
+      "tests.test_kjv_isaiah_national_oracles",
+      "tests.test_kjv_isaiah_signs_and_voices",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": {
+    "isaiah": [
+      251,
+      252
+    ],
+    "proverbs": [
+      329,
+      330
+    ]
+  },
+  "status": "incompleteBible;Isaiah1–19andProverbs26:2repairverified",
+  "combinedValidation": {
+    "status": "incomplete",
+    "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\KJV Bible - WORK IN PROGRESS.vay",
+    "sha256": "77dc822d02cd9b6b1b20b556b7d7d1740d4c7cc8422b276bc9131ed0a682d7c8",
+    "pages": 11964,
+    "spreads": 5982,
+    "authoredVerses": 18078,
+    "missingVerses": 13024,
+    "sourcePagesExact": true,
+    "allFourColumnsMatchCurrentLedgers": true,
+    "saveReopenIdentical": true,
+    "folioPlacementsChecked": 23928,
+    "sourceFiles": [
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Genesis.vay",
+        "sha256": "bbf6c7a92ef956364ece52877f1998be0b02ddfb7e33f2563afb529b41cb79dd",
+        "firstPage": 1,
+        "lastPage": 1022
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Exodus.vay",
+        "sha256": "5d69c5730d924959e1019809b8c2f7738161ffb011e144f6d1c9d57dc5957fe7",
+        "firstPage": 1023,
+        "lastPage": 1878
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Leviticus.vay",
+        "sha256": "acece7c9de894107116d7e27cab2a67fa2300ea2b37ae14e30523e109024b27b",
+        "firstPage": 1879,
+        "lastPage": 2516
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Numbers.vay",
+        "sha256": "b2edc7791a7e89e92c9cab6759c24d76b7fa7b3a9a290a352201d624f6174199",
+        "firstPage": 2517,
+        "lastPage": 3346
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Deuteronomy.vay",
+        "sha256": "e71f451a8ae07c3d5a3604d569192d12864ed9887d48ebc7e684b13e54c3dad2",
+        "firstPage": 3347,
+        "lastPage": 4078
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Joshua.vay",
+        "sha256": "04524ad57a4e8bfbc78fb5c8384faae56437b88c67cc4fd9e13819b1766efae3",
+        "firstPage": 4079,
+        "lastPage": 4562
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Judges.vay",
+        "sha256": "ccccb1c5b09c54b80866e25aae8a49ccf20a53ec278b844860e9fd9553932c01",
+        "firstPage": 4563,
+        "lastPage": 5044
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Ruth.vay",
+        "sha256": "8ad1ca7778bd9763a56e5efb28291827eb797fc2eacfc18ff4b1e7d6fece4033",
+        "firstPage": 5045,
+        "lastPage": 5112
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Samuel.vay",
+        "sha256": "58001bf41a9023b382b11e6a7ede845529506fb430f50556bd1edfb4a20fe805",
+        "firstPage": 5113,
+        "lastPage": 5778
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Samuel2.vay",
+        "sha256": "2f3d726ec159b8fddee686401e7e089e456a663a5929e95522643c4025f84f84",
+        "firstPage": 5779,
+        "lastPage": 6304
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Kings.vay",
+        "sha256": "f6ed1fef2c2abefe6e293cca6ca1204812c382a79dac4706ae1d46b4d73235f1",
+        "firstPage": 6305,
+        "lastPage": 6896
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Kings2.vay",
+        "sha256": "6b92ed9c92416170dba6b2ba7cd76233cd98de6ce530a7e3e09d25a2032c0eed",
+        "firstPage": 6897,
+        "lastPage": 7482
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Chronicles.vay",
+        "sha256": "d95465cafe4db78a757f2a5c3b4cbaf94b44f5101c865c07adaaa9387d5bf906",
+        "firstPage": 7483,
+        "lastPage": 8006
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Chronicles2.vay",
+        "sha256": "77a0caef2309273bcc99db7c88022f1cbe154df236ff4153fda036b34e8f9a8b",
+        "firstPage": 8007,
+        "lastPage": 8692
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Ezra.vay",
+        "sha256": "35cdd43f50d0192404e588ea0656e33744e23846a5ca5345b01a89c595ff157c",
+        "firstPage": 8693,
+        "lastPage": 8882
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Nehemiah.vay",
+        "sha256": "b5abc4ad65f8fa51146ab7cb9c3b7a0f3938a7ab8f3b9cb3d0d52957b40d442d",
+        "firstPage": 8883,
+        "lastPage": 9160
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Esther.vay",
+        "sha256": "e6ff324bc045bea6f1fa34c5dcbc14de09a25b295ca75f76ccc318f011605ddb",
+        "firstPage": 9161,
+        "lastPage": 9300
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Job.vay",
+        "sha256": "2bcc3eea6400ebf96761b4f3cfe2e5da61758d7a9799e36b031f8bbe2820c4dc",
+        "firstPage": 9301,
+        "lastPage": 9806
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Psalms.vay",
+        "sha256": "6b1d4269d4f51e4168bb6dfdb366c202f023daba3fecad530460c25e5a0d1816",
+        "firstPage": 9807,
+        "lastPage": 11050
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Proverbs.vay",
+        "sha256": "5648490204035d240dc63199dc7a6905a5c7ca490a51eeb225c810db1167c5a9",
+        "firstPage": 11051,
+        "lastPage": 11458
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Ecclesiastes.vay",
+        "sha256": "d420d4c11a9fa5925ffa91a9d6beec1ac0cb8e5477df6c7d30907ccea2876b70",
+        "firstPage": 11459,
+        "lastPage": 11598
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Song of Solomon.vay",
+        "sha256": "2a7ad490d41aed88ca6818783739b200cf6b35e3b8d75c8fe3f050cfd19581e4",
+        "firstPage": 11599,
+        "lastPage": 11670
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Isaiah.vay",
+        "sha256": "a0d17c7695c6a7ba05c85c2e3455dbdf595743c6ed6ff7517c6219ffb48e74d0",
+        "firstPage": 11671,
+        "lastPage": 11922
+      },
+      {
+        "path": "E:\\Vayrshemon\\Saves\\KJV Bible v0.10-kjv.132\\Build sources\\Jonah.vay",
+        "sha256": "bd098c04bb43c0fb435c13894db73471fd94d20a97abd779888540bb95a1a63d",
+        "firstPage": 11923,
+        "lastPage": 11964
+      }
+    ],
+    "sectionVersions": [
+      {
+        "section": "Genesis",
+        "version": "0.10-kjv.90",
+        "firstPage": 1,
+        "lastPage": 1022,
+        "status": "working"
+      },
+      {
+        "section": "Exodus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1023,
+        "lastPage": 1878,
+        "status": "working"
+      },
+      {
+        "section": "Leviticus",
+        "version": "0.10-kjv.93",
+        "firstPage": 1879,
+        "lastPage": 2516,
+        "status": "working"
+      },
+      {
+        "section": "Numbers 1–36",
+        "version": "0.10-kjv.93",
+        "firstPage": 2517,
+        "lastPage": 3346,
+        "status": "working"
+      },
+      {
+        "section": "Deuteronomy 1–34",
+        "version": "0.10-kjv.93",
+        "firstPage": 3347,
+        "lastPage": 4078,
+        "status": "working"
+      },
+      {
+        "section": "Joshua",
+        "version": "0.10-kjv.93",
+        "firstPage": 4079,
+        "lastPage": 4562,
+        "status": "working"
+      },
+      {
+        "section": "Judges",
+        "version": "0.10-kjv.40",
+        "firstPage": 4563,
+        "lastPage": 5044,
+        "status": "working"
+      },
+      {
+        "section": "Ruth",
+        "version": "0.10-kjv.41",
+        "firstPage": 5045,
+        "lastPage": 5112,
+        "status": "working"
+      },
+      {
+        "section": "1 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5113,
+        "lastPage": 5778,
+        "status": "working"
+      },
+      {
+        "section": "2 Samuel",
+        "version": "0.10-kjv.63",
+        "firstPage": 5779,
+        "lastPage": 6304,
+        "status": "working"
+      },
+      {
+        "section": "1 Kings",
+        "version": "0.10-kjv.62",
+        "firstPage": 6305,
+        "lastPage": 6896,
+        "status": "working"
+      },
+      {
+        "section": "2 Kings",
+        "version": "0.10-kjv.75",
+        "firstPage": 6897,
+        "lastPage": 7482,
+        "status": "working"
+      },
+      {
+        "section": "1 Chronicles",
+        "version": "0.10-kjv.93",
+        "firstPage": 7483,
+        "lastPage": 8006,
+        "status": "working"
+      },
+      {
+        "section": "2 Chronicles",
+        "version": "0.10-kjv.94",
+        "firstPage": 8007,
+        "lastPage": 8692,
+        "status": "working"
+      },
+      {
+        "section": "Ezra",
+        "version": "0.10-kjv.96",
+        "firstPage": 8693,
+        "lastPage": 8882,
+        "status": "working"
+      },
+      {
+        "section": "Nehemiah",
+        "version": "0.10-kjv.100",
+        "firstPage": 8883,
+        "lastPage": 9160,
+        "status": "working"
+      },
+      {
+        "section": "Esther",
+        "version": "0.10-kjv.101",
+        "firstPage": 9161,
+        "lastPage": 9300,
+        "status": "working"
+      },
+      {
+        "section": "Job",
+        "version": "0.10-kjv.107",
+        "firstPage": 9301,
+        "lastPage": 9806,
+        "status": "working"
+      },
+      {
+        "section": "Psalms 1–150",
+        "version": "0.10-kjv.120",
+        "firstPage": 9807,
+        "lastPage": 11050,
+        "status": "working"
+      },
+      {
+        "section": "Proverbs",
+        "version": "0.10-kjv.132",
+        "firstPage": 11051,
+        "lastPage": 11458,
+        "status": "working"
+      },
+      {
+        "section": "Ecclesiastes",
+        "version": "0.10-kjv.128",
+        "firstPage": 11459,
+        "lastPage": 11598,
+        "status": "working"
+      },
+      {
+        "section": "Song of Solomon",
+        "version": "0.10-kjv.129",
+        "firstPage": 11599,
+        "lastPage": 11670,
+        "status": "working"
+      },
+      {
+        "section": "Isaiah 1–19",
+        "version": "0.10-kjv.132",
+        "firstPage": 11671,
+        "lastPage": 11922,
+        "status": "working"
+      },
+      {
+        "section": "Jonah",
+        "version": "0.10-kjv.1",
+        "firstPage": 11923,
+        "lastPage": 11964,
+        "status": "inherited frozen text"
+      }
+    ]
+  },
+  "combinedProofsViewed": [
+    11379,
+    11380,
+    11597,
+    11598,
+    11669,
+    11670,
+    11751,
+    11752,
+    11793,
+    11794,
+    11921,
+    11922
+  ],
+  "referenceLinksChecked": true,
+  "combinedSemanticCorrection": {
+    "reference": "Proverbs 26:2",
+    "finding": "Bird sense explicitly repaired in this new copy",
+    "earlier126SealUnchanged": true
+  }
+}

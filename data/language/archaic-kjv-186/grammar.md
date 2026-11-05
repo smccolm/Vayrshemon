@@ -1,0 +1,47 @@
+# Historical KJV register0.10-kjv.186 · Malachi1–4
+
+These55new verses complete Malachi and bring projected translated coverage to23,145of31,102:the complete supplied Old Testament,including permanently frozen Jonah. All7,957New Testament verses remain. This is a section checkpoint,not delivery of the whole Bible. ONE complete Bible in ONE`.vay`remains the goal. Four lexical entries are added:two common senses,fidelity-breach and contemptuous nasal breath;the name Malachi;and Sun as a title using the inherited celestial form with Maxima. No inflectional changes or revised earlier targets. This is translator self-review,not independent literary certification.
+
+## The deity's plural-I and a community's questioning we
+
+Divine first-person declarations retain plural-I and my-pl. The priests and wider community repeatedly ask wherein have we done this1:2/6/7,2:17,3:7/8/13and complain of their shared observance3:14–15using singular-we. Edom's we will return/build1:4also uses singular-we as a collective intention;the grammar is not reserved for a favoured people. Our-one fathers2:10joins the speaker to the community's shared covenant ancestry. A communal singular pronoun does not delete the plural fathers or the explicit each man/his brother relation.
+
+## A personal petition within shifting attribution
+
+I pray you,beseech God that he will be gracious unto us1:9is treated as a prophetic interjection:personal-I asks the audience,and communal singular-we includes the petitioner among those seeking grace. The following will he regard your persons and final saith LORD attribution remain as supplied. This is an explicit quotation-boundary decision,not a claim of uniquely settled speakers. It avoids manufacturing a divine we from the petition while retaining the difficult attribution. The divine conditional father/master comparisons1:6and great King declaration1:14remain plural-I;neither adds a count of deity persons.
+
+## Love,hate and an unreconstructed hostile boundary
+
+I loved Jacob/I hated Esau1:2–3remain direct claims. Esau's brother relationship and the negative question are retained;the text is not softened to loved less. Wilderness dragons retain the historical source label,not a modern species substitution. Edom's desolate places and its threatened rebuilding1:4remain beside the divine overthrow. Boundary of wickedness and perpetual indignation are attributed hostile designations,not translator judgments about present populations. From the boundary of Israel1:5remains from,not a silently substituted beyond.
+
+## Polluted table,paid service and a nasal dismissal
+
+Polluted bread/altar1:7uses sacred-unfitness vocabulary. Meal-table1:7/12is distinguished from a writing tablet,and food1:12retains the broad source meat sense. Blind,lame and sick1:8are offering categories,not a declaration that disabled people are morally evil. Both is-it-not-evil questions and the governor comparison remain. For nought1:10appears in both shutting doors and lighting altar fire;the passage is not rewritten as an alternate wish that someone close the temple. From sunrise to sunset/every place1:11retains the broad scope of incense and pure offering. It/its/his1:12remain unresolved. What weariness1:13takes exclamatory morphology. The new snuff-at verb derives nose+breathe and marks contemptuous nasal dismissal,distinct from trimming a wick or eager smelling. Torn offerings use rend,not eye-tear. Corrupt animal1:14uses the bodily-defect sense rather than moral corruption.
+
+## Cursed blessings and the covenant with Levi
+
+The hearing/heart conditions2:2precede future cursing and already-cursed blessings;the tense tension remains. Spoiling seed2:3retains seed without resolving crops versus offspring. Dung spread upon faces is explicitly feast dung,and someone takes the people away with it. Someone is indefinite,not cardinal one. Life and peace2:5are given to Levi for fear;ordinary plural them is retained without making these abstract gifts two persons. Truth-law,iniquity-free lips,peace and equity2:6remain distinct. Priest's lips should keep knowledge2:7does not automatically identify every messenger as an angel. Causing many to stumble at law and corrupting Levi's covenant2:8use footing and covenantal-corruption senses. Partiality2:9means favouring persons in adjudication,not possessing an incomplete legal text.
+
+## One father,one God and fidelity broken
+
+Have we not all one father/has not one God created us2:10preserves both explicit numerical ones. No unprinted identification of the father is supplied. The new fidelity-break verb unifies communal betrayal2:10–11and marital breach2:14–16without reducing every occurrence to military treason or religious disbelief. Our-one fathers' covenant remains plural ancestry. Holiness which he loved2:11keeps the uncertain he,and marrying a strange god's daughter remains the source image without added ethnography. Master and scholar2:12remain the printed social labels;the source is not replaced with an alternate awake/answering idiom. No numeral two or dual pronoun is inserted. Actual tears,weeping and outcry2:13cover the altar;the scope of no longer regard/receive is made explicit in both predicates.
+
+## A wife as companion,and an unresolved one
+
+The wife of thy youth2:14remains companion and covenant-wife,with LORD witnessing between the partners. Did he not make one/yet he had the residue of spirit/wherefore one2:15retains both ones and the residue expression without supplying Adam,one couple,a spirit fraction,or a deity count. Godly seed uses the inherited god-honouring source category,not a named future child. The exhortation attends to your spirit and forbids betrayal of the youth-wife. He hates putting away2:16retains the supplied third person;it is not recast as a direct I hate divorce quotation. A person covering violence with his garment is indefinite one,not a numbered man. The final no-treachery purpose remains. The accusations that evildoers are good or that judgment's God is absent2:17stay inside the community's speech rather than becoming narrator assertions.
+
+## The preparing messenger and the coming LORD
+
+I send my messenger/he prepares before me3:1keeps the sending deity's plural-I and the messenger's singular he. LORD whom ye seek comes to his temple,even the messenger of the covenant. The relations remain without inserted John/Jesus names or a doctrinal count. Enduring his coming3:2is not ordinary lodging. Refiner's fire and fullers' soap are separate occupational/material comparisons. The soap phrase is analytical soap of fullers to fit the approved column while preserving the plural workers;font size and frame geometry are unchanged. Silver purification3:3precedes gold-and-silver purging and the purpose of righteous offering. Former years3:4are temporal;no calendar period is invented.
+
+## Justice,non-change and a demanded test
+
+The swift witness3:5retains sorcerers,adulterers,false swearers,wage oppression,widow,fatherless and the stranger deprived of his right. Right means entitlement here. I do not change/therefore sons of Jacob are not consumed3:6is left beside earlier relenting/threat passages without harmonization. Reciprocal return3:7retains both the commanded human return and promised divine return. Tithes3:8–10retain their existing tenth-share lexical meaning without adding a standalone numeral or modern fiscal scheme. The whole nation's robbery and curse3:9remain. Bring tithes for food in my house and prove me now3:10explicitly invites testing;the translator does not reconcile that command with prohibitions elsewhere. Heaven's windows and insufficient room for blessing remain figurative constructions. Devourer3:11is unnamed,and the vine retains her fruit and premature casting. People called a delightsome land3:12remain a collective image.
+
+## Complaints,remembrance and spared jewels
+
+Stout words3:13are forceful opposition,not bodily size. The community's vain-service complaint3:14and calling the proud happy3:15use singular-we. The successful wicked/testers are not conflated with the respectful speakers3:16. One to another is a reciprocal each-to-another relation,not an exact count. The remembrance-book is written before the deity without an invented writing agent. Mine3:17uses of plural-I,with my-pl jewels retained as the supplied metaphor. Sparing as a man spares his serving son remains a comparison,not a newly identified divine son. Returning and distinguishing righteous/wicked,server/nonserver3:18retain both contrasts.
+
+## Sun,not Son,and a final conditional curse
+
+Oven/stubble/root/branch4:1retain the destructive agricultural image. The explicitly capitalized Sun of righteousness4:2receives an inherited-form proper-title entry,so Maxima distinguishes it without changing sun to son or supplying Jesus. Healing remains in his wings;stall-calves go forth and grow up,not a silently substituted leaping description. Ashes under foot-soles4:3remain the quoted threat. Moses,Horeb,all Israel,statutes and judgments4:4are preserved. Elijah4:5is the named prophet,without identification with John or an added reincarnation claim. Fathers' heart toward children and children's heart toward fathers4:6retain both directions and singular heart for plural groups. The last lest-I-come-and-strike-with-curse remains conditional and uncomfortable;the Old Testament does not end with an invented completed reconciliation.

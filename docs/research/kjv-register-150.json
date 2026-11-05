@@ -1,0 +1,682 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.150",
+    "parentVersion": "0.10-kjv.149",
+    "parentHead": "9bf424cbce4744bec0eb476257f6219d48df739225ce908131cf97e2e5558c6b",
+    "head": "71cea9dc658799bafa870d5c855a667b0695a716fbbc2acd75ecc6d7659f1cb1",
+    "newLexicalEntries": 6,
+    "newProperEntries": 5,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 92,
+    "exactCompilerCases": 92,
+    "newAuthoredVerses": 92,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 877,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 11230,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 92,
+    "jeremiahVerses": 877,
+    "authoredVerses": 19872,
+    "remainingVerses": 11230,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 10,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 32:1",
+        "source": "The word that came to Jeremiah from the LORD in the tenth year of Zedekiah king of Judah, which was the eighteenth year of Nebuchadrezzar.",
+        "expectedDecimalQuantities": [
+          10,
+          18
+        ],
+        "targetQuantities": [
+          10,
+          18
+        ]
+      },
+      {
+        "reference": "Jeremiah 32:9",
+        "source": "And I bought the field of Hanameel my uncle’s son, that was in Anathoth, and weighed him the money, even seventeen shekels of silver.",
+        "expectedDecimalQuantities": [
+          17
+        ],
+        "targetQuantities": [
+          17
+        ]
+      },
+      {
+        "reference": "Jeremiah 32:18",
+        "source": "Thou shewest lovingkindness unto thousands, and recompensest the iniquity of the fathers into the bosom of their children after them: the Great, the Mighty God, the LORD of hosts, is his name,",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "Jeremiah 32:39",
+        "source": "And I will give them one heart, and one way, that they may fear me for ever, for the good of them, and of their children after them:",
+        "expectedDecimalQuantities": [
+          1,
+          1
+        ],
+        "targetQuantities": [
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 33:1",
+        "source": "Moreover the word of the LORD came unto Jeremiah the second time, while he was yet shut up in the court of the prison, saying,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 33:7",
+        "source": "And I will cause the captivity of Judah and the captivity of Israel to return, and will build them, as at the first.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 33:11",
+        "source": "The voice of joy, and the voice of gladness, the voice of the bridegroom, and the voice of the bride, the voice of them that shall say, Praise the LORD of hosts: for the LORD is good; for his mercy endureth for ever: and of them that shall bring the sacrifice of praise into the house of the LORD. For I will cause to return the captivity of the land, as at the first, saith the LORD.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Jeremiah 33:24",
+        "source": "Considerest thou not what this people have spoken, saying, The two families which the LORD hath chosen, he hath even cast them off? thus they have despised my people, that they should be no more a nation before them.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Jeremiah 34:14",
+        "source": "At the end of seven years let ye go every man his brother an Hebrew, which hath been sold unto thee; and when he hath served thee six years, thou shalt let him go free from thee: but your fathers hearkened not unto me, neither inclined their ear.",
+        "expectedDecimalQuantities": [
+          7,
+          6
+        ],
+        "targetQuantities": [
+          7,
+          6
+        ]
+      },
+      {
+        "reference": "Jeremiah 34:18",
+        "source": "And I will give the men that have transgressed my covenant, which have not performed the words of the covenant which they had made before me, when they cut the calf in twain, and passed between the parts thereof,",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "32:1": [
+        "ten:ord year",
+        "twelve and six:ord year"
+      ],
+      "32:2": [
+        "army of king of kjv_babylon",
+        "kjv_court_enclosure of prison",
+        "house of king of kjv_judah"
+      ],
+      "32:3": [
+        "ipl this city:a into hand"
+      ],
+      "32:4": [
+        "escape:neg:fu",
+        "mouth to mouth",
+        "his/eye:pl his/eye:pl:a"
+      ],
+      "32:5": [
+        "until ipl he:a visit:pr",
+        "prosper:neg:fu"
+      ],
+      "32:6": [
+        "to i come:pa"
+      ],
+      "32:7": [
+        "kjv_hanameel_shallum son of kjv_shallum_hanameel thy/uncle",
+        "right of redeem:ev"
+      ],
+      "32:8": [
+        "my/uncle/son",
+        "i thee:a pray:pr",
+        "right of inheritance",
+        "then i know:pa"
+      ],
+      "32:9": [
+        "twelve and five kjv_shekel:pl of silver"
+      ],
+      "32:10": [
+        "my/name:a on kjv_purchase_deed write:pa",
+        "seal:pa",
+        "in balance:pl weigh:pa"
+      ],
+      "32:11": [
+        "as law and custom seal:psv:pa",
+        "open be:pa"
+      ],
+      "32:12": [
+        "kjv_baruch_neriah son of kjv_neriah_baruch son of kjv_maaseiah_neriah",
+        "their/name:pl:a on book"
+      ],
+      "32:13": [
+        "i kjv_baruch_neriah:a before they charge:pa"
+      ],
+      "32:14": [
+        "which seal:psv:pr",
+        "which open be:pr",
+        "earth:adj vessel",
+        "many day:pl continue:may"
+      ],
+      "32:15": [
+        "house:pl and field:pl and kjv_vineyard:pl"
+      ],
+      "32:16": [
+        "deliver:pp i to kjv_lord pray:pa"
+      ],
+      "32:17": [
+        "ah lord god:excl",
+        "nothing too hard"
+      ],
+      "32:18": [
+        "thousand:pl",
+        "into bosom of their/child:pl"
+      ],
+      "32:19": [
+        "all way:pl of son:pl of human",
+        "to each"
+      ],
+      "32:20": [
+        "even to this day",
+        "among other human:pl"
+      ],
+      "32:21": [
+        "great terror"
+      ],
+      "32:22": [
+        "with milk and honey flow:cv"
+      ],
+      "32:23": [
+        "obey:neg:pa",
+        "walk:neg:pa",
+        "nothing:a",
+        "evil:a upon they come:caus:perf"
+      ],
+      "32:24": [
+        "kjv_siege_mound:pl",
+        "what thou speak:perf happen:perf"
+      ],
+      "32:25": [
+        "thou to i say:perf",
+        "for city into hand"
+      ],
+      "32:26": [
+        "then word"
+      ],
+      "32:27": [
+        "ipl kjv_lord god of all flesh",
+        "too hard for ipl"
+      ],
+      "32:28": [
+        "kjv_nebuchadrezzar",
+        "he it:a take:fu"
+      ],
+      "32:29": [
+        "whose roof:pl",
+        "kjv_incense:a to kjv_baal",
+        "kjv_drinkoffer:pl:a"
+      ],
+      "32:30": [
+        "only evil:a",
+        "only ipl:a"
+      ],
+      "32:31": [
+        "mypl/anger",
+        "mypl/fury",
+        "mypl/face"
+      ],
+      "32:32": [
+        "their/king:pl their/prince:pl their/priest:pl and their/kjv_prophet:pl"
+      ],
+      "32:33": [
+        "back:a and not face:a",
+        "early up rise:cv",
+        "listen:neg:perf"
+      ],
+      "32:34": [
+        "their/kjv_abomination:pl:a",
+        "mypl/name"
+      ],
+      "32:35": [
+        "son:pl:a and their/daughter:pl:a",
+        "kjv_molech",
+        "command:neg:pa",
+        "mypl/mind come:neg:pa"
+      ],
+      "32:36": [
+        "of which you say:pr"
+      ],
+      "32:37": [
+        "mypl/anger",
+        "safely dwell:caus:fu"
+      ],
+      "32:38": [
+        "they mypl/people",
+        "ipl their/god"
+      ],
+      "32:39": [
+        "one_num heart:a and one_num way:a",
+        "ipl:a forever fear:may"
+      ],
+      "32:40": [
+        "away turn:neg:fu",
+        "mypl/fear:a in their/heart:pl",
+        "depart:neg:fu"
+      ],
+      "32:41": [
+        "mypl/whole heart",
+        "mypl/whole soul"
+      ],
+      "32:42": [
+        "all this great evil:a",
+        "all good:a"
+      ],
+      "32:43": [
+        "field:pl in this land buy:psv:fu"
+      ],
+      "32:44": [
+        "kjv_purchase_deed:pl",
+        "witness:pl:a",
+        "city:pl of kjv_south",
+        "return:caus:fu"
+      ],
+      "33:1": [
+        "two:ord time",
+        "yet in kjv_court_enclosure"
+      ],
+      "33:2": [
+        "its/make:ag",
+        "who it:a form:pa"
+      ],
+      "33:3": [
+        "which thou know:neg:pr"
+      ],
+      "33:4": [
+        "by kjv_siege_mound:pl and by sword"
+      ],
+      "33:5": [
+        "mypl/anger",
+        "mypl/fury",
+        "mypl/face:a"
+      ],
+      "33:6": [
+        "to it health:a",
+        "they:a cure:fu",
+        "peace and truth"
+      ],
+      "33:7": [
+        "kjv_judah and captive:ev:a of kjv_israel",
+        "as at first"
+      ],
+      "33:8": [
+        "clean:caus:fu",
+        "pardon:fu",
+        "transgress:perf"
+      ],
+      "33:9": [
+        "fear:fu and tremble:fu",
+        "kjv_goodness_bounty"
+      ],
+      "33:10": [
+        "without human and without inhabit:ag and without beast"
+      ],
+      "33:11": [
+        "kjv_bridegroom",
+        "bride",
+        "his/mercy forever endure:pr",
+        "kjv_sacrifice:a of praise",
+        "as at first"
+      ],
+      "33:12": [
+        "their/flock:pl:a down lie:caus:pr"
+      ],
+      "33:13": [
+        "under hand:pl of he who they:a kjv_number:pr"
+      ],
+      "33:14": [
+        "house of kjv_israel and to house of kjv_judah"
+      ],
+      "33:15": [
+        "branch:a of kjv_righteousness",
+        "up grow:caus:fu",
+        "judgment:a and kjv_righteousness:a in land do:fu"
+      ],
+      "33:16": [
+        "she call:psv:fu",
+        "kjv_lord ourone/kjv_righteousness"
+      ],
+      "33:17": [
+        "never man:a lack:fu"
+      ],
+      "33:18": [
+        "man:a lack:neg:fu",
+        "kjv_meat_offering:pl:a kjv_kindle_fire:inf"
+      ],
+      "33:19": [
+        "word of kjv_lord"
+      ],
+      "33:20": [
+        "if you mypl/kjv_covenant:a of day",
+        "mypl/kjv_covenant:a of night",
+        "be:neg:should"
+      ],
+      "33:21": [
+        "break:psv:may",
+        "son:a have:neg:should",
+        "mypl/kjv_minister:pl"
+      ],
+      "33:22": [
+        "army of heaven kjv_number:psv:neg:can",
+        "sand of sea measure:psv:neg:can",
+        "kjv_multiply:caus:fu"
+      ],
+      "33:23": [
+        "to kjv_jeremiah_prophet"
+      ],
+      "33:24": [
+        "two kjv_family:pl",
+        "mypl/people:a despise:perf"
+      ],
+      "33:25": [
+        "if mypl/kjv_covenant",
+        "if ipl",
+        "appoint:neg:perf"
+      ],
+      "33:26": [
+        "then ipl",
+        "take:neg:fu",
+        "return:caus:fu",
+        "mercy:a have:fu"
+      ],
+      "34:1": [
+        "all kingdom:pl of earth of his/rule:ev"
+      ],
+      "34:2": [
+        "ipl this city:a",
+        "he it:a with fire burn:fu"
+      ],
+      "34:3": [
+        "escape:neg:fu",
+        "mouth to mouth"
+      ],
+      "34:4": [
+        "by sword die:neg:fu"
+      ],
+      "34:5": [
+        "in peace die:fu",
+        "former king:pl",
+        "odour:pl:a for thee burn:fu",
+        "ah lord:excl"
+      ],
+      "34:6": [
+        "all these word:pl:a"
+      ],
+      "34:7": [
+        "kjv_lachish",
+        "kjv_azekah",
+        "fortify:psv:adj city:pl"
+      ],
+      "34:8": [
+        "free:ev:a to they proclaim:inf"
+      ],
+      "34:9": [
+        "kjv_hebrew man or kjv_hebrew woman",
+        "none they:a for himself serve:caus:should"
+      ],
+      "34:10": [
+        "then they obey:pa",
+        "go:inf allow:pa"
+      ],
+      "34:11": [
+        "whom they free go:inf allow:pp return:caus:pa",
+        "into kjv_bondservice"
+      ],
+      "34:12": [
+        "word of kjv_lord",
+        "from kjv_lord"
+      ],
+      "34:13": [
+        "house of slave:pl"
+      ],
+      "34:14": [
+        "end of seven year:pl",
+        "six year:pl serve:perf",
+        "listen:neg:pa",
+        "ear:a bend:neg:pa"
+      ],
+      "34:15": [
+        "in mypl/sight fitting:a do:pp",
+        "mypl/name"
+      ],
+      "34:16": [
+        "mypl/name:a defile:pa",
+        "at their/pleasure free set:pp",
+        "into kjv_bondservice"
+      ],
+      "34:17": [
+        "ipl for you free:ev:a proclaim:pr",
+        "to sword to kjv_pestilence and to kjv_famine"
+      ],
+      "34:18": [
+        "perform:neg:perf",
+        "kjv_calf:a in two cut:pa"
+      ],
+      "34:19": [
+        "eunuch:pl and priest:pl",
+        "between part:pl of kjv_calf"
+      ],
+      "34:20": [
+        "dead body:pl food for bird:pl"
+      ],
+      "34:21": [
+        "kjv_zedekiah_king:a",
+        "army of king of kjv_babylon",
+        "from you up go:perf"
+      ],
+      "34:22": [
+        "they:a to this city return:caus:fu",
+        "without inhabit:ag"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "32:10",
+        "32:11",
+        "32:12",
+        "32:13",
+        "32:16",
+        "32:25",
+        "32:6",
+        "32:8",
+        "32:9"
+      ],
+      "ipl": [
+        "32:27",
+        "32:28",
+        "32:29",
+        "32:3",
+        "32:30",
+        "32:31",
+        "32:32",
+        "32:33",
+        "32:35",
+        "32:37",
+        "32:38",
+        "32:39",
+        "32:40",
+        "32:41",
+        "32:42",
+        "32:44",
+        "32:5",
+        "33:11",
+        "33:14",
+        "33:15",
+        "33:18",
+        "33:22",
+        "33:25",
+        "33:26",
+        "33:3",
+        "33:5",
+        "33:6",
+        "33:7",
+        "33:8",
+        "33:9",
+        "34:13",
+        "34:14",
+        "34:15",
+        "34:17",
+        "34:18",
+        "34:2",
+        "34:20",
+        "34:21",
+        "34:22",
+        "34:5"
+      ],
+      "wesg": [],
+      "wepl": [],
+      "mypl": [
+        "32:31",
+        "32:34",
+        "32:35",
+        "32:37",
+        "32:38",
+        "32:40",
+        "32:41",
+        "33:20",
+        "33:21",
+        "33:22",
+        "33:24",
+        "33:25",
+        "33:26",
+        "33:5",
+        "34:15",
+        "34:16",
+        "34:18"
+      ],
+      "ourone": [
+        "33:16"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Tenth/eighteenth years;seventeen shekels;thousands plural magnitude,not exact census.",
+      "One heart and one way32:39 count shared gifts,not deity persons.",
+      "Second and first occurrences,two families,seven-year endpoint/six-year service,two calf portions retained."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah32–34 adds92 verses,total877;whole Bible incomplete.",
+      "Personal transaction voices remain distinct from quoted and direct divine plural-I.",
+      "Jerusalem she-title33:16 differs from he-title23:6 without forced identification.",
+      "One common sense and five contextual names added;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 718,
+    "spreads": 359,
+    "units": 877,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "6b5e93a32645722204d8876dde67f9f1a29c15efb4a09e1ba7ea43b954d797ee",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 359,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.918,
+    "modules": [
+      "tests.test_kjv_jeremiah_deeds_liberty",
+      "tests.test_kjv_jeremiah_inward_covenant",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    717,
+    718
+  ],
+  "status": "incomplete Bible;Jeremiah1–34 section checkpoint verified"
+}

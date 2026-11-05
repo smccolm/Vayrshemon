@@ -1,0 +1,626 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.236",
+    "parentVersion": "0.10-kjv.235",
+    "parentHead": "1abad43b870356e6afbbb5d28f4d0c0210236a3010fd94e288d73a3d5b30c833",
+    "head": "65b25a7cf454a0ad9bb5af1fc67e250839583e64eada82575cc3df6ec757cc53",
+    "newLexicalEntries": 9,
+    "newProperEntries": 0,
+    "newCommonEntries": 9,
+    "newSurfaceForms": 4,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 6,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 78,
+    "exactCompilerCases": 78,
+    "newAuthoredVerses": 78,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 1151,
+    "johnVerses": 879,
+    "actsVerses": 1007,
+    "romansVerses": 336,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 2835,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newRomansVerses": 78,
+    "romansVerses": 336,
+    "authoredVerses": 28267,
+    "remainingVerses": 2835,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 5,
+    "quantityChecks": [
+      {
+        "reference": "Romans 10:19",
+        "source": "But I say, Did not Israel know? First Moses saith, I will provoke you to jealousy by them that are no people, and by a foolish nation I will anger you.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Romans 11:4",
+        "source": "But what saith the answer of God unto him? I have reserved to myself seven thousand men, who have not bowed the knee to the image of Baal.",
+        "expectedDecimalQuantities": [
+          7000
+        ],
+        "targetQuantities": [
+          7000
+        ]
+      },
+      {
+        "reference": "Romans 11:35",
+        "source": "Or who hath first given to him, and it shall be recompensed unto him again?",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Romans 12:4",
+        "source": "For as we have many members in one body, and all members have not the same office:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Romans 12:5",
+        "source": "So we, being many, are one body in Christ, and every one members one of another.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "10:1": [
+        "my/heart desire and prayer",
+        "for kjv_israel",
+        "they save:psv:may"
+      ],
+      "10:2": [
+        "i to they witness",
+        "kjv_zeal of god",
+        "not according_to knowledge"
+      ],
+      "10:3": [
+        "their/own kjv_righteousness kjv_establish",
+        "themselves to kjv_righteousness of god submit:neg"
+      ],
+      "10:4": [
+        "end of law for kjv_righteousness",
+        "each person who believe"
+      ],
+      "10:5": [
+        "kjv_moses",
+        "man who those thing:pl do",
+        "by they live:fu"
+      ],
+      "10:6": [
+        "in thy/heart say:neg",
+        "who into heaven up go",
+        "kjv_christ_title from above down bring"
+      ],
+      "10:7": [
+        "into kjv_depth descend",
+        "kjv_christ_title again from dead:pl up bring"
+      ],
+      "10:8": [
+        "in thy/mouth and in thy/heart",
+        "word of faith which wesg proclaim"
+      ],
+      "10:9": [
+        "with thy/mouth kjv_lord kjv_jesus_matthew confess",
+        "in thy/heart",
+        "god he:a from dead:pl raise"
+      ],
+      "10:10": [
+        "with heart man to kjv_righteousness",
+        "with mouth confession to salvation"
+      ],
+      "10:11": [
+        "whoever on he believe:pr ashamed be:neg"
+      ],
+      "10:12": [
+        "no difference between jew and greek",
+        "same lord over all",
+        "all who on he call"
+      ],
+      "10:13": [
+        "whoever on name of kjv_lord call",
+        "save:psv:fu"
+      ],
+      "10:14": [
+        "in whom they believe:neg",
+        "of whom they hear:neg",
+        "without proclaim:ag hear"
+      ],
+      "10:15": [
+        "except send:psv:pr proclaim",
+        "kjv_gospel of peace",
+        "glad news of good thing:pl",
+        "be:pr:excl"
+      ],
+      "10:16": [
+        "not all of they kjv_gospel obey:perf",
+        "kjv_esaias",
+        "ourone/report"
+      ],
+      "10:17": [
+        "faith by hear:ev",
+        "hear:ev by word of god"
+      ],
+      "10:18": [
+        "i say",
+        "their/sound into all earth",
+        "their/word:pl to end:pl of world"
+      ],
+      "10:19": [
+        "i say",
+        "first kjv_moses",
+        "ipl you:a to jealousy",
+        "no people",
+        "foolish nation ipl you:a anger"
+      ],
+      "10:20": [
+        "ipl by they who ipl:a seek:neg",
+        "find:psv:pa",
+        "after ipl ask:neg",
+        "manifest make:psv:pa"
+      ],
+      "10:21": [
+        "all day long ipl mypl/hand:pl",
+        "disobedience:adj and kjv_gainsay_romans:adj people"
+      ],
+      "11:1": [
+        "god forbid:opt:excl",
+        "i also kjv_israelite",
+        "kjv_seedline of kjv_abraham",
+        "kjv_tribe of kjv_benjamin"
+      ],
+      "11:2": [
+        "kjv_foreknow_romans",
+        "away cast:neg",
+        "kjv_elias_matthew",
+        "to god against kjv_israel kjv_intercede_against_romans"
+      ],
+      "11:3": [
+        "thy/prophet:pl kill",
+        "thy/altar:pl down kjv_dig",
+        "i alone leave",
+        "my/life seek"
+      ],
+      "11:4": [
+        "ipl to iplself four+twelve+twelve+twelve and seven+twelve and four man:pl",
+        "image of kjv_baal bow:neg"
+      ],
+      "11:5": [
+        "this present time",
+        "remainder according_to kjv_election_romans of grace"
+      ],
+      "11:6": [
+        "otherwise grace no more grace",
+        "if of work:pl then no more grace",
+        "otherwise work no more work"
+      ],
+      "11:7": [
+        "kjv_israel",
+        "obtain:neg",
+        "kjv_election_romans it:a obtain",
+        "rest blind make"
+      ],
+      "11:8": [
+        "spirit of slumber",
+        "they see:neg",
+        "they hear:neg",
+        "this day"
+      ],
+      "11:9": [
+        "kjv_david",
+        "their/kjv_meal_table snare and trap and kjv_stumblingblock and recompense"
+      ],
+      "11:10": [
+        "eye:pl dark make",
+        "see:neg",
+        "back always down bow"
+      ],
+      "11:11": [
+        "i say",
+        "kjv_stumble:perf that they fall",
+        "god forbid:opt:excl",
+        "through their/fall salvation to kjv_gentile:pl"
+      ],
+      "11:12": [
+        "fall wealth of world",
+        "diminish:ev wealth of kjv_gentile:pl",
+        "more their/full:ev"
+      ],
+      "11:13": [
+        "i kjv_apostle of kjv_gentile:pl",
+        "my/kjv_apostleship_romans great make"
+      ],
+      "11:14": [
+        "my/flesh",
+        "kjv_emulation_romans",
+        "some of they save:may"
+      ],
+      "11:15": [
+        "away cast:ev kjv_reconcile_relation:ev of world",
+        "receive:ev",
+        "life from dead:pl"
+      ],
+      "11:16": [
+        "kjv_firstfruits holy",
+        "lump also holy",
+        "root holy",
+        "so branch:pl"
+      ],
+      "11:17": [
+        "some of branch:pl",
+        "wild kjv_olive kjv_tree",
+        "among they graft",
+        "root and kjv_fatness"
+      ],
+      "11:18": [
+        "branch:pl boast:neg",
+        "thou root carry:neg",
+        "root thou:a"
+      ],
+      "11:19": [
+        "thou say:fu",
+        "that i graft:psv:may"
+      ],
+      "11:20": [
+        "because of believe:neg:ev",
+        "thou by faith stand",
+        "proud be:neg",
+        "fear:imp"
+      ],
+      "11:21": [
+        "god natural branch:pl spare:neg",
+        "lest he also thou:a spare:neg"
+      ],
+      "11:22": [
+        "goodness and kjv_severity_romans",
+        "if thou in his/goodness continue",
+        "otherwise thou also off cut"
+      ],
+      "11:23": [
+        "in believe:neg:ev remain:neg",
+        "graft:psv:fu",
+        "again graft:inf able"
+      ],
+      "11:24": [
+        "by nature wild",
+        "contrary to nature",
+        "good kjv_olive kjv_tree",
+        "their/own kjv_olive kjv_tree"
+      ],
+      "11:25": [
+        "i will:neg",
+        "your/own kjv_conceit_self_romans:pl",
+        "kjv_blindness in part",
+        "until full:ev of kjv_gentile:pl"
+      ],
+      "11:26": [
+        "all kjv_israel save",
+        "out of kjv_sion_psalm",
+        "from kjv_jacob kjv_ungodly:ev away turn"
+      ],
+      "11:27": [
+        "mypl/kjv_covenant",
+        "ipl their/sin:pl away take"
+      ],
+      "11:28": [
+        "kjv_gospel they enemy:pl for your/sake:pl",
+        "kjv_election_romans they beloved",
+        "for sake:pl of father"
+      ],
+      "11:29": [
+        "gift:pl and call:ev of god",
+        "without kjv_repentance_reconsider_romans"
+      ],
+      "11:30": [
+        "you in past time:pl god believe:neg",
+        "through their/believe:neg:ev mercy obtain"
+      ],
+      "11:31": [
+        "these also now believe:neg",
+        "through your/mercy",
+        "also mercy obtain:may"
+      ],
+      "11:32": [
+        "they all in believe:neg:ev kjv_enclose",
+        "upon all mercy have"
+      ],
+      "11:33": [
+        "wisdom and knowledge of god:excl",
+        "judgment:pl search:psv:neg:can",
+        "way:pl beyond find"
+      ],
+      "11:34": [
+        "who mind of kjv_lord know",
+        "who his/counsellor"
+      ],
+      "11:35": [
+        "who first to he give",
+        "again recompense"
+      ],
+      "11:36": [
+        "of he and through he and to he all thing:pl",
+        "glory forever"
+      ],
+      "12:1": [
+        "your/body:pl alive kjv_sacrifice",
+        "your/rational service"
+      ],
+      "12:2": [
+        "like this world make:psv:neg",
+        "renew:ev of your/mind",
+        "good and acceptable and perfect will of god",
+        "test:may"
+      ],
+      "12:3": [
+        "each man",
+        "more highly than fitting think:neg",
+        "kjv_soberness_acts",
+        "measure of faith distribute"
+      ],
+      "12:4": [
+        "wesg many kjv_member_body_romans:pl in one_num body",
+        "not all kjv_member_body_romans:pl same kjv_office_function_romans"
+      ],
+      "12:5": [
+        "wesg many be:cv one_num body",
+        "each person kjv_member_body_romans:pl of each other"
+      ],
+      "12:6": [
+        "gift:pl according_to grace",
+        "to wesg",
+        "kjv_prophesy:ev wesg",
+        "proportion of faith"
+      ],
+      "12:7": [
+        "wesg to ourone/service attend",
+        "he who teach:pr to teach:ev"
+      ],
+      "12:8": [
+        "kjv_exhort_romans:pr",
+        "simplicity",
+        "kjv_diligent:ev",
+        "happy:ev"
+      ],
+      "12:9": [
+        "love without pretend:ev",
+        "evil kjv_abhor",
+        "good kjv_cleave_adhere"
+      ],
+      "12:10": [
+        "brother:adj love",
+        "each other kindly affection",
+        "honour each other prefer"
+      ],
+      "12:11": [
+        "business lazy be:neg",
+        "spirit fervour:adj",
+        "kjv_lord serve"
+      ],
+      "12:12": [
+        "hope rejoice",
+        "kjv_tribulation patient",
+        "prayer persist"
+      ],
+      "12:13": [
+        "necessity of saint:pl",
+        "kjv_hospitality_romans devoted"
+      ],
+      "12:14": [
+        "persecute:pr bless:imp bless:imp and curse:neg"
+      ],
+      "12:15": [
+        "rejoice:pr rejoice:imp",
+        "weep:pr weep:imp"
+      ],
+      "12:16": [
+        "high thing:pl kjv_mind_attention_romans:neg",
+        "man:pl of low estate",
+        "your/own kjv_conceit_self_romans:pl wise be:neg"
+      ],
+      "12:17": [
+        "no man evil for evil",
+        "honest thing:pl in sight of all man:pl"
+      ],
+      "12:18": [
+        "if possible",
+        "as much as in your/power",
+        "with all man:pl in peace"
+      ],
+      "12:19": [
+        "yourselves kjv_avenge:neg",
+        "to wrath place give",
+        "kjv_avenge:ev of ipl",
+        "ipl repay:fu"
+      ],
+      "12:20": [
+        "thy/enemy hunger",
+        "he thirst",
+        "kjv_charcoal:pl of fire upon his/head"
+      ],
+      "12:21": [
+        "by evil overcome:psv:neg",
+        "evil with good overcome:imp"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "10:18",
+        "10:19",
+        "10:2",
+        "11:1",
+        "11:11",
+        "11:13",
+        "11:14",
+        "11:19",
+        "11:25",
+        "11:3",
+        "12:1",
+        "12:3"
+      ],
+      "ipl": [
+        "10:19",
+        "10:20",
+        "10:21",
+        "11:27",
+        "11:4",
+        "12:19"
+      ],
+      "wesg": [
+        "10:8",
+        "12:4",
+        "12:5",
+        "12:6",
+        "12:7"
+      ],
+      "wepl": [],
+      "mypl": [
+        "10:21",
+        "11:27"
+      ],
+      "ourone": [
+        "10:16",
+        "12:7"
+      ],
+      "iplself": [
+        "11:4"
+      ],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "7000reserved people,priority first and one-body comparisons retain their distinct source roles.",
+      "Many-in-one body uses communal singular-whole we without erasing plural members or their different functions.",
+      "Personal argument and Elias-I differ from divine quoted plural-self;against-intercession differs from for-intercession."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "78new verses;336Romans;whole Bible incomplete.",
+      "Full grace/works antithesis,not-all negations,partial blindness until fullness,conditional grafting,without-reconsideration and enemy-feeding retained.",
+      "Nine common entries,no new proper names or paradigms;earlier targets unchanged."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Romans — incomplete Bible working text",
+    "pages": 192,
+    "spreads": 96,
+    "units": 336,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d7c08e516355cf6ea731f034ee9e401ad1dfc3b6e5e07cad8b044e08e0b6a46f",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 96,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 13.631,
+    "modules": [
+      "tests.test_kjv_romans_many_one_body",
+      "tests.test_kjv_romans_divided_self",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    191,
+    192
+  ],
+  "status": "incomplete Bible;Romans1–12 section checkpoint verified",
+  "proofReview": {
+    "method": "Preflight PNGs visually reviewed; final official PNG bytes independently SHA256-compared and identical.",
+    "proofs": [
+      {
+        "page": 191,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv236\\preflight-romans\\Proofs\\page-191.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv236\\composed-romans\\Proofs\\page-191.png",
+        "sha256": "845b98f741bd7125772ed67f967d50af1b1254b4f1dfc3cd4c0fa0fadf27cf96",
+        "bytesIdentical": true
+      },
+      {
+        "page": 192,
+        "viewedPreflight": "E:\\Vayrshemon\\.local\\kjv236\\preflight-romans\\Proofs\\page-192.png",
+        "officialProof": "E:\\Vayrshemon\\.local\\kjv236\\composed-romans\\Proofs\\page-192.png",
+        "sha256": "02f906f44e8c693c058948af891fd6b75ee7e03ca4c1ee484f9ce9247a1afd60",
+        "bytesIdentical": true
+      }
+    ]
+  }
+}

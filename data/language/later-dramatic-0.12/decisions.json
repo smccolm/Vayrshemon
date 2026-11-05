@@ -1,0 +1,255 @@
+{
+  "parent": {
+    "version": "0.11",
+    "package": "data/language/later-dramatic-0.11",
+    "manifestSha256": "89fdf977173b70273dcaf86babb593523b8c47c0a160354f410d3d8f177c38e0",
+    "forgeHead": "8a2fea375887f59085624f64c85975be0cc95ae96bd90f40aaa2ca71e5901570",
+    "forgeProject": "Saves/Language Development 0.11/Vayrshemon 0.11.vayforge",
+    "historyBundle": "Saves/Language Development 0.11/Vayrshemon 0.11 history.vayforge.json",
+    "guide": "docs/CURRENT_LANGUAGE.md"
+  },
+  "books": {
+    "allswell": {
+      "units": 1215,
+      "changedUnits": 7,
+      "changedIds": [
+        "0003",
+        "0063",
+        "0244",
+        "0495",
+        "0529",
+        "1051",
+        "1058"
+      ],
+      "sourceSha256": "a4687be871fd4b0102cb26cee295e6a4dd2b4383e4bdd5b43b1fde45185d82cc",
+      "sourceAndMetadataExact": true
+    },
+    "midsummer": {
+      "units": 755,
+      "changedUnits": 13,
+      "changedIds": [
+        "0012",
+        "0051",
+        "0052",
+        "0072",
+        "0158",
+        "0164",
+        "0173",
+        "0179",
+        "0203",
+        "0245",
+        "0253",
+        "0535",
+        "0612"
+      ],
+      "sourceSha256": "4a8bdb9a2a810ba843effdd59cfb2fa67bd49a75c6e49d22e47e99013b9c1703",
+      "sourceAndMetadataExact": true
+    }
+  },
+  "editorialRevisions": [
+    {
+      "play": "allswell",
+      "unitId": "0003",
+      "source": "BERTRAM And I in going, madam, weep o'er my father's death anew; but I must attend his Majesty's command, to whom I am now in ward, evermore in subjection.",
+      "before": "bertram: and i go:cv, madam, my/father/death:g about again weep:pr; but his/majesty/command:a i must attend:pr, to who i now ward:a be:pr, forever under authority.",
+      "after": "bertram: i:add go:cv, madam, my/father/death:g about again weep:pr; but his/majesty/command:a i must attend:pr, to who i now ward:a be:pr, forever under authority.",
+      "windowBefore": "bertram: and i go:cv",
+      "windowAfter": "bertram: i:add go:cv",
+      "reason": "Additive response to his mother: both mourn a loss; keep the explicit singular I."
+    },
+    {
+      "play": "allswell",
+      "unitId": "0063",
+      "source": "And your virginity, your old virginity, is like one of our French withered pears: it looks ill, it eats dryly; marry, 'tis a withered pear. It was formerly better, marry, yet 'tis a withered pear. Will you anything with it?",
+      "before": "and your/virginity:n, your/virginity old:m, as one_num of our/france/pear:pl withered:m be:pr: bad:adv look:pr, dry:adv eat:psv:pr; marry, withered:m pear:a be:pr. before better:a be:pa, marry, yet withered:m pear:a be:pr. anything:a with it you will:pr q?",
+      "after": "your/virginity:n:add, your/virginity old:m, as one_num of our/france/pear:pl withered:m be:pr: bad:adv look:pr, dry:adv eat:psv:pr; marry, withered:m pear:a be:pr. before better:a be:pa, marry, yet withered:m pear:a be:pr. anything:a with it you will:pr q?",
+      "windowBefore": "and your/virginity:n,",
+      "windowAfter": "your/virginity:n:add,",
+      "reason": "Continuation of Parolles’s analogy, with an audible additive clitic; retain the repeated virginity and pear images."
+    },
+    {
+      "play": "allswell",
+      "unitId": "0244",
+      "source": "BERTRAM And I will do so.",
+      "before": "bertram: and thus i do:fu.",
+      "after": "bertram: thus:add i do:fu.",
+      "windowBefore": "bertram: and thus",
+      "windowAfter": "bertram: thus:add",
+      "reason": "Bertram assents to the instruction; no temporal or causal connective is introduced."
+    },
+    {
+      "play": "allswell",
+      "unitId": "0495",
+      "source": "BERTRAM And by other warranted testimony.",
+      "before": "bertram: and other testimony:ins verified:m.",
+      "after": "bertram: other:add testimony:ins verified:m.",
+      "windowBefore": "bertram: and other",
+      "windowAfter": "bertram: other:add",
+      "reason": "Additive evidential fragment: another testimony as well as the one just named."
+    },
+    {
+      "play": "allswell",
+      "unitId": "0529",
+      "source": "HELEN And ever shall With true observance seek to eke out that Wherein toward me my homely stars have failed To equal my great fortune.",
+      "before": "helen: and always true+obedience:ins, my/great+fortune:a equal:inf towards i my/humble+star:pl fail:perf where, it:a supplement:inf i seek:fu.",
+      "after": "helen: always:add true+obedience:ins, my/great+fortune:a equal:inf towards i my/humble+star:pl fail:perf where, it:a supplement:inf i seek:fu.",
+      "windowBefore": "helen: and always",
+      "windowAfter": "helen: always:add",
+      "reason": "Helen continues her vow across the interruption; preserve always, future force and every participant."
+    },
+    {
+      "play": "allswell",
+      "unitId": "1051",
+      "source": "LAFEW And what would you have me to do? 'Tis too late to pare her nails now. Wherein have you played the knave with Fortune that she should scratch you, who of herself is a good lady and would not have knaves thrive long under her?",
+      "before": "lafew: and what:a do:inf i:a you want:pr? now her/nail:pl:a trim:inf too late be:pr. fortune:ins which knavery:a you play:perf, you:a she scratch:pr:should? herself good lady she be:pr; below she knave:pl long thrive:pr she wish:pr not.",
+      "after": "lafew: what:a:add do:inf i:a you want:pr? now her/nail:pl:a trim:inf too late be:pr. fortune:ins which knavery:a you play:perf, you:a she scratch:pr:should? herself good lady she be:pr; below she knave:pl long thrive:pr she wish:pr not.",
+      "windowBefore": "lafew: and what:a",
+      "windowAfter": "lafew: what:a:add",
+      "reason": "Follow-up question marked as additive; preserve the interrogative and its accusative role."
+    },
+    {
+      "play": "allswell",
+      "unitId": "1058",
+      "source": "LAFEW Was I, in sooth? And I was the first that lost thee.",
+      "before": "lafew: truly, i be:pa? and thou:a lose:pa first i be:pa.",
+      "after": "lafew: truly, i be:pa? thou:a:add lose:pa first i be:pa.",
+      "windowBefore": "? and thou:a",
+      "windowAfter": "? thou:a:add",
+      "reason": "Lafew adds his own part in the loss after the incredulous question; no pronoun is elided."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0012",
+      "source": "sweetmeats--messengers Of strong prevailment in unhardened youth. With cunning hast thou filched my daughter's heart, Turned her obedience (which is due to me) To stubborn harshness.--And, my gracious duke, Be it so she will not here before your Grace Consent to marry with Demetrius,",
+      "before": "sweetmeat:pl, strong messenger:pl of persuasion to youth not hard:adj. with cunning my/daughter/heart:a thou steal:perf; her/obedience:a, rel to i due be:pr, to obstinate harshness turn:perf. and my/duke gracious:m, if here before your/grace she with demetrius wed:inf not consent:pr,",
+      "after": "sweetmeat:pl, strong messenger:pl of persuasion to youth not hard:adj. with cunning my/daughter/heart:a thou steal:perf; her/obedience:a, rel to i due be:pr, to obstinate harshness turn:perf. my/duke:add gracious:m, if here before your/grace she with demetrius wed:inf not consent:pr,",
+      "windowBefore": ". and my/duke",
+      "windowAfter": ". my/duke:add",
+      "reason": "Egeus resumes his petition with a vocative; keep the conditional that follows."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0051",
+      "source": "And to that place the sharp Athenian law Cannot pursue us. If thou lovest me, then Steal forth thy father's house tomorrow night,",
+      "before": "and to that place sharp athens/law:n wepl:a pursue:can not. if thou i:a love:pr, tomorrow night thy/father/house:abl stealthily leave:imp,",
+      "after": "to:add that place sharp athens/law:n wepl:a pursue:can not. if thou i:a love:pr, tomorrow night thy/father/house:abl stealthily leave:imp,",
+      "windowBefore": "and to that",
+      "windowAfter": "to:add that",
+      "reason": "Lysander adds the legal advantage of the proposed refuge, not a new cause or time relation."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0052",
+      "source": "And in the wood a league without the town (Where I did meet thee once with Helena To do observance to a morn of May), There will I stay for thee.",
+      "before": "and in woodland, town:abl one_num league, where once with helena thee:a i meet:pa, may_day/morning:a honour:inf, there for thee i wait:fu.",
+      "after": "in:add woodland, town:abl one_num league, where once with helena thee:a i meet:pa, may_day/morning:a honour:inf, there for thee i wait:fu.",
+      "windowBefore": "and in woodland",
+      "windowAfter": "in:add woodland",
+      "reason": "Further rendezvous detail in the same plan; preserve the location and future promise."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0072",
+      "source": "HERMIA And in the wood where often you and I Upon faint primrose beds were wont to lie, Emptying our bosoms of their counsel sweet, There my Lysander and myself shall meet And thence from Athens turn away our eyes To seek new friends and stranger companies.",
+      "before": "hermia: and in woodland where thou and i often on pale primrose/bed:pl lie:pa, counsel:a sweet:m of our/bosom empty:cv, there my/lysander and i meet:fu; then our/eye:du:a from athens turn:fu, new friend:pl:a and stranger company:pl:a seek:inf.",
+      "after": "hermia: in:add woodland where thou and i often on pale primrose/bed:pl lie:pa, counsel:a sweet:m of our/bosom empty:cv, there my/lysander and i meet:fu; then our/eye:du:a from athens turn:fu, new friend:pl:a and stranger company:pl:a seek:inf.",
+      "windowBefore": "hermia: and in woodland",
+      "windowAfter": "hermia: in:add woodland",
+      "reason": "Hermia supplies the shared location after Lysander’s plan; preserve the change of speaker and both participants."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0158",
+      "source": "And on old Hiems' thin and icy crown An odorous chaplet of sweet summer buds Is, as in mockery, set. The spring, the summer, The childing autumn, angry winter, change Their wonted liveries, and the mazed world By their increase now knows not which is which.",
+      "before": "and on old hiems/thin/icy/crown fragrant garland:a of sweet summer/bud:pl asif mock:cv set:psv:pr. spring, summer, fruitful autumn, angry winter their/livery:pl:a customary:m change:pr; amazed world:n by their/yield which which be:pr now not know:pr.",
+      "after": "on:add old hiems/thin/icy/crown fragrant garland:a of sweet summer/bud:pl asif mock:cv set:psv:pr. spring, summer, fruitful autumn, angry winter their/livery:pl:a customary:m change:pr; amazed world:n by their/yield which which be:pr now not know:pr.",
+      "windowBefore": "and on old",
+      "windowAfter": "on:add old",
+      "reason": "The second seasonal inversion is additive; preserve which-is-which at the end as intentional identity predication."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0164",
+      "source": "And for her sake I will not part with him.",
+      "before": "and for her/sake from he i separate:fu not.",
+      "after": "for:add her/sake from he i separate:fu not.",
+      "windowBefore": "and for her/sake",
+      "windowAfter": "for:add her/sake",
+      "reason": "Titania’s second for-her-sake is deliberate: upbringing and refusal are distinct claims; only the clause linkage changes."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0173",
+      "source": "And loosed his love-shaft smartly from his bow As it should pierce a hundred thousand hearts. But I might see young Cupid's fiery shaft Quenched in the chaste beams of the wat'ry moon, And the imperial vot'ress passed on In maiden meditation, fancy-free.",
+      "before": "and love/arrow:a sharply from bow loose:pa, asif hundred thousand heart:pl:a pierce:pr:cond. but cupid/fire/arrow:a in watery moon/beam:pl chaste:m extinguish:psv:inf i see:pa. imperial devotee:n maiden meditation:loc pass:pa, without love/fancy.",
+      "after": "love/arrow:a:cont sharply from bow loose:pa, asif hundred thousand heart:pl:a pierce:pr:cond. but cupid/fire/arrow:a in watery moon/beam:pl chaste:m extinguish:psv:inf i see:pa. imperial devotee:n maiden meditation:loc pass:pa, without love/fancy.",
+      "windowBefore": "and love/arrow:a",
+      "windowAfter": "love/arrow:a:cont",
+      "reason": "Same-actor narrative continuation in Oberon’s report: taking aim and loosing the arrow. The zero link does not add a tense or omit an argument."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0179",
+      "source": "And I will overhear their conference.",
+      "before": "and their/conversation:a overhear:fu.",
+      "after": "their/conversation:a:add overhear:fu.",
+      "windowBefore": "and their/conversation:a",
+      "windowAfter": "their/conversation:a:add",
+      "reason": "Oberon adds overhearing to invisibility; the different predicates and future force remain."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0203",
+      "source": "and seek through this grove. [He gives Robin part of the flower.] A sweet Athenian lady is in love With a disdainful youth. Anoint his eyes, But do it when the next thing he espies May be the lady.",
+      "before": "and through this grove seek:imp. [ robin:a flower/part:a he give:pr. ] sweet athens/lady:n disdainful youth:a love:pr. his/eye:du:a anoint:imp, but do:imp when next thing he see:pr lady:a may be:pr.",
+      "after": "through:add this grove seek:imp. [ robin:a flower/part:a he give:pr. ] sweet athens/lady:n disdainful youth:a love:pr. his/eye:du:a anoint:imp, but do:imp when next thing he see:pr lady:a may be:pr.",
+      "windowBefore": "and through this",
+      "windowAfter": "through:add this",
+      "reason": "The second imperative in the instruction remains an imperative; the clitic marks its addition."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0245",
+      "source": "And reason says you are the worthier maid. Things growing are not ripe until their season; So I, being young, till now ripe not to reason. And touching now the point of human skill, Reason becomes the marshal to my will And leads me to your eyes,",
+      "before": "and reason say:pr, you worthier maiden. growing thing:pl:n until their/season ripe not; so young i until now to reason ripe not. now skill/point:a human:m reach:cv, reason:n my/will/marshal become:pr, to your/eye:du lead:pr,",
+      "after": "reason:add say:pr, you worthier maiden. growing thing:pl:n until their/season ripe not; so young i until now to reason ripe not. now skill/point:a human:m reach:cv, reason:n my/will/marshal become:pr, to your/eye:du lead:pr,",
+      "windowBefore": "and reason say:pr",
+      "windowAfter": "reason:add say:pr",
+      "reason": "Lysander’s argumentative transition: reason rules, then reason says. Retain the repeated reason motif."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0253",
+      "source": "And you sat smiling at his cruel prey. Lysander! What, removed? Lysander, lord! What, out of hearing? Gone? No sound, no word? Alack, where are you? Speak, an if you hear. Speak, of all loves! I swoon almost with fear.-- No?",
+      "before": "and thou at its/cruel/prey smile:cv sit:pa. lysander:excl. away? lysander, lord:excl. out_of hearing? gone? no sound, no word? alas, where thou be:pr? if hear:pr, speak:imp. for all love speak:imp:excl. with fear almost swoon:pr. no?",
+      "after": "thou:add at its/cruel/prey smile:cv sit:pa. lysander:excl. away? lysander, lord:excl. out_of hearing? gone? no sound, no word? alas, where thou be:pr? if hear:pr, speak:imp. for all love speak:imp:excl. with fear almost swoon:pr. no?",
+      "windowBefore": "and thou at",
+      "windowAfter": "thou:add at",
+      "reason": "Hermia’s dream adds Lysander’s smile to the serpent’s attack. Explicit thou preserves the switch of actor."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0535",
+      "source": "and her fairy sent To bear him to my bower in Fairyland. And now I have the boy, I will undo This hateful imperfection of her eyes. And, gentle Puck, take this transformed scalp From off the head of this Athenian swain, That he,",
+      "before": "and her/fairy:a send:pa, he:a to my/fairyland/bower carry:inf. now boy:a i have:pr, hateful imperfection:a of her/eye:du i undo:fu. gentle puck, this transform:psv scalp:a from athens/swain/head remove:imp, that he,",
+      "after": "her/fairy:a:cont send:pa, he:a to my/fairyland/bower carry:inf. now boy:a i have:pr, hateful imperfection:a of her/eye:du i undo:fu. gentle puck, this transform:psv scalp:a from athens/swain/head remove:imp, that he,",
+      "windowBefore": "and her/fairy:a",
+      "windowAfter": "her/fairy:a:cont",
+      "reason": "Same-actor reported sequence: Titania gives the boy and sends a fairy. Keep recipient, purpose and subsequent speaker change."
+    },
+    {
+      "play": "midsummer",
+      "unitId": "0612",
+      "source": "And as imagination bodies forth The forms of things unknown, the poet's pen Turns them to shapes and gives to airy nothing A local habitation and a name. Such tricks hath strong imagination That, if it would but apprehend some joy,",
+      "before": "and imagination:n unknown thing:pl/form:a embody:cvds, poet/pen:n they:a shape:pl turn:pr, airy nothing:a place, dwelling and name:a give:pr. strong imagination such trick:pl:a have:pr: if only some joy:a perceive:inf desire:pr,",
+      "after": "imagination:n:add unknown thing:pl/form:a embody:cvds, poet/pen:n they:a shape:pl turn:pr, airy nothing:a place, dwelling and name:a give:pr. strong imagination such trick:pl:a have:pr: if only some joy:a perceive:inf desire:pr,",
+      "windowBefore": "and imagination:n",
+      "windowAfter": "imagination:n:add",
+      "reason": "Additive development of the poet/imagination account, retaining the different-subject converb and poet’s pen as matrix subject."
+    }
+  ],
+  "newLexicalRoots": 0,
+  "newBoundDictionaryEntries": 6,
+  "historicalReference": "0.10-kjv.281",
+  "retainedAdjacentRepetitionCases": 19
+}

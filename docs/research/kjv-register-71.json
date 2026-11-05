@@ -1,0 +1,346 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.71",
+    "parentVersion": "0.10-kjv.70",
+    "parentHead": "bf8a7534c3a4fe53ee6e0d8042d653b80ec917ee578b8ba8470570a314a3c461",
+    "head": "a5c9fc5491c6c0a3810b535d6a42cbd549471877a3855a2ca4f2243c5f018c92",
+    "newLexicalEntries": 21,
+    "newProperEntries": 21,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 20,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 7,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 41,
+    "exactCompilerCases": 41,
+    "newAuthoredVerses": 41,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 491,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 21029,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newKingsVerses": 41,
+    "kings2Verses": 491,
+    "authoredVerses": 10073,
+    "remainingVerses": 21029,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 6,
+    "quantityChecks": [
+      {
+        "reference": "2 Kings 17:1",
+        "source": "In the twelfth year of Ahaz king of Judah began Hoshea the son of Elah to reign in Samaria over Israel nine years.",
+        "expectedDecimalQuantities": [
+          12,
+          9
+        ],
+        "targetQuantities": [
+          12,
+          9
+        ]
+      },
+      {
+        "reference": "2 Kings 17:5",
+        "source": "Then the king of Assyria came up throughout all the land, and went up to Samaria, and besieged it three years.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      },
+      {
+        "reference": "2 Kings 17:6",
+        "source": "In the ninth year of Hoshea the king of Assyria took Samaria, and carried Israel away into Assyria, and placed them in Halah and in Habor by the river of Gozan, and in the cities of the Medes.",
+        "expectedDecimalQuantities": [
+          9
+        ],
+        "targetQuantities": [
+          9
+        ]
+      },
+      {
+        "reference": "2 Kings 17:16",
+        "source": "And they left all the commandments of the LORD their God, and made them molten images, even two calves, and made a grove, and worshipped all the host of heaven, and served Baal.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "2 Kings 17:27",
+        "source": "Then the king of Assyria commanded, saying, Carry thither one of the priests whom ye brought from thence; and let them go and dwell there, and let him teach them the manner of the God of the land.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "2 Kings 17:28",
+        "source": "Then one of the priests whom they had carried away from Samaria came and dwelt in Bethel, and taught them how they should fear the LORD.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "17:1": [
+        "twelve:ord year",
+        "nine year:pl"
+      ],
+      "17:2": [
+        "but not as king:pl of kjv_israel"
+      ],
+      "17:3": [
+        "kjv_shalmaneser",
+        "his/servant become:pa",
+        "gift:pl:a"
+      ],
+      "17:4": [
+        "kjv_so_egypt king of egypt",
+        "year by year",
+        "in prison he:a bind:pa"
+      ],
+      "17:5": [
+        "kjv_three year:pl besiege:pa"
+      ],
+      "17:6": [
+        "nine:ord year",
+        "kjv_halah",
+        "kjv_habor by river of kjv_gozan",
+        "kjv_mede:pl"
+      ],
+      "17:7": [
+        "from under hand of kjv_pharaoh",
+        "other god:pl:a fear:pp"
+      ],
+      "17:8": [
+        "kjv_statute:pl of kjv_heathen",
+        "king:pl of kjv_israel"
+      ],
+      "17:9": [
+        "secretly",
+        "watch:ag:pl kjv_tower",
+        "fortify:psv city"
+      ],
+      "17:10": [
+        "image:pl and grove:pl",
+        "each high hill",
+        "each green kjv_tree"
+      ],
+      "17:11": [
+        "kjv_incense:a burn:caus:pa",
+        "to anger kjv_provoke:inf"
+      ],
+      "17:12": [
+        "idol:pl:a they serve:pa",
+        "you do:fu not"
+      ],
+      "17:13": [
+        "mypl/command:pl",
+        "ipl command:pa",
+        "ipl send:pa"
+      ],
+      "17:14": [
+        "hear:inf they will:pa not",
+        "their/neck:pl:a hard:caus:pa"
+      ],
+      "17:15": [
+        "his/kjv_covenant:a",
+        "vanity:a they follow:pa and vain become:pa"
+      ],
+      "17:16": [
+        "two kjv_calf:pl",
+        "army of heaven:a",
+        "kjv_baal:a serve:pa"
+      ],
+      "17:17": [
+        "son:pl and their/daughter:pl:a through fire",
+        "kjv_divine:ev",
+        "themselves:a sell:pa"
+      ],
+      "17:18": [
+        "kjv_tribe of kjv_judah only"
+      ],
+      "17:19": [
+        "kjv_judah keep:pa not"
+      ],
+      "17:20": [
+        "descendant:pl of kjv_israel:a",
+        "spoil:ag:pl"
+      ],
+      "17:21": [
+        "kjv_jeroboam son of kjv_nebat:a king",
+        "they:a great sin kjv_jeroboam sin:caus:pa"
+      ],
+      "17:22": [
+        "depart:pa not"
+      ],
+      "17:23": [
+        "their/own land",
+        "carry:psv:pa away until this day"
+      ],
+      "17:24": [
+        "kjv_babylon",
+        "kjv_cuthah",
+        "kjv_ava",
+        "kjv_hamath",
+        "kjv_sepharvaim",
+        "in place of child:pl of kjv_israel"
+      ],
+      "17:25": [
+        "kjv_lord:a they fear:pa not",
+        "lion:pl:a",
+        "some of they:a"
+      ],
+      "17:26": [
+        "god of land manner:a know:pr not",
+        "lion:pl:a among they"
+      ],
+      "17:27": [
+        "one_num of priest:pl:a",
+        "they go:opt",
+        "he of god of land manner:a"
+      ],
+      "17:28": [
+        "one_num of priest:pl",
+        "kjv_bethel",
+        "fear:pr:should"
+      ],
+      "17:29": [
+        "each nation",
+        "their/own god:pl",
+        "kjv_samaritan:pl"
+      ],
+      "17:30": [
+        "kjv_succothbenoth",
+        "kjv_cuth kjv_nergal",
+        "kjv_hamath kjv_ashima"
+      ],
+      "17:31": [
+        "kjv_nibhaz and kjv_tartak",
+        "their/child:pl:a in fire",
+        "kjv_adrammelech_deity and kjv_anammelech"
+      ],
+      "17:32": [
+        "kjv_lord:a they fear:pa",
+        "of lowest of they priest:pl"
+      ],
+      "17:33": [
+        "kjv_lord:a they fear:pa",
+        "their/own god:pl:a serve:pa"
+      ],
+      "17:34": [
+        "kjv_lord:a they fear:pr not",
+        "kjv_jacob",
+        "whom kjv_israel he name:pa"
+      ],
+      "17:35": [
+        "other god:pl:a you fear:fu not",
+        "yourselves:a to they bow:fu"
+      ],
+      "17:36": [
+        "stretch:psv out arm",
+        "he:a you fear:fu",
+        "he:a you worship:fu"
+      ],
+      "17:37": [
+        "kjv_statute:pl and kjv_ordinance:pl",
+        "other god:pl:a you fear:fu not"
+      ],
+      "17:38": [
+        "with you ipl make:perf",
+        "forget:fu not"
+      ],
+      "17:39": [
+        "your/god:a",
+        "all your/enemy:pl"
+      ],
+      "17:40": [
+        "listen:pa not"
+      ],
+      "17:41": [
+        "kjv_lord:a fear:pa",
+        "their/kjv_graven image:pl:a serve:pa",
+        "of their/child:pl child:pl",
+        "until this day"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "quantityInterpretation": [
+      "Twelfth-year accession,nine-year reign,three-year siege and ninth-year capture remain separately anchored.",
+      "Two molten calves is explicit; one returned priest remains singular beside the supplied plural go-and-dwell pronoun."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Divine plural-I covenant address preserves adjacent third-person references; positive and negative fear statements and uncertain settler references remain unharmonized.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "2 Kings — incomplete Bible working text",
+    "pages": 400,
+    "spreads": 200,
+    "units": 491,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "a99f9224feaf475827f287d023400fa3c9f4527db9a00e321638aece5c35e134",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 200,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "numberingSummary": {
+    "placements": 800,
+    "allPlaced": true
+  },
+  "tests": {
+    "count": 4,
+    "seconds": 12.067,
+    "result": "passed",
+    "modules": [
+      "tests.test_kjv_kings_exile",
+      "tests.test_kjv_kings_subjection",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "visualReview": {
+    "pages": [
+      399,
+      400
+    ],
+    "observations": "Viewed final exile spread; four corresponding paragraph starts, approved Maxima/font sizes, margins and outside Unta retained."
+  },
+  "status": "incomplete whole Bible"
+}

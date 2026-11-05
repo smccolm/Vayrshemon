@@ -1,0 +1,660 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.84",
+    "parentVersion": "0.10-kjv.83",
+    "parentHead": "07a49683d62d9cea6a05003fa2dcb9bee2d6ab08b416cf520e10cefc71f13123",
+    "head": "969b038434dabd40c8923c13dd9264fc3bd0af952924e9b0f941979f136c9906",
+    "newLexicalEntries": 10,
+    "newProperEntries": 9,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 9,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 76,
+    "exactCompilerCases": 76,
+    "newAuthoredVerses": 76,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 731,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 20070,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newChroniclesVerses": 76,
+    "chronicles1Verses": 731,
+    "authoredVerses": 11032,
+    "remainingVerses": 20070,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 13,
+    "quantityChecks": [
+      {
+        "reference": "1 Chronicles 19:6",
+        "source": "And when the children of Ammon saw that they had made themselves odious to David, Hanun and the children of Ammon sent a thousand talents of silver to hire them chariots and horsemen out of Mesopotamia, and out of Syriamaachah, and out of Zobah.",
+        "expectedDecimalQuantities": [
+          1000
+        ],
+        "targetQuantities": [
+          1000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 19:7",
+        "source": "So they hired thirty and two thousand chariots, and the king of Maachah and his people; who came and pitched before Medeba. And the children of Ammon gathered themselves together from their cities, and came to battle.",
+        "expectedDecimalQuantities": [
+          32000
+        ],
+        "targetQuantities": [
+          32000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 19:18",
+        "source": "But the Syrians fled before Israel; and David slew of the Syrians seven thousand men which fought in chariots, and forty thousand footmen, and killed Shophach the captain of the host.",
+        "expectedDecimalQuantities": [
+          7000,
+          40000
+        ],
+        "targetQuantities": [
+          7000,
+          40000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 20:2",
+        "source": "And David took the crown of their king from off his head, and found it to weigh a talent of gold, and there were precious stones in it; and it was set upon David’s head: and he brought also exceeding much spoil out of the city.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 20:6",
+        "source": "And yet again there was war at Gath, where was a man of great stature, whose fingers and toes were four and twenty, six on each hand, and six on each foot and he also was the son of the giant.",
+        "expectedDecimalQuantities": [
+          24,
+          6,
+          6
+        ],
+        "targetQuantities": [
+          24,
+          6,
+          6
+        ]
+      },
+      {
+        "reference": "1 Chronicles 21:3",
+        "source": "And Joab answered, The LORD make his people an hundred times so many more as they be: but, my lord the king, are they not all my lord’s servants? why then doth my lord require this thing? why will he be a cause of trespass to Israel?",
+        "expectedDecimalQuantities": [
+          100
+        ],
+        "targetQuantities": [
+          100
+        ]
+      },
+      {
+        "reference": "1 Chronicles 21:5",
+        "source": "And Joab gave the sum of the number of the people unto David. And all they of Israel were a thousand thousand and an hundred thousand men that drew sword: and Judah was four hundred threescore and ten thousand men that drew sword.",
+        "expectedDecimalQuantities": [
+          1100000,
+          470000
+        ],
+        "targetQuantities": [
+          1100000,
+          470000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 21:10",
+        "source": "Go and tell David, saying, Thus saith the LORD, I offer thee three things: choose thee one of them, that I may do it unto thee.",
+        "expectedDecimalQuantities": [
+          3,
+          1
+        ],
+        "targetQuantities": [
+          3,
+          1
+        ]
+      },
+      {
+        "reference": "1 Chronicles 21:12",
+        "source": "Either three years’ famine; or three months to be destroyed before thy foes, while that the sword of thine enemies overtaketh thee; or else three days the sword of the LORD, even the pestilence, in the land, and the angel of the LORD destroying throughout all the coasts of Israel. Now therefore advise thyself what word I shall bring again to him that sent me.",
+        "expectedDecimalQuantities": [
+          3,
+          3,
+          3
+        ],
+        "targetQuantities": [
+          3,
+          3,
+          3
+        ]
+      },
+      {
+        "reference": "1 Chronicles 21:14",
+        "source": "So the LORD sent pestilence upon Israel: and there fell of Israel seventy thousand men.",
+        "expectedDecimalQuantities": [
+          70000
+        ],
+        "targetQuantities": [
+          70000
+        ]
+      },
+      {
+        "reference": "1 Chronicles 21:20",
+        "source": "And Ornan turned back, and saw the angel; and his four sons with him hid themselves. Now Ornan was threshing wheat.",
+        "expectedDecimalQuantities": [
+          4
+        ],
+        "targetQuantities": [
+          4
+        ]
+      },
+      {
+        "reference": "1 Chronicles 21:25",
+        "source": "So David gave to Ornan for the place six hundred shekels of gold by weight.",
+        "expectedDecimalQuantities": [
+          600
+        ],
+        "targetQuantities": [
+          600
+        ]
+      },
+      {
+        "reference": "1 Chronicles 22:14",
+        "source": "Now, behold, in my trouble I have prepared for the house of the LORD an hundred thousand talents of gold, and a thousand thousand talents of silver; and of brass and iron without weight; for it is in abundance: timber also and stone have I prepared; and thou mayest add thereto.",
+        "expectedDecimalQuantities": [
+          100000,
+          1000000
+        ],
+        "targetQuantities": [
+          100000,
+          1000000
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "19:1": [
+        "kjv_nahash",
+        "his/son in his/place rule:pa"
+      ],
+      "19:2": [
+        "i to kjv_hanun",
+        "his/father to i kjv_kindness",
+        "about his/father comfort:inf"
+      ],
+      "19:3": [
+        "comfort:ag:pl",
+        "search:inf",
+        "kjv_overthrow:inf",
+        "spy:inf"
+      ],
+      "19:4": [
+        "they:a shave:pa",
+        "their/buttock:pl",
+        "send:pa away"
+      ],
+      "19:5": [
+        "how man:pl treat:psv:pa",
+        "at kjv_jericho",
+        "your/beard:pl grow:perf"
+      ],
+      "19:6": [
+        "thousand kjv_talent_weight:pl:a of silver",
+        "kjv_hire:inf",
+        "kjv_mesopotamia",
+        "kjv_syriamaachah",
+        "kjv_zobah"
+      ],
+      "19:7": [
+        "thirty+thousand and two+thousand chariot:pl:a",
+        "king of kjv_maachah",
+        "before kjv_medeba kjv_encamp:pa"
+      ],
+      "19:8": [
+        "kjv_joab and all army of mighty man:pl"
+      ],
+      "19:9": [
+        "before gate of city",
+        "by themselves in field"
+      ],
+      "19:10": [
+        "before and behind",
+        "choose:psv of kjv_israel",
+        "against kjv_syrian:pl kjv_array_battle:pa"
+      ],
+      "19:11": [
+        "remainder of people:a",
+        "kjv_abishai his/brother",
+        "against child:pl of kjv_ammon"
+      ],
+      "19:12": [
+        "for ipl too strong",
+        "thou ipl:a help:fu",
+        "ipl thou:a help:fu"
+      ],
+      "19:13": [
+        "ourone/people",
+        "city:pl of ourone/god",
+        "wesg",
+        "kjv_lord that:a which in his/sight good"
+      ],
+      "19:14": [
+        "before kjv_syrian:pl",
+        "they before he flee:pa"
+      ],
+      "19:15": [
+        "kjv_abishai",
+        "into city enter:pa",
+        "kjv_joab to kjv_jerusalem"
+      ],
+      "19:16": [
+        "defeat:psv:pp",
+        "beyond river",
+        "kjv_shophach captain"
+      ],
+      "19:17": [
+        "kjv_jordan:a cross:pa",
+        "kjv_array_battle:pa",
+        "they with he fight:pa"
+      ],
+      "19:18": [
+        "seven+thousand man:pl who in chariot:pl",
+        "forty+thousand kjv_foot_soldier:pl",
+        "kjv_shophach captain"
+      ],
+      "19:19": [
+        "peace:a make:pa",
+        "his/servant:pl become:pa",
+        "neither kjv_syrian:pl",
+        "help:inf will:pa"
+      ],
+      "20:1": [
+        "kjv_desolate:caus:pa",
+        "kjv_rabbah:a besiege:pa",
+        "kjv_david at kjv_jerusalem wait:pa"
+      ],
+      "20:2": [
+        "crown of their/king",
+        "one_num kjv_talent_weight of gold",
+        "precious stone:pl",
+        "head of kjv_david"
+      ],
+      "20:3": [
+        "people:a",
+        "with kjv_saw:pl",
+        "kjv_harrow:pl of iron",
+        "kjv_axe:pl cut:pa",
+        "all city:pl"
+      ],
+      "20:4": [
+        "kjv_gezer",
+        "kjv_sibbechai",
+        "kjv_sippai:a"
+      ],
+      "20:5": [
+        "kjv_elhanan_jair son of kjv_jair_elhanan",
+        "kjv_lahmi brother of kjv_goliath",
+        "beam of weaver"
+      ],
+      "20:6": [
+        "twenty and four",
+        "six on each hand and six on each foot"
+      ],
+      "20:7": [
+        "kjv_jonathan_shimeah son of kjv_shimea_brother brother of kjv_david"
+      ],
+      "20:8": [
+        "giant in kjv_gath born:psv:pa",
+        "hand of kjv_david and by hand of his/servant:pl"
+      ],
+      "21:1": [
+        "kjv_satan_chronicles",
+        "kjv_number:inf urge:pa"
+      ],
+      "21:2": [
+        "from kjv_beersheba even to kjv_dan",
+        "to i bring:imp",
+        "i it:a know:pr:may"
+      ],
+      "21:3": [
+        "hundred time:pl",
+        "my/lord",
+        "cause of kjv_trespass"
+      ],
+      "21:4": [
+        "against kjv_joab prevail:pa",
+        "through all kjv_israel"
+      ],
+      "21:5": [
+        "thousand+thousand and hundred+thousand",
+        "four+hundred+thousand and seven+ten+thousand",
+        "sword:a draw:pa"
+      ],
+      "21:6": [
+        "kjv_levi and kjv_benjamin:a",
+        "kjv_number:neg:pa",
+        "kjv_abomination to kjv_joab"
+      ],
+      "21:7": [
+        "god with this thing displease:psv:pa",
+        "he kjv_israel:a strike:pa"
+      ],
+      "21:8": [
+        "i greatly sin:perf",
+        "i this thing:a do:perf",
+        "kjv_iniquity of thy/servant:a",
+        "i very foolish:adv do:perf"
+      ],
+      "21:9": [
+        "kjv_gad_prophet kjv_seer of kjv_david"
+      ],
+      "21:10": [
+        "ipl to thou kjv_three thing:pl:a",
+        "one_num of they:a",
+        "ipl it:a to thou"
+      ],
+      "21:11": [
+        "kjv_gad_prophet to kjv_david",
+        "for thou choose:imp"
+      ],
+      "21:12": [
+        "kjv_three year:pl kjv_famine",
+        "kjv_three month:pl",
+        "kjv_three day:pl",
+        "kjv_pestilence",
+        "all kjv_coast_region:pl",
+        "i again to he who i:a send:pa"
+      ],
+      "21:13": [
+        "i in great distress",
+        "i into hand of kjv_lord",
+        "i into hand of man fall:neg:opt"
+      ],
+      "21:14": [
+        "kjv_pestilence:a",
+        "seven+ten+thousand"
+      ],
+      "21:15": [
+        "he of evil kjv_relent:pa",
+        "thy/hand:a now stop:imp",
+        "kjv_ornan kjv_jebusite"
+      ],
+      "21:16": [
+        "between earth and heaven",
+        "sword:a draw:psv",
+        "over kjv_jerusalem",
+        "kjv_sackcloth",
+        "their/face:pl fall:pa"
+      ],
+      "21:17": [
+        "i who people:a kjv_number:psv:inf command:pa",
+        "even i who sin:perf",
+        "these sheep",
+        "house of my/father",
+        "but not upon thy/people"
+      ],
+      "21:18": [
+        "angel of kjv_lord kjv_gad_prophet:a",
+        "to kjv_david say:inf",
+        "kjv_ornan kjv_jebusite"
+      ],
+      "21:19": [
+        "say:ev of kjv_gad_prophet",
+        "in name of kjv_lord"
+      ],
+      "21:20": [
+        "angel:a see:pa",
+        "his/four son:pl",
+        "hide:refl:pa",
+        "wheat:a kjv_thresh:pa"
+      ],
+      "21:21": [
+        "kjv_david:a see:pa",
+        "out of kjv_threshfloor",
+        "his/face to ground"
+      ],
+      "21:22": [
+        "to i place",
+        "i altar:a",
+        "full price",
+        "plague from people stop:psv:pr:may"
+      ],
+      "21:23": [
+        "i to thou ox:pl",
+        "kjv_thresh:ev instrument:pl for wood",
+        "wheat for food kjv_offering",
+        "i all:a give:pr"
+      ],
+      "21:24": [
+        "no but i",
+        "full price truly buy:fu",
+        "i that:a which of thou",
+        "without cost"
+      ],
+      "21:25": [
+        "for place six+hundred kjv_shekel:pl of gold by weight"
+      ],
+      "21:26": [
+        "burn:psv kjv_offering:pl and peace kjv_offering:pl",
+        "from heaven by fire"
+      ],
+      "21:27": [
+        "kjv_lord angel:a command:pa",
+        "his/sword:a again into its/kjv_sheath"
+      ],
+      "21:28": [
+        "kjv_ornan kjv_jebusite",
+        "he there kjv_sacrifice:a offer:pa"
+      ],
+      "21:29": [
+        "kjv_moses in kjv_wilderness",
+        "high place at kjv_gibeon"
+      ],
+      "21:30": [
+        "go:neg:pa:can",
+        "because of sword of angel of kjv_lord afraid"
+      ],
+      "22:1": [
+        "this house of kjv_lord god",
+        "altar of burn:psv kjv_offering"
+      ],
+      "22:2": [
+        "stranger:pl",
+        "kjv_mason:pl",
+        "work:psv stone:pl:a kjv_hew:inf"
+      ],
+      "22:3": [
+        "iron:a",
+        "nail:pl",
+        "join:ev:pl",
+        "kjv_brass in abundance without weight"
+      ],
+      "22:4": [
+        "kjv_zidonian:pl",
+        "they of kjv_tyre",
+        "wood of kjv_cedar"
+      ],
+      "22:5": [
+        "kjv_solomon my/son young and tender",
+        "i therefore now",
+        "before his/death"
+      ],
+      "22:6": [
+        "kjv_solomon his/son",
+        "charge:pa"
+      ],
+      "22:7": [
+        "my/son as for i",
+        "my/mind",
+        "kjv_lord my/god"
+      ],
+      "22:8": [
+        "word of kjv_lord to i",
+        "blood:a with abundance",
+        "mypl/name",
+        "mypl/sight"
+      ],
+      "22:9": [
+        "son to thou born:psv:fu",
+        "man of rest",
+        "ipl to he rest:a",
+        "his/name kjv_solomon",
+        "ipl peace and quiet:ev"
+      ],
+      "22:10": [
+        "mypl/name",
+        "mypl/son",
+        "ipl his/father",
+        "ipl throne"
+      ],
+      "22:11": [
+        "my/son kjv_lord with thou be:opt",
+        "house of kjv_lord thy/god"
+      ],
+      "22:12": [
+        "wisdom and understanding",
+        "charge:a about kjv_israel",
+        "law of kjv_lord"
+      ],
+      "22:13": [
+        "if thou",
+        "kjv_statute:pl and judgment:pl",
+        "fear:neg:imp",
+        "kjv_dismay:psv:neg:imp"
+      ],
+      "22:14": [
+        "in my/kjv_trouble i",
+        "hundred+thousand kjv_talent_weight:pl of gold",
+        "thousand+thousand kjv_talent_weight:pl of silver",
+        "without weight",
+        "thou to it add:pr:may"
+      ],
+      "22:15": [
+        "kjv_hew:ag:pl",
+        "stone and wood",
+        "skilled man:pl"
+      ],
+      "22:16": [
+        "kjv_number:ev none",
+        "rise:imp and do:imp"
+      ],
+      "22:17": [
+        "all prince:pl of kjv_israel",
+        "kjv_solomon his/son"
+      ],
+      "22:18": [
+        "your/god with you:pl",
+        "into my/hand",
+        "land before kjv_lord"
+      ],
+      "22:19": [
+        "your/heart and your/soul:a",
+        "you:pl kjv_sanctuary",
+        "kjv_ark_chest of kjv_covenant",
+        "holy vessel:pl"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "19:2",
+        "21:12",
+        "21:13",
+        "21:17",
+        "21:2",
+        "21:22",
+        "21:23",
+        "21:24",
+        "21:8",
+        "22:14",
+        "22:5",
+        "22:7",
+        "22:8"
+      ],
+      "ipl": [
+        "19:12",
+        "21:10",
+        "22:10",
+        "22:9"
+      ],
+      "wesg": [
+        "19:13"
+      ],
+      "wepl": [],
+      "ourone": [
+        "19:13"
+      ],
+      "mypl": [
+        "22:10",
+        "22:8"
+      ],
+      "we:du": [],
+      "they:du": []
+    },
+    "quantityInterpretation": [
+      "Payment talents, hired vehicles, chariot-fighting men, infantry, crown talent,24digits/six per limb, hundredfold wish, census totals, three punishment periods,70000dead, four sons,600gold shekels and100000/1000000temple talents independently checked; source account differences retained."
+    ],
+    "limitations": [
+      "Translator self-review, not independent literary certification.",
+      "Joab plural-I voices his contingent19:12; singular-we joins the undertaking19:13. David personal-I accepts census blame. Gad and Ornan personal speech reset separately; divine plural-self resumes in21:10 and22:9-10. No Trinity count inferred.",
+      "Historical register remains excluded from modernization. Whole Bible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "1 Chronicles — incomplete Bible working text",
+    "pages": 394,
+    "spreads": 197,
+    "units": 731,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "d2a6cb3bc6400ab66fb6de85c7bfd2cadda56004468c5cd86aaf03a065c6c07e",
+    "maxBaselineErrorPt": 0.011718749999957367,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 197,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "initialRunSeconds": 9.905,
+    "correctedTestRunSeconds": 0.226,
+    "note": "Three initial tests passed. The new test had two mistaken expected analysis spellings: seventy versus seven+ten, and my-house versus house-of-my-father. Corrected test only; sealed translation unchanged. The corrected test passes.",
+    "modules": [
+      "tests.test_kjv_chronicles_census_house",
+      "tests.test_kjv_chronicles_song_covenant",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    393,
+    394
+  ],
+  "status": "incomplete Bible; checkpoint verified"
+}

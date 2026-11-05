@@ -1,0 +1,1172 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.114",
+    "parentVersion": "0.10-kjv.113",
+    "parentHead": "541d75716fdbe209afe0db097cf0980d22d37f7b388a52cb80736192d6ea467a",
+    "head": "930e5eedd97f06801b6197bdd9b94a018bf203f54826388de7c8423b6337925c",
+    "newLexicalEntries": 3,
+    "newProperEntries": 0,
+    "newCommonEntries": 3,
+    "newSurfaceForms": 3,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 213,
+    "exactCompilerCases": 213,
+    "newAuthoredVerses": 213,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 1294,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 15820,
+    "status": "incomplete"
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 213,
+    "psalmsVerses": 1294,
+    "authoredVerses": 15282,
+    "remainingVerses": 15820,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Psalms 78:51",
+        "source": "And smote all the firstborn in Egypt; the chief of their strength in the tabernacles of Ham:",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Psalms 79:12",
+        "source": "And render unto our neighbours sevenfold into their bosom their reproach, wherewith they have reproached thee, O Lord.",
+        "expectedDecimalQuantities": [
+          7
+        ],
+        "targetQuantities": [
+          7
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "73:1": [
+        "to kjv_israel good",
+        "clean heart"
+      ],
+      "73:2": [
+        "my/foot:pl almost",
+        "my/step:pl almost kjv_slide:pp"
+      ],
+      "73:3": [
+        "kjv_envy:pa",
+        "prosperity:a of wicked"
+      ],
+      "73:4": [
+        "no kjv_binding_band:pl",
+        "their/strength strong"
+      ],
+      "73:5": [
+        "other human:pl",
+        "neither as other human:pl"
+      ],
+      "73:6": [
+        "pride they:a",
+        "kjv_violence they:a",
+        "as garment"
+      ],
+      "73:7": [
+        "eye:pl with fat:ev",
+        "more than heart wish:can"
+      ],
+      "73:8": [
+        "corrupt be:pr",
+        "about oppress:ev",
+        "lofty manner"
+      ],
+      "73:9": [
+        "mouth:a against heaven:pl",
+        "tongue through earth walk:pr"
+      ],
+      "73:10": [
+        "his/people here",
+        "full cup",
+        "kjv_wring:psv:pr"
+      ],
+      "73:11": [
+        "how god know:pr",
+        "most high knowledge"
+      ],
+      "73:12": [
+        "kjv_ungodly",
+        "in wealth increase:pr"
+      ],
+      "73:13": [
+        "in vain clean:caus:perf",
+        "in innocence wash:perf"
+      ],
+      "73:14": [
+        "all day i plague:psv:perf",
+        "every morning kjv_chasten"
+      ],
+      "73:15": [
+        "if i say:pr",
+        "offend:should"
+      ],
+      "73:16": [
+        "know:inf think:pa",
+        "too pain:adj"
+      ],
+      "73:17": [
+        "until i into kjv_sanctuary",
+        "their/end:a understand:pa"
+      ],
+      "73:18": [
+        "kjv_slippery place:pl",
+        "into destroy:ev cast:pa"
+      ],
+      "73:19": [
+        "as in moment",
+        "bring:psv:pr:excl",
+        "with terror:pl"
+      ],
+      "73:20": [
+        "when one awake:pr",
+        "their/image:a despise:fu"
+      ],
+      "73:21": [
+        "my/heart pain:psv:pa",
+        "my/kjv_kidney:pl prick:psv:pa"
+      ],
+      "73:22": [
+        "i be:pa and in ignorance",
+        "as beast before thee"
+      ],
+      "73:23": [
+        "i always with thee",
+        "my/kjv_right_side hand hold:perf"
+      ],
+      "73:24": [
+        "thy/counsel guide:fu",
+        "to glory receive:fu"
+      ],
+      "73:25": [
+        "except thee",
+        "no one",
+        "besides thee"
+      ],
+      "73:26": [
+        "flesh and my/heart fail:pr",
+        "my/kjv_lot_portion"
+      ],
+      "73:27": [
+        "far from thee",
+        "kjv_whoring:pr",
+        "destroy:perf"
+      ],
+      "73:28": [
+        "near to god",
+        "lord kjv_lord",
+        "declare:may"
+      ],
+      "74:1": [
+        "wesg:a for ever cast:perf off",
+        "thy/anger",
+        "thy/kjv_pasture"
+      ],
+      "74:2": [
+        "thy/kjv_congregation:a",
+        "rod:a of thy/inheritance",
+        "kjv_zion"
+      ],
+      "74:3": [
+        "thy/foot:pl:a",
+        "perpetual kjv_desolate:ev:pl",
+        "enemy"
+      ],
+      "74:4": [
+        "kjv_congregation:pl",
+        "banner:pl:a as sign:pl"
+      ],
+      "74:5": [
+        "human famous",
+        "kjv_axe:pl:a",
+        "thick kjv_tree:pl"
+      ],
+      "74:6": [
+        "its/cut:psv:adj work:a",
+        "kjv_axe:pl and kjv_hammer:pl"
+      ],
+      "74:7": [
+        "fire:a into thy/kjv_sanctuary",
+        "dwelling:a of thy/name",
+        "defile:perf"
+      ],
+      "74:8": [
+        "in their/heart:pl say:pa",
+        "wesg:a they:a together destroy:inf",
+        "kjv_synagogue:pl:a"
+      ],
+      "74:9": [
+        "wepl ourone/sign:pl:a see:pr:neg",
+        "no more any prophet",
+        "among wesg"
+      ],
+      "74:10": [
+        "kjv_adversary kjv_reproach:fu",
+        "thy/name:a for ever kjv_blaspheme:fu"
+      ],
+      "74:11": [
+        "thy/kjv_right_side hand",
+        "from thy/bosom"
+      ],
+      "74:12": [
+        "mypl/king of old",
+        "salvation:a in middle of earth"
+      ],
+      "74:13": [
+        "sea:a by thy/strength kjv_divide:pa",
+        "head:pl:a of kjv_dragon_source:pl"
+      ],
+      "74:14": [
+        "head:pl:a of leviathan",
+        "as food to people",
+        "kjv_wilderness inhabit:pr"
+      ],
+      "74:15": [
+        "fountain:a and flood:a split:pa",
+        "mighty river:pl:a dry:caus:pa"
+      ],
+      "74:16": [
+        "day thine",
+        "night also thine",
+        "light:a and sun:a"
+      ],
+      "74:17": [
+        "all boundary:pl:a",
+        "summer:a and winter:a"
+      ],
+      "74:18": [
+        "enemy kjv_reproach:perf",
+        "kjv_lord:excl",
+        "foolish people"
+      ],
+      "74:19": [
+        "soul:a of thy/kjv_turtledove",
+        "deliver:imp:neg",
+        "forget:imp:neg"
+      ],
+      "74:20": [
+        "kjv_covenant regard:imp",
+        "dwelling:pl of cruelty"
+      ],
+      "74:21": [
+        "ashamed return:inf allow:imp:neg",
+        "kjv_needy:a thy/name:a praise:inf"
+      ],
+      "74:22": [
+        "thine own matter:a plead:imp",
+        "foolish human thee:a daily"
+      ],
+      "74:23": [
+        "voice:a of thy/enemy:pl",
+        "kjv_tumult",
+        "always increase:pr"
+      ],
+      "75:1": [
+        "wesg thanks:a give:pr to thee wesg thanks:a give:pr",
+        "thy/name near"
+      ],
+      "75:2": [
+        "ipl kjv_congregation:a receive:fu",
+        "ipl in kjv_upright manner judge:fu"
+      ],
+      "75:3": [
+        "all its/inhabit:ag:pl dissolve:psv:pr",
+        "ipl its/kjv_pillar:pl:a",
+        "kjv_selah_marker"
+      ],
+      "75:4": [
+        "ipl to fool:pl say:pa",
+        "deal:imp:neg",
+        "horn:a up lift:imp:neg"
+      ],
+      "75:5": [
+        "your/horn:a",
+        "kjv_stiffnecked neck"
+      ],
+      "75:6": [
+        "kjv_exalt:ev from east",
+        "from west nor from kjv_south"
+      ],
+      "75:7": [
+        "god judge:ag",
+        "one:a down put:pr",
+        "another:a up set:pr"
+      ],
+      "75:8": [
+        "wine red",
+        "full of mix:ev",
+        "kjv_wine_dregs:a",
+        "kjv_wring:fu"
+      ],
+      "75:9": [
+        "i for ever declare:fu",
+        "i praise:pl:a to god of kjv_jacob"
+      ],
+      "75:10": [
+        "ipl cut:fu off",
+        "horn:pl of kjv_righteous"
+      ],
+      "76:1": [
+        "in kjv_judah god",
+        "in kjv_israel"
+      ],
+      "76:2": [
+        "kjv_salem",
+        "his/kjv_tabernacle",
+        "kjv_zion"
+      ],
+      "76:3": [
+        "arrow:pl:a of kjv_bow",
+        "kjv_shield_armour:a",
+        "battle:a break:pa"
+      ],
+      "76:4": [
+        "more glorious and excellent",
+        "mountain:pl of prey"
+      ],
+      "76:5": [
+        "their/sleep:ev:a sleep:perf",
+        "their/hand:pl:a find:perf"
+      ],
+      "76:6": [
+        "both chariot and horse",
+        "death:adj sleep:ev"
+      ],
+      "76:7": [
+        "thou even thou",
+        "when thou angry become:pr",
+        "stand:may"
+      ],
+      "76:8": [
+        "judgment:a from heaven hear:psv:caus:pa",
+        "earth fear:pa and still"
+      ],
+      "76:9": [
+        "god to judgment rise:pa",
+        "all humble:a of earth save:inf"
+      ],
+      "76:10": [
+        "wrath of human thee:a praise:fu",
+        "remainder:a of wrath thou restrain:fu"
+      ],
+      "76:11": [
+        "vow:imp and",
+        "your/god pay:imp",
+        "gift:pl:a",
+        "fear:psv:should"
+      ],
+      "76:12": [
+        "spirit:a of prince:pl cut:fu off",
+        "king:pl of earth terrible"
+      ],
+      "77:1": [
+        "i to god with my/voice cry:pa",
+        "even to god with my/voice"
+      ],
+      "77:2": [
+        "my/wound in night flow:pa",
+        "cease:pa:neg",
+        "soul comfort:psv:inf refuse:pa"
+      ],
+      "77:3": [
+        "i god:a remember:pa",
+        "complaint:a",
+        "my/spirit overwhelm:psv:pa"
+      ],
+      "77:4": [
+        "my/eye:pl:a wake:cv",
+        "i speak:can:neg"
+      ],
+      "77:5": [
+        "day:pl:a of old",
+        "year:pl:a of ancient time:pl"
+      ],
+      "77:6": [
+        "my/song:a in night",
+        "my/own heart kjv_commune:pr",
+        "spirit kjv_industrious search:ev:a"
+      ],
+      "77:7": [
+        "cast:fu off",
+        "no more favour:a show:fu"
+      ],
+      "77:8": [
+        "mercy entirely",
+        "promise for ever fail:pr"
+      ],
+      "77:9": [
+        "gracious be:inf forget:perf",
+        "tender mercy:pl:a shut:perf"
+      ],
+      "77:10": [
+        "this my/infirmity",
+        "year:pl:a of kjv_right_side hand"
+      ],
+      "77:11": [
+        "work:pl:a of kjv_lord",
+        "thy/wonder:pl:a of old"
+      ],
+      "77:12": [
+        "about all thy/work meditate:fu",
+        "thy/do:ev:pl talk:fu"
+      ],
+      "77:13": [
+        "in kjv_sanctuary",
+        "as ourone/god"
+      ],
+      "77:14": [
+        "wonder:pl:a do:pr",
+        "strength:a among people declare:perf"
+      ],
+      "77:15": [
+        "thine arm",
+        "son:pl:a of kjv_jacob and kjv_joseph"
+      ],
+      "77:16": [
+        "water thee:a see:pa god:excl water thee:a see:pa",
+        "kjv_depth:pl"
+      ],
+      "77:17": [
+        "cloud:pl water:a out pour:pa",
+        "sky:pl sound:a",
+        "thy/arrow:pl"
+      ],
+      "77:18": [
+        "voice of thy/thunder",
+        "lightning:pl world:a light:caus:pa",
+        "tremble:pa and shake:pa"
+      ],
+      "77:19": [
+        "way in sea",
+        "footstep:pl know:psv:pr:neg"
+      ],
+      "77:20": [
+        "thy/people:a like flock",
+        "kjv_moses and kjv_aaron"
+      ],
+      "78:1": [
+        "my/people:excl to my/law",
+        "word:pl of my/mouth"
+      ],
+      "78:2": [
+        "i my/mouth:a in kjv_parable_oracle",
+        "dark say:ev:pl:a of old"
+      ],
+      "78:3": [
+        "wesg hear:perf and know:perf",
+        "ourone/father:pl to wesg"
+      ],
+      "78:4": [
+        "wesg they:a from their/child:pl hide:fu:neg",
+        "generation which come:fu",
+        "his/wondrous work:pl"
+      ],
+      "78:5": [
+        "testimony:a in kjv_jacob",
+        "law:a in kjv_israel",
+        "ourone/father:pl:a command:pa"
+      ],
+      "78:6": [
+        "child:pl who born:psv:should",
+        "their/child:pl declare:should"
+      ],
+      "78:7": [
+        "hope:a in god",
+        "forget:may:neg",
+        "his/command:pl:a keep:may"
+      ],
+      "78:8": [
+        "kjv_stiffnecked and rebel:adj",
+        "kjv_upright set:pa:neg",
+        "spirit with god kjv_steadfast be:pa:neg"
+      ],
+      "78:9": [
+        "arm:psv and kjv_bow:pl:a carry:cv",
+        "back turn:pa"
+      ],
+      "78:10": [
+        "kjv_covenant:a of god keep:pa:neg",
+        "walk:inf refuse:pa"
+      ],
+      "78:11": [
+        "his/work:pl:a and his/wonder:pl",
+        "show:pp forget:pa"
+      ],
+      "78:12": [
+        "marvellous thing:pl:a",
+        "field of kjv_zoan"
+      ],
+      "78:13": [
+        "sea:a kjv_divide:pa",
+        "through pass:caus:pa",
+        "as kjv_heap stand:caus:pa"
+      ],
+      "78:14": [
+        "in day",
+        "with cloud",
+        "all night with light of fire"
+      ],
+      "78:15": [
+        "rock:pl:a",
+        "as from great kjv_depth:pl"
+      ],
+      "78:16": [
+        "stream:pl:a also from rock",
+        "like river:pl flow:caus:pa"
+      ],
+      "78:17": [
+        "still more sin:pa",
+        "most high:a",
+        "kjv_provoke:cv"
+      ],
+      "78:18": [
+        "god:a in their/heart test:pa",
+        "food:a for their/lust"
+      ],
+      "78:19": [
+        "against god speak:pa",
+        "table:a in kjv_wilderness furnish:can"
+      ],
+      "78:20": [
+        "rock:a strike:pa",
+        "stream:pl overflow:pa",
+        "bread:a also give:can",
+        "flesh:a"
+      ],
+      "78:21": [
+        "kjv_lord this:a hear:pa",
+        "fire against kjv_jacob kjv_kindle_fire:psv:pa",
+        "anger also against kjv_israel"
+      ],
+      "78:22": [
+        "believe:pa:neg",
+        "salvation trust:pa:neg"
+      ],
+      "78:23": [
+        "although",
+        "cloud:pl:a from above command:pp",
+        "door:pl:a of heaven"
+      ],
+      "78:24": [
+        "kjv_manna:a",
+        "eat:inf",
+        "corn of heaven"
+      ],
+      "78:25": [
+        "human food:a of angel:pl eat:pa",
+        "food:a to full"
+      ],
+      "78:26": [
+        "east wind:a",
+        "kjv_south wind:a"
+      ],
+      "78:27": [
+        "flesh:a",
+        "as dust",
+        "feather:adj bird:pl:a",
+        "sand of sea"
+      ],
+      "78:28": [
+        "middle of their/camp",
+        "around their/dwelling:pl"
+      ],
+      "78:29": [
+        "well fill:psv:pa",
+        "their/own desire:a give:pa"
+      ],
+      "78:30": [
+        "from their/lust separate:psv:pa:neg",
+        "food still in their/mouth:pl"
+      ],
+      "78:31": [
+        "most fat of they:a slay:pa",
+        "choose:psv:adj man:pl:a"
+      ],
+      "78:32": [
+        "still sin:pa",
+        "wondrous work:pl believe:pa:neg"
+      ],
+      "78:33": [
+        "day:pl:a he in vanity end:caus:pa",
+        "year:pl:a in kjv_trouble"
+      ],
+      "78:34": [
+        "when he they:a slay:pa",
+        "then they he:a seek:pa",
+        "early after god ask:pa"
+      ],
+      "78:35": [
+        "god their/rock",
+        "their/redeem:ag"
+      ],
+      "78:36": [
+        "mouth kjv_flatter:pa",
+        "tongue:pl kjv_lie_false:pa"
+      ],
+      "78:37": [
+        "heart with he kjv_upright be:pa:neg",
+        "neither in his/kjv_covenant kjv_steadfast"
+      ],
+      "78:38": [
+        "full of kjv_compassion",
+        "forgive:pa",
+        "destroy:pa:neg",
+        "all his/wrath:a up stir:pa:neg"
+      ],
+      "78:39": [
+        "only flesh",
+        "wind which away pass:pr",
+        "again come:pr:neg"
+      ],
+      "78:40": [
+        "how often",
+        "kjv_wilderness kjv_provoke:pa",
+        "dry land pain:caus:pa:excl"
+      ],
+      "78:41": [
+        "god:a test:pa",
+        "kjv_holy_one:a of kjv_israel boundary:caus:pa"
+      ],
+      "78:42": [
+        "hand:a remember:pa:neg",
+        "day when he they:a from enemy deliver:pa"
+      ],
+      "78:43": [
+        "sign:pl:a in egypt",
+        "wonder:pl:a in field of kjv_zoan"
+      ],
+      "78:44": [
+        "river:pl:a into blood",
+        "their/flood:pl:a",
+        "drink:can:neg"
+      ],
+      "78:45": [
+        "different kind:pl of kjv_fly_insect:a",
+        "devour:pa",
+        "kjv_frog:pl:a",
+        "destroy:pa"
+      ],
+      "78:46": [
+        "increase:a to kjv_caterpiller",
+        "labour:a to kjv_locust"
+      ],
+      "78:47": [
+        "vine:pl:a with hail",
+        "kjv_sycomore:pl:a with frost"
+      ],
+      "78:48": [
+        "kjv_livestock:a also to hail",
+        "flock:pl:a to hot lightning:pl"
+      ],
+      "78:49": [
+        "fierce:ev:a of his/anger",
+        "wrath and indignation and kjv_trouble",
+        "evil angel:pl:a"
+      ],
+      "78:50": [
+        "way:a to his/anger",
+        "soul:a from death spare:pa:neg",
+        "life:a to kjv_pestilence"
+      ],
+      "78:51": [
+        "all first born:psv:adj:a",
+        "chief:a of their/strength",
+        "kjv_tabernacle:pl of kjv_ham"
+      ],
+      "78:52": [
+        "own people:a like sheep",
+        "like flock guide:pa"
+      ],
+      "78:53": [
+        "in safety onward",
+        "fear:pa:neg",
+        "sea their/enemy:pl:a overwhelm:pa"
+      ],
+      "78:54": [
+        "boundary of his/kjv_sanctuary",
+        "this mountain",
+        "kjv_right_side hand buy:pp"
+      ],
+      "78:55": [
+        "kjv_heathen:a",
+        "by kjv_cord kjv_divide:pa",
+        "tribe:pl:a of kjv_israel"
+      ],
+      "78:56": [
+        "most high god:a test:pa and kjv_provoke:pa",
+        "testimony:pl:a keep:pa:neg"
+      ],
+      "78:57": [
+        "in faithless manner",
+        "deceitful kjv_bow"
+      ],
+      "78:58": [
+        "high place:pl",
+        "jealousy",
+        "kjv_graven image:pl"
+      ],
+      "78:59": [
+        "angry be:pa",
+        "kjv_israel:a greatly kjv_abhor:pa"
+      ],
+      "78:60": [
+        "kjv_tabernacle:a of kjv_shiloh",
+        "tent:a",
+        "among human:pl"
+      ],
+      "78:61": [
+        "his/strength:a into kjv_captivity",
+        "his/glory:a into enemy:poss hand"
+      ],
+      "78:62": [
+        "people:a also to sword",
+        "with his/inheritance angry"
+      ],
+      "78:63": [
+        "fire their/young man:pl:a",
+        "maiden:pl to marriage give:psv:pa:neg"
+      ],
+      "78:64": [
+        "priest:pl by sword fall:pa",
+        "widow:pl lament:ev:a make:pa:neg"
+      ],
+      "78:65": [
+        "kjv_lord awake:pa as one",
+        "mighty man",
+        "because of wine shout:pr"
+      ],
+      "78:66": [
+        "in back part:pl strike:pa",
+        "perpetual kjv_reproach"
+      ],
+      "78:67": [
+        "kjv_tabernacle:a of kjv_joseph refuse:pa",
+        "kjv_ephraim choose:pa:neg"
+      ],
+      "78:68": [
+        "kjv_judah",
+        "kjv_zion which he love:pa"
+      ],
+      "78:69": [
+        "like high palace:pl",
+        "like earth",
+        "for ever kjv_establish:perf"
+      ],
+      "78:70": [
+        "kjv_david his/servant:a",
+        "from sheepfold:pl"
+      ],
+      "78:71": [
+        "pregnant female sheep:a",
+        "kjv_jacob his/people:a",
+        "kjv_israel his/inheritance:a feed:inf"
+      ],
+      "78:72": [
+        "integrity of his/heart",
+        "skill of his/hand:pl"
+      ],
+      "79:1": [
+        "thine inheritance",
+        "holy temple:a",
+        "kjv_jerusalem:a in kjv_heap:pl"
+      ],
+      "79:2": [
+        "kjv_corpse:pl:a of thy/servant:pl",
+        "bird:pl of heaven",
+        "beast:pl of earth"
+      ],
+      "79:3": [
+        "blood:a they like water",
+        "none they:a bury:inf"
+      ],
+      "79:4": [
+        "wesg kjv_reproach",
+        "ourone/neighbour:pl",
+        "around wesg"
+      ],
+      "79:5": [
+        "how long",
+        "for ever angry",
+        "jealousy like fire"
+      ],
+      "79:6": [
+        "thy/wrath:a out pour:imp",
+        "know:perf:neg",
+        "call:perf:neg"
+      ],
+      "79:7": [
+        "kjv_jacob:a devour:perf",
+        "waste lay:perf"
+      ],
+      "79:8": [
+        "against wesg former kjv_iniquity:pl:a",
+        "quickly before wesg come:inf",
+        "wesg very low"
+      ],
+      "79:9": [
+        "wesg:a help:imp",
+        "ourone/salvation",
+        "ourone/sin:pl:a away purify:imp"
+      ],
+      "79:10": [
+        "where their/god",
+        "in ourone/sight",
+        "blood:a of thy/servant:pl",
+        "revenge:cv"
+      ],
+      "79:11": [
+        "sigh:ev:a of kjv_prisoner",
+        "die:inf appoint:psv:pr preserve:imp"
+      ],
+      "79:12": [
+        "ourone/neighbour:pl",
+        "seven kjv_fold",
+        "into their/bosom"
+      ],
+      "79:13": [
+        "wesg thy/people and sheep",
+        "thanks:a for ever give:fu",
+        "all generation:pl"
+      ],
+      "80:1": [
+        "shepherd of kjv_israel",
+        "kjv_joseph:a like flock",
+        "between kjv_cherub:pl"
+      ],
+      "80:2": [
+        "kjv_ephraim and kjv_benjamin and kjv_manasseh",
+        "wesg:a save:imp"
+      ],
+      "80:3": [
+        "wesg:a again turn:imp god:excl",
+        "thy/face:a shine:caus:imp",
+        "wesg save:psv:fu"
+      ],
+      "80:4": [
+        "kjv_lord god of army:pl:excl",
+        "against prayer of thy/people"
+      ],
+      "80:5": [
+        "bread of tear:pl",
+        "tear:pl:a drink:inf in great measure"
+      ],
+      "80:6": [
+        "wesg:a strife",
+        "ourone/neighbour:pl",
+        "ourone/enemy:pl among themselves"
+      ],
+      "80:7": [
+        "wesg:a again turn:imp god of army:pl:excl",
+        "wesg save:psv:fu"
+      ],
+      "80:8": [
+        "kjv_vine:a out of egypt",
+        "kjv_heathen:a out cast:perf",
+        "it:a plant:perf"
+      ],
+      "80:9": [
+        "room:a before it",
+        "deep root:a take:caus:pa",
+        "land:a fill:pa"
+      ],
+      "80:10": [
+        "hill:pl with shadow",
+        "branch:pl like kjv_goodly kjv_cedar:pl"
+      ],
+      "80:11": [
+        "she her/branch:pl:a to sea",
+        "her/branch:pl:a to river"
+      ],
+      "80:12": [
+        "her/hedge:pl:a down break:perf",
+        "she:a pluck:pr"
+      ],
+      "80:13": [
+        "boar from wood",
+        "wild beast of field"
+      ],
+      "80:14": [
+        "wesg thee:a beseech:pr",
+        "from heaven down look:imp",
+        "this kjv_vine:a visit:imp"
+      ],
+      "80:15": [
+        "kjv_vineyard:a",
+        "kjv_right_side hand plant:perf",
+        "branch:a"
+      ],
+      "80:16": [
+        "it with fire burn:psv:pr",
+        "it down cut:psv:pr",
+        "they at rebuke"
+      ],
+      "80:17": [
+        "man of thy/kjv_right_side hand",
+        "son of man",
+        "for thyself strong"
+      ],
+      "80:18": [
+        "wesg from thee back go:fu:neg",
+        "wesg:a alive make:imp",
+        "upon thy/name call:fu"
+      ],
+      "80:19": [
+        "wesg:a again turn:imp kjv_lord god of army:pl:excl",
+        "wesg save:psv:fu"
+      ],
+      "81:1": [
+        "god ourone/strength",
+        "joy:adj noise:a",
+        "god of kjv_jacob"
+      ],
+      "81:2": [
+        "kjv_psalm:a",
+        "kjv_timbrel:a",
+        "pleasing harp:a with kjv_psaltery"
+      ],
+      "81:3": [
+        "new moon",
+        "appoint:psv:adj time",
+        "ourone/solemn feast day"
+      ],
+      "81:4": [
+        "kjv_statute for kjv_israel",
+        "law of god of kjv_jacob"
+      ],
+      "81:5": [
+        "in kjv_joseph as testimony kjv_ordain:pa",
+        "where i language:a hear:pa",
+        "i understand:pa:neg"
+      ],
+      "81:6": [
+        "ipl his/kjv_shoulder:a from burden",
+        "hand:pl from kjv_pot:pl"
+      ],
+      "81:7": [
+        "ipl thee:a deliver:pa",
+        "secret place of thunder",
+        "water of kjv_meribah"
+      ],
+      "81:8": [
+        "mypl/people:excl",
+        "ipl to thee testify:fu",
+        "if thou to ipl listen:fu"
+      ],
+      "81:9": [
+        "no strange god in thee",
+        "neither thou any strange god:a"
+      ],
+      "81:10": [
+        "ipl kjv_lord thy/god be:pr",
+        "thy/mouth:a wide open:imp",
+        "ipl it:a fill:fu"
+      ],
+      "81:11": [
+        "mypl/people to mypl/voice listen:pa:neg",
+        "kjv_israel none of ipl"
+      ],
+      "81:12": [
+        "ipl they:a",
+        "their/own heart:pl:poss lust",
+        "their/own counsel:pl"
+      ],
+      "81:13": [
+        "if only mypl/people to ipl listen:pp",
+        "mypl/way:pl walk:pp:excl"
+      ],
+      "81:14": [
+        "ipl soon",
+        "subdue:perf:should",
+        "mypl/hand:a",
+        "turn:perf:should"
+      ],
+      "81:15": [
+        "hate:ag:pl of kjv_lord",
+        "submit:perf:should",
+        "their/time",
+        "endure:perf:should"
+      ],
+      "81:16": [
+        "he they:a",
+        "most fine of wheat",
+        "honey from rock ipl thee:a satisfy:perf:should"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "73:13",
+        "73:14",
+        "73:15",
+        "73:16",
+        "73:17",
+        "73:2",
+        "73:21",
+        "73:22",
+        "73:23",
+        "73:24",
+        "73:25",
+        "73:28",
+        "73:3",
+        "75:9",
+        "77:1",
+        "77:10",
+        "77:11",
+        "77:12",
+        "77:2",
+        "77:3",
+        "77:4",
+        "77:5",
+        "77:6",
+        "78:2",
+        "81:5"
+      ],
+      "ipl": [
+        "75:10",
+        "75:2",
+        "75:3",
+        "75:4",
+        "81:10",
+        "81:11",
+        "81:12",
+        "81:13",
+        "81:14",
+        "81:16",
+        "81:6",
+        "81:7",
+        "81:8"
+      ],
+      "wesg": [
+        "74:1",
+        "74:8",
+        "74:9",
+        "75:1",
+        "78:3",
+        "78:4",
+        "79:13",
+        "79:4",
+        "79:8",
+        "79:9",
+        "80:14",
+        "80:18",
+        "80:19",
+        "80:2",
+        "80:3",
+        "80:6",
+        "80:7"
+      ],
+      "wepl": [
+        "74:9"
+      ],
+      "mypl": [
+        "74:12",
+        "81:11",
+        "81:13",
+        "81:14",
+        "81:8"
+      ],
+      "ourone": [
+        "74:9",
+        "77:13",
+        "78:3",
+        "78:5",
+        "79:10",
+        "79:12",
+        "79:4",
+        "79:9",
+        "80:6",
+        "81:1",
+        "81:3"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "Psalm78:51firstborn is birth order1,NOT one victim.",
+      "Psalm79:12sevenfold is multiplier7,NOT seven neighbours or divine persons.",
+      "Psalm76:7once introduces anger onset and has no exact event count;generic one and HolyOne designation are not cardinal counts.",
+      "Plural cherubim,three named tribes,and unmeasured tears or heaps are not assigned invented totals."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Psalm73personal crisis and77individual insomnia retain ordinary-I;74corporate myKing and shared laments use collective identity forms.",
+      "Psalm75judge speech uses interpreted divine plural-I with uncertainty documented because no explicit quotation marker is supplied;75:9human praise returns to ordinary-I.",
+      "Psalm81:5unknown-language hearer stays ordinary-I;6onward divine plural-I is anchored by explicit self-identification in10. The source he/I switch in16 remains.",
+      "Psalm74synagogues,77running sore,78angels food/evil angels/wine comparison,hinder-parts and maiden-marriage wording are retained without harmonization.",
+      "All prior targets and old seals remain unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 684,
+    "spreads": 342,
+    "units": 1294,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "f9db1449334a06b64992d2c27e02ce14ce65ac7925b0d294f2eaa3f81e90b0cd",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 342,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.452,
+    "modules": [
+      "tests.test_kjv_psalm_crisis_judgment_memory",
+      "tests.test_kjv_psalm_worship_ageing",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    683,
+    684
+  ],
+  "status": "incompleteBible;Psalms1to81sectioncheckpointverified"
+}

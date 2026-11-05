@@ -1,0 +1,621 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.149",
+    "parentVersion": "0.10-kjv.148",
+    "parentHead": "59acd09d8b95a4ee9ac4e9e407a3b3f9897613d2286c93b3e0418ea6f4d5265d",
+    "head": "9bf424cbce4744bec0eb476257f6219d48df739225ce908131cf97e2e5558c6b",
+    "newLexicalEntries": 17,
+    "newProperEntries": 13,
+    "newCommonEntries": 4,
+    "newSurfaceForms": 6,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 96,
+    "exactCompilerCases": 96,
+    "newAuthoredVerses": 96,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 785,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 11322,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newJeremiahVerses": 96,
+    "jeremiahVerses": 785,
+    "authoredVerses": 19780,
+    "remainingVerses": 11322,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 1,
+    "quantityChecks": [
+      {
+        "reference": "Jeremiah 29:10",
+        "source": "For thus saith the LORD, That after seventy years be accomplished at Babylon I will visit you, and perform my good word toward you, in causing you to return to this place.",
+        "expectedDecimalQuantities": [
+          70
+        ],
+        "targetQuantities": [
+          70
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "29:1": [
+        "letter",
+        "remainder of kjv_elder:pl",
+        "nebuchadnezzar"
+      ],
+      "29:2": [
+        "kjv_jeconiah king and queen",
+        "eunuch:pl",
+        "carpenter:pl and kjv_smith:pl"
+      ],
+      "29:3": [
+        "kjv_elasah_shaphan son of kjv_shaphan",
+        "kjv_gemariah_hilkiah son of kjv_hilkiah_gemariah"
+      ],
+      "29:4": [
+        "ipl from kjv_jerusalem to kjv_babylon captive away carry:caus:perf"
+      ],
+      "29:5": [
+        "house:pl:a build:imp",
+        "kjv_garden:pl:a plant:imp"
+      ],
+      "29:6": [
+        "beget:imp",
+        "bear:may",
+        "diminish:psv:neg:may"
+      ],
+      "29:7": [
+        "peace:a of city seek:imp",
+        "in its/peace you peace:a have:fu"
+      ],
+      "29:8": [
+        "deceive:neg:opt",
+        "hear:neg:imp",
+        "you dream:psv:caus:pr"
+      ],
+      "29:9": [
+        "mypl/name",
+        "send:neg:perf"
+      ],
+      "29:10": [
+        "five+twelve and ten year:pl",
+        "at kjv_babylon",
+        "return:caus:cv"
+      ],
+      "29:11": [
+        "peace and not of evil",
+        "expect:psv:adj end:a"
+      ],
+      "29:12": [
+        "to ipl pray:fu",
+        "ipl to you listen:fu"
+      ],
+      "29:13": [
+        "with all your/heart"
+      ],
+      "29:14": [
+        "ipl by you find:psv:fu",
+        "captive:ev:a away turn:fu",
+        "carry:caus:pa"
+      ],
+      "29:15": [
+        "for wesg kjv_prophet:pl:a"
+      ],
+      "29:16": [
+        "throne of kjv_david",
+        "forth go:neg:perf"
+      ],
+      "29:17": [
+        "vile fig:pl",
+        "eat:psv:neg:can"
+      ],
+      "29:18": [
+        "kjv_hiss:ev and kjv_reproach",
+        "ipl they:a drive:perf"
+      ],
+      "29:19": [
+        "they to mypl/word:pl listen:neg:perf",
+        "but you hear:neg:pa"
+      ],
+      "29:20": [
+        "whom ipl from kjv_jerusalem to kjv_babylon send:perf"
+      ],
+      "29:21": [
+        "kjv_ahab_kolaiah son of kjv_kolaiah_ahab",
+        "kjv_zedekiah_maaseiah son of kjv_maaseiah_zedekiah",
+        "kjv_nebuchadrezzar"
+      ],
+      "29:22": [
+        "kjv_zedekiah_maaseiah and like kjv_ahab_kolaiah",
+        "in fire roast:pa"
+      ],
+      "29:23": [
+        "their/neighbour:pl/wife:pl",
+        "command:neg:perf",
+        "witness be:pr"
+      ],
+      "29:24": [
+        "kjv_shemaiah_nehelamite kjv_nehelamite"
+      ],
+      "29:25": [
+        "in thy/name",
+        "kjv_zephaniah_maaseiah son of kjv_maaseiah_zephaniah"
+      ],
+      "29:26": [
+        "kjv_jehoiada_letter",
+        "mad be:pr",
+        "himself:a kjv_prophet make:pr",
+        "in prison and in stocks"
+      ],
+      "29:27": [
+        "kjv_jeremiah_prophet:a of kjv_anathoth rebuke:neg:perf"
+      ],
+      "29:28": [
+        "to wesg",
+        "this captive:ev long be:pr"
+      ],
+      "29:29": [
+        "this letter:a in ear:pl"
+      ],
+      "29:30": [
+        "then word of kjv_lord"
+      ],
+      "29:31": [
+        "ipl he:a send:neg:pa",
+        "trust:caus:perf"
+      ],
+      "29:32": [
+        "his/seed:a punish:fu",
+        "human:a have:neg:fu",
+        "good:a behold:neg:fu"
+      ],
+      "30:1": [
+        "from kjv_lord"
+      ],
+      "30:2": [
+        "in book write:imp"
+      ],
+      "30:3": [
+        "mypl/people kjv_israel and kjv_judah",
+        "return:caus:fu",
+        "possess:fu"
+      ],
+      "30:4": [
+        "about kjv_israel and about kjv_judah"
+      ],
+      "30:5": [
+        "wesg voice:a",
+        "fear and not of peace"
+      ],
+      "30:6": [
+        "whether man with child kjv_travail:pr?",
+        "ipl every man:a",
+        "his/hand:pl on his/kjv_loins"
+      ],
+      "30:7": [
+        "alas:excl",
+        "kjv_jacob/kjv_trouble",
+        "save:psv:fu"
+      ],
+      "30:8": [
+        "his/yoke:a from off thy/neck",
+        "thy/kjv_binding_restraint:pl:a",
+        "no more he:a for themselves serve:caus:fu"
+      ],
+      "30:9": [
+        "kjv_david their/king:a",
+        "ipl for they up raise:fu"
+      ],
+      "30:10": [
+        "fear:neg:imp",
+        "kjv_dismay:psv:neg:imp",
+        "none he:a afraid make:fu"
+      ],
+      "30:11": [
+        "full end:a of thee make:neg:fu",
+        "in measure kjv_chasten:fu",
+        "without punish:ev leave:neg:fu"
+      ],
+      "30:12": [
+        "thy/kjv_bruise:ev incurable",
+        "thy/wound kjv_grievous"
+      ],
+      "30:13": [
+        "thy/cause:a kjv_litigate:inf",
+        "no heal:adj medicine:pl:a"
+      ],
+      "30:14": [
+        "ipl thee:a with wound of enemy kjv_wound_inflict:perf",
+        "kjv_chasten:ev of cruel human"
+      ],
+      "30:15": [
+        "thy/sorrow incurable",
+        "ipl these thing:pl:a to thee do:perf"
+      ],
+      "30:16": [
+        "devour:pr devour:psv:fu",
+        "spoil:pr spoil be:fu",
+        "for prey give:fu"
+      ],
+      "30:17": [
+        "health:a restore:fu",
+        "no human after seek:pr"
+      ],
+      "30:18": [
+        "her/own kjv_heap",
+        "palace after its/manner"
+      ],
+      "30:19": [
+        "kjv_multiply:caus:fu",
+        "few be:neg:fu",
+        "small be:neg:fu"
+      ],
+      "30:20": [
+        "as former time",
+        "before ipl kjv_establish:psv:fu"
+      ],
+      "30:21": [
+        "their/noble:pl of themselves",
+        "their/kjv_governor",
+        "near draw:caus:fu",
+        "his/heart:a as pledge give:pa"
+      ],
+      "30:22": [
+        "you mypl/people",
+        "ipl your/god"
+      ],
+      "30:23": [
+        "continue:adj kjv_whirlwind",
+        "with pain"
+      ],
+      "30:24": [
+        "return:neg:fu",
+        "intention:pl:a of his/heart"
+      ],
+      "31:1": [
+        "all kjv_family:pl of kjv_israel",
+        "mypl/people"
+      ],
+      "31:2": [
+        "kjv_wilderness",
+        "he:a rest:caus:inf"
+      ],
+      "31:3": [
+        "to ipl appear:perf",
+        "ipl thee:a with eternal love love:perf",
+        "kjv_lovingkindness"
+      ],
+      "31:4": [
+        "virgin of kjv_israel",
+        "thy/kjv_tabret:pl"
+      ],
+      "31:5": [
+        "kjv_samaria",
+        "as common thing:pl eat:fu"
+      ],
+      "31:6": [
+        "wesg to kjv_zion to kjv_lord ourone/god up go:opt"
+      ],
+      "31:7": [
+        "thy/people:a remainder of kjv_israel save:imp"
+      ],
+      "31:8": [
+        "blind and kjv_lame",
+        "woman with child and she who with child kjv_travail:pr"
+      ],
+      "31:9": [
+        "straight way",
+        "stumble:neg:fu",
+        "ipl father to kjv_israel",
+        "mypl/kjv_firstborn_human"
+      ],
+      "31:10": [
+        "he who kjv_israel:a scatter:pa he:a gather:fu"
+      ],
+      "31:11": [
+        "from hand of he who stronger than he be:pa"
+      ],
+      "31:12": [
+        "their/soul as kjv_water_irrigate:psv:adj kjv_garden",
+        "no more sorrow:fu"
+      ],
+      "31:13": [
+        "young man:pl and old together",
+        "rejoice:caus:fu"
+      ],
+      "31:14": [
+        "with fat:ev satisfy:fu",
+        "mypl/kjv_goodness_bounty"
+      ],
+      "31:15": [
+        "kjv_rahel",
+        "comfort:psv:inf refuse:pa",
+        "because they be:neg:pa"
+      ],
+      "31:16": [
+        "thy/eye:pl:a from tear:pl",
+        "land of enemy again come:fu"
+      ],
+      "31:17": [
+        "their/own boundary"
+      ],
+      "31:18": [
+        "ipl surely kjv_ephraim:a",
+        "thou ipl:a kjv_chasten:perf",
+        "not kjv_accustomed to yoke",
+        "mypl/god"
+      ],
+      "31:19": [
+        "ipl turn:psv:pa ipl repent:pa",
+        "mypl/thigh strike:pa",
+        "mypl/youth endure:pa"
+      ],
+      "31:20": [
+        "mypl/dear son",
+        "mypl/kjv_bowels",
+        "mercy:a have:fu"
+      ],
+      "31:21": [
+        "kjv_waymark:pl:a",
+        "high kjv_heap:pl:a",
+        "thy/city:pl"
+      ],
+      "31:22": [
+        "woman man:a surround:fu"
+      ],
+      "31:23": [
+        "kjv_lord thee:a bless:opt",
+        "dwell:ev place of justice"
+      ],
+      "31:24": [
+        "kjv_till_land:ag:pl",
+        "with flock:pl"
+      ],
+      "31:25": [
+        "weary soul:a satisfy:perf",
+        "every sorrowful soul:a fill:perf"
+      ],
+      "31:26": [
+        "i awake:pa",
+        "my/sleep to i sweet be:pa"
+      ],
+      "31:27": [
+        "seed of human and with seed of beast"
+      ],
+      "31:28": [
+        "up pluck:inf",
+        "down break:inf",
+        "down throw:inf",
+        "destroy:inf",
+        "kjv_afflict:inf",
+        "build:inf and to plant:inf"
+      ],
+      "31:29": [
+        "they no more say:fu",
+        "child:pl/tooth:pl kjv_teeth_on_edge:pr"
+      ],
+      "31:30": [
+        "each for his/own kjv_iniquity",
+        "his/tooth:pl kjv_teeth_on_edge:fu"
+      ],
+      "31:31": [
+        "new kjv_covenant:a with house of kjv_israel and with house of kjv_judah"
+      ],
+      "31:32": [
+        "although ipl husband to they be:pa",
+        "mypl/kjv_covenant they break:pa"
+      ],
+      "31:33": [
+        "mypl/law:a in their/inside part:pl",
+        "in their/heart:pl write:fu",
+        "they mypl/people"
+      ],
+      "31:34": [
+        "no more each human",
+        "all ipl:a know:fu",
+        "no more remember:fu"
+      ],
+      "31:35": [
+        "sun:a for light",
+        "kjv_ordinance:pl:a of moon",
+        "sea:a kjv_divide:pr"
+      ],
+      "31:36": [
+        "if those kjv_ordinance:pl",
+        "nation before ipl forever be:inf cease:fu"
+      ],
+      "31:37": [
+        "if heaven above measure:psv:can",
+        "all seed:a of kjv_israel off cast:fu"
+      ],
+      "31:38": [
+        "kjv_tower of kjv_hananeel"
+      ],
+      "31:39": [
+        "kjv_gareb_hill",
+        "kjv_goath"
+      ],
+      "31:40": [
+        "dead body:pl",
+        "kjv_ashes",
+        "holy to kjv_lord",
+        "up pluck:psv:neg:fu",
+        "down throw:psv:neg:fu"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "31:26"
+      ],
+      "ipl": [
+        "29:10",
+        "29:11",
+        "29:12",
+        "29:13",
+        "29:14",
+        "29:17",
+        "29:18",
+        "29:19",
+        "29:20",
+        "29:21",
+        "29:23",
+        "29:31",
+        "29:32",
+        "29:4",
+        "29:7",
+        "29:9",
+        "30:10",
+        "30:11",
+        "30:14",
+        "30:15",
+        "30:16",
+        "30:17",
+        "30:18",
+        "30:19",
+        "30:2",
+        "30:20",
+        "30:21",
+        "30:22",
+        "30:3",
+        "30:6",
+        "30:8",
+        "30:9",
+        "31:1",
+        "31:13",
+        "31:14",
+        "31:18",
+        "31:19",
+        "31:2",
+        "31:20",
+        "31:23",
+        "31:25",
+        "31:27",
+        "31:28",
+        "31:3",
+        "31:31",
+        "31:32",
+        "31:33",
+        "31:34",
+        "31:36",
+        "31:37",
+        "31:4",
+        "31:8",
+        "31:9"
+      ],
+      "wesg": [
+        "29:15",
+        "29:28",
+        "30:5",
+        "31:6"
+      ],
+      "wepl": [],
+      "mypl": [
+        "29:10",
+        "29:19",
+        "29:21",
+        "29:23",
+        "29:32",
+        "29:9",
+        "30:10",
+        "30:22",
+        "30:3",
+        "31:1",
+        "31:14",
+        "31:18",
+        "31:19",
+        "31:20",
+        "31:32",
+        "31:33",
+        "31:9"
+      ],
+      "ourone": [
+        "31:6"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "quantityInterpretation": [
+      "Seventy years29:10 equals five twelves plus ten.",
+      "Firstborn31:9 is a relational title;no inferred divine headcount."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Jeremiah29–31 adds96 verses,total785;whole Bible incomplete.",
+      "Ephraims civic plural-I differs from the reporting divine plural-I;personal awakening31:26 stays singular.",
+      "Voice alternatives30:5/6 and31:3 remain documented;no silent theological harmonization.",
+      "Four common senses and thirteen contextual names added;no inherited targets changed."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Jeremiah — incomplete Bible working text",
+    "pages": 638,
+    "spreads": 319,
+    "units": 785,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "14219566bf2fe202d2eb06074a738e603052d5f058a0c07327fedf0f6dfb4c5a",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 319,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 10.582,
+    "modules": [
+      "tests.test_kjv_jeremiah_inward_covenant",
+      "tests.test_kjv_jeremiah_contested_commissions",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    637,
+    638
+  ],
+  "status": "incomplete Bible;Jeremiah1–31 section checkpoint verified"
+}

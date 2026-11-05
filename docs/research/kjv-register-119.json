@@ -1,0 +1,623 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.119",
+    "parentVersion": "0.10-kjv.118",
+    "parentHead": "db4e5a09d319af9463569fbbaf9fd03a84b2cb9bb84a2b6c79fe690d5075c809",
+    "head": "5ca29e639b9740c4bd4294b33699c947a92466dec2563dcbbfd83c7a2bc6b482",
+    "newLexicalEntries": 1,
+    "newProperEntries": 1,
+    "newCommonEntries": 0,
+    "newSurfaceForms": 1,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 101,
+    "exactCompilerCases": 101,
+    "newAuthoredVerses": 101,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2236,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 14878,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newPsalmsVerses": 101,
+    "psalmsVerses": 2236,
+    "authoredVerses": 16224,
+    "remainingVerses": 14878,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 0,
+    "quantityChecks": [],
+    "semanticChecks": {
+      "120:1": [
+        "my/distress",
+        "cry:pa",
+        "hear:pa"
+      ],
+      "120:2": [
+        "kjv_lie_false:adj lip:pl",
+        "deceitful tongue"
+      ],
+      "120:3": [
+        "give:psv:fu",
+        "do:psv:fu",
+        "false tongue"
+      ],
+      "120:4": [
+        "sharp arrow:pl",
+        "kjv_charcoal:pl of kjv_juniper"
+      ],
+      "120:5": [
+        "kjv_mesech",
+        "kjv_kedar",
+        "woe"
+      ],
+      "120:6": [
+        "long",
+        "peace:a hate:pr"
+      ],
+      "120:7": [
+        "i for peace",
+        "they for war"
+      ],
+      "121:1": [
+        "mine eye:pl:a",
+        "from where"
+      ],
+      "121:2": [
+        "my/help",
+        "heaven:a and earth:a"
+      ],
+      "121:3": [
+        "move:psv:inf allow:neg:fu",
+        "slumber:neg:fu"
+      ],
+      "121:4": [
+        "neither slumber:fu nor sleep:fu"
+      ],
+      "121:5": [
+        "thy/shade",
+        "kjv_right_side hand"
+      ],
+      "121:6": [
+        "sun",
+        "day strike:neg:fu",
+        "moon by night"
+      ],
+      "121:7": [
+        "all evil",
+        "thy/soul:a"
+      ],
+      "121:8": [
+        "thy/out go:ev:a",
+        "thy/in come:ev:a",
+        "for ever"
+      ],
+      "122:1": [
+        "glad be:pa",
+        "wepl",
+        "go:opt"
+      ],
+      "122:2": [
+        "our/foot:pl",
+        "thy/gate:pl"
+      ],
+      "122:3": [
+        "together join:psv:pr",
+        "build:psv:pr"
+      ],
+      "122:4": [
+        "kjv_tribe:pl",
+        "testimony of kjv_israel"
+      ],
+      "122:5": [
+        "throne:pl",
+        "house of kjv_david"
+      ],
+      "122:6": [
+        "peace of kjv_jerusalem",
+        "thee:a love:pr"
+      ],
+      "122:7": [
+        "thy/wall:pl",
+        "thy/palace:pl"
+      ],
+      "122:8": [
+        "my/brother:pl and companion:pl",
+        "say:fu"
+      ],
+      "122:9": [
+        "ourone/god",
+        "i thy/good:a seek:fu"
+      ],
+      "123:1": [
+        "i mine eye:pl:a",
+        "heaven:pl"
+      ],
+      "123:2": [
+        "their/master:pl",
+        "her/mistress",
+        "our/eye:pl",
+        "ourone/god",
+        "wesg"
+      ],
+      "123:3": [
+        "wesg",
+        "very with contempt"
+      ],
+      "123:4": [
+        "ourone/soul",
+        "at ease",
+        "contempt"
+      ],
+      "124:1": [
+        "ourone/side",
+        "be:neg:pp"
+      ],
+      "124:2": [
+        "be:neg:pp",
+        "human:pl against wepl"
+      ],
+      "124:3": [
+        "wepl:a alive up kjv_swallow:pp",
+        "against wesg"
+      ],
+      "124:4": [
+        "wepl:a overwhelm:pp",
+        "ourone/soul go:pp"
+      ],
+      "124:5": [
+        "proud water:pl",
+        "ourone/soul"
+      ],
+      "124:6": [
+        "wepl:a as prey",
+        "give:neg:perf"
+      ],
+      "124:7": [
+        "ourone/soul",
+        "bird catch:ag:pl",
+        "wesg escape:perf"
+      ],
+      "124:8": [
+        "ourone/help",
+        "heaven:a and earth:a"
+      ],
+      "125:1": [
+        "mountain kjv_zion",
+        "remove:psv:neg:can"
+      ],
+      "125:2": [
+        "around kjv_jerusalem",
+        "around his/people"
+      ],
+      "125:3": [
+        "rod",
+        "kjv_lot_portion",
+        "lest"
+      ],
+      "125:4": [
+        "good:a do:imp",
+        "kjv_upright"
+      ],
+      "125:5": [
+        "crooked way:pl",
+        "peace upon kjv_israel"
+      ],
+      "126:1": [
+        "kjv_captivity",
+        "wesg like they who dream:pr"
+      ],
+      "126:2": [
+        "ourone/mouth",
+        "ourone/tongue",
+        "for they do:perf"
+      ],
+      "126:3": [
+        "for wesg",
+        "wesg glad"
+      ],
+      "126:4": [
+        "ourone/kjv_captivity",
+        "stream:pl in kjv_south"
+      ],
+      "126:5": [
+        "tear:pl kjv_sow:pr",
+        "joy reap:fu"
+      ],
+      "126:6": [
+        "precious seed:a",
+        "kjv_sheaf:pl:a"
+      ],
+      "127:1": [
+        "unless",
+        "in vain labour:pr",
+        "watch:ag wake:pr"
+      ],
+      "127:2": [
+        "early up rise:inf",
+        "late up sit:inf",
+        "sleep:a give:pr"
+      ],
+      "127:3": [
+        "child:pl inheritance",
+        "fruit of womb"
+      ],
+      "127:4": [
+        "arrow:pl",
+        "child:pl of youth"
+      ],
+      "127:5": [
+        "kjv_quiver full",
+        "they shame:psv:neg:fu",
+        "gate"
+      ],
+      "128:1": [
+        "every one",
+        "fear:pr",
+        "walk:pr"
+      ],
+      "128:2": [
+        "labour:a of thine hand:pl eat:fu"
+      ],
+      "128:3": [
+        "kjv_vine",
+        "kjv_olive plant:pl",
+        "table"
+      ],
+      "128:4": [
+        "thus man bless:psv:fu"
+      ],
+      "128:5": [
+        "out of kjv_zion",
+        "all day:pl of thy/life"
+      ],
+      "128:6": [
+        "thy/child:pl/child:pl:a",
+        "peace"
+      ],
+      "129:1": [
+        "ipl:a",
+        "mypl/youth",
+        "kjv_israel now say:may"
+      ],
+      "129:2": [
+        "ipl:a",
+        "prevail:neg:perf"
+      ],
+      "129:3": [
+        "mypl/back",
+        "kjv_furrow:pl:a long"
+      ],
+      "129:4": [
+        "kjv_cord:pl",
+        "apart cut:perf"
+      ],
+      "129:5": [
+        "confound:psv:opt",
+        "turn:psv:opt"
+      ],
+      "129:6": [
+        "house roof:pl",
+        "before it up grow:pr wither:pr"
+      ],
+      "129:7": [
+        "grass cut:ag",
+        "kjv_sheaf:pl:a",
+        "his/bosom"
+      ],
+      "129:8": [
+        "neither",
+        "wesg you:pl:a",
+        "bless:pr"
+      ],
+      "130:1": [
+        "kjv_depth:pl",
+        "cry:perf"
+      ],
+      "130:2": [
+        "lord:excl",
+        "ear:pl",
+        "kjv_supplication:pl"
+      ],
+      "130:3": [
+        "record:should",
+        "who stand:fu"
+      ],
+      "130:4": [
+        "forgive:ev",
+        "fear:psv:may"
+      ],
+      "130:5": [
+        "my/soul wait:pr",
+        "hope:pr"
+      ],
+      "130:6": [
+        "lord",
+        "i say:pr",
+        "more than they"
+      ],
+      "130:7": [
+        "kjv_israel",
+        "abundance:adj redeem:ev"
+      ],
+      "130:8": [
+        "his/kjv_iniquity:pl",
+        "redeem:fu"
+      ],
+      "131:1": [
+        "proud be:neg:pr",
+        "neither i myself:a",
+        "too high"
+      ],
+      "131:2": [
+        "quiet:caus:perf",
+        "kjv_wean:psv:perf",
+        "my/soul"
+      ],
+      "131:3": [
+        "from now forth and for ever",
+        "hope:opt"
+      ],
+      "132:1": [
+        "kjv_david:a",
+        "his/kjv_afflict:ev:pl"
+      ],
+      "132:2": [
+        "swear:pa",
+        "mighty god of kjv_jacob vow:pa"
+      ],
+      "132:3": [
+        "i",
+        "tent of my/house",
+        "come:neg:fu"
+      ],
+      "132:4": [
+        "sleep:a",
+        "mine eye:pl",
+        "mine eyelid:pl"
+      ],
+      "132:5": [
+        "until i",
+        "mighty god of kjv_jacob"
+      ],
+      "132:6": [
+        "wepl",
+        "kjv_ephratah",
+        "field:pl of wood"
+      ],
+      "132:7": [
+        "wepl",
+        "his/tent:pl",
+        "wesg",
+        "kjv_footstool"
+      ],
+      "132:8": [
+        "thy/rest",
+        "kjv_ark_chest of thy/strength"
+      ],
+      "132:9": [
+        "kjv_righteousness",
+        "clothe:psv:opt",
+        "shout:opt"
+      ],
+      "132:10": [
+        "kjv_david",
+        "thine anoint:psv:adj:a",
+        "turn:neg:imp"
+      ],
+      "132:11": [
+        "swear:perf",
+        "fruit of thy/body ipl",
+        "thy/throne"
+      ],
+      "132:12": [
+        "if thy/child:pl",
+        "mypl/kjv_covenant:a",
+        "mypl/testimony:a",
+        "ipl they:a teach:fu"
+      ],
+      "132:13": [
+        "he it:a",
+        "his/dwell:ev place"
+      ],
+      "132:14": [
+        "mypl/rest",
+        "here ipl dwell:fu"
+      ],
+      "132:15": [
+        "ipl her/food:a",
+        "her/poor:a with bread"
+      ],
+      "132:16": [
+        "ipl",
+        "with salvation clothe:fu",
+        "shout:fu"
+      ],
+      "132:17": [
+        "ipl",
+        "bud:caus:fu",
+        "mypl/anoint:psv:adj"
+      ],
+      "132:18": [
+        "ipl his/enemy:pl:a",
+        "upon himself his/crown thrive:fu"
+      ],
+      "133:1": [
+        "brother:pl together in union",
+        "be:pr:excl"
+      ],
+      "133:2": [
+        "kjv_ointment",
+        "kjv_aaron/beard",
+        "kjv_hem:pl"
+      ],
+      "133:3": [
+        "dew of kjv_hermon",
+        "mountain:pl of kjv_zion",
+        "life for ever"
+      ],
+      "134:1": [
+        "you:pl",
+        "by night",
+        "stand:pr"
+      ],
+      "134:2": [
+        "your/hand:pl:a",
+        "kjv_sanctuary"
+      ],
+      "134:3": [
+        "thee:a",
+        "bless:opt"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "120:1",
+        "120:5",
+        "120:7",
+        "121:1",
+        "122:1",
+        "122:8",
+        "122:9",
+        "123:1",
+        "130:1",
+        "130:5",
+        "130:6",
+        "131:1",
+        "131:2",
+        "132:3",
+        "132:4",
+        "132:5"
+      ],
+      "ipl": [
+        "129:1",
+        "129:2",
+        "132:11",
+        "132:12",
+        "132:14",
+        "132:15",
+        "132:16",
+        "132:17",
+        "132:18"
+      ],
+      "wesg": [
+        "123:2",
+        "123:3",
+        "124:3",
+        "124:7",
+        "126:1",
+        "126:3",
+        "129:8",
+        "132:7"
+      ],
+      "wepl": [
+        "122:1",
+        "124:2",
+        "124:3",
+        "124:4",
+        "124:6",
+        "132:6",
+        "132:7"
+      ],
+      "mypl": [
+        "129:1",
+        "129:2",
+        "129:3",
+        "132:12",
+        "132:14",
+        "132:17"
+      ],
+      "ourone": [
+        "122:9",
+        "123:2",
+        "123:4",
+        "124:1",
+        "124:2",
+        "124:4",
+        "124:5",
+        "124:7",
+        "124:8",
+        "126:2",
+        "126:4"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "quantityInterpretation": [
+      "No explicit cardinal totals in these101verses.Every one128:1is distributive;many times,children of children and forever do not add numerical totals.",
+      "Corporate plural-I129and divine plural-I132express discourse identity without a fixed member count."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Psalm129explicitly assigns the singular first-person speech to Israel;corporate plural-I followsPsalm44and is not a divinity claim.",
+      "Psalm132distinguishes personal David vow3–5,narrator13,and quoted divine plural-I11–12/14–18.Physical pilgrimage7is plural-we,shared worship singular-we.",
+      "Psalm124quick=alive,125lot=allotted portion,130mark=record,131exercise=involve,132flourish=thrive are source-context choices.",
+      "Psalm122:8damaged source apostrophe remains in the exact English column;the target expresses the legible relational phrase without changing source evidence.",
+      "All prior targets and old seals remain unchanged;wholeBible incomplete."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Psalms — incomplete Bible working text",
+    "pages": 1130,
+    "spreads": 565,
+    "units": 2236,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "54ca3adbd36cc17d0576fca61b84f2644373c3ee73e2ed222a7ffe242f2000ab",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 565,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.466,
+    "modules": [
+      "tests.test_kjv_psalm_ascent_identity",
+      "tests.test_kjv_psalm_law_life_petition",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    1129,
+    1130
+  ],
+  "status": "incompleteBible;Psalms1to134sectioncheckpointverified"
+}

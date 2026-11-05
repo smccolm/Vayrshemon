@@ -1,0 +1,763 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.209",
+    "parentVersion": "0.10-kjv.208",
+    "parentHead": "81deb6a7e3e5be8555fd36acee5f3656c593f4d71d355438ab03d50fad0cf58c",
+    "head": "58a521b37d81f7e4e163838fd89dd4b8da2fc2cf13349c4552745adfb3e632da",
+    "newLexicalEntries": 1,
+    "newProperEntries": 0,
+    "newCommonEntries": 1,
+    "newSurfaceForms": 1,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 4,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 80,
+    "exactCompilerCases": 80,
+    "newAuthoredVerses": 80,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "obadiahVerses": 21,
+    "micahVerses": 105,
+    "nahumVerses": 47,
+    "habakkukVerses": 56,
+    "zephaniahVerses": 53,
+    "haggaiVerses": 38,
+    "zechariahVerses": 211,
+    "malachiVerses": 55,
+    "matthewVerses": 1071,
+    "markVerses": 678,
+    "lukeVerses": 838,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 5370,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newLukeVerses": 80,
+    "lukeVerses": 838,
+    "authoredVerses": 25732,
+    "remainingVerses": 5370,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 17,
+    "quantityChecks": [
+      {
+        "reference": "Luke 17:2",
+        "source": "It were better for him that a millstone were hanged about his neck, and he cast into the sea, than that he should offend one of these little ones.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 17:4",
+        "source": "And if he trespass against thee seven times in a day, and seven times in a day turn again to thee, saying, I repent; thou shalt forgive him.",
+        "expectedDecimalQuantities": [
+          7,
+          7
+        ],
+        "targetQuantities": [
+          7,
+          7
+        ]
+      },
+      {
+        "reference": "Luke 17:12",
+        "source": "And as he entered into a certain village, there met him ten men that were lepers, which stood afar off:",
+        "expectedDecimalQuantities": [
+          10
+        ],
+        "targetQuantities": [
+          10
+        ]
+      },
+      {
+        "reference": "Luke 17:15",
+        "source": "And one of them, when he saw that he was healed, turned back, and with a loud voice glorified God,",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 17:17",
+        "source": "And Jesus answering said, Were there not ten cleansed? but where are the nine?",
+        "expectedDecimalQuantities": [
+          10,
+          9
+        ],
+        "targetQuantities": [
+          10,
+          9
+        ]
+      },
+      {
+        "reference": "Luke 17:22",
+        "source": "And he said unto the disciples, The days will come, when ye shall desire to see one of the days of the Son of man, and ye shall not see it.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 17:24",
+        "source": "For as the lightning, that lighteneth out of the one part under heaven, shineth unto the other part under heaven; so shall also the Son of man be in his day.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 17:25",
+        "source": "But first must he suffer many things, and be rejected of this generation.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 17:34",
+        "source": "I tell you, in that night there shall be two men in one bed; the one shall be taken, and the other shall be left.",
+        "expectedDecimalQuantities": [
+          2,
+          1,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 17:35",
+        "source": "Two women shall be grinding together; the one shall be taken, and the other left.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 17:36",
+        "source": "Two men shall be in the field; the one shall be taken, and the other left.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 18:10",
+        "source": "Two men went up into the temple to pray; the one a Pharisee, and the other a publican.",
+        "expectedDecimalQuantities": [
+          2,
+          1
+        ],
+        "targetQuantities": [
+          2,
+          1
+        ]
+      },
+      {
+        "reference": "Luke 18:12",
+        "source": "I fast twice in the week, I give tithes of all that I possess.",
+        "expectedDecimalQuantities": [
+          2
+        ],
+        "targetQuantities": [
+          2
+        ]
+      },
+      {
+        "reference": "Luke 18:19",
+        "source": "And Jesus said unto him, Why callest thou me good? none is good, save one, that is, God.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 18:22",
+        "source": "Now when Jesus heard these things, he said unto him, Yet lackest thou one thing: sell all that thou hast, and distribute unto the poor, and thou shalt have treasure in heaven: and come, follow me.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Luke 18:31",
+        "source": "Then he took unto him the twelve, and said unto them, Behold, we go up to Jerusalem, and all things that are written by the prophets concerning the Son of man shall be accomplished.",
+        "expectedDecimalQuantities": [
+          12
+        ],
+        "targetQuantities": [
+          12
+        ]
+      },
+      {
+        "reference": "Luke 18:33",
+        "source": "And they shall scourge him, and put him to death: and the third day he shall rise again.",
+        "expectedDecimalQuantities": [
+          3
+        ],
+        "targetQuantities": [
+          3
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "17:1": [
+        "offence:pl come:neg:inf impossible",
+        "woe to he through whom they come:pr:excl"
+      ],
+      "17:2": [
+        "kjv_millstone about his/neck",
+        "into sea cast:psv:pa",
+        "one_num of these little person:pl"
+      ],
+      "17:3": [
+        "to yourselves heed",
+        "thy/brother",
+        "he:a rebuke:imp",
+        "if repent:pr he:a forgive:imp"
+      ],
+      "17:4": [
+        "seven time:pl in day kjv_trespass",
+        "seven time:pl in day to thou again turn",
+        "i repent:pr",
+        "forgive:fu"
+      ],
+      "17:5": [
+        "kjv_apostle:pl",
+        "ourone/faith increase:imp"
+      ],
+      "17:6": [
+        "seed of mustard",
+        "kjv_sycamine_luke kjv_tree",
+        "by root up pluck:psv:imp",
+        "in sea plant:psv:imp",
+        "obey:should"
+      ],
+      "17:7": [
+        "plough:cv or kjv_livestock feed:cv",
+        "from field",
+        "immediately",
+        "at meal down sit:imp"
+      ],
+      "17:8": [
+        "i supper eat:may",
+        "thyself kjv_gird:imp",
+        "i:a serve:imp",
+        "until i eat:perf and drink:perf",
+        "afterward thou"
+      ],
+      "17:9": [
+        "that servant",
+        "command:psv:pa",
+        "ipl think:pr not"
+      ],
+      "17:10": [
+        "all those thing:pl",
+        "wesg not profitable servant:pl",
+        "ourone/duty"
+      ],
+      "17:11": [
+        "kjv_jerusalem",
+        "middle of kjv_samaria and kjv_galilee"
+      ],
+      "17:12": [
+        "ten man:pl",
+        "kjv_leprosy",
+        "far away stand:pa"
+      ],
+      "17:13": [
+        "their/voice:pl",
+        "kjv_jesus_matthew master",
+        "on wesg mercy"
+      ],
+      "17:14": [
+        "to priest:pl yourselves show:imp",
+        "as go:pa clean:psv:pa"
+      ],
+      "17:15": [
+        "one_num of they",
+        "heal:psv:perf",
+        "back turn:pa",
+        "loud voice god glorify:pa"
+      ],
+      "17:16": [
+        "at his/foot:pl on his/face",
+        "thank:ev",
+        "he kjv_samaritan be:pa"
+      ],
+      "17:17": [
+        "ten clean:psv:neg:pa:q",
+        "nine where"
+      ],
+      "17:18": [
+        "to god glory give:inf",
+        "except this stranger"
+      ],
+      "17:19": [
+        "rise:imp thy/way go:imp",
+        "thy/faith thou:a whole make:perf"
+      ],
+      "17:20": [
+        "by kjv_pharisee:pl",
+        "when kingdom of god come:should",
+        "with observation come:neg:pr"
+      ],
+      "17:21": [
+        "behold here:excl",
+        "behold there:excl",
+        "kingdom of god within you"
+      ],
+      "17:22": [
+        "one_num of day:pl of son of man",
+        "desire:fu",
+        "see:neg:fu"
+      ],
+      "17:23": [
+        "here see:imp",
+        "there see:imp",
+        "go:neg:imp nor they:a follow:imp"
+      ],
+      "17:24": [
+        "lightning",
+        "one_num part under heaven",
+        "other part under heaven",
+        "son of man in his/day"
+      ],
+      "17:25": [
+        "first many thing:pl suffer:must",
+        "by this generation reject:psv:must"
+      ],
+      "17:26": [
+        "day:pl of kjv_noe_matthew",
+        "day:pl of son of man"
+      ],
+      "17:27": [
+        "eat:pa drink:pa",
+        "wife:pl marry:pa in marriage give:psv:pa",
+        "kjv_flood_ark",
+        "flood come:pa",
+        "all destroy:pa"
+      ],
+      "17:28": [
+        "kjv_lot_person",
+        "eat:pa drink:pa buy:pa sell:pa plant:pa build:pa"
+      ],
+      "17:29": [
+        "same day",
+        "out of kjv_sodom",
+        "fire and kjv_brimstone rain:pa",
+        "all destroy:pa"
+      ],
+      "17:30": [
+        "son of man reveal:psv:pr"
+      ],
+      "17:31": [
+        "upon roof of house",
+        "his/kjv_goods in house",
+        "down come:neg:opt",
+        "in field",
+        "back return:neg:opt"
+      ],
+      "17:32": [
+        "wife of kjv_lot_person remember:imp"
+      ],
+      "17:33": [
+        "his/life save:inf seek:fu it lose:fu",
+        "his/life lose:fu it preserve:fu"
+      ],
+      "17:34": [
+        "ipl to you tell:pr",
+        "in that night two man:pl in one_num bed",
+        "one_num take:psv:fu and other leave:psv:fu"
+      ],
+      "17:35": [
+        "two woman:pl together kjv_grind:cv be:fu",
+        "one_num take:psv:fu and other leave:psv:fu"
+      ],
+      "17:36": [
+        "two man:pl in field",
+        "one_num take:psv:fu and other leave:psv:fu"
+      ],
+      "17:37": [
+        "where lord:q",
+        "wherever body",
+        "kjv_eagle:pl together gather:psv:fu"
+      ],
+      "18:1": [
+        "always pray:should",
+        "faint be:neg:should"
+      ],
+      "18:2": [
+        "in city judge",
+        "god fear:neg:pa neither man regard:pa"
+      ],
+      "18:3": [
+        "widow",
+        "from mine/kjv_adversary i:a kjv_avenge:imp"
+      ],
+      "18:4": [
+        "for while will:neg:pa",
+        "within himself",
+        "i god fear:neg:pr nor man regard:pr"
+      ],
+      "18:5": [
+        "this widow i:a kjv_trouble:caus:pr",
+        "i she:a kjv_avenge:fu",
+        "again and again",
+        "i:a tire:pr"
+      ],
+      "18:6": [
+        "unjust judge say:pr hear:imp"
+      ],
+      "18:7": [
+        "his/own choose:psv:adj person:pl",
+        "day and night cry:pr",
+        "with they long endure:pr"
+      ],
+      "18:8": [
+        "ipl to you tell:pr",
+        "quickly",
+        "son of man",
+        "on earth faith find:fu:q"
+      ],
+      "18:9": [
+        "in themselves",
+        "kjv_righteous",
+        "trust:pa",
+        "other person:pl despise:pa"
+      ],
+      "18:10": [
+        "two man:pl into kjv_temple",
+        "one_num kjv_pharisee",
+        "other kjv_publican"
+      ],
+      "18:11": [
+        "with himself pray:pa",
+        "i thou:a thank:pr",
+        "extort:ag:pl",
+        "unjust person:pl",
+        "kjv_adultery:ag:pl",
+        "this kjv_publican"
+      ],
+      "18:12": [
+        "i twice in week kjv_fast:pr",
+        "i of all that i possess:pr tithe:pl give:pr"
+      ],
+      "18:13": [
+        "kjv_publican far away",
+        "his/eye:pl to heaven lift:inf will:neg:pa",
+        "upon his/breast strike:pa",
+        "god to i sin:ag mercy:adj"
+      ],
+      "18:14": [
+        "ipl to you tell:pr",
+        "this man to his/house kjv_justify:psv:adj",
+        "rather than other",
+        "himself kjv_exalt:pr low make:psv:fu",
+        "himself humble:pr kjv_exalt:psv:fu"
+      ],
+      "18:15": [
+        "kjv_infant:pl",
+        "touch:should",
+        "disciple:pl",
+        "rebuke:pa"
+      ],
+      "18:16": [
+        "little child:pl to ipl come:inf allow:imp",
+        "forbid:neg:imp",
+        "of such kingdom of god"
+      ],
+      "18:17": [
+        "truly ipl to you say:pr",
+        "as little child receive:neg:fu",
+        "in any way enter:neg:fu"
+      ],
+      "18:18": [
+        "certain ruler",
+        "good master",
+        "what i do:fu",
+        "eternal life inherit:inf"
+      ],
+      "18:19": [
+        "why ipl:a good call:pr:q",
+        "none good",
+        "except one_num that god"
+      ],
+      "18:20": [
+        "kjv_adultery do:neg:imp",
+        "kill:neg:imp",
+        "steal:neg:imp",
+        "false witness give:neg:imp",
+        "thy/father and thy/mother honour:imp"
+      ],
+      "18:21": [
+        "all these i from my/youth up keep:perf"
+      ],
+      "18:22": [
+        "one_num thing lack:pr",
+        "all that have:pr sell:imp",
+        "to poor person:pl distribute:imp",
+        "in heaven treasure",
+        "ipl:a follow:imp"
+      ],
+      "18:23": [
+        "very sorrowful",
+        "very rich"
+      ],
+      "18:24": [
+        "very sorrowful",
+        "with difficulty",
+        "wealth have:pr",
+        "enter:fu:excl"
+      ],
+      "18:25": [
+        "kjv_camel through eye of needle",
+        "rich man",
+        "more easy"
+      ],
+      "18:26": [
+        "who save:psv:inf able:pr:q"
+      ],
+      "18:27": [
+        "with man:pl impossible",
+        "with god possible"
+      ],
+      "18:28": [
+        "kjv_peter_disciple",
+        "wesg all leave:perf",
+        "thou:a follow:perf"
+      ],
+      "18:29": [
+        "truly ipl to you say:pr",
+        "house or parent:pl or brother:pl or wife or child:pl",
+        "kingdom of god"
+      ],
+      "18:30": [
+        "in this present time many kjv_fold more",
+        "world to come eternal life"
+      ],
+      "18:31": [
+        "twelve",
+        "wesg to kjv_jerusalem up go:pr",
+        "by prophet:pl about son of man",
+        "fulfil:psv:fu"
+      ],
+      "18:32": [
+        "to kjv_gentile:pl deliver:psv:fu",
+        "mock:psv:fu",
+        "with spite treat:psv:fu",
+        "kjv_spit:psv:fu"
+      ],
+      "18:33": [
+        "whip:fu",
+        "to death put:fu",
+        "third day again rise:fu"
+      ],
+      "18:34": [
+        "none of these thing:pl understand:pa",
+        "say:ev from they hide:psv:pa",
+        "neither",
+        "know:pa"
+      ],
+      "18:35": [
+        "near to kjv_jericho",
+        "certain blind man",
+        "by way side sit:pa beg:cv"
+      ],
+      "18:36": [
+        "kjv_multitude pass:cv hear:cv",
+        "what it mean:pa ask:pa"
+      ],
+      "18:37": [
+        "kjv_jesus_matthew of kjv_nazareth",
+        "pass:prog"
+      ],
+      "18:38": [
+        "kjv_jesus_matthew thou son of kjv_david",
+        "on i mercy have:imp"
+      ],
+      "18:39": [
+        "they who before go:pa",
+        "silent be:should",
+        "much more cry:pa",
+        "son of kjv_david on i mercy"
+      ],
+      "18:40": [
+        "stand:pa",
+        "bring:psv:inf command:pa",
+        "near come:pa",
+        "ask:pa"
+      ],
+      "18:41": [
+        "ipl to thou do:fu",
+        "lord that i my/sight receive:may"
+      ],
+      "18:42": [
+        "thy/sight receive:imp",
+        "thy/faith thou:a save:perf"
+      ],
+      "18:43": [
+        "immediately his/sight receive:pa",
+        "follow:pa god glorify:cv",
+        "all people",
+        "to god praise give:pa"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "17:4",
+        "17:8",
+        "18:11",
+        "18:12",
+        "18:13",
+        "18:18",
+        "18:21",
+        "18:3",
+        "18:38",
+        "18:39",
+        "18:4",
+        "18:41",
+        "18:5"
+      ],
+      "ipl": [
+        "17:34",
+        "17:9",
+        "18:14",
+        "18:16",
+        "18:17",
+        "18:19",
+        "18:22",
+        "18:29",
+        "18:41",
+        "18:8"
+      ],
+      "wesg": [
+        "17:10",
+        "17:13",
+        "18:28",
+        "18:31"
+      ],
+      "wepl": [],
+      "mypl": [],
+      "ourone": [
+        "17:10",
+        "17:5"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "Seven offences and seven returns remain separate counts;ten cleansed,one returned,nine absent.",
+      "Two men/one bed,two women grinding,two men in field retain each taken/left contrast.",
+      "Two temple petitioners,twice-weekly fast,one God,one lack,twelve companions and third day retained.",
+      "Manyfold is not changed to a specific hundredfold."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "80new verses;838Luke total;whole Bible remains incomplete.",
+      "Quoted private selves differ from framing plural-self teacher and communal singular-we.",
+      "Within-you and body/eagles retain supplied wording;interpretive disputes not silently resolved.",
+      "One common entry;no proper-name,paradigm or earlier-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Luke — incomplete Bible working text",
+    "pages": 480,
+    "spreads": 240,
+    "units": 838,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "0b5cdd860adbc999878820a815dda2e5e553c4f6e39c0159d670446791672700",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.529785000000004,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 240,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 9.515,
+    "modules": [
+      "tests.test_kjv_luke_shared_obligation",
+      "tests.test_kjv_luke_recovered_relations",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    479,
+    480
+  ],
+  "status": "incomplete Bible;Luke1–18 section checkpoint verified"
+}

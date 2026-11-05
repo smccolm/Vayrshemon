@@ -1,0 +1,503 @@
+{
+  "languageDelta": {
+    "version": "0.10-kjv.177",
+    "parentVersion": "0.10-kjv.176",
+    "parentHead": "3e448eb6e8ee96402a0fb75f8e4985c978b67900a56116188935a6a31b9353fa",
+    "head": "d000f4ff5743e42b4df86365b9315f923d520d7b808d744c4378880abc1e9e64",
+    "newLexicalEntries": 3,
+    "newProperEntries": 1,
+    "newCommonEntries": 2,
+    "newSurfaceForms": 2,
+    "newInflectionalEndings": 0,
+    "newPossessiveAliases": [],
+    "newGrammarSections": 8,
+    "newWikiArticles": 2,
+    "newForgeFixtures": 60,
+    "exactCompilerCases": 60,
+    "newAuthoredVerses": 60,
+    "revisedPreviousTargetVerses": 0,
+    "genesisVerses": 1533,
+    "exodusVerses": 1213,
+    "leviticusVerses": 859,
+    "numbersVerses": 1288,
+    "deuteronomyVerses": 959,
+    "joshuaVerses": 658,
+    "judgesVerses": 618,
+    "ruthVerses": 85,
+    "samuelVerses": 810,
+    "samuel2Verses": 695,
+    "kings1Verses": 816,
+    "kings2Verses": 719,
+    "chronicles1Verses": 942,
+    "chronicles2Verses": 822,
+    "ezraVerses": 280,
+    "nehemiahVerses": 406,
+    "estherVerses": 167,
+    "jobVerses": 1070,
+    "psalmsVerses": 2461,
+    "proverbsVerses": 915,
+    "ecclesiastesVerses": 222,
+    "songVerses": 117,
+    "isaiahVerses": 1292,
+    "jeremiahVerses": 1364,
+    "lamentationsVerses": 154,
+    "ezekielVerses": 1273,
+    "danielVerses": 357,
+    "hoseaVerses": 197,
+    "joelVerses": 73,
+    "amosVerses": 146,
+    "inheritedFrozenVerses": 48,
+    "totalBibleVerses": 31102,
+    "remainingVerses": 8543,
+    "status": "incomplete",
+    "metadataCorrections": []
+  },
+  "translationValidation": {
+    "status": "incomplete",
+    "newAmosVerses": 60,
+    "amosVerses": 146,
+    "authoredVerses": 22559,
+    "remainingVerses": 8543,
+    "originalSourceHashUnchanged": true,
+    "allPreviousTargetsUnchanged": true,
+    "revisedPreviousTargetVerses": 0,
+    "jonahFrozenFilesVerified": 30,
+    "numericClausesChecked": 2,
+    "quantityChecks": [
+      {
+        "reference": "Amos 6:7",
+        "source": "Therefore now shall they go captive with the first that go captive, and the banquet of them that stretched themselves shall be removed.",
+        "expectedDecimalQuantities": [
+          1
+        ],
+        "targetQuantities": [
+          1
+        ]
+      },
+      {
+        "reference": "Amos 6:9",
+        "source": "And it shall come to pass, if there remain ten men in one house, that they shall die.",
+        "expectedDecimalQuantities": [
+          10,
+          1
+        ],
+        "targetQuantities": [
+          10,
+          1
+        ]
+      }
+    ],
+    "semanticChecks": {
+      "6:1": [
+        "woe",
+        "be:excl",
+        "chief of nation:pl"
+      ],
+      "6:2": [
+        "kjv_calneh",
+        "great kjv_hamath",
+        "kjv_gath",
+        "their/boundary more great"
+      ],
+      "6:3": [
+        "evil day far away",
+        "kjv_violence near"
+      ],
+      "6:4": [
+        "kjv_ivory lie:pr",
+        "kjv_calf:pl",
+        "kjv_cattle_stall"
+      ],
+      "6:5": [
+        "kjv_viol",
+        "instrument:pl of music invent:pr like kjv_david"
+      ],
+      "6:6": [
+        "wine in bowl:pl",
+        "chief kjv_ointment:pl",
+        "grief:caus:psv:neg:pr"
+      ],
+      "6:7": [
+        "one_num:ord",
+        "stretch:pa remove:psv:fu"
+      ],
+      "6:8": [
+        "by himself swear:perf",
+        "ipl kjv_excellence",
+        "all that in it"
+      ],
+      "6:9": [
+        "ten man:pl in one_num house",
+        "they die:fu"
+      ],
+      "6:10": [
+        "uncle of man",
+        "he that he:a burn:pr",
+        "say:fu no",
+        "wesg name of kjv_lord kjv_mention:inf:neg:may"
+      ],
+      "6:11": [
+        "great house with breach:pl",
+        "little house with split:ev:pl"
+      ],
+      "6:12": [
+        "upon rock",
+        "person there with ox:pl",
+        "kjv_gall_bitter",
+        "kjv_hemlock"
+      ],
+      "6:13": [
+        "wesg to wesg horn:pl",
+        "ourone/own strength",
+        "take:neg:perf?"
+      ],
+      "6:14": [
+        "kjv_hemath_place",
+        "river of kjv_wilderness"
+      ],
+      "7:1": [
+        "grasshopper:pl",
+        "later grow:ev",
+        "grass cut:ev:pl of king"
+      ],
+      "7:2": [
+        "forgive:imp i",
+        "by whom kjv_jacob rise:fu?",
+        "he small"
+      ],
+      "7:3": [
+        "kjv_relent:pa",
+        "it be:neg:fu"
+      ],
+      "7:4": [
+        "great deep devour:pa",
+        "part up eat:pa"
+      ],
+      "7:5": [
+        "cease:imp i",
+        "by whom kjv_jacob rise:fu?"
+      ],
+      "7:6": [
+        "kjv_relent:pa",
+        "this also be:neg:fu"
+      ],
+      "7:7": [
+        "wall by kjv_plumbline",
+        "kjv_plumbline in his/hand"
+      ],
+      "7:8": [
+        "i say:pa kjv_plumbline",
+        "ipl kjv_plumbline",
+        "mypl/people",
+        "again pass:neg:fu"
+      ],
+      "7:9": [
+        "kjv_isaac",
+        "house of kjv_jeroboam_joash"
+      ],
+      "7:10": [
+        "kjv_amaziah_bethel priest",
+        "conspire:perf",
+        "endure:neg:can"
+      ],
+      "7:11": [
+        "kjv_jeroboam_joash by sword die:fu",
+        "their/own land"
+      ],
+      "7:12": [
+        "kjv_seer",
+        "kjv_judah",
+        "bread eat:imp"
+      ],
+      "7:13": [
+        "kjv_sanctuary of king",
+        "court of king"
+      ],
+      "7:14": [
+        "i no prophet be:pa",
+        "i son of prophet be:pa",
+        "kjv_herdsman",
+        "kjv_sycomore"
+      ],
+      "7:15": [
+        "kjv_lord i:a take:pa as i flock",
+        "mypl/people"
+      ],
+      "7:16": [
+        "kjv_isaac drop:neg:imp"
+      ],
+      "7:17": [
+        "kjv_harlot",
+        "son:pl and thy/daughter:pl by sword",
+        "line kjv_divide:psv",
+        "kjv_pollute_sacred:psv:adj",
+        "forth of his/land"
+      ],
+      "8:1": [
+        "to i show:perf",
+        "kjv_basket of summer fruit"
+      ],
+      "8:2": [
+        "i say:pa kjv_basket",
+        "end upon mypl/people",
+        "again pass:neg:fu"
+      ],
+      "8:3": [
+        "song:pl of temple",
+        "howl:ev:pl",
+        "many kjv_corpse:pl",
+        "with silence"
+      ],
+      "8:4": [
+        "kjv_needy up kjv_swallow",
+        "poor of land fail:caus"
+      ],
+      "8:5": [
+        "new moon",
+        "wesg corn sell:may",
+        "kjv_ephah_measure small",
+        "kjv_shekel great",
+        "balance:pl by deceit false"
+      ],
+      "8:6": [
+        "wesg poor for silver",
+        "pair of shoe:pl",
+        "kjv_refuse_matter of wheat"
+      ],
+      "8:7": [
+        "by kjv_excellence of kjv_jacob",
+        "ipl any of their/work:pl never forget:fu"
+      ],
+      "8:8": [
+        "land for this tremble:neg:fu",
+        "every person",
+        "out cast:psv:fu and drown:psv:fu",
+        "flood of egypt"
+      ],
+      "8:9": [
+        "ipl sun at noon",
+        "earth in clear day"
+      ],
+      "8:10": [
+        "all kjv_loins",
+        "every head",
+        "only son",
+        "bitter day"
+      ],
+      "8:11": [
+        "not kjv_famine of bread nor thirst for water",
+        "hear:ev of word:pl"
+      ],
+      "8:12": [
+        "sea to sea",
+        "from kjv_north even to east",
+        "there and back",
+        "find:neg:fu"
+      ],
+      "8:13": [
+        "beautiful virgin:pl and young man:pl",
+        "for thirst faint:fu"
+      ],
+      "8:14": [
+        "sin of kjv_samaria",
+        "thy/god oh kjv_dan",
+        "manner of kjv_beersheba",
+        "never up rise:fu"
+      ],
+      "9:1": [
+        "i kjv_lord",
+        "kjv_lintel",
+        "kjv_structural_post:pl",
+        "ipl last of they",
+        "deliver:psv:neg:fu"
+      ],
+      "9:2": [
+        "kjv_hell_depth kjv_dig",
+        "mypl/hand",
+        "up to heaven climb"
+      ],
+      "9:3": [
+        "top of kjv_carmel",
+        "bottom of sea",
+        "serpent command:fu"
+      ],
+      "9:4": [
+        "kjv_captivity before their/enemy:pl",
+        "ipl sword command:fu",
+        "for evil set:fu and not for good"
+      ],
+      "9:5": [
+        "land touch:pr",
+        "it melt:fu",
+        "flood of egypt"
+      ],
+      "9:6": [
+        "his/kjv_storey:pl",
+        "his/troop",
+        "kjv_foundation set:perf",
+        "water:pl of sea"
+      ],
+      "9:7": [
+        "child:pl of kjv_ethiopia to ipl",
+        "egypt",
+        "kjv_caphtor",
+        "kjv_syria from kjv_kir"
+      ],
+      "9:8": [
+        "sinful kingdom",
+        "destroy:fu except",
+        "kjv_jacob entirely destroy:neg:fu"
+      ],
+      "9:9": [
+        "among all nation:pl",
+        "kjv_dry_sieve",
+        "least seed upon earth fall:neg:fu"
+      ],
+      "9:10": [
+        "sin:ag:pl of mypl/people",
+        "evil wesg:a overtake:neg:fu",
+        "nor before wesg:a come:fu"
+      ],
+      "9:11": [
+        "kjv_tabernacle of kjv_david",
+        "breach:pl of it",
+        "his/ruin:pl",
+        "day:pl of old"
+      ],
+      "9:12": [
+        "remainder of kjv_edom",
+        "all kjv_heathen",
+        "by mypl/name call:psv:pr"
+      ],
+      "9:13": [
+        "plough:ag reap:ag overtake",
+        "tread:ag of grape:pl",
+        "sweet wine drop",
+        "hill:pl melt"
+      ],
+      "9:14": [
+        "kjv_captivity of mypl/people",
+        "kjv_desolate city:pl",
+        "kjv_vineyard:pl",
+        "kjv_garden:pl"
+      ],
+      "9:15": [
+        "they no more",
+        "which ipl they:a give:perf",
+        "kjv_lord thy/god"
+      ]
+    },
+    "unknownWordFallbacks": 0,
+    "pronounReferences": {
+      "i": [
+        "7:1",
+        "7:14",
+        "7:15",
+        "7:2",
+        "7:4",
+        "7:5",
+        "7:7",
+        "7:8",
+        "8:1",
+        "8:2",
+        "9:1"
+      ],
+      "ipl": [
+        "6:14",
+        "6:8",
+        "7:8",
+        "7:9",
+        "8:10",
+        "8:11",
+        "8:2",
+        "8:7",
+        "8:9",
+        "9:1",
+        "9:11",
+        "9:14",
+        "9:15",
+        "9:2",
+        "9:3",
+        "9:4",
+        "9:7",
+        "9:8",
+        "9:9"
+      ],
+      "wesg": [
+        "6:10",
+        "6:13",
+        "8:5",
+        "8:6",
+        "9:10"
+      ],
+      "wepl": [],
+      "mypl": [
+        "7:15",
+        "7:8",
+        "8:2",
+        "9:10",
+        "9:12",
+        "9:14",
+        "9:2",
+        "9:3",
+        "9:4"
+      ],
+      "ourone": [
+        "6:13"
+      ],
+      "iplself": [],
+      "we:du": [],
+      "they:du": [],
+      "you:du": []
+    },
+    "physicalDualReferences": [],
+    "comparativeDualReferences": [],
+    "civicPluralSelfReferences": [],
+    "quantityInterpretation": [
+      "First captivity is ordinal;ten men in one house is cardinal.",
+      "Pair of shoes8:6uses the existing two-member lexical unit."
+    ],
+    "limitations": [
+      "Translator self-review,not independent literary certification.",
+      "Amos6–9 adds60verses;all146Amosverses;whole Bible incomplete.",
+      "Divine plural-I,personal witness and compromised communal singular-we distinguished.",
+      "Printed plumbline,royal threat/report difference,divine harm,heaven-storeys/earth-troop and Edom retained.",
+      "Two common compounds and one contextual name;no paradigm or inherited-target changes."
+    ]
+  },
+  "nativeLayout": {
+    "book": "Amos — incomplete Bible working text",
+    "pages": 106,
+    "spreads": 53,
+    "units": 146,
+    "allFourColumnsMatchLedger": true,
+    "saveReopenIdentical": true,
+    "templateUnchanged": true,
+    "geometryAndPaintPreserved": true,
+    "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
+    "sha256": "671df8b83aff66e1ef1a954896e4ddbb11062f57661ea3bef11c691da4f8564a",
+    "maxBaselineErrorPt": 0.011718749999914735,
+    "maxHorizontalBearingExcessPx": 0.0,
+    "horizontalBearingTolerancePx": 1.0,
+    "missingGlyphs": 0,
+    "verticalOverset": 0,
+    "numberingCheckedInBothModes": true,
+    "reusedMeasuredSpreads": 53,
+    "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  },
+  "tests": {
+    "passed": true,
+    "count": 4,
+    "seconds": 16.285,
+    "modules": [
+      "tests.test_kjv_amos_final_planting",
+      "tests.test_kjv_amos_refused_return",
+      "tests.test_parallel_translation"
+    ]
+  },
+  "proofsViewed": [
+    105,
+    106
+  ],
+  "status": "incomplete Bible;Amos1–9 section checkpoint verified"
+}
