@@ -1,6 +1,34 @@
-# Current historical Bible · 0.10-kjv.282
+# Current historical Bible · 0.10-kjv.285
 
-**Current historical Bible: 0.10-kjv.282.** The author explicitly selected **Yeshūa** and requested correction of both complete editions plus similar leaked name labels. Native minima `yeÛça`, proper Maxima `YeÛça`; Roman **Yeshūa**. Five distinct name entries (including Baryeshūa) retain separate semantic identities. 942 verse texts and 3,990 verse glosses corrected; 2,154 proper-name display labels repaired. All 31,102 verses, all 66 books, exact KJV English and authored analyses remain. No ordinary roots or grammar changed; this is an authorized correction, not modernization.
+All three native Bibles contain the same Vayrshemon for all 31,102 verses. The four-column edition has 22,130 pages. The compact edition has 1,914 pages on 957 duplex sheets. The second printing of the run-in Letter edition has 1,572 native pages and a binding master of 1,571 printable pages on 786 duplex sheets. In Revelation 1:8, 1:11, 21:6 and 22:13, Alpha and Omega read neksus’t īvden and hüŧh’na īvden, the first and last written signs of the source alphabet. The adjective hüŧh’na comes from the chart root for “end.” The KJV’s separate “beginning and end” remains a separate expression.
+
+The revision changes 1,194 dictionary entries and 12,463 verses. It preserves all 399 Unta entries and the author’s choice of Yeshūa. The shared ordered verse-text SHA-256 is `8e202a4d021690ba22791404b783ad484f94dc352bc82ecb6f6c1ef56357833f`. The historical Forge head is `96013d286fdcac0297b671bc9ca7974bb05f6dbbe73139eaba53863c2f049678`.
+
+- Four-column native SHA-256 `cd133dcf5c75f095f343e6bdfab77f64a799b52c47888ea4bd8ee561d35e847c`, with 44,260 folio placements checked.
+- Compact native SHA-256 `3807dcd8f67ebc588378cfcde40740dcdc5a11aa5dab9e4bcd773d3d7b632dbe`.
+
+All 66 Printing 2 titles now appear in the compact opening banners and the upper margins of the four-column book openings. The edition-specific page indexes include each native spelling and its Roman reading. The two previous files and their original seals are in `Saves/Archive/Previous editions/KJV 285 compact and four-column before native book titles.zip`. The native-state comparisons and Reader opening proofs are in `Saves/Maintenance/2026-11-08-shared-book-titles/`.
+
+Printing 2 allows page breaks within verses. Its native SHA-256 is `10e6acb217786f87c88cc962589fc0a41c0fcd5519457976786a87207176517f`. Each of the 66 banners prints an individual native title with the opening chapter understood. The title readings, English senses and page numbers are in `Book titles.html` in the edition folder. Chapter dividers center each Unta numeral between two equal rules. Its page-foot audit and print master are in `Saves/KJV Bible - Run-in Letter Edition v0.10-kjv.285 - Printing 2/`.
+
+The first-printing run-in native SHA-256 is `463e61cae24a65ff9cdf83bcea8a9d46964f3bb822ba14a34e5b7dbcec761865`. The engraved title and frontispiece align with the text width, and all 66 book banners use the supplied left- and right-hand acanthus designs. Its book index, print settings, binding master and three-way verse comparison are in `Saves/KJV Bible - Run-in Letter Edition v0.10-kjv.285/`.
+
+The saved-file comparison is in `Saves/Maintenance/2026-11-07-native-285/delivery-validation.json`. Individual editorial decisions are in `data/language/archaic-kjv-285/vocabulary-review.json`.
+
+# Earlier historical Bible · 0.10-kjv.284
+
+Both historical Bibles use the same Unta-corrected text in revision 284. All 31,102 verses match in order and content. The four-column edition has 22,098 pages. The compact edition has 1,914 pages on 957 duplex sheets. Both saved native files were reopened. Each native verse and its identifier were recovered independently from each file and hashed in canonical order. The shared verse-text SHA-256 is `e452c8cfc0ea2b16e78a6891d15f6c8c4737de857b64a35cb845b07981421a61`.
+
+- Four-column study edition. `Saves/KJV Bible v0.10-kjv.284/KJV Bible.vay`. File SHA-256 `402bf78a8a2fdee60f71c1d5600e75dfb44117fe75c3d70c6fba57649ff45bac`. All 44,196 single and facing-page folio placements passed.
+- Compact Letter edition. `Saves/KJV Bible - Compact Letter Edition v0.10-kjv.284/KJV Bible - Vayrshemon Compact Letter Edition.vay`. File SHA-256 `97aea10991f23e9b28eb59588c11e376091797f2b403f8909e595225ca6bb13e`.
+
+283 introduced the systematic Unta correction, including *venik’t* for “third” in Genesis 1:13. Comparison against the original charts corrected six spellings and the apostrophe before the spoken radix word in 284. The changes affect 1,839 verse texts beyond 283. The 399 exact numerical readings, original KJV source, verse IDs and ordering were checked. The receipt is in `Saves/Maintenance/2026-11-07-unta-284/delivery-validation.json`. The historical Forge head is `08d81cdb2dfb7cf1c6b97c287ff9142293a3725ff0b3aac99735f7f103ca5b92`.
+
+# Earlier 282 record
+
+The paths below identify members of `Saves/Archive/Previous editions/KJV before 283.zip`. Both 283 comparison editions are available directly in Saves. To reproduce historical measurements, `KJV 283 build inputs.zip` in the same archive directory preserves the parent inputs referenced by the 284 authoring scripts. The cleanup and restore instructions are in `Saves/Maintenance/2026-11-07-saves-cleanup/Completed cleanup.txt`.
+
+**Historical Bible 0.10-kjv.282.** The author explicitly selected **Yeshūa** and requested correction of both complete editions plus similar leaked name labels. Native minima `yeÛça`, proper Maxima `YeÛça`; Roman **Yeshūa**. Five distinct name entries (including Baryeshūa) retain separate semantic identities. 942 verse texts and 3,990 verse glosses corrected; 2,154 proper-name display labels repaired. All 31,102 verses, all 66 books, exact KJV English and authored analyses remain. No ordinary roots or grammar changed; this is an authorized correction, not modernization.
 
 - Compact: `Saves/KJV Bible - Compact Letter Edition v0.10-kjv.282/KJV Bible - Vayrshemon Compact Letter Edition.vay`, 1,912 pages / 956 sheets, SHA256 `42aca1b6dbb594b2b8f49817e793278186e3f9fe06de7f601fd3649ee649c6a2`. Original 26/18 pt print treatment, Maxima, supplied artwork, mirrored binding offsets and protected folios. Blank document pages [2, 1912]; no inter-book blanks. Book openings use either side.
 - Progressive/four-column: `Saves/KJV Bible v0.10-kjv.282/KJV Bible.vay`, 22,060 pages, SHA256 `9f37f4432a90065996380110a62e736e4dc7e554de275eb664d903d3f1b2e2a3`. 2,507 spreads remeasured; 8,523 exact unchanged spreads retain sealed measurements under the same engine. All 44,120 single/paired folio placements checked, all four columns exact, save/reopen identical. Approved 50/22 pt, 38 pt leading, Maxima and paint preserved.

@@ -57,24 +57,43 @@ def apply_gloss(frame):
     content['characters']=characters
     return count
 
-def apply(frame, units, compiler):
+def apply(frame, units, compiler, *, lexical_boundaries=False):
     content = frame['content']; offset = 0; cuts = []; count = 0
     for block, unit in zip(content['document']['stories'][0]['blocks'], units):
         text = ''.join(r.get('sourceText', r.get('text', '')) for r in block['runs'])
         positions = set()
         for token in re.findall(r'[A-Za-z_][A-Za-z_+/:\-]*', unit['analysis']):
             token = token.rstrip(':'); features = token.split('/')[-1].split(':')[1:]
-            if not set(features) & FEATURES: continue
-            form = compiler.word(token)[0]
-            if len(form.split()[-1]) < 20: continue
+            if not lexical_boundaries and not set(features) & FEATURES: continue
+            form,_,used = compiler.word(token)
+            length=max(map(len,form.split()),default=0) if lexical_boundaries else len(form.split()[-1])
+            if length < 20: continue
             for variant in {form, compiler.maxima(form)}:
                 for match in re.finditer(re.escape(variant), text):
+                    if lexical_boundaries:
+                        boundaries=set()
+                        if '/' in token:
+                            boundaries.update(i for i,c in enumerate(variant) if c=='’')
+                        for key in used:
+                            head=compiler.lexicon[key]
+                            for spelling in {head['form'],compiler.maxima(head['form'])}:
+                                for occurrence in re.finditer(re.escape(spelling),variant):
+                                    for part in head.get('derivationKeys',[]):
+                                        if part not in compiler.lexicon:continue
+                                        piece=compiler.lexicon[part]['form']
+                                        for component in {piece,compiler.maxima(piece)}:
+                                            if spelling.startswith(component):
+                                                boundaries.add(occurrence.start()+len(component))
+                                            if spelling.endswith(component):
+                                                boundaries.add(occurrence.end()-len(component))
+                        positions.update(match.start()+i-1 for i in boundaries if 0<i<len(variant)
+                                         and variant[i-1] in LETTERS and not variant[i].isspace())
                     tail = len(variant)
                     for feature in reversed(features):
                         if feature not in compiler.suffix: continue
                         suffix = compiler.suffix[feature][0]
                         tail -= len(suffix)
-                        if feature in FEATURES and tail > 0 and variant[tail-1] in LETTERS:
+                        if (feature in FEATURES or lexical_boundaries) and tail > 0 and variant[tail-1] in LETTERS:
                             positions.add(match.start()+tail-1)
         for at in positions:
             cuts.extend([offset+utf16_length(text[:at]), offset+utf16_length(text[:at+1])])

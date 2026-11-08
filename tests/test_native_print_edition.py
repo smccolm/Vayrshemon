@@ -1,10 +1,12 @@
 """Synthetic layout fixtures, not invented Vayrshemon translations."""
 from copy import deepcopy
+import base64
+import hashlib
 from pathlib import Path
 import tempfile
 import unittest
 from PySide6.QtWidgets import QApplication,QPlainTextEdit
-from PySide6.QtGui import QImage,QColor
+from PySide6.QtGui import QImage,QColor,QPainter
 from pypdf import PdfReader
 from tools.kjv_print_edition import Composer,ROOT
 from vayrshemon.file_api import FileSession,FileAPI
@@ -93,6 +95,31 @@ class NativePrintTests(unittest.TestCase):
         with page_numbering.scope(self.book,'two'):
             page_numbering.configure(self.book,right=dict(vertical='top'))
             self.assertEqual(page_numbering.placement(self.book,page)['status'],'blocked')
+
+    def test_reduced_opening_ornament_preserves_fine_strokes(self):
+        self.units=[dict(id='01.001.001',reference='synthetic',chapter=1,verse=1,text='Memon.')]
+        state=self.build(compact=True)
+        pg=state['pages'][3]
+        stripes=QImage(480,240,QImage.Format.Format_ARGB32_Premultiplied)
+        stripes.fill(QColor('transparent'))
+        painter=QPainter(stripes)
+        for x in range(0,480,4):
+            painter.fillRect(x,0,1,240,QColor('black'))
+        painter.end()
+        path=self.folder/'ornament.png'
+        self.assertTrue(stripes.save(str(path)))
+        data=path.read_bytes()
+        key=hashlib.sha256(data).hexdigest()
+        pub=state['printEdition']
+        pub['assets'][key]=dict(width=480,height=240,png=base64.b64encode(data).decode())
+        pub['pages'][pg['pageId']]['images']=[dict(asset=key,rect=[80,400,24,12])]
+        self.book._restore(state);self.book._state=self.book.capture()
+        self.book.invalidate_composition()
+        for dpi in (72,144):
+            image,_=pages.render(self.book,page_id=pg['pageId'],mode='mono',dpi=dpi)
+            samples=[image.pixelColor(x,406*dpi//72).red() for x in range(83*dpi//72,101*dpi//72)]
+            self.assertTrue(all(176<=c<=206 for c in samples),samples)
+            self.assertAlmostEqual(sum(samples)/len(samples),191,delta=2)
 
     def test_preserves_editorial_punctuation_and_long_compounds(self):
         self.units[1]['text']='Memon (mEMon) [ráun] - ly. '+('Memon'*120)+'.'

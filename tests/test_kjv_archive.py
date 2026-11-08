@@ -3,7 +3,7 @@ from pathlib import Path
 import tempfile
 import unittest
 
-from tools.editorial_language import load_current
+from tools.editorial_language import EditorialLanguage
 from tools.kjv_archive import (ROOT, PACKAGE, assert_can_consolidate, load_register,
                                parse_source, read, safe_member, seal,
                                verify_seal, write_new, translation_coverage, require_complete_bible)
@@ -104,7 +104,10 @@ class HistoricalRegisterTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.old, cls.manifest = load_register()
-        cls.modern, cls.pointer = load_current()
+        # These contrasts are against the register's original 0.10 parent.
+        base = safe_member(ROOT, cls.manifest['basePackage'])
+        cls.modern = EditorialLanguage(base)
+        cls.base_manifest = read(base/'manifest.json')
 
     def test_working_continuation_keeps_parent_and_modern_authorities_separate(self):
         new, manifest = load_register('0.10-kjv.2')
@@ -489,7 +492,7 @@ class HistoricalRegisterTests(unittest.TestCase):
             if a['derivationKeys']:self.assertEqual(a['form'],''.join(new.lexicon[k]['form'] for k in a['derivationKeys']))
 
     def test_historical_words_do_not_promote_or_replace_modern_words(self):
-        self.assertEqual('0.10', self.pointer['version'])
+        self.assertEqual('0.10', self.base_manifest['version'])
         self.assertEqual('venik', self.modern.word('three')[0])
         self.assertEqual('tren', self.old.word('kjv_three')[0])
         self.assertEqual('tatus’t', self.old.word('kjv_second')[0])

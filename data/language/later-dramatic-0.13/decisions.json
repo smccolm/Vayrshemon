@@ -1,0 +1,53 @@
+{
+  "parent": {
+    "version": "0.12",
+    "package": "data/language/later-dramatic-0.12",
+    "manifestSha256": "04f73f1e939f7f2ff56d2a549ef55d9b2d83f63ab5caaea296b40bf0c3905d72",
+    "forgeHead": "4c2f4d0f60d350987fa82df45e2d341bc8bddea381730d39ed0a1aad6efa669e",
+    "forgeProject": "Saves/Language Development 0.12/Vayrshemon 0.12.vayforge",
+    "guide": "docs/CURRENT_LANGUAGE.md"
+  },
+  "books": {
+    "allswell": {
+      "units": 1215,
+      "changedUnits": 5,
+      "nativeTextUnits": 5,
+      "glossUnits": 5,
+      "analysisUnits": 0,
+      "sourceSha256": "a4687be871fd4b0102cb26cee295e6a4dd2b4383e4bdd5b43b1fde45185d82cc"
+    },
+    "midsummer": {
+      "units": 755,
+      "changedUnits": 150,
+      "nativeTextUnits": 2,
+      "glossUnits": 150,
+      "analysisUnits": 4,
+      "sourceSha256": "4a8bdb9a2a810ba843effdd59cfb2fa67bd49a75c6e49d22e47e99013b9c1703"
+    }
+  },
+  "sourceUnitRepairs": {
+    "0027": [
+      "diana",
+      "dian"
+    ],
+    "0097": [
+      "francis",
+      "francis_flute"
+    ],
+    "0611": [
+      "helen",
+      "helen_troy"
+    ],
+    "0672": [
+      "helen",
+      "helen_troy"
+    ]
+  },
+  "newSemanticEntries": [
+    "francis_flute",
+    "helen_troy"
+  ],
+  "newLexicalRoots": 0,
+  "grammarChanges": 0,
+  "glossPolicy": "resolved-labels"
+}

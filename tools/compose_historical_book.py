@@ -35,7 +35,9 @@ def body(frame, paragraphs, font, literal, index):
     fallback.update(styleId='style.archive-punctuation', fontId=literal.font_id)
     if index == 0:
         fallback['fontSizeMicroPoints'] = '22000000'
-    doc['styles'].append(fallback)
+    # A previously composed edition already has this fallback style.
+    # Replace its definition when rebuilding a frame instead of duplicating IDs.
+    doc['styles'] = [s for s in doc['styles'] if s['styleId'] != fallback['styleId']] + [fallback]
     content['styleFeatures'][fallback['styleId']] = dict(kern=True, liga=True)
     if not any(f['fontId'] == literal.font_id for f in doc['fonts']):
         doc['fonts'].append(dict(fontId=literal.font_id, sha256=literal.sha256, faceIndex=0))
@@ -115,7 +117,7 @@ def reusable_spreads(path, template_hash, engine, prototype):
     return result
 
 
-def compose(ledger_path, snapshot_path, target, template=None, reuse=None):
+def compose(ledger_path, snapshot_path, target, template=None, reuse=None, preflight=False):
     from PySide6.QtWidgets import QApplication
     from vayrshemon.file_api import FileSession
     from vayrshemon import language, pages, reading, paragraph_alignment, page_numbering
@@ -143,7 +145,8 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None):
         book['pages'] = []
         book['typesetting']['frames'] = {}
         book['activeFrameId'] = ''
-        edition_status = 'working KJV ' if ledger.get('status') == 'incomplete' else 'frozen KJV '
+        edition_status = (ledger['editionLabel'] + ' ') if ledger.get('editionLabel') else (
+            'working KJV ' if ledger.get('status') == 'incomplete' else 'frozen KJV ')
         book['title'] = ledger['book'] + ' · ' + edition_status + ledger['languageVersion']
         language.append_revision(book['language'], head['snapshot']['language'],
                                  edition_status.strip() + ' · ' + head['head'])
@@ -161,7 +164,8 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None):
             for index, (frame, font, field) in enumerate(zip(frames, fonts, fields)):
                 body(frame, [u[field] for u in group], font, literal, index)
                 frame['content']['document']['documentId'] = book['documentId']
-                frame['name'] = ['Vayrshemon', 'Transliteration 7', 'Construction gloss', 'KJV source'][index]
+                frame['name'] = ['Vayrshemon', 'Transliteration 7', 'Construction gloss',
+                                 ledger.get('sourceLabel', 'KJV source')][index]
             state['activeFrameId'] = frames[0]['frameId']
             session._restore(state)
             session._state = session.capture()
@@ -245,6 +249,9 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None):
             assert geometry(page) == geometry(original['pages'][i % 2])
             assert [frame_geometry(f) for f in page['frames']] == [frame_geometry(f) for f in original['pages'][i % 2]['frames']]
         assert book['paint'] == original['paint'] and book['recipe'] == original['recipe']
+        if preflight:
+            return dict(book=ledger['book'],pages=len(book['pages']),units=len(units),
+                        preflightOnly=True,checks=checks,index=index)
         session._restore(book)
         session._state = session.capture()
         session.invalidate_composition()
@@ -304,5 +311,6 @@ if __name__ == '__main__':
     parser.add_argument('--snapshot', type=Path, required=True)
     parser.add_argument('--output', type=Path, required=True)
     parser.add_argument('--reuse', type=Path, help='Previously measured native book with adjacent validation and page-index files.')
+    parser.add_argument('--preflight', action='store_true', help='Measure the complete layout without writing a native file.')
     args = parser.parse_args()
-    print(json.dumps(compose(args.ledger, args.snapshot, args.output, reuse=args.reuse), indent=2))
+    print(json.dumps(compose(args.ledger, args.snapshot, args.output, reuse=args.reuse,preflight=args.preflight), indent=2))

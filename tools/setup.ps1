@@ -108,7 +108,7 @@ try {
     Invoke-Python $environmentPython @('-m', 'tools.kjv_print_proof', '--check')
     Invoke-Python $environmentPython @('-m', 'tools.kjv_print_edition', '--check')
     Invoke-Python $environmentPython @('-m', 'tools.m0', '--log', ".local/logs/setup-check-$runId.jsonl", 'check')
-    Write-Host 'Checking the pinned later dramatic language (0.12), dictionary, grammar and compiler identity. Existing books and frozen Bible editions are never rebuilt by setup.'
+    Write-Host 'Checking the pinned later dramatic language (0.13), reviewed name labels, dictionary, grammar and compiler identity. Existing books and frozen Bible editions are never rebuilt by setup.'
     Invoke-Python $environmentPython @('-m', 'tools.editorial_language', '--verify')
     Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register')
     Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.2')
@@ -385,8 +385,14 @@ try {
     Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.280')
     Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.281')
     Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.282')
+    Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.283')
+    Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.284')
+    Invoke-Python $environmentPython @('-m', 'tools.kjv_archive', '--verify-register', '--register-version', '0.10-kjv.285')
     Ensure-ShellBuildTools
     Invoke-Python $environmentPython @('-m', 'tools.windows_shell', '--build')
+    # Includes exact Unta quantity/ordinal/fraction, source word/digit notation,
+    # additional contextual quantities such as moiety, and source-accounting regressions.
+    # Translation workspaces in ignored Saves are not installation dependencies.
     Invoke-Python $environmentPython @('-m', 'unittest', 'discover', '-s', 'tests', '-v')
     Invoke-Python $environmentPython @('-m', 'tools.windows_shell', '--install')
     Invoke-Python $environmentPython @('-m', 'Reader.register', '--install')
@@ -425,7 +431,7 @@ try {
     Write-Host 'Explorer integration: per-user file associations + isolated system thumbnail component. See docs\M14.md.'
     Write-Host 'Remove integration: .venv\Scripts\python.exe -m tools.windows_shell --uninstall'
     Write-Host 'Forge projects: *.vayforge; versioned dictionaries, wiki, branches and tests. Construction glosses, four-column spreads, Maxima, tests and PNG export: docs\M13.md.'
-    Write-Host 'New translations start from the hash-verified later dramatic 0.12 language in data\language\current.json. Dictionary, historical-reference scopes, grammar, inherited clause-flow tests and prior compiler bytes are bundled; see docs\CURRENT_LANGUAGE.md. Current historical 282 stays frozen; 281 remains archived. Private books and archived Forge history remain in Saves.'
+    Write-Host 'New translations start from the hash-verified later dramatic 0.13 language in data\language\current.json. Reviewed names and native cultural terms, dictionary, grammar, name/possessor and inherited clause-flow tests, and prior compiler bytes are bundled; see docs\CURRENT_LANGUAGE.md. Current historical 282 stays frozen; 281 remains archived. Private books and archived Forge history remain in Saves.'
     Write-Host 'Historical correction 281 adds construct phrases, dependent pronouns and varied clause continuation. Its compact edition opens each book on the next available page, left or right. Setup verifies the bundled grammar and tests; it never regenerates private Bible editions or changes older saves.'
     Write-Host 'Historical correction 282 applies the author-selected Yeshua form and removes internal context labels from proper-name glosses. Distinct people, places, source text and historical grammar are preserved. Both complete editions are private Saves; earlier editions use verified compressed archives.'
     Write-Host 'Panel shortcuts: Ctrl+Alt+B expands/collapses; Ctrl+Alt+P pins/unpins. See docs\M6.1.md.'

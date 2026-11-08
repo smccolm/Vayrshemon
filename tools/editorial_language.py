@@ -61,6 +61,8 @@ class EditorialLanguage:
         self.prefix = morph['prefixes']
         self.possessors = morph['possessors']
         self.glosses = morph['glosses']
+        # Published older packages retain their exact historical glosses.
+        self.resolved_possessor_glosses = morph.get('possessorGlossPolicy') == 'resolved-labels'
 
     def maxima(self, text):
         return self.pairs.get(text[0], text[0]) + text[1:] if text else text
@@ -133,7 +135,8 @@ class EditorialLanguage:
         for poss in reversed(chain[:-1]):
             pf, pg, pkeys = self.word(self.possessors.get(poss, poss))
             form = pf + '’' + form
-            gloss = poss.replace('+', '-') + '-' + gloss
+            label = pg if self.resolved_possessor_glosses and poss not in self.possessors else poss.replace('+', '-')
+            gloss = label + '-' + gloss
             used += pkeys
         if entries[0]['pos'] == 'proper':
             form = self.maxima(form)

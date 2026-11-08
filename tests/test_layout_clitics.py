@@ -38,3 +38,19 @@ class CliticBreakTests(unittest.TestCase):
         self.assertEqual(text,''.join(r['sourceText'] for r in runs))
         self.assertEqual('-',gloss_rule()['prohibitAfter'])
         self.assertTrue(all(r['sourceText'] in ',.-' for r in runs if r['languageId']==GLOSS_ID))
+
+    def test_genesis_isles_possessive_can_wrap_at_native_boundaries(self):
+        lang,_=load_register('0.10-kjv.285')
+        analysis='nation:pl/kjv_isle:pl:n'
+        text=lang.compile(analysis)['text']
+        frame=self.frame(text)
+        self.assertEqual(apply(frame,[{'analysis':analysis}],lang),0)
+        self.assertGreater(apply(frame,[{'analysis':analysis}],lang,lexical_boundaries=True),0)
+        runs=frame['content']['document']['stories'][0]['blocks'][0]['runs']
+        self.assertEqual(''.join(r['sourceText'] for r in runs),text)
+        offsets=set();end=0
+        for r in runs:
+            end+=len(r['sourceText'])
+            if r['languageId']==ID:offsets.add(end)
+        self.assertIn(text.index('’'),offsets)
+        self.assertIn(text.index(lang.lexicon['sea']['form'])+len(lang.lexicon['sea']['form']),offsets)

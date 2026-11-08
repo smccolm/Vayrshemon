@@ -1,0 +1,379 @@
+{
+  "labels": {
+    "bottom_name": "Bottom",
+    "flute_name": "Flute",
+    "snout_name": "Snout",
+    "cobweb_name": "Cobweb",
+    "mote_name": "Mote",
+    "bear_animal": "bear",
+    "odour_stage": "odour",
+    "amen": "so-be(opt.)"
+  },
+  "nativeEntries": [
+    {
+      "key": "puritan",
+      "before": {
+        "form": "puritan",
+        "meaning": "Puritan, religious identity named in the source",
+        "origin": "Cultural loan",
+        "pos": "proper",
+        "semanticId": "lex.puritan",
+        "status": "authored",
+        "derivationKeys": [],
+        "roman": "puritan",
+        "historicalForms": [],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-standard",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "puritan",
+          "form": "puritan"
+        },
+        "development": "inherited-stable"
+      },
+      "after": {
+        "form": "yatenlamprodsßlum",
+        "meaning": "Puritan: adherent of the source culture’s reforming religious-purity movement; not merely a clean person.",
+        "origin": "0.13 explicit native construction from pure, faith, person; source-cultural meaning retained.",
+        "pos": "noun",
+        "semanticId": "lex.puritan",
+        "status": "authored",
+        "derivationKeys": [
+          "pure",
+          "faith",
+          "person"
+        ],
+        "roman": "yatenlamprodsōlum",
+        "historicalForms": [
+          {
+            "version": "0.12",
+            "form": "puritan",
+            "roman": "puritan",
+            "status": "superseded editorial borrowing, not fictional sound change"
+          }
+        ],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-literary",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "puritan",
+          "form": "puritan"
+        },
+        "development": "native-source-term-correction",
+        "derivationSeparator": ""
+      }
+    },
+    {
+      "key": "papist",
+      "before": {
+        "form": "papist",
+        "meaning": "Papist, source's polemical term for Roman Catholic",
+        "origin": "Cultural loan; source's label retained without endorsement",
+        "pos": "proper",
+        "semanticId": "lex.papist",
+        "status": "authored",
+        "derivationKeys": [],
+        "roman": "papist",
+        "historicalForms": [],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-standard",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "papist",
+          "form": "papist"
+        },
+        "development": "inherited-stable"
+      },
+      "after": {
+        "form": "haren prodvardÇvensßlum akradsßlum",
+        "meaning": "Papist: source speaker’s polemical designation for allegiance to the pope; a lexicalized chief-priest-follower phrase, not a personal name.",
+        "origin": "0.13 explicit native construction from chief, priest, follower; source-cultural meaning retained.",
+        "pos": "noun",
+        "semanticId": "lex.papist",
+        "status": "authored",
+        "derivationKeys": [
+          "chief",
+          "priest",
+          "follower"
+        ],
+        "roman": "haren prodvardãvensōlum akradsōlum",
+        "historicalForms": [
+          {
+            "version": "0.12",
+            "form": "papist",
+            "roman": "papist",
+            "status": "superseded editorial borrowing, not fictional sound change"
+          }
+        ],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-literary",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "papist",
+          "form": "papist"
+        },
+        "development": "native-source-term-correction",
+        "derivationSeparator": " "
+      }
+    },
+    {
+      "key": "shrove_tuesday",
+      "before": {
+        "form": "shrovtus",
+        "meaning": "Shrove Tuesday",
+        "origin": "Adapted named festival",
+        "pos": "proper",
+        "semanticId": "lex.shrove_tuesday",
+        "status": "authored",
+        "derivationKeys": [],
+        "roman": "shrovtus",
+        "historicalForms": [],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-standard",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "shrove_tuesday",
+          "form": "shrovtus"
+        },
+        "development": "inherited-stable"
+      },
+      "after": {
+        "form": "lámtonda yéÛna yel",
+        "meaning": "Shrove Tuesday, the source culture’s specific pre-Lenten confession and feasting day; the native phrase is a calendar label, not a claim about an Unta weekday.",
+        "origin": "0.13 explicit native construction from confess, feast, day; source-cultural meaning retained.",
+        "pos": "noun",
+        "semanticId": "lex.shrove_tuesday",
+        "status": "authored",
+        "derivationKeys": [
+          "confess",
+          "feast",
+          "day"
+        ],
+        "roman": "lômtonda yéshna yel",
+        "historicalForms": [
+          {
+            "version": "0.12",
+            "form": "shrovtus",
+            "roman": "shrovtus",
+            "status": "superseded editorial borrowing, not fictional sound change"
+          }
+        ],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-literary",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "shrove_tuesday",
+          "form": "shrovtus"
+        },
+        "development": "native-source-term-correction",
+        "derivationSeparator": " "
+      }
+    },
+    {
+      "key": "centaur",
+      "before": {
+        "form": "kentaw",
+        "meaning": "Centaur; adapted cultural name in the supplied play",
+        "origin": "0.9 consistent name adaptation; distorted theatrical names retained",
+        "pos": "proper",
+        "semanticId": "lex.centaur",
+        "status": "authored",
+        "derivationKeys": [],
+        "roman": "kentaw",
+        "historicalForms": [],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-standard",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "centaur",
+          "form": "kentaw"
+        },
+        "development": "inherited-stable"
+      },
+      "after": {
+        "form": "thalsßlum",
+        "meaning": "Centaur: the horse-bodied human creature of the source mythology; a class of beings, not an individual named Centaur.",
+        "origin": "0.13 explicit native construction from horse, human; source-cultural meaning retained.",
+        "pos": "noun",
+        "semanticId": "lex.centaur",
+        "status": "authored",
+        "derivationKeys": [
+          "horse",
+          "human"
+        ],
+        "roman": "thalsōlum",
+        "historicalForms": [
+          {
+            "version": "0.12",
+            "form": "kentaw",
+            "roman": "kentaw",
+            "status": "superseded editorial borrowing, not fictional sound change"
+          }
+        ],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-literary",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "centaur",
+          "form": "kentaw"
+        },
+        "development": "native-source-term-correction",
+        "derivationSeparator": ""
+      }
+    },
+    {
+      "key": "bacchanal",
+      "before": {
+        "form": "bakanel",
+        "meaning": "Bacchanal; adapted cultural name in the supplied play",
+        "origin": "0.9 consistent name adaptation; distorted theatrical names retained",
+        "pos": "proper",
+        "semanticId": "lex.bacchanal",
+        "status": "authored",
+        "derivationKeys": [],
+        "roman": "bakanel",
+        "historicalForms": [],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-standard",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "bacchanal",
+          "form": "bakanel"
+        },
+        "development": "inherited-stable"
+      },
+      "after": {
+        "form": "mërven prodvar akradsßlum",
+        "meaning": "Bacchanal: a worshipper of Bacchus, the wine deity; here the frenzied women who kill the Thracian singer, not simply any drunk person.",
+        "origin": "0.13 explicit native construction from wine, god, follower; source-cultural meaning retained.",
+        "pos": "noun",
+        "semanticId": "lex.bacchanal",
+        "status": "authored",
+        "derivationKeys": [
+          "wine",
+          "god",
+          "follower"
+        ],
+        "roman": "mürven prodvar akradsōlum",
+        "historicalForms": [
+          {
+            "version": "0.12",
+            "form": "bakanel",
+            "roman": "bakanel",
+            "status": "superseded editorial borrowing, not fictional sound change"
+          }
+        ],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-literary",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "bacchanal",
+          "form": "bakanel"
+        },
+        "development": "native-source-term-correction",
+        "derivationSeparator": " "
+      }
+    },
+    {
+      "key": "legrand",
+      "before": {
+        "form": "legran",
+        "meaning": "le Grand, Great in the saint’s epithet",
+        "origin": "0.8 authored dramatic register",
+        "pos": "proper",
+        "semanticId": "lex.legrand",
+        "status": "authored",
+        "derivationKeys": [],
+        "roman": "legran",
+        "historicalForms": [],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-standard",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "legrand",
+          "form": "legran"
+        },
+        "development": "inherited-stable"
+      },
+      "after": {
+        "form": "goren",
+        "meaning": "The Great, translated epithet in Saint Jaques le Grand; not an additional personal name.",
+        "origin": "0.13 explicit native construction from great; source-cultural meaning retained.",
+        "pos": "adjective",
+        "semanticId": "lex.legrand",
+        "status": "authored",
+        "derivationKeys": [
+          "great"
+        ],
+        "roman": "goren",
+        "historicalForms": [
+          {
+            "version": "0.12",
+            "form": "legran",
+            "roman": "legran",
+            "status": "superseded editorial borrowing, not fictional sound change"
+          }
+        ],
+        "evidence": "authored or inherited; provenance in origin",
+        "usageScope": "later-literary",
+        "historicalWitness": {
+          "version": "0.10-kjv.280",
+          "key": "legrand",
+          "form": "legran"
+        },
+        "development": "native-source-term-correction",
+        "derivationSeparator": ""
+      }
+    }
+  ],
+  "referents": {
+    "francis_flute": [
+      "francis",
+      "Francis",
+      "Francis, the given name of Flute in Midsummer; distinct from the saint and inn-sign referent in All’s Well."
+    ],
+    "helen_troy": [
+      "helen",
+      "Helen",
+      "Helen of Troy, the mythic beauty invoked in Midsummer; distinct from both plays’ Helen/Helena characters."
+    ]
+  },
+  "sourceUnitRepairs": {
+    "0027": [
+      "diana",
+      "dian"
+    ],
+    "0097": [
+      "francis",
+      "francis_flute"
+    ],
+    "0611": [
+      "helen",
+      "helen_troy"
+    ],
+    "0672": [
+      "helen",
+      "helen_troy"
+    ]
+  },
+  "books": {
+    "allswell": {
+      "units": 1215,
+      "changedUnits": 5,
+      "nativeTextUnits": 5,
+      "glossUnits": 5,
+      "analysisUnits": 0,
+      "sourceSha256": "a4687be871fd4b0102cb26cee295e6a4dd2b4383e4bdd5b43b1fde45185d82cc"
+    },
+    "midsummer": {
+      "units": 755,
+      "changedUnits": 150,
+      "nativeTextUnits": 2,
+      "glossUnits": 150,
+      "analysisUnits": 4,
+      "sourceSha256": "4a8bdb9a2a810ba843effdd59cfb2fa67bd49a75c6e49d22e47e99013b9c1703"
+    }
+  },
+  "jesusOccurrences": 0,
+  "newLexicalRoots": 0
+}

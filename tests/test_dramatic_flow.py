@@ -20,9 +20,10 @@ class DramaticFlowTests(unittest.TestCase):
 
     def test_current_pin_and_immutable_compiler_history(self):
         import hashlib
+        # Keep the published 0.12 regression after the current pin advances.
         current,pin=load_current()
-        self.assertEqual('0.12',pin['version']);self.assertEqual(self.lang.folder,current.folder)
-        manifest=json.loads((current.folder/'manifest.json').read_text(encoding='utf8'))
+        self.assertEqual(pin['version'],json.loads((current.folder/'manifest.json').read_text(encoding='utf8'))['version'])
+        manifest=json.loads((self.lang.folder/'manifest.json').read_text(encoding='utf8'))
         self.assertEqual('8a2fea375887f59085624f64c85975be0cc95ae96bd90f40aaa2ca71e5901570',manifest['parentHead'])
         self.assertEqual('0.10-kjv.281',manifest['historicalReference']['version'])
         old=json.loads((self.parent.folder/'manifest.json').read_text(encoding='utf8'))

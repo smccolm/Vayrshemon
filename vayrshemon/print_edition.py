@@ -9,7 +9,7 @@ import base64
 import hashlib
 from copy import deepcopy
 from PySide6.QtCore import QPointF, QRectF, Qt
-from PySide6.QtGui import QColor, QFont, QImage, QPainter, QPainterPath, QTextCharFormat, QTextLayout, QTextOption
+from PySide6.QtGui import QColor, QFont, QImage, QPaintEngine, QPainter, QPainterPath, QTextCharFormat, QTextLayout, QTextOption
 from .api import obj
 from .session import SCALE
 from .page_numbering import MASTER, digits
@@ -33,7 +33,9 @@ PATH=obj(dict(elements={'type':'array','maxItems':40000,'items':{'type':'array',
               fill={'enum':[0,1]},role={'type':'string'},bounds=RECT),('elements','fill','role','bounds'))
 PAGE=obj(dict(kind={'enum':['title','blank','frontispiece','opening','body']},side={'enum':['center','left','right']},
               folio={'type':['integer','null'],'minimum':1},sourceSha256=HASH,
-              lines={'type':'array','maxItems':80,'items':LINE},paths={'type':'array','maxItems':150,'items':PATH},
+              # Run-in verse starts can share a physical line. A dense genealogy
+              # can need more than 80 positioned text segments on a Letter page.
+              lines={'type':'array','maxItems':160,'items':LINE},paths={'type':'array','maxItems':150,'items':PATH},
               images={'type':'array','maxItems':2,'items':obj(dict(asset=HASH,rect=RECT),('asset','rect'))}),
          ('kind','side','folio','sourceSha256','lines','paths','images'))
 SCHEMA=obj(dict(version={'const':1},layoutVersion={'enum':['letter-native.1','letter-compact.1']},languageVersion={'type':'string'},
@@ -222,7 +224,18 @@ class Composition:
             for item in self.spec['images']:
                 key=item['asset']
                 if key not in cache:cache[key]=QImage.fromData(base64.b64decode(self.book.state['printEdition']['assets'][key]['png']),'PNG')
-                painter.drawImage(QRectF(*item['rect']),cache[key])
+                source=cache[key]
+                rect=QRectF(*item['rect'])
+                if self.spec['kind']=='opening' and painter.paintEngine().type()==QPaintEngine.Type.Raster:
+                    # Bilinear painting samples only a few source pixels. Area-filter
+                    # fine engraving strokes when a large ornament is shown small.
+                    size=painter.deviceTransform().mapRect(rect).size().toSize()
+                    if not size.isEmpty() and size.width()*2<source.width() and size.height()*2<source.height():
+                        scaled=self.book.__dict__.setdefault('_print_scaled_ornaments',{})
+                        if key not in scaled or scaled[key].size()!=size:
+                            scaled[key]=source.scaled(size,Qt.AspectRatioMode.IgnoreAspectRatio,Qt.TransformationMode.SmoothTransformation)
+                        source=scaled[key]
+                painter.drawImage(rect,source)
             for path in [*self.ornaments,*self.drawings]:painter.drawPath(path)
         finally:painter.restore()
 
