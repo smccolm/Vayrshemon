@@ -34,7 +34,8 @@ RECORDS = {
 COLLECTIONS = tuple(RECORDS)
 # Full literary corpora exceed the original 2,000-headword/rule ceiling.
 # Keep collection bounds explicit and identical in data and frozen revisions.
-COLLECTION_LIMITS = {key: 10000 if key in ('lexicon', 'grammar') else 2000 for key in COLLECTIONS}
+COLLECTION_LIMITS = dict.fromkeys(COLLECTIONS, 2000)
+COLLECTION_LIMITS.update(lexicon=25000, grammar=10000)
 DATA = full(**{key: array(schema, COLLECTION_LIMITS[key]) for key, schema in RECORDS.items()})
 REVISION = full(id=ID, parentId={'type': ['string', 'null']}, label=TEXT, createdAt=TEXT, sha256=HASH,
                 collections=full(**{key: array(HASH, COLLECTION_LIMITS[key]) for key in COLLECTIONS}))

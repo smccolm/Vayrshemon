@@ -7,6 +7,8 @@ the original TTF outlines, shaped lazily one visible page at a time.
 """
 import base64
 import hashlib
+import re
+from bisect import bisect_right
 from copy import deepcopy
 from PySide6.QtCore import QPointF, QRectF, Qt
 from PySide6.QtGui import QColor, QFont, QImage, QPaintEngine, QPainter, QPainterPath, QTextCharFormat, QTextLayout, QTextOption
@@ -16,6 +18,8 @@ from .page_numbering import MASTER, digits
 
 PUNCTUATION='-()[]'
 ROMAN='font:9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52:0'
+DRAMA_PUNCT='font:931c5de5c70401d9324d5014c123802b4fb753000360ceb2f56c589403cd58c5:0'
+COLLECTED='letter-collected.1'
 LETTER_TYPE=dict(bodySizePt=36,leadingPt=28,verseSizePt=24,verseGapPt=4)
 COMPACT_TYPE=dict(bodySizePt=26,leadingPt=18,verseSizePt=18,verseGapPt=2)
 
@@ -28,17 +32,18 @@ NUM={'type':'number','minimum':-10000,'maximum':10000}
 RECT={'type':'array','items':NUM,'minItems':4,'maxItems':4}
 SPAN=obj(dict(pageId={'type':'string'},start={'type':'integer','minimum':0},end={'type':'integer','minimum':0}),('pageId','start','end'))
 LINE=obj(dict(start={'type':'integer','minimum':0},end={'type':'integer','minimum':0},prefix={'type':'string','maxLength':30},
-              x=NUM,baseline=NUM,width=NUM,bounds=RECT),('start','end','prefix','x','baseline','width','bounds'))
+              wordGapPt={'type':'number','minimum':0,'maximum':612},
+              sizePt={'type':'integer','minimum':12,'maximum':100},x=NUM,baseline=NUM,width=NUM,bounds=RECT),('start','end','prefix','x','baseline','width','bounds'))
 PATH=obj(dict(elements={'type':'array','maxItems':40000,'items':{'type':'array','items':NUM,'minItems':3,'maxItems':3}},
               fill={'enum':[0,1]},role={'type':'string'},bounds=RECT),('elements','fill','role','bounds'))
-PAGE=obj(dict(kind={'enum':['title','blank','frontispiece','opening','body']},side={'enum':['center','left','right']},
+PAGE=obj(dict(kind={'enum':['title','blank','frontispiece','contents','opening','body']},side={'enum':['center','left','right']},
               folio={'type':['integer','null'],'minimum':1},sourceSha256=HASH,
               # Run-in verse starts can share a physical line. A dense genealogy
               # can need more than 80 positioned text segments on a Letter page.
               lines={'type':'array','maxItems':160,'items':LINE},paths={'type':'array','maxItems':150,'items':PATH},
               images={'type':'array','maxItems':2,'items':obj(dict(asset=HASH,rect=RECT),('asset','rect'))}),
          ('kind','side','folio','sourceSha256','lines','paths','images'))
-SCHEMA=obj(dict(version={'const':1},layoutVersion={'enum':['letter-native.1','letter-compact.1']},languageVersion={'type':'string'},
+SCHEMA=obj(dict(version={'const':1},layoutVersion={'enum':['letter-native.1','letter-compact.1',COLLECTED]},languageVersion={'type':'string'},
     typography=obj({key:{'type':'number','minimum':1,'maximum':100} for key in LETTER_TYPE},tuple(LETTER_TYPE)),
     sourceSha256=HASH,ledgerSha256=HASH,
     assets={'type':'object','maxProperties':8,'additionalProperties':obj(dict(png={'type':'string','maxLength':16777216},width={'type':'integer','minimum':1,'maximum':8192},height={'type':'integer','minimum':1,'maximum':8192}),('png','width','height'))},
@@ -80,7 +85,8 @@ def decode_path(value):
 def validate(state):
     edition=state.get('printEdition')
     if not edition:return
-    expected=COMPACT_TYPE if edition['layoutVersion']=='letter-compact.1' else LETTER_TYPE
+    collected=edition['layoutVersion']==COLLECTED
+    expected=COMPACT_TYPE if collected or edition['layoutVersion']=='letter-compact.1' else LETTER_TYPE
     if typography(edition)!=expected:raise ValueError('PRINT_TYPOGRAPHY_PROFILE')
     if edition['layoutVersion']=='letter-compact.1' and len(state['pages'])>2000:raise ValueError('PRINT_SHEET_LIMIT: compact editions allow at most 1000 duplex sheets')
     by_id={p['pageId']:p for p in state['pages']}
@@ -88,11 +94,13 @@ def validate(state):
     texts={};coverage={pid:[] for pid in by_id}
     for pid,page in by_id.items():
         spec=edition['pages'][pid]
+        if not collected and (spec['kind']=='contents' or any('sizePt' in line or 'wordGapPt' in line for line in spec['lines'])):
+            raise ValueError('PRINT_TYPOGRAPHY_PROFILE')
         if len(page['frames'])!=1:raise ValueError('PRINT_SINGLE_SOURCE_FRAME')
         if [int(page[k]) for k in ('width','height')]!=[612000000,792000000]:raise ValueError('PRINT_LETTER_PAGE_REQUIRED')
         source=text_of(page);texts[pid]=source
         if hash_text(source)!=spec['sourceSha256']:raise ValueError('PRINT_SOURCE_CHANGED: regenerate the edition from its source')
-        last=1 if spec['kind']=='opening' else 0
+        last=1 if spec['kind']=='opening' and not collected else 0
         if last and (not source or sum(p['role']=='illuminated-initial' for p in spec['paths'])!=1):raise ValueError('PRINT_INITIAL_REQUIRED')
         for line in spec['lines']:
             if not 0<=line['start']<=line['end']<=len(source):raise ValueError('PRINT_LINE_SPAN')
@@ -138,15 +146,22 @@ def font(book,size):
     return result
 
 
-def text_formats(book,text,size,prefix=0,verse_size=24):
+def text_formats(book,text,size,prefix=0,verse_size=24,dramatic=False):
     ranges=[]
     if prefix:
         fmt=QTextCharFormat();fmt.setFont(font(book,verse_size));span=QTextLayout.FormatRange();span.start=0;span.length=prefix;span.format=fmt;ranges.append(span)
-    if any(c in PUNCTUATION for c in text):
-        face=book.fonts.resolve(ROMAN);punct=QFont(face.family);punct.setPixelSize(round(size*4/9))
+    if dramatic:
+        # The issued four-column plays use their literal face for every scalar
+        # absent from Thimfora, including foreign letters in quoted speech.
+        cmap=book.fonts.resolve(MASTER).cmap
+        punctuation={c for c in text if not c.isspace() and ord(c) not in cmap}
+    else:
+        punctuation=PUNCTUATION
+    if any(c in punctuation for c in text):
+        face=book.fonts.resolve(DRAMA_PUNCT if dramatic else ROMAN);punct=QFont(face.family);punct.setPixelSize(round(size*4/9))
         punct.setHintingPreference(QFont.HintingPreference.PreferNoHinting);punct.setStyleStrategy(QFont.StyleStrategy.NoFontMerging)
         for i,c in enumerate(text):
-            if c not in PUNCTUATION:continue
+            if c not in punctuation:continue
             if ord(c) not in face.cmap and c!='-':raise ValueError('PRINT_PUNCTUATION_FONT_MISSING')
             fmt=QTextCharFormat();fmt.setFont(punct);span=QTextLayout.FormatRange();span.start=i;span.length=1;span.format=fmt;ranges.append(span)
     return ranges
@@ -162,18 +177,35 @@ def punctuation_paths(path,text,line,size):
             path.addRect(QRectF(x+.25*scale,-4*scale,3.5*scale,.65*scale))
 
 
-def shape(book,text,size=36,prefix=0,verse_size=24):
-    layout=QTextLayout(text.replace('-',' '),font(book,size));option=QTextOption()
+def spaced_runs(layout,word_gap):
+    """Shift shaped words, preserving glyph advances and the source's own spaces."""
+    if not word_gap:
+        return layout.glyphRuns()
+    text=layout.text()
+    # Qt returns UTF-16 source offsets. A run of several spaces is one gap.
+    ends=[len(text[:m.end()].encode('utf-16-le'))//2 for m in re.finditer(r'(?<=\S)\s+(?=\S)',text)]
+    flags=QTextLayout.GlyphRunRetrievalFlag
+    runs=layout.glyphRuns(0,-1,flags.DefaultRetrievalFlags|flags.RetrieveStringIndexes)
+    for run in runs:
+        positions=run.positions()
+        for pos,index in zip(positions,run.stringIndexes(),strict=True):
+            pos.setX(pos.x()+word_gap*bisect_right(ends,index))
+        run.setPositions(positions)
+    return runs
+
+
+def shape(book,text,size=36,prefix=0,verse_size=24,dramatic=False,word_gap=0):
+    layout=QTextLayout(text if dramatic else text.replace('-',' '),font(book,size));option=QTextOption()
     option.setWrapMode(QTextOption.WrapMode.NoWrap);option.setTextDirection(Qt.LayoutDirection.LeftToRight);layout.setTextOption(option)
-    layout.setFormats(text_formats(book,text,size,prefix,verse_size))
+    layout.setFormats(text_formats(book,text,size,prefix,verse_size,dramatic))
     layout.beginLayout();line=layout.createLine();line.setLineWidth(100000);layout.endLayout()
     path=QPainterPath();glyphs=[]
-    for run in layout.glyphRuns():
+    for run in spaced_runs(layout,word_gap):
         for gid,pos in zip(run.glyphIndexes(),run.positions()):
             if not gid:raise ValueError('PRINT_MISSING_GLYPH')
             p=run.rawFont().pathForGlyph(gid).translated(pos.x(),pos.y()-line.ascent());path.addPath(p)
             glyphs.append((gid,p.boundingRect()))
-    punctuation_paths(path,text,line,size)
+    if not dramatic:punctuation_paths(path,text,line,size)
     return path,glyphs
 
 
@@ -187,7 +219,9 @@ class Composition:
         fid=self.page['frames'][0]['frameId']
         for line in self.spec['lines']:
             text=line['prefix']+self.source[line['start']:line['end']]
-            path,glyphs=shape(book,text,type_spec['bodySizePt'],prefix=len(line['prefix']),verse_size=type_spec['verseSizePt'])
+            path,glyphs=shape(book,text,line.get('sizePt',type_spec['bodySizePt']),prefix=len(line['prefix']),
+                              verse_size=type_spec['verseSizePt'],dramatic=book.state['printEdition']['layoutVersion']==COLLECTED,
+                              word_gap=line.get('wordGapPt',0))
             path.translate(line['x'],line['baseline']);self.drawings.append(path)
             self.lines.append(dict(frameId=fid,x=line['x']*SCALE,baseline=line['baseline']*SCALE,start=line['start'],end=line['end']))
             for gid,b in glyphs:
@@ -249,6 +283,8 @@ class Composition:
 def numbering(book,page,config,view,composition=None):
     spec=book.state['printEdition']['pages'][page['pageId']];role='single' if view=='one' else spec['side']
     role=role if role in ('single','left','right') else 'single';position=config[role]
+    if role=='single' and book.state['printEdition']['layoutVersion']==COLLECTED and spec['side'] in ('left','right'):
+        position=dict(position,horizontal=config[spec['side']]['horizontal'])
     number=spec['folio'];text=digits(number) if number else ''
     result=dict(pageId=page['pageId'],pageNumber=number,text=text,base12=text.translate(str.maketrans({'À':'A','Á':'B'})),role=role,pageMode=view,status='hidden',bounds=None,clearancePt=4)
     if not number or not config['enabled'] or not position['visible']:return result

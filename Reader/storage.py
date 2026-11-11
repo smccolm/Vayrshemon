@@ -129,6 +129,10 @@ def build(path, progress=lambda *args: None):
         match=re.match(r'^(.*?)\s+(\d+):\d+',p['name'])
         if match and match[1] not in seen:
             seen.add(match[1]);sections.append(dict(name=match[1],page=n))
+    work_openings=[dict(name=p['name'].removeprefix('Work opening · '),page=n)
+                   for n,p in enumerate(headers,1) if p['name'].startswith('Work opening · ')]
+    if work_openings:
+        sections=work_openings
     if edition:
         sections=[dict(name=s.get('book',s.get('name',str(i+1))),page=ids.get(s.get('pageId'),s.get('pageNumber',1))) for i,s in enumerate(edition.get('sections',[]))]
     meta = dict(version=CACHE_VERSION, source=source, sha256=sha, pageCount=count,

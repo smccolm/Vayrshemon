@@ -2,9 +2,52 @@
 from copy import deepcopy
 from pathlib import Path
 import argparse,html,json
-from tools.shakespeare_project import PROJECT,ROOT,VERSION,read,write,sha,materialize
+from tools.shakespeare_project import PROJECT,ROOT,VERSION,read,write,sha,materialize,sealed_name_readings,reviewed_bible_names
 
 BRANCH='shakespeare-from-0.13'
+
+def attach_bible_readings(snapshot, language, delta):
+    from vayrshemon.archive_language import base
+    witness = delta['sealedBible']
+    snapshot['research']['sealedBible'] = deepcopy(witness)
+    source_id = 'shakespeare014.bible.' + witness['version']
+    if not any(row['id'] == source_id for row in snapshot['language']['sources']):
+        snapshot['language']['sources'].append(dict(base(source_id, 'Sealed Vayrshemon Bible', None, '', status='draft'),
+            kind='other', path=witness['package']+'/manifest.json', sha256=witness['manifestSha256']))
+    args = ROOT/witness['package'], witness['manifestSha256'], witness['forgeHead']
+    readings, related_labels = sealed_name_readings(*args)
+    if delta.get('inheritReviewedBibleNames'):
+        readings = {**reviewed_bible_names(*args), **readings}
+    ids = {entry['id'] for entry in snapshot['language']['lexicon']}
+    for key, (_, label) in readings.items():
+        eid = 'shakespeare014.biblical-name.' + key
+        if eid in ids:
+            continue
+        entry = language.lexicon[key]
+        snapshot['language']['lexicon'].append(dict(base(eid, label, source_id, entry['meaning'], status='draft'),
+            headword=entry['form'], orthographyId='thimfora-79', pronunciation=entry['roman'], ipa='',
+            partOfSpeech=entry['pos'], senses=[dict(id=eid+'.sense', definition=entry['meaning'], status='draft',
+                citations=[dict(sourceId=source_id, locator=entry['semanticId'])])],
+            variants=[], etymology='Author-approved reading from the sealed Bible', exampleIds=[], audioLinks=[]))
+    return readings, related_labels
+
+def attach_bible_vocabulary(snapshot, language, witness):
+    from vayrshemon.archive_language import base
+    from tools.shakespeare_endin import correct_forge_headwords
+    source_id = 'shakespeare014.bible.'+witness['version']
+    ids = {e['id'] for e in snapshot['language']['lexicon']}
+    lexical = {k:e for k,e in language.lexicon.items() if e.get('lexicalWitness')}
+    if lexical:
+        correct_forge_headwords(snapshot, {k:language.lexicon[k] for k in ('last','final','kjv_omega_letter_revelation')})
+    for key, entry in lexical.items():
+        eid = 'shakespeare014.biblical-vocabulary.'+key
+        if eid not in ids:
+            snapshot['language']['lexicon'].append(dict(base(eid,language.glosses.get(key,key),source_id,entry['semanticId'],status='draft'),
+                headword=entry['form'],orthographyId='thimfora-79',pronunciation=entry['roman'],ipa='',
+                partOfSpeech=entry['pos'],senses=[dict(id=eid+'.sense',definition=entry['meaning'],status='draft',
+                citations=[dict(sourceId=source_id,locator=entry['semanticId'])])],
+                variants=[],etymology='Sealed Bible vocabulary review',exampleIds=[],audioLinks=[]))
+    return lexical
 
 def review_sections(units, limit=18000):
     """Keep complete source records together in bounded, readable wiki sections."""
@@ -47,6 +90,15 @@ def commit_work(slug):
         'Complete authored source review',status='draft'),topic='construction',statement=review_index,
         morphologyIds=[],exampleIds=[],alternatives=[]))
     ids={e['id'] for e in s['language']['lexicon']};added=[]
+    witness = delta.get('sealedBible')
+    if witness:
+        readings, related_labels = attach_bible_readings(s, lang, delta)
+    lexical_witness = attach_bible_vocabulary(s,lang,witness) if delta.get('inheritReviewedBibleVocabulary') else {}
+    if delta.get('normalizeStoredRomanSlots'):
+        for item in s['language']['lexicon']:
+            key = item['id'].removeprefix('shakespeare014.lex.')
+            if key in delta['entries'] and item['headword'] == lang.lexicon[key]['form']:
+                item['pronunciation'] = lang.lexicon[key]['roman']
     for key,e in delta['entries'].items():
         eid='shakespeare014.lex.'+key
         if eid in ids:continue
@@ -101,6 +153,12 @@ def commit_work(slug):
         newSemanticKeys=added,compilerSha256=sha(ROOT/'tools/editorial_language.py'),
         untaHelperSha256=sha(ROOT/'tools/unta_language.py'),
         languageFiles={name:sha(PROJECT/'Language'/name) for name in ['lexicon.json','morphology.json','orthography.json']})
+    if witness:
+        checkpoint['sealedBible'] = witness
+        if delta.get('inheritReviewedBibleNames'):
+            checkpoint['inheritReviewedBibleNames'] = True
+        if lexical_witness:
+            checkpoint['inheritReviewedBibleVocabulary'] = True
     write(receipt,checkpoint)
     # Small deltas preserve the exact checkpoint package without copying base/history.
     write(receipt.with_name(receipt.stem+'-lexical-delta.json'),delta)
@@ -110,7 +168,13 @@ def commit_work(slug):
     page='<!doctype html><meta charset="utf-8"><title>'+html.escape(ledger['book'])+'</title><style>body{max-width:75ch;margin:3em auto;font:18px/1.6 Georgia}pre{white-space:pre-wrap}a{color:#17628a}</style>'
     (wiki/(slug+'.html')).write_text(page+'<h1>'+html.escape(ledger['book'])+'</h1><pre>'+html.escape(notes)+'</pre>',encoding='utf-8')
     (wiki/'Index.html').write_text(page+'<h1>Shakespeare · working language '+VERSION+'</h1><p>Corpus incomplete. Complete source review is separate from verified native publication.</p><pre>'+html.escape(project_note+'\n\n'+reading_note)+'</pre><p>'+''.join('<a href="'+html.escape(p.name)+'">'+html.escape(p.stem)+'</a><br>' for p in wiki.glob('*.html') if p.name!='Index.html')+'</p>',encoding='utf-8')
-    write(PROJECT/'Dictionary-delta.json',dict(basePackage=pin['package'],version=VERSION,head=head,entries=delta['entries']))
+    dictionary=dict(basePackage=pin['package'],version=VERSION,head=head,entries=delta['entries'])
+    if witness:
+        dictionary.update(sealedBible=witness, inheritedNameReadings={key:lang.lexicon[key] for key in readings},
+                          inheritedNameLabels=related_labels)
+    if lexical_witness:
+        dictionary['inheritedVocabulary'] = lexical_witness
+    write(PROJECT/'Dictionary-delta.json',dictionary)
     print(json.dumps(dict(work=slug,head=head,newSemanticEntries=len(added),
         sourceUnits=ledger['translatedUnits'],layoutUnits=len(ledger['units'])),indent=2))
 

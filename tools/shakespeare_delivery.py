@@ -1,4 +1,4 @@
-"""Record a verified complete native work in the shared, still-incomplete project."""
+"""Record a verified native work and update the shared library's delivery status."""
 import argparse,html,re
 from urllib.parse import quote
 from tools.shakespeare_project import ROOT,PROJECT,VERSION,read,write,sha,materialize
@@ -30,15 +30,36 @@ def finish(slug,path,regression_log):
         regressionLogSha256=sha(regression_log),
         limitations='Authored translation and translator self-review, not independent literary certification. No claim to reproduce English rhyme or metre.')
     for name in receipt['reviewedProofs']:assert (folder/'Proofs'/name).exists()
+    if 'sealedBible' in checkpoint:
+        from tools.shakespeare_name_audit import audit_book
+        name_review = audit_book(path, ROOT/w['sourcePath'], receipt['nativeSha256'])
+        if name_review['rejectedEndin']:
+            raise ValueError('Rejected endin stem in the saved Shakespeare manuscript')
+        receipt['sealedBible'] = checkpoint['sealedBible']
+        receipt['yeshuaOccurrences'] = name_review['occurrences']
+        receipt['yeshuaPassages'] = name_review['passages']
     write(folder/'edition.json',receipt)
     w.update(status='verified',translatedUnits=w['sourceUnits'],reviewedUnits=w['sourceUnits'],
         output=str(path.relative_to(ROOT)).replace('\\','/'),sha256=report['sha256'],pages=report['pages'],languageHead=checkpoint['head'])
+    done=sum(v['status']=='verified' for v in p['works'])
+    complete=done==len(p['works'])
+    p['status']='complete' if complete else 'incomplete'
     write(PROJECT/'project.json',p)
     title=html.escape(w['title']);style='<meta charset="utf-8"><style>body{font:18px/1.6 Georgia;max-width:76ch;margin:3em auto}a{color:#17628a}</style>'
-    (folder/'Start here.html').write_text(style+'<h1>'+title+'</h1><p>Complete source · working language '+VERSION+' from pinned 0.13 · '+str(report['pages'])+' pages.</p><p><a href="'+quote(path.name)+'">Open complete .vay</a></p><p><a href="../Shakespeare%20Project%200.13/Wiki/'+slug+'.html">Source-linked translation review</a> · <a href="edition.json">Edition receipt</a> · <a href="layout-validation.json">Layout checks</a></p><p>Approved four-column formatting, Maxima, two-page reading mode, black on white and Unta page numbers. The remaining corpus is still in progress.</p>',encoding='utf-8')
+    collection_link='<a href="../Shakespeare%20Project%200.13/Start%20here.html">Shakespeare collection</a>'
+    (folder/'Start here.html').write_text(style+'<h1>'+title+'</h1><p>Complete source · working language '+VERSION+' from pinned 0.13 · '+str(report['pages'])+' pages.</p><p><a href="'+quote(path.name)+'">Open complete .vay</a></p><p><a href="../Shakespeare%20Project%200.13/Wiki/'+slug+'.html">Source-linked translation review</a> · <a href="edition.json">Edition receipt</a> · <a href="layout-validation.json">Layout checks</a></p><p>Approved four-column formatting, Maxima, two-page reading mode, black on white and Unta page numbers.</p><p>'+collection_link+'</p>',encoding='utf-8')
     links=''.join('<li><a href="../'+quote(v['output'].removeprefix('Saves/'))+'">'+html.escape(v['title'])+'</a> — '+str(v['pages'])+' pages</li>' for v in p['works'] if v['status']=='verified')
-    done=sum(v['status']=='verified' for v in p['works'])
-    (PROJECT/'Start here.html').write_text(style+'<h1>Shakespeare from 0.13</h1><p>IN PROGRESS · '+str(done)+' of '+str(len(p['works']))+' new sources delivered.</p><ul>'+links+'</ul><p><a href="Wiki/Index.html">Working wiki</a> · <a href="project.json">Exact coverage and pending works</a> · <a href="Dictionary-delta.json">New dictionary entries</a></p>',encoding='utf-8')
+    (PROJECT/'Start here.html').write_text(style+'<h1>Shakespeare from 0.13</h1><p>'+str(done)+' of '+str(len(p['works']))+' sources delivered.</p><ul>'+links+'</ul><p><a href="Wiki/Index.html">Translation reviews</a> · <a href="project.json">Source coverage</a> · <a href="Dictionary-delta.json">New dictionary entries</a></p>',encoding='utf-8')
+    if complete:
+        for work in p['works']:
+            guide=(ROOT/work['output']).parent/'Start here.html'
+            old=guide.read_text(encoding='utf-8')
+            updated=old.replace('The remaining corpus is still in progress.',collection_link)
+            if old!=updated:
+                guide.write_text(updated,encoding='utf-8')
+        entries=''.join('<li><a href="'+quote(v['slug'])+'.html">'+html.escape(v['title'])+'</a></li>' for v in p['works'])
+        (PROJECT/'Wiki/Index.html').write_text(style+'<title>Shakespeare translation reviews</title><h1>Shakespeare translation reviews</h1><p><a href="../Start%20here.html">Open the complete editions</a></p><ul>'+entries+'</ul>',encoding='utf-8')
+        (PROJECT/'README.txt').write_text(f'Complete Shakespeare translation project\n\nOpen Start here.html for the {done} verified native editions. Each source has its own manuscript, translation ledger and source-linked review. project.json records the source and manuscript hashes. The shared 0.14 Forge branch is based on the published 0.13 language.\n',encoding='utf-8')
     library=ROOT/'Saves/Start here.html';text=library.read_text(encoding='utf-8')
     marker='<!-- shakespeare-project -->'
     if marker not in text:

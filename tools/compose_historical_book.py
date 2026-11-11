@@ -126,7 +126,10 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
     target = Path(target)
     if target.exists() or (target.parent / 'FROZEN.json').exists():
         raise ValueError('REFUSING_TO_OVERWRITE_EDITION')
-    template = Path(template or ROOT / 'Saves/Black on white.vay')
+    default_template = ROOT / 'Saves/Black on white.vay'
+    if not default_template.is_file():
+        default_template = ROOT / 'Saves/Archive/Black on white.vay'
+    template = Path(template or default_template)
     template_hash = digest(template)
     ledger, head = read(ledger_path), read(snapshot_path)
     units = ledger['units']

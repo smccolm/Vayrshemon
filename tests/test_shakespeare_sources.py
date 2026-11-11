@@ -5,6 +5,71 @@ from unittest.mock import patch
 from tools import shakespeare_project as project
 
 class ShakespeareSourceTests(unittest.TestCase):
+    def test_dramatic_spellings_and_repeated_invocations(self):
+        source = 'Jesu, Jesus, Jeshu, Cheshu!'
+        project.check_shakespeare_name(source, 'YeÛça ' * 4, 'Yeshūa ' * 4)
+        for native, gloss in [('YeÛça ' * 3, 'Yeshūa ' * 4), ('Jesus', 'Yeshūa'), ('YeÛça', 'Jesu')]:
+            with self.assertRaises(ValueError):
+                project.check_shakespeare_name(source, native, gloss)
+
+    def test_sealed_names_reach_all_bearers_without_merging_them(self):
+        base = project.ROOT / 'data/language/later-dramatic-0.13'
+        delta = dict(entries={}, glosses={}, decisions=[])
+        with tempfile.TemporaryDirectory(dir=project.ROOT/'.local') as tmp:
+            target = Path(tmp)
+            old = project.write_working_language(base, delta, target)
+            self.assertEqual(old.lexicon['kjv_jesus_matthew']['form'], 'jesus')
+            current = project.write_working_language(base, dict(delta, sealedBible=project.SEALED_BIBLE), target)
+            witness = project.read(project.ROOT/project.SEALED_BIBLE['package']/'name-forms.json')
+            self.assertEqual(len({current.lexicon[k]['semanticId'] for k in witness}), 5)
+            self.assertEqual(current.compile('kjv_mary_jesus')['gloss'], 'Mary')
+            self.assertEqual(current.compile('kjv_joses_jesus_brother')['gloss'], 'Joses')
+            for key, record in witness.items():
+                with self.subTest(key=key):
+                    self.assertEqual(current.lexicon[key]['semanticId'], record['semanticId'])
+                    self.assertEqual(current.lexicon[key]['form'], record['after'])
+                    self.assertEqual(current.lexicon[key]['roman'], record['afterRoman'])
+                    expected = 'Baryeshūa' if key == 'kjv_barjesus_acts' else 'Yeshūa'
+                    result = current.compile(key)
+                    self.assertEqual(current.reading(result['text']), expected)
+                    self.assertEqual(result['gloss'], expected)
+
+    def test_reviewed_bible_names_follow_referents_across_registers(self):
+        base = project.ROOT / 'data/language/later-dramatic-0.13'
+        delta = dict(entries={}, glosses={}, decisions=[], sealedBible=project.SEALED_BIBLE, inheritReviewedBibleNames=True)
+        with tempfile.TemporaryDirectory(dir=project.ROOT/'.local') as tmp:
+            lang = project.write_working_language(base, delta, Path(tmp))
+            for key, reading in [('kjv_paul_acts', 'Pāvol'), ('kjv_abraham', 'Avrāham'), ('kjv_peter_disciple', 'Pētar'), ('kjv_jephthah', 'Yefŧhah')]:
+                self.assertEqual(lang.reading(lang.compile(key)['text']), reading)
+            self.assertEqual(lang.compile('kjv_paul_acts')['gloss'], 'Paul')
+            self.assertEqual(lang.lexicon['peter']['meaning'], "Peter, Quince's given name")
+            self.assertEqual(lang.lexicon['peter']['form'], 'peter')
+
+    def test_inherited_vocabulary_corrects_omega_and_preserves_later_native_developments(self):
+        base = project.ROOT/'data/language/later-dramatic-0.13'
+        delta = dict(entries={},glosses={},decisions=[],sealedBible=project.SEALED_BIBLE,
+                     inheritReviewedBibleNames=True,inheritReviewedBibleVocabulary=True,normalizeStoredRomanSlots=True)
+        with tempfile.TemporaryDirectory(dir=project.ROOT/'.local') as tmp:
+            lang = project.write_working_language(base,delta,Path(tmp))
+            self.assertEqual(lang.lexicon['kjv_omega_letter_revelation']['roman'], 'hüŧh’na īvden')
+            self.assertEqual(lang.lexicon['last']['roman'], 'hüŧh’na')
+            self.assertEqual(lang.lexicon['ghost']['form'], project.read(base/'lexicon.json')['entries']['ghost']['form'])
+
+    def test_endin_guard_catches_inflections_and_preserves_distinct_senses(self):
+        from tools.shakespeare_endin import check_clean,correction
+        from types import SimpleNamespace
+        old=SimpleNamespace(lexicon={'last':dict(pos='adjective',form='endin')})
+        with self.assertRaises(ValueError):
+            check_clean(dict(keys=['last'],analysis='last:m',text='Zem’endinmū'),old)
+        clean=SimpleNamespace(lexicon={})
+        for analysis,text in [('{{endinmu}}','Endinmu'),('drama_native_last:neg:prog','native')]:
+            with self.subTest(analysis=analysis), self.assertRaises(ValueError):
+                check_clean(dict(keys=[],analysis=analysis,text=text),clean)
+        for slug,uid,analysis,expected in [('hamlet','00147a','last:pr:neg','endure:pr:neg'),
+                ('allswell','0617','last+night','former+night'),('lucrece','00193','at last thus','finally thus'),
+                ('cymbeline','00407a','to last end','to last end')]:
+            self.assertEqual(correction(slug,dict(id=uid,analysis=analysis))[0],expected)
+
     def parse(self,slug,body):
         sandbox=project.ROOT/'.local/test-shakespeare-sources';sandbox.mkdir(parents=True,exist_ok=True)
         with tempfile.TemporaryDirectory(dir=sandbox) as tmp:
@@ -27,6 +92,13 @@ class ShakespeareSourceTests(unittest.TestCase):
         self.assertEqual('To the patron',parsed['units'][0]['source'])
         self.assertEqual('William Shakespeare',parsed['units'][-1]['source'])
         self.assertEqual(7,parsed['sourceBodyNonblankLines'])
+
+    def test_troilus_quarto_address_precedes_armored_prologue(self):
+        address = 'A never writer to an ever reader: news.'
+        parsed = self.parse('troilus-and-cressida', 'Characters in the Play\nTROILUS\n\n'
+                            + address + '\n\nEternal reader. Vale.\n\n\n[Enter the Prologue in armor.]\n')
+        self.assertEqual([unit['source'] for unit in parsed['units']],
+                         [address, 'Eternal reader. Vale.', '[Enter the Prologue in armor.]'])
 
     def test_authored_split_requires_exact_nondoubled_source_coverage(self):
         source={'units':[dict(id='00001',lineNumbers=[10,11,12],rawSource='First\nSecond\nThird',source='First Second Third')]}
@@ -112,5 +184,19 @@ class ShakespeareSourceTests(unittest.TestCase):
                 project.validate_numeric_review('A moiety of the world.',row,{'unta_half':wrong})
         with self.assertRaisesRegex(AssertionError,'SEMANTIC_QUANTITY_NOT_IN_SOURCE'):
             project.validate_numeric_review('A share of the world.',row,{'unta_half':entry})
+
+    def test_reviewed_regnal_figure_uses_digits_without_reinterpreting_pronouns(self):
+        note=dict(text='Henry V',sourceNotation='roman-regnal',key='unta_five',value='5',
+                  decision='The printed stage designation gives his regnal number.')
+        row=dict(id='new-king',analysis='unta_five',semanticQuantityReview=[note])
+        lex={'unta_five':dict(numericValue='5',numericNotation='digits')}
+        project.validate_numeric_review('[Enter the Prince, as Henry V, and Blunt.]',row,lex)
+        with self.assertRaisesRegex(AssertionError,'SOURCE_NUMBER_NOTATION_MISMATCH'):
+            project.validate_numeric_review('Henry V',row,{'unta_five':dict(lex['unta_five'],numericNotation='words')})
+        with self.assertRaisesRegex(AssertionError,'REGNAL_FIGURE_VALUE_MISMATCH'):
+            project.source_number_notation('Henry IV',dict(note,text='Henry IV'))
+        with self.assertRaisesRegex(AssertionError,'INVALID_REGNAL_FIGURE'):
+            project.source_number_notation('I am here.',dict(note,text='I',value='1'))
+        self.assertEqual(project.source_number_notation('Henry the Fifth',dict(text='Fifth')),'words')
 
 if __name__=='__main__':unittest.main()

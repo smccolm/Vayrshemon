@@ -131,6 +131,18 @@ class NativePrintTests(unittest.TestCase):
                 self.assertLess(max(abs(a-v) for a,v in zip(line['bounds'],[b.x(),b.y(),b.width(),b.height()])),.05)
         self.assertEqual(self.book.state['printEdition']['verses'][1]['sha256'],print_edition.hash_text(self.units[1]['text']))
 
+    def test_added_spacing_moves_whole_words_across_each_gap_once(self):
+        text='ma   ma ma'
+        natural,base=print_edition.shape(self.book,text,26)
+        justified,spaced=print_edition.shape(self.book,text,26,word_gap=3.25)
+        base=[(gid,b) for gid,b in base if not b.isEmpty()]
+        spaced=[(gid,b) for gid,b in spaced if not b.isEmpty()]
+        self.assertEqual(len(base),6)
+        for i,((gid,b),(new_gid,r)) in enumerate(zip(base,spaced,strict=True)):
+            self.assertEqual((gid,b.width(),b.height(),b.y()),(new_gid,r.width(),r.height(),r.y()))
+            self.assertAlmostEqual(r.x()-b.x(),(i//2)*3.25)
+        self.assertAlmostEqual(justified.boundingRect().right()-natural.boundingRect().right(),6.5)
+
     def test_compact_profile_retains_source_and_exports_at_saved_size(self):
         self.units[0]['text']='Pá '+('Memon mEMon ráun ly. '*300)
         self.units[1]['text']='Memon (mEMon) [ráun] - ly.'

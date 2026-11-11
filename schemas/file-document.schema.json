@@ -1141,7 +1141,7 @@
                               "type": "string",
                               "pattern": "^[0-9a-f]{64}$"
                             },
-                            "maxItems": 10000
+                            "maxItems": 25000
                           },
                           "morphology": {
                             "type": "array",
@@ -1441,7 +1441,8 @@
                 "layoutVersion": {
                   "enum": [
                     "letter-native.1",
-                    "letter-compact.1"
+                    "letter-compact.1",
+                    "letter-collected.1"
                   ]
                 },
                 "languageVersion": {
@@ -1527,6 +1528,7 @@
                           "title",
                           "blank",
                           "frontispiece",
+                          "contents",
                           "opening",
                           "body"
                         ]
@@ -1551,7 +1553,7 @@
                       },
                       "lines": {
                         "type": "array",
-                        "maxItems": 80,
+                        "maxItems": 160,
                         "items": {
                           "type": "object",
                           "properties": {
@@ -1566,6 +1568,16 @@
                             "prefix": {
                               "type": "string",
                               "maxLength": 30
+                            },
+                            "wordGapPt": {
+                              "type": "number",
+                              "minimum": 0,
+                              "maximum": 612
+                            },
+                            "sizePt": {
+                              "type": "integer",
+                              "minimum": 12,
+                              "maximum": 100
                             },
                             "x": {
                               "type": "number",

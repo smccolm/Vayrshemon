@@ -46,6 +46,9 @@ def add_source_entries(work, predecessor, build_entries, decision, *, inherited_
             new_glosses[key] = label
         elif previous != label:
             raise ValueError(f"Conflicting gloss for {key}: {previous!r} / {label!r}")
+        alias = "drama_native_" + key
+        if alias in language.lexicon and language.glosses.get(alias) == key.replace("_", "-"):
+            new_glosses[alias] = label
     if new_keys or new_glosses:
         delta["entries"].update({key: entries[key] for key in new_keys})
         delta["glosses"].update({key: glosses[key] for key in new_keys})

@@ -6,3 +6,9 @@
 *.txt text eol=lf
 *.bat text eol=crlf
 *.ttf binary
+
+# Preserve the exact bytes recorded in the saved editions' checksums.
+Saves/** -text !eol
+"Saves/KJV Bible v0.10-kjv.285/KJV 285.vayforge" filter=lfs diff=lfs merge=lfs -text
+"Saves/KJV Bible v0.10-kjv.285/KJV Bible.vay" filter=lfs diff=lfs merge=lfs -text
+"Saves/The Collected Works of William Shakespeare - Four-Column Progressive Edition v0.14/The Collected Works of William Shakespeare - Four-Column Progressive Edition.vay" filter=lfs diff=lfs merge=lfs -text
