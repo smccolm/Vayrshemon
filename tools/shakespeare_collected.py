@@ -41,7 +41,7 @@ PROJECT = saved_source(ORIGINAL_PROJECT)
 TITLE = 'The Collected Works of William Shakespeare'
 DEST = ROOT / 'Saves' / (TITLE + ' v0.14') / (TITLE + '.vay')
 STAGE = ROOT / '.local/shakespeare-collected'
-TITLE_ART = ROOT / 'Inputs' / 'Print artwork' / 'Shakespeare Title Page - With Text.png'
+TITLE_ART = ROOT / 'Inputs' / 'Print artwork' / 'Shakespeare Title Page - With Text - 3.png'
 REFERENCE = ROOT / 'Saves/KJV Bible - Run-in Letter Edition v0.10-kjv.285 - Printing 2/KJV Bible - Vayrshemon Run-in Letter Edition - Printing 2.vay'
 OLDER = {'a-midsummer-nights-dream': "A Midsummer Night's Dream",
          'alls-well-that-ends-well': "All's Well That Ends Well"}

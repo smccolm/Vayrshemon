@@ -4,7 +4,7 @@ The four active publication folders under `Saves/` hold the progressive and prin
 
 # Collected Shakespeare editions
 
-The author has sealed the complete 2,141-page Letter edition at `Saves/The Collected Works of William Shakespeare v0.14/The Collected Works of William Shakespeare.vay`. Its SHA256 is `53820dc7e915ff109b2097b437b9196c68d4cb1b21a192da8bfb04904505231f`. Use its saved section order as the reference for companion editions.
+The author has sealed the complete 2,141-page Letter edition at `Saves/The Collected Works of William Shakespeare v0.14/The Collected Works of William Shakespeare.vay`. With the author's corrected title artwork, its SHA256 is `eab6715c57210a695b0dc68477bf3d9fa60e4bf4d4dd01dc887967d99c679038`. Use its saved section order as the reference for companion editions.
 
 The separate four-column progressive collection is in `Saves/The Collected Works of William Shakespeare - Four-Column Progressive Edition v0.14/`. Its edition manifest records the 42 issued manuscript hashes and the page range of each work. All 39,775 aligned units were checked against the individual manuscripts across 28,728 native pages.
 
