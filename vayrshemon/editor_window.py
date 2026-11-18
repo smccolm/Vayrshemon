@@ -6,7 +6,7 @@ from PySide6.QtCore import Qt,QPointF,QRectF,QTimer,QMimeData
 from PySide6.QtGui import QAction,QColor,QKeySequence,QPainter,QPen,QTextCursor
 from PySide6.QtWidgets import (QApplication,QMainWindow,QWidget,QVBoxLayout,QHBoxLayout,QFormLayout,QSplitter,
     QTabWidget,QTreeWidget,QTreeWidgetItem,QLabel,QLineEdit,QComboBox,QDoubleSpinBox,QPushButton,QCheckBox,
-    QSlider,QPlainTextEdit,QFileDialog,QMessageBox,QInputDialog,QAbstractScrollArea,QMenu,QDialog,QDialogButtonBox,QListWidget,QScrollArea)
+    QSlider,QPlainTextEdit,QFileDialog,QMessageBox,QInputDialog,QAbstractScrollArea,QMenu,QDialog,QDialogButtonBox,QListWidget,QScrollArea,QTextEdit)
 from .desktop import Editor,accessibility
 from .authoring import MIME,point
 from .session import SCALE,STYLE,LANGUAGE,utf16_length,scalar_offset
@@ -20,6 +20,28 @@ class RichEditor(Editor):
         book._editor=self
         self.setAcceptDrops(False)
         self.setAccessibleName('Text in selected frame')
+        self.setStyleSheet('QTextEdit#documentEditor {background: white; color: #17212b;'
+                           'selection-background-color: #145596; selection-color: white;}')
+        self.textChanged.connect(self.mark_source_ink_dirty)
+
+    def setDocument(self, document):
+        self._source_ink_dirty = True
+        super().setDocument(document)
+
+    def mark_source_ink_dirty(self):
+        self._source_ink_dirty = True
+
+    def paintEvent(self, event):
+        # Qt can emit textChanged while rebuilding blocks during undo. Install
+        # the visual override only when the completed document is about to draw.
+        if self._source_ink_dirty:
+            self._source_ink_dirty = False
+            ink = QTextEdit.ExtraSelection()
+            ink.cursor = QTextCursor(self.document())
+            ink.cursor.select(QTextCursor.SelectionType.Document)
+            ink.format.setForeground(QColor('#17212b'))
+            self.setExtraSelections([ink])
+        super().paintEvent(event)
 
     def execute(self,method,**params):
         result=self.api.call(method,params,expected_revision=self.book.revision,origin='desktop')
@@ -31,10 +53,19 @@ class RichEditor(Editor):
     def keyPressEvent(self,event):
         if event.matches(QKeySequence.StandardKey.Undo): self.execute('history.undo'); return
         if event.matches(QKeySequence.StandardKey.Redo): self.execute('history.redo'); return
+        if any(event.matches(key) for key in (QKeySequence.StandardKey.Copy,
+                                               QKeySequence.StandardKey.SelectAll)):
+            super().keyPressEvent(event)
+            return
         if event.text() and not (event.modifiers() & Qt.KeyboardModifier.ControlModifier):
             if not self.within_document_limit(event.text()): return
         try:
-            with self.book.command('Typing'): super().keyPressEvent(event)
+            # Paste dispatches its own structured edit. A cut or a modified
+            # Backspace/Delete still only edits the selected frame.
+            if event.matches(QKeySequence.StandardKey.Paste):
+                super().keyPressEvent(event)
+            else:
+                with self.book.typing_command('Typing'): super().keyPressEvent(event)
         except Exception as error:
             self.book.log.exception('input',error)
             if self.book.window: self.book.window.last_error=str(error)
@@ -51,7 +82,7 @@ class RichEditor(Editor):
     def inputMethodEvent(self,event):
         if not self.within_document_limit(event.commitString()): event.ignore(); return
         try:
-            with self.book.command('Input method'): super().inputMethodEvent(event)
+            with self.book.typing_command('Input method'): super().inputMethodEvent(event)
         except Exception as error:
             self.book.log.exception('input',error)
             if self.book.window: self.book.window.last_error=str(error)
@@ -206,6 +237,16 @@ class PageCanvas(QAbstractScrollArea):
             zoom=self.zoom
             x=(event.position().x()-self.RULER+self.horizontalScrollBar().value())/zoom
             y=(event.position().y()-self.RULER+self.verticalScrollBar().value())/zoom
+            edition=self.book.state.get('printEdition')
+            if edition:
+                for page,area in self.display_pages():
+                    pid=page['pageId']
+                    if area.contains(QPointF(x,y)) and edition['pages'][pid]['kind']=='contents':
+                        from .print_edition import contents_links
+                        point=(QPointF(x,y)-area.topLeft())/SCALE
+                        for row in contents_links(self.book.state).get(pid,[]):
+                            if QRectF(*row['bounds']).contains(point):
+                                self.invoke('view.page',page=row['page']);event.accept();return
             hit=self.hit_test(x,y)
             if hit['frameId']:
                 if self.book.window and hasattr(self.book.window,'configure_workspace'):
@@ -450,9 +491,18 @@ class EditorWindow(QMainWindow):
         self.last_error=None
         return result['result']
 
-    def on_change(self): self.preview.update_page(); self.timer.start()
+    def on_change(self):
+        # The source QTextEdit already paints the keystroke and caret. Compose
+        # the facing-page proof on the existing idle refresh during typing.
+        if self.book.__dict__.get('_editing_text_frames'):
+            self.preview.viewport().setUpdatesEnabled(False)
+        else:
+            self.preview.viewport().setUpdatesEnabled(True)
+            self.preview.update_page()
+        self.timer.start()
 
     def refresh(self):
+        self.preview.viewport().setUpdatesEnabled(True)
         try:
             self.sync_structure()
             report=None

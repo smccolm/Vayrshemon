@@ -180,7 +180,8 @@ def extract():
 class Typesetter(Proof):
     def __init__(self, punctuation):
         super().__init__()
-        self.fonts.register(punctuation['path'], punctuation['sha256'])
+        path = self.fonts.document_path(punctuation['path'], punctuation['sha256'])
+        self.fonts.register(path, punctuation['sha256'])
         self.glyph_bounds = {}
 
     def layout(self, text, size, width=None):

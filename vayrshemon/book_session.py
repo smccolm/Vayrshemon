@@ -4,6 +4,7 @@ import re
 from PySide6.QtCore import QTextBoundaryFinder
 from .authoring import digest
 from .book_frames import BookFrames, loaded_items
+from .typing_edits import TypingEdits
 
 from .native_storage import MAX_EXPANDED_BYTES as MAX_STATE_BYTES, MAX_FILE_BYTES
 
@@ -12,7 +13,7 @@ MAX_FRAMES = 65536
 MAX_SCALARS = 32_000_000
 
 
-class BookSession:
+class BookSession(TypingEdits):
     lazy_book_frames = True
     max_frames = MAX_FRAMES
     max_document_scalars = MAX_SCALARS
@@ -27,6 +28,8 @@ class BookSession:
 
     def _restore(self, state, **kwargs):
         self._navigation_dirty = None
+        self._typing_baseline = None
+        self._undo_sizes = {}
         return super()._restore(state, **kwargs)
 
     @property
@@ -38,14 +41,17 @@ class BookSession:
     @contextmanager
     def command(self, label):
         self._navigation_dirty = None
+        self._typing_baseline = None
         with super().command(label): yield
 
     def frame_changed(self):
-        self._navigation_dirty = None
+        if not self.__dict__.get('_editing_text_frames'):
+            self._navigation_dirty = None
         return super().frame_changed()
 
     def commit(self, label):
         self._navigation_dirty = None
+        self._typing_baseline = None
         result = super().commit(label)
         if isinstance(self.frames, BookFrames):
             self._navigation_dirty = (self.revision, self._saved_digest != self.content_digest(self._state))
@@ -59,7 +65,9 @@ class BookSession:
 
     def open(self, *args, **kwargs):
         result = super().open(*args, **kwargs)
-        if isinstance(self.frames, BookFrames): self._navigation_dirty = (self.revision, bool(self.migrated_from))
+        self._navigation_dirty = (self.revision, bool(self.migrated_from))
+        if not self.state.get('printEdition') and not isinstance(self.frames, BookFrames):
+            self.typing_baseline()
         return result
 
     def navigate_frame(self, frame_id):

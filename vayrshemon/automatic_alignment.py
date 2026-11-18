@@ -1,6 +1,7 @@
 """Keep complete four-column spreads aligned within the user's text edit."""
 from copy import deepcopy
 from time import perf_counter
+from PySide6.QtCore import QSettings
 from .paragraph_alignment import align,spread_frames
 from .book_frames import loaded_items
 
@@ -16,6 +17,18 @@ class AutomaticAlignment:
         self._aligning_text=False
         super().__init__(*args,**kwargs)
 
+    def spread_auto_alignment(self,first_frame,enabled=None):
+        # Editing preference for this document and spread. Its actual spacing
+        # travels with the paragraphs in native files and recovery checkpoints.
+        if '_alignment_settings' not in self.__dict__:
+            self._alignment_settings=QSettings(str(self.root/'.local/workspace/paragraphs.ini'),QSettings.Format.IniFormat)
+        key=f"{self.state['documentId']}/{first_frame}"
+        if enabled is not None:
+            if enabled:self._alignment_settings.remove(key)
+            else:self._alignment_settings.setValue(key,False)
+            self._alignment_settings.sync()
+        return self._alignment_settings.value(key,True,type=bool)
+
     def _restore(self,state,**kwargs):
         super()._restore(state,**kwargs)
         self.automatic_alignment=dict(enabled=True,status='ready',message='Paragraph starts align automatically when text changes.')
@@ -27,7 +40,8 @@ class AutomaticAlignment:
             # again for every column makes opening quadratic in page count.
             columns=[f for p in pair for f in sorted(p['frames'],key=lambda f:int(f['x']))]
             ids=[f['frameId'] for f in columns]
-            if all(text_of(n).strip() for n in columns) and len({len(n['content']['document']['stories'][0]['blocks']) for n in columns})>1:
+            if (len({len(n['content']['document']['stories'][0]['blocks']) for n in columns})>1
+                    and all(text_of(n).strip() for n in columns) and self.spread_auto_alignment(ids[0])):
                 issues=[dict(frameIds=ids,reason='PARAGRAPH_ALIGNMENT_COUNT_MISMATCH')]
                 self.automatic_alignment=dict(enabled=True,status='paused',message=message(issues),issues=issues)
                 break
@@ -43,23 +57,30 @@ class AutomaticAlignment:
                 except ValueError:continue
                 if ids not in groups:groups.append(ids)
             if groups:
-                started=perf_counter();results=[];issues=[]
-                self._aligning_text=True;self._depth+=1
-                try:
-                    for ids in groups:
-                        try:results.append(align(self,ids,automatic=True))
-                        except Exception as error:
-                            # align's transaction restores the just-edited text
-                            # with its prior spacing. Never reject a user's text
-                            # because its companion paragraphs are unfinished.
-                            issues.append(dict(frameIds=ids,reason=str(error)))
-                            self.log.exception('automatic-alignment',error)
-                finally:self._depth-=1;self._aligning_text=False
-                self.automatic_alignment=dict(enabled=True,status='paused' if issues else 'aligned',
-                    message=message(issues),issues=issues,results=results,elapsedMs=(perf_counter()-started)*1000)
-                self.log.emit('automatic-alignment','ALIGNMENT_PAUSED' if issues else 'PARAGRAPHS_ALIGNED',
-                              **deepcopy(self.automatic_alignment))
+                self.align_groups(groups)
         return super().commit(label)
+
+    def align_groups(self,groups):
+        groups=[ids for ids in groups if self.spread_auto_alignment(ids[0])]
+        if not groups:
+            self.automatic_alignment=dict(enabled=False,status='manual',message='Manual paragraph spacing is active for this spread.')
+            return
+        started=perf_counter();results=[];issues=[]
+        self._aligning_text=True;self._depth+=1
+        try:
+            for ids in groups:
+                try:results.append(align(self,ids,automatic=True))
+                except Exception as error:
+                    # align's transaction restores the just-edited text
+                    # with its prior spacing. Never reject a user's text
+                    # because its companion paragraphs are unfinished.
+                    issues.append(dict(frameIds=ids,reason=str(error)))
+                    self.log.exception('automatic-alignment',error)
+        finally:self._depth-=1;self._aligning_text=False
+        self.automatic_alignment=dict(enabled=True,status='paused' if issues else 'aligned',
+            message=message(issues),issues=issues,results=results,elapsedMs=(perf_counter()-started)*1000)
+        self.log.emit('automatic-alignment','ALIGNMENT_PAUSED' if issues else 'PARAGRAPHS_ALIGNED',
+                      **deepcopy(self.automatic_alignment))
 
 def message(issues):
     if not issues:return 'Paragraph starts aligned automatically.'

@@ -1,6 +1,7 @@
 """File identities and private, process-only Qt font registrations."""
 from dataclasses import dataclass
 import hashlib
+import os
 from io import BytesIO
 from pathlib import Path
 
@@ -109,10 +110,22 @@ class FontRegistry:
         return self.register(path, record['asset']['sha256'])
 
     def document_path(self,path,sha256):
-        """Relocate only absent paths to the identical shipped font."""
+        """Resolve a recorded locator to the exact font bytes on this machine."""
         candidate=Path(path)
         record=self.bundled.get('font:'+sha256+':0')
-        return bundled_fonts.path(self.root,record) if record and not candidate.exists() else candidate
+        if record and not candidate.exists():
+            return bundled_fonts.path(self.root,record)
+        windows=os.environ.get('WINDIR')
+        if windows and candidate == Path(windows)/'Fonts/times.ttf':
+            # Windows servicing can replace the published punctuation font at
+            # the same path. The component store retains earlier revisions.
+            store=Path(windows)/'WinSxS'
+            if candidate.is_file() and hashlib.sha256(candidate.read_bytes()).hexdigest()==sha256:
+                return candidate
+            for previous in store.glob('*_microsoft-windows-f*etype-timesnewroman_*/times.ttf'):
+                if hashlib.sha256(previous.read_bytes()).hexdigest()==sha256:
+                    return previous
+        return candidate
 
     def source_recipe_available(self):
         master=next((f for f in self.bundled.values() if f['role']=='script-master'),None)

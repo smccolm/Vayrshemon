@@ -58,6 +58,8 @@ class FileWindow(GlossWindow):
         self.workspace_layout=None
         self.page_navigator=None
         self.numbering_controls=None
+        self.typing_controls=None
+        self.paragraph_controls=None
         super().__init__(book,api)
         from .page_navigator import PageNavigator
         self.page_navigator=PageNavigator(self)
@@ -75,6 +77,10 @@ class FileWindow(GlossWindow):
         from .numbering_window import NumberingControls
         self.numbering_controls=NumberingControls(self)
         self.numbering_controls.sync()
+        from .touch_keyboard import TypingControls
+        self.typing_controls=TypingControls(self)
+        from .paragraph_controls import ParagraphControls
+        self.paragraph_controls=ParagraphControls(self)
         self._startup_fit=QTimer(self)
         self._startup_fit.setSingleShot(True)
         self._startup_fit.setInterval(100)
@@ -160,6 +166,8 @@ class FileWindow(GlossWindow):
             self.frame_heading.setText('FROZEN PRINT TEXT · select and copy')
         if self.page_navigator:self.page_navigator.sync()
         if self.numbering_controls:self.numbering_controls.sync()
+        if self.typing_controls:self.typing_controls.sync()
+        if self.paragraph_controls:self.paragraph_controls.sync()
         path=self.book.saved_path
         self.setWindowFilePath(str(path) if path else '')
         title=Path(path).name if path else 'Untitled'

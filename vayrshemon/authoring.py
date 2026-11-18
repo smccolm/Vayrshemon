@@ -22,6 +22,7 @@ from .book_frames import BookFrames, loaded_items, loaded_values
 from .session import Session, checked_text, micro_points, scalar_offset, utf16_length, SCALE, STYLE
 from .json_stream import canonical_digest, byte_count, write_atomic
 from .native_storage import storage_payload
+from .typing_storage import FrameUndo, read_checkpoint
 from .editor_contracts import EDITOR_DOCUMENT, PACKAGE, STATE, FONT_SOURCE
 from tools.m0.contracts import validators,validate_document_semantics
 
@@ -207,26 +208,7 @@ class AuthoringSession(QObject):
                 frame_ids.add(frame['frameId'])
                 if int(frame['x'])+int(frame['width'])>int(page['width']) or int(frame['y'])+int(frame['height'])>int(page['height']):
                     raise ValueError('FRAME_OUTSIDE_PAGE')
-                content=frame['content']; model=content['document']
-                # Reuse the M0 schema and M1 one-story preservation constraints.
-                validator=self.frames[next(iter(self.frames))] if self.frames else None
-                if validator: validator.validate_model(model)
-                else:
-                    self.checks['document'].validate(model)
-                    errors=validate_document_semantics(model)
-                    if errors: raise ValueError(str(errors))
-                if len(model['pages'])!=1 or len(model['stories'])!=1: raise ValueError('ONE_STORY_PER_FRAME_REQUIRED')
-                mp=model['pages'][0]
-                if mp['widthMicroPoints']!=frame['width'] or mp['heightMicroPoints']!=frame['height'] or any(int(v) for v in mp['marginsMicroPoints'].values()):
-                    raise ValueError('FRAME_LAYOUT_DIMENSION_MISMATCH')
-                if model['documentId']!=state['documentId']: raise ValueError('FRAME_DOCUMENT_ID_MISMATCH')
-                text='\n'.join(''.join(run.get('text',run.get('sourceText','')) for run in b['runs']) for b in model['stories'][0]['blocks'])
-                checked_text(text); total+=len(text)
-                if content['paragraphs'] and len(content['paragraphs'])!=len(model['stories'][0]['blocks']): raise ValueError('PARAGRAPH_COUNT_MISMATCH')
-                previous_end=0
-                for char in content['characters']:
-                    if char['start']<previous_end or char['end']<char['start']: raise ValueError('OVERLAPPING_CHARACTER_ATTRIBUTES')
-                    scalar_offset(text,char['start']); scalar_offset(text,char['end']); previous_end=char['end']
+                total+=self.validate_frame_content(frame,state['documentId'])
         if count>self.max_frames or total>self.max_document_scalars: raise ValueError(f'DOCUMENT_LIMIT: {self.max_frames} frames and {self.max_document_scalars} total scalars')
         if state['activeFrameId'] not in frame_ids: raise ValueError('ACTIVE_FRAME_MISSING')
         if len({s['name'].casefold() for s in state['styles']})!=len(state['styles']): raise ValueError('DUPLICATE_STYLE_NAME')
@@ -236,6 +218,29 @@ class AuthoringSession(QObject):
         if state['recipe']:
             required.add(state['recipe']['master']); required.update(layer['fontId'] for layer in state['recipe']['layers'])
         if not required<=declared: raise ValueError('FONT_SOURCE_MISSING')
+
+    def validate_frame_content(self,frame,document_id):
+        content=frame['content']; model=content['document']
+        # Reuse the M0 schema and M1 one-story preservation constraints.
+        validator=self.frames[next(iter(self.frames))] if self.frames else None
+        if validator: validator.validate_model(model)
+        else:
+            self.checks['document'].validate(model)
+            errors=validate_document_semantics(model)
+            if errors: raise ValueError(str(errors))
+        if len(model['pages'])!=1 or len(model['stories'])!=1: raise ValueError('ONE_STORY_PER_FRAME_REQUIRED')
+        mp=model['pages'][0]
+        if mp['widthMicroPoints']!=frame['width'] or mp['heightMicroPoints']!=frame['height'] or any(int(v) for v in mp['marginsMicroPoints'].values()):
+            raise ValueError('FRAME_LAYOUT_DIMENSION_MISMATCH')
+        if model['documentId']!=document_id: raise ValueError('FRAME_DOCUMENT_ID_MISMATCH')
+        text='\n'.join(''.join(run.get('text',run.get('sourceText','')) for run in b['runs']) for b in model['stories'][0]['blocks'])
+        checked_text(text)
+        if content['paragraphs'] and len(content['paragraphs'])!=len(model['stories'][0]['blocks']): raise ValueError('PARAGRAPH_COUNT_MISMATCH')
+        previous_end=0
+        for char in content['characters']:
+            if char['start']<previous_end or char['end']<char['start']: raise ValueError('OVERLAPPING_CHARACTER_ATTRIBUTES')
+            scalar_offset(text,char['start']); scalar_offset(text,char['end']); previous_end=char['end']
+        return len(text)
 
     def _restore(self,state,*,take_ownership=False):
         self.validate(state)
@@ -288,6 +293,9 @@ class AuthoringSession(QObject):
             return
         self.commit('Typing or text formatting')
 
+    def typing_command(self, label='Typing', *, frame_ids=None):
+        return self.command(label)
+
     def _contents_changed(self): self.frame_changed()
 
     @contextmanager
@@ -311,21 +319,41 @@ class AuthoringSession(QObject):
     def commit(self,label):
         current=self.capture()
         if current==self._state: return
-        self._undo.append(deepcopy(self._state))
+        self._undo.append(self._state)
         self._redo.clear()
-        # Retain at least the immediately preceding edit even when one book
-        # exceeds the ordinary history byte budget.
-        while len(self._undo)>1 and (len(self._undo)>HISTORY_LIMIT or sum(byte_count(s) for s in self._undo)>HISTORY_BYTES):
-            self._undo.pop(0)
+        self.trim_undo()
         self.revision+=1
         current['revision']=self.revision
         self.state['revision']=self.revision
         self._state=current
         self.history.append(dict(revision=self.revision,label=label,timestamp=stamp(),sha256=self.content_digest(current)))
         self.history=self.history[-256:]
-        self.checkpoint()
+        self.checkpoint(snapshot=current)
         self.log.emit('document','REVISION_COMMITTED',revision=self.revision,label=label,durableRevision=self.durable_revision)
         self.changed.emit()
+
+    def trim_undo(self):
+        # Retain at least the immediately preceding edit even when one book
+        # exceeds the ordinary history byte budget.
+        if len(self._undo) < 2:
+            self._undo_sizes = {}
+            return
+        previous = self.__dict__.get('_undo_sizes', {})
+        self._undo_sizes = {}
+        sizes = []
+        for state in self._undo:
+            if isinstance(state, FrameUndo):
+                sizes.append(state.size)
+            else:
+                cached = previous.get(id(state))
+                size = cached[1] if cached and cached[0] is state else byte_count(state)
+                self._undo_sizes[id(state)] = (state, size)
+                sizes.append(size)
+        total = sum(sizes)
+        while len(self._undo)>1 and (len(self._undo)>HISTORY_LIMIT or total>HISTORY_BYTES):
+            self._undo_sizes.pop(id(self._undo[0]), None)
+            self._undo.pop(0)
+            total -= sizes.pop(0)
 
     def history_move(self,redo=False):
         source,target=(self._redo,self._undo) if redo else (self._undo,self._redo)
@@ -360,10 +388,20 @@ class AuthoringSession(QObject):
                    savedPath=str(self.saved_path) if self.saved_path else None,savedHash=self.saved_hash,
                    savedDigest=self._saved_digest,migratedFrom=self.migrated_from)
         try:
+            entry['checkpointId'] = uuid.uuid4().hex
             write_atomic(self.recovery_path,storage_payload(entry),limit=self.max_file_bytes)
+            self._checkpoint_id = entry['checkpointId']
+            self._checkpoint_frames = {}
             self.durable_revision=self.revision
             self.recovery_error=None
+            # A stale sidecar cannot override the new generation. Removal is
+            # housekeeping; the full checkpoint is already durable.
+            try:
+                self.recovery_path.with_suffix('.typing').unlink(missing_ok=True)
+            except OSError as error:
+                self.log.exception('recovery-cleanup', error)
         except Exception as error:
+            self._checkpoint_id = None
             self.recovery_error=str(error)
             self.log.exception('recovery',error)
 
@@ -373,10 +411,9 @@ class AuthoringSession(QObject):
             if path==self.recovery_path: continue
             lock=QLockFile(str(path.with_suffix('.lock'))); lock.setStaleLockTime(0)
             if not lock.tryLock(0): continue
-            lock.unlock()
             try:
                 if path.stat().st_size>self.max_file_bytes: raise ValueError('RECOVERY_TOO_LARGE')
-                value=load_json(path)
+                value=read_checkpoint(path,self.max_file_bytes)
                 if value.get('recoveryVersion')!='0.1.0': raise ValueError('UNSUPPORTED_RECOVERY_VERSION')
                 if value.get('closed'): continue
                 if digest(value['state'])!=value['sha256']: raise ValueError('RECOVERY_HASH_MISMATCH')
@@ -384,6 +421,8 @@ class AuthoringSession(QObject):
                 results.append(dict(path=str(path),title=value['state']['title'],revision=value['state']['revision'],timestamp=value['timestamp']))
             except Exception as error:
                 results.append(dict(path=str(path),error=str(error)))
+            finally:
+                lock.unlock()
         return results
 
     def recover(self,path,font_paths=None):
@@ -393,7 +432,7 @@ class AuthoringSession(QObject):
         if not lock.tryLock(0): raise ValueError('RECOVERY_SESSION_STILL_RUNNING')
         try:
             if path.stat().st_size>self.max_file_bytes: raise ValueError('RECOVERY_TOO_LARGE')
-            entry=load_json(path)
+            entry=read_checkpoint(path,self.max_file_bytes)
             if entry.get('recoveryVersion')!='0.1.0': raise ValueError('UNSUPPORTED_RECOVERY_VERSION')
             if digest(entry['state'])!=entry['sha256']: raise ValueError('RECOVERY_HASH_MISMATCH')
             state=self.resolve_fonts(entry['state'],font_paths)
@@ -408,6 +447,7 @@ class AuthoringSession(QObject):
             if self.recovery_error: raise OSError(self.recovery_error)
             entry['closed']=True
             write_atomic(path,storage_payload(entry),limit=self.max_file_bytes)
+            path.with_suffix('.typing').unlink(missing_ok=True)
             self.changed.emit()
             return dict(recoveredRevision=state['revision'],revision=self.revision,savedPath=str(self.saved_path) if self.saved_path else None)
         finally: lock.unlock()

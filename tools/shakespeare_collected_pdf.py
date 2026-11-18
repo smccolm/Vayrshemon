@@ -80,14 +80,12 @@ class VectorPrint:
         return total
 
 
-def export():
-    state = unpack(read(DEST))['state']
-    count = verify(state, sources())
+def render_duplex(state, staged, title, *, use_printed_folios=False):
+    """Render and verify a collected-layout native book, including physical binding parity."""
     edition = state['printEdition']
     proof = Typesetter(next(f for f in state['fontSources'] if f['fontId'] == pe.DRAMA_PUNCT))
-    staged=STAGE/TARGET.name
     pdf=Canvas(str(staged),pagesize=(612,792),pageCompression=1,pdfVersion=(1,6))
-    pdf.setTitle(TITLE)
+    pdf.setTitle(title)
     pdf.setCreator('Vayrshemon Workbench')
     pdf.setViewerPreference('Duplex','DuplexFlipLongEdge')
     pdf.setViewerPreference('PrintScaling','None')
@@ -96,37 +94,69 @@ def export():
     # then occupy facing verso|recto pages both in Acrobat and in the binding.
     pdf.addPageLabel(0,prefix='Binding blank')
     pdf.showPage()
-    pdf.addPageLabel(1,style='ARABIC',start=1)
+    if not use_printed_folios:
+        pdf.addPageLabel(1,style='ARABIC',start=1)
     pdf._doc.Catalog.OpenAction=pdf.bookmarkPage('native-title-spread')
     printer=VectorPrint(pdf,proof)
     cfg = state['pageNumbering']
     section_names = {s['pageId']:s['name'] for s in edition['sections']}
     bookmarks = []
+    links = pe.contents_links(state)
+    labels = ['Binding blank']
     for n,page in enumerate(state['pages'],1):
         pid=page['pageId']
         spec=edition['pages'][pid]
         text=pe.text_of(page)
+        if use_printed_folios:
+            if spec['folio'] is None:
+                pdf.addPageLabel(n, prefix=page['name'])
+                labels.append(page['name'])
+            else:
+                if spec['folio']==1:
+                    pdf.addPageLabel(n,style='ARABIC',start=1)
+                labels.append(str(spec['folio']))
+            if spec['kind']=='contents':
+                section_names[pid]=page['name']
+        else:
+            labels.append(str(n))
         assert spec['side']==('center' if n==1 else 'left' if n%2 else 'right')
         left=int(page['margins']['left'])/1e6
         if pid in section_names:
             bookmarks.append((section_names[pid],pdf.getPageNumber()-1))
             pdf.bookmarkPage(pid)
             pdf.addOutlineEntry(section_names[pid],pid)
+        for link in links.get(pid, []):
+            x,y,w,h = link['bounds']
+            target = state['pages'][link['page']-1]['pageId']
+            pdf.linkRect('', target, (x,792-y-h,x+w,792-y), relative=0, thickness=0)
         for item in spec['images']:
             x,y,w,h=item['rect']
             image=edition['assets'][item['asset']]
             raw=BytesIO(base64.b64decode(image['png']))
-            pdf.addLiteral('/Figure << /Alt (The Collected Works of William Shakespeare. Illustrated title page.) >> BDC')
+            alt = (title + '. Illustrated title page.').encode('utf-16-be').hex()
+            pdf.addLiteral('/Figure << /Alt <FEFF'+alt+'> >> BDC')
             pdf.drawImage(ImageReader(raw),x,792-y-h,w,h,mask='auto')
             pdf.addLiteral('EMC')
         pdf.translate(0,792)
         pdf.scale(1,-1)
         bounds=[]
         for rule in spec['paths']:
-            assert rule['role']=='contents-column-divider'
-            x,y,width,height=rule['bounds']
             pdf.setFillColorRGB(17/255,17/255,17/255)
-            pdf.rect(x,y,width,height,stroke=0,fill=1)
+            if rule['role']=='contents-column-divider':
+                x,y,width,height=rule['bounds']
+                pdf.rect(x,y,width,height,stroke=0,fill=1)
+            else:
+                assert rule['role']=='table-hierarchy'
+                path=pe.decode_path(rule)
+                drawing=pdf.beginPath()
+                for i in range(path.elementCount()):
+                    element=path.elementAt(i)
+                    if element.isMoveTo():
+                        drawing.moveTo(element.x,element.y)
+                    else:
+                        assert element.isLineTo()
+                        drawing.lineTo(element.x,element.y)
+                pdf.drawPath(drawing,stroke=0,fill=1,fillMode=path.fillRule().value)
         for line in spec['lines']:
             visible=text[line['start']:line['end']]
             size=line.get('sizePt',BODY)
@@ -157,18 +187,18 @@ def export():
     physical_pages=len(check.pages)
     assert physical_pages==len(state['pages'])+1
     assert check.page_layout=='/TwoPageRight'
-    assert check.page_labels==['Binding blank', *map(str,range(1,physical_pages))]
+    assert check.page_labels==labels
     assert check.get_destination_page_number(check.open_destination)==1
     assert all(tuple(map(float,p.mediabox))==(0,0,612,792) for p in check.pages)
     assert [(b.title,check.get_destination_page_number(b)) for b in check.outline]==bookmarks
     assert check.viewer_preferences.duplex=='/DuplexFlipLongEdge' and check.viewer_preferences.print_scaling=='/None'
     assert not check.pages[0].extract_text().strip() and not check.pages[2].extract_text().strip()
-    title_art,=edition['pages'][state['pages'][0]['pageId']]['images']
-    asset=edition['assets'][title_art['asset']]
-    embedded,=check.pages[1].images
-    with Image.open(BytesIO(base64.b64decode(asset['png']))) as original:
-        assert original.size==embedded.image.size
-        assert original.convert('RGB').tobytes()==embedded.image.convert('RGB').tobytes()
+    title_images=edition['pages'][state['pages'][0]['pageId']]['images']
+    for title_art,embedded in zip(title_images, check.pages[1].images, strict=True):
+        asset=edition['assets'][title_art['asset']]
+        with Image.open(BytesIO(base64.b64decode(asset['png']))) as original:
+            assert original.size==embedded.image.size
+            assert original.convert('RGB').tobytes()==embedded.image.convert('RGB').tobytes()
     for page,printed in zip(state['pages'],check.pages[1:],strict=True):
         spec=edition['pages'][page['pageId']]
         source=pe.text_of(page)
@@ -177,7 +207,24 @@ def export():
         material=printed['/Contents'].get_object().get_data()
         actual=[bytes.fromhex(s.decode()).decode('utf-16-be') for s in re.findall(rb'/ActualText <FEFF([0-9a-f]+)>',material)]
         assert actual==expected,page['pageId']
+        annotations = [a.get_object() for a in printed.get('/Annots', [])]
+        for annotation, link in zip(annotations, links.get(page['pageId'], []), strict=True):
+            assert annotation['/Subtype']=='/Link'
+            assert annotation['/Dest'][0] == check.pages[link['page']].indirect_reference
+            if use_printed_folios:
+                assert int(labels[link['page']]) == edition['pages'][state['pages'][link['page']-1]['pageId']]['folio']
     check.close()
+    return physical_pages
+
+
+def export():
+    state = unpack(read(DEST))['state']
+    count = verify(state, sources())
+    staged=STAGE/TARGET.name
+    physical_pages=render_duplex(state,staged,TITLE)
+    edition=state['printEdition']
+    title_art,=edition['pages'][state['pages'][0]['pageId']]['images']
+    asset=edition['assets'][title_art['asset']]
     staged.replace(TARGET)
     write(DEST.parent/'edition-manifest.json',dict(title=TITLE, nativeSha256=digest(DEST),
           pdfSha256=digest(TARGET), typeSizePt=BODY, leadingPt=18, marginsPt=dict(inside=72,outside=54,top=48,bottom=71),

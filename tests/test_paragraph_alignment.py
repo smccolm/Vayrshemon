@@ -7,6 +7,7 @@ from PySide6.QtCore import Qt,QCoreApplication,QEvent,QMimeData
 from PySide6.QtGui import QInputMethodEvent
 from PySide6.QtTest import QTest
 from vayrshemon.gloss_api import GlossSession,GlossAPI
+from vayrshemon.file_api import FileSession
 from vayrshemon.paragraph_alignment import without_before
 from vayrshemon.session import utf16_length
 from vayrshemon import pages
@@ -16,9 +17,11 @@ ROOT=Path(__file__).resolve().parents[1]
 APP=QApplication.instance() or QApplication([])
 
 
-class ParagraphAlignmentTests(unittest.TestCase):
+class FourColumnFixture:
+    session_type=GlossSession
+
     def setUp(self):
-        self.s=GlossSession(ROOT,source_fonts=False,recovery=False);self.api=GlossAPI(self.s);self.ids=[]
+        self.s=self.session_type(getattr(self,'root',ROOT),source_fonts=False,recovery=False);self.api=GlossAPI(self.s);self.ids=[]
         self.call('page.configure',width=600,height=1000)
         for i in range(4):
             if i==2:self.call('page.add',width=600,height=1000)
@@ -44,6 +47,8 @@ class ParagraphAlignmentTests(unittest.TestCase):
             starts.extend([[l['baseline'] for l in paragraph_starts(report,f['frameId'])] for f in page['frames']])
         for row in zip(*starts):self.assertLessEqual(max(row)-min(row),.027)
 
+
+class ParagraphAlignmentTests(FourColumnFixture,unittest.TestCase):
     def test_text_edit_reflows_in_same_undo_and_survives_save(self):
         self.call('page.paragraphs.align');before=self.s.capture();revision=self.s.revision
         self.call('document.edit',start=0,end=0,text='A clearer translation takes some more words. '*4)
@@ -119,6 +124,107 @@ class ParagraphAlignmentTests(unittest.TestCase):
         before=self.s.capture();history=deepcopy(self.s.history)
         r=self.api.call('page.paragraphs.align',{},expected_revision=self.s.revision,idempotency_key=uuid.uuid4().hex)
         self.assertFalse(r['ok']);self.assertIn('OVERSET',str(r));self.assertEqual(self.s.capture(),before);self.assertEqual(self.s.history,history)
+
+
+class KeyboardAlignmentTests(FourColumnFixture,unittest.TestCase):
+    session_type=FileSession
+
+    def setUp(self):
+        import shutil, tempfile
+        directory = tempfile.TemporaryDirectory()
+        self.addCleanup(directory.cleanup)
+        self.root = Path(directory.name)
+        shutil.copytree(ROOT/'schemas', self.root/'schemas')
+        for part in ('runtime-fonts', 'orthography', 'keyboard'):
+            shutil.copytree(ROOT/'data'/part, self.root/'data'/part)
+        shutil.copy2(ROOT/'data/fonts.json', self.root/'data/fonts.json')
+        super().setUp()
+
+    def test_align_one_row_and_keep_manual_spacing_while_typing(self):
+        from vayrshemon.file_api import FileAPI
+        from vayrshemon.file_window import FileWindow
+        from vayrshemon.session import SCALE
+        from vayrshemon.typesetting import Composition
+
+        def rows():
+            columns = []
+            for page in self.s.state['pages']:
+                composition = Composition(self.s, page_id=page['pageId'], line_metrics=True)
+                for frame in page['frames']:
+                    lines = [l for l in composition.lines if l['frameId'] == frame['frameId']]
+                    columns.append([l['baseline']/SCALE for i, l in enumerate(lines)
+                                    if i == 0 or lines[i-1]['blockId'] != l['blockId']])
+            return list(zip(*columns))
+
+        self.call('page.paragraphs.align')
+        w = FileWindow(self.s, FileAPI(self.s))
+        try:
+            w.show()
+            w.configure_workspace(source=True)
+            pos = self.s.active.doc.lastBlock().position()
+            self.call('selection.set', frame_id=self.ids[-1], start=pos+2, end=pos+3)
+            APP.processEvents()
+            controls = w.paragraph_controls
+            initial = rows()
+            saved = self.s.capture()['pages']
+            selection = self.s.selection()
+            field = controls.fields['before']
+            field.setValue(max(field.value(), 24) + 10)
+            QTest.mouseClick(controls.apply, Qt.MouseButton.LeftButton)
+            self.assertFalse(controls.auto.isChecked(), (w.last_error, controls.isEnabled(), w.editor.textCursor().blockNumber(), field.value()))
+            self.assertEqual(self.s.selection(), selection)
+            manual = self.s.capture()['pages']
+            moved = rows()
+            self.assertEqual(moved[:-1], initial[:-1])
+            self.assertGreater(max(moved[-1])-min(moved[-1]), 9)
+            self.call('selection.set', start=pos+1, end=pos+1)
+            QTest.keyClicks(w.editor, 'x')
+            self.assertEqual(self.s.automatic_alignment['status'], 'manual')
+            self.call('history.undo')
+            self.assertEqual(self.s.capture()['pages'], manual)
+            before = self.s.revision
+            QTest.mouseClick(controls.match, Qt.MouseButton.LeftButton)
+            self.assertEqual(self.s.revision, before+1, w.last_error)
+            final = rows()
+            self.assertEqual(final[:-1], initial[:-1])
+            self.assertLessEqual(max(final[-1])-min(final[-1]), .02)
+            after = self.s.capture()['pages']
+            for old_page, new_page in zip(saved, after):
+                for old, new in zip(old_page['frames'], new_page['frames']):
+                    self.assertEqual(without_before(old), without_before(new))
+            QTest.mouseClick(controls.match, Qt.MouseButton.LeftButton)
+            self.assertEqual(self.s.revision, before+1)
+            self.call('history.undo')
+            self.assertEqual(self.s.capture()['pages'], manual)
+            self.call('history.redo')
+            self.assertEqual(self.s.capture()['pages'], after)
+        finally:
+            self.s.spread_auto_alignment(self.ids[0], True)
+            w.job_timer.stop()
+            w.forge_panel.timer.stop()
+            w.timer.stop()
+            w.hide()
+            self.s.window = self.s._editor = None
+            w.deleteLater()
+            QCoreApplication.sendPostedEvents(None, QEvent.Type.DeferredDelete)
+
+    def test_one_typing_edit_recovers_and_undoes_all_reflowed_columns(self):
+        from vayrshemon.typing_storage import read_checkpoint
+        self.call('page.paragraphs.align')
+        book=self.s
+        book.recovery_enabled=True
+        book.checkpoint()
+        before=book.capture()
+        with book.typing_command('Input method'):
+            book.active.edit(0,0,'A clearer translation takes some more words. '*4)
+        self.assertGreater(len(book._undo[-1].contents),1)
+        self.assertEqual(book.automatic_alignment['status'],'aligned')
+        after=book.capture()
+        self.assertEqual(read_checkpoint(book.recovery_path,book.max_file_bytes)['state'],after)
+        self.call('history.undo')
+        self.assertEqual(book.capture()['pages'],before['pages'])
+        self.call('history.redo')
+        self.assertEqual(book.capture()['pages'],after['pages'])
 
 
 if __name__=='__main__':unittest.main()

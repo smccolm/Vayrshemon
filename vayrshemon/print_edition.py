@@ -58,6 +58,42 @@ def text_of(page):
                      for b in page['frames'][0]['content']['document']['stories'][0]['blocks'])
 
 
+def contents_links(state):
+    """Resolve the typeset contents rows to openings using their printed Unta folios."""
+    edition = state.get('printEdition', {})
+    specs = edition.get('pages', {})
+    contents = {pid for pid, spec in specs.items() if spec['kind'] == 'contents'}
+    if not contents:
+        return {}
+    numbers = {p['pageId']: n for n, p in enumerate(state['pages'], 1)}
+    destinations = {digits(specs[s['pageId']]['folio']): numbers[s['pageId']]
+                    for s in edition['sections'] if specs[s['pageId']]['folio']}
+    records = {r['id']: r['fragments'] for r in edition['verses'] if r['id'].startswith('nav/')}
+    links = {}
+    for pid in contents:
+        source = text_of(state['pages'][numbers[pid] - 1])
+        rows = []
+        for key, spans in records.items():
+            if not key.startswith('nav/folio/') or len(spans) != 1 or spans[0]['pageId'] != pid:
+                continue
+            number = spans[0]
+            title = records.get('nav/toc/' + key.removeprefix('nav/folio/'), [])
+            target = destinations.get(source[number['start']:number['end']])
+            if not title or not target:
+                continue
+            rect = QRectF()
+            for span in [*title, number]:
+                if span['pageId'] != pid:
+                    continue
+                for line in specs[pid]['lines']:
+                    if span['start'] <= line['start'] and line['end'] <= span['end']:
+                        rect = rect.united(QRectF(*line['bounds']))
+            if not rect.isEmpty():
+                rows.append(dict(page=target, bounds=list(rect.adjusted(-1,-1,1,1).getRect())))
+        links[pid] = rows
+    return links
+
+
 def hash_text(text):return hashlib.sha256(text.encode('utf-8')).hexdigest()
 
 

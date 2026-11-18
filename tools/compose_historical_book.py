@@ -20,7 +20,12 @@ def texts(frame):
             for b in frame['content']['document']['stories'][0]['blocks']]
 
 
-def body(frame, paragraphs, font, literal, index):
+def column_text(unit, field):
+    """Tree connectors are presentation; keep the source and translation unaltered."""
+    return unit.get('hierarchyPrefix', '') + unit[field]
+
+
+def body(frame, paragraphs, font, literal, index, extra_font=None, prefixes=None):
     """Preserve approved body styles and explicit punctuation-font treatment."""
     from vayrshemon.session import utf16_length
     content = frame['content']
@@ -39,18 +44,34 @@ def body(frame, paragraphs, font, literal, index):
     # Replace its definition when rebuilding a frame instead of duplicating IDs.
     doc['styles'] = [s for s in doc['styles'] if s['styleId'] != fallback['styleId']] + [fallback]
     content['styleFeatures'][fallback['styleId']] = dict(kern=True, liga=True)
+    tree_style = dict(fallback, styleId='style.archive-tree', fontSizeMicroPoints='12000000')
+    if prefixes and any(prefixes):
+        doc['styles'] = [s for s in doc['styles'] if s['styleId'] != tree_style['styleId']] + [tree_style]
+        content['styleFeatures'][tree_style['styleId']] = dict(kern=True, liga=True)
     if not any(f['fontId'] == literal.font_id for f in doc['fonts']):
         doc['fonts'].append(dict(fontId=literal.font_id, sha256=literal.sha256, faceIndex=0))
+    if extra_font:
+        extra_style = dict(fallback, styleId='style.source-signs',fontId=extra_font.font_id)
+        doc['styles'] = [s for s in doc['styles'] if s['styleId'] != extra_style['styleId']] + [extra_style]
+        content['styleFeatures'][extra_style['styleId']] = dict(kern=True,liga=True)
+        if not any(f['fontId'] == extra_font.font_id for f in doc['fonts']):
+            doc['fonts'].append(dict(fontId=extra_font.font_id,sha256=extra_font.sha256,faceIndex=0))
     blocks, characters, offset = [], [], 0
-    for text in paragraphs:
+    for paragraph_index, text in enumerate(paragraphs):
+        prefix_length = len(prefixes[paragraph_index]) if prefixes else 0
         runs, chunks = [], []
-        for char in text:
-            punctuation = (not char.isspace() and
+        for char_index, char in enumerate(text):
+            punctuation = (char_index < prefix_length or (not char.isspace() and
                            (ord(char) not in font.cmap or
-                            (index >= 2 and (char in '·()+-[]{}/’“”‘' or ord(char) > 127))))
+                            (index >= 2 and (char in '·()+-[]{}/’“”‘' or ord(char) > 127)))))
             style = fallback['styleId'] if punctuation else main['styleId']
+            if char_index < prefix_length:
+                style = tree_style['styleId']
             if punctuation and ord(char) not in literal.cmap:
-                raise ValueError('UNSUPPORTED_PUNCTUATION: ' + repr(char))
+                if extra_font and ord(char) in extra_font.cmap:
+                    style = extra_style['styleId']
+                else:
+                    raise ValueError('UNSUPPORTED_PUNCTUATION: ' + repr(char))
             if chunks and chunks[-1][0] == style:
                 chunks[-1][1] += char
             else:
@@ -117,7 +138,7 @@ def reusable_spreads(path, template_hash, engine, prototype):
     return result
 
 
-def compose(ledger_path, snapshot_path, target, template=None, reuse=None, preflight=False):
+def compose(ledger_path, snapshot_path, target, template=None, reuse=None, preflight=False, source_fallback=None):
     from PySide6.QtWidgets import QApplication
     from vayrshemon.file_api import FileSession
     from vayrshemon import language, pages, reading, paragraph_alignment, page_numbering
@@ -155,8 +176,23 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
                                  edition_status.strip() + ' · ' + head['head'])
         book['pageNumbering'] = new_document_defaults()
         script = session.fonts.faces['font:' + reading.SCRIPT_SHA + ':0']
-        roman, literal = reading.font(session, 'transliteration'), reading.font(session, 'literal')
+        roman = reading.font(session, 'transliteration')
+        # The approved template can reference a different Times New Roman
+        # build than the one currently installed in Windows/Fonts.
+        literal = next((session.fonts.faces[f['fontId']] for f in prototype['fontSources']
+                        if Path(f['path']).name.lower() == 'times.ttf'
+                        and session.fonts.faces[f['fontId']].original_family == 'Times New Roman'), None)
+        if literal is None:
+            literal = reading.font(session, 'literal')
+            declaration = dict(fontId=literal.font_id, sha256=literal.sha256, path=str(literal.path))
+            prototype['fontSources'].append(declaration)
+            book['fontSources'].append(deepcopy(declaration))
         fonts = [script, roman, roman, roman]
+        extra_font = session.fonts.register(source_fallback) if source_fallback else None
+        if extra_font and extra_font.font_id not in {f['fontId'] for f in prototype['fontSources']}:
+            declaration = dict(fontId=extra_font.font_id,sha256=extra_font.sha256,path=str(extra_font.path))
+            prototype['fontSources'].append(declaration)
+            book['fontSources'].append(deepcopy(declaration))
         fields = ['text', 'text', 'gloss', 'source']
         reusable = reusable_spreads(reuse, template_hash, session.fingerprint(), prototype) if reuse else {}
         reused = 0
@@ -165,7 +201,8 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
             state = deepcopy(prototype)
             frames = [f for p in state['pages'] for f in sorted(p['frames'], key=lambda f: int(f['x']))]
             for index, (frame, font, field) in enumerate(zip(frames, fonts, fields)):
-                body(frame, [u[field] for u in group], font, literal, index)
+                body(frame, [column_text(u, field) for u in group], font, literal, index,
+                     extra_font if index==3 else None, prefixes=[u.get('hierarchyPrefix','') for u in group])
                 frame['content']['document']['documentId'] = book['documentId']
                 frame['name'] = ['Vayrshemon', 'Transliteration 7', 'Construction gloss',
                                  ledger.get('sourceLabel', 'KJV source')][index]
@@ -206,15 +243,19 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
         checks, index, position = [], [], 0
         while position < len(units):
             best = None
-            previous = reusable.get(units[position]['id'])
+            # Branch typography is authored by this compositor; measure tables
+            # again even when their four text strings have not changed.
+            previous = reusable.get(units[position]['id']) if not units[position].get('tableId') else None
             if previous:
                 ids, columns, cached, check = previous
                 group = units[position:position + len(ids)]
-                if ids == [u['id'] for u in group] and columns == [[u[f] for u in group] for f in fields]:
+                if ids == [u['id'] for u in group] and columns == [[column_text(u, f) for u in group] for f in fields]:
                     best = len(ids), cached, check
                     reused += 1
             for count in ([] if best else range(1, min(12, len(units) - position) + 1)):
                 if units[position + count - 1]['chapter'] != units[position]['chapter']:
+                    break
+                if units[position + count - 1].get('tableId') != units[position].get('tableId'):
                     break
                 try:
                     state, result = candidate(units[position:position + count])
@@ -283,7 +324,7 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
             for j, frame in enumerate(frames):
                 actual[j].extend(texts(frame))
         for j, field in enumerate(fields):
-            assert actual[j] == [u[field] for u in units], 'ROUNDTRIP_COLUMN_MISMATCH: ' + field
+            assert actual[j] == [column_text(u, field) for u in units], 'ROUNDTRIP_COLUMN_MISMATCH: ' + field
         proofs = target.parent / 'Proofs'
         proofs.mkdir(exist_ok=True)
         for number in sorted({0, 1, len(book['pages']) - 2, len(book['pages']) - 1}):

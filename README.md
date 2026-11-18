@@ -1,5 +1,7 @@
 # Vayrshemon
 
+In Language Workbench, click a text column and choose **Keyboard**. Drag the keyboard’s title bar to another monitor. The two left columns share the original 70-key layout and show Thimfora or Transliteration 7. The gloss and source columns use English QWERTY. **Shift** changes one keystroke, and **Caps** holds the case. Both toolbars offer **Left**, **Center**, **Right** and **Justify** for the current or selected paragraphs.
+
 **Reader 1.0:** [Separate fast book reader](Reader/README.md), launched with `Reader\launch.bat`. Reads the complete Bible alongside the Workbench, without editing it. [Full-Bible performance results](Reader/PERFORMANCE.md).
 
 **Current historical Bible 0.10-kjv.285.** All three native Bibles contain the same Vayrshemon for all 31,102 verses. The four-column edition has 22,130 pages. The compact edition has 1,914 pages on 957 duplex sheets. The second printing of the run-in Letter edition has 1,572 native pages and a binding master of 1,571 printable pages on 786 duplex sheets. [Historical Bible records](docs/KJV_ARCHIVE.md).

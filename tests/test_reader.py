@@ -85,4 +85,32 @@ class ReaderTests(unittest.TestCase):
             self.assertLessEqual(window.image_bytes,256*1024*1024)
             window.meta=None;window.close()
 
+    def test_contents_link_uses_page_coordinates_in_a_facing_spread(self):
+        from PySide6.QtCore import QPointF, Qt
+        from PySide6.QtTest import QTest
+        from Reader.app import Window
+        with patch('Reader.control.Server'):
+            window=Window()
+        headers=[dict(pageId=str(i),width='612000000',height='792000000') for i in range(1,7)]
+        window.meta=dict(pageCount=6,headers=headers,state={},contentsLinks={'4':[dict(bounds=[72,100,220,22],page=6)]})
+        window.schedule=lambda:None
+        window.fit_mode=None;window.zoom=.7;window.mode='two'
+        window.resize(1400,900);window.show();APP.processEvents()
+        try:
+            window.navigate(page=4)
+            page_rect=dict(window.canvas.geometry_pages())[4]
+            def on_page(x,y):
+                return ((page_rect.topLeft()+QPointF(x,y)*(96/72))*window.zoom+window.canvas.page_origin()).toPoint()
+            view=window.canvas.viewport()
+            QTest.mouseClick(view,Qt.MouseButton.LeftButton,pos=on_page(80,95))
+            self.assertEqual(window.page,4)
+            QTest.mousePress(view,Qt.MouseButton.LeftButton,pos=on_page(80,110))
+            QTest.mouseMove(view,on_page(125,110))
+            QTest.mouseRelease(view,Qt.MouseButton.LeftButton,pos=on_page(125,110))
+            self.assertEqual(window.page,4)
+            QTest.mouseClick(view,Qt.MouseButton.LeftButton,pos=on_page(280,110))
+            self.assertEqual(window.page,6)
+        finally:
+            window.meta=None;window.close()
+
 if __name__=='__main__':unittest.main()

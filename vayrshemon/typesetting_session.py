@@ -51,18 +51,22 @@ class TypesettingSession(AuthoringSession):
         return super().delete_page(page_id)
 
     def capture(self):
+        for native in loaded_values(self.frames):
+            self.ensure_block_ids(native)
+        return super().capture()
+
+    @staticmethod
+    def ensure_block_ids(native):
         # QTextBlockUserData adds stable paragraph identities without modifying
         # text/format or emitting recursive contentsChanged signals.
-        for native in loaded_values(self.frames):
-            blocks=[]; block=native.doc.begin()
-            while block.isValid(): blocks.append(block); block=block.next()
-            reserved={b.userData().identity for b in blocks if b.userData() is not None and hasattr(b.userData(),'identity')}
-            for block in blocks:
-                if block.userData() is not None and hasattr(block.userData(),'identity'): continue
-                proposed=block.blockFormat().property(BLOCK)
-                data=QTextBlockUserData(); data.identity=proposed if proposed and proposed not in reserved else identity('block')
-                block.setUserData(data); reserved.add(data.identity)
-        return super().capture()
+        blocks=[]; block=native.doc.begin()
+        while block.isValid(): blocks.append(block); block=block.next()
+        reserved={b.userData().identity for b in blocks if b.userData() is not None and hasattr(b.userData(),'identity')}
+        for block in blocks:
+            if block.userData() is not None and hasattr(block.userData(),'identity'): continue
+            proposed=block.blockFormat().property(BLOCK)
+            data=QTextBlockUserData(); data.identity=proposed if proposed and proposed not in reserved else identity('block')
+            block.setUserData(data); reserved.add(data.identity)
 
     def new_state(self,*args,**kwargs):
         value=super().new_state(*args,**kwargs); value['typesetting']=initial(); return value

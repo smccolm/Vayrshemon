@@ -67,7 +67,8 @@ class Worker:
 class Canvas(QAbstractScrollArea):
     painted=Signal()
     def __init__(self,window):
-        super().__init__();self.owner=window;self.drag=None
+        super().__init__();self.owner=window;self.drag=None;self.link_press=None
+        self.viewport().setMouseTracking(True)
         self.setFocusPolicy(Qt.FocusPolicy.StrongFocus);self.setAccessibleName('Reader pages');self.viewport().setCursor(Qt.CursorShape.OpenHandCursor)
         for bar in (self.horizontalScrollBar(),self.verticalScrollBar()):bar.valueChanged.connect(self.viewport().update)
     def geometry_pages(self):
@@ -87,11 +88,26 @@ class Canvas(QAbstractScrollArea):
         self.horizontalScrollBar().setPageStep(self.viewport().width());self.verticalScrollBar().setPageStep(self.viewport().height())
         if center:self.horizontalScrollBar().setValue(self.horizontalScrollBar().maximum()//2);self.verticalScrollBar().setValue(0)
         self.viewport().update()
-    def paintEvent(self,event):
-        started=time.perf_counter();p=QPainter(self.viewport());p.fillRect(self.viewport().rect(),QColor('#d8dfe5'))
+    def page_origin(self):
         w,h=self.extent();z=self.owner.zoom
         x=max(16,(self.viewport().width()-w*z)/2)-self.horizontalScrollBar().value()
         y=max(16,(self.viewport().height()-h*z)/2)-self.verticalScrollBar().value()
+        return QPointF(x,y)
+    def link_at(self,position):
+        if not self.owner.meta or not self.owner.meta.get('contentsLinks'):
+            return None
+        local=(position-self.page_origin())/self.owner.zoom
+        for number,rect in self.geometry_pages():
+            if rect.contains(local):
+                point=(local-rect.topLeft())*(72/96)
+                pid=self.owner.meta['headers'][number-1]['pageId']
+                for row in self.owner.meta['contentsLinks'].get(pid,[]):
+                    if QRectF(*row['bounds']).contains(point):
+                        return row['page']
+        return None
+    def paintEvent(self,event):
+        started=time.perf_counter();p=QPainter(self.viewport());p.fillRect(self.viewport().rect(),QColor('#d8dfe5'))
+        origin=self.page_origin();x,y=origin.x(),origin.y();z=self.owner.zoom
         p.setRenderHint(QPainter.RenderHint.SmoothPixmapTransform)
         if not self.owner.meta:
             p.setPen(QColor('#52616c'));p.drawText(self.viewport().rect(),Qt.AlignmentFlag.AlignCenter,'Open a .vay book to read')
@@ -111,11 +127,24 @@ class Canvas(QAbstractScrollArea):
         if self.owner.fit_mode:self.owner.update_fit()
         self.layout_pages(False);self.owner.render_timer.start(120)
     def mousePressEvent(self,event):
+        self.link_press=event.position() if event.button()==Qt.MouseButton.LeftButton and self.link_at(event.position()) else None
         if event.button() in (Qt.MouseButton.LeftButton,Qt.MouseButton.MiddleButton):self.drag=event.position();self.viewport().setCursor(Qt.CursorShape.ClosedHandCursor);self.setFocus()
     def mouseMoveEvent(self,event):
+        if self.link_press is not None:
+            if (event.position()-self.link_press).manhattanLength()<QApplication.startDragDistance():
+                return
+            self.link_press=None
         if self.drag is not None:
             delta=event.position()-self.drag;self.drag=event.position();self.owner.pan(-delta.x(),-delta.y())
-    def mouseReleaseEvent(self,event):self.drag=None;self.viewport().setCursor(Qt.CursorShape.OpenHandCursor)
+        else:
+            cursor=Qt.CursorShape.PointingHandCursor if self.link_at(event.position()) else Qt.CursorShape.OpenHandCursor
+            self.viewport().setCursor(cursor)
+    def mouseReleaseEvent(self,event):
+        if event.button()==Qt.MouseButton.LeftButton and self.link_press is not None:
+            target=self.link_at(event.position())
+            if target and target==self.link_at(self.link_press):
+                self.owner.navigate(page=target)
+        self.drag=None;self.link_press=None;self.viewport().setCursor(Qt.CursorShape.OpenHandCursor)
     def wheelEvent(self,event):
         if event.modifiers() & Qt.KeyboardModifier.ControlModifier:
             self.owner.set_zoom(self.owner.zoom*(1.1 if event.angleDelta().y()>0 else 1/1.1));event.accept()
