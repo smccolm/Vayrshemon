@@ -1,0 +1,386 @@
+Paradise Lost — source and translation notes
+
+Source: Inputs/Sources/John Milton - Paradise Lost.txt
+SHA256: 25b845899c0457b6be470106986b9c2157cc132bc23804e0c635d69c94580032
+
+The supplied English remains the source column, including long s, historical
+spelling and its apparent transcription errors. Original verse line breaks are
+native soft line separators (U+2028), so a group of verse lines remains one
+aligned passage rather than becoming a different number of paragraphs in each
+column. The ledger also keeps each original substring and its source offsets.
+The target rendition follows the thought and imagery; it does not claim to
+reproduce Milton's English metre. No missing or unattempted passage is replaced
+by a summary or an ellipsis. The ledger distinguishes completed work from the
+remaining source. A status of incomplete means that later books are pending.
+
+Book I readings of apparent source transcription damage
+
+The English column retains each supplied form. The following readings govern
+the Vayrshemon. Physical line numbers refer to the supplied text file.
+
+149: "ſoul defeat" is read as "foul defeat".
+419: "Anion" is read as Arnon, using the sealed biblical name.
+482: "Dargon" is read as Dagon, using the sealed biblical name.
+492: "fottiſh" is read as "sottish", rendered foolish.
+550: "fanting" is read as "fainting".
+576: "warning power" is read as "wanting power". The negative construction
+     retains the claim that the music does NOT lack power to soothe the mind.
+671: "so riſe" is read as "so rife", the wide circulation of the report.
+693: "farwhoſe" is read with the missing space: "far whose".
+726: "found out" describes founding/smelting the ore, not discovering it.
+763: "and now he fell" is read as "and how he fell".
+
+Comparison witness for these readings:
+The John Milton Reading Room, Dartmouth, Paradise Lost, Book 1:
+https://milton.host.dartmouth.edu/reading_room/pl/book_1/text.shtml
+Consulted 2026-11-18. This comparison does not replace the supplied English.
+The supplied "Place of Satan" in the Argument and "cannot fall" in physical
+line 129 are retained in sense rather than silently changed to the comparison
+witness's "Palace" and "fail".
+
+Names and senses
+
+Biblical people, places and divine names inherit the existing language entries
+by referent. Beelzebub, Molech, Chemosh, Ashtoreth, Tammuz, Dagon, the covenant
+ark, and the common noun for one's allotted portion are distinguished explicitly.
+Adonis the river is separate from Adonis the person. Titan in the genealogy is
+not Titan as a poetic name for the sun. The Dorian musical mode is separate from
+Doric architecture. Mammon here is a personified spirit. The catalogue's claims,
+the narrator's judgement of the Mulciber myth, and Satan's claims remain those
+of their speakers. The Gibeah passage retains rape explicitly.
+
+Unta
+
+The book heading's Roman numeral uses a native numeral. Spelled quantities,
+ordinals, fractions and multiples use Unta words; plural millions remain plural
+millions, without inventing an exact total. The number ledger records each
+authored numeric construction. Firstborn, head-first and demigod use the same
+ordinal or fractional roots in their derived expressions.
+
+Build
+
+.venv/Scripts/python -X utf8 -m tools.paradise_lost_working --compose
+
+This command compiles authored analyses only. It does not translate the pending
+books automatically. It verifies an uninterrupted source prefix, all four
+saved columns, save/reopen identity, aligned paragraph starts, glyph coverage,
+page bounds, and folio placement in both reading modes. A manually edited
+publication cannot be overwritten while its hash differs from the layout receipt.
+
+Book II readings
+
+The entire Argument and all 1,055 supplied verse lines are translated. No
+summary replaces any passage. Sin's account of her origin, conception, violent
+childbirth and rape, the hounds' feeding, and the threatening exchanges remain
+explicit. Death, Sin, Night and the other personified abstractions retain native
+roots; established classical and biblical names reuse existing readings.
+
+The supplied English remains unchanged, including damaged spellings. The target
+reads the following evident transcription defects in context (physical lines):
+898 Torturer = Tortures; 1277 opt = out; 1327 her virtue = their virtue;
+1374 Rare = Race; 1600 Hall thou = Hast thou; 1622 Toe = Foe;
+1715 heav'n lie-born = heav'nlie-born; 1719 ray Author = my Author;
+1885 alter him = after him; 1898 brok'd = brok'n.
+Comparison witness: John Milton, Paradise Lost, Book II, edited by Jack Lynch
+from the 1674 edition, https://www.jacklynch.net/Texts/pl2.html .
+These are readings for translation, not replacements of the supplied source.
+
+The poem's Alchymie denotes the sounding trumpet metal; the goal in the games
+is a chariot turning mark; the Furies are the named avenging beings rather than
+ordinary anger. The twice-mentioned ten-thousand scale keeps fathoms in the
+fall and miles in the rebound; the source does not give the same unit twice.
+Numeral II in the heading remains a numeral. Written quantities and multiples,
+including ninefold, three times threefold, tenfold, thirds and halves, use Unta
+words. Source ranges and authored number readings remain in the ledgers.
+
+Book III readings
+
+The complete Argument, 742 verse lines and colophon are translated. The English
+column retains the supplied file exactly. The Vayrshemon reads the following
+transcription defects against the 1674 text reproduced by Jack Lynch:
+https://www.jacklynch.net/Texts/pl3.html (consulted 2026-11-18).
+
+1924: "accepts hint" = accepts him; "Regient" = Regent.
+1926: "of spring" = offspring.
+1978: "there plane eyes" = there plant eyes.
+2101: "haft" = hast.
+2111: "H•s" = His.
+2116: "sinful date" = sinful state.
+2372: "O• Hills" = On Hills.
+2409: "Plito's" = Plato's.
+2428: "flutterd 〈◊〉 Raggs" = fluttered into rags. The relation "into" is
+      present in the Vayrshemon and gloss, not an omission placeholder.
+2434: "uncrod" = untrod.
+2462: "dores of 〈◊〉" = doors of Bliss. Bliss is translated in full.
+2523: "invisible venue" = invisible virtue, meaning effective power.
+2529: "Medal" = metal.
+2566: "of fixt" = or fixed.
+2634: "gforifie" = glorify.
+2656: "Hew upward" = flew upward.
+
+The clear drop and suffusion retain Milton's historical descriptions of
+blindness. Foreknowledge is distinguished from predestination; satisfaction
+means meeting justice's demand rather than pleasure. The Son's offered death,
+the forfeiture, punishment, resurrection, judgment and destruction remain
+explicit. The poem's religious satire is retained without added qualification.
+Indulgences here are ecclesiastical remissions of punishment; dispensations
+are exemptions from obligations, and bulls are sealed papal letters. Habits
+in this inventory are clothes, not repeated behaviors. The painter's pencil
+is a paintbrush. The alchemical Hermes and Proteus, volatile substance, alembic,
+elixir and potable gold retain their concrete imagery. Trepidation denotes the
+older cosmology's supposed oscillation; quintessence is the heavenly substance
+distinguished from the four lower elements.
+
+Biblical references reuse the inherited identities and vocabulary, including
+Adam, Peter the disciple, John the Revelation witness, Aaron, Jacob, Esau,
+Shinar, Padanaram, Luz, Beersheba and Golgotha. Uriel the angel is separately
+keyed from human biblical namesakes. Maeonides remains the poem's epithet for
+Homer. The source's alternate geographic spellings retain their referents.
+
+Unta III remains a numeral in the book heading. Firstborn, second root, seven
+planets and spirits, twelve breastplate stones, thrice-happy isles, ten thousand
+leagues and the three-form lunar face use native word constructions. "At once"
+meaning together and "once" meaning formerly are distinguished from counted
+occurrences. Neither the lunar hemisphere nor quintessence adds a separate
+numeral absent from the source wording.
+
+Book IV readings
+
+The complete Argument, 1,015 verse lines and colophon are translated. The
+English column preserves the supplied witness, including its damaged words.
+Target readings were checked against the 1674 poem reproduced by Jack Lynch:
+https://www.jacklynch.net/Texts/pl4.html (consulted 2026-11-18).
+
+2812: counterset = counterfeit; 2815: smooth•d = smoothed.
+2831: gottesque = grotesque; 2840: •is = his; 2841: •igher = higher.
+2844: Appe•rd = appeared; 2846: •n = in; 2847: Whe• = When.
+2848: •antskip = landscape.
+2942–2944: the displaced Balme belongs with Gumms and. Both gum and balm
+remain in the translation; the English retains the supplied line order.
+2996: dedar'd = declared; 3111: Bearer = Dearer; 3187: nay Soul = my Soul.
+3283: where thou first = where thou sitst.
+3370: Thole = Those; 3428: avenge•d = avenged; 3451: purting = putting.
+3497: wheel he North = wheel be North, the command to turn north.
+3615: plate = place; 3693: Scale thee = Seal thee.
+
+These readings restore the words for translation without adding explanatory
+text to the poem. The supplied Japhet retains its spoken name; its mythic
+identity in the Pandora passage is separately keyed from the biblical person.
+The native spelling inherits Japheth's established biblical form. Uzziel and
+Zephon likewise have separate angel identities with inherited name forms.
+Seleucia the royal city is distinct from the biblical port. Sabaean denotes
+Sheba's country. May is the month, and the flower-de-luce is the iris flower.
+
+Animal spirits retain the historical physiological meaning, life-bearing
+vapours. Tempering the sun's heat is moderation, not the hardening of metal.
+Lot in Eve's condition and Gabriel's final speech means an allotted fate;
+Uriel's assignment by lot retains the distinct lot-casting sense. Both use
+the inherited native vocabulary. The naked bodies, marital intimacy,
+criticism of abstinence, physiological dream imagery and explosive-powder
+comparison are translated without omissions. Satan's justifications remain
+his speech, with the narrator's description of a tyrant's plea separately
+preserved. The alternative motions of sun and earth remain alternatives.
+
+IV is an Unta numeral in the heading. Written quantities, including the
+watch's halves, sevenfold wrath, doubled strength and the two balance weights,
+use Unta word constructions. The final balance distinguishes departure from
+battle; Satan's side rises because it is lighter. Long passages were divided
+at authored boundaries for the facing spread without removing target words.
+
+Book V readings
+
+The Argument, all 907 verse lines and the colophon are translated. The source
+column keeps the supplied file. Clear transcription defects are read for the
+translation against the 1674 text reproduced by Jack Lynch:
+https://www.jacklynch.net/Texts/pl5.html (consulted 2026-11-18).
+
+3793: ray mind = my mind; 3814: shap•d = shaped.
+3857: nor ran I like = nor can I like; 3871: imitare = imitate.
+3919: who first above = who sitst above.
+3936: climb•st = climbst; 3966: Hell = Hill in the invocation of landscape.
+4067: servid = fervid, describing the rays' heat.
+4155: Venue-proof = Virtue-proof.
+4262: undemanding = understanding, in the account of mental faculties.
+4562: Venues = Virtues, the named angelic order.
+
+Eve's dream is fully related, including the tasting and flight, then explicitly
+distinguished from a waking transgression. Adam's account of fancy and reason
+retains that distinction. The central speech distinguishes bodily nourishment,
+vital and animal spirits, the intellect, discursive reasoning and intuition.
+Animal spirits retain the historical physiological sense used in Book IV.
+The angels' eating is actual eating in the narration, not merely an appearance;
+digestion, transubstantiation and exhalation all remain explicit. Nice means
+fastidious about food; ingrateful food means unpleasing, not morally ungrateful.
+Eve serves naked, and the narrator's comment about love and jealousy is intact.
+
+The Virtues and Powers remain distinct named orders. Regency here is an angelic
+realm, not temporary government. Longitude in the unfolded earth comparison
+means extension in length. Cream is made from pressed kernels, and must is
+fresh grape juice. The berry drink is not silently given an added recipe.
+The royal grooms are attendants, and the lower wings skirt the body as clothing.
+The son of Maia remains that relational description; no extra name is inserted.
+Raphael, Abdiel, Tobias, Galileo and the mythic names have separately recorded
+identities. Abdiel's native name inherits the biblical spelling without merging
+him with the human namesake. Mary is the mother of Yeshūa; the source does not
+name him in this passage, so the translation does not add his personal name.
+
+The Father's irony about defending the heavenly throne, Satan's claims to
+freedom and self-creation, and Abdiel's rejection of those claims remain their
+respective speeches. The threats, punishment and uncreation are not softened.
+V is a numeral in the heading. Written halves, thirds, doubles, six wings,
+the five wandering fires, the four-element grouping, seven marriages and
+the ten-thousand-thousand ensigns use Unta words. Indefinite myriads retain
+their indefinite sense. All stages of the revolt and Abdiel's departure remain.
+
+
+Book VI
+-------
+All 912 verse lines, the full Argument, repeated title and colophon are
+translated. English preserves the supplied wording and physical verse breaks.
+The 1674 text at https://www.jacklynch.net/Texts/pl6.html was used to check
+obvious damaged readings, not to replace the witness in the English column:
+4745 sight = fight; 4753 alded = aided; 4877 ro assert = to assert;
+4919 feat = seat; 5021 add rest = addressed/prepared;
+5091 Adraenelec = Adramelec; 5234 Some o•• = Some one;
+5275 gripe first = gripe fast, grasp firmly; 5276 poor = pour.
+Alt (5263) means halt. Realtie (4832) means sincerity/honesty, not real estate;
+the period reading is retained in English and rendered honesty in the target.
+Reins in the anatomical list are kidneys; the later reins of war are bridle
+reins. Grateful truce is welcome/pleasing. Unobnoxious means not liable to pain.
+
+Every phase of the three-day battle remains. The first sword wound, the red
+nectarous fluid, the body-organ list, angels' self-formed limbs and the rebels'
+other wounds are explicit. Spiritual survival except by annihilation is not
+confused with merely surviving a particular injury. The night council,
+artillery materials and manufacture, firing, and counterattack with uprooted
+mountains are translated as narrated, with no gaps or substituted summaries.
+The supplied speaker's claims of freedom, invulnerability and divine
+fallibility remain that speaker's claims. No modern recipe or commentary is
+inserted. The source's historical substance names retain their source senses.
+
+The heavy terms and hard contents retain the diplomacy/artillery wordplay.
+Belial's understand/stand-under pun is rendered by a transparent native
+under-stand compound, keyed separately from ordinary understanding. His
+upright is physical standing as well as a moral taunt. The proposed overture
+remains an opening offer; the opened ranks and gun mouths retain the scene's
+second meaning. The double sense of discharge is preserved in context.
+
+Adramelec inherits the sealed biblical Adrammelech spelling, separately keyed
+as the rebel angel. Ariel and Arioc likewise inherit biblical name spellings
+without merging their identities with human namesakes. Uriel, Raphael, Abdiel,
+Moloch and Belial retain the previous readings; Zophiel and Ramiel are separately
+localized. Asmadai has an adapted form related to the earlier Asmodeus name.
+The fiery chariot's Urim, beryl, sapphire, amber appearance, firmament and four
+cherubic shapes use established biblical vocabulary.
+
+Ten paces and the tenth, one third, halves, two battle days and the third day,
+four faces on each of four shapes, three-bolted thunder, ten thousand thunders,
+ten million saints, twenty thousand chariots and the nine-day fall use Unta
+words because the source writes words. VI alone is a heading numeral. The
+Messiah holds back more than half his strength, expels rather than annihilates
+the rebels, and the final warning to Adam and his weaker companion is complete.
+
+
+Book VII — complete source reading and vocabulary review
+Every source word, the Argument, all 640 verse lines, repeated title and colophon are retained. The original English column is verbatim, including defects. The following readings affect the target only: physical line 5781 thought -> though; 5841 ray self -> myself; 5960 Warers -> Waters; 5990 bate -> bare; 6095 spouts our -> spouts out; 6109 Crane• -> Crane; 6130 Martin -> Mattin (morning song); 6131 Foul living -> Soul living; 6269 be also went -> he also went. The latter living-soul phrase follows the creation context and Genesis 1:24. Primary comparison: Milton, 1674 second-edition text, https://www.jacklynch.net/Texts/pl7.html.
+
+The supplied smelling Gourd at 5998 is retained as smelling, not silently modernized to swelling; it is also the reading in the consulted 1674 transcription. The gourd uses the prior poem’s edible-plant term, not Jonah’s shade-plant. A conservative number reading keeps the thousand and thousand thousand as number words, alongside all six ordinal days and the seventh-day rest.
+
+Urania is the heavenly inspiration explicitly distinguished from the classical nine Muses. Lucifer shares the sealed biblical name but has a separate poetic identity. Rhodope the mountain is not Rhodophe the woman. Pleiades uses the sealed celestial name. The compasses are the two-legged drawing instrument, not a navigational compass. The Son’s filial Godhead and the Father’s omnipresence remain distinct expressions.
+
+Genesis phrases use established scriptural roots and, where applicable, their saved constructions: light, the firmament, gathered waters, grass and fruit trees, luminaries, fishes and birds, animals, human formation and the prohibition. Milton’s additions and changes are translated in full, not replaced by the biblical passage. Raphael says the Father addresses his Son, so the explicit plural let us/our is retained.
+
+The animal catalogue retains seals, dolphins, Leviathan’s historical gills and spouting trunk, full bird plumage, formation and migration, nightingale and swan, cock and the unnamed rainbow-tailed bird, lion, ounce, leopard, tiger, mole, stag, Behemoth, river-horse, crocodile, insects, serpents, ant, female bee feeding her husband drone, and the serpent’s brazen eyes and hairy mane. No modern zoological correction replaces the poem’s claims. Behemoth and the river-horse remain distinct labels. The later serpent is obedient and harmless to Adam at this point.
+
+The six-day work, seventh-day rest with unceasing music, possible inhabited stars, and thrice-happy conditional praise all remain. The closing invitation allows further questions within human measure. Physical verse line breaks are retained; translated syntax can continue across a physical line boundary.
+
+Book VIII — complete Argument, 653 verse lines and colophon
+All supplied wording is retained verbatim in column four. No passage is shortened.
+The target distinguishes astronomical concentric circles, eccentric circles,
+epicycles and the imagined whirling sphere; Raphael leaves alternative planetary
+models open. Adam's naming of animals, divine dialogue, creation of Eve, marriage,
+physical passion, and the angel's account of spiritual love are rendered in full.
+Source defects: physical line 6378 “with forth” is read as went forth; 6388
+“intermit” is rendered as interspersing pleasant digressions (the 1674 witness
+has intermix); 6394 unatrended as unattended; 6557 Abandantly as abundantly;
+6581 surious as furious; 6754 selt as self; 6867 ray State as my State.
+Comparison witness: https://www.jacklynch.net/Texts/pl8.html.
+At 6607 the supplied “and lively vigour” is retained, despite “as lively vigour”
+in the comparison witness. Strait at 6595 means immediately, whereas straight
+on his feet at 6599 describes upright posture. Number words stay Unta words;
+the Book VIII heading uses an Unta figure. No typographical reading changes
+the exact English source column.
+
+Book IX: source readings and distinctions
+The English column retains the supplied witness verbatim. The target reads
+7014 cats as eats and anotther as another; 7232 bear as hear; 7247 Sold Eve as
+Sole Eve; 7387 Fee as Foe; 7586 deni•d as denied; 7704 supplies the damaged
+phrase now more [bold]; 7731 vending as venturing; 7769 it all be his as if
+all be his; 7778 cars as ears; 7830 Intern as Intent; 7878 Five no life as
+live no life; 8014 high I as an exclamation; 8025 Whole vertue as Whose
+virtue; 8048 recompen•• as recompense; 8073 me apply as we apply; 8082
+As mee is as As meet is; 8083 d•y as day; 8098 Scale as Seal; 8167 thiekest
+as thickest; 8170 waste as waist; 8175 lies as isles; 8234 bath as hath.
+Readings checked against the 1674 text transcribed at
+https://www.jacklynch.net/Texts/pl9.html . The readings at 8113 (hee cover’d,
+but his Robe) and 8135–36 (last of evils; of the first / Be sure then) are
+attested there and are retained, with Shame personified in the first.
+Sowd at 8151 and 8169 means sewn. Tigris uses the sealed biblical Hiddekel
+name for the same river. The poem’s altered Genesis dialogue is translated
+as supplied, not replaced wholesale by KJV wording. Ordinary indulgence
+(leniency), serpent crest, tree trunk, dietary greed, the garment of Shame,
+and the garland woven for Eve are distinguished from unrelated senses.
+No completed source passage is abridged or omitted.
+
+Book X — complete Argument, 1,104 verse lines and colophon
+The supplied English remains verbatim. Target readings of damaged type:
+8488 th• = the; 8527 amiry = amity; 8547 suth asent = such ascent;
+8583 joying = joining; 8589 Momronian = Memnonian; 8654 an this World = all this World;
+8717 Bactri•• = Bactrian; 8766 same in Heaven = fame in Heaven;
+8844 on thy rould = on they rolled; 8916 Enemie• = Enemies;
+8978 Normbega = Norumbega; 9002 Bead = Beast; 9020 nor serve = not serve;
+9071 test = rest; 9109 Am sound = Am found; 9125 fourse = source;
+9170 lest = least; 9196 mod = most; 9202 calamine = calamity;
+9231 ligh. = light; 9310 Checks = Cheeks.
+Comparison: https://www.jacklynch.net/Texts/pl10.html (1674 text).
+Susa shares the sealed biblical Shushan identity. The Atlantic Sisters are
+Atlas's seven daughters, not his sisters. The astrological configurations
+remain distinct from geometry and physical squares. Clothing, conception,
+flavouring, inherited guilt, historical serpents, and the changing seasons
+use context-specific native senses. The judgments, Sin and Death's bridge,
+the infernal transformation, Adam's accusations and Eve's proposals and
+reconciliation are all retained. No abridging or omissions.
+
+Book XI — readings of the supplied witness
+The source column remains verbatim. Native constructions use these contextual
+readings, checked against the Milton text at https://www.jacklynch.net/Texts/pl11.html:
+9423 signs: sighs; 9430 Pyrtha: Pyrrha; 9445 favour: savour; 9608 much-humbl•d:
+much-humbled; 9639 alt: halt; 9660 Gate: gait; 9780 Seare: Seat; 9832 Kfar:
+Tsar; 9873 sord: sod; 9901 Loose: Lose; 10006 faw: saw; 10065 abeauteous:
+a beauteous; 10103 sat Meadow: fat Meadow; 10158 hared: hated; 10190 strangeI:
+strange!; 10303 deer Sun: clear Sun; 10315 furer: surer; 10347 Mandeprav’d:
+man depraved. All illness and geographic catalogue entries remain distinct.
+The source’s pairs and sevens of animals, three sons, four wives, ten thousand
+warriors and three-coloured rainbow retain their stated quantities. Biblical
+references inherit the sealed vocabulary without replacing Milton’s wording.
+
+Book XII — readings and shared biblical senses
+English remains verbatim, including its damaged lettering. The rendition reads
+10735 loose as lose; 10795 Bur as But; 10861 Bu• as But; 11015 sixt Station
+as fixt Station. These are checked against the 1674 text transcribed at
+https://www.jacklynch.net/Texts/pl12.html. No sixth station is introduced.
+Joshua and the Jesus name explicitly compared at 10687 use the separately
+keyed sealed biblical Yoshua and Yeshūa readings. Charity uses the sealed
+biblical love sense, not the narrower giving-of-alms sense. The firstborn
+of Egypt are people; the covenant chest is distinct from Noah’s flood ark.
+The human genealogical stock, the catalogue of plagues, the force of the
+commands, the crucifixion and the polemic against spiritual coercion are
+retained. The source’s Arguments, repeated titles and final THE END are
+translated as well as every verse line. No editorial summary replaces text.
+
+Two historical labels checked during final review: Sarra is Tyre in the
+purple-dye comparison (Book XI), so the established Tyre name is reused.
+Ellops retains the historical mute-serpent category (Book X), rather than
+being silently identified as a modern species. References:
+https://resources.saylor.org/wwwresources/archived/site/wp-content/uploads/2012/08/ENGL402-Milton-Paradise-Lost-Book-11.pdf
+https://www.cyberlibrary.org/en/books/a-glossary-of-tudor-and-stuart-words-especially-from-the-dramat-80cabfc4/chapters/1/

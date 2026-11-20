@@ -105,7 +105,7 @@ def frame_geometry(frame):
     return {k: frame[k] for k in ('x', 'y', 'width', 'height')}
 
 
-def reusable_spreads(path, template_hash, engine, prototype):
+def reusable_spreads(path, template_hash, engine, prototype, additional_font_ids=()):
     """Only reuse byte-verified, measured spreads from the same rendering setup."""
     path = Path(path)
     proof = read(path.parent / 'layout-validation.json')
@@ -115,13 +115,23 @@ def reusable_spreads(path, template_hash, engine, prototype):
     # The language revision is provenance, not a rendering input: all four
     # compiled strings are compared before reusing a measured spread. Every
     # font/Qt/paint/typesetting fingerprint field still has to match exactly.
+    # An explicitly added source-sign font cannot affect an already verified
+    # spread: its runs name the old fonts and its glyph coverage was checked.
+    # Existing font identities remain checked even if listed as additional.
+    old_font_ids = {f.get('fontId') for f in payload['engine']['fonts']}
+    additions = set(additional_font_ids) - old_font_ids
     def rendering_engine(value):
-        return {k: v for k, v in value.items() if k != 'languageRevision'}
+        result = {k: v for k, v in value.items() if k != 'languageRevision'}
+        result['fonts'] = [f for f in value['fonts'] if f.get('fontId') not in additions]
+        return result
     if rendering_engine(payload['engine']) != rendering_engine(engine):
         raise ValueError('REUSE_ENGINE_MISMATCH')
     old = payload['state']
     for field in ('recipe', 'paint', 'styles', 'features', 'fontSources'):
-        if old[field] != prototype[field]:
+        current = prototype[field]
+        if field == 'fontSources':
+            current = [f for f in current if f.get('fontId') not in additions]
+        if old[field] != current:
             raise ValueError('REUSE_FORMAT_MISMATCH: ' + field)
     if old['typesetting']['profiles'] != prototype['typesetting']['profiles']:
         raise ValueError('REUSE_TYPESETTING_MISMATCH')
@@ -194,7 +204,8 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
             prototype['fontSources'].append(declaration)
             book['fontSources'].append(deepcopy(declaration))
         fields = ['text', 'text', 'gloss', 'source']
-        reusable = reusable_spreads(reuse, template_hash, session.fingerprint(), prototype) if reuse else {}
+        reusable = reusable_spreads(reuse, template_hash, session.fingerprint(), prototype,
+                                   additional_font_ids=[extra_font.font_id] if extra_font else []) if reuse else {}
         reused = 0
 
         def candidate(group):
