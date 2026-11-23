@@ -2,11 +2,12 @@
 from copy import deepcopy
 from pathlib import Path
 import json,tempfile,unittest
+import numpy as np
 from unittest.mock import patch
 from PySide6.QtWidgets import QApplication
 from Reader import storage
 from Reader.render import Engine,read_image,publish_cache
-from vayrshemon.file_api import FileSession
+from vayrshemon.file_api import FileAPI, FileSession
 from vayrshemon import pages,page_numbering
 from tools.kjv_print_edition import Composer
 
@@ -40,11 +41,16 @@ class ReaderTests(unittest.TestCase):
     def test_same_native_pixels_and_global_folio_number(self):
         path=self.native();result=storage.build(path);engine=Engine(result['cache']);self.engines.append(engine)
         for n in (1,2):
-            for palette in ('white','black'):
-                self.book.view.update(mode='mono',monochromePaper=palette)
-                expected,_=pages.render(self.book,page_id=self.book.state['pages'][n-1]['pageId'],mode='mono',dpi=48,page_mode='two')
+            for palette in ('white','color','black','white'):
+                mode = 'color' if palette=='color' else 'mono'
+                self.book.view.update(mode=mode,monochromePaper='black' if palette=='black' else 'white')
+                expected,_=pages.render(self.book,page_id=self.book.state['pages'][n-1]['pageId'],mode=mode,dpi=48,page_mode='two',reading=True)
                 actual=read_image(engine.render(n,palette,'two',.5)['path'])
                 self.assertEqual(bytes(actual.constBits()),bytes(expected.constBits()))
+                self.assertEqual(actual.pixelColor(0,0).name(),'#ffffff' if palette=='white' else '#000000')
+                if palette=='color':
+                    pixels=np.frombuffer(actual.constBits(),np.uint8).reshape(actual.height(),actual.width(),4)
+                    self.assertTrue(pixels[:actual.height()//2,:,:3].any(),'Body text disappeared on black paper')
                 self.assertEqual(page_numbering.placement(engine.book,engine.book.current_page())['pageNumber'],n)
     def test_compact_illuminated_native_reader(self):
         units=[dict(id='01.001.001',reference='structural',chapter=1,verse=1,text='Memon mEMon ráun ly. '*10)]
@@ -56,6 +62,25 @@ class ReaderTests(unittest.TestCase):
             expected,_=pages.render(self.book,page_id=self.book.state['pages'][n-1]['pageId'],mode='mono',dpi=48,page_mode='two')
             actual=read_image(engine.render(n,'white','two',.5)['path'])
             self.assertEqual(bytes(actual.constBits()),bytes(expected.constBits()))
+        api = FileAPI(self.book)
+        page_id = self.book.state['pages'][3]['pageId']
+        undo_count = len(self.book._undo)
+        for palette in ('black','color','white'):
+            mode = 'color' if palette=='color' else 'mono'
+            api.dispatch('view.configure',dict(mode=mode,monochromePaper='black' if palette=='black' else 'white'))
+            expected,_ = pages.render(self.book,page_id=page_id,mode=mode,dpi=48,page_mode='two')
+            actual = read_image(engine.render(4,palette,'two',.5)['path'])
+            self.assertEqual(bytes(actual.constBits()),bytes(expected.constBits()))
+            pixels = np.frombuffer(actual.constBits(),dtype=np.uint8).reshape(actual.height(),actual.width(),4)
+            paper = (255,255,255,255) if palette=='white' else (0,0,0,255)
+            for corner in (pixels[0,0],pixels[-1,0],pixels[0,-1],pixels[-1,-1]):
+                self.assertEqual(tuple(corner),paper)
+            # ARGB32 is stored in BGRA byte order on Windows.
+            self.assertEqual(bool((pixels[:,:,0]>pixels[:,:,2]).any()),palette=='color')
+            if palette=='black':
+                self.assertTrue((pixels[:,:,0]==255).any())
+        self.assertFalse(self.book.dirty)
+        self.assertEqual(len(self.book._undo),undo_count)
     def test_cache_publication_keeps_first_complete_value(self):
         target=self.folder/'test.frame';target.write_bytes(b'first');temp=self.folder/'second.tmp';temp.write_bytes(b'second')
         with target.open('rb') as opened:

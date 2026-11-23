@@ -44,7 +44,11 @@ def preflight(book,format='pdf',mode='color',dpi=300,raster_policy='reject',page
         report=comp.report(pid,20000)
         number=page_numbering.placement(book,page,mode,comp)
         if number['status']=='blocked':issues.append(dict(code=number['code'],severity='error',pageId=pid,message=number['message']))
-        if number['status']=='placed' and mode=='color':painted+=len(number['glyphs'])
+        if mode=='color':
+            if book.state.get('printEdition'):
+                painted += len(comp.color_glyphs) + int(number['status']=='placed')
+            elif number['status']=='placed':
+                painted+=len(number['glyphs'])
         for diagnostic in report['diagnostics']: issues.append(dict(diagnostic,severity='warning',pageId=pid))
         if any(g['missingGlyph'] for g in report['glyphs']): issues.append(dict(code='MISSING_GLYPHS',severity='error',pageId=pid))
         for glyph in report['glyphs']:

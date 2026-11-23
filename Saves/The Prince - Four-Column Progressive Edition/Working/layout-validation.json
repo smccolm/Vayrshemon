@@ -2,13 +2,13 @@
   "book": "The Prince",
   "pages": 1158,
   "spreads": 579,
-  "units": 3532,
-  "allFourColumnsMatchLedger": true,
+  "units": 3529,
+  "allFourColumnsMatchLedger": false,
   "saveReopenIdentical": true,
   "templateUnchanged": true,
   "geometryAndPaintPreserved": true,
   "templateSha256": "c26bc2c32526b68750a29d6ab81aa0c8c13193fafc8fc087a4ebd01f9d510689",
-  "sha256": "9149836e9a999dea1a83b2ec5097de61aefbcfb8086b342ffae7f1b170c849de",
+  "sha256": "71e01092dc838e61496bb6252b5d1ca9e4b9060687ffa8c8f8b9a8f31818706d",
   "maxBaselineErrorPt": 0.011718749999957367,
   "maxHorizontalBearingExcessPx": 0.607910000000004,
   "horizontalBearingTolerancePx": 1.0,
@@ -43,7 +43,7 @@
     },
     {
       "leftPage": 11,
-      "maxBaselineErrorPt": 0.007812500000056843,
+      "maxBaselineErrorPt": 0.003906250000028422,
       "maxHorizontalBearingExcessPx": 0.0
     },
     {
@@ -2912,6 +2912,15 @@
       "maxHorizontalBearingExcessPx": 0.0
     }
   ],
-  "reusedMeasuredSpreads": 565,
-  "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim."
+  "reusedMeasuredSpreads": 577,
+  "inkDisclaimer": "Approved decorative ink overhang is not a zero ink-collision claim.",
+  "allFourColumnsMatchLedgerOrPreservedEdits": true,
+  "preservedManualEdits": "preserved-edit-overrides.json",
+  "savedParagraphsPerColumn": [
+    3526,
+    3527,
+    3526,
+    3526
+  ],
+  "revisionNote": "Only pages 11–12 and 847–848 recomposed; other 1154 pages and measurements unchanged."
 }

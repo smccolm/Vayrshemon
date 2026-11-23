@@ -189,7 +189,7 @@ class PageCanvas(QAbstractScrollArea):
                 if not clip.intersects(area):continue
                 p.save();p.translate(area.topLeft())
                 try:
-                    pages.paint(self.book,p,page_id=page['pageId'],clip=clip.intersected(area).translated(-area.topLeft()),overlays=self.book.view,guides=getattr(self,'guides',True))
+                    pages.paint(self.book,p,page_id=page['pageId'],clip=clip.intersected(area).translated(-area.topLeft()),overlays=self.book.view,guides=getattr(self,'guides',True),reading=True)
                 finally:p.restore()
         except Exception as error:
             self.book.log.exception('preview',error)

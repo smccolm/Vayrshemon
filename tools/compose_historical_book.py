@@ -142,13 +142,44 @@ def reusable_spreads(path, template_hash, engine, prototype, additional_font_ids
         columns = [texts(f) for p in pair for f in sorted(p['frames'], key=lambda f:int(f['x']))]
         if len(pair) != 2 or len(columns) != 4 or any(len(c) != len(spread['unitIds']) for c in columns):
             raise ValueError('REUSE_INDEX_MISMATCH')
-        state = dict(old, pages=pair)
+        measured_frames = {f['frameId']: old['typesetting']['frames'][f['frameId']]
+                           for page in pair for f in page['frames'] if f['frameId'] in old['typesetting']['frames']}
+        state = dict(pages=pair, typesetting=dict(frames=measured_frames))
         check = {k:v for k,v in checks[spread['leftPage']].items() if k != 'leftPage'}
         result[spread['unitIds'][0]] = (spread['unitIds'], columns, state, check)
     return result
 
 
-def compose(ledger_path, snapshot_path, target, template=None, reuse=None, preflight=False, source_fallback=None):
+def check_folios(session, start, stop, mode):
+    from vayrshemon import page_numbering
+    result = []
+    for i in range(start, stop):
+        page = session.state['pages'][i]
+        for page_mode in ('one', 'two'):
+            with page_numbering.scope(session, page_mode):
+                placement = page_numbering.placement(session, page, mode=mode)
+                if placement['status'] != 'placed':
+                    raise ValueError('NUMBERING_NOT_PLACED: ' + str(placement))
+                result.append(placement)
+    return result
+
+
+def check_saved_folios(path, start, stop, mode):
+    from PySide6.QtWidgets import QApplication
+    from vayrshemon.file_api import FileSession
+    app = QApplication.instance() or QApplication([])
+    session = FileSession(ROOT, source_fonts=False, recovery=False)
+    session.remember = lambda _: None
+    session.log.emit = lambda *args, **kwargs: None
+    try:
+        session.open(path, advance_revision=False)
+        return check_folios(session, start, stop, mode)
+    finally:
+        session.finish()
+
+
+def compose(ledger_path, snapshot_path, target, template=None, reuse=None, preflight=False, source_fallback=None,
+            additional_reuse=(), remeasure_incompatible=False, folio_workers=1):
     from PySide6.QtWidgets import QApplication
     from vayrshemon.file_api import FileSession
     from vayrshemon import language, pages, reading, paragraph_alignment, page_numbering
@@ -204,8 +235,17 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
             prototype['fontSources'].append(declaration)
             book['fontSources'].append(deepcopy(declaration))
         fields = ['text', 'text', 'gloss', 'source']
-        reusable = reusable_spreads(reuse, template_hash, session.fingerprint(), prototype,
-                                   additional_font_ids=[extra_font.font_id] if extra_font else []) if reuse else {}
+        reusable = {}
+        for measured in (*([reuse] if reuse else []), *additional_reuse):
+            try:
+                spreads = reusable_spreads(measured, template_hash, session.fingerprint(), prototype,
+                                           additional_font_ids=[extra_font.font_id] if extra_font else [])
+            except ValueError as exc:
+                if not remeasure_incompatible or str(exc) != 'REUSE_ENGINE_MISMATCH':
+                    raise
+                print(f'Remeasuring pages from {measured} with the current rendering engine.', flush=True)
+                continue
+            reusable.update(spreads)
         reused = 0
 
         def candidate(group):
@@ -280,10 +320,12 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
             count, state, result = best
             group = units[position:position + count]
             left = len(book['pages']) + 1
-            for page in state['pages']:
+            for side, page in enumerate(state['pages']):
                 copy = deepcopy(page)
                 copy['pageId'] = uid('page')
                 copy['name'] = f'{group[0]["reference"]} — {group[-1]["reference"]}'
+                if side == 1 and ledger.get('sourceLabel'):
+                    max(copy['frames'], key=lambda f:int(f['x']))['name'] = ledger['sourceLabel']
                 for frame in copy['frames']:
                     old_id = frame['frameId']
                     frame['frameId'] = uid('frame')
@@ -307,28 +349,38 @@ def compose(ledger_path, snapshot_path, target, template=None, reuse=None, prefl
         if preflight:
             return dict(book=ledger['book'],pages=len(book['pages']),units=len(units),
                         preflightOnly=True,checks=checks,index=index)
+        reusable.clear()
         session._restore(book)
         session._state = session.capture()
         session.invalidate_composition()
         page_numbering.ensure_fonts(session)
         session._undo = []
         session._redo = []
-        numbering = []
-        # Check both placements while this page's measured composition is hot.
-        # A book-wide pass per mode evicts the bounded page cache and shapes
-        # every page twice, although view mode changes only the derived folio.
-        for page in session.state['pages']:
-            for mode in ('one', 'two'):
-                with page_numbering.scope(session, mode):
-                    placement = page_numbering.placement(session, page)
-                    if placement['status'] != 'placed':
-                        raise ValueError('NUMBERING_NOT_PLACED: ' + str(placement))
-                    numbering.append(placement)
+        paint_mode = session.view['mode']
+        page_count = len(book['pages'])
+        if folio_workers <= 1:
+            numbering = check_folios(session, 0, page_count, paint_mode)
         target.parent.mkdir(parents=True, exist_ok=True)
         session.save(target, preview_mode='two')
         before = session.capture()
         session.open(target, advance_revision=False)
         assert session.capture() == before
+        del before
+        if folio_workers > 1:
+            # Each process reopens the actual saved book, so parity, folio numbers,
+            # all frames and their collision geometry have their final values.
+            from concurrent.futures import ProcessPoolExecutor, as_completed
+            size = (page_count + folio_workers - 1) // folio_workers
+            with ProcessPoolExecutor(max_workers=folio_workers) as pool:
+                futures = {pool.submit(check_saved_folios, target, start, min(start+size, page_count), paint_mode):start
+                           for start in range(0, page_count, size)}
+                chunks = {}
+                for future in as_completed(futures):
+                    start = futures[future]
+                    chunks[start] = future.result()
+                    print(f'Verified saved folios on pages {start+1}–{min(start+size, page_count)}.', flush=True)
+            numbering = [placement for start in sorted(chunks) for placement in chunks[start]]
+            assert len(numbering) == page_count * 2
         actual = [[], [], [], []]
         for i in range(0, len(book['pages']), 2):
             frames = [f for p in session.state['pages'][i:i+2] for f in sorted(p['frames'], key=lambda f: int(f['x']))]

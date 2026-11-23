@@ -30,22 +30,22 @@ TITLE_ART = ROOT / 'Inputs/Print artwork/Paradise Lost Title Page - Approved.png
 TITLE_UNITS = {'pl.00001.001', 'pl.00003.001'}
 
 
-def place_title_art(state):
+def place_title_art(state, *, artwork=TITLE_ART, title_units=TITLE_UNITS):
     """Embed the author's completed composition without altering its pixels."""
     page = state['pages'][0]
     edition = state['printEdition']
     title = edition['pages'][page['pageId']]
     assert title['kind'] == 'title'
     rows = [r for r in edition['verses'] if any(f['pageId'] == page['pageId'] for f in r['fragments'])]
-    assert {r['id'] for r in rows} in (set(), TITLE_UNITS)
+    assert {r['id'] for r in rows} in (set(), title_units)
     edition['verses'] = [r for r in edition['verses'] if r not in rows]
     blank = state['pages'][1]
     assert not sc.pe.text_of(blank)
     page['frames'][0]['content'] = deepcopy(blank['frames'][0]['content'])
     page['frames'][0]['content']['document']['title'] = page['name']
     title.update(lines=[], sourceSha256=sc.pe.hash_text(''))
-    raw = TITLE_ART.read_bytes()
-    key = sc.digest(TITLE_ART)
+    raw = artwork.read_bytes()
+    key = sc.digest(artwork)
     with Image.open(BytesIO(raw)) as image:
         width, height = image.size
         x0, y0, x1, y1 = image.convert('L').point(lambda v: 255 if v < 96 else 0).getbbox()
@@ -61,10 +61,10 @@ def place_title_art(state):
         del edition['assets'][unused]
 
 
-def title_art_metadata(state):
+def title_art_metadata(state, *, artwork=TITLE_ART):
     plate, = state['printEdition']['pages'][state['pages'][0]['pageId']]['images']
     asset = state['printEdition']['assets'][plate['asset']]
-    return dict(file=TITLE_ART.relative_to(ROOT).as_posix(), sha256=plate['asset'],
+    return dict(file=artwork.relative_to(ROOT).as_posix(), sha256=plate['asset'],
                 rectPt=plate['rect'], pixels=[asset['width'], asset['height']])
 
 

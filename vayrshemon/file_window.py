@@ -158,10 +158,7 @@ class FileWindow(GlossWindow):
 
     def refresh(self):
         super().refresh()
-        fixed=bool(self.book.state.get('printEdition'))
-        self.mode.setEnabled(not fixed)
-        self.mode.setToolTip('This fixed print edition uses black ink on white paper.' if fixed else 'Color / relief, white on black, or black on white. Proofs use this choice.')
-        if fixed:
+        if self.book.state.get('printEdition'):
             self.editor.setReadOnly(True)
             self.frame_heading.setText('FROZEN PRINT TEXT · select and copy')
         if self.page_navigator:self.page_navigator.sync()

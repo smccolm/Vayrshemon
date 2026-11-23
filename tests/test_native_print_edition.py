@@ -85,6 +85,18 @@ class NativePrintTests(unittest.TestCase):
         publication.export(self.book,pdf,format='pdf',mode='mono',page_id=first['pageId'],pdf_view='two')
         reader=PdfReader(pdf);self.assertEqual(len(reader.pages),1);self.assertTrue(list(reader.pages[0].images))
         for image in self.book.state['printEdition']['assets'].values():self.assertTrue(image['png'])
+        original_assets = deepcopy(self.book.state['printEdition']['assets'])
+        api = FileAPI(self.book)
+        api.dispatch('view.configure',dict(mode='mono',monochromePaper='black'))
+        self.assertFalse(self.book.dirty)
+        alternate = self.folder/'night.vay'
+        self.book.save(alternate,preview_mode='one')
+        self.book.open(alternate,advance_revision=False)
+        self.assertEqual(self.book.saved_preview['colorMode'],'mono-black')
+        self.assertEqual(self.book.state['printEdition']['assets'],original_assets)
+        body = self.book.state['pages'][3]
+        check = publication.preflight(self.book,format='svg',mode='color',dpi=96,page_id=body['pageId'])
+        self.assertTrue(check['rasterFallback'])
 
     def test_numbering_changes_are_safe_and_undoable(self):
         self.build();page=self.book.state['pages'][3];self.book._state=self.book.capture()

@@ -1,6 +1,7 @@
 """Compile the authored four-column working text of The Prince."""
 import argparse
 from bisect import bisect_right
+from copy import deepcopy
 from hashlib import sha256
 from itertools import chain
 import json
@@ -50,7 +51,58 @@ SENSES = {
 
 
 def write(path, data):
-    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8')
+    path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + '\n', encoding='utf-8', newline='\n')
+
+
+def lexical_distinctions(language):
+    """Load authored synonyms without changing the inherited, sealed vocabulary."""
+    path = WORK / 'lexical-distinctions.json'
+    if not path.exists():
+        return {}, {}
+    entries = json.loads(path.read_text(encoding='utf-8'))['entries']
+    additions, glosses = {}, {}
+    forms = {entry['form'].casefold() for entry in language.lexicon.values()}
+    for key, record in entries.items():
+        entry = deepcopy(record)
+        glosses[key] = entry.pop('gloss')
+        if key in language.lexicon or not set(entry['form']) <= language.letters:
+            raise ValueError('INVALID_NATIVE_LEXICAL_ADDITION: ' + key)
+        if not entry.get('derivationKeys') and entry['form'].casefold() in forms:
+            raise ValueError('NEW_ROOT_COLLISION: ' + key)
+        entry['roman'] = language.reading(entry['form'])
+        additions[key] = entry
+        forms.add(entry['form'].casefold())
+    return additions, glosses
+
+
+def join_alignment_groups(units, groups):
+    """Join explicitly authored complete clauses, retaining all other stable IDs."""
+    result = deepcopy(units)
+    for group in groups:
+        ids = group['unitIds']
+        if len(ids) < 2 or len(set(ids)) != len(ids):
+            raise ValueError('INVALID_ALIGNMENT_GROUP')
+        positions = [i for i, u in enumerate(result) if u['id'] in ids]
+        if not positions:  # A --through build may not yet include this section.
+            continue
+        start = positions[0]
+        selected = result[start:start + len(ids)]
+        if [u['id'] for u in selected] != ids:
+            raise ValueError('NONCONTIGUOUS_ALIGNMENT_GROUP: ' + repr(ids))
+        if len({u['chapter'] for u in selected}) != 1:
+            raise ValueError('CROSS_SECTION_ALIGNMENT_GROUP')
+        if any(u.get('editorialTreatment') for u in selected):
+            raise ValueError('OMITTED_ALIGNMENT_GROUP')
+        if any(a['sourceOffsets'][1] + 1 != b['sourceOffsets'][0]
+               for a, b in zip(selected, selected[1:])):
+            raise ValueError('NONCONTIGUOUS_SOURCE_OFFSETS')
+        merged = dict(selected[0], source=' '.join(u['source'] for u in selected),
+                      analysis=' '.join(u['analysis'] for u in selected),
+                      sourceOffsets=[selected[0]['sourceOffsets'][0], selected[-1]['sourceOffsets'][1]],
+                      lineEnd=selected[-1]['lineEnd'], mergedUnitIds=ids,
+                      alignmentNote=group['reason'])
+        result[start:start + len(ids)] = [merged]
+    return result
 
 
 def compile_opening(through=None):
@@ -70,6 +122,9 @@ def compile_opening(through=None):
                 paragraph_starts.add(offset)
             offset += len(line.strip()) + 1
     language = EditorialLanguage(PARENT / 'Language')
+    authored, authored_glosses = lexical_distinctions(language)
+    language.lexicon.update(authored)
+    language.glosses.update(authored_glosses)
     extra_path = WORK / 'vocabulary.json'
     extra = json.loads(extra_path.read_text(encoding='utf-8')) if extra_path.exists() else {}
     additions, glosses = lexical_entries(language, NAMES | extra.get('names', {}),
@@ -77,6 +132,7 @@ def compile_opening(through=None):
                                           places={'lukka_city', *extra.get('places', [])})
     for key, entry in additions.items():
         assert key not in language.lexicon and set(entry['form']) <= language.letters | {' '}
+    additions = authored | additions
     language.lexicon.update(additions)
     language.glosses.update(glosses)
     units = []
@@ -168,6 +224,9 @@ def compile_opening(through=None):
     assert all(u['source'] == source[slice(*u['sourceOffsets'])] for u in units if 'editorialTreatment' not in u)
     next_text = source[cursor:]
     next_heading = re.match(r'CHAPTER ([IVXL]+)\.', next_text)
+    groups_path = WORK / 'alignment-groups.json'
+    if groups_path.exists():
+        units = join_alignment_groups(units, json.loads(groups_path.read_text(encoding='utf-8'))['groups'])
     compiled = language.compile_units(units)
     for u in compiled:
         if u.get('editorialTreatment') == 'Omission':
@@ -215,7 +274,10 @@ def prepare(stage, through=None):
             headword=entry['form'],orthographyId='thimfora-79',pronunciation=entry['roman'],ipa='',
             partOfSpeech=entry['pos'],senses=[dict(id=eid+'.sense',definition=entry['meaning'],status='draft',
             citations=[dict(sourceId=sid,locator=key)])],variants=[],etymology=entry['origin'],
-            exampleIds=[],audioLinks=[]))
+            exampleIds=[],audioLinks=[],
+            **({'notes': json.dumps({k:entry[k] for k in ('synonymGroup','denotation','connotation','contrasts')
+                                     if k in entry}, ensure_ascii=False)}
+               if entry.get('synonymGroup') else {})))
     draft_hash = sha256(json.dumps(language, ensure_ascii=False, sort_keys=True,
                                    separators=(',',':')).encode()).hexdigest()
     write(stage/'snapshot.json', dict(head='working-language-'+draft_hash, snapshot=dict(language=language)))
@@ -308,6 +370,10 @@ if __name__ == '__main__':
         raise SystemExit(0)
     ledger = prepare(args.stage, args.through)
     if args.compose:
+        if (WORK / 'preserved-edit-overrides.json').exists():
+            raise ValueError('MANUAL_EDITS_NOT_IN_AUTHORING_LEDGER: preserve the current native '
+                             'pages 837–838; reconcile Working/preserved-edit-overrides.json '
+                             'before a full rebuild. Local heading revisions retain those pages exactly.')
         from tools.compose_historical_book import compose
         compose(args.stage/'ledger.json', args.stage/'snapshot.json',
                 args.stage/'The Prince - Four-Column Progressive Edition.vay', reuse=args.reuse)

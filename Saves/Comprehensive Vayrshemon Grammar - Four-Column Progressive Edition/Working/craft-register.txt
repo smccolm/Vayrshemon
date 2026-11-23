@@ -1,0 +1,56 @@
+# A mechanism spoken from the hand to the load | how motion from one_num part to another go:pr
+E | wheel:a i turn:pa. | I turned the wheel.
+E | kjv_axletree turn:pa. | The axle turned.
+E | kjv_axletree:a wheel turn:caus:pa. | The wheel caused the axle to turn.
+P | first hand and wheel bind:pr. second kjv_axletree alone move:pr. third motion from one_num to another claim:pr. | These could be three stages of a workshop demonstration. Merely observing the first two in succession leaves open whether the wheel drove the axle or slipped on it while something else turned the axle. The causative makes a stronger claim. Ask the apprentice what observation would distinguish torque transmitted through the joint from simultaneous motion.
+E | wheel turn:pa. kjv_axletree turn:neg:pa. | The wheel turned. The axle did not.
+P | where motion stop:pa tell:imp before what break:pa say:pr thou. | The last pair locates a failure of transmission in the proposed mechanism. It leaves the failed part open. A useful fault report preserves this intermediate state of knowledge. A label such as “broken axle” would already have chosen a diagnosis.
+# Parts, clearances and the language of fit | how much space two part:pl between remain:pr
+G | reg_clearance
+E | door:g edge and stone between small:m space remain:pr. | A small space remains between the edge of the door and the stone.
+E | door turn:pr:can. door close:neg:pr:can. | The door can swing. It cannot close.
+P | how far turn:pr:can q? when edge stone:a touch:pr q? two question:pl what part change:inf show:pr. | Free movement at the beginning of travel says little about clearance at the end. The two modal clauses can both be true of the same door. Record the surfaces, position and direction of motion. “It fits” lacks all three and can mean either that the door enters the opening or that it completes its travel.
+E | door:g edge stone:a touch:pr when door almost close:pr. | The edge touches the stone when the door is nearly closed.
+P | last word when change:pr:can. if write:imp in place of when. now what learn:pr new:m work:ag? | Changing when to if turns a report of contact into a condition under which the reader might find it. That is a legitimate instruction for inspection, but it no longer attests that anyone actually reproduced the fault. Keep both sentences if the work record needs diagnosis and verification.
+# A craft instruction that survives a change of worker | instrument, patient and end of work
+E | needle:ins kjv_dragnet:a mend:imp. | Mend the net with a needle.
+E | needle:a mend:imp. | Mend the needle.
+E | each broken:m knot:a mark:imp. then one_num after another mend:imp. | Mark each broken knot. Then mend them one after another.
+P | needle:ins and needle:a compare:imp. repair:ag change:pr:can but case on needle work keep:pr. | The case distinction is recoverable when a copied instruction loses its heading. In the third specimen the second command relies on the marked knots already established as its objects. A new paragraph introducing a second damaged item would make that economy costly. Name the patient again at a handover.
+E | last knot close:psv:perf. kjv_dragnet:a test:neg:perf wepl. | The last knot has been closed. We have not tested the net.
+P | work end:perf and thing work:pr:can separate:imp. | A completed repair and a verified performance are different entries in a maintenance history. The perfect marks the resulting closed knot. Testing remains a separate event with its own agent and result. A later user can decide whether the net may be trusted only if those claims have stayed distinct.
+# Sounding a channel and naming the position of a reading | water:g water_depth and where measure:psv:pa
+W | dampier | dampier.0977.003
+P | island near one_num read:ev, land near different:m read:ev. or put:psv:perf between two number_abstract:pl. | Dampier gives twelve or fourteen fathoms near the island and progressively shallower soundings toward the mainland. His disjunction offers alternatives. Turning it into a uniform thirteen-fathom depth would destroy both the alternatives and the route along which the observation changes.
+E | island near twelve fathom:pl measure:pa wepl. | We measured twelve fathoms near the island.
+E | island:abl land:all water_depth less become:pa. | From the island toward the mainland the depth decreased.
+P | first where one_num value find:psv:pa say:pr. second way of change say:pr. harbour tomorrow same:m value give:fu q? | A locative attaches a reading to a place. Source and goal together orient a sequence of readings. A pilot’s report can still require a time and tidal state before another crew interprets it. The translation preserves Dampier’s historical sounding as testimony about his voyage.
+# Navigational instruments and their grammatical patients | direction measure:inf and direction follow:inf
+W | dampier | dampier.0187.001
+E | dam_compass:ins north:a i find:pa. | I found north with the compass.
+E | dam_compass:a north:all i carry:pa. | I carried the compass northward.
+P | first instrument means be:pr. second same:m thing move:pr. direction:g name twice appear:pr but its/work change:pr. | In Dampier’s pocket-compass passage the instrument helps establish the march’s direction. In the constructed pair a compass can be the means by which an observation is made or the cargo being carried. A catalogue heading saying merely “compass, north” cannot decide which event the writer is recording.
+E | rudder_ship:a turn:imp. boat turn:pa q? | Turn the rudder. Did the boat turn?
+P | command and question different:m time:pl need:pr. first work tell:pr. second witness ask:pr for. | The order names the controlled part. The verification asks about the larger system. An editor who silently replaces one object with the other turns an instruction into a promise of successful steering. Instrumental writing often becomes clearer when it gives each step its own noun.
+# Sampling a signal and reading a silent channel | when instrument look:pr and when signal appear:pr
+E | each hour instrument lamp:a watch:pr. | The instrument checks the lamp once each hour.
+E | lamp between two watch:ev:pl flash:pa. | The lamp flashed between two checks.
+E | instrument no light:a record:pa. | The instrument recorded no light.
+P | three sentence:pl together true:m be:pr:can. time of flash time of watch:ev reach:neg:pa. | Imagine a device that takes a brief reading on each stroke of an hourly bell. A lamp flashes halfway between strokes and is dark again at the next. A row of dark readings can agree exactly with a record of the flash made by a person watching continuously. The disagreement appears only when someone silently expands “dark at every sample” into “dark throughout the interval.”
+E | instrument quiet:m be:pa. instrument work:pa q? | The instrument was quiet. Was it working?
+P | quiet:m signal and no record apart mark:imp. one_num read:ev dark:m give:pr. another read:ev receive:neg:psv:pr. | A dark sample is a value returned by a working instrument. A missing sample is a gap in the record. If the observer could not check that the device was working, a blank cell cannot reliably stand for darkness. In a technical note preserve the subject of record as carefully as the subject of shine.
+# Instructions to a controller and evidence of a state change | what ask:psv:pa and what change:pa
+E | gate:a close:inf signal:a wepl send:pa. | We sent a signal to close the gate.
+E | gate close:prog. | The gate is closing.
+E | gate close:psv:perf. | The gate has been closed.
+P | first send:ev complete:m be:pr. second motion still happen:pr. third result assert:psv:pr. | A controller can acknowledge receipt while the mechanism is still moving. A second signal from a contact at the end of travel supports a different claim about position. Keep the infinitive of intended action under “send” until separate evidence licenses the finite result. This distinction remains important when both kinds of message come from the same machine.
+E | signal:a twice receive:pa wepl. gate twice close:pa q? | We received the signal twice. Did the gate close twice?
+P | same:m signal twice come:pr:can for one_num event. which thing twice happen:pa write:imp. | In a record copied from two instruments, the same acknowledgment can appear twice. Two receipt times count messages. They do not establish two completed movements. A useful event history names the sender, the state claimed, and whether the time dates sending, receipt, or measured motion.
+# A lamp with two thresholds and a memory | how last state next state at same:m mark change:pr:can
+E | when reg_readout six reach:pr, lamp:a ignite:imp. when reg_readout four reach:pr, lamp:a extinguish:imp. | When the reading reaches six, light the lamp. When the reading reaches four, put it out.
+E | two graduation_mark:pl between last state:a keep:imp. | Between the two marks keep the previous state.
+P | four from five to reg_readout rise:pa. lamp dark:m remain:pa. six from five to reg_readout fall:pa. lamp bright:m remain:pa. | Start with the lamp dark at four. The successive readings are four, five, six, five, four. The states after each reading are dark, dark, light, light, dark. The middle value of five occurs twice. A definition that assigns one lamp state to each numerical value fails on this trace.
+E | reg_readout five be:pr. lamp shine:pr q? | The reading is five. Is the lamp lit?
+P | which mark last reach:psv:pa say:imp. if know:neg:pr thou, question open:m remain:pr. | At the intermediate value the preceding state matters. In engineering this dependence on the path is called hysteresis. For the exercise assume the reading moves a single division at a time. An implementation that can jump from three to seven needs a rule for crossing a boundary as well as a rule for landing on it.
+E | six reach:pr when and six above be:pr when compare:imp. | Compare “when it reaches six” with “when it is above six.”
+P | at six first true:m be:pr. at six second false:m be:pr. | A rising sequence ending exactly at six satisfies the first condition. A strict comparison with values above six would delay the change. One preposition changes which samples trigger action, even when both instructions sound equally plausible spoken at the bench.

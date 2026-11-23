@@ -80,7 +80,7 @@ class VectorPrint:
         return total
 
 
-def render_duplex(state, staged, title, *, use_printed_folios=False):
+def render_duplex(state, staged, title, *, use_printed_folios=False, section_tops=None):
     """Render and verify a collected-layout native book, including physical binding parity."""
     edition = state['printEdition']
     proof = Typesetter(next(f for f in state['fontSources'] if f['fontId'] == pe.DRAMA_PUNCT))
@@ -99,7 +99,9 @@ def render_duplex(state, staged, title, *, use_printed_folios=False):
     pdf._doc.Catalog.OpenAction=pdf.bookmarkPage('native-title-spread')
     printer=VectorPrint(pdf,proof)
     cfg = state['pageNumbering']
-    section_names = {s['pageId']:s['name'] for s in edition['sections']}
+    section_names = {}
+    for section in edition['sections']:
+        section_names.setdefault(section['pageId'],[]).append(section['name'])
     bookmarks = []
     links = pe.contents_links(state)
     labels = ['Binding blank']
@@ -116,15 +118,20 @@ def render_duplex(state, staged, title, *, use_printed_folios=False):
                     pdf.addPageLabel(n,style='ARABIC',start=1)
                 labels.append(str(spec['folio']))
             if spec['kind']=='contents':
-                section_names[pid]=page['name']
+                section_names[pid]=[page['name']]
         else:
             labels.append(str(n))
         assert spec['side']==('center' if n==1 else 'left' if n%2 else 'right')
         left=int(page['margins']['left'])/1e6
         if pid in section_names:
-            bookmarks.append((section_names[pid],pdf.getPageNumber()-1))
             pdf.bookmarkPage(pid)
-            pdf.addOutlineEntry(section_names[pid],pid)
+            for name in section_names[pid]:
+                bookmarks.append((name,pdf.getPageNumber()-1))
+                target=pid
+                if section_tops and name in section_tops:
+                    target='section-'+str(len(bookmarks))
+                    pdf.bookmarkHorizontalAbsolute(target,792-section_tops[name]+4)
+                pdf.addOutlineEntry(name,target)
         for link in links.get(pid, []):
             x,y,w,h = link['bounds']
             target = state['pages'][link['page']-1]['pageId']
@@ -142,7 +149,7 @@ def render_duplex(state, staged, title, *, use_printed_folios=False):
         bounds=[]
         for rule in spec['paths']:
             pdf.setFillColorRGB(17/255,17/255,17/255)
-            if rule['role']=='contents-column-divider':
+            if rule['role'] in ('contents-column-divider','dictionary-running-head-rule'):
                 x,y,width,height=rule['bounds']
                 pdf.rect(x,y,width,height,stroke=0,fill=1)
             else:
@@ -191,6 +198,9 @@ def render_duplex(state, staged, title, *, use_printed_folios=False):
     assert check.get_destination_page_number(check.open_destination)==1
     assert all(tuple(map(float,p.mediabox))==(0,0,612,792) for p in check.pages)
     assert [(b.title,check.get_destination_page_number(b)) for b in check.outline]==bookmarks
+    for entry in check.outline:
+        if section_tops and entry.title in section_tops:
+            assert abs(float(entry.top)-(792-section_tops[entry.title]+4))<.01
     assert check.viewer_preferences.duplex=='/DuplexFlipLongEdge' and check.viewer_preferences.print_scaling=='/None'
     assert not check.pages[0].extract_text().strip() and not check.pages[2].extract_text().strip()
     title_images=edition['pages'][state['pages'][0]['pageId']]['images']

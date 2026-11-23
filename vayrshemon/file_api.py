@@ -61,6 +61,25 @@ class FileSession(BookSession,GlossSession):
         state['pageNumbering']=new_document_defaults()
         return state
 
+    @classmethod
+    def content_digest(cls, state):
+        if state.get('printEdition'):
+            # Reading palettes are navigation state. Use the historical print
+            # defaults for dirty checks, including older recovery checkpoints.
+            state = dict(state, view=dict(state['view'], mode='mono', monochromePaper='white'))
+        return super().content_digest(state)
+
+    def set_print_palette(self, values):
+        if any(self.view.get(key) != value for key, value in values.items()):
+            dirty = self.dirty
+            self.view.update(values)
+            self.revision += 1
+            self.state['revision'] = self.revision
+            self._state = dict(self._state, view=dict(self.view), revision=self.revision)
+            self._navigation_dirty = (self.revision, dirty)
+            self.changed.emit()
+        return dict(view=dict(self.view), recipe=self.fonts.recipe)
+
     def add_page(self,*args,**kwargs):
         config=page_numbering.settings(self)
         if config['enabled'] and len(self.state['pages'])+1>=config.get('minimumPages',1):
@@ -189,8 +208,8 @@ class FileAPI(GlossAPI):
     def dispatch(self,method,params):
         from . import print_edition
         if method=='publication.edition.inspect':return print_edition.inspect(self.session,**params)
-        if self.session.state.get('printEdition') and method=='view.configure' and (params.get('mode','mono')!='mono' or params.get('monochromePaper','white')!='white'):
-            raise ValueError('FIXED_PRINT_PALETTE: this edition is black ink on white paper')
+        if method=='view.configure' and self.session.state.get('printEdition') and params.keys() <= {'mode','monochromePaper'}:
+            return self.session.set_print_palette(params)
         if self.session.state.get('printEdition') and self.methods.get(method,(None,False))[1] and method not in print_edition.ALLOWED_MUTATIONS:
             raise ValueError('FIXED_PRINT_EDITION: text and page geometry are sealed to preserve this historical publication. Search, copy, save, navigation, numbering and export remain available.')
         if method=='document.close':

@@ -16,7 +16,7 @@ CACHE_VERSION = 2
 
 @lru_cache(maxsize=1)
 def engine_key():
-    files=[ROOT/'Reader'/n for n in ('render.py','storage.py')]+[ROOT/'vayrshemon'/n for n in ('typesetting.py','studio_typesetting.py','paint.py','roman_paint.py','pages.py','page_numbering.py','print_edition.py','frame.py','session.py')]
+    files=[ROOT/'Reader'/n for n in ('render.py','storage.py')]+[ROOT/'vayrshemon'/n for n in ('typesetting.py','studio_typesetting.py','paint.py','roman_paint.py','monochrome.py','pages.py','page_numbering.py','print_edition.py','frame.py','session.py')]
     return hashlib.sha256(b''.join(p.read_bytes() for p in sorted(files))).hexdigest()[:20]
 
 

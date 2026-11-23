@@ -20,7 +20,7 @@ def main():
                 started=time.perf_counter();mode='color' if palette=='color' else 'mono'
                 reference.view.update(mode=mode,monochromePaper='black' if palette=='black' else 'white')
                 pid=reference.state['pages'][number-1]['pageId']
-                expected,_=pages.render(reference,page_id=pid,mode=mode,dpi=62.4,page_mode=view)
+                expected,_=pages.render(reference,page_id=pid,mode=mode,dpi=62.4,page_mode=view,reading=True)
                 result=engine.render(number,palette,view,.65);actual=read_image(result['path'])
                 equal=bytes(expected.constBits())==bytes(actual.constBits()) and expected.size()==actual.size()
                 row=dict(page=number,palette=palette,view=view,pixelIdentical=equal,ms=round((time.perf_counter()-started)*1000,2))

@@ -1,0 +1,49 @@
+<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Vayrshemon dictionary and thesaurus</title>
+<style>
+@font-face{font-family:Thimfora;src:url("Index data/Thimfora.ttf")}*{box-sizing:border-box}body{margin:0;color:#222b2b;background:#faf9f5;font:16px/1.5 Georgia,serif}
+header{border-bottom:1px solid #a9aaa5;padding:1.1rem 4vw;background:#eeeee6}h1,h2,h3,p{margin:.4em 0}h1{font:normal clamp(1.5rem,3.4vw,2.6rem) Georgia,serif}
+main{max-width:1450px;margin:auto;display:grid;grid-template-columns:minmax(240px,30%) 1fr;min-height:80vh}aside{border-right:1px solid #ccc;padding:1.2rem 2vw}article{padding:1.4rem 3vw;min-width:0}
+label,small,.meta,button,input,select,.links a,.vol{font: 0.91rem/1.45 system-ui,sans-serif}input,select{border:1px solid #888;background:white;color:#222;padding:.48rem;width:100%;margin:.25rem 0 .65rem}
+a{color:#165653;text-decoration-thickness:1px;text-underline-offset:.17em}a:focus-visible,button:focus-visible{outline:2px solid #955d32;outline-offset:2px}
+#list{list-style:none;padding:0;margin:.8rem 0}#list li{padding:.28rem 0;border-bottom:1px solid #e4e3d8}#list small{display:block;color:#515a54}
+.native{font:2.3rem/1.25 Thimfora,Georgia;overflow-wrap:anywhere}.head{font-size:3.8rem}.roman{font-style:italic;color:#515951}
+.meta{color:#58635b}.sense{padding:1rem 0;border-bottom:1px solid #cdcfc5}blockquote{margin:.6rem 0 .4rem;padding:0 1rem;border-left:2px solid #9eaf9f}
+.links{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:.3em 1em}.links a{overflow-wrap:anywhere}details{margin:.75rem 0}
+nav a{margin-right:.8em}.count{font-size:.88rem}button{padding:.3em .9em;background:#f1f2e9;border:1px solid #aaa;border-radius:2px}
+@media(max-width:680px){main{display:block}aside{border:0;border-bottom:1px solid #b8bcb3}#list{max-height:8.5rem;overflow:auto}.head{font-size:3rem}}
+</style><header><h1>Vayrshemon dictionary and thesaurus</h1><div class="meta" id="counts"></div><nav class="vol"><a href="Volumes.html">Alphabetical volumes</a><a href="Four-Column Progressive Edition/Volume 00 - How to Use the Expanded Edition.vay">Four-column reader’s guide</a><a href="Letter Print Edition/Vayrshemon Dictionary and Thesaurus - Complete Print Edition.vay">Complete print manuscript</a><a href="Letter Print Edition/Vayrshemon Dictionary and Thesaurus - Complete Duplex Print.pdf">Complete duplex PDF</a></nav></header>
+<main><aside><label for="q">Find a word, sense, or literary allusion</label><input type="search" id="q" placeholder="e.g. Solomon, easy, jōrek" autocomplete="off">
+<label for="kind">Entries</label><select id="kind"><option value="">All entries</option><option value="old">Earlier dictionary</option><option value="new">New vocabulary</option><option value="individual">Individually written</option><option value="allusion">Name-derived</option><option value="idiom">Idioms</option></select>
+<label for="grammar">Word class</label><select id="grammar"><option value="">All word classes</option></select>
+<div class="meta" id="found"></div><ul id="list"></ul><button id="more" hidden>Show more</button></aside><article id="entry" aria-live="polite"></article></main>
+<script src="Index data/words.js"></script><script src="Index data/locations.js"></script><script src="Index data/earlier.js"></script><script src="Index data/volume-status.js"></script><script>
+const $=s=>document.getElementById(s),esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c])),fold=s=>s.normalize('NFD').replace(/[\u0300-\u036f]/g,'').toLowerCase(),cache=new Map(),loading=new Map();
+const keys=window.words.map((r,id)=>fold([r[0],r[1],r[2],r[5],r[8],r[9],...(window.earlierReadings?.[id]||[]).map(e=>e[0]),window.englishUses?.[id]?.keys||''].join(' ')));let limit=22,navToken=0;
+const classNames={proper:'proper name',adj:'adjective or modifier',adjective:'adjective or modifier',modifier:'adjective or modifier',v:'verb','n, cnt':'noun','n, m':'noun',lexical:'',b:'','related to':'',derived:''};
+const classes=window.words.map(r=>(r[4]||'').split('/').map(raw=>{let c=raw.trim();return classNames[c]??c}).filter(Boolean));
+const link=(id,s)=>'<a href="#word-'+id+'">'+esc(s)+'</a>';
+function results(){let q=fold($('q').value.trim()),terms=q.split(/\s+/),k=$('kind').value,grammar=$('grammar').value,words=window.words;
+let hits=[];for(let id=0;id<words.length;id++){let r=words[id];if((grammar&&!classes[id].includes(grammar))||(k==='new'&&r[3]==='old')||(k==='old'&&r[3]!=='old')||(k==='individual'&&!r[3].startsWith('individual'))||(k==='allusion'&&!(r[3].includes('allusi')))||(k==='idiom'&&r[4]!=='idiom'))continue;
+if(!q||terms.every(t=>keys[id].includes(t))){let score=0;if(q){for(let v of [r[0],r[1],r[2]]){let s=fold(v);if(s===q)score=Math.max(score,9);else if(s.startsWith(q))score=Math.max(score,5)}if(fold(r[5])===q)score=Math.max(score,8);if(!score&&keys[id].includes(q))score=1}hits.push([id,score])}}
+if(q)hits.sort((a,b)=>b[1]-a[1]||a[0]-b[0]);$('found').textContent=hits.length.toLocaleString()+' matches';$('list').innerHTML=hits.slice(0,limit).map(([id])=>'<li>'+link(id,words[id][0])+'<small>'+esc(words[id][1])+'</small></li>').join('');
+$('more').hidden=hits.length<=limit}
+function chunk(k){if(cache.has(k))return Promise.resolve(cache.get(k));if(loading.has(k))return loading.get(k);let p=new Promise((res,rej)=>{let s=document.createElement('script');s.onload=()=>res(cache.get(k));s.onerror=()=>rej(Error('The index data for this range could not be read. Keep the Index data folder beside this file.'));s.src='Index data/range-'+k+'.js';document.head.append(s)});loading.set(k,p);return p}
+window.setRange=(k,rows)=>cache.set(k,rows);
+const desc={'sense':'Related distinctions','sibling distinction':'Compare the sibling senses','allusion':'Literary source and its adaptations','figurative bridge':'Figurative connections','connected idea':'Related concepts','associated sense':'Associated readings','application':'Field of use','earlier thesaurus':'Earlier thesaurus family','same lexical sense':'Shared lexical reading','distinguish':'Distinguish these ideas'};
+async function show(){const token=++navToken;let m=location.hash.match(/^#word-(\d+)$/),id=m?+m[1]:window.startWord;if(id<0||id>=words.length)id=window.startWord;let n;try{n=(await chunk(Math.floor(id/200)))[id%200]}catch(e){$('entry').textContent=e.message;return}if(token!==navToken)return;
+let gs={};for(const [j,types] of n.links)for(const t of types)(gs[t]??=[]).push(j);
+let html='<nav class="vol">'+(id?link(id-1,'Previous word'):'')+(id+1<words.length?link(id+1,'Next word'):'')+'</nav><div class="native head">'+esc(n.form)+'</div><div class="roman">'+esc(n.roman)+'</div><h2>'+esc(n.label)+'</h2><div class="meta">'+esc(n.pos||'lexical entry')+' · '+esc(n.method||'Earlier dictionary')+'</div>';
+let vol='Volume '+String(Math.floor(id/1600)+1).padStart(2,'0'), leaf=window.printLocations?.[id];
+let spread=window.progressiveLocations?.[id],progressive=window.progressiveVolumes?.includes(Math.floor(id/1600)+1)?'<a href="Four-Column Progressive Edition/'+vol+'.vay">Four-column '+vol.toLowerCase()+(spread?' · pp. '+spread+'–'+(spread+1):'')+'</a> ':'';
+html+='<nav class="vol">'+progressive+'<a href="Letter Print Edition/'+vol+'.vay">Print manuscript'+(leaf?' · page '+(leaf-1):'')+'</a> <a href="Letter Print Edition/'+vol+' - Duplex Print.pdf'+(leaf?'#page='+leaf:'')+'">Print PDF'+(leaf?' · page '+leaf:'')+'</a></nav>';
+if(Number.isInteger(n.anchor))html+='<p>Source headword '+link(n.anchor,words[n.anchor][0]+' · '+(n.sourceLabel||words[n.anchor][1]))+'</p>';
+if(n.basis)html+='<details><summary>Basis for the allusion</summary><p>'+esc(n.basis)+'</p><blockquote>'+esc(n.sourceUse)+'</blockquote></details>';
+for(let i=0;i<n.reads.length;i++){let r=n.reads[i];html+='<section class="sense">'+(n.reads.length>1?'<h3>Sense '+(i+1)+'</h3>':'')+'<div class="native">'+esc(r.definition)+'</div><p>'+esc(r.meaning)+'</p><blockquote><div class="native">'+esc(r.example)+'</div><div>'+esc(r.exampleEnglish)+'</div></blockquote><details><summary>Sources and construction</summary>'+esc((r.references||[]).join(' · '))+'<br>'+esc(r.gloss||'')+'</details></section>'}
+for(const [family,ex,en,folio] of window.earlierReadings?.[id]||[]){html+='<details><summary>'+esc(family)+' · earlier thesaurus example</summary><blockquote><div class="native">'+esc(ex)+'</div>'+esc(en)+'</blockquote><a href="'+window.earlierBook+'">Original four-column family, page '+folio+'</a></details>'}
+const usage=window.englishUses?.[id];if(usage){html+='<details><summary>Choosing a word from English “easy”</summary><p>Someone who calls the work easy may have learned the skill, passed the hard part to someone else, or mistaken a promising sign for a secured result. Applied to a person’s intimate life, the English word can mix up desire, consent on one occasion, and a claim made about someone’s reputation.</p><div class="links">'+usage.peers.filter(j=>j!==id).map(j=>link(j,words[j][0]+' · '+words[j][1])).join('')+'</div></details>'}
+for(let [t,ids] of Object.entries(gs)){html+='<details '+(ids.length<35?'open':'')+'><summary>'+esc(desc[t]||t)+' ('+ids.length+')</summary><div class="links">'+ids.map(j=>link(j,words[j][0]+' · '+words[j][1])).join('')+'</div></details>'}
+$('entry').innerHTML=html;document.title=n.roman+' · Vayrshemon';}
+for(const cls of [...new Set(classes.flat())].sort())$('grammar').add(new Option(cls,cls));
+$('counts').textContent=window.summary;$('q').oninput=$('kind').onchange=$('grammar').onchange=()=>{limit=22;results()};$('more').onclick=()=>{limit+=40;results()};window.onhashchange=show;results();show();
+</script></html>

@@ -170,7 +170,7 @@ class Engine:
         self.book.composition(page_id=page['pageId']);composed=time.perf_counter()
         # Use the complete original raster path, including DPI and clipping.
         # Below 25% retain a higher-resolution source for the UI to scale down.
-        image,_=pages.render(self.book,page_id=page['pageId'],mode=self.book.view['mode'],dpi=max(24,scale*96),page_mode=view)
+        image,_=pages.render(self.book,page_id=page['pageId'],mode=self.book.view['mode'],dpi=max(24,scale*96),page_mode=view,reading=True)
         painted=time.perf_counter();write_image(path,image);finished=time.perf_counter()
         self.writes+=1
         if self.writes%16==1:self.prune()

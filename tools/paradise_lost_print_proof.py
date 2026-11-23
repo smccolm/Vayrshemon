@@ -10,11 +10,11 @@ from PySide6.QtWidgets import QApplication
 from Reader import storage
 from Reader.render import Engine, read_image
 from Reader.app import Window
-from tools import paradise_lost_print as lp
+from tools import paradise_lost_print as milton
 from vayrshemon.editor_window import PageCanvas
 
 
-def prove():
+def prove(lp=milton):
     folder = lp.STAGE
     native, pdf = folder / lp.NATIVE, folder / lp.PDF
     receipt = lp.sc.read(folder / 'edition-manifest.json')
@@ -35,7 +35,7 @@ def prove():
     QApplication.processEvents()
     numbers = {p['pageId']: i for i, p in enumerate(window.meta['headers'], 1)}
     links = {numbers[k]: v for k, v in window.meta['contentsLinks'].items()}
-    assert sum(map(len, links.values())) == 12
+    assert sum(map(len, links.values())) == receipt['linkedContentsEntries']
     reader_clicks = 0
     for mode in ('one', 'two'):
         window.mode = mode

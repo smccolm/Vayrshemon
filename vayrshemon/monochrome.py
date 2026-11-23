@@ -2,6 +2,13 @@
 from PySide6.QtGui import QColor
 
 
+def color_paper(state, *, reading=False):
+    """Use black for relief reading and for the color rendition of a fixed print edition."""
+    if reading or state.get('printEdition'):
+        return QColor('black')
+    return QColor(state.get('paint', {}).get('background', '#FFFFFFFF'))
+
+
 def palette(background='#FFFFFFFF',paper='auto'):
     """Keep dark paper dark, with opposite opaque ink; transparency is white paper.
 

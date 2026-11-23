@@ -13,7 +13,7 @@ from bisect import bisect_right
 from PySide6.QtCore import QPointF,QRectF,Qt,QTextBoundaryFinder
 from PySide6.QtGui import QFont,QTextLayout,QTextOption,QTextFormat,QTextCharFormat,QPainterPath,QPainter,QColor,QPen,QGlyphRun
 from . import layout
-from .monochrome import palette
+from .monochrome import color_paper, palette
 from .session import SCALE,STYLE,LANGUAGE,KIND,scalar_offset,utf16_length,BLOCK
 from .typesetting_contracts import profile as default_profile
 
@@ -456,12 +456,12 @@ class Composition:
                     collisions=selected,solver=self.solver,expansionPoints=self.expansion,
                     unresolvedReasons=sorted(reasons))
 
-    def paint(self,painter,page_id,mode=None,clip=None,overlays=None,guides=False,outlines=False):
+    def paint(self,painter,page_id,mode=None,clip=None,overlays=None,guides=False,outlines=False,*,reading=False):
         page=next(p for p in self.book.state['pages'] if p['pageId']==page_id)
         boundary=QRectF(0,0,int(page['width'])/1e6*SCALE,int(page['height'])/1e6*SCALE)
         visible=boundary if clip is None else boundary.intersected(clip)
         background=self.book.state.get('paint',{}).get('background','#FFFFFFFF')
-        background,mono_ink=palette(background,self.book.view.get('monochromePaper','auto')) if self.mode=='mono' else (QColor(background),None)
+        background,mono_ink=palette(background,self.book.view.get('monochromePaper','auto')) if self.mode=='mono' else (color_paper(self.book.state,reading=reading),None)
         painter.save(); painter.setClipRect(visible); painter.fillRect(boundary,QColor(background)); painter.setRenderHint(QPainter.RenderHint.Antialiasing)
         underlay=getattr(self,'paint_underlay',None)
         separated=underlay(painter,page_id,visible,outlines) if underlay else False
@@ -481,6 +481,8 @@ class Composition:
                     painted=self.book.paint_renderer.paint(painter,glyph,component='surface' if separated else 'composite')
                 for raw,gid,color in ([] if painted else glyph['_paints']):
                     color=mono_ink if mono_ink is not None else QColor(color)
+                    if reading and self.mode=='color' and len(glyph['_paints'])==1 and color.saturation()==0 and color.value()<=32:
+                        color.setRgb(255,255,255,color.alpha())
                     origin=QPointF(*glyph['origin'])
                     # Outline filling keeps antialiasing neutral. Native Windows
                     # glyph runs can introduce colored ClearType edge pixels.

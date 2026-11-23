@@ -1,0 +1,50 @@
+# Unta in a calculation, carry and place value | number_abstract:g place when add:pr thou
+P | written:m sign in next place twelve of first place hold:pr. other:m tongue:g number_abstract and native:m number_abstract same:m value give:pr:must. | In the worked calculations the native columns use Unta figures. The gloss and English give decimal values. A carry changes what a position contributes. The same two visible marks conventionally transcribed 10 count twelve objects on the native side and ten on the English side if read in ordinary decimal notation.
+Q | sum | 11 | 1 | 12 | The last single digit plus one fills a dozen. A reader can check this by matching each of twelve stones with one position in a tray.
+Q | sum | 23 | 1 | 24 | One dozen and eleven units become two dozens. The low position returns to zero while the stock grows.
+Q | sum | 143 | 1 | 144 | Both occupied positions carry. The first position of the next rank receives one. The two zeros are indispensable place holders.
+E | last stone:a i take:pa. zero stone:pl remain:pr. | I took the last stone. Zero stones remain.
+P | zero in empty:m bowl and zero in place of written:m number_abstract compare:imp. | A zero count asserts something about the tray. A zero digit inside a multi-place numeral asserts something about one rank. The technical gloss should identify which of these jobs is involved. Treating each zero as an empty tray would make the second calculation inexplicable.
+# Exact shares, rates and incompatible units | equal:m part, whole:m thing and time
+Q | share | 3 | 4 | 3/4 | Divide three equal lengths of cord among four people on equal terms. Each receives three quarters of a length. The native numeral has one fractional place, worth nine twelfths.
+Q | share | 1 | 5 | 1/5 | One length among five. The native ratio wording keeps the share exact. A finite base-twelve fraction could have only twos and threes as prime factors in its reduced denominator.
+Q | share | 18 | 3 | 6 | Eighteen lengths in three equal bundles give six per bundle. The same arithmetic describes distance per watch only if the denominator counts watches and a length is the chosen distance unit.
+E | each boat six stone:pl carry:pr. | Each boat carries six stones.
+E | six boat:pl one_num stone:a each carry:pr. | Six boats carry one stone apiece.
+P | count of boat:pl and count of each boat different:m place hold:pr. first how many boat:pl be:pr tell:neg:pr. | In the first specimen the number belongs within the load description. In the second it restricts the carriers and the distributive sets a load for each. Only the second supplies enough information to recover the total as six stones. This is why a table header such as “per boat” must accompany an isolated number.
+# All, some, and the witness demanded by a proof | each, one_num and what prove:pr they
+E | each child one_num stone:a lift:pa. | Each child lifted a stone.
+E | one_num same:m stone:a each child lift:pa. | There was one stone that each child lifted.
+P | first for each child which stone ask:imp. second first stone:a choose:imp, then each child about it ask:imp. | The two readings differ in the order of choices. In a yard with three children and three different stones the first can be true while the second is false. Initial position can suggest a wide reading. To force it in technical prose, identify the shared stone and resume it explicitly in the next assertion.
+E | this stone:a mark:imp. each child it:a lift:pa. | Mark this stone. Each child lifted it.
+G | reg_counterexample
+E | all stone:pl white:m be:pr. one_num black:m stone:a i find:pa. | All the stones are white. I found a black stone.
+P | black:m stone same:m group in be:pr q? if so first sentence false:m be:pr. | The black stone refutes the universal only if it belongs to the population the writer quantified over. A stone picked up on another beach need not belong to the contents of this tray. A useful counterexample cites the membership condition as carefully as it cites the offending property.
+# A mathematical demonstration in native clauses | proof with pair:pl
+E | first two stone:pl together place:imp. one_num pair form:pr they. | Put the first two stones together. They form one pair.
+E | one_num pair:d one_num pair:a add:imp. two pair:pl now be:pr. | Add one pair to a single pair. There are now two pairs in that collection.
+P | two kjv_heap:pl each into pair:pl divide:psv:perf. together place:psv:pr when, what stone without other remain:pr? | The theorem concerns any two finite collections of even size. Here even means that the stones can be partitioned into pairs with none left over. Keep each pair intact and bring the two disjoint collections together. Every stone still has its partner. That construction proves closure under addition without reciting the possible sums.
+E | one_num stone:a both kjv_heap:pl in kjv_number:neg:imp. | Do not count the same stone in both piles.
+P | same:m stone two partner:pl have:pr:can. then proof what assume:pa see:pr wepl. | Disjointness is doing work. Two named pairs sharing one stone have a three-stone union. Adding the two cardinalities still gives four, whereas counting distinct members of the union gives three. The counterexample locates the hidden change in the meaning of “put together.”
+Q | sum | 2 | 2 | 4 | This is the disjoint case. In the overlapping case one would have to remove the duplicate occurrence before reporting the size of the union.
+# Geometry, definition and the arbitrary figure | triangle, side and each shape
+W | hobbes | Hobbes_0161_108.3
+W | hobbes | Hobbes_0161_108.7
+P | this triangle and each triangle compare:imp. which thing of draw:psv:adj shape proof use:pr? | Hobbes moves from a figure before the eyes to a consequence remembered as universal. In Euclidean plane geometry a triangle’s interior angles sum to two right angles. A badly drawn corner can still illustrate the proposition. Measuring its ink cannot by itself establish the universal claim.
+E | this triangle:g side:a measure:imp. | Measure a side of this triangle.
+E | any triangle:a choose:imp. its/three side:pl:a mark:imp. | Choose an arbitrary triangle. Mark its three sides.
+P | any shape choose:psv:pr. if its/colour or size need:pr wepl, each shape about speak:neg:pr:can wepl yet. | Inspect a proof for an unnoticed restriction. If the reasoning works only after turning the drawing so that two sides appear equal, it has at best established something about isosceles triangles. The imperative “choose” introduces an object for the proof. It does not give the writer leave to choose a convenient special case.
+# An approximation has a direction and an error | near:m value and exact:m value
+Q | share | 1 | 3 | 1/3 | A third is four twelfths exactly. The last written digit is part of an exact equality here.
+Q | sum | 1/3 | 1/3 | 2/3 | Two independent one-third shares make eight twelfths. The unchanged denominator refers to a common whole.
+Q | difference | 1/5 | 1/6 | 1/30 | Replacing a fifth by two twelfths rounds downward. The shortfall is one thirtieth of the original unit. The calculation preserves that difference exactly as a ratio.
+P | part of what whole:m thing ask:imp. one_num short:m kjv_cord:g half and one_num long:m kjv_cord:g half same:m length be:neg:pr:may. | Compare the size of the error with a named unit. An error of one thirtieth of a fathom differs from an error of one thirtieth of a voyage. Two equal fractions make equal measured lengths only when their wholes have equal lengths. The genitive holding the unit in place carries part of the mathematical argument.
+# From one square to the next, the grammar of induction | how each hobbes_square from last grow:pr
+E | one_num stone first hobbes_square form:pr. | One stone forms the first square.
+Q | sum | 1 | 3 | 4 | Around a one-stone square add an L of three stones. Two rows of two now fill the square.
+Q | sum | 4 | 5 | 9 | The next border contains five stones. The new square has three rows of three.
+E | each side:g length one_num stone more become:pr. corner:a twice kjv_number:neg:imp. | Each side grows by one stone in length. Do not count the corner twice.
+P | side:g length twice take:imp. one_num corner add:imp. next hobbes_square receive:pr thou. | Give the original square an arbitrary side length n in stones. Extend it with two strips of n stones and one new corner. The strips touch different old edges and do not overlap. The added count is twice n plus one. The larger square has side length n plus one. This supplies a reason the pattern continues at every step.
+E | next hobbes_square four row:pl of four stone:pl have:fu. same:m work again do:imp. | The next square will have four rows of four stones. Carry out the same construction again.
+Q | sum | 9 | 7 | 16 | This prediction checks the construction once more. The general proof needs the initial one-stone square and a step applicable at any positive side length. Three correct calculations alone would leave the next case unsettled.
+P | this hobbes_square, next hobbes_square and any hobbes_square apart read:imp. | Follow the demonstratives in a proof. This can point to a drawn figure. Next depends on a previously chosen size. Any leaves the choice of size open. Keeping the last two distinct lets the same imperative serve first as a workshop direction and then as a general proof step.

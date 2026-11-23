@@ -1,0 +1,42 @@
+From E:\Vayrshemon, run this when a batch of translations is ready to include.
+
+    .venv\Scripts\python.exe -X utf8 -m tools.vayrshemon_dictionary
+
+The first section gives headwords in native chart order. Some headwords are multiword expressions. Every sense has a native definition, a complete native example sentence, and its source reference in the English column. Independent manuscript headwords file in this same alphabet. The final section indexes inflections, spelling variants and words with clitics. The directory gives the page range for each letter in each section.
+
+Retain personal initials, abbreviated source credits and printer’s gathering marks in the source concordance. Admit an independently attested word or letter name under its own lexical reading. A surname-bearing attribution may identify a person. Its first initial alone supplies no separate dictionary meaning.
+
+The one-column Letter edition sets the headword followed by a colon, and places the native example on an indented line below each definition. Let entries, definitions and examples continue across page breaks at a full line. Start a new letter in the space available on the current page. The running head gives the first and last headwords on the page, including continued entries. Source references are printed in the four-column edition. Group witnesses that exemplify the same use of a word.
+
+Select entries by their lexical meaning. Words such as “pair,” “first,” and the counting unit “score” belong under their letters. Compounds such as “three-foot stool” are looked up by their lexical head. Include the written Unta names for coefficients zero through eleven in the units, dozens and gross places. These 36 combinations have 34 distinct headword spellings because fōlem covers zero in each place. The native spellings in Inputs/Origins_3_Unta_2.jpg establish the unit and dozen names and the coefficient + nōrum construction for gross. Indicate when a form follows that construction, cite a manuscript where available, and index attested spelling variants under their own letters.
+
+File every headword, including Unta words, in the order on Inputs/Origins_2_Thimfora_2.jpg. Read down the left column, then down the right. Compare the first differing native letter, however far into the word it falls. Maxima and minima share a rank. A shorter word precedes an extension of that word. Spaces delimit words, so a phrase files with its first word. Compare the letters on both sides of a clitic apostrophe or hyphen before using the mark to distinguish otherwise identical spellings. Give the plain native spelling precedence in such a tie.
+
+Some manuscript names contain literal Roman letters alongside native glyphs. File literal ā, ē, ī, ō, ô, ū and ü with their chart equivalents, č with ch, š with sh and ŧ with the barred th. File foreign í and ï with i, ó with o, and ñ with n. Retain all marks in the displayed spelling. Apply the same order to manuscript headwords, the spelling index and the embedded dictionary. The verification command reads the actual native column and compares each adjoining pair, including pairs on successive spreads. Its counts are in verification.json under savedAlphabeticalOrder. Digit strings, folio values and other generated numerical series stay in the concordance.
+
+The definitions were written for this edition or drawn from the translators’ recorded word formations. A citation identifies where the word was used. The corpus.sqlite3 concordance records each form’s occurrence count, first page and a short native context in each witness. A witness may be a different edition or a draft of the same text. The attestations ledger identifies current translations, earlier sources and duplicate source ledgers. Use manuscript page references for versions that predate aligned authoring records.
+
+To revise a definition, edit authored-definitions.txt or native-readings.txt. Add a contextual sense with its translation's exact reference in sense-divisions.txt. Keep manuscript-only readings in manuscript-notes.txt. Each line follows the existing file's format. The rebuild checks the lexical key or the written form against its evidence. It stops if an encountered key or necessary native paraphrase is missing.
+
+After editorial changes confined to definitions, reuse the existing corpus.
+
+    .venv\Scripts\python.exe -X utf8 -m tools.vayrshemon_dictionary --from entries
+
+To check the publication and render proof spreads in the native editor engine, use the verification command.
+
+    .venv\Scripts\python.exe -X utf8 -m tools.vayrshemon_dictionary --from verify
+
+Refreshes are manual. Reconcile direct changes in the issued .vay with the working entries before rebuilding. The previous issued book and its entry ledger are backed up in .local\dictionary-layout\editions\ under its publication hash.
+
+Examples for individual lexical readings, additional senses and manuscript-only spellings are in lexical-examples.txt, sense-examples.txt and manuscript-examples.txt. The opening uses the reviewed opening-illustrations.json in the Letter Print Sample. The full corpus refresh also rebuilds the cache of keyed example sentences. Omitted foreign quotations are listed in nonlexical-quotations.txt.
+
+After verifying the four-column edition, rebuild and publish the corresponding Letter book from the project root. The print exporter uses ReportLab. If it is supplied by the bundled PDF runtime, set VAYRSHEMON_PDF_LIBS to that runtime’s Python site-packages directory. The publisher compares all sense and example texts with the verified progressive edition.
+
+    .venv\Scripts\python.exe -X utf8 -m tools.dictionary_print
+    .venv\Scripts\python.exe -X utf8 -m tools.dictionary_print --install
+
+At the next scheduled reference-book refresh, run the following before rebuilding the entries.
+
+    .venv\Scripts\python.exe -X utf8 -m tools.dictionary_reference_books
+
+This reads the published Idiom Inventory, Comprehensive Grammar and expanded Thesaurus. The intake in reference-book-entries.json.gz identifies source files by hash, records printed spread references, and distinguishes published examples from dictionary examples composed for grammar terms. Edit reference-grammar-readings.txt when a new grammar term needs a definition and example. File a fixed expression under its full native wording. A speaker may inflect its words or place another word between them. The intake checks such examples against the individual entry in the published inventory. Existing thesaurus readings retain their dictionary identities.

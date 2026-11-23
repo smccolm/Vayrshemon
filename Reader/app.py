@@ -7,6 +7,7 @@ from PySide6.QtGui import QAction,QIcon,QKeySequence,QPainter,QColor,QImage,QInt
 from PySide6.QtWidgets import (QApplication,QMainWindow,QWidget,QVBoxLayout,QHBoxLayout,QPushButton,QLabel,QLineEdit,QSlider,QComboBox,QAbstractScrollArea,QFileDialog,QMessageBox,QProgressBar,QDialog,QListWidget,QDialogButtonBox,QPlainTextEdit)
 from .storage import ROOT,LOCAL,BookIndex,cache_path,dumps,identity,frame_path
 from .performance import Performance
+from vayrshemon.monochrome import color_paper
 
 
 class DecodeSignals(QObject):
@@ -115,7 +116,8 @@ class Canvas(QAbstractScrollArea):
             dest=QRectF(x+rect.x()*z,y,rect.width()*z,rect.height()*z)
             if not dest.intersects(QRectF(self.viewport().rect())):continue
             image=self.owner.best_image(number)
-            p.fillRect(dest,QColor('white' if self.owner.palette=='white' else 'black'))
+            paper = color_paper(self.owner.meta['state'], reading=True) if self.owner.palette=='color' else QColor(self.owner.palette)
+            p.fillRect(dest,paper)
             if image is not None:p.drawImage(dest,image)
             else:
                 p.setPen(QColor('#808080'));p.drawText(dest,Qt.AlignmentFlag.AlignCenter,'Loading page '+str(number))
@@ -364,7 +366,6 @@ class Window(QMainWindow):
         self.begin('pages');self.mode=mode;self.update_fit();self.canvas.layout_pages();self.schedule();return self.action_id
     def set_palette(self,palette):
         if palette not in ('white','black','color'):raise ValueError('Invalid color mode')
-        if self.meta and self.meta['state'].get('printEdition'):palette='white'
         self.begin('palette');self.palette=palette;self.schedule();return self.action_id
     def set_zoom(self,zoom):
         if not isinstance(zoom,(int,float)) or not math.isfinite(zoom) or not .1<=zoom<=3:raise ValueError('Zoom must be between 10% and 300%')
@@ -383,7 +384,7 @@ class Window(QMainWindow):
         self.single.setChecked(self.mode=='one');self.double.setChecked(self.mode=='two');self.page_entry.setText(str(self.page));self.total_label.setText('of '+str(count))
         self.previous.setEnabled(bool(count and self.visible()[0]>1));self.next.setEnabled(bool(count and self.visible()[-1]<count));self.page_entry.setValidator(QIntValidator(1,max(1,count)))
         self.zoom_label.setText(f'{self.zoom:.0%}');self.slider.blockSignals(True);self.slider.setValue(round(self.zoom*100));self.slider.blockSignals(False)
-        self.palette_box.setCurrentIndex(['white','black','color'].index(self.palette));self.palette_box.setEnabled(not bool(self.meta and self.meta['state'].get('printEdition')))
+        self.palette_box.setCurrentIndex(['white','black','color'].index(self.palette))
         if self.meta and self.meta.get('sections'):
             selected=max((i for i,s in enumerate(self.meta['sections']) if s['page']<=self.page),default=0)
             self.book_box.setCurrentIndex(selected)

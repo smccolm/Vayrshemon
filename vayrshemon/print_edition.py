@@ -7,6 +7,7 @@ the original TTF outlines, shaped lazily one visible page at a time.
 """
 import base64
 import hashlib
+import math
 import re
 from bisect import bisect_right
 from copy import deepcopy
@@ -14,7 +15,9 @@ from PySide6.QtCore import QPointF, QRectF, Qt
 from PySide6.QtGui import QColor, QFont, QImage, QPaintEngine, QPainter, QPainterPath, QTextCharFormat, QTextLayout, QTextOption
 from .api import obj
 from .session import SCALE
-from .page_numbering import MASTER, digits
+from .page_numbering import BINDING, FONT_IDS, MASTER, digits
+from .monochrome import color_paper, palette
+from .roman_paint import PROFILE_ID
 
 PUNCTUATION='-()[]'
 ROMAN='font:9ba7c6f12d40ea8a0aafb8f07a69f8b65b424e374c6da95235a45edeb6292c52:0'
@@ -230,19 +233,59 @@ def spaced_runs(layout,word_gap):
     return runs
 
 
-def shape(book,text,size=36,prefix=0,verse_size=24,dramatic=False,word_gap=0):
+def display_colors(book, mode):
+    if mode == 'color':
+        return color_paper(book.state), QColor('white')
+    paper, ink = palette(book.state['paint']['background'], book.view.get('monochromePaper', 'auto'))
+    # Keep the original press ink in the positive proof.
+    return paper, QColor('#111111') if ink == QColor('black') else ink
+
+
+def shape(book,text,size=36,prefix=0,verse_size=24,dramatic=False,word_gap=0,*,color_glyphs=None,origin=(0,0),plain_marks=None):
     layout=QTextLayout(text if dramatic else text.replace('-',' '),font(book,size));option=QTextOption()
     option.setWrapMode(QTextOption.WrapMode.NoWrap);option.setTextDirection(Qt.LayoutDirection.LeftToRight);layout.setTextOption(option)
     layout.setFormats(text_formats(book,text,size,prefix,verse_size,dramatic))
     layout.beginLayout();line=layout.createLine();line.setLineWidth(100000);layout.endLayout()
     path=QPainterPath();glyphs=[]
     for run in spaced_runs(layout,word_gap):
+        raw = run.rawFont()
+        if color_glyphs is not None:
+            fid = book.fonts.by_family[raw.familyName()].font_id
+            binding = book.paint_renderer.binding(fid)
+            if binding is None:
+                # Historical print files include the fonts and paint recipe but omit the bindings.
+                if fid == MASTER and all(f in book.fonts.faces for f in FONT_IDS):
+                    binding = BINDING
+                else:
+                    binding = dict(fontId=fid, kind='derived', enabled=True)
+                    if fid in (ROMAN, DRAMA_PUNCT):
+                        binding['profile'] = PROFILE_ID
         for gid,pos in zip(run.glyphIndexes(),run.positions()):
             if not gid:raise ValueError('PRINT_MISSING_GLYPH')
-            p=run.rawFont().pathForGlyph(gid).translated(pos.x(),pos.y()-line.ascent());path.addPath(p)
+            x, y = pos.x(), pos.y()-line.ascent()
+            p=raw.pathForGlyph(gid).translated(x,y);path.addPath(p)
             glyphs.append((gid,p.boundingRect()))
-    if not dramatic:punctuation_paths(path,text,line,size)
+            if color_glyphs is not None and not p.isEmpty():
+                color_glyphs.append((binding, gid, raw.pixelSize(), (origin[0]+x, origin[1]+y)))
+    if not dramatic and '-' in text:
+        hyphens = QPainterPath()
+        punctuation_paths(hyphens,text,line,size)
+        path.addPath(hyphens)
+        if plain_marks is not None:
+            plain_marks.addPath(hyphens.translated(*origin))
     return path,glyphs
+
+
+def paint_relief(book, painter, glyphs, outlines):
+    if not glyphs:
+        return
+    if outlines:
+        raise ValueError('PAINT_REQUIRES_RASTER_FALLBACK: use an explicit raster policy and DPI')
+    transform = painter.deviceTransform()
+    scale = 2 * max(math.hypot(transform.m11(),transform.m12()), math.hypot(transform.m21(),transform.m22()))
+    for component in ('glow', 'surface'):
+        for binding, gid, size, origin in glyphs:
+            book.paint_renderer.draw(painter, binding, gid, size, scale, origin, component)
 
 
 class Composition:
@@ -251,13 +294,15 @@ class Composition:
         self.spec=book.state['printEdition']['pages'][page_id];self.source=text_of(self.page)
         self.frames={self.page['frames'][0]['frameId']:(self.page,self.page['frames'][0])}
         self.drawings=[];self.final=[];self.lines=[];self.mode=mode
+        self.color_glyphs = [] if mode == 'color' else None
+        self.plain_marks = QPainterPath() if mode == 'color' else None
         type_spec=typography(book.state['printEdition'])
         fid=self.page['frames'][0]['frameId']
         for line in self.spec['lines']:
             text=line['prefix']+self.source[line['start']:line['end']]
             path,glyphs=shape(book,text,line.get('sizePt',type_spec['bodySizePt']),prefix=len(line['prefix']),
                               verse_size=type_spec['verseSizePt'],dramatic=book.state['printEdition']['layoutVersion']==COLLECTED,
-                              word_gap=line.get('wordGapPt',0))
+                              word_gap=line.get('wordGapPt',0),color_glyphs=self.color_glyphs,origin=(line['x'],line['baseline']),plain_marks=self.plain_marks)
             path.translate(line['x'],line['baseline']);self.drawings.append(path)
             self.lines.append(dict(frameId=fid,x=line['x']*SCALE,baseline=line['baseline']*SCALE,start=line['start'],end=line['end']))
             for gid,b in glyphs:
@@ -279,22 +324,30 @@ class Composition:
         return dict(beforeCount=len(collisions),afterCount=len(collisions),collisions=collisions,complete=True,
                     scope='actual print line bounds; decoration and folio safety checked separately')
 
-    def paint(self,painter,page_id,mode=None,clip=None,overlays=None,guides=False,outlines=False):
+    def paint(self,painter,page_id,mode=None,clip=None,overlays=None,guides=False,outlines=False,*,reading=False):
         from .pages import page_rect
         painter.save()
         try:
             painter.setClipRect(page_rect(self.page) if clip is None else page_rect(self.page).intersected(clip))
-            painter.fillRect(page_rect(self.page),QColor('white'))
+            paper, ink = display_colors(self.book, self.mode)
+            painter.fillRect(page_rect(self.page), paper)
             painter.setRenderHint(QPainter.RenderHint.Antialiasing,True)
             painter.setRenderHint(QPainter.RenderHint.TextAntialiasing,True)
             painter.setRenderHint(QPainter.RenderHint.SmoothPixmapTransform,True)
             painter.setRenderHint(QPainter.RenderHint.LosslessImageRendering,True)
-            painter.scale(SCALE,SCALE);painter.setPen(Qt.PenStyle.NoPen);painter.setBrush(QColor('#111111'))
+            painter.scale(SCALE,SCALE);painter.setPen(Qt.PenStyle.NoPen);painter.setBrush(ink)
             cache=self.book.__dict__.setdefault('_print_images',{})
             for item in self.spec['images']:
                 key=item['asset']
                 if key not in cache:cache[key]=QImage.fromData(base64.b64decode(self.book.state['printEdition']['assets'][key]['png']),'PNG')
                 source=cache[key]
+                if self.mode == 'mono' and paper == QColor('black'):
+                    key = (key, 'negative')
+                    if key not in cache:
+                        negative = source.convertToFormat(QImage.Format.Format_ARGB32)
+                        negative.invertPixels(QImage.InvertMode.InvertRgb)
+                        cache[key] = negative
+                    source = cache[key]
                 rect=QRectF(*item['rect'])
                 if self.spec['kind']=='opening' and painter.paintEngine().type()==QPaintEngine.Type.Raster:
                     # Bilinear painting samples only a few source pixels. Area-filter
@@ -306,7 +359,12 @@ class Composition:
                             scaled[key]=source.scaled(size,Qt.AspectRatioMode.IgnoreAspectRatio,Qt.TransformationMode.SmoothTransformation)
                         source=scaled[key]
                 painter.drawImage(rect,source)
-            for path in [*self.ornaments,*self.drawings]:painter.drawPath(path)
+            for path in self.ornaments:painter.drawPath(path)
+            if self.mode == 'color':
+                painter.drawPath(self.plain_marks)
+                paint_relief(self.book, painter, self.color_glyphs, outlines)
+            else:
+                for path in self.drawings:painter.drawPath(path)
         finally:painter.restore()
 
     def hit_test(self,page_id,x,y):

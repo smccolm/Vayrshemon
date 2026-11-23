@@ -77,10 +77,10 @@ def outline_paint(native,painter,mode,clip,monochrome_ink=None):
 
 
 @page_numbering.render_context
-def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=False,outlines=False):
+def paint(book,painter,*,page_id=None,mode=None,clip=None,overlays=None,guides=False,outlines=False,reading=False):
     page=selected_page(book,page_id); boundary=page_rect(page)
     if hasattr(book,'composition') and ('paint' in book.state or any(c['enabled'] for c in book.state['typesetting']['frames'].values())):
-        book.composition(mode,page_id=page['pageId']).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines)
+        book.composition(mode,page_id=page['pageId']).paint(painter,page['pageId'],mode,clip,overlays,guides,outlines,reading=reading)
         page_numbering.paint(book,painter,page,mode,clip,outlines)
         return
     mode=mode or book.view['mode']; overlays=overlays or {}
@@ -121,7 +121,7 @@ def target(book,path):
 
 
 @page_numbering.render_context
-def render(book,path=None,*,page_id=None,mode='color',dpi=96,region=None,overlays=None):
+def render(book,path=None,*,page_id=None,mode='color',dpi=96,region=None,overlays=None,reading=False):
     if not math.isfinite(dpi) or not 24<=dpi<=1200 or mode not in ('mono','color'): raise ValueError('INVALID_RENDER_SETTINGS')
     page=selected_page(book,page_id); boundary=page_rect(page)
     if path:page_numbering.require_space(book,page,mode)
@@ -136,7 +136,7 @@ def render(book,path=None,*,page_id=None,mode='color',dpi=96,region=None,overlay
     painter=QPainter(image)
     try:
         painter.scale(scale,scale); painter.translate(-area.topLeft())
-        paint(book,painter,page_id=page['pageId'],mode=mode,clip=area,overlays=overlays)
+        paint(book,painter,page_id=page['pageId'],mode=mode,clip=area,overlays=overlays,reading=reading)
     finally: painter.end()
     if path:
         path=target(book,path)

@@ -84,12 +84,13 @@ def validate_data(data):
             raise ValueError('NUMBER_ALPHABET_REQUIRES_DISTINCT_SCALARS')
 
 
-def append_revision(state, data, label):
+def append_revision(state, data, label, *, preserve_lexicon_order=False):
     validate_data(data)
     collections = {}
     for key in COLLECTIONS:
         collections[key] = []
-        for r in sorted(data[key], key=lambda r: r['id']):
+        records=data[key] if key=='lexicon' and preserve_lexicon_order else sorted(data[key], key=lambda r: r['id'])
+        for r in records:
             h = digest(r); state['objects'][h] = deepcopy(r); collections[key].append(h)
     rev = dict(id=identity('language'), parentId=state.get('activeRevisionId'), label=label,
                createdAt=stamp(), sha256=digest(collections), collections=collections)

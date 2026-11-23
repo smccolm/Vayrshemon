@@ -1,0 +1,38 @@
+# Where a star stands for someone on shore | star, milton_horizon and place of see:ag
+G | reg_altitude
+G | reg_azimuth
+C | dampier | damret_azimuth | At the Cape the voyage uses this form for a bearing compass. The instrument can be carried in the hand. The angular coordinate in the preceding entry can be reported in degrees. Treating the instrument and its reading as a single noun sense would obscure the distinction in a technical translation.
+E | star:g reg_altitude:a shore:abl i measure:pa. | I measured the star’s angular altitude from shore.
+E | star:g reg_azimuth:a same:m hour:loc i measure:pa. | I measured the star’s azimuth at the same hour.
+E | star:g reg_altitude unta_cardinal_da_over_b_digits dam_degree:pl be:pa. its/reg_azimuth unta_cardinal_ga_over_b_digits dam_degree:pl be:pa. | The star’s altitude was 30 degrees. Its azimuth was 60 degrees.
+P | one_num measure milton_horizon above go:pr. other milton_horizon along turn:pr. first place and time give:imp. | In a horizon frame, altitude measures angular elevation and azimuth measures direction around the horizon. Here azimuth starts at true north and increases eastward. Two angles locate a direction at the observer. They supply no distance to the star. The reference for these conventions is the U.S. Naval Observatory’s Computing Altitude and Azimuth from Greenwich Apparent Sidereal Time.
+E | star:g reg_altitude more become:pa. star shore:all come:pa q? | The star’s altitude increased. Did the star approach the shore?
+P | height:g change in eye and distance:g change apart keep:imp. | The question exposes an illicit inference. As the observer’s horizon turns relative to the stars, a measured angular altitude can change. To assert decreasing distance one would need evidence for another quantity. The genitive in the first sentence identifies which angle belongs to the sight.
+P | two number_abstract:pl place:ev change:imp. now same:m star:g direction give:pr wepl q? | Swap the two figures in this imaginary sight. Sixty degrees above the horizon at a bearing of thirty degrees points higher and nearer north. Both positions are possible. A parser that checked only whether each number fell inside the permitted range would accept both. The coordinate names preserve the intended direction.
+# Meridian passage and an observation that did not happen | event happen:pr when eye see:neg:pr:can
+W | dampier | dampier.1973.001
+E | sun damret_meridian:all come:pa. cloud sun:a cover:pa. | The sun came to the local meridian. Cloud covered the sun.
+E | sun:g reg_altitude:a at noon measure:neg:pa wepl. | We did not measure the sun’s angular altitude at noon.
+P | three thing:pl apart write:imp. sun:g passage, wish to measure:inf and no read:ev. | Dampier distinguishes a meridian passage, a hoped-for observation, and cloud intervening. The negative belongs to the act of observing. A table marking zero would instead assert that an angular measurement was made at the horizon. The time expression can stay perfectly precise in a record that supplies no angle.
+W | dampier | dampier.1425.002
+P | dam_latitude place:g word be:pr. damei_declination sun:g word be:pr here. which thing north or kjv_south be:pr? | A latitude belongs to a place on Earth. Solar declination locates the Sun relative to the celestial equator. Both can be described as north or south. In comparing a voyage log with a table of the Sun, retain the possessor or an explicit head. A naked direction and number do not identify the coordinate.
+# A crescent, a quarter and an eclipse | what part of moon:g light eye see:pr
+E | moon:g light:m part:a wepl see:pr. | We see the bright part of the Moon.
+E | moon:g face:g half bright:m be:pr:app. | Half the Moon’s face appears bright.
+E | earth:g shadow moon on fall:pa. | Earth’s shadow fell on the Moon.
+P | half of what q? face from earth see:psv:pr. name of time in moon:g way another division use:pr. | At first quarter, roughly half the visible lunar disk appears illuminated. The quarter in the phase name refers to progress through the cycle from new Moon. The final example instead locates Earth’s shadow on the Moon during a lunar eclipse. Keep the possessor of the shadow and the denominator of the fraction explicit. For the physical distinction see NASA’s Moon Phases and Why Do Eclipses Happen?
+P | one_num night alone which part grow:pr tell:neg:pr:may. last night:g draw:ev compare:imp. | A sketch of a bright crescent with no orientation, date, or viewing convention can be inadequate to recover whether it was waxing. A sequence made under one convention can show the change. The comparative in “more of the disk is bright” needs a second observation or a named comparison time.
+# Bearing, parallax and the well-placed thumb | when eye:g place change:pr
+G | reg_parallax
+E | one_num eye:a close:imp. thumb_digit:a far:m tree near see:pr thou. | Close one eye. You see your thumb beside a distant tree.
+E | other eye:ins look:imp. thumb_digit tree against move:pr:app. | Look with the other eye. The thumb appears to shift against the tree.
+P | hand same:m place keep:imp. which eye look:pr change:pr. tree to which thumb_digit compare:psv:pr name:imp. | This is a local analogy for parallax. The controlled change is the observing position. The measured relation is the apparent displacement against a background. The apparent marker alone supplies neither that baseline nor the reference object. A hand actually moving would spoil this demonstration without spoiling the grammar of “it seemed to move.”
+E | two place:pl:abl same:m star:a wepl watch:pa. | We watched the same star from two places.
+P | this alone distance give:neg:pr. place:pl:g difference and angle:g change still need:pr wepl. | For the corresponding stellar argument one needs a known baseline and the appropriate angular displacement. Two witnesses simply agreeing that they saw a star supply neither quantity. The analogy is about the geometry of seeing, and gives no numerical stellar distance.
+# Almanac speech, remembered time and prediction | when book speak:pr of sky
+E | book say:pr that moon rise:fu. | The book says that the Moon will rise.
+E | moon rise:pa:rep. | The Moon rose, according to report.
+E | when moon rise:pa, it:a wepl see:pa. | We saw the Moon as it rose.
+P | first book future event name:pr. second other mouth past event tell:pr. third eye:g work claim:pr. | An almanac forecasts a phenomenon for a reference place and time. Quoting the almanac accurately does not certify that local observers could see the event through their skyline or weather. The reportative specimen asserts transmission of a report. Only the third explicitly commits named participants to a sighting.
+E | here hill moon:a hide:pr. sea:loc they moon:a see:pr:may. | Here the hill hides the Moon. At sea they may see it.
+P | here, same:m hour and whose milton_horizon write:imp when two true:m account:pl different:m be:pr. | The shore witness and crew can give different first-sighting times for a single rising Moon. The contrast need not expose a bad clock. Before harmonizing their accounts, establish whether each means passage through an ideal horizon or appearance above the local obstruction.

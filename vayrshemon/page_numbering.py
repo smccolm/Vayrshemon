@@ -170,15 +170,20 @@ def paint(book,painter,page,mode=None,clip=None,outlines=False):
     mode=mode or book.view['mode'];result=placement(book,page,mode)
     if result['status']!='placed':return
     if book.state.get('printEdition'):
-        from .print_edition import shape
-        from PySide6.QtGui import QColor
-        path,_=shape(book,result['text'],result['sizePt'])
+        from .print_edition import display_colors, paint_relief, shape
+        glyphs = [] if mode == 'color' else None
+        path,_=shape(book,result['text'],result['sizePt'],color_glyphs=glyphs)
         painter.save()
         try:
             painter.setClipRect(page_rect(page) if clip is None else page_rect(page).intersected(clip))
             painter.setRenderHint(QPainter.RenderHint.Antialiasing,True)
-            painter.scale(SCALE,SCALE);painter.setPen(Qt.PenStyle.NoPen);painter.setBrush(QColor('#111111'))
-            painter.drawPath(path.translated(result['origin'][0]/SCALE,result['origin'][1]/SCALE))
+            painter.scale(SCALE,SCALE);painter.setPen(Qt.PenStyle.NoPen);painter.setBrush(display_colors(book,mode)[1])
+            x, y = (v/SCALE for v in result['origin'])
+            if mode == 'color':
+                painter.translate(x,y)
+                paint_relief(book,painter,glyphs,outlines)
+            else:
+                painter.drawPath(path.translated(x,y))
         finally:painter.restore()
         return
     if mode=='color' and outlines:raise ValueError('PAINT_REQUIRES_RASTER_FALLBACK: Unta page number')
