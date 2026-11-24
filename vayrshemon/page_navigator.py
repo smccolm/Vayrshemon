@@ -1,6 +1,7 @@
 """Page turns share the existing frame selection, without creating text edits."""
 from PySide6.QtCore import Qt
 from PySide6.QtWidgets import QWidget, QHBoxLayout, QLabel, QLineEdit, QPushButton
+from .page_view import starts_with_recto, visible_numbers
 
 
 class PageNumberEdit(QLineEdit):
@@ -49,11 +50,10 @@ class PageNavigator:
         pages = book.state['pages']
         current = book.current_page()['pageId']
         index = next(i for i, page in enumerate(pages) if page['pageId'] == current)
-        step = 2 if self.window.preview.page_mode == 'two' else 1
-        start = index // step * step
+        visible = visible_numbers(index+1,len(pages),self.window.preview.page_mode,starts_with_recto(book.state))
         return dict(pageNumber=index + 1, pageCount=len(pages),
-                    visiblePageNumbers=list(range(start + 1, min(start + step, len(pages)) + 1)),
-                    canPrevious=start > 0, canNext=start + step < len(pages))
+                    visiblePageNumbers=list(visible),
+                    canPrevious=visible.start > 1, canNext=visible.stop <= len(pages))
 
     def sync(self, force=False):
         value = self.inspect()
@@ -101,7 +101,8 @@ class PageNavigator:
             if not value['canPrevious' if direction == 'previous' else 'canNext']:
                 return self.window.preview.navigation_state()
             step = 2 if self.window.preview.page_mode == 'two' else 1
-            page = value['visiblePageNumbers'][0] + (-step if direction == 'previous' else step)
+            visible = value['visiblePageNumbers']
+            page = max(1,visible[0]-step) if direction == 'previous' else visible[-1]+1
         if type(page) is not int or not 1 <= page <= value['pageCount']:
             raise ValueError(f"PAGE_NUMBER_RANGE: enter 1 through {value['pageCount']}")
         if page != value['pageNumber']:

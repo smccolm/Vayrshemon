@@ -6,13 +6,29 @@ from .session import SCALE
 GUTTER_PT = 24
 
 
+def starts_with_recto(state):
+    """A centered title followed immediately by a verso is a single cover."""
+    pages = state['pages']
+    specs = (state.get('printEdition') or {}).get('pages', {})
+    return (len(pages) >= 2 and specs.get(pages[0]['pageId'], {}).get('kind') == 'title'
+            and specs.get(pages[1]['pageId'], {}).get('side') == 'left')
+
+
+def visible_numbers(page, count, mode, cover_first=False):
+    if mode == 'one' or (cover_first and page == 1):
+        return range(page, page+1)
+    first = 2 if cover_first else 1
+    start = first + 2*((page-first)//2)
+    return range(start, min(start+2, count+1))
+
+
 def arrangement(book, mode='one'):
     if mode not in ('one', 'two'):
         raise ValueError('UNKNOWN_PAGE_VIEW_MODE')
     current = book.current_page()['pageId']
     index = next(i for i,p in enumerate(book.state['pages']) if p['pageId']==current)
-    start = index if mode=='one' else index//2*2
-    selected = book.state['pages'][start:start+(1 if mode=='one' else 2)]
+    indices = visible_numbers(index+1,len(book.state['pages']),mode,starts_with_recto(book.state))
+    selected = book.state['pages'][indices.start-1:indices.stop-1]
     result=[]; x=0.
     for page in selected:
         rect=page_rect(page).translated(x,0)

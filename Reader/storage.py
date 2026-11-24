@@ -136,7 +136,8 @@ def build(path, progress=lambda *args: None):
     if edition:
         sections=[dict(name=s.get('book',s.get('name',str(i+1))),page=ids.get(s.get('pageId'),s.get('pageNumber',1))) for i,s in enumerate(edition.get('sections',[]))]
     from vayrshemon.print_edition import contents_links
-    meta = dict(version=CACHE_VERSION, source=source, sha256=sha, pageCount=count, contentsLinks=contents_links(state),
+    from vayrshemon.page_view import starts_with_recto
+    meta = dict(version=CACHE_VERSION, source=source, sha256=sha, pageCount=count, coverFirst=starts_with_recto(state), contentsLinks=contents_links(state),
                 title=state['title'], pageMode=payload.get('shellPreview',{}).get('pageMode','one'),
                 initialPage=frame_pages.get(state.get('activeFrameId'),1), state=global_state,
                 headers=headers, sections=sections)

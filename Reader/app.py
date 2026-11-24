@@ -8,6 +8,7 @@ from PySide6.QtWidgets import (QApplication,QMainWindow,QWidget,QVBoxLayout,QHBo
 from .storage import ROOT,LOCAL,BookIndex,cache_path,dumps,identity,frame_path
 from .performance import Performance
 from vayrshemon.monochrome import color_paper
+from vayrshemon.page_view import visible_numbers
 
 
 class DecodeSignals(QObject):
@@ -259,8 +260,7 @@ class Window(QMainWindow):
         self.canvas.layout_pages();self.sync();self.schedule();self.perf.record('index_attach',(time.perf_counter()-started)*1000,pageCount=self.meta['pageCount'])
     def visible(self):
         if not self.meta:return []
-        start=self.page if self.mode=='one' else (self.page-1)//2*2+1
-        return list(range(start,min(self.meta['pageCount']+1,start+(1 if self.mode=='one' else 2))))
+        return list(visible_numbers(self.page,self.meta['pageCount'],self.mode,self.meta.get('coverFirst',False)))
     def scale(self):return min(4,max(.1,math.ceil(self.zoom*self.devicePixelRatioF()*20)/20))
     def key(self,number,scale=None):return (number,self.palette,self.mode,scale if scale is not None else self.scale())
     def best_image(self,number):
@@ -357,8 +357,9 @@ class Window(QMainWindow):
         if not self.meta:return None
         if direction:
             if direction not in ('next','previous'):raise ValueError('Invalid direction')
-            start=(self.page-1)//2*2+1 if self.mode=='two' else self.page
-            page=max(1,min(self.meta['pageCount'],start+(2 if self.mode=='two' else 1)*(1 if direction=='next' else -1)))
+            visible=self.visible()
+            target=visible[-1]+1 if direction=='next' else visible[0]-(2 if self.mode=='two' else 1)
+            page=max(1,min(self.meta['pageCount'],target))
         if type(page) is not int or not 1<=page<=self.meta['pageCount']:raise ValueError('Page out of range')
         self.begin('navigate');self.page=page;self.update_fit();self.canvas.layout_pages();self.schedule();return self.action_id
     def set_mode(self,mode):

@@ -8,7 +8,7 @@ from tempfile import TemporaryDirectory
 
 from PySide6.QtWidgets import QApplication
 from tools import shakespeare_collected as sc
-from tools.reciprocal_publication import FOLDER,ROOT,STAGE,WORK,sha
+from tools.reciprocal_publication import COMBINED,ROOT,WORK as LEXICON,sha
 from vayrshemon import saved_preview
 from vayrshemon.file_api import FileSession
 from vayrshemon.json_stream import write_atomic
@@ -22,14 +22,20 @@ def page_proof(page,layout):
     geometry=json.dumps(layout,ensure_ascii=False,sort_keys=True,separators=(',',':'))
     return sha256((text+'\0'+geometry).encode()).hexdigest()
 
-def main():
+def main(reference=COMBINED,name=NAME):
+    if reference==COMBINED and name==NAME:
+        from tools.reciprocal_publication import bind_complete
+        return bind_complete()
+    WORK=reference.work
+    FOLDER=reference.folders
+    document_key='document.'+reference.key+'.complete.letter'
     app=QApplication.instance() or QApplication([])
     plan=json.loads((WORK/'complete-pdf.json').read_text('utf8'));meta=json.loads((WORK/'volumes.json').read_text('utf8'))
     shell=None;state=None;edition=None;expected=[];source_count=0;sections=[]
     def append_page(page,spec,title):
-        pid='page.reciprocal.complete.'+str(len(expected)+1);fid=pid.replace('page.','frame.',1)
+        pid='page.'+reference.key+'.complete.'+str(len(expected)+1);fid=pid.replace('page.','frame.',1)
         page.update(pageId=pid,name=title)
-        frame=page['frames'][0];frame['frameId']=fid;frame['content']['document']['documentId']=DOCKEY
+        frame=page['frames'][0];frame['frameId']=fid;frame['content']['document']['documentId']=document_key
         state['pages'].append(page);edition['pages'][pid]=spec
         text=sc.pe.text_of(page)
         if text:edition['verses'].append(dict(id=pid,sha256=sc.pe.hash_text(text),fragments=[dict(pageId=pid,start=0,end=len(text))]))
@@ -42,8 +48,8 @@ def main():
         incoming=sc.unpack(sc.read(source));s=incoming['state'];se=s['printEdition']
         if shell is None:
             shell=incoming.copy();state=s.copy();edition=se.copy()
-            shell['state']=state;state.update(documentId=DOCKEY,title='Vayrshemon Dictionary and Thesaurus',pages=[],printEdition=edition)
-            edition.update(pages={},verses=[],sections=[],sourceSha256=plan['sha256'],ledgerSha256=sha(WORK/'reciprocal-lexicon.json.gz'))
+            shell['state']=state;state.update(documentId=document_key,title=reference.title,pages=[],printEdition=edition)
+            edition.update(pages={},verses=[],sections=[],sourceSha256=plan['sha256'],ledgerSha256=sha(LEXICON/'reciprocal-lexicon.json.gz'))
         assert s['fontSources']==state['fontSources'] and se['typography']==edition['typography'] and not se['assets']
         blank=s['pages'][1];blank_spec=se['pages'][blank['pageId']]
         if n>1:
@@ -66,9 +72,9 @@ def main():
     shell['shellPreview']=deepcopy(shell['shellPreview'])
     shell['shellPreview'].update(pageIds=[p['pageId'] for p in state['pages'][:2]],stateSha256=saved_preview.state_hash(state))
     saved_preview.validate(shell['shellPreview'],state);sc.pe.validate(state)
-    dest=FOLDER['print']/NAME
-    with TemporaryDirectory(dir=STAGE) as tmp:
-        path=Path(tmp)/NAME
+    dest=FOLDER['print']/name
+    with TemporaryDirectory(dir=reference.stage) as tmp:
+        path=Path(tmp)/name
         payload=pack(shell);write_atomic(path,payload,limit=MAX_FILE_BYTES)
         del payload,shell,state,edition,s,se,incoming,page,spec;gc.collect()
         session=FileSession(ROOT,source_fonts=False,recovery=False)
@@ -80,7 +86,7 @@ def main():
                 assert page_proof(p,reopened['printEdition']['pages'][p['pageId']])==proof
         finally:session.finish()
         path.replace(dest)
-    report=dict(file=NAME,sha256=sha(dest),originalNativePages=source_count,pages=len(expected),physicalPDFPages=plan['physicalPDFPages'],
+    report=dict(file=name,sha256=sha(dest),originalNativePages=source_count,pages=len(expected),physicalPDFPages=plan['physicalPDFPages'],
       volumeOpenings=len(meta),nativeReopened=True,everyNativePageTextAndPrintGeometryVerified=True)
     (WORK/'complete-print-native.json').write_text(json.dumps(report,indent=1),encoding='utf8');print(report,flush=True)
 if __name__=='__main__':main()

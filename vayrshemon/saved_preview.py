@@ -61,7 +61,9 @@ def validate(preview,state):
     if preview['colorMode']!=color_mode(state):raise ValueError('SAVED_PREVIEW_MODE_MISMATCH')
     ids=[p['pageId'] for p in state['pages']]
     wanted=preview['pageIds']
-    if any(p not in ids for p in wanted) or len(wanted)!=(1 if preview['pageMode']=='one' else min(2,len(ids)-ids.index(wanted[0]))):raise ValueError('SAVED_PREVIEW_PAGES_MISMATCH')
+    if not wanted or any(p not in ids for p in wanted):raise ValueError('SAVED_PREVIEW_PAGES_MISMATCH')
+    single = preview['pageMode']=='one' or (wanted[0]==ids[0] and page_view.starts_with_recto(state))
+    if len(wanted)!=(1 if single else min(2,len(ids)-ids.index(wanted[0]))):raise ValueError('SAVED_PREVIEW_PAGES_MISMATCH')
     if wanted!=ids[ids.index(wanted[0]):ids.index(wanted[0])+len(wanted)]:raise ValueError('SAVED_PREVIEW_PAGES_MISMATCH')
     try:raw=base64.b64decode(preview['pngBase64'],validate=True)
     except (ValueError,TypeError) as error:raise ValueError('SAVED_PREVIEW_ENCODING') from error

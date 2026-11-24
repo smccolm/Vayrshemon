@@ -10,6 +10,7 @@ import sys
 import time
 from tempfile import TemporaryDirectory
 from collections import defaultdict
+from dataclasses import dataclass
 from concurrent.futures import ProcessPoolExecutor, as_completed
 from functools import lru_cache
 from pathlib import Path
@@ -28,6 +29,16 @@ LABELS={'sense':('near:m meaning','Related sense'),'narrower sense':('small:m pa
         'application':('use','Field of use'),'earlier thesaurus':('other word:pl','Earlier thesaurus'),
         'same lexical sense':('same:m meaning','Shared sense'),'distinguish':('difference','Distinguish')}
 TITLE='Vayrshemon Dictionary and Thesaurus'
+@dataclass(frozen=True)
+class ReferenceEdition:
+    title: str
+    key: str
+    work: Path
+    stage: Path
+    folders: dict
+    fourth: str = 'English definition, use and sources'
+
+COMBINED=ReferenceEdition(TITLE,'reciprocal',WORK,STAGE,FOLDER)
 @lru_cache(maxsize=None)
 def digit(n):return quantity(n,notation='digits')['form']
 
@@ -93,21 +104,21 @@ def prep():
     (WORK/'volumes.json').write_text(json.dumps(catalogue,ensure_ascii=False,indent=1),encoding='utf8')
     print(len(catalogue),'volumes prepared',flush=True)
 
-def volume(kind,num):
+def volume(kind,num,edition=COMBINED):
     from PySide6.QtCore import QLockFile
 
-    stage=STAGE/(kind+f'-{num:02d}')
+    stage=edition.stage/(kind+f'-{num:02d}')
     stage.mkdir(exist_ok=True,parents=True)
     lock=QLockFile(str(stage/'publication.lock'))
     lock.setStaleLockTime(0)
     if not lock.lock():
         raise OSError(f'Could not lock {stage}')
     try:
-        return render_volume(kind,num)
+        return render_volume(kind,num,edition)
     finally:
         lock.unlock()
 
-def render_volume(kind,num):
+def render_volume(kind,num,edition=COMBINED):
     from PySide6.QtWidgets import QApplication
     from tools.dictionary_layout import DictionaryLayout
     from tools import shakespeare_collected as sc
@@ -116,23 +127,34 @@ def render_volume(kind,num):
     from tools.shakespeare_collected_pdf import render_duplex
     from vayrshemon import language
     from vayrshemon.file_api import FileSession
-    source=STAGE/'volumes'/f'{num:02d}.json.gz';ledger=load_gzip(source);meta=ledger['meta']
-    folder=FOLDER[kind];folder.mkdir(exist_ok=True,parents=True)
-    stub=meta['name'];label=TITLE+' · '+stub
+    source=edition.stage/'volumes'/f'{num:02d}.json.gz';source_hash=sha(source)
+    ledger=load_gzip(source);meta=ledger['meta']
+    folder=edition.folders[kind];folder.mkdir(exist_ok=True,parents=True)
+    stub=meta['name'];label=edition.title+' · '+stub
     stamp=hashlib.sha256(json.dumps(ledger[kind=='print' and 'print' or 'rows'],ensure_ascii=False).encode('utf8')).hexdigest()
-    receipts=WORK/'Publication';receipts.mkdir(exist_ok=True);receipt=receipts/f'{kind}-{num:02d}.json'
+    receipts=edition.work/'Publication';receipts.mkdir(exist_ok=True);receipt=receipts/f'{kind}-{num:02d}.json'
     native=folder/(stub+'.vay');pdf=folder/(stub+' - Duplex Print.pdf')
     if receipt.exists():
         old=json.loads(receipt.read_text('utf8'))
         if old['ledger']==stamp and native.exists() and old['sha256']==sha(native) and (kind!='print' or pdf.exists() and sha(pdf)==old['pdfSha256']):return (kind,num,'already checked')
-    stage=STAGE/(kind+f'-{num:02d}');stage.mkdir(exist_ok=True)
+    stage=edition.stage/(kind+f'-{num:02d}');stage.mkdir(exist_ok=True)
     app=QApplication.instance() or QApplication([])
     if kind=='progressive':
         from PySide6.QtCore import QCoreApplication,QEvent
+        plan_file=stage/('measured-'+stamp+'.json')
+        measured_windows=json.loads(plan_file.read_text('utf8')) if plan_file.is_file() else {}
         class LexicalLayout(DictionaryLayout):
             """Measure the usual spread first; extend the window whenever all candidates fit."""
             def measured(self,group):
                 QCoreApplication.sendPostedEvents(None,QEvent.Type.DeferredDelete)
+                choice=measured_windows.get(group[0]['id'])
+                if choice:
+                    length,expected=choice
+                    assert length<=len(group)
+                    count,state,error=super().measured(group[:length])
+                    assert count==expected
+                    self.previous_count=count
+                    return count,state,error
                 end=min(len(group),getattr(self,'previous_count',7)+2)
                 while True:
                     count,state,error=super().measured(group[:end])
@@ -140,8 +162,8 @@ def render_volume(kind,num):
                         self.previous_count=count
                         return count,state,error
                     end=min(len(group),end+4)
-        v=LexicalLayout(title=label,document_id=f'document.reciprocal.{num}',id_prefix=f'reciprocal{num}',
-          column_names=('Vayrshemon','Transliteration 7','Construction gloss','English definition, use and sources'),cache_root=stage)
+        v=LexicalLayout(title=label,document_id=f'document.{edition.key}.{num}',id_prefix=f'{edition.key}{num}',
+          column_names=('Vayrshemon','Transliteration 7','Construction gloss',edition.fourth),cache_root=stage)
         # The fonts used by this typesetting job are immutable, hash-verified buffers.
         # Recheck changed on-disk locators immediately, and all locators before issuing the volume.
         resolve_face=v.session.fonts.resolve
@@ -166,11 +188,11 @@ def render_volume(kind,num):
             assert len(file.state['pages'])==report['pages'] and file.saved_page_mode=='two'
         finally:file.finish()
         report['nativeReopened']=True
-        folios=[g['leftPage'] for g in idx for ident in g['ids'] if re.fullmatch(r'w\d+\.0',ident)]
+        head_rows=set(meta.get('headRows',[]))
+        folios=[g['leftPage'] for g in idx for ident in g['ids'] if (ident in head_rows if head_rows else re.fullmatch(r'w\d+\.0',ident))]
         assert len(folios)==meta['heads']
-        (receipts/f'folios-{num:02d}.json').write_text(json.dumps(dict(ledger=stamp,pages=folios),separators=(',',':')),encoding='utf8')
     else:
-        v=ThesaurusVolume(language.initial(),dict(sha256=stamp),title=label,document_id=f'document.reciprocal.letter.{num}',ledger_sha=stamp)
+        v=ThesaurusVolume(language.initial(),dict(sha256=stamp),title=label,document_id=f'document.{edition.key}.letter.{num}',ledger_sha=stamp)
         v.start_body=3;v.new_page('title',label);v.label('title',meta['title']+' '+digit(num),42,300)
         v.guide_paragraph(meta['guide'],363);v.new_page('blank','Blank')
         expected={};tops={};report={};rows=ledger['print'];current=None;sheet=[];bottom=88
@@ -218,7 +240,14 @@ def render_volume(kind,num):
         finally:session.finish()
         physical=render_duplex(saved,stage/pdf.name,label,use_printed_folios=True,section_tops=tops)
         report.update(pages=len(saved['pages']),physicalPages=physical,pdfSha256=sha(stage/pdf.name),nativeReopened=True,allPDFTextAndBoundsVerified=True)
+    # An edited lexical ledger can arrive during a long first volume. Keep the
+    # issued volumes and their page indices on the same revision.
+    if sha(source)!=source_hash:
+        return render_volume(kind,num,edition)
+    if kind=='print':
         (stage/pdf.name).replace(pdf)
+    else:
+        (receipts/f'folios-{num:02d}.json').write_text(json.dumps(dict(ledger=stamp,pages=folios),separators=(',',':')),encoding='utf8')
     (stage/native.name).replace(native)
     report.update(ledger=stamp,sha256=sha(native),headwords=meta['heads'])
     receipt.write_text(json.dumps(report,indent=1),encoding='utf8')
@@ -237,8 +266,17 @@ def build_all(kinds,workers,nums):
                 traceback.print_exception(e);errors.append((tasks[t],str(e)))
         if errors:raise ValueError(errors)
 
+def bind_complete():
+    from tools.dictionary_continuous_print import bind
+    from tools.reciprocal_omnibus import NAME as pdf_name
+    from tools.reciprocal_print_master import NAME as native_name
+    from tools.reciprocal_verify import publication
+    bind(COMBINED,pdf_name=pdf_name,native_name=native_name)
+    publication()
+
 if __name__=='__main__':
-    parser=argparse.ArgumentParser();parser.add_argument('kind',choices=['prep','print','progressive','both']);parser.add_argument('--volumes',nargs='*',type=int);parser.add_argument('--workers',default=6,type=int)
+    parser=argparse.ArgumentParser();parser.add_argument('kind',choices=['prep','print','progressive','both','bind']);parser.add_argument('--volumes',nargs='*',type=int);parser.add_argument('--workers',default=6,type=int)
     args=parser.parse_args()
     if args.kind=='prep':prep()
+    elif args.kind=='bind':bind_complete()
     else:build_all(['print','progressive'] if args.kind=='both' else [args.kind],args.workers,args.volumes)

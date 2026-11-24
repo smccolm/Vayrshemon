@@ -97,6 +97,22 @@ def print_locations(native,start,count):
     assert min(found.values())>=4 and max(found.values())<=len(state['pages'])+1
     return [found[i] for i in sorted(found)]
 
+def write_print_index(index, catalogue, complete):
+    complete_pages=[]
+    if complete and complete.get('continuousFoliosVerified'):
+        for meta,span in zip(catalogue,complete['volumes'],strict=True):
+            assert span['volume']==meta['number']
+            start=len(complete_pages)
+            local=index[start:start+meta['heads']]
+            first,last=span['firstPhysicalPage'],span['lastPhysicalPage']
+            mapped=[first+p-span['sourceFirstPhysicalPage'] for p in local]
+            assert len(mapped)==meta['heads'] and all(first<=p<=last for p in mapped)
+            complete_pages.extend(mapped)
+        assert len(complete_pages)==len(index)
+    script='window.printLocations='+json.dumps(index,separators=(',',':'))+';'
+    script+='window.completePrintLocations='+json.dumps(complete_pages,separators=(',',':'))+';'
+    (DEST/'Index data/locations.js').write_text(script,encoding='utf8')
+
 def print_index():
     cat=json.loads((WORK/'volumes.json').read_text('utf8'));index=[];total=0
     for m in cat:
@@ -105,7 +121,8 @@ def print_index():
         assert sha(native)==r['sha256'] and r['ledger']==stamp(v['print']) and r['allPDFTextAndBoundsVerified']
         assert sha(FOLDER['print']/(m['name']+' - Duplex Print.pdf'))==r['pdfSha256']
         index.extend(print_locations(native,len(index),m['heads']));total+=r['physicalPages']
-    (DEST/'Index data/locations.js').write_text('window.printLocations='+json.dumps(index,separators=(',',':'))+';',encoding='utf8')
+    bound=WORK/'complete-pdf.json'
+    write_print_index(index,cat,json.loads(bound.read_text('utf8')) if bound.exists() else None)
     print(len(index),'page destinations;',total,'PDF pages')
 
 def spread_locations(native,ledger,start,num,signature):
@@ -157,8 +174,11 @@ def available_volumes():
     print('Reopened four-column volumes:',ready,flush=True)
 
 def publication():
+    from tools.reciprocal_browser import PAGE
     report=verify_words()
     cat=json.loads((WORK/'volumes.json').read_text('utf8'))
+    omnibus=json.loads((WORK/'complete-pdf.json').read_text('utf8'))
+    bound=FOLDER['print']/omnibus['file']
     receipt_dir=WORK/'Publication'; pages=[];spreads=[];physical=[];sheets=0; index=[];progressive_index=[];rows_html=[]
     libs=[(ROOT/'Saves'/('Vayrshemon '+typ+' - '+name),kind)
          for typ in ('Dictionary','Thesaurus') for kind,name in [('progressive','Four-Column Progressive Edition'),('print','Letter Print Edition')]]
@@ -186,18 +206,23 @@ def publication():
                 progressive_index.extend(locations)
             checks.append(dict(volume=n,format=kind,sha256=r['sha256'],pages=r['pages'],ledger=r['ledger']))
         def a(path,t):return '<a href="'+quote(path.relative_to(DEST).as_posix())+'">'+t+'</a>'
-        rows_html.append('<tr><th>'+f'{n:02d}'+'</th><td>'+escape(m['first'])+' – '+escape(m['last'])+'</td><td>'+a(names['progressive'],'Four columns')+'</td><td>'+a(names['print'],'Print .vay')+'</td><td>'+a(names['pdf'],'Duplex PDF')+'</td><td>'+str(physical[-1])+'</td></tr>')
+        span=omnibus['volumes'][n-1]
+        first,last=span['firstPhysicalPage'],span['lastPhysicalPage']
+        assert span['volume']==n and span['sourceSha256']==sha(names['pdf'])
+        assert last-first+1==physical[-1]-3
+        folios=f'<a href="{quote(bound.relative_to(DEST).as_posix())}#page={first}">{first-1:,}–{last-1:,}</a>'
+        rows_html.append('<tr><th>'+f'{n:02d}'+'</th><td>'+escape(m['first'])+' – '+escape(m['last'])+'</td><td>'+a(names['progressive'],'Four columns')+'</td><td>'+a(names['print'],'Print .vay')+'</td><td>'+a(names['pdf'],'Duplex PDF')+'</td><td>'+folios+'</td></tr>')
     assert len(index)==report['heads']==sum(m['heads'] for m in cat)
-    (DEST/'Index data/locations.js').write_text('window.printLocations='+json.dumps(index,separators=(',',':'))+';',encoding='utf8')
-    catalogue='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vayrshemon dictionary and thesaurus volumes</title><style>body{max-width:64em;margin:3em auto;padding:0 1em;color:#242525;background:#fbfaf6;font:17px/1.5 Georgia,serif}table{width:100%;border-collapse:collapse}th,td{text-align:left;border-bottom:1px solid #c8c5be;padding:.45em}a{color:#165653}h1{line-height:1.15}thead th{vertical-align:bottom}</style><h1>Vayrshemon dictionary and thesaurus</h1><p><a href="Open the dictionary and thesaurus.html">Search the entries and follow related words</a></p><p>The volumes follow Thimfora alphabetical order. Each volume has a four-column manuscript, a native print manuscript, and a Letter duplex PDF. PDF page counts include the leading binding blank.</p><table><thead><tr><th>Volume</th><th>First and last headwords</th><th>Progressive</th><th>Native print</th><th>PDF</th><th>PDF pages</th></tr></thead><tbody>'''+''.join(rows_html)+'</tbody></table></html>'
-    omnibus=json.loads((WORK/'complete-pdf.json').read_text('utf8'))
-    bound=FOLDER['print']/omnibus['file']
+    catalogue='''<!doctype html><html lang="en"><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Vayrshemon dictionary and thesaurus volumes</title><style>body{max-width:64em;margin:3em auto;padding:0 1em;color:#242525;background:#fbfaf6;font:17px/1.5 Georgia,serif}table{width:100%;border-collapse:collapse}th,td{text-align:left;border-bottom:1px solid #c8c5be;padding:.45em}a{color:#165653}h1{line-height:1.15}thead th{vertical-align:bottom}</style><h1>Vayrshemon dictionary and thesaurus</h1><p><a href="Open the dictionary and thesaurus.html">Search the entries and follow related words</a></p><p>The alphabetical ranges follow Thimfora order. Select a folio range to open its first entry in the complete print edition.</p><table><thead><tr><th>Volume</th><th>First and last headwords</th><th>Progressive</th><th>Native print</th><th>Volume PDF</th><th>Complete print folios</th></tr></thead><tbody>'''+''.join(rows_html)+'</tbody></table></html>'
     assert sha(bound)==omnibus['sha256'] and omnibus['allPageContentsAndBoxesVerified'] and omnibus['volumeBookmarksVerified']
-    assert omnibus['physicalPDFPages']==sum(physical)+len(omnibus['interVolumeBlanks'])
+    assert omnibus['physicalPDFPages']==1+sum(p-3 for p in physical)
+    assert omnibus['titlePages']==1 and omnibus['blankPages']==0 and omnibus['continuousFoliosVerified']
     complete=json.loads((WORK/'complete-print-native.json').read_text('utf8'))
     manuscript=FOLDER['print']/complete['file']
     assert sha(manuscript)==complete['sha256'] and complete['nativeReopened'] and complete['everyNativePageTextAndPrintGeometryVerified']
-    assert complete['pages']+1==omnibus['physicalPDFPages']
+    assert complete['pages']==omnibus['physicalPDFPages']
+    write_print_index(index,cat,omnibus)
+    (DEST/'Open the dictionary and thesaurus.html').write_text(PAGE,encoding='utf8')
     guide=json.loads((WORK/'guide.json').read_text('utf8'));guide_file=FOLDER['progressive']/guide['file']
     assert guide['nativeReopened'] and guide['ranges']==len(cat) and sha(guide_file)==guide['sha256']
     om_link='<p><a href="'+quote(guide_file.relative_to(DEST).as_posix())+'">Native four-column guide and alphabetical index</a> · <a href="'+quote(manuscript.relative_to(DEST).as_posix())+'">Complete print manuscript</a> · <a href="'+quote(bound.relative_to(DEST).as_posix())+'">Complete duplex PDF</a> · '+f"{omnibus['physicalPDFPages']:,} PDF pages"+'</p><p>Native volume numbers use Unta base twelve. English volume numbers and filenames use decimal. Historical references beside a coinage identify its source headword.</p>'
@@ -252,7 +277,7 @@ def publication():
       completePrintPdfPages=omnibus['physicalPDFPages'],completePrintPdfSha256=omnibus['sha256'],
       completePrintNativePages=complete['pages'],completePrintNativeSha256=complete['sha256'],
       progressiveGuidePages=guide['pages'],
-      printPageLinks=len(index),progressiveHeadwordSpreads=len(progressive_index),nativePublicationsValidated=len(checks),volumeHashes=checks)
+      printPageLinks=len(index),completePrintPageLinks=len(index),progressiveHeadwordSpreads=len(progressive_index),nativePublicationsValidated=len(checks),volumeHashes=checks)
     (WORK/'verification.json').write_text(json.dumps(report,ensure_ascii=False,indent=1),encoding='utf8')
     print({k:v for k,v in report.items() if k not in ('volumeHashes','partsOfSpeech','methodCounts')})
 

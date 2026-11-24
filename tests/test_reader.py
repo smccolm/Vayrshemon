@@ -95,6 +95,11 @@ class ReaderTests(unittest.TestCase):
             window.navigate(direction='next');self.assertEqual(window.page,20001)
             window.navigate(page=20780);window.navigate(direction='next');self.assertEqual(window.visible(),[20779,20780])
             with self.assertRaises(ValueError):window.navigate(page=20781)
+            window.meta['coverFirst']=True
+            window.navigate(page=1);self.assertEqual(window.visible(),[1])
+            window.navigate(direction='next');self.assertEqual(window.visible(),[2,3])
+            window.navigate(direction='previous');self.assertEqual(window.visible(),[1])
+            window.navigate(page=20780);self.assertEqual(window.visible(),[20780])
             window.mode='one';window.navigate(page=20);window.navigate(direction='previous');self.assertEqual(window.page,19)
             window.meta=None;window.close()
 

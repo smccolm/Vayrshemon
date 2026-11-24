@@ -80,7 +80,8 @@ class VectorPrint:
         return total
 
 
-def render_duplex(state, staged, title, *, use_printed_folios=False, section_tops=None):
+def render_duplex(state, staged, title, *, use_printed_folios=False, section_tops=None, binding_blank=True,
+                  bookmark_letter_openings=False):
     """Render and verify a collected-layout native book, including physical binding parity."""
     edition = state['printEdition']
     proof = Typesetter(next(f for f in state['fontSources'] if f['fontId'] == pe.DRAMA_PUNCT))
@@ -92,10 +93,12 @@ def render_duplex(state, staged, title, *, use_printed_folios=False, section_top
     pdf._doc.Catalog.setPageLayout('TwoPageRight')
     # Sheet 1 recto is the binding blank. Native spreads 1|2, 3|4, ...
     # then occupy facing verso|recto pages both in Acrobat and in the binding.
-    pdf.addPageLabel(0,prefix='Binding blank')
-    pdf.showPage()
+    offset = int(binding_blank)
+    if binding_blank:
+        pdf.addPageLabel(0,prefix='Binding blank')
+        pdf.showPage()
     if not use_printed_folios:
-        pdf.addPageLabel(1,style='ARABIC',start=1)
+        pdf.addPageLabel(offset,style='ARABIC',start=1)
     pdf._doc.Catalog.OpenAction=pdf.bookmarkPage('native-title-spread')
     printer=VectorPrint(pdf,proof)
     cfg = state['pageNumbering']
@@ -103,25 +106,26 @@ def render_duplex(state, staged, title, *, use_printed_folios=False, section_top
     for section in edition['sections']:
         section_names.setdefault(section['pageId'],[]).append(section['name'])
     bookmarks = []
+    letter_marks = {}
     links = pe.contents_links(state)
-    labels = ['Binding blank']
+    labels = ['Binding blank'] if binding_blank else []
     for n,page in enumerate(state['pages'],1):
         pid=page['pageId']
         spec=edition['pages'][pid]
         text=pe.text_of(page)
         if use_printed_folios:
             if spec['folio'] is None:
-                pdf.addPageLabel(n, prefix=page['name'])
+                pdf.addPageLabel(n-1+offset, prefix=page['name'])
                 labels.append(page['name'])
             else:
                 if spec['folio']==1:
-                    pdf.addPageLabel(n,style='ARABIC',start=1)
+                    pdf.addPageLabel(n-1+offset,style='ARABIC',start=1)
                 labels.append(str(spec['folio']))
             if spec['kind']=='contents':
                 section_names[pid]=[page['name']]
         else:
             labels.append(str(n))
-        assert spec['side']==('center' if n==1 else 'left' if n%2 else 'right')
+        assert spec['side']==('center' if n==1 else 'left' if pdf.getPageNumber()%2==0 else 'right')
         left=int(page['margins']['left'])/1e6
         if pid in section_names:
             pdf.bookmarkPage(pid)
@@ -132,6 +136,13 @@ def render_duplex(state, staged, title, *, use_printed_folios=False, section_top
                     target='section-'+str(len(bookmarks))
                     pdf.bookmarkHorizontalAbsolute(target,792-section_tops[name]+4)
                 pdf.addOutlineEntry(name,target)
+        if bookmark_letter_openings and spec['kind']=='opening':
+            name=page['name']
+            top=792-min(line['bounds'][1] for line in spec['lines'] if line['baseline']>77)+4
+            target='letter-'+pid
+            pdf.bookmarkHorizontalAbsolute(target,top)
+            pdf.addOutlineEntry(name,target,level=1)
+            letter_marks.setdefault(bookmarks[-1],[]).append((name,n-1+offset,top))
         for link in links.get(pid, []):
             x,y,w,h = link['bounds']
             target = state['pages'][link['page']-1]['pageId']
@@ -192,24 +203,33 @@ def render_duplex(state, staged, title, *, use_printed_folios=False, section_top
     pdf.save()
     check=PdfReader(staged)
     physical_pages=len(check.pages)
-    assert physical_pages==len(state['pages'])+1
+    assert physical_pages==len(state['pages'])+offset
     assert check.page_layout=='/TwoPageRight'
     assert check.page_labels==labels
-    assert check.get_destination_page_number(check.open_destination)==1
+    assert check.get_destination_page_number(check.open_destination)==offset
     assert all(tuple(map(float,p.mediabox))==(0,0,612,792) for p in check.pages)
-    assert [(b.title,check.get_destination_page_number(b)) for b in check.outline]==bookmarks
-    for entry in check.outline:
+    top_level=[b for b in check.outline if not isinstance(b,list)]
+    assert [(b.title,check.get_destination_page_number(b)) for b in top_level]==bookmarks
+    child_marks={}
+    for item in check.outline:
+        if isinstance(item,list):
+            child_marks[parent]=[(b.title,check.get_destination_page_number(b),float(b.top)) for b in item]
+        else:
+            parent=(item.title,check.get_destination_page_number(item))
+    assert child_marks==letter_marks
+    for entry in top_level:
         if section_tops and entry.title in section_tops:
             assert abs(float(entry.top)-(792-section_tops[entry.title]+4))<.01
     assert check.viewer_preferences.duplex=='/DuplexFlipLongEdge' and check.viewer_preferences.print_scaling=='/None'
-    assert not check.pages[0].extract_text().strip() and not check.pages[2].extract_text().strip()
+    if binding_blank:
+        assert not check.pages[0].extract_text().strip() and not check.pages[2].extract_text().strip()
     title_images=edition['pages'][state['pages'][0]['pageId']]['images']
-    for title_art,embedded in zip(title_images, check.pages[1].images, strict=True):
+    for title_art,embedded in zip(title_images, check.pages[offset].images, strict=True):
         asset=edition['assets'][title_art['asset']]
         with Image.open(BytesIO(base64.b64decode(asset['png']))) as original:
             assert original.size==embedded.image.size
             assert original.convert('RGB').tobytes()==embedded.image.convert('RGB').tobytes()
-    for page,printed in zip(state['pages'],check.pages[1:],strict=True):
+    for page,printed in zip(state['pages'],check.pages[offset:],strict=True):
         spec=edition['pages'][page['pageId']]
         source=pe.text_of(page)
         expected=[source[line['start']:line['end']] for line in spec['lines']]
@@ -220,9 +240,10 @@ def render_duplex(state, staged, title, *, use_printed_folios=False, section_top
         annotations = [a.get_object() for a in printed.get('/Annots', [])]
         for annotation, link in zip(annotations, links.get(page['pageId'], []), strict=True):
             assert annotation['/Subtype']=='/Link'
-            assert annotation['/Dest'][0] == check.pages[link['page']].indirect_reference
+            index = link['page']-1+offset
+            assert annotation['/Dest'][0] == check.pages[index].indirect_reference
             if use_printed_folios:
-                assert int(labels[link['page']]) == edition['pages'][state['pages'][link['page']-1]['pageId']]['folio']
+                assert int(labels[index]) == edition['pages'][state['pages'][link['page']-1]['pageId']]['folio']
     check.close()
     return physical_pages
 
