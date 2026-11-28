@@ -52,7 +52,7 @@ SCHEMA=obj(dict(version={'const':1},layoutVersion={'enum':['letter-native.1','le
     assets={'type':'object','maxProperties':8,'additionalProperties':obj(dict(png={'type':'string','maxLength':16777216},width={'type':'integer','minimum':1,'maximum':8192},height={'type':'integer','minimum':1,'maximum':8192}),('png','width','height'))},
     pages={'type':'object','maxProperties':32768,'additionalProperties':PAGE},
     verses={'type':'array','maxItems':40000,'items':obj(dict(id={'type':'string'},sha256=HASH,fragments={'type':'array','minItems':1,'maxItems':100,'items':SPAN}),('id','sha256','fragments'))},
-    sections={'type':'array','maxItems':100,'items':obj(dict(name={'type':'string'},number={'type':'integer','minimum':1},pageId={'type':'string'}),('name','number','pageId'))}),
+    sections={'type':'array','maxItems':40000,'items':obj(dict(name={'type':'string'},number={'type':'integer','minimum':1},pageId={'type':'string'}),('name','number','pageId'))}),
     ('version','layoutVersion','languageVersion','sourceSha256','ledgerSha256','assets','pages','verses','sections'))
 
 

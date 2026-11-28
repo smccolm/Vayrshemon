@@ -115,6 +115,10 @@ class FontRegistry:
         record=self.bundled.get('font:'+sha256+':0')
         if record and not candidate.exists():
             return bundled_fonts.path(self.root,record)
+        if not candidate.exists():
+            published = self.root / 'data/document-fonts' / candidate.name
+            if published.is_file() and hashlib.sha256(published.read_bytes()).hexdigest() == sha256:
+                return published
         windows=os.environ.get('WINDIR')
         if windows and candidate == Path(windows)/'Fonts/times.ttf':
             # Windows servicing can replace the published punctuation font at

@@ -7,11 +7,13 @@ GUTTER_PT = 24
 
 
 def starts_with_recto(state):
-    """A centered title followed immediately by a verso is a single cover."""
+    """A title or centered opening contents page followed by a verso starts on the recto."""
     pages = state['pages']
     specs = (state.get('printEdition') or {}).get('pages', {})
-    return (len(pages) >= 2 and specs.get(pages[0]['pageId'], {}).get('kind') == 'title'
-            and specs.get(pages[1]['pageId'], {}).get('side') == 'left')
+    if len(pages) < 2 or specs.get(pages[1]['pageId'], {}).get('side') != 'left':
+        return False
+    first = specs.get(pages[0]['pageId'], {})
+    return first.get('kind') == 'title' or (first.get('kind'), first.get('side')) == ('contents', 'center')
 
 
 def visible_numbers(page, count, mode, cover_first=False):

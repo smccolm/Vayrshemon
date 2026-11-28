@@ -1,0 +1,5659 @@
+{
+ "works": 449,
+ "newWorks": 102,
+ "oldWorks": 1100,
+ "removedKJB": 86,
+ "removedShakespeare": 165,
+ "wholeBibleVersesChecked": 31102,
+ "normalizedDuplicateTexts": 0,
+ "titlesForIdentityReview": [],
+ "shorterPassageMatches": [],
+ "sourceGroups": [
+  {
+   "group": "Collected Shakespeare",
+   "before": 165,
+   "after": 0,
+   "pages": 0
+  },
+  {
+   "group": "Hyakunin Isshu",
+   "before": 100,
+   "after": 8,
+   "pages": 1.2
+  },
+  {
+   "group": "King James Bible",
+   "before": 86,
+   "after": 0,
+   "pages": 0
+  },
+  {
+   "group": "Therigatha",
+   "before": 73,
+   "after": 8,
+   "pages": 6.6
+  },
+  {
+   "group": "Greek Anthology",
+   "before": 72,
+   "after": 8,
+   "pages": 0.8
+  },
+  {
+   "group": "Stray Birds and Gitanjali (Tagore)",
+   "before": 56,
+   "after": 5,
+   "pages": 0.7
+  },
+  {
+   "group": "Pepys erasures (Dave Bonta)",
+   "before": 47,
+   "after": 4,
+   "pages": 0.6
+  },
+  {
+   "group": "Jamaican Song and Story",
+   "before": 39,
+   "after": 8,
+   "pages": 2.1
+  },
+  {
+   "group": "American Indian Love Lyrics and Other Verse",
+   "before": 30,
+   "after": 8,
+   "pages": 2.7
+  },
+  {
+   "group": "Book of Songs (Shijing)",
+   "before": 27,
+   "after": 8,
+   "pages": 2.0
+  },
+  {
+   "group": "Diwan of Abu al-Ala",
+   "before": 22,
+   "after": 4,
+   "pages": 0.7
+  },
+  {
+   "group": "The Beggar’s Opera",
+   "before": 20,
+   "after": 4,
+   "pages": 1.1
+  },
+  {
+   "group": "Romancero gitano",
+   "before": 18,
+   "after": 6,
+   "pages": 7.1
+  },
+  {
+   "group": "Cautionary Tales for Children",
+   "before": 12,
+   "after": 4,
+   "pages": 4.2
+  },
+  {
+   "group": "A Child’s Garden of Verses",
+   "before": 11,
+   "after": 5,
+   "pages": 2.4
+  },
+  {
+   "group": "Tom Lehrer",
+   "before": 10,
+   "after": 5,
+   "pages": 5.4
+  },
+  {
+   "group": "Jonathan Coulton",
+   "before": 9,
+   "after": 5,
+   "pages": 7.4
+  },
+  {
+   "group": "Riau pantun manuscript",
+   "before": 9,
+   "after": 4,
+   "pages": 0.7
+  },
+  {
+   "group": "Josh Woodward",
+   "before": 8,
+   "after": 5,
+   "pages": 4.0
+  },
+  {
+   "group": "The Golden Threshold",
+   "before": 8,
+   "after": 6,
+   "pages": 2.9
+  },
+  {
+   "group": "The Weary Blues and other Hughes poetry",
+   "before": 8,
+   "after": 5,
+   "pages": 2.7
+  },
+  {
+   "group": "Gutenberg edition 12219",
+   "before": 7,
+   "after": 7,
+   "pages": 7.1
+  },
+  {
+   "group": "Gutenberg edition 42290",
+   "before": 6,
+   "after": 6,
+   "pages": 2.4
+  },
+  {
+   "group": "Gutenberg edition 44593",
+   "before": 6,
+   "after": 6,
+   "pages": 6.5
+  },
+  {
+   "group": "Nine Inch Nails",
+   "before": 6,
+   "after": 5,
+   "pages": 4.1
+  },
+  {
+   "group": "Clidesfeld",
+   "before": 4,
+   "after": 5,
+   "pages": 3.9
+  },
+  {
+   "group": "Gutenberg edition 54036",
+   "before": 0,
+   "after": 5,
+   "pages": 6.3
+  },
+  {
+   "group": "Gutenberg edition 72903",
+   "before": 0,
+   "after": 5,
+   "pages": 10.9
+  },
+  {
+   "group": "Jessica Amelia",
+   "before": 2,
+   "after": 5,
+   "pages": 2.7
+  },
+  {
+   "group": "NADINA MAURI",
+   "before": 2,
+   "after": 5,
+   "pages": 2.8
+  },
+  {
+   "group": "Sarah Shay",
+   "before": 3,
+   "after": 5,
+   "pages": 5.1
+  },
+  {
+   "group": "Wolne Lektury / Eugeniusz Tkaczyszyn-Dycki",
+   "before": 5,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "Wolne Lektury / Julian Kornhauser",
+   "before": 5,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "Wolne Lektury / Justyna Bargielska",
+   "before": 5,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "Wolne Lektury / Marcin Sendecki",
+   "before": 5,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "Antidote",
+   "before": 4,
+   "after": 4,
+   "pages": 1.7
+  },
+  {
+   "group": "Grrrl Gang",
+   "before": 3,
+   "after": 4,
+   "pages": 3.6
+  },
+  {
+   "group": "Gutenberg edition 23245",
+   "before": 3,
+   "after": 4,
+   "pages": 30.4
+  },
+  {
+   "group": "Gutenberg edition 32030",
+   "before": 2,
+   "after": 4,
+   "pages": 5.6
+  },
+  {
+   "group": "Gutenberg edition 53295",
+   "before": 4,
+   "after": 4,
+   "pages": 0.5
+  },
+  {
+   "group": "Gutenberg edition 69378",
+   "before": 0,
+   "after": 4,
+   "pages": 3.3
+  },
+  {
+   "group": "Momma Swift",
+   "before": 3,
+   "after": 4,
+   "pages": 3.5
+  },
+  {
+   "group": "Valse Triste",
+   "before": 2,
+   "after": 4,
+   "pages": 1.1
+  },
+  {
+   "group": "Wolne Lektury / Wioletta Grzegorzewska",
+   "before": 4,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "https://www.dankalia.com/literature/frc203.htm",
+   "before": 4,
+   "after": 4,
+   "pages": 1.1
+  },
+  {
+   "group": "Buch der Lieder",
+   "before": 3,
+   "after": 3,
+   "pages": 1.7
+  },
+  {
+   "group": "CONTRANSPORTE",
+   "before": 1,
+   "after": 3,
+   "pages": 1.9
+  },
+  {
+   "group": "Gutenberg edition 14993",
+   "before": 0,
+   "after": 3,
+   "pages": 0.7
+  },
+  {
+   "group": "Gutenberg edition 18338",
+   "before": 2,
+   "after": 3,
+   "pages": 4.2
+  },
+  {
+   "group": "Gutenberg edition 20511",
+   "before": 3,
+   "after": 3,
+   "pages": 1.1
+  },
+  {
+   "group": "Gutenberg edition 348",
+   "before": 3,
+   "after": 3,
+   "pages": 0.5
+  },
+  {
+   "group": "Gutenberg edition 37938",
+   "before": 0,
+   "after": 3,
+   "pages": 1.4
+  },
+  {
+   "group": "Jonathan Mann",
+   "before": 3,
+   "after": 3,
+   "pages": 1.7
+  },
+  {
+   "group": "Wolne Lektury / Darek Foks",
+   "before": 3,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "Wolne Lektury / Edward Pasewicz",
+   "before": 3,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "Wolne Lektury / Klara Nowakowska",
+   "before": 3,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "Wolne Lektury / Miłosz Biedrzycki",
+   "before": 3,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "Cami Scoundrel",
+   "before": 2,
+   "after": 2,
+   "pages": 2.4
+  },
+  {
+   "group": "Gutenberg edition 1304",
+   "before": 2,
+   "after": 2,
+   "pages": 0.3
+  },
+  {
+   "group": "Gutenberg edition 15165",
+   "before": 0,
+   "after": 2,
+   "pages": 3.8
+  },
+  {
+   "group": "Gutenberg edition 20299",
+   "before": 2,
+   "after": 2,
+   "pages": 0.4
+  },
+  {
+   "group": "Gutenberg edition 20774",
+   "before": 2,
+   "after": 2,
+   "pages": 0.9
+  },
+  {
+   "group": "Gutenberg edition 36091",
+   "before": 0,
+   "after": 2,
+   "pages": 0.7
+  },
+  {
+   "group": "Gutenberg edition 39028",
+   "before": 0,
+   "after": 2,
+   "pages": 6.8
+  },
+  {
+   "group": "Gutenberg edition 52928",
+   "before": 0,
+   "after": 2,
+   "pages": 6.2
+  },
+  {
+   "group": "Gutenberg edition 6519",
+   "before": 2,
+   "after": 2,
+   "pages": 0.6
+  },
+  {
+   "group": "Gutenberg edition 69249",
+   "before": 1,
+   "after": 2,
+   "pages": 1.9
+  },
+  {
+   "group": "Gutenberg edition 73533",
+   "before": 2,
+   "after": 2,
+   "pages": 11.6
+  },
+  {
+   "group": "Gutenberg edition 74087",
+   "before": 0,
+   "after": 2,
+   "pages": 0.8
+  },
+  {
+   "group": "Howard, Rhoda",
+   "before": 2,
+   "after": 2,
+   "pages": 0.9
+  },
+  {
+   "group": "Kellee Maize",
+   "before": 1,
+   "after": 2,
+   "pages": 4.4
+  },
+  {
+   "group": "Wolne Lektury / Agnieszka Wolny-Hamkało",
+   "before": 2,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "Wolne Lektury / Elżbieta Lipińska",
+   "before": 2,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "Wolne Lektury / Jacek Podsiadło",
+   "before": 2,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "Wolne Lektury / Jarosław Lipszyc",
+   "before": 2,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://archive.org/download/harpersmonthlyma134harp/page/n94/mode/1up?view=theater&ui=embed",
+   "before": 2,
+   "after": 2,
+   "pages": 2.2
+  },
+  {
+   "group": "https://standardebooks.org/ebooks/wilfred-owen/poetry/text/poetry",
+   "before": 1,
+   "after": 2,
+   "pages": 1.3
+  },
+  {
+   "group": "https://www.horntip.com/html/books_%26_MSS/1700s/1799_merry_muses_of_caledonia_%28various%29/1799_crochallan_fencibles_%28HC%29/1799-2003_the_merry_muses_OCR/index.htm",
+   "before": 2,
+   "after": 2,
+   "pages": 1.2
+  },
+  {
+   "group": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/5/0/3/4/50341/50341-h/50341-h.htm",
+   "before": 2,
+   "after": 2,
+   "pages": 0.6
+  },
+  {
+   "group": "A Little Geste of Robin Hood and His Meiny",
+   "before": 1,
+   "after": 1,
+   "pages": 31.8
+  },
+  {
+   "group": "Abd al-Wahhab Adam al-Falaki (author), Umar Falke (owner)",
+   "before": 1,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "Awoyiga, Dáminí",
+   "before": 1,
+   "after": 1,
+   "pages": 1.7
+  },
+  {
+   "group": "Bafode Diaby (author and owner). Fallou Ngom (PI), Bala Saho, Ablaye Diakite, Ousmane Cisse, Martin Aucoin, Daivi Rodima-Taylor, and other contributors. 2022. “Poem on Current Issues.” https://sites.bu.edu/nehajami/the-four-languages/mandinka/mandinka-manuscripts/balukuu-suukuwo/ Contributors: Fallou Ngom, Ablaye Diakite, Bala Saho, Ousmane Cisse, Martin Aucoin, Daivi Rodima-Taylor, Eric Schmidt, Marie Binta Badji, and Alison Parker, Frank Antonelli, Shawn Provencal, and Mark Lewis.",
+   "before": 1,
+   "after": 1,
+   "pages": 2.1
+  },
+  {
+   "group": "Brad Sucks",
+   "before": 0,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "Caloric",
+   "before": 1,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "Chandan Boruah",
+   "before": 0,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "Cistem Failure",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "Dhammapada",
+   "before": 1,
+   "after": 0,
+   "pages": 0
+  },
+  {
+   "group": "El Hadji Cheikh Touré or Al-Hajj Shaykh Tuure (author), Ibrahima Bayo (owner). Fallou Ngom (PI), Ablaye Diakite, Bala Saho, Ousmane Cisse, Martin Aucoin, Daivi Rodima-Taylor, and other contributors. 2022. “Kuukoy Must Pay!” https://sites.bu.edu/nehajami/the-four-languages/mandinka/mandinka-manuscripts/joor-be-kuukoy/ Contributors: Fallou Ngom, Ablaye Diakite, Bala Saho, Daivi Rodima-Taylor, Ousmane Cisse, Eric Schmidt, Martin Aucoin, Marie Binta Badji, Alison Parker, Frank Antonelli, Shawn Provencal, and Mark Lewis.",
+   "before": 1,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "El gaucho Martín Fierro",
+   "before": 1,
+   "after": 1,
+   "pages": 64.7
+  },
+  {
+   "group": "Emily June",
+   "before": 1,
+   "after": 1,
+   "pages": 1.1
+  },
+  {
+   "group": "Gutenberg edition 1141",
+   "before": 0,
+   "after": 1,
+   "pages": 11.1
+  },
+  {
+   "group": "Gutenberg edition 15845",
+   "before": 0,
+   "after": 1,
+   "pages": 47.5
+  },
+  {
+   "group": "Gutenberg edition 16659",
+   "before": 0,
+   "after": 1,
+   "pages": 13.1
+  },
+  {
+   "group": "Gutenberg edition 16950",
+   "before": 1,
+   "after": 1,
+   "pages": 15.8
+  },
+  {
+   "group": "Gutenberg edition 18044",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "Gutenberg edition 19898",
+   "before": 0,
+   "after": 1,
+   "pages": 4.0
+  },
+  {
+   "group": "Gutenberg edition 2039",
+   "before": 0,
+   "after": 1,
+   "pages": 46.3
+  },
+  {
+   "group": "Gutenberg edition 213",
+   "before": 0,
+   "after": 1,
+   "pages": 2.9
+  },
+  {
+   "group": "Gutenberg edition 246",
+   "before": 1,
+   "after": 1,
+   "pages": 8.4
+  },
+  {
+   "group": "Gutenberg edition 25546",
+   "before": 1,
+   "after": 1,
+   "pages": 2.9
+  },
+  {
+   "group": "Gutenberg edition 259",
+   "before": 1,
+   "after": 1,
+   "pages": 3.3
+  },
+  {
+   "group": "Gutenberg edition 29091",
+   "before": 1,
+   "after": 1,
+   "pages": 14.0
+  },
+  {
+   "group": "Gutenberg edition 29888",
+   "before": 0,
+   "after": 1,
+   "pages": 16.6
+  },
+  {
+   "group": "Gutenberg edition 41810",
+   "before": 0,
+   "after": 1,
+   "pages": 5.3
+  },
+  {
+   "group": "Gutenberg edition 43304",
+   "before": 0,
+   "after": 1,
+   "pages": 8.9
+  },
+  {
+   "group": "Gutenberg edition 50341",
+   "before": 0,
+   "after": 1,
+   "pages": 1.1
+  },
+  {
+   "group": "Gutenberg edition 52066",
+   "before": 0,
+   "after": 1,
+   "pages": 2.1
+  },
+  {
+   "group": "Gutenberg edition 52761",
+   "before": 0,
+   "after": 1,
+   "pages": 1.8
+  },
+  {
+   "group": "Gutenberg edition 58464",
+   "before": 0,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "Gutenberg edition 58992",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "Gutenberg edition 6099",
+   "before": 1,
+   "after": 1,
+   "pages": 1.5
+  },
+  {
+   "group": "Gutenberg edition 64260",
+   "before": 0,
+   "after": 1,
+   "pages": 0.7
+  },
+  {
+   "group": "Gutenberg edition 66039",
+   "before": 0,
+   "after": 1,
+   "pages": 10.1
+  },
+  {
+   "group": "Gutenberg edition 71933",
+   "before": 0,
+   "after": 1,
+   "pages": 11.1
+  },
+  {
+   "group": "Gutenberg edition 73895",
+   "before": 0,
+   "after": 1,
+   "pages": 2.6
+  },
+  {
+   "group": "Gutenberg edition 74751",
+   "before": 0,
+   "after": 1,
+   "pages": 1.2
+  },
+  {
+   "group": "Gutenberg edition 74854",
+   "before": 0,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "Gutenberg edition 74883",
+   "before": 0,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "Gutenberg edition 9068",
+   "before": 0,
+   "after": 1,
+   "pages": 60.4
+  },
+  {
+   "group": "He Kumulipo",
+   "before": 1,
+   "after": 1,
+   "pages": 59.4
+  },
+  {
+   "group": "Her Loving Aftertaste / Aidan Cosmo Penman / Geertruida",
+   "before": 0,
+   "after": 1,
+   "pages": 2.0
+  },
+  {
+   "group": "Hornosty, Cornelia",
+   "before": 1,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "Hoskin, Rhea Ashley",
+   "before": 1,
+   "after": 1,
+   "pages": 1.1
+  },
+  {
+   "group": "Ibrahima Bayo (poet and manuscript owner). Arabic praise poem following the Mandinka work. Fallou Ngom (PI), Ablaye Diakite, Bala Saho, Ousmane Cisse, Martin Aucoin, Daivi Rodima-Taylor, and other contributors. 2022. “Kuukoy Must Pay!” https://sites.bu.edu/nehajami/the-four-languages/mandinka/mandinka-manuscripts/joor-be-kuukoy/ Contributors: Fallou Ngom, Ablaye Diakite, Bala Saho, Daivi Rodima-Taylor, Ousmane Cisse, Eric Schmidt, Martin Aucoin, Marie Binta Badji, Alison Parker, Frank Antonelli, Shawn Provencal, and Mark Lewis.",
+   "before": 1,
+   "after": 1,
+   "pages": 0.9
+  },
+  {
+   "group": "Ibtisam M. Abujad. First published in (Des)troços, vol. 5, no. 2. The native translation follows the original English.",
+   "before": 0,
+   "after": 1,
+   "pages": 2.2
+  },
+  {
+   "group": "Jayadeva. Sanskrit e-text by Jakub Cejka, based on Barbara Stoler-Miller’s edition with amendments. TEI conversion by Maximilian Mehner, GRETIL, SUB Göttingen.",
+   "before": 0,
+   "after": 1,
+   "pages": 28.5
+  },
+  {
+   "group": "KENI DON",
+   "before": 0,
+   "after": 1,
+   "pages": 2.0
+  },
+  {
+   "group": "Kang, Nancy",
+   "before": 1,
+   "after": 1,
+   "pages": 0.9
+  },
+  {
+   "group": "Katlego Nkoana",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "Kirsten Deane",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "Logan Pace / head slug",
+   "before": 0,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "Lorenzo’s Music",
+   "before": 1,
+   "after": 1,
+   "pages": 0.9
+  },
+  {
+   "group": "MC Frontalot",
+   "before": 1,
+   "after": 1,
+   "pages": 1.1
+  },
+  {
+   "group": "McLay, Cathy",
+   "before": 1,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "Portuguese translation by Ronaldo G. Gurgel Pereira and Thais Rocha da Silva, Revista de História, 2023.",
+   "before": 0,
+   "after": 1,
+   "pages": 3.5
+  },
+  {
+   "group": "Ramshackle Glory",
+   "before": 1,
+   "after": 1,
+   "pages": 0.7
+  },
+  {
+   "group": "STITCHES. Words by Joel Palomino, music by James Lorrence Ocampo.",
+   "before": 0,
+   "after": 1,
+   "pages": 1.7
+  },
+  {
+   "group": "Sarkin Musulmi Attahiru aka Sultan Attahiru I (author), Umar Falke (owner)",
+   "before": 1,
+   "after": 1,
+   "pages": 3.2
+  },
+  {
+   "group": "Serigne Moussa Ka, also known as Sëriñ Muusaa Ka. Fallou Ngom (PI), Elhadji Djibril Diagne, Cheikh Mouhamadou S. Diop, Daivi Rodima-Taylor, Martin Aucoin, and other contributors. 2022. “Elegy for Sëriñ Masamba Mbakke.”\nhttps://sites.bu.edu/nehajami/the-four-languages/wolof/wolof-manuscripts/marsiya-serin-masamba-mbakke/ Contributors: Fallou Ngom, Elhadji Djibril Diagne, Cheikh Mouhamadou S. Diop, Daivi Rodima-Taylor, Gana Ndiaye, Martin Aucoin, Eric Schmidt, Alison Parker, Frank Antonelli, Shawn Provencal, and Mark Lewis.",
+   "before": 1,
+   "after": 1,
+   "pages": 18.1
+  },
+  {
+   "group": "Sokleva Hughes · produced by Okey Sokay",
+   "before": 1,
+   "after": 1,
+   "pages": 2.0
+  },
+  {
+   "group": "Stevia Sphere",
+   "before": 1,
+   "after": 1,
+   "pages": 0.9
+  },
+  {
+   "group": "Thompson, Hilary and Ewing, Patricia",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "Trophie",
+   "before": 0,
+   "after": 1,
+   "pages": 1.9
+  },
+  {
+   "group": "Weber, Lori",
+   "before": 1,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "Wolne Lektury / Dominik Bielicki",
+   "before": 1,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "Wolne Lektury / Joanna Mueller",
+   "before": 1,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "Wolne Lektury / Karol Maliszewski",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "Wolne Lektury / Pjotr Janicki",
+   "before": 1,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "Wolne Lektury / Szczepan Kopyt",
+   "before": 1,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "https://anthology.lib.virginia.edu/work/Donne/donne-flea",
+   "before": 1,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://archive.org/details/grammairedelalan02bras",
+   "before": 0,
+   "after": 1,
+   "pages": 31.9
+  },
+  {
+   "group": "https://banknotes.rba.gov.au/australias-banknotes/people-on-the-banknotes/ab-banjo-paterson/",
+   "before": 1,
+   "after": 1,
+   "pages": 1.4
+  },
+  {
+   "group": "https://brewminate.com/from-the-tent-show-to-the-parlor-bessie-smiths-travels-in-her-time/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "https://celt.ucc.ie/published/G400001/text001.html",
+   "before": 1,
+   "after": 1,
+   "pages": 0.9
+  },
+  {
+   "group": "https://datos.bne.es/obra/XX2028769.html",
+   "before": 1,
+   "after": 1,
+   "pages": 1.2
+  },
+  {
+   "group": "https://davidrovics.bandcamp.com/track/rent-strike",
+   "before": 1,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://dcc.dickinson.edu/catullus/101",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://dcc.dickinson.edu/catullus/16",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://dcc.dickinson.edu/catullus/70",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://dcc.dickinson.edu/catullus/85",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://dcc.dickinson.edu/catullus/93",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://de.wikisource.org/wiki/Heidenröslein",
+   "before": 1,
+   "after": 1,
+   "pages": 0.7
+  },
+  {
+   "group": "https://de.wikisource.org/wiki/Wandrers_Nachtlied",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://emandulo.apc.uct.ac.za/metadata/Mqhayi/10095/10101/16022/index.html",
+   "before": 1,
+   "after": 1,
+   "pages": 1.2
+  },
+  {
+   "group": "https://en.wikisource.org/wiki/Intellectual_Culture_of_the_Iglulik_Eskimos/Chapter_5",
+   "before": 0,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://en.wikisource.org/wiki/Page:The_English_and_Scottish_Popular_Ballads,_Volume_01.djvu/271",
+   "before": 1,
+   "after": 1,
+   "pages": 0.7
+  },
+  {
+   "group": "https://en.wikisource.org/wiki/The_Preacher_and_the_Slave",
+   "before": 1,
+   "after": 1,
+   "pages": 1.1
+  },
+  {
+   "group": "https://epigraphy.packhum.org/text/263000",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://es.wikisource.org/wiki/Lo_fatal",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "https://es.wikisource.org/wiki/Primero_Sue%C3%B1o",
+   "before": 0,
+   "after": 1,
+   "pages": 27.1
+  },
+  {
+   "group": "https://es.wikisource.org/wiki/Redondillas_(Sor_Juana_Inés_de_la_Cruz,_1901)",
+   "before": 1,
+   "after": 1,
+   "pages": 1.6
+  },
+  {
+   "group": "https://es.wikisource.org/wiki/Versos_sencillos/XXXIX",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://etcsl.orinst.ox.ac.uk/section2/c2442.htm",
+   "before": 0,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://findingaids.loc.gov/repositories/15/archival_objects/994099",
+   "before": 1,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "https://folksong.org.nz/pokarekare/index.html",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "https://folkways-media.si.edu/docs/folkways/artwork/FW02039.pdf",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "https://folkways-media.si.edu/docs/folkways/artwork/FW05591.pdf",
+   "before": 1,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://fr.wikisource.org/wiki/Le_quatrain_que_feit_Villon_quand_il_fut_jugé_à_mourir",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://fr.wikisource.org/wiki/Œuvres_(Rimbaud)/Poésies/Le_Dormeur_du_Val",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://ganjoor.net/khayyam/robaee/sh132",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://ganjoor.net/khayyam/robaee/sh66",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://icaa.mfah.org/s/en/item/1110479",
+   "before": 0,
+   "after": 1,
+   "pages": 1.2
+  },
+  {
+   "group": "https://it.wikisource.org/wiki/Canti_di_Castelvecchio/Canti_di_Castelvecchio/Il_gelsomino_notturno",
+   "before": 1,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://khe.ucl.cas.cz/macha/edice/T1.html",
+   "before": 0,
+   "after": 1,
+   "pages": 25.7
+  },
+  {
+   "group": "https://kv.mozarteum.at/de/work/das-veilchen-5584",
+   "before": 1,
+   "after": 1,
+   "pages": 0.7
+  },
+  {
+   "group": "https://levysheetmusic.mse.jhu.edu/collection/151/004",
+   "before": 1,
+   "after": 1,
+   "pages": 1.0
+  },
+  {
+   "group": "https://mouallakat.com/poems/imru-al-qays/",
+   "before": 0,
+   "after": 1,
+   "pages": 4.9
+  },
+  {
+   "group": "https://mozarteum.at/bona-nox",
+   "before": 1,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "https://ninapaley.com/2009/12/15/minute-meme-1-copying-is-not-theft/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://poets.org/poem/lynching-0/print",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/harlem-shadows/",
+   "before": 0,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/la-paloma-in-london/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/me-bannabees/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.7
+  },
+  {
+   "group": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/the-harlem-dancer/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/the-tropics-in-new-york/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "https://pyramidtextsonline.com/sarcsouthh.html",
+   "before": 1,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "https://ri.conicet.gov.ar/server/api/core/bitstreams/0c70840c-5fed-43e6-9bbb-9db89d06234c/content",
+   "before": 1,
+   "after": 1,
+   "pages": 1.2
+  },
+  {
+   "group": "https://ro.wikisource.org/wiki/Luceaf%C4%83rul_(Eminescu)",
+   "before": 0,
+   "after": 1,
+   "pages": 10.7
+  },
+  {
+   "group": "https://rpo.library.utoronto.ca/content/if-we-must-die",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://rpo.library.utoronto.ca/content/pied-piper-hamelin-childs-story",
+   "before": 0,
+   "after": 1,
+   "pages": 6.0
+  },
+  {
+   "group": "https://rpo.library.utoronto.ca/content/red-red-rose",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://rpo.library.utoronto.ca/content/sick-rose-2",
+   "before": 1,
+   "after": 1,
+   "pages": 0.4
+  },
+  {
+   "group": "https://rpo.library.utoronto.ca/content/station-metro-0",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP98506-PMLP202386-Kidson_traditionaltunes00rugg.pdf",
+   "before": 1,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi1294.phi002.perseus-lat2:1.10/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi1294.phi002.perseus-lat2:1.32/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi1294.phi002.perseus-lat2:1.47/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://scholarsjunction.msstate.edu/cht-sheet-music/1615/",
+   "before": 1,
+   "after": 1,
+   "pages": 1.4
+  },
+  {
+   "group": "https://searcharchives.bl.uk/catalog/040-002046807",
+   "before": 1,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "https://standardebooks.org/ebooks/edgar-allan-poe/poetry/text/poetry",
+   "before": 1,
+   "after": 1,
+   "pages": 3.8
+  },
+  {
+   "group": "https://standardebooks.org/ebooks/john-donne/poetry/text/songs-and-sonnets",
+   "before": 0,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://standardebooks.org/ebooks/john-keats/poetry/text/poetry",
+   "before": 0,
+   "after": 1,
+   "pages": 3.3
+  },
+  {
+   "group": "https://standardebooks.org/ebooks/w-b-yeats/poetry/text/poetry",
+   "before": 0,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "https://upload.wikimedia.org/wikipedia/commons/c/c1/W._C._Handy_-_St._Louis_Blues_%281914%2C_Pace_and_Handy%29.pdf",
+   "before": 1,
+   "after": 1,
+   "pages": 1.6
+  },
+  {
+   "group": "https://vi.wikisource.org/wiki/Chinh_ph%E1%BB%A5_ng%C3%A2m_(%C4%90o%C3%A0n_Th%E1%BB%8B_%C4%90i%E1%BB%83m_d%E1%BB%8Bch)",
+   "before": 0,
+   "after": 1,
+   "pages": 11.9
+  },
+  {
+   "group": "https://villeducaphaitien.com/images/haiti/jpg/expositions/Oswald%20Durand/medias/Choucoune.pdf",
+   "before": 1,
+   "after": 1,
+   "pages": 1.7
+  },
+  {
+   "group": "https://www.academia.org.br/academicos/castro-alves/textos-escolhidos",
+   "before": 0,
+   "after": 1,
+   "pages": 6.8
+  },
+  {
+   "group": "https://www.aotearoasongbook.com/songbook-volume-1/hine-e-hine",
+   "before": 1,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_31922",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://www.bluesbejarfestival.com/wp-content/uploads/2021/01/14-Sissy-Man-Blues.pdf",
+   "before": 0,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://www.cse.iitk.ac.in/users/amit/books/ramanujan-2003-oxford-india-ramanujan.html",
+   "before": 1,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "https://www.gnu.org/music/free-software-song.en.html",
+   "before": 1,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "https://www.gov.pl/attachment/3606630a-d1c5-43ef-9d12-d7afc1fdab34",
+   "before": 1,
+   "after": 1,
+   "pages": 0.2
+  },
+  {
+   "group": "https://www.horniman.ac.uk/object/nn15050/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://www.huapala.org/Aloha/Aloha_Oe.html",
+   "before": 1,
+   "after": 1,
+   "pages": 0.8
+  },
+  {
+   "group": "https://www.kodalycollection.org/Scores/rattlin1.pdf",
+   "before": 1,
+   "after": 1,
+   "pages": 1.3
+  },
+  {
+   "group": "https://www.loc.gov/item/2023791388/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.9
+  },
+  {
+   "group": "https://www.loc.gov/resource/afc.afcihas-200196570/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "https://www.luminarium.org/medlit/medlyric/foweles.php",
+   "before": 1,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "https://www.maktaba.org/book/546",
+   "before": 0,
+   "after": 1,
+   "pages": 10.9
+  },
+  {
+   "group": "https://www.mawomenshistory.org/transcript-bread-and-roses-james-oppenheim",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/1/5/9/3/15932/15932-h/15932-h.htm",
+   "before": 1,
+   "after": 1,
+   "pages": 1.5
+  },
+  {
+   "group": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/2/1/213/213-h/213-h.htm",
+   "before": 1,
+   "after": 1,
+   "pages": 3.6
+  },
+  {
+   "group": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/6/9/2/4/69249/69249-h/69249-h.htm",
+   "before": 1,
+   "after": 1,
+   "pages": 6.7
+  },
+  {
+   "group": "https://www.nps.gov/articles/000/mystery-of-the-broken-branch-stop-3.htm",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0077.html",
+   "before": 0,
+   "after": 1,
+   "pages": 8.6
+  },
+  {
+   "group": "https://www.schorermusic.com/en/article/chuck-rio/edition-schorer-music-publishing/tequila.191244/",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://www.sefaria.org/Pesach_Haggadah%2C_Nirtzah%2C_Chad_Gadya",
+   "before": 1,
+   "after": 1,
+   "pages": 1.9
+  },
+  {
+   "group": "https://www.sefaria.org/Pesach_Haggadah%2C_Nirtzah%2C_Echad_Mi_Yodea",
+   "before": 1,
+   "after": 1,
+   "pages": 3.2
+  },
+  {
+   "group": "https://www.si.edu/object/siris_sil_78680",
+   "before": 1,
+   "after": 1,
+   "pages": 0.5
+  },
+  {
+   "group": "https://www.tandfonline.com/doi/full/10.1080/08164649.2026.2654862",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/haikusyu/huruike.htm",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://yorkspace.library.yorku.ca/items/7eec75c8-6e29-4b21-8da0-45b02f644a30",
+   "before": 1,
+   "after": 1,
+   "pages": 1.1
+  },
+  {
+   "group": "https://yorkspace.library.yorku.ca/items/d9342051-a16d-4fe3-9ee5-708130fc5ba9",
+   "before": 1,
+   "after": 1,
+   "pages": 0.6
+  },
+  {
+   "group": "https://zh.wikisource.org/wiki/憫農二首",
+   "before": 1,
+   "after": 1,
+   "pages": 0.3
+  },
+  {
+   "group": "https://zh.wikisource.org/wiki/江雪",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://zh.wikisource.org/wiki/竹里館",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://zh.wikisource.org/wiki/送別_(王維)",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://zh.wikisource.org/wiki/靜夜思",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://zh.wikisource.org/wiki/鹿柴",
+   "before": 1,
+   "after": 1,
+   "pages": 0.1
+  },
+  {
+   "group": "https://zh.wikisource.org/zh-hant/%E5%AD%94%E9%9B%80%E6%9D%B1%E5%8D%97%E9%A3%9B",
+   "before": 1,
+   "after": 1,
+   "pages": 7.8
+  },
+  {
+   "group": "https://zh.wikisource.org/zh-hant/%E6%9C%A8%E8%98%AD%E8%BE%AD",
+   "before": 1,
+   "after": 1,
+   "pages": 1.5
+  },
+  {
+   "group": "https://zh.wikisource.org/zh-hant/%E7%90%B5%E7%90%B6%E8%A1%8C",
+   "before": 1,
+   "after": 1,
+   "pages": 3.0
+  },
+  {
+   "group": "https://zh.wikisource.org/zh-hant/%E9%95%B7%E6%81%A8%E6%AD%8C",
+   "before": 1,
+   "after": 1,
+   "pages": 3.5
+  },
+  {
+   "group": "lovecore",
+   "before": 0,
+   "after": 1,
+   "pages": 0.7
+  }
+ ],
+ "completeEpics": [
+  "hekumulipo",
+  "gauchofierro"
+ ],
+ "literaryShelf": {
+  "books": 49,
+  "sourceWordCounts": {
+   "bible": 791413,
+   "alls-well-that-ends-well": 24965,
+   "antony-and-cleopatra": 26935,
+   "as-you-like-it": 23571,
+   "the-comedy-of-errors": 16578,
+   "coriolanus": 29829,
+   "cymbeline": 29991,
+   "hamlet": 32411,
+   "henry-iv-part-1": 26132,
+   "henry-iv-part-2": 28311,
+   "henry-v": 27797,
+   "henry-vi-part-1": 23193,
+   "henry-vi-part-2": 27635,
+   "henry-vi-part-3": 26659,
+   "henry-viii": 26309,
+   "julius-caesar": 21025,
+   "king-john": 22253,
+   "king-lear": 28093,
+   "loves-labors-lost": 23108,
+   "macbeth": 18536,
+   "measure-for-measure": 23614,
+   "the-merchant-of-venice": 22648,
+   "the-merry-wives-of-windsor": 24386,
+   "a-midsummer-nights-dream": 17675,
+   "much-ado-about-nothing": 22910,
+   "othello": 28358,
+   "pericles": 19851,
+   "richard-ii": 23794,
+   "richard-iii": 31515,
+   "romeo-and-juliet": 26368,
+   "the-taming-of-the-shrew": 22919,
+   "the-tempest": 18032,
+   "timon-of-athens": 20158,
+   "titus-andronicus": 22052,
+   "troilus-and-cressida": 28817,
+   "twelfth-night": 21628,
+   "the-two-gentlemen-of-verona": 18774,
+   "the-two-noble-kinsmen": 26303,
+   "the-winters-tale": 26759,
+   "lucrece": 15359,
+   "the-phoenix-and-turtle": 369,
+   "shakespeares-sonnets": 18315,
+   "venus-and-adonis": 10057,
+   "A New Voyage Round the World": 190324,
+   "Leviathan": 214729,
+   "Paradise Lost": 85643,
+   "The Prince": 44359,
+   "The Sceptical Chymist": 89047,
+   "Two Treatises of Government": 103039
+  },
+  "possibleDuplicates": []
+ },
+ "worksInEdition": [
+  {
+   "id": "unas",
+   "title": "On the Throne of Osiris",
+   "sourceGroup": "https://pyramidtextsonline.com/sarcsouthh.html",
+   "sourceSha256": "65530b0d12d714c5f345975ac0bb6b7a72f15937d201c25795cb8d3f7299f740",
+   "verseLines": 5,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "shusuenb",
+   "title": "A Love Song for Šu-Suen",
+   "sourceGroup": "https://etcsl.orinst.ox.ac.uk/section2/c2442.htm",
+   "sourceSha256": "e5dc1fa4f478bf85ad9a3258bfa46dd5751c8d474395e01174798dc2fe1a1855",
+   "verseLines": 30,
+   "bodyPages": 0.83,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nilesailor",
+   "title": "The Shipwrecked Sailor",
+   "sourceGroup": "Portuguese translation by Ronaldo G. Gurgel Pereira and Thais Rocha da Silva, Revista de História, 2023.",
+   "sourceSha256": "1af5c541ce5448373d6309195b8efda79f8b4e038abce2237f61bb65e1099f03",
+   "verseLines": 111,
+   "bodyPages": 3.51,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "intefharper",
+   "title": "The Song of the Harper at the Tomb of Intef",
+   "sourceGroup": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/1/5/9/3/15932/15932-h/15932-h.htm",
+   "sourceSha256": "3800b1fc8de37c6cc34113629c55ba2695136d0901aa0e6c2396d46f7aba10d3",
+   "verseLines": 47,
+   "bodyPages": 1.47,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zhouair1",
+   "title": "The Ospreys",
+   "sourceGroup": "Book of Songs (Shijing)",
+   "sourceSha256": "ee53c04d8e2833b90368d3ec0d20649c7f4d5f86d51e7a1ec82de3566cc0abe0",
+   "verseLines": 10,
+   "bodyPages": 0.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zhouair7",
+   "title": "The Rabbit Net",
+   "sourceGroup": "Book of Songs (Shijing)",
+   "sourceSha256": "1d8f4ccc016974607077bf3d742b198b7ebf225fab1e21cd8094695eb0d98ad5",
+   "verseLines": 6,
+   "bodyPages": 0.18,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zhouair17",
+   "title": "Dew on the Road",
+   "sourceGroup": "Book of Songs (Shijing)",
+   "sourceSha256": "365531163060ea3416a3cd55f6dab7cd6afa1580646eed4d8c3106264e9cee31",
+   "verseLines": 7,
+   "bodyPages": 0.29,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zhouair20",
+   "title": "The Plums Are Falling",
+   "sourceGroup": "Book of Songs (Shijing)",
+   "sourceSha256": "d1acebc4d7d994f3c9957ef78c31de5eace0d510ca3cd682cf39379cafbf40c5",
+   "verseLines": 6,
+   "bodyPages": 0.33,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zhouair23",
+   "title": "A Dead Deer in the Wild",
+   "sourceGroup": "Book of Songs (Shijing)",
+   "sourceSha256": "739366d4251b46a982dc1999ac3ff911b16ab4b52f1eddcb1f43cf7fad943a4d",
+   "verseLines": 5,
+   "bodyPages": 0.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "peach",
+   "title": "The Peach Tree",
+   "sourceGroup": "Book of Songs (Shijing)",
+   "sourceSha256": "7cb3472aab2d8a611697982ebc4fbfa655aa37e71276e78d5f79ba2657b19097",
+   "verseLines": 6,
+   "bodyPages": 0.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ratmanners",
+   "title": "Look at the Rat",
+   "sourceGroup": "Book of Songs (Shijing)",
+   "sourceSha256": "ec2bb590e42c2b9dae6ed456916bcff89cc4f2cf7b18a285ad3717a9cdcee8c5",
+   "verseLines": 6,
+   "bodyPages": 0.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plantain",
+   "title": "Gathering Plantain",
+   "sourceGroup": "Book of Songs (Shijing)",
+   "sourceSha256": "d5cb824639873e59ea768bce448e08f327e360ae14936b7680657dfd595346d3",
+   "verseLines": 6,
+   "bodyPages": 0.37,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hera",
+   "title": "To Hera",
+   "sourceGroup": "Gutenberg edition 348",
+   "sourceSha256": "41ed6b7866b3924c48617818fa6ada6f801bf26fcd09998fe74e295c66f6f6c9",
+   "verseLines": 2,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "demeter",
+   "title": "To Demeter",
+   "sourceGroup": "Gutenberg edition 348",
+   "sourceSha256": "0ee41e78de29bca475b585d5468cbb8f2b8259ecf1f232bedce7e148d84442f3",
+   "verseLines": 2,
+   "bodyPages": 0.15,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "smithgod",
+   "title": "To Hephaestus",
+   "sourceGroup": "Gutenberg edition 348",
+   "sourceSha256": "b20d2c9f16c9370a4a6913eadbd11d294988b75b9548ab3598c3ff653356fb30",
+   "verseLines": 4,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hell3_4",
+   "title": "To the Passer-by at Thermopylae",
+   "sourceGroup": "Greek Anthology",
+   "sourceSha256": "f0cd2c979d1a0fd74d22bc1ec18cc959b03214e50b1e1bc8e48f66895c5c77c4",
+   "verseLines": 1,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "threecrooked",
+   "title": "The Three Crooked Things",
+   "sourceGroup": "Therigatha",
+   "sourceSha256": "6782f742569d06a534c4edc15a55d19a884d15b5a36d4100988559a59007906a",
+   "verseLines": 6,
+   "bodyPages": 0.33,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "priceofkasi",
+   "title": "My Price Was Kāsi",
+   "sourceGroup": "Therigatha",
+   "sourceSha256": "49807dc3a8c9c2f83ed9cc5a8a5056cd8b8f5f98242a0e1b568cbaae5b255628",
+   "verseLines": 10,
+   "bodyPages": 0.26,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "elephantfoot",
+   "title": "Give Me Your Foot",
+   "sourceGroup": "Therigatha",
+   "sourceSha256": "8433819fafc7d7353872ae35a292cda491c153a2250dbbe3610a45e0a907e8ee",
+   "verseLines": 12,
+   "bodyPages": 0.31,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ubbirilive",
+   "title": "Called Jīvā",
+   "sourceGroup": "Therigatha",
+   "sourceSha256": "6a6c6d5c578bec0d009875e12bf5e8086b71229f2ad347475c8c3a9cecf750d7",
+   "verseLines": 14,
+   "bodyPages": 0.51,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "brotheldoor",
+   "title": "At the Brothel Door",
+   "sourceGroup": "Therigatha",
+   "sourceSha256": "049d33f7e928cdd78bed476f68f9a91b5d487ab5068c81596c0f4c61a914a4c0",
+   "verseLines": 20,
+   "bodyPages": 0.5,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "drawingthewick",
+   "title": "Drawing Out the Wick",
+   "sourceGroup": "Therigatha",
+   "sourceSha256": "7d6c2551e3db3e83a26f6d0692350b83c0c5fa6cb6561c20e1c3ad08a012109e",
+   "verseLines": 22,
+   "bodyPages": 0.7,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "watercarrierpali",
+   "title": "The Water Carrier and the Brahmin",
+   "sourceGroup": "Therigatha",
+   "sourceSha256": "cb8b61824e4440ba7a7812dd49c2f340455c8284dc5332b841ee735bbcd410a6",
+   "verseLines": 66,
+   "bodyPages": 1.86,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "truthfulbody",
+   "title": "The Word of the Truthful One",
+   "sourceGroup": "Therigatha",
+   "sourceSha256": "0eb6128a70ad1ed9fef1b1cb74a1ab2375d0445f5eddd2ad9531e66e53ba07fe",
+   "verseLines": 76,
+   "bodyPages": 2.12,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hell1_21",
+   "title": "Parting at Dawn",
+   "sourceGroup": "Greek Anthology",
+   "sourceSha256": "00dd837d1a4932d4ebaf0aefad5f2b1f31085beac11578b1ada0dda2eccc4196",
+   "verseLines": 1,
+   "bodyPages": 0.11,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hate",
+   "title": "I Hate and I Love",
+   "sourceGroup": "https://dcc.dickinson.edu/catullus/85",
+   "sourceSha256": "d1b425fdcd22f8841fad00fe1de5cb31b92c16c9f3bb3ed205ed05d9dc4d9e0a",
+   "verseLines": 2,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "caesarcare",
+   "title": "I Have No Wish to Please You",
+   "sourceGroup": "https://dcc.dickinson.edu/catullus/93",
+   "sourceSha256": "e89f2d6a3b882962c2e50b4ea3498fea531b3f9b6f209a506957b2d13d6b7a8a",
+   "verseLines": 2,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "windwater",
+   "title": "Wind and Running Water",
+   "sourceGroup": "https://dcc.dickinson.edu/catullus/70",
+   "sourceSha256": "b556af13466417f97b7c0b0ff71103a743c6bc260b3369290a468f16ec64ce95",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "brotherashes",
+   "title": "Among Many Peoples",
+   "sourceGroup": "https://dcc.dickinson.edu/catullus/101",
+   "sourceSha256": "8879ceb84ea563ee027414acf5ad2a731bac29909c6f9955b7e45b4a5afcc060",
+   "verseLines": 10,
+   "bodyPages": 0.44,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "cat16",
+   "title": "To Aurelius and Furius",
+   "sourceGroup": "https://dcc.dickinson.edu/catullus/16",
+   "sourceSha256": "ee2204d2e98cfd7a3e56334788848301f5f06ec6a04da3434b230649e4905b30",
+   "verseLines": 14,
+   "bodyPages": 0.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hearts",
+   "title": "Red Earth and Rain",
+   "sourceGroup": "https://www.cse.iitk.ac.in/users/amit/books/ramanujan-2003-oxford-india-ramanujan.html",
+   "sourceSha256": "d40297305768bfa3e990a9841584ed738d4ab0d4d7b0af52650be755f25bd96e",
+   "verseLines": 5,
+   "bodyPages": 0.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "doctorundertaker",
+   "title": "The Doctor and the Undertaker",
+   "sourceGroup": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi1294.phi002.perseus-lat2:1.47/",
+   "sourceSha256": "ef3345fb7e2a02a9ef1082f38ba9f346805f65715058f529401003de2c4ae601",
+   "verseLines": 2,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sabidius",
+   "title": "I Do Not Like You",
+   "sourceGroup": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi1294.phi002.perseus-lat2:1.32/",
+   "sourceSha256": "5c8e73effd02a8fd69c9a19e36af55aeab08e4b91aba16307691e598c053c71c",
+   "verseLines": 2,
+   "bodyPages": 0.24,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "maronilla",
+   "title": "He Wants to Marry Her",
+   "sourceGroup": "https://scaife.perseus.org/reader/urn:cts:latinLit:phi1294.phi002.perseus-lat2:1.10/",
+   "sourceSha256": "88d2848e934987308c1e5be7a31c2a04e01e0871e033d4a455d619ff4c31ca02",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "shine",
+   "title": "As Long as You Live",
+   "sourceGroup": "https://epigraphy.packhum.org/text/263000",
+   "sourceSha256": "3dd21bee2299f7cd96067345e0a1acbd73a5acd5ad66ae6a7c10daf09ab28349",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "oldhanreturn",
+   "title": "The Old Soldier’s Return",
+   "sourceGroup": "Gutenberg edition 37938",
+   "sourceSha256": "8e7daf8060aefcac206c6029468942e457f6b4840e9e459fcd36f86b25b038f7",
+   "verseLines": 24,
+   "bodyPages": 0.74,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pattinaport",
+   "title": "The City and the Wilderness",
+   "sourceGroup": "https://www.projectmadurai.org/pm_etexts/utf8/pmuni0077.html",
+   "sourceSha256": "169dc73ff0705b58d5d646dbd614d2a13ceb98e6c919c6a9e4775d0d17f28fcf",
+   "verseLines": 301,
+   "bodyPages": 8.55,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hell12_35",
+   "title": "The Slaughter-House",
+   "sourceGroup": "Greek Anthology",
+   "sourceSha256": "a5601ca91f71681336ff5e4bdb0f30b5b96793feb378a96f2ebc7b5f77238b2e",
+   "verseLines": 1,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "meghadutam",
+   "title": "The Cloud-Messenger",
+   "sourceGroup": "Gutenberg edition 16659",
+   "sourceSha256": "261b39914502258163302e1a1189a455297a2e83e535fa9c8e0f7c8c635312ee",
+   "verseLines": 577,
+   "bodyPages": 13.09,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "northmulan",
+   "title": "Mulan’s Ballad",
+   "sourceGroup": "https://zh.wikisource.org/zh-hant/%E6%9C%A8%E8%98%AD%E8%BE%AD",
+   "sourceSha256": "e68a4188844f29888d02a70122b5d72102a0fbf8a6964736aedd237c8934587f",
+   "verseLines": 31,
+   "bodyPages": 1.54,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "qifanabki",
+   "title": "Stop, You Two, and Let Us Weep",
+   "sourceGroup": "https://mouallakat.com/poems/imru-al-qays/",
+   "sourceSha256": "b89ab0ff0225085ed0c6bcc86159a7575a4799c68c1ad9d5e8fcc3a75aff52c1",
+   "verseLines": 164,
+   "bodyPages": 4.93,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "northpeacock",
+   "title": "The Peacock Flies Southeast",
+   "sourceGroup": "https://zh.wikisource.org/zh-hant/%E5%AD%94%E9%9B%80%E6%9D%B1%E5%8D%97%E9%A3%9B",
+   "sourceSha256": "cdd6123f206209d3f011f09eb27eae3ce2064792f7f9e999348e58b51e5d1362",
+   "verseLines": 188,
+   "bodyPages": 7.81,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hell7_2",
+   "title": "The Girl’s Cup",
+   "sourceGroup": "Greek Anthology",
+   "sourceSha256": "bfae3baa9c4d2b56a2bcb51fca279540969ffda60d1215fd01dd5b95ad2aaa97",
+   "verseLines": 1,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "dawn",
+   "title": "Spring Dawn",
+   "sourceGroup": "https://www.horniman.ac.uk/object/nn15050/",
+   "sourceSha256": "028f3be1a65f58faae7f9932e061556e9f945347c45e4186285eb1ab77796106",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nightthought",
+   "title": "Quiet Night Thought",
+   "sourceGroup": "https://zh.wikisource.org/wiki/靜夜思",
+   "sourceSha256": "17360a85db61dcf6810878b5947d475eb8ff762a3931ce41f6818a53a26151f0",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "deerpark",
+   "title": "Deer Enclosure",
+   "sourceGroup": "https://zh.wikisource.org/wiki/鹿柴",
+   "sourceSha256": "747d40e2307a049c6ddaaba3fbdd8ec75d8c55f3cf898b170a33697863ae64e4",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "mountainfarewell",
+   "title": "A Farewell in the Mountains",
+   "sourceGroup": "https://zh.wikisource.org/wiki/送別_(王維)",
+   "sourceSha256": "f9ded289b7886173b373599be31c57aead6a48b0c46ccca945191c10ce6a24c4",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bamboogrove",
+   "title": "The Bamboo Lodge",
+   "sourceGroup": "https://zh.wikisource.org/wiki/竹里館",
+   "sourceSha256": "698e5b9d0a8bc057628169e76e6e173d839ce1227770c1270192f1a39aef5386",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "harvestmeal",
+   "title": "Hardship of the Farmers",
+   "sourceGroup": "https://zh.wikisource.org/wiki/憫農二首",
+   "sourceSha256": "690051edd29da53f4eb9e4561fa6de26d261368045866e2a5a3ed56b7e1336a7",
+   "verseLines": 4,
+   "bodyPages": 0.29,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "mountaintemple",
+   "title": "The Old Temple among the Mountains",
+   "sourceGroup": "Gutenberg edition 37938",
+   "sourceSha256": "4475dfcc16d257a7583d02d96a08455ca0234babd3ced28d68311e05662a23e0",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "cailleachbeare",
+   "title": "The Lament of the Old Woman of Beare",
+   "sourceGroup": "Gutenberg edition 32030",
+   "sourceSha256": "d460642adef945651b08af148038211f633c169b382bbe5d2d6d8cea47fd9225",
+   "verseLines": 140,
+   "bodyPages": 2.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "northregret",
+   "title": "Song of Everlasting Regret",
+   "sourceGroup": "https://zh.wikisource.org/zh-hant/%E9%95%B7%E6%81%A8%E6%AD%8C",
+   "sourceSha256": "96303a3c68febebb9fac49e6b35850ac67bb14e337e410bb240377f8efb944bc",
+   "verseLines": 60,
+   "bodyPages": 3.54,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "baicoal",
+   "title": "The Charcoal-Seller",
+   "sourceGroup": "Gutenberg edition 42290",
+   "sourceSha256": "600c3bd96427ff464a09c9d45146f81fedf7e1b9d55a03bbb1b15277c9b30d42",
+   "verseLines": 22,
+   "bodyPages": 0.68,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "baiflowers",
+   "title": "The Flower Market",
+   "sourceGroup": "Gutenberg edition 42290",
+   "sourceSha256": "884467d2e53a39b0bbe3d9d28a676e6c093cfaa346493bb69da6b9bb0673f3f2",
+   "verseLines": 20,
+   "bodyPages": 0.66,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "northpipa",
+   "title": "Song of the Pipa",
+   "sourceGroup": "https://zh.wikisource.org/zh-hant/%E7%90%B5%E7%90%B6%E8%A1%8C",
+   "sourceSha256": "0af826916277c603a35d8712fb42fd2e2d2077d4da207641625680ce35b2c0b5",
+   "verseLines": 52,
+   "bodyPages": 3.05,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "riversnow",
+   "title": "River Snow",
+   "sourceGroup": "https://zh.wikisource.org/wiki/江雪",
+   "sourceSha256": "967dd5a00bc920ec89d6078f4a08fee8f79b69997bfa0940f25e82bda05b6223",
+   "verseLines": 4,
+   "bodyPages": 0.15,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pangurwhite",
+   "title": "The Scholar and His Cat",
+   "sourceGroup": "https://celt.ucc.ie/published/G400001/text001.html",
+   "sourceSha256": "92356d4afbaea6dc729004ed756a612c074ff06d79a03a9e5ba522cbe9f077b5",
+   "verseLines": 32,
+   "bodyPages": 0.94,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "baibird",
+   "title": "The Red Cockatoo",
+   "sourceGroup": "Gutenberg edition 42290",
+   "sourceSha256": "64ef6ae2d3ececd8c112b75b9cf2fee882642d4301424c7f12d935b5309d9c8c",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "baiafterlunch",
+   "title": "After Lunch",
+   "sourceGroup": "Gutenberg edition 42290",
+   "sourceSha256": "2cfa5aee79fa07c84b4b81273b015c435c481c188a4ec0be43821f388923f300",
+   "verseLines": 8,
+   "bodyPages": 0.38,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "vikings",
+   "title": "The Viking Terror",
+   "sourceGroup": "Gutenberg edition 32030",
+   "sourceSha256": "87128418a744186666324224985a24ea834f660aecc19644d33bc134f1d88c39",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "caoprotest",
+   "title": "A Protest in the Sixth Year of Ch’ien Fu",
+   "sourceGroup": "Gutenberg edition 42290",
+   "sourceSha256": "1eed37b6c9321e9c229383bf095b101f9f93df4e74159931e41d74172d3d3513",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "scribe",
+   "title": "The Scribe",
+   "sourceGroup": "Gutenberg edition 32030",
+   "sourceSha256": "8fa8793442585c9a5e640bd055973c901570d371f211b695bf5b4b7e6acba3f8",
+   "verseLines": 8,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "oldcapital",
+   "title": "The Cuckoo at the Old Capital",
+   "sourceGroup": "Gutenberg edition 53295",
+   "sourceSha256": "9af963fd482388c9446788fa59689fd33868bbd298c9dc391cf9468b8efac444",
+   "verseLines": 5,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "frozenwarbler",
+   "title": "The Warbler’s Tears",
+   "sourceGroup": "Gutenberg edition 53295",
+   "sourceSha256": "e76a5bfda8137641c2267711e81e2c0155737d4b2c1ae89a33cc536190a741a3",
+   "verseLines": 5,
+   "bodyPages": 0.25,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nocherries",
+   "title": "If There Were No Cherry Blossoms",
+   "sourceGroup": "Gutenberg edition 53295",
+   "sourceSha256": "47b14390af4d069dfe00db6d18940b20cc0cf275b53f27abd2e7c8dae5e359c5",
+   "verseLines": 5,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "findthewind",
+   "title": "Who Knows Where the Wind Lodges?",
+   "sourceGroup": "Gutenberg edition 53295",
+   "sourceSha256": "d8655df9d3d32fc0da28f5c67b7113a651d84b5929f81120cb6cfb64a5e42462",
+   "verseLines": 5,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hell3_11",
+   "title": "Exiles near Susa",
+   "sourceGroup": "Greek Anthology",
+   "sourceSha256": "71a2a7f2173815a568b11aaa003f330653e43a8ef3ce8eda62b61569c3f31937",
+   "verseLines": 1,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hell3_16",
+   "title": "On a Shipwrecked Sailor",
+   "sourceGroup": "Greek Anthology",
+   "sourceSha256": "1931379f3cd663ec202b2bacfc8dd34094921f5b5d1ff83c0ef1f12f4258d1d4",
+   "verseLines": 1,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hell10_15",
+   "title": "The Popular Singer",
+   "sourceGroup": "Greek Anthology",
+   "sourceSha256": "c1750fc2fa39a788d35e227a38610d33704ab9bed19f018f9f27cf3ae608ec1d",
+   "verseLines": 1,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hell10_31",
+   "title": "Scientific Surgery",
+   "sourceGroup": "Greek Anthology",
+   "sourceSha256": "db90b7ed14e5b7dc24a5a2eaf966cfb06b2fcfd391df4acf408dc3e815ffa8ef",
+   "verseLines": 1,
+   "bodyPages": 0.11,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "marvanking",
+   "title": "King and Hermit",
+   "sourceGroup": "Gutenberg edition 32030",
+   "sourceSha256": "6f58e19934f6b08f07c6c8985e36fde669525359524b96bc445c2296b480950c",
+   "verseLines": 107,
+   "bodyPages": 3.0,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bowl",
+   "title": "The Bowl",
+   "sourceGroup": "Diwan of Abu al-Ala",
+   "sourceSha256": "c3625d3ba13db23dafaca11db17533cab51299839581027fb56f146035e32a63",
+   "verseLines": 4,
+   "bodyPages": 0.11,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "redmorning",
+   "title": "The Scarlet Eyes of Morning",
+   "sourceGroup": "Diwan of Abu al-Ala",
+   "sourceSha256": "6e3ee1ef8aec86f82387d311054eb439ffbe35273c723ae7e6fba0e2fae38f8f",
+   "verseLines": 4,
+   "bodyPages": 0.29,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sleeplesshand",
+   "title": "The Sleepless Hand",
+   "sourceGroup": "Diwan of Abu al-Ala",
+   "sourceSha256": "a45e6bc5f95183b3fceccf294b8dac7b70a346bf46910ad7781d563da1db478c",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "maar43",
+   "title": "The Diwan 43",
+   "sourceGroup": "Diwan of Abu al-Ala",
+   "sourceSha256": "ddd3bdd583e226151180e721f5d0963f2d04aff358988f86633c46ae5d9ad751",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "subirth",
+   "title": "On the Birth of His Son",
+   "sourceGroup": "Gutenberg edition 42290",
+   "sourceSha256": "a39c83ab19ec9f41dad4a499ff5714e06c84136e97ef470448433d97bf2b234b",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lifecaravan",
+   "title": "The Caravan of Life",
+   "sourceGroup": "https://ganjoor.net/khayyam/robaee/sh66",
+   "sourceSha256": "3d081afd5e5d9eabc007918cd772ee2c9a4c59e87b7ede463266aca8e41b0d9d",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "purewine",
+   "title": "Without Pure Wine",
+   "sourceGroup": "https://ganjoor.net/khayyam/robaee/sh132",
+   "sourceSha256": "e97936361c01b2c15aab195f72a4953e8e353c33a2c8c33315d5fbf69276e775",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "gitagovinda",
+   "title": "The Song of Govinda",
+   "sourceGroup": "Jayadeva. Sanskrit e-text by Jakub Cejka, based on Barbara Stoler-Miller’s edition with amendments. TEI conversion by Maximilian Mehner, GRETIL, SUB Göttingen.",
+   "sourceSha256": "90896db8a4f7dadbe6329233b6bedf8fbee93378c5b46fa461c1c88a72798a13",
+   "verseLines": 910,
+   "bodyPages": 28.45,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "igorshost",
+   "title": "The Tale of Igor’s Campaign",
+   "sourceGroup": "Gutenberg edition 71933",
+   "sourceSha256": "1a568caec0e00e8106dc15345a93c8773b8487203d6a2e325967880c7b960a8c",
+   "verseLines": 186,
+   "bodyPages": 11.14,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ogura1",
+   "title": "The Harvester’s Sleeve",
+   "sourceGroup": "Hyakunin Isshu",
+   "sourceSha256": "8945a5fbff755a291488d5c4d5b6848f3cc3bfb047160631a7ad0868410b81fe",
+   "verseLines": 5,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ogura9",
+   "title": "The Blossom’s Colour",
+   "sourceGroup": "Hyakunin Isshu",
+   "sourceSha256": "5fcb93889c58464f8b648896aabdb35163cda41a552004dfdbaec17221dc77f2",
+   "verseLines": 5,
+   "bodyPages": 0.1,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ogura17",
+   "title": "The Tatsuta’s Song",
+   "sourceGroup": "Hyakunin Isshu",
+   "sourceSha256": "4790fa128e4051c712f93cc724eb42b93a7c26cdbf6c496bed9b9ac49f2ff237",
+   "verseLines": 5,
+   "bodyPages": 0.11,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ogura48",
+   "title": "Waves against Rocks",
+   "sourceGroup": "Hyakunin Isshu",
+   "sourceSha256": "1a200c89f3ede351571ca9d9e6f943b7cc5831d5d1c90a8b67f950b450a544d3",
+   "verseLines": 5,
+   "bodyPages": 0.33,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ogura53",
+   "title": "Till Daybreak",
+   "sourceGroup": "Hyakunin Isshu",
+   "sourceSha256": "0e465e67fa0f24d667330845eba5d24ca986bae9f204815ee56a20ffca6fd8cb",
+   "verseLines": 5,
+   "bodyPages": 0.15,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ogura80",
+   "title": "The Tangle of Black Hair",
+   "sourceGroup": "Hyakunin Isshu",
+   "sourceSha256": "4db2218d4830d546520289c7e3ff29cbebba0f7bbe3106923012bf836b3deb5e",
+   "verseLines": 5,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ogura93",
+   "title": "The Towrope",
+   "sourceGroup": "Hyakunin Isshu",
+   "sourceSha256": "9d07ecbc8749d3e40305b875fe57e6a1fb9a8b5affc19a9ab828d518df2e281c",
+   "verseLines": 5,
+   "bodyPages": 0.15,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ogura94",
+   "title": "Cloth in the Deepening Night",
+   "sourceGroup": "Hyakunin Isshu",
+   "sourceSha256": "72e9cf3f935684c82805928301913e5449ee0f94aac8d8c4fd61e6c67c40af5f",
+   "verseLines": 5,
+   "bodyPages": 0.15,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "round",
+   "title": "Sumer Is Icumen In",
+   "sourceGroup": "https://searcharchives.bl.uk/catalog/040-002046807",
+   "sourceSha256": "725221e10589185ca2861f6f6de59928c1f10f72deafee16694acaca3cf09670",
+   "verseLines": 16,
+   "bodyPages": 0.56,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "swanroast",
+   "title": "The Lament of the Roast Swan",
+   "sourceGroup": "Gutenberg edition 18044",
+   "sourceSha256": "9e0e0f70c1540e1de391a9ad5c938033b607a4d93bdab8c2eb47c42abe79a344",
+   "verseLines": 21,
+   "bodyPages": 0.52,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "foweles",
+   "title": "Foweles in the Frith",
+   "sourceGroup": "https://www.luminarium.org/medlit/medlyric/foweles.php",
+   "sourceSha256": "e71896ba08bf13458dadd7784a4ddfadd34071f8ca38afb58d84dc31f03463ac",
+   "verseLines": 5,
+   "bodyPages": 0.34,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lokifeast",
+   "title": "Loki’s Flyting",
+   "sourceGroup": "Gutenberg edition 73533",
+   "sourceSha256": "d83d449f81db55cb05a30545fc9243200d6baa43ed7ec76721f3fe984ce269ac",
+   "verseLines": 488,
+   "bodyPages": 7.78,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "thrymsbridal",
+   "title": "The Lay of Thrym",
+   "sourceGroup": "Gutenberg edition 73533",
+   "sourceSha256": "8ab91129616a69e7e7bf959f97eee0c5b5ac9f6aa773e5ed26f767191419868f",
+   "verseLines": 134,
+   "bodyPages": 3.81,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "shiraziheart",
+   "title": "O Turkish Maid of Shiraz",
+   "sourceGroup": "Gutenberg edition 74883",
+   "sourceSha256": "363a7213c59af4cf1ec314b47cb6332ff59c9bcb00ad8ab0459d4dea2b076141",
+   "verseLines": 32,
+   "bodyPages": 0.82,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sotobakomachi",
+   "title": "Komachi at the Stupa",
+   "sourceGroup": "Gutenberg edition 43304",
+   "sourceSha256": "272136de95f49268980f007a15773517b51b93e4febb2304e48cb2f1accfd9b4",
+   "verseLines": 296,
+   "bodyPages": 8.88,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "gallowsquatrain",
+   "title": "Quatrain under Sentence of Death",
+   "sourceGroup": "https://fr.wikisource.org/wiki/Le_quatrain_que_feit_Villon_quand_il_fut_jugé_à_mourir",
+   "sourceSha256": "8108836348899d1964aebca80032ba059818803245de1315e3d2472eb664c06b",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "coplasmanrique",
+   "title": "On the Death of the Master of Santiago, Don Rodrigo Manrique, His Father",
+   "sourceGroup": "Gutenberg edition 41810",
+   "sourceSha256": "1c9ed17a6a7fb6ab7b53037184ae59fcffe325dd2e6a0136ed15c1b1c81c97d9",
+   "verseLines": 484,
+   "bodyPages": 5.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "kabirgarden",
+   "title": "The Garden in Your Body",
+   "sourceGroup": "Gutenberg edition 6519",
+   "sourceSha256": "66ca86b538b8f40b4be2f094a7b9463f878aa20bbb4467375916348b535f9c0f",
+   "verseLines": 4,
+   "bodyPages": 0.32,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "kabirseek",
+   "title": "Where Do You Seek Me?",
+   "sourceGroup": "Gutenberg edition 6519",
+   "sourceSha256": "57de56a6bbab99bda31cc508342006f6e01e82c70fb3e53f3156348f00eaa8b4",
+   "verseLines": 6,
+   "bodyPages": 0.25,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "gestgreenwood",
+   "title": "A Little Geste of Robin Hood and His Meiny",
+   "sourceGroup": "A Little Geste of Robin Hood and His Meiny",
+   "sourceSha256": "15f1e63fe3982ee74f4626957c932378cffd228fcb6f64223483490a849cc204",
+   "verseLines": 1840,
+   "bodyPages": 31.78,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "westwind",
+   "title": "Westron Wynde",
+   "sourceGroup": "https://www.bl.uk/manuscripts/FullDisplay.aspx?ref=Add_MS_31922",
+   "sourceSha256": "0a0b522ccaad9703ed87b86de44eeda9cd519f2c4e2b0f19bca61199f70de640",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "aghrose",
+   "title": "Concerning the Rose and the Nightingale",
+   "sourceGroup": "Gutenberg edition 54036",
+   "sourceSha256": "1a1fd661b23500e11434f45984288c552c95bf0df594155f3f3468f3ef130971",
+   "verseLines": 128,
+   "bodyPages": 3.52,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "quetzalflowers",
+   "title": "Hymn to Xochipilli",
+   "sourceGroup": "Gutenberg edition 14993",
+   "sourceSha256": "800691bc2c38a73762d66570341dc1a1dc00f5a070417291b0a640176be90318",
+   "verseLines": 6,
+   "bodyPages": 0.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "watersidedance",
+   "title": "Hymn to Xochiquetzal",
+   "sourceGroup": "Gutenberg edition 14993",
+   "sourceSha256": "dd32b0b67d361062be8f1b79b9f877d529fc4bfaab4b2b32d3ce6a90e1767cee",
+   "verseLines": 2,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "fishinggod",
+   "title": "Hymn to Amimitl",
+   "sourceGroup": "Gutenberg edition 14993",
+   "sourceSha256": "ddc02c7f0b1cf0af370de51cb311f524df7c634589737cfaede10113c5e5a650",
+   "verseLines": 4,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "deadlords",
+   "title": "In Memory of Former Rulers",
+   "sourceGroup": "Gutenberg edition 12219",
+   "sourceSha256": "9fdd45d338e9fb1628288b90b1a83b818db45f48a766b3af7a29e2e6987a04dd",
+   "verseLines": 7,
+   "bodyPages": 0.72,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "firstsingflowers",
+   "title": "Song at the Beginning",
+   "sourceGroup": "Gutenberg edition 12219",
+   "sourceSha256": "dcb3f026954ba29f42a47a8c404771e4ea3a9de16c375ae29a758eddf1574860",
+   "verseLines": 30,
+   "bodyPages": 1.56,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "huexotzincolament",
+   "title": "A Song of Huexotzinco",
+   "sourceGroup": "Gutenberg edition 12219",
+   "sourceSha256": "cfd7835aa515428c2591947805d4f1e05ce0e09e898c2d40cd50cc9a6a83ce7a",
+   "verseLines": 14,
+   "bodyPages": 0.86,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "chalcosong",
+   "title": "Another Chalco Song",
+   "sourceGroup": "Gutenberg edition 12219",
+   "sourceSha256": "5d2ed868f45604604c8cdd703163d321f37b08a6d1241b1054ab5f572be25d59",
+   "verseLines": 10,
+   "bodyPages": 0.79,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "springdrum",
+   "title": "A Spring Song of Exhortation",
+   "sourceGroup": "Gutenberg edition 12219",
+   "sourceSha256": "a15ac843e026d96ae16ed7bad1d529036a36914800d343695e9a47d756d6a7e7",
+   "verseLines": 18,
+   "bodyPages": 1.26,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "otomispringflower",
+   "title": "A Spring Song, an Otomi Song, a Plain Song",
+   "sourceGroup": "Gutenberg edition 12219",
+   "sourceSha256": "ba6d31e29d2e2e8e37462c8e98d3684d982290b0ddfa8c9dce3916c8ec7e713c",
+   "verseLines": 19,
+   "bodyPages": 0.96,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sameplainflower",
+   "title": "Another Plain Song, to the Same Tune",
+   "sourceGroup": "Gutenberg edition 12219",
+   "sourceSha256": "435747de59467269834ecf40ff9390c0ebdf0576df11405a9658491f87496d28",
+   "verseLines": 17,
+   "bodyPages": 0.93,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "whoknowsone",
+   "title": "Echad Mi Yodea",
+   "sourceGroup": "https://www.sefaria.org/Pesach_Haggadah%2C_Nirtzah%2C_Echad_Mi_Yodea",
+   "sourceSha256": "6480f5252dd458330605ad93e767441f8bfb718385b1572526657522dce6765f",
+   "verseLines": 117,
+   "bodyPages": 3.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "onegoatseder",
+   "title": "Chad Gadya",
+   "sourceGroup": "https://www.sefaria.org/Pesach_Haggadah%2C_Nirtzah%2C_Chad_Gadya",
+   "sourceSha256": "dd6a49d765d9ee3e2e0172ab46df5948875aca4af761033aa532ddef2a579585",
+   "verseLines": 66,
+   "bodyPages": 1.94,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "fleabed",
+   "title": "The Flea",
+   "sourceGroup": "https://anthology.lib.virginia.edu/work/Donne/donne-flea",
+   "sourceSha256": "71f1caefa75476287dacd39b4ac22ae3e9d4a127944f59cb72ee082d3c4326b1",
+   "verseLines": 27,
+   "bodyPages": 0.81,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "twocompasses",
+   "title": "A Valediction Forbidding Mourning",
+   "sourceGroup": "https://standardebooks.org/ebooks/john-donne/poetry/text/songs-and-sonnets",
+   "sourceSha256": "d12040eea620dabc9e3b5821ae2720decb633af74cc8cea23d9b13916515f00c",
+   "verseLines": 36,
+   "bodyPages": 0.77,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "cherryripe",
+   "title": "Cherry-Ripe",
+   "sourceGroup": "Gutenberg edition 1304",
+   "sourceSha256": "7829ac3fd20c67d4cbe60651c37872ebd9680792ddaaa09d24708fdb5e312b8d",
+   "verseLines": 8,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "juliasclothes",
+   "title": "Upon Julia’s Clothes",
+   "sourceGroup": "Gutenberg edition 1304",
+   "sourceSha256": "a8f5edbcde128885017aa87ef340e3eaaa8f189a23559f956b3120c4d67ea2b7",
+   "verseLines": 6,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pond",
+   "title": "The Old Pond",
+   "sourceGroup": "https://www2.yamanashi-ken.ac.jp/~itoyo/basho/haikusyu/huruike.htm",
+   "sourceSha256": "fe8b8257c62918fe0aaa0530f1fdfd06b6e3547ec0f1bccfa2663aa2b58f5cab",
+   "verseLines": 1,
+   "bodyPages": 0.06,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "redondillas",
+   "title": "Foolish Men Who Accuse Women",
+   "sourceGroup": "https://es.wikisource.org/wiki/Redondillas_(Sor_Juana_Inés_de_la_Cruz,_1901)",
+   "sourceSha256": "745dc35407a2e234b84de2db357dca5b94453c15da42e75dd8fc6338c678b0c4",
+   "verseLines": 68,
+   "bodyPages": 1.61,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "diamondlovers",
+   "title": "The One Who Leaves Me",
+   "sourceGroup": "Gutenberg edition 74087",
+   "sourceSha256": "d51f8b9954478a2d2eb59ddaaaef643abed4e26ae34524993f2fb38e950055bc",
+   "verseLines": 14,
+   "bodyPages": 0.34,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "arrestshade",
+   "title": "Stay, Shadow of My Elusive Love",
+   "sourceGroup": "Gutenberg edition 74087",
+   "sourceSha256": "4cf437d415f26e960528408a8e5e37884ef917cf565ccb6af43d23e677a93431",
+   "verseLines": 14,
+   "bodyPages": 0.45,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "primerosueno",
+   "title": "First Dream",
+   "sourceGroup": "https://es.wikisource.org/wiki/Primero_Sue%C3%B1o",
+   "sourceSha256": "0794215916a27937becd022965fdb3aa86cdfe123f510534d9ad7ff5f4d2667d",
+   "verseLines": 975,
+   "bodyPages": 27.05,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hekumulipo",
+   "title": "He Kumulipo",
+   "sourceGroup": "He Kumulipo",
+   "sourceSha256": "015b1fc12597bbd454ef266a15d79902fbec584003675771b962c89fb1c5e6c1",
+   "verseLines": 2133,
+   "bodyPages": 59.37,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "newgateair01",
+   "title": "Through All the Employments of Life",
+   "sourceGroup": "The Beggar’s Opera",
+   "sourceSha256": "2518b93dec837605fe3bb33adedd1e5ea18d4d7d9db69358c6bf2ba1877e92ad",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "newgateair25",
+   "title": "Man May Escape from Rope and Gun",
+   "sourceGroup": "The Beggar’s Opera",
+   "sourceSha256": "07c56d84c217ebab62f4b2c4829297bd5609c00ba90e8586c3c3ee3dc48856bd",
+   "verseLines": 7,
+   "bodyPages": 0.39,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "newgateair32",
+   "title": "If You at an Office Solicit Your Due",
+   "sourceGroup": "The Beggar’s Opera",
+   "sourceSha256": "3bbec8b5e9d508a8568d48a9e22fa2221d104b066bf4424b5281552698c84110",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "newgateair66",
+   "title": "Upon Tyburn Tree",
+   "sourceGroup": "The Beggar’s Opera",
+   "sourceSha256": "8906de35755d4d842bc4fc95f1882f4743880600d48c16d37f825b8ef3298e21",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "chinhphungam",
+   "title": "Lament of a Soldier’s Wife",
+   "sourceGroup": "https://vi.wikisource.org/wiki/Chinh_ph%E1%BB%A5_ng%C3%A2m_(%C4%90o%C3%A0n_Th%E1%BB%8B_%C4%90i%E1%BB%83m_d%E1%BB%8Bch)",
+   "sourceSha256": "5b83cbc1e0da81b5df23a3ae1bd98a6a52009e15742e4e5db0163d38cde2e01a",
+   "verseLines": 412,
+   "bodyPages": 11.87,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "barthedoor",
+   "title": "Get Up and Bar the Door",
+   "sourceGroup": "Gutenberg edition 44593",
+   "sourceSha256": "b9716b46a4ddf65225a97a0d924432eaa276eb79ebc143d307f2efe69beb2438",
+   "verseLines": 44,
+   "bodyPages": 1.21,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hasanaginica",
+   "title": "Hasanaginica — The Lament of Hasan Aga’s Wife",
+   "sourceGroup": "Gutenberg edition 39028",
+   "sourceSha256": "990f688262ff86acc71a739165711b973c0f9fe1a55d9d1e949b7ac6cf192015",
+   "verseLines": 92,
+   "bodyPages": 2.05,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nighthills",
+   "title": "Over All the Summits",
+   "sourceGroup": "https://de.wikisource.org/wiki/Wandrers_Nachtlied",
+   "sourceSha256": "a597fb2aefc5731886b881108240c1bd387d18bddcc2dd4948a4d54944eead43",
+   "verseLines": 8,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "violet",
+   "title": "The Violet",
+   "sourceGroup": "https://kv.mozarteum.at/de/work/das-veilchen-5584",
+   "sourceSha256": "2d1e0beccdff79e78240088fee9326e2b9fac4fbdbe96b57f84b5f2f1adbacab",
+   "verseLines": 23,
+   "bodyPages": 0.72,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bonanox",
+   "title": "Bona Nox",
+   "sourceGroup": "https://mozarteum.at/bona-nox",
+   "sourceSha256": "bb43d15cfb5e85357204c623f51c9c81c11651cfb77c451c86e53baf600d4c56",
+   "verseLines": 9,
+   "bodyPages": 0.24,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "westernrose",
+   "title": "Little Rose on the Heath",
+   "sourceGroup": "https://de.wikisource.org/wiki/Heidenröslein",
+   "sourceSha256": "17884076659bd83b5ddf57a337d03f289df60f3a3293d9121edd2eb5e42c22e2",
+   "verseLines": 21,
+   "bodyPages": 0.65,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "redrose",
+   "title": "A Red, Red Rose",
+   "sourceGroup": "https://rpo.library.utoronto.ca/content/red-red-rose",
+   "sourceSha256": "d0423b1a019a1f171d3d7f93b69522858dd911b1d395b3a90f615d631c64cdd2",
+   "verseLines": 16,
+   "bodyPages": 0.4,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sickrose",
+   "title": "The Sick Rose",
+   "sourceGroup": "https://rpo.library.utoronto.ca/content/sick-rose-2",
+   "sourceSha256": "7b8dbf967d05e78d59f7a23d2f099abbbc2a35b11404dfbe50709bfacd0e689f",
+   "verseLines": 8,
+   "bodyPages": 0.37,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "marinerballad",
+   "title": "The Rime of the Ancient Mariner",
+   "sourceGroup": "Gutenberg edition 29091",
+   "sourceSha256": "15d48ca5ceaa7f5d9eef8fef0442895f75119e68ad91561ff71f2c762e632401",
+   "verseLines": 701,
+   "bodyPages": 14.02,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "scotswadyedo",
+   "title": "Wad Ye Do That",
+   "sourceGroup": "https://www.horntip.com/html/books_%26_MSS/1700s/1799_merry_muses_of_caledonia_%28various%29/1799_crochallan_fencibles_%28HC%29/1799-2003_the_merry_muses_OCR/index.htm",
+   "sourceSha256": "ea008069d0b50d6c5244149a461d0ac22ea10d2a1be5760c7587b9350d5f0c3b",
+   "verseLines": 16,
+   "bodyPages": 0.41,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "annandaleinch",
+   "title": "Nine Inch Will Please a Lady",
+   "sourceGroup": "https://www.horntip.com/html/books_%26_MSS/1700s/1799_merry_muses_of_caledonia_%28various%29/1799_crochallan_fencibles_%28HC%29/1799-2003_the_merry_muses_OCR/index.htm",
+   "sourceSha256": "25d692f3e19ed1a6f14b2116697be0ca466d9ca5cd257dfe41d9cdc3c2cf8934",
+   "verseLines": 24,
+   "bodyPages": 0.76,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "flowersellerqing",
+   "title": "The Flower-Seller",
+   "sourceGroup": "Gutenberg edition 37938",
+   "sourceSha256": "a3a8830ff94383b6ea8a7052be8b5dbecf184a6afd680e1e497d5e78c2757d4b",
+   "verseLines": 24,
+   "bodyPages": 0.43,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "twacorbbies",
+   "title": "The Twa Corbies",
+   "sourceGroup": "https://en.wikisource.org/wiki/Page:The_English_and_Scottish_Popular_Ballads,_Volume_01.djvu/271",
+   "sourceSha256": "d7993bb010882ae1413a9476f335e617f7eb313217687c04b771a04aaec33d5d",
+   "verseLines": 20,
+   "bodyPages": 0.66,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "keatsnaughty",
+   "title": "A Song About Myself",
+   "sourceGroup": "https://standardebooks.org/ebooks/john-keats/poetry/text/poetry",
+   "sourceSha256": "685551d7700e9c5a07195546c340d027208dfc191483faf073038240ea8c6fc6",
+   "verseLines": 122,
+   "bodyPages": 3.29,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "heinelore",
+   "title": "The Lorelei",
+   "sourceGroup": "Buch der Lieder",
+   "sourceSha256": "2314d7c81be1ea39703ce7ced36aeb239da01c2457efd0e4c7f375c0236e3552",
+   "verseLines": 24,
+   "bodyPages": 0.76,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "heinemai",
+   "title": "In the Wondrous Month of May",
+   "sourceGroup": "Buch der Lieder",
+   "sourceSha256": "53d681a82fb3415abc33ed5adece6bcf4a63a7458c6b663a321232dad70d547e",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "heinecoffin",
+   "title": "The Old, Wicked Songs",
+   "sourceGroup": "Buch der Lieder",
+   "sourceSha256": "fdaba7f7dd6238a8e61fc94215fa9c9e43f82452d03f5f09f6a746cfd215dcd2",
+   "verseLines": 24,
+   "bodyPages": 0.76,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "skadarfort",
+   "title": "The Building of Skadar",
+   "sourceGroup": "Gutenberg edition 39028",
+   "sourceSha256": "5626b24e939765707050e13e476bc32d03b5046e52ce5eadbe1e98ab466f7d8a",
+   "verseLines": 220,
+   "bodyPages": 4.77,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ghonawidow",
+   "title": "The Ghona Widow’s Lullaby",
+   "sourceGroup": "Gutenberg edition 52928",
+   "sourceSha256": "e719e0a00f44bfabc710fa74d22d34185dd3ce3ad3fb3756a07f0d629ce29f69",
+   "verseLines": 70,
+   "bodyPages": 1.98,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tswanaboy",
+   "title": "The Bechuana Boy",
+   "sourceGroup": "Gutenberg edition 52928",
+   "sourceSha256": "d5303fc96593d79af5181dd70f2acd20c60efa5620c4ff305c178e885b18a00f",
+   "verseLines": 152,
+   "bodyPages": 4.21,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "majczech",
+   "title": "May",
+   "sourceGroup": "https://khe.ucl.cas.cz/macha/edice/T1.html",
+   "sourceSha256": "d957211180320afe8320dadae8386091efa7d022ff5acb336770f0c7b4dfde6f",
+   "verseLines": 912,
+   "bodyPages": 25.68,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "florantelaura",
+   "title": "Florante and Laura",
+   "sourceGroup": "Gutenberg edition 15845",
+   "sourceSha256": "f4d6958c98591e73926cd5d966aa150d095754efbfa65c8b876c1c99b67e21eb",
+   "verseLines": 1712,
+   "bodyPages": 47.53,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "topoliaua",
+   "title": "The Poplar",
+   "sourceGroup": "Gutenberg edition 72903",
+   "sourceSha256": "7d1255788078210379fcd9b7ab4e76194cd0df3a887e3ac0ede7e8d0c621b2da",
+   "verseLines": 229,
+   "bodyPages": 6.47,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "piedpiper",
+   "title": "The Pied Piper of Hamelin (A Child’s Story)",
+   "sourceGroup": "https://rpo.library.utoronto.ca/content/pied-piper-hamelin-childs-story",
+   "sourceSha256": "bd71a2d043341315efc79527d2c38c31274fea3b8d82a07413f121630bb157f3",
+   "verseLines": 313,
+   "bodyPages": 5.95,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sabiasong",
+   "title": "Song of Exile",
+   "sourceGroup": "Gutenberg edition 74854",
+   "sourceSha256": "7b66d29ad2a97f05c63351c0977906b36f02e736aeb80408a022a8db94ad5e26",
+   "verseLines": 29,
+   "bodyPages": 0.41,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ravenmidnight",
+   "title": "The Raven",
+   "sourceGroup": "https://standardebooks.org/ebooks/edgar-allan-poe/poetry/text/poetry",
+   "sourceSha256": "a0e988e492bd7c55c1af679af0aa4a03dff6b90d946291bf2337a6eaff0b966d",
+   "verseLines": 108,
+   "bodyPages": 3.78,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "evangelineacadie",
+   "title": "Evangeline: A Tale of Acadie",
+   "sourceGroup": "Gutenberg edition 2039",
+   "sourceSha256": "c6e288b64314c777494f817e0cb962ecdd91f74f6cb510e824e78d43a3684e91",
+   "verseLines": 1411,
+   "bodyPages": 46.25,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rabinaltun",
+   "title": "Rabinal Achí · The Dance of the Tun",
+   "sourceGroup": "https://archive.org/details/grammairedelalan02bras",
+   "sourceSha256": "32aa4629c10cc7539852bca1c091c25d4c2a937c8efa43dddae9b737c687d259",
+   "verseLines": 633,
+   "bodyPages": 31.89,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "selkiesule",
+   "title": "The Great Silkie of Sule Skerrie",
+   "sourceGroup": "Gutenberg edition 44593",
+   "sourceSha256": "4350aff892382c018b87bf3495a7b5242ce466fa044668f363644b5fb23f31d1",
+   "verseLines": 28,
+   "bodyPages": 0.84,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "apuollantay",
+   "title": "Apu Ollantay",
+   "sourceGroup": "Gutenberg edition 9068",
+   "sourceSha256": "f5ba5ef3381c54023a490126ead2a1d0acc988aaf125f43e6783b17722f0dad5",
+   "verseLines": 2091,
+   "bodyPages": 60.37,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bohuslavkaduma",
+   "title": "Marusya Bohuslavka",
+   "sourceGroup": "Gutenberg edition 72903",
+   "sourceSha256": "34d8fcee189b6e0ec9370ed9fcfa19c1bf439d2192ca8dc184c68ac19e64773b",
+   "verseLines": 65,
+   "bodyPages": 1.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "carrionwalk",
+   "title": "A Carcass",
+   "sourceGroup": "Gutenberg edition 6099",
+   "sourceSha256": "bbdb6861a855e61d3db563ae386bfb1c53032cb6013f76a771cef7ad8b6270d1",
+   "verseLines": 48,
+   "bodyPages": 1.47,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "palomadove",
+   "title": "La Paloma",
+   "sourceGroup": "https://datos.bne.es/obra/XX2028769.html",
+   "sourceSha256": "927463626219d8584f8e64442ccde526ee6f7efbad7555e3e7491b409773967b",
+   "verseLines": 40,
+   "bodyPages": 1.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rubailondon",
+   "title": "Rubáiyát",
+   "sourceGroup": "Gutenberg edition 246",
+   "sourceSha256": "5181d0344befcab3a947e36b28bddc4d687b2cc8a22ea9ad485e0cb84e45125a",
+   "verseLines": 302,
+   "bodyPages": 8.4,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lamukupona",
+   "title": "The Poem of Mwana Kupona",
+   "sourceGroup": "https://www.maktaba.org/book/546",
+   "sourceSha256": "591f2292f9b6301a24dc4065921932c9633d7e9b14893a156f17fc8e978e3f4e",
+   "verseLines": 393,
+   "bodyPages": 10.94,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "goblinmarket",
+   "title": "Goblin Market",
+   "sourceGroup": "Gutenberg edition 16950",
+   "sourceSha256": "98e6670715c6cbd80951a7cd0918ea1b89032d1e119524d74390f65fa84da61c",
+   "verseLines": 567,
+   "bodyPages": 15.8,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "satanaitalia",
+   "title": "To Satan",
+   "sourceGroup": "Gutenberg edition 73895",
+   "sourceSha256": "73f2972c1317dc83d0efc079aca17e95b58bfb31a5955b10103ce9a7fdc00dc5",
+   "verseLines": 200,
+   "bodyPages": 2.63,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "many",
+   "title": "Many Thousand Go",
+   "sourceGroup": "https://www.si.edu/object/siris_sil_78680",
+   "sourceSha256": "c6e199d7e0725d1f75a214e6ac06773680d58fa014c0149dcc834d4ce00517c7",
+   "verseLines": 20,
+   "bodyPages": 0.49,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "navionegreiro",
+   "title": "The Slave Ship",
+   "sourceGroup": "https://www.academia.org.br/academicos/castro-alves/textos-escolhidos",
+   "sourceSha256": "97da9a40b804aeddcf32e92d0fd7773afe778339964a599cbae05552688aa0c0",
+   "verseLines": 249,
+   "bodyPages": 6.81,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sleeper",
+   "title": "The Sleeper in the Valley",
+   "sourceGroup": "https://fr.wikisource.org/wiki/Œuvres_(Rimbaud)/Poésies/Le_Dormeur_du_Val",
+   "sourceSha256": "d4ef01692efbc63ec2de057f85734ba1b25d79579f7530ca26e4c23aa3bdcf80",
+   "verseLines": 14,
+   "bodyPages": 0.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "gauchofierro",
+   "title": "El gaucho Martín Fierro",
+   "sourceGroup": "El gaucho Martín Fierro",
+   "sourceSha256": "23f231f41143f907a2fc7d2b9db77d6ed74a8112f9afabb135250b121a022b4a",
+   "verseLines": 2331,
+   "bodyPages": 64.69,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "harperdeliverance",
+   "title": "The Deliverance",
+   "sourceGroup": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/6/9/2/4/69249/69249-h/69249-h.htm",
+   "sourceSha256": "15e77599ba1334e08ef0bc73bae71912017a90b914e294935ee21f7b6fc22980",
+   "verseLines": 240,
+   "bodyPages": 6.75,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "chloereads",
+   "title": "Learning to Read",
+   "sourceGroup": "Gutenberg edition 69249",
+   "sourceSha256": "aacc12900651bb7e1978281f443efcd4e80d1896640dd3e21dd8d6e91109dde6",
+   "verseLines": 44,
+   "bodyPages": 1.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "freedomreunion",
+   "title": "The Reunion",
+   "sourceGroup": "Gutenberg edition 69249",
+   "sourceSha256": "c4e91d05a431fba6379134457afbb4fd7bb8f367a61aa7ee8cfe7a89468bc36f",
+   "verseLines": 40,
+   "bodyPages": 0.68,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "snarkhunt",
+   "title": "The Hunting of the Snark",
+   "sourceGroup": "Gutenberg edition 29888",
+   "sourceSha256": "b3eb47a8c95ef3d43935155e2e46840d6c83ad175dea04e632e43407f2d15151",
+   "verseLines": 591,
+   "bodyPages": 16.6,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "riau1877p8",
+   "title": "If the Moon Is Not Full",
+   "sourceGroup": "Riau pantun manuscript",
+   "sourceSha256": "ed95c56f74dcd444797e9ec415352e7fd41b6dba50b27081a0a2805fd27057b2",
+   "verseLines": 4,
+   "bodyPages": 0.28,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "riau1877p15",
+   "title": "A Drifting Trunk",
+   "sourceGroup": "Riau pantun manuscript",
+   "sourceSha256": "100f3bb173b2556229f7e3d3b177801289542487f3eb8ebbd6fd1c887b58e6a5",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "riau1877p17",
+   "title": "Cicadas Fly to the Pond",
+   "sourceGroup": "Riau pantun manuscript",
+   "sourceSha256": "5f5f2f13fd99d2ec053583fc7a77bcc6f3755019535eb8ed7318431b2bc30e5a",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "riau1877p24",
+   "title": "Cempedak from the Far Bank",
+   "sourceGroup": "Riau pantun manuscript",
+   "sourceSha256": "f5d8f2bff07e3b16bad837c960396b7e8afe94f501bcfab498ef90144ff3e1df",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hawaiianfarewell",
+   "title": "Aloha ʻOe",
+   "sourceGroup": "https://www.huapala.org/Aloha/Aloha_Oe.html",
+   "sourceSha256": "240040d92f0124572dd85517edbb45bc14bdfbf80647cd137189eafc4c7ef2b3",
+   "verseLines": 27,
+   "bodyPages": 0.82,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lakshman1882",
+   "title": "Lakshman",
+   "sourceGroup": "Gutenberg edition 23245",
+   "sourceSha256": "cb5a39bf46b2f31e90a0aab4d0e31b49d7899042f6e020f5440f86ce7f9fd9ca",
+   "verseLines": 176,
+   "bodyPages": 4.14,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "duttforest",
+   "title": "Sîta",
+   "sourceGroup": "Gutenberg edition 23245",
+   "sourceSha256": "7ec56fce16d5b95f5ccbd8238e25f6920416fe0a7bdd6d9999b2e071a0975c87",
+   "verseLines": 22,
+   "bodyPages": 0.72,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "savitrianddeath",
+   "title": "Savitri",
+   "sourceGroup": "Gutenberg edition 23245",
+   "sourceSha256": "257dec448077033ff04a6fb7031ee9aaa99923cfa5f4ac467944901af246317f",
+   "verseLines": 1001,
+   "bodyPages": 20.48,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "kabilegend",
+   "title": "Buttoo",
+   "sourceGroup": "Gutenberg edition 23245",
+   "sourceSha256": "29375abf9e7541777c279479a8056378d2a29ee792b98df9dd8751bde01082c5",
+   "verseLines": 272,
+   "bodyPages": 5.05,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "luceafarul",
+   "title": "The Evening Star",
+   "sourceGroup": "https://ro.wikisource.org/wiki/Luceaf%C4%83rul_(Eminescu)",
+   "sourceSha256": "2e4c3a38fccc980ac2d3ead3c90fd5b3137866e4ed2284555727194838c2e563",
+   "verseLines": 392,
+   "bodyPages": 10.74,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rlsbedinsummer",
+   "title": "Bed in Summer",
+   "sourceGroup": "A Child’s Garden of Verses",
+   "sourceSha256": "28f27de6c78f83e52aa25ae9401ccaf418194dfc71b2c3e887cd6b1389a2a5fb",
+   "verseLines": 12,
+   "bodyPages": 0.31,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rlsthelandofcounterpane",
+   "title": "The Land of Counterpane",
+   "sourceGroup": "A Child’s Garden of Verses",
+   "sourceSha256": "06b27b547b1243a6545efb0b1f0f747501f8cb25c80a2761f08611343618fc61",
+   "verseLines": 16,
+   "bodyPages": 0.58,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rlsmyshadow",
+   "title": "My Shadow",
+   "sourceGroup": "A Child’s Garden of Verses",
+   "sourceSha256": "f4fba0fdb9e16044458e8838ca93321230cc47ea9b345f33799f7e9af2de5ebd",
+   "verseLines": 16,
+   "bodyPages": 0.43,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rlstheswing",
+   "title": "The Swing",
+   "sourceGroup": "A Child’s Garden of Verses",
+   "sourceSha256": "c1fb094bb5dfd09ded7c18cec4f74ba4be394a854b89cf2a4e078dbd8ae59912",
+   "verseLines": 12,
+   "bodyPages": 0.48,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "blockcity",
+   "title": "Block City",
+   "sourceGroup": "A Child’s Garden of Verses",
+   "sourceSha256": "739e6fe100d2df3b9581e25bb48da2f5872f39c72ac1212765c6d33cf8306f5e",
+   "verseLines": 24,
+   "bodyPages": 0.6,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zapaticos",
+   "title": "The Little Pink Shoes",
+   "sourceGroup": "Gutenberg edition 19898",
+   "sourceSha256": "fc99d71cbe9ddb91aef699a88f71f18f31b4e77cd2110f4a77c92bca369dbc4c",
+   "verseLines": 145,
+   "bodyPages": 4.02,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "snowybush",
+   "title": "The Man from Snowy River",
+   "sourceGroup": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/2/1/213/213-h/213-h.htm",
+   "sourceSha256": "17b5825d2be382c50995f1231b17d69504b3d4ef321698ecf84bfe5020e27a7f",
+   "verseLines": 104,
+   "bodyPages": 3.59,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "arsutmount",
+   "title": "Mount Koonak — A Song of Arsut",
+   "sourceGroup": "Gutenberg edition 58464",
+   "sourceSha256": "5340d49fffde011a34fc3bf3338d669c0b4f950cecae7842a6efe1d80b1a5626",
+   "verseLines": 12,
+   "bodyPages": 0.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "whiterose",
+   "title": "I Grow a White Rose",
+   "sourceGroup": "https://es.wikisource.org/wiki/Versos_sencillos/XXXIX",
+   "sourceSha256": "f06ac036c33d7743419dc64a62297a1a9b697200d83cbd132faccfff1ae612e5",
+   "verseLines": 8,
+   "bodyPages": 0.38,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "scarfair",
+   "title": "Scarborough Fair",
+   "sourceGroup": "https://s9.imslp.org/files/imglnks/usimg/2/24/IMSLP98506-PMLP202386-Kidson_traditionaltunes00rugg.pdf",
+   "sourceSha256": "73974a2f4aae269656a925f40d5b3d0e5d41421fcd7bac45ee49c10602a8021d",
+   "verseLines": 32,
+   "bodyPages": 0.79,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "saltbushbill",
+   "title": "Saltbush Bill",
+   "sourceGroup": "Gutenberg edition 213",
+   "sourceSha256": "5b034ccfc66711cf6f15a93d7260f97c8d32e28e9b7c890226062ac5ff1afce2",
+   "verseLines": 86,
+   "bodyPages": 2.86,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "wearmask",
+   "title": "We Wear the Mask",
+   "sourceGroup": "Gutenberg edition 18338",
+   "sourceSha256": "424724e1d13a7129bea7af17bc0bfaf949559be7c24be6480666c87bcd12c2ab",
+   "verseLines": 15,
+   "bodyPages": 0.54,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bushbaptism",
+   "title": "A Bush Christening",
+   "sourceGroup": "https://banknotes.rba.gov.au/australias-banknotes/people-on-the-banknotes/ab-banjo-paterson/",
+   "sourceSha256": "45cdb0a3c65257a968af0d0ecda49b4915667b1d0cd6cdd30b40c7b981592b79",
+   "verseLines": 48,
+   "bodyPages": 1.38,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "choucoune",
+   "title": "Choucoune",
+   "sourceGroup": "https://villeducaphaitien.com/images/haiti/jpg/expositions/Oswald%20Durand/medias/Choucoune.pdf",
+   "sourceSha256": "1aa118da9a069bd21561c054a414664cf5e1e6511827f4dfae849046097c1a62",
+   "verseLines": 56,
+   "bodyPages": 1.67,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "dunbarparty",
+   "title": "The Party",
+   "sourceGroup": "Gutenberg edition 18338",
+   "sourceSha256": "aaa0bc66dc165d19873dd9e70793cc58e43967042ac655e1d6a949efd969eb9a",
+   "verseLines": 102,
+   "bodyPages": 3.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rhuddlanstrand",
+   "title": "The Strand of Rhuddlan",
+   "sourceGroup": "Gutenberg edition 15165",
+   "sourceSha256": "25fc03cff933e49e6eba9e44ca291c89c384a52f93aa4a6a10012adc9e31834b",
+   "verseLines": 109,
+   "bodyPages": 3.0,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "welshgrave",
+   "title": "Go and Dig a Grave for Me",
+   "sourceGroup": "Gutenberg edition 15165",
+   "sourceSha256": "7059ce851798769264c544d846e0bc409662cb777d1807bb136514d6a735937d",
+   "verseLines": 48,
+   "bodyPages": 0.79,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "readinggaol",
+   "title": "The Ballad of Reading Gaol",
+   "sourceGroup": "Gutenberg edition 1141",
+   "sourceSha256": "9d692ba6bd85855faa664018fec86e7d16699581fa8b6bd7c3a772418b021412",
+   "verseLines": 667,
+   "bodyPages": 11.07,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "dunsympathy",
+   "title": "Sympathy",
+   "sourceGroup": "Gutenberg edition 18338",
+   "sourceSha256": "c709b90534298a7aea2b505ab4f303b51da842e3c4a34ff2d2bf8040cdafab49",
+   "verseLines": 21,
+   "bodyPages": 0.53,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "mabelclass",
+   "title": "The Ballad of Mabel Clare",
+   "sourceGroup": "Gutenberg edition 52066",
+   "sourceSha256": "82ed054d004888d9121e837966573ce318e9cd8adee1711af7dc7dc6d640f344",
+   "verseLines": 136,
+   "bodyPages": 2.05,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lochachray",
+   "title": "The Yarn of the ‘Loch Achray’",
+   "sourceGroup": "Gutenberg edition 52761",
+   "sourceSha256": "81cb909bf0b50ad93db77caefb4c5ef96c39aa6732029649b42bd09d9b956f4a",
+   "verseLines": 79,
+   "bodyPages": 1.8,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sokotobritish",
+   "title": "A Poem on the British",
+   "sourceGroup": "Sarkin Musulmi Attahiru aka Sultan Attahiru I (author), Umar Falke (owner)",
+   "sourceSha256": "54e0b12fef4e52d9001bd68beed4bc7aea01b4affc8b0b318c027945136d252f",
+   "verseLines": 59,
+   "bodyPages": 3.16,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lofatal",
+   "title": "What Fate Means",
+   "sourceGroup": "https://es.wikisource.org/wiki/Lo_fatal",
+   "sourceSha256": "d16c4a801185ba3857f7d9cb2c88e0ded7863434e12e97ecbbee964509474f7c",
+   "verseLines": 13,
+   "bodyPages": 0.49,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "painpriestess",
+   "title": "To the God of Pain",
+   "sourceGroup": "The Golden Threshold",
+   "sourceSha256": "f77dcf840c019297d2df1eaa54f059a5eb3d2360a19e6df56c0c27d9c138e641",
+   "verseLines": 20,
+   "bodyPages": 0.43,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zebbeauty",
+   "title": "The Song of Princess Zeb-un-Nissa in Praise of Her Own Beauty",
+   "sourceGroup": "The Golden Threshold",
+   "sourceSha256": "9a9127004e15eefae58858a36fe4874e147ac03b55f1cc1772cddc942604f6cb",
+   "verseLines": 13,
+   "bodyPages": 0.43,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "darioleda",
+   "title": "Leda",
+   "sourceGroup": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/5/0/3/4/50341/50341-h/50341-h.htm",
+   "sourceSha256": "b9dc9579ff694dd10984cafb214b4b2b5944d5255fdded2b70e7c69ecc1e9aea",
+   "verseLines": 16,
+   "bodyPages": 0.41,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "darioamas",
+   "title": "I Love, You Love",
+   "sourceGroup": "https://www.mirrorservice.org/sites/ftp.ibiblio.org/pub/docs/books/gutenberg/5/0/3/4/50341/50341-h/50341-h.htm",
+   "sourceSha256": "145d7cfe958dcae33685649fe79547b93ff07e496d607a4609820fc110487430",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "naidugrind",
+   "title": "Corn-Grinders",
+   "sourceGroup": "The Golden Threshold",
+   "sourceSha256": "b67e7906ba79ae94722d17e9d84069b1eaba9ba7c3ccdb5733a4e91bb74573c3",
+   "verseLines": 27,
+   "bodyPages": 0.81,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "palanquin",
+   "title": "Palanquin Bearers",
+   "sourceGroup": "The Golden Threshold",
+   "sourceSha256": "82f510cb2767f693cb6a7085c543943e6a0fe10c0b933d06027bb589c05e2a3f",
+   "verseLines": 12,
+   "bodyPages": 0.48,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "naiduweave",
+   "title": "Indian Weavers",
+   "sourceGroup": "The Golden Threshold",
+   "sourceSha256": "8e2b7ddba2a37684410df27d212b487f6fef2ca95d5b60415e0ecb1b1bf48fb7",
+   "verseLines": 12,
+   "bodyPages": 0.32,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "coromandel",
+   "title": "Coromandel Fishers",
+   "sourceGroup": "The Golden Threshold",
+   "sourceSha256": "6bfa31d824b78b6ee161280a7e312d4dd9c175da17ec84794f7d73d285971cfc",
+   "verseLines": 12,
+   "bodyPages": 0.41,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "springautumnsong",
+   "title": "Song of Autumn in Spring",
+   "sourceGroup": "Gutenberg edition 50341",
+   "sourceSha256": "2c2d61b6df16a1f55667c49aeeece9027b31dc596d6db46de6aa1c1e7dbc10e0",
+   "verseLines": 70,
+   "bodyPages": 1.07,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "flourprice",
+   "title": "Tell Mister Bell",
+   "sourceGroup": "Jamaican Song and Story",
+   "sourceSha256": "69490625309bbdca4ab54960d80bb8ab71d825a6b730ad7d671cb7115a94f1d1",
+   "verseLines": 6,
+   "bodyPages": 0.33,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "cremation",
+   "title": "The Cremation of Sam McGee",
+   "sourceGroup": "Gutenberg edition 25546",
+   "sourceSha256": "21f22f251c92ce4bd46f30feab8e5bc43d683e5e86ea88b5824ff66c88ac1a99",
+   "verseLines": 68,
+   "bodyPages": 2.88,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "jek58",
+   "title": "The One Shirt I Have",
+   "sourceGroup": "Jamaican Song and Story",
+   "sourceSha256": "a0fb6ec4287caec576676e27884ff4e23c7de848ea7d8c47801641d9bcbc3da1",
+   "verseLines": 5,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "jek82",
+   "title": "Duppy Talk",
+   "sourceGroup": "Jamaican Song and Story",
+   "sourceSha256": "9e356ef05774d136c94c2525e8bb8e9476467e706433e86d265a3bdaf96c9ddf",
+   "verseLines": 6,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "jek88",
+   "title": "War at Morant Bay",
+   "sourceGroup": "Jamaican Song and Story",
+   "sourceSha256": "b353145e1b08600ac77436e3fb3e18c554716e83febe6bbb4521cffc348d0e24",
+   "verseLines": 8,
+   "bodyPages": 0.18,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "jek94",
+   "title": "Pass the Ball",
+   "sourceGroup": "Jamaican Song and Story",
+   "sourceSha256": "f2f719ff527739cddcdbee5c0e496eba844525d281c8c9441569186313bfd042",
+   "verseLines": 5,
+   "bodyPages": 0.15,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "jek98",
+   "title": "Breaking Stone on Galloway Road",
+   "sourceGroup": "Jamaican Song and Story",
+   "sourceSha256": "e7ecf6ed894b255454106bfdff556cd6614c15b670dfb5d4f985ea610855e6e5",
+   "verseLines": 7,
+   "bodyPages": 0.37,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "caution01",
+   "title": "Jim",
+   "sourceGroup": "Cautionary Tales for Children",
+   "sourceSha256": "2dc5cc36d61c43b54f0668ca121263c7ac4714ab0276985c0e250e431f80bf94",
+   "verseLines": 60,
+   "bodyPages": 1.05,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "caution03",
+   "title": "Matilda",
+   "sourceGroup": "Cautionary Tales for Children",
+   "sourceSha256": "da8a2575b93b28fda34c4e1ae1381d826c529f7edef0da81b8872d5883a109a3",
+   "verseLines": 53,
+   "bodyPages": 0.95,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "caution08",
+   "title": "Lord Lundy",
+   "sourceGroup": "Cautionary Tales for Children",
+   "sourceSha256": "9ece119c233681ccdc29d516e2fe720f27aeb87186c1104c97b0fedc3931e456",
+   "verseLines": 88,
+   "bodyPages": 1.49,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "caution09",
+   "title": "Rebecca",
+   "sourceGroup": "Cautionary Tales for Children",
+   "sourceSha256": "37d9799fb0169e4f9397ef7dc069a396290be1fdd07822f5f8d874d6e52e6cb4",
+   "verseLines": 36,
+   "bodyPages": 0.72,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nightjasmine",
+   "title": "Night Jasmine",
+   "sourceGroup": "https://it.wikisource.org/wiki/Canti_di_Castelvecchio/Canti_di_Castelvecchio/Il_gelsomino_notturno",
+   "sourceSha256": "ac73041260de4570cb82db5585c96aa1c157798e3f4504c375a64c5f9f9af013",
+   "verseLines": 24,
+   "bodyPages": 0.78,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hinelullaby",
+   "title": "Hine e Hine",
+   "sourceGroup": "https://www.aotearoasongbook.com/songbook-volume-1/hine-e-hine",
+   "sourceSha256": "c9c5076eac428e2906ef3feb3e8416b6c3dd358ecaeb9e377c5eff3895fc6b1c",
+   "verseLines": 10,
+   "bodyPages": 0.26,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "constabring",
+   "title": "Drill Him, Constab",
+   "sourceGroup": "Jamaican Song and Story",
+   "sourceSha256": "3238d5284304ce9d0dd495c6384377f864841cd07460520b29b61b69ed41de49",
+   "verseLines": 9,
+   "bodyPages": 0.25,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sallywater",
+   "title": "Little Sally Water",
+   "sourceGroup": "Jamaican Song and Story",
+   "sourceSha256": "a7ecaa4fb357829a88892ea178d7d6d649c69e26ffd3315b01fd23a65b115fff",
+   "verseLines": 13,
+   "bodyPages": 0.49,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tree_shell",
+   "title": "Song of the Tree-shell",
+   "sourceGroup": "Gutenberg edition 20299",
+   "sourceSha256": "ac11438fda4b23ee85fa6ca6137f51a9b611cb26230f2d5b419f8f17a08f06d5",
+   "verseLines": 7,
+   "bodyPages": 0.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "welcomesong",
+   "title": "Song of Welcome",
+   "sourceGroup": "Gutenberg edition 20299",
+   "sourceSha256": "a9b0e574b55290f9348d1e98d5846ffcea57cd03886c7972ccbd96ca7fa9a4ef",
+   "verseLines": 5,
+   "bodyPages": 0.15,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "yukonbillet",
+   "title": "The Ballad of Blasphemous Bill",
+   "sourceGroup": "Gutenberg edition 259",
+   "sourceSha256": "662f40a398a7232cc0ee05d44ce2f9036d796da31a09c1c3f3251080bd68f367",
+   "verseLines": 81,
+   "bodyPages": 3.26,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "dreamsweetheart",
+   "title": "Let Me Call You Sweetheart (I’m in Love with You)",
+   "sourceGroup": "https://findingaids.loc.gov/repositories/15/archival_objects/994099",
+   "sourceSha256": "7721ad6ea690b3e0d94ae3c1d107a53fe26a0d5d1f33eee76002dfdd02ae0915",
+   "verseLines": 18,
+   "bodyPages": 0.63,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "thornmother",
+   "title": "The Cruel Mother",
+   "sourceGroup": "Gutenberg edition 44593",
+   "sourceSha256": "b9026e51092a815dccc18097c4de852be87f2efbccb147289a72898be68b1ad9",
+   "verseLines": 37,
+   "bodyPages": 1.04,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "greenfish",
+   "title": "The Greenland Fishery",
+   "sourceGroup": "Gutenberg edition 44593",
+   "sourceSha256": "0d03be142e62f21e7f8481cb090705437e36d32389c11e81a0efdaefac65c743",
+   "verseLines": 50,
+   "bodyPages": 1.49,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "scarletbarbara",
+   "title": "Barbara Allan’s Cruelty",
+   "sourceGroup": "Gutenberg edition 44593",
+   "sourceSha256": "32c7a274a36a7db97beefc5b62887967c362d0e0bb4b7860e7b7942235dd18a1",
+   "verseLines": 40,
+   "bodyPages": 1.28,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "unquietgrave",
+   "title": "The Unquiet Grave",
+   "sourceGroup": "Gutenberg edition 44593",
+   "sourceSha256": "2f1563050784828cafeb6054ad935e5adcb01bf7519e2350a334886b073b8464",
+   "verseLines": 28,
+   "bodyPages": 0.68,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "brokenstring",
+   "title": "The Broken String",
+   "sourceGroup": "https://www.dankalia.com/literature/frc203.htm",
+   "sourceSha256": "b5aaa71f677e685d162f8bce20148ae905e7188a8eecf24636edc02d2ceadbd6",
+   "verseLines": 16,
+   "bodyPages": 0.41,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "foxspoor",
+   "title": "The Song of the Caama Fox",
+   "sourceGroup": "https://www.dankalia.com/literature/frc203.htm",
+   "sourceSha256": "128e89bb82710a22d6132bc3ca4bc8f3e5e67cbef297c6eda8c0a4a6c6add2b4",
+   "verseLines": 7,
+   "bodyPages": 0.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "preacher",
+   "title": "The Preacher and the Slave",
+   "sourceGroup": "https://en.wikisource.org/wiki/The_Preacher_and_the_Slave",
+   "sourceSha256": "91b349d0ea3650c927931c95440ceb2d6e70fd809eb4ed4e2729502aa832288a",
+   "verseLines": 40,
+   "bodyPages": 1.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "springbok",
+   "title": "Song of the Springbok Mothers",
+   "sourceGroup": "https://www.dankalia.com/literature/frc203.htm",
+   "sourceSha256": "c3f2e4799eb1dbae5366e78b09523d5207c1093b22e84fd0098e3cf78dfa115a",
+   "verseLines": 6,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tobaccopouch",
+   "title": "Song on the Loss of a Tobacco Pouch",
+   "sourceGroup": "https://www.dankalia.com/literature/frc203.htm",
+   "sourceSha256": "1781441b75f0bea1ee53220f558dd7fd25a5f6234561b6009ae07f3b9e1f5f68",
+   "verseLines": 6,
+   "bodyPages": 0.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "breadroses",
+   "title": "Bread and Roses",
+   "sourceGroup": "https://www.mawomenshistory.org/transcript-bread-and-roses-james-oppenheim",
+   "sourceSha256": "2707afcdbf2128e716ab7b30203e8aaa0ee546e86caf8f78ee816f377a5173da",
+   "verseLines": 16,
+   "bodyPages": 0.5,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ragtimealex",
+   "title": "Alexander’s Ragtime Band",
+   "sourceGroup": "https://www.loc.gov/item/2023791388/",
+   "sourceSha256": "b1b8b1f3eb8042bfcac5e7e9f483bfd67fcaee3888777ef4bceaf9237b3b9a21",
+   "verseLines": 26,
+   "bodyPages": 0.85,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bannabees",
+   "title": "Me Bannabees",
+   "sourceGroup": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/me-bannabees/",
+   "sourceSha256": "141a96961bf7203b9a8251509ad343a70da4464f1e95b2ea0f7fea6d282ea3bd",
+   "verseLines": 40,
+   "bodyPages": 0.72,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "metro",
+   "title": "In a Station of the Metro",
+   "sourceGroup": "https://rpo.library.utoronto.ca/content/station-metro-0",
+   "sourceSha256": "e72fb3af7b3714365a6af39dc2385b460ab6fac1d4027a85c7ef5e82ab52e346",
+   "verseLines": 2,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "saintlouis1914",
+   "title": "The St. Louis Blues",
+   "sourceGroup": "https://upload.wikimedia.org/wikipedia/commons/c/c1/W._C._Handy_-_St._Louis_Blues_%281914%2C_Pace_and_Handy%29.pdf",
+   "sourceSha256": "e7ff08dd539c4dffd786c5400d98101674c57509add21bc510dd70a4dbc716e9",
+   "verseLines": 51,
+   "bodyPages": 1.55,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "will",
+   "title": "My Last Will",
+   "sourceGroup": "https://folkways-media.si.edu/docs/folkways/artwork/FW02039.pdf",
+   "sourceSha256": "e569b2b6b40d5bb64b0433d792304d0f1238ad00d07dde38c07f36c2f24b8c3f",
+   "verseLines": 12,
+   "bodyPages": 0.48,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tagbirds",
+   "title": "Birds at the Window",
+   "sourceGroup": "Stray Birds and Gitanjali (Tagore)",
+   "sourceSha256": "7f809302cf9e036bd36d8c58cd63dede03f8af69035a5cbcc90ca300f0da0e99",
+   "verseLines": 2,
+   "bodyPages": 0.11,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tagmasks",
+   "title": "The World's Mask",
+   "sourceGroup": "Stray Birds and Gitanjali (Tagore)",
+   "sourceSha256": "906ae0af9d86a5f7e307fc4acd9f6d188ae661c576459fab2c598f0633219a7b",
+   "verseLines": 2,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tagsea",
+   "title": "The Language of the Sea",
+   "sourceGroup": "Stray Birds and Gitanjali (Tagore)",
+   "sourceSha256": "66fb05f3a22defdf152e63924be742bdbcaa57eef224409022858ab04cc607e4",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "fog",
+   "title": "Fog",
+   "sourceGroup": "Gutenberg edition 58992",
+   "sourceSha256": "fd01f5d1542a6c552498761f66a4cff55ed760a2c2ba39fdbe885c07722d8602",
+   "verseLines": 6,
+   "bodyPages": 0.12,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "stray45",
+   "title": "Weapons as Gods",
+   "sourceGroup": "Stray Birds and Gitanjali (Tagore)",
+   "sourceSha256": "122055456090615b8b3a087611a635f86a12447015fd9c3a2d031c5c2f39352a",
+   "verseLines": 1,
+   "bodyPages": 0.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "stray71",
+   "title": "The Axe Handle",
+   "sourceGroup": "Stray Birds and Gitanjali (Tagore)",
+   "sourceSha256": "f52c138833dcccde81607f09ec4eab7b1608a56a42d373ff0b4f7db647e1febf",
+   "verseLines": 1,
+   "bodyPages": 0.29,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nassausloop",
+   "title": "The John B. Sails",
+   "sourceGroup": "https://archive.org/download/harpersmonthlyma134harp/page/n94/mode/1up?view=theater&ui=embed",
+   "sourceSha256": "29219fcd389c79452a608cc2e2de8608e8d9da8b76faa14791a23fe81acfcada",
+   "verseLines": 50,
+   "bodyPages": 1.35,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nasbabehoney",
+   "title": "Babe, Honey, It Ain’t No Lie",
+   "sourceGroup": "https://archive.org/download/harpersmonthlyma134harp/page/n94/mode/1up?view=theater&ui=embed",
+   "sourceSha256": "ac9a7859a2d57535af06750fd4ac71d9dfeef8c0c78cef3aaea1dcfa61bc2a98",
+   "verseLines": 27,
+   "bodyPages": 0.89,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "vesnianka",
+   "title": "Vesnianka — Children’s Song",
+   "sourceGroup": "Gutenberg edition 72903",
+   "sourceSha256": "d8720c4fc972d5768c6cc6dc2c19c4dffa47588d0ae1a166c2d7344ba887ba39",
+   "verseLines": 18,
+   "bodyPages": 0.25,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "brideukr",
+   "title": "The Bride’s Song",
+   "sourceGroup": "Gutenberg edition 72903",
+   "sourceSha256": "6152a527fa34b0d2652d1fe0078e5f79a4a360bb8ee8eecb8e406035e99cd26e",
+   "verseLines": 12,
+   "bodyPages": 0.31,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nightarm",
+   "title": "O Night, Be Long",
+   "sourceGroup": "Gutenberg edition 54036",
+   "sourceSha256": "daaacdbc00d36b96ef545555d54275559be01c0ffecb5cbc9b85683670b609f8",
+   "verseLines": 8,
+   "bodyPages": 0.37,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "wailingarm",
+   "title": "My Heart Is Turned into a Wailing Child",
+   "sourceGroup": "Gutenberg edition 54036",
+   "sourceSha256": "c8649aaf6a3fce26d8e63104d5647c3dd7d8bc897d571feb8edfbf3605f9f8b4",
+   "verseLines": 10,
+   "bodyPages": 0.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "huntsmanarm",
+   "title": "Huntsman, That on the Hills Above",
+   "sourceGroup": "Gutenberg edition 54036",
+   "sourceSha256": "b64dda640c705fa5ef2d2543ecc8dcad6762146f510c1d2e1704c6a7535d98c7",
+   "verseLines": 24,
+   "bodyPages": 0.56,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "dobushdeath",
+   "title": "The Death of Dobush",
+   "sourceGroup": "Gutenberg edition 72903",
+   "sourceSha256": "ca0e0804a21ff3605143c1124b5c85c7758817f9d6a7bdc3a96a1ba88e0e74c4",
+   "verseLines": 102,
+   "bodyPages": 2.69,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "araxestears",
+   "title": "The Tears of Araxes",
+   "sourceGroup": "Gutenberg edition 54036",
+   "sourceSha256": "f74545f28b0c97f3e324569b2b56c453d3feb7ed750299832951608b01b93b77",
+   "verseLines": 100,
+   "bodyPages": 1.59,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rioplatanight",
+   "title": "Mi noche triste",
+   "sourceGroup": "https://ri.conicet.gov.ar/server/api/core/bitstreams/0c70840c-5fed-43e6-9bbb-9db89d06234c/content",
+   "sourceSha256": "0611e34eb3a201e9c1eae94527e4bd7e6880fa14b86313c6c43b4ea6608caf30",
+   "verseLines": 42,
+   "bodyPages": 1.16,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "harlemdancer",
+   "title": "The Harlem Dancer",
+   "sourceGroup": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/the-harlem-dancer/",
+   "sourceSha256": "eee314a425138284a00349f29dfcb5d3daf4a2f1b81f9abbcfc09f4f4120a971",
+   "verseLines": 14,
+   "bodyPages": 0.56,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "stives",
+   "title": "As I Was Going to St. Ives",
+   "sourceGroup": "Gutenberg edition 20511",
+   "sourceSha256": "7b7291b02b0d4213f933977043da0a9978555d927b12f12ada7962984a259653",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pease",
+   "title": "Pease Porridge",
+   "sourceGroup": "Gutenberg edition 20511",
+   "sourceSha256": "f5a555b175cdbf93711555650ad4b11801dc3d5383344a0ed4e0e96f4c5902ad",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "carrioncrow",
+   "title": "The Carrion Crow",
+   "sourceGroup": "Gutenberg edition 20511",
+   "sourceSha256": "cc045b7338499d8f0d1fd5b97f4a6c7bde575addbf92e29cd3c50f171fa7380f",
+   "verseLines": 20,
+   "bodyPages": 0.66,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "aftergone1918",
+   "title": "After You’ve Gone",
+   "sourceGroup": "https://levysheetmusic.mse.jhu.edu/collection/151/004",
+   "sourceSha256": "c4ae2ffbbc37d1214c1a4a384ea7022bafdaf3b12dbe63e7a5ad76c14f62c290",
+   "verseLines": 30,
+   "bodyPages": 0.96,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "resist",
+   "title": "If We Must Die",
+   "sourceGroup": "https://rpo.library.utoronto.ca/content/if-we-must-die",
+   "sourceSha256": "3cefee204d58d1260eced7dc17a548c95e1d2857cf03e5bb68a76ca0a8edc9a0",
+   "verseLines": 14,
+   "bodyPages": 0.38,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "kiltartanair",
+   "title": "An Irish Airman Foresees His Death",
+   "sourceGroup": "https://standardebooks.org/ebooks/w-b-yeats/poetry/text/poetry",
+   "sourceSha256": "15d939aaf009e814623e965d7fda8f127b84bc58d527b4b71409aeebeaa1fe90",
+   "verseLines": 16,
+   "bodyPages": 0.56,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "owfutility",
+   "title": "Futility",
+   "sourceGroup": "https://standardebooks.org/ebooks/wilfred-owen/poetry/text/poetry",
+   "sourceSha256": "af04be557840e084d8471f7ed7adf6f7718c79e11c86507855cab367c0f94804",
+   "verseLines": 14,
+   "bodyPages": 0.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "fruitwindow",
+   "title": "The Tropics in New York",
+   "sourceGroup": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/the-tropics-in-new-york/",
+   "sourceSha256": "ae58e0c57adb6d9f7907dd42be3f9b2aed8c4630ff8d44e97fa04a57872c63c0",
+   "verseLines": 12,
+   "bodyPages": 0.34,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "knitterserb",
+   "title": "The Knitter",
+   "sourceGroup": "Gutenberg edition 36091",
+   "sourceSha256": "37091284af2d3d20aa681754f223b1a62846f18934fd83d380956086de817036",
+   "verseLines": 14,
+   "bodyPages": 0.4,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "reapserb",
+   "title": "Harvest Song",
+   "sourceGroup": "Gutenberg edition 36091",
+   "sourceSha256": "d9b59e9f4b94b242d17fb666373e52a37dc8fd8df917a0dacc73bab8df538dca",
+   "verseLines": 10,
+   "bodyPages": 0.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "gasdream",
+   "title": "Dulce et Decorum Est",
+   "sourceGroup": "https://standardebooks.org/ebooks/wilfred-owen/poetry/text/poetry",
+   "sourceSha256": "a5bd9a821d5c1e6f6a62e5b6733f8c595b850a1b0743c8581715b74f51d5cfe6",
+   "verseLines": 28,
+   "bodyPages": 0.92,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hangingjohnny",
+   "title": "Hanging Johnny",
+   "sourceGroup": "Gutenberg edition 20774",
+   "sourceSha256": "15c93cff1f04230d3830f627dec8a4beec84a0a89d7c184e8188e6375fe2491b",
+   "verseLines": 24,
+   "bodyPages": 0.77,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "paddydoyle",
+   "title": "Paddy Doyle’s Boots",
+   "sourceGroup": "Gutenberg edition 20774",
+   "sourceSha256": "6ef97f3cc8a678254c153b1f47d4d76e00efeb4540682d88507066886f1855a5",
+   "verseLines": 6,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "aintwegot1921",
+   "title": "Ain’t We Got Fun",
+   "sourceGroup": "https://scholarsjunction.msstate.edu/cht-sheet-music/1615/",
+   "sourceSha256": "290a06a708cb3a55b7c40ea40bb21ec50285e8b2931f2154d8b8d8e6e98910dd",
+   "verseLines": 36,
+   "bodyPages": 1.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hughesrivers",
+   "title": "The Negro Speaks of Rivers",
+   "sourceGroup": "The Weary Blues and other Hughes poetry",
+   "sourceSha256": "753933205332d139c91c1a4cab4f66bb06e07c875c4aecdbe21907f8ebddce21",
+   "verseLines": 10,
+   "bodyPages": 0.47,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pokare",
+   "title": "The Waters Are Troubled",
+   "sourceGroup": "https://folksong.org.nz/pokarekare/index.html",
+   "sourceSha256": "f230a2b52aaf8867723ee8136e7cdcb7270cdb6133fc96904431dac37ddda903",
+   "verseLines": 20,
+   "bodyPages": 0.49,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "antinouslisbon",
+   "title": "Antinous",
+   "sourceGroup": "Gutenberg edition 66039",
+   "sourceSha256": "41f04d7debe772e22f12a9298f2b2085d4473393e5503a4fc0e28d9bb64730c5",
+   "verseLines": 362,
+   "bodyPages": 10.09,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lynching",
+   "title": "The Lynching",
+   "sourceGroup": "https://poets.org/poem/lynching-0/print",
+   "sourceSha256": "b0f132378809142a969f7c30ec6156068b09794ba59ff73fdad2eefd198fd1e2",
+   "verseLines": 14,
+   "bodyPages": 0.52,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "palomalondon",
+   "title": "La Paloma in London",
+   "sourceGroup": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/la-paloma-in-london/",
+   "sourceSha256": "fa91115eb0cc5860d83f6ffecbf033e4ec815d8833b377d908e11b4f345d9eaa",
+   "verseLines": 14,
+   "bodyPages": 0.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "harlemstreet",
+   "title": "Harlem Shadows",
+   "sourceGroup": "https://pressbooks.library.torontomu.ca/claudemckay/chapter/harlem-shadows/",
+   "sourceSha256": "068c6410a0f5e36587809251f7a6cf87eb72f758fdbfe7d45f14b5f12b63c244",
+   "verseLines": 18,
+   "bodyPages": 0.58,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "foxalain",
+   "title": "Alain the Fox",
+   "sourceGroup": "Gutenberg edition 64260",
+   "sourceSha256": "75b47c4488625e45b36b1969c04ca55129f4c5252d81ae80f253e4528ac4ce0f",
+   "verseLines": 24,
+   "bodyPages": 0.69,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "osageplant",
+   "title": "The Planting Song",
+   "sourceGroup": "American Indian Love Lyrics and Other Verse",
+   "sourceSha256": "e8d26e331301baf3bcd07ec6542c9b97b8a10dbbc9c8e707701b9b149c630ca1",
+   "verseLines": 11,
+   "bodyPages": 0.46,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "onondaga",
+   "title": "Onondaga Hymn",
+   "sourceGroup": "American Indian Love Lyrics and Other Verse",
+   "sourceSha256": "099158d0bc6d1b99c9d7f5d59aa633f5b3043e324a3683f6c1008e58a16dc743",
+   "verseLines": 19,
+   "bodyPages": 0.35,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "starroad",
+   "title": "The Song of the Stars",
+   "sourceGroup": "American Indian Love Lyrics and Other Verse",
+   "sourceSha256": "0e3637d335789998a3e671c6b084b3704bc7d92acff72c0b58a5dbc8872954b7",
+   "verseLines": 13,
+   "bodyPages": 0.5,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "america469",
+   "title": "My Bark Canoe",
+   "sourceGroup": "American Indian Love Lyrics and Other Verse",
+   "sourceSha256": "43e82f512a2c93925c9fffb4b892043f78d0fe7f7c3283a20dd11f1f7b9a3fa3",
+   "verseLines": 10,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "america673",
+   "title": "Wind Song",
+   "sourceGroup": "American Indian Love Lyrics and Other Verse",
+   "sourceSha256": "50b02cb9f4b4051682524f4663b00d208f793346a1ee463182726c88be3ab551",
+   "verseLines": 7,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "america1790",
+   "title": "Song To The Pleiades",
+   "sourceGroup": "American Indian Love Lyrics and Other Verse",
+   "sourceSha256": "4800fe11d9f77374f171662b4c9184425634224c517257aa549c1c1b6cdf2cfe",
+   "verseLines": 7,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tewalament",
+   "title": "A Lover’s Lament",
+   "sourceGroup": "American Indian Love Lyrics and Other Verse",
+   "sourceSha256": "b44224a23f0bf12b74f6cd14950c26e6e525b6147eeb879a6c49e22432c6389c",
+   "verseLines": 13,
+   "bodyPages": 0.51,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lagunacorn",
+   "title": "Corn-Grinding Song II",
+   "sourceGroup": "American Indian Love Lyrics and Other Verse",
+   "sourceSha256": "1aa770770024bf74617bdbfb222788797e22238e59a0f7c92f39455c7d460add",
+   "verseLines": 12,
+   "bodyPages": 0.31,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lhjazzonia",
+   "title": "Jazzonia",
+   "sourceGroup": "The Weary Blues and other Hughes poetry",
+   "sourceSha256": "dcbd54180bbfd4d7a26d3bf86766a2fe543fb11fab2638aaf46719f66666a810",
+   "verseLines": 17,
+   "bodyPages": 0.59,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lhitoo",
+   "title": "I Too",
+   "sourceGroup": "The Weary Blues and other Hughes poetry",
+   "sourceSha256": "91f05355da95551b56b854a59685181dd5b2c5fe6e1754f595cfb21101a47778",
+   "verseLines": 18,
+   "bodyPages": 0.45,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lhyoungprostitute",
+   "title": "Young Prostitute",
+   "sourceGroup": "The Weary Blues and other Hughes poetry",
+   "sourceSha256": "1cca201fc13b94b112c84d00bbbc0b5e6ed9f8d88474163f140cd24e526a675d",
+   "verseLines": 5,
+   "bodyPages": 0.15,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lenoxblues",
+   "title": "The Weary Blues",
+   "sourceGroup": "The Weary Blues and other Hughes poetry",
+   "sourceSha256": "d6a07898df9bc468c30c71955feb9d710b16bf88896f1e89495eaf6e558113c9",
+   "verseLines": 35,
+   "bodyPages": 1.03,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lazaruscamp",
+   "title": "Bad Man Lazarus",
+   "sourceGroup": "Gutenberg edition 69378",
+   "sourceSha256": "35a973dcd20a64730bb93d66fbbdce0a4b538a546ae46f60d2eee9882b39bffc",
+   "verseLines": 100,
+   "bodyPages": 1.62,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "chainroadblues",
+   "title": "Chain Gang Blues",
+   "sourceGroup": "Gutenberg edition 69378",
+   "sourceSha256": "0a87a1889c65c115f6964d20177b29e0ff0c761089899c76f5edbc5ab124120b",
+   "verseLines": 36,
+   "bodyPages": 0.71,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "longinblues",
+   "title": "Dem Longin’, Wantin’ Blues",
+   "sourceGroup": "Gutenberg edition 69378",
+   "sourceSha256": "29ca9b2eec39ca52fe81964ad26988d4537c1405ab4794cda12c0ef28f1dd3ba",
+   "verseLines": 12,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "eptingquartet",
+   "title": "Good Morning, Mr. Epting",
+   "sourceGroup": "Gutenberg edition 69378",
+   "sourceSha256": "29ae7826b9bfa7287052a333e520d8cc172c6f704339197caca19822c10007cd",
+   "verseLines": 50,
+   "bodyPages": 0.78,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "blues",
+   "title": "Backwater Blues",
+   "sourceGroup": "https://brewminate.com/from-the-tent-show-to-the-parlor-bessie-smiths-travels-in-her-time/",
+   "sourceSha256": "0f2d895f824340829629a14ea8d88f20f5d2b5c30732227a3e27415ab44a0877",
+   "verseLines": 21,
+   "bodyPages": 0.57,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "umhobekantu",
+   "title": "Anthem of the People",
+   "sourceGroup": "https://emandulo.apc.uct.ac.za/metadata/Mqhayi/10095/10101/16022/index.html",
+   "sourceSha256": "a7a634d8b2ef37648243c06f16cad6244c12488d6aa44a08e3d0ffb0ef393241",
+   "verseLines": 43,
+   "bodyPages": 1.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ragatansen",
+   "title": "Tansen",
+   "sourceGroup": "Gutenberg edition 74751",
+   "sourceSha256": "eba17ca0c161cdd1c0100ea0cecfcde3ff83529d1b9686d4a8d35dbbcc2a1149",
+   "verseLines": 46,
+   "bodyPages": 1.23,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "weddingwhoopee",
+   "title": "Makin’ Whoopee!",
+   "sourceGroup": "https://yorkspace.library.yorku.ca/items/7eec75c8-6e29-4b21-8da0-45b02f644a30",
+   "sourceSha256": "2b90c14eb52223f68e90131caddf00df7ebdb4c9e1993fbacba05ded93342f3e",
+   "verseLines": 38,
+   "bodyPages": 1.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lorcaluna",
+   "title": "Ballad of the Moon, the Moon",
+   "sourceGroup": "Romancero gitano",
+   "sourceSha256": "58f99043d079d44c0a06ede07ac3ecec232cb184441c66051f31c2d4b7dfd742",
+   "verseLines": 36,
+   "bodyPages": 1.02,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "negrafulo",
+   "title": "That Black Woman Fulô",
+   "sourceGroup": "https://icaa.mfah.org/s/en/item/1110479",
+   "sourceSha256": "ffac4d648c6566be87ce53ee798e35d23cb36c79c286cf049f7f13de02bb2a18",
+   "verseLines": 89,
+   "bodyPages": 1.21,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "proveitrainey",
+   "title": "Prove It on Me Blues",
+   "sourceGroup": "https://www.bluesbejarfestival.com/wp-content/uploads/2021/01/14-Sissy-Man-Blues.pdf",
+   "sourceSha256": "1ffafdfac5e9927a6d6af29bb25684077676bb68cc4dfdf2a5929d65611e093f",
+   "verseLines": 24,
+   "bodyPages": 0.77,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "andalusromance6",
+   "title": "The Faithless Wife",
+   "sourceGroup": "Romancero gitano",
+   "sourceSha256": "3eb4c07145ac021f13359f3967d872b0cef831b034dee2af51d324f9d833af3a",
+   "verseLines": 55,
+   "bodyPages": 0.71,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "andalusromance8",
+   "title": "Saint Michael",
+   "sourceGroup": "Romancero gitano",
+   "sourceSha256": "f80c78d3326086d6c45e2518fb03e15ffeba26e9115a43f3cf9d8ce42e0c7287",
+   "verseLines": 52,
+   "bodyPages": 0.8,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "andalusromance15",
+   "title": "Ballad of the Spanish Civil Guard",
+   "sourceGroup": "Romancero gitano",
+   "sourceSha256": "9f79b2fcfffb5acd595f0fbaec3061ed83eed48f7e0360d892734a05c16946f7",
+   "verseLines": 124,
+   "bodyPages": 1.91,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "andalusromance16",
+   "title": "Martyrdom of Saint Olalla",
+   "sourceGroup": "Romancero gitano",
+   "sourceSha256": "54fb3044c2b9fc9353b39a38ba7f632f186f28736402d126181b945345fbefe0",
+   "verseLines": 80,
+   "bodyPages": 1.14,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "andalusromance18",
+   "title": "Tamar and Amnon",
+   "sourceGroup": "Romancero gitano",
+   "sourceSha256": "43e51ce239ec93f1ad11b74d32bfa1d95b9f263bdbd07b7bce14757faa0310a5",
+   "verseLines": 100,
+   "bodyPages": 1.51,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "singrainfilm",
+   "title": "Singin’ in the Rain",
+   "sourceGroup": "https://yorkspace.library.yorku.ca/items/d9342051-a16d-4fe3-9ee5-708130fc5ba9",
+   "sourceSha256": "70fd3d4dd4d1f04faf588ef602e21b61afa8b2ad12251f24f2e485e1d16a9b81",
+   "verseLines": 24,
+   "bodyPages": 0.59,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "uvavnuksea",
+   "title": "The Great Sea",
+   "sourceGroup": "https://en.wikisource.org/wiki/Intellectual_Culture_of_the_Iglulik_Eskimos/Chapter_5",
+   "sourceSha256": "56c05875854b37760f35d84312e2e2a5336702c8ec7746859ea92e6ec7c99018",
+   "verseLines": 8,
+   "bodyPages": 0.38,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "byhaliawoman",
+   "title": "Sea Lion Woman",
+   "sourceGroup": "https://www.loc.gov/resource/afc.afcihas-200196570/",
+   "sourceSha256": "d81b9badc1e32cb9a6a523a07e09e19a935fca57a166c79355a57a3ccedfa45f",
+   "verseLines": 12,
+   "bodyPages": 0.31,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "masambaelegy",
+   "title": "Elegy for Sëriñ Masamba Mbakke",
+   "sourceGroup": "Serigne Moussa Ka, also known as Sëriñ Muusaa Ka. Fallou Ngom (PI), Elhadji Djibril Diagne, Cheikh Mouhamadou S. Diop, Daivi Rodima-Taylor, Martin Aucoin, and other contributors. 2022. “Elegy for Sëriñ Masamba Mbakke.”\nhttps://sites.bu.edu/nehajami/the-four-languages/wolof/wolof-manuscripts/marsiya-serin-masamba-mbakke/ Contributors: Fallou Ngom, Elhadji Djibril Diagne, Cheikh Mouhamadou S. Diop, Daivi Rodima-Taylor, Gana Ndiaye, Martin Aucoin, Eric Schmidt, Alison Parker, Frank Antonelli, Shawn Provencal, and Mark Lewis.",
+   "sourceSha256": "bfb48650c79b7569e909216ff65f3828567369d6ad79eae2209e7b10149e000d",
+   "verseLines": 581,
+   "bodyPages": 18.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hand",
+   "title": "I Hold Your Hand in Mine",
+   "sourceGroup": "Tom Lehrer",
+   "sourceSha256": "15d6d22000ce52fbbd4879fe983f9c5fa168212909ac31075ad22dfd57783c28",
+   "verseLines": 16,
+   "bodyPages": 0.56,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "kanoemir",
+   "title": "A Poem in Honor of the Emir of Kano",
+   "sourceGroup": "Abd al-Wahhab Adam al-Falaki (author), Umar Falke (owner)",
+   "sourceSha256": "7cef66c26b96cccaf6cd22760fb01c50ff828ec38e9d9867fb7b4d0272ae4751",
+   "verseLines": 14,
+   "bodyPages": 0.62,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rattlinbog",
+   "title": "The Rattlin’ Bog",
+   "sourceGroup": "https://www.kodalycollection.org/Scores/rattlin1.pdf",
+   "sourceSha256": "6978b36a94003ae2401309864ae514ff393b543d12e843f36040e2c446343b8b",
+   "verseLines": 38,
+   "bodyPages": 1.3,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tequila",
+   "title": "Tequila",
+   "sourceGroup": "https://www.schorermusic.com/en/article/chuck-rio/edition-schorer-music-publishing/tequila.191244/",
+   "sourceSha256": "f64cca2c45357dae4599b1540944be59a4e2a41ac5946df35a18f6ce29cd7ed2",
+   "verseLines": 3,
+   "bodyPages": 0.1,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "masochism",
+   "title": "The Masochism Tango",
+   "sourceGroup": "Tom Lehrer",
+   "sourceSha256": "04c2ae2a0626d3047d2a677e24f3b5feac01bd6160692aa35b4d4af2a11326cd",
+   "verseLines": 50,
+   "bodyPages": 1.24,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "overcomefreedom",
+   "title": "We Shall Overcome",
+   "sourceGroup": "https://folkways-media.si.edu/docs/folkways/artwork/FW05591.pdf",
+   "sourceSha256": "48155d026b0f174a00a74850acb941fbd117bd8f0c315b525bf9dc7f77cff6cb",
+   "verseLines": 24,
+   "bodyPages": 0.75,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "smutcabaret",
+   "title": "Smut",
+   "sourceGroup": "Tom Lehrer",
+   "sourceSha256": "8ef6a9b0195357c7a4f199dadf7dc4d57b36f2dd4499e79119e868d004a81b16",
+   "verseLines": 60,
+   "bodyPages": 1.6,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "solongmom",
+   "title": "So Long, Mom",
+   "sourceGroup": "Tom Lehrer",
+   "sourceSha256": "84027e45c0a17464deb29554a67c18946c0e91802213d894b1228a5ae69410b2",
+   "verseLines": 33,
+   "bodyPages": 0.96,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lyelectric",
+   "title": "L-Y",
+   "sourceGroup": "Tom Lehrer",
+   "sourceSha256": "61fdaa46939bdbacc8bec9b04e1b1fd87d305e16915f41febb0a58939ea348e6",
+   "verseLines": 37,
+   "bodyPages": 1.07,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plkornhauserlicznasiebie",
+   "title": "Count on Yourself",
+   "sourceGroup": "Wolne Lektury / Julian Kornhauser",
+   "sourceSha256": "4c517750fddaa498558178413c7145448b2a3097de9ee60168747d2e42d544bd",
+   "verseLines": 6,
+   "bodyPages": 0.28,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "siyahambachorus",
+   "title": "Siyahamba",
+   "sourceGroup": "https://www.gov.pl/attachment/3606630a-d1c5-43ef-9d12-d7afc1fdab34",
+   "sourceSha256": "6a96bbc64c8ce14b4d40e046c412ba9a0b5bde0945bef0e2dcdf4d8cb2c5ad3b",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl4690",
+   "title": "Snow",
+   "sourceGroup": "Thompson, Hilary and Ewing, Patricia",
+   "sourceSha256": "5fd99bb85200f1b6113c219feb05f1bfd9f25191faf07726ab8a6e98254e3d12",
+   "verseLines": 34,
+   "bodyPages": 0.4,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "kuukoydrums",
+   "title": "Kuukoy Must Pay!",
+   "sourceGroup": "El Hadji Cheikh Touré or Al-Hajj Shaykh Tuure (author), Ibrahima Bayo (owner). Fallou Ngom (PI), Ablaye Diakite, Bala Saho, Ousmane Cisse, Martin Aucoin, Daivi Rodima-Taylor, and other contributors. 2022. “Kuukoy Must Pay!” https://sites.bu.edu/nehajami/the-four-languages/mandinka/mandinka-manuscripts/joor-be-kuukoy/ Contributors: Fallou Ngom, Ablaye Diakite, Bala Saho, Daivi Rodima-Taylor, Ousmane Cisse, Eric Schmidt, Martin Aucoin, Marie Binta Badji, Alison Parker, Frank Antonelli, Shawn Provencal, and Mark Lewis.",
+   "sourceSha256": "89226edaf82b45265fd27f841d1bd70a5c4f39a70b408e858776d93fb9b6c817",
+   "verseLines": 20,
+   "bodyPages": 0.77,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "banjulwelcome",
+   "title": "In Banjul",
+   "sourceGroup": "Ibrahima Bayo (poet and manuscript owner). Arabic praise poem following the Mandinka work. Fallou Ngom (PI), Ablaye Diakite, Bala Saho, Ousmane Cisse, Martin Aucoin, Daivi Rodima-Taylor, and other contributors. 2022. “Kuukoy Must Pay!” https://sites.bu.edu/nehajami/the-four-languages/mandinka/mandinka-manuscripts/joor-be-kuukoy/ Contributors: Fallou Ngom, Ablaye Diakite, Bala Saho, Daivi Rodima-Taylor, Ousmane Cisse, Eric Schmidt, Martin Aucoin, Marie Binta Badji, Alison Parker, Frank Antonelli, Shawn Provencal, and Mark Lewis.",
+   "sourceSha256": "609971491442d22c06172e1865c5a41c57cf98500bf77e098ce768d7f2fe8274",
+   "verseLines": 32,
+   "bodyPages": 0.93,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl4535",
+   "title": "Once I Danced",
+   "sourceGroup": "Howard, Rhoda",
+   "sourceSha256": "54d8b6295416e54067643461caaeb568464f6ae674fb1e76c112aa3c93a1ee4d",
+   "verseLines": 16,
+   "bodyPages": 0.26,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl4536",
+   "title": "Watchers in the Market (Kumasi, Ghana, 1981)",
+   "sourceGroup": "Howard, Rhoda",
+   "sourceSha256": "6989d6d1dc2efd2e0a75729ea06719d3ff30450c04cb69d7a7df9cbd478b5f99",
+   "verseLines": 21,
+   "bodyPages": 0.6,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl4537",
+   "title": "After the Words",
+   "sourceGroup": "McLay, Cathy",
+   "sourceSha256": "6efd6cac5dc060fb172e5fb26c1ffcb39d803650061884ea28a6de7998578017",
+   "verseLines": 13,
+   "bodyPages": 0.18,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl4483",
+   "title": "Paperback Platter",
+   "sourceGroup": "Hornosty, Cornelia",
+   "sourceSha256": "ca7a8e2b770f89c649d0050c9672b10e64a763c338383c145468bded81fb4697",
+   "verseLines": 20,
+   "bodyPages": 0.33,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "thoughtbreak",
+   "title": "Ajatus on katkos",
+   "sourceGroup": "Valse Triste",
+   "sourceSha256": "b32087ab0e8412d9f6b31cef683d6b026ebc310d7bb276bc2d021256657eec3c",
+   "verseLines": 10,
+   "bodyPages": 0.42,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "smallandstinking",
+   "title": "Pieni ja pahanhajuinen",
+   "sourceGroup": "Valse Triste",
+   "sourceSha256": "89099e779570c426e2d08eed89580750347989b87181ba2940742034cd7adc0e",
+   "verseLines": 12,
+   "bodyPages": 0.31,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "headachevalse",
+   "title": "Headache Machine",
+   "sourceGroup": "Valse Triste",
+   "sourceSha256": "79aeaea1ecef5c457fc9bb00b8aa8f6d6a7af388d50c8b4b5d1938595ff58f27",
+   "verseLines": 8,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bulletvalse",
+   "title": "Watch Out for the Bullet!",
+   "sourceGroup": "Valse Triste",
+   "sourceSha256": "233d87925412bc73258dfa6eeb690be6fdb3f40a147aa90afa750657aac9ddef",
+   "verseLines": 10,
+   "bodyPages": 0.16,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "software",
+   "title": "The Free Software Song",
+   "sourceGroup": "https://www.gnu.org/music/free-software-song.en.html",
+   "sourceSha256": "451590bd61e672a16f34d883c1c89f9617790c6690660e97b805cc93b8b742fa",
+   "verseLines": 16,
+   "bodyPages": 0.57,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plbiedrzyckisometimesitsnowsinapril",
+   "title": "sometimes it snows in april",
+   "sourceGroup": "Wolne Lektury / Miłosz Biedrzycki",
+   "sourceSha256": "02fb88d4667aa9dbe2c5e0d16b497a1a21e89322dfa324cba3d951edfe8eb599",
+   "verseLines": 7,
+   "bodyPages": 0.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "wolnekartografia",
+   "title": "Cartography",
+   "sourceGroup": "Wolne Lektury / Darek Foks",
+   "sourceSha256": "88b29597074ea530e09223484f07ada0f57f0c9c0d173712e99d8ba8f83a4ccf",
+   "verseLines": 30,
+   "bodyPages": 0.54,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plsendeckiparcelepiespilka",
+   "title": "Dog, Ball",
+   "sourceGroup": "Wolne Lektury / Marcin Sendecki",
+   "sourceSha256": "cc48dfa06a6384f97f1cd76ad39e1f2d1e64ed30a9710570568402f2f2e0050f",
+   "verseLines": 4,
+   "bodyPages": 0.13,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pltkaczyszyndyckikamienpelenpokarmuxxxvi",
+   "title": "XXXVI",
+   "sourceGroup": "Wolne Lektury / Eugeniusz Tkaczyszyn-Dycki",
+   "sourceSha256": "9f87ae2419009f286bf85167212a02172b1d34a62e7b01f4463c1975d26f7041",
+   "verseLines": 8,
+   "bodyPages": 0.2,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plpodsiadlopotysiaculatciszy",
+   "title": "“After a Thousand Years of Silence”",
+   "sourceGroup": "Wolne Lektury / Jacek Podsiadło",
+   "sourceSha256": "2c5f2d5e4a9b02283ab1819a93f04642e7fd61d8ce3d044b26819d5a4baa8399",
+   "verseLines": 8,
+   "bodyPages": 0.24,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pllipszycpoczytalniasie",
+   "title": "oneself",
+   "sourceGroup": "Wolne Lektury / Jarosław Lipszyc",
+   "sourceSha256": "c7f0bc90c429d2bbc0242e607b81839f26d24ecdc1e49466be3ed4bb215fcb85",
+   "verseLines": 12,
+   "bodyPages": 0.43,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl1493",
+   "title": "A Birth",
+   "sourceGroup": "Weber, Lori",
+   "sourceSha256": "2af7775409723b2934d6ec044144ea0550736d4da0fc18e15abc83228e235a80",
+   "verseLines": 28,
+   "bodyPages": 0.56,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "firstmay",
+   "title": "First of May",
+   "sourceGroup": "Jonathan Coulton",
+   "sourceSha256": "ce3cc039a9cead45e4e2502dc3ee30bfabe9f4394ebe474bebacc85fa7983457",
+   "verseLines": 61,
+   "bodyPages": 1.48,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plmuellerboltabuli",
+   "title": "The Pain of the Tablet",
+   "sourceGroup": "Wolne Lektury / Joanna Mueller",
+   "sourceSha256": "41f5539d52fb1884ecbb4ed57adda9e6a6cb572ff195f380d39e30aad421d4d7",
+   "verseLines": 11,
+   "bodyPages": 0.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "badgov",
+   "title": "My government is a farce",
+   "sourceGroup": "Antidote",
+   "sourceSha256": "cf1f644938035cf381255faf456ff91ee9ddd88dcd434f99112c5a42fcbab8ea",
+   "verseLines": 12,
+   "bodyPages": 0.31,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "media",
+   "title": "Fuck the media",
+   "sourceGroup": "Antidote",
+   "sourceSha256": "eb2ddf67532deae97a9826e0dfac3c53b6b75c38d5f82cacc690a86639b706e6",
+   "verseLines": 8,
+   "bodyPages": 0.39,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "yearzero",
+   "title": "Back in year zero",
+   "sourceGroup": "Antidote",
+   "sourceSha256": "9429b4a835c604ec12d98a9c1f8f446e9dc1a346d05f93413996449c82294da0",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "riotcity",
+   "title": "Riot in the city",
+   "sourceGroup": "Antidote",
+   "sourceSha256": "948fdf963633e30b224a09822b05eb76bd565afecd820fbed5055b1621350978",
+   "verseLines": 30,
+   "bodyPages": 0.8,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hero_clid",
+   "title": "Hero",
+   "sourceGroup": "Clidesfeld",
+   "sourceSha256": "82a583c662dbb5271b829fa7110fb390b80fab21f8e1eede93168a5f27d5ecfb",
+   "verseLines": 20,
+   "bodyPages": 0.5,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "makingnervous",
+   "title": "Making Me Nervous",
+   "sourceGroup": "Brad Sucks",
+   "sourceSha256": "c86829a2bf0d92bcc5c848e01c47014ec545463cd620e457f400b198368165ff",
+   "verseLines": 18,
+   "bodyPages": 0.62,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "feelsgreat_clid",
+   "title": "Feels Great",
+   "sourceGroup": "Clidesfeld",
+   "sourceSha256": "be932ad398aab264d4fe48efb2b2d307f08cab9fc85ef19f850fc2cc9ed3c48c",
+   "verseLines": 28,
+   "bodyPages": 0.85,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "powerjoco0",
+   "title": "Shop Vac",
+   "sourceGroup": "Jonathan Coulton",
+   "sourceSha256": "5e26f838e7e270421c03aa65a50ba03227e86cac9177738494671cb574dc6b66",
+   "verseLines": 61,
+   "bodyPages": 1.9,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "powerjoco7",
+   "title": "Chiron Beta Prime",
+   "sourceGroup": "Jonathan Coulton",
+   "sourceSha256": "0d7af6c874506da624c29d8d1d898e2d770c93a32abfa1d9e55db399533c6b21",
+   "verseLines": 34,
+   "bodyPages": 1.12,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "powerjoco9",
+   "title": "The Town Crotch",
+   "sourceGroup": "Jonathan Coulton",
+   "sourceSha256": "64e01794badc152dd9f8158468f9291ec1ad42d0f3ca50e998a8af673cc650c7",
+   "verseLines": 44,
+   "bodyPages": 1.35,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "codemonkey",
+   "title": "Code Monkey",
+   "sourceGroup": "Jonathan Coulton",
+   "sourceSha256": "02d348eefbf46f7e52b2ec025e8a28776eee670b8252ba1f19650e7f3e992873",
+   "verseLines": 51,
+   "bodyPages": 1.52,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pljanickiprzytulnyklos",
+   "title": "A Cosy Ear of Grain",
+   "sourceGroup": "Wolne Lektury / Pjotr Janicki",
+   "sourceSha256": "373a3e456df074f4ac9162b215309ec340f377f07de381c7a0e4d1e1c3ef41da",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plpasewiczdolinawildapierwszapiosenka",
+   "title": "First Song",
+   "sourceGroup": "Wolne Lektury / Edward Pasewicz",
+   "sourceSha256": "c53515d040e3dadbc5acb130a6ff8bbf80aa382274f20bd0c08fd6aa5e9ee185",
+   "verseLines": 11,
+   "bodyPages": 0.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "beautifuldestroy",
+   "title": "I Want to Destroy Something Beautiful",
+   "sourceGroup": "Josh Woodward",
+   "sourceSha256": "6701528948b3a1af18f1f4aa1a19f440b9a514cb87611bcde87821308b3e23aa",
+   "verseLines": 17,
+   "bodyPages": 0.59,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bluedreamacoustic",
+   "title": "She Dreams in Blue",
+   "sourceGroup": "Josh Woodward",
+   "sourceSha256": "0b48ff601aeeed1e3945f6d357c07befd928b7dc8ca884e28695850dc4056323",
+   "verseLines": 26,
+   "bodyPages": 0.71,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plmaliszewskizdanianawypadekdrohobycz",
+   "title": "Drohobycz",
+   "sourceGroup": "Wolne Lektury / Karol Maliszewski",
+   "sourceSha256": "65cc1a0a47939dbfe4256b959a88a01cc908f2ffeda493325b433d35405cd129",
+   "verseLines": 12,
+   "bodyPages": 0.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plgrzegorzewskaokonie",
+   "title": "Perch",
+   "sourceGroup": "Wolne Lektury / Wioletta Grzegorzewska",
+   "sourceSha256": "c333708ef3b3d97d47382e4c4751d2265d19e308898854e1e044869053c822d7",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plbielickigrubatanczylatokamili",
+   "title": "Kamila’s Summer",
+   "sourceGroup": "Wolne Lektury / Dominik Bielicki",
+   "sourceSha256": "450c4b45709e375e0943e9bdefc3e5215ab47b7376ec7ee93121ae26930c9f52",
+   "verseLines": 12,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "portraitgrunge",
+   "title": "Laura's Eyes",
+   "sourceGroup": "Clidesfeld",
+   "sourceSha256": "c2784d89b717a4faa8aa10b59a06d9a7160577a4a5b38077743e43a3a7677cf0",
+   "verseLines": 30,
+   "bodyPages": 0.8,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "decayinggrunge",
+   "title": "Decay",
+   "sourceGroup": "Clidesfeld",
+   "sourceSha256": "dfd87669c5224396f3796c55b942b4bf637139b31c4fe4714e9a45ac3779afaa",
+   "verseLines": 38,
+   "bodyPages": 1.06,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ninwalls",
+   "title": "Echoplex",
+   "sourceGroup": "Nine Inch Nails",
+   "sourceSha256": "4b397af244dcc4e7fcb395a3970a89ac0e8d47dc7947b09be9b8562ad4de8d1b",
+   "verseLines": 23,
+   "bodyPages": 0.73,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nindown",
+   "title": "Head Down",
+   "sourceGroup": "Nine Inch Nails",
+   "sourceSha256": "5aad95d63e03ebd2265795b9d83219e653b5a731f61f623ef03fa2572d170f93",
+   "verseLines": 32,
+   "bodyPages": 0.93,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ninseed",
+   "title": "Demon Seed",
+   "sourceGroup": "Nine Inch Nails",
+   "sourceSha256": "141c657758201374b9abf48dc808c5f4da9177f47f2b2e9acf7dd19f41caff74",
+   "verseLines": 33,
+   "bodyPages": 0.95,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "popswansong",
+   "title": "Swansong",
+   "sourceGroup": "Josh Woodward",
+   "sourceSha256": "305abd97aae25aebd4852329c29761210b14e30f8e28285f87793e63d9b0a606",
+   "verseLines": 40,
+   "bodyPages": 1.12,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ninletting",
+   "title": "Letting You",
+   "sourceGroup": "Nine Inch Nails",
+   "sourceSha256": "daacfc0075ab78bd9d5ce3b25f620152af37cd941e293ecc6cf0f3aadc0bdfa6",
+   "verseLines": 26,
+   "bodyPages": 0.83,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nindiscipline",
+   "title": "Discipline",
+   "sourceGroup": "Nine Inch Nails",
+   "sourceSha256": "980e05a4a5d04ddf24d17305d4819ab93bde3b0b79d93d6402ebbd1229f153ff",
+   "verseLines": 25,
+   "bodyPages": 0.62,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "grungedisown",
+   "title": "Disown",
+   "sourceGroup": "Clidesfeld",
+   "sourceSha256": "0a955dafa6f5431959b247bf4e2bccc71018be90a335d78295b6717c5cb4f068",
+   "verseLines": 36,
+   "bodyPages": 0.69,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "copy",
+   "title": "Copying Is Not Theft",
+   "sourceGroup": "https://ninapaley.com/2009/12/15/minute-meme-1-copying-is-not-theft/",
+   "sourceSha256": "b44e40dbd3d09088de0b9e001b502ec6ab33ca4399888af04bf6aec3bee377e3",
+   "verseLines": 18,
+   "bodyPages": 0.41,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plkopytsalesalesalesmsodmamy",
+   "title": "text from mum",
+   "sourceGroup": "Wolne Lektury / Szczepan Kopyt",
+   "sourceSha256": "c88eafcad17b2e135e065d9fa4b5bc18b7b9ed42913cd4c4f2c8d180b2d75f79",
+   "verseLines": 6,
+   "bodyPages": 0.29,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plbargielskacorce",
+   "title": "To a Daughter",
+   "sourceGroup": "Wolne Lektury / Justyna Bargielska",
+   "sourceSha256": "04a8539f9ddf1f0b8290f131ea6cc2c4e9a21fee241c0744a1accc419efec5c4",
+   "verseLines": 6,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plwolnyhamkalolost",
+   "title": "lost",
+   "sourceGroup": "Wolne Lektury / Agnieszka Wolny-Hamkało",
+   "sourceSha256": "c8f4a54ece9574cba041105c7e45bb95ff78ea4f702a2ab16cbdb2d20e47aa00",
+   "verseLines": 6,
+   "bodyPages": 0.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "maurigone",
+   "title": "Me voy",
+   "sourceGroup": "NADINA MAURI",
+   "sourceSha256": "28500647f1ecb26f137a31d6bb28e2ff40761eb93ae52023c24e93541afa8fac",
+   "verseLines": 25,
+   "bodyPages": 0.8,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "mauricourage",
+   "title": "If You’d Had the Balls",
+   "sourceGroup": "NADINA MAURI",
+   "sourceSha256": "362169ed1a7b37ded5ed1bad9d55afa897b14d74844ceb08901b39112da2b0fb",
+   "verseLines": 14,
+   "bodyPages": 0.36,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "thirdeye",
+   "title": "Third Eye",
+   "sourceGroup": "Kellee Maize",
+   "sourceSha256": "bc9ecc648cb29ee91639aaa5fcf3da227587245cacce7b24c865c23efae08b58",
+   "verseLines": 82,
+   "bodyPages": 2.54,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "maurifriend",
+   "title": "Friend",
+   "sourceGroup": "NADINA MAURI",
+   "sourceSha256": "fcb8aa449e1f55ae2dc8ee5d087ea8cf81e97c2c8c3e5021dc1c8468ce1f61db",
+   "verseLines": 13,
+   "bodyPages": 0.31,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "mauritell",
+   "title": "Wanna Tell You",
+   "sourceGroup": "NADINA MAURI",
+   "sourceSha256": "b216df0dc4f2bfbcc324f67feeb997266d24bf4c3c0a048b616454f764144fe6",
+   "verseLines": 16,
+   "bodyPages": 0.4,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "hydroflow",
+   "title": "Recover (from That Feeling)",
+   "sourceGroup": "NADINA MAURI",
+   "sourceSha256": "d666bae9d0fdfee8468c7e1e78cc498b756178f0f6bc8c9407e65bcf4f4d7eed",
+   "verseLines": 31,
+   "bodyPages": 0.92,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "feelittonight",
+   "title": "You Got To Feel It Tonight",
+   "sourceGroup": "Lorenzo’s Music",
+   "sourceSha256": "548745a81271a10b70c1329836876a314573b7925ac188ad95b40558530f5b89",
+   "verseLines": 30,
+   "bodyPages": 0.89,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "sietecolores",
+   "title": "Seven Colours",
+   "sourceGroup": "CONTRANSPORTE",
+   "sourceSha256": "71758b5fbbbe4f8bfcd6cabf3f3cb2e3994169102dc794080502311f5af1af83",
+   "verseLines": 20,
+   "bodyPages": 0.72,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "factorywages",
+   "title": "Foxconn Workers Should Unionize",
+   "sourceGroup": "Jonathan Mann",
+   "sourceSha256": "94dab86f4873b74d9e596f1ce191666057e5a9bc701485bdccc49e54a7b601c7",
+   "verseLines": 41,
+   "bodyPages": 1.17,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "vaguitocumbia",
+   "title": "Vaguito",
+   "sourceGroup": "CONTRANSPORTE",
+   "sourceSha256": "a36502b3b8d573a095d88f29ff73478a33de141ec98982c35d468431e7c9f0b3",
+   "verseLines": 22,
+   "bodyPages": 0.69,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "carnivalsalta",
+   "title": "Jump",
+   "sourceGroup": "CONTRANSPORTE",
+   "sourceSha256": "0121299f6622640c15870290383b289fe907f06829c31182afab5520d13fc501",
+   "verseLines": 37,
+   "bodyPages": 0.48,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "listenowl",
+   "title": "Listen",
+   "sourceGroup": "Kellee Maize",
+   "sourceSha256": "17e704b5d89afa0dc434fdbedd217431c3dcb5eb17c9c093d2cbe8fe6f259943",
+   "verseLines": 83,
+   "bodyPages": 1.9,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "plnowakowskaniskarozdzielczoscuklad",
+   "title": "Arrangement",
+   "sourceGroup": "Wolne Lektury / Klara Nowakowska",
+   "sourceSha256": "c039f250018c5257e188bc956c177ff5bd6c12f7fef7dba8ba37df745296bec7",
+   "verseLines": 3,
+   "bodyPages": 0.1,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "punkworst",
+   "title": "Punk is the worst form of music, except for all the others",
+   "sourceGroup": "Ramshackle Glory",
+   "sourceSha256": "f39a7b7f42d5f627e49d3735f76ea85c8c39bba3e662fdd5c94f37ac54152ed7",
+   "verseLines": 14,
+   "bodyPages": 0.69,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "calull",
+   "title": "California Lullabye",
+   "sourceGroup": "Josh Woodward",
+   "sourceSha256": "d11f69b03f1164d9d07bb97602cb7d06d95a78b22800495b19628498ce9c259d",
+   "verseLines": 39,
+   "bodyPages": 1.18,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "grandmaukulele",
+   "title": "My Grandmother’s Ukulele",
+   "sourceGroup": "Jonathan Mann",
+   "sourceSha256": "38033de96bd0409673671666994312f9c0ddb31daf5ef69483c2370fcd835062",
+   "verseLines": 8,
+   "bodyPages": 0.22,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "vn28856",
+   "title": "Farmer",
+   "sourceGroup": "Pepys erasures (Dave Bonta)",
+   "sourceSha256": "db9a008ce2d6409768d652a0ae436b3be74389f7071b6f03b987e46ec9d7c0a4",
+   "verseLines": 3,
+   "bodyPages": 0.27,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "vn28756",
+   "title": "How the war ended",
+   "sourceGroup": "Pepys erasures (Dave Bonta)",
+   "sourceSha256": "6525d9540ef0937581e6e8e37e903f5b30b0b4f225ae4b497155682e13631398",
+   "verseLines": 4,
+   "bodyPages": 0.1,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lagosseasons",
+   "title": "Seasons",
+   "sourceGroup": "Sokleva Hughes · produced by Okey Sokay",
+   "sourceSha256": "15059723e7945bf18c81d8ba7b18ca1d9d6ddceb1da1cf05f32b7cb816569e1e",
+   "verseLines": 65,
+   "bodyPages": 1.97,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "fuckxmas",
+   "title": "Fuck Christmas",
+   "sourceGroup": "Cami Scoundrel",
+   "sourceSha256": "b6d691547b4d277eadb3de0664f493ac4a8d5624ceb84f1095a182fa2e0cb746",
+   "verseLines": 53,
+   "bodyPages": 1.3,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "allanar",
+   "title": "We're all Anarchists!",
+   "sourceGroup": "Cami Scoundrel",
+   "sourceSha256": "226e08d7c7d77df3a2d2422d1e05a3fed0e314789c18c613eabfdd6d827ae708",
+   "verseLines": 42,
+   "bodyPages": 1.09,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "blackflagbs",
+   "title": "Black Flag Bullshit",
+   "sourceGroup": "Momma Swift",
+   "sourceSha256": "56c90b6c48a7da51e1702341965aa760c00e77a30230f6c5e32f7c6122ac8cce",
+   "verseLines": 28,
+   "bodyPages": 0.96,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "migrationborders",
+   "title": "Borders",
+   "sourceGroup": "Momma Swift",
+   "sourceSha256": "047fcdbc2c926b6845ccb78362db97fd6ff75e05e56ef68d13340fced6b250df",
+   "verseLines": 26,
+   "bodyPages": 0.93,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "makingreal",
+   "title": "Real",
+   "sourceGroup": "Momma Swift",
+   "sourceSha256": "63d778bcf6937c584b5baf2e33ab290e900bcee53d56936eca6221b8e29152dc",
+   "verseLines": 25,
+   "bodyPages": 0.79,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "riotsdiets",
+   "title": "Riots Not Diets",
+   "sourceGroup": "Cistem Failure",
+   "sourceSha256": "1a145d9f552fc4271d3ca00e7315cfedf7b223441d7af14dec81c2f5a0643dc9",
+   "verseLines": 18,
+   "bodyPages": 0.48,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "mommanotenough",
+   "title": "Not Enough",
+   "sourceGroup": "Momma Swift",
+   "sourceSha256": "76585293bdd523046e5d22dc8d2a63d840d4b3f68ef2fda5e90c1e23e064712b",
+   "verseLines": 32,
+   "bodyPages": 0.84,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "walistambo",
+   "title": "Grass Broom",
+   "sourceGroup": "lovecore",
+   "sourceSha256": "b973218f947d9c5fe12b23d66f32d36dc6a058e1795743834e38c59e80744068",
+   "verseLines": 21,
+   "bodyPages": 0.7,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "nestbirdrock",
+   "title": "The Nest",
+   "sourceGroup": "Josh Woodward",
+   "sourceSha256": "e7dc50fdc96a62710550a6014410911a08485fa8148455199c51d5441b9c082f",
+   "verseLines": 17,
+   "bodyPages": 0.42,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "pllipinskakamienieprzepisywanie",
+   "title": "Copying Out",
+   "sourceGroup": "Wolne Lektury / Elżbieta Lipińska",
+   "sourceSha256": "d5236122e26d679101644a60f3bc3bbf10f46bbc9d1333e885597bbde35cd803",
+   "verseLines": 10,
+   "bodyPages": 0.4,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "freedomfeud",
+   "title": "Freedom Feud",
+   "sourceGroup": "MC Frontalot",
+   "sourceSha256": "f0b5f4bb54725622cf1259d13a1a8fe779fec2017a61863907e518fe93d63a62",
+   "verseLines": 36,
+   "bodyPages": 1.08,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "mandinkawriting",
+   "title": "Poem on Current Issues",
+   "sourceGroup": "Bafode Diaby (author and owner). Fallou Ngom (PI), Bala Saho, Ablaye Diakite, Ousmane Cisse, Martin Aucoin, Daivi Rodima-Taylor, and other contributors. 2022. “Poem on Current Issues.” https://sites.bu.edu/nehajami/the-four-languages/mandinka/mandinka-manuscripts/balukuu-suukuwo/ Contributors: Fallou Ngom, Ablaye Diakite, Bala Saho, Ousmane Cisse, Martin Aucoin, Daivi Rodima-Taylor, Eric Schmidt, Marie Binta Badji, and Alison Parker, Frank Antonelli, Shawn Provencal, and Mark Lewis.",
+   "sourceSha256": "936d0255addcaf743687114849f73b1ea53fdea04c17467bf8c62fd6380ba7c1",
+   "verseLines": 64,
+   "bodyPages": 2.12,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bookcaseballad",
+   "title": "The Ballad of Me and My Books",
+   "sourceGroup": "Sarah Shay",
+   "sourceSha256": "e482cc870ce1716e83d659b63f9d918b5629f2129dd2c51ee4eab281a3470911",
+   "verseLines": 30,
+   "bodyPages": 0.6,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "blackmarketqueen",
+   "title": "Black Market Queen",
+   "sourceGroup": "Sarah Shay",
+   "sourceSha256": "396e7ffa749c410465dbb7b39a85c16141879573cc00be486d76cf42ba1fc413",
+   "verseLines": 28,
+   "bodyPages": 0.84,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "starshipgirl",
+   "title": "Computer, End Program",
+   "sourceGroup": "Sarah Shay",
+   "sourceSha256": "639a20cc19ba065753e632ae929909ee03c68ea80aed5d23ccdbe1fd19c44f25",
+   "verseLines": 55,
+   "bodyPages": 1.65,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "bornknowingdance",
+   "title": "You Were Born Knowing How To Dance",
+   "sourceGroup": "Jonathan Mann",
+   "sourceSha256": "32ff54bd6f79f464a5e120410abfce67b0e3767fccc78f004b19424d52b49c4c",
+   "verseLines": 20,
+   "bodyPages": 0.32,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "queerspace",
+   "title": "Gay in Space",
+   "sourceGroup": "Jessica Amelia",
+   "sourceSha256": "5f1c207ae360ca8cf2a7e6fbb48716133b77241df3eb827edc9a8d7404638e8b",
+   "verseLines": 29,
+   "bodyPages": 0.79,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "cabbagerose",
+   "title": "Cabbage Rose",
+   "sourceGroup": "Sarah Shay",
+   "sourceSha256": "5495672a819668f83311201b1791f47277332b8145023ca7817dccd7c4db24df",
+   "verseLines": 36,
+   "bodyPages": 0.68,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "houndsong",
+   "title": "The Hounds of God",
+   "sourceGroup": "Sarah Shay",
+   "sourceSha256": "9c177a355303f24af8e3f33ed44412b3ae0208f29c71615ae435cedf10cb0209",
+   "verseLines": 46,
+   "bodyPages": 1.28,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "jaanassam",
+   "title": "Jaan",
+   "sourceGroup": "Chandan Boruah",
+   "sourceSha256": "bd78cd39de668b5abcd0cddbf0ebf168bc097d6cceaaaa0dedfdfba89b3173ad",
+   "verseLines": 25,
+   "bodyPages": 0.79,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "eurorev",
+   "title": "Eurodance Revival",
+   "sourceGroup": "Stevia Sphere",
+   "sourceSha256": "e40347ae187b5bf9383ee051a90eaadf69e55ea0836081619954e2fdd763bd33",
+   "verseLines": 30,
+   "bodyPages": 0.85,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "backbasics",
+   "title": "back to basics",
+   "sourceGroup": "Emily June",
+   "sourceSha256": "bd36275a0d047187fc7eaa904a2ed9171acd2eebf38577cd4e5f4ab82741e301",
+   "verseLines": 47,
+   "bodyPages": 1.1,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zapoemsus",
+   "title": "Poems about Us",
+   "sourceGroup": "Kirsten Deane",
+   "sourceSha256": "614ed672cb7ce59c41cd02699cd0b55ace04825fd85d858cff111e5743c73008",
+   "verseLines": 21,
+   "bodyPages": 0.52,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "spring",
+   "title": "Every Spring It Rains",
+   "sourceGroup": "https://www.nps.gov/articles/000/mystery-of-the-broken-branch-stop-3.htm",
+   "sourceSha256": "38952ea70f403d4a405b70e46c5fe189b4961f04d4908e8663d58cbf7da96ea4",
+   "verseLines": 3,
+   "bodyPages": 0.11,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "withyou_caloric",
+   "title": "With You",
+   "sourceGroup": "Caloric",
+   "sourceSha256": "b26a4fdd0066e26731cad710de9344280b0f847bb994d60ccee2a6e9873d7c91",
+   "verseLines": 31,
+   "bodyPages": 0.79,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "staypunkstayqueer",
+   "title": "Stay Punk, Stay Queer.",
+   "sourceGroup": "Jessica Amelia",
+   "sourceSha256": "3334a73f757e7329dcedaaf8d5761a302606d7e10e8e08cb2db78b4aaf3739d9",
+   "verseLines": 10,
+   "bodyPages": 0.48,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "eighthundredmiles",
+   "title": "800 Miles",
+   "sourceGroup": "Jessica Amelia",
+   "sourceSha256": "9c753f63a05afcbe9d638a133609f0b01b012b2dda4c6032a568be2640ec66b5",
+   "verseLines": 21,
+   "bodyPages": 0.52,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "indestructfemme",
+   "title": "Indestructible.",
+   "sourceGroup": "Jessica Amelia",
+   "sourceSha256": "411fba6fc82d659133d9dd7cf9ef78f7ca9dc95a896458cad718f415a9d2b402",
+   "verseLines": 17,
+   "bodyPages": 0.25,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "maligno",
+   "title": "Evil Spirit",
+   "sourceGroup": "STITCHES. Words by Joel Palomino, music by James Lorrence Ocampo.",
+   "sourceSha256": "8946054215a34c132fbbbb8c2a922a1e3676c3164069606aadc23edb8c196a6e",
+   "verseLines": 51,
+   "bodyPages": 1.67,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "queerjacket",
+   "title": "Something to Prove",
+   "sourceGroup": "Jessica Amelia",
+   "sourceSha256": "2fdd53c2366d18c909a6e00fe9dc4420e5055fcc5dcd81cad33cb63696487b21",
+   "verseLines": 18,
+   "bodyPages": 0.62,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "womanlifefreedom",
+   "title": "Woman, Life, Freedom",
+   "sourceGroup": "https://www.tandfonline.com/doi/full/10.1080/08164649.2026.2654862",
+   "sourceSha256": "6303f8d61828c4835a5786e1b74ef2f22300322de3a559e252e7f6aa15c09ace",
+   "verseLines": 1,
+   "bodyPages": 0.06,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl5448",
+   "title": "My Body of Dissidence",
+   "sourceGroup": "Hoskin, Rhea Ashley",
+   "sourceSha256": "d8c369c1e48f31f92aa317d69ca0a8eff070522f46628c386ac4d719ffc1d932",
+   "verseLines": 36,
+   "bodyPages": 1.06,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "vn63373",
+   "title": "Divorce",
+   "sourceGroup": "Pepys erasures (Dave Bonta)",
+   "sourceSha256": "838d595ad60bb086b353decf01d25c1adb9baa5829262b7097c1b04618b62640",
+   "verseLines": 6,
+   "bodyPages": 0.1,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "spunkypit",
+   "title": "Spunky!",
+   "sourceGroup": "Grrrl Gang",
+   "sourceSha256": "a4e346833e7e9c931f4eb0547d98c2ebb8b1fc080ce628b1aa2f435a501b2b99",
+   "verseLines": 14,
+   "bodyPages": 0.32,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "tematema",
+   "title": "Spit It Out",
+   "sourceGroup": "KENI DON",
+   "sourceSha256": "0a6155323f6ad1a0bdcb0df7a3fba24326c8e824095ded0cde457789d222812b",
+   "verseLines": 42,
+   "bodyPages": 1.97,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "rentstrike",
+   "title": "Rent Strike",
+   "sourceGroup": "https://davidrovics.bandcamp.com/track/rent-strike",
+   "sourceSha256": "0366daab82869096a734725170283038af893131db176b065443dcf8319a1df8",
+   "verseLines": 28,
+   "bodyPages": 0.84,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl5862",
+   "title": "Rising Black Sea",
+   "sourceGroup": "Awoyiga, Dáminí",
+   "sourceSha256": "c67624ed17d2f1296a521fcd349b26ce90a319aa996c2e3dc7024ae13ca736b1",
+   "verseLines": 67,
+   "bodyPages": 1.7,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "readgaza",
+   "title": "Read a Poem for Gaza",
+   "sourceGroup": "Ibtisam M. Abujad. First published in (Des)troços, vol. 5, no. 2. The native translation follows the original English.",
+   "sourceSha256": "7d6248ae6645af2fa1ec6553c542326741767270f8f0b36b231375ad79153d7f",
+   "verseLines": 74,
+   "bodyPages": 2.16,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "thankyoutrophie",
+   "title": "Thank You",
+   "sourceGroup": "Trophie",
+   "sourceSha256": "d687e661489d5456a51aa9198f1a6ac09599a024da80ee7556e6747f00ab16eb",
+   "verseLines": 68,
+   "bodyPages": 1.92,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "vn72104",
+   "title": "Assisted living",
+   "sourceGroup": "Pepys erasures (Dave Bonta)",
+   "sourceSha256": "785d88018f8967e0a99afbfa1cb124967ffe990cafe87e0a024088993df4563e",
+   "verseLines": 6,
+   "bodyPages": 0.1,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "zacrevices",
+   "title": "Cracks and Crevices",
+   "sourceGroup": "Katlego Nkoana",
+   "sourceSha256": "1a1f50811abd620a5bd408a4547c2e90cd2ab9a43b03bc2428b8de70e5f229d6",
+   "verseLines": 18,
+   "bodyPages": 0.45,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "ohmylovejogja",
+   "title": "O, My Love",
+   "sourceGroup": "Grrrl Gang",
+   "sourceSha256": "383bbd23c6df5b1a17d5b7022298e107ddca0a1a8acf6da52b60059954ed3c37",
+   "verseLines": 35,
+   "bodyPages": 1.01,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "millennium",
+   "title": "millennium",
+   "sourceGroup": "Logan Pace / head slug",
+   "sourceSha256": "8090d1ecc1d119b4655970d18cd8bfebf125d5f2b39d1f4f957d591cb84d49b7",
+   "verseLines": 16,
+   "bodyPages": 0.56,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "atl5978",
+   "title": "Mother, Mutter, Matter",
+   "sourceGroup": "Kang, Nancy",
+   "sourceSha256": "50ae4b4586b0a1a36a20ee8cb0b70963cc290ffd38bea3198775316c9a7188a9",
+   "verseLines": 19,
+   "bodyPages": 0.94,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "youandmejogja",
+   "title": "You & Me",
+   "sourceGroup": "Grrrl Gang",
+   "sourceSha256": "780ee7509bb020e0cd54b4e304ff2c6baa83861cd609b259458306119064eafe",
+   "verseLines": 39,
+   "bodyPages": 1.1,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "lapdogjogja",
+   "title": "Lapdog",
+   "sourceGroup": "Grrrl Gang",
+   "sourceSha256": "973f31aa10e6c925a3bcdea6deaea53e09d37afc546577378c93d2c87914b9a2",
+   "verseLines": 42,
+   "bodyPages": 1.21,
+   "KJBOverlap": 0.0
+  },
+  {
+   "id": "farfromgrace",
+   "title": "Far From Grace",
+   "sourceGroup": "Her Loving Aftertaste / Aidan Cosmo Penman / Geertruida",
+   "sourceSha256": "ba0350fcbaa0aadc503ddd8d35b064ce3a5db2e89b1d0d19abd9b980ac51c016",
+   "verseLines": 34,
+   "bodyPages": 2.0,
+   "KJBOverlap": 0.0
+  }
+ ],
+ "nativeShelfComparison": {
+  "works": 449,
+  "catalogueSha256": "0303ec26f8c955ecd1221b4284c0f47f0e545a665ed92574a11e12ac582d40c9",
+  "nativeBodySha256": "6afda1347444fe313b297187e99664c6b7518fb45f26715071f0de176bc3a929",
+  "shelfVolumes": 49,
+  "nativeWordsCompared": 2022839,
+  "wholeShortOrSubstantialWorkMatches": []
+ }
+}
