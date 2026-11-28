@@ -43,6 +43,18 @@ class HistoricalReuseTests(unittest.TestCase):
                 reusable_spreads(path, 'template', current_engine, changed_state,
                                  additional_font_ids=['source-signs'])
 
+            relocated = path.parent / 'relocated.ttf'
+            relocated.write_bytes(b'synthetic font bytes')
+            old_font.update(path='archived/body.ttf', sha256=digest(relocated))
+            path.write_text(json.dumps(dict(engine=engine, state=state)), encoding='utf8')
+            (path.parent/'layout-validation.json').write_text(json.dumps(dict(
+                sha256=digest(path), templateSha256='template', checks=[])), encoding='utf8')
+            moved_state = dict(state, fontSources=[dict(old_font, path=str(relocated))])
+            self.assertEqual(reusable_spreads(path, 'template', engine, moved_state), {})
+            relocated.write_bytes(b'different bytes')
+            with self.assertRaisesRegex(ValueError, 'FORMAT_MISMATCH'):
+                reusable_spreads(path, 'template', engine, moved_state)
+
     def test_rendering_changes_and_stale_files_are_rejected(self):
         temp_root = ROOT / '.local' / 'test-historical-reuse'
         temp_root.mkdir(parents=True, exist_ok=True)

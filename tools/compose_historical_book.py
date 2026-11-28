@@ -142,13 +142,15 @@ def reusable_spreads(path, template_hash, engine, prototype, additional_font_ids
         current = prototype[field]
         if field == 'fontSources':
             current = [f for f in current if f.get('fontId') not in additions]
-            # Publication folders may be archived between editions. The engine
-            # above has already registered and fingerprinted the actual faces.
-            # Compare every declaration and its position except its old address.
-            def identities(declarations):
-                return [{k: v for k, v in f.items() if k != 'path'} for f in declarations]
-            if identities(old[field]) == identities(current):
-                continue
+            # A moved font can reuse its measurements if its new file has the
+            # recorded bytes and every other part of its declaration matches.
+            for index, (before, after) in enumerate(zip(old[field], current)):
+                if before == after or not before.get('path') or not after.get('path'):
+                    continue
+                location = Path(after['path'])
+                if (dict(before, path=after['path']) == after and location.is_file()
+                        and digest(location) == before.get('sha256')):
+                    current[index] = before
         if old[field] != current:
             raise ValueError('REUSE_FORMAT_MISMATCH: ' + field)
     if old['typesetting']['profiles'] != prototype['typesetting']['profiles']:
